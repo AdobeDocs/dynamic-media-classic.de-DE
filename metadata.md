@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Dynamic Media Classic
+solution-title: Training und Support
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: Erste Schritte
@@ -9,21 +9,21 @@ tutorials-title: Übungen
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
 git-repo: https://git.corp.adobe.com/AdobeDocs/scene7.en
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: c02feaa361f1986ad630468729981c29f4cf37b5
 
 ---
 
 
-# Metadaten für die interne Verwendung
+# Metadaten für den internen Gebrauch
 
-Die Datei "metadata. md" enthält Replizierungsmetadaten, die an den Benutzerhandbuch" Inhaltsverzeichnis. md" im Repo übergeben werden. Wenn Sie Metadata. md-Inhalte für ein beliebiges Benutzerhandbuch ändern möchten, tun Sie dies in jeder beliebigen Inhaltsverzeichnis. md-Datei.
+Die Datei "metadata.md"enthält Metadaten auf Repo-Ebene, die an die Dateien "TOC.md"des Benutzerhandbuchs im Bericht übergeben werden. Wenn Sie den Inhalt von "metadata.md"für ein Benutzerhandbuch ändern möchten, führen Sie dies in einer beliebigen Datei "TOC.md"durch.
 
-| Metadaten | was es macht |
+| Metadaten | was es tut |
 |--- |--- |
-| solution-title | Wird in der Artikelkopfzeile als Link verwendet |
-| solution-hub-url | Öffnet die helpx-Hub-Seite |
-| solution-icon | Zeigt Lösungssymbol neben dem Titel der Lösung an. Noch nicht implementiert |
-| getting-started-url | Link zur ersten Startseite von helpx |
-| tutorials-url | Link zu Videolehrgängen—beiden Hilfelehrgängen oder KSÜBUNGEN |
-| mini-toc-levels | Legt fest, wie viele Überschriftenebenen in der rechten Leiste angezeigt werden. Standard ist 2 |
-| git-repo | Gibt den Speicherort des Master-Reploads für die interne Verwendung an. |
+| solution-title | Wird in der Artikelüberschrift als Link verwendet |
+| solution-ub-url | Öffnet Helpx Hub-Seite |
+| solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
+| getting-started-url | Link zur Hilfeseite für den Einstieg |
+| tutorials-url | Link zu Videolehrgängen - entweder Helpx-Tutorials oder KT-Tutorials |
+| mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. default ist 2 |
+| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an |
