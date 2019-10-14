@@ -2,14 +2,14 @@
 title: Hochladen von Bild-Assets oder Vektor-Assets
 seo-title: Hochladen von Bild-Assets oder Vektor-Assets
 description: 'null'
-seo-description: Erfahren Sie, wie Sie ein Bild-Asset oder ein Vektor-Asset hochladen.
-uuid: d 0 e 4 a 754-8 a 49-4 b 0 f-b 202-e 9003 bdb 8 f 20
+seo-description: Erfahren Sie, wie Sie ein Bild- oder Vektor-Asset hochladen.
+uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: de 21 dca 9-99 fe -4183-b 647-debfe 112 fda 4
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsa
 
 Fordern Sie einen *gemeinsamen geheimen Schlüssel* an, indem Sie eine E-Mail an den technischen Support von Scene7 senden (s7support@adobe.com).
 
-Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Dynamic Media Classic erhalten haben, speichern Sie ihn zur zukünftigen Verwendung lokal.
+Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
 ## Abrufen des Upload-Tokens {#retrieving-the-upload-token}
 
@@ -122,8 +122,8 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Ein Upload-Token.
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
-* Gibt an, ob der mit dem Asset verknüpfte Farbprofil und Dateiname beibehalten werden soll.
-* Gibt an, ob "Hintergrund aussparen" verwendet werden soll. Wenn Sie "Hintergrund aussparen" aktivieren, legen Sie die Ecke, die Toleranz und die Füllmethode fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
+* Gibt an, ob der Hintergrund "Aussparen"verwendet werden soll. Wenn Sie "Hintergrund aussparen"aktivieren, legen Sie die Methode "Ecke", "Toleranz"und "Füllmethode"fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei
 
 <!-- 
@@ -138,13 +138,13 @@ Last Modified Date:
 
 ![]()
 
-Sie können den HTML-Quellcode anzeigen, der dem oben stehenden Formular zugeordnet ist, indem Sie auf den folgenden Link klicken:
+Sie können den HTML-Quellcode des oben stehenden Formulars anzeigen, indem Sie auf den folgenden Link klicken:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und klicken **Sie dann auf "Seitenquelle anzeigen**«. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und dann auf "Seitenquelle **anzeigen"**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
 
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“** &gt; **„Quelltext“**. To view XML response in Firefox, click **Tools** &gt; **Web Developer** &gt; **Page Source**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“ &gt; „Quelltext“**. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -285,8 +285,8 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Ein Upload-Token.
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
-* Gibt an, ob der mit dem Asset verknüpfte Farbprofil und Dateiname beibehalten werden soll.
-* Gibt an, ob "Hintergrund aussparen" verwendet werden soll. Wenn Sie "Hintergrund aussparen" aktivieren, legen Sie die Ecke, die Toleranz und die Füllmethode fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
+* Gibt an, ob der Hintergrund "Aussparen"verwendet werden soll. Wenn Sie "Hintergrund aussparen"aktivieren, legen Sie die Methode "Ecke", "Toleranz"und "Füllmethode"fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei
 
 <!-- 
