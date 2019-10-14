@@ -1,21 +1,21 @@
 ---
-title: Arbeiten in der Detailansicht
-seo-title: Arbeiten in der Detailansicht
+title: 'Arbeiten in der Detailansicht '
+seo-title: 'Arbeiten in der Detailansicht '
 description: 'null'
 seo-description: Erfahren Sie, wie Sie in der Detailansicht arbeiten.
-uuid: cb 62 f 765-9 b 7 f -4 a 53-8206-99 afae 2 fb 80 d
+uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: eaa 214 ff-d 1 ef -4691-9148-d 01 bf 243 c 810
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# Arbeiten in der Detailansicht{#working-in-detail-view}
+# Arbeiten in der Detailansicht {#working-in-detail-view}
 
 Wenn Sie ein Asset in der Detailansicht öffnen, können Sie es prüfen und verwenden. In der Detailansicht werden die Größe sowie die Attribute, Ableitungen und Metadaten des Assets angezeigt. Darüber hinaus können Sie hier sehen, ob und wann das Asset veröffentlicht wurde, und die URL veröffentlichter Assets abrufen. Bei manchen Asset-Typen können Sie auch eine Vorschau in verschiedenen Größen anzeigen, Details heranzoomen oder herauszoomen, die Schärfe verändern, die Darstellung beschneiden und andere Formatierungsvorgänge ausführen.
 
@@ -42,8 +42,8 @@ Um ein Asset genau zu überprüfen, in einer Vorschau anzuzeigen oder zu bearbei
 1. Führen Sie im Durchsuchenbedienfeld einen der folgenden Schritte aus:
 
    * Doppelklicken Sie auf das gewünschte Asset.
-   * Wählen Sie das Asset aus und klicken Sie dann **auf Detailansicht**.
-   * Wählen Sie das Asset aus und klicken **Sie dann auf Datei** &gt; **Details**.
+   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Detailansicht]**.
+   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Datei &gt; Details]**.
 
 >[!NOTE]
 >
@@ -59,15 +59,15 @@ Sie können die URL eines Assets in der Detailansicht anzeigen. Diese ist jedoch
 
 In der Detailansicht stehen Werkzeuge für die Arbeit mit dem von Ihnen geöffneten Asset zur Verfügung. Die Werkzeuge sind je nach Asset-Typ unterschiedlich, Sie können in der Detailansicht aber immer die folgenden Funktionen ausführen:
 
-**Elemente zur Veröffentlichung** Klicken Sie auf das Symbol Veröffentlichen links neben dem Namen oder klicken Sie auf Datei &gt; Veröffentlichen oder Datei &gt; Veröffentlichung rückgängig machen.
+* **Elemente zur Veröffentlichung** Klicken Sie auf das Symbol **[!UICONTROL Veröffentlichen]** links neben dem Namen oder klicken Sie auf **[!UICONTROL Datei &gt; Veröffentlichen]** oder **[!UICONTROL Datei &gt; Veröffentlichung rückgängig machen]**.
 
-**Umbenennen des Assets** Wählen Sie den Namen und geben Sie einen neuen Namen ein.
+* **Umbenennen des Assets** Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
-**Bearbeiten und Hinzufügen von Metadaten** Wählen Sie das Metadatenbedienfeld aus und nehmen Sie die gewünschten Änderungen vor. Siehe Anzeigen, Hinzufügen und Exportieren von Metadaten.
+* **Bearbeiten und Hinzufügen von Metadaten** Wählen Sie das Metadatenbedienfeld aus und nehmen Sie die gewünschten Änderungen vor. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/viewing-adding-exporting-metadata.md).
 
-**Bearbeiten und Hinzufügen von Suchbegriffen** Wählen Sie Suchbegriffe aus und fügen Sie sie wie gewünscht hinzu oder entfernen Sie sie. Siehe Hinzufügen oder Bearbeiten von Schlüsselwörtern.
+* **Bearbeiten und Hinzufügen von Suchbegriffen** Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/viewing-adding-exporting-metadata.md).
 
-**Löschen des Assets** -Klickdatei &gt; Löschen.
+* **Löschen des Assets** Klicken Sie auf **[!UICONTROL Datei &gt; Löschen]**.
 
 Bei eigenständigen Dateien – beispielsweise bei Bildern, Bildsätzen und Schriftarten – können Sie in der Detailansicht den Veröffentlichungs- und Bearbeitungsverlauf einsehen und Auftragsdetails prüfen.
 
@@ -75,7 +75,7 @@ Die folgende Tabelle bietet eine Übersicht über die zusätzlichen Optionen, di
 
 | Asset-Typ | Bearbeiten/Anpassen | Vorschau |
 |--- |--- |--- |
-| Bilder | Imagemaps hinzufügen Hinzufügen von Zoomzielen Zuschneiden von Scharfzeichnen Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben. |
+| Bilder | Imagemaps hinzufügen Hinzufügen von Zoomzielen Scharfzeichnen Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben. |
 | Möbel- und Fensterbehangbilder | Nein | Miniaturansicht. |
 | E-Kataloge | Bearbeiten | Ja. Infofeld steht ebenfalls zur Verfügung.. |
 | Schriftarten | Informationen zur Schriftart bearbeiten | Nein. |
