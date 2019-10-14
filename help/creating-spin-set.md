@@ -2,32 +2,32 @@
 title: Erstellen eines Rotationssets
 seo-title: Erstellen eines Rotationssets
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie ein Rotationsset erstellen.
-uuid: 697 bd 78 f -5 e 39-46 bf-aa 6 d-ad 8 ab 99 fe 40 e
+seo-description: Erfahren Sie, wie Sie ein Rotationsset erstellen.
+uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 735 b 5867-e 249-4627-a 5 a 5-25 c 19 c 2255 bf
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Erstellen eines Rotationssets{#creating-a-spin-set}
 
-Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, die Bilder korrekt aufzunehmen. Sie können in Dynamic Media Classic ein Rotationsset erstellen, indem Sie auf "Erstellen" klicken und" Rotationssets" auswählen. Im Anzeigebereich „Rotationsset“ können Sie Rotationssets bearbeiten.
+Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, die Bilder korrekt aufzunehmen. Sie können ein Rotationsset in Dynamic Media Classic erstellen, indem Sie auf "Erstellen"klicken und "Rotationssets"wählen. Im Anzeigebereich „Rotationsset“ können Sie Rotationssets bearbeiten.
 
 >[!NOTE]
 >
->In früheren Versionen von Dynamic Media Classic wurden zweidimensionale Rotationssets nicht angeboten. Wenn Sie ein Rotationsset in einer früheren Version von Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht unter einem neuen Namen speichern. Klicken Sie im Anzeigebereich "Rotationsset" auf" Speichern unter" und geben Sie einen neuen Namen ein, damit Sie ihn in Dynamic Media Classic bearbeiten können.
+>In früheren Versionen von Dynamic Media Classic gab es keine zweidimensionalen Rotationssets. Wenn Sie ein Rotationsset in einer früheren Version von Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht ohne vorherige Speicherung unter einem anderen Namen speichern. Klicken Sie im Anzeigebereich "Rotationsset"auf "Speichern unter"und geben Sie einen neuen Namen ein, damit Sie ihn in "Dynamic Media Classic"bearbeiten können.
 
 ## Richtlinien für das Aufnehmen von Rotationsset-Bildern {#guidelines-for-shooting-spin-set-images}
 
-Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Dynamic Media Classic empfiehlt diese Richtlinien für das Aufnehmen von Bildern für die Verwendung in Rotationssets:
+Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Dynamic Media Classic empfiehlt die folgenden Richtlinien für das Aufnehmen von Bildern zur Verwendung in Rotationssets:
 
-* Verwenden Sie mindestens 8-12 Bilder in einem eindimensionalen Rotationsset und 16 bis 24 Bilder in zweidimensionalen Rotationssets.
+* Verwenden Sie mindestens 8 bis 12 Bilder in einem eindimensionalen Rotationsset und 16 bis 24 Bilder in einem zweidimensionalen Rotationsset.
 * Verwenden Sie ein verlustfreies Format. Zu empfehlen sind die Formate TIFF und PNG.
 * Maskieren Sie alle Bilder, so dass das Objekt vor einem reinweißen oder anderen kontrastreichen Hintergrund erscheint. Fügen Sie nach Wunsch Schatten hinzu.
 * Vergewissern Sie sich, dass die Produktdetails gut ausgeleuchtet und fokussiert sind.
@@ -71,7 +71,7 @@ Je nachdem, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten
 | Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten den Status "Veröffentlicht" oder" Unveröffentlicht" bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Status "veröffentlicht"bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status "veröffentlicht"oder "unveröffentlicht"bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -82,23 +82,15 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 1. Klicken Sie auf die Rollover-Schaltfläche **Bearbeiten** des Rotationssets.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   **Entfernen von Bildern**
+   * **Entfernen von Bildern** Wählen Sie das Bild aus und klicken Sie dann auf **Löschen**.
 
-   Wählen Sie das Bild aus und klicken Sie dann auf **Löschen**.
+   * **Hinzufügen von Bildern** Ziehen Sie das Bild in eine Zelle.
 
-   **Hinzufügen von Bildern**
+   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)** Klicken Sie auf ein Zeilenauswahlfeld (links neben der Zeile) und dann auf "Zeile **nach unten** verschieben"oder "Zeile nach oben **verschieben"**.
 
-   Ziehen Sie das Bild in eine Zelle.
+   * **Hinzufügen von Zeilen und Zellen** Geben Sie im Feld "Zeilen"und im Feld "Zellen"eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile festzulegen.
 
-   **Ändern der Zeilenreihenfolge (zweidimensionale Rotationssets)**
-
-   Klicken Sie auf das Auswahlfeld links neben einer Zeile und klicken Sie dann auf **Zeile nach unten verschieben** bzw. **Zeile nach oben verschieben**.
-
-   **Hinzufügen von Zeilen und Zellen**
-
-   Geben Sie in die Felder „Zeilen“ und „Zellen“ die gewünschte Anzahl von Zeilen und von Zellen pro Zeile ein.
-
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
+1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
 
 ## Löschen eines Rotationssets {#deleting-a-spin-set}
