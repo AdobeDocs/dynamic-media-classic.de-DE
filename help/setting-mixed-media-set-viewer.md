@@ -2,15 +2,15 @@
 title: Einrichten einer Viewer-Vorgabe für gemischte Mediensets
 seo-title: Einrichten einer Viewer-Vorgabe für gemischte Mediensets
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie eine Viewer-Vorgabe für gemischte Mediensets einrichten.
-uuid: d 5 bf 1840-e 453-445 d-bebc -84889 b 29 f 3 c 8
+seo-description: Erfahren Sie, wie Sie eine Viewer-Vorgabe für gemischte Mediensets einrichten.
+uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 8029 aad 8-d 696-4 d 7 c -99 e 2-3 b 08 edb 88181
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ Viewer-Vorgaben für gemischte Mediensets bestimmen den Stil, das Verhalten und 
 Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Viewer hinzufügen. Die Funktion „Einbetten“ fügt eine Verknüpfung zum Viewer hinzu, über die Benutzer den Code für die Anzeige des Viewers auf einer externen Seite (wie z. B. einem Blog, einer Website oder einer Social-Networking-Site) kopieren können. Mit der Funktion „Verknüpfen“ wird dem Viewer die URL zur Verfügung gestellt, mit der Benutzer eine Verknüpfung zum Viewer erstellen können. Mit der Funktion „Zur Website“ können Sie eine Verknüpfung zu einer bestimmten Website einfügen.
 
 1. Klicken Sie auf **Einstellungen** &gt; **Viewer-Vorgaben**.
-1. Führen Sie auf der Seite "Viewer-Vorgaben" einen der folgenden Schritte aus:
+1. Führen Sie auf der Seite "Viewer-Vorgaben"einen der folgenden Schritte aus:
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
@@ -51,13 +51,13 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 
 1. Um Community-Funktionen zum Viewer hinzuzufügen (Einbetten, Verknüpfen oder Zur Website), wählen Sie die Optionen für die folgenden Punkte aus:
 
-   **Per E-Mail** klicken, um eine E-Mail-Schaltfläche im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets auf die Schaltfläche „E-Mail an Freunde senden“ klicken, wird eine E-Mail mit der Verknüpfung des Sets generiert.
+   * **E-Mail-** Klick auf "Ein", um eine E-Mail-Schaltfläche im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets auf die Schaltfläche „E-Mail an Freunde senden“ klicken, wird eine E-Mail mit der Verknüpfung des Sets generiert.
 
-   **Klicken** Sie auf Live. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Einbetten**: Klicken Sie auf Live. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Link** klicken Sie auf Live. Geben Sie im Feld „Beschr. f. Verknüpfungsschaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Verknüpfen“ angezeigt werden soll. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **Link** Klicken Sie auf Live. Geben Sie im Feld „Beschr. f. Verknüpfungsschaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Verknüpfen“ angezeigt werden soll. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Klicken** Sie auf **Live**. Geben Sie im Feld „Beschriftung für Besuchen-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Zur Website“ angezeigt werden soll. Geben Sie im Feld „URL besuchen“ die URL der Webseite an, die durch Klicken auf die Verknüpfung geöffnet werden soll.
+   * **Besuchen** Sie **Live**. Geben Sie im Feld „Beschriftung für Besuchen-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Zur Website“ angezeigt werden soll. Geben Sie im Feld „URL besuchen“ die URL der Webseite an, die durch Klicken auf die Verknüpfung geöffnet werden soll.
 
 1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, klicken Sie neben der Option auf das Symbol „Tipp“ .
 
