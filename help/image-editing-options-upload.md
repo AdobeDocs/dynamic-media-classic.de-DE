@@ -2,15 +2,15 @@
 title: Bildbearbeitungsoptionen beim Hochladen
 seo-title: Bildbearbeitungsoptionen beim Hochladen
 description: 'null'
-seo-description: Erfahren Sie mehr über die Bildbearbeitungsoptionen, die zum Zeitpunkt des Hochladens verfügbar sind.
-uuid: 0912 ae 6 f -41 c 9-41 b 5-94 d 1-e 266 face 782 e
+seo-description: Erfahren Sie mehr über die Bildbearbeitungsoptionen, die beim Hochladen verfügbar sind.
+uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: d 3 f 21 cdf -2 cb 3-46 e 8-955 a-b 8 daf 0 b 233 bc
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -32,18 +32,17 @@ Diese Optionen finden Sie im Anzeigebereich „Hochladen“ unter „Bildbearbei
 
 Um automatisch weiße Pixelflächen von einem Bild abzuschneiden, wählen Sie im Menü „Beschneiden“ die Option „Beschneiden“. Anschließend können Sie folgende Optionen wählen:
 
-**Beschneiden
-basierend auf** auswählen, ob die Beschneidung basierend auf Farbe oder Transparenz erfolgen soll:
+* **Entfernen basierend auf** Auswahl, ob basierend auf Farbe oder Transparenz beschnitten werden soll:
 
-**Farbe** wählen Sie die Option "Farbe" . Wählen Sie anschließend in der Dropdown-Liste „Ecke“ die Bildecke mit der Farbe aus, die der Farbe der weißen Flächen, die Sie beschneiden möchten, am besten entspricht.
+* **Farbe**: Wählen Sie die Option Farbe. Wählen Sie anschließend in der Dropdown-Liste „Ecke“ die Bildecke mit der Farbe aus, die der Farbe der weißen Flächen, die Sie beschneiden möchten, am besten entspricht.
 
-**Transparenz** Wählen Sie die Option "Transparenz" .
+* **Transparenz** Wählen Sie die Option "Transparenz".
 
-**Toleranz** ziehen Sie den Regler, um eine Toleranz zwischen 0 und 1 anzugeben:
+* **Toleranz** Ziehen Sie den Schieberegler, um eine Toleranz zwischen 0 und 1 festzulegen:
 
-**Beschneiden basierend auf Farbe** festlegen, um Pixel nur zu beschneiden, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke des Bilds ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+* **Beschneiden basierend auf Farbe** Geben Sie 0 an, um Pixel nur zu beschneiden, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-**Beschneiden basierend auf Transparenz** Festlegen 0 zum Beschneiden von Pixeln nur, wenn sie vollkommen transparent sind; Werte, die näher an 1 liegen, lassen eine größere Transparenzabweichung zu.
+* **Beschneiden basierend auf Transparenz** Geben Sie 0 an, damit Pixel nur abgeschnitten werden, wenn sie vollkommen transparent sind. Werte, die näher an 1 liegen, lassen mehr Transparenz zu.
 
 **Manuelles Beschneiden eines Bilds an den Kanten**
 
@@ -53,11 +52,11 @@ Um ein Bild manuell an den Kanten zu beschneiden, wählen Sie im Menü „Beschn
 
 Wählen Sie unter „Farbprofil“ eine der folgenden Optionen, um einen Farbraum für das Bild festzulegen:
 
-**In srgb** konvertieren: In srgb konvertiert (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
+* **In sRGB** konvertieren Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
 
-**Ursprünglicher Farbraum** behält den ursprünglichen Farbraum bei.
+* **Der ursprüngliche Farbraum** bleibt erhalten.
 
-**Benutzerdefiniert von &gt; Zum** Öffnen der Menüs "Konvertieren von" und" Konvertieren in" . Sie können einen Photoshop-Standardfarbraum auswählen oder einen Farbraum, den Sie in SPS hochgeladen haben. 
+* **Benutzerdefiniert von &gt; In**&#x200B;öffnet die Menüs, damit Sie einen Farbraum "Konvertieren von"und "Konvertieren in"auswählen können. Sie können einen Photoshop-Standardfarbraum auswählen oder einen Farbraum, den Sie in SPS hochgeladen haben. 
 
 Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
@@ -76,7 +75,7 @@ Wählen Sie unter „Unschärfemaske " die gewünschten Optionen aus. Die zur Ve
 | Optionen für „Unschärfemaske“ | Beschreibung |
 |--- |--- |
 | Betrag | Gibt den Kontrastgrad an, der auf die Pixel an den Rändern angewendet wird. <br><br>Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Beachten Sie, dass die Stärke-Einstellung in Scene7 nicht dieselbe wie die Stärke-Einstellung in Photoshop ist. Photoshop verwendet einen Wert im Bereich von 1 % bis 500 %, während Scene7 die Werte von 0,0 bis 5,0 skaliert. (Ein Wert von 5,0 in SPS entspricht ungefähr 500 % in Photoshop, ein Wert von 0,9 ungefähr 90 % usw.) |
-| Radius | Diese Option steuert den Radius des Effekts. <br><br>Der Wertebereich ist 0 bis 250. Der Effekt wird auf allen Pixeln in einem Bild ausgeführt und strahlt alle Pixel in allen Richtungen aus. Der Radius wird in Pixel angegeben. Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein 2000 x 2000-Pixelbild und ein 500 x 500-Pixelbild zu erhalten, können Sie einen Radiuswert von zwei Pixeln auf dem 2000 x 2000-Pixelbild und einen Radiuswert von einem Pixel auf dem 500 x 500-Pixelbild festlegen. Ein größerer Wert wird entsprechend für ein Bild mit mehr Pixeln verwendet.  |
+| Radius | Diese Option steuert den Radius des Effekts. <br><br>Der Wertebereich ist 0-250. Der Effekt wird auf allen Pixeln in einem Bild ausgeführt und strahlt von allen Pixeln in alle Richtungen aus. Der Radius wird in Pixel angegeben. Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein 2000 x 2000-Pixelbild und ein 500 x 500-Pixelbild zu erhalten, können Sie einen Radiuswert von zwei Pixeln auf dem 2000 x 2000-Pixelbild und einen Radiuswert von einem Pixel auf dem 500 x 500-Pixelbild festlegen. Ein größerer Wert wird entsprechend für ein Bild mit mehr Pixeln verwendet.  |
 | Schwelle | Gibt den Kontrastbereich an, der beim Anwenden des Filters „Unschärfemaske“ ignoriert werden soll. Dies ist wichtig, damit kein „Bildrauschen“ entsteht, wenn Sie diesen Filter anwenden. Der Schwellenwert verwendet einen Wert von 0 bis 255, was für die Anzahl der Helligkeitsschritte in einem Graustufenbild steht. 0=schwarz, 128=50 % grau und 255=weiß. <br><br>Beispiel: Ein Schwellenwert von 12 ignoriert leichte Variationen der Hauttonhelligkeit, um kein Rauschen hinzuzufügen, fügt aber trotzdem einen Kantenkontrast zu kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) hinzu. <br><br>Wenn Sie beispielsweise ein Foto mit einem Gesicht einer Person haben, wirkt sich die „Unschärfemaske“ auf die Teile des Bildes mit dem höchsten Kontrast (z. B. wo die Wimpern auf die Haut treffen), und auf die glatte Haut aus, um einen wünschenswerten Kontrastbereich zu schaffen. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln. Dies wiederum erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert)<br><br>Um dieses Problem zu vermeiden, verwenden Sie einen Schwellenwert, bei dem der Filter Pixel ignoriert, die den Kontrast nicht drastisch ändern, wie z. B. glatte Haut. <br><br>Achten Sie in der weiter oben gezeigten Reißverschlussgrafik auf die Textur neben dem Reißverschluss. Hier ist Bildrauschen erkennbar, weil die Schwellenwerte zu niedrig waren, um das Bildrauschen zu unterdrücken. |
 | Monochrom | Wählen Sie diese Option, um die „Umschärfemaske“ auf die Gesamthelligkeit (Intensität) des Bildes anzuwenden.<br><br>Deaktivieren Sie diese Option, um die „Unschärfemaske“ separat für jede Farbkomponente anzuwenden. |
 
