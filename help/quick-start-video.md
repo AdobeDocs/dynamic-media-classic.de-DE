@@ -2,46 +2,46 @@
 title: '"Kurzanleitung: Video"'
 seo-title: '"Kurzanleitung: Video"'
 description: 'null'
-seo-description: Eine Einführung und Schnellstart zu Video, mit der Sie schnell losfahren können.
-uuid: bf 0 ecf 87-a 1 f 2-4 e 83-8041-df 5192 dd 26 a 1
+seo-description: Eine Einführung und eine Kurzanleitung zu Videos, die Ihnen helfen, sich schnell aufzumachen.
+uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/video
-discoiquuid: 6 cef 541 b-e 9 df -48 eb -9 a 16-ca 3 e 1 f 07238 e
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: de7d2608f94935f238a11d8310b97dddc5476f57
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Kurzanleitung: Video{#quick-start-video}
 
-Adobe Dynamic Media Classic Video ist eine Komplettlösung, mit der Sie hochwertige adaptive Video für das Streaming über mehrere Bildschirme hinweg veröffentlichen können, einschließlich Desktop-, ios-, Android-, Blackberry- und Windows-Mobilgeräten. Bei adaptiven Videosets werden Versionen desselben Videos gruppiert, die in unterschiedlichen Bitraten und Formaten kodiert sind, z. B. mit 400 Kbit/s, 800 Kbit/s und 1000 Kbit/s. Der Desktop-Computer oder das Mobilgerät erkennt die verfügbare Bandbreite.
+Adobe Dynamic Media Classic Video ist eine End-to-End-Lösung, mit der Sie hochwertige adaptive Videos für das Streaming auf verschiedenen Anzeigemedien wie Desktop, iOS, Android, Blackberry und Windows veröffentlichen können. Bei adaptiven Videosets werden Versionen desselben Videos gruppiert, die in unterschiedlichen Bitraten und Formaten kodiert sind, z. B. mit 400 Kbit/s, 800 Kbit/s und 1000 Kbit/s. Der Desktop-Computer oder das Mobilgerät erkennt die verfügbare Bandbreite.
 
 Zum Beispiel werden auf einem iOS-Mobilgerät Bandbreiten wie 3G, 4G oder Wi-Fi erkannt. Anschließend wird unter den verschiedenen Video-Bitraten innerhalb des adaptiven Videosets automatisch das richtig kodierte Video ausgewählt. Das Video wird auf Desktops, Mobilgeräte und Tablets gestreamt.
 
-Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Das adaptive Videoset reagiert auch, wenn der Vollbildmodus auf einem Desktop geöffnet wird. Es verwendet dann eine höhere Auflösung und verbessert so das Seherlebnis des Kunden. Adaptive Videosets bieten die bestmögliche Wiedergabe für Kunden, die dynamisches Media Classic Classic auf mehreren Bildschirmen und Geräten wiedergeben.
+Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Das adaptive Videoset reagiert auch, wenn der Vollbildmodus auf einem Desktop geöffnet wird. Es verwendet dann eine höhere Auflösung und verbessert so das Seherlebnis des Kunden. Mit adaptiven Video-Sets erhalten Sie die bestmögliche Wiedergabe von Videos, die von Kunden auf mehreren Bildschirmen und Geräten wiedergegeben werden.
 
 Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für die Wiedergabe auszuwählen, basiert auf dem folgenden Algorithmus:
 
-1. Der Videoplayer lädt das anfängliche Videofragment basierend auf der Bitrate, die dem Wert am nächsten liegt, der für die anfängliche Bitrate im Player selbst festgelegt ist.
-1. Der Video-Player wechselt basierend auf Änderungen der Bandbreitengeschwindigkeit anhand der folgenden Kriterien:
+1. Der Videoplayer lädt das anfängliche Videofragment basierend auf der Bitrate, die dem für "initiale Bitrate"festgelegten Wert im Player am nächsten kommt.
+1. Video-Player-Switches basierend auf Änderungen der Bandbreitengeschwindigkeit unter Verwendung der folgenden Kriterien:
 
-   1. Der Player wählt den höchsten Bandbreitenstream unterhalb oder gleich der geschätzten Bandbreite aus.
-   1. Player betrachtet nur 80% der verfügbaren Bandbreite. Wenn es jedoch umgebrochen wird, ist es mehr als 70%, um zu vermeiden, dass es zu einer Überschätzung kommt und dass er sofort umgebrochen wird.
+   1. Der Player wählt den Stream mit der höchsten Bandbreite unterhalb oder gleich der geschätzten Bandbreite aus.
+   1. Der Player berücksichtigt nur 80 % der verfügbaren Bandbreite. Wenn es jedoch nach oben wechselt, ist es bei nur 70 % umstrittener, Überschätzungen zu vermeiden und sofort zurückzuschalten.
 
 Technische Informationen dazu finden Sie in der Logik des Algorithmus unter [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
 
-Für die Verwaltung einzelner Video- und adaptiver Videosets unterstützt dynamisches Media Classic Folgendes:
+Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dynamic Media Classic Folgendes:
 
-* Das Hochladen von Video aus verschiedenen unterstützten Videoformaten und Audioformaten und das Kodieren von Video im MP4 H.264-Format für die Wiedergabe auf verschiedenen Anzeigemedien. Sie können vordefinierte Dynamic Media Classic-Vorgaben für adaptive Videos, Kodierungsvorgaben für einzelne Videos oder eigene Kodierungen verwenden, um die Qualität und Größe des Videos zu kontrollieren.
+* Das Hochladen von Video aus verschiedenen unterstützten Videoformaten und Audioformaten und das Kodieren von Video im MP4 H.264-Format für die Wiedergabe auf verschiedenen Anzeigemedien. Sie können vordefinierte Vorgaben für adaptive Video-Vorgaben für Dynamic Media Classic oder einzelne Videokodierungsvorgaben verwenden oder Ihre eigene Kodierung anpassen, um Qualität und Größe des Videos zu steuern.
 
-   Wenn ein adaptives Videoset erzeugt wird, enthält es MP 4-Videos.
+   Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
-   `**Note:**` Master-/Quellvideos und andere Quellvideoformate werden nicht zu *einem adaptiven Videoset* hinzugefügt.
+   `**Note:**` Master-/Quellvideos und andere Quellvideoformate werden *keinem adaptiven Videoset hinzugefügt* .
 
-* Videountertitel in Universal_ HTML 5_ Video, Universal_ HTML 5_ mixedmedia_ dark und Universal_ HTML 5_ mixedmedia_ light-Viewer und Video-Kapitelnavigation in der Navigation Universal_ HTML 5_ Video, Universal_ HTML 5_ mixedmedia_ dark und Universal_ HTML 5_ mixedmedia_ light instanzen.
+* Videountertitel in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light sowie Videokapitelnavigation in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light.
 
    Siehe [Hinzufügen von Untertiteln zu Video](adding-captions-video.md).
 
@@ -52,17 +52,17 @@ Für die Verwaltung einzelner Video- und adaptiver Videosets unterstützt dynami
 
    Das adaptive Video-Streaming wird auf zahlreichen iOS-Plattformen unterstützt.
 
-   Weitere Informationen finden Sie im Referenzhandbuch zu [Adobe Viewers](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+   Weitere Informationen finden Sie unter der neuesten Unterstützung im [Adobe Viewer-Referenzhandbuch](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
 
-   Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP 4 H .264-Video. Blackberry-Geräte, die dieses Videoformat unterstützen, finden Sie auf der folgenden Website:
+   Dynamic Media Classic unterstützt die Wiedergabe von mobilen Videos für MP4 H.264-Videos. Blackberry-Geräte, die dieses Videoformat unterstützen, finden Sie auf der folgenden Website:
 
-   Siehe [Unterstützte Videoformate auf Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+   Siehe [Unterstützte Videoformate in Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
    Windows-Geräte, die dieses Videoformat unterstützen, finden Sie hier:
 
    Siehe [Unterstützte Videoformate auf Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
 
-* Wiedergabe des Videos mithilfe von Dynamic Media Classic-Viewer-Vorgaben, einschließlich der folgenden:
+* Wiedergabe des Videos mithilfe von Viewer-Vorgaben für dynamische Medien - Classic, einschließlich der folgenden:
 
    * Einzel-Video-Viewer
    * Viewer für gemischte Medien, die Video- und Bildinhalte kombinieren
@@ -70,16 +70,16 @@ Für die Verwaltung einzelner Video- und adaptiver Videosets unterstützt dynami
 * Konfigurieren von Video-Playern für individuelle Branding-Anforderungen
 * Integrieren von Videos in Websites, mobile Sites oder mobile Anwendungen über eine einfache URL oder einen eingebetteten Code.
 
-**Kurzanleitung**
+**Schnellstart**
 
-Die folgende Arbeitsablaufbeschreibung hilft Ihnen, sich schnell mit adaptiven Videosets in Dynamic Media Classic vertraut zu machen. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
+Die folgende Workflow-Beschreibung hilft Ihnen, sich schnell mit adaptiven Videosets in Dynamic Media Classic vertraut zu machen. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
 
 **1. Hochladen und Kodieren von Video**
 
 Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden Szenarien hoch:
 
-* **Vorkodierte Videos** hochladen: Wenn Ihre Videos bereits außerhalb von Dynamic Media Classic kodiert wurden, klicken Sie in der Symbolleiste für globale Navigation auf **Hochladen** , um MP 4-Videodateien direkt in das Scene 7 Publishing System zu durchsuchen und hochzuladen. Klicken Sie dann auf **Erstellen** &gt; **Adaptive Videosets**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
-* **Master-Quellvideos** hochladen: Wenn Ihre Videos nicht kodiert sind, klicken Sie in der Symbolleiste für globale Navigation auf **Hochladen** , um Master-Video-Quelldateien (nicht MP 4) hochzuladen und Scene 7 Publishing System für Sie zu kodieren. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ unter den eVideo-Optionen die Option **Adaptive Video**.
+* **Hochladen vorkodierter Videos** Wenn Ihre Videos bereits außerhalb von Dynamic Media Classic kodiert wurden, klicken Sie in der Symbolleiste für globale Navigation auf " **Hochladen** ", um nach MP4-Videodateien zu suchen und sie direkt in das Scene7 Publishing System hochzuladen. Klicken Sie dann auf **Erstellen &gt; Adaptive Videosets**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
+* **Hochladen von Master-Quellvideos** Wenn Ihre Videos nicht kodiert sind, klicken Sie in der Symbolleiste für globale Navigation auf " **Hochladen** ", um Master-Videoquelldateien (nicht MP4) hochzuladen und diese vom Scene7 Publishing System in MP4-Dateien kodieren zu lassen. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ unter den eVideo-Optionen die Option **Adaptive Video**.
 
    Mit dieser bevorzugten Option können Sie ein adaptives Videoset erstellen, das automatisch die korrekte Kodierungsvorgabe (16:9 oder 4:3) entsprechend den Abmessungen des hochgeladenen Videos anpasst. Wenn Sie den Hochladeauftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videokodierungen im korrekten Seitenverhältnis enthält.
 
@@ -107,7 +107,7 @@ Sie können das Video im Anzeigebereich „Vorschau“ wiedergeben. Sie können 
 
 **Optional**
 
-Anpassung der Viewer-Vorgaben - Dynamische Medien Classic bietet vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie in rechts oben in Scene7 auf „Einstellungen“ &gt; „Video-Vorgaben“. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Anpassung von Viewer-Vorgaben - Dynamic Media Classic bietet vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie in rechts oben in Scene7 auf „Einstellungen“ &gt; „Video-Vorgaben“. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
 Siehe [Arbeiten mit Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -121,7 +121,9 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
    Wenn Sie auf die Schaltfläche „URL kopieren“ klicken, wird die URL in die Zwischenablage kopiert. Fügen Sie diesen Code in den HTML-Code Ihrer Website, mobilen Site oder Anwendung ein. 
 
-   ***Hinweis**: Urls werden erst nach der Veröffentlichung des Videos oder adaptiven Videosets aktiviert.*
+   >[!NOTE]
+   >
+   >URLs werden erst aktiv, nachdem Sie das Video oder das adaptive Videoset veröffentlicht haben.
 
 * Zeigen Sie das in die Webseite eingebettete Video an. Verwenden Sie dazu die Funktion zum Einbetten von Code.
 
@@ -129,7 +131,9 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
    Klicken Sie auf „Schließen“ und fügen Sie den Einbettungscode in Ihre Webseiten ein.
 
-   ***Hinweis**: Einbettungscode wird erst nach der Veröffentlichung des Videos oder adaptiven Videosets aktiviert.*
+   >[!NOTE]
+   >
+   >Der Einbettungscode wird erst aktiv, nachdem Sie das Video oder das adaptive Videoset veröffentlicht haben.
 
 Siehe [Bereitstellen von Videos auf Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
