@@ -2,15 +2,15 @@
 title: Exportieren von Assets aus dem Scene7 Publishing System
 seo-title: Exportieren von Assets aus dem Scene7 Publishing System
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie Assets aus dem Scene 7 Publishing System exportieren.
-uuid: d 42 b 7 a 73-80 c 0-4 a 9 a-a 04 e -7 ef 53 e 6 fcf 22
+seo-description: Erfahren Sie, wie Sie Assets aus dem Scene7 Publishing System exportieren.
+uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: eb 850 ec 7-a 669-41 ea-b 2 b 0-4 c 9178 e 34 f 95
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,30 +21,30 @@ Sie können die im Scene7 Publishing System bearbeiteten Assets auf einem lokale
 
 Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Beachten Sie außerdem, dass ein Exportauftrag maximal 500 Assets enthalten kann.
 
-Dynamic Media Classic speichert einen Datensatz über exportierte Aufträge im Anzeigebereich "Aufträge" .
+Im Anzeigebereich "Aufträge"werden Exportaufträge von Dynamic Media Classic aufgezeichnet.
 
 **So exportieren Sie Assets aus dem Scene7 Publishing System**
 
 1. Wählen Sie die zu exportierenden Assets aus und klicken Sie dann auf **„Datei“** &gt; **„Exportieren“**.
 1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **„Bildoptionen“** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):
 
-   **Wählen Sie** optional eine Bildvorgabe aus, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
+   * **Bei Vorgaben** können Sie optional eine Bildvorgabe auswählen, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
 
-   **Konvertierung** Konvertieren Sie die Asset-Datei oder das Originalbild.
+   * **Konversion**: Konvertieren Sie die Asset-Datei oder das Originalbild.
 
-   **Größe** Sie können eine Standardgröße auswählen. Sie können auch in der Dropdown-Liste „Größe“ auf „Andere“ klicken, die gewünschte Maßeinheit wählen und dann die Breite und Höhe festlegen.
+   * **Größe** Sie können eine Standardgröße auswählen. Sie können auch in der Dropdown-Liste „Größe“ auf „Andere“ klicken, die gewünschte Maßeinheit wählen und dann die Breite und Höhe festlegen.
 
-   Siehe auch [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+      Siehe auch [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   **Format** Wählen Sie ein Bildformat.
+   * **Format** Wählen Sie ein Bildformat.
 
-   **Wählen** Sie "RGB" ," CMYK" oder "Grau" .
+   * **Farbe**: RGB, CMYK oder Grau.
 
-   **Auflösung** wählen Sie 72, 150 oder 300 ppi.
+   * **Auflösung**: 72, 150 oder 300 ppi.
 
-   **Auftragsname** Sie können dem Export einen Auftragsnamen zuweisen.
+   * **Auftragsname** Sie können dem Export einen Auftragsnamen zuweisen.
 
-   **E-Mail an** optional senden, geben Sie eine E-Mail-Adresse ein, um die Assets per E-Mail zu senden. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
+   * **Senden von E-Mail an** optional eine E-Mail-Adresse, an die die Assets per E-Mail gesendet werden sollen. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
 
 1. Klicken Sie auf „**Exportieren**“.
 
