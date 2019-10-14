@@ -2,15 +2,15 @@
 title: Arbeiten mit PostScript- und Illustrator-Dateien
 seo-title: Arbeiten mit PostScript- und Illustrator-Dateien
 description: 'null'
-seo-description: Erfahren Sie, wie Sie mit postscript- und Illustrator-Dateien arbeiten.
-uuid: 36 dee 172-8 bd 4-45 a 9-820 b-c 2 ca 319 20
+seo-description: Erfahren Sie, wie Sie mit PostScript- und Illustrator-Dateien arbeiten.
+uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: c 04 c 1331-8 d 94-449 b -9693-1488 c 94084 dc
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,18 +21,18 @@ Sie können im Scene7 Publishing System auch Adobe® PostScript®-Dateien (EPS) 
 
 Beim Hochladen von EPS- und AI-Bilddateien stehen Ihnen verschiedene Formatierungsmöglichkeiten zur Verfügung. Sie können die Dateien rastern, sie für die Vorlagenveröffentlichung in FXG konvertieren, einen transparenten Hintergrund festlegen sowie eine Auflösung und einen Farbraum wählen. Die Optionen zum Formatieren von PostScript- und Illustrator-Dateien finden Sie im Anzeigebereich „Hochladen“ unter „PostScript-Optionen“ bzw. im Feld „Upload-Auftragsoptionen“ unter „Illustrator-Optionen“.
 
-**Verarbeitung** wählen Sie "Rastern" , um Vektorgrafiken in der Datei in das Bitmap-Format zu konvertieren.
+* **Verarbeitung** Wählen Sie "Rastern", um Vektorgrafiken in der Datei in das Bitmapformat zu konvertieren.
 
-**Transparenten Hintergrund in gerendertem Bild beibehalten** Behält die Hintergrundtransparenz der Datei bei.
+* **Transparenten Hintergrund im gerenderten Bild** beibehalten: Die Hintergrundtransparenz der Datei bleibt erhalten.
 
-**Auflösung** Legt die Auflösung fest. Mit dieser Einstellung wird bestimmt, wie viele Pixel pro Zoll in der Datei angezeigt werden.
+* **Auflösung** Legt die Auflösungseinstellung fest. Mit dieser Einstellung wird bestimmt, wie viele Pixel pro Zoll in der Datei angezeigt werden.
 
-**Farbraum** wählen Sie im Menü "Farbraum" einen Farbraum aus:
+* **Farbraum** Wählen Sie im Menü "Farbraum"einen Farbraum aus:
 
-**Der Farbraum der Datei** wird automatisch beibehalten.
+* **Bei Auswahl dieser Option wird der Farbraum der Datei automatisch** beibehalten.
 
-**Immer RGB** -Konvertierung in RGB-Farbraum.
+* **Immer RGB** Konvertiert in den RGB-Farbraum.
 
-**Immer CMYK** Konvertiert den CMYK-Farbraum.
+* **Immer CMYK** Konvertiert in den CMYK-Farbraum.
 
-**Immer Graustufen-** Konvertierung in den Graustufen-Farbraum.
+* **Immer Graustufen** Konvertiert in den Graustufen-Farbraum.
