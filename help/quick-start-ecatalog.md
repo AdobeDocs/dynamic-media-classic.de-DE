@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -39,8 +39,8 @@ Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in de
 
 >[!NOTE]
 >
->Wenn Sie ein Benutzer im Modus "AEM Dynamic Media - Scene7"sind und E-Kataloge verwenden möchten, müssen Sie den `pdfbrochure` Wert in CRXDE Lite bearbeiten. Klicken Sie dazu in AEM auf **[UICONTROL Tools &gt; Allgemein &gt; CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-Wählen Sie im unteren rechten Bereich auf der Registerkarte " **Eigenschaften** "die `jobParam` Zeile aus. Legen Sie den Wert für `pdfbrochure` von `false` auf `true`fest. Klicken Sie wie `pdfbrochure=true`in der oberen linken Ecke der CRXDE Lite-Seite auf Alle **speichern**.
+>Wenn Sie ein Benutzer im Modus "AEM Dynamic Media - Scene7"sind und E-Kataloge verwenden möchten, müssen Sie den `pdfbrochure` Wert in CRXDE Lite bearbeiten. Klicken Sie dazu in AEM auf **[!UICONTROL Extras &gt; Allgemein &gt; CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+Wählen Sie im unteren rechten Bereich auf der Registerkarte " **[!UICONTROL Eigenschaften]** "die `jobParam` Zeile aus. Legen Sie den Wert für `pdfbrochure` von `false` auf `true`fest. Klicken Sie wie `pdfbrochure=true`in der oberen linken Ecke der CRXDE Lite-Seite auf Alle **[!UICONTROL speichern]**.
 Sie können jetzt E-Kataloge im SPS erstellen.
 
 **Schnellstart**
@@ -65,7 +65,7 @@ Klicken Sie auf der Registerkarte „Seiten ordnen“ auf eine der Layout-Schalt
 
 Um Seiten hinzuzufügen, wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten PDF-Dateien oder Bilddateien aus dem Ordner in den Anzeigebereich „Seiten ordnen“. Anstelle der Standardseitenzahlen können Sie benutzerdefinierte Seitennamen angeben oder eine große Anzahl von Seitennamen importieren.
 
-Klicken Sie auf „Speichern“, geben Sie einen Namen für den E-Katalog ein, wählen Sie einen SPS-Ordner aus, in dem der E-Katalog gespeichert werden soll, und klicken Sie auf „Speichern“. Speichern Sie jede Änderung der Seitenanordnung oder Bearbeitung des E-Katalogs, indem Sie auf „Speichern“ klicken. 
+Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 Siehe [Erstellen eines E-Katalogs](creating-ecatalog.md).
 
@@ -73,7 +73,7 @@ Siehe [Erstellen eines E-Katalogs](creating-ecatalog.md).
 
 Imagemaps erweitern E-Katalogseiten um eine weitere Dimension. Eine Imagemap ist ein Seitenbereich, mit dessen Hilfe weitere Informationen zu einem Element angezeigt werden können. Wenn Betrachter der Website den Mauszeiger über eine Imagemap bewegen, wird eine Beschreibung des Elements angezeigt. Durch Klicken auf eine Imagemap wird ein externer Verweis aktiviert, mit dem eine neue Website mit weiteren Informationen zu einem Element geöffnet wird.
 
-Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Rufen Sie dann im Anzeigebereich „E-Katalog“ die Registerkarte „Imagemap-Seiten“ auf und zeichnen Sie mithilfe des Rechteck-Imagemap-Werkzeugs  oder des Polygon-Imagemap-Werkzeugs  den gewünschten Bereich. Durch Ziehen der Ränder mit dem Schwenken-Werkzeug  können Sie die Position und Größe von Imagemaps nachträglich ändern.
+Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. Durch Ziehen der Ränder mit dem Schwenken-Werkzeug  können Sie die Position und Größe von Imagemaps nachträglich ändern.
 
 Nachdem Sie die Imagemap gezeichnet haben, geben Sie die URL-Adresse ein, die mit der Imagemap verknüpft sein soll. Sie können auch den Rollover-Text eingeben, der beim Bewegen des Mauszeigers über die Imagemap angezeigt werden soll. 
 
@@ -89,7 +89,7 @@ Siehe [ Verwalten des Infofeldinhalts](info-panel-content.md#managing-info-panel
 
 Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können beispielsweise die Rahmenfarbe ändern und eine neue Skin zur Gestaltung des E-Katalogs auswählen. Im Lieferumfang von Dynamic Media Classic sind verschiedene bewährte E-Katalog-Viewer-Vorgaben enthalten. Sie können eine dieser Vorgaben zur Anzeige Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
-Um E-Katalog-Viewer-Vorgaben zu erstellen, klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche „Einstellungen“ und wählen Sie „Viewer-Vorgaben“. Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
+Um eine E-Katalog-Viewer-Vorgabe zu erstellen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Einstellungen]** und wählen Sie " **[!UICONTROL Viewer-Vorgaben]**". Klicken Sie dann auf **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform und klicken Sie dann auf **[!UICONTROL E-Katalog &gt; Viewer]**.
 
 Siehe [Konfigurieren von E-Katalog-Viewer-Vorgaben](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -97,7 +97,7 @@ Siehe [Konfigurieren von E-Katalog-Viewer-Vorgaben](setting-ecatalog-viewer-pres
 
 Mithilfe von E-Katalog-Viewer-Vorgaben wird der Stil und das Verhalten von E-Katalog-Viewern festgelegt.
 
-Um festzustellen, wie der E-Katalog mit den verschiedenen E-Katalog-Viewer-Vorgaben angezeigt wird, markieren Sie den E-Katalog im Durchsuchenbedienfeld und klicken Sie auf „Vorschau“. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
+To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
 
 Achten Sie auf Ausrichtung, Farbschema, Aussehen der Steuerelemente zum Umblättern der Seiten und Aussehen der Seiten beim Umblättern. 
 
@@ -107,7 +107,7 @@ Siehe [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-e
 
 Beim Veröffentlichen des E-Katalogs und der zugehörigen PDF-Datei wird dieser auf den Image-Servern für dynamische Medien gespeichert, damit er an Ihre Website und Anwendung gesendet werden kann. Während des Veröffentlichungsvorgangs aktiviert Scene7 Publishing System die URL-Zeichenfolge für Ihren E-Katalog, Verwenden Sie diese URL, um den E-Katalog von den Image-Servern für dynamische Medien zu Ihrer Website oder Anwendung aufzurufen.
 
-Nachdem Sie den E-Katalog und das PDF-Dokument zur Veröffentlichung markiert haben, klicken Sie im Durchsuchenbedienfeld in der Symbolleiste für globale Navigation auf "Veröffentlichen", um eine Veröffentlichung zu starten. Klicken Sie im Anzeigebereich „Veröffentlichen“ auf „Veröffentlichungsvorgang starten“. 
+Nachdem Sie den E-Katalog und das PDF-Dokument zur Veröffentlichung markiert haben, klicken Sie im Durchsuchenbedienfeld in der Symbolleiste für globale Navigation auf "Veröffentlichen", um eine Veröffentlichung zu starten. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF-Dateien](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
