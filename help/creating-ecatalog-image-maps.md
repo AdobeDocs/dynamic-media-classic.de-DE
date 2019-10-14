@@ -2,15 +2,15 @@
 title: Erstellen von Imagemaps in E-Katalogen
 seo-title: Erstellen von Imagemaps in E-Katalogen
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie Imagemaps erstellen.
-uuid: 943 ad 3 f 7-a 885-4 bc 2-88 cb -77083384 bdf 8
+seo-description: Erfahren Sie, wie Sie Imagemaps für E-Kataloge erstellen.
+uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/ecatalogs
-discoiquuid: 4 cf 63359-63 b 5-4 da 7-9498-335 d 91 b 4776 c
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -28,11 +28,10 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 1. Wählen Sie links im Anzeigebereich „Imagemap-Seiten“ die gewünschte Seite aus.
 1. Zeichnen Sie im Bereich „Imagemap“ eine rechteckige oder polygonale (vieleckige) Imagemap:
 
-   **Rechteckige Karte** Wählen Sie das Rechteck-Imagemap-Werkzeug aus und ziehen Sie auf die Seite, um das Rechteck zu erstellen.
+   * **Rechteckige Imagemap** Wählen Sie das Rechteck-Imagemap-Werkzeug aus und ziehen Sie es auf die Seite, um das Rechteck zu erstellen.
 
-   **Polygonale Karte** Wählen Sie das Polygon-Imagemap-Werkzeug aus und klicken Sie so oft wie nötig auf den Umfang des Bilds. Während Sie klicken, zeichnet Dynamic Media Classic die Ränder der Imagemap.
-
-   Nachdem Sie eine Imagemap gezeichnet haben, weist Dynamic Media Classic diesen Namen in der Imagemap-Liste zu. Um den Namen zu bilden, hängt Dynamisches Media Classic eine sequenzielle Nummer an den Namen der E-Katalog-Seite an, auf der Sie arbeiten.
+   * **Polygonale Imagemap** Wählen Sie das Polygon-Imagemap-Werkzeug aus und klicken Sie so oft wie nötig um den Bildbereich. Wenn Sie darauf klicken, zeichnet Dynamic Media Classic die Ränder der Imagemap.
+   Nachdem Sie eine Imagemap gezeichnet haben, weist Dynamic Media Classic ihr in der Imagemap-Liste einen Namen zu. Um den Namen zu erstellen, hängt Dynamic Media Classic eine fortlaufende Nummer an den Namen der E-Katalog-Seite an, auf der Sie arbeiten.
 
 1. (Optional) Geben Sie im Imagemap-Liste-Bedienfeld in der Spalte „Name“ einen neuen Namen für die Imagemap ein. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
 1. Sie können festlegen, dass beim Klicken auf eine Imagemap in einem Viewer eine neue Webseite geöffnet wird. Geben Sie im Imagemap-Liste-Bedienfeld in der Spalte „URL“ die URL der Webseite ein.
@@ -73,25 +72,25 @@ Sie können optional auch QuickInfo-Text anzeigen, wenn Kunden den Mauszeiger ü
 
 Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E-Katalog“ die folgenden Schritte zum Bearbeiten von Imagemaps in E-Katalogen durch:
 
-**Anpassen der Position** Wählen Sie das Schwenken-Werkzeug aus und bewegen Sie den Mauszeiger nahe an den Rand der Map. Wenn sich der Zeiger in einen vierköpfigen Pfeil ändert, ziehen Sie die gesamte Imagemap an eine neue Position. 
+* **Anpassen der Position** Wählen Sie das Schwenken-Werkzeug aus und verschieben Sie den Zeiger in die Nähe, jedoch nicht über den Rand der Map. Wenn sich der Zeiger in einen vierköpfigen Pfeil ändert, ziehen Sie die gesamte Imagemap an eine neue Position. 
 
-Siehe [Anpassen der Position, Form und Größe von Imagemaps](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Siehe [Anpassen der Position, Form und Größe von Imagemaps](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-**Um die Größe und Größe** einer rechteckigen Imagemap zu ändern, wählen Sie das Schwenken-Werkzeug aus. Bewegen Sie dann den Mauszeiger über den Rand oder eine Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie ihn. Um die Größe einer polygonalen Imagemap zu ändern, ziehen Sie einen quadratischen Auswahlziehpunkt an die gewünschte Stelle. Um einen Auswahlziehpunkt zu erstellen, klicken Sie auf den Rand der Imagemap und beginnen Sie zu ziehen. 
+* **Ändern der Form und Größe** Um die Größe einer rechteckigen Imagemap zu ändern, wählen Sie das Schwenken-Werkzeug aus. Bewegen Sie dann den Mauszeiger über den Rand oder eine Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie ihn. Um die Größe einer polygonalen Imagemap zu ändern, ziehen Sie einen quadratischen Auswahlziehpunkt an die gewünschte Stelle. Um einen Auswahlziehpunkt zu erstellen, klicken Sie auf den Rand der Imagemap und beginnen Sie zu ziehen. 
 
-Siehe [Anpassen der Position, Form und Größe von Imagemaps](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Siehe [Anpassen der Position, Form und Größe von Imagemaps](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-**Imagemaps löschen** : Wählen Sie das Schwenken-Werkzeug aus, klicken Sie auf die Imagemap, um sie auszuwählen, und klicken Sie dann auf Löschen.
+* **Löschen von Imagemaps** Wählen Sie das Schwenken-Werkzeug aus, klicken Sie auf die Imagemap, um sie auszuwählen, und klicken Sie dann auf **Löschen**.
 
-(Um sämtliche Imagemaps aus einem E-Katalog zu entfernen, rufen Sie die Registerkarte „Seiten ordnen“ auf und klicken dann auf „Maps löschen“.)
+   To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
-**Durch Ziehen mit überlappenden Imagemaps** wird die Reihenfolge der Imagemaps in der Imagemap-Liste geändert.
+* **Handhabung überlappender Imagemaps** Durch Ziehen können Sie die Reihenfolge der Imagemaps in der Imagemap-Liste ändern.
 
-Siehe [Beheben von überlappenden Imagemaps](creating-image-maps.md#handling_overlapping_image_maps).
+   Siehe [Beheben von überlappenden Imagemaps](creating-image-maps.md#handling_overlapping_image_maps).
 
-**Kopieren von Imagemaps auf andere Seiten** Klicken Sie auf die Schaltfläche "Maps kopieren nach" (stellen Sie sicher, dass Sie auf der Registerkarte" Imagemap-Seiten" sind). Wählen Sie im Anzeigebereich „Bilder auswählen“ die Seite oder Seiten aus, auf der oder denen Sie die Imagemaps kopieren möchten, und klicken Sie auf „Auswählen“. 
+* **Kopieren von Imagemaps auf andere Seiten** Klicken Sie auf die Schaltfläche "Imagemaps kopieren nach"(achten Sie darauf, dass Sie sich auf der Registerkarte "Imagemap-Seiten"befinden). Wählen Sie im Anzeigebereich „Bilder auswählen“ die Seite oder Seiten aus, auf der oder denen Sie die Imagemaps kopieren möchten, und klicken Sie auf „Auswählen“. 
 
-Siehe [Kopieren von Imagemaps in andere Bilder](creating-image-maps.md#copying_image_maps).
+   Siehe [Kopieren von Imagemaps in andere Bilder](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
@@ -129,7 +128,7 @@ Führen Sie im Anzeigebereich mit der Imagemap-Zusammenfassung die folgenden Sch
 
 ## Kopieren von Imagemaps zwischen E-Katalogen {#copying-image-maps-between-ecatalogs}
 
-Sie können alle Imagemaps in einem E-Katalog in einen anderen E-Katalog kopieren. Das Kopieren der Imagemaps auf diese Weise ist ein praktisches Verfahren, um Imagemaps zwischen fremdsprachigen Versionen des gleichen E-Katalogs zu kopieren. Damit das Kopieren erfolgreich ist, empfiehlt Dynamic Media Classic, zwischen E-Katalogen mit derselben Anzahl vonseiten und denselben Bildern zu kopieren.
+Sie können alle Imagemaps in einem E-Katalog in einen anderen E-Katalog kopieren. Das Kopieren der Imagemaps auf diese Weise ist ein praktisches Verfahren, um Imagemaps zwischen fremdsprachigen Versionen des gleichen E-Katalogs zu kopieren. Damit das Kopieren erfolgreich ist, empfiehlt Dynamic Media Classic das Kopieren zwischen E-Katalogen mit derselben Anzahl von Seiten und denselben Bildern.
 
 >[!NOTE]
 >
@@ -141,4 +140,4 @@ Gehen Sie folgendermaßen vor, um alle Imagemaps in einem E-Katalog in einen and
 1. Klicken Sie auf der Registerkarte „Seiten ordnen“ auf „Maps kopieren“.
 1. Wählen Sie im Dialogfeld „Asset auswählen“ den E-Katalog aus, in den Sie die Imagemaps kopieren möchten, und klicken Sie dann auf „Auswählen“.
 
-Dynamic Media Classic zeigt eine Warnmeldung an, wenn der Ziele-Katalog (der E-Katalog, in den Sie Imagemaps kopieren) eine andere Anzahl vonseiten oder Bildern hat, die eine andere Größe haben. Durch Klicken auf „Fortfahren“ werden die Imagemaps trotz der Warnung kopiert.
+In Dynamic Media Classic wird eine Warnmeldung angezeigt, wenn der Zielkatalog (der E-Katalog, in den Imagemaps kopiert werden) eine andere Anzahl von Seiten oder Bildern hat, die eine andere Größe haben. Durch Klicken auf „Fortfahren“ werden die Imagemaps trotz der Warnung kopiert.
