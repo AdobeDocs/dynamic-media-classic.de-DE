@@ -1,40 +1,40 @@
 ---
-title: Rich Media
-seo-title: Rich Media
+title: Rich-Media
+seo-title: Rich-Media
 description: 'null'
 seo-description: Erfahren Sie mehr über die verschiedenen Werkzeuge, die Sie in Dynamic Media Classic verwenden können, um Rich-Media-Daten zu erstellen.
-uuid: b 64981 a 3-c 3 c 2-4010-9 b 65-f 9982 ea 0 a 664
+uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/getting_ started
-discoiquuid: 86 f 72 d 31-19 aa -4077-a 746-2 badb 53 b 02 ec
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting-started
+discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Rich media{#rich-media}
 
-Dynamic Media Classic bietet viele Werkzeuge zum Erstellen von Rich-Media-Daten. Sie können die folgenden Rich-Media-Typen erstellen:
+Dynamic Media Classic bietet zahlreiche Werkzeuge zum Erstellen von Rich-Media-Daten. Sie können die folgenden Rich-Media-Typen erstellen:
 
-**E-Kataloge** Eine interaktive, suchfähige Webversion Ihres Katalogs oder anderer Druckmaterialien. Erstellen Sie klickbare Bereiche (so genannte Imagemaps), die Rollover-Inhalte zeigen und den Kunden gestatten, Seiten umzublättern, zu schwenken und Klebezettel an Seiten anzubringen. Siehe Kurzanleitung: E-Katalog.
+* **E-Kataloge** Präsentieren Sie eine interaktive, suchfähige Webversion Ihres Katalogs oder anderer Druckmaterialien. Erstellen Sie klickbare Bereiche (so genannte Imagemaps), die Rollover-Inhalte zeigen und den Kunden gestatten, Seiten umzublättern, zu schwenken und Klebezettel an Seiten anzubringen. Siehe [Kurzanleitung: E-Katalog](/help/quick-start-ecatalog.md).
 
-**Evideo** liefert hochwertige Videoerlebnisse für mehrere Bildschirme, einschließlich Desktops, Mobilgeräten und Tablets. Verwenden Sie vordefinierte Dynamic Media Classic-Kodierungsvorgaben oder passen Sie die Kodierung an, um die Qualität und Größe von Videos zu kontrollieren. Organisieren, durchsuchen und suchen Sie gezielt Videos mit umfassender Metadatenunterstützung für eine effiziente Verwaltung von Video-Assets. Siehe Kurzanleitung: eVideo.
+* **eVideo** bietet hochwertige Videoerlebnisse auf mehreren Bildschirmen, einschließlich Desktop-PCs, Mobilgeräten und Tablets. Verwenden Sie vordefinierte Kodierungsvorgaben für Dynamic Media Classic oder passen Sie die Kodierung an, um die Qualität und Größe des Videos zu steuern. Organisieren, durchsuchen und suchen Sie gezielt Videos mit umfassender Metadatenunterstützung für eine effiziente Verwaltung von Video-Assets. Siehe [Kurzanleitung: eVideo](/help/quick-start-video.md).
 
-**Imagemaps Stellen** dynamisch Bilder in beliebiger Größe und beliebigem Format auf Ihrer gesamten Website bereit. Anstatt manuell viele Bilder in unterschiedlichen Größen zu erstellen, können Sie einfach nur ein Masterbild verwenden. Da dynamische Medien Classic das angeforderte Bild liefert, wird das Bild für die höchste Qualität in Größe, Format, Stärke, Qualität und Schärfung optimiert. Siehe Kurzanleitung: Bildgrößenänderung.
+* **Imagemaps** dienen dynamisch für Bilder jeder Größe und jedes Format Ihrer Website. Anstatt manuell viele Bilder in unterschiedlichen Größen zu erstellen, können Sie einfach nur ein Masterbild verwenden. Da Dynamic Media Classic das angeforderte Bild bereitstellt, wird das Bild für qualitativ hochwertige Ergebnisse in Bezug auf Größe, Format, Stärke, Qualität und Scharfzeichnung optimiert. Siehe [Kurzanleitung: Bildgrößenänderung](/help/quick-start-image-sizing.md).
 
-**Bildsätze** Bieten ein interaktives Einkaufserlebnis, in dem Benutzer Produkte in verschiedenen Ansichten anzeigen können. Sie können Zoomfunktionen, verschiedene Ansichten und Farbfelder zu einer integrierten Darstellung kombinieren. Siehe Kurzanleitung: Bildsätze.
+* **Bildsätze** Vereinfachen Sie ein interaktives Einkaufserlebnis, bei dem Benutzer Produkte in mehreren Ansichten anzeigen können. Sie können Zoomfunktionen, verschiedene Ansichten und Farbfelder zu einer integrierten Darstellung kombinieren. Siehe [Kurzanleitung: Bildsätze](/help/quick-start-image-sets.md).
 
-**Gemischte Mediensets** Bieten eine Mischung aus Bildsätzen, Rotationssets, Mustersets, Zoomzielen, Video und Audio in einer Präsentation. Sie können gemischte Mediensets mit Registerkarten einrichten, um Videomaterial von Bildern zu trennen. Sie können auch festlegen, wo und wie Muster und Zoomziele angezeigt werden, und Benutzern eine umfassende Multimedia-Ansicht Ihrer Produkte und Dienstleistungen ermöglichen. Siehe Kurzanleitung: Gemischte Mediensets.
+* **Gemischte Mediensets** bieten eine Mischung aus Bildsätzen, Rotationssets, Mustersets, Zoomzielen, Video und Audio in einer Präsentation. Sie können gemischte Mediensets mit Registerkarten einrichten, um Videomaterial von Bildern zu trennen. Sie können auch festlegen, wo und wie Muster und Zoomziele angezeigt werden, und Benutzern eine umfassende Multimedia-Ansicht Ihrer Produkte und Dienstleistungen ermöglichen. Siehe [Kurzanleitung: Gemischte Mediensets](/help/quick-start-mixed-media-sets.md).
 
-**Rotationssets** , um sie horizontal zu drehen. Anhand von Rotationssets können Besucher Ihrer Websites Produkte drehen und aus verschiedenen Perspektiven betrachten. Sie können eindimensionale und zweidimensionale Rotationssets erstellen. Siehe Kurzanleitung: Rotationssets.
+* **Rotationssets**-Sequenzbilder, um sie horizontal zu drehen. Anhand von Rotationssets können Besucher Ihrer Websites Produkte drehen und aus verschiedenen Perspektiven betrachten. Sie können eindimensionale und zweidimensionale Rotationssets erstellen. Siehe [Kurzanleitung: Rotationssets](/help/quick-start-spin-sets.md).
 
-**Mustersets** Stellen ein interaktives Einkaufserlebnis bereit, in dem Benutzer Produkte in unterschiedlichen Farben und Mustern anzeigen können. Sie können Zoomfunktionen, verschiedene Ansichten und Farbfelder zu einer integrierten Darstellung kombinieren. Siehe Kurzanleitung: Mustersets.
+* **Mustersets** Bieten Sie eine interaktive Einkaufserfahrung, bei der Benutzer Produkte in verschiedenen Farben und Mustern anzeigen können. Sie können Zoomfunktionen, verschiedene Ansichten und Farbfelder zu einer integrierten Darstellung kombinieren. See [Quick Start: Swatch Sets](/help/quick-start-swatch-sets.md).
 
-**Vorlagen aus Grundelementen** erstellen Sie datenbasierte Vorlagen, die Schriftarten, Bilder und Grafiken für die Monogrammerstellung, Online-Personalisierung und Werbeaktionen kombinieren. Beispielsweise können Sie Ebenen mit Hinweisen auf Ausverkaufs- oder Werbeaktionen über Produktbilder legen oder die Namen von Kunden auf T-Shirts oder Kaffeetassen platzieren. Die Kunden können ihre Namen in den von Ihnen gesendeten E-Mails oder Printwerbebroschüren sehen. Siehe Kurzanleitung: Vorlagen aus Grundelementen.
+* **Vorlagen aus Grundelementen** Erstellen datengesteuerter Vorlagen, die Schriftarten, Bilder und Grafiken zu Monogramming, Online-Personalisierung und Promotions kombinieren. Beispielsweise können Sie Ebenen mit Hinweisen auf Ausverkaufs- oder Werbeaktionen über Produktbilder legen oder die Namen von Kunden auf T-Shirts oder Kaffeetassen platzieren. Die Kunden können ihre Namen in den von Ihnen gesendeten E-Mails oder Printwerbebroschüren sehen. Siehe [Kurzanleitung: Vorlagen aus Grundelementen](/help/quick-start-template-basics.md).
 
-**Vorlagen für Veröffentlichungen** Erstellen Sie professionelle Markeninhalte, die Ihren Kunden, Kunden und Mitarbeitern leicht angepasst und personalisiert werden können. Auf diese Weise wird dafür gesorgt, dass Unternehmensinhalte und die Markenidentität im gesamten Veröffentlichungsprozess konsistent einheitlich präsentiert wird. Die Endbenutzer können die Druckinhalte individuell anpassen, allerdings nur in dem Rahmen, den Sie ihnen erlauben. Beispiele für solche angepasste Druckprodukte sind personalisiertes Briefpapier, Visitenkarten, Poster, Grußkarten, Etiketten, Schecks, Geschenke, Kleidungsstücke, Kalender, Sammelalben und Fotoalben. Unternehmen können so für eine einheitliche Markenidentität in ihren Materialien sorgen, die für die einzelnen Regionen, Franchisepartner, Geschäfte und Niederlassungen angepasst werden kann. Siehe Kurzanleitung: Vorlagen für Veröffentlichungen.
+* **Vorlagen für Veröffentlichungen** Erstellen Sie professionelle Markeninhalte, die für Ihre Kunden, Kunden und Mitarbeiter einfach anzupassen und zu personalisieren sind. Auf diese Weise wird dafür gesorgt, dass Unternehmensinhalte und die Markenidentität im gesamten Veröffentlichungsprozess konsistent einheitlich präsentiert wird. Die Endbenutzer können die Druckinhalte individuell anpassen, allerdings nur in dem Rahmen, den Sie ihnen erlauben. Beispiele für solche angepasste Druckprodukte sind personalisiertes Briefpapier, Visitenkarten, Poster, Grußkarten, Etiketten, Schecks, Geschenke, Kleidungsstücke, Kalender, Sammelalben und Fotoalben. Unternehmen können so für eine einheitliche Markenidentität in ihren Materialien sorgen, die für die einzelnen Regionen, Franchisepartner, Geschäfte und Niederlassungen angepasst werden kann. Siehe [Kurzanleitung: Vorlagen für Veröffentlichungen](/help/quick-start-template-publishing.md).
 
-**Zoomziele** Ermöglichen es Kunden, mithilfe der konfigurierbaren Viewer, die mit Dynamic Media Classic geliefert werden, ein- und auszuzoomen und Bilder zu schwenken. Auf diese Weise können die Kunden Produktdetails schnell und interaktiv in hoher Auflösung anzeigen. Siehe Kurzanleitung: Zoom.
+* **Zoomziele** Ermöglicht Kunden das Vergrößern, Verkleinern und Schwenken von Bildern mithilfe der konfigurierbaren Viewer, die im Lieferumfang von Dynamic Media Classic enthalten sind. Auf diese Weise können die Kunden Produktdetails schnell und interaktiv in hoher Auflösung anzeigen. Siehe [Kurzanleitung: Zoom](/help/quick-start-zoom.md).
