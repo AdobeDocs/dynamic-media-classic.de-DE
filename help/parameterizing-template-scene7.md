@@ -3,23 +3,23 @@ title: Parametrisieren einer Vorlage in Dynamic Media Classic
 seo-title: Parametrisieren einer Vorlage in Dynamic Media Classic
 description: 'null'
 seo-description: Erfahren Sie, wie Sie eine Vorlage in Dynamic Media Classic parametrisieren.
-uuid: 27 c 8 c 8 b 4-47 f 3-4270-a 6 db-d 304648 ba 357
+uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/template-publishing
-discoiquuid: df 1 a 9 ff 5-a 5 ba -4480-ba 0 d-a 19 bc 665 f 907
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Parametrisieren einer Vorlage in Dynamic Media Classic{#parameterizing-a-template-in-scene}
 
-Nachdem Sie eine Illustrator-Vorlage hochgeladen haben, die Sie als Dynamic Media Classic FXG in das Scene 7 Publishing System gespeichert haben, können Sie deren Variablenelemente definieren. Parametrisieren Sie dazu die variablen Elemente in den Anzeigebereichen „Erstellen“ und „Vorschau“ von Vorlagen für Veröffentlichungen. Dynamic Media Classic bietet Werkzeuge zum Definieren von Text- und Objektparametern auf Ebenen und deren entsprechenden Eigenschaften. Außerdem können Sie verschiedene Versionen einer Vorlage erstellen.
+Nach dem Hochladen einer Illustrator-Vorlage, die Sie als FXG für dynamische Medien in das Scene7 Publishing System gespeichert haben, können Sie die variablen Elemente definieren. Parametrisieren Sie dazu die variablen Elemente in den Anzeigebereichen „Erstellen“ und „Vorschau“ von Vorlagen für Veröffentlichungen. Dynamic Media Classic bietet Werkzeuge zum Definieren von Text- und Objektparametern auf Ebenen und deren Eigenschaften. Außerdem können Sie verschiedene Versionen einer Vorlage erstellen.
 
-Durch Parametrisierung einer FXG-Vorlage lassen sich die Variabilität von Text, Bildern und Grafiken in der Vorlage anpassen. So können Sie z. B. eine Textzeile so parametrisieren, dass die Endbenutzer den Text in der gesamten Webbenutzeroberfläche ändern können. Sie können auch leere Textfelder als Variablen definieren, sodass die Endbenutzer diese Felder mit personalisiertem Text füllen können. Sie können die Attribute und Eigenschaften von Designelementen im Anzeigebereich "Dynamic Media Classic Template Publishing Build" auch parametrisieren.
+Durch Parametrisierung einer FXG-Vorlage lassen sich die Variabilität von Text, Bildern und Grafiken in der Vorlage anpassen. So können Sie z. B. eine Textzeile so parametrisieren, dass die Endbenutzer den Text in der gesamten Webbenutzeroberfläche ändern können. Sie können auch leere Textfelder als Variablen definieren, sodass die Endbenutzer diese Felder mit personalisiertem Text füllen können. Sie können die Attribute und Eigenschaften von Designelementen auch im Anzeigebereich "Erstellen von Dynamischen Medien-Classic-Vorlagen für Veröffentlichungen"parametrisieren.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte in Dynamic Media Classic aus, um Parameter f�
 
    Der Anzeigebereich „Vorlagen für Veröffentlichungen“ wird geöffnet. 
 
-1. Wählen Sie lrco\ FXG\ Welcome_ Summit_ 10 (FXG-Datei) und klicken Sie auf **Erstellen** &gt; **Vorlagen für Veröffentlichungen**.</p>
+1. Wählen Sie LRCo\FXG\Welcome_Summit_10 (FXG-Datei) und klicken Sie auf **Erstellen** &gt; **Vorlagen für Veröffentlichungen**.</p>
 
    ![](assets/wp_fxg_edit.png)
 
@@ -46,10 +46,9 @@ Führen Sie die folgenden Schritte in Dynamic Media Classic aus, um Parameter f�
 
 1. Klicken Sie im Eigenschaftenbedienfeld in der Spalte „Name“ (wenn Sie Text parametrisieren möchten) oder in der Spalte „Parameter“ (wenn Sie Objekte parametrisieren möchten) auf einen Parameter.
 
-   **Text** klicken Sie im Textfeld (Bildlauf unten in der Liste Eigenschaften, um ihn zu finden). Das Dialogfeld „Parameter“ wird angezeigt. Select the text that you want to parameterize and click **Add**. Sie können aus ein und derselben Texteigenschaft mehrere Parameter erstellen, indem Sie unterschiedliche Abschnitte des Texts auswählen und für jeden Abschnitt Parameter hinzufügen. To change the name of the parameter, click it, enter a new name, and click **Close**.
+   * **Text** Klicken Sie auf das Textfeld (blättern Sie zum Suchen nach dem Textfeld zum unteren Rand der Liste Eigenschaften). Das Dialogfeld „Parameter“ wird angezeigt. Select the text that you want to parameterize and click **Add**. Sie können aus ein und derselben Texteigenschaft mehrere Parameter erstellen, indem Sie unterschiedliche Abschnitte des Texts auswählen und für jeden Abschnitt Parameter hinzufügen. To change the name of the parameter, click it, enter a new name, and click **Close**.
 
-   **Objekte** Klicken Sie auf ein Feld in der Spalte Parameter. Das Dialogfeld „Parameter bearbeiten“ wird angezeigt. Enter a name and click **OK**.
-
+   * **Objekte** Klicken Sie auf ein Feld in der Spalte Parameter. Das Dialogfeld „Parameter bearbeiten“ wird angezeigt. Enter a name and click **OK**.
    Sie haben die Möglichkeit, mehrere Attribute auf einmal mit demselben Wert anzupassen, indem Sie für jedes der gewünschten Attribute denselben Parameternamen verwenden. For example, if your template has a rectangle and a star, you can type `newcolor` as the Parameter name for the SolidColor color attribute of each. Whenever you change the `newcolor` value, both the rectangle and the star change to the new color.
 
 1. Legen Sie im Feld „Wert“ oder „Daten“ einen Standardwert für das Attribut fest. Stellen Sie alle Eigenschaften des ausgewählten Objekts ein, um genau das gewünschte Erscheinungsbild zu erhalten.
@@ -72,7 +71,7 @@ Wenn Sie die Datei als neue FXG-Vorlage speichern möchten, ohne die ursprüngli
 
 ## Verwenden von Text mit Kontur {#using-stroked-text}
 
-Text mit Kontur ist ein Beispiel für die Parametrisierung von Attributen. Dynamic Media Classic unterstützt diese Funktionen für kontur:
+Text mit Kontur ist ein Beispiel für die Parametrisierung von Attributen. Dynamic Media Classic unterstützt die folgenden Funktionen für Text mit Kontur:
 
 * Breite der Kontur
 * Gestricheltes Konturmuster
@@ -117,11 +116,11 @@ Jedes Attribut enthält einen Wertesatz.
 
 | Attribut | Werte | Standard |
 |--- |--- |--- |
-| Stile 7: Warpstyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | keine |
-| Richtung 7: Warpdirection | horizontalvertical | horizontal |
-| Biegung 7: Warpbend | -1 bis 1 | 0,5 |
-| Horizontale Verzerrung 7: Warphorizontaldistortion | -1 bis 1 | 0 |
-| Vertikale Verzerrung 7: Warpverticaldistortion | -1 bis 1 | 0 |
+| Styles7:warpStyle | nonearcarcLowerarcUpperarchbulgeshellLowershellUpperflagwavefishrisefishEyeinflatesqueezetwist | keine |
+| Directions7:warpDirection | horizontalvertical | horizontal |
+| Bends7:warpBend | -1 bis 1 | 0,5 |
+| Horizontale Verzerrungen7:warpHorizontalDistortion | -1 bis 1 | 0 |
+| Vertikale Verzerrungen7:warpVerticalDistortion | -1 bis 1 | 0 |
 
 >[!NOTE]
 >
