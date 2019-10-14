@@ -2,15 +2,15 @@
 title: Erstellen eines PDF-Dokuments
 seo-title: Erstellen eines PDF-Dokuments
 description: 'null'
-seo-description: Erfahren Sie, wie Sie mit dem Web-to-Print-Prozess in Dynamic Media Classic ein PDF-Dokument erstellen.
-uuid: 274 fb 6 b -320 b -40 fa -8 b 61-c 224 d 8 aceaa 1
+seo-description: Erfahren Sie, wie Sie ein PDF-Dokument mithilfe des Web-to-Print-Prozesses in Dynamic Media Classic erstellen.
+uuid: 274fb06b-320b-40fa-8b61-c224d8aceaa1
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/template-publishing
-discoiquuid: 87 e 91 e 8 e -10 a 2-4 fba -87 c 7-aad 2 bd 798146
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 87e91e8e-10a2-4fba-87c7-aad2bd798146
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,7 +21,7 @@ Als letzten Schritt im Web-to-Print-Prozess wird die benutzerdefinierte PDF gene
 
 ## Einstellen von PDF-Vorgaben {#setting-up-pdf-presets}
 
-Geben Sie die PDF-Kompatibilitätsstufe und die Druckereinstellungen an, indem Sie eine PDF-joboptions-Datei erstellen und auf den dynamischen Media Classic-Server hochladen. Sie können z. B. PDF/X-4-kompatible PDF-Ausgabe wählen (für PDF-Druck-/-Veröffentlichungsworkflows empfohlen). Sie können die JobOptions-Datei in ihrer Authoring Software (wie z. B. Adobe Illustrator) oder in Acrobat erstellen. Konsultieren Sie stets Ihre Druckerei, um die richtigen Auftragsoptionseinstellungen für Ihren Druckauftrag zu erhalten.
+Geben Sie die PDF-Kompatibilitätsstufe und Druckereinstellungen an, indem Sie eine PDF-JobOptions-Datei erstellen und auf den Dynamic Media Classic Server hochladen. Sie können z. B. PDF/X-4-kompatible PDF-Ausgabe wählen (für PDF-Druck-/-Veröffentlichungsworkflows empfohlen). Sie können die JobOptions-Datei in ihrer Authoring Software (wie z. B. Adobe Illustrator) oder in Acrobat erstellen. Konsultieren Sie stets Ihre Druckerei, um die richtigen Auftragsoptionseinstellungen für Ihren Druckauftrag zu erhalten.
 
 Weitere Informationen zum Erstellen von JobOptions-Dateien sowie Informationen zum Erstellen einer JobOptions-Datei in Acrobat finden Sie in der Adobe Acrobat-Hilfe.
 
@@ -46,7 +46,7 @@ So erstellen Sie eine JobOptions-Datei in Illustrator
 
    >[!NOTE]
    >
-   >Dynamic Media Classic ignoriert Druckzeicheneinstellungen in der joboptions-Datei. Stattdessen werden Druckermarken über die URL Dynamic Media Classic URL konfiguriert.
+   >Dynamic Media Classic ignoriert Druckermarkierungseinstellungen in der JobOptions-Datei. Stattdessen werden Druckmarken mithilfe der URL-Befehle von Dynamic Media Classic konfiguriert.
 
 1. Klicken Sie auf „Exportieren“, geben Sie einen Namen und Speicherort an, und klicken Sie auf „Speichern“.
 1. Laden Sie die JobOptions-Datei als Asset zum Scene7 Publishing System hoch.
@@ -61,23 +61,23 @@ Befolgen Sie die in diesem Abschnitt erläuterten Richtlinien, bevor Sie letzte 
 
 **Bilder**
 
-Stellen Sie sicher, dass alle Bilder in Ihrem Veröffentlichungsauftrag auf Ihren dynamischen Media Classic Server hochgeladen und veröffentlicht wurden.
+Vergewissern Sie sich, dass alle Bilder in Ihrem Veröffentlichungsauftrag auf Ihren Dynamic Media Classic-Server hochgeladen und veröffentlicht wurden.
 
 **Schriftarten**
 
-Stellen Sie sicher, dass alle Schriftarten in Ihrem Veröffentlichungsauftrag auf Ihren dynamischen Media Classic Server hochgeladen und veröffentlicht wurden. Vergewissern Sie sich, dass Sie über die rechtlichen Berechtigungen zum Hosten der Schriftarten verfügen, wenn Sie möchten, dass Endbenutzer sie ändern können.
+Vergewissern Sie sich, dass alle Schriftarten in Ihrem Veröffentlichungsauftrag auf Ihren Dynamic Media Classic-Server hochgeladen und veröffentlicht wurden. Vergewissern Sie sich, dass Sie über die rechtlichen Berechtigungen zum Hosten der Schriftarten verfügen, wenn Sie möchten, dass Endbenutzer sie ändern können.
 
 **Bildauflösung (Pixel pro Zoll)**
 
-Die Auflösung von Bitmapbildern wird vom Dynamic Media Classic-Server in generierten druckfertigen pdfs beibehalten. Dynamic Media Classic skaliert die Bildauflösung bei Bedarf hoch. Um optimale Ergebnisse zu gewährleisten, belassen Sie die Auflösung bei der Vorschau im Internet auf dem Standardwert (normalerweise 72 DPI). Die Standardauflösung für alle Bilder in Ihrem Unternehmen wird im Fenster „Einstellungen für Veröffentlichungen“/„Image-Server“ im Abschnitt „Standarddruckauflösung“ festgelegt. Höhere Auflösungen (wie z. B. 300 DPI) können eine längere Verarbeitungszeit zur Folge haben und sollten nur bei druckfertigen PDFs angewendet werden. Mit dem Befehl „imageRes=“ in der URL setzen Sie die Standardauflösung für PDF-Aufträge manuell außer Kraft.
+Die Auflösung von Bitmapbildern wird vom Dynamic Media Classic-Server in generierten druckfertigen PDFs beibehalten. Bei Dynamic Media Classic wird bei Bedarf die Bildauflösung skaliert. Um optimale Ergebnisse zu gewährleisten, belassen Sie die Auflösung bei der Vorschau im Internet auf dem Standardwert (normalerweise 72 DPI). Die Standardauflösung für alle Bilder in Ihrem Unternehmen wird im Fenster „Einstellungen für Veröffentlichungen“/„Image-Server“ im Abschnitt „Standarddruckauflösung“ festgelegt. Höhere Auflösungen (wie z. B. 300 DPI) können eine längere Verarbeitungszeit zur Folge haben und sollten nur bei druckfertigen PDFs angewendet werden. Mit dem Befehl „imageRes=“ in der URL setzen Sie die Standardauflösung für PDF-Aufträge manuell außer Kraft.
 
 **Farbmanagement**
 
-Für Ihre Dokumente und Bilder können Graustufen-, CMYK-, benannte Volltonfarben-, RGB- oder Lab-Farbenmodelle verwendet werden. Jede wird unkalibriert oder kalibriert unter Anwendung eines ICC-Farbprofils verwendet. Die besten Ergebnisse werden durch Einbettung des Profils in die generierte, druckfertige PDF erzielt. Der dynamische Media Classic Server wird standardmäßig verwendet. Stellen Sie sicher, dass alle erforderlichen Farbprofile auf die dynamische Media Classic Classic-Plattform hochgeladen wurden. Stellen Sie vorzugsweise sicher, dass die in Ihrer Design-Anwendung festgelegten Farbmanagementoptionen mit denen in Ihrem dynamischen Media Classic-Server übereinstimmen:
+Für Ihre Dokumente und Bilder können Graustufen-, CMYK-, benannte Volltonfarben-, RGB- oder Lab-Farbenmodelle verwendet werden. Jede wird unkalibriert oder kalibriert unter Anwendung eines ICC-Farbprofils verwendet. Die besten Ergebnisse werden durch Einbettung des Profils in die generierte, druckfertige PDF erzielt. Der Server von Dynamic Media Classic führt dies standardmäßig aus. Vergewissern Sie sich, dass alle erforderlichen Farbprofile auf die Dynamic Media Classic-Plattform hochgeladen wurden. Achten Sie vorzugsweise darauf, dass die in Ihrer Designanwendung festgelegten Farbmanagementoptionen mit den in Ihrem Dynamic Media Classic Server festgelegten übereinstimmen:
 
-**Farbmanagementeinstellungen in der Design-Anwendung:** Geben Sie in den Farbeinstellungen Ihrer Authoring Software (wie z. B. Adobe Illustrator) die RGB- und CMYK-Farbprofile im Arbeitsfarbraumabschnitt an.
+* **Farbmanagementeinstellungen in der Design-Anwendung:** Geben Sie in den Farbeinstellungen Ihrer Authoring Software (wie z. B. Adobe Illustrator) die RGB- und CMYK-Farbprofile im Arbeitsfarbraumabschnitt an.
 
-**Farbmanagementeinstellungen für dynamische Medien Classic:** In der Regel sollten die Farbmanagementeinstellungen in der Designanwendung mit den Standardfarbprofilen auf Ihrem dynamischen Media Classic-Server übereinstimmen. Diese Einstellungen finden Sie im Fenster „Veröffentlichungseinstellungen/Image-Server“.
+* **** Einstellungen für das dynamische Medienklassische Farbmanagement: In der Regel sollten die Farbmanagementeinstellungen in der Designanwendung mit den Standardfarbprofilen in Ihrem Dynamic Media Classic-Server übereinstimmen. Diese Einstellungen finden Sie im Fenster „Veröffentlichungseinstellungen/Image-Server“.
 
 ## Anzeigen von Druckmarken {#displaying-printer-marks}
 
@@ -101,22 +101,22 @@ Alle im Anzeigebereich zum Hinzufügen von Druckermarken in Acrobat verfügbaren
 
 Bei der Vorbereitung eines Dokuments für den Druck sind möglicherweise Druckmarken erforderlich, damit der Druckdienstleister Trennfilme für Proofs besser ausrichten, Filme für die richtige Kalibrierung und Tintendichte besser abmessen, Filme besser auf die richtige Größe zuschneiden kann usw. Druckmarken geben die Begrenzungen von Dokumentrahmen wie Endformatrahmen und Anschnittrahmen an. Zu den produktionsrelevanten Inhalten gehören u. a.:
 
-**Medienfeld** Die Grenzen des physischen Mediums, auf dem die Seite gedruckt wird. Inhalte außerhalb des Medienrahmens können ohne Bedenken verworfen werden; die bedeutsamen Dateiinhalte werden nicht beeinträchtigt.
+* **Medienrahmen** Die Grenzen des physischen Mediums, auf dem die Seite gedruckt wird. Inhalte außerhalb des Medienrahmens können ohne Bedenken verworfen werden; die bedeutsamen Dateiinhalte werden nicht beeinträchtigt.
 
-**Anschnittrahmen** Der Bereich, auf den der Inhalt der Seite zugeschnitten wird, wenn der Inhalt in einer Produktionsumgebung ausgegeben wird. Der Anschnittrahmen kann Bereiche enthalten, die aufgrund der physischen Einschränkungen von Schnitt-, Faltungs- und Zuschnittgeräten erforderlich sind. Der Standardwert ist der Maskenrahmen der Seite.
+* **Anschnittrahmen** Der Bereich, auf den der Inhalt der Seite bei der Ausgabe in einer Produktionsumgebung abgeschnitten wird. Der Anschnittrahmen kann Bereiche enthalten, die aufgrund der physischen Einschränkungen von Schnitt-, Faltungs- und Zuschnittgeräten erforderlich sind. Der Standardwert ist der Maskenrahmen der Seite.
 
-**Endformatrahmen** Die vorgesehenen Abmessungen der fertigen Seite nach dem Zuschneiden. Der Endformatrahmen kann kleiner als der Medienrahmen sein, um produktionsrelevante Inhalte wie Druckanweisungen, Schnittmarken und Farbbalken zu ermöglichen. Der Standardwert ist der Maskenrahmen der Seite.
+* **Endformatrahmen** Die vorgesehenen Abmessungen der fertigen Seite nach dem Beschneiden. Der Endformatrahmen kann kleiner als der Medienrahmen sein, um produktionsrelevante Inhalte wie Druckanweisungen, Schnittmarken und Farbbalken zu ermöglichen. Der Standardwert ist der Maskenrahmen der Seite.
 
-**Art der Seite** Die Größe des aussagekräftigen Inhalts der Seite (einschließlich potenzieller Leerzeichen), wie sie vom Ersteller der Seite beabsichtigt ist. Der Standardwert ist der Maskenrahmen der Seite.
+* **Objektrahmen** Der Umfang des aussagekräftigen Inhalts der Seite (einschließlich potenzieller Leerraum), wie vom Ersteller der Seite beabsichtigt. Der Standardwert ist der Maskenrahmen der Seite.
 
 Sie können die in der folgenden Tabelle aufgeführten Modifikatoren verwenden, um die in Adobe Illustrator, InDesign und Acrobat verfügbaren Druckmarken zu replizieren:
 
 | Modifikator/Werte | Beschreibung |
 |--- |--- |
-| bleedMargin=top, left, bottom, right | Dieser wird in Acrobat mit der Option „Seiten beschneiden“ angegeben. Wählen Sie „BleedBox“, und geben Sie die Ränder mit der Option „Randeinstellungen“ an.<br><br>Die Werte stehen für den Abstand des oberen, linken, unteren und rechten Randes von den ursprünglichen Rändern des Bildmaterials (des Medienrahmens) nach innen. Werte (0-1000) befinden sich in Punkten.<br><br>Neue Höhe = Originalhöhe - (oben + unten)<br><br>Neue Breite = ursprüngliche Breite - (links + rechts) |
-| mediaMargin=top, left, bottom, right | Dieser wird in Acrobat mit der Option „Seiten beschneiden“ angegeben. Ändern Sie die benutzerdefinierte Seitengröße unter der Option „Seitengröße ändern“.<br><br>Die Werte stehen für den Abstand des oberen, linken, unteren und rechten Randes von den ursprünglichen Rändern des Bildmaterials (des Medienrahmens) nach außen. Werte (0-1000) befinden sich in Punkten.<br><br>Neue Höhe = oben + unten + Original heightneue<br><br>Breite = top + bottom + ursprüngliche widthdie<br><br>neue Höhe und neue Werte bestimmen das neue Seitenformat der generierten PDF.<br><br>Sobald ein neuer Medienrahmen definiert wurde, muss bei allen Berechnungen des Endformat- und des Anschnittrahmens der Medienrahmen als Kante des Bildmaterials berücksichtigt werden. |
-| trimMargin=top, left, bottom, right | Dieser wird in Acrobat mit der Option „Seiten beschneiden“ angegeben. Wählen Sie „Endformatrahmen“, und geben Sie mit der Option „Randeinstellungen“ die Ränder an.<br><br>Die Werte stehen für den Abstand des oberen, linken, unteren und rechten Randes von den ursprünglichen Rändern des Bildmaterials (des Medienrahmens) nach innen. Werte (0-1000) befinden sich in Punkten.<br><br>Neue Höhe = Originalhöhe - (oben + unten)<br><br>Neue Breite = ursprüngliche Breite - (links + rechts) |
-| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | Die Werte lauten wie folgt:<br><br>trim marks = 0,1 (Standard is 0)<br><br>bleed marks = 0,1 (Standard is 0)<br><br>registration marks = 0,1 (Standard is 0)<br><br>color bars = 0,1 (Standard: 0)<br><br>page information = 0, indesignj 2<br><br>, Indesignj 2, indesignj 1, Indesignj 2, Illustrator, illustratorj, quarkxpress (Standard ist Standard)<br><br>Linienstärke = 0.125-0.2; beide Werte inklusive (Standard: 0.25)<br><br>layer embed = 0, 1, wobei 1 eine neue Ebene mit allen Druckmarken (Standard ist 1)<br><br>eingeblendet werden, werden die Marken und Farbleisten unterschiedlich dargestellt und entsprechen den entsprechenden Stilen verwendet von Acrobat. |
+| bleedMargin=top, left, bottom, right | Dieser wird in Acrobat mit der Option „Seiten beschneiden“ angegeben. Wählen Sie „BleedBox“, und geben Sie die Ränder mit der Option „Randeinstellungen“ an.<br><br>Die Werte stehen für den Abstand des oberen, linken, unteren und rechten Randes von den ursprünglichen Rändern des Bildmaterials (des Medienrahmens) nach innen. Die Werte (0-1000) werden in Punkt angegeben.<br><br>Neue Höhe = ursprüngliche Höhe - (oben + unten)<br><br>Neue Breite = ursprüngliche Breite - (links + rechts) |
+| mediaMargin=top, left, bottom, right | Dieser wird in Acrobat mit der Option „Seiten beschneiden“ angegeben. Ändern Sie die benutzerdefinierte Seitengröße unter der Option „Seitengröße ändern“.<br><br>Die Werte stehen für den Abstand des oberen, linken, unteren und rechten Randes von den ursprünglichen Rändern des Bildmaterials (des Medienrahmens) nach außen. Die Werte (0-1000) werden in Punkt angegeben.<br><br>Neue Höhe=oben+unten+ursprüngliche<br><br>HöheNeue Breite=oben+unten+ursprüngliche<br><br>BreiteDie neuen Werte für Höhe und Breite bestimmen die neue Seitengröße der erstellten PDF.<br><br>Sobald ein neuer Medienrahmen definiert wurde, muss bei allen Berechnungen des Endformat- und des Anschnittrahmens der Medienrahmen als Kante des Bildmaterials berücksichtigt werden. |
+| trimMargin=top, left, bottom, right | Dieser wird in Acrobat mit der Option „Seiten beschneiden“ angegeben. Wählen Sie „Endformatrahmen“, und geben Sie mit der Option „Randeinstellungen“ die Ränder an.<br><br>Die Werte stehen für den Abstand des oberen, linken, unteren und rechten Randes von den ursprünglichen Rändern des Bildmaterials (des Medienrahmens) nach innen. Die Werte (0-1000) werden in Punkt angegeben.<br><br>Neue Höhe = ursprüngliche Höhe - (oben + unten)<br><br>Neue Breite = ursprüngliche Breite - (links + rechts) |
+| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | Die Werte lauten wie folgt:<br><br>trim marks = 0,1 (Standard: 0)<br><br>bleed marks = 0,1 (Standard: 0)<br><br>registration marks = 0,1 (Standard: 0)<br><br>color bars = 0,1 (Standard: 0)<br><br>page information = 0,1 (Standard: 0)<br><br>style = Default, InDesignJ1, InDesignJ2, Illustrator, J, QuarkXPress (Standard)<br><br>line weight= 0.125-0.2, beide Werte einschließlich (Standard: 0.25)<br><br>layer embed = 0, 1, wobei 1 eine neue Ebene mit allen Druckermarken (Standard: 1)<br><br>Je nach verwendetem Stil erscheinen die Markierungen und Farbleisten unterschiedlich und entsprechen den entsprechenden Stilen, die Acrobat verwendet. |
 
 Folgendes ist zu Druckmarken zu beachten:
 
