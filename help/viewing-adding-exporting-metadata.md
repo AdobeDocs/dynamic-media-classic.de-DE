@@ -3,37 +3,37 @@ title: Anzeigen, Hinzufügen und Exportieren von Metadaten
 seo-title: Anzeigen, Hinzufügen und Exportieren von Metadaten
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Metadaten anzeigen, hinzufügen und exportieren.
-uuid: a 5254 c 51-9 e 04-45 ae -8236-3 eab 2925 e 5 fc
+uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 5414 b 4 f 5-6 e 5-468 c -8725-385423596342
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Anzeigen, Hinzufügen und Exportieren von Metadaten{#viewing-adding-and-exporting-metadata}
 
-Sie haben die Möglichkeit, spezifische Informationen über die Dateien, mit denen Sie arbeiten, im Scene7 Publishing System zu speichern. Diese Informationen werden als *Metadaten* bezeichnet. Sie können Metadaten in Dynamic Media Classic verwenden, um Ihre Assets zu organisieren, zu durchsuchen, zu filtern und zu sortieren.
+Sie haben die Möglichkeit, spezifische Informationen über die Dateien, mit denen Sie arbeiten, im Scene7 Publishing System zu speichern. Diese Informationen werden als *Metadaten* bezeichnet. Sie können in Dynamic Media Classic Metadaten zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
 
-Metadaten werden in der Detailansicht zusammen mit dynamischem Media-generierten Informationen wie Dateierstellungsdatum, Veröffentlichungsdatum und Suchbegriffen angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
+Metadaten werden in der Detailansicht zusammen mit von Dynamic Media Classic generierten Informationen wie dem Dateierstellungsdatum, dem Veröffentlichungsdatum und Schlüsselwörtern angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
 
-Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Dynamic Media Classic sie automatisch mit der Datei hoch. Sie können Metadaten in Adobe Photoshop, indesign, Illustrator und anderen Anwendungen in Quell-Assets einbetten; Diese Metadaten werden von Dynamic Media Classic erkannt. Sie können in der Detailansicht über das Metadatenbedienfeld auch einzelnen Dateien Metadaten hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
+Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Dynamic Media Classic sie automatisch mit der Datei hoch. Sie können Metadaten in Adobe Fotoshop, InDesign, Illustrator und anderen Anwendungen in Quellelemente einbetten. Dynamic Media Classic erkennt diese Metadaten. Sie können in der Detailansicht über das Metadatenbedienfeld auch einzelnen Dateien Metadaten hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Anzeigen von Metadaten {#view-metadata}
 
-Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und klicken Sie auf das Metadatenbedienfeld. Wählen Sie anschließend eine Option aus dem Menü „Metadaten-Ansichten“ aus, um einen Metadatenfeldersatz auszuwählen. Dynamic Media Classic bietet diese Metadaten-Ansichten:
+Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und klicken Sie auf das Metadatenbedienfeld. Wählen Sie anschließend eine Option aus dem Menü „Metadaten-Ansichten“ aus, um einen Metadatenfeldersatz auszuwählen. Dynamic Media Classic bietet folgende Metadaten-Ansichten:
 
-**Kompakte Ansicht** einer einfachen Werteliste.
+* **Kompakte Ansicht** Eine grundlegende Liste von Werten.
 
-**IPTC** -Werte gemäß der Definition vom International Press Telecommunications Council.
+* **IPTC**-Werte, wie vom International Press Telecommunications Council definiert.
 
-**XMP** -Werte, wie von der Extensible Metadata Platform definiert.
+* **XMP**-Werte, wie von der Extensible Metadata Platform definiert.
 
 Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü „Metadaten-Ansichten“ angezeigt. Weitere Informationen zum Erstellen von Metadaten-Ansichten finden Sie unter [Metadaten-Ansichten](application-setup.md#metadata_views).
 
@@ -67,7 +67,7 @@ Wenn Sie während dieser Sitzung Schlüsselwörter zu anderen Dateien hinzugefü
 1. Um ein Schlüsselwort zu entfernen, wählen Sie es aus und klicken dann auf „Entfernen“. Es wird in die Tabelle für Schlüsselwortvorschläge verschoben.
 
 >[!NOTE]
-Sie können Dateien während des Hochladens in Dynamic Media Classic Suchbegriffe hinzufügen. Klicken Sie dazu im Dialogfeld „Upload-Auftragsoptionen“ auf „Zusätzliche Metadaten“ und geben Sie die Schlüsselwörter ein. Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
+Sie können Dateien beim Hochladen in Dynamic Media Classic Suchbegriffe hinzufügen. Klicken Sie dazu im Dialogfeld „Upload-Auftragsoptionen“ auf „Zusätzliche Metadaten“ und geben Sie die Schlüsselwörter ein. Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
 ## Importieren von Metadaten {#import-metadata}
 
@@ -143,7 +143,7 @@ Im Auftragsprotokoll für den Metadatenauftrag wird festgehalten, welche IDs erf
 
 ## Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic bietet einen Befehl zum Erstellen einer Vorlage zum Speichern von Metadaten. Mit dieser Vorlage können Sie sicherstellen, dass die Metadaten im richtigen Format eingegeben und fehlerlos in das Scene7 Publishing System importiert werden. Gehen Sie folgendermaßen vor, um eine Vorlage zum Eingeben und Importieren von Metadaten in das Scene7 Publishing System zu erstellen:
+Dynamic Media Classic bietet einen Befehl zum Erstellen einer Vorlage zum Aufzeichnen von Metadaten. Mit dieser Vorlage können Sie sicherstellen, dass die Metadaten im richtigen Format eingegeben und fehlerlos in das Scene7 Publishing System importiert werden. Gehen Sie folgendermaßen vor, um eine Vorlage zum Eingeben und Importieren von Metadaten in das Scene7 Publishing System zu erstellen:
 
 1. Wählen Sie Bildassets mit Metadatenfeldern aus, die Sie in der Vorlage verwenden möchten.
 1. Wählen Sie „Datei“ &gt; „Metadaten importieren“.
