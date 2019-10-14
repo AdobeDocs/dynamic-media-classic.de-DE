@@ -3,14 +3,14 @@ title: Arbeiten mit Asset-Ordnern
 seo-title: Arbeiten mit Asset-Ordnern
 description: 'null'
 seo-description: Erfahren Sie, wie Sie mit Asset-Ordnern arbeiten.
-uuid: 3 bd 83701-e 2 c 2-4 e 39-b 225-c 2 d 27 ad 836 c 2
+uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 588944 c 3-78 ba -4 bd 1-a 8 da -9 a 6 dd 99 a 27 a 9
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,15 +25,15 @@ Legen Sie unbedingt eine Ordnerstruktur und -anordnung zum Speichern Ihrer Datei
 
 In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie in der Asset-Bibliothek einen Ordner auswählen, wird der Ordnerinhalt im Durchsuchenbedienfeld angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
-**Anzeigen von Unterordnern** Aktivieren Sie das Symbol "Ordner erweitern" , um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Anzeigen von Unterordnern** Wählen Sie das Symbol "Ordner erweitern", um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-**Verschieben eines Ordners** Sie können einen Ordner verschieben, indem Sie ihn verschieben und an seiner neuen Position ablegen oder indem Sie "Datei" &gt;" Ordner verschieben" wählen.
+* **Verschieben eines Ordners** Sie können einen Ordner verschieben, indem Sie ihn ziehen und an seinem neuen Speicherort ablegen oder indem Sie "Datei"&gt; "Ordner verschieben"wählen.
 
-**Ausblenden von Ordnern** Wählen Sie das Symbol "Ordner reduzieren" , um Unterordner auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Ausblenden von Ordnern** Wählen Sie das Symbol zum Reduzieren von Ordnern aus, um Unterordner auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-**Öffnen eines Ordners** Wählen Sie einen Ordner aus, um dessen Inhalt im Durchsuchenbedienfeld anzuzeigen.
+* **Öffnen eines Ordners** Wählen Sie einen Ordner aus, um dessen Inhalt im Durchsuchenbedienfeld anzuzeigen.
 
-***Tipp**: Sie können die Asset-Bibliothek ausblenden oder anzeigen, indem Sie auf der linken Seite auf die Schaltfläche "Erweitern/Minimieren" klicken. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.*
+***Tipp**: Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite auf das Steuerelement zum Erweitern/Reduzieren klicken. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.*
 
 ## Erstellen von Ordnern {#creating-folders}
 
@@ -51,8 +51,10 @@ Führen Sie zum Erstellen eines Ordners die folgenden Schritte aus:
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-**Löschen** der Schaltfläche "Ordner entfernen" . Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen** Klicken Sie auf "Ordner entfernen". Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
-**Doppelklicken** Sie auf den Namen und geben Sie einen neuen Namen ein.
+* **Umbenennen** Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 
-***Hinweis**: Sie können keine Ordner oder Assets kopieren, da dadurch im Scene 7 Publishing System doppelte Ordner und Assets entstehen würden und Duplikate im System nicht zulässig sind.*
+>[!NOTE]
+>
+>Sie können keine Ordner oder Assets kopieren, da auf diese Weise im Scene7 Publishing System doppelte Ordner und Assets erstellt werden und Duplikate nicht zulässig sind.
