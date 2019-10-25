@@ -1,18 +1,19 @@
 ---
 cloud: experience-cloud
-product: 'dynamisches Medien Classic '
-audience: Endbenutzer
-user-guide-title: Dynamische Media Classic-Hilfe
+product: 'Dynamic Media Classic '
+audience: end-user
+user-guide-title: Hilfe zu Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
-# Dynamische Media Classic-Hilfe {#using}
+# Hilfe zu Dynamic Media Classic {#using}
 
-+ [Dynamic Media Classic - Dokumentation - Startseite](home.md)
++ [Startseite der Dokumentation für dynamische Medien und Klassische Medien](home.md)
++ [Dynamic Media-Newsletter von Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
    + [Info zu Dynamic Media Classic](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
@@ -20,7 +21,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Systemanforderungen](system-requirements.md)
    + [Adobe Scene7 Publishing System-Desktop-Anwendung](scene7-publishing-system-desktop-applications.md)
    + [Support](support.md)
-   + [Hilfe für Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
+   + [Hilfe für das Portal für dynamische Medien - Klassische Medien](help-scene7-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Häufig genutzte Ressourcen](popular-resources.md)
 + Erste Schritte {#getting-started}
@@ -30,7 +31,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [An- und Abmeldung](signing-out.md)
    + [Grundlagen der Navigation](navigation-basics.md)
    + [Grundlagen der Einstellungen](setup-basics.md)
-   + [Rich Media](rich-media.md)
+   + [Rich-Media](rich-media.md)
 + Einstellungen {#setup}
    + [Persönliche Einstellungen](personal-setup.md)
    + [Anwendungseinstellungen](application-setup.md)
@@ -49,9 +50,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Effizientes Arbeiten mit Metadaten](making-efficient-metadata.md)
    + [Anpassen der Oberfläche von Media Portal](customizing-media-portal-screen.md)
 + Hochladen und Veröffentlichen von Elementen {#upload-publish}
-   + [Grundlagen zum Hochladen und Veröffentlichen von Assets](about-asset-upload-publish.md)
+   + [Informationen zum Hochladen und Veröffentlichen von Assets](about-asset-upload-publish.md)
    + [Hochladen von Dateien](uploading-files.md)
-   + [Veröffentlichen von Dateien](publishing-files.md)
+   + [Veröffentlichen von Dateien ](publishing-files.md)
    + [Testen von Assets vor dem Veröffentlichen](testing-assets-making-them-public.md)
    + [Überprüfen von Auftragsdateien](checking-job-files.md)
 + Verwalten von Assets {#managing-assets}
@@ -62,7 +63,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Suchen nach Assets](searching-assets.md)
    + [Anzeigen einer Asset-Vorschau](previewing-asset.md)
    + [Verschieben, Umbenennen und Löschen von Assets](moving-renaming-deleting-assets.md)
-   + [Arbeiten in der Detailansicht](detail-view.md)
+   + [Arbeiten in der Detailansicht ](detail-view.md)
    + [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md)
    + [Exportieren von Assets aus dem Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
    + [Weitergeben von Asset-Änderungen an Peers in Echtzeit](sharing-asset-changes-peers-real.md)
@@ -91,7 +92,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Verwalten des Infofeldinhalts in E-Katalogen](info-panel-content.md)
    + [Konfigurieren von E-Katalog-Viewer-Vorgaben](setting-ecatalog-viewer-presets.md)
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Veröffentlichen von E-Katalogen und verknüpften pdfs](publishing-ecatalogs-associated-pdfs.md)
+   + [Veröffentlichen von E-Katalogen und zugehörigen PDF-Dateien](publishing-ecatalogs-associated-pdfs.md)
    + [Verknüpfen eines E-Katalogs mit einer Website](linking-ecatalog-web-page.md)
 + Bildsätze {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
@@ -125,7 +126,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Verknüpfen einer Vorlage mit einer Website](linking-template-web-page.md)
    + [Verwalten von Inhaltsvariationen](content-variations.md)
 + Template publishing {#template-publishing}
-   + [Kurzanleitung: Vorlagen für Veröffentlichungen](quick-start-template-publishing.md)
+   + [Kurzanleitung: Vorlagen veröffentlichen](quick-start-template-publishing.md)
    + [Erstellen der Ausgangsvorlage in Adobe Illustrator](create-initial-template-illustrator.md)
    + [Hochladen von Dateien für Vorlagen für Veröffentlichungen](upload-files-template-publishing.md)
    + [Definieren der Variabilität: Parametrisierung oder DOM-Manipulation?](defining-variability-parameterization-versus-dom.md)
@@ -150,7 +151,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Kurzanleitung: Integration von Dynamic Media Classic in Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
+   + [Kurzanleitung: Integration von Dynamic Media Classic mit Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
    + [Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -162,9 +163,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Kurzanleitung: Integration von Target Classic](quick-start-target-classic-integration.md)
    + [Integration von Adobe Dynamic Media Classic mit Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Erstellen eines Angebotssets](creating-offer-set.md)
-   + [Weiterleiten von Angebotssets an Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Veröffentlichen von Angebotssets in Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Benutzergenerierte Inhalte {#user-generated-content}
-   + [Informationen über benutzergenerierte Inhalte](about-ugc.md)
+   + [Informationen zu benutzergenerierten Inhalten](about-ugc.md)
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
    + [Abrufen von Speichernutzungsinformationen](getting-disk-usage-information.md)
    + [Hochladen von Bild-Assets oder Vektor-Assets](uploading-image-asset-or-vector.md)
@@ -177,7 +178,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Anpassen eines Bildes](adjusting-image.md)
    + [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md)
    + [Arbeiten mit PDF-Dateien](pdfs.md)
-   + [Arbeiten mit PSD-Dateien](psd-files.md)
+   + [Arbeiten mit PSD-Dateien ](psd-files.md)
    + [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md)
    + [Arbeiten mit Vignetten-, Fensterbehang- und Möbeldateien](vignette-window-covering-cabinet-files.md)
 + Unterstützungsdateien {#support-files}
