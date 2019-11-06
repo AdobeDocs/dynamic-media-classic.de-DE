@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -23,7 +23,7 @@ Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_defa
 
 Wenn Sie ein Vorlagen-Asset mit Parameterebenen in der Vorschau anzeigen möchten, können Sie die Parameter oder die Bildvorgabe ändern. Da Ihre Änderungen inline vorgenommen werden, können Sie die Ergebnisse sofort im gleichen Fenster sehen.
 
-Siehe auch Adobe Viewer-Referenzbibliotheksbeispiele [hier](/help/assets/vlist/vlist.html) und [hier](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch Referenzbibliotheksbeispiele für [Adobe Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **So zeigen Sie eine Asset-Vorschau an**
 
