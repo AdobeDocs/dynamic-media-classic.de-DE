@@ -3,21 +3,21 @@ title: Anwendungseinstellungen
 seo-title: Anwendungseinstellungen
 description: Erfahren Sie, wie Sie den Anwendungsbereich von Dynamic Media Classic einrichten.
 seo-description: Erfahren Sie, wie Sie den Anwendungsbereich von Dynamic Media Classic einrichten.
-uuid: 3 e 2 f 1 d 30-8 f 33-4 a 9 d-bbe 4-e 8 c 3 dbc 668 f 8
+uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/setup
-discoiquuid: ae 2 d 1895-a 437-4463-bfac -3960 c 8027551
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
+discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
 
 # Anwendungseinstellungen{#application-setup}
 
-Sie können die Seiten "Anwendungseinstellungen" verwenden, um allgemeine Einstellungen einzugeben, Bildvorgaben, Videokodierungsvorgaben, Viewer-Vorgaben oder Standardmäßige Viewer sowie Metadaten zu erstellen. Sie können auch Stapelsatzvorgaben einrichten, um die Erstellung von (beispielsweise) 2D-Rotationssets, Veröffentlichungseinstellungen und Video SEO-Einstellungen zu automatisieren.
+Auf den Seiten "Anwendungseinstellungen"können Sie allgemeine Einstellungen eingeben, Bildvorgaben, Videokodierungsvorgaben, Viewer-Vorgaben erstellen oder Standard-Viewer und Metadaten definieren. Sie können auch Stapelsatzvorgaben einrichten, um die Erstellung von (beispielsweise) 2D-Rotationssets, Veröffentlichungseinstellungen und Video SEO-Einstellungen zu automatisieren.
 
 >[!NOTE]
 >
@@ -33,25 +33,25 @@ Bei der Kontoerstellung stellt Dynamic Media Classic automatisch die zugewiesene
 
 Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-**Veröffentlichungsservername** Dieser Server ist der Live-CDN-Server, der in allen für Ihr Konto spezifischen systemgenerierten URL-Aufrufen verwendet wird. Ändern Sie diesen Servernamen nur, wenn Sie von einem unterstützten Supportmitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
+**Veröffentlichter Servername** Dieser Server ist der Live-CDN-Server, der in allen systemspezifischen URL-Aufrufen für Ihr Konto verwendet wird. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
 
-**Ursprungsservername** Dieser Server wird nur für die Qualitätsprüfung verwendet. Ändern Sie diesen Servernamen nur, wenn Sie von einem unterstützten Supportmitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
+**Ursprungsserver-Name** Dieser Server wird nur für Qualitätssicherungstests verwendet. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
 
-**AGM Servername** Dieser Server wird für Web-to-Print-Vorlagen verwendet. Die Einstellungen für diesen Server sind unternehmensweit gültig. Ändern Sie diesen Servernamen nur, wenn Sie von einem unterstützten Supportmitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
+**AGM-Servername** Dieser Server wird für Web-to-Print-Vorlagen verwendet. Die Einstellungen für diesen Server sind unternehmensweit gültig. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
 
-**Test &amp; Target-Servername** Ihre Test &amp; Target-URL bis einschließlich. com. Anweisungen zum Abrufen dieser URL finden Sie unter Integration von Dynamic Media Classic mit Target Classic.
+**Test&amp;Target-Servername** Ihre Test&amp;Target-URL bis einschließlich .com. Anweisungen zum Abrufen dieser URL finden Sie unter Integration von Dynamic Media Classic mit Target Classic.
 
-**Ios-Streaming-Server** Die URL zu Ihrem dynamischen Media-ios-Streaming-Server. Dieser Server liefert Streaming-Video für iOS-basierte Geräte über das HTTP-Protokoll.
+**Name** des iOS-Streaming-Servers Die URL zu Ihrem iOS-Streaming-Server für Dynamic Media Classic. Dieser Server liefert Streaming-Video für iOS-basierte Geräte über das HTTP-Protokoll.
 
-**Progressive Video-Servername** Die URL zu Ihrem dynamischen Media-Video-Server progressiv. Dieser Server liefert Progressive Video über das HTTP-Protokoll.
+**Name** des progressiven Video-Servers Die URL zu Ihrem Progressiv-Video-Server für dynamische Medien Classic. Dieser Server liefert Progressive Video über das HTTP-Protokoll.
 
-**URL für unveröffentlichte Assets anzeigen** Wählen Sie diese Option, wenn Sie möchten, dass Dynamic Media Classic eine URL anzeigt, wenn Sie ein Asset in der Vorschau anzeigen, unabhängig davon, ob es veröffentlicht wurde oder nicht. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
+**URL für unveröffentlichte Assets** anzeigen Wählen Sie diese Option, wenn beim Anzeigen einer Asset-Vorschau in Dynamic Media Classic eine URL angezeigt werden soll, unabhängig davon, ob sie veröffentlicht wurde oder nicht. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
 
-**AIR-Installation zulassen** Aktivieren Sie diese Option, damit Benutzer die Scene 7 Publishing System-Desktop-Version auf ihre lokalen Festplattenlaufwerke herunterladen können. Die Option zum Installieren der Anwendung befindet sich im Anzeigebereich „Persönliche Einstellungen“ unter der Option „Desktop-Version“.
+**AIR-Installation** zulassen Wählen Sie diese Option, damit Benutzer die Scene7 Publishing System-Desktop-Version auf ihre lokalen Festplatten herunterladen können. Die Option zum Installieren der Anwendung befindet sich im Anzeigebereich „Persönliche Einstellungen“ unter der Option „Desktop-Version“.
 
 Benutzer von AIR müssen die vorhandene App manuell deinstallieren und von der Web-Version von Scene7 Publishing System (unter „Persönliche Einstellungen“) aus erneut installieren. Nach dieser einmaligen Neuinstallation werden Sie aufgefordert, ein Upgrade durchzuführen, sobald der Server über eine neue Version von Scene7 Publishing System AIR verfügt. Das Scene7 Publishing System ist in das Update-Framework für Anwendungen integriert, das den Aktualisierungsprozess optimiert.
 
-**Vorlage für die Ungültigmachung von CDN** Gibt die Vorlage an, die zum Ungültigen des CDN-Cache (Content Delivery Network) verwendet wird.
+**CDN-Ungültigmachung** : Gibt die Vorlage an, die zum Ungültigmachen des CDN-Cache (Content Delivery Network) verwendet wird.
 
 For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
@@ -75,15 +75,15 @@ Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.m
 
 **Durchsuchen**
 
-**Projekte** anzeigen Legt fest, ob Projekte zur Organisation Ihrer Dynamic Media Classic-Assets verfügbar sind. Siehe Verwalten der Arbeit mithilfe von Projekten.
+**Projekte** anzeigen Legt fest, ob Projekte als Organisationsmöglichkeit für Dynamische Medien-Classic-Assets verfügbar sind. Siehe Verwalten der Arbeit mithilfe von Projekten.
 
-**Beispiel für evideo-Inhalte** Aktivieren oder deaktivieren Sie die Anzeige des evideo-Beispielinhalts.
+**Beispiel-eVideo-Inhalt** anzeigen Aktivieren oder deaktivieren Sie die Anzeige von eVideo-Beispielinhalten.
 
-**Generierte Inhalte** in Ordnern anzeigen, zeigt Inhalte an, die aus einem Asset generiert wurden. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Dynamic Media Classic für jede Seite in der Original-PDF ein Bild. Wenn die Option „Generierten Inhalt anzeigen“ aktiviert ist, erscheint jedes beim Hochladen der Original-PDF generierte Bild zusammen mit der PDF in dem Ordner, in den die PDF hochgeladen wurde.
+**Generierten Inhalt** in Ordnern anzeigen, zeigt Inhalt, der aus einem Asset generiert wurde. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Dynamic Media Classic für jede Seite der Original-PDF ein Bild. Wenn die Option „Generierten Inhalt anzeigen“ aktiviert ist, erscheint jedes beim Hochladen der Original-PDF generierte Bild zusammen mit der PDF in dem Ordner, in den die PDF hochgeladen wurde.
 
-**Dekodierte Videos** standardmäßig deaktiviert (deaktiviert).
+**Kodierte Videos** standardmäßig deaktiviert (deaktiviert) anzeigen.
 
-Wenn Sie Videos im Scene7 Publishing System rasch auffinden möchten, ohne durch zahlreiche kodierte Ableitungen desselben Videos zu navigieren, lassen Sie diese Option deaktiviert (Standard). Nur die Mastervideo-Miniaturansicht, d. h. das Quellvideo, das Sie hochgeladen und zur Erstellung aller Ableitungen verwendet haben, sowie die Miniaturansicht des übergeordneten adaptiven Videosets, das alle untergeordneten Ableitungen des kodierten Videosets enthält, werden in der Benutzeroberfläche angezeigt.
+Um Videos im Scene7 Publishing System schnell zu finden, ohne durch zahlreiche kodierte Varianten desselben Videos navigieren zu müssen, lassen Sie diese Option deaktiviert (Standard). In der Benutzeroberfläche werden nur die Miniaturansicht des Mastervideos (das Ausgangsvideo, das Sie hochgeladen und zum Erstellen aller Varianten verwendet haben) und die Miniaturansicht des übergeordneten adaptiven Videosets angezeigt, das alle untergeordneten Varianten des kodierten Videosets enthält.
 
 Vom Mastervideo oder dem adaptiven Videoset aus können Sie jedoch weiterhin auf einzelne kodierte Videos zugreifen. Doppelklicken Sie hierzu auf das Videominiaturbild, um die Detailansicht zu öffnen. Klicken Sie dann im rechten Bedienfeld auf **„Kodierte Videos“**, um auf alle untergeordneten Videos zuzugreifen.
 
@@ -97,19 +97,19 @@ Das Menü „Erstellen“ enthält bestimmte Aktionen, die nur (oder optional) m
 
 >[Hinweis]
 >
->Wenn Sie Ihre Video-Assets nicht mit dem Scene 7 Publishing System hochgeladen und kodiert haben, zeigt Dynamic Media Classic alle kodierten Videos an, auch wenn diese Option deaktiviert ist.
+>Wenn Sie Ihre Video-Assets nicht mit dem Scene7 Publishing System hochgeladen und kodiert haben, zeigt Dynamic Media Classic alle kodierten Videos an, selbst wenn diese Option deaktiviert ist.
 
-**Schaltfläche** "Unterordner aktualisieren" Schaltet die Anzeige der Schaltfläche" Aktualisieren" ein oder aus.
+**Schaltfläche** Unterordner aktualisieren Aktivieren oder deaktivieren Sie die Anzeige der Schaltfläche Aktualisieren der Unterordner.
 
-**Dynamic Media Classic FTP-Konto**
+**Dynamisches Media Classic FTP-Konto**
 
 **Server** Listet Ihren FTP-Kontoserver auf.
 
-**Benutzername** Listet Ihren FTP-Konto-Benutzernamen auf.
+**Benutzername** Listet Ihren Benutzernamen für das FTP-Konto auf.
 
 **Zur Anwendung hochladen**
 
-**Das Überschreiben von Bildern** in Dynamic Media Classic erlaubt es nicht, zwei Dateien denselben Namen zu haben. Jedes Element muss eine eindeutige Scene7 Publishing System-ID haben (den Bildnamen ohne Dateierweiterung). Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Duplikate werden durch Anhängen einer Ziffer umbenannt („Sessel.tif“ würde beispielsweise zu „Sessel-1.tif“). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). (Siehe Verwenden der Option „Bilder überschreiben“.)
+**Bilder** überschreiben Dynamische Medien Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Jedes Element muss eine eindeutige Scene7 Publishing System-ID haben (den Bildnamen ohne Dateierweiterung). Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Duplikate werden durch Anhängen einer Ziffer umbenannt („Sessel.tif“ würde beispielsweise zu „Sessel-1.tif“). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). (Siehe Verwenden der Option „Bilder überschreiben“.)
 
 **Im aktuellen Ordner Bilder mit demselben Namen und derselben Erweiterung überschreiben**
 
@@ -127,50 +127,50 @@ Das Ersatzbild muss dieselbe Dateierweiterung haben wie das Originalbild (beispi
 
 Diese Option stellt die am wenigsten einschränkende Ersetzungsregel dar. Sie können ein Ersatzbild in einen anderen Ordner hochladen als den, in dem sich das Originalbild befindet, und eine Datei mit einer anderen Dateierweiterung verwenden, um die Originaldatei zu ersetzen. Wenn sich die Originaldatei in einem anderen Ordner befindet, bleibt das Ersatzbild in dem neuen Ordner, in den es hochgeladen wurde.
 
-**Veröffentlichung beibehalten** Gibt an, ob ein in das dynamische Media Classic hochgeladenes Ersatzbild die Einstellung "Bereit zur Veröffentlichung" des ersetzten Bilds beibehält oder ob die Einstellung beim Hochladen angegeben wird.
+**Veröffentlichung** beibehalten: Gibt an, ob bei einem nach Dynamic Media Classic hochgeladenen Ersatzbild die Einstellung "Bereit zum Veröffentlichen"des ersetzten Bildes beibehalten wird oder ob die Einstellung beim Hochladen festgelegt wurde.
 
 **Standardfarbprofile** Gibt die Farbprofile an, die beim Hinzufügen von CMYK-Bildern als Teil der Standardfarbprofiloptionen angewendet werden.
 
-**Standardmäßige Upload-Optionen** Öffnet das Dialogfeld "Upload-Auftragsoptionen" , in dem Sie standardmäßige Upload-Optionen festlegen können. Informationen zu diesen Optionen finden Sie unter Upload-Optionen.
+**Standardmäßige Upload-Optionen** Öffnet das Dialogfeld "Upload-Auftragsoptionen", in dem Sie die standardmäßigen Upload-Optionen festlegen können. Informationen zu diesen Optionen finden Sie unter Upload-Optionen.
 
 **Imagemap-Editor, an Anwendung**
 
-**Standard-HREF für Imagemaps** Definiert die Standard-URL, die für die HREF-Spalte der Imagemap verwendet wird. Dabei handelt es sich um die Standard-URL, die beim Erstellen neuer Imagemaps angezeigt wird.
+**Standard-HREF** für Imagemaps Definiert die Standard-URL, die für die HREF-Spalte für die Imagemaps verwendet wird. Dabei handelt es sich um die Standard-URL, die beim Erstellen neuer Imagemaps angezeigt wird.
 
-**Standard-Imagemap-Vorlage** Definiert das Standard-Javascript für die HREF-Vorlage von Imagemaps. Sie haben die Möglichkeit, benutzerdefinierten Code einzustellen, der beim Klicken auf eine Imagemap ausgeführt wird.
+**Standardvorlage** für Imagemaps Definiert das standardmäßige JavaScript für die HREF-Vorlage für die Imagemaps. Sie haben die Möglichkeit, benutzerdefinierten Code einzustellen, der beim Klicken auf eine Imagemap ausgeführt wird.
 
 **Andere Einstellungen, an Anwendung**
 
-**Warnmeldungen zum Bereinigen von Warnungen** Im Papierkorb werden innerhalb von sieben Tagen automatisch entfernt. Wählen Sie „E-Mails senden, bevor Elemente im Papierkorb automatisch gelöscht werden“, wenn Unternehmensadministratoren vier Tage vor dem dauerhaften Löschen von Assets im Papierkorb eine Benachrichtigung erhalten sollen. Siehe Verwalten des Ordners „Papierkorb“.
+**Die Warnhinweise** im Papierkorb können innerhalb von sieben Tagen automatisch entfernt werden. Wählen Sie „E-Mails senden, bevor Elemente im Papierkorb automatisch gelöscht werden“, wenn Unternehmensadministratoren vier Tage vor dem dauerhaften Löschen von Assets im Papierkorb eine Benachrichtigung erhalten sollen. Siehe Verwalten des Ordners „Papierkorb“.
 
-## Verwenden der Option „Bilder überschreiben“{#using-the-overwrite-images-option}
+## Verwendung der Option zum Überschreiben der Bilder {#using-the-overwrite-images-option}
 
-In Dynamic Media Classic sind zwei Dateien nicht zulässig. Jedes Element muss eine eindeutige Scene7 Publishing System-ID haben (den Bildnamen ohne Dateierweiterung). Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Bilder überschreiben“. Die genaue Wirkung dieser Option hängt von einer Festlegung für „Scene7 Publishing System-interne Einstellungen“ des jeweiligen Unternehmens ab.
+Dynamische Medien Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Jedes Element muss eine eindeutige Scene7 Publishing System-ID haben (den Bildnamen ohne Dateierweiterung). Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Bilder überschreiben“. Die genaue Wirkung dieser Option hängt von einer Festlegung für „Scene7 Publishing System-interne Einstellungen“ des jeweiligen Unternehmens ab.
 
-Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (oder ersetzt) haben, gibt die Option "Überschreiben" an, wie dynamisches Media Classic die Bilder ersetzt. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die noch nicht in Dynamic Media Classic enthalten sind, werden diese Bilder hinzugefügt.
+Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (oder ersetzt) haben, gibt die gewählte Option "Überschreiben"an, wie die Bilder von Dynamic Media Classic ersetzt werden. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
 
 Verwenden Sie diese Option, wenn von Ihnen hochgeladene Bilder geändert wurden, der Verweis auf die Bilder jedoch gleich bleibt. Das Überschreiben ist außerdem beim Hochladen und Extrahieren von Adobe® PDF-Dateien nützlich. To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-Die dynamischen Ids für dynamische Medien, die für den Zugriff auf Bilder von den Produktionsservern verwendet werden, werden von den Dateinamen der Bilder abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl beim Ersetzen vorhandener Dateien als auch bei dynamischen Medien-Ids, die für den Zugriff auf das Bild verwendet werden. Achten Sie auf die Verwendung von Großbuchstaben und Kleinbuchstaben in Dateinamen, bevor Sie in Dynamic Media Classic hochgeladen werden, um Dynamic Media Classic-IDs zu vermeiden, die sich nur für dasselbe Bild unterscheiden.
+Die IDs von Dynamic Media Classic, die für den Zugriff auf Bilder von den Produktionsservern verwendet werden, werden von den Bilddateinamen abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl beim Ersetzen vorhandener Dateien als auch bei den für den Zugriff auf das Bild verwendeten dynamischen Medien-Classic-IDs. Achten Sie darauf, dass Dateinamen mit Groß- und Kleinbuchstaben korrekt geschrieben werden, bevor Sie sie in Dynamic Media Classic hochladen, um zu vermeiden, dass sich dynamische Medien-Classic-IDs, die sich nur bei demselben Bild von der Schreibweise unterscheiden, unterscheiden.
 
 Wenn Sie diese Option deaktivieren, werden alle Bilder, die mit vorhandenen Bildern übereinstimmende Dateinamen haben, als Duplikate betrachtet und daher nicht hinzugefügt.
 
 ## Bildvorgaben {#image-presets}
 
-In diesem Anzeigebereich können Bildvorgaben erstellt und bearbeitet werden. Mit Bildvorgaben kann dynamisches Media Classic Bilder in unterschiedlichen Größen aus demselben Masterbild dynamisch bereitstellen. Jede Bildvorgabe stellt eine vordefinierte Zusammenstellung von Größen- und Formatierungsbefehlen zum Anzeigen des Bildes dar. Wenn Sie eine Bildvorgabe erstellen, wählen Sie eine Größe, in der das Bild gesendet werden soll. Darüber hinaus wählen Sie Formatierungsbefehle, mit denen die Darstellung des Bildes für den Sendevorgang optimiert wird.
+In diesem Anzeigebereich können Bildvorgaben erstellt und bearbeitet werden. Mithilfe von Bildvorgaben können Bilder von Dynamic Media Classic dynamisch in unterschiedlichen Größen desselben Masterbilds bereitgestellt werden. Jede Bildvorgabe stellt eine vordefinierte Zusammenstellung von Größen- und Formatierungsbefehlen zum Anzeigen des Bildes dar. Wenn Sie eine Bildvorgabe erstellen, wählen Sie eine Größe, in der das Bild gesendet werden soll. Darüber hinaus wählen Sie Formatierungsbefehle, mit denen die Darstellung des Bildes für den Sendevorgang optimiert wird.
 
 Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benutzer können beim Exportieren von Bildern eine Vorgabe auswählen, die die Bilder gemäß den Spezifikationen des Administrators neu formatiert.
 
 To open the Image Preset screen, on the Global Navigation bar, click **Setup** &gt; **Image Presets**.
 
-Siehe [Smart Imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Siehe [Intelligente Bildbearbeitung](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
 ### Erstellen und Bearbeiten von Bildvorgaben {#creating-and-editing-image-presets}
 
 1. Klicken Sie auf **„Einstellungen“** &gt; **„Bildvorgaben“**.
 1. Sie können eine völlig neue Bildvorgabe erstellen oder eine bereits vorhandene als Vorlage verwenden:
-   * **Erstellen einer Bildvorgabe** : Klicken Sie auf **"Hinzufügen**«.
-   * **Erstellen einer Bildvorgabe aus einer bereits vorhandenen Vorgabe** : Wählen Sie die Bildvorgabe aus, die der zu erstellenden Vorgabe ähnelt, und klicken Sie dann auf Bearbeiten.
+   * **Erstellen einer Bildvorgabe** - Klicken Sie auf **Hinzufügen**.
+   * **Erstellen einer Bildvorgabe aus einer vorhandenen Vorgabe** - Wählen Sie die Bildvorgabe aus, die der zu erstellenden am ähnlichsten ist, und klicken Sie dann auf Bearbeiten.
 
 1. Geben Sie im Anzeigebereich „Vorgabe hinzufügen“ oder „Vorgabe bearbeiten“ einen Namen für die Vorgabe ein.
 1. Legen Sie die gewünschten Einstellungen für die Vorgabe fest. 
@@ -188,7 +188,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 **Vorgabenname** Geben Sie einen beschreibenden Namen ohne Leerzeichen ein. Fügen Sie eine Bildgrößenangabe in den Namen ein, um Benutzern die Identifizierung der Bildvorgabe zu erleichtern.
 
-**Breite und Höhe** Geben Sie in Pixel die Größe ein, mit der das Bild geliefert wird.
+**Breite und Höhe** Geben Sie in Pixel die Größe ein, in der das Bild bereitgestellt wird.
 
 **Format** Wählen Sie ein Format aus dem Menü. Bei Auswahl der Formate GIF, JPEG, PDF oder TIFF werden weitere Optionen angezeigt:
 
@@ -196,7 +196,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
    **Typ**
 
-   Wählen Sie zwischen „Adaptiv“ (Standardwert), „Web“ und „Macintosh“. Wenn Sie „GIF mit Alpha“ wählen, ist die Option „Macintosh®“ nicht verfügbar.
+   Wählen Sie „Adaptiv“ (Standard), „Web“ oder „Macintosh“. Wenn Sie „GIF mit Alpha“ wählen, ist die Option „Macintosh®“ nicht verfügbar.
 
    **Dithering**
 
@@ -204,7 +204,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
    **Anzahl Farben**
 
-   Ziehen Sie den Schieberegler auf 2-255.
+   Ziehen Sie den Schieberegler, um 2 bis 255 einzugeben.
 
    **Farbliste**
 
@@ -214,7 +214,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
    **Qualität**
 
-   Steuert den JPEG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala beträgt 1-100.
+   Steuert den JPEG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala ist 1-100.
 
    **JPG-Chrominanz-Downsampling aktivieren**
 
@@ -228,45 +228,45 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 **Farbraum** Wählen Sie einen Farbraum.
 
-**Scharfzeichnen** Aktivieren Sie die Option "Einfache Scharfzeichnung aktivieren" , um einen grundlegenden Scharfzeichnungsfilter auf das Bild anzuwenden, nachdem alle Skalierungsvorgänge durchgeführt wurden. Wenn ein Bild in einer anderen Größe verschwommen angezeigt wird, kann dieser Effekt durch Scharfzeichnen kompensiert werden.
+**Scharfzeichnen** Wählen Sie die Option "Einfaches Scharfzeichnen aktivieren", um nach der Skalierung einen grundlegenden Scharfzeichnungsfilter auf das Bild anzuwenden. Wenn ein Bild in einer anderen Größe verschwommen angezeigt wird, kann dieser Effekt durch Scharfzeichnen kompensiert werden.
 
 Weitere Informationen zu Scharfzeichnen, Resamplingmodi und Unschärfemaske finden Sie im Abschnitt [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image).
 
 **Resamplingmodus** Wählen Sie eine Option für den Resamplingmodus. Mit diesen Optionen wird ein Bild beim Downsampling scharfgezeichnet:
 
-**B-Linear** Die schnellste Neuberechnungsmethode; Einige Aliasing-Artefakte sind bemerkenswert.
+**B-Linear** Die schnellste Neuberechnungsmethode; einige Aliasing-Artefakte sind bemerkbar.
 
-**Bikubisch** erhöht die CPU-Auslastung auf dem Image-Server, erzielt jedoch schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten.
+**Bi-Cubic** steigert die CPU-Auslastung auf dem Image-Server, erzielt aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten.
 
-**Scharf 2** kann etwas schärfere Ergebnisse erzielen als die bikubische Option, aber mit noch höheren CPU-Kosten auf dem Image-Server.
+**Sharp2** Kann etwas schärfere Ergebnisse als die bikubische Option erzielen, aber bei noch höheren CPU-Kosten auf dem Image-Server.
 
-**Trichlinear** verwendet sowohl höhere als auch niedrigere Auflösungen, falls verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem ist. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
+**Trilinear** verwendet sowohl eine höhere als auch eine niedrigere Auflösung, falls verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem darstellt. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
 
-**Unschärfemaske** wählen Sie diese Optionen, um das Scharfzeichnen anzupassen:
+**Unschärfemaske** Wählen Sie diese Optionen zur Feineinstellung des Scharfzeichnings:
 
-**Betrag** Steuert den Kontrastgrad, der auf die Kantenpixel angewendet wird. Der Standardwert ist 1,0. Für Bilder mit höherer Auflösung können Sie ihn auf bis zu 5,0 erhöhen. Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen.
+**Stärke** Steuert den Kontrast, der auf Kantenpixel angewendet wird. Der Standardwert ist 1,0. Für Bilder mit höherer Auflösung können Sie ihn auf bis zu 5,0 erhöhen. Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen.
 
-**Radius** Bestimmt die Anzahl der Pixel um die Kantenpixel, die sich auf das Scharfzeichnen auswirken. Geben Sie für Bilder mit hoher Auflösung Werte zwischen 1 und 2 ein. Bei einem geringeren Wert werden nur die Kantenpixel scharfgezeichnet, während bei einem hohen Wert ein breiterer Pixelbereich scharfgezeichnet wird. Der richtige Wert hängt von der Größe des Bilds ab.
+**Radius** Legt die Anzahl der Pixel um die Kantenpixel fest, die sich auf das Scharfzeichnen auswirken. Geben Sie für Bilder mit hoher Auflösung Werte zwischen 1 und 2 ein. Bei einem geringeren Wert werden nur die Kantenpixel scharfgezeichnet, während bei einem hohen Wert ein breiterer Pixelbereich scharfgezeichnet wird. Der richtige Wert hängt von der Größe des Bilds ab.
 
-**Schwellenwert** Bestimmt den Kontrastbereich, der ignoriert werden soll, wenn der Filter "Unschärfemaske" angewendet wird. Anders ausgedrückt legt diese Option fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und scharfgezeichnet werden. Damit kein Bildrauschen entsteht, sollten Sie mit Werten zwischen 0,02 und 0,2 experimentieren. Beim Standardwert 6 werden alle Pixel im Bild scharfgezeichnet.
+**Schwellenwert** Bestimmt den Kontrastbereich, der ignoriert werden soll, wenn der Filter "Unschärfemaske"angewendet wird. Anders ausgedrückt legt diese Option fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und scharfgezeichnet werden. Damit kein Bildrauschen entsteht, sollten Sie mit Werten zwischen 0,02 und 0,2 experimentieren. Beim Standardwert 6 werden alle Pixel im Bild scharfgezeichnet.
 
-**Farbraum** bestimmt, ob das Bild den Bereich verwendet, in dem das Bild erstellt wurde, normalerweise RGB (Original) oder einen Leuchtdichtebereich (Intensität).
+**Farbraum** Legt fest, ob das Bild den Raum, in dem das Bild erstellt wurde, verwendet (normalerweise RGB (Original) oder einen Leuchtdichtebereich (Intensität).
 
-**Wählen Sie** die folgenden Optionen aus:
+**Farbe** Wählen Sie folgende Optionen aus:
 
-**Ausgabefarbprofil** Wählen Sie Standard oder eines der ICC-Farbprofile aus, die im Scene 7 Publishing System verfügbar sind.
+**Ausgabefarbprofil** Wählen Sie "Standard verwenden"oder eines der im Scene7 Publishing System verfügbaren ICC-Farbprofile.
 
 Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
 
-**Renderpriorität** Wählen Sie eine Option, wenn Sie die standardmäßige Renderpriorität des Farbprofils überschreiben möchten. Die Verwendung dieser Option ist sinnvoll, wenn eines der Standard-ICC-Profile Zielfarbraum einer Farbumwandlung ist, ein Ausgabegerät (Drucker oder Bildschirm) durch dieses Profil bestimmt wird und die angegebene Renderpriorität für dieses Profil gültig ist.
+**Renderpriorität** Wählen Sie eine Option, wenn Sie die standardmäßige Renderpriorität des Farbprofils außer Kraft setzen möchten. Die Verwendung dieser Option ist sinnvoll, wenn eines der Standard-ICC-Profile Zielfarbraum einer Farbumwandlung ist, ein Ausgabegerät (Drucker oder Bildschirm) durch dieses Profil bestimmt wird und die angegebene Renderpriorität für dieses Profil gültig ist.
 
-**Profil** einbetten Diese Option ermöglicht, dass, wenn Sie dieses Bild in Adobe® Photoshop® öffnen, dieses Profil verwendet wird.
+**Profil** einbetten Wählen Sie diese Option, damit dieses Profil verwendet wird, wenn Sie dieses Bild in Adobe® Fotoshop® öffnen.
 
-**Druckauflösung** Wählen Sie eine Auflösung zum Drucken dieses Bildes. Die Standardeinstellung ist 72 Pixel.
+**Druckauflösung** Wählen Sie eine Auflösung für den Druck dieses Bildes. Der Standardwert ist 72 Pixel.
 
-**URL-Modifikatoren** Wenn Sie lieber die URL-Modifikatoren angeben möchten, die Ihre Bildvorgabe anstelle der Einstellungen definieren, geben Sie die Modifikatoren hier ein.
+**URL-Modifikatoren** Wenn Sie lieber die URL-Modifikatoren angeben möchten, die Ihre Bildvorgabe definieren, anstatt die Einstellungen einzugeben, geben Sie die Modifikatoren hier ein.
 
-**Beispielbild-URL** Listet die "unbearbeitete" URL-Zeichenfolge auf, die der dynamische Medienserver verwendet, um Bilder mit der Bildvorgabe bereitzustellen, die Sie hinzufügen oder bearbeiten. Diese URL-Zeichenfolge codiert alle Formateinstellungen, die Sie im Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ auswählen.
+**Beispiel-Bild-URL** Listet die URL-Zeichenfolge "unformatiert"auf, die der Dynamic Media-Image-Server verwendet, um Bilder mit der Bildvorgabe bereitzustellen, die Sie hinzufügen oder bearbeiten. Diese URL-Zeichenfolge codiert alle Formateinstellungen, die Sie im Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ auswählen.
 
 ### Bearbeiten, Entfernen oder Deaktivieren einer Bildvorgabe {#editing-removing-or-deactivating-an-image-preset}
 
@@ -297,19 +297,19 @@ Klicken Sie in der rechten unteren Ecke der Seite „Upload“ auf die Option �
 
 >[!NOTE]
 >
->Mit Ausnahme von „Adaptive Video“, das standardmäßig aktiviert ist, werden im Dialogfeld „Upload-Auftragsoptionen“ möglicherweise nicht alle adaptiven oder einzelnen Videokodierungsvorgaben angezeigt. Dynamische Media Classic-Administratoren bestimmen, welche Videokodierungsvorgaben im Dialogfeld "Upload-Auftragsoptionen" angezeigt werden.
+>Mit Ausnahme von „Adaptive Video“, das standardmäßig aktiviert ist, werden im Dialogfeld „Upload-Auftragsoptionen“ möglicherweise nicht alle adaptiven oder einzelnen Videokodierungsvorgaben angezeigt. Die Administratoren von Dynamic Media Classic bestimmen, welche Videokodierungsvorgaben im Dialogfeld "Upload-Auftragsoptionen"angezeigt werden.
 
 * Wählen Sie aus den folgenden Vorgaben für die adaptive Kodierung bzw. für die einzelne Kodierung:
 
    **16:9 Adaptive Video**
 
-   Erstellen Sie Videos im Seitenverhältnis von 16:9 für die Ausgabe auf Desktops, Mobilgeräten (iphone, ipad, Android) und Tablets (ipad, Android), die mit Auflösung und Bitrate optimiert werden, die mit der Verbindungsgeschwindigkeit des Viewers am besten übereinstimmt.
+   Erstellen Sie Videos mit dem Seitenverhältnis von 16:9 für die Wiedergabe auf Desktop-PCs, Mobilgeräten (iPhone, iPad, Android) und Tablets (iPad, Android), deren Auflösung und Bitrate am besten mit der Verbindungsgeschwindigkeit des Viewers übereinstimmt.
 
    **4:3 Adaptive Video**
 
-   Erstellen Sie Videos mit dem Seitenverhältnis von 4:3 für die Ausgabe auf Desktops, mobilen Geräten (iphone, ipad, Android) und Tablets (ipad, Android), die mit Auflösung und Bitrate optimiert werden, die mit der Verbindungsgeschwindigkeit des Viewers am besten übereinstimmt.
+   Erstellen Sie Videos mit dem Seitenverhältnis von 4:3 für die Wiedergabe auf Desktop-PCs, Mobilgeräten (iPhone, iPad, Android) und Tablets (iPad, Android), deren Auflösung und Bitrate am besten mit der Verbindungsgeschwindigkeit des Viewers übereinstimmt.
 
-   **Adaptive Video**
+   **Adaptives Video**
 
    Eine einzelne Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, um Videos zur Wiedergabe auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten.
 
@@ -319,7 +319,7 @@ Klicken Sie in der rechten unteren Ecke der Seite „Upload“ auf die Option �
 
    **Adaptive Videokodierung (16:9 oder 4:3)**
 
-   Erstellen Sie Videos im Seitenverhältnis von 16:9 und 4:3 für die Ausgabe auf Desktops, Mobilgeräten (iphone, ipad, Android) und Tablets (ipad, Android), die mit Auflösung und Bitrate optimiert werden, die mit der Verbindungsgeschwindigkeit des Viewers am besten übereinstimmt.
+   Erstellen Sie Videos mit dem Seitenverhältnis 16:9 und 4:3 für die Ausgabe auf Desktop-PCs, Mobilgeräten (iPhone, iPad, Android) und Tablets (iPad, Android), deren Auflösung und Bitrate am besten mit der Verbindungsgeschwindigkeit des Viewers übereinstimmt.
 
    Siehe [Vorgaben für die Videokodierung (16:9 oder 16:9: 3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
@@ -339,17 +339,17 @@ Nach dem Klicken auf **Hochladen starten** wird die ursprüngliche Mastervideoda
 
 Folgende Parameter stehen für die Kodierungsvorgabeoptionen zur Verfügung:
 
-**Zielverbindungsgeschwindigkeit** Die Internetverbindungsgeschwindigkeit des Endbenutzers.
+**Zielverbindungsgeschwindigkeit** Die Geschwindigkeit der Internetverbindung des Endbenutzers.
 
-**Kodiertes Dateisuffix** Das Suffix, das an die kodierte Videodatei zu Identifizierungszwecken angehängt wird.
+**Suffix** der kodierten Datei Das Suffix, das zur Identifizierung an die kodierte Videodatei angehängt wird.
 
-**Video-Bitrate (Datenrate)** Die Datenmenge, die kodiert wird, um eine Sekunde der Videowiedergabe zu bilden (in Kilobit pro Sekunde).
+**Video-Bitrate (Datenrate)** Die Menge der kodierten Daten, die eine Sekunde Videowiedergabe ausmachen (in Kilobit pro Sekunde).
 
-**Pixel Breite/Höhe** Die Breite des Bildschirms in Pixel; die Höhe des Bildschirms des Bildschirms (in Pixel).
+**Pixel Breite/Höhe** Die Breite des Bildschirmbilds in Pixel; die Höhe des Bildschirmbilds (in Pixel).
 
-**Bild pro Sekunde (fps)** Die Anzahl der Einzelbilder oder Standbilder für jede Sekunde des Videos. In den USA und Japan werden die meisten Videos mit 29,97 fps aufgenommen und in Europa und Asien (ausgenommen Japan) mit 25 fps. Film wird mit 24 fps aufgenommen.
+**Einzelbild pro Sekunde (fps)** Die Anzahl der Einzelbilder oder Standbilder pro Sekunde des Videos. In den USA und Japan werden die meisten Videos mit 29,97 fps aufgenommen und in Europa und Asien (ausgenommen Japan) mit 25 fps. Film wird mit 24 fps aufgenommen.
 
-**Audio-Bitrate** Die Datenmenge, die kodiert wurde, um eine Sekunde Audiowiedergabe zu bilden, in Kilobit pro Sekunde.
+**Audio-Bitrate** Die Menge der kodierten Daten, die eine Sekunde Audiowiedergabe ausmachen, in Kilobit pro Sekunde.
 
 Die folgende Tabelle enthält empfohlene Verfahren zur Auswahl von Video-Vorgaben und die Namenskonventionen, mit denen kodierte Dateien bezeichnet werden.
 
@@ -363,7 +363,7 @@ Eine Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, u
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto x360, 800 kBit/s | _Mobile_Autox360p_800K | 800 | Autox360 | Gleich Quelle | 64 | Für Mobilgeräte (iPhone, iPad, Android) |
 | 2 | Auto x 480, 1400 kBit/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Gleich Quelle | 96 | Für Tablet (iPad, Android) |
-| 3 | Auto x 720, 2600 kBit/s | _ Desktop_ Autox 720 p_ 2600 K | 2600 | Autox720 | Gleich Quelle | 128 | Für Desktop |
+| 3 | Auto x 720, 2600 kBit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Gleich Quelle | 128 | Für Desktop |
 
 ### Vorgaben für die adaptive Videokodierung (16:9 oder 4:3){#adaptive-video-encoding-or-video-presets}
 
@@ -443,25 +443,25 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 >[!NOTE]
 >
->**Lebenszyklusende für Flash Viewer** - Ab 31. Januar 2017 hat das Adobe Scene 7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform beendet. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Hinweis** zum Ende der Lebensdauer von Flash-Viewern - Ab dem 31. Januar 2017 hat Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoomverhalten, die Farbschemata, Ränder und Schriftarten ändern.
 
-Es empfiehlt sich, Dynamic Media Classic HTML 5 Video Viewer zu verwenden. Dank der für die HTML5 Video Viewer verwendeten Vorgaben handelt es sich um robuste Video-Player. Durch Kombination der Gestaltungsmöglichkeit der Wiedergabekomponenten mit HTML5 und CSS, der eingebetteten Wiedergabe und der Verwendung von adaptivem und progressivem Streaming je nach Browserfähigkeiten in einem einzigen Player, erweitern Sie die Reichweite ihrer Rich Media-Inhalte auf Desktop-, Tablet- und Mobilgerätebenutzer und stellen eine optimierte Videoerfahrung sicher.
+Als bewährte Methode verwenden Sie die HTML5-Video-Viewer von Dynamic Media Classic. Dank der für die HTML5 Video Viewer verwendeten Vorgaben handelt es sich um robuste Video-Player. Durch Kombination der Gestaltungsmöglichkeit der Wiedergabekomponenten mit HTML5 und CSS, der eingebetteten Wiedergabe und der Verwendung von adaptivem und progressivem Streaming je nach Browserfähigkeiten in einem einzigen Player, erweitern Sie die Reichweite ihrer Rich Media-Inhalte auf Desktop-, Tablet- und Mobilgerätebenutzer und stellen eine optimierte Videoerfahrung sicher.
 
-Siehe [Info zu HTML 5-Viewern](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) im Referenzhandbuch zu Adobe Viewers.
+Siehe [Informationen zu HTML5-Viewern](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) im Adobe Viewer-Referenzhandbuch.
 
-Siehe Kompatibilitätsmatrix [für dynamische Media Classic-Viewer-Vorgaben](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Siehe Kompatibilitätsmatrix für [Dynamic Media Classic Viewer-Vorgaben](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 Siehe [Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
-Abhängig vom Viewer können Sie Community-Funktionen hinzufügen. Zu den Community-Funktionen zählen die Schaltflächen „Einbetten“, „E-Mail an Freunde senden“, „Verknüpfen“ und „Zur Website“. Mit diesen Schaltflächen können Personen, die die Viewer verwenden, den Viewer für andere freigeben oder die Website für dynamische Medien öffnen.
+Abhängig vom Viewer können Sie Community-Funktionen hinzufügen. Zu den Community-Funktionen zählen die Schaltflächen „Einbetten“, „E-Mail an Freunde senden“, „Verknüpfen“ und „Zur Website“. Mit diesen Schaltflächen können Benutzer den Viewer für andere freigeben oder die Website von Dynamic Media Classic öffnen.
 
-Siehe auch Beispiele für Referenzbibliotheken in [Adobe Viewers](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html).
+Siehe auch Adobe Viewer-Referenzbibliotheksbeispiele [hier](/help/assets/vlist/vlist.html) und [hier](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Viewer-Unterstützung für interaktiv entwickelte Webseiten {#viewer-support-for-responsive-designed-web-pages}
 
-Verschiedene Webseiten haben unterschiedliche Anforderungen. Eventuell möchten Sie eine Webseite erstellen, die einen Link bereitstellt, der den HTML5-Viewer in einem separaten Browserfenster angezeigt. In anderen Fällen kann es erforderlich sein, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall hat der Webseite möglicherweise ein statisches Layout. Sie kann auch „Interaktiv“ sein und auf verschiedenen Geräten unterschiedlich oder für verschiedene Fenstergrößen im Browser angezeigt werden. Um diese Anforderungen zu erfüllen, unterstützen die HTML 5-Viewer, die mit Dynamic Media Classic geliefert werden, statische Webseiten und responsive Webseiten.
+Verschiedene Webseiten haben unterschiedliche Anforderungen. Eventuell möchten Sie eine Webseite erstellen, die einen Link bereitstellt, der den HTML5-Viewer in einem separaten Browserfenster angezeigt. In anderen Fällen kann es erforderlich sein, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall hat der Webseite möglicherweise ein statisches Layout. Sie kann auch „Interaktiv“ sein und auf verschiedenen Geräten unterschiedlich oder für verschiedene Fenstergrößen im Browser angezeigt werden. Um diese Anforderungen zu erfüllen, unterstützen die HTML5-Viewer, die mit Dynamic Media Classic geliefert werden, sowohl statische Webseiten als auch reaktionsfähige Webseiten.
 
 See [Responsive Static Image library](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)in the *Adobe Image Serving API Help* for more information on how to embed responsive viewers onto your web pages.
 
@@ -469,39 +469,39 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 Administratoren können die folgenden Arten von Viewer-Vorgaben erstellen und anpassen:
 
-**Der E-Katalog-Viewer** simuliert das Lesen eines gedruckten Katalogs. Sie können von Seite zu Seite wechseln, Elemente auf einer Seite vergrößern und verkleinern, Imagemaps verwenden, um weitere Informationen zu Artikeln auf der Seite anzuzeigen oder den Katalog zu durchsuchen. Sie können auch ein Infofeld einschließen, um detaillierte Informationen zu einem Element und eine verweissensitive Grafik anzuzeigen, wenn dem Bereich ein gültiges rollover_key-Attribut zugeordnet wurde. Zum Einschließen eines Infofelds geben Sie im Anzeigebereich „Infofeldeinstellungen“ des E-Katalog-Viewer-Vorgabe-Fensters die URL eines Infoservers ein.
+**E-Katalog-Viewer** Simuliert das Lesen eines gedruckten Katalogs. Sie können von Seite zu Seite wechseln, Elemente auf einer Seite vergrößern oder verkleinern, Imagemaps verwenden, um weitere Informationen zu Elementen auf der Seite anzuzeigen oder den Katalog zu durchsuchen. Sie können auch ein Infofeld einschließen, um detaillierte Informationen zu einem Element und eine verweissensitive Grafik anzuzeigen, wenn dem Bereich ein gültiges rollover_key-Attribut zugeordnet wurde. Zum Einschließen eines Infofelds geben Sie im Anzeigebereich „Infofeldeinstellungen“ des E-Katalog-Viewer-Vorgabe-Fensters die URL eines Infoservers ein.
 
-**Musterset-Viewer** Zeigt ein Bild in einer anderen Farbe, einem anderen Material, einer anderen Textur, einem anderen Abschluss oder einem anderen Stoff an. Über eine Miniaturansicht können Benutzer die Unterschiede im Bild anzeigen.
+**Musterset-Viewer** Zeigt ein Bild in einer anderen Farbe, einem anderen Material, einer anderen Textur, einer anderen Ausführung oder einem anderen Stoff an. Über eine Miniaturansicht können Benutzer die Unterschiede im Bild anzeigen.
 
-**Viewer für gemischte Mediensets** Zeigt verschiedene Medientypen in einem Viewer an. Sie können darin Mustersets, Rotationssets, Bilder und Videos einschließen. Sie können Registerkarten für verschiedene Arten von Inhalten einstellen, beispielsweise eine Registerkarte für Bildsätze und eine für Videos. Videos, die aus einem gemischten Medienset abgespielt werden, verwenden einen standardmäßigen Video-Viewer mit einer Zeitleiste und Video-Steuerelementen wie „Abbrechen“, „Anhalten“, „Zurückspulen“ und „Abspielen“. Wenn Sie eine Viewer-Vorgabe für gemischte Mediensets einstellen, geben Sie an, welche Viewer für die verschiedenen Arten von Assets in Ihrem gemischten Medienset verwendet werden sollen. Sie können auch den Raster-Viewer oder den Karussell-Viewer verwenden, um ein gemischtes Medienset anzuzeigen.
+**Viewer** für gemischte Mediensets Zeigt verschiedene Medientypen in einem Viewer an. Sie können darin Mustersets, Rotationssets, Bilder und Videos einschließen. Sie können Registerkarten für verschiedene Arten von Inhalten einstellen, beispielsweise eine Registerkarte für Bildsätze und eine für Videos. Videos, die aus einem gemischten Medienset abgespielt werden, verwenden einen standardmäßigen Video-Viewer mit einer Zeitleiste und Video-Steuerelementen wie „Abbrechen“, „Anhalten“, „Zurückspulen“ und „Abspielen“. Wenn Sie eine Viewer-Vorgabe für gemischte Mediensets einstellen, geben Sie an, welche Viewer für die verschiedenen Arten von Assets in Ihrem gemischten Medienset verwendet werden sollen. Sie können auch den Raster-Viewer oder den Karussell-Viewer verwenden, um ein gemischtes Medienset anzuzeigen.
 
-**Rotationsset-Viewer** Bietet mehrere Ansichten eines Bildes, damit Benutzer das Objekt drehen können, um die verschiedenen Seiten und Winkel zu untersuchen.
+**Rotationsset-Viewer** Bietet mehrere Ansichten eines Bilds, sodass Benutzer das Objekt drehen können, um die verschiedenen Seiten und Winkel zu untersuchen.
 
-**Video-Viewer** Zeigt Videos mit den Abmessungen der Auflösungen der Quelldatei oder einer benutzerdefinierten Größe an. Dynamic Media Classic verfügt über zahlreiche vordefinierte Viewer-Vorgaben für die Videowiedergabe. Wenn Sie Administrator sind, können Sie benutzerdefinierte Video-Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Vorder- und Hintergrundfarbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche, Sozialfunktionen und Hilfe-Funktionen konfigurieren.
+**Video-Viewer** zeigt Videos mit den Abmessungen der Quelldatei oder einer benutzerdefinierten Größe an. Im Lieferumfang von Dynamic Media Classic sind viele vordefinierte Viewer-Vorgaben für die Wiedergabe von Videos enthalten. Als Administrator können Sie benutzerdefinierte Video-Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Vorder- und Hintergrundfarbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche, Sozialfunktionen und Hilfe-Funktionen konfigurieren.
 
-**Zoom-Viewer** Bietet drei Arten von Zoom-Viewern:
+**Zoom-Viewer** bieten drei Arten von Zoom-Viewern:
 
-**Zoom-Viewer** Können Benutzer durch Klicken auf den Bereich zoomen. Sie können auf Steuerelemente klicken, um heran- und herauszuzoomen und das Bild auf seine Standardgröße zurücksetzen.
+**Zoom-Viewer** Ermöglicht Benutzern das Zoomen in den Bereich, indem sie darauf klicken. Sie können auf Steuerelemente klicken, um heran- und herauszuzoomen und das Bild auf seine Standardgröße zurücksetzen.
 
-**Zoom-Viewer: Flyout** Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
+**Zoom-Viewer: Fly-out** Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
 
 Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer geladen werden müssen. Die Größe des Hauptbildes (Anzeigenbreite und -höhe) und der Zoomfaktor bestimmen die Größe des Flyout-Bildes. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
 
 Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoomfaktor von 3 beträgt, ist das Flyout-Bild 1050 x 1050 Pixel groß. Wenn die Größe des Hauptbildes 300 x 300 Pixel bei einem Zoomfaktor von 4 beträgt, ist das Flyout-Bild 1200 x 1200 Pixel groß. Über die Einstellung für die JPEG-Qualität (empfohlener Wert: zwischen 80 und 90) können Sie die Dateigröße deutlich reduzieren. Der empfohlene Wert für den Zoomfaktor liegt, je nach Größe des Hauptbildes, zwischen 2,5 und 4.
 
-### Kompatibilitätsmatrix für dynamische Medien - Klassische Viewer-Vorgaben {#scene-viewer-preset-compatibility-matrix}
+### Kompatibilitätsmatrix für Dynamic Media Classic Viewer-Vorgaben {#scene-viewer-preset-compatibility-matrix}
 
-**Lebenszyklusende für Flash** Viewer: Ab dem 31. Januar 2017 hat das Adobe Scene 7 Publishing System offiziell den Support für die Flash-Viewer-Plattform beendet.
+**Hinweis** zum Ende der Lebensdauer von Flash-Viewern: Ab dem 31. Januar 2017 hat Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt.
 
 Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-Die folgende Tabelle enthält die aktuell verfügbaren Dynamic Media Classic-Viewer-Vorgaben. Außerdem gibt die Tabelle Aufschluss über die Viewer-Kompatibilität mit Desktop- und mobilen Geräten sowie die für jeden Viewer verwendete Technologie.
+Die folgende Tabelle zeigt die derzeit verfügbaren Viewer-Vorgaben für dynamische Medien und Klassische Medien. Außerdem gibt die Tabelle Aufschluss über die Viewer-Kompatibilität mit Desktop- und mobilen Geräten sowie die für jeden Viewer verwendete Technologie.
 
-Siehe auch Beispiele für Referenzbibliotheken in [Adobe Viewers](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html).
+Siehe auch Adobe Viewer-Referenzbibliotheksbeispiele [hier](/help/assets/vlist/vlist.html) und [hier](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Viewer-Versionshinweisen. 
 
-Siehe [Versionshinweise zu Adobe Viewers](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+Siehe Versionshinweise zu [Adobe Viewers](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Android Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -529,8 +529,8 @@ Siehe [Versionshinweise zu Adobe Viewers](https://marketing.adobe.com/resources/
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Android Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
 | E-Katalog-Viewer |  |  |  |  |  |  |
-| Universal_ HTML 5_ ecatalog_ Adv (enthält Unterstützung für Social Media und Katalogsuche) | HTML5 | X | X | X | X | X |
-| Universal_ HTML 5_ ecatalog (enthält Unterstützung für Social Media und Katalogsuche) | HTML5 | X | X | X | X | X |
+| Universal_HTML5_eCatalog_Adv(Enthält Unterstützung für Social Media und Katalogsuche.) | HTML5 | X | X | X | X | X |
+| Universal_HTML5_eCatalog(Enthält Unterstützung für Social Media und Katalogsuche.) | HTML5 | X | X | X | X | X |
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Android Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -540,15 +540,15 @@ Siehe [Versionshinweise zu Adobe Viewers](https://marketing.adobe.com/resources/
 
 **eVideo-Viewer**
 
-Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP 4 H .264-Video.
+Dynamic Media Classic unterstützt die Wiedergabe von mobilen Videos für MP4 H.264-Videos.
 
-* Blackberry-Geräte, die dieses Videoformat unterstützen, finden Sie unter: [Unterstützte Videoformate auf Blackberry](https://docs.blackberry.com/en/smartphone_users/deliverables/18349/711-01774-123_Supported_Media_Types_on_BlackBerry_Smartphones.pdf)
-* Sie können auch Windows-Geräte suchen, die dieses Videoformat unterstützen:[Unterstützte Videoformate auf Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)
+* Blackberry-Geräte, die dieses Videoformat unterstützen, finden Sie hier: Unterstützte [Videoformate bei Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Windows-Geräte, die dieses Videoformat unterstützen, finden Sie unter:[Unterstützte Videoformate unter Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Android Tablet | Blackberry-Smartphone | Windows Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_ HTML 5_ Video (enthält Unterstützung für Untertitel) Siehe [Optimale Vorgehensweise: Verwenden des universellen HTML5-Video-Viewers.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
-| Universal_ HTML 5_ Video_ social (enthält Unterstützung für Untertitel und soziale Medien) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(Enthält Unterstützung für Untertitel.) Siehe [Optimale Vorgehensweise: Verwenden des universellen HTML5-Video-Viewers.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video_social(Enthält Unterstützung für Untertitel und soziale Medien.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Android Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -567,13 +567,13 @@ Die folgende Tabelle enthält die Gesten für Mobilgeräte-Viewer, die von iOS-,
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
-### Anzeigebereich „Viewer-Vorgaben“{#about-the-viewer-preset-screen}
+### Über den Bildschirm „Viewer-Voreinstellung“ {#about-the-viewer-preset-screen}
 
 Über den Anzeigebereich „Viewer-Vorgaben“ erstellen und verwalten Sie Viewer-Vorgaben. Klicken Sie auf **Einstellungen** &gt; **Viewer-Vorgaben**, um diesen Bildschirm zu öffnen.
 
 Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Aufgaben:
 
-**Fügen Sie im Dialogfeld "Viewer-Vorgaben hinzufügen" eine Vorgabe** hinzu und treffen Sie eine Auswahl.
+**Hinzufügen einer Vorgabe** Klicken Sie auf Hinzufügen und treffen Sie im Dialogfeld "Viewer-Vorgabe hinzufügen"eine Auswahl.
 
 Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -583,18 +583,18 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 **Löschen einer Vorgabe** Wählen Sie eine Vorgabe aus und klicken Sie dann auf **Löschen**.
 
-**Exportieren einer Vorgabe** Wählen Sie eine HTML 5-Viewer-Vorgabe aus und klicken Sie dann auf "Exportieren" , um die Viewer-Skin herunterzuladen, damit Sie sie als Grundlage für das Erstellen und Hinzufügen einer neuen Viewer-Vorgabe verwenden können.
+**Exportieren einer Vorgabe** Wählen Sie eine HTML5-Viewer-Vorgabe und klicken Sie dann auf "Exportieren", um die Viewer-Skin herunterzuladen, damit Sie sie als Grundlage für das Erstellen und Hinzufügen einer neuen Viewer-Vorgabe verwenden können.
 
-Siehe [Exportieren einer HTML 5-Viewer-Vorgabe](application-setup.md#exporting_an_html5_viewer_preset).
+Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an_html5_viewer_preset).
 
-**Filtern der Liste mit den Viewer-Vorgaben** Verwenden Sie diese Tools zum Filtern der Liste:
+**Filtern der Liste** "Viewer-Vorgaben"Mit den folgenden Werkzeugen können Sie die Liste filtern:
 
 * Öffnen Sie die Dropdown-Liste **Aktiv/Inaktiv** und wählen Sie eine Option, um die aktiven Vorgaben, inaktiven Vorgaben oder alle Vorgabe anzuzeigen.
 * Öffnen Sie die Dropdown-Liste **Viewer** und wählen Sie eine Option, um nur bestimmte Viewer-Typen anzuzeigen. Wählen Sie **Alle Viewer**, um alle Viewer anzuzeigen.
 
 **Sortieren von Vorgaben** Klicken Sie auf eine Spaltenüberschrift (Aktiv, Typ, Vorgabe oder Plattform), um die Liste in einer Spalte zu sortieren. Klicken Sie nochmals auf einen Spaltentitel, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren. 
 
-**Aktivieren und Deaktivieren von Vorgaben** Wählen Sie eine Vorgabe aus und klicken Sie auf die Option Aktiv, um sie zu aktivieren oder zu deaktivieren.
+**Aktivieren und Deaktivieren von Vorgaben** Wählen Sie eine Vorgabe aus und klicken Sie auf deren aktive Option, um sie zu aktivieren oder zu deaktivieren.
 
 Siehe [Aktivieren und Deaktivieren von Viewer-Vorgaben](application-setup.md#activating_or_deactivating_viewer_presets).
 
@@ -604,9 +604,9 @@ Siehe [Aktivieren und Deaktivieren von Viewer-Vorgaben](application-setup.md#act
 
 ### Hinzufügen und Bearbeiten von Viewer-Vorgaben {#adding-and-editing-viewer-presets}
 
-Neben dem Hinzufügen von Viewer-Vorgaben mithilfe der Option „Hinzufügen“ in der Benutzeroberfläche können Sie auch die Option „Exportieren“ verwenden, um eine Viewer-Vorgabe hinzuzufügen. Exportieren Sie einfach eine vorhandene HTML 5-Viewer-Vorgabe und verwenden Sie diese als Grundlage für die neue Vorgabe.
+Neben dem Hinzufügen von Viewer-Vorgaben mithilfe der Option „Hinzufügen“ in der Benutzeroberfläche können Sie auch die Option „Exportieren“ verwenden, um eine Viewer-Vorgabe hinzuzufügen. Exportieren Sie einfach eine vorhandene HTML5-Viewer-Vorgabe und verwenden Sie diese dann als Grundlage für die neue Vorgabe.
 
-Siehe [Exportieren einer HTML 5-Viewer-Vorgabe](application-setup.md#exporting_an_html5_viewer_preset).
+Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an_html5_viewer_preset).
 
 **So fügen Sie Viewer-Vorgaben hinzu und bearbeiten sie**
 
@@ -616,15 +616,15 @@ Siehe [Exportieren einer HTML 5-Viewer-Vorgabe](application-setup.md#exporting_a
 
 1. Fügen Sie im Bildschirm „Viewer-Vorgaben“ die Viewer-Vorgabe hinzu oder bearbeiten Sie sie.
 
-   **Hinzufügen** der Option "Hinzufügen" in der Symbolleiste. Wählen Sie im Dialogfeld „Viewer-Vorgabe hinzufügen“ eine Plattform und anschließend einen Rich-Media-Asset-Typ.
+   **Klicken Sie in der Symbolleiste auf Hinzufügen** . Wählen Sie im Dialogfeld „Viewer-Vorgabe hinzufügen“ eine Plattform und anschließend einen Rich-Media-Asset-Typ.
 
    Klicken Sie auf **Speichern unter**, wenn Sie die Viewer-Vorgabe erstellt haben.
 
-   **Hinzufügen einer bereits vorhandenen Viewer-Vorgabe** in der Tabelle Wählen Sie eine Video-Viewer-Vorgabe aus und klicken Sie dann in der Symbolleiste auf "Bearbeiten" .
+   **Hinzufügen auf Grundlage einer vorhandenen Viewer-Vorgabe** Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie dann in der Symbolleiste auf Bearbeiten.
 
    Klicken Sie nach der Neukonfiguration des Video-Viewers auf **Speichern unter**, um die Vorgabe unter einem anderen Namen im Textfeld „Vorgabename“ zu speichern.
 
-   **Bearbeiten** Sie eine vorhandene Viewer-Vorgabe und klicken Sie auf **Bearbeiten**.
+   **Bearbeiten** Wählen Sie eine vorhandene Viewer-Vorgabe aus und klicken Sie dann auf **Bearbeiten**.
 
 1. Geben Sie im Anzeigebereich „Viewer konfigurieren“ im Feld „Vorgabename“ den Namen der Vorgabe ein oder bearbeiten Sie den bereits vorhandenen Namen im Feld.
 1. Legen Sie die weiteren gewünschten Optionen fest.
@@ -640,13 +640,13 @@ Siehe [Exportieren einer HTML 5-Viewer-Vorgabe](application-setup.md#exporting_a
    * Klicken Sie auf **Speichern unter**, wenn Sie eine Viewer-Vorgabe auf Grundlage einer bereits vorhandenen Vorgabe erstellen.
    * Klicken Sie auf **Speichern**, wenn Sie eine Viewer-Vorgabe hinzugefügt oder bearbeitet haben.
 
-### Exportieren einer HTML 5-Viewer-Vorgabe {#exporting-an-html-viewer-preset}
+### Exportieren einer HTML5-Viewer-Vorgabe {#exporting-an-html-viewer-preset}
 
-Sie können eine vorhandene HTML 5 Viewer-Vorgabe exportieren und als Grundlage für die Erstellung einer neuen HTML 5-Viewer-Vorgabe verwenden. Diese Exportoption ist nützlich, da Sie den Viewer auf diese Weise nicht komplett neu erstellen müssen. Stattdessen exportieren Sie eine Vorgabe mit Einstellungen, die Ihren Anforderungen in etwa entsprechen, und verwenden diese dann als Ausgangspunkt für Ihre Design-Anpassungen.
+Sie können eine vorhandene HTML5-Viewer-Vorgabe exportieren, um sie als Grundlage für die Erstellung einer neuen HTML5-Viewer-Vorgabe zu verwenden. Diese Exportoption ist nützlich, da Sie den Viewer auf diese Weise nicht komplett neu erstellen müssen. Stattdessen exportieren Sie eine Vorgabe mit Einstellungen, die Ihren Anforderungen in etwa entsprechen, und verwenden diese dann als Ausgangspunkt für Ihre Design-Anpassungen.
 
-Beachten Sie, dass alle standardmäßigen CSS-Dateien für Viewer-Vorgaben in SPS relative Image Serving-Pfade verwenden, die auf Assets verweisen, die sich befinden `Scene7SharedAssets`. Folgendes ist beispielsweise ein relativer Pfad zu einem Bild-Asset in einer CSS-Datei mit einer Viewer-Vorgabe: `Scene7SharedAsset`Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diese relativen Bildpfade auflösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }` Um zu veranschaulichen, dass der relative Pfad über einem expliziten Pfad aktualisiert wird, könnte er wie folgt aussehen: der `https://s7d1.scene7.com` direkte Pfad zu Ihrem Image-Server: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Beachten Sie, dass alle standardmäßigen, standardmäßigen CSS-Vorgabendateien für Viewer in SPS relative Image Serving-Pfade verwenden, die auf Assets verweisen, die sich in `Scene7SharedAssets`der Anwendung befinden. Beispiel: Der folgende Pfad ist ein relativer Pfad zu einem Bild-Asset in einer CSS-Vorgabe-Datei, die sich unter `Scene7SharedAsset`: Wenn Sie `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diesen relativen Bildpfad lösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. Wenn Sie zum Beispiel den relativen Pfad über einem expliziten Pfad aktualisieren möchten, könnte er wie folgt aussehen, wobei der direkte Pfad zum Image-Server `https://s7d1.scene7.com` ist: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
-**So exportieren Sie eine HTML 5-Viewer-Vorgabe**
+**So exportieren Sie eine HTML5-Viewer-Vorgabe**
 
 ```as3
 .s7videoviewer .s7fullscreenbutton[state][selected] 
@@ -660,14 +660,14 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 1. Klicken Sie auf **Einstellungen** &gt; **Viewer-Vorgaben**.
 1. On the Viewer Presets toolbar, in the second drop-down list from the left, select **HTML5**.
 1. Wählen Sie in der dritten Dropdown-Liste von links die Option **Alle Viewer** aus.
-1. Wählen Sie die Viewer-Vorgabe aus, die Sie als Grundlage für eine neue HTML 5-Viewer-Vorgabe verwenden möchten.
+1. Wählen Sie die Viewer-Vorgabe aus, die Sie als Grundlage für eine neue HTML5-Viewer-Vorgabe verwenden möchten.
 1. Klicken Sie auf der Symbolleiste auf **Exportieren**.
 1. Klicken Sie im Dialogfeld „Ausgewählte Assets exportieren“ auf **Export starten**.
 
    Nach dem Export erhalten Sie eine CSS-Datei. Laden Sie die Datei herunter und dekomprimieren Sie sie.
 
 1. Öffnen Sie die CSS-Datei in einem CSS-Editor, nehmen Sie Ihre Änderungen vor und speichern Sie die Datei anschließend.
-1. Laden Sie die CSS-Datei in das Scene 7 Publishing System hoch.
+1. Laden Sie die CSS-Datei in das Scene7 Publishing System hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
@@ -675,7 +675,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing_files).
 
-1. Fügen Sie wie üblich die neue Viewer-Vorgabe hinzu. Wählen Sie die Viewer-CSS-Datei aus, die Sie hochgeladen haben.
+1. Fügen Sie wie üblich die neue Viewer-Vorgabe hinzu. Wählen Sie die hochgeladene Viewer-CSS-Datei aus.
 
    Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -760,13 +760,13 @@ Sie können „Standard-Viewer“ verwenden, um den Standard-Viewer zu konfiguri
 
 *Metadaten* sind standardisierte Informationen zu einem Asset. Mit Metadaten können Sie Ihren Arbeitsablauf optimieren, Ihre Assets organisieren und die Suche verbessern. Dynamic Media Classic unterstützt den Standard IPTC (International Press Telecommunications Council) und den Standard XMP (Extensible Metadata Platform). Vor der Anzeige oder Eingabe von Asset-Metadaten in der Detailansicht können Benutzer im Menü „Metadaten-Ansichten“ den Metadatenfeldersatz auswählen, den sie anzeigen oder zur Beschreibung des Assets verwenden möchten.
 
-Dynamic Media Classic verfügt über vordefinierte Metadaten-Ansichten. Administratoren können eigene Metadaten-Ansichten erstellen, die Benutzer beim Eingeben von Metadaten auswählen können.
+Im Lieferumfang von Dynamic Media Classic sind vordefinierte Metadaten-Ansichten enthalten, und Administratoren können eigene Metadaten-Ansichten erstellen, die Benutzer bei der Eingabe von Metadaten auswählen können.
 
 ### Erstellen einer Metadaten-Ansicht {#creating-a-metadata-view}
 
 1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
 1. Klicken Sie auf **„Hinzufügen“**.
-1. Geben Sie im Textfeld Vorgabenname einen Namen für die Ansicht ein.
+1. Geben Sie im Textfeld "Vorgabenname"einen Namen für die Ansicht ein.
 1. (Optional) Check **Make Default** to make this view the one that users see when they open the Metadata panel in Detail View.
 1. (Optional) Select **Include UDF** to include user-defined fields in the view. Benutzerdefinierte Felder werden oben im Metadatenbedienfeld in der Detailansicht angezeigt.
 1. Select the fields you want for the view (click **Select All** to select all the fields).
@@ -795,7 +795,7 @@ Erstellen Sie eine Metadaten-Vorgabe für jeden Satz mit Metadatenwerten, die di
 1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets** .
 1. Führen Sie im Anzeigebereich „Metadaten-Vorgaben“ einen der folgenden Schritte aus:
 
-   * To create a preset, click **Add**. Geben Sie im Textfeld "Name der Metadatenvorlage" einen Namen für die Vorgabe ein und klicken Sie dann auf **Metadaten-Ansichten** und wählen Sie eine Ansicht aus der Dropdownliste (siehe [Metadaten-Ansichten](application-setup.md#metadata_views)).
+   * To create a preset, click **Add**. Geben Sie im Textfeld Name der Metadatenvorlage einen Namen für die Vorgabe ein, klicken Sie auf **Metadaten-Ansichten** und wählen Sie eine Ansicht aus der Dropdownliste aus (siehe [Metadaten-Ansichten](application-setup.md#metadata_views)).
    * To edit an existing preset, select the preset from the Metadata Presets list and then click **Edit**.
 
 1. Blenden Sie die Überschriften ein, die Sie in die Vorgabe aufnehmen möchten, und geben Sie Werte in die verschiedenen Felder ein, die Sie in die Vorgabe aufnehmen möchten.
@@ -813,9 +813,9 @@ Erstellen Sie eine Metadaten-Vorgabe für jeden Satz mit Metadatenwerten, die di
 
 ## Benutzerdefinierte Felder {#user-defined-fields}
 
-Ein Medienportal-Administrator bzw. Unternehmensadministrator kann individuelle, benutzerdefinierte Metadatenfelder erstellen.  Sie können die Felder nach Bedarf als aktiv markieren. Wenn die Felder aktiviert sind, erscheinen die Namen dieser benutzerdefinierten Metadatenfelder im Metadatenbedienfeld in der Detailansicht. Die Benutzer können Informationen zur Beschreibung der Assets in die benutzerdefinierten Metadatenfelder eingeben. Außerdem können Benutzer ein benutzerdefiniertes Metadatenfeld als Suchkriterium angeben.
+Ein Medienportal-Administrator bzw. Unternehmensadministrator kann individuelle, benutzerdefinierte Metadatenfelder erstellen. Mit benutzerdefinierten Feldern können Sie Assets im Scene7 Publishing System leichter organisieren. Sie können die Felder bei Bedarf als aktiv markieren. Wenn die Felder aktiviert sind, erscheinen die Namen dieser benutzerdefinierten Metadatenfelder im Metadatenbedienfeld in der Detailansicht. Die Benutzer können Informationen zur Beschreibung der Assets in die benutzerdefinierten Metadatenfelder eingeben. Außerdem können Benutzer ein benutzerdefiniertes Metadatenfeld als Suchkriterium angeben.
 
-Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Aktivierungszeit eines Assets für einen bestimmten Launch oder Ausverkauf zu verzögern. Sie definieren ein Aktivierungsfeld basierend auf dem Typ *"Datum*«. Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Das Scene7 Publishing System prüft den Veröffentlichungsstatus eines Assets sowie seinen Veröffentlichungsverlauf. Wenn es sich nicht innerhalb der Aktivierungszeit befindet, wird der Veröffentlichungsstatus als "Nicht veröffentlicht" angezeigt.
+Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Aktivierungszeit eines Assets für einen bestimmten Launch oder Ausverkauf zu verzögern. Sie definieren ein Feld für die Aktivierung basierend auf dem Typ *Datum*. Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Das Scene7 Publishing System prüft den Veröffentlichungsstatus eines Assets sowie seinen Veröffentlichungsverlauf. Ist dies nicht der Zeitpunkt der Aktivierung, wird als Veröffentlichungsstatus "Nicht veröffentlicht"angezeigt.
 
 >[!NOTE]
 >
@@ -833,17 +833,17 @@ Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Ak
 
    **Name** Geben Sie einen Namen für das Metadatenfeld ein.
 
-   **Geben Sie** eine Option zum Festlegen der Art der Informationen ein, die Benutzer im Metadatenfeld eingeben können:
+   **Typ** Wählen Sie eine Option aus, die den Informationstyp definiert, den Benutzer in das Metadatenfeld eingeben können:
 
    **Zeichenfolge** Eine Textzeichenfolge.
 
-   **Int** Eine Ganzzahl.
+   **In** eine Ganzzahl.
 
-   **Gleitkommazahl.**
+   **Gleitkommazahl** Eine Gleitkommazahl.
 
-   **Ja/Nein** , boolescher Wert.
+   **Ja/Nein** Ein boolescher Ja/Nein-Wert.
 
-   **Datum** ein Datum. Das Format MM/TT/JJJJ ist zulässig.
+   **Datum** Ein Datum. Das Format MM/TT/JJJJ ist zulässig.
 
    **Dateiname** Der Name einer Datei.
 
@@ -853,9 +853,9 @@ Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Ak
 
    **Nicht typisiert** für Abwärtskompatibilität. Wählen Sie diese Option nicht aus.
 
-   **Standardwert** optional geben Sie den Wert ein, den Benutzer am ehesten in das Feld eingeben. Dieser Wert wird als Standardwert für das neue Feld verwendet.
+   **Standardwert** (optional): Geben Sie den Wert ein, den Benutzer am ehesten in das Feld eingeben. Dieser Wert wird als Standardwert für das neue Feld verwendet.
 
-   **Wählen Sie** optional einen Asset-Typ aus, wenn das Metadatenfeld nur auf einen bestimmten Asset-Typ angewendet werden soll.
+   **Wählen Sie optional einen Asset-Typ, wenn das Metadatenfeld nur auf einen bestimmten Asset-Typ angewendet werden soll** .
 
    ***Note**: Choose an **Applies To** option carefully because you cannot change the **Applies To** option after you create a user-defined field. Dynamic Media Classic lets you edit the name, type, and default value of a user-defined field, but not the **Applies To** setting. *
 
@@ -871,9 +871,9 @@ Um diesen Bildschirm zu öffnen, klicken Sie auf **„Einstellungen“** &gt; *
 
 **Bearbeiten eines Felds** Wählen Sie das Feld aus und klicken Sie dann auf **Bearbeiten**.
 
-**Löschen eines Felds** Auswählen Sie das Feld und klicken Sie dann auf **Löschen**.
+**Löschen eines Felds** Wählen Sie das Feld aus und klicken Sie dann auf **Löschen**.
 
-**Feld aktivieren** Klicken Sie auf, um die Option Aktiv neben dem Namen eines Felds auszuwählen oder zu deaktivieren. Wenn Sie eine Administratorfunktion in Ihrer Organisation innehaben, wird diese Option eventuell nicht angezeigt. Da diese Option mit mediaportal verknüpft ist, müssen Sie im persönlichen Setup die Option mediaportal-Funktionen anzeigen auswählen, um die aktivieren zu können.
+**Aktivieren Sie das Feld** Klicken, um die Option Aktiv neben dem Namen eines Felds auszuwählen oder die Auswahl aufzuheben. Wenn Sie eine Administratorfunktion in Ihrer Organisation innehaben, wird diese Option eventuell nicht angezeigt. Da diese Option mit MediaPortal in Zusammenhang steht, müssen Sie unter "Persönliche Einstellungen"die Option "MediaPortal-Funktionen anzeigen"auswählen (aktivieren), um die Aktivierungsfelder anzuzeigen.
 
 ## Optimieren von Dateien {#optimize-files}
 
@@ -881,7 +881,7 @@ Während Sie Dateien in das Scene7 Publishing System hochladen, werden diese vom
 
 Ihre Dateien werden vom Scene7 Publishing System durchsucht, wobei nur die Bilder optimiert werden, die nicht bereits vollständig optimiert sind.
 
-1. Wählen Sie **"Einstellungen** " &gt; **" Anwendungseinstellungen"** und klicken Sie dann auf "Dateien optimieren ****«.
+1. Wählen Sie " **Einstellungen** "&gt; " **Anwendungseinstellungen**"und dann "Dateien **optimieren"**.
 1. Enter information for the optimization job and click **Submit**.
 
    Wenn Sie mit mehr als einem Unternehmen arbeiten, optimieren Sie Dateien, die zu unterschiedlichen Unternehmen gehören, getrennt.
@@ -892,7 +892,7 @@ Anhand der Stapelsatzvorgaben können Sie während der Ausführung eines Auftrag
 
 Unternehmensadministratoren legen zuerst Namenskonventionen für die Assets fest, die sie in einem Satz gruppieren möchten. Sie können dann eine Stapelsatzvorgabe erstellen, um diese Bilder zu referenzieren. Jede Vorgabe ist ein eindeutig benannter, in sich abgeschlossener Satz von Anweisungen, die definieren, wie der Satz unter Verwendung der Bilder, die den definierten Benennungsregeln im Vorgabenrezept entsprechen, konstruiert werden soll.
 
-Alle aktiven Stapelsatzvorgaben für ein Unternehmen werden im Dialogfeld „Upload-Auftragsoptionen“ aufgelistet, sodass Sie bei jedem Hochladevorgang auswählen können, welche Vorgabe angewendet werden soll. Unternehmensadministratoren sehen alle aktiven und inaktiven Stapelsatzvorgaben. Wenn Sie Dateien hochladen, erstellt Dynamic Media Classic automatisch einen Satz mit allen Dateien, die der definierten Benennungsregel in den aktiven Vorgaben entsprechen.
+Alle aktiven Stapelsatzvorgaben für ein Unternehmen werden im Dialogfeld „Upload-Auftragsoptionen“ aufgelistet, sodass Sie bei jedem Hochladevorgang auswählen können, welche Vorgabe angewendet werden soll. Unternehmensadministratoren sehen alle aktiven und inaktiven Stapelsatzvorgaben. Beim Hochladen von Dateien erstellt Dynamic Media Classic automatisch einen Satz mit allen Dateien, die der definierten Benennungsregel in den aktiven Vorgaben entsprechen.
 
 ### Standardbenennung {#default-naming}
 
@@ -918,7 +918,7 @@ Zwei Elemente sind zur Definition verfügbar: Treffer und Grundname. Anhand dies
 
 ### Erstellen einer Stapelsatzvorgabe {#creating-a-batch-set-preset}
 
-Dynamic Media Classic verwendet Stapelsatzvorgaben, um Assets, die einige allgemeine Informationen oder Inhalte gemeinsam nutzen, in Gruppen von Bildern zu organisieren, die in Viewern angezeigt werden. Die Stapelsatzvorgaben-Rezepte werden parallel zu den Asset-Importaufträgen ausgeführt, die Sie in Dynamic Media Classic planen.
+Dynamic Media Classic verwendet Stapelsatzvorgaben, um Assets, die einige allgemeine Informationen oder Inhalte gemeinsam nutzen, in Bildsätzen für die Anzeige in Viewern zu organisieren. Die Stapelsatzvorgabenrezepte werden automatisch zusammen mit den Asset-Importaufträgen ausgeführt, die Sie in Dynamic Media Classic planen.
 
 Verwenden Sie „Stapelsatzvorgaben“ zum Erstellen, Bearbeiten und Verwalten Ihrer Stapelsatzvorgaben. Sie können so viele Stapelsatzvorgaben wie nötig erstellen, um alle benötigten Asset-Importaufträge abzudecken. Es gibt zwei Formen von Stapelsatzvorgabendefinitionen, eine für eine von Ihnen eingerichtete Standardbenennungsregel und eine für benutzerdefinierte Standardbenennungsregeln, die Sie spontan erstellen.
 
@@ -940,8 +940,8 @@ Siehe auch [Erstellen einer Stapelsatzvorgabe für die automatische Erstellung e
    * Wenn Sie eine Standard-Benennungskonvention verwenden, die Sie zuvor unter „Anwendungseinstellungen“ &gt; „Stapelsatzvorgaben“ &gt; „Standardbenennung“ eingerichtet haben, erweitern Sie **Asset-Benennungsregeln** und klicken Sie anschließend in der Dropdownliste „Dateibenennung“ auf **Standard**.
    * Um eine Benennungskonvention während der Einrichtung der Vorgabe zu definieren, erweitern Sie **Asset-Benennungsregeln** und klicken Sie anschließend in der Dropdownliste „Dateibenennung“ auf **Standard**.
 
-1. Definieren Sie für die Sequenz-Reihenfolge die Reihenfolge der Bilder, nachdem das Set in Dynamic Media Classic gruppiert wurde. Die Assets werden standardmäßig in alphanumerischer Reihenfolge angeordnet. Sie können jedoch auch eine durch Kommas getrennte Liste mit regulären Ausdrücken verwenden, um die Reihenfolge anzupassen.
-1. Geben Sie für „Satzbenennungs- und -erstellungsregel“ das Suffix bzw. Präfix für den Basisnamen an, den Sie in der Asset-Benennungsregel definiert haben. Legen Sie außerdem fest, wo der Bildsatz in der Ordnerstruktur des dynamischen Mediensets erstellt werden soll.
+1. Legen Sie für die Reihenfolge der Sequenz die Reihenfolge der Bilder fest, nachdem das Set in "Dynamische Medien Classic"gruppiert wurde. Die Assets werden standardmäßig in alphanumerischer Reihenfolge angeordnet. Sie können jedoch auch eine durch Kommas getrennte Liste mit regulären Ausdrücken verwenden, um die Reihenfolge anzupassen.
+1. Geben Sie für „Satzbenennungs- und -erstellungsregel“ das Suffix bzw. Präfix für den Basisnamen an, den Sie in der Asset-Benennungsregel definiert haben. Legen Sie außerdem fest, wo der Bildsatz in der Ordnerstruktur von Dynamic Media Classic erstellt werden soll.
 
    Falls Sie eine große Anzahl von Bildsätzen definieren, sollten Sie diese von den Ordnern, die die Assets selbst enthalten, getrennt halten. Zahlreiche Kunden erstellen einen Ordner „Bildsätze“ und weisen die Anwendung an, im Stapelsatz generierte Sätze hier abzulegen.
 
@@ -1014,7 +1014,7 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
    >[!NOTE]
    Wenn anhand der Kombination aus regulärem Ausdruck für Zeile und Spalte diese Position des Assets innerhalb des multidimensionalen Rotationsset-Arrays nicht ermittelt werden kann, wird das Asset nicht dem Set hinzugefügt und ein Fehler wird protokolliert.
 
-1. Geben Sie für „Satzbenennungs- und -erstellungsregel“ das Suffix bzw. Präfix für den Basisnamen an, den Sie in der Asset-Benennungsregel definiert haben. Legen Sie außerdem fest, wo der Bildsatz in der Ordnerstruktur des dynamischen Mediensets erstellt werden soll.
+1. Geben Sie für „Satzbenennungs- und -erstellungsregel“ das Suffix bzw. Präfix für den Basisnamen an, den Sie in der Asset-Benennungsregel definiert haben. Legen Sie außerdem fest, wo der Bildsatz in der Ordnerstruktur von Dynamic Media Classic erstellt werden soll.
 
    Falls Sie eine große Anzahl von Bildsätzen definieren, sollten Sie diese von den Ordnern, die die Assets selbst enthalten, getrennt halten. Zahlreiche Kunden erstellen einen Ordner „Bildsätze“ und weisen die Anwendung an, im Stapelsatz generierte Sätze hier abzulegen.
 
