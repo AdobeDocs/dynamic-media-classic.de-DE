@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Siehe [Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers](best-practice
 
 Abhängig vom Viewer können Sie Community-Funktionen hinzufügen. Zu den Community-Funktionen zählen die Schaltflächen „Einbetten“, „E-Mail an Freunde senden“, „Verknüpfen“ und „Zur Website“. Mit diesen Schaltflächen können Benutzer den Viewer für andere freigeben oder die Website von Dynamic Media Classic öffnen.
 
-Siehe auch Adobe Viewer-Referenzbibliotheksbeispiele [hier](/help/assets/vlist/vlist.html) und [hier](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch Referenzbibliotheksbeispiele für [Adobe Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Viewer-Unterstützung für interaktiv entwickelte Webseiten {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden
 
 Die folgende Tabelle zeigt die derzeit verfügbaren Viewer-Vorgaben für dynamische Medien und Klassische Medien. Außerdem gibt die Tabelle Aufschluss über die Viewer-Kompatibilität mit Desktop- und mobilen Geräten sowie die für jeden Viewer verwendete Technologie.
 
-Siehe auch Adobe Viewer-Referenzbibliotheksbeispiele [hier](/help/assets/vlist/vlist.html) und [hier](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch Referenzbibliotheksbeispiele für [Adobe Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Viewer-Versionshinweisen. 
 
