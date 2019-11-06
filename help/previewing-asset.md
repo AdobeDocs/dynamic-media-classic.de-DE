@@ -2,15 +2,15 @@
 title: Anzeigen einer Asset-Vorschau
 seo-title: Anzeigen einer Asset-Vorschau
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie ein Asset in der Vorschau anzeigen.
-uuid: 4 a 01 be 21-e 37 f -4 d 79-9220-f 4 e 177 e 9179 a
+seo-description: Erfahren Sie, wie Sie eine Asset-Vorschau anzeigen.
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: 17 d 0 bfd 6-fc 62-4 ed 6-8 a 51-7 ac 1 a 6 bb 96 cc
+products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_defa
 
 Wenn Sie ein Vorlagen-Asset mit Parameterebenen in der Vorschau anzeigen möchten, können Sie die Parameter oder die Bildvorgabe ändern. Da Ihre Änderungen inline vorgenommen werden, können Sie die Ergebnisse sofort im gleichen Fenster sehen.
 
-Siehe auch Beispiele für [Dynamic Media Classic Viewer-Bibliotheken](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html).
+Siehe auch Adobe Viewer-Referenzbibliotheksbeispiele [hier](/help/assets/vlist/vlist.html) und [hier](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **So zeigen Sie eine Asset-Vorschau an**
 
