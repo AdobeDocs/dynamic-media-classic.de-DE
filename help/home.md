@@ -5,7 +5,7 @@ description: Technische Dokumentation zu Dynamic Media Classic
 seo-description: 'Technische Dokumentation, Versionshinweise und Selbsthilfematerialien für Adobe Dynamic Media Classic, früher Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 Willkommen bei der Hilfe zu Dynamic Media Classic. Hier können Sie auf alle verfügbaren Ressourcen zugreifen, um mehr über die Verwendung von Dynamic Media Classic (früher Scene7) zu erfahren.
 
-## Technische Dokumentation zu Dynamic Media Classic
+## Neue Benutzeroberfläche von Dynamic Media Classic im ersten Halbjahr 2020
 
-* [Versionshinweise](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [Benutzerhandbuch](introduction.md)
+Benutzer von Dynamic Media Classic können eine Aktualisierung ihrer Benutzeroberfläche im ersten Halbjahr 2020 erwarten. Das Erlebnis bietet eine aktualisierte Anmeldung mit Links zu wertvollen Ressourcen. Darüber hinaus ist dieses Update nicht mehr auf die Adobe Flash-Technologie im Browser angewiesen.
 
-## Dynamic Media Classic-Entwicklerressourcen
+Siehe [Häufig gestellte Fragen](new-ui-2020.md).
 
-* [Adobe Viewer-Referenzhandbuch](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [Beispiele für die Viewer-Bibliothek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [Image Serving and Image Rendering API](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## Entwicklerressourcen für dynamische Medien
 
-## Dynamic Media Classic-Webinare und -Tutorials
+* [Landingpage](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) für Dynamic Media Developer-Ressourcen - Enthält Viewer-Referenzhandbuch, Image Serving/Image Rendering-API, Image Production System-API und Versionshinweise zu Dynamic Media Classic.
+* [Beispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) für die Viewer-Bibliothek: Enthält Viewer-Beispiele für Video, einkaufbare Medien, gemischte Medien, Rotationssets, Inline-Zoom, Bild- und Mustersets und Flyouts.
 
+## Dynamic Media Classic-Newsletter, Webinare und Tutorials
+
+* [Archiv für dynamische Medien-Newsletter](dynamic-media-newsletter.md)
 * [Best Practices für das Scharfzeichnen von Bildern](/help/assets/s7_sharpening_images.pdf)
 * [Maximieren Sie Ihren Asset-ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) - Erfahren Sie, welche Best Practices in der Branche zur Bereitstellung von Rich-Media-Inhalten für Ihre Sites und mobilen Apps zur Verfügung stehen. In diesem Webinar zeigen wir Ihnen anhand von Beispielen und Demonstrationen, wie Sie Videos effizient über verschiedene Geräte hinweg bereitstellen, dynamische kreative Elemente in Ihren Marketingkampagnen bereitstellen und die Konvertierung steigern können, indem Sie Bilder, Stilvorlagen oder Lookbook einkaufen.
 * [Beschleunigen Sie den Lebenszyklus](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) Ihrer Inhaltsbereitstellung - In diesem Webinar erhalten Sie eine Einführung und eine Demonstration der Adobe Experience Manager-Assets - On-Demand-Plattform der nächsten Generation für Rich-Media-Management und -Bereitstellung. Erfahren Sie, wie Sie mit Kreativ- und Marketing-Teams zusammenarbeiten und Assets gemeinsam nutzen, um die Überprüfung von Assets zu optimieren. Best Practices zur effizienten Verwaltung von Asset-Metadaten, um die Suche, Verwendung, Wiederverwendung und Freigabe von Assets zu vereinfachen und interaktive kanalübergreifende Rich-Media-Erlebnisse bereitzustellen.
