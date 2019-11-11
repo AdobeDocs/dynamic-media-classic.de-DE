@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Hilfe zu Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
+source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 # Hilfe zu Dynamic Media Classic {#using}
 
 + [Startseite der Dokumentation für dynamische Medien und Klassische Medien](home.md)
-+ [Neue Benutzeroberfläche von Dynamic Media Classic im ersten Halbjahr 2020](new-ui-2020.md)
+<!-- + [New Dynamic Media Classic user interface coming in first half of 2020](new-ui-2020.md)-->
 + [Dynamic Media-Newsletter von Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
    + [Info zu Dynamic Media Classic](introduction.md)
