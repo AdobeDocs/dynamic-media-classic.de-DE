@@ -1,12 +1,12 @@
 ---
 description: 'Der Dynamic Media Newsletter der Experience League ist ein monatlicher Newsletter. Es wurde entwickelt, um Sie bei der Entwicklung mit dynamischen Medien und Dynamic Media Classic zu unterstützen, sodass Sie sofort mit der Wertschöpfung beginnen können. In diesem One-Stopp-Shop-Newsletter stehen wertvolle Ressourcen zum Wissensaufbau zur Verfügung, darunter Videos, Lösungsübersichten und einige der wichtigsten Funktionen wie Bildvorgaben, Viewer-Vorgaben, Videoprofile und mehr. '
-keywords: dynamische Medien;Newsletter;Produktaktualisierungen;Tipps und Tricks;Ereignisse;Kundenerfolg;Blog;Blogs;Bilder;Videos;Funktionen;Funktionen
+keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: In diesem One-Stopp-Shop-Newsletter finden Sie Informationsquellen wie Videos, Lösungsübersichten und einige der wichtigsten Funktionen wie Bildvorgaben, Viewer-Vorgaben, Videoprofile und mehr.
 seo-title: 'Adobe Dynamic Media Newsletter '
-solution: Dynamische Medien
+solution: Dynamic Media
 title: Newsletter für dynamische Medien
 translation-type: tm+mt
-source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
+source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
 
 ---
 
@@ -22,6 +22,14 @@ In diesem One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen zum Wissensa
 [Melden Sie sich](https://www.adobe.com/subscription/dynamic-media-newsletter.html) an, um den Newsletter für dynamische Medien monatlich in Ihrem Posteingang zu erhalten.
 
 ## Fehlt eine Ausgabe des Newsletters für dynamische Medien?
+
+* **[Ausgabe 11](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)** in diesem Problem:
+
+   * Eine Aktualisierung der Benutzeroberfläche von Dynamic Media Classic.
+   * Leistungsstarke neue Sicherheitsfunktionen.
+   * Wie wir uns vorbereiten, damit Sie eine erfolgreiche Urlaubszeit haben.
+   * Teilen Sie den Newsletter mit Ihren Kollegen, um Teamwissen aufzubauen.
+   * Treffen Sie Apoorva Gupta, Senior Product Manager, Dynamic Media.
 
 * **[Oktober 2019, Ausgabe 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)** In dieser Ausgabe:
 
