@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Dynamic Media Classic Help
 index: y
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Hilfe für das Portal für dynamische Medien - Klassische Medien](help-scene7-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Häufig genutzte Ressourcen](popular-resources.md)
+   + [Schulungsvideos](training-videos.md)
 + Erste Schritte {#getting-started}
    + [Übersicht über die Adobe Dynamic Media Classic-Plattform](scene7-platform-overview.md)
    + [Verwenden von Scene7 Publishing System (Desktop-Version)](using-scene7-publishing-system-desktop.md)
@@ -152,7 +153,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Kurzanleitung: Integration von Dynamic Media Classic mit Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
+   + [Kurzanleitung: Integration von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
    + [Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit](instrumenting-viewer-using-analytics-instrumentation.md)
