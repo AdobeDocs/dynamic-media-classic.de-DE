@@ -5,7 +5,7 @@ description: Technische Dokumentation zu Dynamic Media Classic
 seo-description: 'Technische Dokumentation, Versionshinweise und Selbsthilfematerialien für Adobe Dynamic Media Classic, früher Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: f31df2ce32e3b30556383570a8fb97c24ab45171
 
 ---
 
@@ -40,4 +40,6 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md).
 ## Dynamic Media Classic-Schulung
 
 Sehen Sie sich [hier](http://training.adobe.com/training/courses.html#product=adobe-scene7) die aktuell verfügbaren Schulungen an.
-[Schulungsvideos](https://marketing.adobe.com/resources/help/en_US/s7/training-videos/)zu Dynamic Media Classic
+[Schulungsvideos](/help/training-videos.md)zu Dynamic Media Classic
+
+<!-- old path was (https://marketing.adobe.com/resources/help/en_US/s7/training-videos/) -->
