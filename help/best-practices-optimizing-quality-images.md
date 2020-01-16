@@ -5,12 +5,12 @@ description: 'null'
 seo-description: Hier lernen Sie bewährte Verfahren zur Optimierung der Bildqualität kennen.
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 ---
 
@@ -26,7 +26,7 @@ Siehe auch [Intelligente Bildbearbeitung](https://helpx.adobe.com/experience-man
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Das JPG- oder das PNG-Format ist die beste Wahl, um Bilder in akzeptabler Qualität und handlicher Größe und Dateigröße bereitzustellen.
-* Wenn in der URL kein Formatbefehl angegeben ist, wird für "Dynamic Media Image Serving"standardmäßig JPG zur Bereitstellung verwendet.
+* Wenn in der URL kein Formatbefehl angegeben ist, wird für &quot;Dynamic Media Image Serving&quot;standardmäßig JPG zur Bereitstellung verwendet.
 * JPG-Dateien werden in einem Verhältnis von 10:1 komprimiert und produzieren so in der Regel kleinere Bilddateigrößen. PNG-Dateien werden in einem Verhältnis von etwa 2:1 komprimiert, mit Ausnahme von Fällen, bei denen das Bild einen weißen Hintergrund enthält. Dennoch lässt sich sagen, dass PNG-Dateien grundsätzlich größer sind als JPG-Dateien.
 * JPG verwendet eine verlustbehaftete Komprimierung. Dies bedeutet, dass Bildelemente (Pixel) bei der Komprimierung verworfen werden. Im Gegensatz dazu verwendet PNG eine verlustfreie Komprimierung.
 * JPG komprimiert Fotografien häufig mit einer höheren Genauigkeit als künstliche Bilder mit scharfen Kanten und hohem Kontrast.
@@ -49,7 +49,7 @@ Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bi
 
 Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
+Siehe auch [Scharfzeichnen eines Bildes mit einer Unschärfemaske](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
 
 Mit Dynamic Media Classic können Sie Bilder bei der Erfassung, bei der Bereitstellung oder bei beidem scharfzeichnen. In den meisten Fällen sollten Sie Bilder jedoch nur mit einer der beiden Methoden scharfzeichnen, nicht mit beiden. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
 
