@@ -7,21 +7,21 @@ getting-started-title: Erste Schritte
 getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
 tutorials-title: Übungen
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://git.corp.adobe.com/AdobeDocs/scene7.en
+git-repo: https://github.com/AdobeDocs/dynamic-media-classic.en
 translation-type: tm+mt
-source-git-commit: c02feaa361f1986ad630468729981c29f4cf37b5
+source-git-commit: 9b1bdd86ab4dc5148a0fea3157c8c3cbbeac0728
 
 ---
 
 
 # Metadaten für den internen Gebrauch
 
-Die Datei "metadata.md"enthält Metadaten auf Repo-Ebene, die an die Dateien "TOC.md"des Benutzerhandbuchs im Bericht übergeben werden. Wenn Sie den Inhalt von "metadata.md"für ein Benutzerhandbuch ändern möchten, führen Sie dies in einer beliebigen Datei "TOC.md"durch.
+Die Datei &quot;metadata.md&quot;enthält Metadaten auf Repo-Ebene, die an die Dateien &quot;TOC.md&quot;des Benutzerhandbuchs im Bericht übergeben werden. Wenn Sie den Inhalt von &quot;metadata.md&quot;für ein Benutzerhandbuch ändern möchten, führen Sie dies in einer beliebigen Datei &quot;TOC.md&quot;durch.
 
 | Metadaten | was es tut |
 |--- |--- |
 | solution-title | Wird in der Artikelüberschrift als Link verwendet |
-| solution-ub-url | Öffnet Helpx Hub-Seite |
+| solution-ub-url | Öffnet Helpx-Hub-Seite |
 | solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
 | getting-started-url | Link zur Hilfeseite für den Einstieg |
 | tutorials-url | Link zu Videolehrgängen - entweder Helpx-Tutorials oder KT-Tutorials |
