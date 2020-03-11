@@ -5,12 +5,12 @@ description: 'null'
 seo-description: Erfahren Sie, wie Sie Masterbilder hochladen.
 uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: dfe86e040d0acc3135fcb596c85867f2d55d9090
 
 ---
 
@@ -25,7 +25,7 @@ Detaillierte Informationen über das Hochladen von Bildern finden Sie unter [Hoc
 
 Passen Sie Ihre Masterbilddateien vor dem Hochladen zum Scene7 Publishing System auf geeignete Weise an:
 
-* **Bildgröße** Erstellen Sie die Bilder mit der größten Größe, die Sie erwarten. Die typische Bildgröße beträgt zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoomfunktion verwenden möchten, empfiehlt Dynamic Media Classic die Verwendung von Bildern mit einer Länge von mindestens 2000 Pixeln für optimale Zoomdetails.
+* **Bildgröße** Erstellen Sie die Bilder mit der größten Größe, die Sie erwarten. Die typische Bildgröße beträgt zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoomfunktion verwenden möchten, empfiehlt Dynamic Media Classic die Verwendung von Bildern mit einer Länge von mindestens 2000 Pixeln, um optimale Zoomdetails zu erzielen. Mit Dynamic Media Classic können Bilder bis zu 25 Megapixel gerendert werden. Sie können beispielsweise ein Bild mit 5000 x 5000 Megapixeln oder eine beliebige andere Größenkombination mit bis zu 25 Megapixeln verwenden.
 
 * **Dateiformate** Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate, einschließlich TIFF, BMP, JPEG, PSD, GIF und EPS. Verlustfreie Bildformate – TIFF und PNG – werden empfohlen. Wenn Sie JPEG-Bilder verwenden, sollten Sie dafür die höchstmögliche Qualität einstellen.
 
