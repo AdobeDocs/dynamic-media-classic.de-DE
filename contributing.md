@@ -1,46 +1,59 @@
 ---
-source-git-commit: 31d89e17826bac5c7afa9faf0bc1d26f129da1e8
+source-git-commit: e38c05edf1fe238d6a36b878df9369eadd31d792
 translation-type: tm+mt
 
 ---
-# Beitrag
+# Beitrag zur Adobe Dynamic Media Classic-Dokumentation
 
-Danke für die Teilnahme!
+Vielen Dank, dass Sie sich für einen Beitrag zur Dokumentation zu Adobe Dynamic Media Classic entschieden haben! Wir freuen uns über Beiträge unserer gesamten Reader Community sowie anderer Mitarbeiter von Adobe.
 
-Im Folgenden finden Sie eine Reihe von Richtlinien, die beim Beitrag zu diesem Projekt folgen.
+In dieser Datei wird beschrieben, wie Sie Beiträge leisten können, und es werden die Richtlinien erläutert, die bei der Beitragsleistung befolgt werden müssen.
 
-## Code-Code
+## Adobe Open Source Code of Conduct
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). Durch Ihre Teilnahme wird von Ihnen erwartet, diesen Verhaltenskodex einzuhalten. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt hat den Open-Source-Verhaltenskodex von [Adobe übernommen](code-of-conduct.md). Indem Sie einen Beitrag zur Dokumentation leisten, erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Eine Frage haben?
+## Leitlinien für die Mitarbeit
 
-Beginnen Sie damit, ein Problem zu melden. Die vorhandenen Interaktionen auf diesem Projekt bemühen sich um eine Konsensfindung für die Projektrichtung und das Ausblenden von Lösungen innerhalb von Ausgabenthreads
-(falls erforderlich).
+Obwohl wir alle Beiträge zur Verbesserung der Dokumentation begrüßen, bitten wir darum, dass die Beiträge nach Möglichkeit bestimmten Leitlinien und Standards entsprechen. Weitere Informationen finden Sie in den [Richtlinien für den Beitrag zur Adobe Dynamic Media Classic-Dokumentation](guidelines.md) .
 
-## Lizenzvereinbarung für Mitarbeiter
+## So können Sie
 
-Alle Drittanbieter-Beiträge zu diesem Projekt müssen von einer signierten Lizenzvereinbarung für Mitarbeiter
-begleitet werden. Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. [Signieren Sie unsere CLA](https://opensource.adobe.com/cla.html)-Datei. Sie müssen nur einmal eine Adobe CLA einreichen. Wenn Sie also eine zuvor gesendet haben, sind Sie gut zu gehen!
+Wir möchten Ihre Beiträge so einfach wie möglich einreichen. Sie können auf zwei Arten beitragen:
 
-## Codeüberprüfungen
+* [Problem erstellen](#create-an-issue)
+* [Pull-Anforderung erstellen](#create-a-pull-request)
 
-Alle Einsendungen sollten in Form von Pull-Anfragen erfolgen und müssen von Projektverantwortlichen geprüft werden. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Welche Methode Sie wählen, hängt davon ab, wie bequem Sie die Dokumentation in GitHub selbst bearbeiten.
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+>[!NOTE]
+>
+>Beiträge, die Sie senden, unterliegen den [Adobe-Nutzungsbedingungen.](https://www.adobe.com/legal/terms.html)
 
-## Von Contributor To Committer
+### Problem erstellen {#create-an-issue}
 
-Wir lieben Beiträge aus unserer Community! Wenn Sie einen Schritt über den Mitarbeiter
-hinausgehen und mit voller Schreibweise und einem Hinweis im Projekt arbeiten möchten, müssen
-Sie zum Projekt eingeladen werden. Die vorhandenen Bevollmächtigten verwenden einen internen Nominierungsprozess,
-der einen verzögernden Konsens erreichen muss (Stille ist eine Genehmigung), bevor Einladungen
-ausgegeben werden. Wenn Sie glauben, dass Sie qualifiziert sind und tiefer involviert werden möchten, können Sie sich gerne mit vorhandenen Mitwirkenden auswählen, um eine Konversation zu erhalten.
+Haben Sie einen Vorschlag, eine Bemerkung zu den aktuellen Dokumenten oder fragen Sie, wie etwas beschrieben wird? Erstellen Sie dann bitte eine Ausgabe. Probleme sind auch hervorragend, wenn Sie etwas beizutragen haben, aber sich nicht wohl fühlen, die Dokumente zu bearbeiten oder selbst eine Pull-Anfrage zu machen.
 
-## Sicherheitsprobleme
+Probleme ermöglichen es Ihnen, Ihre Idee zur Verbesserung der Dokumente einfach zu beschreiben und ein Dokumentationsteam kann sie überprüfen. Klicken Sie einfach auf den Link **Ein Problem** protokollieren oben im rechten Navigationsbereich auf einer beliebigen Seite, um ein Problem zu erstellen.
 
-Sicherheitsprobleme sollten in diesem Trackertracker nicht gemeldet werden. Stattdessen [erhalten Sie ein Problem bei unseren Sicherheitsexperten.](https://helpx.adobe.com/security/alertus.html)
+### Erstellen einer Pull-Anforderung {#create-a-pull-request}
+
+Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, die dann zur Aufnahme durch ein Dokumentationsteam geprüft werden. Klicken Sie einfach auf den Link &quot;Diese Seite **** bearbeiten&quot;oben im rechten Navigationsbereich auf einer beliebigen Seite, um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen.
+
+Alle Pull-Anfragen müssen mit einer unterzeichneten [Lizenzvereinbarung oder CLA einhergehen.](https://opensource.adobe.com/cla.html)  Dadurch erhält Adobe die Erlaubnis, Ihre Beiträge im Rahmen des Projekts zu veröffentlichen. Sie müssen nur einmal eine Adobe CLA einreichen. Wenn Sie also bereits eine CLA eingesendet haben, sollten Sie sich anmelden!
+
+### Quick Video-Einführung
+
+Sehen Sie sich das folgende Video an, um einen schnellen Überblick darüber zu erhalten, wie Probleme erstellt und Anforderungen abgerufen werden können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
+
+### Beiträge von Adobe-Mitarbeitern
+
+Wenn Sie ein Adobe-Mitarbeiter sind und eine Pull-Anforderung stellen möchten, verwenden Sie bitte das private Repository unter `https://git.corp.adobe.com/AdobeDocs`.
+
+Für Probleme nutzen Sie bitte die öffentlichen Repositorys.
+
+## Weitere Informationen
+
+Weitere Informationen zur Verwendung der GitHub-Authoring-Plattform finden Sie im [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) .
