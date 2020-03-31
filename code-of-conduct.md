@@ -1,69 +1,48 @@
 ---
-source-git-commit: f5c296566dba4ea1a01ce74a537b7a94c92eef15
+source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
 translation-type: tm+mt
 
 ---
-# Adobe Code of Behavior
+# Adobe-Verhaltenskodex
 
 ## Unser Versprechen
 
-Um eine offene und begrüßenswerte Umgebung zu fördern, verpflichten wir als Mitarbeiter und Maintainer, in unserem Projekt und unserer
-Community ein unabhängiges Erlebnis für alle zu schaffen, unabhängig von Alter, Hauptgröße,
-Behinderung, ethnischem Standort, Geschlecht und Ausdruck, Erlebnisebene,
-Nationalität, persönlicher Darstellung, Rasse, Religion oder sexueller Identität und
-Ausrichtung.
+Um eine offene und einladende Umgebung zu fördern, verpflichten wir uns als Mitwirkende und Betreuer, die Teilnahme an unserem Projekt und an unserer Gemeinde zu einer Belästigung für jedermann zu machen, unabhängig von Alter, Körpergröße, Behinderung, ethnischer Zugehörigkeit, Geschlechtsidentität und Ausdruck, Erfahrungsgrad, Nationalität, persönlichem Erscheinungsbild, Rasse, Religion oder sexueller Identität und Orientierung.
 
 ## Unsere Standards
 
-Zu den Beispielen, die zum Erstellen einer positiven Umgebung
-beitragen, gehören:
+Beispiele für Verhaltensweisen, die zur Erstellung einer positiven Umgebung beitragen, sind:
 
-* Einblenden und Einblenden
-* Achten Sie auf unterschiedliche Blickpunkte und Erlebnisse.
-* Grafische Annahme einer konstruktiven Kritik
-* Konzentrieren auf die beste für die Community
-* Erkennen von Empathkeit für andere Community-Mitglieder
+* Einladende und inklusive Sprache verwenden
+* Achtung unterschiedlicher Ansichten und Erlebnisse
+* Akzeptieren konstruktiver Kritik
+* Konzentrieren auf das, was für die Community am besten ist
+* Empathie gegenüber anderen Community-Mitgliedern zeigen
 
-Beispiele für ein unzulässiges Verhalten von Teilnehmern:
+Beispiele für unannehmbares Verhalten von Teilnehmern:
 
-* Die Verwendung von sexualisierten Sprache oder Bildern oder unzufriedenes sexuelles Augenmerk oder
-Fortfahren
-* Rollen, Beleidigend/abkommenzierende Kommentare sowie persönliche oder politische Angriffe
+* Die Verwendung sexualisierter Sprache oder Bilder und unerwünschte sexuelle Aufmerksamkeit oder Vorurteile
+* Trommeln, Beleidigung/abweichende Äußerungen und persönliche oder politische Angriffe
 * Öffentliche oder private Belästigung
-* Private Informationen anderer Benutzer, wie eine physische oder elektronische
-Adresse, ohne explizite Berechtigung veröffentlichen
-* Andere Verhaltensweisen, die in einer professionellen Einstellung als unangemessen betrachtet werden könnten
+* Veröffentlichen von privaten Daten anderer Personen, z. B. einer physischen oder elektronischen Adresse, ohne ausdrückliche Erlaubnis
+* Sonstige Handlungen, die in einem beruflichen Umfeld als unangemessen angesehen werden könnten
 
-## Unsere Zuständigkeiten
+## Unsere Verantwortung
 
-Project Maintainers sind dafür verantwortlich, die Standards des akzeptablen
-Verhaltens zu verdeutlichen und es wird erwartet, dass eine geeignete und geeignete Korrekturaktion als
-Reaktion auf instanzen eines inakzeptablen Verhaltens ausgeführt wird.
+Projektbetreuer sind für die Klärung der Standards für akzeptables Verhalten verantwortlich und werden voraussichtlich angemessene und faire Korrekturmaßnahmen ergreifen, wenn unannehmbares Verhalten auftreten kann.
 
-Project Maintainers haben die Recht und Verantwortung, Kommentare, Kommas, Code, Wiki-Bearbeitungen, Probleme und andere Beiträge
-zu entfernen, zu bearbeiten oder
-abzulehnen, die nicht an diesen Verhaltenscode ausgerichtet sind, oder einen temporären oder
-dauerhaften Mitarbeiter für andere Verhaltensweisen zu verbieten, die ungeeignet,
-bedrohend, beleidigend oder schädlich sind.
+Projektbetreuer haben das Recht und die Verantwortung, Kommentare, Zusagen, Code, Wiki-Bearbeitungen, Probleme und andere Beiträge, die nicht mit diesem Verhaltenskodex in Einklang stehen, zu entfernen, zu bearbeiten oder abzulehnen oder einen Mitarbeiter vorübergehend oder dauerhaft für andere Verhaltensweisen zu verbieten, die sie für unangemessen, bedrohlich, beleidigend oder schädlich halten.
 
 ## Ebene
 
-Dieser Code wird sowohl innerhalb der Projektbereiche als auch in den öffentlichen Bereichen
-angewendet, wenn eine Person das Projekt oder die Community repräsentiert. Beispiele für das Repräsentieren eines Projekts oder einer Community sind die Verwendung einer offiziellen E-Mail-Adresse
-des Projekts, die Veröffentlichung über ein offizielle Social Media-Konto oder die Verwendung als benannter
-Vertreter bei einem Online- oder Offline-Ereignis. Die Darstellung eines Projekts kann von den Projektentwicklern weiter definiert und geklärt werden.
+Dieser Verhaltenskodex gilt sowohl innerhalb der Projekträume als auch in öffentlichen Räumen, wenn eine Einzelperson das Projekt oder seine Gemeinschaft vertritt. Beispiele für die Vertretung eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse, die Veröffentlichung über ein offizielles Social Media-Konto oder die Tätigkeit als ernannter Vertreter in einem Online- oder Offline-Ereignis. Die Repräsentation eines Projekts kann von Projektbetreuern weiter definiert und geklärt werden.
 
 ## Durchsetzung
 
-Instanzen von beleidigenden, belästigenden oder anderweitigen Verhaltensweisen können über die Kontaktaufnahme mit dem Projektteam unter Grp-opensourceoffice@adobe.com gemeldet werden. Alle
-Beschwerden werden geprüft und untersucht und erhalten eine Antwort, die
-für die Umstände als erforderlich und angemessen erachtet wird. Das Projektteam ist verpflichtet, die Vertraulichkeit in Bezug auf den Reporter eines Vorkommnisses aufrechtzuerhalten.
-Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
+Fälle von Missbrauch, Belästigung oder anderweitig unannehmbarem Verhalten können gemeldet werden, indem Sie das Projektteam unter Grp-opensourceoffice@adobe.com kontaktieren. Alle Beschwerden werden geprüft und untersucht und werden zu einer Antwort führen, die für notwendig und den Umständen angemessen erachtet wird. Das Projektteam ist verpflichtet, die Vertraulichkeit in Bezug auf die Meldung eines Vorfalls zu wahren. Weitere Einzelheiten zu spezifischen Durchsetzungsmaßnahmen können gesondert angegeben werden.
 
-Projektmaintainer, die den Verhaltenskodex nicht im guten
-Glauben verfolgen oder erzwingen, können vorübergehend oder dauerhafte Auswirkungen haben, wie von anderen
-Mitgliedern der Projektleitung bestimmt.
+Projektbetreuer, die den Verhaltenskodex nicht in gutem Glauben befolgen oder durchsetzen, können mit vorübergehenden oder dauerhaften Auswirkungen konfrontiert werden, wie sie von anderen Mitgliedern der Projektleitung bestimmt werden.
 
 ## Zuordnung
 
-Dieser Code wird vom [Mitarbeiter-Covenant](https://contributor-covenant.org), Version 1.4, angepasst, der unter [https://contributor-covenant.org/version/1/4 verfügbar ist.](https://contributor-covenant.org/version/1/4/)
+Dieser Verhaltenskodex ist dem [Beitragskonvent](https://contributor-covenant.org), Version 1.4, angepasst, der unter [https://contributor-covenant.org/version/1/4 verfügbar ist.](https://contributor-covenant.org/version/1/4/)
