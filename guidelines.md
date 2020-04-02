@@ -1,5 +1,5 @@
 ---
-source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
+source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
 translation-type: tm+mt
 
 ---
@@ -35,13 +35,13 @@ Ausnahmen von dieser Regel gelten für die Versionshinweise, in denen bekannte P
 
 Alle Ideen, die Sie zur Verbesserung der Dokumentation benötigen, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anfragen sind jedoch nur für *Beiträge* vorgesehen. Sie sind nicht dazu gedacht, Ihre Fragen zur Verwendung von Dynamic Media Classic, zur Implementierung Ihres Projekts oder zur Lösung technischer Probleme zu beantworten.
 
-Fragen zur Verwendung von Dynamic Media Classic oder technische Fehler, die Sie möglicherweise haben, sollten über den normalen Support gemeldet werden.
+Fragen zur Verwendung von Dynamic Media Classic oder technischen Fehlern, die Sie haben, sollten über das [Experience Cloud Enterprise Support-Portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) gemeldet oder in der [Experience Cloud-Community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)diskutiert werden.
 
-***Dokumentationsbeiträge sind kein Ersatz für Adobe-Support*** . Solche Beiträge, die Antworten auf Supportfragen anfordern, werden abgelehnt.
+***Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** , und solche Beiträge, die Antworten auf Supportfragen anfordern, werden abgelehnt.
 
 ### Die Beiträge müssen eindeutig auf die betroffenen Dokumentationsseiten verweisen.
 
-Wenn Sie ein Problem melden, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einschließen. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
+Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einfügen. Wenn Sie ein Problem mithilfe des Links **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
 
 Dies gilt nicht für Pull-Anfragen, da Pull-Anfragen von ihrer Natur auf die betroffene(n) Seite(n) verweisen.
 
