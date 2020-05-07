@@ -5,7 +5,10 @@ description: Technische Dokumentation zu Dynamic Media Classic
 seo-description: 'Technische Dokumentation, Versionshinweise und Selbsthilfematerialien für Adobe Dynamic Media Classic, früher Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: ebd2180f96c5e2e27c13650b29969cb7f785cbb5
+source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 11%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: ebd2180f96c5e2e27c13650b29969cb7f785cbb5
 
 Willkommen bei der Hilfe zu Dynamic Media Classic. Hier können Sie auf alle verfügbaren Ressourcen zugreifen, um mehr über die Verwendung von Dynamic Media Classic (früher Scene7 genannt) zu erfahren.
 
-## Neue Benutzeroberfläche von Dynamic Media Classic im ersten Halbjahr 2020
+## Neue Erfahrung bei der Anmeldung bei Dynamic Media Classic, 30. Juni 2020
 
-Benutzer von Dynamic Media Classic können eine Aktualisierung ihrer Benutzeroberfläche im ersten Halbjahr 2020 erwarten. Das Erlebnis bietet eine aktualisierte Anmeldung mit Links zu wertvollen Ressourcen. Darüber hinaus ist dieses Update nicht mehr auf die Adobe Flash-Technologie im Browser angewiesen.
+Am 30. Juni 2020 erhalten klassische Benutzer von Dynamic Media Zugriff auf eine neue Anmeldeerfahrung, die im Browser nicht mehr auf Adobe Flash-Technologie zurückgreift. Lesen Sie die folgenden häufig gestellten Fragen, um mehr zu erfahren.
 
-Siehe [Häufig gestellte Fragen](new-ui-2020.md).
+Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates ab 7. Mai 2020.
 
 ## Entwicklerressourcen für dynamische Medien
 
@@ -35,7 +38,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md).
 * [Webinar: Best Practices für die Bereitstellung interaktiver Erlebnisse mit Dynamic Media Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/) - Erfahren Sie, wie Sie Inhalte in und aus Dynamic Media Classic laden und wie Sie Bildvorgaben für optimale Leistung und Erlebnisse einrichten. Außerdem erfahren Sie mehr zu Viewer-Vorgaben und Caching-Konfigurationen.
 * [Webinar: Maximieren der Asset-Rendite](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) - Erfahren Sie, welche Best Practices in der Branche zur Bereitstellung von Rich-Media-Inhalten für Ihre Sites und mobilen Apps zur Verfügung stehen. In diesem Webinar zeigen wir Ihnen anhand von Beispielen und Demonstrationen, wie Sie Videos effizient geräteübergreifend bereitstellen, dynamische Kreativelemente in Ihren Marketing-Kampagnen bereitstellen und die Konvertierung steigern können, indem Sie Bilder, Stilvorlagen oder Lookbook als Einzelbild verwenden.
 * [Webinar: Beschleunigen Sie den Lebenszyklus](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) Ihres Content Versand - Eine Einführung und Demonstration von Adobe Experience Manager Assets - On Demand, der Plattform der nächsten Generation für Rich-Media-Management und Versand. Erfahren Sie, wie Sie mit Kreativ- und Marketing-Teams zusammenarbeiten und Assets gemeinsam nutzen, um die Überprüfung von Assets zu optimieren. Best Practices zur effizienten Verwaltung von Asset-Metadaten, um die Suche, Verwendung, Wiederverwendung und Freigabe von Assets zu vereinfachen und um interaktive Rich-Media-Erlebnisse für Kanal bereitzustellen.
-* [Webinar: Design für die Optimierung](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) von Mobilgeräten - Verwenden Sie Dynamic Media Classic, um zielgerichtete Rich-Media-Daten effizient für alle Geräte bereitzustellen. Hier erfahren Sie, wie Sie Bildbearbeitungs- und Videoaufnahmen gestalten und bereitstellen, die über mobile Apps und responsive Sites hinweg effektiv sind.
+* [Webinar: Design für die Optimierung](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) von Mobilgeräten - Verwenden Sie Dynamic Media Classic, um zielgerichtete Rich-Media-Daten effizient für alle Geräte bereitzustellen. Erfahren Sie, wie Sie Erlebnisse für Bildbearbeitung und Videowiedergabe entwerfen und bereitstellen, die über mobile Apps und responsive Sites hinweg effektiv sind.
 * [Webinar: Verwenden von Dynamic Media Classic zur Maximierung der Urlaubsumrechnung](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true) - Erfahren Sie, wie Sie automatisierte Workflows einrichten, um Inhalte aus überwachten Ordnern abzurufen und automatisch Rotationssets und Videos zu erstellen. Außerdem erfahren Sie, wie Sie schnell Änderungen verwalten und Bilder aktualisieren.
 
 ## Dynamic Media Classic-Schulung
