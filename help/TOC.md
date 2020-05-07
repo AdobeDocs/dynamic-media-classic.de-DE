@@ -2,10 +2,13 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Hilfe zu Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Administrationseinstellungen](administration-setup.md)
 + Media Portal {#media-portal}
    + [Systemanforderungen](system-requirements-1.md)
-   + [Kurzanleitung: Media Portal](quick-start-media-portal-administration.md)
+   + [Quick Beginn: Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal-Benutzerrollen](media-portal-user-roles.md)
    + [Erstellen und Verwalten von Media Portal-Gruppen](creating-media-portal-groups.md)
    + [Hinzufügen und Verwalten von Media Portal-Benutzern](adding-media-portal-users.md)
@@ -87,7 +90,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Veröffentlichen von Zoombildern](publishing-zoom-images.md)
    + [Verknüpfen von Zoom-Viewern mit Webseiten](linking-zoom-viewers-web-pages.md)
 + E-Kataloge {#ecatalogs}
-   + [Kurzanleitung: E-Kataloge](quick-start-ecatalog.md)
+   + [Quick Beginn: E-Kataloge](quick-start-ecatalog.md)
    + [Hochladen der PDF-Dateien](uploading-pdf-files.md)
    + [Erstellen eines E-Katalogs](creating-ecatalog.md)
    + [Erstellen von Imagemaps in E-Katalogen](creating-ecatalog-image-maps.md)
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Veröffentlichen von Vorlagen](publishing-templates.md)
    + [Verknüpfen einer Vorlage mit einer Website](linking-template-web-page.md)
    + [Verwalten von Inhaltsvariationen](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [Kurzanleitung: Vorlagen veröffentlichen](quick-start-template-publishing.md)
-   + [Erstellen der Ausgangsvorlage in Adobe Illustrator](create-initial-template-illustrator.md)
-   + [Hochladen von Dateien für Vorlagen für Veröffentlichungen](upload-files-template-publishing.md)
-   + [Definieren der Variabilität: Parametrisierung oder DOM-Manipulation?](defining-variability-parameterization-versus-dom.md)
-   + [Parametrisieren einer Vorlage in Dynamic Media Classic](parameterizing-template-scene7.md)
-   + [Anzeigen von Vorschauen und Aktualisieren von Vorlagenattributen](preview-update-template-attributes.md)
-   + [DOM-Manipulation](dom-manipulation.md)
-   + [Verknüpfen einer FXG-Vorlage mit einer Webseite](linking-fxg-template-web-page.md)
-   + [Erstellen eines PDF-Dokuments](creating-pdf-document.md)
 + Video {#video}
    + [Kurzanleitung: Video](quick-start-video.md)
    + [Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers](best-practice-using-html5-video.md)
@@ -153,7 +146,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Kurzanleitung: Integration von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Quick Beginn: Integration von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
    + [Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -161,11 +154,11 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts](testing-integration-viewing-analytics-report.md)
    + [Aktivieren von Adobe Analytics-Videoberichten](enabling-analytics-video-reports.md)
    + [Veröffentlichen von Adobe Analytics-Konfigurationsinformationen](publishing-analytics-configuration-information.md)
-+ Integration von Target Classic {#target-classic}
-   + [Kurzanleitung: Integration von Target Classic](quick-start-target-classic-integration.md)
-   + [Integration von Adobe Dynamic Media Classic mit Adobe Target Classic](integrating-scene7-target-classic.md)
++ Zielgruppe Classic-Integration {#target-classic}
+   + [Quick Beginn: Zielgruppe Classic-Integration](quick-start-target-classic-integration.md)
+   + [Integration von Adobe Dynamic Media Classic mit Adobe Zielgruppe Classic](integrating-scene7-target-classic.md)
    + [Erstellen eines Angebotssets](creating-offer-set.md)
-   + [Veröffentlichen von Angebotssets in Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Pushing von Angebot-Sets auf Adobe Zielgruppe Classic](pushing-offer-sets-target-classic.md)
 + Benutzergenerierte Inhalte {#user-generated-content}
    + [Informationen zu benutzergenerierten Inhalten](about-ugc.md)
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
