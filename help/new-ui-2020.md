@@ -1,15 +1,15 @@
 ---
-title: Neue Benutzeroberfläche von Dynamic Media Classic im ersten Halbjahr 2020
-seo-title: Neue Benutzeroberfläche von Dynamic Media Classic im ersten Halbjahr 2020
-description: Benutzer von Dynamic Media Classic können eine Aktualisierung ihrer Benutzeroberfläche im ersten Halbjahr 2020 erwarten. Das Erlebnis bietet eine aktualisierte Anmeldung mit Links zu wertvollen Ressourcen. Außerdem ist dieses Update nicht mehr auf die Adobe Flash-Technologie im Browser angewiesen.
-seo-description: Benutzer von Dynamic Media Classic können eine Aktualisierung ihrer Benutzeroberfläche im ersten Halbjahr 2020 erwarten. Das Erlebnis bietet eine aktualisierte Anmeldung mit Links zu wertvollen Ressourcen. Außerdem ist dieses Update nicht mehr auf die Adobe Flash-Technologie im Browser angewiesen.
+title: Neue Anmeldung bei Dynamic Media Classic am 30. Juni 2020
+seo-title: Neue Dynamic Media Classic - 30. Juni 2020
+description: Benutzer von Dynamic Media Classic können mit einer Aktualisierung ihrer Benutzeroberfläche am 30. Juni 2020 rechnen. Das Erlebnis bietet eine aktualisierte Anmeldung mit Links zu wertvollen Ressourcen. Außerdem ist dieses Update nicht mehr auf die Adobe Flash-Technologie im Browser angewiesen.
+seo-description: Benutzer von Dynamic Media Classic können mit einer Aktualisierung ihrer Benutzeroberfläche am 30. Juni 2020 rechnen. Das Erlebnis bietet eine aktualisierte Anmeldung mit Links zu wertvollen Ressourcen. Außerdem ist dieses Update nicht mehr auf die Adobe Flash-Technologie im Browser angewiesen.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
