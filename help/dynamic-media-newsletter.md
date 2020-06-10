@@ -6,7 +6,10 @@ seo-title: 'Adobe Dynamic Media Newsletter '
 solution: Dynamic Media
 title: Newsletter für dynamische Medien
 translation-type: tm+mt
-source-git-commit: f9ae9b5de27f159982dd0c9addd68cb88bc1a8d6
+source-git-commit: 73837dc50c700c9c3e6fe3209f733173669245a9
+workflow-type: tm+mt
+source-wordcount: '1321'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +26,21 @@ In diesem One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen zum Wissensa
 
 ## Fehlt eine Ausgabe des Newsletters für dynamische Medien?
 
+* **[Mai 2020, Ausgabe 4](https://expleague.azureedge.net/assets/aem/Experience-Insider-vol.31.html)**
+
+   Bei diesem Problem:
+
+   * Was Business Continuity in unsicheren Zeiten bedeutet.
+   * Wichtige Schritte vom ersten All-Digital-Adobe-Gipfel.
+   * Muss Experience Manager-Arbeitsgruppensitzungen überwachen.
+   * Gipfelkunde: Unter Rüstung.
+   * Verpassen Sie nie ein Experience Insider-Webinar.
+   * Schwerpunkte des öffentlichen Sektors: Die dringende Notwendigkeit einer digitalen Registrierung.
+   * Sehen Sie sich die neuen Funktionen von Experience Manager Innovation an.
+   * Erstellen Sie Ihre Experience Manager-Fähigkeiten *live* mit den Adobe-Profis.
+   * Stellen Sie eine Verbindung zur Adobe Experience Manager-Community her.
+   * Verfolgen Sie Ihr Adobe-Know-how mit Adobe Experience League.
+
 * **[April 2020, Ausgabe 3](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@DRPFipWV_3bgH_oxl1monOhd4auNDxFVTBWB-uKB6lM_BixlVqja2E5Ml7DbtOy6pARL78LPxljqgxEEAr7RBsRp8WOyn-Zw6hQ8MNoFn9i9WMXm.html)**
 
    Bei diesem Problem:
@@ -33,6 +51,7 @@ In diesem One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen zum Wissensa
    * Ansicht der Dynamischen Medien-Sitzungen vom Online-Adobe Summit 2020.
    * Erfahren Sie mehr über unsere kostenlosen Dynamic Media Classic Audits.
    * Treffen Sie John Monroe, Senior Programm Manager für Customer Success Services.
+
    >[!IMPORTANT]
    >
    >Wir möchten sicherstellen, dass wir nur den Newsletter für dynamische Medien an diejenigen senden, die ihn erhalten möchten. Um den Newsletter nach dieser Ausgabe weiter zu erhalten, melden Sie sich [hier](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&amp;data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&amp;sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&amp;reserved=0)an.
