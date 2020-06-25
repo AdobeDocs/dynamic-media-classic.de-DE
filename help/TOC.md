@@ -2,21 +2,22 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Hilfe zu Dynamic Media Classic
+user-guide-title: Dynamic Media Classic-Hilfe
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 77%
+source-wordcount: '730'
+ht-degree: 76%
 
 ---
 
 
-# Hilfe zu Dynamic Media Classic {#using}
+# Dynamic Media Classic-Hilfe {#using}
 
-+ [Startseite der Dokumentation für dynamische Medien und Klassische Medien](home.md)
-+ [NEU Dynamische Medien Classic Anmeldung verfügbar 30. Juni 2020](new-ui-2020.md)
++ [Dynamic Media Classic - Dokumentation - Startseite](home.md)
++ [Übungen zu Best Practices](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [NEUE Dynamic Media Classic-Anmeldeerfahrung verfügbar ab 30. Juni 2020](new-ui-2020.md)
 + [Dynamic Media-Newsletter von Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
    + [Info zu Dynamic Media Classic](introduction.md)
@@ -25,7 +26,7 @@ ht-degree: 77%
    + [Systemanforderungen](system-requirements.md)
    + [Adobe Dynamic Media Classic Desktop-App wird demnächst veröffentlicht!](dynamic-media-classic-desktop-app.md)
    + [Support](support.md)
-   + [Hilfe für das Portal für dynamische Medien - Klassische Medien](help-scene7-media-portal.md)
+   + [Hilfe für Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Häufig genutzte Ressourcen](popular-resources.md)
    + [Schulungsvideos](training-videos.md)
@@ -153,11 +154,11 @@ ht-degree: 77%
    + [Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts](testing-integration-viewing-analytics-report.md)
    + [Aktivieren von Adobe Analytics-Videoberichten](enabling-analytics-video-reports.md)
    + [Veröffentlichen von Adobe Analytics-Konfigurationsinformationen](publishing-analytics-configuration-information.md)
-+ Zielgruppe Classic-Integration {#target-classic}
-   + [Quick Beginn: Zielgruppe Classic-Integration](quick-start-target-classic-integration.md)
-   + [Integration von Adobe Dynamic Media Classic mit Adobe Zielgruppe Classic](integrating-scene7-target-classic.md)
++ Target Classic-Integration {#target-classic}
+   + [Quick Beginn: Target Classic-Integration](quick-start-target-classic-integration.md)
+   + [Integration von Adobe Dynamic Media Classic mit Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Erstellen eines Angebotssets](creating-offer-set.md)
-   + [Pushing von Angebot-Sets auf Adobe Zielgruppe Classic](pushing-offer-sets-target-classic.md)
+   + [Pushing von Angebot-Sets auf Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Benutzergenerierte Inhalte {#user-generated-content}
    + [Informationen zu benutzergenerierten Inhalten](about-ugc.md)
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
