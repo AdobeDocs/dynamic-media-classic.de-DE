@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media Classic-Hilfe
 index: y
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 76%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 76%
 + [Dynamic Media-Newsletter von Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic Desktop-App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
-   + [Info zu Dynamic Media Classic](introduction.md)
+   + [Informationen zu Dynamic Media Classic-Hilfe](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
    + [Neuerungen](whats-new.md)
    + [Systemanforderungen](system-requirements.md)
