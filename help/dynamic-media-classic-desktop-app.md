@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -47,18 +47,18 @@ Die Adobe Dynamic Media Classic Desktop-App ist mit den folgenden Betriebssystem
 
    * **Für macOS** : Ziehen Sie im Dialogfeld &quot; **[!UICONTROL Drag &amp; Drop zur Installation]** &quot; **[!UICONTROL Adobe Dynamic Media Classic]** und legen Sie es auf **[!UICONTROL Anwendungen]** ab.
 
-      ![Drag &amp; Drop der Installation unter macOS](/help/assets/dragondrop-install.png)
+      ![Drag &amp; Drop der Installation unter macOS](/help/assets/dragondrop-install1.png)
 
    * Tippen Sie im Ordner **[!UICONTROL Applications]** auf das Symbol Adobe Dynamic Media Classic.
    * Tippen Sie im Dialogfeld auf **[!UICONTROL Öffnen]** , um die Adobe Dynamic Media Classic-Desktop-App zu öffnen.
 
-      ![Heruntergeladene App öffnen](/help/assets/open-dmclassicapp.png)
+      ![Heruntergeladene App öffnen](/help/assets/open-dmclassicapp1.png)
 
    * **Windows** : Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um die Desktop-App zu installieren.
 
 1. Wenn Sie die Anwendung öffnen, wird die neue Anmeldeseite von Adobe Dynamic Media Classic angezeigt:
 
-   ![Anmeldung bei Dynamic Media Classic](/help/assets/dmclassic-login.png)
+   ![Anmeldung bei Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Verwenden Sie dieselben Anmeldedaten wie Ihr Browser, um sich bei Adobe Dynamic Media Classic anzumelden.
 
@@ -80,7 +80,7 @@ Die Adobe Dynamic Media Classic Desktop-App ist mit den folgenden Betriebssystem
 * Wählen Sie in der Dynamic Media Classic-App die neue Firma aus der Dropdown-Liste &quot;Firma&quot;aus.
 * Wenn das Popup angezeigt wird, tippen Sie auf **[!UICONTROL OK]** , um sich abzumelden und die App zu schließen.
 
-   ![Starten Sie die App neu, um die neue Firma zu verwenden](/help/assets/dmclassic-new-company.png)
+   ![Starten Sie die App neu, um die neue Firma zu verwenden](/help/assets/dmclassic-new-company1.png)
 * Starten Sie Dynamic Media Classic neu und melden Sie sich wie gewohnt an, um mit der neuen Firma zu arbeiten.
 
 ## Tipps und Tricks
@@ -89,6 +89,6 @@ Die Adobe Dynamic Media Classic Desktop-App ist mit den folgenden Betriebssystem
 
 **_Der Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt dargestellt._**<br> In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus der Assets anzuzeigen. In der Desktop-App wurde in der Symbolleiste rechts neben der Schaltfläche &quot;Keine **[!UICONTROL auswählen&quot;das Symbol &quot;]** Aktualisieren **[!UICONTROL &quot;eingeführt]** . Tippen Sie auf das Symbol &quot; **[!UICONTROL Aktualisieren]** &quot;, um den neuesten Status aller Assets auf der jeweiligen Seite anzuzeigen. Es ist keine erneute Anmeldung erforderlich, wie bei der Browser-Benutzeroberfläche.
 
-![Symbol](/help/assets/refresh-icon.png)*Aktualisieren*
+![Symbol](/help/assets/refresh-icon1.png)*Aktualisieren*
 
 **_Stapelsatzvorgaben funktionieren nicht in der Desktop-App._**<br> Tippen Sie auf **[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben]**. Stellen Sie sicher, dass die entsprechende **[!UICONTROL Stapelsatzvorgabe]** aktiviert ist. Klicken Sie auf **[!UICONTROL Speichern und Hochladen]** senden.
