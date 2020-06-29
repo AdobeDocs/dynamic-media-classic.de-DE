@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Diese neue App ist jetzt für Windows und macOS verfügbar.
 >
 >Es wird empfohlen, die neue Adobe Dynamic Media Classic-Desktop-App bis zum 1. Oktober 2020 zu installieren. Auf diese Weise stellen Sie sicher, dass Sie über eine reibungslose Transition verfügen, bevor Adobe Flash Player am 31. Dezember 2020 eingestellt wird. Ab diesem Datum können Sie sich nicht mehr bei der Browserversion der Adobe Dynamic Media Classic-Benutzeroberfläche anmelden, die im Produkt als Scene7 Publishing System bezeichnet wird.
 
-In den häufig gestellten Fragen finden Sie die [neue Dynamic Media Classic-Anmeldeerfahrung jetzt verfügbar](/help/new-ui-2020.md).
+Siehe Häufig gestellte Fragen zur Anmeldung für [New Dynamic Media Classic.](/help/new-ui-2020.md)
 
 ## Systemanforderungen für die Adobe Dynamic Media Classic-Desktop-App {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ Die Adobe Dynamic Media Classic Desktop-App ist mit den folgenden Betriebssystem
 
 1. Laden Sie das neueste Installationsprogramm für die Adobe Dynamic Media Classic-Desktop-App herunter.
 
-   * macOS (.dmg) - [Herunterladen](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
-   * Windows (.exe) - [Herunterladen](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
+   * [macOS (.dmg) - Herunterladen.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.exe) - Herunterladen.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Führen Sie je nach heruntergeladenem Installationsprogramm einen der folgenden Schritte aus:
 
