@@ -10,26 +10,23 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
 
 # Adobe Training Services{#adobe-training-services}
 
-Dynamic Media Classic bietet Schulungen in Form von Video-Tutorials, Workshops und Websitzungen unter Kursleiter sowie Demos.
+Dynamic Media Classic-Angebote-Schulungen in Form von Videoschulungen, Workshops und Websitzungen unter Leitung von Lehrern und Demos.
 
 **Adobe Training Services**
 
 Adobe Training Services bietet umfassende und benutzerspezifische Präsenzschulungen für Ihr Unternehmen. Die Schulung kann in Form regionaler Schulungskurse, webbasierter Sitzungen oder benutzerdefinierter Onsite-Workshops durchgeführt werden. Regionale Kurse können von allen Kunden in Anspruch genommen werden. Sie werden regelmäßig an verschiedenen Orten in Nordamerika und EMEA angeboten. Benutzerdefinierte Sitzungen können speziell auf bestimmte Gruppen abgestimmt werden, etwa auf Anwender mit unterschiedlichem Kenntnisstand (von Einsteigern bis hin zu Fortgeschrittenen), Endbenutzer, Administratoren oder IT-Mitarbeiter. 
 
 Siehe [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
-
-**Schnellstart-Video-Lehrgänge**
-
-Informieren Sie sich über Media Portal, Dynamic Imaging, E-Kataloge, eVideos, Web-to-Print und viele andere Themen, um das Scene7 Publishing System und dessen Nutzung besser zu verstehen. 
-
-See [Quick Start Video Tutorials](https://marketing.adobe.com/resources/help/en_US/home/index.html#Scene7).
 
 **Demos**
 
