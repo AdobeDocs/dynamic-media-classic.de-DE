@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Die Adobe Dynamic Media Classic Desktop-App ist mit den folgenden Betriebssystem
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
 1. Wenn Sie die Benutzeroberfläche für die Anmeldung veröffentlichen, wird Ihnen die vertraute Benutzeroberfläche des Browsers angezeigt. Sie können Ihre tägliche Aktivität jetzt wie gewohnt in der Benutzeroberfläche der Desktop-App übernehmen.
+
+## Video-Anleitung zur Verwendung der Dynamic Media Classic Desktop-App
+
+Sehen Sie sich einen [Video-Durchgang zur Verwendung der Dynamic Media Classic Desktop-App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) an (Länge: 2 Minuten und 36 Sekunden).
 
 ## Bekannte Einschränkungen in Dynamic Media Classic
 
