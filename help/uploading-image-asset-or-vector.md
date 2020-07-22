@@ -5,11 +5,14 @@ description: 'null'
 seo-description: Erfahren Sie, wie Sie ein Bild- oder Vektor-Asset hochladen.
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 86%
 
 ---
 
@@ -122,8 +125,8 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Ein Upload-Token.
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
-* Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
-* Gibt an, ob der Hintergrund "Aussparen"verwendet werden soll. Wenn Sie "Hintergrund aussparen"aktivieren, legen Sie die Methode "Ecke", "Toleranz"und "Füllmethode"fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Gibt an, ob das Profil und der Dateiname des Assets beibehalten werden sollen.
+* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei
 
 <!-- 
@@ -138,13 +141,13 @@ Last Modified Date:
 
 ![]()
 
-Sie können den HTML-Quellcode des oben stehenden Formulars anzeigen, indem Sie auf den folgenden Link klicken:
+Sie können den HTML-Quellcode, der mit dem oben stehenden Formular verknüpft ist, durch Klicken auf den folgenden Link Ansicht haben:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und dann auf "Seitenquelle **anzeigen"**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und dann auf **Seitenquelle**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
 
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“ &gt; „Quelltext“**. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“ > „Quelltext“**. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -285,8 +288,8 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Ein Upload-Token.
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
-* Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
-* Gibt an, ob der Hintergrund "Aussparen"verwendet werden soll. Wenn Sie "Hintergrund aussparen"aktivieren, legen Sie die Methode "Ecke", "Toleranz"und "Füllmethode"fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Gibt an, ob das Profil und der Dateiname des Assets beibehalten werden sollen.
+* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei
 
 <!-- 
@@ -335,7 +338,7 @@ return true;
 </body>
 ```
 
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“** &gt; **„Quelltext“**. Um die XML-Antwort in Firefox anzuzeigen, klicken Sie auf **„Ansicht“** &gt; **„Seitenquelltext anzeigen“**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“** > **„Quelltext“**. Um die XML-Antwort in Firefox anzuzeigen, klicken Sie auf **„Ansicht“** > **„Seitenquelltext anzeigen“**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
