@@ -2,14 +2,17 @@
 title: Erstellen eines gemischten Mediensets
 seo-title: Erstellen eines gemischten Mediensets
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie ein gemischtes Medienset erstellen.
-uuid: a 0 c 6 e 5 fa -7 a 85-4376-b 9 a 3-b 72 ae 63 d 3 d 3 d 95
+seo-description: Erfahren Sie, wie Sie ein gemischtes Medienset erstellen.
+uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: 0 ff 9 e 763-897 c -4 ba 5-b 606-a 95 d 5 e 45 f 35 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
-source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +36,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 **So erstellen Sie ein gemischtes Medienset**
 
-1. Klicken Sie auf **Erstellen** &gt; **Gemischte Mediensets**.
+1. Klicken Sie auf **Erstellen** > **Gemischte Mediensets**.
 1. Ziehen Sie die Videos, Bildsätze, Rotationssets und Muster aus der Asset-Bibliothek in den Anzeigebereich „Gemischte Mediensets“.
 
    >[!NOTE]
@@ -60,7 +63,7 @@ Je nachdem, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten
 | Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten den Status "Veröffentlicht" oder" Unveröffentlicht" bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -86,5 +89,5 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 **So löschen Sie ein gemischtes Medienset**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere gemischte Mediensets aus.
-1. Klicken Sie in der globalen Navigationsleiste auf **Datei** &gt; **Löschen** &gt; **Löschen**.
+1. Klicken Sie in der globalen Navigationsleiste auf **Datei** > **Löschen** > **Löschen**.
 
