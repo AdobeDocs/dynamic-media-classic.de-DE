@@ -2,15 +2,18 @@
 title: Erstellen eines E-Katalogs
 seo-title: Erstellen eines E-Katalogs
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie einen E-Katalog erstellen.
-uuid: 2 aff 05 c 2-7052-426 c-b 61 d -7 f 0991 f 7 ace 8
+seo-description: Erfahren Sie, wie Sie einen E-Katalog erstellen.
+uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/ecatalogs
-discoiquuid: 28889 c 60-596 a -40 d 2-85 d 4-f 48 a 4 f 86 b 932
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 78%
 
 ---
 
@@ -36,9 +39,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Wählen Sie zu Beginn der Erstellung eines E-Katalogs eine der folgenden Vorgehensweisen:
 
-   **Wählen Sie die Dateien zunächst** im Durchsuchenbedienfeld aus, wählen Sie Dateien aus und klicken Sie dann auf Erstellen &gt; E-Kataloge.
+   **Wählen Sie die Dateien zuerst** im Durchsuchenbedienfeld aus und klicken Sie dann auf &quot;Erstellen&quot;> &quot;E-Kataloge&quot;.
 
-   **Klicken Sie im Anzeigebereich "E-Katalog** " auf Erstellen &gt; E-Kataloge. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
+   **Klicken Sie im Anzeigebereich** &quot;E-Katalog&quot;auf &quot;Erstellen&quot;> &quot;E-Kataloge&quot;. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -48,9 +51,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    **Ziehen** Sie eine Seite oder einen Druckbogen an eine neue Position. Die vertikale Leiste zeigt an, wohin die Seite verschoben wird.
 
-   **Schaltfläche "Verschieben** nach" : Wählen Sie eine Seite oder einen Druckbogen aus, klicken Sie auf die Schaltfläche" Verschieben nach" und wählen Sie die Seite im Menü aus, vor der Sie die Seite einfügen möchten.
+   **Schaltfläche &quot;Verschieben nach&quot;** Wählen Sie eine Seite oder einen Druckbogen aus, klicken Sie auf die Schaltfläche &quot;Verschieben nach&quot;und wählen Sie im Menü die Seite aus, vor der die Seite angezeigt werden soll.
 
-   **Sequenz #** In Listenansicht Geben Sie die Seitenzahlen in den Feldern Sequenz-Nr. ein.
+   **Sequenz #** Geben Sie in der Ansicht &quot;Liste&quot;Seitenzahlen in die Felder &quot;Sequenz-Nr.&quot;ein.
 
 1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**.
@@ -66,7 +69,7 @@ Je nachdem, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten
 | Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten den Status "Veröffentlicht" oder" Unveröffentlicht" bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -88,11 +91,11 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 **So löschen Sie einen E-Katalog**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht einen oder mehrere E-Kataloge aus.
-1. Klicken Sie in der globalen Navigationsleiste auf **Datei** &gt; **Löschen** &gt; **Löschen**.
+1. Klicken Sie in der globalen Navigationsleiste auf **Datei** > **Löschen** > **Löschen**.
 
 ## Anpassen des Inhaltsverzeichnisses {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic stellt im Anzeigebereich "E-Katalog" auf der Registerkarte" Seiten ordnen" Standardseitenzahlen für den E-Katalog bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Vordertitelseite "Titelseite" anstelle von" Seite 0-1" lesen. »
+Dynamic Media Classic stellt in Ihrem E-Katalog auf der Registerkarte &quot;Seiten ordnen&quot;des Anzeigebereichs &quot;E-Katalog&quot;Standardseitenzahlen bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Titelseite&quot;anstelle von &quot;Seite 0-1&quot;heißen.
 
 Sie können ein angepasstes Inhaltsverzeichnis für den E-Katalog erstellen: entweder manuell oder durch das Importieren der Seitennamen aus einer CSV- (nur Mac) oder XML-Datei.
 
@@ -108,19 +111,19 @@ Um Seitennamen einzeln von Hand einzugeben, rufen Sie im Anzeigebereich „E-Kat
 
 Das Importieren von Seitennamen wird für einen E-Katalog mit sehr vielen Seiten empfohlen. Sie haben die Möglichkeit, die Namen aus einer tabulatorgetrennten Datei oder einer XML-Datei zu importieren.
 
-Die Inhaltsverzeichnisbeschriftung wird im Feld "Benutzerdaten" eines Bildes gespeichert. Formatieren Sie diese Daten als Liste `name=<value>`` pairs separated by two question marks “??” `von. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnisfeld mit dem Namen tocen festzulegen, legen Sie die Benutzerdaten des Bildes auf:
+Die Inhaltsverzeichnis-Beschriftung wird im Feld &quot;Benutzerdaten&quot;eines Bilds gespeichert. formatieren Sie diese Daten als Liste von `name=<value>`` pairs separated by two question marks “??” `. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnis-Feld mit dem Namen tocEN festzulegen, legen Sie die Benutzerdaten des Bilds auf Folgendes fest:
 
-tocEN=&lt;EN_Seitenbeschriftung&gt;
+tocEN=&lt;EN_Seitenbeschriftung>
 
 Um unterschiedliche Beschriftungen für die Inhaltsverzeichnisfelder tocEN und tocFR festzulegen, setzen Sie folgenden Wert:
 
-tocEN=&lt;EN_Seitenbeschriftung&gt;??tocFR=&lt;FR_Seitenbeschriftung&gt;
+tocEN=&lt;EN_Seitenbeschriftung>??tocFR=&lt;FR_Seitenbeschriftung>
 
 Um das Feld „Benutzerdaten“ in eine tabulatorgetrennte Datei zu importieren, fügen Sie das Feld „Benutzerdaten“ ein:
 
 | IPSID | Benutzerdaten |
 |--- |--- |
-| `<image_IPS_ID>` | tocEN=&lt;EN_Seitenbeschriftung&gt;??tocFR=&lt;FR_Seitenbeschriftung&gt; |
+| `<image_IPS_ID>` | tocEN=&lt;EN_Seitenbeschriftung>??tocFR=&lt;FR_Seitenbeschriftung> |
 
 Um das Feld „Benutzerdaten“ in eine XML-Datei zu importieren, fügen Sie das Attribut `vc_userdata` ein:
 
