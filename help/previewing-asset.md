@@ -2,15 +2,18 @@
 title: Anzeigen einer Asset-Vorschau
 seo-title: Anzeigen einer Asset-Vorschau
 description: 'null'
-seo-description: Erfahren Sie, wie Sie eine Asset-Vorschau anzeigen.
+seo-description: Erfahren Sie, wie ein Asset Vorschau wird.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -52,9 +55,9 @@ Bei einer gegebenen Viewer-Plattform können Sie im Fenster Viewer-Liste visuell
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu den Asset-Ordnern, die das Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Asset und klicken Sie anschließend unterhalb des Miniaturbilds auf „Vorschau“ &gt; „Viewer-Liste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „Vorschau“ &gt; „Viewer-Liste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ &gt; „Viewer-Liste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Asset und klicken Sie anschließend unterhalb des Miniaturbilds auf „Vorschau“ > „Viewer-Liste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „Vorschau“ > „Viewer-Liste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ > „Viewer-Liste“.
 
 1. (Optional) Klicken Sie im Fenster „Viewer-Liste“ auf die Spaltenüberschrift **„Name“** oder **„Plattformtyp“**, um die Spalte in auf- oder absteigender Reihenfolge zu sortieren.
 1. Klicken Sie im Fenster „Viewer-Liste“ in der Spalte „Aktionen“ auf „Vorschau“, um zu sehen, wie das Asset für einen ausgewählten Viewer und Plattformtyp angezeigt wird.
@@ -91,9 +94,9 @@ Siehe [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-preset
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend unterhalb des Miniaturbilds auf „Vorschau“ &gt; „Bildvorgabeliste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend rechts neben dem Miniaturbild auf „Vorschau“ &gt; „Bildvorgabeliste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ &gt; „Bildvorgabeliste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend unterhalb des Miniaturbilds auf „Vorschau“ > „Bildvorgabeliste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend rechts neben dem Miniaturbild auf „Vorschau“ > „Bildvorgabeliste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ > „Bildvorgabeliste“.
 
 1. Wählen Sie im Fenster „Bildvorgabeliste“ in der Tabelle den Namen einer Vorgabe aus, deren Bild-Asset Sie inline im rechten Fensterbereich in der Vorschau anzeigen möchten.
 1. (Optional) Wählen Sie unten im Fenster „Bildvorgabeliste“ in der Dropdown-Liste „URL-Kodierung für URL-kopieren-Generierung“ die URL-Kodierung aus, die beim Kopieren der Bild-Asset-URL für die URL verwendet werden soll.
