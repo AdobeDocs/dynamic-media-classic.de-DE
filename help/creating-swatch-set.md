@@ -3,14 +3,17 @@ title: Erstellen eines Mustersets
 seo-title: Erstellen eines Mustersets
 description: 'null'
 seo-description: Erfahren Sie, wie Sie ein Musterset erstellen.
-uuid: 250 b 3525-310 d -4481-b 0 bc-f 9057 e 823 e 0 b
+uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 631 d 2 b 2 d -9 e 69-4 b 96-8392-17 e 00 a 1 a 8 de 0
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 84%
 
 ---
 
@@ -23,11 +26,11 @@ Beispielsweise können Sie Bilder von Schirmmützen präsentieren, wobei die Sch
 
 ## Erstellen eines Mustersets {#create}
 
-Wenn Sie einen Satz erstellen, wirkt sich die **Option Nach dem Speichern** veröffentlichen wie folgt auf das Set und die Set-Mitglieder aus:
-|Option Nach dem Speichern veröffentlichen ausgewählt vor dem Speichern? | State nach dem Speichern | Status der Set-Mitglieder nach dem Speichern|
+Wenn Sie einen Satz erstellen, wirkt sich die Option Nach dem Speichern **veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
+| Option &quot;Nach dem Speichern veröffentlichen&quot;vor dem Speichern ausgewählt?|Status des Sets nach dem Speichern|Status der Set-Mitglieder nach dem Speichern|
 |— |— |— |
-| Ja | Veröffentlicht | Veröffentlicht|
-| Nein | Veröffentlichung rückgängig machen | Eingestellt behalten den Status "veröffentlicht" oder" unveröffentlicht" bei. |
+|Ja|Veröffentlicht|Veröffentlicht|
+|Nein|Unveröffentlicht|Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei.|
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
@@ -35,10 +38,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   **Wählen Sie
-zuerst** die Bilder im Durchsuchenbedienfeld aus, wählen Sie die Bilder aus und klicken Sie dann auf "Erstellen" &gt;" Mustersets" .
+   **Wählen Sie die Bilder zuerst** im Durchsuchenbedienfeld aus, wählen Sie die Bilder aus und klicken Sie dann auf &quot;Erstellen&quot;> &quot;Mustersets&quot;.
 
-   **Klicken Sie im Anzeigebereich** "Musterset" auf Erstellen &gt; Mustersets. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
+   **Klicken Sie im Anzeigebereich** &quot;Musterset&quot;auf &quot;Erstellen&quot;> &quot;Mustersets&quot;. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
 
 1. Ziehen Sie Farbfelder, Muster oder Ausführungen in das Platzhalterfeld „Muster“ auf der Seite „Musterset“.
 
@@ -56,7 +58,7 @@ Abhängig davon, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearb
 | Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten den Status "Veröffentlicht" oder" Unveröffentlicht" bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -83,5 +85,5 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 **So löschen Sie ein Musterset**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Mustersets aus.
-1. Klicken Sie in der globalen Navigationsleiste auf **Datei** &gt; **Löschen** &gt; **Löschen**.
+1. Klicken Sie in der globalen Navigationsleiste auf **Datei** > **Löschen** > **Löschen**.
 
