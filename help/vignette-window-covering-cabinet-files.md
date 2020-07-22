@@ -2,24 +2,27 @@
 title: Arbeiten mit Vignetten-, Fensterbehang- und Möbeldateien
 seo-title: Arbeiten mit Vignetten-, Fensterbehang- und Möbeldateien
 description: 'null'
-seo-description: Erfahren Sie, wie Sie mit Vignetten-, Fensterbehang- und Möbeldateien arbeiten.
-uuid: a 738791 c -4 be 0-4286-abbd-fae 7 a 0 e 4 bb 73
+seo-description: Erfahren Sie, wie Sie mit Vignetten-, Fensterbehang- und Schrank-Dateien arbeiten können.
+uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 42 df 9 adc-e 563-4 de 2-87 a 4-bd 40 cef 77 cdf
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 50%
 
 ---
 
 
 # Arbeiten mit Vignetten-, Fensterbehang- und Möbeldateien{#working-with-vignette-window-covering-and-cabinet-files}
 
-Benutzer des dynamischen Media Classic Image Authoring Tool können in Scene 7 Vignetten- (VNT-), Fensterbehangdateien (VNW-Dateien) und Möbeldateien (VNC-Dateien) verwenden. Diese Dateien können im Scene7 Publishing System weder erstellt noch bearbeitet werden.
+Die Benutzer des Dynamic Media Classic Image Authoring-Tools können in Scene7 Vignetten (VNT-Dateien), Fensterbeläge (VNW-Dateien) und Schränke (VNC-Dateien) verwenden. Diese Dateien können nicht in Dynamic Media Classic erstellt oder bearbeitet werden.
 
-Bei Vignetten-, Fensterbehang- und Möbeldateien handelt es sich um durch Authoring erstellte Bilder. Wenn Sie ein anderes dynamisches Media Classic-Programm namens Image Authoring verwenden, maskieren Sie Objekte in einem Bild, damit Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Beispielsweise können die Benutzer ein Sofa mit unterschiedlichen Bezügen, ein Fenster mit verschiedenen Vorhängen und Gardinen oder einen Schrank aus unterschiedlichen Holzarten sehen.
+Bei Vignetten-, Fensterbehang- und Möbeldateien handelt es sich um durch Authoring erstellte Bilder. Bei Verwendung eines anderen Dynamic Media Classic-Programms mit dem Namen Image Authoring werden Objekte in einem Bild maskiert, sodass die Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Beispielsweise können die Benutzer ein Sofa mit unterschiedlichen Bezügen, ein Fenster mit verschiedenen Vorhängen und Gardinen oder einen Schrank aus unterschiedlichen Holzarten sehen.
 
 Vignetten-, Fensterbehang- und Möbeldateien werden ebenso wie alle anderen Dateien hochgeladen.
 
