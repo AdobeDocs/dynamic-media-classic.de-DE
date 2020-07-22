@@ -6,14 +6,14 @@ seo-description: Eine Einführung und ein kurzer Beginn zu Video, mit dem Sie sc
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 66%
+source-wordcount: '1443'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ Dynamic Media Classic unterstützt für die Verwaltung von Einzelvideo- und adap
 
    Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
-   `**Note:**` Master-/Quellvideos und andere Quellvideoformate werden *keinem adaptiven Videoset hinzugefügt* .
+   `**Note:**` Übergeordnet-/Quellvideos und andere Quellvideoformate werden *keinem adaptiven Videoset hinzugefügt* .
 
 * Videountertitel in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light sowie Videokapitelnavigation in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light.
 
@@ -82,9 +82,9 @@ Die folgende Workflow-Beschreibung hilft Ihnen, sich schnell mit adaptiven Video
 Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden Szenarien hoch:
 
 * **Hochladen vorkodierter Videos** Wenn Ihre Videos bereits außerhalb von Dynamic Media Classic kodiert wurden, klicken Sie auf 
-**Laden Sie** die Symbolleiste für globale Navigation hoch, um nach MP4-Videodateien zu suchen und sie direkt in das Scene7 Publishing System hochzuladen. Klicken Sie dann auf **Erstellen > Adaptive Videosets**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
-* **Hochladen von Master-Quellvideos** Wenn Ihre Videos nicht kodiert sind, klicken Sie auf 
-**Laden Sie** die Symbolleiste für globale Navigation hoch, um Master-Videoquelldateien (nicht MP4) hochzuladen und sie vom Scene7 Publishing System in MP4-Dateien zu kodieren. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ unter den eVideo-Optionen die Option **Adaptive Video**.
+**Laden Sie** die Symbolleiste für globale Navigation hoch, um nach MP4-Videodateien zu suchen und sie direkt in Dynamic Media Classic hochzuladen. Klicken Sie dann auf **Erstellen > Adaptive Videosets**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
+* **Übergeordnet Quellvideos** hochladen Wenn Ihre Videos nicht kodiert sind, klicken Sie auf 
+**Laden Sie** die Datei in die Symbolleiste für globale Navigation hoch, um Übergeordnet Videoquelldateien (nicht MP4) hochzuladen und von Dynamic Media Classic in MP4-Dateien zu kodieren. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ unter den eVideo-Optionen die Option **Adaptive Video**.
 
    Mit dieser bevorzugten Option können Sie ein adaptives Videoset erstellen, das automatisch die korrekte Kodierungsvorgabe (16:9 oder 4:3) entsprechend den Abmessungen des hochgeladenen Videos anpasst. Wenn Sie den Hochladeauftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videokodierungen im korrekten Seitenverhältnis enthält.
 
@@ -112,7 +112,7 @@ Sie können das Video im Anzeigebereich „Vorschau“ wiedergeben. Sie können 
 
 **Optional**
 
-Anpassung der Viewer-Vorgaben - Dynamic Media Classic-Angebot - vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie in rechts oben in Scene7 auf „Einstellungen“ > „Video-Vorgaben“. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Anpassung der Viewer-Vorgaben - Dynamic Media Classic-Angebot - vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie oben rechts in Dynamic Media Classic auf &quot;Einstellungen&quot;> &quot;Viewer-Vorgaben&quot;. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
 Siehe [Arbeiten mit Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
