@@ -2,15 +2,18 @@
 title: 'Arbeiten in der Detailansicht '
 seo-title: 'Arbeiten in der Detailansicht '
 description: 'null'
-seo-description: Erfahren Sie, wie Sie in der Detailansicht arbeiten.
+seo-description: Erfahren Sie, wie Sie in der Detail-Ansicht arbeiten.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 79%
 
 ---
 
@@ -42,8 +45,8 @@ Um ein Asset genau zu überprüfen, in einer Vorschau anzuzeigen oder zu bearbei
 1. Führen Sie im Durchsuchenbedienfeld einen der folgenden Schritte aus:
 
    * Doppelklicken Sie auf das gewünschte Asset.
-   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Detailansicht]**.
-   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Datei &gt; Details]**.
+   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Detail-Ansicht]**.
+   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Datei > Details]**.
 
 >[!NOTE]
 >
@@ -51,7 +54,7 @@ Um ein Asset genau zu überprüfen, in einer Vorschau anzuzeigen oder zu bearbei
 
 ## Abrufen von Informationen in der Detailansicht {#getting-information-in-detail-view}
 
-Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Sie finden hier folgende Angaben zum jeweiligen Element: den Ordner, in dem das Element gespeichert ist, den Dateinamen, das Datum, an dem das Element in das Scene7 Publishing System hochgeladen wurde, und dessen Veröffentlichungsverlauf. Sie können Metadaten auch in der Detailansicht für ein Asset anzeigen und bearbeiten sowie Schlüsselwörter hinzufügen.
+Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Es werden folgende Informationen zu einem Element angezeigt: den Ordner, in dem das Element gespeichert ist, seinen Dateinamen, das Datum, an dem das Element in Dynamic Media Classic hochgeladen wurde, und seinen Veröffentlichungsverlauf. Sie können Metadaten auch in der Detailansicht für ein Asset anzeigen und bearbeiten sowie Schlüsselwörter hinzufügen.
 
 Sie können die URL eines Assets in der Detailansicht anzeigen. Diese ist jedoch erst aktiv, nachdem das Asset veröffentlicht wurde. Zu Bildern wird in der Detailansicht außerdem eine Liste erstellter und abgeleiteter Assets samt Metadaten angezeigt; Beispiele dafür sind Zoomziele und Bildsätze.
 
@@ -59,7 +62,7 @@ Sie können die URL eines Assets in der Detailansicht anzeigen. Diese ist jedoch
 
 In der Detailansicht stehen Werkzeuge für die Arbeit mit dem von Ihnen geöffneten Asset zur Verfügung. Die Werkzeuge sind je nach Asset-Typ unterschiedlich, Sie können in der Detailansicht aber immer die folgenden Funktionen ausführen:
 
-* **Elemente zur Veröffentlichung** Klicken Sie auf das Symbol **[!UICONTROL Veröffentlichen]** links neben dem Namen oder klicken Sie auf **[!UICONTROL Datei &gt; Veröffentlichen]** oder **[!UICONTROL Datei &gt; Veröffentlichung rückgängig machen]**.
+* **Elemente zur Veröffentlichung** Klicken Sie auf das Symbol **[!UICONTROL Veröffentlichen]** links neben dem Namen oder klicken Sie auf **[!UICONTROL Datei > Veröffentlichen]** oder **[!UICONTROL Datei > Veröffentlichung rückgängig machen]**.
 
 * **Umbenennen des Assets** Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
@@ -67,7 +70,7 @@ In der Detailansicht stehen Werkzeuge für die Arbeit mit dem von Ihnen geöffne
 
 * **Bearbeiten und Hinzufügen von Suchbegriffen** Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/viewing-adding-exporting-metadata.md).
 
-* **Löschen des Assets** Klicken Sie auf **[!UICONTROL Datei &gt; Löschen]**.
+* **Löschen des Assets** Klicken Sie auf **[!UICONTROL Datei > Löschen]**.
 
 Bei eigenständigen Dateien – beispielsweise bei Bildern, Bildsätzen und Schriftarten – können Sie in der Detailansicht den Veröffentlichungs- und Bearbeitungsverlauf einsehen und Auftragsdetails prüfen.
 
@@ -75,14 +78,14 @@ Die folgende Tabelle bietet eine Übersicht über die zusätzlichen Optionen, di
 
 | Asset-Typ | Bearbeiten/Anpassen | Vorschau |
 |--- |--- |--- |
-| Bilder | Imagemaps hinzufügen Hinzufügen von Zoomzielen Scharfzeichnen Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben. |
+| Bilder | Imagemaps hinzufügen Hinzufügen Zoom-Zielgruppen Scharfzeichnen Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben. |
 | Möbel- und Fensterbehangbilder | Nein | Miniaturansicht. |
 | E-Kataloge | Bearbeiten | Ja. Infofeld steht ebenfalls zur Verfügung.. |
 | Schriftarten | Informationen zur Schriftart bearbeiten | Nein. |
 | FXG-Dateien | Bearbeiten | Ja. |
 | ICC-Profile | Profilinformationen bearbeiten | Nein. |
 | Illustrator-Dateien | Nein (sofern nicht in FXG konvertiert) | Nein. |
-| Bildsätze | Bearbeiten | Ja. |
+| Bildsets | Bearbeiten | Ja. |
 | InDesign-Dateien | Nein (sofern nicht in FXG konvertiert) | Nein. |
 | PDF-Dateien | Nein | Nein. |
 | PSD-Dateien | Ja für einzelne Ebenen | Ja für einzelne Ebenen. |
