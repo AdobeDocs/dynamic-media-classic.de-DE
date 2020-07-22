@@ -2,15 +2,15 @@
 title: Rich-Media
 seo-title: Rich-Media
 description: 'null'
-seo-description: Erfahren Sie mehr über die verschiedenen Werkzeuge, die Sie in Dynamic Media Classic verwenden können, um Rich-Media-Daten zu erstellen.
+seo-description: Erfahren Sie mehr über die verschiedenen Werkzeuge, die Sie in Dynamic Media Classic zum Erstellen von Rich-Media-Inhalten verwenden können.
 uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 51%
@@ -20,13 +20,13 @@ ht-degree: 51%
 
 # Rich media{#rich-media}
 
-Dynamic Media Classic Angebot viele Werkzeuge zum Erstellen von Rich-Media-Daten. Sie können die folgenden Rich-Media-Typen erstellen:
+Dynamic Media Classic bietet viele Werkzeuge zum Erstellen von Rich-Media-Angeboten. Sie können die folgenden Rich-Media-Typen erstellen:
 
 * **E-Kataloge** Präsentieren Sie eine interaktive, suchfähige Webversion Ihres Katalogs oder anderer Druckmaterialien. Erstellen Sie klickbare Bereiche (so genannte Imagemaps), die Rollover-Inhalte zeigen und den Kunden gestatten, Seiten umzublättern, zu schwenken und Klebezettel an Seiten anzubringen. Siehe [Kurzanleitung: E-Katalog](/help/quick-start-ecatalog.md).
 
-* **eVideo** Versand bietet hochwertige Videoerlebnisse auf mehreren Bildschirmen, einschließlich Desktop-PCs, Mobilgeräten und Tablets. Verwenden Sie vordefinierte Kodierungsvorgaben für Dynamic Media Classic oder passen Sie die Kodierung an, um die Qualität und Größe des Videos zu steuern. Organisieren, durchsuchen und suchen Sie gezielt Videos mit umfassender Metadatenunterstützung für eine effiziente Verwaltung von Video-Assets. Siehe [Kurzanleitung: eVideo](/help/quick-start-video.md).
+* **eVideo** Versand bietet hochwertige Videoerlebnisse auf mehreren Bildschirmen, einschließlich Desktop-PCs, Mobilgeräten und Tablets. Verwenden Sie vordefinierte Dynamic Media Classic-Kodierungsvorgaben oder passen Sie die Kodierung an, um die Qualität und Größe des Videos zu steuern. Organisieren, durchsuchen und suchen Sie gezielt Videos mit umfassender Metadatenunterstützung für eine effiziente Verwaltung von Video-Assets. Siehe [Kurzanleitung: eVideo](/help/quick-start-video.md).
 
-* **Imagemaps** dienen dynamisch für Bilder jeder Größe und jedes Format auf Ihrer Website. Anstatt manuell viele Bilder in unterschiedlichen Größen zu erstellen, können Sie einfach nur ein Masterbild verwenden. Da Dynamic Media Classic das angeforderte Bild bereitstellt, wird das Bild so optimiert, dass es in Bezug auf Größe, Format, Gewichtung, Qualität und Scharfzeichnung höchste Qualität bietet. Siehe [Kurzanleitung: Bildgrößenänderung](/help/quick-start-image-sizing.md).
+* **Imagemaps** dienen dynamisch für Bilder jeder Größe und jedes Format auf Ihrer Website. Anstatt manuell viele Bilder in unterschiedlichen Größen zu erstellen, können Sie einfach nur ein Masterbild verwenden. Wenn Dynamic Media Classic das angeforderte Bild liefert, wird es für maximale Bildqualität in Bezug auf Größe, Format, Gewichtung, Qualität und Scharfzeichnung optimiert. Siehe [Kurzanleitung: Bildgrößenänderung](/help/quick-start-image-sizing.md).
 
 * **Bildsätze** Vereinfachen Sie den interaktiven Einkauf, bei dem die Ansicht von Produkten in mehreren Ansichten möglich ist. Sie können Zoomfunktionen, verschiedene Ansichten und Farbfelder zu einer integrierten Darstellung kombinieren. Siehe [Kurzanleitung: Bildsätze](/help/quick-start-image-sets.md).
 
