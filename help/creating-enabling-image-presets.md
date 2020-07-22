@@ -3,14 +3,17 @@ title: Erstellen und Aktivieren von Bildvorgaben
 seo-title: Erstellen und Aktivieren von Bildvorgaben
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Bildvorgaben erstellen und aktivieren.
-uuid: 62 cfc 6 fa-da 91-4 c 42-a 3 ed -10956384 d 633
+uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 84257 b 2 a -681 c -4 fe 9-a 6 e 5-3633 c 1 d 61 d 8 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 Wenn Benutzer Bildassets aus Media Portal exportieren, können sie im Dialogfeld „Ausgewählte Assets exportieren“ eine Bildvorgabe auswählen. Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen, mit denen Größe, Qualität, Format, Auflösung und andere Darstellungsaspekte für ein Bild beim Exportieren festgelegt werden.
 
-Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Mit Bildvorgaben werden Bilder entsprechend den Spezifikationen Ihres Unternehmens neu formatiert, wenn Benutzer Bilder aus dem Scene7 Publishing System exportieren. Benutzer müssen Bilder also nicht selbst neu formatieren, sondern können sie entsprechend den präzisen Einstellungen einer Bildvorgabe exportieren.
+Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Mit Bildvorgaben werden Bilder nach den Vorgaben Ihrer Firma neu formatiert, wenn Benutzer Bilder aus Dynamic Media Classic exportieren. Benutzer müssen Bilder also nicht selbst neu formatieren, sondern können sie entsprechend den präzisen Einstellungen einer Bildvorgabe exportieren.
 
 Die folgenden Einschränkungen gelten, wenn Sie Bild-Assets exportieren:
 
