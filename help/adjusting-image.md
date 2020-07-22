@@ -2,22 +2,25 @@
 title: Anpassen eines Bildes
 seo-title: Anpassen eines Bildes
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie ein Bild anpassen.
-uuid: c 052 acd 3-e 8 c 1-4134-ad 21-b 9 c 41578097 f
+seo-description: Erfahren Sie, wie Sie ein Bild anpassen
+uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/master_ files
-discoiquuid: 47 a 23980-2886-4 da 3-ab 2 d -6 cd 50 e 00 d 188
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
 
 # Anpassen eines Bildes{#adjusting-an-image}
 
-Dynamic Media Classic bietet verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bildes. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
+In Dynamic Media Classic werden verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bilds Angebot. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
 
 Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -29,7 +32,7 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
    * Mit dem Drehen-Regler können Sie das Bild drehen. Sie können das Bild auch drehen, indem Sie im Feld „Drehen“ entsprechende Werte eingeben. Bei positiven Werten wird es im Uhrzeigersinn, bei negativen Werten gegen den Uhrzeigersinn gedreht.
    * Mit dem Schieberegler „Weichzeichnen“ bzw. dem gleichnamigen Feld wird das Bild weichgezeichnet. Je höher der Wert, desto stärker wird das Bild weichgezeichnet.
    * Mithilfe der Optionen „Kontrast“, „Helligkeit“, „Sättigung“, „Farbton“ und „Farbbalance“ können Sie die Farbe und Helligkeit anpassen. Diese Effekte sind kumulativ. Beispielsweise werden Änderungen an den Einstellungen „Magenta“/„Grün“ zu den Änderungen an der Einstellung „Farbton“ hinzugefügt und summiert.
-   * Mit der Option „Färben“ können Sie ein Bild färben und gleichzeitig dessen Einstellungen für Tiefen und Lichter beibehalten. Auch die Änderungen an den Einstellungen für „Färben“ sind kumulativ. Wählen Sie im Menü „Helligkeit“ die Option „Kein Ausgleich“, um die automatische Kompensation der Helligkeit zu deaktivieren. Setzen Sie den Kontrastwert auf 0, wenn Sie den Kontrastbereich des Originalbilds beibehalten möchten, oder geben Sie andernfalls einen Kontrastbereich mit einem Wert größer als 0 an. Mit dem Wert 100 erzielen Sie den maximalen Kontrast. Typische Werte sind im Bereich zwischen 30 und 70.
+   * Mit der Option „Färben“ können Sie ein Bild färben und gleichzeitig dessen Einstellungen für Tiefen und Lichter beibehalten. Auch die Änderungen an den Einstellungen für „Färben“ sind kumulativ. Wählen Sie im Menü „Helligkeit“ die Option „Kein Ausgleich“, um die automatische Kompensation der Helligkeit zu deaktivieren. Setzen Sie den Kontrastwert auf 0, wenn Sie den Kontrastbereich des Originalbilds beibehalten möchten, oder geben Sie andernfalls einen Kontrastbereich mit einem Wert größer als 0 an. Mit dem Wert 100 erzielen Sie den maximalen Kontrast. Typische Werte liegen zwischen 30 und 70.
 
 1. Wenn Sie das Anpassen des Bildes beendet haben, führen Sie einen der folgenden Schritte aus:
 
