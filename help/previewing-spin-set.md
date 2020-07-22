@@ -2,15 +2,18 @@
 title: Anzeigen einer Vorschau für ein Rotationsset
 seo-title: Anzeigen einer Vorschau für ein Rotationsset
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie ein Rotationsset in der Vorschau anzeigen.
-uuid: 5 b 9 d 4 c 37-a 4 ec -40 c 5-8 f 14-da 875 d 71226 e
+seo-description: Erfahren Sie, wie ein Rotationsset Vorschau wird.
+uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/spin_ sets
-discoiquuid: 4 b 32 ffff -4387-4699-9 ba 9-c 3 b 23 a 2 c 3607
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 97%
 
 ---
 
@@ -29,9 +32,9 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing_an_asset).
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Rotationsset enthält, das Sie mit einem Viewer in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Klicken Sie im Assets-Fenster unter dem Miniaturbild auf „Vorschau“ &gt; „Viewer-Liste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Assets-Fenster ein Asset und klicken Sie dann rechts neben dem Miniaturbild auf „Vorschau“ &gt; „Viewer-Liste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ &gt; „Viewer-Liste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Klicken Sie im Assets-Fenster unter dem Miniaturbild auf „Vorschau“ > „Viewer-Liste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Assets-Fenster ein Asset und klicken Sie dann rechts neben dem Miniaturbild auf „Vorschau“ > „Viewer-Liste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ > „Viewer-Liste“.
 
 1. Klicken Sie im Fenster „Viewer-Liste“ in der Tabelle auf einen Viewer-Hyperlink, um das Asset im ausgewählten Viewer als Vorschau anzuzeigen.
 1. Schließen Sie den angezeigten Viewer, um zum Bildschirm „Viewer-Liste“ zurückzukehren.
