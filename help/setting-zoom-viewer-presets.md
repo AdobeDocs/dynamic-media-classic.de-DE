@@ -5,25 +5,28 @@ description: 'null'
 seo-description: Erfahren Sie, wie Sie Zoom-Viewer-Vorgaben einrichten.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 69%
 
 ---
 
 
 # Konfigurieren von Zoom-Viewer-Vorgaben{#setting-up-zoom-viewer-presets}
 
-Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Dynamic Media Classic bietet viele Optionen zum Anpassen und Skin von Viewern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige einfache (schnelle), Flyout- und benutzerdefinierte Zoom-Viewer-Vorgaben enthalten. Als Administrator können Sie neue unternehmensweite Zoom-Viewer-Vorgaben erstellen oder eine Standardvorgabe bearbeiten und sie unter einem neuen Namen speichern.
+Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Dynamic Media Classic Angebot bietet viele Optionen zum Anpassen und Gestalten von Viewern. Dynamic Media Classic verfügt über standardmäßige einfache (schnelle), Flyout- und benutzerdefinierte Zoom-Viewer-Vorgaben. Als Administrator können Sie neue unternehmensweite Zoom-Viewer-Vorgaben erstellen oder eine Standardvorgabe bearbeiten und sie unter einem neuen Namen speichern.
 
 Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenken und Zurücksetzen des Bildes in seinen ursprünglichen Zustand vor dem Zoomen. Das Aussehen dieser Schaltflächen und des Fensters an sich hängt von den ausgewählten Zoom-Viewer-Vorgaben ab. Sie können eine Zoom-Viewer-Vorgabe mit unterschiedlichen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren. Wenn Sie einen Zoom-Viewer für geführtes Zoomen konfigurieren, können Sie darüber hinaus auch die Positionierung der Zoomziele festlegen. Zoomziele sind Miniaturansichten, auf die ein Benutzer klicken kann, um den von Ihnen zugeordneten Bildausschnitt heranzuzoomen.
 
 ## Zoom-Viewer-Vorgaben {#about-zoom-viewer-presets}
 
-Dynamic Media Classic bietet folgende Zoom-Viewer-Vorgaben:
+Dynamic Media Classic-Angebote:
 
 * **Zoom-Viewer: Einfach** Bietet einen einfachen Zoom auf das Originalbild.
 
@@ -45,12 +48,13 @@ Dynamic Media Classic empfiehlt folgende Parameter für Flyout-Zoom-Viewer-Vorga
 
 Führen Sie zum Erstellen oder Bearbeiten einer Zoom-Viewer-Vorgabe folgende Schritte aus:
 
-1. Klicken Sie auf **Einstellungen** &gt; **Viewer-Vorgaben**.
+1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Erstellen einer Vorgabe** Klicken Sie auf Hinzufügen. Wählen Sie im Dialogfeld "Viewer-Vorgabe hinzufügen"eine Plattform, wählen Sie einen Zoom-Viewer und klicken Sie auf "Hinzufügen". Geben Sie im Feld "Vorgabenname"einen Namen für die Vorgabe ein.
+   * **Erstellen einer Vorgabe** Klicken Sie auf Hinzufügen. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie einen Zoom-Viewer und klicken Sie auf &quot;Hinzufügen&quot;. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
 
-   * **Bearbeiten einer Vorgabe** Wählen Sie eine Zoom-Viewer-Vorgabe und klicken Sie dann auf **Bearbeiten**.
+   * **Bearbeiten einer Vorgabe** Wählen Sie eine Zoom-Viewer-Vorgabe aus und klicken Sie dann auf 
+**Bearbeiten**.
 
 1. Wählen Sie die gewünschten Einstellungen aus.
 
