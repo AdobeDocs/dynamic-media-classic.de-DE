@@ -2,34 +2,37 @@
 title: Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit
 seo-title: Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit
 description: 'null'
-seo-description: Erfahren Sie, wie Sie einen Viewer mit dem Adobe Analytics-Instrumentierungskit instrumentieren.
-uuid: cf 9 a 4002-966 d -4641-9 cd 0-2 ee 8 b 5454 f 60
+seo-description: Erfahren Sie, wie Sie einen Viewer mit dem Adobe Analytics Instrumentation Kit instrumentieren.
+uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: a 2824244-1755-42 de-a 167-42 af 117 cf 038
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 41%
 
 ---
 
 
 # Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
-Sie können das Adobe Analytics-Instrumentierungskit verwenden, um einen HTML 5-Viewer in Adobe Analytics zu integrieren.
+Sie können das Adobe Analytics Instrumentation Kit verwenden, um einen HTML5-Viewer in Adobe Analytics zu integrieren.
 
-Wenn Sie eine der vordefinierten HTML 5-Viewer-Vorgaben für dynamische Medien verwenden, beachten Sie, dass sie bereits den gesamten Implementierungscode enthalten, der zum Senden von Daten an Adobe Analytics benötigt wird. —Es ist keine weitere Instrumentierung erforderlich.
+Wenn Sie eine der vordefinierten HTML5-Viewer-Vorgaben von Dynamic Media Classic verwenden, beachten Sie, dass diese bereits den Implementierungscode enthalten, der zum Senden von Daten an Adobe Analytics erforderlich ist. Eine weitere Instrumentierung ist nicht erforderlich.
 
-## Richten Sie die Adobe Analytics-Nachverfolgung im Scene7 Publishing System ein.{#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Einrichten der Adobe Analytics-Verfolgung von Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-Fügen Sie für alle HTML 5-Viewer dem HTML-Container das folgende javascript hinzu, normalerweise im &lt; head &gt;-Element:
+Fügen Sie für alle HTML5-Viewer dem HTML-Container das folgende JavaScript hinzu, normalerweise im Element &lt;head>:
 
 ```as3
-<!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<SPS Company ID>&preset=companypreset-1"></script>
+<!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-`Company` wird auf den SPS-Unternehmensnamen gesetzt. `&preset` ist optional, es sei denn, der Unternehmensvorgabenname ist nicht `companypreset`. In such cases, it could be `companypreset-1, companypreset-2`, and so on. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. To determine the correct company preset value name, click **Copy URL** , and then look at the `preset=`parameter to find the company preset name.
+`Company` auf den Namen der Dynamic Media Classic-Firma festgelegt ist. `&preset` ist optional, es sei denn, der Unternehmensvorgabenname ist nicht `companypreset`. In such cases, it could be `companypreset-1, companypreset-2`, and so on. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. To determine the correct company preset value name, click **Copy URL** , and then look at the `preset=`parameter to find the company preset name.
 
 Anschließend fügen Sie eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Rückverfolgungscode sendet.
 
@@ -39,7 +42,7 @@ Add the `s7ComponentEvent()` function to the container HTML (or JSP, or ASPX or 
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-Beachten Sie beim Funktionsnamen die Groß-/Kleinschreibung. The only parameter passed to `s7componentEvent`that is required is the last one: `eventData`. `s7track()` in "s_ code. jsp" definiert ist. `s7track` verarbeitet alle Verfolgung pro Ereignis. (Wenn Sie an Adobe Analytics übermittelte Daten weiter anpassen müssen, sollten Sie dies an dieser Stelle tun.)
+Beachten Sie beim Funktionsnamen die Groß-/Kleinschreibung. The only parameter passed to `s7componentEvent`that is required is the last one: `eventData`. `s7track()` ist in s_code.jsp definiert, die oben aufgeführt sind. `s7track` verarbeitet die gesamte Verfolgung pro Ereignis. (Wenn Sie an Adobe Analytics übermittelte Daten weiter anpassen müssen, sollten Sie dies an dieser Stelle tun.)
 
 ## Aktivieren von HREF- und ITEM-Ereignissen {#enabling-href-and-item-events}
 
