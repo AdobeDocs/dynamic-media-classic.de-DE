@@ -2,22 +2,25 @@
 title: Hinzufügen und Verwalten von Media Portal-Benutzern
 seo-title: Hinzufügen und Verwalten von Media Portal-Benutzern
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Media Portal-Benutzer hinzufügen und verwalten.
-uuid: 96 d 4103 c -6428-4 ce 1-b 9 e 4-231599304 f 27
+seo-description: Erfahren Sie, wie Sie Media Portal-Benutzer hinzufügen und verwalten
+uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 5 e 933045-ce 1 a -41 b 9-ba 8 b -2151 c 396 b 7 a 2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 84%
 
 ---
 
 
 # Hinzufügen und Verwalten von Media Portal-Benutzern{#adding-and-managing-media-portal-users}
 
-Als Administrator können Sie Benutzer hinzufügen und verwalten, entscheiden, ob Benutzer Kennwörter ändern dürfen, Benutzerinformationen bearbeiten und Benutzerlisten hochladen. Diese Aufgaben werden im Anzeigebereich „Benutzerverwaltung“ ausgeführt. Um diesen Bildschirm aufzurufen, klicken Sie auf **„Einstellungen“** &gt; **„Anwendungseinstellungen“** &gt; **„Administrationseinstellungen“** &gt; **„Benutzerverwaltung“**.
+Als Administrator können Sie Benutzer hinzufügen und verwalten, entscheiden, ob Benutzer Kennwörter ändern dürfen, Benutzerinformationen bearbeiten und Benutzerlisten hochladen. Diese Aufgaben werden im Anzeigebereich „Benutzerverwaltung“ ausgeführt. Um diesen Bildschirm aufzurufen, klicken Sie auf **„Einstellungen“** > **„Anwendungseinstellungen“** > **„Administrationseinstellungen“** > **„Benutzerverwaltung“**.
 
 >[!NOTE]
 >
@@ -27,17 +30,17 @@ Als Administrator können Sie Benutzer hinzufügen und verwalten, entscheiden, o
 
 Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer erhalten eine E-Mail mit einem Kennwort, wenn Sie sie anmelden. Administratoren können entscheiden, ob Media Portal-Benutzer dieses Kennwort ändern dürfen.
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Media Portal-Einrichtung“** &gt; **„Allgemeine Einstellungen“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Media Portal-Einrichtung“** > **„Allgemeine Einstellungen“**.
 1. Auf der Seite „Allgemeine Einstellungen“ können Sie **„Kennwortänderung durch MediaPortal-Benutzer zulassen“** aktivieren oder deaktivieren.
 1. Klicken Sie auf „**Speichern**“.
 
 >[!NOTE]
 >
->Media Portal-Benutzer, die Kennwörter ändern dürfen, klicken auf **„Einstellungen“** &gt; **„Persönliche Einstellungen“** und ändern Kennwörter im Bildschirm „Persönliche Einstellungen“.
+>Media Portal-Benutzer, die Kennwörter ändern dürfen, klicken auf **„Einstellungen“** > **„Persönliche Einstellungen“** und ändern Kennwörter im Bildschirm „Persönliche Einstellungen“.
 
 ## Hinzufügen eines Media Portal-Benutzers {#adding-a-media-portal-user}
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Anwendungseinstellungen“** &gt; **„Administrationseinstellungen“** &gt; **„Benutzerverwaltung“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Anwendungseinstellungen“** > **„Administrationseinstellungen“** > **„Benutzerverwaltung“**.
 1. Klicken Sie auf der Seite „Benutzerverwaltung“ auf **„Hinzufügen“**.
 1. Geben Sie im Dialogfeld „Benutzer hinzufügen“ im Bedienfeld „Benutzerinformationen“ den Vornamen, Nachnamen und die E-Mail-Adresse des Benutzers ein und klicken Sie dann auf **„Weiter“**.
 1. Wählen Sie im Bedienfeld „Unternehmen/Rolle“ aus der Dropdown-Liste „Unternehmen“ ein oder mehrere Unternehmen für den Benutzer aus.
@@ -73,7 +76,7 @@ Erstellen Sie eine CSV-Datei (dateiname.csv), die dem folgenden Format entsprich
 | Nachname | Der Nachname. |
 | E-Mail an Freunde senden | Eine gültige E-Mail-Adresse. |
 | Kennwort | Ein Kennwort (auf Groß-/Kleinschreibung achten). |
-| Benutzerrolle | Mediaportaladminmediaportalusermediaportalcontributormediaportalmitarbeiter-Benutzer |
+| Benutzerrolle | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
 | Gruppen | Auflistung aller dem Benutzer zugewiesenen Gruppen (durch Kommas getrennt). Geben Sie die Gruppe an, indem Sie vor dem Kontonamen einen Schrägstrich (/) einfügen. Beispiel: PortalCo/IT. „PortalCo“ ist das Konto und „IT“ ist die Gruppe innerhalb des PortalCo-Kontos. |
 
 Die folgende Beispieltabelle zeigt, wie eine CSV-Datei aussehen muss:
@@ -99,36 +102,36 @@ Wenn die CSV-Datei nicht ordnungsgemäß formatiert war, wird die folgende Fehle
 
 Sie können die Namen und E-Mail-Adressen von Media Portal-Benutzern in einem Popup-Fenster anzeigen. Dies ist nützlich, wenn Sie Benutzernamen und Adressen kopieren und in eine Anwendung außerhalb von Media Portal einfügen möchten.
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Anwendungseinstellungen“** &gt; **„Administrationseinstellungen“** &gt; **„Benutzerverwaltung“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Anwendungseinstellungen“** > **„Administrationseinstellungen“** > **„Benutzerverwaltung“**.
 1. Wählen Sie in der Dropdown-Liste **„Nach Benutzerrolle“** eine Media Portal-Rolle aus und klicken Sie auf **„Aktualisieren“**, um die Namen einer Klasse von Media Portal-Benutzern anzuzeigen.
 1. Klicken Sie auf **„Popup-Liste“**, um das Popup-Fenster zu öffnen. Sie können diese Liste kopieren und einfügen.
 
 ## Einrichten der Begrüßungs-E-Mail für Media Portal-Benutzer {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer senden lassen, die Sie hinzufügen. Sie können diese E-Mail-Nachricht konfigurieren oder Dynamisches Media Classic daran hindern, es nicht zu senden.
+Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer senden lassen, die Sie hinzufügen. Sie können diese E-Mail-Nachricht konfigurieren oder Dynamic Media Classic anweisen, sie nicht zu senden.
 
-1. Wählen Sie **„Einstellungen“** &gt; **„Anwendungseinstellungen“** &gt; **„Administrationseinstellungen“** &gt; **„Benutzerverwaltung“**.
+1. Wählen Sie **„Einstellungen“** > **„Anwendungseinstellungen“** > **„Administrationseinstellungen“** > **„Benutzerverwaltung“**.
 1. In the User Administration Setup screen, click **Email Settings**.
 1. Nehmen Sie im Dialogfeld „E-Mail-Einstellungen“ folgende Einstellungen vor:
 
-   **E-Mail** deaktivieren Sie diese Option, wenn Sie neue Benutzer nicht per E-Mail darüber informieren möchten, dass Sie sie registriert haben.
+   **E-Mail** senden Wenn diese Option deaktiviert ist, können Sie neue Benutzer nicht per E-Mail darüber informieren, dass Sie sie registriert haben.
 
-   **Standardkennwort** Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit dynamische Medien Classic zufällige Kennwörter generieren. Benutzer werden bei der ersten Anmeldung gebeten, ihr Kennwort zu ändern.
+   **Standardkennwort** Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit Dynamic Media Classic zufällige Kennwörter generiert. Benutzer werden bei der ersten Anmeldung gebeten, ihr Kennwort zu ändern.
 
-   **Ersatz-URL** Geben Sie eine URL ein, die sich vom Standard unterscheidet, wenn Ihre Benutzer über eine andere URL auf Dynamic Media Classic zugreifen.
+   **Ersatz-URL** Geben Sie eine URL ein, die sich von der StandardURL unterscheidet, wenn Ihre Benutzer über eine andere URL auf Dynamic Media Classic zugreifen.
 
 ## Andere Aufgaben zur Benutzerverwaltung {#other-user-management-tasks}
 
 Über den Anzeigebereich „Benutzerverwaltung“ können Sie außerdem folgende Aufgaben ausführen:
 
-**Filtern und Sortieren der Benutzerliste** Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu suchen. Siehe Filtern und Sortieren der Benutzerliste.
+**Filtern und Sortieren der Liste** Benutzer Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu suchen. Siehe Filtern und Sortieren der Benutzerliste.
 
-**Löschen von Benutzern** Löschen Sie einen Benutzer aus der Liste. Siehe Löschen von Benutzern.
+**Löschen Sie Benutzer** Löschen Sie einen Benutzer aus der Liste. Siehe Löschen von Benutzern.
 
-**Aktivieren und Deaktivieren von Benutzern** Hindern Sie einen Benutzer daran, auf Ordner zuzugreifen. Siehe Aktivieren und Deaktivieren von Benutzern.
+**Aktivieren und deaktivieren Sie Benutzer** , die den Zugriff auf Ordner aussetzen. Siehe Aktivieren und Deaktivieren von Benutzern.
 
-**Bearbeiten von Benutzerinformationen** Geben Sie aktuelle Informationen über einen Benutzer ein. Siehe Bearbeiten von Benutzerinformationen.
+**Benutzerinformationen** bearbeiten Geben Sie aktuelle Informationen zu einem Benutzer ein. Siehe Bearbeiten von Benutzerinformationen.
 
-**Erstellen benutzerdefinierter Felder** Erstellen benutzerdefinierter, benutzerdefinierter Metadatenfelder, um Assets im Scene 7 Publishing System zu organisieren. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
+**Erstellen benutzerdefinierter Felder** Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, um Assets in Dynamic Media Classic zu organisieren. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
 
 Siehe [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
