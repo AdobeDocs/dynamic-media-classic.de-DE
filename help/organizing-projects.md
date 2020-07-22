@@ -5,12 +5,15 @@ description: 'null'
 seo-description: Erfahren Sie, wie Sie Ihre Arbeit mit Projekten organisieren.
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 59%
 
 ---
 
@@ -33,11 +36,11 @@ Sie können ein Projekt erstellen, wenn Sie Dateien hochladen oder Projekte in d
 
 ## Erstellen eines Projektordners {#creating-a-project-folder}
 
-Sie können einen Projektordner entweder in der Asset-Bibliothek oder beim Hochladen von Dateien zum Scene7 Publishing System erstellen:
+Sie können einen Projektordner erstellen, der in der Asset-Bibliothek beginnt oder Dateien in Dynamic Media Classic hochlädt:
 
-* **Blättern Sie in der Asset-Bibliothek** nach unten in der Asset-Bibliothek zum Abschnitt "Projekte"und klicken Sie auf die Schaltfläche "Projekt hinzufügen". Geben Sie dann einen Namen für das Projekt ein.
+* **Blättern Sie in der Asset-Bibliothek** nach unten in der Asset-Bibliothek zum Abschnitt &quot;Projekte&quot;und klicken Sie auf die Schaltfläche &quot;Hinzufügen Projekt&quot;. Geben Sie dann einen Namen für das Projekt ein.
 
-* **Beim Hochladen von Dateien** Wählen Sie im Anzeigebereich "Hochladen"im Menü "Zum Projekt hinzufügen"die Option "Projekt erstellen". Geben Sie dann einen Namen für das Projekt ein.
+* **Beim Hochladen von Dateien** Wählen Sie im Anzeigebereich &quot;Hochladen&quot;im Menü &quot;Hinzufügen in Projekt&quot;die Option &quot;Projekt erstellen&quot;. Geben Sie dann einen Namen für das Projekt ein.
 
 >[!NOTE]
 >
@@ -49,14 +52,14 @@ Beachten Sie beim Anzeigen, Löschen und Umbenennen eines Projektordners die fol
 
 * **Inhalt** durchsuchen Wählen Sie den Namen des Ordners in der Asset-Bibliothek aus. Die im Ordner enthaltenen Assets werden im Durchsuchenbedienfeld angezeigt.
 
-* **Löschen von Projektordnern** Wählen Sie den Projektordner aus und klicken Sie dann auf "Projekt entfernen". Beim Löschen von Assets aus einem Projektordner werden die Assets nicht aus dem Scene7 Publishing System entfernt; die Assets bleiben in den Ursprungsordnern, in denen sie gespeichert sind.
+* **Löschen von Projektordnern** Wählen Sie den Projektordner aus und klicken Sie dann auf &quot;Projekt entfernen&quot;. Wenn Sie Assets aus einem Projektordner löschen, werden sie nicht aus Dynamic Media Classic gelöscht. Die Assets bleiben in den ursprünglichen Ordnern, in denen sie gespeichert sind.
 
-* **Umbenennen von Projektordnern** Doppelklicken Sie auf den Namen des Ordners in der Asset-Leiste und geben Sie dann einen neuen Namen ein.
+* **Beim Umbenennen von Projektordnern** klicken Sie in der Asset-Bibliothek auf den Ordnernamen und geben Sie dann einen neuen Namen ein.
 
 ## Einfügen von Assets in einen Projektordner {#adding-assets-to-a-project-folder}
 
-Sie können Bilder entweder über das Durchsuchenbedienfeld oder beim Hochladen von Dateien zum Scene7 Publishing System in einen Projektordner einfügen:
+Sie können Bilder zu einem Projektordner hinzufügen, indem Sie im Durchsuchenbedienfeld beginnen oder Dateien zu Dynamic Media Classic hochladen:
 
-* **Wählen Sie im Durchsuchenbedienfeld** die Assets aus und ziehen Sie sie in einen Projektordner. Alternativ können Sie „Datei“ &gt; „Zum Projekt hinzufügen“ wählen, im Dialogfeld „Projekt auswählen“ einen Projektordnernamen wählen und dann auf die Schaltfläche „Absenden“ klicken.
+* **Wählen Sie im Durchsuchenbedienfeld** die Assets aus und ziehen Sie sie in einen Projektordner. Alternativ können Sie „Datei“ > „Zum Projekt hinzufügen“ wählen, im Dialogfeld „Projekt auswählen“ einen Projektordnernamen wählen und dann auf die Schaltfläche „Absenden“ klicken.
 
-* **Klicken Sie beim Hochladen** im Anzeigebereich "Hochladen"auf die Schaltfläche "Auftragsoptionen". Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option „Projekte“ und wählen Sie einen Projektnamen aus.
+* **Klicken Sie beim Hochladen** im Anzeigebereich &quot;Hochladen&quot;auf die Schaltfläche &quot;Auftragsoptionen&quot;. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option „Projekte“ und wählen Sie einen Projektnamen aus.
