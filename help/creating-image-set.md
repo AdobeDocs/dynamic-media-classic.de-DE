@@ -2,15 +2,18 @@
 title: Erstellen eines Bildsatzes
 seo-title: Erstellen eines Bildsatzes
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie einen Bildsatz erstellen.
-uuid: 689 fdc 14-4 f 51-4 c 94-8515-cd 8551 e 101 d 8
+seo-description: Erfahren Sie, wie Sie einen Bildsatz erstellen.
+uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: 3 f 356410-b 30 e -4870-ad 95-6 e 5 a 9 dc 126 c 8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 89%
 
 ---
 
@@ -34,10 +37,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   **Wählen Sie
-zuerst** die Bilder im Durchsuchenbedienfeld aus, wählen Sie die Bilder aus, die Sie für den Bildsatz verwenden möchten, und klicken Sie dann auf Erstellen &gt; Bildsätze.
+   **Wählen Sie zuerst** die Bilder im Durchsuchenbedienfeld aus, wählen Sie die Bilder aus, die Sie für den Bildsatz verwenden möchten, und klicken Sie auf &quot;Erstellen&quot;> &quot;Bildsätze&quot;.
 
-   **Klicken Sie im Anzeigebereich** "Bildsatz" auf Erstellen &gt; Bildsätze. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
+   **Klicken Sie im Anzeigebereich** &quot;Bildsatz&quot;auf &quot;Erstellen&quot;> &quot;Bildsätze&quot;. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
 
 1. Um die Reihenfolge der Bilder zu ändern, ziehen Sie die Bilder an die gewünschten Positionen.
 1. Stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
@@ -51,7 +53,7 @@ Abhängig davon, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearb
 | Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten den Status "Veröffentlicht" oder" Unveröffentlicht" bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -78,5 +80,5 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 **So löschen Sie einen Bildsatz**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht einen oder mehrere Bildsätze aus.
-1. Klicken Sie in der globalen Navigationsleiste auf **Datei** &gt; **Löschen** &gt; **Löschen**.
+1. Klicken Sie in der globalen Navigationsleiste auf **Datei** > **Löschen** > **Löschen**.
 
