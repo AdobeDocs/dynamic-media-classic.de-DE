@@ -3,13 +3,16 @@ title: Löschen eines hochgeladenen Assets
 seo-title: Löschen eines hochgeladenen Assets
 description: 'null'
 seo-description: Erfahren Sie, wie Sie ein hochgeladenes Asset löschen.
-uuid: edd 2 b 688-c 377-4 be 1-ba 16-d 2 dd 2 e 6 f 716 d
+uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: dd 338 c 8 c -06 c 6-44 d 5-8493-dc 2087 eecausb
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 88%
 
 ---
 
@@ -46,7 +49,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines As
 |--- |--- |--- |
 | op | Erforderlich | löschen |
 | shared_secret | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
-| <ul><li>Für Bilder: image_ name</li><li>Bei Vektoren:fxg_name</li></ul> | Erforderlich | Name des Assets, das gelöscht werden soll. |
+| <ul><li>Für Bilder:image_name</li><li>Bei Vektoren:fxg_name</li></ul> | Erforderlich | Name des Assets, das gelöscht werden soll. |
 
 **Beispielbild-URL:**
 
