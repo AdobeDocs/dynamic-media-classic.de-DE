@@ -2,40 +2,43 @@
 title: '"Kurzanleitung: Mustersets"'
 seo-title: '"Kurzanleitung: Mustersets"'
 description: 'null'
-seo-description: Eine Einführung und Schnellstart zum Musterset, mit dem Sie schnell losfahren können.
-uuid: 6 f 8 a 95 e 8-e 82 a -477 f -9 f 21-d 2 b 7 b 511 f 8 ae
+seo-description: Eine Einführung und ein kurzer Beginn zu Musterset, mit dem Sie sich schnell und einfach einrichten können.
+uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 1 ea 70 fdf -3 cbd -409 c-ae 7 d -06286 c 99 c 6 ac
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 64%
 
 ---
 
 
 # Kurzanleitung: Mustersets{#quick-start-swatch-sets}
 
-Dynamische Medien-Mustersets bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
+Dynamic Media Classic-Mustersets bieten eine integrierte Anzeigeerfahrung. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
 
-**Kurzanleitung**
+**Quick Beginn**
 
-Diese Kurzanleitung für Mustersets hilft Ihnen, sich schnell mit den Musterset-Techniken in Dynamic Media Classic vertraut zu machen.
+Dieser Beginn für Mustersets hilft Ihnen, sich schnell mit den Musterset-Techniken in Dynamic Media Classic vertraut zu machen.
 
 **1. Hochladen der Bilder und Musterdateien**
 
 Laden Sie zuerst die Bilder und Musterdateien für die Mustersets hoch.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche „Hochladen“, um Dateien von Ihrem Computer in einen Ordner im Scene7 Publishing System hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Dynamic Media Classic-Ordner hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
 **2. Erstellen eines Mustersets**
 
-Um ein Musterset zu erstellen, klicken Sie auf „Erstellen &gt; Mustersets“. Ziehen Sie im Anzeigebereich „Musterset“ die Bilder und Farbfelder in den Anzeigebereich. Siehe [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set).
+Um ein Musterset zu erstellen, klicken Sie auf „Erstellen > Mustersets“. Ziehen Sie im Anzeigebereich „Musterset“ die Bilder und Farbfelder in den Anzeigebereich. Siehe [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set).
 
 **3. Einstellen von Musterset-Viewer-Vorgaben**
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamisches Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ &gt; „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
 
 Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -47,7 +50,7 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 **5. Veröffentlichen eines Mustersets**
 
-Durch Veröffentlichen eines Mustersets wird es auf dynamischen Media-Server-Servern platziert und die URL-Zeichenfolge aktiviert.
+Beim Veröffentlichen eines Mustersets wird es auf Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
 Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
