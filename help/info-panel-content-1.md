@@ -3,14 +3,17 @@ title: Verwalten des Infofeldinhalts in Bildsätzen
 seo-title: Verwalten des Infofeldinhalts in Bildsätzen
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Infofeldinhalte in Bildsätzen verwalten.
-uuid: ed 7 b 4344-f 180-41 fc-a 95 a -62 a 9767 dc 056
+uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-content-type: Verweis
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sets
-discoiquuid: ba 5 d 1 fb 1-af 54-471 c-a 471-853 ace 7 f 72 fd
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+content-type: reference
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 73%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 Zusätzlich zur Verwendung von Imagemap-Text für Ihre Rollover in Bildsätzen können Sie zum Hinzufügen größerer Mengen von Rollover-Text, einschließlich Links, ein Infofeld verwenden. Sie können das Infofeld auch mithilfe von zeitlich begrenztem Caching und geplanten Inhaltsaktualisierungen verwalten.
 
-Zur Verwaltung Ihrer Infofeldeinstellungen und der im Infofeld enthaltenen Daten stehen Ihnen im Scene7 Publishing System die folgenden Funktionen zur Verfügung:
+Sie können Ihre Infofeld-Einrichtung und Ihre Daten mithilfe der folgenden Funktionen in Dynamic Media Classic verwalten:
 
 * Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der Bildsatz automatisch veröffentlicht werden soll.
 * Im Bedienfeld „Infofeld-Daten-Feed“ können Sie Folgendes angeben: eine CSV-Datei, die den Text enthält, der im Rollover-Text des Infofelds angezeigt werden soll, sowie die geplanten Zeiten zum Aktualisieren der Informationen.
@@ -38,7 +41,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Wählen Sie „Standard“, um die Standardantwort zu verwenden. Im Textfeld „Benutzervorlage“ wird, abgeblendet, der XML-Code für den Vorlagenentwurf angezeigt.
    * Wählen Sie „Benutzerdefiniert“, um eine eigene Antwortvorlage zu erstellen. Geben Sie in das Textfeld „Benutzervorlage“ die XML-Definition der Vorlage ein. Sie können die Standardvorlage verwenden, die im Textfeld als Basis für Ihre eigene Antwort bereits definiert ist.
 
-1. (Optional) Geben Sie im Feld "Standardantwort" den Text ein, der angezeigt werden soll, wenn dynamisches Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen Bildsatznamen, jedoch keinen Rollover-Bezeichner empfängt, wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen Bildsatznamen, jedoch keinen Rollover-Bezeichner empfängt, wird dem Benutzer diese Meldung angezeigt.
 1. Geben Sie in das Textfeld „Antwort-TTL“ die Anzahl der Stunden bis zum Zwischenspeichern der Daten ein.
 
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
@@ -61,7 +64,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 * Das erste Element oder die erste Datenspalte muss der Rollover-Bezeichner sein (verknüpft mit dem rollover_key-Wert aus den Imagemap-URLs).
 * Stellen Sie sicher, dass jedes tabulator- oder kommagetrennte Element nach dem Bezeichner das Element ist, das in der Antwortvorlage ersetzt werden soll (sodass also für die erste Spalte $1$, für die zweite $2$ usw. eingesetzt wird).
 
-### Importieren von CSV-Inhalten in Bildsätze von einem extern gehosteten Ort {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort in Bildsätze {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Doppelklicken Sie auf den Bildsatz, um ihn in der Detailansicht zu öffnen.
 1. Click **InfoPanel Datafeed** to unfold the panel.
