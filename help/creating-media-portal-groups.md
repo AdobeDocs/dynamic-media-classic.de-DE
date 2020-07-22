@@ -3,14 +3,17 @@ title: Erstellen und Verwalten von Media Portal-Gruppen
 seo-title: Erstellen und Verwalten von Media Portal-Gruppen
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Media Portal-Gruppen erstellen und verwalten.
-uuid: 23 f 360 e 1-ddcb -491 b-ab 9 f -428 f 3 ac 9 c 316
+uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 91524 d 36-b 77 a -4 dc 4-acba-a 7 bd 85297 e 98
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +34,7 @@ Wenn Sie einer Gruppe keine speziellen Zugriffsrechte für ein Asset oder einen 
 
 ## Hinzufügen einer Gruppe {#adding-a-group}
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Media Portal-Einrichtung“** &gt; **„Gruppen“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Media Portal-Einrichtung“** > **„Gruppen“**.
 1. Klicken Sie auf **„Hinzufügen“**.
 1. Geben Sie im Dialogfeld „Gruppe hinzufügen“ im Feld „Gruppenname“ einen Namen für die Gruppe ein und klicken Sie dann auf **„Gruppe hinzufügen“**.
 1. Bei Bedarf können Sie die Kontrollkästchen neben den Namen von Benutzern aktivieren, um diese Benutzer der neuen Gruppe hinzuzufügen.
@@ -47,7 +50,7 @@ Wenn Sie einer Gruppe keine speziellen Zugriffsrechte für ein Asset oder einen 
 
 ## Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe {#establishing-asset-access-permissions-for-a-group}
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Media Portal-Einrichtung“** &gt; **„Gruppen“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Media Portal-Einrichtung“** > **„Gruppen“**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:
 
    * Um eine Gruppe hinzuzufügen und Berechtigungen festzulegen, klicken Sie auf **„Hinzufügen“**. Geben Sie im Dialogfeld „Gruppe hinzufügen“ einen Namen für die Gruppe ein, klicken Sie auf **„Gruppe hinzufügen“** und fügen Sie der Gruppe Benutzer hinzu.
@@ -67,7 +70,7 @@ Wenn Sie einer Gruppe keine speziellen Zugriffsrechte für ein Asset oder einen 
    | Dateien umbenennen |  | X |  |
    | Dateien löschen |  |  | X |
 
-1. Klicken Sie auf „**Schließen**“.
+1. Klicken Sie auf **Schließen**.
 
 >[!NOTE]
 >
@@ -79,7 +82,7 @@ Wählen Sie Bildvorgabezugriffsberechtigungen für eine Gruppe, wenn Sie festleg
 
 Siehe auch [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Media Portal-Einrichtung“** &gt; **„Gruppen“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Media Portal-Einrichtung“** > **„Gruppen“**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:
 
    * Um eine Gruppe hinzuzufügen und anzugeben, welche Bildvorgaben ihr zur Verfügung stehen sollen, klicken Sie auf **„Hinzufügen“**. Geben Sie im Dialogfeld „Gruppe hinzufügen“ einen Namen für die Gruppe ein, klicken Sie auf **„Gruppe hinzufügen“** und fügen Sie der Gruppe Benutzer hinzu.
@@ -91,10 +94,10 @@ Siehe auch [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügu
 
 ## Bearbeiten und Löschen von Gruppen {#edit-and-delete-groups}
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Media Portal-Einrichtung“** &gt; **„Gruppen“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Media Portal-Einrichtung“** > **„Gruppen“**.
 1. Wählen Sie auf der Seite „Gruppenliste“ eine Gruppe aus und bearbeiten oder löschen Sie sie.
 
-   **Bearbeiten einer Gruppe** Klicken Sie auf "Bearbeiten" und wählen Sie anschließend im Dialogfeld" Gruppe bearbeiten" die gewünschten Optionen aus.
+   **Bearbeiten einer Gruppe** Klicken Sie auf Bearbeiten und wählen Sie dann im Dialogfeld Gruppe bearbeiten die gewünschten Optionen aus.
 
    **Löschen einer Gruppe** Klicken Sie auf Löschen.
 
