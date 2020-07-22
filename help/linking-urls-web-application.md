@@ -2,39 +2,42 @@
 title: Verknüpfen von URLs mit einer Web-Anwendung
 seo-title: Verknüpfen von URLs mit einer Web-Anwendung
 description: 'null'
-seo-description: Erfahren Sie, wie Sie urls mit Ihrer Webanwendung verknüpfen.
-uuid: 1179 bdd 3-9 b 39-47 f 9-945 d -1 c 1 ca 186 bf 96
+seo-description: Erfahren Sie, wie Sie URLs mit Ihrer Webanwendung verknüpfen.
+uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sizing
-discoiquuid: 71299640-676 d -49 b 7-841 d -6118 f 31044 e 8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
+discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 72%
 
 ---
 
 
 # Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
 
-Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf den Inhalt dynamischer Medien-Image-Server zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf die Bildvorgabe auf dynamischen Medienservern verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen auf Dynamic Media-Image-Server-Inhalte zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf den Image-Servern von Dynamic Media auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
 
-Um die URL-Zeichenfolgen in Ihre Websites und Anwendungen einfügen zu können, kopieren Sie die URL-Zeichenfolgen aus dem Scene7 Publishing System. Die zu einer Bildvorgabe generierte URL-Zeichenfolge ist im Anzeigebereich „Vorschau“ und im Durchsuchenbedienfeld (in der Detailansicht) abrufbar.
+Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic. Die zu einer Bildvorgabe generierte URL-Zeichenfolge ist im Anzeigebereich „Vorschau“ und im Durchsuchenbedienfeld (in der Detailansicht) abrufbar.
 
 ## Abrufen einer Bildvorgabe-URL {#obtaining-an-image-preset-url}
 
 Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigebereich „Vorschau“ und in der Detailansicht abrufen. Sie können die URL in die Zwischenablage kopieren und dann nach Bedarf einfügen.
 
-***Hinweis**: Die URL wird erst aktiv, wenn Sie das Asset veröffentlichen.*
+***Hinweis **: Die URL ist erst aktiv, wenn Sie das Asset veröffentlichen.*
 
 ### Abrufen einer Bildvorgabe-URL aus „Vorschau“{#obtaining-an-image-preset-url-from-preview}
 
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend unterhalb des Miniaturbilds auf „Vorschau“ &gt; „Bildvorgabeliste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend rechts neben dem Miniaturbild auf „Vorschau“ &gt; „Bildvorgabeliste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ &gt; „Bildvorgabeliste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend unterhalb des Miniaturbilds auf „Vorschau“ > „Bildvorgabeliste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend rechts neben dem Miniaturbild auf „Vorschau“ > „Bildvorgabeliste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ > „Bildvorgabeliste“.
 
 1. (Optional) Wählen Sie unten im Fenster „Bildvorgabeliste“ in der Dropdown-Liste „URL-Kodierung für URL-kopieren-Generierung“ die URL-Kodierung aus, die beim Kopieren der Bild-Asset-URL für die URL verwendet werden soll.
 1. Klicken Sie im Fester „Bildvorgabeliste“ im rechten oberen Bereich des Vorschaubereichs auf „URL kopieren“ für den ausgewählten Vorgabetyp.
@@ -50,11 +53,11 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 
 ## URL-Zeichenfolgen zu Bildvorgaben {#about-image-preset-url-strings}
 
-Ein URL-Aufruf für die Bildgrößenänderung an dynamische Medienserver hat folgende grundlegende Syntax:
+Ein URL-Aufruf zur Bildgrößenänderung für Dynamic Media-Image-Server hat die folgende grundlegende Syntax:
 
 *Pfad*/*Name des Image-Servers*/*Kontoname*/*Bildname*?*Modifikator1*&amp;*Modifikator2*&amp;...
 
-In einer URL des dynamischen Medienservers werden nach dem Fragezeichen (?) die Anweisungen auf dem Server zum Anzeigen des Bildes angezeigt. Beispielsweise wird mit dem folgenden URL-Aufruf ein Bild namens „backpack“ mit einer Breite von 250 Pixeln angezeigt:
+In einer Dynamic Media Image Server-URL werden nach dem Fragezeichen (?) Serveranweisungen zum Anzeigen des  angezeigt. Beispielsweise wird mit dem folgenden URL-Aufruf ein Bild namens „backpack“ mit einer Breite von 250 Pixeln angezeigt:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
