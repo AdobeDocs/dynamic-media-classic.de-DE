@@ -2,30 +2,33 @@
 title: Veröffentlichen der Masterbilder
 seo-title: Veröffentlichen der Masterbilder
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie Masterbilder veröffentlichen.
-uuid: b 56 ba 79 a-f 89 a -45 f 1-a 8 bb-c 73 a 22 eab 8 d 4
+seo-description: Erfahren Sie, wie Sie Übergeordnet erstellte Bilder veröffentlichen.
+uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/image_ sizing
-discoiquuid: 815 e 2 a 19-c 64 d -45 c 7-96 bc -7 f 955 e 54 f 56 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
+discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 30%
 
 ---
 
 
 # Veröffentlichen der Masterbilder{#publishing-master-images}
 
-Durch Veröffentlichen der Bilddateien werden sie zu dynamischen Medienservern für dynamische Medien veröffentlicht, wo sie für Ihre Website und Anwendung verfügbar sind. Im Zuge der Veröffentlichung aktiviert das Scene7 Publishing System auch die URL-Zeichenfolgen, die Sie für Ihre Website und Ihre Anwendungen benötigen.
+Beim Veröffentlichen der Bilddateien werden diese auf den Image-Servern von Dynamic Media veröffentlicht, damit sie für Ihre Website und Anwendung zur Verfügung stehen. Außerdem aktiviert Dynamic Media Classic während des Veröffentlichungsvorgangs die URL-Zeichenfolgen, die Sie für Ihre Website und Anwendung benötigen.
 
 ## Markieren von Masterbildern zur Veröffentlichung {#marking-master-images-for-publish}
 
-Masterbilder müssen zur Veröffentlichung markiert werden, damit sie auf dynamische Medienserver kopiert werden können. Sie können Ihre Masterbilder zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol "Zur Veröffentlichung markieren" klicken. Auch beim Hochladen zum Scene7 Publishing System können Sie Bilder zur Veröffentlichung markieren.
+Übergeordnet zu veröffentlichende Bilder müssen markiert werden, damit sie auf Dynamic Media Image Server kopiert werden können. Sie können Ihre Übergeordnet zur Veröffentlichung bestimmten Bilder im Durchsuchenbedienfeld markieren, indem Sie auf das Symbol &quot;Zur Veröffentlichung markieren&quot;klicken. Sie können Bilder auch zum Veröffentlichen markieren, wenn Sie sie in Dynamic Media Classic hochladen.
 
 ## Veröffentlichen von Masterbildern {#publishing-your-master-images}
 
-Um Masterbilder auf dynamischen Medienservern zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf "Veröffentlichen" . Wählen Sie dann eine Option für „Wann“ (entweder „Einmalig“ oder „Wiederkehrend“), geben Sie optional einen Namen für den Veröffentlichungsauftrag ein und klicken Sie anschließend auf die Schaltfläche „Veröffentlichungsvorgang starten“.
+Um Übergeordnet Bilder auf den Image-Servern von Dynamic Media zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf &quot;Veröffentlichen&quot;. Wählen Sie dann eine Option für „Wann“ (entweder „Einmalig“ oder „Wiederkehrend“), geben Sie optional einen Namen für den Veröffentlichungsauftrag ein und klicken Sie anschließend auf die Schaltfläche „Veröffentlichungsvorgang starten“.
 
 >[!NOTE]
 >
