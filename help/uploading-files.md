@@ -6,28 +6,28 @@ seo-description: Erfahren Sie, wie Sie Dateien hochladen.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '3867'
-ht-degree: 51%
+source-wordcount: '3855'
+ht-degree: 43%
 
 ---
 
 
 # Hochladen von Dateien{#uploading-files}
 
-Bevor Sie Asset-Dateien in das Scene7 Publishing System hochladen, sollten Sie sich vergewissern, dass die Asset-Dateien korrekt benannt sind und dass die Ordnerstruktur Ihren Vorstellungen entspricht. Sie können Dateien von einer mit Dynamic Media Classic bereitgestellten FTP-Site oder direkt von Ihrem Computer oder Netzwerk hochladen. Optionen für Dynamic Media Classic-Angebote zum Optimieren von Dateien beim Hochladen. Wenn Sie die Adobe Scene7 Publishing System-Desktop-Anwendung installieren, können Sie Dateien und Ordner vom Desktop in einen Zielordner ziehen und so in diesen Ordner hochladen. (Siehe [Allgemeine Programmeinstellungen](application-setup.md#general_settings).)
+Bevor Sie Asset-Dateien in Dynamic Media Classic hochladen, vergewissern Sie sich, dass die Asset-Dateien korrekt benannt sind und dass die Ordnerstruktur wie gewünscht eingerichtet und organisiert ist. Sie können Dateien von einer von Dynamic Media Classic bereitgestellten FTP-Site oder direkt von Ihrem Computer oder Netzwerk hochladen. Dynamic Media Classic-Angebot Optionen zum Optimieren von Dateien beim Hochladen. Wenn Sie die Adobe Dynamic Media Classic-Desktopanwendung installiert haben, können Sie Dateien und Ordner direkt von Ihrem Desktop aus hochladen. (Siehe [Allgemeine Programmeinstellungen](application-setup.md#general_settings).)
 
 ## Vorbereiten von Assets und Ordnern zum Hochladen {#preparing-your-assets-and-folders-for-uploading}
 
-Vergewissern Sie sich vor dem Hochladen von Assets in das Scene7 Publishing System, dass diese das richtige Format und die richtige Größe haben. Außerdem müssen Sie die Regeln für die Benennung von Assets in Dynamic Media Classic beachten. Indem Sie eine Ordnerorganisation und -struktur konfigurieren, erleichtern Sie sich das Auffinden von Dateien und die Arbeit mit den Dateien.
+Vergewissern Sie sich vor dem Hochladen von Assets in Dynamic Media Classic, dass sie im richtigen Format und in der richtigen Größe vorliegen. Sie müssen auch die Dynamic Media Classic-Regeln für die Benennung von Assets beachten. Indem Sie eine Ordnerorganisation und -struktur konfigurieren, erleichtern Sie sich das Auffinden von Dateien und die Arbeit mit den Dateien.
 
 ### Unterstützte Asset-Dateiformate {#supported-asset-file-formats}
 
-In der folgenden Tabelle sind die vom Scene7 Publishing System unterstützten Asset-Dateiformate aufgeführt. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+In dieser Tabelle werden die von Dynamic Media Classic unterstützten Asset-Dateiformate Liste. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Asset-Dateiformate | Beschreibung |
 |--- |--- |
@@ -52,11 +52,11 @@ In der folgenden Tabelle sind die vom Scene7 Publishing System unterstützten As
 
 Die Upload-Unterstützung von ZIP- und TAR-Archiven umfasst ein Kontrollkästchen, mit dem Sie angeben können, ob die Dateien entpackt werden sollen.
 
-### Nicht unterstützte Bildformate in dynamischen Medien {#unsupported-image-formats-dynamic-media}
+### Nicht unterstützte Bildformate in Dynamic Media {#unsupported-image-formats-dynamic-media}
 
-In der folgenden Liste werden die Untertypen der Rasterbilddateiformate beschrieben, die in dynamischen Medien *nicht* unterstützt werden.
+Die folgende Liste beschreibt die Untertypen der Rasterbilddateiformate, die von Dynamic Media *nicht* unterstützt werden.
 
-Siehe auch [Erkennung nicht unterstützter Dateiformate für dynamische Medien](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+Siehe auch Nicht unterstützte Dateiformate [erkennen für Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * PNG-Dateien mit einer IDAT-Größe größer als 100 MB.
 * PSB-Dateien.
@@ -90,7 +90,7 @@ Um optimale Ergebnisse mit der Dynamic Media Classic-Plattform zu erzielen, soll
 
 >[!NOTE]
 >
->Beim Hochladen von Bilddateien und PDF-Dateien in SPS konvertiert das System diese Quelldateien in P-TIFF-Dateien (Pyramid TIFF). Bei diesen P-TIFFs handelt es sich um Dateien, die später auf den Image-Servern für dynamische Medien veröffentlicht werden. Dynamic Media Classic verwendet das Pyramid Tiff-Dateiformat, da es verschiedene Zoomverhältnisse enthält, die eine schnelle Zoomfunktion bei der Anzeige mit einem Dynamic Media Classic-Zoom-Viewer ermöglichen.
+>Wenn Sie Bilddateien und PDFs in Dynamic Media Classic hochladen, konvertiert das System diese Quelldateien in P-TIFF-Dateien (Pyramid TIFF). Diese P-TIFFs sind die Dateien, die später auf den Image-Servern von Dynamic Media veröffentlicht werden. Dynamic Media Classic verwendet das Pyramid Tiff-Dateiformat, da es verschiedene Zoomverhältnisse enthält, die eine schnelle Zoomfunktion bei der Anzeige mit einem Dynamic Media Classic Zoom Viewer ermöglichen.
 
 ### Unterstützte statische Dateiformate {#supported-static-file-formats}
 
@@ -113,13 +113,13 @@ Dynamic Media Classic bietet keine Option zum Generieren einer Vorschauen-URL st
 
 ### Dateinamenanforderungen {#filename-requirements}
 
-Da beim Hochladen die Erweiterungen aus den Dateinamen entfernt werden, sind Dateien mit demselben Stammnamen nicht zulässig. Im System Dynamic Media Classic wird der Asset-Dateiname ohne Dateinamenerweiterung zur Asset-ID. Deshalb muss jedes Asset einen eindeutigen Namen haben.
+Da beim Hochladen die Erweiterungen aus den Dateinamen entfernt werden, sind Dateien mit demselben Stammnamen nicht zulässig. Im Dynamic Media Classic-System wird der Asset-Dateiname abzüglich der Dateinamenerweiterung zur Asset-ID. Deshalb muss jedes Asset einen eindeutigen Namen haben.
 
 Stellen Sie deshalb sicher, dass allen Benutzern in Ihrem Unternehmen die folgenden Dateinamensregeln vertraut sind:
 
 * Asset-IDs mit exakt demselben Namen sind im System nicht zulässig.
 * Bei Asset-ID-Namen wird die Groß-/Kleinschreibung berücksichtigt.
-* Asset-IDs sollten keine Leerzeichen enthalten (z. B. nicht „Schwarze Jacke.tif“ oder „Blaue Jacke.jpg“). ASCII-Kodierungen von Dynamic Media Classic in Elementnamen kodieren Leerzeichen, wenn zum Erstellen von URL-Zeichenfolgen Elementnamen verwendet werden. Diese ASCII-Codierung beeinträchtigt jedoch die Lesbarkeit der URLs.
+* Asset-IDs sollten keine Leerzeichen enthalten (z. B. nicht „Schwarze Jacke.tif“ oder „Blaue Jacke.jpg“). Dynamic Media Classic ASCII-kodiert Leerzeichen in Asset-Namen, wenn Elementnamen zum Erstellen von URL-Zeichenfolgen verwendet werden. Diese ASCII-Codierung beeinträchtigt jedoch die Lesbarkeit der URLs.
 * Sprachspezifische Zeichen sind in Dateinamen zulässig. Allerdings dürfen Dateinamen die folgenden Zeichen nicht enthalten:
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -135,12 +135,12 @@ In den meisten Fällen kann als Asset-Dateiname die Elementnummer, Produkt-SKU o
 
 ### Ordnerorganisation und -struktur {#folder-organization-and-structure}
 
-Erstellen Sie im Scene7 Publishing System eine Ordner- und Unterordnerorganisationsstruktur, bevor Sie die eigentlichen Inhalte in das System hochladen. Eine solche Vorausplanung hat die folgenden zwei wichtigen Vorteile:
+Organisieren und strukturieren Sie Ordner und Unterordner für Ihre Inhalte in Dynamic Media Classic, bevor Sie Ihre Inhalte in das System hochladen. Eine solche Vorausplanung hat die folgenden zwei wichtigen Vorteile:
 
-* Wenn Sie die Inhalte per FTP in SPS hochladen, können Sie das System anweisen, Ihre Ordnerstruktur beim Hochladen zu replizieren. Auf diese Weise werden die Inhalte in SPS in denselben Ordnern und Unterordnern organisiert wie auf Ihrem Computer oder in Ihrem Netzwerk. (Um die Ordnerstruktur in SPS zu replizieren, wählen Sie beim Hochladen von Assets per FTP die Option „Unterordner einschließen“.)
+* Wenn Sie Ihre Inhalte per FTP in Dynamic Media Classic hochladen, können Sie das System anweisen, Ihre Ordnerstruktur während des Hochladevorgangs zu replizieren. Auf diese Weise werden Ihre Inhalte in Dynamic Media Classic in denselben Ordnern und Unterordnern wie auf Ihrem Computer oder im Netzwerk organisiert. (Um Ihre Ordnerstruktur in Dynamic Media Classic zu replizieren, wählen Sie beim Hochladen von Assets per FTP die Option &quot;Unterordner einschließen&quot;.)
 * Es ist sehr viel schwieriger, Ordner nach dem Hochladen der Dateien innerhalb des Systems neu zu organisieren, als vorab eine sorgfältig vorbereitete Ordnerstruktur zu erstellen.
 
-Welche Vorgehensweise Sie bei der Benennung von Ordnern und der Ordnerstruktur im Scene7 Publishing System verfolgen, hängt vom Bedarf Ihres Unternehmens ab. Es folgen einige Beispiele für Ordnerstrukturen:
+Die Vorgehensweise zur Ordnerbenennung und -struktur, die Sie zum Speichern Ihrer Inhalte in Dynamic Media Classic auswählen, hängt von den Anforderungen Ihres Unternehmens ab. Es folgen einige Beispiele für Ordnerstrukturen:
 
 **SKU-basierte** Ordner werden nach SKUs oder Elementnummern benannt. Beispielsweise werden separate Ordner für alle mit 0, 20, 30 usw. beginnenden Nummerserien erstellt. 
 
@@ -154,21 +154,19 @@ Welche Vorgehensweise Sie bei der Benennung von Ordnern und der Ordnerstruktur i
 
 Sie können einzelne Dateien vom Desktop oder Ordner über FTP hochladen. If you want to upload more than 100 MB of files or upload entire folders and subfolders, select the **VIA FTP** tab.
 
-Wenn Sie die Scene7 Publishing System-Desktop-Anwendung installiert haben, können Sie Dateien und Ordner direkt von Ihrem Desktop in den Zielordner für das Hochladen ziehen.
+Dynamic Media Classic sendet Ihnen eine E-Mail-Nachricht, um zu bestätigen, wann Ihr Upload-Auftrag beginnt und endet, und Sie über eventuelle Probleme zu informieren.
 
-Sie erhalten vom Scene7 Publishing System eine E-Mail zur Bestätigung des Beginns und Endes Ihres Upload-Auftrags; Sie werden außerdem benachrichtigt, wenn Probleme auftreten.
-
-Während eines oder unmittelbar nach einem großen Upload-Auftrag(s) wird u. U. für einige neue Elemente die Meldung „Bild wurde noch nicht optimiert“ angezeigt. Diese Meldung wird angezeigt, weil die Dateien noch nicht vollständig verarbeitet und dem SPS hinzugefügt wurden. Sie können die betroffenen Dateien später optimieren. (Siehe [Optimieren von Dateien](application-setup.md#optimize_files).)
+Während eines oder unmittelbar nach einem großen Upload-Auftrag(s) wird u. U. für einige neue Elemente die Meldung „Bild wurde noch nicht optimiert“ angezeigt. Diese Meldung wird angezeigt, weil die Dateien noch nicht vollständig verarbeitet und Dynamic Media Classic hinzugefügt wurden. Sie können die betroffenen Dateien später optimieren. (Siehe [Optimieren von Dateien](application-setup.md#optimize_files).)
 
 ### Hochladen von Dateien auf der Registerkarte &quot;VON DESKTOP&quot; {#upload-files-using-sps-desktop-application}
 
-Mit der Scene7 Publishing System-Desktop-Anwendung können Sie Dateien und Ordner in einen Zielordner ziehen und so in diesen Ordner hochladen.
+Mit der Desktop-Anwendung Dynamic Media Classic können Sie Dateien und Ordner durch Ziehen hochladen.
 
-1. Klicken Sie in der Desktop-Anwendung von Scene7 Publishing System auf der globalen Navigationsleiste auf **Hochladen**.
+1. In the Dynamic Media Classic Desktop application, on the Global Navigation bar, click **Upload**.
 1. On the Upload page, click the **FROM DESKTOP** tab.
 1. Klicken Sie auf der linken Seite der Seite &quot;Hochladen&quot;im Bereich &quot;Hochzuladende Dateien **auswählen** &quot;auf **Durchsuchen** , um die hochzuladenden Dateien oder Ordner auszuwählen, und klicken Sie dann auf **Öffnen**.
 1. Navigieren Sie auf der rechten Seite der Seite &quot;Hochladen&quot;im Bereich &quot;Ordnerziel **auswählen** &quot;zu einem Zielordner, in dem die hochgeladenen Dateien oder Ordner hinzugefügt werden sollen.
-1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Feld &quot; **Auftragsname** &quot;den neuen Namen des Upload-Auftrags ein. Sie können auch einfach den standardmäßigen, systemgenerierten Namen verwenden, den SPS bereitstellt. Dieser Auftrag wird ebenso wie andere Upload- und Veröffentlichungsaufträge auf der Seite „Aufträge“ erfasst – hier können Sie den Status von Aufträgen prüfen.
+1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Feld &quot; **Auftragsname** &quot;den neuen Namen des Upload-Auftrags ein. Oder Sie können einfach den standardmäßigen, systemgenerierten Namen verwenden, den Dynamic Media Classic bereitstellt. Dieser Auftrag wird ebenso wie andere Upload- und Veröffentlichungsaufträge auf der Seite „Aufträge“ erfasst – hier können Sie den Status von Aufträgen prüfen.
 Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
 1. (Optional) Wählen Sie unten auf der Seite &quot;Hochladen&quot;die Option Nach dem Hochladen **veröffentlichen** , wenn Sie die hochgeladenen Assets automatisch veröffentlichen möchten.
 Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Beachten Sie, dass dieselbe Option auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar ist.
@@ -180,16 +178,16 @@ The name of this option could be different, depending on the settings in **Appli
 
 1. Klicken Sie im Dialogfeld „Upload-Auftragsoptionen“ auf **Speichern**.
 1. Klicken Sie in der rechten unteren Ecke der Seite &quot;Hochladen&quot;auf **&quot;Hochladen**senden&quot;.
-Klicken Sie auf der globalen Navigationsleiste auf **Aufträge**, um den Fortschritt beim Hochladen anzuzeigen. Sie können Ihre Arbeit im Scene7 Publishing System fortsetzen und bei Bedarf jederzeit wieder zur Seite „Aufträge“ wechseln, um einen in Verarbeitung befindlichen Auftrag zu überprüfen. Wenn Sie einen in Verarbeitung befindlichen Upload-Auftrag stornieren möchten, klicken Sie auf die Schaltfläche **Abbrechen** neben der Angabe „Dauer“.
+Klicken Sie auf der globalen Navigationsleiste auf **Aufträge**, um den Fortschritt beim Hochladen anzuzeigen. Sie können die Arbeit in Dynamic Media Classic fortsetzen und jederzeit zur Seite &quot;Aufträge&quot;zurückkehren, um einen in Verarbeitung befindlichen Auftrag zu überprüfen. Wenn Sie einen in Verarbeitung befindlichen Upload-Auftrag stornieren möchten, klicken Sie auf die Schaltfläche **Abbrechen** neben der Angabe „Dauer“.
 
 ### Hochladen von Dateien auf der Registerkarte &quot;VIA FTP&quot; {#upload-files-using-via-ftp}
 
-1. Melden Sie sich bei der FTP-Site Dynamic Media Classic an, die für Ihre Region spezifisch ist. Melden Sie sich mit dem von Ihrem Administrator erhaltenen FTP-Benutzernamen und -Kennwort an.
+1. Melden Sie sich bei der für Ihre Region spezifischen FTP-Site von Dynamic Media Classic an. Melden Sie sich mit dem von Ihrem Administrator erhaltenen FTP-Benutzernamen und -Kennwort an.
 1. Klicken Sie in Dynamic Media Classic in der Symbolleiste für globale Navigation auf **Hochladen**.
 1. On the Upload page, click the **VIA FTP** tab.
 1. Wählen Sie auf der linken Seite der Seite &quot;Hochladen&quot;im Bereich &quot;FTP-Ordner zum Hochladen **** auswählen&quot;einen FTP-Ordner aus, aus dem die Dateien hochgeladen werden sollen.
-1. Wählen Sie auf der rechten Seite der Seite &quot;Hochladen&quot;im Bereich &quot;SPS-Ordnerziel **auswählen** &quot;einen Zielordner im Scene7 Publishing System.
-1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Feld &quot; **Auftragsname** &quot;den neuen Namen des Upload-Auftrags ein. Sie können auch einfach den standardmäßigen, systemgenerierten Namen verwenden, den SPS bereitstellt. Dieser Auftrag wird ebenso wie andere Upload- und Veröffentlichungsaufträge auf der Seite „Aufträge“ erfasst – hier können Sie den Status von Aufträgen prüfen.
+1. Wählen Sie auf der rechten Seite der Seite &quot;Hochladen&quot;im Bereich &quot;Adobe Dynamic Media-Ordnerziel **** auswählen&quot;einen Zielordner in Dynamic Media Classic.
+1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Feld &quot; **Auftragsname** &quot;den neuen Namen des Upload-Auftrags ein. Oder Sie können einfach den standardmäßigen, systemgenerierten Namen verwenden, den Dynamic Media Classic bereitstellt. Dieser Auftrag wird ebenso wie andere Upload- und Veröffentlichungsaufträge auf der Seite „Aufträge“ erfasst – hier können Sie den Status von Aufträgen prüfen.
 Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
 1. (Optional) Wählen Sie unten auf der Seite &quot;Hochladen&quot;die Option Nach dem Hochladen **veröffentlichen** , wenn Sie die hochgeladenen Assets automatisch veröffentlichen möchten.
 Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Beachten Sie, dass dieselbe Option auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar ist.
@@ -203,7 +201,7 @@ The name of this option could be different, depending on the settings in **Appli
 1. Klicken Sie im Dialogfeld „Upload-Auftragsoptionen“ auf **Speichern**.
 1. Klicken Sie in der rechten unteren Ecke der Seite &quot;Hochladen&quot;auf **&quot;Hochladen** senden&quot;.
 
-   Klicken Sie auf der globalen Navigationsleiste auf **Aufträge**, um den Fortschritt beim Hochladen anzuzeigen. Die Seite „Aufträge“ wird eingeblendet. Sie sehen darin den Fortschritt des Hochladevorgangs. Sie können Ihre Arbeit im Scene7 Publishing System fortsetzen und bei Bedarf jederzeit wieder zur Seite „Aufträge“ wechseln, um einen in Verarbeitung befindlichen Auftrag zu überprüfen.
+   Klicken Sie auf der globalen Navigationsleiste auf **Aufträge**, um den Fortschritt beim Hochladen anzuzeigen. Die Seite „Aufträge“ wird eingeblendet. Sie sehen darin den Fortschritt des Hochladevorgangs. Sie können die Arbeit in Dynamic Media Classic fortsetzen und jederzeit zur Seite &quot;Aufträge&quot;zurückkehren, um einen in Verarbeitung befindlichen Auftrag zu überprüfen.
 
 Wenn Sie einen in Verarbeitung befindlichen Upload-Auftrag stornieren möchten, klicken Sie auf die Schaltfläche **Abbrechen** neben der Angabe „Dauer“.
 
@@ -232,7 +230,7 @@ Beim Hochladen von Dateien stehen Ihnen im Dialogfeld &quot;Upload-Auftragsoptio
 Wählen Sie diese Option, wenn Sie alle Dateien automatisch aus Ihrer hochgeladenen ZIP- oder TAR-Datei extrahieren möchten. Beachten Sie, dass dieselbe Option auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar ist.
 
    * **Unterordner einschließen** — Nur verfügbar, wenn Sie die Registerkarte &quot; **VIA FTP** &quot;ausgewählt haben.
-Aktivieren Sie diese Option, wenn Sie auch die Unterordner im hochzuladenden Ordner hochladen möchten. Der Name des hochgeladenen Ordners und die Namen der darin enthaltenen Unterordner werden automatisch in das SPS eingetragen.
+Aktivieren Sie diese Option, wenn Sie auch die Unterordner im hochzuladenden Ordner hochladen möchten. Die Namen des hochgeladenen Ordners und der darin enthaltenen Unterordner werden automatisch in Dynamic Media Classic eingegeben.
 
    * **Metadatendateien** verarbeiten — Nur verfügbar, wenn Sie die Registerkarte &quot; **VIA FTP** &quot;ausgewählt haben. Wenn diese Option aktiviert ist, können Sie eine tabulatorgetrennte Datei oder XML-Datei hochladen, um gleichzeitig mehreren Assets Metadaten hinzuzufügen.
 Siehe [Importieren von Metadaten (über FTP)](viewing-adding-exporting-metadata.md#import-metadata).
@@ -252,11 +250,11 @@ Siehe [Importieren von Metadaten (über FTP)](viewing-adding-exporting-metadata.
 
       * **Toleranz** — Ziehen Sie den Regler, um eine Toleranz zwischen 0 und 1 festzulegen.
 
-* **OPTIONEN** FÜR FARBPROFILE — Wählen Sie eine Farbkonvertierung, wenn Sie optimierte Dateien erstellen, die für den dynamischen Versand von Dynamic Media Classic verwendet werden:
+* **OPTIONEN** FÜR FARBPROFILE — Wählen Sie eine Farbkonvertierung, wenn Sie optimierte Dateien erstellen, die für den dynamischen Versand Dynamic Media Classic verwendet werden:
 
    * **Beibehaltung der Standardfarbe** — Behält die Quellbildfarben bei, wenn die Bilder Farbrauminformationen enthalten; Es gibt keine Farbkonvertierung. Heutzutage ist in fast allen Bildern das entsprechende Farbprofil eingebettet. Wenn jedoch ein CMYK-Quellbild kein eingebettetes Farbprofil enthält, werden die Farben in den sRGB-Farbraum (standardmäßiges Rot Grün Blau) umgewandelt. sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
 
-   * **Original-Farbraum** beibehalten — Behält die Originalfarben ohne Farbkonvertierung zum Zeitpunkt der Erfassung im Scene7 Publishing System bei. Bei Bildern ohne eingebettetes Farbprofil finden alle erforderlichen Konvertierungen zum Bearbeiten von Anforderungen für das Bild in den Standardfarbprofilen statt, die in den Veröffentlichungseinstellungen konfiguriert sind. Diese Farbprofile stimmen möglicherweise nicht mit der Farbe in Dateien überein, die mit dieser Option erstellt wurde. Deshalb empfehlen wir, die Option „Beibehaltung der Standardfarbe“ zu verwenden.
+   * **Original-Farbraum** beibehalten — Behält die Originalfarben bei, ohne dass eine Farbkonvertierung am Tag der Aufnahme in Dynamic Media Classic erfolgt. Bei Bildern ohne eingebettetes Farbprofil finden alle erforderlichen Konvertierungen zum Bearbeiten von Anforderungen für das Bild in den Standardfarbprofilen statt, die in den Veröffentlichungseinstellungen konfiguriert sind. Diese Farbprofile stimmen möglicherweise nicht mit der Farbe in Dateien überein, die mit dieser Option erstellt wurde. Deshalb empfehlen wir, die Option „Beibehaltung der Standardfarbe“ zu verwenden.
 
    * **Benutzerdefiniert von > bis** — Öffnet Menüs, in denen Sie einen Farbraum für &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Diese erweiterte Option überschreibt alle Farbinformationen, die in die Quelldatei eingebettet sind. Wählen Sie diese Option nur, wenn alle übermittelten Profile falsche oder fehlende Farbdaten enthalten.
 
@@ -266,7 +264,7 @@ Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#
 * **POSTSCRIPT-OPTIONEN** — Sie können PostScript®-Dateien rastern, Dateien beschneiden, transparente Hintergründe beibehalten, eine Auflösung wählen und einen Farbraum wählen.
 Siehe [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **FOTOSHOP-OPTIONEN** — Sie können Vorlagen aus Adobe® Fotoshop®-Dateien erstellen, Ebenen verwalten, angeben, wie Ebenen benannt werden, Text extrahieren und angeben, wie Bilder in Vorlagen verankert werden.
+* **PHOTOSHOP-OPTIONEN** — Sie können Vorlagen aus Adobe® Photoshop®-Dateien erstellen, Ebenen verwalten, angeben, wie Ebenen benannt werden, Text extrahieren und angeben, wie Bilder in Vorlagen verankert werden.
 Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
 
 * **PDF-OPTIONEN** — Sie können die Dateien rastern, Suchbegriffe und Links extrahieren, automatisch einen E-Katalog erstellen, die Auflösung festlegen und einen Farbraum auswählen.
