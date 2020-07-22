@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media Classic-Hilfe
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 76%
+source-wordcount: '736'
+ht-degree: 75%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 76%
    + [Neuerungen](whats-new.md)
    + [Systemanforderungen](system-requirements.md)
    + [Support](support.md)
-   + [Hilfe für Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
+   + [Hilfe für Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Häufig genutzte Ressourcen](popular-resources.md)
    + [Schulungsvideos](training-videos.md)
 + Erste Schritte {#getting-started}
-   + [Übersicht über die Adobe Dynamic Media Classic-Plattform](scene7-platform-overview.md)
+   + [Übersicht über die Adobe Dynamic Media Classic-Plattform](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [An- und Abmeldung](signing-out.md)
    + [Grundlagen der Navigation](navigation-basics.md)
@@ -70,7 +70,7 @@ ht-degree: 76%
    + [Verschieben, Umbenennen und Löschen von Assets](moving-renaming-deleting-assets.md)
    + [Arbeiten in der Detailansicht ](detail-view.md)
    + [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md)
-   + [Exportieren von Assets aus dem Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
+   + [Exportieren von Assets aus Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Weitergeben von Asset-Änderungen an Peers in Echtzeit](sharing-asset-changes-peers-real.md)
    + [Drucken von Assets](printing-assets.md)
    + [Verwalten des Ordners „Papierkorb“](trash-folder.md)
@@ -146,7 +146,7 @@ ht-degree: 76%
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [Quick Beginn: Integration von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Quick Beginn: Integration von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
    + [Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,11 +154,11 @@ ht-degree: 76%
    + [Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts](testing-integration-viewing-analytics-report.md)
    + [Aktivieren von Adobe Analytics-Videoberichten](enabling-analytics-video-reports.md)
    + [Veröffentlichen von Adobe Analytics-Konfigurationsinformationen](publishing-analytics-configuration-information.md)
-+ Target Classic-Integration {#target-classic}
-   + [Quick Beginn: Target Classic-Integration](quick-start-target-classic-integration.md)
-   + [Integration von Adobe Dynamic Media Classic mit Adobe Target Classic](integrating-scene7-target-classic.md)
++ Target Standard/Premium-Integration {#target-classic}
+   + [Quick Beginn: Target Standard/Premium-Integration](quick-start-target-integration.md)
+   + [Integration von Adobe Dynamic Media Classic mit Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Erstellen eines Angebotssets](creating-offer-set.md)
-   + [Pushing von Angebot-Sets auf Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Pushing von Angebot-Sets auf Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Benutzergenerierte Inhalte {#user-generated-content}
    + [Informationen zu benutzergenerierten Inhalten](about-ugc.md)
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
