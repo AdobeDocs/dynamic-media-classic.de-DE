@@ -2,15 +2,18 @@
 title: Hinzufügen von Kapitelmarken zu Video
 seo-title: Hinzufügen von Kapitelmarken zu Video
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Kapitelmarken zu einem Video hinzufügen.
-uuid: 4 e 1 e 6 daf-afc 6-49 d 9-ac 90-183 fe 2 a 903 b 2
+seo-description: Erfahren Sie, wie Sie einem Video Kapitelmarken hinzufügen.
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/video
-discoiquuid: 8 bc 5 e 552-2 abb -41 f 0-89 d 2-bdf 3 ae 5 d 96 c 2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 88%
 
 ---
 
@@ -55,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **So fügen Sie Kapitelmarken zu Video hinzu**
 
-1. Erstellen Sie die Videokapiteldatei in einem einfachen Texteditor außerhalb von Scene7 Publishing System.
+1. Erstellen Sie die Videokapiteldatei mit einem einfachen Texteditor außerhalb von Dynamic Media Classic.
 
    >[!NOTE]
    >
@@ -63,14 +66,14 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 1. Speichern Sie die .vtt-Datei mit UTF-8-Kodierung, um Problemen mit der Zeichenwiedergabe im Text der Kapiteltitel vorzubeugen.
 
-   Im Allgemeinen sollte die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und über den Dateinamenanhang `chapters` verfügen. Dies kann Ihnen bei der Automatisierung der Generierung von Video-URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen.
+   Im Allgemeinen sollte die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und über den Dateinamenanhang `chapters` verfügen. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen.
 
-1. Laden Sie die WebVTT-Kapiteldatei in Scene7 Publishing System hoch.
+1. Laden Sie in Dynamic Media Classic Ihre WebVTT-Kapiteldatei hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der die Videodatei enthält, die Sie der hochgeladenen Kapiteldatei zuordnen möchten.
-1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie anschließend unterhalb des Miniaturbildes des Assets auf **Vorschau** &gt; **Viewer-Liste**.
+1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie anschließend unterhalb des Miniaturbildes des Assets auf **Vorschau** > **Viewer-Liste**.
 1. Suchen Sie in der Tabelle „Viewer-Liste“ den HTML5-Viewer mit dem Namen **Universal_HTML5_Video** und führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie für einen Popup-Video-Viewer rechts neben dem Namen auf „**URL kopieren**“.
