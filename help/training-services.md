@@ -6,11 +6,11 @@ seo-description: Weitere Informationen zu Adobe Training Services.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 57%
@@ -38,4 +38,4 @@ Siehe [Demos](https://www.adobe.com/solutions/web-experience-management/rich-med
 
 Im Abschnitt &quot;Erste Schritte&quot;des Hilfesystems finden Sie Anweisungen für Benutzer, die neu bei Dynamic Media Classic sind. Sie erhalten darin grundlegende Informationen zu Plattform, Navigation, Einstellungen und Asset-Verwaltung sowie zum Aufbau von Rich-Media-Inhalten. 
 
-Siehe [Erste Schritte](scene7-platform-overview.md).
+Siehe [Erste Schritte](dmc-platform-overview.md).
