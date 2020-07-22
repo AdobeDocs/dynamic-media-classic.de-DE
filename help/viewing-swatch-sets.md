@@ -2,15 +2,18 @@
 title: Anzeigen von Mustersets
 seo-title: Anzeigen von Mustersets
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Mustersets anzeigen.
-uuid: 80 df 403 b-b 03 f -428 f -9784-c 3 f 774567 bd 0
+seo-description: Erfahren Sie, wie Sie Mustersets Ansicht.
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 48 de 8604-2 bb 4-4862-82 ee -0 c 7847 f 0 d 0 e 7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 86%
 
 ---
 
@@ -19,13 +22,13 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 Sie können Ihre Mustersets unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Für Mustersets verwenden Sie eine benutzerdefinierte Viewer-Vorgabe für Zoom-Viewer.
 
-Dynamisches Media Classic verfügt über standardmäßige Viewer-Vorgaben. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
+Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
 
 ## Einrichten von Zoom-Viewer-Vorgaben für Mustersets {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 
-1. Klicken Sie auf **Einstellungen** &gt; **Viewer-Vorgaben**.
+1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
@@ -51,7 +54,7 @@ Mit der Vorschau können Sie testen, wie ein Asset in einer bestimmten Viewer-Pl
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Listenansicht“**. Halten Sie den Cursor im Assets-Fenster über ein Asset und klicken Sie auf **„Vorschau“**.
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Rasteransicht“**. Klicken Sie im Fenster „Assets“ in einem Asset-Miniaturfenster auf **„Vorschau“**.
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Detailansicht“**. Klicken Sie in derselben Symbolleiste auf **„Vorschau“**.
-   * Wählen Sie im Assets-Fenster ein Asset aus. On the toolbar, click **File** &gt; **Preview**.
+   * Wählen Sie im Assets-Fenster ein Asset aus. On the toolbar, click **File** > **Preview**.
 
 1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
 1. Klicken Sie auf eine Viewer-Verknüpfung, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
