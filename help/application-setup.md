@@ -6,14 +6,14 @@ seo-description: Erfahren Sie, wie Sie den Anwendungsbereich von Dynamic Media C
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11120'
-ht-degree: 71%
+source-wordcount: '10982'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Auf den Seiten &quot;Anwendungseinstellungen&quot;können Sie allgemeine Einstel
 
 >[!NOTE]
 >
->Nur Systemadministratoren des Scene7 Publishing Systems können die Einstellungen auf den Seiten „Anwendungseinstellungen“ ändern.
+>Nur Dynamic Media Classic-Administratoren können Einstellungen auf den Seiten &quot;Anwendungseinstellungen&quot;ändern.
 
 ## Allgemeine Einstellungen {#general-settings}
 
@@ -36,119 +36,113 @@ Bei der Kontoerstellung stellt Dynamic Media Classic die zugewiesenen Server aut
 
 Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-**Veröffentlichter Servername** Dieser Server ist der Live-CDN-Server, der in allen systemspezifischen URL-Aufrufen für Ihr Konto verwendet wird. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
+* **Veröffentlichter Servername** : Dieser Server ist der Live-CDN-Server, der in allen systemspezifischen URL-Aufrufen für Ihr Konto verwendet wird. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
 
-**Herkunft Server Name** Dieser Server wird nur für Qualitätssicherungstests verwendet. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
+* **Herkunft Server Name** - Dieser Server wird nur für Qualitätssicherungstests verwendet. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
 
-**AGM-Servername** Dieser Server wird für Web-to-Print-Vorlagen verwendet. Die Einstellungen für diesen Server sind unternehmensweit gültig. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter von Dynamic Media Classic dazu aufgefordert werden.
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Test&amp;Target-Servername** Ihre Test&amp;Target-URL, bis einschließlich .com. Anweisungen zum Abrufen dieser URL finden Sie unter Integration von Dynamic Media Classic mit Target Classic.
+* **Test&amp;Zielgruppe-Servername** - Ihre Test&amp;Zielgruppe-URL bis einschließlich .com. For instructions about obtaining this URL, see Integrating [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium].
 
-**Name** des iOS-Streaming-Servers Die URL zu Ihrem Dynamic Media Classic iOS-Streaming-Server. Dieser Server liefert Streaming-Video für iOS-basierte Geräte über das HTTP-Protokoll.
+<!-- **Test Publish Context Server Name** -->
 
-**Name** des progressiven Video-Servers Die URL zu Ihrem Dynamic Media Classic Progressive Video-Server. Dieser Server liefert Progressive Video über das HTTP-Protokoll.
+* **Servername** für iOS-Streaming - Die URL für Ihren [!DNL Dynamic Media Classic] iOS-Streaming-Server. Dieser Server liefert Streaming-Video für iOS-basierte Geräte über das HTTP-Protokoll.
 
-**URL für unveröffentlichte Assets** anzeigen Wählen Sie diese Option, wenn Dynamic Media Classic bei der Vorschau eines Assets eine URL anzeigen soll, unabhängig davon, ob es veröffentlicht wurde oder nicht. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
+* **Servername** für progressives Video - Die URL für Ihren [!DNL Dynamic Media Classic] progressiven Videoserver. Dieser Server liefert Progressive Video über das HTTP-Protokoll.
 
-**AIR-Installation** zulassen Wählen Sie diese Option, damit Benutzer die Scene7 Publishing System-Desktop-Version auf ihre lokalen Festplatten herunterladen können. Die Option zum Installieren der Anwendung befindet sich im Anzeigebereich „Persönliche Einstellungen“ unter der Option „Desktop-Version“.
+* **URL für unveröffentlichte Assets** anzeigen: Wählen Sie diese Option, wenn bei der Vorschau eines Assets eine URL angezeigt werden soll, unabhängig davon, ob es veröffentlicht wurde oder nicht. [!DNL Dynamic Media Classic] Dies ist möglich. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
 
-Benutzer von AIR müssen die vorhandene App manuell deinstallieren und von der Web-Version von Scene7 Publishing System (unter „Persönliche Einstellungen“) aus erneut installieren. Nach dieser einmaligen Neuinstallation werden Sie aufgefordert, ein Upgrade durchzuführen, sobald der Server über eine neue Version von Scene7 Publishing System AIR verfügt. Das Scene7 Publishing System ist in das Update-Framework für Anwendungen integriert, das den Aktualisierungsprozess optimiert.
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**Vorlage** für die Ungültigmachung des CDN-Cache (Content Versand Network).
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
+* **Vorlage** zur Ungültigmachung von CDN - Gibt die Vorlage an, mit der der CDN-Cache (Content Versand Network) ungültig gemacht wird.
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-Wenn Sie die Vorgabe „Ungültiges CDN“ einrichten, ein Bild namens „Backpack_B“ auswählen und dann auf **Datei** > **Ungültiges CDN** klicken, wird die folgende URL in der Benutzeroberfläche für ungültige CDNs generiert:
+   If the Template just contains `<ID>`, then Dynamic Media Classic fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   Wenn Sie die Vorgabe „Ungültiges CDN“ einrichten, ein Bild namens „Backpack_B“ auswählen und dann auf **Datei** > **Ungültiges CDN** klicken, wird die folgende URL in der Benutzeroberfläche für ungültige CDNs generiert:
 
-Klicken Sie im URL-Listenfeld auf **Weiter**, um den Cache für diesen Aufruf dieser speziellen Bild-URL zu löschen. Beachten Sie, dass Sie URLs auch hinzufügen können, indem Sie sie in das URL-Listenfeld eingeben oder einfügen. Sie müssen nicht zuvor die Vorlage festlegen.
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-Nachdem Sie die Vorlage für das Ungültigmachen des CDN-Cache ausgewählt und eine Anforderung zum Ungültigmachen des CDN gestellt haben, wird die Zeit, die geschätzt zum Löschen des Cache benötigt wird, in einem Popup angezeigt.
+   Klicken Sie im URL-Listenfeld auf **Weiter**, um den Cache für diesen Aufruf dieser speziellen Bild-URL zu löschen. Beachten Sie, dass Sie URLs auch hinzufügen können, indem Sie sie in das URL-Listenfeld eingeben oder einfügen. Sie müssen nicht zuvor die Vorlage festlegen.
 
-Auch wenn mehrere Bilder im SPS ausgewählt sind, wenn Sie auf **Datei** > **Ungültiges CDN** klicken, wird auf jedes Bild in der gespeicherten Vorlage-URL verwiesen. Daher können Sie eine Vorlage für „Ungültiges CDN“ mit Verweis auf jede URL definieren, auf die auf Ihrer Website verwiesen wird (z. B. Produktdetails, Suchergebnisse usw.). Wenn Sie dann mindestens ein Bilder zur Ungültigmachung aus dem Cache auswählen, füllen die URLs die Oberfläche automatisch aus.
+   Nachdem Sie die Vorlage für das Ungültigmachen des CDN-Cache ausgewählt und eine Anforderung zum Ungültigmachen des CDN gestellt haben, wird die Zeit, die geschätzt zum Löschen des Cache benötigt wird, in einem Popup angezeigt.
 
-Siehe [Inhalts-Caching](scene7-platform-overview.md#content_caching).
+   Similarly, if multiple images are selected within Dynamic Media Classic when you click **File** > **Invalidate CDN**, each image is referenced in the saved Template URL. Daher können Sie eine Vorlage für „Ungültiges CDN“ mit Verweis auf jede URL definieren, auf die auf Ihrer Website verwiesen wird (z. B. Produktdetails, Suchergebnisse usw.). Wenn Sie dann mindestens ein Bilder zur Ungültigmachung aus dem Cache auswählen, füllen die URLs die Oberfläche automatisch aus.
 
-Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
+   Siehe [Inhalts-Caching](dmc-platform-overview.md#content_caching).
 
-**Durchsuchen**
+   Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
 
-**Projekte** anzeigen Legt fest, ob Projekte als Organisationsmöglichkeit für Ihre Dynamic Media Classic-Assets verfügbar sind. Siehe Verwalten der Arbeit mithilfe von Projekten.
+### Durchsuchen
 
-**Beispiel-eVideo-Inhalt** anzeigen Aktivieren oder deaktivieren Sie die Anzeige von eVideo-Beispielinhalten.
+* **Projekte** anzeigen - Bestimmt, ob Projekte als Organisationsmöglichkeit für Ihre Dynamic Media Classic-Assets verfügbar sind. Siehe Verwalten der Arbeit mithilfe von Projekten.
 
-**Generierten Inhalt** in Ordnern anzeigen, zeigt Inhalt, der aus einem Asset generiert wurde. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Dynamic Media Classic für jede Seite der Original-PDF ein Bild. Wenn die Option „Generierten Inhalt anzeigen“ aktiviert ist, erscheint jedes beim Hochladen der Original-PDF generierte Bild zusammen mit der PDF in dem Ordner, in den die PDF hochgeladen wurde.
+* **Beispiel-eVideo-Inhalt** anzeigen: Aktivieren oder deaktivieren Sie die Anzeige des eVideo-Beispielinhalts.
 
-**Kodierte Videos** standardmäßig deaktiviert (deaktiviert) anzeigen.
+* **Generierten Inhalt** anzeigen: Zeigt in Ordnern den Inhalt an, der aus einem Asset generiert wurde. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Dynamic Media Classic für jede Seite der Original-PDF ein Bild. Wenn die Option „Generierten Inhalt anzeigen“ aktiviert ist, erscheint jedes beim Hochladen der Original-PDF generierte Bild zusammen mit der PDF in dem Ordner, in den die PDF hochgeladen wurde.
 
-Um Videos im Scene7 Publishing System schnell zu finden, ohne durch zahlreiche kodierte Varianten desselben Videos navigieren zu müssen, lassen Sie diese Option deaktiviert (Standard). In der Benutzeroberfläche werden nur die Miniaturansicht des Mastervideos (das Ausgangsvideo, das Sie hochgeladen und zum Erstellen aller Varianten verwendet haben) und die Miniaturansicht des übergeordneten adaptiven Videosets angezeigt, das alle untergeordneten Varianten des kodierten Videosets enthält.
+* **Kodierte Videos** anzeigen - standardmäßig deaktiviert (deaktiviert).
 
-Vom Mastervideo oder dem adaptiven Videoset aus können Sie jedoch weiterhin auf einzelne kodierte Videos zugreifen. Doppelklicken Sie hierzu auf das Videominiaturbild, um die Detailansicht zu öffnen. Klicken Sie dann im rechten Bedienfeld auf **„Kodierte Videos“**, um auf alle untergeordneten Videos zuzugreifen.
+   Wenn Sie Videos in Dynamic Media Classic schnell suchen und suchen möchten, ohne durch zahlreiche kodierte Ableitungen desselben Videos navigieren zu müssen, lassen Sie diese Option deaktiviert (Standard). In der Benutzeroberfläche werden nur die Miniaturansicht des Mastervideos (das Ausgangsvideo, das Sie hochgeladen und zum Erstellen aller Varianten verwendet haben) und die Miniaturansicht des übergeordneten adaptiven Videosets angezeigt, das alle untergeordneten Varianten des kodierten Videosets enthält.
 
-Sie können auch den Befehl **„Datei“ > „Neu verarbeiten“** wählen, um direkt aus einem adaptiven Videoset weitere kodierte untergeordnete Videos zu erstellen. Das Scene7 Publishing System findet automatisch das übergeordnete Mastervideo des adaptiven Videosets und verwendet dieses als Quellvideo für die Transkodierung. Nachdem Sie die neuen, individuell kodierten Videos gespeichert haben, werden sie jedoch nicht angezeigt, wenn Sie nach ihnen suchen. Sie sind jedoch weiterhin über die Registerkarte „Kodierte Videos“ in der Detailansicht verfügbar.
+   Vom Mastervideo oder dem adaptiven Videoset aus können Sie jedoch weiterhin auf einzelne kodierte Videos zugreifen. Doppelklicken Sie hierzu auf das Videominiaturbild, um die Detailansicht zu öffnen. Klicken Sie dann im rechten Bedienfeld auf **„Kodierte Videos“**, um auf alle untergeordneten Videos zuzugreifen.
 
-Siehe [Hochladen und Transkodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+   Sie können auch den Befehl **„Datei“ > „Neu verarbeiten“** wählen, um direkt aus einem adaptiven Videoset weitere kodierte untergeordnete Videos zu erstellen. Dynamic Media Classic findet automatisch das übergeordnete Übergeordnet-Video des adaptiven Videosets und verwendet es als Quellvideo zum Transkodieren. Nachdem Sie die neuen, individuell kodierten Videos gespeichert haben, werden sie jedoch nicht angezeigt, wenn Sie nach ihnen suchen. Sie sind jedoch weiterhin über die Registerkarte „Kodierte Videos“ in der Detailansicht verfügbar.
 
-Um auch im Rahmen einer Suche weiterhin auf alle verschlüsselten Videoableitungen zugreifen zu können, aktivieren Sie die Option **„Kodierte Videos anzeigen“**.
+   Siehe [Hochladen und Transkodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-Das Menü „Erstellen“ enthält bestimmte Aktionen, die nur (oder optional) mit einzelnen Videos verwendet werden. Daher müssen alle kodierten Videoableitungen angezeigt werden, aus denen Sie auswählen können, unabhängig davon, wie Sie die Option **„Kodierte Videos anzeigen“** eingestellt haben. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
+   Um auch im Rahmen einer Suche weiterhin auf alle verschlüsselten Videoableitungen zugreifen zu können, aktivieren Sie die Option **„Kodierte Videos anzeigen“**.
 
->[Hinweis]
->
->Wenn Sie Ihre Video-Assets nicht mit dem Scene7 Publishing System hochgeladen und kodiert haben, zeigt Dynamic Media Classic alle kodierten Videos an, selbst wenn diese Option deaktiviert ist.
+   Das Menü „Erstellen“ enthält bestimmte Aktionen, die nur (oder optional) mit einzelnen Videos verwendet werden. Daher müssen alle kodierten Videoableitungen angezeigt werden, aus denen Sie auswählen können, unabhängig davon, wie Sie die Option **„Kodierte Videos anzeigen“** eingestellt haben. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-**Schaltfläche** Unterordner aktualisieren Aktivieren oder deaktivieren Sie die Anzeige der Schaltfläche Aktualisieren der Unterordner.
+   >[Hinweis]
+   >
+   >Wenn Sie Ihre Video-Assets nicht mit Dynamic Media Classic hochgeladen und kodiert haben, zeigt Dynamic Media Classic alle kodierten Videos an, selbst wenn diese Option deaktiviert ist.
 
-**Dynamic Media Classic FTP-Konto**
+* **Schaltfläche** &quot;Unterordner aktualisieren&quot;anzeigen: Aktivieren oder deaktivieren Sie die Anzeige der Schaltfläche zum Aktualisieren der Unterordner.
 
-**Der Server** Liste Ihren FTP-Kontoserver.
+### Dynamic Media Classic FTP-Konto
 
-**Der Benutzername** Liste den Benutzernamen Ihres FTP-Kontos.
+* **Server** - Liste des FTP-Kontoservers.
 
-**Zur Anwendung hochladen**
+* **Benutzername** - Liste des Benutzernamens Ihres FTP-Kontos.
 
-**Bilder** überschreiben Classic erlaubt nicht, dass zwei Dateien denselben Namen haben. Jedes Element muss eine eindeutige Scene7 Publishing System-ID haben (den Bildnamen ohne Dateierweiterung). Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Duplikate werden durch Anhängen einer Ziffer umbenannt („Sessel.tif“ würde beispielsweise zu „Sessel-1.tif“). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). (Siehe Verwenden der Option „Bilder überschreiben“.)
+### Zur Anwendung hochladen
 
-**Im aktuellen Ordner Bilder mit demselben Namen und derselben Erweiterung überschreiben**
+* **Bilder** überschreiben - Dynamic Media Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Die Classic-ID jedes Elements (der Bildname abzüglich der Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Duplikate werden durch Anhängen einer Ziffer umbenannt („Sessel.tif“ würde beispielsweise zu „Sessel-1.tif“). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). (Siehe Verwenden der Option „Bilder überschreiben“.)
 
-Diese Option stellt die strengste Ersetzungsregel dar. Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden und dieselbe Dateierweiterung haben wie das Originalbild. Wenn diese Voraussetzungen nicht erfüllt sind, wird ein Duplikat erstellt.
+   * **Im aktuellen Ordner mit demselben Namen/derselben Erweiterung** des Basisbilds überschreiben - Diese Option ist die strengste Ersatzregel. Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden und dieselbe Dateierweiterung haben wie das Originalbild. Wenn diese Voraussetzungen nicht erfüllt sind, wird ein Duplikat erstellt.
 
-**Im aktuellen Ordner Assets mit demselben Namen unabhängig von der Erweiterung überschreiben**
+   * **Im aktuellen Ordner überschreiben, Name des Basisassets unabhängig von der Erweiterung** - Erfordert, dass Sie das Ersatzbild in denselben Ordner hochladen wie das Original, jedoch kann die Dateinamenerweiterung vom Original abweichen. Beispiel: „Sessel.tif“ ersetzt die Datei „Sessel.jpg“.
 
-Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden, die Dateierweiterung darf jedoch von der des Originalbilds abweichen. Beispiel: „Sessel.tif“ ersetzt die Datei „Sessel.jpg“.
+   * **In jedem Ordner überschreiben, Name/Erweiterung** des Basisassets - Erfordert, dass das Ersatzbild dieselbe Dateinamenerweiterung wie das Originalbild hat (beispielsweise muss &quot;Sessel.jpg&quot;die Datei &quot;Sessel.jpg&quot;ersetzen, nicht &quot;Sessel.tif&quot;). Sie können das Ersatzbild jedoch in einen anderen Ordner hochladen als den, in dem sich das Original befindet. Das hochgeladene Bild bleibt dann im neuen Ordner; die Datei befindet sich also nicht mehr am ursprünglichen Speicherort.
 
-**In beliebigem Ordner Assets mit demselben Namen und derselben Erweiterung überschreiben**
+   * **In jedem Ordner mit demselben Asset-Namen unabhängig von der Erweiterung** überschreiben - Diese Option ist die beste Ersatzregel. Sie können ein Ersatzbild in einen anderen Ordner hochladen als den, in dem sich das Originalbild befindet, und eine Datei mit einer anderen Dateierweiterung verwenden, um die Originaldatei zu ersetzen. Wenn sich die Originaldatei in einem anderen Ordner befindet, bleibt das Ersatzbild in dem neuen Ordner, in den es hochgeladen wurde.
 
-Das Ersatzbild muss dieselbe Dateierweiterung haben wie das Originalbild (beispielsweise würde „Sessel.jpg“ die Datei „Sessel.jpg“ ersetzen, nicht jedoch die Datei „Sessel.tif“). Sie können das Ersatzbild jedoch in einen anderen Ordner hochladen als den, in dem sich das Original befindet. Das hochgeladene Bild bleibt dann im neuen Ordner; die Datei befindet sich also nicht mehr am ursprünglichen Speicherort.
+* **Veröffentlichung** beibehalten: Gibt an, ob bei einem zu Dynamic Media Classic hochgeladenen Ersatzbild die Einstellung &quot;Bereit zum Veröffentlichen&quot;des ersetzten Bildes beibehalten wird oder ob die Einstellung beim Hochladen festgelegt wurde.
 
-**In belieb. Ordner Assets mit ident. Namen unabh. von Erweiterung überschreiben**
+* **Standardfarbbilder** - Gibt die Profil an, die beim Hinzufügen von CMYK-Profilen als Teil der Profil-Standardoptionen angewendet werden.
 
-Diese Option stellt die am wenigsten einschränkende Ersetzungsregel dar. Sie können ein Ersatzbild in einen anderen Ordner hochladen als den, in dem sich das Originalbild befindet, und eine Datei mit einer anderen Dateierweiterung verwenden, um die Originaldatei zu ersetzen. Wenn sich die Originaldatei in einem anderen Ordner befindet, bleibt das Ersatzbild in dem neuen Ordner, in den es hochgeladen wurde.
+* **Standardmäßige Upload-Optionen** - Öffnet das Dialogfeld &quot;Upload-Auftragsoptionen&quot;, in dem Sie die standardmäßigen Upload-Optionen festlegen können. Informationen zu diesen Optionen finden Sie unter Upload-Optionen.
 
-**Veröffentlichung beibehalten** Gibt an, ob bei einem zu Dynamic Media Classic hochgeladenen Ersatzbild die Einstellung &quot;Bereit zum Veröffentlichen&quot;des ersetzten Bildes beibehalten wird oder ob die Einstellung beim Hochladen festgelegt wurde.
+### Imagemap-Editor, an Anwendung
 
-**Standardfarbbilder** Gibt die Profil an, die beim Hinzufügen von CMYK-Profilen als Teil der Profil-Standardoptionen angewendet werden.
+* **Standard-HREF** für Imagemaps - Definiert die Standard-URL, die für die HREF-Spalte für die Imagemaps verwendet wird. Dabei handelt es sich um die Standard-URL, die beim Erstellen neuer Imagemaps angezeigt wird.
 
-**Standardmäßige Upload-Optionen** Öffnet das Dialogfeld &quot;Upload-Auftragsoptionen&quot;, in dem Sie die standardmäßigen Upload-Optionen festlegen können. Informationen zu diesen Optionen finden Sie unter Upload-Optionen.
+* **Standardvorlage** für Imagemaps - Definiert das standardmäßige JavaScript für die HREF-Vorlage für die Imagemaps. Sie haben die Möglichkeit, benutzerdefinierten Code einzustellen, der beim Klicken auf eine Imagemap ausgeführt wird.
 
-**Imagemap-Editor, an Anwendung**
+### Andere Einstellungen, an Anwendung
 
-**Standard-HREF** für Imagemaps Definiert die Standard-URL, die für die HREF-Spalte für die Imagemaps verwendet wird. Dabei handelt es sich um die Standard-URL, die beim Erstellen neuer Imagemaps angezeigt wird.
-
-**Standardvorlage** für Imagemaps Definiert das standardmäßige JavaScript für die HREF-Vorlage für die Imagemaps. Sie haben die Möglichkeit, benutzerdefinierten Code einzustellen, der beim Klicken auf eine Imagemap ausgeführt wird.
-
-**Andere Einstellungen, an Anwendung**
-
-**Die Warnhinweise** im Papierkorb können innerhalb von sieben Tagen automatisch entfernt werden. Wählen Sie „E-Mails senden, bevor Elemente im Papierkorb automatisch gelöscht werden“, wenn Unternehmensadministratoren vier Tage vor dem dauerhaften Löschen von Assets im Papierkorb eine Benachrichtigung erhalten sollen. Siehe Verwalten des Ordners „Papierkorb“.
+* **Warnungen** zum Bereinigen des Papierkorbs - Assets im Papierkorb werden innerhalb von sieben Tagen automatisch entfernt. Wählen Sie „E-Mails senden, bevor Elemente im Papierkorb automatisch gelöscht werden“, wenn Unternehmensadministratoren vier Tage vor dem dauerhaften Löschen von Assets im Papierkorb eine Benachrichtigung erhalten sollen. Siehe Verwalten des Ordners „Papierkorb“.
 
 ## Verwendung der Option zum Überschreiben der Bilder {#using-the-overwrite-images-option}
 
-Dynamic Media Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Jedes Element muss eine eindeutige Scene7 Publishing System-ID haben (den Bildnamen ohne Dateierweiterung). Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Bilder überschreiben“. Die genaue Wirkung dieser Option hängt von einer Festlegung für „Scene7 Publishing System-interne Einstellungen“ des jeweiligen Unternehmens ab.
+Dynamic Media Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Die Classic-ID jedes Elements (der Bildname abzüglich der Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Bilder überschreiben“. Die genaue Wirkung dieser Option hängt von einer Einstellung für die Dynamic Media Classic Internal Settings jeder Firma ab.
 
 Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (bzw. ersetzt) haben, wird mit der Option &quot;Überschreiben&quot;angegeben, wie Dynamic Media Classic die Bilder ersetzt. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
 
@@ -160,7 +154,7 @@ Wenn Sie diese Option deaktivieren, werden alle Bilder, die mit vorhandenen Bild
 
 ## Bildvorgaben {#image-presets}
 
-In diesem Anzeigebereich können Bildvorgaben erstellt und bearbeitet werden. Mit Bildvorgaben können Dynamic Media Classic Bilder dynamisch in verschiedenen Größen aus demselben Masterbild bereitstellen. Jede Bildvorgabe stellt eine vordefinierte Zusammenstellung von Größen- und Formatierungsbefehlen zum Anzeigen des Bildes dar. Wenn Sie eine Bildvorgabe erstellen, wählen Sie eine Größe, in der das Bild gesendet werden soll. Darüber hinaus wählen Sie Formatierungsbefehle, mit denen die Darstellung des Bildes für den Sendevorgang optimiert wird.
+In diesem Anzeigebereich können Bildvorgaben erstellt und bearbeitet werden. Mit Bildvorgaben können Dynamic Media Classic Bilder dynamisch in unterschiedlichen Größen und Übergeordnet bereitstellen. Jede Bildvorgabe stellt eine vordefinierte Zusammenstellung von Größen- und Formatierungsbefehlen zum Anzeigen des Bildes dar. Wenn Sie eine Bildvorgabe erstellen, wählen Sie eine Größe, in der das Bild gesendet werden soll. Darüber hinaus wählen Sie Formatierungsbefehle, mit denen die Darstellung des Bildes für den Sendevorgang optimiert wird.
 
 Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benutzer können beim Exportieren von Bildern eine Vorgabe auswählen, die die Bilder gemäß den Spezifikationen des Administrators neu formatiert.
 
@@ -257,13 +251,13 @@ Weitere Informationen zu Scharfzeichnen, Resamplingmodi und Unschärfemaske find
 
 **Farbe** Wählen Sie folgende Optionen aus:
 
-**Ausgabefarbe-Profil** Wählen Sie &quot;Standard verwenden&quot;oder eines der im Scene7 Publishing System verfügbaren ICC-Profile.
+**Output Color Profil** Wählen Sie &quot;Standard verwenden&quot;oder eines der ICC-Profil aus, die in Dynamic Media Classic verfügbar sind.
 
 Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
 
 **Renderpriorität** Wählen Sie eine Option, wenn Sie die standardmäßige Renderpriorität des Profils überschreiben möchten. Die Verwendung dieser Option ist sinnvoll, wenn eines der Standard-ICC-Profile Zielfarbraum einer Farbumwandlung ist, ein Ausgabegerät (Drucker oder Bildschirm) durch dieses Profil bestimmt wird und die angegebene Renderpriorität für dieses Profil gültig ist.
 
-**Profil** einbetten Wählen Sie diese Option, damit dieses Profil verwendet wird, wenn Sie dieses Bild in Adobe® Fotoshop® öffnen.
+**Profil** einbetten Wählen Sie diese Option, damit dieses Profil verwendet wird, wenn Sie dieses Bild in Adobe® Photoshop® öffnen.
 
 **Druckauflösung** Wählen Sie eine Auflösung für den Druck dieses Bildes. Der Standardwert ist 72 Pixel.
 
@@ -278,7 +272,7 @@ Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * Deaktivieren Sie das Kontrollkästchen „Aktiv“ neben dem Namen einer Vorgabe, um sie aus der gesamten Benutzeroberfläche für MediaPortal-Benutzer des Scene7 Publishing System zu entfernen.
+   * Deaktivieren Sie das Kontrollkästchen &quot;Aktiv&quot;neben einem Vorgabennamen, um ihn für MediaPortal-Benutzer aus der gesamten Benutzeroberfläche von Dynamic Media Classic zu entfernen.
 
 ## Aktivieren und Deaktivieren von adaptiven Video-Vorgaben {#activating-or-deactivating-adaptive-video-presets}
 
@@ -290,7 +284,7 @@ Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading
 
 **So aktivieren und deaktivieren Sie adaptive Video-Vorgaben**
 
-1. Klicken Sie in der rechten oberen Ecke des Scene7 Publishing Systems auf **Einstellungen** > **Anwendungseinstellungen** > **Video-Vorgaben** > **Adaptive Video-Vorgaben**.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets**.
 1. Wenn Sie eine Vorgabe aus der Liste „eVideo-Optionen“ im Dialogfeld „Upload-Auftragsoptionen“ entfernen möchten, deaktivieren Sie auf der Seite „Adaptive Video-Vorgaben“ das Kontrollkästchen neben dem Vorgabenamen.
 1. Klicken Sie auf **Schließen**.
 
@@ -342,7 +336,7 @@ Nach dem Klicken auf **Hochladen starten** wird die ursprüngliche Mastervideoda
 
 Folgende Parameter stehen für die Kodierungsvorgabeoptionen zur Verfügung:
 
-**Verbindungsgeschwindigkeit** des Targets Die Internetverbindungsgeschwindigkeit des Endbenutzers.
+**Verbindungsgeschwindigkeit** der Zielgruppe Die Internetverbindungsgeschwindigkeit des Endbenutzers.
 
 **Suffix** der kodierten Datei Das Suffix, das zur Identifizierung an die kodierte Videodatei angehängt wird.
 
@@ -446,7 +440,7 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 >[!NOTE]
 >
->**Hinweis** zum Ende der Lebensdauer von Flash-Viewern - Ab dem 31. Januar 2017 hat Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Hinweis** zum Ende der Lebensdauer von Flash-Viewern - Ab dem 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoomverhalten, die Farbschemata, Ränder und Schriftarten ändern.
 
@@ -494,7 +488,7 @@ Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoom
 
 ### Kompatibilitätsmatrix für Dynamic Media Classic Viewer-Vorgaben {#scene-viewer-preset-compatibility-matrix}
 
-**Hinweis** zum Ende der Lebensdauer von Flash-Viewern: Ab dem 31. Januar 2017 hat Adobe Scene7 Publishing System offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt.
+**Hinweis** zum Ende der Lebensdauer von Flash-Viewern: Ab dem 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt.
 
 Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -595,7 +589,7 @@ Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an
 * Öffnen Sie die Dropdown-Liste **Aktiv/Inaktiv** und wählen Sie eine Option, um die aktiven Vorgaben, inaktiven Vorgaben oder alle Vorgabe anzuzeigen.
 * Öffnen Sie die Dropdown-Liste **Viewer** und wählen Sie eine Option, um nur bestimmte Viewer-Typen anzuzeigen. Wählen Sie **Alle Viewer**, um alle Viewer anzuzeigen.
 
-**Sortieren von Vorgaben** Klicken Sie auf eine Spaltenüberschrift (Aktiv, Typ, Vorgabe oder Platform), um die Liste nach einer Spalte zu sortieren. Klicken Sie nochmals auf einen Spaltentitel, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren. 
+**Sortieren von Vorgaben** Klicken Sie auf eine Spaltenüberschrift (Aktiv, Typ, Vorgabe oder Plattform), um die Liste auf einer Spalte zu sortieren. Klicken Sie nochmals auf einen Spaltentitel, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren. 
 
 **Aktivieren und Deaktivieren von Vorgaben** Wählen Sie eine Vorgabe aus und klicken Sie auf die Option &quot;Aktiv&quot;, um sie zu aktivieren oder zu deaktivieren.
 
@@ -613,7 +607,7 @@ Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an
 
 **So fügen Sie Viewer-Vorgaben hinzu und bearbeiten sie**
 
-1. Klicken Sie in der rechten oberen Ecke des Scene7 Publishing Systems auf **Einstellungen** > **Viewer-Vorgaben**.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    Sie können die Liste der Vorgaben filtern. Wenn nur Vorgaben für Video-Viewer aufgelistet werden sollen, wählen Sie auf der Symbolleiste direkt über der Tabelle in der Dropdown-Liste „Viewer“ die Option „Video-Viewer“ aus.
 
@@ -647,7 +641,7 @@ Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an
 
 Sie können eine vorhandene HTML5-Viewer-Vorgabe exportieren, um sie als Grundlage für die Erstellung einer neuen HTML5-Viewer-Vorgabe zu verwenden. Diese Exportoption ist nützlich, da Sie den Viewer auf diese Weise nicht komplett neu erstellen müssen. Stattdessen exportieren Sie eine Vorgabe mit Einstellungen, die Ihren Anforderungen in etwa entsprechen, und verwenden diese dann als Ausgangspunkt für Ihre Design-Anpassungen.
 
-Beachten Sie, dass alle standardmäßigen, standardmäßigen CSS-Vorgabendateien für Viewer in SPS relative Image Serving-Pfade verwenden, die auf Assets verweisen, die sich in `Scene7SharedAssets`der Anwendung befinden. Beispiel: Der folgende Pfad ist ein relativer Pfad zu einem Bild-Asset in einer CSS-Vorgabe-Datei, die sich unter `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diesen relativen Bildpfad lösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. Wenn Sie zum Beispiel den relativen Pfad über einem expliziten Pfad aktualisieren möchten, könnte er wie folgt aussehen, wobei der direkte Pfad zum Image-Server `https://s7d1.scene7.com` ist: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Beachten Sie, dass alle standardmäßigen, standardmäßigen CSS-Vorgabendateien für Viewer in Dynamic Media Classic relative Image Serving-Pfade verwenden, die auf Assets verweisen, die sich auf `Scene7SharedAssets`. Beispiel: Der folgende Pfad ist ein relativer Pfad zu einem Bild-Asset in einer CSS-Vorgabe-Datei, die sich unter `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diesen relativen Bildpfad lösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. Wenn Sie zum Beispiel den relativen Pfad über einem expliziten Pfad aktualisieren möchten, könnte er wie folgt aussehen, wobei der direkte Pfad zum Image-Server `https://s7d1.scene7.com` ist: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **So exportieren Sie eine HTML5-Viewer-Vorgabe**
 
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    Nach dem Export erhalten Sie eine CSS-Datei. Laden Sie die Datei herunter und dekomprimieren Sie sie.
 
 1. Öffnen Sie die CSS-Datei in einem CSS-Editor, nehmen Sie Ihre Änderungen vor und speichern Sie die Datei anschließend.
-1. Laden Sie die CSS-Datei in das Scene7 Publishing System hoch.
+1. Laden Sie die CSS-Datei in Dynamic Media Classic hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
@@ -746,7 +740,7 @@ Die Bearbeitung des Codes ist im Dialogfeld Einbettungscode nicht zulässig.
 
 ## Konfigurieren von Standard-Viewern {#configuring-default-viewers}
 
-Sie können „Standard-Viewer“ verwenden, um den Standard-Viewer zu konfigurieren, der mit einem Asset verknüpft ist, wenn Sie die Vorschaufunktion in Scene7 verwenden. Die Standardvorschau kann für die folgenden Asset-Typen festgelegt werden:
+Mit Standard-Viewern können Sie den Standard-Viewer konfigurieren, der mit einem Asset verknüpft ist, wenn Sie Vorschau in Dynamic Media Classic verwenden. Die Standardvorschau kann für die folgenden Asset-Typen festgelegt werden:
 
 * Bild
 * Video
@@ -822,9 +816,9 @@ Erstellen Sie eine Metadaten-Vorgabe für jeden Satz mit Metadatenwerten, die di
 
 ## Benutzerdefinierte Felder {#user-defined-fields}
 
-Ein Medienportal-Administrator bzw. Unternehmensadministrator kann individuelle, benutzerdefinierte Metadatenfelder erstellen. Mit benutzerdefinierten Feldern können Sie Assets im Scene7 Publishing System leichter organisieren. Sie können die Felder bei Bedarf als aktiv markieren. Wenn die Felder aktiviert sind, erscheinen die Namen dieser benutzerdefinierten Metadatenfelder im Metadatenbedienfeld in der Detailansicht. Die Benutzer können Informationen zur Beschreibung der Assets in die benutzerdefinierten Metadatenfelder eingeben. Außerdem können Benutzer ein benutzerdefiniertes Metadatenfeld als Suchkriterium angeben.
+Ein Medienportal-Administrator bzw. Unternehmensadministrator kann individuelle, benutzerdefinierte Metadatenfelder erstellen. Mit benutzerdefinierten Feldern können Sie Assets in Dynamic Media Classic organisieren. Sie können die Felder bei Bedarf als aktiv markieren. Wenn die Felder aktiviert sind, erscheinen die Namen dieser benutzerdefinierten Metadatenfelder im Metadatenbedienfeld in der Detailansicht. Die Benutzer können Informationen zur Beschreibung der Assets in die benutzerdefinierten Metadatenfelder eingeben. Außerdem können Benutzer ein benutzerdefiniertes Metadatenfeld als Suchkriterium angeben.
 
-Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Aktivierungszeit eines Assets für einen bestimmten Launch oder Ausverkauf zu verzögern. Sie definieren ein Feld &quot;Aktivierung&quot;basierend auf dem Typ *Datum*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Das Scene7 Publishing System prüft den Veröffentlichungsstatus eines Assets sowie seinen Veröffentlichungsverlauf. Wenn sich der Veröffentlichungsstatus nicht innerhalb der Aktivierung befindet, wird als &quot;Nicht veröffentlicht&quot;angezeigt.
+Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Aktivierungszeit eines Assets für einen bestimmten Launch oder Ausverkauf zu verzögern. Sie definieren ein Feld &quot;Aktivierung&quot;basierend auf dem Typ *Datum*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media Classic prüft den Veröffentlichungsstatus eines Assets und den Veröffentlichungsverlauf. Wenn sich der Veröffentlichungsstatus nicht innerhalb der Aktivierung befindet, wird als &quot;Nicht veröffentlicht&quot;angezeigt.
 
 >[!NOTE]
 >
@@ -886,9 +880,9 @@ Um diesen Bildschirm zu öffnen, klicken Sie auf **„Einstellungen“** > **�
 
 ## Optimieren von Dateien {#optimize-files}
 
-Während Sie Dateien in das Scene7 Publishing System hochladen, werden diese vom System für die Speicherung und Veröffentlichung optimiert. Wenn das Hochladen jedoch unterbrochen wird, können einige Bilder nicht optimiert werden. In diesem Fall wird die Meldung „Bild wurde noch nicht optimiert“ angezeigt. Als Administrator können Sie jedoch auch diese Dateien optimieren.
+Beim Hochladen von Dateien in Dynamic Media Classic optimiert das System diese für die Datenspeicherung und Veröffentlichung. Wenn das Hochladen jedoch unterbrochen wird, können einige Bilder nicht optimiert werden. In diesem Fall wird die Meldung „Bild wurde noch nicht optimiert“ angezeigt. Als Administrator können Sie jedoch auch diese Dateien optimieren.
 
-Ihre Dateien werden vom Scene7 Publishing System durchsucht, wobei nur die Bilder optimiert werden, die nicht bereits vollständig optimiert sind.
+Dynamic Media Classic durchsucht Ihre Dateien und optimiert nur die Bilder, die zuvor noch nicht vollständig optimiert wurden.
 
 1. Wählen Sie &quot; **Einstellungen** &quot;> &quot; **Anwendungseinstellungen**&quot;und dann &quot;Dateien **optimieren&quot;**.
 1. Enter information for the optimization job and click **Submit**.
@@ -897,7 +891,7 @@ Ihre Dateien werden vom Scene7 Publishing System durchsucht, wobei nur die Bilde
 
 ## Stapelsatzvorgaben {#batch-set-presets}
 
-Anhand der Stapelsatzvorgaben können Sie während der Ausführung eines Auftrags automatisch Bildsätze oder Rotationssets erstellen, um Assets in das Scene7 Publishing System hochzuladen.
+Verwenden Sie die Stapelsatzvorgaben, um automatisch Bildsätze oder Rotationssets zu erstellen, während ein Auftrag ausgeführt wird, um Assets nach Dynamic Media Classic hochzuladen.
 
 Unternehmensadministratoren legen zuerst Namenskonventionen für die Assets fest, die sie in einem Satz gruppieren möchten. Sie können dann eine Stapelsatzvorgabe erstellen, um diese Bilder zu referenzieren. Jede Vorgabe ist ein eindeutig benannter, in sich abgeschlossener Satz von Anweisungen, die definieren, wie der Satz unter Verwendung der Bilder, die den definierten Benennungsregeln im Vorgabenrezept entsprechen, konstruiert werden soll.
 
