@@ -3,21 +3,24 @@ title: Aktivieren von Adobe Analytics-Videoberichten
 seo-title: Aktivieren von Adobe Analytics-Videoberichten
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Adobe Analytics-Videoberichte aktivieren.
-uuid: 078594 b 2-7 d 53-4714-8128-ff 3 b 5 c 3 a 5 e 36
+uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: 18644 a 53-92 da -40 ab-b 961-318 d 8332 c 54 d
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: 18644a53-92da-40ab-b961-318d8332c54d
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 26%
 
 ---
 
 
 # Aktivieren von Adobe Analytics-Videoberichten{#enabling-adobe-analytics-video-reports}
 
-Bei Verwendung von Adobe Analytics Heartbeat-basierenden Videoberichten müssen Sie die vier Video-Viewer-Ereignisse (Play, Pause, Stopp, Milestone) nicht mehr aktivieren, wenn Sie Adobe Analytics in Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit vordefinierten dynamischen Media Classic HTML 5 Video- und mixedmedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten.
+Mit Adobe Analytics Heartbeat-basiertem Video-Berichte müssen Sie die vier Video-Viewer-Ereignis (Wiedergabe, Pause, Stopp, Meilenstein) nicht mehr aktivieren, wenn Sie Adobe Analytics in Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit standardmäßigen Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten.
 
 * Die Integration von Adobe Analytics-Videoberichten mit Dynamic Media Classic unterstützt Lösungsvariablen, jedoch keine benutzerspezifischen Variablen.
 
@@ -29,5 +32,5 @@ For more information about Video Heartbeat requirements and setup, see [Measurin
 
 >[!NOTE]
 >
->Wenn Ihre lizenzierte Lösung von Adobe Analytics keine Video Heartbeat enthält, müssen Sie weiterhin die Schritte in diesem Kapitel verwenden, um Adobe Analytics-Variablen zu dynamischen Media Classic-Viewer-Ereignissen und -variablen zuzuweisen.
+>Wenn Ihre lizenzierte Adobe Analytics-Lösung Video Heartbeat nicht enthält, müssen Sie die in diesem Kapitel beschriebenen Schritte fortsetzen, um Adobe Analytics-Variablen Dynamic Media Classic-Viewer-Ereignissen und -Variablen zuzuweisen.
 
