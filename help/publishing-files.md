@@ -5,33 +5,36 @@ description: 'null'
 seo-description: Erfahren Sie, wie Sie Dateien veröffentlichen.
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 76%
 
 ---
 
 
 # Veröffentlichen von Dateien {#publishing-files}
 
-Sie veröffentlichen Ihre Assets auf den Image-Servern für dynamische Medien. Sie können Assets einmalig veröffentlichen oder so anordnen, dass Dynamic Media Classic Assets regelmäßig veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus dem Scene7 Publishing System kopieren und in Ihre Website bzw. Anwendung einfügen.
+Sie veröffentlichen Ihre Assets auf Dynamic Media-Image-Servern. Sie können Assets einmalig veröffentlichen oder die Veröffentlichung von Assets nach einem bestimmten Zeitplan in Dynamic Media Classic veranlassen. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe von Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
-Das Scene7 Publishing System unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, es ist eine veröffentlichte URL oder ein Einbettungscode für das Bild oder Video verfügbar, um in jede Anwendung integriert zu werden, die ein gehostetes Asset akzeptiert. Das veröffentlichte Asset wird dann über das HTTP/2-Protokoll bereitgestellt. Diese Bereitstellungsmethode verbessert die Kommunikation von Browsern und Servern und ermöglicht so eine bessere Reaktion und Ladezeit aller Ihrer Dynamic Media Classic-Assets. Siehe Häufig gestellte Fragen zur [HTTP2-Bereitstellung von Inhalten](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Dynamic Media Classic unterstützt jetzt den Versand aller Bilder und Videos über HTTP/2. Das heißt, es ist eine veröffentlichte URL oder ein Einbettungscode für das Bild oder Video verfügbar, um in jede Anwendung integriert zu werden, die ein gehostetes Asset akzeptiert. Das veröffentlichte Asset wird dann über das HTTP/2-Protokoll bereitgestellt. Diese Versand-Methode verbessert die Kommunikation von Browsern und Servern und ermöglicht so eine bessere Reaktion und Ladezeit aller Dynamic Media Classic-Assets. Siehe [HTTP2 Versand der häufig gestellten Fragen](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Nach dem Hochladen veröffentlichen {#publish-after-uploading}
 
 Assets befinden sich entweder in einem veröffentlichten oder unveröffentlichten Status. Standardmäßig werden alle Assets, die Sie in Dynamic Media Classic hochladen, automatisch zur Veröffentlichung markiert.
 
-Weitere Informationen finden Sie im PDF-Dokument " [Sofortige Veröffentlichung"](/help/assets/rendering-instant-publish-notification.pdf).
+Weitere Informationen finden Sie im PDF-Dokument &quot; [Sofortige Veröffentlichung&quot;](/help/assets/rendering-instant-publish-notification.pdf).
 
 Sie haben zum Markieren von Assets zur Veröffentlichung die folgenden Möglichkeiten:
 
-* **Nach dem Hochladen** veröffentlichen auf der Seite "Hochladen"unten wählen Sie Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
+* **Nach dem Hochladen** veröffentlichen: Wählen Sie auf der Seite &quot;Hochladen&quot;unten die Option Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
 
-* **Nach dem Hochladen** veröffentlichen im Dialogfeld "Auftragsoptionen"wählen Sie Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
+* **Nach dem Hochladen** veröffentlichen im Dialogfeld &quot;Auftragsoptionen&quot;wählen Sie Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
 
 Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wenn ihre Stammelemente zur Veröffentlichung markiert werden. In der folgenden Tabelle sind die Arten von abgeleiteten Assets aufgeführt, die automatisch zur Veröffentlichung markiert werden.
 
@@ -46,7 +49,7 @@ Abgeleitete Bilder werden zur Veröffentlichung markiert, wenn die zugehörigen 
 
 ## Erstellen eines Veröffentlichungsauftrags {#creating-a-publish-job}
 
-Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf die Server von Dynamic Media Classic hochgeladen, aber noch nicht automatisch veröffentlicht haben. Sie können Veröffentlichungsaufträge entweder nur einmal ausführen oder eine regelmäßig wiederkehrende Ausführung einstellen. Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen zum Veröffentlichen auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
+Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf die Dynamic Media Classic-Server hochgeladen haben, die Sie jedoch noch nicht automatisch veröffentlicht haben. Sie können Veröffentlichungsaufträge entweder nur einmal ausführen oder eine regelmäßig wiederkehrende Ausführung einstellen. Dynamic Media Classic Angebots bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
 
 **So erstellen Sie einen Veröffentlichungsauftrag**
 
@@ -62,7 +65,7 @@ Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, di
 
 1. Klicken Sie auf **Veröffentlichung**.
 
-SPS erfasst Veröffentlichungsaufträge auf der Seite „Aufträge“. Sie können Veröffentlichungsaufträge auf dieser Seite überprüfen.
+Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &quot;Aufträge&quot;. Sie können Veröffentlichungsaufträge auf dieser Seite überprüfen.
 
 >[!NOTE]
 >
@@ -92,7 +95,7 @@ Sie können auf der Seite „Veröffentlichen“ erweiterte Optionen anzeigen un
 
 * **Veröffentlichen auf** Wählen Sie einen Servertyp aus, um Assets nur auf einem bestimmten Server und nicht auf allen Servern zu veröffentlichen.
 
-* **Veröffentlichen** Standardmäßig veröffentlicht SPS nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option "Neu seit letzter Veröffentlichung"). Sie können jedoch die Option „Vollständige Veröffentlichung“ wählen, um auch solche Assets zu veröffentlichen, die aktualisiert wurden oder seit der letzten Veröffentlichung verändert wurden. Wählen Sie „Vollständig mit Suchdaten“, wenn Sie einen E-Katalog veröffentlichen und den Lesern das Durchsuchen unter Verwendung von Suchbegriffen ermöglichen möchten.
+* **Veröffentlichen** Standardmäßig veröffentlicht Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch die Option „Vollständige Veröffentlichung“ wählen, um auch solche Assets zu veröffentlichen, die aktualisiert wurden oder seit der letzten Veröffentlichung verändert wurden. Wählen Sie „Vollständig mit Suchdaten“, wenn Sie einen E-Katalog veröffentlichen und den Lesern das Durchsuchen unter Verwendung von Suchbegriffen ermöglichen möchten.
 
 * **Auftrag ausführen unter** Wählen Sie einen Benutzernamen aus der Liste. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch Wählen eines Namens verbinden Sie einen Veröffentlichungsauftrag mit einem Benutzer.
 
@@ -122,7 +125,7 @@ Unveröffentlichte Assets werden in der Benutzeroberfläche durch ein graues dur
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Assets aus.
 
-      Klicken Sie in der globalen Navigationsleiste auf **Datei &gt; Veröffentlichen**.
+      Klicken Sie in der globalen Navigationsleiste auf **Datei > Veröffentlichen**.
 
    * Klicken Sie in der Rasteransicht, Listenansicht oder Detailansicht auf das graue durchgestrichene Kreissymbol, das links neben dem Namen des Assets angezeigt wird.
 
@@ -138,7 +141,7 @@ Veröffentlichte Elemente werden in der Benutzeroberfläche mit einem grünen Kr
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere veröffentlichte Assets aus.
 
-      On the Global Navigation Bar, click **File &gt; **Unpublish**.
+      On the Global Navigation Bar, click **File > **Unpublish**.
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht auf das grüne Kreissymbol mit dem Häkchen, das links neben dem Namen des Assets angezeigt wird.
 
@@ -148,15 +151,15 @@ In der Detailansicht wird oben im Bedienfeld das Datum angezeigt, an dem das Ass
 
 ## Erneut veröffentlichte Assets und CDN-Verzögerungen {#republished-assets-and-cdn-delays}
 
-Dynamische Medien-Classic-Assets werden über das Inhaltsbereitstellungsnetzwerk (Content Delivery Network, CDN) verteilt. CDN ist ein System von vernetzten Computer-Servern, die auf transparente Weise zusammenarbeiten, um Inhalte – insbesondere umfangreiche Medieninhalte – für Endbenutzer bereitzustellen. Im CDN-System werden Web-Inhalte in Web-Caches gespeichert, die über das Internet verteilt sind (das so genannte Edge-Cache-Netzwerk). Web-Inhalte werden von diesen Web-Caches an Endbenutzer ausgegeben, damit die Bereitstellung schneller erfolgt.
+Dynamic Media Classic-Assets werden über das Content Versand-Netzwerk (CDN) verteilt. CDN ist ein System von vernetzten Computer-Servern, die auf transparente Weise zusammenarbeiten, um Inhalte – insbesondere umfangreiche Medieninhalte – für Endbenutzer bereitzustellen. Im CDN-System werden Web-Inhalte in Web-Caches gespeichert, die über das Internet verteilt sind (das so genannte Edge-Cache-Netzwerk). Web-Inhalte werden von diesen Web-Caches an Endbenutzer ausgegeben, damit die Bereitstellung schneller erfolgt.
 
 Wenn ein Benutzer eine Website zum ersten Mal herunterlädt, werden die Assets an einen CDN-Web-Cache-Server übertragen und auf diesem Server gespeichert. Beim nächsten Abruf der Website von einem Benutzer in derselben geografischen Region kann der im Cache gespeicherte Inhalt schneller bereitgestellt werden. Die Inhaltsbereitstellung erfolgt schneller, weil der Inhalt näher beim Endbenutzer aufbewahrt wird. CDN ermöglicht eine schnellere Anzeige von Websites. Die Bandbreitenanforderungen an den zentralen Server werden verringert, da die Inhalte über das Edge-Cache-Netzwerk bereitgestellt werden, nicht jedes Mal von einem zentralen Server aus.
 
-Neu veröffentlichte dynamische Medien-Classic-Inhalte stehen dem Endbenutzer sofort zur Verfügung und füllen das Edge-Cache-Netzwerk schnell aus. Neue erneut veröffentlichte Inhalte – etwa Bilder mit identischen Namen wie zuvor auf einem Image-Server veröffentlichte Bilder – werden im CDN jedoch bis zu zehn Stunden lang nicht aktualisiert. Endbenutzer sehen stattdessen die Daten im Web-Cache des CDN. Aus diesem Grund werden die erneut veröffentlichten Assets von Dynamic Media Classic möglicherweise zehn Stunden lang nicht für Endbenutzer angezeigt.
+Neu veröffentlichte Dynamic Media Classic-Inhalte stehen dem Endbenutzer sofort zur Verfügung und füllen das Edge-Cache-Netzwerk schnell aus. Neue erneut veröffentlichte Inhalte – etwa Bilder mit identischen Namen wie zuvor auf einem Image-Server veröffentlichte Bilder – werden im CDN jedoch bis zu zehn Stunden lang nicht aktualisiert. Endbenutzer sehen stattdessen die Daten im Web-Cache des CDN. Aus diesem Grund werden Ihre erneut veröffentlichten Dynamic Media Classic-Assets für Endbenutzer möglicherweise zehn Stunden lang nicht angezeigt.
 
 Wenn Sie möchten, dass neue erneut veröffentlichte Bild-Assets schneller zur Verfügung stehen als mit zehnstündiger Verzögerung, können Sie Web-Caches im CDN bereinigen. Bei der Bereinigung der Web-Caches werden alte Inhalte aus den CDN-Web-Caches entfernt und durch die zuletzt veröffentlichten Assets ersetzt.
 
-Klicken Sie zum Bereinigen des Cache auf „Datei“ &gt; „Ungültiges CDN“. Alle ausgewählten Dateien werden aus dem Cache entfernt. Wenn keine veröffentlichbare Assets vorhanden oder Sie kein Unternehmensadministrator sind, ist die CDN-Option „Entfernen“ nicht verfügbar.
+Klicken Sie zum Bereinigen des Cache auf „Datei“ > „Ungültiges CDN“. Alle ausgewählten Dateien werden aus dem Cache entfernt. Wenn keine veröffentlichbare Assets vorhanden oder Sie kein Unternehmensadministrator sind, ist die CDN-Option „Entfernen“ nicht verfügbar.
 
 >[!MORELIKETHIS]
 >
