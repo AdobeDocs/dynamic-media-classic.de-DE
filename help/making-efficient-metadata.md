@@ -3,21 +3,24 @@ title: Effizientes Arbeiten mit Metadaten
 seo-title: Effizientes Arbeiten mit Metadaten
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Metadaten effizienter nutzen können.
-uuid: 6690 b 815-ca 5 f -491 f -94 eb -3 d 4657 fbb 8 ed
+uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: b 399 c 2 b 2-3 e 59-43 e 7-aa 7 d-dd 4 fdf 4 e 9 bad
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 89%
 
 ---
 
 
 # Effizientes Arbeiten mit Metadaten{#making-more-efficient-use-of-metadata}
 
-Alle Dateien im Scene7 Publishing System verfügen über Metadaten. Metadaten beschreiben und identifizieren Dateien, sodass Assets einfacher gefunden und organisiert werden können. Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und überprüfen Sie das Metadatenbedienfeld. Die Metadatenfelder in diesem Bedienfeld enthalten deskriptive Informationen über das Asset.
+Alle Dateien in Dynamic Media Classic enthalten Metadaten. Metadaten beschreiben und identifizieren Dateien, sodass Assets einfacher gefunden und organisiert werden können. Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und überprüfen Sie das Metadatenbedienfeld. Die Metadatenfelder in diesem Bedienfeld enthalten deskriptive Informationen über das Asset.
 
 Metadaten sind nur dann nützlich für das Suchen und Organisieren von Assets, wenn die Metadatenfelder ordnungsgemäß ausgefüllt wurden. Um sicherzustellen, dass Metadaten ordnungsgemäß festgelegt und alle erforderlichen Metadatenfelder ausgefüllt werden, können Sie Metadaten-Vorgaben erstellen. Eine *Metadaten-Vorgabe* ist ein vordefinierter Satz von Metadaten-Einträgen. Statt Metadaten manuell einzugeben, können Benutzer in der Detailansicht eine Metadaten-Vorgabe auswählen, um Metadatenfelder automatisch mit vordefinierten Informationen ausfüllen zu lassen.
 
