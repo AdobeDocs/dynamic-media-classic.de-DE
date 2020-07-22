@@ -2,15 +2,18 @@
 title: Vorbereiten der Musterset-Assets für das Hochladen
 seo-title: Vorbereiten der Musterset-Assets für das Hochladen
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Musterset-Assets zum Hochladen vorbereiten.
-uuid: ed 78 da 8 c-d 708-418 b -97 ce -3 c 37 d 9 df 9 c 90
+seo-description: Erfahren Sie, wie Sie Musterset-Assets für den Upload vorbereiten.
+uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/swatch_ sets
-discoiquuid: 0 c 851 ecd-be 05-46 a 9-8654-3 d 028 f 3217 a 4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +27,7 @@ Wenn Sie ein Musterset mit Farbfeldern erstellen möchten, benötigen Sie Vignet
 * Je eine Aufnahme der Jacke in Schwarz, Braun und Grün.
 * Je ein schwarzes, braunes und grünes Farbfeld.
 
-Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Dynamic Media Classic unterstützt zahlreiche Bilddateiformate, verlustfreie TIFF-, PNG- und EPS-Bilder werden jedoch empfohlen.
+Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Dynamic Media Classic unterstützt viele Bilddateiformate, es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
 
 Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files).
 
