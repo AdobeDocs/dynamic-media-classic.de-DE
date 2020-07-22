@@ -1,27 +1,30 @@
 ---
-title: Informationen über benutzergenerierte Inhalte
-seo-title: Informationen über benutzergenerierte Inhalte
+title: Informationen zu benutzergenerierten Inhalten
+seo-title: Informationen zu benutzergenerierten Inhalten
 description: 'null'
-seo-description: Einführung in benutzergenerierte Inhalte.
-uuid: ba 867 a 6 a -84 a 4-4968-9 a 77-712 f 3 ce 5 dad 5
+seo-description: Eine Einführung in benutzergenerierte Inhalte.
+uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/user_ generated_ content
-discoiquuid: c 1594 abf -8 cc 2-46 dd -88 bf-af 93 db 7 db 607
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
+discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 56%
 
 ---
 
 
-# Informationen über benutzergenerierte Inhalte{#about-user-generated-content}
+# Informationen zu benutzergenerierten Inhalten{#about-user-generated-content}
 
-Die Verwendung von UGC (benutzergenerierten Inhalt) besteht aus dem Hochladen von Assets in ein dediziertes dynamisches Media Classic Classic-Repository und die Durchführung verwandter Vorgänge.
+Die Verwendung von UGC (benutzergenerierte Inhalte) besteht darin, Assets in ein dediziertes Dynamic Media Classic Datenspeicherung Repository hochzuladen und damit verbundene Vorgänge auszuführen.
 
 UGC unterstützt die folgenden Formate:
 
 * Raster: JPG, PNG, TIFF
-* Vektor: AI, EPS (EPS-Dateien aus Adobe Illustrator 2018 werden nicht unterstützt), PDF (nur wenn die PDF-Datei zuvor in Adobe Illustrator CS 6 geöffnet und gespeichert wurde)
+* Vektor: AI, EPS (EPS-Dateien aus Adobe Illustrator 2018 werden nicht unterstützt), PDF (nur, wenn die PDF-Datei zuvor in Adobe Illustrator CS6 geöffnet und gespeichert wurde)
 
 Sie erhalten einen gemeinsamen geheimen Schlüssel, bevor Sie Assets hochladen. Verwenden Sie diesen Schlüssel, um ein Upload-Token abzurufen. Sie senden das Upload-Token, wenn Sie Assets hochladen und andere Aufgaben für benutzergenerierte Inhalte ausführen.
 
