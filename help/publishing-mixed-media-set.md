@@ -2,26 +2,29 @@
 title: Veröffentlichen eines gemischten Mediensets
 seo-title: Veröffentlichen eines gemischten Mediensets
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie ein gemischtes Medienset veröffentlichen.
-uuid: 4172347 c -7 bb 3-468 d-bda 2-fd 1 c 26 ccab 85
+seo-description: Erfahren Sie, wie Sie ein gemischtes Medienset veröffentlichen.
+uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 4 e 8694 f 7-c 1 b 5-4 d 45-a 18 b -2 b 9494 db 1757
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 60%
 
 ---
 
 
 # Veröffentlichen eines gemischten Mediensets{#publishing-a-mixed-media-set}
 
-Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie zur Veröffentlichung auf dynamischen Media-Servern und Image-Servern markiert haben. Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
+Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie zur Veröffentlichung auf Dynamic Media Classic Video Server und Image Server markiert haben. Dynamic Media Classic Angebots bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
 
-***Hinweis**: Gemischte Mediensets müssen sowohl auf **dem Video-Server als**auch dem **Image-Server veröffentlicht**werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden **Sie den Image-Server**, um zugehörige Assets zu veröffentlichen, z. B. die Videominiaturen und die Informationen für ein adaptives Video-Set.*
+***Hinweis **: Gemischte Mediensets müssen sowohl auf dem**Video-Server **als auch auf dem**Image-Server **veröffentlicht werden. Sie verwenden den**Video-Server **, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden Sie den**Image-Server **, um verwandte Assets wie Video-Miniaturansichten zu veröffentlichen und Informationen für adaptive Videosets festzulegen.*
 
-Im Scene7 Publishing System werden Veröffentlichungsaufträge im Anzeigebereich „Aufträge“ erfasst.
+Dynamic Media Classic verfolgt Veröffentlichungsaufträge im Anzeigebereich &quot;Aufträge&quot;.
 
 Siehe [Veröffentlichen](publishing-files.md#publishing_files).
 
