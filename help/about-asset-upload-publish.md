@@ -1,28 +1,31 @@
 ---
-title: Grundlagen zum Hochladen und Veröffentlichen von Assets
-seo-title: Grundlagen zum Hochladen und Veröffentlichen von Assets
+title: Informationen zum Hochladen und Veröffentlichen von Assets
+seo-title: Informationen zum Hochladen und Veröffentlichen von Assets
 description: 'null'
-seo-description: Einführung in das Hochladen und Veröffentlichen von Assets in Dynamic Media Classic
-uuid: 01 a 9 c 2 d 7-16 bf -4 fb 2-9001-cb 7 a 6233692
+seo-description: Eine Einführung in das Hochladen und Veröffentlichen von Assets in Dynamic Media Classic.
+uuid: 01a9c2d7-16bf-4fb2-9001-cb07a6233692
 contentOwner: rbrough
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/upload_ and_ publish_ assets
-discoiquuid: 47 dcbb 26-b 90 f -40 d 7-964 e-f 08 fe 98 fcdbb
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 35%
 
 ---
 
 
-# Grundlagen zum Hochladen und Veröffentlichen von Assets{#about-uploading-and-publishing-assets}
+# Informationen zum Hochladen und Veröffentlichen von Assets{#about-uploading-and-publishing-assets}
 
-Ihre Arbeit in Dynamic Media Classic fällt in drei grundlegende Bereiche:
+Ihre Arbeit in Dynamic Media Classic umfasst drei grundlegende Bereiche:
 
-* Hochladen von Datei-Assets in das Scene7 Publishing System
+* Hochladen von Dateielementen in Dynamic Media Classic.
 * Verwalten von Dateien, damit daraus Rich-Media-Assets aufgebaut werden können
-* Veröffentlichen Sie Ihre Asset-Dateien auf einem dynamischen Media-Server, damit sie für die Bereitstellung auf Ihrer Website und in Ihrer Anwendung verfügbar sind.
+* Veröffentlichen der Asset-Dateien auf einem Dynamic Media Classic-Server, damit sie für den Versand auf Ihrer Website und in Ihrer Anwendung zur Verfügung stehen.
 
-Wenn Sie Asset-Dateien in SPS hochladen und Asset-Dateien auf dynamischen Media Classic-Servern veröffentlichen, zeichnet das System diese Dateiübertragungen auf der Seite "Aufträge" auf. Sie können diese Seite aufrufen, um Ihre Hochlade- und Veröffentlichungsaktivitäten zu verfolgen.
+Wenn Sie Asset-Dateien in DMC hochladen und Asset-Dateien auf Dynamic Media Classic-Servern veröffentlichen, zeichnet das System diese Dateiübertragungen auf der Seite &quot;Aufträge&quot;auf. Sie können diese Seite aufrufen, um Ihre Hochlade- und Veröffentlichungsaktivitäten zu verfolgen.
 
 >[!NOTE]
 >
@@ -30,4 +33,4 @@ Wenn Sie Asset-Dateien in SPS hochladen und Asset-Dateien auf dynamischen Media 
 
 >[!NOTE]
 >
->Die neue Funktion „Sofortiges Veröffentlichen“ wurde kurz nach der Veröffentlichung von SPS 6.0 eingeführt. Mit dieser Funktion können Sie Assets in nur einem Arbeitsschritt sofort veröffentlichen. Die Einführung der Funktion erfolgt allmählich. Sie ersetzt die Funktion „Zur Veröffentlichung markieren“. Manche Benutzer sehen noch für einige Zeit die derzeitige Benutzeroberfläche und Funktionalität, bis die Funktion auch für sie eingeführt wird. Außerdem verwenden einige Assets die Funktion „Zur Veröffentlichung markieren“ auch nach der Veröffentlichung noch für eine bestimmte Zeit weiter.
+>Kurz nach der Veröffentlichung von DMC 6.0 wurde eine neue Funktion zur sofortigen Veröffentlichung verfügbar gemacht. Diese Funktion, mit der Assets in einem Schritt sofort veröffentlicht werden, wird schrittweise eingeführt und ersetzt die Funktion &quot;Zur Veröffentlichung markieren&quot;. Manche Benutzer sehen noch für einige Zeit die derzeitige Benutzeroberfläche und Funktionalität, bis die Funktion auch für sie eingeführt wird. Außerdem verwenden einige Assets die Funktion „Zur Veröffentlichung markieren“ auch nach der Veröffentlichung noch für eine bestimmte Zeit weiter.
