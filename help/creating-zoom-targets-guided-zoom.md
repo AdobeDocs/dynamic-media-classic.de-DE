@@ -2,15 +2,18 @@
 title: Erstellen von Zoomzielen für geführten Zoom
 seo-title: Erstellen von Zoomzielen für geführten Zoom
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Zoomziele für geführtes Zoomen erstellen.
+seo-description: Erfahren Sie, wie Sie Zoom-Zielgruppen für geführtes Zoomen erstellen.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 6ff0141d1e8e96278b95f61c00602780984aaf67
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 69%
 
 ---
 
@@ -51,9 +54,9 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 
 1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
 
-   * **Größenanpassung** Bewegen Sie den Zeiger über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
+   * **Größenanpassung** Bewegen Sie den Mauszeiger über eine Ecke der Zoom-Zielgruppe und ziehen Sie, um die Zielgruppe zu vergrößern oder zu verkleinern.
 
-   * **Positionierung** Bewegen Sie den Zeiger über das Zoomziel und ziehen Sie es an eine andere Position.
+   * **Positionierung** Bewegen Sie den Zeiger über die Zoomposition und ziehen Sie ihn an eine andere Position.
 
 1. Geben Sie im Feld „Name“ einen Namen für das Zoomziel ein.
 
@@ -62,7 +65,7 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
    >In das Feld „Name“ geben Sie mehr als nur einen Namen ein. Wenn Benutzer den Zeiger über das Zoomziel bewegen, sehen sie, was Sie in das Feld „Name“ eingegeben haben. Geben Sie eine kurze Beschreibung des Zoomziels in das Feld „Name“ ein, damit die Benutzer wissen, auf was sie zoomen können.
 
 1. Optional können Sie im Feld „Benutzerdaten“ entsprechende Informationen eingeben. Dieses Feld dient Website-Designern dazu, dem Zoomziel Informationen hinzuzufügen.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf „**[!UICONTROL Speichern]**“.
 
    Die Koordinaten und Zoomstärke des Zoomziels werden gespeichert. Eine Miniaturansicht Ihres Zoomziels mit dem von Ihnen eingegebenen Namen wird rechts im Anzeigebereich eingeblendet.
 
@@ -74,19 +77,19 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 
 Mit den folgenden Techniken können Sie im Zoomziel-Editor Zoomziele bearbeiten:
 
-* **Positionieren** Sie das Ziel mithilfe der Schaltfläche "Ziel auswählen"(Pfeil) neu, und klicken Sie auf das Ziel, um es auszuwählen. Ziehen Sie das Ziel dann an eine andere Position.
+* **Positionieren** Sie die Zielgruppe über die Schaltfläche &quot; auswählen&quot;(den Pfeil) und klicken Sie auf die Zielgruppe, um sie auszuwählen. Ziehen Sie das Ziel dann an eine andere Position.
 
-* **Wenn Sie die Größe** mit der Schaltfläche "Ziel auswählen"ändern möchten (Pfeil), klicken Sie auf das Ziel, um es auszuwählen. Bewegen Sie den Zeiger dann über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
+* **Durch Klicken** auf die Schaltfläche &quot;Zielgruppe auswählen&quot;(den Pfeil) klicken Sie auf die Zielgruppe, um sie auszuwählen. Bewegen Sie den Zeiger dann über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
 
-* **Löschen** Klicken Sie auf das Miniaturbild des Ziels auf der rechten Seite des Bildschirms. Klicken Sie dann auf Ziel **[!UICONTROL löschen]**.
+* **Löschen** Klicken Sie auf das Miniaturbild der Zielgruppe auf der rechten Seite des Bildschirms. Klicken Sie dann auf Zielgruppe **[!UICONTROL löschen]**.
 
-* **Umbenennen** Klicken Sie auf das Miniaturbild des Ziels auf der rechten Seite des Bildschirms. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
+* **Beim Umbenennen** klicken Sie auf das Miniaturbild der Zielgruppe auf der rechten Seite des Bildschirms. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
 
 ### Kopieren von Zoomzielen {#copying-zoom-targets}
 
 Sie können Zoomziele von einem Bild zu einem anderen kopieren. Kopieren Sie Ziele, wenn zwei Bilder ähnlichen Inhalt haben und ihre Zoomziele zu den gleichen Orten gehören. Um Zoomziele in ein anderes Bild zu kopieren, führen Sie die folgenden Schritte aus:
 
 1. Öffnen Sie das Bild mit den Zoomzielen, die Sie im Zoomziel-Editor kopieren möchten.
-1. Klicken Sie auf Ziele **[!UICONTROL kopieren nach]**.
+1. Klicken Sie auf Zielgruppen **[!UICONTROL kopieren nach]**.
 1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
 
