@@ -2,22 +2,25 @@
 title: Weitergeben von Asset-Änderungen an Peers in Echtzeit
 seo-title: Weitergeben von Asset-Änderungen an Peers in Echtzeit
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Asset-Änderungen für Peers in Echtzeit freigeben.
-uuid: 13 fa 4 f 6 e -66 bf -4682-96 a 9-0 e 7040706 f 53
+seo-description: Erfahren Sie, wie Sie Asset-Änderungen in Echtzeit an andere weitergeben können.
+uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: ca 7 c 8 a 7 f -76 f 4-4 a 25-8 c 36-617 a 029 e 55
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 83%
 
 ---
 
 
 # Weitergeben von Asset-Änderungen an Peers in Echtzeit{#sharing-asset-changes-with-peers-in-real-time}
 
-Wenn mehrere Kopien von Dynamic Media Classic auf einem oder mehreren Computern im selben Unternehmen ausgeführt werden, werden die folgenden Aktionen von einem beliebigen dynamischen Media Classic-Client in Echtzeit mit allen Peer-Clients aktualisiert:
+Wenn mehrere Kopien von Dynamic Media Classic auf einem oder mehreren Computern in derselben Firma ausgeführt werden, werden die folgenden Aktionen von allen Dynamic Media Classic-Clients in Echtzeit mit allen Peer-Clients aktualisiert:
 
 * Bearbeitung eines Assets (Builder, Bild-Editor usw.)
 * Umbenennung eines Assets
