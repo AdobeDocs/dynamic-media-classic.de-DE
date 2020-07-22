@@ -6,23 +6,23 @@ seo-description: Eine Einführung und ein kurzer Beginn zu den Vorlagen aus Grun
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 77%
+source-wordcount: '789'
+ht-degree: 71%
 
 ---
 
 
 # Kurzanleitung: Vorlagen aus Grundelementen{#quick-start-template-basics}
 
-Vorlagen aus Grundelementen sind dynamisch erstellte und adressierbare Bilddateien mit mehreren Ebenen, z. B. in Bildbearbeitungsanwendungen wie Adobe Fotoshop. Im Unterschied zu einer statischen Datei mit Ebenen, z. B. einer PSD-Datei, kann eine Vorlage auch Parameter enthalten. Mithilfe von Parametern können die verschiedenen Aspekte eines Bilds adressiert und angepasst werden.
+Vorlagen aus Grundelementen sind dynamisch erstellte und adressierbare Bilddateien mit mehreren Ebenen, z. B. in Bildbearbeitungsanwendungen wie Adobe Photoshop. Im Unterschied zu einer statischen Datei mit Ebenen, z. B. einer PSD-Datei, kann eine Vorlage auch Parameter enthalten. Mithilfe von Parametern können die verschiedenen Aspekte eines Bilds adressiert und angepasst werden.
 
-Eine Vorlage kann eine beliebige Anzahl von Bildebenen und Textebenen enthalten. Sie können eine statische Datei, die Ebenen enthält, z. B. eine PSD-Datei mit Ebenen, in eine Vorlage konvertieren und in Dynamic Media Classic Vorlagen erstellen. Sie können in Vorlagen auch Textebenen mit den Schriftarten erstellen, die Sie in das Scene7 Publishing System (SPS) hochgeladen haben. Nachdem Sie einer Vorlage Text hinzugefügt haben, können Sie ihn formatieren, indem Sie Ausrichtung, Schriftart, Schriftgröße und Schriftfarbe ändern.
+Eine Vorlage kann eine beliebige Anzahl von Bildebenen und Textebenen enthalten. Sie können eine statische Datei, die Ebenen wie eine PSD-Datei mit Ebenen enthält, in eine Vorlage konvertieren und in Dynamic Media Classic Vorlagen erstellen. Sie können Textebenen in Vorlagen mit Schriftarten erstellen, die Sie in Dynamic Media Classic hochgeladen haben. Nachdem Sie einer Vorlage Text hinzugefügt haben, können Sie ihn formatieren, indem Sie Ausrichtung, Schriftart, Schriftgröße und Schriftfarbe ändern.
 
 Im Anzeigebereich „Parameter“ lassen sich beliebige Aspekte der Vorlage in adressierbare Parameter konvertieren. Auf diese Weise können Sie angeben, welches Bild mit Ebenen bzw. welcher Textwert in der Vorlage verwendet werden soll. Parameter werden mit der URL-Zeichenfolge übergeben, damit Sie das auf dem Image-Server generierte Antwortbild durch dynamisches Ändern eines beliebigen Parameters entsprechend anpassen können.
 
@@ -34,11 +34,11 @@ Diese Kurzanleitung hilft Ihnen, sich schnell mit Vorlagen aus Grundelementen ve
 
 Laden Sie zunächst die PSD-Datei oder die Bilddatei für Ihre Vorlage hoch. Dynamic Media Classic unterstützt neben PSD viele Bilddateiformate, aber verlustfreie TIFF- und PNG-Bilder werden für Vorlagen empfohlen, da sie Transparenz ermöglichen.
 
-Wenn Sie eine Vorlage basierend auf einer PSD-Datei erstellen möchten, wählen Sie beim Hochladen der PSD-Datei im Dialogfeld „Upload-Auftragsoptionen“ die Option „Vorlage erstellen“. Wählen Sie außerdem eine Option für die Ebenenbenennung, um Dynamic Media Classic anzugeben, wie PSD-Ebenen benannt werden, wenn sie in das Scene7 Publishing System hochgeladen werden.
+Wenn Sie eine Vorlage basierend auf einer PSD-Datei erstellen möchten, wählen Sie beim Hochladen der PSD-Datei im Dialogfeld „Upload-Auftragsoptionen“ die Option „Vorlage erstellen“. Wählen Sie außerdem eine Option für die Ebenenbenennung, um Dynamic Media Classic anzuzeigen, wie PSD-Ebenen benannt werden, wenn sie in Dynamic Media Classic hochgeladen werden.
 
 Wenn Sie Bilddateien verwenden, können Sie die Bilder beim Hochladen beschneiden oder eine Maske aus deren Beschneidungspfaden erstellen.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf „Hochladen“, um eine PSD-Datei oder andere Bilddateien von Ihrem Computer in einen Ordner in SPS hochzuladen. Siehe [Hochladen von Vorlagendateien](uploading-template-files.md#uploading_template_files).
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um eine PSD-Datei oder andere Bilddateien von Ihrem Computer in einen Ordner unter Dynamic Media Classic hochzuladen. Siehe [Hochladen von Vorlagendateien](uploading-template-files.md#uploading_template_files).
 
 **2. Erstellen von Vorlagen**
 
@@ -60,7 +60,7 @@ Um eine Ebene zu parametrisieren, öffnen Sie die Vorlage im Anzeigebereich „V
 
 **4. Veröffentlichen von Vorlagen**
 
-Beim Veröffentlichen der Vorlage wird diese auf den Image-Servern für dynamische Medien gespeichert, damit sie dynamisch an Ihre Website oder Anwendung übertragen werden kann. Bei der Veröffentlichung wird auch die URL aktiviert, mit der die Vorlage von den Dynamic Media-Image-Servern für Ihre Website oder Anwendung aufgerufen werden kann.
+Beim Veröffentlichen der Vorlage wird diese auf Dynamic Media-Image-Servern gespeichert, damit sie dynamisch an Ihre Website oder Anwendung übertragen werden kann. Bei der Veröffentlichung wird auch die URL aktiviert, mit der die Vorlage von den Dynamic Media-Image-Servern für Ihre Website oder Anwendung aufgerufen werden kann.
 
 Achten Sie darauf, alle Bilder zu veröffentlichen, die der Vorlage zugeordnet sind.
 
@@ -68,6 +68,6 @@ Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und
 
 **5. Verknüpfen einer Vorlage mit einer Website**
 
-Dynamic Media Classic erstellt URLs für Vorlagen und aktiviert die URLs, wenn Sie Vorlagen auf den Image-Servern für dynamische Medien veröffentlichen. Sie können diese URL-Zeichenfolgen im Anzeigebereich „Vorschau für Vorlagen“ kopieren.
+Dynamic Media Classic erstellt URLs für Vorlagen und aktiviert die URLs, wenn Sie Vorlagen auf Dynamic Media-Image-Servern veröffentlichen. Sie können diese URL-Zeichenfolgen im Anzeigebereich „Vorschau für Vorlagen“ kopieren.
 
 Wählen Sie im Durchsuchenbedienfeld die Vorlage aus und klicken Sie auf „Vorschau“, um den Anzeigebereich „Vorschau für Vorlagen“ zu öffnen. Wählen Sie anschließend eine Bildvorgabe zum Übertragen der Vorlage aus und klicken Sie auf „URL kopieren“. Die URL, die Sie im Anzeigebereich „Vorschau“ kopiert haben, können Sie anschließend auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Website](linking-template-web-page.md#linking_a_template_to_a_web_page).
