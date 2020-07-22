@@ -1,35 +1,38 @@
 ---
-title: Veröffentlichen von E-Katalogen und verknüpften pdfs
-seo-title: Veröffentlichen von E-Katalogen und verknüpften pdfs
+title: Veröffentlichen von E-Katalogen und zugehörigen PDF-Dateien
+seo-title: Veröffentlichen von E-Katalogen und zugehörigen PDF-Dateien
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie E-Kataloge und zugehörige pdfs veröffentlichen.
-uuid: 6 f 2 f 2 c 79-921 a -4096-8 f 80-24 e 69 c 8983 fa
+seo-description: Erfahren Sie, wie Sie E-Kataloge und zugehörige PDFs veröffentlichen.
+uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/ecatalogs
-discoiquuid: 76 e 5732 a -83 c 6-4 e 6 b-a 29 f-a 393 b 1 c 971 aa
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
 
-# Veröffentlichen von E-Katalogen und verknüpften pdfs{#publishing-ecatalogs-and-associated-pdfs}
+# Veröffentlichen von E-Katalogen und zugehörigen PDF-Dateien{#publishing-ecatalogs-and-associated-pdfs}
 
-Beim Veröffentlichen werden E-Katalog und PDF auf dynamischen Medienservern gespeichert, damit sie Ihrer Website oder Anwendung zur Verfügung gestellt werden können. Während des Veröffentlichungsvorgangs aktiviert das Scene7 Publishing System die URL-Zeichenfolge, die Sie anschließend in den HTML-Code der Website einfügen können.
+Beim Veröffentlichen werden der E-Katalog und die PDF-Datei auf Dynamic Media-Image-Servern gespeichert, damit sie Ihrer Website oder Anwendung zur Verfügung gestellt werden können. Während des Veröffentlichungsvorgangs aktiviert Dynamic Media Classic die URL-Zeichenfolge. die Sie anschließend in den HTML-Code der Website einfügen können.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass der E-Katalog und die PDF-Datei sich im selben Ordner befinden und im Durchsuchenbedienfeld oder auf der Seite "Asset-Details" zur Veröffentlichung markiert werden, bevor Sie sie veröffentlichen.
+>Vergewissern Sie sich, dass sich der E-Katalog und die PDF-Datei im selben Ordner befinden und im Durchsuchenbedienfeld oder auf der Seite &quot;Asset-Details&quot;zur Veröffentlichung markiert sind, bevor Sie sie veröffentlichen.
 
-So veröffentlichen Sie E-Kataloge auf dynamischen Medienservern:
+So veröffentlichen Sie den E-Katalog auf Dynamic Media-Image-Servern:
 
 1. Click **Publish** on the Global Navigation bar.
 1. Wählen Sie im Anzeigebereich „Veröffentlichen“ eine der „Wann“-Optionen („Einmalig“ oder „Wiederkehrend“).
 1. (Optional) Sie können einen Namen für den Veröffentlichungsauftrag eingeben. Lassen Sie die aus Datum und Uhrzeit bestehende Zeitmarke jedoch unverändert.
 
-   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Klicken Sie auf Erweitert und dann auf Erweiterte Optionen. Klicken Sie im Dropdown-Menü Veröffentlichen auf Full W/Search Data. Diese Option ist standardmäßig aktiviert.
+   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Klicken Sie auf Erweitert und dann auf Erweiterte Optionen. Klicken Sie im Dropdown-Menü Veröffentlichen auf Vollständige Suchdaten. Diese Option ist standardmäßig aktiviert.
 
 1. Click **Start Publish**.
 
