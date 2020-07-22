@@ -3,14 +3,17 @@ title: Verwalten von FTP-Konten
 seo-title: Verwalten von FTP-Konten
 description: 'null'
 seo-description: Erfahren Sie, wie Sie FTP-Konten verwalten.
-uuid: c 9410 f 44-14 bf -4 f 55-a 199-f 0 f 0 de 459219
+uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: d 592 f 0 a 7-1 c 27-4463-998 a -07351147 da 1 d
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +26,7 @@ Denken Sie daran, dass Sie bestehende Media Portal-Benutzer über die Seite „B
 
 Siehe [Aktivieren oder Deaktivieren von Benutzern](administration-setup.md#activating_or_deactivating_users).
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Media Portal“** &gt; **„FTP-Konten“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Media Portal“** > **„FTP-Konten“**.
 1. Wählen Sie auf der Seite „FTP-Konto hinzufügen“ in der Dropdown-Liste „Benutzername für FTP-Konten“ einen Benutzer aus.
 
    Wenn ein Benutzer nicht aufgeführt ist, müssen Sie ihn u. U. zuerst über die Administrationseinstellungen als einen Media Portal-Admin, einen Media Portal-Mitarbeiter-Benutzer oder einen Media Portal-Mitarbeiter hinzufügen. Nachdem Sie den Benutzer mit der entsprechenden Rolle hinzugefügt haben, ist der Benutzername in der Dropdown-Liste verfügbar.
@@ -39,7 +42,7 @@ Siehe [Aktivieren oder Deaktivieren von Benutzern](administration-setup.md#activ
 
 ## Löschen eines bestehenden FTP-Kontos {#deleting-an-existing-ftp-account}
 
-1. Klicken Sie auf **„Einstellungen“** &gt; **„Media Portal“** &gt; **„FTP-Konten“**.
+1. Klicken Sie auf **„Einstellungen“** > **„Media Portal“** > **„FTP-Konten“**.
 1. Wählen Sie auf der Seite „FTP-Konto hinzufügen“ in der Tabelle „Vorhandene Konten“ das FTP-Konto aus, das Sie entfernen möchten.
 1. Klicken Sie auf „**Löschen**“.
 
