@@ -6,21 +6,21 @@ seo-description: Erfahren Sie, wie Sie einen E-Katalog mit einer Webseite verkn�
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 91%
+source-wordcount: '678'
+ht-degree: 87%
 
 ---
 
 
 # Verknüpfen eines E-Katalogs mit einer Website{#linking-an-ecatalog-to-a-web-page}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media wie den Image-Server-Inhalt, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den Einbettungscode für den E-Katalog auf den Websites und in den Anwendungen einzufügen, können Sie sie/ihn im Scene7 Publishing System kopieren.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media wie den Image-Server-Inhalt, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für den E-Katalog auf Ihren Webseiten und in Ihren Anwendungen einzufügen, kopieren Sie ihn bzw. ihn aus Dynamic Media Classic.
 
 >[!NOTE]
 >
