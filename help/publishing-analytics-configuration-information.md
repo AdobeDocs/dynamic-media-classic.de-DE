@@ -2,26 +2,29 @@
 title: Veröffentlichen von Adobe Analytics-Konfigurationsinformationen
 seo-title: Veröffentlichen von Adobe Analytics-Konfigurationsinformationen
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Adobe Analytics-Konfigurationsinformationen veröffentlichen.
-uuid: 39 b 1 c 2 bd -8 eb 8-43 a 8-9482-9623115 c 5374
+seo-description: Hier erfahren Sie, wie Sie Adobe Analytics-Konfigurationsinformationen veröffentlichen.
+uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: deeb 9 fed-ef 27-4 d 58-af 98-f 381 de 33 c 431
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 46%
 
 ---
 
 
 # Veröffentlichen von Adobe Analytics-Konfigurationsinformationen{#publishing-adobe-analytics-configuration-information}
 
-Veröffentlichen Sie Ihre dynamischen Media Classic-Viewer, damit Informationen zum Konfigurieren von Adobe Analytics-Berichten an dynamische Media-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf dynamischen Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
+Veröffentlichen Sie Ihre Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an die Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf den Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
 
 >[!NOTE]
 >
->Wenn Sie Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, müssen Sie sich unbedingt wieder vom Adobe Scene7 Publishing System aus bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen erneut speichern und dann die Veröffentlichung erneut durchführen.
+>Wenn Sie die Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, stellen Sie sicher, dass Sie sich von Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen erneut speichern und dann erneut veröffentlichen.
 
 Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
