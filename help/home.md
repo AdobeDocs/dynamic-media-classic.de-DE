@@ -3,11 +3,11 @@ title: Technische Dokumentation zu Dynamic Media Classic
 seo-title: Technische Dokumentation und Selbsthilfe für Adobe Dynamic Media Classic
 description: Technische Dokumentation zu Dynamic Media Classic
 seo-description: 'Technische Dokumentation, Versionshinweise und Selbsthilfematerialien für Adobe Dynamic Media Classic, früher Scene7 '
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 11%
 
 ---
@@ -33,7 +33,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates ab 7. Mai 2020.
 * [Monatlicher Dynamic Media-Newsletter](dynamic-media-newsletter.md)
 * [Handbuch: Best Practices für die Verwendung von Dynamic Media Classic](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
 * [Handbuch: Best Practices für das Scharfzeichnen von Bildern](/help/assets/s7_sharpening_images.pdf)
-* [Handbuch: Wie Adobe Dyanmic Media Classic SEO](/help/assets/s7_seo.pdf) unterstützt - Suchmaschinen ermöglichen heute die Suche nach Websites und Bildern. SPS unterstützt Bemühungen, Bilder suchmaschinenfreundlich zu gestalten, sodass mehr Traffic auf die Website des Dynamic Media Classic-Benutzers geleitet wird. Dieses Handbuch in PDF enthält Hintergrund- und Implementierungsempfehlungen, um dies zu erreichen.
+* [Handbuch: Wie Adobe Dyanmic Media Classic SEO](/help/assets/s7_seo.pdf) unterstützt - Suchmaschinen ermöglichen heute die Suche nach Websites und Bildern. Dynamic Media Classic unterstützt Bemühungen, Bilder suchmaschinenfreundlich zu gestalten, sodass mehr Traffic zur Website des Dynamic Media Classic-Benutzers geleitet wird. Dieses Handbuch in PDF enthält Hintergrund- und Implementierungsempfehlungen, um dies zu erreichen.
 * [Webinar: Best Practices für reaktionsfähiges Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Erfahren Sie mehr über praktische Tipps zur Verbesserung Ihrer Mobilstrategie. Sie lernen echte Beispiele interaktiver Designs kennen. Erstellen Sie ein Master-Asset, das auf verschiedenen Geräten funktoniert, und erhöhen Sie die Leistung auf Mobilgeräten, indem Sie die Auflösung oder Ausrichtung von Bildern dynamisch für Geräte im Hoch- oder Querformat anpassen. Erfahren Sie außerdem, wie Sie Bilder dynamisch beschneiden, skalieren oder in der Größe anpassen.
 * [Webinar: Best Practices bieten interaktive Erlebnisse mit Dynamic Media Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/) - Erfahren Sie, wie Sie Inhalte in und aus Dynamic Media Classic abrufen und wie Sie Bildvorgaben für optimale Leistung und Erlebnisse einrichten. Außerdem erfahren Sie mehr zu Viewer-Vorgaben und Caching-Konfigurationen.
 * [Webinar: Maximieren der Asset-Rendite](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) - Erfahren Sie, welche Best Practices in der Branche zur Bereitstellung von Rich-Media-Inhalten für Ihre Sites und mobilen Apps zur Verfügung stehen. In diesem Webinar zeigen wir Ihnen anhand von Beispielen und Demonstrationen, wie Sie Videos effizient geräteübergreifend bereitstellen, dynamische Kreativelemente in Ihren Marketing-Kampagnen bereitstellen und die Konvertierung steigern können, indem Sie Bilder, Stilvorlagen oder Lookbook als Einzelbild verwenden.
