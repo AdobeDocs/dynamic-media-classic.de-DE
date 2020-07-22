@@ -2,22 +2,25 @@
 title: Suchen nach Assets
 seo-title: Suchen nach Assets
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Assets suchen.
-uuid: 058209 bc-bac 4-4 d 5 c -8261-e 242 a 543 beaf
+seo-description: Erfahren Sie, wie Sie nach Assets suchen.
+uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/managing_ assets
-discoiquuid: effef 4 e 7-37 c 5-42 e 2-9266-ecd 26 cad 628
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 77%
 
 ---
 
 
 # Suchen nach Assets{#searching-assets}
 
-Für die Suche nach Datei-Assets im Scene7 Publishing System können Sie Assets nach Typ anzeigen, Assets im Bedienfeld „Durchsuchen“ sortieren, eine einfache oder erweiterte Suche durchführen und nach Assets filtern.
+Um Dateielemente in Dynamic Media Classic zu finden, können Sie Assets nach Typ sortieren, Assets im Durchsuchenbedienfeld sortieren, eine einfache Suche durchführen, eine erweiterte Suche durchführen und nach Assets filtern.
 
 >[!NOTE]
 >
@@ -58,21 +61,21 @@ Klicken Sie in der Asset-Bibliothek auf „Erweiterte Suche“, wenn Sie die Mö
 
 Legen Sie nach Bedarf die folgenden Suchkriterien fest:
 
-**Filtern Sie Ihre Suche nach Asset-Typ** auf einen Asset-Typ, indem Sie einen Asset-Typ im Menü auswählen.
+**Nach Asset-Typ** filtern Schränken Sie Ihre Suche auf einen Asset-Typ ein, indem Sie im Menü einen Asset-Typ auswählen.
 
 **Dateien und Ordner** Wählen Sie aus, wo Sie suchen möchten: In allen Dateien und Ordnern, im ausgewählten Ordner oder in ausgewählten Ordnern und Unterordnern.
 
-**Alle Veröffentlichungsstatus-Suchen** nach Dateien, die als veröffentlichungsbereit markiert sind, sind nicht zur Veröffentlichung markiert oder alle Dateien.
+**Alle Veröffentlichungszustände** Suchen nach Dateien, die als veröffentlichungsbereit markiert sind, sind nicht als veröffentlichungsbereit markiert oder alle Dateien.
 
-**Bedingungen** , wenn Sie Metadatenkriterien für die Suche angeben, legen Sie fest, ob die Suche mit allen Bedingungen (EINE Suche) oder einer beliebigen Bedingung (ODER-Suche) übereinstimmen muss.
+**Bedingungen** Wenn Sie Metadaten-Kriterien für die Suche angeben, wählen Sie aus, ob die Suche allen Bedingungen (eine ALL-Suche) oder einer Bedingung (eine ODER-Suche) entsprechen muss.
 
-**Festlegen von Suchkriterien für Metadaten** Erstellen Sie ein oder mehrere Suchfelder zur Suche nach Metadaten. So erstellen Sie Suchfelder
+**Suchkriterien** für Metadaten festlegen Erstellen Sie ein oder mehrere Suchfelder zum Durchsuchen von Metadaten. So erstellen Sie Suchfelder
 
 1. Öffnen Sie die Liste „Metadatenansicht“ (links neben dem Menü „Feld hinzufügen“) und wählen Sie eine Metadatenansicht. Sie können die Kompaktansicht, IPTC-, XMP-Ansicht oder eine Ansicht wählen, die Ihr Administrator eingerichtet hat.
 1. Wählen Sie im Menü „Feld hinzufügen“ einen Feldnamen aus.
 1. Wählen Sie für ein Textfeld eine der „Enthält“-Optionen aus („Enthält“, „Enthält nicht“, „Beginnt mit“, „Endet mit“ oder „Entspricht“).
 1. Wählen Sie bei numerischen Feldern einen Wert oder geben Sie einen Datumsbereich ein.
-1. (Optional) Wiederholen Sie die Schritte 1-4, um weitere Suchfelder zu erstellen.
+1. (Optional) Wiederholen Sie die Schritte 1 bis 4, um weitere Suchfelder zu erstellen.
 
 Sie können auf „Suchfeld entfernen“ klicken, um ein Suchfeld zu entfernen.
 
@@ -106,16 +109,15 @@ Führen Sie die folgenden Schritte aus, um Assets durch Filtern ihrer Metadatenw
 
 1. Klicken Sie in einem Bedienfeld auf die Feldschaltfläche  und gehen Sie folgendermaßen vor, um das Filtermenü anzuzeigen und den Filtervorgang zu erstellen:
 
-   **Auswählen
-eines Metadatenfelds** Wählen Sie den Feldnamen im Filtermenü aus.
+   **Auswählen eines Metadatenfelds** Wählen Sie den Namen des Felds im Filtermenü aus.
 
-   ***Hinweis**: Im Filtermenü werden nur die Namen der Metadatenfelder in der standardmäßigen Metadatenansicht angezeigt.*
+   ***Hinweis **: Im Filtermenü werden nur die Namen der Metadatenfelder in der standardmäßigen Metadaten-Ansicht angezeigt.*
 
    Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
 
-   **Hinzufügen eines Metadatenfelds** Wählen Sie "Bedienfeld hinzufügen" . Wenn das Bedienfeld im Filterfenster angezeigt wird, klicken Sie auf die Feldschaltfläche und wählen Sie den Namen eines Metadatenfelds aus dem Filtermenü aus.
+   **Hinzufügen eines Metadatenfelds** Wählen Sie Hinzufügen Bedienfeld aus. Wenn das Bedienfeld im Filterfenster angezeigt wird, klicken Sie auf die Feldschaltfläche und wählen Sie den Namen eines Metadatenfelds aus dem Filtermenü aus.
 
-   **Entfernen eines Metadatenfelds** Wählen Sie im Filtermenü die Option "Dieses Bedienfeld entfernen" .
+   **Wenn Sie ein Metadatenfeld** entfernen möchten, wählen Sie im Filtermenü die Option &quot;Bedienfeld entfernen&quot;.
 
    Wenn Sie ein Metadatenfeld auswählen, werden folgende Informationen im Bedienfeld aufgelistet:
 
@@ -137,28 +139,27 @@ eines Metadatenfelds** Wählen Sie den Feldnamen im Filtermenü aus.
 
 Befolgen Sie diese Anweisungen auf der Registerkarte „Filter“, um Filtervorgänge zu speichern, zu wiederholen und zu löschen:
 
-**Speichern eines Filtervorgangs** Klicken Sie auf die Schaltfläche "Vorgabe auswählen" , wählen Sie" Aktuelle Vorgabe als neue Vorgaben speichern" und geben Sie im Dialogfeld "Speichern" einen Namen ein.
+**Speichern eines Filtervorgangs** Klicken Sie auf die Schaltfläche &quot;Vorgabe auswählen&quot;, wählen Sie &quot;Aktuelle Auswahl als neue Vorgaben speichern&quot;und geben Sie im Dialogfeld &quot;Speichern&quot;einen Namen ein.
 
-**Wiederholen eines Filtervorgangs** Klicken Sie auf die Schaltfläche "Vorgabe auswählen" und wählen Sie den Namen eines Filtervorgangs im Menü aus. Im Menü sind von Ihnen gespeicherte Filtervorgänge aufgelistet.
+**Wiederholen eines Filtervorgangs** Klicken Sie auf die Schaltfläche &quot;Vorgabe auswählen&quot;und wählen Sie im Menü den Namen eines Filtervorgangs aus. Im Menü sind von Ihnen gespeicherte Filtervorgänge aufgelistet.
 
-**Löschen eines Filtervorgangs über das Menü** "Vorgabe
-auswählen" Führen Sie den Filtervorgang aus. Klicken Sie dann auf die Schaltfläche „Vorgabe auswählen“ und wählen Sie im Menü die Option „Vorgabe löschen“.
+**Löschen eines Filtervorgangs aus dem Menü &quot;Vorgabe** auswählen&quot;Ausführen des Filtervorgangs. Klicken Sie dann auf die Schaltfläche „Vorgabe auswählen“ und wählen Sie im Menü die Option „Vorgabe löschen“.
 
 ## Verwenden des Metadatenservers {#using-the-metadata-server}
 
 Beim Metadatenserver handelt es sich um eine öffentliche API, die Sie verwenden können, um Assets anhand von Metadaten mithilfe von HTTP-Anfragen zu suchen.
 
-Klicken Sie zum Konfigurieren des Metadatenservers auf „Einstellungen“ &gt; „Anwendungseinstellungen“ &gt; „Veröffentlichungseinstellungen“ &gt; „Metadatenserver“.
+Klicken Sie zum Konfigurieren des Metadatenservers auf „Einstellungen“ > „Anwendungseinstellungen“ > „Veröffentlichungseinstellungen“ > „Metadatenserver“.
 
 Das Fenster „Veröffentlichung zum Metadatenserver“ wird geöffnet. In diesem Fenster können Sie folgende Optionen festlegen:
 
-**Durch die sofortige Veröffentlichung** werden alle Metadaten bei der Erstellung automatisch gepusht, einschließlich neuer Assets, Suchbegriffänderungen usw.
+**Sofortige Veröffentlichung** Dient zum automatischen Verschieben von Änderungen an Metadaten, einschließlich neuer Assets, Suchbegriffänderungen usw.
 
-**XMP Packet** veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, stellt jedoch die aktuellsten XMP-Daten bereit.
+**XMP-Paket** Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, stellt jedoch die aktuellsten XMP-Daten bereit.
 
-**Suchbegriffe** Veröffentlicht Ihre Suchbegriffe auf den Metadatenserver, um sie in Suchvorgängen zu verwenden.
+**Suchbegriffe** Veröffentlicht Ihre Suchbegriffe zur Verwendung bei Suchvorgängen auf dem Metadatenserver.
 
-**Metadatenserver-Veröffentlichungsfelder** Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. So können Sie festlegen, welche Informationen zu Ihren Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
+**Veröffentlichungsfelder** des Metadatenservers Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. So können Sie festlegen, welche Informationen zu Ihren Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
 
 Click **Publish Now** to start the job. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
 
