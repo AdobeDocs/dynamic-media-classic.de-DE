@@ -6,14 +6,14 @@ seo-description: Alle Benutzer können die Einstellungen im Anzeigebereich "Pers
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 83%
+source-wordcount: '1194'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von
 
 >[!NOTE]
 >
->Im Anzeigebereich „Persönliche Einstellungen“ ist die Benutzerrolle angegeben, die Ihnen im Scene7 Publishing System zugeordnet ist: „Unternehmensadministrator“, „Administrator“ oder „Benutzer“.
+>Im Anzeigebereich &quot;Persönliche Einstellungen&quot;wird die Benutzerrolle Liste, die Sie in Dynamic Media Classic haben: Firma Administrator, Administrator oder User.
 
 Die persönlichen Einstellungen steuern das Standardverhalten des Durchsuchenbedienfelds, den E-Mail-Empfang und die Kennworteinstellungen. Vergessen Sie nicht, nach dem Ändern dieser Einstellungen auf „Speichern“ zu klicken.
 
@@ -34,11 +34,11 @@ Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewi
 
 ### Desktop-Version
 
-Um die Desktop-Version vom Scene 7 Publishing System auf Ihrem lokalen Festplattenlaufwerk zu installieren, klicken Sie auf „Jetzt installieren“. Alternativ dazu können Sie auf „Jetzt neu installieren“ klicken, um die Desktop-Version erneut zu installieren.
+Klicken Sie auf Jetzt installieren, um die Desktop-Version von Dynamic Media Classic auf Ihrer lokalen Festplatte zu installieren. Alternativ dazu können Sie auf „Jetzt neu installieren“ klicken, um die Desktop-Version erneut zu installieren.
 
 ## So installieren Sie das Zusatzmodul auf Ihrer lokalen Festplatte
 
-1. Klicken Sie im Scene7 Publishing System auf der Seite „Persönliche Einstellungen“ unter dem Illustrator-Zusatzmodul für Web-to-Print auf **Jetzt herunterladen**, um die Datei **Illustrator Plug-in for Web-to-Print.zip** herunterzuladen.
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. Entpacken Sie die ZIP-Datei in einen temporären Ordner.
 
    Im Stammverzeichnis der entpackten ZIP-Datei ist eine Readme-Datei enthalten, in der Sie zusätzliche Informationen zum Zusatzmodul finden.
@@ -83,8 +83,6 @@ Das Zusatzmodul ist nun in Adobe Illustrator verfügbar und kann verwendet werde
    * Zeigt hinter Bildern eine Ebene mit Schachbrettmuster an, sodass bei Bildern mit Alpha-Kanal die transparenten Bereiche leicht erkennbar sind.
 * **Dateigröße anzeigen**
    * Zeigt beim Durchsuchen die Dateigröße eines Assets an.
-* **Beim Verlassen von SPS bestätigen**
-   * Zeigt ein Bestätigungsfenster an, bevor Sie das Scene7 Publishing System verlassen.
 * **Ben.-def. Felder in Suche einschließen**
    * Deaktiviert (Standard), um die Systemleistung bei den meisten möglichen Metadaten-Suchen zu verbessern.
 
@@ -106,7 +104,7 @@ Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields)
 ## E-Mail an Freunde senden
 
 * **E-Mail-Optionen**
-   * Wählen Sie aus, wie Sie von Dynamic Media Classic per E-Mail informiert werden möchten, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
+   * Wählen Sie aus, wie Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
 * **E-Mail-Umfang**
    * Legt fest, ob Sie E-Mails für alle Aufträge Ihres Unternehmens erhalten möchten oder nur für Upload-Aufträge und Veröffentlichungsaufträge, die Sie selbst gestartet haben.
 * **E-Mail-Typen**
