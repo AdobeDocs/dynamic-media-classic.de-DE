@@ -2,15 +2,18 @@
 title: Anpassen der Oberfläche von Media Portal
 seo-title: Anpassen der Oberfläche von Media Portal
 description: 'null'
-seo-description: Erfahren Sie, wie Sie den Media Portal-Bildschirm anpassen.
-uuid: bd 1 a 65 a 6-723 b -49 d 0-8 eac -849 da 00 e 0 e 1 a
+seo-description: Erfahren Sie, wie Sie den Anzeigebereich "Media Portal"anpassen.
+uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 8 b 000 c 25-c 9 c 3-481 e -9 b 25-96257471571 f
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 53%
 
 ---
 
@@ -19,23 +22,23 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Portal mit eigenen Unternehmenslogos und Farben anpassen. Verwenden Sie die Stileinstellungen, um Media Portal an das Erscheinungsbild Ihres Unternehmens anzupassen.
 
-Um die Stileinstellungen aufzurufen, wählen Sie **„Einstellungen“**“ &gt; **„Media Portal-Einrichtung“** &gt; **„Stil-Einstellungen“**. Klicken Sie auf **„Speichern“**, um vorgenommene Einstellungen zu speichern. Sie können auf **„Wiederherstellen “** klicken, um wieder zu den Standardeinstellungen zurückzukehren. Im Bereich „Vorschau“ sehen Sie, wie sich jede vorgenommene Änderung auswirkt.
+Um die Stileinstellungen aufzurufen, wählen Sie **„Einstellungen“**“ > **„Media Portal-Einrichtung“** > **„Stil-Einstellungen“**. Klicken Sie auf **„Speichern“**, um vorgenommene Einstellungen zu speichern. Sie können auf **„Wiederherstellen “** klicken, um wieder zu den Standardeinstellungen zurückzukehren. Im Bereich „Vorschau“ sehen Sie, wie sich jede vorgenommene Änderung auswirkt.
 
-**Logo** klicken Sie auf "Durchsuchen" und wählen Sie im Fenster" Logo-Bild auswählen" eine Grafik aus.
+**Logo** Klicken Sie auf &quot;Durchsuchen&quot;und wählen Sie im Fenster &quot;Logo-Bild auswählen&quot;eine Grafik aus.
 
-**Mit** den Menüs Hintergrundverlaufsfarben können Sie eine Verlaufsfarbe erstellen.
+**Anwendung** Erstellen Sie eine Verlaufsfarbenmischung, indem Sie im Menü &quot;Hintergrundverlaufsfarben&quot;eine Auswahl treffen.
 
-**Baum** wählen Sie eine Rollover-Farbe (die Farbe, die angezeigt wird, wenn Sie den Mauszeiger über ein Element bewegen) und die Auswahlfarbe (die beim Auswählen eines Elements angezeigte Farbe).
+**Baum** Wählen Sie eine Rollover-Farbe (die beim Bewegen des Mauszeigers über ein Element angezeigt wird) und eine Auswahlfarbe (die bei Auswahl eines Elements angezeigt wird).
 
-**Akkordeon** Wählen Sie Hintergrundfarben, einen Randstil und Rollover und ausgewählte Farben für das Akkordeon aus, das auf der rechten Seite des Bildschirms in der Detailansicht angezeigt wird.
+**Akkordeon** Wählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und Auswahlfarben für das Akkordeon aus, das rechts im Bildschirm in der Ansicht &quot;Details&quot;angezeigt wird.
 
-**Akkordeon-Header** Wählen Sie aus, ob Text fett hervorgehoben werden soll.
+**Akkordeon-Kopfzeile** Wählen Sie aus, ob Text in der Akkordeon-Kopfzeile formatiert werden soll.
 
-**Datagrid** Wählen Sie Farben für die Kopfzeile in Datenrastern aus.
+**DataGrid** Wählen Sie die Farben für die Kopfzeile in den Datenrasten.
 
-**Warnung** Wählen Sie eine Hintergrundfarbe für Warnmeldungsfelder.
+**Warnung** Wählen Sie eine Hintergrundfarbe für Warnmeldungen.
 
-**Fortschrittsleiste** Wählen Sie eine Farbe für die Leiste aus, die den Fortschritt beim Hochladen und Herunterladen anzeigt.
+**Fortschrittsleiste** Wählen Sie eine Farbe für die Leiste, die den Fortschritt von Uploads und Downloads anzeigt.
 
 For Media Portal users to see the style settings you choose, they must append `?company=(company name)` to the URL with which they access Media Portal. Um die Stileinstellungen anzuzeigen, müssten Media Portal-Benutzer, die auf das Unternehmen PortalCo unter:
 
