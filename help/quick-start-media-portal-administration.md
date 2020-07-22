@@ -1,27 +1,30 @@
 ---
-title: '" Kurzanleitung: Media Portal "'
-seo-title: '" Kurzanleitung: Media Portal "'
+title: '"Beginn: Media Portal"'
+seo-title: '"Beginn: Media Portal"'
 description: 'null'
-seo-description: Eine Einführung und Kurzanleitung zu Media Portal, mit der Sie schnell mit Media Portal-Techniken und -administration vertraut sind.
-uuid: 0 dbd 6146-b 392-4 e 03-955 b -0 b 323 b 654 b 9 f
+seo-description: Einführung und Quick Beginn zu Media Portal, mit dem Sie sich schnell mit den Media Portal-Techniken und der Verwaltung vertraut machen können.
+uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/media_ portal
-discoiquuid: 1385 a 092-0 b 2 c -4 e 05-ad 1 e-ce 3685022300
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 84%
 
 ---
 
 
 # Quick Start: Media Portal{#quick-start-media-portal}
 
-Mit Media Portal können Unternehmen ganz einfach kreative Assets erwerben, kontrollieren und an externe Partner und Kanäle sowie an interne Geschäftsbenutzer verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern mit von Administratoren gesteuerten "Ansichten" für einfache Zugriff auf dynamische Medien Classic-Assets einen einfachen Zugriff auf, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in den vom Unternehmen genehmigten Formaten.
+Mit Media Portal können Firmen ganz einfach kreative Assets erwerben, steuern und an externe Partner und Kanal sowie interne Geschäftsbenutzer verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern mit von Administratoren gesteuerten &quot;Ansichten&quot;einfachen Zugriff auf Dynamic Media Classic-Assets, Durchsuchen, Suchen, Vorschauen und Exportieren von Assets in vom Unternehmen genehmigten Formaten.
 
 Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Außerdem können Sie die Oberfläche von Media Portal an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe und Schriftgröße festlegen sowie markenspezifische Elemente, wie z. B. Logos, in die Oberfläche von Media Portal integrieren.
 
-**Kurzanleitung**
+**Quick Beginn**
 
 Diese Kurzanleitung hilft Ihnen, sich schnell mit der Media Portal-Administration vertraut zu machen. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
 
@@ -45,7 +48,7 @@ Siehe [Hinzufügen und Verwalten von Media Portal-Benutzern](adding-media-portal
 
 **4. Verwalten von FTP-Konten**
 
-Sie können separate FTP-Konten haben, die mit Media Portal verbunden und einem bestimmten Ordner in Ihrem Scene7 Publishing System-Konto zugeordnet sind. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
+Sie können über separate FTP-Konten verfügen, die mit Media Portal verknüpft sind und einem bestimmten Ordner in Ihrem Dynamic Media Classic-Konto zugeordnet sind. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
 
 Siehe [Verwalten von FTP-Konten](ftp-accounts.md#managing_ftp_accounts).
 
