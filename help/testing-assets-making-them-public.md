@@ -3,21 +3,24 @@ title: Testen von Assets vor dem Veröffentlichen
 seo-title: Testen von Assets vor dem Veröffentlichen
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Assets testen, bevor Sie sie veröffentlichen.
-uuid: 5 e 8 f 3 bec -6 cf 1-408 e -8 ea 1-aebde 0012 a 70
+uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/upload_ and_ publish_ assets
-discoiquuid: 52 fadf 99-7 d 11-46 f 7-8483-a 9 f 87 ffc 2 f 67
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 67%
 
 ---
 
 
 # Testen von Assets vor dem Veröffentlichen {#testing-assets-before-making-them-public}
 
-Mit Secure Testing können Sie eine sichere Testumgebung definieren und eine robuste B2B-Lösung erstellen, die auf einem konfigurierbaren Satz aus IP-Adressen und -Bereichen basiert. Mit dieser Funktion können Sie Ihre Implementierungen für dynamische Medien mit der Architektur Ihrer Content-Management- und Commerce-Plattformen vergleichen.
+Mit Secure Testing können Sie eine sichere Testumgebung definieren und eine robuste B2B-Lösung erstellen, die auf einem konfigurierbaren Satz aus IP-Adressen und -Bereichen basiert. Mit dieser Funktion können Sie Ihre Dynamic Media Classic-Bereitstellungen mit der Architektur Ihrer Content-Management- und Commerce-Plattform abgleichen.
 
 Mit Secure Testing können Sie eine Vorabversion (Staging) der Website mit unveröffentlichtem Inhalt in der Vorschau anzeigen.
 
@@ -29,23 +32,23 @@ Möglicherweise bevorzugen Sie aus folgenden Gründen das Erstellen einer Stagin
 
 >[!NOTE]
 >
->Secure Testing beeinträchtigt nicht den Zugriff auf das Scene7 Publishing System. Die SPS-Sicherheit bleibt erhalten und erfordert die üblichen Zugangsdaten für SPS und entsprechende Webdienste.
+>Secure Testing beeinträchtigt nicht den Zugriff auf Dynamic Media Classic. Dynamic Media Classic Security bleibt konsistent und erfordert die üblichen Anmeldeinformationen für den Zugriff auf Dynamic Media Classic und zugehörige Webdienste.
 
 ## Funktionsweise von Secure Testing {#how-secure-testing-works}
 
 Die meisten Unternehmen haben eine Firewall für den Internetzugriff. Der Zugriff auf das Internet ist damit auf bestimmten Routen möglich und normalerweise auf bestimmte öffentliche IP-Adressen beschränkt.
 
-Über Ihr Unternehmensnetzwerk können Sie Ihre öffentliche IP-Adresse mithilfe von Websites wie https://whatismyip.com herausfinden oder diese Informationen von Ihrer IT-Abteilung anfordern.
+In Ihrem Unternehmensnetzwerk können Sie Ihre öffentliche IP-Adresse mithilfe von Websites wie https://whatismyip.com herausfinden oder diese Informationen bei Ihrer IT-Abteilung anfordern.
 
-Mit Secure Testing erstellt Dynamic Media Classic einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen. Mit jeder Anforderung bei diesem Server wird die Original-IP-Adresse überprüft. Wenn die eingehende Anforderung nicht auf der genehmigten Liste der IP-Adressen steht, wird eine Fehlerantwort zurückgesendet. Der dynamische Media-Administrator von Dynamic Media konfiguriert die genehmigte Liste von IP-Adressen für die Secure Testing-Umgebung ihres Unternehmens.
+Mit Secure Testing stellt Dynamic Media Classic einen eigenen Image-Server für Staging-Umgebung oder interne Anwendungen her. Mit jeder Anforderung bei diesem Server wird die Original-IP-Adresse überprüft. Wenn die eingehende Anforderung nicht auf der genehmigten Liste der IP-Adressen steht, wird eine Fehlerantwort zurückgesendet. Der Administrator der Dynamic Media Classic Firma konfiguriert die genehmigte Liste der IP-Adressen für die Secure Testing-Umgebung der Firma.
 
-Da der Speicherort der ursprünglichen Anforderung bestätigt werden muss, wird der Verkehr des Secure Testing-Dienstes nicht über ein Inhaltsverteilungs-Netzwerk wie den Traffic des öffentlichen dynamischen Medien-Servers weitergeleitet. Anforderungen an den Secure Testing-Dienst können eine etwas höhere Latenz im Vergleich zu den öffentlichen dynamischen Medienservern aufweisen.
+Da der Speicherort der ursprünglichen Anforderung bestätigt werden muss, wird der Datenverkehr des Secure Testing-Dienstes nicht über ein Inhaltsverteilungsnetzwerk wie den Datenverkehr mit öffentlichen Dynamic Media wie Image Server geleitet. Anforderungen an den Secure Testing-Dienst weisen möglicherweise eine etwas höhere Latenz auf als die öffentlichen Dynamic Media-Image-Server.
 
 Unveröffentlichte Assets sind sofort über den Secure Testing-Dienst verfügbar und müssen nicht erst veröffentlicht werden. Dies ermöglicht es Ihnen, eine Vorschau auszuführen, bevor Assets auf dem für die Öffentlichkeit zugänglichen Image-Server veröffentlicht werden.
 
-***Hinweis**: Secure Testing-Dienste nutzen den Katalog-Server, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihr Unternehmen daher für die Veröffentlichung von Secure Testing konfiguriert wurde, müssen Sie beachten, dass sämtliche hochgeladenen Assets im Scene7 Publishing System sofort in den Secure Testing-Diensten verfügbar sind. Dies gilt unabhängig davon, ob die Assets für das Hochladen oder Veröffentlichen markiert wurden.*
+***Hinweis **: Secure Testing-Dienste nutzen den Katalogserver, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihre Firma für die Veröffentlichung auf Secure Testing konfiguriert ist, beachten Sie daher, dass hochgeladene Assets in Dynamic Media Classic sofort in Secure Testing-Diensten verfügbar sind. Dies gilt unabhängig davon, ob die Assets für das Hochladen oder Veröffentlichen markiert wurden.*
 
-Secure Testing-Dienste unterstützen derzeit die folgenden Asset-Typen und -funktionen:
+Secure Testing-Dienste unterstützen derzeit die folgenden Asset-Typen und -Funktionen:
 
 <!-- 
 
@@ -59,10 +62,10 @@ Last Modified Date:
 
 * Bilder.
 * Vignetten (Render-Server-Anforderungen).
-* Render-Server-Anforderungen (unterstützt, müssen jedoch explizit vom Kunden angefordert werden).
+* Render-Server-Anforderungen (unterstützt, aber explizit vom Kunden angefordert).
 * Sätze, einschließlich Bildsätzen, E-Katalog, Rendersets und Mediensets.
-* Standard Dynamic Media Classic Rich Media Viewer.
-* Dynamic Media Classic ondemand JSP-Seiten.
+* Standard Dynamic Media Classic Rich-Media-Viewer
+* Dynamic Media Classic OnDemand JSP-Seiten.
 * Statische Inhalte wie PDF-Dateien und progressiv bereitgestellte Videos.
 * HTTP-Videostreaming.
 * Progressives Videostreaming.
@@ -91,13 +94,13 @@ Last Modified Date:
  -->
 
 1. Wenden Sie sich an den technischen Support und fordern Sie die Aktivierung der sicheren Testumgebung für Ihr Konto an.
-1. Klicken Sie im Scene7 Publishing System auf **„Einstellungen“** &gt; **„Veröffentlichungseinstellungen“** &gt; **„Image-Server“**.
+1. Klicken Sie in Dynamic Media Classic auf **Einstellungen** > **Veröffentlichungseinstellungen** > **Image-Server**.
 1. Wählen Sie auf der Seite „Veröffentlichung zum Image-Server“ in der Dropdownliste „Veröffentlichungskontext“ die Option **Image-Server-Test**.
 1. Für den Client-Adressfilter klicken Sie auf **„Hinzufügen“**.
 1. Wählen Sie das Kontrollkästchen aus, um die Adresse zu aktivieren, und geben Sie dann eine IP-Adresse und eine Netzmaske in die entsprechenden Textfelder ein.
 1. Wiederholen Sie diese beiden Schritte, um weitere IP-Adressen hinzuzufügen. Fahren Sie andernfalls mit dem nächsten Schritt fort.
 1. Klicken Sie unten links auf der Seite „Veröffentlichung zum Image-Server“ auf **Speichern**.
-1. Laden Sie die gewünschten Bilder zu Ihrem Scene7 Publishing System-Konto hoch.
+1. Laden Sie die gewünschten Bilder in Ihr Dynamic Media Classic-Konto hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
@@ -105,7 +108,7 @@ Last Modified Date:
 
    Siehe [Veröffentlichen](publishing-files.md#publishing_files).
 
-1. Legen Sie den Namen des Secure Testing-Dienstes fest, indem Sie auf **„Einstellungen“** &gt; **„Anwendungseinstellungen“** &gt; **„Allgemeine Einstellungen“** klicken.
+1. Legen Sie den Namen des Secure Testing-Dienstes fest, indem Sie auf **„Einstellungen“** > **„Anwendungseinstellungen“** > **„Allgemeine Einstellungen“** klicken.
 1. Suchen Sie auf der Seite „Allgemeine Programmeinstellungen“ in der Gruppe „Server“ den Namen rechts neben **Servername für den Testveröffentlichungskontext**.
 
 Wenden Sie sich an den technischen Support, wenn der Servername fehlt oder die URLs zum Server nicht funktionieren.
@@ -114,7 +117,7 @@ Wenden Sie sich an den technischen Support, wenn der Servername fehlt oder die U
 
 Sie benötigen zwei Variationen einer Website, die Links zu veröffentlichten und unveröffentlichten Assets enthält:
 
-* Öffentliche Version: Verknüpfen von Assets mit Ihrer traditionellen Dynamic Media Classic-URL
+* Öffentliche Fassung: Verknüpfen von Assets mit der herkömmlichen URL-Syntax von Dynamic Media Classic
 * Staging-Version: Verknüpfen Sie Assets mit der gleichen Syntax, jedoch mit dem Namen der Secure Testing Site
 
 **Ausführen von Tests**
@@ -125,7 +128,7 @@ Führen Sie die folgenden Tests aus:
 
    Innerhalb des Unternehmensnetzwerks, das durch den zuvor definierten IP-Adressbereich identifiziert wird, sollte die Staging-Version der Website alle Bilder anzeigen, ob markiert oder unmarkiert. So können Sie Tests durchführen, ohne versehentlich Bilder vor der Genehmigung der Vorschau oder Produkteinführung verfügbar zu machen.
 
-   Überprüfen Sie, ob die öffentliche Version Ihrer Site veröffentlichte Assets wie zuvor mit Dynamic Media Classic gezeigt hat.
+   Vergewissern Sie sich, dass die öffentliche Version Ihrer Site veröffentlichte Assets wie zuvor mit Dynamic Media Classic anzeigt.
 
 1. Überprüfen Sie, ob außerhalb des Unternehmensnetzwerks die unveröffentlichten Assets (die nicht für die Veröffentlichung markiert wurden) vor dem Zugriff durch Dritte geschützt sind.
 
