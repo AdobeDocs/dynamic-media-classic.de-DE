@@ -3,14 +3,17 @@ title: Verwalten des Infofeldinhalts in E-Katalogen
 seo-title: Verwalten des Infofeldinhalts in E-Katalogen
 description: 'null'
 seo-description: Erfahren Sie, wie Sie Infofeldinhalte in E-Katalogen verwalten.
-uuid: 5 aa 634 f 9-0874-4 bb 5-a 3 d 9-8 ce 4 d 5577941
+uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/ecatalogs
-discoiquuid: be 277831-77 cc -4011-ae 30-e 75 c 18 eec 99 b
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darüber hinaus besteht jedoch auch die Möglichkeit, anhand eines Infofelds größere Mengen von Rollover-Text, einschließlich Links, hinzuzufügen. Zur Verwaltung des Infofelds können Sie zeitlich begrenztes Caching und geplante Inhaltsaktualisierungen verwenden.
 
-Sie können Ihre Infofeldeinstellungen und -daten mithilfe der folgenden Funktionen in Dynamic Media Classic verwalten:
+Sie können Ihre Infofeld-Einrichtung und Ihre Daten mithilfe der folgenden Funktionen in Dynamic Media Classic verwalten:
 
 * Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der E-Katalog automatisch veröffentlicht werden soll.
 * Im Bedienfeld „Infofeld-Daten-Feed“ können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des Infofelds angezeigt werden soll, sowie die geplanten Zeiten zum Aktualisieren der Informationen.
@@ -43,7 +46,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Wählen Sie eine Vorgabe aus dem Menü „Antwortvorlage“ aus. Der XML-Code für den Vorlagenentwurf wird im Feld „Benutzervorlage“ angezeigt.
    * Wählen Sie „Benutzerdefiniert“, um Ihre eigene Antwortvorlage zu erstellen. Geben Sie die XML-Definition der Vorlage in das Feld „Benutzervorlage“ ein. Sie können die vorgegebenen Vorlagen als Grundlage für Ihre eigenen verwenden. 
 
-1. (Optional) Geben Sie im Feld "Standardantwort" den Text ein, der angezeigt werden soll, wenn dynamisches Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 1. Geben Sie die Anzahl der Stunden bis zum Zwischenspeichern der Daten in das Feld „Antwort-TTL“ ein:
 
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
@@ -83,11 +86,11 @@ Last Modified Date:
 
 1. Doppelklicken Sie auf den E-Katalog, um ihn in der Detailansicht zu öffnen.
 1. Klicken Sie auf den Anzeigebereich „Infofeld-Einrichtung“, um diesen zu öffnen.
-1. **Klicken Sie auf S 7 Info-Inhalt hochladen**.
+1. **Klicken Sie auf S7Info-Inhalt** hochladen.
 1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
 1. Klicken Sie auf **Hochladen**.
 
-Dynamic Media Classic sendet Ihnen eine E-Mail-Nachricht, über die Sie wissen, ob der Upload erfolgreich war oder nicht.
+Dynamic Media Classic sendet Ihnen eine E-Mail, in der Sie wissen, ob der Upload erfolgreich war oder nicht.
 
 ## Anzeigen der Vorschau für Rollover-Text für eine Imagemap {#preview-rollover-key-text-for-an-image-map}
 
@@ -97,5 +100,5 @@ Im Anzeigebereich „Imagemap-Seiten“ können Sie einfach und schnell den Info
 1. Klicken Sie auf „Imagemap-Seiten“.
 1. Wählen Sie oberhalb der Tabelle auf der rechten Seite des Bildschirms aus dem Menü „Anzeigen“ den Eintrag „Infofeld“.
 
-   Der Rollover-Text wird neben jeder Imagemap mit Infofeld-Text angezeigt.
+   Der Rollover-Schlüssel-Text wird neben jeder Image Map angezeigt, die Informationsfenster-Text enthält.
 
