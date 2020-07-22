@@ -6,11 +6,11 @@ seo-description: Hier lernen Sie bewährte Verfahren zur Optimierung der Bildqua
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 61%
@@ -29,7 +29,7 @@ Siehe auch [Intelligente Bildbearbeitung](https://helpx.adobe.com/experience-man
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Das JPG- oder das PNG-Format ist die beste Wahl, um Bilder in akzeptabler Qualität und handlicher Größe und Dateigröße bereitzustellen.
-* Wenn in der URL kein Formatbefehl angegeben ist, wird für &quot;Dynamic Media Image Serving&quot;standardmäßig JPG für den Versand verwendet.
+* Wenn in der URL kein Formatbefehl angegeben ist, wird für Dynamic Media Image Serving standardmäßig JPG für den Versand verwendet.
 * JPG-Dateien werden in einem Verhältnis von 10:1 komprimiert und produzieren so in der Regel kleinere Bilddateigrößen. PNG-Dateien werden mit einem Verhältnis von etwa 2:1 komprimiert, außer in einigen Fällen, z. B. wenn Bilder einen leeren Hintergrund enthalten. Dennoch lässt sich sagen, dass PNG-Dateien grundsätzlich größer sind als JPG-Dateien.
 * JPG verwendet eine verlustbehaftete Komprimierung. Dies bedeutet, dass Bildelemente (Pixel) bei der Komprimierung verworfen werden. Im Gegensatz dazu verwendet PNG eine verlustfreie Komprimierung.
 * JPG komprimiert Fotografien häufig mit einer höheren Genauigkeit als künstliche Bilder mit scharfen Kanten und hohem Kontrast.
@@ -39,7 +39,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 ## Empfohlene Verfahren für die Bildgröße {#best-practices-for-image-size}
 
-Die dynamische Reduzierung der Bildgröße ist eine der gängigsten Aufgaben, die beim Image Serving für dynamische Medien durchgeführt wird. Sie umfasst die Angabe der Größe und, optional, welcher Modus zur Verringerung der Abtastrate (Downsampling) zum Herunterskalieren verwendet werden soll.
+Die dynamische Reduzierung der Bildgröße ist eine der häufigsten Aufgaben, die Dynamic Media Image Serving ausführt. Sie umfasst die Angabe der Größe und, optional, welcher Modus zur Verringerung der Abtastrate (Downsampling) zum Herunterskalieren verwendet werden soll.
 
 * Für die Bildgrößenänderung ist der beste und einfachste Ansatz die Verwendung `&wid=<value>` und `&hei=<value>` oder nur `&hei=<value>`. Diese Parameter legen die Bildbreite automatisch in der Übereinstimmung mit dem Seitenverhältnis fest.
 * `&resMode=<value>` steuert den für die Neuberechnung verwendeten Algorithmus. Beginn mit `&resMode=sharp2`. Dieser Wert bietet die beste Bildqualität. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
@@ -48,13 +48,13 @@ Als Best Practice für die Bildgrößenänderung verwenden Sie `&wid=<value>&hei
 
 ## Empfohlene Verfahren für das Scharfzeichnen von Bildern {#best-practices-for-image-sharpening}
 
-Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bildern für Ihre Website. Hier werden auch die meisten Fehler begangen. Machen Sie sich mit den folgenden hilfreichen Ressourcen vertraut, um mehr über die Funktionsweise von Scharfzeichnen und Unschärfemaske in Dynamic Media Classic zu erfahren:
+Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bildern für Ihre Website. Hier werden auch die meisten Fehler begangen. Machen Sie sich mit den folgenden hilfreichen Ressourcen vertraut, um mehr darüber zu erfahren, wie Scharfzeichnen und Unschärfemaske in Dynamic Media Classic funktioniert:
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+Best Practices für das [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf dem Image-Server](/help/assets/s7_sharpening_images.pdf).
 
 Siehe auch [Scharfzeichnen eines Bildes mit einer Unschärfemaske](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
 
-Mit Dynamic Media Classic können Sie Bilder beim Erfassen, beim Versand oder bei beiden Scharfzeichnen. In den meisten Fällen sollten Sie Bilder jedoch nur mit einer der beiden Methoden scharfzeichnen, nicht mit beiden. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
+Mit Dynamic Media Classic können Sie Bilder beim Erfassen, beim Versand oder beidem scharfzeichnen. In den meisten Fällen sollten Sie Bilder jedoch nur mit einer der beiden Methoden scharfzeichnen, nicht mit beiden. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
 
 Es gibt zwei Methoden zum Scharfzeichnen:
 
@@ -73,7 +73,7 @@ Es gibt zwei Methoden zum Scharfzeichnen:
          Dieser Parameter bestimmt, wie stark sich die scharfgezeichneten Pixel vom umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel betrachtet werden, und der Filter schärft sie. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um kein „Rauschen“ zu erzeugen, trotzdem wird kontrastreichen Bereichen, z. B. wo Wimpern auf die Haut treffen, Kantenkontrast hinzugefügt.
       Weitere Informationen, wie Sie diese drei Parameter einrichten, einschließlich den empfohlenen Verfahren für die Verwendung der Filter, finden Sie in den folgenden Ressourcen:
 
-      Hilfethema zu Dynamic Media Classic zum [Scharfzeichnen von Bildern](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+      Dynamic Media Classic-Hilfethema zum [Scharfzeichnen von Bildern](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
       Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
@@ -127,7 +127,7 @@ Wenn die gewünschten Ergebnisse für das Scharfzeichnen noch nicht erreicht wur
 
 Wenn Sie experimentieren, können Ihnen die folgenden allgemeinen Empfehlungen helfen, den Vorgang zu optimieren:
 
-* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt über eine URL von Dynamic Media Classic oder mithilfe der Bildanpassungsfunktion des Scene7 Publishing Systems, die Vorschauen für Anpassungen in Echtzeit bereitstellt.
-* Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Der benutzerdefinierte Vorgabename in einem URL-Pfad ruft diese Voreinstellungen auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
-* Dynamische Medien-Classic bietet außerdem erweiterte Möglichkeiten zur Einstellung der Bildqualität, z. B. das Anwenden von Scharfzeichnen von Bildern bei der Erfassung. Für solche Fälle, bei denen dies eine Option zur Feineinstellung und Optimierung der Darstellungsergebnisse ist, bieten die Adobe Professional Services weitere spezielle Tipps und empfohlene Verfahren an.
+* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt auf einer Dynamic Media Classic-URL oder mithilfe der Bildanpassungsfunktion von Dynamic Media Classic, die Vorschauen zur Anpassung in Echtzeit bietet.
+* Denken Sie daran, dass Sie Dynamic Media mit Image Serving-Befehlen zu einer Bildvorgabe gruppieren können. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. Der benutzerdefinierte Vorgabename in einem URL-Pfad ruft diese Voreinstellungen auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
+* Dynamic Media Classic bietet darüber hinaus erweiterte Möglichkeiten zum Einstellen der Bildqualität, z. B. das Anwenden von Scharfzeichnen von Bildern bei der Erfassung. Für solche Fälle, bei denen dies eine Option zur Feineinstellung und Optimierung der Darstellungsergebnisse ist, bieten die Adobe Professional Services weitere spezielle Tipps und empfohlene Verfahren an.
 
