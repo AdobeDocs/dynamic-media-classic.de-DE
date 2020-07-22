@@ -6,21 +6,21 @@ seo-description: Erfahren Sie, wie Sie Zoom-Viewer mit Ihren Webseiten verknüpf
 uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 89%
+source-wordcount: '673'
+ht-degree: 86%
 
 ---
 
 
 # Verknüpfen von Zoom-Viewern mit Webseiten{#linking-zoom-viewers-to-your-web-pages}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media wie den Image-Server-Inhalt, einschließlich Masterbilder und zugehörige Zoom-Zielgruppen, sowie auf Zoom-Viewer-Vorgaben zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Sie können die URL-Zeichenfolgen oder den Einbettungscode im Scene7 Publishing System kopieren und in Ihre Webseiten und Anwendungen einfügen.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media wie den Image-Server-Inhalt, einschließlich Übergeordnet- und damit verbundene Zoom-Zielgruppen, sowie auf Zoom-Viewer-Vorgaben zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic.
 
 >[!NOTE]
 >
