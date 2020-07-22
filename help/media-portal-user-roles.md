@@ -5,12 +5,15 @@ description: Erfahren Sie mehr über die verschiedenen Benutzerrollen, die in Me
 seo-description: Erfahren Sie mehr über die verschiedenen Benutzerrollen, die in Media Portal verfügbar sind.
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: admin
-content-type: Verweis
-products: SG_EXPERIENCEMANAGER/Dynamic Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +26,7 @@ Media Portal stellt die folgenden Rollen mit jeweils unterschiedlichen Zugriffsr
 
 * **Media Portal-Benutzer** hat Zugriff auf Ordner und Dateien. Benutzer können nur Dateien auflisten, eine Dateivorschau anzeigen und Dateien herunterladen. Diese Rolle ist geeignet für Kanal- oder Servicepartner, die auf Ihre vom Unternehmen genehmigten Assets zugreifen müssen.
 
-* **Media Portal-Mitarbeiter** Kann Dateien und Metadaten in Bereichen, für die ein Administrator Berechtigungen erteilt hat, hochladen, in einer Vorschau anzeigen und durchsuchen. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
+* **Media Portal-Mitarbeiter** Kann Dateien und Metadaten in Bereichen, für die ein Administrator Berechtigungen erteilt hat, hochladen, Vorschauen erstellen und durchsuchen. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
 **Media Portal-Mitarbeiter-Benutzer** hat Zugriff auf Ordner und Dateien. Ein Mitarbeiter-Benutzer kann Bilder und Metadaten durchsuchen, als Vorschau anzeigen, herunterladen und hochladen. Mitarbeiter-Benutzer können Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
@@ -35,7 +38,7 @@ In dieser Tabelle sind die zulässigen Aufgaben für die einzelnen Rollen aufgel
 | Metadaten durchsuchen | X | X | X |
 | Dateivorschau | X | X | X |
 | Dateien suchen | X | X | X |
-| Dateien in das Scene7 Publishing System hochladen |  | X | X |
+| Hochladen von Dateien in Dynamic Media Classic |  | X | X |
 | Asset-Metadaten bearbeiten und importieren |  | X | X |
 | Ordner erstellen, umbenennen und löschen |  | X | X |
 | Asset-Metadaten exportieren | X |  | X |
@@ -43,4 +46,4 @@ In dieser Tabelle sind die zulässigen Aufgaben für die einzelnen Rollen aufgel
 | Dateien in andere Ordner verschieben |  | X | X |
 | Dateien umbenennen |  | X | X |
 | Dateien löschen |  | X | X |
-| Dateien aus dem SPS exportieren (herunterladen) | X |  | X |
+| Exportieren (Herunterladen) von Dynamic Media Classic-Dateien | X |  | X |
