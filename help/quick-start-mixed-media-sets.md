@@ -2,15 +2,18 @@
 title: '"Kurzanleitung: Gemischte Mediensets"'
 seo-title: '"Kurzanleitung: Gemischte Mediensets"'
 description: 'null'
-seo-description: Eine Einführung und Schnellstart zu gemischten Mediensets, die Ihnen helfen, schnell zu arbeiten.
-uuid: 0 ef 033 d 5-b 053-4 d 7 c-b 1 e 1-1980 f 899 fd 88
+seo-description: Eine Einführung und ein kurzer Beginn zu gemischten Mediensets helfen Ihnen dabei, sich schnell aufzumachen.
+uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
-content-type: Verweis
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categories/mixed_ media_ sets
-discoiquuid: 2708 d 077-94 fc -4045-8992-ad 3589 ed 9 cfd
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 80%
 
 ---
 
@@ -21,15 +24,15 @@ Gemischte Mediensets von bieten Benutzern eine integrierte Anzeigeerfahrung. Gem
 
 Die Viewer-Vorgaben für gemischte Mediensets enthalten Community-Optionen, mit denen Endbenutzer Code einbetten, URLs kopieren und Verknüpfungen zur Haupt-Website erstellen können. Über diese Optionen können Benutzer Produktinformationen auf ihren eigenen Websites oder Social-Networking-Sites zur Verfügung stellen.
 
-**Kurzanleitung**
+**Quick Beginn**
 
-Diese Kurzanleitung für gemischte Mediensets hilft Ihnen, sich schnell mit den Techniken für gemischte Mediensets in Dynamic Media Classic vertraut zu machen.
+Dieser Beginn für Gemischte Mediensets Quick hilft Ihnen, sich schnell mit den Techniken für gemischte Mediensets in Dynamic Media Classic vertraut zu machen.
 
 **1. Hochladen der Bilder, Musterdateien und Videos**
 
-Laden Sie zunächst die Bilder, Musterdateien und Videos für Ihre gemischten Mediensets hoch. Da die Benutzer die Bilder im gemischten Medienset-Viewer heranzoomen können, sollten Sie bei der Auswahl der Bilder deren Eignung zum Zoomen berücksichtigen. Vergewissern Sie sich, dass die längste Seite der Bilder mindestens 2000 Pixel hat.
+Laden Sie zunächst die Bilder, Musterdateien und Videos für Ihre gemischten Mediensets hoch. Da Benutzer Bilder im Viewer für gemischte Mediensets zoomen können, sollten Sie beim Auswählen von Bildern auch das Zoomen berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche „Hochladen“, um Dateien von Ihrem Computer in einen Ordner im Scene7 Publishing System hochzuladen. 
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Dynamic Media Classic-Ordner hochzuladen.
 
 Siehe [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
@@ -61,9 +64,9 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 **6. Veröffentlichen eines gemischten Mediensets**
 
-Beim Veröffentlichen eines gemischten Mediensets wird es auf dynamischen Media-Server-Servern platziert und die URL-Zeichenfolge aktiviert.
+Beim Veröffentlichen eines gemischten Mediensets wird es auf den Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
-Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden **Sie den Image-Server** , um zugehörige Assets zu veröffentlichen, z. B. die Videominiaturen und die Informationen für ein adaptives Video-Set.
+Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden Sie den **Image-Server** , um verwandte Assets wie Video-Miniaturansichten zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
 
 Siehe [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
