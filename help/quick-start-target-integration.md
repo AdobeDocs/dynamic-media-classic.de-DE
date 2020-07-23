@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 19%
 
 ---
 
 
-# Quick Beginn: Target Standard/Premium-Integration{#quick-start-target-integration}
+# Quick Beginn: Integration mit Adobe Target Standard/Premium{#quick-start-target-integration}
 
 Mit Adobe Target Standard/Premium erhalten Marketingexperten die Möglichkeit, schnell und kontinuierlich mehrere A/B- und Multivarianz-Tests durchzuführen, die Effektivität zu messen und die Relevanz von Online-Inhalten durch Segmentierung, Targeting und automatisierte Personalisierung zu erhöhen.
 
@@ -34,7 +34,7 @@ Verwenden Sie für eine bessere Anpassung der dynamischen Dynamic Media Classic-
 
 Dieser Quick Beginn hilft Ihnen, sich schnell mit Target Standard/Premium HTML-Angebot-Sets vertraut zu machen. Führen Sie die Schritte 1 bis 3 aus. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
 
-**1. Enter your Target Standard/Premium URL in the Application General Settings screen.**
+**1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
 
 Dynamic Media Classic benötigt Ihre Target Standard-/Premium-URL zur Integration mit Target Standard/Premium. Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. Siehe [Integration von Dynamic Media Classic mit Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
@@ -50,6 +50,6 @@ Speichern Sie das Angebotsset, nachdem Sie es erstellt haben.
 
 Siehe [Erstellen eines Angebotssets](creating-offer-set.md#creating_an_offer_set).
 
-**3. Angebot mit Target Standard/Premium verschieben**
+**3. Angebot auf Adobe Target Standard/Premium verschieben**
 
 In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. Siehe [Pushing von Angebot-Sets auf Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
