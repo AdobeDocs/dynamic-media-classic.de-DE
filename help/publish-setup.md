@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2409'
 ht-degree: 65%
 
 ---
@@ -37,7 +37,7 @@ Im Anzeigebereich „Image-Server“ werden Standardeinstellungen für das Sende
 
 **Katalogverwaltung** Diese Einstellungen bestimmen, wie Dynamic Media Classic und der Katalog interagieren. Anders als bei den meisten Webservern gehen Dynamic Media-Image-Server-URL-Aufrufe eher an eine Manifest- oder Katalogdatei als an eine Bilddatei. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste mit dem gesamten Inhalt, der auf dem Image-Server veröffentlicht wurde, und den Pfaden aller Bilddateien. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
 
-**Anforderungsattribute** Diese Einstellungen setzen Beschränkungen für Bilder fest, die vom Server bereitgestellt werden können.
+**Anforderungsattribute** Diese Einstellungen setzen Beschränkungen für Bilder fest, die vom Server bereitgestellt werden können. Beispielsweise ist die maximale ** Antwortbildgröße **[!UICONTROL auf]** Breite **[!UICONTROL 5000 und]** Höhe **** 5000 begrenzt.
 
 **Standardmäßige Anforderungsattribute** Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
 
