@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
 workflow-type: tm+mt
-source-wordcount: '10982'
+source-wordcount: '10979'
 ht-degree: 68%
 
 ---
@@ -24,7 +24,7 @@ Auf den Seiten &quot;Anwendungseinstellungen&quot;können Sie allgemeine Einstel
 
 >[!NOTE]
 >
->Nur Dynamic Media Classic-Administratoren können Einstellungen auf den Seiten &quot;Anwendungseinstellungen&quot;ändern.
+>Nur Administratoren von Dynamic Media Classic können Einstellungen auf den Seiten &quot;Anwendungseinstellungen&quot;ändern.
 
 ## Allgemeine Einstellungen {#general-settings}
 
@@ -32,7 +32,7 @@ Um den Anzeigebereich „Allgemeine Programmeinstellungen“ in der Symbolleiste
 
 ### Server
 
-Bei der Kontoerstellung stellt Dynamic Media Classic die zugewiesenen Server automatisch für Ihre Firma bereit. Auf Grundlage dieser Server werden URL-Zeichenfolgen für Ihre Websites und Anwendungen erstellt. Diese URL-Aufrufe sind spezifisch für Ihr Konto.
+Bei der Kontoerstellung stellt Dynamic Media Classic automatisch die zugewiesenen Server für Ihre Firma bereit. Auf Grundlage dieser Server werden URL-Zeichenfolgen für Ihre Websites und Anwendungen erstellt. Diese URL-Aufrufe sind spezifisch für Ihr Konto.
 
 Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
@@ -80,7 +80,7 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 ### Durchsuchen
 
-* **Projekte** anzeigen - Bestimmt, ob Projekte als Organisationsmöglichkeit für Ihre Dynamic Media Classic-Assets verfügbar sind. Siehe Verwalten der Arbeit mithilfe von Projekten.
+* **Projekte** anzeigen - Bestimmt, ob Projekte als Organisationsmöglichkeit für Ihre dynamischen Medien-Classic-Assets verfügbar sind. Siehe Verwalten der Arbeit mithilfe von Projekten.
 
 * **Beispiel-eVideo-Inhalt** anzeigen: Aktivieren oder deaktivieren Sie die Anzeige des eVideo-Beispielinhalts.
 
@@ -92,7 +92,7 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
    Vom Mastervideo oder dem adaptiven Videoset aus können Sie jedoch weiterhin auf einzelne kodierte Videos zugreifen. Doppelklicken Sie hierzu auf das Videominiaturbild, um die Detailansicht zu öffnen. Klicken Sie dann im rechten Bedienfeld auf **„Kodierte Videos“**, um auf alle untergeordneten Videos zuzugreifen.
 
-   Sie können auch den Befehl **„Datei“ > „Neu verarbeiten“** wählen, um direkt aus einem adaptiven Videoset weitere kodierte untergeordnete Videos zu erstellen. Dynamic Media Classic findet automatisch das übergeordnete Übergeordnet-Video des adaptiven Videosets und verwendet es als Quellvideo zum Transkodieren. Nachdem Sie die neuen, individuell kodierten Videos gespeichert haben, werden sie jedoch nicht angezeigt, wenn Sie nach ihnen suchen. Sie sind jedoch weiterhin über die Registerkarte „Kodierte Videos“ in der Detailansicht verfügbar.
+   Sie können auch den Befehl **„Datei“ > „Neu verarbeiten“** wählen, um direkt aus einem adaptiven Videoset weitere kodierte untergeordnete Videos zu erstellen. Dynamic Media Classic findet automatisch das &quot;übergeordnete&quot;Übergeordnet-Video des adaptiven Videosets und verwendet es als Quellvideo zum Transkodieren. Nachdem Sie die neuen, individuell kodierten Videos gespeichert haben, werden sie jedoch nicht angezeigt, wenn Sie nach ihnen suchen. Sie sind jedoch weiterhin über die Registerkarte „Kodierte Videos“ in der Detailansicht verfügbar.
 
    Siehe [Hochladen und Transkodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -100,13 +100,13 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
    Das Menü „Erstellen“ enthält bestimmte Aktionen, die nur (oder optional) mit einzelnen Videos verwendet werden. Daher müssen alle kodierten Videoableitungen angezeigt werden, aus denen Sie auswählen können, unabhängig davon, wie Sie die Option **„Kodierte Videos anzeigen“** eingestellt haben. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-   >[Hinweis]
+   >[!NOTE]
    >
    >Wenn Sie Ihre Video-Assets nicht mit Dynamic Media Classic hochgeladen und kodiert haben, zeigt Dynamic Media Classic alle kodierten Videos an, selbst wenn diese Option deaktiviert ist.
 
 * **Schaltfläche** &quot;Unterordner aktualisieren&quot;anzeigen: Aktivieren oder deaktivieren Sie die Anzeige der Schaltfläche zum Aktualisieren der Unterordner.
 
-### Dynamic Media Classic FTP-Konto
+### Dynamisches Media Classic FTP-Konto
 
 * **Server** - Liste des FTP-Kontoservers.
 
@@ -114,7 +114,7 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 ### Zur Anwendung hochladen
 
-* **Bilder** überschreiben - Dynamic Media Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Die Classic-ID jedes Elements (der Bildname abzüglich der Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Duplikate werden durch Anhängen einer Ziffer umbenannt („Sessel.tif“ würde beispielsweise zu „Sessel-1.tif“). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). (Siehe Verwenden der Option „Bilder überschreiben“.)
+* **Bilder** überschreiben: Bei Dynamic Media Classic ist es nicht möglich, dass zwei Dateien denselben Namen haben. Die dynamische Medien-Classic-ID jedes Elements (der Name des Bilds ohne Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Duplikate werden durch Anhängen einer Ziffer umbenannt („Sessel.tif“ würde beispielsweise zu „Sessel-1.tif“). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). (Siehe Verwenden der Option „Bilder überschreiben“.)
 
    * **Im aktuellen Ordner mit demselben Namen/derselben Erweiterung** des Basisbilds überschreiben - Diese Option ist die strengste Ersatzregel. Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden und dieselbe Dateierweiterung haben wie das Originalbild. Wenn diese Voraussetzungen nicht erfüllt sind, wird ein Duplikat erstellt.
 
@@ -142,19 +142,19 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 ## Verwendung der Option zum Überschreiben der Bilder {#using-the-overwrite-images-option}
 
-Dynamic Media Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Die Classic-ID jedes Elements (der Bildname abzüglich der Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Bilder überschreiben“. Die genaue Wirkung dieser Option hängt von einer Einstellung für die Dynamic Media Classic Internal Settings jeder Firma ab.
+Dynamische Medien Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Die dynamische Medien-Classic-ID jedes Elements (der Name des Bilds ohne Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Bilder überschreiben“. Die genaue Wirkung dieser Option hängt von einer Einstellung für die internen Einstellungen der einzelnen Firmen ab.
 
-Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (bzw. ersetzt) haben, wird mit der Option &quot;Überschreiben&quot;angegeben, wie Dynamic Media Classic die Bilder ersetzt. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
+Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (oder ersetzt) haben, gibt die gewählte Option &quot;Überschreiben&quot;an, wie die Bilder von Dynamic Media Classic ersetzt werden. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
 
 Verwenden Sie diese Option, wenn von Ihnen hochgeladene Bilder geändert wurden, der Verweis auf die Bilder jedoch gleich bleibt. Das Überschreiben ist außerdem beim Hochladen und Extrahieren von Adobe® PDF-Dateien nützlich. To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-Die Dynamic Media Classic-IDs, die für den Zugriff auf Bilder von den Produktionsservern verwendet werden, werden von den Bilddateinamen abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl beim Ersetzen vorhandener Dateien als auch bei den Dynamic Media Classic IDs, die für den Zugriff auf das Bild verwendet werden. Achten Sie darauf, dass Dateinamen mit Groß- und Kleinbuchstaben korrekt geschrieben werden, bevor Sie sie in Dynamic Media Classic hochladen, damit Dynamic Media Classic-IDs vermieden werden, die sich nur bei demselben Bild von der Schreibweise unterscheiden.
+Die IDs von Dynamic Media Classic, die für den Zugriff auf Bilder von den Produktionsservern verwendet werden, werden von den Bilddateinamen abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl beim Ersetzen vorhandener Dateien als auch bei den für den Zugriff auf das Bild verwendeten dynamischen Medien-Classic-IDs. Achten Sie darauf, dass Dateinamen mit Groß- und Kleinbuchstaben korrekt geschrieben werden, bevor Sie sie in Dynamic Media Classic hochladen, um zu vermeiden, dass sich dynamische Medien-Classic-IDs, die sich nur bei demselben Bild von der Schreibweise unterscheiden, unterscheiden.
 
 Wenn Sie diese Option deaktivieren, werden alle Bilder, die mit vorhandenen Bildern übereinstimmende Dateinamen haben, als Duplikate betrachtet und daher nicht hinzugefügt.
 
 ## Bildvorgaben {#image-presets}
 
-In diesem Anzeigebereich können Bildvorgaben erstellt und bearbeitet werden. Mit Bildvorgaben können Dynamic Media Classic Bilder dynamisch in unterschiedlichen Größen und Übergeordnet bereitstellen. Jede Bildvorgabe stellt eine vordefinierte Zusammenstellung von Größen- und Formatierungsbefehlen zum Anzeigen des Bildes dar. Wenn Sie eine Bildvorgabe erstellen, wählen Sie eine Größe, in der das Bild gesendet werden soll. Darüber hinaus wählen Sie Formatierungsbefehle, mit denen die Darstellung des Bildes für den Sendevorgang optimiert wird.
+In diesem Anzeigebereich können Bildvorgaben erstellt und bearbeitet werden. Mithilfe von Bildvorgaben können Bilder von Dynamic Media Classic dynamisch in unterschiedlichen Größen und Übergeordnet bereitgestellt werden. Jede Bildvorgabe stellt eine vordefinierte Zusammenstellung von Größen- und Formatierungsbefehlen zum Anzeigen des Bildes dar. Wenn Sie eine Bildvorgabe erstellen, wählen Sie eine Größe, in der das Bild gesendet werden soll. Darüber hinaus wählen Sie Formatierungsbefehle, mit denen die Darstellung des Bildes für den Sendevorgang optimiert wird.
 
 Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benutzer können beim Exportieren von Bildern eine Vorgabe auswählen, die die Bilder gemäß den Spezifikationen des Administrators neu formatiert.
 
@@ -251,7 +251,7 @@ Weitere Informationen zu Scharfzeichnen, Resamplingmodi und Unschärfemaske find
 
 **Farbe** Wählen Sie folgende Optionen aus:
 
-**Output Color Profil** Wählen Sie &quot;Standard verwenden&quot;oder eines der ICC-Profil aus, die in Dynamic Media Classic verfügbar sind.
+**Output Color Profil** Wählen Sie &quot;Standard verwenden&quot;oder eines der ICC-Profil, die im Dynamic Media Classic verfügbar sind.
 
 Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
 
@@ -263,7 +263,7 @@ Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
 
 **URL-Modifikatoren** Wenn Sie lieber die URL-Modifikatoren angeben möchten, die Ihre Bildvorgabe definieren, anstatt die Einstellungen einzugeben, geben Sie die Modifikatoren hier ein.
 
-**Beispiel-Bild-URL** Liste die URL-Zeichenfolge &quot;unformatiert&quot;, die der Image-Server verwendet, um Bilder mit der Bildvorgabe bereitzustellen, die Sie hinzufügen oder bearbeiten. Diese URL-Zeichenfolge codiert alle Formateinstellungen, die Sie im Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ auswählen.
+**Beispiel-Bild-URL** Liste die URL-Zeichenfolge &quot;unformatiert&quot;, die der Dynamic Media-Image-Server verwendet, um Bilder mit der Bildvorgabe bereitzustellen, die Sie hinzufügen oder bearbeiten. Diese URL-Zeichenfolge codiert alle Formateinstellungen, die Sie im Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ auswählen.
 
 ### Bearbeiten, Entfernen oder Deaktivieren einer Bildvorgabe {#editing-removing-or-deactivating-an-image-preset}
 
@@ -276,7 +276,7 @@ Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
 
 ## Aktivieren und Deaktivieren von adaptiven Video-Vorgaben {#activating-or-deactivating-adaptive-video-presets}
 
-Vorgaben für die adaptive Videokodierung für Dynamic Media Classic-Angebot Es handelt sich dabei um eine Masterliste von Vorgaben, in der die Vorgaben für adaptive Videos im Format 16:9 und 4:3 in einer Gruppe zusammengefasst sind. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert. 
+Vorgaben für die adaptive Videokodierung für Angebot von Dynamic Media Classic Es handelt sich dabei um eine Masterliste von Vorgaben, in der die Vorgaben für adaptive Videos im Format 16:9 und 4:3 in einer Gruppe zusammengefasst sind. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert. 
 
 Nur Vorgaben für die adaptive Videokodierung sind standardmäßig aktiviert (bzw. „eigeschaltet“). Sie können sie bei Bedarf deaktivieren. Deaktivierte „Adaptive Video“-Voreinstellungen stehen im eVideo-Abschnitt des Dialogfelds „Upload-Auftragsoptionen“ nicht zur Auswahl. 
 
@@ -294,7 +294,7 @@ Klicken Sie in der rechten unteren Ecke der Seite „Upload“ auf die Option �
 
 >[!NOTE]
 >
->Mit Ausnahme von „Adaptive Video“, das standardmäßig aktiviert ist, werden im Dialogfeld „Upload-Auftragsoptionen“ möglicherweise nicht alle adaptiven oder einzelnen Videokodierungsvorgaben angezeigt. Dynamic Media Classic-Administratoren bestimmen, welche Videokodierungsvorgaben im Dialogfeld &quot;Upload-Auftragsoptionen&quot;angezeigt werden.
+>Mit Ausnahme von „Adaptive Video“, das standardmäßig aktiviert ist, werden im Dialogfeld „Upload-Auftragsoptionen“ möglicherweise nicht alle adaptiven oder einzelnen Videokodierungsvorgaben angezeigt. Die Administratoren von Dynamic Media Classic legen fest, welche Videokodierungsvorgaben im Dialogfeld &quot;Upload-Auftragsoptionen&quot;angezeigt werden.
 
 * Wählen Sie aus den folgenden Vorgaben für die adaptive Kodierung bzw. für die einzelne Kodierung:
 
@@ -322,7 +322,7 @@ Klicken Sie in der rechten unteren Ecke der Seite „Upload“ auf die Option �
 
    **Einzelne Kodierungsvorgaben**
 
-   >[HINWEIS]
+   >[!NOTE]
    >
    >Um Videos auf iPads auszugeben, können Sie eine der Kodierungsvorgaben unter „Mobil“ oder „Tablet“ auswählen. Tablet-Vorgaben weisen gewöhnlich eine höhere Auflösung und Qualität auf und sind für den iPad mit seinem größeren Display und der hohen Verbindungsgeschwindigkeit optimiert. Damit Videodateien, die mit einer Tablet-Vorgabe kodiert wurden, richtig wiedergegeben werden können, muss die mobile Site bzw. Anwendung über einen Code zur Geräteerkennung verfügen. Dieser Code sorgt dafür, dass, abhängig vom erkannten Wiedergabegerät, das entsprechende Videomaterial für iPhone oder iPad bereitgestellt wird. Durch die Auswahl einer Mobil-Vorgabe für die Wiedergabe von Videodateien auf dem iPad wird der Workflow vereinfacht. Das liegt daran, dass Sie für iPhones und iPads dieselbe Videodatei verwenden können. Allerdings wird dabei die Qualität des Videomaterials an das iPhone mit seiner geringeren Auflösung angepasst.
 
@@ -440,21 +440,21 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 >[!NOTE]
 >
->**Hinweis** zum Ende der Lebensdauer von Flash-Viewern - Ab dem 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Hinweis** zum Lebenszyklusende für Flash-Viewer - Ab dem 31. Januar 2017 hat die Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt. Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoomverhalten, die Farbschemata, Ränder und Schriftarten ändern.
 
-Als Best Practice sollten Sie Dynamic Media Classic HTML5 Video-Viewer verwenden. Dank der für die HTML5 Video Viewer verwendeten Vorgaben handelt es sich um robuste Video-Player. Durch Kombination der Gestaltungsmöglichkeit der Wiedergabekomponenten mit HTML5 und CSS, der eingebetteten Wiedergabe und der Verwendung von adaptivem und progressivem Streaming je nach Browserfähigkeiten in einem einzigen Player, erweitern Sie die Reichweite ihrer Rich Media-Inhalte auf Desktop-, Tablet- und Mobilgerätebenutzer und stellen eine optimierte Videoerfahrung sicher.
+Als bewährte Methode verwenden Sie die HTML5-Video-Viewer von Dynamic Media Classic. Dank der für die HTML5 Video Viewer verwendeten Vorgaben handelt es sich um robuste Video-Player. Durch Kombination der Gestaltungsmöglichkeit der Wiedergabekomponenten mit HTML5 und CSS, der eingebetteten Wiedergabe und der Verwendung von adaptivem und progressivem Streaming je nach Browserfähigkeiten in einem einzigen Player, erweitern Sie die Reichweite ihrer Rich Media-Inhalte auf Desktop-, Tablet- und Mobilgerätebenutzer und stellen eine optimierte Videoerfahrung sicher.
 
-Siehe [Informationen zu HTML5-Viewern](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) im Adobe Viewer-Referenzhandbuch.
+Siehe [Informationen zu HTML5-Viewern](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) im Referenzhandbuch zu Adoben-Viewern.
 
 Siehe Kompatibilitätsmatrix für [Dynamic Media Classic Viewer-Vorgaben](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 Siehe [Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
-Abhängig vom Viewer können Sie Community-Funktionen hinzufügen. Zu den Community-Funktionen zählen die Schaltflächen „Einbetten“, „E-Mail an Freunde senden“, „Verknüpfen“ und „Zur Website“. Mit diesen Schaltflächen können Benutzer den Viewer für andere freigeben oder die Dynamic Media Classic-Website öffnen.
+Abhängig vom Viewer können Sie Community-Funktionen hinzufügen. Zu den Community-Funktionen zählen die Schaltflächen „Einbetten“, „E-Mail an Freunde senden“, „Verknüpfen“ und „Zur Website“. Mit diesen Schaltflächen können Benutzer den Viewer für andere freigeben oder die Website von Dynamic Media Classic öffnen.
 
-Siehe auch Referenzbibliotheksbeispiele für [Adobe Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch Referenzbibliotheksbeispiele für [Adoben-Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Viewer-Unterstützung für interaktiv entwickelte Webseiten {#viewer-support-for-responsive-designed-web-pages}
 
@@ -474,7 +474,7 @@ Administratoren können die folgenden Arten von Viewer-Vorgaben erstellen und an
 
 **Rotationsset-Viewer** Bietet mehrere Ansichten eines Bilds, damit die Benutzer das Objekt drehen können, um die verschiedenen Seiten und Winkel zu untersuchen.
 
-**Video-Viewer** zeigt Videos mit den Abmessungen der Quelldatei oder einer benutzerdefinierten Größe an. Dynamic Media Classic verfügt über viele vordefinierte Viewer-Vorgaben für die Videowiedergabe. Als Administrator können Sie benutzerdefinierte Video-Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Vorder- und Hintergrundfarbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche, Sozialfunktionen und Hilfe-Funktionen konfigurieren.
+**Video-Viewer** zeigt Videos mit den Abmessungen der Quelldatei oder einer benutzerdefinierten Größe an. Im Lieferumfang von Dynamic Media Classic sind viele vordefinierte Viewer-Vorgaben für die Wiedergabe von Videos enthalten. Als Administrator können Sie benutzerdefinierte Video-Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Vorder- und Hintergrundfarbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche, Sozialfunktionen und Hilfe-Funktionen konfigurieren.
 
 **Zoom-Viewer** -Angebote haben drei Arten von Zoom-Viewern:
 
@@ -488,17 +488,17 @@ Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoom
 
 ### Kompatibilitätsmatrix für Dynamic Media Classic Viewer-Vorgaben {#scene-viewer-preset-compatibility-matrix}
 
-**Hinweis** zum Ende der Lebensdauer von Flash-Viewern: Ab dem 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt.
+**Hinweis** zum Lebenszyklusende von Flashs: Ab dem 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform eingestellt.
 
 Weitere Informationen zu dieser wichtigen Änderung finden Sie auf der folgenden FAQ-Website: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-Die folgende Tabelle zeigt die derzeit verfügbaren Dynamic Media Classic Viewer-Vorgaben. Außerdem gibt die Tabelle Aufschluss über die Viewer-Kompatibilität mit Desktop- und mobilen Geräten sowie die für jeden Viewer verwendete Technologie.
+Die folgende Tabelle zeigt die derzeit verfügbaren Viewer-Vorgaben für dynamische Medien und Klassische Medien. Außerdem gibt die Tabelle Aufschluss über die Viewer-Kompatibilität mit Desktop- und mobilen Geräten sowie die für jeden Viewer verwendete Technologie.
 
-Siehe auch Referenzbibliotheksbeispiele für [Adobe Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch Referenzbibliotheksbeispiele für [Adoben-Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Viewer-Versionshinweisen. 
 
-Siehe Versionshinweise zu [Adobe Viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Siehe Versionshinweise zu [Adoben-Viewern](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Android Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -537,7 +537,7 @@ Siehe Versionshinweise zu [Adobe Viewers](https://docs.adobe.com/content/help/en
 
 **eVideo-Viewer**
 
-Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos.
+Dynamic Media Classic unterstützt die Wiedergabe von mobilen Videos für MP4 H.264-Videos.
 
 * Blackberry-Geräte, die dieses Videoformat unterstützen, finden Sie hier: [Unterstützte Videoformate bei Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * Windows-Geräte, die dieses Videoformat unterstützen, finden Sie unter:[Unterstützte Videoformate unter Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
@@ -626,7 +626,7 @@ Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an
 1. Geben Sie im Anzeigebereich „Viewer konfigurieren“ im Feld „Vorgabename“ den Namen der Vorgabe ein oder bearbeiten Sie den bereits vorhandenen Namen im Feld.
 1. Legen Sie die weiteren gewünschten Optionen fest.
 
-   >[HINWEIS]
+   >[!NOTE]
    >
    >Wenn Sie „Gleich Quelle“ wählen, wird die Größe des Video-Viewers automatisch an die Abmessungen des kodierten Videos angepasst. Wenn Sie diese Option wählen, können Sie nicht die Anzeigenbreite oder -höhe eingeben. Stattdessen werden diese Optionen vom Video selbst übernommen. Wenn Sie „Gleich Quelle“ wählen, müssen Sie die Randgröße an die Abmessungen der Skin außerhalb des Wiedergabebereichs anpassen. Die Randgröße bezeichnet Höhe und Breite der Video-Steuerelemente in Pixel. Anhand der folgenden Abbildung können Sie Ihre gewünschte Randgröße bestimmen.*
 
@@ -641,7 +641,7 @@ Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an
 
 Sie können eine vorhandene HTML5-Viewer-Vorgabe exportieren, um sie als Grundlage für die Erstellung einer neuen HTML5-Viewer-Vorgabe zu verwenden. Diese Exportoption ist nützlich, da Sie den Viewer auf diese Weise nicht komplett neu erstellen müssen. Stattdessen exportieren Sie eine Vorgabe mit Einstellungen, die Ihren Anforderungen in etwa entsprechen, und verwenden diese dann als Ausgangspunkt für Ihre Design-Anpassungen.
 
-Beachten Sie, dass alle standardmäßigen, standardmäßigen CSS-Vorgabendateien für Viewer in Dynamic Media Classic relative Image Serving-Pfade verwenden, die auf Assets verweisen, die sich auf `Scene7SharedAssets`. Beispiel: Der folgende Pfad ist ein relativer Pfad zu einem Bild-Asset in einer CSS-Vorgabe-Datei, die sich unter `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diesen relativen Bildpfad lösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. Wenn Sie zum Beispiel den relativen Pfad über einem expliziten Pfad aktualisieren möchten, könnte er wie folgt aussehen, wobei der direkte Pfad zum Image-Server `https://s7d1.scene7.com` ist: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Beachten Sie, dass alle standardmäßigen, standardmäßigen CSS-Dateien mit Viewer-Vorgaben in Dynamic Media Classic relative Image Serving-Pfade verwenden, die auf Assets verweisen, die sich auf `Scene7SharedAssets`denen befinden. Beispiel: Der folgende Pfad ist ein relativer Pfad zu einem Bild-Asset in einer CSS-Vorgabe-Datei, die sich unter `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diesen relativen Bildpfad lösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. Wenn Sie zum Beispiel den relativen Pfad über einem expliziten Pfad aktualisieren möchten, könnte er wie folgt aussehen, wobei der direkte Pfad zum Image-Server `https://s7d1.scene7.com` ist: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **So exportieren Sie eine HTML5-Viewer-Vorgabe**
 
@@ -664,11 +664,11 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    Nach dem Export erhalten Sie eine CSS-Datei. Laden Sie die Datei herunter und dekomprimieren Sie sie.
 
 1. Öffnen Sie die CSS-Datei in einem CSS-Editor, nehmen Sie Ihre Änderungen vor und speichern Sie die Datei anschließend.
-1. Laden Sie die CSS-Datei in Dynamic Media Classic hoch.
+1. Laden Sie die CSS-Datei auf Dynamic Media Classic hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
-1. Veröffentlichen Sie die CSS-Datei auf dem Dynamic Media Image Server.
+1. Veröffentlichen Sie die CSS-Datei auf dem Image-Server für dynamische Medien.
 
    Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing_files).
 
@@ -761,9 +761,9 @@ Mit Standard-Viewern können Sie den Standard-Viewer konfigurieren, der mit eine
 
 ## Metadaten-Ansichten {#metadata-views}
 
-*Metadaten* sind standardisierte Informationen zu einem Asset. Mit Metadaten können Sie Ihren Arbeitsablauf optimieren, Ihre Assets organisieren und die Suche verbessern. Dynamic Media Classic unterstützt den IPTC-Standard (International Press Telecommunications Council) und den XMP-Standard (Extensible Metadata Platform). Vor der Anzeige oder Eingabe von Asset-Metadaten in der Detailansicht können Benutzer im Menü „Metadaten-Ansichten“ den Metadatenfeldersatz auswählen, den sie anzeigen oder zur Beschreibung des Assets verwenden möchten.
+*Metadaten* sind standardisierte Informationen zu einem Asset. Mit Metadaten können Sie Ihren Arbeitsablauf optimieren, Ihre Assets organisieren und die Suche verbessern. Dynamic Media Classic unterstützt den Standard IPTC (International Press Telecommunications Council) und den Standard XMP (Extensible Metadata Platform). Vor der Anzeige oder Eingabe von Asset-Metadaten in der Detailansicht können Benutzer im Menü „Metadaten-Ansichten“ den Metadatenfeldersatz auswählen, den sie anzeigen oder zur Beschreibung des Assets verwenden möchten.
 
-Dynamic Media Classic verfügt über vordefinierte Metadaten-Ansichten. Administratoren können eigene Metadaten-Ansichten erstellen, die sie bei der Eingabe von Metadaten auswählen können.
+Im Lieferumfang von Dynamic Media Classic sind vordefinierte Metadaten-Ansichten enthalten. Administratoren können eigene Metadaten-Ansichten erstellen, die sie bei der Eingabe von Metadaten auswählen können.
 
 ### Erstellen einer Metadaten-Ansicht {#creating-a-metadata-view}
 
@@ -880,7 +880,7 @@ Um diesen Bildschirm zu öffnen, klicken Sie auf **„Einstellungen“** > **�
 
 ## Optimieren von Dateien {#optimize-files}
 
-Beim Hochladen von Dateien in Dynamic Media Classic optimiert das System diese für die Datenspeicherung und Veröffentlichung. Wenn das Hochladen jedoch unterbrochen wird, können einige Bilder nicht optimiert werden. In diesem Fall wird die Meldung „Bild wurde noch nicht optimiert“ angezeigt. Als Administrator können Sie jedoch auch diese Dateien optimieren.
+Beim Hochladen von Dateien in den Dynamic Media Classic optimiert das System diese für die Datenspeicherung und Veröffentlichung. Wenn das Hochladen jedoch unterbrochen wird, können einige Bilder nicht optimiert werden. In diesem Fall wird die Meldung „Bild wurde noch nicht optimiert“ angezeigt. Als Administrator können Sie jedoch auch diese Dateien optimieren.
 
 Dynamic Media Classic durchsucht Ihre Dateien und optimiert nur die Bilder, die zuvor noch nicht vollständig optimiert wurden.
 
@@ -895,7 +895,7 @@ Verwenden Sie die Stapelsatzvorgaben, um automatisch Bildsätze oder Rotationsse
 
 Unternehmensadministratoren legen zuerst Namenskonventionen für die Assets fest, die sie in einem Satz gruppieren möchten. Sie können dann eine Stapelsatzvorgabe erstellen, um diese Bilder zu referenzieren. Jede Vorgabe ist ein eindeutig benannter, in sich abgeschlossener Satz von Anweisungen, die definieren, wie der Satz unter Verwendung der Bilder, die den definierten Benennungsregeln im Vorgabenrezept entsprechen, konstruiert werden soll.
 
-Alle aktiven Stapelsatzvorgaben für ein Unternehmen werden im Dialogfeld „Upload-Auftragsoptionen“ aufgelistet, sodass Sie bei jedem Hochladevorgang auswählen können, welche Vorgabe angewendet werden soll. Unternehmensadministratoren sehen alle aktiven und inaktiven Stapelsatzvorgaben. Wenn Sie Dateien hochladen, erstellt Dynamic Media Classic automatisch einen Satz mit allen Dateien, die der definierten Benennungsregel in den aktiven Vorgaben entsprechen.
+Alle aktiven Stapelsatzvorgaben für ein Unternehmen werden im Dialogfeld „Upload-Auftragsoptionen“ aufgelistet, sodass Sie bei jedem Hochladevorgang auswählen können, welche Vorgabe angewendet werden soll. Unternehmensadministratoren sehen alle aktiven und inaktiven Stapelsatzvorgaben. Beim Hochladen von Dateien erstellt Dynamic Media Classic automatisch einen Satz mit allen Dateien, die der definierten Benennungsregel in den aktiven Vorgaben entsprechen.
 
 ### Standardbenennung {#default-naming}
 
@@ -921,7 +921,7 @@ Zwei Elemente sind zur Definition verfügbar: Treffer und Grundname. Anhand dies
 
 ### Erstellen einer Stapelsatzvorgabe {#creating-a-batch-set-preset}
 
-Dynamic Media Classic verwendet Stapelsatzvorgaben, um Assets, die einige allgemeine Informationen oder Inhalte gemeinsam verwenden, in Bildsätzen für die Anzeige in Viewern zu organisieren. Die Stapelsatzvorgabenrezepte werden automatisch zusammen mit den Asset-Importaufträgen ausgeführt, die Sie in Dynamic Media Classic planen.
+Dynamic Media Classic verwendet Stapelsatzvorgaben, um Assets, die einige allgemeine Informationen oder Inhalte gemeinsam nutzen, in Bildsätzen für die Anzeige in Viewern zu organisieren. Die Stapelsatzvorgabenrezepte werden automatisch zusammen mit den Asset-Importaufträgen ausgeführt, die Sie in Dynamic Media Classic planen.
 
 Verwenden Sie „Stapelsatzvorgaben“ zum Erstellen, Bearbeiten und Verwalten Ihrer Stapelsatzvorgaben. Sie können so viele Stapelsatzvorgaben wie nötig erstellen, um alle benötigten Asset-Importaufträge abzudecken. Es gibt zwei Formen von Stapelsatzvorgabendefinitionen, eine für eine von Ihnen eingerichtete Standardbenennungsregel und eine für benutzerdefinierte Standardbenennungsregeln, die Sie spontan erstellen.
 
@@ -943,7 +943,7 @@ Siehe auch [Erstellen einer Stapelsatzvorgabe für die automatische Erstellung e
    * Wenn Sie eine Standard-Benennungskonvention verwenden, die Sie zuvor unter „Anwendungseinstellungen“ > „Stapelsatzvorgaben“ > „Standardbenennung“ eingerichtet haben, erweitern Sie **Asset-Benennungsregeln** und klicken Sie anschließend in der Dropdownliste „Dateibenennung“ auf **Standard**.
    * Um eine Benennungskonvention während der Einrichtung der Vorgabe zu definieren, erweitern Sie **Asset-Benennungsregeln** und klicken Sie anschließend in der Dropdownliste „Dateibenennung“ auf **Standard**.
 
-1. Legen Sie für die Reihenfolge der Sequenz die Reihenfolge der Bilder fest, nachdem das Set in Dynamic Media Classic gruppiert wurde. Die Assets werden standardmäßig in alphanumerischer Reihenfolge angeordnet. Sie können jedoch auch eine durch Kommas getrennte Liste mit regulären Ausdrücken verwenden, um die Reihenfolge anzupassen.
+1. Legen Sie für die Reihenfolge der Sequenzen die Reihenfolge der Bilder fest, nachdem das Set in &quot;Dynamisch Media Classic&quot;gruppiert wurde. Die Assets werden standardmäßig in alphanumerischer Reihenfolge angeordnet. Sie können jedoch auch eine durch Kommas getrennte Liste mit regulären Ausdrücken verwenden, um die Reihenfolge anzupassen.
 1. Geben Sie für „Satzbenennungs- und -erstellungsregel“ das Suffix bzw. Präfix für den Basisnamen an, den Sie in der Asset-Benennungsregel definiert haben. Legen Sie außerdem fest, wo der Bildsatz in der Ordnerstruktur von Dynamic Media Classic erstellt werden soll.
 
    Falls Sie eine große Anzahl von Bildsätzen definieren, sollten Sie diese von den Ordnern, die die Assets selbst enthalten, getrennt halten. Zahlreiche Kunden erstellen einen Ordner „Bildsätze“ und weisen die Anwendung an, im Stapelsatz generierte Sätze hier abzulegen.
