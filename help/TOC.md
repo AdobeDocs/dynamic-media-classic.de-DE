@@ -1,32 +1,32 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Dynamic Media Classic-Hilfe
+user-guide-title: Adobe Dynamic Media Classic-Handbuch
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 75%
+source-wordcount: '739'
+ht-degree: 74%
 
 ---
 
 
-# Dynamic Media Classic-Hilfe {#using}
+# Adobe Dynamic Media Classic-Handbuch {#using}
 
-+ [Dynamic Media Classic - Dokumentation - Startseite](home.md)
++ [Adobe Dynamic Media Classic-Handbuch](home.md)
 + [Übungen zu Best Practices](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NEU Dynamic Media Classic-Anmeldeerfahrung jetzt verfügbar](new-ui-2020.md)
++ [NEU Anmeldung mit Dynamic Media Classic jetzt verfügbar](new-ui-2020.md)
 + [Dynamic Media-Newsletter von Experience League](dynamic-media-newsletter.md)
-+ Einführung in Adobe Dynamic Media Classic {#intro}
++ Einführung in die Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic Desktop-App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
-   + [Informationen zu Dynamic Media Classic-Hilfe](introduction.md)
+   + [Hilfe zu Dynamic Media Classic](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
    + [Neuerungen](whats-new.md)
    + [Systemanforderungen](system-requirements.md)
    + [Support](support.md)
-   + [Hilfe für Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
+   + [Hilfe für das Portal für dynamische Medien - Klassische Medien](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Häufig genutzte Ressourcen](popular-resources.md)
    + [Schulungsvideos](training-videos.md)
