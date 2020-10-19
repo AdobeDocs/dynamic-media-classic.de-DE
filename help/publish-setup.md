@@ -2,24 +2,24 @@
 title: Veröffentlichungseinstellungen
 seo-title: Veröffentlichungseinstellungen
 description: 'null'
-seo-description: Die Einstellungen im Anzeigebereich "Veröffentlichungseinstellungen"bestimmen, wie Assets standardmäßig von Dynamic Media Classic-Servern an Websites oder Anwendungen gesendet werden.
+seo-description: Die Einstellungen im Anzeigebereich "Veröffentlichungseinstellungen"bestimmen, wie Assets standardmäßig von den Servern von Dynamic Media Classic an Websites oder Anwendungen gesendet werden.
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2409'
-ht-degree: 65%
+source-wordcount: '2421'
+ht-degree: 64%
 
 ---
 
 
 # Veröffentlichungseinstellungen {#publish-setup}
 
-Die Einstellungen im Anzeigebereich &quot;Veröffentlichungseinstellungen&quot;bestimmen, wie Assets standardmäßig von Dynamic Media Classic-Servern an Websites oder Anwendungen gesendet werden. Wenn keine Einstellung angegeben ist, stellt der Dynamic Media Classic-Server ein Asset gemäß einer Standardeinstellung im Anzeigebereich &quot;Veröffentlichungseinstellungen&quot;bereit. Bei der Anforderung zum Senden eines Bilds, in der beispielsweise kein Auflösungswert angegeben ist, wird das Bild mit der Auflösung gesendet, die im Anzeigebereich „Image-Server“ als Wert für „Standardobjektauflösung“ angegeben ist.
+Die Einstellungen im Anzeigebereich &quot;Veröffentlichungseinstellungen&quot;bestimmen, wie Assets standardmäßig von den Servern von Dynamic Media Classic an Websites oder Anwendungen gesendet werden. Wenn keine Einstellung angegeben ist, stellt der Server für dynamische Medien Classic ein Asset gemäß einer Standardeinstellung im Anzeigebereich &quot;Veröffentlichungseinstellungen&quot;bereit. Bei der Anforderung zum Senden eines Bilds, in der beispielsweise kein Auflösungswert angegeben ist, wird das Bild mit der Auflösung gesendet, die im Anzeigebereich „Image-Server“ als Wert für „Standardobjektauflösung“ angegeben ist.
 
 Administratoren können die Standardeinstellungen in den Anzeigebereichen „Image-Server“, „Bild-Renderer“ und „Vignette“ ändern, um festzulegen, wie Assets standardmäßig von den Servern gesendet werden.
 
@@ -27,15 +27,15 @@ Um den Anzeigebereich „Veröffentlichungseinstellungen“ zu öffnen, wählen 
 
 >[!NOTE]
 >
->Die Optionen im Anzeigebereich „Veröffentlichungseinstellungen“ sollten nur von erfahrenen Website-Entwicklern und Programmierern geändert werden. Dynamic Media Classic geht davon aus, dass Benutzer, die Einstellungen auf diesen Bildschirmen ändern, mit Dynamic Media Classic, den Standards und Konventionen des HTTP-Protokolls und der grundlegenden Bildbearbeitungstechnologie vertraut sind.
+>Die Optionen im Anzeigebereich „Veröffentlichungseinstellungen“ sollten nur von erfahrenen Website-Entwicklern und Programmierern geändert werden. Bei Dynamic Media Classic wird davon ausgegangen, dass Benutzer, die Einstellungen auf diesen Bildschirmen ändern, mit Dynamic Media Classic, den Standards und Konventionen des HTTP-Protokolls und der grundlegenden Imaging-Technologie vertraut sind.
 
 ## Image-Server {#image-server}
 
 Im Anzeigebereich „Image-Server“ werden Standardeinstellungen für das Senden von Bildern von den Image-Servern festgelegt. Es sind Einstellungen in den folgenden fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie direkt im Anzeigebereich „Image-Server“):
 
-Ändern Sie diese Einstellungen nur mithilfe eines Dynamic Media Classic Support-Mitarbeiters.
+Ändern Sie diese Einstellungen nur mithilfe des Support-Mitarbeiters von Dynamic Media Classic.
 
-**Katalogverwaltung** Diese Einstellungen bestimmen, wie Dynamic Media Classic und der Katalog interagieren. Anders als bei den meisten Webservern gehen Dynamic Media-Image-Server-URL-Aufrufe eher an eine Manifest- oder Katalogdatei als an eine Bilddatei. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste mit dem gesamten Inhalt, der auf dem Image-Server veröffentlicht wurde, und den Pfaden aller Bilddateien. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
+**Katalogverwaltung** Diese Einstellungen bestimmen die Interaktion von Dynamic Media Classic und dem Katalog. Anders als bei den meisten Webservern gehen URL-Aufrufe des dynamischen Medienservers an eine Manifest- oder Katalogdatei und nicht an eine Bilddatei. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste mit dem gesamten Inhalt, der auf dem Image-Server veröffentlicht wurde, und den Pfaden aller Bilddateien. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
 
 **Anforderungsattribute** Diese Einstellungen setzen Beschränkungen für Bilder fest, die vom Server bereitgestellt werden können. Beispielsweise ist die maximale ** Antwortbildgröße **[!UICONTROL auf]** Breite **[!UICONTROL 5000 und]** Höhe **** 5000 begrenzt.
 
@@ -49,12 +49,12 @@ Im Anzeigebereich „Image-Server“ werden Standardeinstellungen für das Sende
 
 **Kompatibilitätsattribute** Mit dieser Einstellung können führende und nachgestellte Absätze in Textebenen wie in Version 3.6 behandelt werden, um die Abwärtskompatibilität zu gewährleisten.
 
-**Unterstützung** von Lokale Anpassungen Mit diesen Einstellungen können Sie mehrere Gebietsschemaattribute verwalten. Damit können Sie außerdem eine Zeichenfolge für Gebietsschemakarten angeben, um zu definieren, welche Sprachen Sie für die verschiedenen QuickInfos in den Viewern unterstützen möchten.
+**Unterstützung** von lokale Anpassungen Mit diesen Einstellungen können Sie mehrere Gebietsschemaattribute verwalten. Damit können Sie außerdem eine Zeichenfolge für Gebietsschemakarten angeben, um zu definieren, welche Sprachen Sie für die verschiedenen QuickInfos in den Viewern unterstützen möchten.
 
 Wenn Sie beispielsweise eine multinationale Marke sind mit Vertrieb in verschiedenen Ländern, können Sie sicherstellen, dass jedes Land seinen eigenen Gebietsschema-spezifischen Viewer hat. Für diese Funktion geben Sie eine Zeichenfolge für Gebietsschemakarten an. Bearbeiten Sie anschließend den QuickInfo-Text in der Vorgabe eines Viewer, indem Sie die übersetzten Zeichenfolgen für die gewünschte Sprache hinzufügen. 
 
 >[!NOTE]
-> Wenden Sie sich zum Einrichten der Support-Optionen an den technischen Support von Adobe Dynamic Media Classic oder senden Sie eine E-Mail an s7support@adobe.com, um Hilfe beim Einrichten zu erhalten.
+> Um die Support-Optionen für Lokale Anpassungen einzurichten, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Wenn Sie Unterstützung benötigen, bitten Sie um Hilfe beim Setup.
 
 Weitere Informationen zum Einrichten von **Lokalisierungsunterstützung** finden Sie unter [Betrachtungen beim Planen der Asset-Lokalisierung](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,9 +62,9 @@ Weitere Informationen zum Einrichten von **Lokalisierungsunterstützung** finden
 
 >[!NOTE]
 >
->Wenden Sie sich an den technischen Support von Adobe Dynamic Media Classic, wenn Sie Optionen zur Unterstützung von Lokale Anpassungen in Dynamic Media Classic einrichten möchten, z. B. das Feld &quot;Gebietsschemakarte&quot;. Oder senden Sie eine E-Mail an s7support@adobe.com und bitten Sie um Hilfe bei der Einrichtung.
+>Wenn Sie Optionen zur Unterstützung von Lokale Anpassungen in Dynamic Media Classic einrichten möchten, z. B. das Feld &quot;Gebietsschemakarte&quot;, [verwenden Sie die Admin Console, um eine Unterstützungsaktion zu erstellen.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Wenn Sie Unterstützung benötigen, bitten Sie um Hilfe beim Setup.
 
-Eine gängige Möglichkeit zur Verwendung von Dynamic Media Classic ist die Verwaltung der Produktbilder auf E-Commerce-Websites. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise betreffen die Unterschiede nur sehr wenige Bereiche des gesamten Mediums. Es ist unglaublich aufwändig, aufgrund dieser Unterschiede sämtliche Assets für jedes der Länder zu kopieren und nur die Unterschiede zu überschreiben. Dies widerspricht der Metapher von einem Master-Asset. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Dynamic Media Classic verwendet einen grundlegenden Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
+Eine gängige Möglichkeit zur Verwendung von Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise betreffen die Unterschiede nur sehr wenige Bereiche des gesamten Mediums. Es ist unglaublich aufwändig, aufgrund dieser Unterschiede sämtliche Assets für jedes der Länder zu kopieren und nur die Unterschiede zu überschreiben. Dies widerspricht der Metapher von einem Master-Asset. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Dynamic Media Classic verwendet einen grundlegenden Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
 
 **So werden Assets lokalisiert**
 
@@ -140,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **defaultImage**
 
-Der Image-Server versucht nacheinander, die Optionen für das angeforderte Gebietsschema zu verwenden. Wenn keine Übereinstimmung gefunden wird, werden die Gebietsschema-Optionen auf das defaultImage angewendet und die übereinstimmende Version wird zurückgegeben. Daher sollte entweder jedes Gebietsschema eine Option für das Bild ohne lokale Anpassung enthalten oder die lokalisierten defaultImage-Versionen sollten in Dynamic Media Classic verfügbar gemacht werden.
+Der Image-Server versucht nacheinander, die Optionen für das angeforderte Gebietsschema zu verwenden. Wenn keine Übereinstimmung gefunden wird, werden die Gebietsschema-Optionen auf das defaultImage angewendet und die übereinstimmende Version wird zurückgegeben. Daher sollte entweder jedes Gebietsschema eine Option für das Bild ohne lokale Anpassung enthalten oder die lokalisierten defaultImage-Versionen sollten in Dynamic Media Classic verfügbar sein.
 
 **Szenarios für die Suche nach der localeMap**
 
@@ -223,7 +223,7 @@ Using the first example as a basis, images for all languages may have the suffix
 
 Im Anzeigebereich „Bild-Renderer“ werden Standardeinstellungen für das Senden von Bildern von den Bild-Renderer-Servern festgelegt. Es sind Einstellungen in den folgenden fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie direkt im Anzeigebereich „Image-Server“):
 
-**Katalogverwaltung** Diese Einstellungen bestimmen, wie Dynamic Media Classic und die Katalogdatei interagieren. Dynamic Media Classic Render Server-URL-Aufrufe werden an den Katalog gesendet, der wiederum Aufrufe zur Bereitstellung von Bildern vom Server ausführt. Ändern Sie diese Einstellungen nur mithilfe eines Dynamic Media Classic Support-Mitarbeiters.
+**Katalogverwaltung** Diese Einstellungen bestimmen, wie Dynamic Media Classic und die Katalogdatei interagieren. URL-Aufrufe des Dynamic Media Classic Render-Servers werden an den Katalog gesendet, der wiederum Aufrufe zur Bereitstellung von Bildern vom Server ausführt. Ändern Sie diese Einstellungen nur mithilfe des Support-Mitarbeiters von Dynamic Media Classic.
 
 **Sitzungsattribute** Mit diesen Einstellungen werden Fehlerparameter, die URL für relative Bild-URLs und die Zulässigkeit von überlappenden Objekten festgelegt.
 
