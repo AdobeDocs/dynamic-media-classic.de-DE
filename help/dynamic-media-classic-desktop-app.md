@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8d226f9b68e8f4d756825b26599bae37e06cf088
+source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ Die Desktop-App &quot;Adobe Dynamic Media Classic&quot;ist mit den folgenden Bet
 
 Verwandte Themen:
 
-* [Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter MacOS herunter und installieren Sie sie *unbeaufsichtigt*](#install-silent-mac-dmc-app)
-* [Laden Sie die neueste Adobe Dynamic Media Classic für die Desktop-App unter Windows herunter und installieren Sie sie *ohne Umschweife* .](#install-silent-windows-dmc-app)
+* [Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Mac oder Windows herunter und installieren Sie sie](#installation-dmc-app)
+* [Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Windows herunter und installieren Sie sie im Hintergrund](#install-silent-windows-dmc-app)
 
 1. Deinstallieren Sie alle älteren Desktop-App-Versionen von Dynamic Media Classic auf Ihrem System.
 
@@ -65,6 +65,7 @@ Verwandte Themen:
 
    * [macOS (.DMG) - Herunterladen.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
    * [Windows (.EXE) - Herunterladen.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+
 
 
 
@@ -102,7 +103,7 @@ Verwandte Themen:
 Verwandte Themen:
 
 * [Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Mac oder Windows herunter und installieren Sie sie](#installation-dmc-app)
-* [Laden Sie die neueste Adobe Dynamic Media Classic für die Desktop-App unter Windows herunter und installieren Sie sie *ohne Umschweife* .](#install-silent-windows-dmc-app)
+* [Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Windows herunter und installieren Sie sie im Hintergrund](#install-silent-windows-dmc-app)
 
 So laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter macOS herunter und installieren Sie sie *unbeaufsichtigt* :
 
@@ -142,7 +143,7 @@ Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Ins
 Verwandte Themen:
 
 * [Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Mac oder Windows herunter und installieren Sie sie](#installation-dmc-app)
-* [Laden Sie die neueste Adobe Dynamic Media Classic für die Desktop-App unter Windows herunter und installieren Sie sie *ohne Umschweife* .](#install-silent-windows-dmc-app)
+* [Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Windows herunter und installieren Sie sie im Hintergrund](#install-silent-windows-dmc-app)
 
 So laden Sie die neueste Version der Adobe Dynamic Media Classic-Desktop-App herunter und *installieren Sie sie unbeaufsichtigt* :
 
