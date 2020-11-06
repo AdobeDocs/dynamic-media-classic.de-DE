@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ So laden Sie die neueste Version der Adobe Dynamic Media Classic-Desktop-App her
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
 
-## Video-Anleitung zur Verwendung der Desktop-App &quot;Dynamic Media Classic&quot;
+## Video-Anleitung zur Verwendung der Desktop-App &quot;Dynamic Media Classic&quot; {#dmc-app-video-walk-through}
 
 Sehen Sie sich einen [Video-Durchgang zur Verwendung der Desktop-App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) &quot;Dynamic Media Classic&quot;an (Länge: 2 Minuten, 36 Sekunden).
+
+## Löschen des Bild-Cache und des Asset-Cache auf Ihrem Computer mithilfe der Desktop-App
+
+1. Tippen Sie in der Desktop-App &quot;Dynamic Media Classic&quot;oben rechts auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Persönliche Einstellungen]**.
+1. Führen Sie auf der Seite **[!UICONTROL Persönliche Einstellungen]** unter der Überschrift **[!UICONTROL Desktop]** einen der folgenden Schritte aus:
+   * Tippen Sie auf **[!UICONTROL Bildcache]** löschen, um alle Adobe-Bilddateien im Cache für dynamische Medien von Ihrem Computer zu entfernen. Tippen Sie auf **[!UICONTROL OK]**.
+   * Tippen Sie auf Asset-Cache **[!UICONTROL löschen]** , um alle Adobe-Asset-Dateien zu entfernen, die im Cache für dynamische Medien gespeichert wurden. Tippen Sie auf **[!UICONTROL OK]**.
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### Manuelles Löschen des Bild-Cache und des Asset-Cache
+
+Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie diese Aufgabe auch manuell durchführen, indem Sie den Cache direkt aus dem Dateisystem löschen.
+
+1. Navigieren Sie je nach Betriebssystem zu den folgenden Schritten:
+
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Bekannte Einschränkungen in Dynamic Media Classic 20.20.1 (behoben in 20.20.2)
 
