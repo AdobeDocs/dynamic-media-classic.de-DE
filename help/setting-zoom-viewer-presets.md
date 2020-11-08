@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 69%
@@ -20,13 +20,13 @@ ht-degree: 69%
 
 # Konfigurieren von Zoom-Viewer-Vorgaben{#setting-up-zoom-viewer-presets}
 
-Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Dynamic Media Classic Angebot bietet viele Optionen zum Anpassen und Gestalten von Viewern. Dynamic Media Classic verfügt über standardmäßige einfache (schnelle), Flyout- und benutzerdefinierte Zoom-Viewer-Vorgaben. Als Administrator können Sie neue unternehmensweite Zoom-Viewer-Vorgaben erstellen oder eine Standardvorgabe bearbeiten und sie unter einem neuen Namen speichern.
+Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Dynamic Media Classic bietet viele Optionen zum Anpassen und Skin von Viewern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige einfache (schnelle), Flyout- und benutzerdefinierte Zoom-Viewer-Vorgaben enthalten. Als Administrator können Sie neue unternehmensweite Zoom-Viewer-Vorgaben erstellen oder eine Standardvorgabe bearbeiten und sie unter einem neuen Namen speichern.
 
 Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenken und Zurücksetzen des Bildes in seinen ursprünglichen Zustand vor dem Zoomen. Das Aussehen dieser Schaltflächen und des Fensters an sich hängt von den ausgewählten Zoom-Viewer-Vorgaben ab. Sie können eine Zoom-Viewer-Vorgabe mit unterschiedlichen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren. Wenn Sie einen Zoom-Viewer für geführtes Zoomen konfigurieren, können Sie darüber hinaus auch die Positionierung der Zoomziele festlegen. Zoomziele sind Miniaturansichten, auf die ein Benutzer klicken kann, um den von Ihnen zugeordneten Bildausschnitt heranzuzoomen.
 
 ## Zoom-Viewer-Vorgaben {#about-zoom-viewer-presets}
 
-Dynamic Media Classic-Angebote:
+Dynamische Medien - Classic-Angebote:
 
 * **Zoom-Viewer: Einfach** Bietet einen einfachen Zoom auf das Originalbild.
 
