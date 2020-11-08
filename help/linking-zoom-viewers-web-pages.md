@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 86%
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 # Verknüpfen von Zoom-Viewern mit Webseiten{#linking-zoom-viewers-to-your-web-pages}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media wie den Image-Server-Inhalt, einschließlich Übergeordnet- und damit verbundene Zoom-Zielgruppen, sowie auf Zoom-Viewer-Vorgaben zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Inhalt des Image-Servers für dynamische Medien zu, einschließlich Übergeordnet Zielgruppen und damit verbundene Zoom-Viewer-Vorgaben. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus &quot;Dynamic Media Classic&quot;.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
 Normalerweise klicken Besucher einer Website zum Zoomen von Bildern zunächst auf ein Zoomsymbol (häufig wird als Symbol eine Lupe verwendet). Über diese Symbolschaltfläche wird eine dynamische Website (ASP oder JSP) aufgerufen und das Bild in einem Popup-Fenster angezeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter &quot; [Einbetten des HTML5-grundlegenden Zoom-Viewers&quot;im Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Weitere Informationen und Codebeispiele finden Sie unter &quot; [Einbetten des HTML5-grundlegenden Zoom-Viewers&quot;im Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)für Adoben.
 
 ## Kopieren von Einbettungscode eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 
