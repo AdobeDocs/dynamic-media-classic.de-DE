@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 61%
@@ -24,7 +24,7 @@ Elemente, die Sie aus Dynamic Media Classic löschen, werden in den Ordner &quot
 
 Alle Benutzer können Elemente aus dem Ordner „Papierkorb“ wiederherstellen, sie also wieder in die Ordner übertragen, aus denen sie gelöscht wurden. Alle Benutzer haben außerdem die Möglichkeit, den Ordner „Papierkorb“ zu leeren, also den gesamten Inhalt daraus zu löschen.
 
-Beim Löschen von Elementen aus dem Ordner &quot;Papierkorb&quot;werden Elemente aus Dynamic Media Classic endgültig gelöscht. Elemente, die aus dem Ordner &quot;Papierkorb&quot;gelöscht wurden, können nicht mehr wiederhergestellt werden. Informationen zum Einstellen von Benachrichtigungen für Unternehmensadministratoren bei bevorstehendem automatischem Löschen von Assets aus dem Papierkorb finden Sie im Abschnitt [Allgemeine Programmeinstellungen](application-setup.md#general_settings).
+Beim Löschen von Elementen aus dem Ordner &quot;Papierkorb&quot;werden Elemente aus &quot;Dynamic Media Classic&quot;endgültig gelöscht. Elemente, die aus dem Ordner &quot;Papierkorb&quot;gelöscht wurden, können nicht mehr wiederhergestellt werden. Informationen zum Einstellen von Benachrichtigungen für Unternehmensadministratoren bei bevorstehendem automatischem Löschen von Assets aus dem Papierkorb finden Sie im Abschnitt [Allgemeine Programmeinstellungen](application-setup.md#general_settings).
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Beim Löschen von Elementen aus dem Ordner &quot;Papierkorb&quot;werden Elemente
 
 Wenn Sie ein Element aus einem Ordner löschen, wird es im Ordner „Papierkorb“ abgelegt. Das Löschen eines Elements mit nachfolgendem Verschieben in den Ordner „Papierkorb“ ist mit folgenden Gegebenheiten bzw. Abläufen verbunden:
 
-* Obwohl das Element aus Ihren Dynamic Media Classic-Ordnern entfernt wurde, kann seine ID keinem anderen Asset zugewiesen werden, solange es sich im Ordner &quot;Papierkorb&quot;befindet. Wenn Sie versuchen, ein Asset mit demselben Namen wie eine Datei im Ordner &quot;Papierkorb&quot;hochzuladen, hängt Dynamic Media Classic eine Ziffer an den Namen des Assets an.
+* Obwohl das Element aus den Ordnern von Dynamic Media Classic entfernt wurde, kann seine ID keinem anderen Asset zugewiesen werden, solange es sich im Ordner &quot;Papierkorb&quot;befindet. Wenn Sie versuchen, ein Asset mit demselben Namen wie eine Datei im Ordner &quot;Papierkorb&quot;hochzuladen, hängt Dynamic Media Classic eine Ziffer an den Namen des Assets an.
 * Das Element kann nicht veröffentlicht werden. Selbst wenn das Element zur Veröffentlichung markiert war, als sie es gelöscht haben, wird es nicht veröffentlicht.
 * Das Element bleibt im Ordner „Papierkorb“, bis es wiederhergestellt wird, bis der Befehl „Papierkorb leeren“ gewählt wird oder bis sieben Tage vergangen sind. Nach Ablauf von sieben Tagen wird das Element durch einen automatischen Datenbereinigungsvorgang endgültig gelöscht.
 
