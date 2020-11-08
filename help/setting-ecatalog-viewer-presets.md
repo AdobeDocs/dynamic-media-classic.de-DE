@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 67%
@@ -51,7 +51,7 @@ Führen Sie folgende Schritte aus, um eine E-Katalog-Viewer-Vorgabe zu erstellen
    | `$2$` | frame | Die Sequenznummer des momentan angezeigten Bildfelds im Bildsatz. |
    | `$3$` | imageroot | Das erste Pfadelement des ersten Elements, das im Bildbefehl angegeben wird (normalerweise die Katalog-ID des Katalogeintrags, der den Bildsatz bestimmt). |
 
-1. (Optional) Geben Sie in den Infofeldeinstellungen im Feld &quot;Antwortvorlage&quot;den Text ein, der angezeigt werden soll, wenn Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie in den Infofeldeinstellungen im Feld &quot;Antwortvorlage&quot;den Text ein, der angezeigt werden soll, wenn beim Abrufen von Informationen für eine Imagemap ein Fehler auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 
 >[!NOTE]
 >
