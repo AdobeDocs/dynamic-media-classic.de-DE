@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 64%
@@ -20,7 +20,7 @@ ht-degree: 64%
 
 # Kurzanleitung: Mustersets{#quick-start-swatch-sets}
 
-Dynamic Media Classic-Mustersets bieten eine integrierte Anzeigeerfahrung. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
+Dynamische Medienklassische Mustersets bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
 
 **Quick Beginn**
 
@@ -30,7 +30,7 @@ Dieser Beginn für Mustersets hilft Ihnen, sich schnell mit den Musterset-Techni
 
 Laden Sie zuerst die Bilder und Musterdateien für die Mustersets hoch.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Dynamic Media Classic-Ordner hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner unter &quot;Dynamic Media Classic&quot;hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
 **2. Erstellen eines Mustersets**
 
@@ -38,7 +38,7 @@ Um ein Musterset zu erstellen, klicken Sie auf „Erstellen > Mustersets“. Zie
 
 **3. Einstellen von Musterset-Viewer-Vorgaben**
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ enthalten. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
 
 Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -50,7 +50,7 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 **5. Veröffentlichen eines Mustersets**
 
-Beim Veröffentlichen eines Mustersets wird es auf Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
+Beim Veröffentlichen eines Mustersets wird es auf den Servern von Dynamic Media Classic platziert und die URL-Zeichenfolge aktiviert.
 
 Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -58,6 +58,6 @@ Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
 **6. Verknüpfen eines Mustersets mit einer Website**
 
-Dynamic Media Classic erstellt URL-Aufrufe für Mustersets und aktiviert sie nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
+Dynamic Media Classic erstellt URL-Aufrufe für Mustersets und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 
 Markieren Sie dazu das Musterset und klicken Sie auf „Vorschau“. Der Anzeigebereich „Vorschau“ wird geöffnet. Wählen Sie anschließend eine Musterset-Viewer-Vorgabe aus und klicken Sie auf „URL kopieren“. Siehe [Verknüpfen eines Mustersets mit einer Website](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
