@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 71%
@@ -20,7 +20,7 @@ ht-degree: 71%
 
 # Überprüfen von Auftragsdateien{#checking-job-files}
 
-Zur Überwachung von Datei-Uploads in Dynamic Media Classic und von Dateien, die Sie auf Dynamic Media Classic-Servern veröffentlichen, wird die Seite &quot;Aufträge&quot;von Dynamic Media Classic Angebot angezeigt. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
+Zur Überwachung von Datei-Uploads in den Dynamic Media Classic und von Dateien, die Sie auf den Servern von Dynamic Media Classic veröffentlichen, wird die Seite &quot;Aufträge&quot;von Dynamic Media Classic Angebot. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
 
 Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können auf das Symbol klicken, um weitere Informationen zum aktiven Auftrag anzuzeigen.
 
@@ -50,7 +50,7 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 **Status** Zeigt den Status des Auftrags an.
 
-**Ziel** Bei Upload-Aufträgen: Name und Firma, in die die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
+**Ziel** Bei Upload-Aufträgen: Firma und Ordner, in den die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
 
 **Gesendet von** Listen, die die Assets hochgeladen haben.
 
@@ -70,7 +70,7 @@ Mit den folgenden Verfahren können Sie Aufträge sortieren oder die Ansicht der
 
 ## Anzeigen, Kopieren oder Drucken eines Berichts mit Auftragsdetails {#viewing-copying-or-printing-a-job-details-report}
 
-Doppelklicken Sie auf der Seite „Aufträge“ auf den Namen eines Berichts, um die Seite „Auftragsdetails“ zu öffnen. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Klicken Sie auf &quot;Ansicht Detail&quot;, um die Classic-ID eines Eintrags, den Zielpfad und Statusinformationen zu den Dynamic Media eines Eintrags anzuzeigen. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Dynamic Media Classic nicht verfügbar sind, werden die fehlenden Schriftarten im Bericht Liste.
+Doppelklicken Sie auf der Seite „Aufträge“ auf den Namen eines Berichts, um die Seite „Auftragsdetails“ zu öffnen. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Klicken Sie auf &quot;Ansichten-Details&quot;, um die ID, den Zielpfad und die Statusinformationen eines Eintrags für Dynamic Media Classic anzuzeigen. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Dynamic Media Classic nicht verfügbar sind, werden die fehlenden Schriftarten im Bericht Liste.
 
 Sie können diese Informationen in die Zwischenablage kopieren.
 
