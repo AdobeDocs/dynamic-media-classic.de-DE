@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -28,11 +28,11 @@ Sie können die folgenden Angebotsset-Typen erstellen:
 
 For templates, click **Add and Preview**, then set the parameters you choose. Die anderen Angebotsset-Typen enthalten keine Parameter, aber Sie können sie dennoch anpassen, indem Sie auf **Vorschau** klicken und die verfügbaren Vorgaben ändern.
 
-Dynamic Media Classic-Angebot zum Bearbeiten und Erstellen von Angebot-Sets.
+Werkzeuge für Angebote aus Dynamic Media Classic zum Bearbeiten und Erstellen von Angebot-Sets.
 
 >[!NOTE]
 >
->Vergewissern Sie sich vor dem Erstellen eines Angebot-Sets, dass Sie alle Assets veröffentlichen, die Sie für das Set mit Dynamic Media Classic verwenden möchten. Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
+>Bevor Sie ein Angebot-Set erstellen, vergewissern Sie sich, dass Sie alle Assets veröffentlichen, die Sie für den Satz &quot;Dynamisch Media Classic&quot;verwenden möchten. Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 ## Angebotsset-Typen {#types-of-offer-sets}
 
@@ -130,11 +130,11 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 **Löschen** , um ein Angebot aus dem Satz zu entfernen.
    * **Hinzufügen eines Angebots** Wie Sie ein Angebot hinzufügen, hängt davon ab, mit welchem Angebot Sie arbeiten:
    * **Vorlagen** Klicken 
-**Hinzufügen &amp; Vorschau** und erstellen Sie auf der Seite &quot;Angebote für Hinzufügen und Vorschau&quot;ein weiteres Angebot.
+**hinzufügen &amp; Vorschau** und erstellen Sie auf der Seite &quot;Angebote für Hinzufügen und Vorschau&quot;ein weiteres Angebot.
    * **Bilder und Videos** Ziehen Sie ein Angebot oder Video auf die Seite &quot;Test&amp;Zielgruppe-Set&quot;.
    >[!NOTE]
    >
-   >Angebotssets, die einer Kampagne zugeordnet sind, können nicht gelöscht werden. Um einen mit einer Kampagne verknüpften Angebot-Satz zu löschen, melden Sie sich bei Target Standard/Premium an und entfernen Sie zuerst die Kampagne-Verknüpfungen. Selbst nach dem Aufheben der Verknüpfung mit einer Kampagne kann das Asset nur aus Dynamischer Medienklassik gelöscht werden, wozu eine Anmeldung bei Target Standard/Premium erforderlich ist, nicht aus Target Standard/Premium.
+   >Angebotssets, die einer Kampagne zugeordnet sind, können nicht gelöscht werden. Um einen mit einer Kampagne verknüpften Angebot-Satz zu löschen, melden Sie sich bei Target Standard/Premium an und entfernen Sie zuerst die Kampagne-Verknüpfungen. Selbst nach dem Aufheben der Verknüpfung mit einer Kampagne kann das Asset nur aus Dynamischer Medienklassik gelöscht werden, wozu eine Anmeldung bei Target Standard/Premium erforderlich ist, und nicht aus Target Standard/Premium.
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
