@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ff112497b41f71b77f4afa47d331a1a9bc1e2d07
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 37%
@@ -20,7 +20,7 @@ ht-degree: 37%
 
 # Anmelden bei Adobe Analytics{#log-in-to-adobe-analytics}
 
-Bevor Sie sich anmelden, um Adobe Analytics-Berichte zu konfigurieren und Adobe Analytics-Berichtsvariablen Dynamic Media Classic-Ereignissen zuzuordnen, überprüfen Sie, ob Sie als Mitglied der Web Service Access-Gruppe in Adobe Analytics hinzugefügt wurden. Mitglieder dieser Gruppe können unabhängig von den in der Schnittstelle eingerichteten Berechtigungen auf alle Berichte in den angegebenen Bericht-Suites über die Marketing Cloud Web-Services-API zugreifen. Um ein Mitglied der Gruppe zu werden, klicken Sie in Adobe Analytics auf **Admin Tools** > **Benutzerverwaltung** > **Gruppen bearbeiten**.
+Bevor Sie sich anmelden, um Adobe Analytics-Berichte zu konfigurieren und Adobe Analytics-Berichtsvariablen mit dynamischen Media Classic-Ereignissen abzugleichen, überprüfen Sie, ob Sie als Mitglied der Web Service Access-Gruppe in Adobe Analytics hinzugefügt wurden. Mitglieder dieser Gruppe können unabhängig von den in der Schnittstelle eingerichteten Berechtigungen auf alle Berichte in den angegebenen Bericht-Suites über die Marketing Cloud Web-Services-API zugreifen. Um ein Mitglied der Gruppe zu werden, klicken Sie in Adobe Analytics auf **Admin Tools** > **Benutzerverwaltung** > **Gruppen bearbeiten**.
 
 Wenn Sie sich anmelden, haben Sie die Möglichkeit, Ihre Marketing Cloud-Organisations-ID einzugeben, um die neueste Videoanalyseimplementierung zu verwenden. Wenn Sie Ihre ID nicht eingeben, funktioniert Video Berichte weiterhin. Es kann jedoch dazu führen, dass die Daten nicht richtig in andere Daten für diesen Client von außerhalb von Dynamic Media Classic integriert werden.
 
@@ -30,7 +30,7 @@ Wenn Sie sich anmelden, haben Sie die Möglichkeit, Ihre Marketing Cloud-Organis
 
 **So melden Sie sich bei Adobe Analytics an**
 
-1. Tippen Sie oben rechts auf der Seite &quot;Dynamic Media Classic&quot;auf **[!UICONTROL Einstellungen > Anwendungseinstellungen]**.
+1. Tippen Sie in der rechten oberen Ecke der Seite &quot;Dynamische Medien - Classic&quot;auf **[!UICONTROL Einstellungen > Anwendungseinstellungen]**.
 1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
 1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
 1. Geben Sie im Dialogfeld &quot; **[!UICONTROL Adobe Analytics-Anmeldung]** &quot;Ihren Firmen-, Marketing Cloud-Organisations-ID (optional)- und Benutzernamen sowie den *gemeinsamen geheimen* Schlüssel in das Textfeld &quot; **[!UICONTROL Kennwort]** &quot;ein.
