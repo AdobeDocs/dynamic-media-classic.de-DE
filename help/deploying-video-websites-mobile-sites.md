@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 69%
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 # Bereitstellen von Video auf Websites und mobilen Sites{#deploying-video-to-your-websites-and-mobile-sites}
 
-Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Classic-Serverinhalte, einschließlich Videos, zu. Dynamic Media Classic aktiviert diese URL-Zeichenfolgen während des Veröffentlichungsvorgangs. Um die URL-Zeichenfolge oder den Einbettungscode für Ihr Video in Ihre Webseiten, mobilen Seiten und Desktop-Anwendungen einzufügen, kopieren Sie diese bzw. ihn aus Dynamic Media Classic.
+Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Inhalt von Dynamic Media Classic-Servern zu, einschließlich Videos. Dynamic Media Classic aktiviert diese URL-Zeichenfolgen während des Veröffentlichungsvorgangs. Um die URL-Zeichenfolge oder den Einbettungscode für Ihr Video in Ihre Webseiten, mobilen Seiten und Desktop-Anwendungen einzufügen, kopieren Sie diese bzw. ihn aus Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenf
 
 ## Veröffentlichen von Videos {#publishing-video}
 
-Durch das Veröffentlichen eines Videos können Dynamic Media Classic-Server Videos an Ihre Website, mobile Site oder Anwendung übertragen.
+Durch das Veröffentlichen eines Videos können die Server von Dynamic Media Classic Videos für Ihre Website, mobile Site oder Anwendung bereitstellen.
 
 Es gibt zwei unterschiedliche Methoden zum Veröffentlichen von Video:
 
@@ -136,7 +136,7 @@ If you do not use the Dynamic Media Classic HTML5 video player, but instead want
 
 ## Bereitstellen von Videos mithilfe von Video-Playern von von Drittanbietern {#deploying-video-using-a-third-party-video-player}
 
-Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Video-Viewers von Dynamic Media Classic verwenden, können Sie die direkte Video-URL abrufen, die für das HLS-Video-Streaming mit mehreren Bitraten oder progressives Herunterladen verwendet werden kann.
+Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Video-Viewers für Dynamic Media Classic verwenden, können Sie die direkte Video-URL abrufen, die für das HLS-Video-Streaming mit mehreren Bitraten oder progressives Herunterladen funktioniert.
 
 **So stellen Sie ein Video mit einem Video-Player eines Drittanbieters bereit**
 
@@ -163,13 +163,13 @@ For example, suppose the progressive video server name is `https://s7d9.scene7.c
 
 ## Arbeiten mit Videominiaturen {#working-with-video-thumbnails}
 
-Dynamic Media Classic generiert Miniaturansichten für kodierte und vorkodierte Videos. Videominiaturen können wie alle anderen Bild-Assets verwendet werden. Darüber hinaus können Sie URLs für die von Dynamic Media Classic erstellten Videominiaturen abrufen und diese URLs außerhalb von Dynamic Media Classic bereitstellen. Beispielsweise können Sie die Miniaturansichten in Suchergebnissen, relevanten Videolisten und Videowiedergabelisten auf einer Website bereitstellen.
+Dynamic Media Classic generiert Miniaturansichten für kodierte Videos und vorkodierte Videos. Videominiaturen können wie alle anderen Bild-Assets verwendet werden. Darüber hinaus können Sie URLs für die von Dynamic Media Classic erstellten Videominiaturen abrufen und diese URLs außerhalb von Dynamic Media Classic bereitstellen. Beispielsweise können Sie die Miniaturansichten in Suchergebnissen, relevanten Videolisten und Videowiedergabelisten auf einer Website bereitstellen.
 
 Miniaturansichten werden basierend auf dem ersten heterogenen Frame (d. h. kein vollständig schwarzer oder vollständig weißer Frame usw.) des Videos generiert.
 
 ### Abrufen von Videominiatur-URLs {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic generiert während des Hochladevorgangs automatisch Videominiaturen. Die Miniaturansichten werden im Durchsuchenbedienfeld in der Listen- und Rasteransicht angezeigt.
+Dynamic Media Classic generiert Videominiaturen während des Uploads automatisch. Die Miniaturansichten werden im Durchsuchenbedienfeld in der Listen- und Rasteransicht angezeigt.
 
 Führen Sie zum Erstellen von URLs für Videominiaturen einen Veröffentlichungsvorgang durch.
 
