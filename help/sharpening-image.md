@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 73%
@@ -24,23 +24,23 @@ Mit der Bildbearbeitungstechnik des Scharfzeichnens werden die Umrisse eines dig
 
 Dynamic Media Classic empfiehlt die Verwendung von Bildvorgaben für alle Bilder. Hierdurch wird eine einheitliche Größe gewährleistet und die Schärfung wird in jedem Bild erzwungen, das mit einer Bildvorgabe aufgerufen wird. Darüber hinaus können Sie die Schärfungsparameter einer Bildvorgabe ganz einfach bearbeiten und ändern. Wenn Sie das nächste Mal eine Veröffentlichung vornehmen, erhalten alle Bilder, die mit dieser Vorgabe aufgerufen werden, die neuen Werte.
 
-Dynamic Media Classic empfiehlt auch, Scharfzeichnung zu Viewer-Vorgaben hinzuzufügen und dann einen Viewer mit dieser Vorgabe aufzurufen. Hierdurch wird sichergestellt, dass Bilder in den Viewern klar und ansprechend sind.
+Es empfiehlt sich außerdem, den Viewer-Vorgaben Scharfzeichnung hinzuzufügen und dann einen Viewer mit dieser Vorgabe aufzurufen. Hierdurch wird sichergestellt, dass Bilder in den Viewern klar und ansprechend sind.
 
 Unabhängig davon, ob Sie Bildvorgaben und Viewer-Vorgaben oder eine andere Methode des Scharfzeichnens verwenden, sollten Sie Ihre Bilder scharfzeichnen. Wenn Sie das nicht tun, sehen Ihre Bilder (und Websites) u. U. verschwommen aus.
 
 >[!NOTE]
 >
->Mit dem Befehl „Scharfzeichnen“ werden die Einstellungen unter „Bildvorgaben“, einschließlich der dort angegebenen Scharfzeichnungseinstellungen, überschrieben. Eine Bildvorgabe regelt die Größe und Formatierung, mit der Bilder von den Image-Servern von Dynamic Media bereitgestellt werden. Dynamic Media Classic empfiehlt die Verwendung von Bildvorgaben, um alle Bilder bereitzustellen, um sicherzustellen, dass sie einheitlich und scharfgezeichnet dargestellt werden. Wenn jedoch die Scharfzeichnungseinstellungen für ein einzelnes Bild geändert wurden, gelten die Scharfzeichnungseinstellungen der Bildvorgabe nicht mehr für dieses Bild. Es wird dann ohne Anwendung der Scharfzeichnungseinstellungen der Bildvorgabe gesendet.
+>Mit dem Befehl „Scharfzeichnen“ werden die Einstellungen unter „Bildvorgaben“, einschließlich der dort angegebenen Scharfzeichnungseinstellungen, überschrieben. Eine Bildvorgabe bestimmt die Größe und Formatierung, mit der Bilder von dynamischen Medienbildern bereitgestellt werden. Dynamic Media Classic empfiehlt die Verwendung von Bildvorgaben, um alle Bilder bereitzustellen, um sicherzustellen, dass die Bilder in einheitlicher Größe und mit einheitlicher Scharfzeichnung bereitgestellt werden. Wenn jedoch die Scharfzeichnungseinstellungen für ein einzelnes Bild geändert wurden, gelten die Scharfzeichnungseinstellungen der Bildvorgabe nicht mehr für dieses Bild. Es wird dann ohne Anwendung der Scharfzeichnungseinstellungen der Bildvorgabe gesendet.
 
-Es ist oft notwendig, Bilder scharfzuzeichnen. Dynamic Media Classic und Image-Server bieten mehrere Scharfzeichnungsoptionen. Es ist wichtig zu wissen, was das Scharfzeichnen bei einem Bild bewirkt und wie viel Scharfzeichnung Sie benötigen. Die meisten Bilder müssen etwas scharfgezeichnet werden, aber der Grad der Scharfzeichnung hängt vom Bild ab.
+Es ist oft notwendig, Bilder scharfzuzeichnen. Dynamic Media Classic und Image-Server bieten verschiedene Scharfzeichnungsoptionen. Es ist wichtig zu wissen, was das Scharfzeichnen bei einem Bild bewirkt und wie viel Scharfzeichnung Sie benötigen. Die meisten Bilder müssen etwas scharfgezeichnet werden, aber der Grad der Scharfzeichnung hängt vom Bild ab.
 
 Die Bildschärfung erhöht den Kontrast der Pixel, um den Eindruck zu erwecken, dass die Kanten akzentuiert sind. Menschen nehmen diesen erhöhten Kantenkontrast als Schärfe wahr. Obwohl es einfach ist, ein Bild mithilfe von Scharfzeichnungsfiltern zu verbessern, ist es auch einfach, ein Bild zu stark scharfzuzeichnen.
 
 Wenn ein Bild zu stark scharfgezeichnet ist, entsteht ein Halo- oder Banding-Effekt.
 
-Es gibt bewährte Verfahren, die Sie anwenden können, um das Scharfzeichnen Ihrer Bilder in Dynamic Media Classic und auf Dynamic Media Image Server zu optimieren.
+Es gibt Best Practices, die Sie zur Optimierung der Scharfzeichnung Ihrer Bilder in Dynamic Media Classic und auf dem Dynamic Media Image Server befolgen können.
 
-Siehe [Bewährte Verfahren zum Scharfzeichnen von Bildern in Dynamic Media Classic und auf dem Dynamic Media-Image-Server](/help/assets/s7_sharpening_images.pdf).
+Siehe [Bewährte Verfahren zum Scharfzeichnen von Bildern in Dynamic Media Classic und auf dem Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **So zeichnen Sie ein Bild scharf**
 
@@ -82,7 +82,7 @@ Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein 2000 x 2000 P
 
 Der Schwellenwert verwendet einen Wert von 0-255, was für die Anzahl der Helligkeitsschritte in einem Graustufenbild steht. 0=schwarz, 128=50 % grau und 255=weiß. Beispiel: Ein Schwellenwert von 12 ignoriert leichte Variationen der Hauttonhelligkeit, um kein Rauschen hinzuzufügen, fügt aber trotzdem Kantenkontrast zu kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) hinzu. 
 
-Wenn Sie beispielsweise ein Foto mit einem Gesicht einer Person haben, wirkt sich „Unscharf maskieren“ auf die Teile des Bildes mit dem höchsten Kontrast und der glattesten Haut aus. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln und erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert). Um dieses Problem zu vermeiden, verwenden Sie einen Schwellenwert, bei dem der Filter Pixel ignoriert, die den Kontrast nicht drastisch ändern, wie z. B. glatte Haut. Um beispielsweise Rauschen oder Nachleuchten in Bildern mit Fruchttönen zu vermeiden, sollten Sie mit Schwellenwerten zwischen 2 und 20 experimentieren. Beim Standardwert &quot;Schwellenwert&quot;von 0 werden alle Pixel im Bild scharfgezeichnet.
+Wenn Sie beispielsweise ein Foto mit einem Gesicht einer Person haben, wirkt sich „Unscharf maskieren“ auf die Teile des Bildes mit dem höchsten Kontrast und der glattesten Haut aus. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln und erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert). Um dieses Problem zu vermeiden, verwenden Sie einen Schwellenwert, bei dem der Filter Pixel ignoriert, die den Kontrast nicht drastisch ändern, wie z. B. glatte Haut. Um beispielsweise Rauschen oder eine Nachbearbeitung in Bildern mit Fruchttönen zu vermeiden, sollten Sie mit Schwellenwerten zwischen 2 und 20 experimentieren. Beim Standardwert &quot;Schwellenwert&quot;von 0 werden alle Pixel im Bild scharfgezeichnet.
 
 **&quot;Auf** jede Farbe anwenden&quot;, um die Scharfzeichnung separat auf jede Farbkomponente anzuwenden; Wählen Sie &quot;Helligkeit&quot;, um das Scharfzeichnen auf die Helligkeitsbereiche des Bildes anzuwenden.
 
@@ -145,4 +145,4 @@ Diese Vorgabe schärft und ändert die Standardskin des Viewers.
 
 Die letzte und am wenigsten empfohlene Scharfzeichnungsmethode besteht darin, Scharfzeichnungsabweichungen auf Bildbasis zu erstellen. Hierdurch wird die Scharfzeichnung in einer Bildvorgabe mit ihren eigenen spezifischen Werten überschrieben. Allerdings werden hierbei alle anderen Scharfzeichnungsmethoden bei einer beliebigen Größe überschrieben. Der beste Anwendungsfall für diese Methode ist, wenn einige Ihrer Bilder nicht hochauflösend sind und die Werte in den Bildvorgaben für diese kleinen Bilder zu hoch sind. In diesem Fall könnte ein bildabhängiges Scharfzeichnen notwendig sein.
 
-Wählen Sie in Dynamic Media Classic ein beliebiges Bild aus, gehen Sie zur Ansicht &quot;Detail&quot;(durch Klicken auf die Dublette oder Drücken der Schaltfläche &quot;Detail-Ansicht&quot;) und klicken Sie auf &quot;Scharfzeichnen&quot;. Ändern Sie die gewünschten Parameter und klicken Sie dann auf „Speichern“. Hierdurch wird dem Image-Server mitgeteilt, diese Scharfzeichnungsparameter anstatt eines Befehls zu verwenden, den Sie in der URL aufrufen, wie z. B. einen Scharfzeichnungsmodifizierer oder eine Bildvorgabe. Sie müssen veröffentlichen, damit die Änderungen wirksam werden.
+Wählen Sie in Dynamic Media Classic ein beliebiges Bild aus, gehen Sie zur Ansicht &quot;Details&quot;(durch Klicken auf die Dublette oder Drücken der Schaltfläche &quot;Ansicht für Details&quot;) und klicken Sie auf &quot;Scharfzeichnen&quot;. Ändern Sie die gewünschten Parameter und klicken Sie dann auf „Speichern“. Hierdurch wird dem Image-Server mitgeteilt, diese Scharfzeichnungsparameter anstatt eines Befehls zu verwenden, den Sie in der URL aufrufen, wie z. B. einen Scharfzeichnungsmodifizierer oder eine Bildvorgabe. Sie müssen veröffentlichen, damit die Änderungen wirksam werden.
