@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '10979'
 ht-degree: 68%
@@ -566,7 +566,7 @@ Die folgende Tabelle enthält die Gesten für Mobilgeräte-Viewer, die von iOS-,
 
 ### Über den Bildschirm „Viewer-Voreinstellung“ {#about-the-viewer-preset-screen}
 
-Über den Anzeigebereich „Viewer-Vorgaben“ erstellen und verwalten Sie Viewer-Vorgaben. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**, um diesen Bildschirm zu öffnen.
+Über den Anzeigebereich „Viewer-Vorgaben“ erstellen und verwalten Sie Viewer-Vorgaben. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Viewer-Vorgaben]**, um diesen Bildschirm zu öffnen.
 
 Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Aufgaben:
 
@@ -587,7 +587,7 @@ Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an
 **Filtern der Liste** &quot;Viewer-Vorgaben&quot;Mit den folgenden Werkzeugen können Sie die Liste filtern:
 
 * Öffnen Sie die Dropdown-Liste **Aktiv/Inaktiv** und wählen Sie eine Option, um die aktiven Vorgaben, inaktiven Vorgaben oder alle Vorgabe anzuzeigen.
-* Öffnen Sie die Dropdown-Liste **Viewer** und wählen Sie eine Option, um nur bestimmte Viewer-Typen anzuzeigen. Wählen Sie **Alle Viewer**, um alle Viewer anzuzeigen.
+* Öffnen Sie die Dropdown-Liste **Viewer** und wählen Sie eine Option, um nur bestimmte Viewer-Typen anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]**, um alle Viewer anzuzeigen.
 
 **Sortieren von Vorgaben** Klicken Sie auf eine Spaltenüberschrift (Aktiv, Typ, Vorgabe oder Plattform), um die Liste auf einer Spalte zu sortieren. Klicken Sie nochmals auf einen Spaltentitel, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren. 
 
@@ -909,7 +909,8 @@ Die Einrichtung einer Standardbenennungsregel ist keine Voraussetzung für die V
    Sie können das Kontrollkästchen „Code anzeigen“ aktivieren, um die Erstellung des regelmäßigen Ausdruckswerts neben Ihren Formularauswahlen anzuzeigen. Sie können diese Werte nach Bedarf eingeben oder ändern. Dies hilft Ihnen bei der Definition der Elemente der Benennungsdefinition, falls Sie aus irgendeinem Grund durch die Formularansicht eingeschränkt werden. Falls Ihre Werte in der Formularansicht nicht analysiert werden können, werden die Formularfelder inaktiv.
 
    >[!NOTE]
-   Deaktivierte Formularfelder weisen nicht unbedingt auf einen ungültigen regelmäßigen Ausdruck hin. Es gibt keine Möglichkeit zu prüfen, ob Ihre regelmäßigen Ausdrücke korrekt sind. Sie sehen die Ergebnisse des regelmäßigen Ausdrucks, den Sie für jedes Element erstellen, im Anschluss an die Zeile „Ergebnis“. Der vollständige regelmäßige Anschluss wird am unteren Seitenrand angezeigt.
+   >
+   >Deaktivierte Formularfelder weisen nicht unbedingt auf einen ungültigen regelmäßigen Ausdruck hin. Es gibt keine Möglichkeit zu prüfen, ob Ihre regelmäßigen Ausdrücke korrekt sind. Sie sehen die Ergebnisse des regelmäßigen Ausdrucks, den Sie für jedes Element erstellen, im Anschluss an die Zeile „Ergebnis“. Der vollständige regelmäßige Anschluss wird am unteren Seitenrand angezeigt.
 
 1. Erweitern Sie die Elemente bei Bedarf und geben Sie die zu verwendenden Benennungsregeln ein.
 1. Klicken Sie bei Bedarf auf **Hinzufügen**, um einem Element eine weitere Benennungsregel hinzuzufügen. Klicken Sie auf **Entfernen**, um eine Benennungsregel für ein Element zu löschen.
@@ -1015,7 +1016,8 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
    Beachten Sie, dass dies nur Beispiele sind. Sie können reguläre Ausdrücke Ihren Bedürfnissen entsprechend erstellen.
 
    >[!NOTE]
-   Wenn anhand der Kombination aus regulärem Ausdruck für Zeile und Spalte diese Position des Assets innerhalb des multidimensionalen Rotationsset-Arrays nicht ermittelt werden kann, wird das Asset nicht dem Set hinzugefügt und ein Fehler wird protokolliert.
+   >
+   >Wenn anhand der Kombination aus regulärem Ausdruck für Zeile und Spalte diese Position des Assets innerhalb des multidimensionalen Rotationsset-Arrays nicht ermittelt werden kann, wird das Asset nicht dem Set hinzugefügt und ein Fehler wird protokolliert.
 
 1. Geben Sie für „Satzbenennungs- und -erstellungsregel“ das Suffix bzw. Präfix für den Basisnamen an, den Sie in der Asset-Benennungsregel definiert haben. Legen Sie außerdem fest, wo der Bildsatz in der Ordnerstruktur von Dynamic Media Classic erstellt werden soll.
 
@@ -1025,8 +1027,9 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
 1. Gehen Sie beim Hochladen und Veröffentlichen des Rotationssets wie gewohnt vor und stellen Sie sicher, dass Sie den Namen des 2D-Rotationssets im Dialogfeld „Auftragsoptionen“ unter „Stapelsatzvorgaben“ aktivieren.
 
 >[!MORELIKETHIS]
-* [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing_an_asset)
-* [Einstellen von Bildvorgaben](setting-image-presets.md#setting_up_image_presets)
-* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-* [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files)
+>
+>* [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing_an_asset)
+>* [Einstellen von Bildvorgaben](setting-image-presets.md#setting_up_image_presets)
+>* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files)
 
