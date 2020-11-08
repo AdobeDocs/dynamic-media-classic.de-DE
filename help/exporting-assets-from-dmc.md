@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 69%
@@ -24,7 +24,7 @@ Sie können Assets, die Sie in Dynamic Media Classic bearbeitet haben, auf einem
 
 Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Beachten Sie außerdem, dass ein Exportauftrag maximal 500 Assets enthalten kann.
 
-Dynamic Media Classic speichert im Anzeigebereich &quot;Aufträge&quot;einen Datensatz zu Exportaufträgen.
+Im Anzeigebereich &quot;Aufträge&quot;werden Exportaufträge von Dynamic Media Classic aufgezeichnet.
 
 **So exportieren Sie Assets aus Dynamic Media Classic**
 
