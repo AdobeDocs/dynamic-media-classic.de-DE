@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3441'
 ht-degree: 65%
@@ -24,7 +24,7 @@ Um eine Vorlage zu erstellen, klicken Sie auf „Erstellen > Vorlagen aus Grunde
 
 >[!NOTE]
 >
->Wenn Sie eine Vorlage bearbeiten, die in einer früheren Version von Dynamic Media Classic erstellt wurde, erhalten Sie beim Speichern möglicherweise eine Meldung mit der Frage &quot;Möchten Sie eine Arbeitsflächenebene hinzufügen?&quot; Wählen Sie „Nein“, um zu verhindern, dass eine neue Grundebene erstellt wird. Falls Sie versehentlich „Ja“ wählen, löschen Sie die Modifikatoren “&amp;allowCanvasPrompt” und “&amp;layer=0” in der URL und drücken Sie die Eingabetaste bzw. den Zeilenschalter.
+>Wenn Sie eine Vorlage bearbeiten, die in einer früheren Version von Dynamic Media Classic erstellt wurde, erhalten Sie beim Speichern die Aufforderung &quot;Möchten Sie eine Arbeitsflächenebene hinzufügen?&quot; Wählen Sie „Nein“, um zu verhindern, dass eine neue Grundebene erstellt wird. Falls Sie versehentlich „Ja“ wählen, löschen Sie die Modifikatoren “&amp;allowCanvasPrompt” und “&amp;layer=0” in der URL und drücken Sie die Eingabetaste bzw. den Zeilenschalter.
 
 ## Erstellen der Ausgangsvorlage {#creating-the-initial-template}
 
@@ -53,7 +53,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die vo
 1. Klicken Sie auf **Speichern**.
 1. Wählen Sie einen Ordner zum Speichern der Vorlage aus, geben Sie einen Namen für die Vorlage ein und klicken Sie auf **Absenden**.
 
-   Dynamic Media Classic schrumpft bei Bedarf die Bilder, um sie auf die Arbeitsfläche zu passen, d. h. auf den Bereich im Anzeigebereich &quot;Vorlage&quot;zum Definieren der Vorlage.
+   Bei Bedarf schrumpft Dynamic Media Classic die Bilder auf die Arbeitsfläche, d. h. auf den Bereich im Anzeigebereich &quot;Vorlage&quot;zum Definieren der Vorlage.
 
 ## Bearbeiten eines Vorlagensatzes {#editing-a-template-set}
 
@@ -102,7 +102,7 @@ Zum Erstellen von Vorlagen stehen Ihnen im Anzeigebereich „Vorlage“ die folg
 
 **Texteditor Version 4.3 und Texteditor Version 4.2** Sie können den neuesten und am häufigsten verwendeten Texteditor, Texteditor Version 4.3 oder den vorherigen Texteditor, Texteditor Version 4.2, verwenden. Beim Erstellen neuer Vorlagen ist Texteditor Version 4.3 standardmäßig ausgewählt. Beim Bearbeiten älterer Vorlagen ist Texteditor Version 4.2 standardmäßig ausgewählt. Texteditor Version 4.3 unterstützt derzeit keine Umbrüche. Verwenden Sie daher Texteditor Version 4.2, wenn Sie ältere Vorlagen bearbeiten, die Umbrüche verwenden, um die Funktionsfähigkeit der Vorlage beizubehalten. Wenn Ihre älteren Vorlagen keine Umbrüche verwenden, können Sie Texteditor Version 4.3 verwenden, um von den zahlreichen neuen Funktionen zu profitieren, z. B. „Ränder vergrößern“, „Ränder verkleinern“, „Text in Großbuchstaben formatieren“ und „Text einpassen“.
 
-***Hinweis **: Texteditor Version 4.2 wird als Option in Dynamic Media Classic entfernt. Daher wird empfohlen, nach Möglichkeit Texteditor Version 4.3 zu verwenden. Die Option „Wortumbruch“ wird in einer späteren Version von Texteditor enthalten sein.*
+***Hinweis **: Text Editor Version 4.2 wird als Option in Dynamic Media Classic entfernt. Daher wird empfohlen, nach Möglichkeit Text Editor 4.3 zu verwenden. Die Option „Wortumbruch“ wird in einer späteren Version von Texteditor enthalten sein.*
 
 **Designer und Entwickler** Wählen Sie die Option, die Ihre Rolle am besten beschreibt.
 
@@ -141,7 +141,7 @@ Um Text in einer Textebene zu formatieren, führen Sie die folgenden Schritte au
 1. Wählen Sie im Textfeld den zu formatierenden Text aus. Sie können den gesamten Text, Teile davon oder auch nur einzelne Zeichen auswählen.
 1. Geben Sie die gewünschten Formatierungsoptionen an und klicken Sie auf „Übernehmen“.
 
-   **Schrift** Wählen Sie im Menü &quot;Schrift&quot;eine Schrift aus. Wenn eine gewünschte Schriftart nicht im Menü angezeigt wird, können Sie sie in Dynamic Media Classic hochladen. Siehe Schriftarten.
+   **Schrift** Wählen Sie im Menü &quot;Schrift&quot;eine Schrift aus. Wenn eine gewünschte Schriftart nicht im Menü angezeigt wird, können Sie sie in den dynamischen Medienklassiker hochladen. Siehe Schriftarten.
 
    **Schriftgröße** Wählen Sie eine Schriftgröße aus dem Menü aus, geben Sie eine bestimmte Größe in das Feld ein oder klicken Sie auf die Nach-oben- oder Nach-unten-Pfeile, um die Größe um zwei Punkte zu erhöhen oder zu verringern.
 
@@ -243,7 +243,7 @@ Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie k�
 
 >[!NOTE]
 >
->Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, deren Größe exakt der Größe der Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einstellen von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
+>Es wird empfohlen, eine Bildvorgabe zu erstellen, deren Größe exakt der Größe der Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einstellen von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
 
 **Ändern der Größe einer Ebene**
 
