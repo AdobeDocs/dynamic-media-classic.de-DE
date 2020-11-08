@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 66%
@@ -32,7 +32,7 @@ Mit Dynamic Media Classic Video SEO können Sie Videometadaten nutzen, um Suchma
 >
 >Google unterstützt sowohl das Video-Sitemap- als auch das mRSS-Feed-Protokoll für die Übermittlung von Informationen an Suchmaschinen.
 
-Dynamic Media Classic kann Video-Sitemaps und mRSS-Feeds aus Metadaten erstellen, die mit jedem Video gespeichert werden. Beim Erstellen von Video-Sitemaps und mRSS-Feeds können Sie wählen, welche Metadatenfelder der Videos eingeschlossen werden sollen. Auf diese Weise beschreiben Sie Suchmaschinen Ihre Videos, damit diese Besucher treffsicherer zu Videos auf Ihrer Website leiten können.
+Dynamic Media Classic kann Video-Sitemaps und mRSS-Feeds aus Metadaten generieren, die mit jedem Video gespeichert werden. Beim Erstellen von Video-Sitemaps und mRSS-Feeds können Sie wählen, welche Metadatenfelder der Videos eingeschlossen werden sollen. Auf diese Weise beschreiben Sie Suchmaschinen Ihre Videos, damit diese Besucher treffsicherer zu Videos auf Ihrer Website leiten können.
 
 >[!NOTE]
 >
@@ -62,13 +62,13 @@ Wählen Sie in der Dropdown-Liste „Erstellungsmodus“ einen Berichtsmodus:
 
 **Beide** erstellen beide Typen von XML-Dateien.
 
-**Deaktivieren** Sie diese Option, um die Generierung von Video-Sitemaps und Media RSS (mRSS)-Feeds zu beenden.
+**Wählen Sie diese Option aus** , um die Generierung von Video-Sitemaps und Media RSS (mRSS)-Feeds zu beenden.
 
 Wählen Sie in der Dropdown-Liste „Automatischer Modus“ bzw. „Manueller Modus“, ob die Erstellung automatisch oder manuell erfolgen soll:
 
-**Dynamic Media im automatischen Modus** Classic generiert jeden Tag automatisch eine Video-Sitemap, ein Media RSS (mRSS)-Feed oder beides. Wählen Sie die Option &quot;Zur Veröffentlichung markieren&quot;, um die von Dynamic Media Classic erstellte XML-Datei automatisch zur Veröffentlichung zu markieren.
+**Im automatischen Modus** generiert Dynamic Media Classic jeden Tag automatisch eine Video-Sitemap, ein Media RSS (mRSS)-Feed oder beides. Wählen Sie die Option &quot;Zur Veröffentlichung markieren&quot;, um die von Dynamic Media Classic erstellte XML-Datei automatisch zur Veröffentlichung zu markieren.
 
-**Dynamic Media im manuellen Modus** Classic generiert die Video-Sitemap, den Media RSS (mRSS)-Feed oder beide, wenn Sie im Anzeigebereich &quot;Einstellungen für die Video-Suchoptimierung&quot;auf &quot;Erstellen&quot;oder &quot;Speichern und Erstellen&quot;klicken. Wählen Sie außerdem aus den folgenden Optionen:
+**Im manuellen Modus** generiert Dynamic Media Classic die Video-Sitemap, den Media RSS (mRSS)-Feed oder beide, wenn Sie im Anzeigebereich &quot;Einstellungen für die Video-Suchoptimierung&quot;auf &quot;Erstellen&quot;oder &quot;Speichern und Erstellen&quot;klicken. Wählen Sie außerdem aus den folgenden Optionen:
 
 **Keine weiteren Einstellungen** Markiert die erstellte XML-Datei nicht zur Veröffentlichung.
 
@@ -78,7 +78,7 @@ Wählen Sie in der Dropdown-Liste „Automatischer Modus“ bzw. „Manueller Mo
 
 ### Auswählen von Erstellungseinstellungen {#choosing-generation-settings}
 
-Im Bereich „Erstellungseinstellungen“ sind Eingabefelder für die Video-Sitemap und/oder das mRSS-Feed aufgeführt, im Metadatenbedienfeld sind die Namen der Metadatenfelder aufgeführt. Verwenden Sie den Bereich „Allgemeine Einstellungen“, um Eingabefelder und Metadatenfelder zu verknüpfen. Auf diese Weise teilen Sie Dynamic Media Classic mit, wo Sie Metadaten für die Video-Sitemap und/oder den mRSS-Feed abrufen können.
+Im Bereich „Erstellungseinstellungen“ sind Eingabefelder für die Video-Sitemap und/oder das mRSS-Feed aufgeführt, im Metadatenbedienfeld sind die Namen der Metadatenfelder aufgeführt. Verwenden Sie den Bereich „Allgemeine Einstellungen“, um Eingabefelder und Metadatenfelder zu verknüpfen. Auf diese Weise geben Sie Dynamic Media Classic an, wo Metadaten für die Video-Sitemap und/oder den mRSS-Feed abgerufen werden sollen.
 
 1. Wählen Sie im Menü „Metadaten-Ansichten“ eine Metadaten-Ansicht. Wenn Sie eine Ansicht ausgewählt haben, werden die Namen der Metadatenfelder im Metadatenbedienfeld angezeigt. (Weitere Informationen zu Metadaten-Ansichten finden Sie unter [Metadaten-Ansichten](application-setup.md#metadata_views).)
 1. Ziehen Sie die Metadatenfeldnamen vom Metadatenbedienfeld zu den Eingabefeldern „Startseite“, „Titel“, „Beschreibung“, „Tags“ und „Kategorie“. Die Felder „Startseite“, „Titel“ und „Beschreibung“ sind obligatorisch.
