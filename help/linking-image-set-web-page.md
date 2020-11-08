@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 91%
@@ -49,7 +49,7 @@ Nach der Veröffentlichung eines Bildsatzes können Sie dessen URL oder Einbettu
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines Bildsatzes ist es, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf den Link wird eine dynamische Seite (JSP) aufgerufen, auf der der Bildsatz in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers im Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)für Adoben.
 
 ## Kopieren von Einbettungscode eines Bildsatz-Viewers {#copying-the-embed-code-of-an-image-set-viewer}
 
