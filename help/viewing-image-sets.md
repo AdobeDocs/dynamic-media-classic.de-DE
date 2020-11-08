@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 90%
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 Sie können Ihre Bildsätze unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Für Bildsätze verwenden Sie eine benutzerdefinierte Viewer-Vorgabe für Zoom-Viewer.
 
-Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
+Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben enthalten. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
 
 ## Einrichten von Zoom-Viewer-Vorgaben für Bildsätze {#setting-up-zoom-viewer-presets-for-image-sets}
 
