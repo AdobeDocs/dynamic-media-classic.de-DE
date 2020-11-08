@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 52%
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 # Grundlagen der Navigation{#navigation-basics}
 
-Der Bildschirm &quot;Dynamic Media Classic&quot;umfasst drei Hauptbereiche: Symbolleiste für globale Navigation, Asset-Bibliothek und Durchsuchenbedienfeld/Erstellenbedienfeld.
+Der Anzeigebereich &quot;Dynamische Medien - Classic&quot;umfasst drei Hauptbereiche: Symbolleiste für globale Navigation, Asset-Bibliothek und Durchsuchenbedienfeld/Erstellenbedienfeld.
 
 ![Grundlagen der Navigation](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -34,13 +34,13 @@ Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigeber
 
 **Erstellen** Wählen Sie eine Build-Aufgabe aus dem Menü. Nach der Auswahl wird das Erstellenbedienfeld geöffnet, damit Sie einen Asset-Typ erstellen können.
 
-**Publish** Öffnet den Anzeigebereich &quot;Veröffentlichen&quot;, damit Sie Rich-Media-Assets auf Dynamic Media-Image-Servern und in der übrigen SAAS-Infrastruktur von Dynamic Media Classic veröffentlichen können. Siehe Veröffentlichen.
+**Publish** Öffnet den Anzeigebereich &quot;Veröffentlichen&quot;, damit Sie Rich-Media-Assets auf dynamischen Media-Image-Servern und in der übrigen SAAS-Infrastruktur von Dynamic Media Classic veröffentlichen können. Siehe Veröffentlichen.
 
 **Aufträge** Öffnet den Anzeigebereich &quot;Aufträge&quot;, in dem Sie die Datensätze zu Upload- und Veröffentlichungsaufträgen überprüfen können.
 
 **&quot;Zuletzt** &quot;wird der Bildschirm &quot;Zuletzt verwendete Aktivität&quot;geöffnet, damit Sie die Namen der zuletzt geänderten Assets und der zuletzt bearbeiteten Upload- und Veröffentlichungsaufträge Ansicht haben.
 
-**Setup** Öffnet den Anzeigebereich &quot;Einstellungen&quot;, in dem Sie Einstellungs- oder Verwaltungsoptionen zur Optimierung der Verwendung von Dynamic Media Classic auswählen können. Siehe Einstellungen.
+**Setup** Öffnet den Anzeigebereich &quot;Einstellungen&quot;, in dem Sie Einstellungs- oder Verwaltungsoptionen zur Optimierung Ihrer Verwendung von Dynamic Media Classic auswählen können. Siehe Einstellungen.
 
 **Hilfe** Wählen Sie eine Hilfeoption aus:
 
@@ -52,7 +52,7 @@ Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigeber
 
 **Hilfe > Info** Zeigt an, welche Version von Dynamic Media Classic Sie ausführen.
 
-**Hilfe > Support** Hier erfahren Sie, wie Sie technischen Support von Dynamic Media Classic erhalten.
+**Hilfe > Support** Zeigt Informationen zum technischen Support von Dynamic Media Classic an.
 
 **Abmelden** beendet Dynamic Media Classic.
 
