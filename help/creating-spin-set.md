@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 74%
@@ -24,11 +24,11 @@ Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, 
 
 >[!NOTE]
 >
->In früheren Versionen von Dynamic Media Classic wurden keine zweidimensionalen Rotationssets Angebot. Wenn Sie ein Rotationsset in einer früheren Version von Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht speichern, ohne es zuvor unter einem anderen Namen zu speichern. Klicken Sie im Anzeigebereich &quot;Rotationsset&quot;auf &quot;Speichern unter&quot;und geben Sie einen neuen Namen ein, damit Sie ihn in Dynamic Media Classic bearbeiten können.
+>In früheren Versionen von Dynamic Media Classic wurden keine zweidimensionalen Rotationssets Angebot. Wenn Sie ein Rotationsset in einer früheren Version von Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht speichern, ohne es zuvor unter einem anderen Namen zu speichern. Klicken Sie im Anzeigebereich &quot;Rotationsset&quot;auf &quot;Speichern unter&quot;und geben Sie einen neuen Namen ein, damit Sie ihn in &quot;Dynamic Media Classic&quot;bearbeiten können.
 
 ## Richtlinien für das Aufnehmen von Rotationsset-Bildern {#guidelines-for-shooting-spin-set-images}
 
-Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Dynamic Media Classic empfiehlt folgende Richtlinien für das Aufnehmen von Bildern zur Verwendung in Rotationssets:
+Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Dynamic Media Classic empfiehlt die folgenden Richtlinien für das Aufnehmen von Bildern zur Verwendung in Rotationssets:
 
 * Verwenden Sie mindestens 8 bis 12 Bilder in einem eindimensionalen Rotationsset und 16 bis 24 Bilder in einem zweidimensionalen Rotationsset.
 * Verwenden Sie ein verlustfreies Format. Zu empfehlen sind die Formate TIFF und PNG.
@@ -38,7 +38,7 @@ Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rota
 
 ## Erstellen eines Rotationssets {#create}
 
-Beachten Sie, dass die Reihenfolge, in der das Rotationsset in Dynamic Media Classic verfasst oder erstellt wird, wichtig ist. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Deshalb entspricht die Reihenfolge, in der es im Konstruktor angezeigt wird, der Drehrichtung des Assets, wenn ein Benutzer den Mauszeiger oder Finger von links nach rechts bewegt.
+Beachten Sie, dass die Reihenfolge, in der das Rotationsset in Dynamic Media Classic erstellt oder verfasst wird, wichtig ist. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Deshalb entspricht die Reihenfolge, in der es im Konstruktor angezeigt wird, der Drehrichtung des Assets, wenn ein Benutzer den Mauszeiger oder Finger von links nach rechts bewegt.
 
 Wenn Sie ein Set erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
