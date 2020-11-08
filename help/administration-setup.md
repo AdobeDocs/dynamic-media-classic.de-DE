@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 64%
@@ -134,7 +134,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -172,7 +172,7 @@ Der Bericht „Bildinhalt“ enthält Informationen über Anforderungen nach den
 
 **Bildanforderungen** für Viewer-Kacheln, die von einem Viewer geladen werden.
 
-**Image-Rendering-Anforderungen** für VNT-Objekte, die ein Bild mit bestimmten Objekten in den angeforderten Vignetten zurückgeben.
+**Bildwiedergabeanforderungen für** VNT-Objekte, die ein Bild mit bestimmten Objekten in den angeforderten Vignetten zurückgeben.
 
 **Image Rendering-Anforderungen** für VNT-Info-Anfragen, die Informationen zu den angeforderten Vignetten zurückgeben.
 
@@ -196,7 +196,7 @@ Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert 
 
 **Anzeigen von Daten in einem Diagramm oder Datenraster** Klicken Sie auf die Option &quot;DiagrammAnsicht&quot;, um Daten in einem Diagramm Ansicht; Klicken Sie auf die Option &quot;Ansicht der Daten&quot;, um Daten in einem Datenraster Ansicht.
 
-**Wählen Sie im Menü &quot;Berichtstyp&quot;den Typ** &quot;Zusammenfassung&quot;, &quot;Täglich&quot;oder &quot;Monatlich&quot;, um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
+**Wählen Sie einen Typ** der Berichtpräsentation. Wählen Sie im Menü Berichtstyp die Option Zusammenfassung, Täglich oder Monatlich, um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
 
 **Festlegen eines Zeitraums** Wählen Sie Optionen zur Definition eines Zeitraums für Ihren Bericht aus und klicken Sie nach der Definition des Zeitraums auf Aktualisieren:
 
@@ -240,7 +240,7 @@ Die angezeigten Fehler betreffen das Unternehmen, bei dem Sie aktuell angemeldet
 
 **Antwort** Die spezifische Fehlermeldung. Fehler haben IDs, die mit 4xx oder 5xx beginnen.
 
-**Mit URLs** wird die URL zum Bild in Scene7 Liste.
+**Bei URLs** wird die URL zum Bild in Scene7 Liste.
 
 **Werber** Gibt die URL der Website an, von der die ursprüngliche Anforderung stammt. Der Referrer kann jede Website sein, auf der ein Link zu dem Bild zu finden ist.
 
