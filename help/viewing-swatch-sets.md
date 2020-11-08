@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 86%
@@ -22,7 +22,7 @@ ht-degree: 86%
 
 Sie können Ihre Mustersets unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Für Mustersets verwenden Sie eine benutzerdefinierte Viewer-Vorgabe für Zoom-Viewer.
 
-Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
+Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben enthalten. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
 
 ## Einrichten von Zoom-Viewer-Vorgaben für Mustersets {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
