@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 87%
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 # Verknüpfen eines E-Katalogs mit einer Website{#linking-an-ecatalog-to-a-web-page}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media wie den Image-Server-Inhalt, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für den E-Katalog auf Ihren Webseiten und in Ihren Anwendungen einzufügen, kopieren Sie ihn bzw. ihn aus Dynamic Media Classic.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Inhalt von Dynamic Media Image Server, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für den E-Katalog auf Ihren Webseiten und in Ihren Anwendungen einzufügen, kopieren Sie diese bzw. ihn aus Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines E-Katalogs ist, eine Verknüpfung in Form einer Miniaturansicht der E-Katalog-Titelseite auf einer Website zu platzieren. Vergewissern Sie sich, dass der E-Katalog im Browser in einem eigenen zentrierten Popup-Fenster angezeigt wird (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). In dem Fenster darf keine Symbol- und Adressleiste angezeigt werden.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-E-Katalog-Viewers im Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-E-Katalog-Viewers im Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)für Adoben.
 
 ## Kopieren von Einbettungscode eines E-Katalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
 
