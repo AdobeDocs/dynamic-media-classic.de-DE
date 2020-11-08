@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 71%
@@ -22,13 +22,13 @@ ht-degree: 71%
 
 In einem ICC-Profil (International Color Consortium) wird beschrieben, wie Bilddateien korrekt von einem Farbraum in einen anderen konvertiert werden. Mithilfe von ICC-Profilen werden die Bilder in korrekten Farben angezeigt. Um beispielsweise Bilder, die zum Drucken vorgesehen sind, korrekt auf einem Computerbildschirm anzuzeigen, können Sie ein ICC-Profil auswählen. Das Profil konvertiert die Bilder in einen anderen Farbraum und gewährleistet, dass die Farben auf dem Bildschirm korrekt angezeigt werden.
 
-In Dynamic Media Classic können Sie ein ICC-Profil auswählen, um Bilder beim Hochladen in einen anderen Farbraum zu konvertieren. Alle standardmäßigen Photoshop ICC-Profil sind in Dynamic Media Classic standardmäßig verfügbar. Um die Namen von Farbprofilen im Anzeigebereich „Hochladen“ anzuzeigen, wählen Sie im Menü „Farbprofil“ die Option „Benutzerdefinierte Einstellung von > in“ und wählen Sie anschließend in den Menüs „Konvertieren von“ und „Konvertieren in“ die entsprechenden ICC-Profilnamen aus. Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+In Dynamic Media Classic können Sie ein ICC-Profil auswählen, um Bilder beim Hochladen in einen anderen Farbraum zu konvertieren. Alle standardmäßigen Photoshop ICC-Profil sind standardmäßig unter Dynamic Media Classic verfügbar. Um die Namen von Farbprofilen im Anzeigebereich „Hochladen“ anzuzeigen, wählen Sie im Menü „Farbprofil“ die Option „Benutzerdefinierte Einstellung von > in“ und wählen Sie anschließend in den Menüs „Konvertieren von“ und „Konvertieren in“ die entsprechenden ICC-Profilnamen aus. Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 
 Sie können nicht nur die standardmäßigen ICC-Profil verwenden, sondern auch andere ICC-Profil in Dynamic Media Classic hochladen und für die Farbraumkonvertierung verfügbar machen. Rufen Sie die Detailansicht des Durchsuchenbedienfelds auf, um die Einstellungen für „Profil-Kategorie“, „Art des Farbraums“ und „PCS-Typ“ eines ICC-Profils zu ermitteln.
 
 ## Hochladen von ICC-Profilen {#uploading-icc-profiles}
 
-ICC-Profile werden genau so wie andere Dateien hochgeladen. Sie können ICC-Profile in jedem Dynamic Media Classic-Ordner speichern. Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
+ICC-Profile werden genau so wie andere Dateien hochgeladen. Sie können ICC-Profile in jedem Ordner von Dynamic Media Classic speichern. Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
 
 ## Überprüfen von ICC-Profilen {#examining-an-icc-profile}
 
