@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 88%
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 # Verknüpfen eines Rotationssets mit einer Website{#linking-a-spin-set-to-a-web-page}
 
-Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Dynamic Media auf den Image-Server-Inhalt, einschließlich Rotationssets, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den Einbettungscode für das Rotationsset auf Ihren Webseiten und in Ihren Anwendungen einzufügen, kopieren Sie diese bzw. ihn aus Dynamic Media Classic.
+Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Inhalt von Dynamic Media Image Server, einschließlich Rotationssets, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den Einbettungscode für das Rotationsset auf Ihren Webseiten und in Ihren Anwendungen einzufügen, kopieren Sie diese bzw. ihn aus Dynamic Media Classic.
 
 >[!NOTE]
 >
