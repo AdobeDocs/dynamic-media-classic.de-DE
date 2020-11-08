@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 84%
@@ -48,7 +48,7 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Viewer aufweist, wie er aussieht und wie seine Wiedergabe-Steuerelemente funktionieren, hängt von der Viewer-Vorgabe ab, die Sie für die Videowiedergabe auswählen. Sie wählen eine Viewer-Vorgabe im Anzeigebereich „Vorschau“ aus. Nach der Auswahl der Vorgabe können Sie die URL oder den Einbettungscode beziehen, um das Video mit der ausgewählten Viewer-Vorgabe wiederzugeben.
 
-Dynamic Media Classic enthält viele vordefinierte Viewer-Vorgaben für die Videowiedergabe. Als Administrator können Sie benutzerdefinierte Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
+Im Lieferumfang von Dynamic Media Classic sind viele vordefinierte Viewer-Vorgaben für die Wiedergabe von Videos enthalten. Als Administrator können Sie benutzerdefinierte Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
 
 Siehe auch [Anzeigen einer Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
