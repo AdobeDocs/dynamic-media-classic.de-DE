@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # Arbeiten mit PDF-Dateien{#working-with-pdfs}
 
-PDF-Dateien (Portable Dokument Format) werden in den meisten Fällen in Dynamic Media Classic zum Erstellen von E-Katalogen verwendet. Wenn Sie eine PDF-Datei hochladen, werden die Seiten von Dynamic Media Classic standardmäßig gerastert oder gerippt, sodass sie zum Erstellen von Rich-Media-Daten verwendet werden können.
+PDF-Dateien (Portable Dokument Format) werden in den meisten Fällen in Dynamic Media Classic zum Erstellen von E-Katalogen verwendet. Beim Hochladen einer PDF-Datei werden die Seiten standardmäßig von Dynamic Media Classic gerastert oder gerippt, sodass die Seiten zum Erstellen von Rich-Media-Daten verwendet werden können.
 
 ## Optionen für das Hochladen von PDF-Dateien {#pdf-upload-options}
 
