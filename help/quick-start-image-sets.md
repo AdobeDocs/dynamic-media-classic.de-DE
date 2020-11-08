@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 62%
@@ -20,7 +20,7 @@ ht-degree: 62%
 
 # Kurzanleitung: Bildsätze{#quick-start-image-sets}
 
-Dynamic Media Classic-Bildsätze bieten eine integrierte Anzeigeerfahrung. Im dynamischen Bildsatz-Viewer können die Benutzer verschiedene Ansichten eines Elements anzeigen, indem sie auf eine Miniaturansicht klicken. Mit Bildsätzen können Sie alternative hochauflösende Ansichten eines Elements präsentieren.
+Dynamische Medien-Classic-Bildsätze bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Bildsatz-Viewer können die Benutzer verschiedene Ansichten eines Elements anzeigen, indem sie auf eine Miniaturansicht klicken. Mit Bildsätzen können Sie alternative hochauflösende Ansichten eines Elements präsentieren.
 
 Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Sie haben die Möglichkeit, geführte Zoomziele und Imagemaps im Bildsatz zu erstellen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
 
@@ -28,9 +28,9 @@ Dieser Beginn &quot;Bildsätze - Schnellansicht&quot;hilft Ihnen, sich schnell m
 
 **1. Hochladen von Masterbildern für mehrere Ansichten und Muster**
 
-Laden Sie zuerst die Bilder für die Bildsätze hoch. Da die Benutzer die Bilder im Bildsatz-Viewer heranzoomen können, sollten Sie bei der Auswahl der Bilder deren Eignung zum Zoomen berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Dynamic Media Classic unterstützt viele Bilddateiformate, es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
+Laden Sie zuerst die Bilder für die Bildsätze hoch. Da die Benutzer die Bilder im Bildsatz-Viewer heranzoomen können, sollten Sie bei der Auswahl der Bilder deren Eignung zum Zoomen berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Dynamic Media Classic-Ordner hochzuladen.
+Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner unter &quot;Dynamische Medien - Classic&quot;hochzuladen.
 
 Siehe [Vorbereiten von Bildsatz-Assets zum Hochladen](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
@@ -46,7 +46,7 @@ Siehe auch [Einbeziehen von Zoomzielen und Imagemaps in Bildsätze](including-zo
 
 **3. Einstellen von Bildsatz-Viewer-Vorgaben nach Bedarf**
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bilder“ oder Vorgaben für Bildsätze/mehrere Ansichten, um Ihre Bildsätze anzuzeigen.
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ enthalten. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bilder“ oder Vorgaben für Bildsätze/mehrere Ansichten, um Ihre Bildsätze anzuzeigen.
 
 Sie können Viewer-Vorgaben aus dem Anzeigebereich „Anwendungseinstellungen“ hinzufügen oder bearbeiten. 
 
@@ -60,7 +60,7 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 **5. Veröffentlichen eines Bildsatzes**
 
-Beim Veröffentlichen eines Bildsatzes wird dieser auf den Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
+Beim Veröffentlichen eines Bildsatzes wird dieser auf den Servern von Dynamic Media Classic platziert und die URL-Zeichenfolge aktiviert.
 
 >[!NOTE]
 >
