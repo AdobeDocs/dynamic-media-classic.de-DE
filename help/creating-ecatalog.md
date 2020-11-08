@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 78%
@@ -95,7 +95,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Anpassen des Inhaltsverzeichnisses {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic stellt in Ihrem E-Katalog auf der Registerkarte &quot;Seiten ordnen&quot;des Anzeigebereichs &quot;E-Katalog&quot;Standardseitenzahlen bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Titelseite&quot;anstelle von &quot;Seite 0-1&quot;heißen.
+Dynamische Medien-Classic bietet in Ihrem E-Katalog auf der Registerkarte &quot;Seiten ordnen&quot;des Anzeigebereichs &quot;E-Katalog&quot;Standardseitenzahlen. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Titelseite&quot;anstelle von &quot;Seite 0-1&quot;heißen.
 
 Sie können ein angepasstes Inhaltsverzeichnis für den E-Katalog erstellen: entweder manuell oder durch das Importieren der Seitennamen aus einer CSV- (nur Mac) oder XML-Datei.
 
