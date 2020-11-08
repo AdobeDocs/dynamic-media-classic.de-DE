@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 74%
@@ -53,7 +53,7 @@ Beim Erstellen von Imagemaps haben Sie die folgenden Möglichkeiten:
 
 1. Geben Sie optional in der Imagemap-Liste einen Namen für die Imagemap ein. Nachdem Sie eine Imagemap gezeichnet haben, weist Dynamic Media Classic ihr einen Namen zu.
 
-   Um den Namen zu erstellen, hängt Dynamic Media Classic eine fortlaufende Nummer an den Namen des Bilds oder der E-Katalogseite an, mit dem bzw. der Sie arbeiten. Sie können jedoch auch einen Namen Ihrer Wahl eingeben.
+   Um den Namen zu erstellen, hängt Dynamic Media Classic eine fortlaufende Nummer an den Namen des Bilds oder der E-Katalog-Seite an, mit der Sie arbeiten. Sie können jedoch auch einen Namen Ihrer Wahl eingeben.
 
 1. Wenn die Benutzer durch Klicken auf die Imagemap eine neue Website öffnen können sollen, geben Sie in der Imagemap-Liste die entsprechende URL ein. 
 
@@ -154,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    Zeigt das URL-Ziel an, das in der Spalte „URL“ des übergeordneten Fensters (d. h. der Seite, über die die aktuelle Seite geöffnet wurde) angegeben ist. Das aktuelle Fenster bleibt geöffnet, während im übergeordneten Fenster das URL-Ziel angezeigt wird.
 
-   ***Hinweis **: Der Handler unterstützt`loadProductPW`keine DHTML- und HTML5-Viewer.*
+   ***Hinweis **: Der Handler unterstützt `loadProductPW` keine DHTML- und HTML5-Viewer.*
 
 ### Erstellen einer URL-Vorlage {#creating-a-url-template}
 
@@ -212,7 +212,7 @@ Weitere Informationen finden Sie in der InDesign- oder Acrobat-Hilfe.
 
 1. Wiederholen Sie Schritt 2 bis 5 für alle Imagemaps, die Sie erstellen möchten.
 1. Exportieren Sie die Datei als PDF.
-1. Laden Sie die PDF-Datei in Dynamic Media Classic hoch und wählen Sie in den PDF-Optionen die Option &quot;Links extrahieren&quot;.
+1. Laden Sie die PDF-Datei in Dynamic Media Classic hoch und wählen Sie Links extrahieren aus den PDF-Optionen.
 
 ### So erstellen Sie Imagemaps in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
@@ -227,5 +227,5 @@ Weitere Informationen finden Sie in der InDesign- oder Acrobat-Hilfe.
 1. Geben Sie im Feld „URL bearbeiten“ die Produkt-ID der Imagemap ein und klicken Sie auf „OK“. (Dynamic Media Classic füllt die URL mit der URL-Vorlage für die Imagemap ab.)
 1. Wiederholen Sie Schritt 1 bis 7 für alle Imagemaps, die Sie erstellen möchten.
 1. Speichern Sie die Datei.
-1. Laden Sie die PDF-Datei in Dynamic Media Classic hoch und wählen Sie in den PDF-Optionen die Option &quot;Links extrahieren&quot;.
+1. Laden Sie die PDF-Datei in Dynamic Media Classic hoch und wählen Sie Links extrahieren aus den PDF-Optionen.
 
