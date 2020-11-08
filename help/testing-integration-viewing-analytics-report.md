@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 42%
@@ -20,7 +20,7 @@ ht-degree: 42%
 
 # Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, sie mit Dynamic Media Classic-Ereignissen verknüpft und die erforderlichen Implementierungsschritte ausgeführt haben, sollten Sie das Setup testen. Sie können in Adobe Analytics selbst testen und prüfen, ob die Daten erfasst werden. Wenn das Setup hier funktioniert, sind keine weiteren Schritte nötig. Wenn Sie die obigen Schritte ausgeführt und Ihre Dynamic Media Classic-Ereignis-Daten mit einer oder mehreren benutzerspezifischen Traffic-Variablen verknüpft haben, führen Sie diesen Arbeitsablauf aus, um Ihre Daten in Adobe Analytics zu testen.
+Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, sie mit den Dynamic Media Classic-Ereignissen verknüpft und die erforderlichen Implementierungsschritte ausgeführt haben, sollten Sie die Einrichtung testen. Sie können in Adobe Analytics selbst testen und prüfen, ob die Daten erfasst werden. Wenn das Setup hier funktioniert, sind keine weiteren Schritte nötig. Wenn Sie die obigen Schritte ausgeführt und Ihre Daten aus dem Dynamic Media Classic-Ereignis mit einer oder mehreren benutzerspezifischen Traffic-Variablen verknüpft haben, führen Sie diesen Arbeitsablauf aus, um Ihre Daten in Adobe Analytics zu testen.
 
 **So testen Sie die Integration durch Anzeigen eines Adobe Analytics-Berichts**
 
@@ -36,6 +36,6 @@ Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, sie mit Dy
 
 >[!NOTE]
 >
->Alle Dynamic Media Classic Viewer-Daten werden in benutzerspezifischen Traffic-Berichten oder benutzerspezifischen Konvertierungsberichten von Adobe Analytics angezeigt und in Berichten aufgeführt.
+>Alle Viewer-Daten des dynamischen Media Classic-Viewers werden in benutzerspezifischen Traffic-Berichten oder benutzerspezifischen Konvertierungsberichten von Adobe Analytics angezeigt und gemeldet.
 
 Weitere Informationen finden Sie unter [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
