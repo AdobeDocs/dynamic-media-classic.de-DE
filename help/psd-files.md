@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 64%
@@ -20,7 +20,7 @@ ht-degree: 64%
 
 # Arbeiten mit PSD-Dateien {#working-with-psd-files}
 
-PSD (Photoshop-Dokument-Dateien) werden in Dynamic Media Classic am häufigsten zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie aus der Datei automatisch eine Dynamic Media Classic-Vorlage erstellen (wählen Sie im Anzeigebereich &quot;Hochladen&quot;die Option &quot;Vorlage erstellen&quot;).
+PSD (Photoshop-Dokument-Dateien) werden meist in Dynamic Media Classic zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie aus der Datei automatisch eine dynamische Classic-Vorlage erstellen (wählen Sie im Anzeigebereich &quot;Hochladen&quot;die Option &quot;Vorlage erstellen&quot;).
 
 Dynamic Media Classic erstellt mehrere Bilder aus einer PSD-Datei mit Ebenen, wenn Sie die Datei zum Erstellen einer Vorlage verwenden. Es wird für jede Ebene ein Bild erstellt.
 
@@ -60,7 +60,7 @@ Wenn Sie beim Beschneiden basierend auf Transparenz den Wert 0 einstellen, werd
 
 **Ebenen bis zur Hintergrundgröße** erweitern Erweitert die Größe der gerippten Bildebenen auf die Größe der Hintergrundebene.
 
-**Ebenen mit** Ebenennamen in der PSD-Datei werden als separate Bilder hochgeladen. Wählen Sie eine Option, um diese Bilder in Dynamic Media Classic zu benennen:
+**Ebenen mit** Ebenennamen in der PSD-Datei werden als separate Bilder hochgeladen. Wählen Sie eine Option zum Benennen dieser Bilder in Dynamic Media Classic:
 
 **Name** der Ebene Benennt die Bilder nach ihren Ebenennamen in der PSD-Datei. Wenn eine Ebene der PSD-Originaldatei beispielsweise „Preisschild“ heißt, wird auch das zugehörige Bild „Preisschild“ genannt. Wenn es sich bei den Namen der Ebenen in der PSD-Datei jedoch um standardmäßige Photoshop-Ebenennamen handelt („Hintergrund“, „Ebene 1“, Ebene 2“ usw.), werden die Bilder nicht nach den Standardebenennamen, sondern nach den Nummern der Ebenen in der PSD-Datei benannt.
 
