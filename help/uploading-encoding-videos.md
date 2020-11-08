@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 81%
@@ -60,7 +60,7 @@ Führen Sie einen der folgenden Schritte aus:
 1. Achten Sie auf der Seite „Hochladen“ darauf, dass die Option **Nach dem Hochladen veröffentlichen** aktiviert ist.
 1. Klicken Sie auf **Upload starten**.
 
-*Wenn Sie Ihre Videos mit Dynamic Media Classic kodieren möchten*
+*Wenn Sie Videos mit Dynamic Media Classic kodieren möchten*
 
 1. Klicken Sie in der Symbolleiste für globale Navigation auf **Hochladen**.
 1. Klicken Sie im Anzeigebereich „Hochladen“ auf die Registerkarte **Vom Desktop**.
@@ -151,7 +151,7 @@ Die folgende Tabelle beschreibt die empfohlene Größe, das Seitenverhältnis un
 
 ### Abrufen der Metadaten der Datei {#obtaining-a-file-s-metadata}
 
-Sie können die Metadaten einer Datei abrufen, indem Sie die Metadaten in Dynamic Media Classic anzeigen, ein Videobearbeitungstool verwenden oder eine Anwendung zum Abrufen von Metadaten verwenden. Im Folgenden finden Sie Anweisungen zur Verwendung von MediaInfo, einer Drittanbieter-Anwendung zum Abrufen der Metadaten einer Videodatei.
+Sie können die Metadaten einer Datei abrufen, indem Sie die Metadaten in Dynamic Media Classic anzeigen, ein Video-Bearbeitungswerkzeug verwenden oder eine Anwendung zum Abrufen von Metadaten verwenden. Im Folgenden finden Sie Anweisungen zur Verwendung von MediaInfo, einer Drittanbieter-Anwendung zum Abrufen der Metadaten einer Videodatei.
 
 1. Gehen Sie zu dieser Webseite: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Wählen Sie das Installationsprogramm für die GUI-Version aus und laden Sie es herunter. Befolgen Sie anschließend die Installationsanweisungen.
@@ -261,7 +261,7 @@ Mastervideodateien, die mit professioneller Produktionsausrüstung und Videoschn
 
 Siehe [Hochladen und Kodieren von Video](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Dynamic Media Classic bietet eine Bibliothek vordefinierter Videokodierungsvorgaben, die die am häufigsten verwendeten Kodierungseinstellungen widerspiegeln. Diese Kodierungsvorgaben wurden für die Wiedergabe auf den jeweiligen Zieldisplays optimiert. Außerdem können Administratoren eigene Videokodierungsvorgaben erstellen, um die Größe und Wiedergabe von Videos für Endbenutzer anzupassen. Alle Videokodierungsvorgaben, ob standardmäßig von Dynamic Media Classic oder benutzerdefiniert, geben Videos im MP4-Dateiformat aus.
+Mit Dynamic Media Classic erhalten Sie eine Bibliothek vordefinierter Videokodierungsvorgaben, die die derzeit am häufigsten verwendeten Kodierungseinstellungen widerspiegeln. Diese Kodierungsvorgaben wurden für die Wiedergabe auf den jeweiligen Zieldisplays optimiert. Außerdem können Administratoren eigene Videokodierungsvorgaben erstellen, um die Größe und Wiedergabe von Videos für Endbenutzer anzupassen. Alle Videokodierungsvorgaben, ob standardmäßig von Dynamic Media Classic oder benutzerdefiniert, geben Videos im MP4-Dateiformat aus.
 
 Über den Anzeigebereich „Video-Vorgaben“ können Administratoren Videokodierungen einrichten und verwalten. Sie haben folgende Möglichkeiten:
 
@@ -270,7 +270,7 @@ Dynamic Media Classic bietet eine Bibliothek vordefinierter Videokodierungsvorga
 * Bearbeiten von Videokodierungsvorgaben.
 * Löschen von Videokodierungsvorgaben.
 
-Jedes Video, das Sie in Dynamic Media Classic hochladen oder das Sie in Dynamic Media Classic kodieren, wird als &quot;Video&quot;behandelt. Diese Asset-Bezeichnung bedeutet, dass Sie das Video für die Wiedergabe auf Desktops, mobilen Geräten oder beiden bereitstellen können. Sie können diese Videotypen beispielsweise in Dynamic Media Classic Vorschau haben. Sie können auch URLs (mithilfe der Funktion „URL kopieren“) sowie Einbettungscode (mithilfe der Funktion „Code einbetten“) für die Verwendung mit Video-Playern, auf Websites usw. generieren.
+Jedes Video, das Sie in Dynamic Media Classic hochladen oder das Sie in Dynamic Media Classic kodieren, wird als &quot;Video&quot;behandelt. Diese Asset-Bezeichnung bedeutet, dass Sie das Video für die Wiedergabe auf Desktops, mobilen Geräten oder beiden bereitstellen können. Beispielsweise können Sie diese Videotypen in Dynamic Media Classic Vorschau haben. Sie können auch URLs (mithilfe der Funktion „URL kopieren“) sowie Einbettungscode (mithilfe der Funktion „Code einbetten“) für die Verwendung mit Video-Playern, auf Websites usw. generieren.
 
 Siehe [Anzeigen einer Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
@@ -330,9 +330,9 @@ Aktivierte Videovorgaben werden im Dialogfeld „Upload-Auftragseinstellungen“
 
 ### Hinzufügen oder Bearbeiten einer Videokodierungsvorgabe {#adding-or-editing-a-video-encoding-preset}
 
-Sie können Ihre eigenen, benutzerdefinierten einzelnen Kodierungsvorlagen erstellen und sie zur Tabelle der Videovorgaben hinzufügen. Sie können auch vordefinierte Videovorgaben für die einzelne Kodierung ändern, die im Lieferumfang von Dynamic Media Classic enthalten sind, vorausgesetzt, Sie speichern die bearbeitete Vorgabe unter einem neuen Namen.
+Sie können Ihre eigenen, benutzerdefinierten einzelnen Kodierungsvorlagen erstellen und sie zur Tabelle der Videovorgaben hinzufügen. Sie können auch Änderungen an vordefinierten einzelnen Kodierungsvorgaben für Videos vornehmen, die mit Dynamic Media Classic geliefert wurden, vorausgesetzt, Sie speichern die bearbeitete Vorgabe unter einem neuen Namen.
 
-Dynamic Media Classic hat Höchstwerte für die Datenrate, die Höhe der Auflösung und die Breite der Zielgruppe festgelegt, um eine ordnungsgemäße Wiedergabe zu gewährleisten. Es werden Warnmeldungen angezeigt, wenn Sie diese Beschränkungen überschreiten:
+Dynamic Media Classic hat Höchstgrenzen für die Datenrate der Zielgruppe, die Höhe der Auflösung und die Breite der Auflösung festgelegt, um eine ordnungsgemäße Wiedergabe zu gewährleisten. Es werden Warnmeldungen angezeigt, wenn Sie diese Beschränkungen überschreiten:
 
 * Für die Wiedergabe auf dem Computer gilt für die Obergrenzen: (Breite/16) * (Höhe/16) &lt; 8192.
 * Für die Wiedergabe auf mobilen Geräten gilt für die Obergrenzen: (Breite/16) * (Höhe/16) &lt; 660; Zieldatenrate &lt; 4000.
