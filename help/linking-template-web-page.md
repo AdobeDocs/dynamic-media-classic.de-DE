@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 70%
@@ -20,9 +20,9 @@ ht-degree: 70%
 
 # Verknüpfen einer Vorlage mit einer Website{#linking-a-template-to-a-web-page}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen auf Dynamic Media-Image-Server-Inhalte zu. Nachdem Sie eine Vorlage veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf den Image-Servern von Dynamic Media auf die Vorlage verweist. Sie können diese URL zum Testen in einem Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen auf den Inhalt des dynamischen Medienbilds zu. Nach der Veröffentlichung einer Vorlage aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf den Image-Servern für dynamische Medien auf die Vorlage verweist. Sie können diese URL zum Testen in einem Webbrowser einfügen.
 
-Um URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic. Um die mit einer Bildvorgabe generierte Zeichenfolge einer Vorlagen-URL abzurufen, rufen Sie den Anzeigebereich „Vorschau“ oder das Durchsuchenbedienfeld (in der Detailansicht) auf. Wählen Sie anschließend eine Bildvorgabe aus und klicken Sie auf „URL kopieren“.
+Um URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus &quot;Dynamic Media Classic&quot;. Um die mit einer Bildvorgabe generierte Zeichenfolge einer Vorlagen-URL abzurufen, rufen Sie den Anzeigebereich „Vorschau“ oder das Durchsuchenbedienfeld (in der Detailansicht) auf. Wählen Sie anschließend eine Bildvorgabe aus und klicken Sie auf „URL kopieren“.
 
 >[!NOTE]
 >
