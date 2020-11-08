@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 40%
@@ -20,25 +20,25 @@ ht-degree: 40%
 
 # Schriftarten{#fonts}
 
-In einigen Fällen müssen Sie bei Dynamic Media Classic eine Schriftartdatei hochladen, um eine bestimmte Schriftart einzugeben oder zu rendern. Wenn Sie beispielsweise eine bestimmte Schriftart für Text auf einer Vorlagenebene verwenden möchten, laden Sie die entsprechende Schriftartdatei hoch. Wenn die Seitenzahlen des E-Katalog-Viewers in einer bestimmten Schriftart angezeigt werden sollen, laden Sie die entsprechende Schriftartdatei hoch.
+In einigen Fällen erfordert Dynamic Media Classic das Hochladen einer Schriftartdatei, um Text in einer bestimmten Schriftart einzugeben oder wiederzugeben. Wenn Sie beispielsweise eine bestimmte Schriftart für Text auf einer Vorlagenebene verwenden möchten, laden Sie die entsprechende Schriftartdatei hoch. Wenn die Seitenzahlen des E-Katalog-Viewers in einer bestimmten Schriftart angezeigt werden sollen, laden Sie die entsprechende Schriftartdatei hoch.
 
 Dynamic Media Classic unterstützt die folgenden Schriftarten:
 
 * Alle TrueType-Schriftarten
-* PostScript®-Schriftarten
+* PostScript® Schriftarten
 * OpenType/TrueType-Schriftarten
 * OpenType/PostScript-Schriftarten
 * PhotoFonts
 
-Nachdem eine Schriftartdatei hochgeladen wurde, können Sie ihre Dynamic Media Classic-ID, ihren Schriftartnamen und ihre Typinformationen im Anzeigebereich &quot;Informationen bearbeiten&quot;ändern.
+Nachdem eine Schriftartdatei hochgeladen wurde, können Sie die zugehörige Dynamic Media Classic-ID, den Schriftartnamen und die Typinformationen im Anzeigebereich &quot;Informationen bearbeiten&quot;ändern.
 
 >[!NOTE]
 >
->Dynamic Media Classic empfiehlt, alle Schriftschnitte (fett, kursiv, fett/kursiv und normal) hochzuladen, wenn Sie Schriftarten in Vorlagenebenen verwenden möchten. Dynamic Media Classic benötigt diese Schriftschnitte, um Anforderungen zu verarbeiten. Es ist außerdem zu empfehlen, alle PostScript-/Adobe-Type 1-Dateien, die einer Schriftart zugeordnet sind, hochzuladen, weil einige dieser Schriftarten detaillierte Kerning-Daten enthalten.
+>Dynamic Media Classic empfiehlt das Hochladen aller Schriftschnitte (fett, kursiv, fett/kursiv und normal), wenn Sie Schriftarten in Vorlagenebenen verwenden möchten. Für die Verarbeitung von Anforderungen benötigt Dynamic Media Classic diese Schriftschnitte. Es ist außerdem zu empfehlen, alle PostScript-/Adobe-Type 1-Dateien, die einer Schriftart zugeordnet sind, hochzuladen, weil einige dieser Schriftarten detaillierte Kerning-Daten enthalten.
 
 ## Hochladen von Schriftartdateien {#uploading-font-files}
 
-Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Schriftartdateien in einem beliebigen Dynamic Media Classic-Ordner speichern. Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
+Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Schriftartdateien in jedem Ordner von Dynamic Media Classic speichern. Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
 
 ## Bearbeiten von Schriftartdateidaten {#editing-font-file-information}
 
@@ -62,8 +62,8 @@ Wählen Sie die zu bearbeitende Schriftartdatei in der Detailansicht des Durchsu
 
 **TTF** TrueType-Schriftartdateien, die für das Rendern und Image Serving von PDF/PostScript verwendet werden.
 
-**AFM** Adobe PostScript-Schriftartdateien, die Adobe Font Metrics-Informationen enthalten und für die Image Serving verwendet werden.
+**AFM** Adobe PostScript-Schriftartdateien, die Adobe-Schriftmetriken enthalten und für die Image Serving verwendet werden.
 
-**PFM** Adobe PostScript-Schriftartdateien, die Informationen zur binären Schriftartmetrik enthalten.
+**PFM** -Adobe PostScript-Schriftartdateien, die Informationen zur binären Schriftartmetrik enthalten.
 
-**PFB** Adobe PostScript-Schriftartdateien, die binäre Schriftartkonturinformationen enthalten und für das Rendern und Image Serving von PDF/PostScript verwendet werden.
+**PFB** -Adobe PostScript-Schriftartdateien, die binäre Schriftartkonturinformationen enthalten und zum Rendern und Bereitstellen von Bildern in PDF/PostScript verwendet werden.
