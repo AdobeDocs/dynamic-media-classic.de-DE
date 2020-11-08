@@ -8,7 +8,7 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 64%
@@ -44,17 +44,17 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
    | Viewer-Typ | Untertiteldatei |
    |--- |--- |
-   | HTML5 | Wenn Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Untertiteldatei dem WebVTT-Standard (Web Video Text Tracks) folgt. Die Erweiterung der Untertiteldatei lautet .vtt. Weitere Informationen zum WebVTT-Untertitelstandard<br><br>[Siehe WebVTT](https://dev.w3.org/html5/webvtt/): Das Format &quot;Web-Video-Textspuren&quot;. <br><br>Es gibt sowohl kostenlose als auch kostenpflichtige Tools und Dienste, die Sie zum Erstellen von Untertiteldateien außerhalb von Dynamic Media Classic verwenden können. Um beispielsweise eine einfache Videountertiteldatei ohne Stile zu erstellen, können Sie das folgende kostenlose Online-Werkzeug zum Erstellen und Bearbeiten von Untertiteln verwenden: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) Verwenden Sie <br><br>für optimale Ergebnisse das Tool in Internet Explorer 9 oder höher, Google Chrome oder Safari. <br><br>Fügen Sie im Programm im Feld <b>Enter URL of video file</b> (URL der Videodatei eingeben) die URL Ihrer Videodatei ein und klicken Sie anschließend auf <b>Load</b> (Laden). <br><br>Wenn Sie beispielsweise eine Dynamic Media Classic-URL für Ihre Videodatei verwenden, klicken Sie in DMC mit der Dublette auf ein einzelnes Video-Asset (kein adaptives Video-Set oder Übergeordnet-Video), um es in der Detail-Ansicht zu öffnen. Erweitern Sie im rechten Bereich der Detailansicht URLs und Code einbetten. Klicken Sie dann in der Gruppe „Mobil“ rechts neben „Mobil (Progressiv)“ auf URL kopieren. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. Internet Explorer, Chrome oder Safari können das Video dann nativ wiedergeben. Folgen Sie jetzt auf der Website den Anweisungen auf dem Bildschirm, um Ihre WebVTT-Datei zu erstellen und zu speichern. Wenn Sie fertig sind, kopieren Sie den Inhalt der Untertiteldatei und fügen Sie ihn in einen Texteditor ein. Speichern Sie ihn nun mit der Dateierweiterung .vtt. <br><br><b>Hinweis:</b> Für die globale Unterstützung von Videobeschriftungen in anderen Sprachen als Englisch müssen Sie beachten, dass der WebVTT-Standard separate .vtt-Dateien und Aufrufe für jede Sprache erfordert, die Sie unterstützen möchten. <br><br>Im Allgemeinen sollte der Name der Untertitel-VTT-Datei denselben Namen haben wie die Videodatei und über den Dateinamenanhang captions verfügen. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen. |
+   | HTML5 | Wenn Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Untertiteldatei dem WebVTT-Standard (Web Video Text Tracks) folgt. Die Erweiterung der Untertiteldatei lautet .vtt. Weitere Informationen zum WebVTT-Untertitelstandard<br><br>[Siehe WebVTT](https://dev.w3.org/html5/webvtt/): Das Format &quot;Web-Video-Textspuren&quot;. <br><br>Es gibt sowohl kostenlose als auch kostenpflichtige Werkzeuge und Dienste, mit denen Sie Untertiteldateien außerhalb von Dynamic Media Classic erstellen können. Um beispielsweise eine einfache Videountertiteldatei ohne Stile zu erstellen, können Sie das folgende kostenlose Online-Werkzeug zum Erstellen und Bearbeiten von Untertiteln verwenden: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) Verwenden Sie <br><br>für optimale Ergebnisse das Tool in Internet Explorer 9 oder höher, Google Chrome oder Safari. <br><br>Fügen Sie im Programm im Feld <b>Enter URL of video file</b> (URL der Videodatei eingeben) die URL Ihrer Videodatei ein und klicken Sie anschließend auf <b>Load</b> (Laden). <br><br>Wenn Sie z. B. eine URL für dynamische Medienklassiker für Ihre Videodatei verwenden, klicken Sie in DMC mit der Dublette auf ein einzelnes Video-Asset (kein adaptives Videoset oder Übergeordnet Video), um es in der Ansicht &quot;Details&quot;zu öffnen. Erweitern Sie im rechten Bereich der Detailansicht URLs und Code einbetten. Klicken Sie dann in der Gruppe „Mobil“ rechts neben „Mobil (Progressiv)“ auf URL kopieren. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. Internet Explorer, Chrome oder Safari können das Video dann nativ wiedergeben. Folgen Sie jetzt auf der Website den Anweisungen auf dem Bildschirm, um Ihre WebVTT-Datei zu erstellen und zu speichern. Wenn Sie fertig sind, kopieren Sie den Inhalt der Untertiteldatei und fügen Sie ihn in einen Texteditor ein. Speichern Sie ihn nun mit der Dateierweiterung .vtt. <br><br><b>Hinweis:</b> Für die globale Unterstützung von Videobeschriftungen in anderen Sprachen als Englisch müssen Sie beachten, dass der WebVTT-Standard separate .vtt-Dateien und Aufrufe für jede Sprache erfordert, die Sie unterstützen möchten. <br><br>Im Allgemeinen sollte der Name der Untertitel-VTT-Datei denselben Namen haben wie die Videodatei und über den Dateinamenanhang captions verfügen. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen. |
 
 1. Laden Sie in Dynamic Media Classic Ihre WebVTT-, DFXP- oder SMPTE-XML-Untertiteldatei hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der die Videodatei enthält, die Sie der hochgeladenen Untertiteldatei zuordnen möchten.
-1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie anschließend unterhalb des Miniaturbilds des Assets auf **Vorschau** > **Viewer-Liste**.
+1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie anschließend unterhalb des Miniaturbilds des Assets auf **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 1. In the Viewer List table, find the HTML5 viewer named **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, or **Universal_HTML5_MixedMedia_light**, then do one of the following:
 
-   * Klicken Sie für einen Popup-Video-Viewer rechts neben dem Namen auf „**URL kopieren**“.
+   * Klicken Sie für einen Popup-Video-Viewer rechts neben dem Namen auf „**[!UICONTROL URL kopieren]**“.
 
       Hängen Sie an die kopierte URL des Videos die folgende Syntax an, um es mit der kopierten URL der Untertiteldatei zuzuordnen:
 
@@ -62,9 +62,9 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
       Note the `,1` at the end of the caption URL path. Direkt nach der Dateierweiterung .vtt können Sie im Pfad die Untertitel-Schaltfläche in der Video-Player-Leiste aktivieren oder deaktivieren, indem Sie die Einstellung `1` bzw. `0` wählen.
 
-   * Klicken Sie für einen eingebetteten Video-Viewer rechts neben dem Namen auf „**Code einbetten**“.
+   * Klicken Sie für einen eingebetteten Video-Viewer rechts neben dem Namen auf „**[!UICONTROL Code einbetten]**“.
 
-      Klicken Sie im Dialogfeld „Code einbetten“ auf „**In Zwischenablage kopieren**“.
+      Klicken Sie im Dialogfeld „Code einbetten“ auf „**[!UICONTROL In Zwischenablage kopieren]**“.
 
       For the HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, or `Universal_HTML5_MixedMedia_light` viewers, append the copied embed code with the following:
 
