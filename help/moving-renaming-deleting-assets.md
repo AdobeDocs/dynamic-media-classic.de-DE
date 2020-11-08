@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 66%
@@ -40,7 +40,7 @@ So benennen Sie ein Asset um
    * Wählen Sie den Namen aus, geben Sie den neuen Namen ein und drücken Sie die Eingabetaste oder klicken Sie auf eine andere Stelle.
    * Wählen Sie „Datei“ > „Umbenennen“. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste.
 
-Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen Dynamic Media Classic-Assets eingeben.
+Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen dynamischen Medien-Classic-Assets eingeben.
 
 ## Löschen von Assets {#delete-assets}
 
@@ -61,13 +61,13 @@ Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelösch
 
 >[!NOTE]
 >
->Dynamic Media Classic empfiehlt, Asset-Dateien zu überschreiben, anstatt sie zu löschen, wenn der Grund für das Löschen einer Asset-Datei darin besteht, sie durch eine andere mit demselben Namen zu ersetzen.
+>Es wird empfohlen, Asset-Dateien zu überschreiben, anstatt sie zu löschen, wenn Sie eine Asset-Datei aus demselben Grund durch eine andere ersetzen möchten.
 
 ## Löschen mehrerer Assets mithilfe einer Textdatei {#delete-multiple-assets-with-a-text-file}
 
 Um mehrere Assets gleichzeitig in der Asset-Bibliothek zu löschen, können Sie die zu löschenden Assets in einer Textdatei Liste und die Liste an Dynamic Media Classic senden.
 
-Erstellen Sie die Liste der Dynamic Media Classic IDs und speichern Sie sie als Textdatei (.txt). Jede Dynamic Media Classic-ID muss sich in einer eigenen Zeile befinden (gefolgt von einer festen Rückkehr).
+Erstellen Sie die Liste der Classic-IDs für dynamische Medien und speichern Sie sie als Textdatei (.txt). Jede Dynamic Media Classic-ID muss sich in einer eigenen Zeile befinden (gefolgt von einer festen Rückkehr).
 
 Wenn Sie mit dem Erstellen der Liste fertig sind, führen Sie die folgenden Schritte aus, um die Assets zu löschen:
 
@@ -75,7 +75,7 @@ Wenn Sie mit dem Erstellen der Liste fertig sind, führen Sie die folgenden Schr
 1. Gehen Sie im Dialogfeld „Asset-Liste löschen“ zu der Textdatei, die die Liste der zu löschenden Assets enthält, oder geben Sie den Pfad zu dieser Datei ein.
 1. Klicken Sie auf die Schaltfläche „Löschen“.
 
-Wenn Sie Assets mit einer Textdatei löschen und keine Dynamic Media Classic-ID auf der Liste vorhanden ist, wird eine Meldung angezeigt, die Sie darauf hinweist, dass Dynamic Media Classic neben der Liste der Einträge die Meldung &quot;Diese Einträge in Ihrer Liste können nicht überprüft werden:&quot;lautet. Dynamic Media Classic erzeugt jedoch keinen Fehler im Anzeigebereich &quot;Auftrag&quot;.
+Wenn Sie Assets mit einer Textdatei löschen und keine Dynamic Media Classic-ID auf der Liste vorhanden ist, wird eine Meldung angezeigt, die Sie darauf hinweist, dass Dynamic Media Classic die Meldung &quot;Diese Einträge in Ihrer Liste können nicht überprüft werden:&quot;zusammen mit der Liste der Einträge enthält. Im Anzeigebereich &quot;Auftrag&quot;generiert Dynamic Media Classic jedoch keinen Fehler.
 
 >[!MORELIKETHIS]
 >
