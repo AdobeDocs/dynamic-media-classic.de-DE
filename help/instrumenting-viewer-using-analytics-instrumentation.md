@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 41%
@@ -22,7 +22,7 @@ ht-degree: 41%
 
 Sie können das Adobe Analytics Instrumentation Kit verwenden, um einen HTML5-Viewer in Adobe Analytics zu integrieren.
 
-Wenn Sie eine der vordefinierten HTML5-Viewer-Vorgaben von Dynamic Media Classic verwenden, beachten Sie, dass diese bereits den Implementierungscode enthalten, der zum Senden von Daten an Adobe Analytics erforderlich ist. Eine weitere Instrumentierung ist nicht erforderlich.
+Wenn Sie eine der vordefinierten HTML5-Viewer-Vorgaben für Dynamic Media Classic verwenden, beachten Sie, dass diese bereits den Implementierungscode enthalten, der zum Senden von Daten an Adobe Analytics erforderlich ist. Eine weitere Instrumentierung ist nicht erforderlich.
 
 ## Einrichten der Adobe Analytics-Verfolgung von Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -32,7 +32,7 @@ Fügen Sie für alle HTML5-Viewer dem HTML-Container das folgende JavaScript hin
 <!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-`Company` auf den Namen der Dynamic Media Classic-Firma festgelegt ist. `&preset` ist optional, es sei denn, der Unternehmensvorgabenname ist nicht `companypreset`. In such cases, it could be `companypreset-1, companypreset-2`, and so on. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. To determine the correct company preset value name, click **Copy URL** , and then look at the `preset=`parameter to find the company preset name.
+`Company` auf den Namen der Firma für Dynamic Media Classic eingestellt ist. `&preset` ist optional, es sei denn, der Unternehmensvorgabenname ist nicht `companypreset`. In such cases, it could be `companypreset-1, companypreset-2`, and so on. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. To determine the correct company preset value name, click **Copy URL** , and then look at the `preset=`parameter to find the company preset name.
 
 Anschließend fügen Sie eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Rückverfolgungscode sendet.
 
