@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 72%
@@ -20,9 +20,9 @@ ht-degree: 72%
 
 # Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen auf Dynamic Media-Image-Server-Inhalte zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf den Image-Servern von Dynamic Media auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen auf den Inhalt des dynamischen Medienbilds zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf den Image-Servern für dynamische Medien auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
 
-Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic. Die zu einer Bildvorgabe generierte URL-Zeichenfolge ist im Anzeigebereich „Vorschau“ und im Durchsuchenbedienfeld (in der Detailansicht) abrufbar.
+Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus &quot;Dynamic Media Classic&quot;. Die zu einer Bildvorgabe generierte URL-Zeichenfolge ist im Anzeigebereich „Vorschau“ und im Durchsuchenbedienfeld (in der Detailansicht) abrufbar.
 
 ## Abrufen einer Bildvorgabe-URL {#obtaining-an-image-preset-url}
 
@@ -53,11 +53,11 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 
 ## URL-Zeichenfolgen zu Bildvorgaben {#about-image-preset-url-strings}
 
-Ein URL-Aufruf zur Bildgrößenänderung für Dynamic Media-Image-Server hat die folgende grundlegende Syntax:
+Ein URL-Aufruf für die Bildgrößenänderung an dynamische Medienbildserver hat die folgende grundlegende Syntax:
 
 *Pfad*/*Name des Image-Servers*/*Kontoname*/*Bildname*?*Modifikator1*&amp;*Modifikator2*&amp;...
 
-In einer Dynamic Media Image Server-URL werden nach dem Fragezeichen (?) Serveranweisungen zum Anzeigen des  angezeigt. Beispielsweise wird mit dem folgenden URL-Aufruf ein Bild namens „backpack“ mit einer Breite von 250 Pixeln angezeigt:
+Unter der URL des Image-Servers für dynamische Medien werden nach dem Fragezeichen (?) Anweisungen zum Anzeigen des Bildes angezeigt. Beispielsweise wird mit dem folgenden URL-Aufruf ein Bild namens „backpack“ mit einer Breite von 250 Pixeln angezeigt:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
