@@ -2,7 +2,7 @@
 title: Veröffentlichen von Adobe Analytics-Konfigurationsinformationen
 seo-title: Veröffentlichen von Adobe Analytics-Konfigurationsinformationen
 description: 'null'
-seo-description: Hier erfahren Sie, wie Sie Adobe Analytics-Konfigurationsinformationen veröffentlichen.
+seo-description: Erfahren Sie, wie Sie Adobe Analytics-Konfigurationsinformationen veröffentlichen.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 # Veröffentlichen von Adobe Analytics-Konfigurationsinformationen{#publishing-adobe-analytics-configuration-information}
 
-Veröffentlichen Sie Ihre Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an die Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf den Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
+Veröffentlichen Sie Ihre Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf den Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
 
 >[!NOTE]
 >
