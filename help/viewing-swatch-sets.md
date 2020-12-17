@@ -31,8 +31,8 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
-   * To edit an existing Swatch Set Viewer preset, select the preset, then click **Edit**.
+   * Um eine neue Vorgabe zu erstellen, klicken Sie auf **Hinzufügen**. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie &quot;Musterset-Viewer&quot;und klicken Sie dann auf **Hinzufügen**.
+   * Um eine vorhandene Musterset-Viewer-Vorgabe zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie dann auf **Bearbeiten**.
 
 1. Geben Sie in das Feld „Vorgabenname“ einen Namen für die Musterset-Viewer-Vorgabe ein.
 1. Wählen Sie im Anzeigebereich „Viewer konfigurieren“ die gewünschten Optionen aus.
@@ -54,7 +54,7 @@ Mit der Vorschau können Sie testen, wie ein Asset in einer bestimmten Viewer-Pl
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Listenansicht“**. Halten Sie den Cursor im Assets-Fenster über ein Asset und klicken Sie auf **„Vorschau“**.
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Rasteransicht“**. Klicken Sie im Fenster „Assets“ in einem Asset-Miniaturfenster auf **„Vorschau“**.
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Detailansicht“**. Klicken Sie in derselben Symbolleiste auf **„Vorschau“**.
-   * Wählen Sie im Assets-Fenster ein Asset aus. On the toolbar, click **File** > **Preview**.
+   * Wählen Sie im Assets-Fenster ein Asset aus. Klicken Sie in der Symbolleiste auf **Datei** > **Vorschau**.
 
 1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
 1. Klicken Sie auf eine Viewer-Verknüpfung, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
