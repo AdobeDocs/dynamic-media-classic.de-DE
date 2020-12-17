@@ -10,25 +10,25 @@ translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
 
-# Adobe Dynamic Media Classic-Anleitung {#using}
+# Adobe Dynamic Media Classic-Anleitung  {#using}
 
 + [Adobe Dynamic Media Classic-Anleitung](home.md)
 + [Übungen zu Best Practices](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NEU Anmeldung mit Dynamic Media Classic jetzt verfügbar](new-ui-2020.md)
++ [NEUE Dynamic Media Classic-Anmeldeerfahrung jetzt verfügbar](new-ui-2020.md)
 + [Dynamic Media-Newsletter von Experience League](dynamic-media-newsletter.md)
 + Einführung in die Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic Desktop-App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
-   + [Hilfe zu Dynamic Media Classic](introduction.md)
+   + [Informationen zur Dynamic Media Classic-Hilfe](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
    + [Neuerungen](whats-new.md)
    + [Systemanforderungen](system-requirements.md)
    + [Support](support.md)
-   + [Hilfe für das Portal für dynamische Medien - Klassische Medien](help-dmc-media-portal.md)
+   + [Hilfe für Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Häufig genutzte Ressourcen](popular-resources.md)
    + [Schulungsvideos](training-videos.md)
@@ -124,7 +124,7 @@ ht-degree: 76%
    + [Veröffentlichen eines Rotationssets](publishing-spin-set.md)
    + [Einstellen von Rotationsset-Viewer-Vorgaben](setting-spin-set-viewer-presets.md)
    + [Verknüpfen eines Rotationssets mit einer Website](linking-spin-set-web-page.md)
-+ Template basics {#template-basics}
++ Vorlagen - Grundlagen {#template-basics}
    + [Kurzanleitung: Vorlagen aus Grundelementen](quick-start-template-basics.md)
    + [Hochladen von Vorlagendateien](uploading-template-files.md)
    + [Erstellen einer Vorlage](creating-template.md)
@@ -141,13 +141,13 @@ ht-degree: 76%
    + [Hinzufügen von Kapitelmarken zu Video](adding-chapter-markers-video.md)
    + [Bereitstellen von Video auf Websites und mobilen Sites](deploying-video-websites-mobile-sites.md)
    + [Exportieren von Quellvideos und kodierten Videos](exporting-source-encoded-videos.md)
-+ Mixed media sets {#mixed-media-sets}
++ Gemischte Mediensets {#mixed-media-sets}
    + [Kurzanleitung: Gemischte Mediensets](quick-start-mixed-media-sets.md)
    + [Einrichten einer Viewer-Vorgabe für gemischte Mediensets](setting-mixed-media-set-viewer.md)
    + [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md)
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentation kit {#analytics-kit}
++ Adobe Analytics-Instrumentierungskit {#analytics-kit}
    + [Quick Beginn: Integration von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
@@ -156,7 +156,7 @@ ht-degree: 76%
    + [Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts](testing-integration-viewing-analytics-report.md)
    + [Aktivieren von Adobe Analytics-Videoberichten](enabling-analytics-video-reports.md)
    + [Veröffentlichen von Adobe Analytics-Konfigurationsinformationen](publishing-analytics-configuration-information.md)
-+ Integration mit Adobe Target Standard/Premium {#target-classic}
++ Integration von Adobe Target Standard/Premium {#target-classic}
    + [Quick Beginn: Integration mit Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integration von Dynamic Media Classic mit Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Erstellen eines Angebotssets](creating-offer-set.md)
