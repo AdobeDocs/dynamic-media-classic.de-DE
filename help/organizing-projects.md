@@ -34,32 +34,39 @@ Sie können ein Projekt erstellen, wenn Sie Dateien hochladen oder Projekte in d
 >
 >Sie können Assets nur dann in Projekten verwalten, wenn Ihr Administrator entsprechende Einstellungen festgelegt hat. Wenn Sie unten in der Asset-Bibliothek keinen Abschnitt mit Projektordnern sehen, steht Ihnen diese Möglichkeit zum Verwalten von Assets nicht zur Verfügung. Siehe [Allgemeine Programmeinstellungen](application-setup.md#general-settings).
 
-## Erstellen eines Projektordners {#creating-a-project-folder}
+## Erstellen eines Projektordners  {#creating-a-project-folder}
 
 Sie können einen Projektordner erstellen, der in der Asset-Bibliothek beginnt oder Dateien in Dynamic Media Classic hochlädt:
 
-* **Blättern Sie in der Asset-Bibliothek** nach unten in der Asset-Bibliothek zum Abschnitt &quot;Projekte&quot;und klicken Sie auf die Schaltfläche &quot;Hinzufügen Projekt&quot;. Geben Sie dann einen Namen für das Projekt ein.
+* **Führen Sie in der Asset-**
+Bibliothek einen Bildlauf zum Abschnitt &quot;Projekte&quot;am unteren Rand der Asset-Bibliothek durch und klicken Sie auf die Schaltfläche &quot;Hinzufügen Projekt&quot;. Geben Sie dann einen Namen für das Projekt ein.
 
-* **Beim Hochladen von Dateien** Wählen Sie im Anzeigebereich &quot;Hochladen&quot;im Menü &quot;Hinzufügen in Projekt&quot;die Option &quot;Projekt erstellen&quot;. Geben Sie dann einen Namen für das Projekt ein.
+* **Beim Hochladen von**
+Dateien Wählen Sie im Anzeigebereich &quot;Hochladen&quot;im Menü &quot;Hinzufügen in Projekt&quot;die Option &quot;Projekt erstellen&quot;. Geben Sie dann einen Namen für das Projekt ein.
 
 >[!NOTE]
 >
 >Der Projektbereich in der Asset-Bibliothek besteht aus einer Ordnerliste mit nur einer Ebene; Unterordner sind nicht zulässig.
 
-## Arbeiten mit Projektordnern {#working-with-project-folders}
+## Arbeiten mit Projektordnern  {#working-with-project-folders}
 
 Beachten Sie beim Anzeigen, Löschen und Umbenennen eines Projektordners die folgenden Hinweise:
 
-* **Inhalt** durchsuchen Wählen Sie den Namen des Ordners in der Asset-Bibliothek aus. Die im Ordner enthaltenen Assets werden im Durchsuchenbedienfeld angezeigt.
+* **Durchsuchen von**
+InhaltenWählen Sie den Namen des Ordners in der Asset-Bibliothek aus. Die im Ordner enthaltenen Assets werden im Durchsuchenbedienfeld angezeigt.
 
-* **Löschen von Projektordnern** Wählen Sie den Projektordner aus und klicken Sie dann auf &quot;Projekt entfernen&quot;. Wenn Sie Assets aus einem Projektordner löschen, werden sie nicht aus Dynamic Media Classic gelöscht. Die Assets bleiben in den ursprünglichen Ordnern, in denen sie gespeichert sind.
+* **Löschen von**
+ProjektordnernWählen Sie den Projektordner aus und klicken Sie dann auf &quot;Projekt entfernen&quot;. Wenn Sie Assets aus einem Projektordner löschen, werden sie nicht aus Dynamic Media Classic gelöscht. Die Assets bleiben in den ursprünglichen Ordnern, in denen sie gespeichert sind.
 
-* **Beim Umbenennen von Projektordnern** klicken Sie in der Asset-Bibliothek auf den Ordnernamen und geben Sie dann einen neuen Namen ein.
+* **Umbenennen von**
+ProjektordnernDoppelklicken Sie auf den Namen des Ordners in der Asset-Leiste und geben Sie dann einen neuen Namen ein.
 
 ## Einfügen von Assets in einen Projektordner {#adding-assets-to-a-project-folder}
 
-Sie können Bilder zu einem Projektordner hinzufügen, indem Sie im Durchsuchenbedienfeld beginnen oder Dateien zu Dynamic Media Classic hochladen:
+Sie können Bilder zu einem Projektordner hinzufügen, indem Sie das Durchsuchenbedienfeld aufrufen oder Dateien in Dynamic Media Classic hochladen:
 
-* **Wählen Sie im Durchsuchenbedienfeld** die Assets aus und ziehen Sie sie in einen Projektordner. Alternativ können Sie „Datei“ > „Zum Projekt hinzufügen“ wählen, im Dialogfeld „Projekt auswählen“ einen Projektordnernamen wählen und dann auf die Schaltfläche „Absenden“ klicken.
+* **Wählen Sie im Durchsuchenbedienfeld die**
+Assets aus und ziehen Sie sie in einen Projektordner. Alternativ können Sie „Datei“ > „Zum Projekt hinzufügen“ wählen, im Dialogfeld „Projekt auswählen“ einen Projektordnernamen wählen und dann auf die Schaltfläche „Absenden“ klicken.
 
-* **Klicken Sie beim Hochladen** im Anzeigebereich &quot;Hochladen&quot;auf die Schaltfläche &quot;Auftragsoptionen&quot;. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option „Projekte“ und wählen Sie einen Projektnamen aus.
+* **Klicken Sie beim Hochladen von**
+Dateien im Anzeigebereich &quot;Hochladen&quot;auf die Schaltfläche &quot;Auftragsoptionen&quot;. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option „Projekte“ und wählen Sie einen Projektnamen aus.
