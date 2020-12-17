@@ -20,9 +20,9 @@ ht-degree: 60%
 
 # Veröffentlichen eines gemischten Mediensets{#publishing-a-mixed-media-set}
 
-Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie zur Veröffentlichung auf Dynamic Media Classic Video Server und Image Server markiert haben. Dynamic Media Classic Angebots bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
+Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie zur Veröffentlichung auf dem Dynamic Media Classic Video-Server und dem Image-Server markiert haben. Dynamic Media Classic Angebots bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
 
-***Hinweis **: Gemischte Mediensets müssen sowohl auf dem**Video-Server **als auch auf dem**Image-Server **veröffentlicht werden. Sie verwenden den**Video-Server **, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden Sie den**Image-Server **, um verwandte Assets wie Video-Miniaturansichten zu veröffentlichen und Informationen für adaptive Videosets festzulegen.*
+***Hinweis **: Gemischte Mediensets müssen sowohl auf dem**Video-**Server als auch auf dem**Image-Server **veröffentlicht werden. Sie verwenden den**Video-Server **, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Und Sie verwenden**Image-Server **, um verwandte Assets wie Videominiaturen zu veröffentlichen und Informationen für jedes adaptive Video-Set festzulegen.*
 
 Dynamic Media Classic verfolgt Veröffentlichungsaufträge im Anzeigebereich &quot;Aufträge&quot;.
 
