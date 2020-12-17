@@ -24,30 +24,38 @@ Sie können Assets, die Sie in Dynamic Media Classic bearbeitet haben, auf einem
 
 Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Beachten Sie außerdem, dass ein Exportauftrag maximal 500 Assets enthalten kann.
 
-Im Anzeigebereich &quot;Aufträge&quot;werden Exportaufträge von Dynamic Media Classic aufgezeichnet.
+Dynamic Media Classic speichert im Anzeigebereich &quot;Aufträge&quot;einen Datensatz zu Exportaufträgen.
 
 **So exportieren Sie Assets aus Dynamic Media Classic**
 
 1. Wählen Sie die zu exportierenden Assets aus und klicken Sie dann auf **„Datei“** > **„Exportieren“**.
 1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **„Bildoptionen“** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):
 
-   * **Bei Vorgaben** können Sie optional eine Bildvorgabe auswählen, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
+   * **Optional können Sie**
+eine Bildvorgabe auswählen, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
 
-   * **Konversion**: Konvertieren Sie die Asset-Datei oder das Originalbild.
+   * ****
+ConversionKonvertieren Sie die Asset-Datei oder das Originalbild.
 
-   * **Größe** Sie können eine Standardgröße auswählen. Sie können auch in der Dropdown-Liste „Größe“ auf „Andere“ klicken, die gewünschte Maßeinheit wählen und dann die Breite und Höhe festlegen.
+   * ****
+GrößeSie können eine Standardgröße auswählen. Sie können auch in der Dropdown-Liste „Größe“ auf „Andere“ klicken, die gewünschte Maßeinheit wählen und dann die Breite und Höhe festlegen.
 
       Siehe auch [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Format** Wählen Sie ein Bildformat.
+   * **Format**
+Wählen Sie ein Bildformat.
 
-   * **Farbe**: RGB, CMYK oder Grau.
+   * **Wählen Sie**
+RGB, CMYK oder Grau.
 
-   * **Auflösung**: 72, 150 oder 300 ppi.
+   * ****
+AuflösungWählen Sie 72, 150 oder 300 ppi.
 
-   * **Auftragsname** Sie können dem Export einen Auftragsnamen zuweisen.
+   * **AuftragsnameSie können**
+dem Export einen Auftragsnamen zuweisen.
 
-   * **Senden von E-Mail an** optional eine E-Mail-Adresse, an die die Assets per E-Mail gesendet werden sollen. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
+   * **Senden**
+von E-Mail an optional eine E-Mail-Adresse, um die Assets per E-Mail zu senden. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
 
 1. Klicken Sie auf „**Exportieren**“.
 
