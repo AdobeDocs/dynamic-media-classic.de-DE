@@ -33,13 +33,15 @@ Siehe auch [Exportieren von Assets aus Dynamic Media Classic](exporting-assets-f
 1. Klicken Sie auf **„Einstellungen“** > **„Bildvorgaben“**.
 1. Legen Sie im Fenster „Bildvorgaben“ die folgenden Optionen nach Bedarf fest:
 
-   * **Benutzerdefinierte Konvertierung** aktivieren Wenn diese Option aktiviert ist, können Benutzer im Fenster &quot;Ausgewählte Assets exportieren&quot;in der Dropdown-Liste &quot;Größe&quot;eine andere Option auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
+   * **Benutzerdefinierte**
+Konversion aktivieren Wenn diese Option aktiviert ist, können Benutzer im Fenster &quot;Ausgewählte Assets exportieren&quot;aus der Dropdown-Liste &quot;Größe&quot;eine andere Option auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
 
       Wenn in der Dropdownliste **Größe** der Wert **Pixel** ausgewählt wird, kann die resultierende Bildhöhe x Bildbreite maximal 100 Millionen Pixel betragen. Diese Größe entspricht 10.000 x 10.000 Pixel bei einem quadratischen Bild bzw. etwa 8.000 x 12.000 Pixel bei einem Seitenverhältnis von 2:3. Diese Größenbeschränkung gilt nicht, wenn Sie Original-Masterbilder exportieren.
 
       Wenn diese Option deaktiviert ist, können Benutzer nur Dateien herunterladen, ohne sie dabei neu zu formatieren.
 
-   * **&quot;Original exportieren&quot;** Ermöglicht den Export von Übergeordnet-Originalbildern. Im Bedienfeld „Ausgewählte Assets exportieren“ können Benutzer das Dropdown-Menü Konvertierung öffnen und Original exportieren auswählen, um Originaldateien zu exportieren. Wenn diese Option deaktiviert ist, müssen Benutzer beim Exportieren von Bildern eine Bildvorgabe auswählen oder Konvertierungsoptionen festlegen.
+   * **Aktivieren Sie &quot;**
+Original exportieren&quot;. Damit können Sie Übergeordnet Originalbilder exportieren. Im Bedienfeld „Ausgewählte Assets exportieren“ können Benutzer das Dropdown-Menü Konvertierung öffnen und Original exportieren auswählen, um Originaldateien zu exportieren. Wenn diese Option deaktiviert ist, müssen Benutzer beim Exportieren von Bildern eine Bildvorgabe auswählen oder Konvertierungsoptionen festlegen.
 
 >[!MORELIKETHIS]
 >
