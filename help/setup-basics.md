@@ -20,7 +20,7 @@ ht-degree: 66%
 
 # Grundlagen der Einstellungen{#setup-basics}
 
-Verwenden Sie den Anzeigebereich &quot;Dynamic Media Classic-Einstellungen&quot;, um Ihre persönlichen Einstellungen einzugeben. Falls Sie ein Administrator sind, legen Sie die Unternehmenseinstellungen fest. Klicken Sie auf die Schaltfläche „Einstellungen“ in der Symbolleiste der globalen Navigation, um einen Anzeigebereich „Einstellungen“ zu öffnen.
+Geben Sie im Anzeigebereich &quot;Dynamic Media Classic-Einstellungen&quot;Ihre persönlichen Einstellungen ein. Falls Sie ein Administrator sind, legen Sie die Unternehmenseinstellungen fest. Klicken Sie auf die Schaltfläche „Einstellungen“ in der Symbolleiste der globalen Navigation, um einen Anzeigebereich „Einstellungen“ zu öffnen.
 
 Welche Einstellungen in diesem Anzeigebereich zur Verfügung stehen, hängt von Ihrem Status als Benutzer oder Administrator ab.
 
@@ -29,9 +29,11 @@ Welche Einstellungen in diesem Anzeigebereich zur Verfügung stehen, hängt von 
 
 Darüber hinaus können Administratoren im Anzeigebereich „Einstellungen“ auch Bildvorgaben und Viewer-Vorgaben festlegen:
 
-* **Bildvorgaben** sind gespeicherte Formate für die Anzeige von Übergeordnet dargestellten Bildern in unterschiedlichen Größen und Formaten.
+* **Bildvorgaben**
+sind gespeicherte Formate für die Anzeige von Übergeordnet dargestellten Bildern in unterschiedlichen Größen und Formaten.
 
-* **Mit Viewer-Vorgaben** wird festgelegt, wie Rich-Media-Daten im Viewer angezeigt werden.
+* **Viewer-**
+VorgabenViewer-Vorgaben bestimmen, wie Rich-Media-Daten angezeigt werden, wenn sie in einem Viewer angezeigt werden.
 
 >[!MORELIKETHIS]
 >
