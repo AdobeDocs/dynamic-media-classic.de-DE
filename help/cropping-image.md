@@ -28,7 +28,7 @@ Sie haben die Möglichkeit, durch Beschneiden den weißen Bereich um das Bild he
 >
 >Sie können die beschnittene Version des Bilds unter einem anderen Namen speichern, indem Sie auf die Schaltfläche „Speichern unter“ klicken. Wählen Sie im Fenster „Speichern unter“ die Option „Als neue Masterversion speichern“, um eine zweite Kopie des Bilds zu speichern. Wählen Sie die Option „Als zusätzliche Ansicht des Masterbilds speichern“, um das Original und dessen beschnittene Version unter verschiedenen Namen zu speichern. Wählen Sie die Option „Original ersetzen“, um die Originaldatei, die Sie beschnitten haben, zu löschen. Geben Sie anschließend einen Namen für das Bild ein und klicken Sie auf „Absenden“.
 
-## Beschneiden zum Entfernen des weißen Bereichs am Bildrand {#crop-to-remove-white-space-around-an-image}
+## Beschneiden zum Entfernen des weißen Bereichs am Bildrand  {#crop-to-remove-white-space-around-an-image}
 
 Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch Beschneiden entfernen.
 
@@ -44,11 +44,11 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 >
 >Um ein Bild in seinen ursprünglichen Zustand zurück zu versetzen, nachdem Sie es beschnitten haben, zeigen Sie das Bild im Anzeigebereich „Beschneidungseditor“ an und klicken Sie auf „Zurücksetzen“.
 
-## Auswählen eines zu beschneidenden Bereichs {#select-an-area-to-crop}
+## Auswählen eines zu beschneidenden Bereichs  {#select-an-area-to-crop}
 
-1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
+1. Um ein Bild zu beschneiden, klicken Sie auf seine Rollover-Schaltfläche &quot;Bearbeiten&quot;und wählen Sie **Beschneiden** oder zeigen Sie es im Durchsuchenbedienfeld in der Ansicht &quot;Details&quot;an und klicken Sie auf **Beschneiden**.
 
-1. Platzieren Sie im Fenster &quot;Beschneidungseditor&quot;den Bildausschnitt, den Sie nicht beschneiden möchten, im Feld &quot;Beschneiden&quot;. What appears inside the box remains when you click **Save** and crop the image.
+1. Platzieren Sie im Fenster &quot;Beschneidungseditor&quot;den Bildausschnitt, den Sie nicht beschneiden möchten, im Feld &quot;Beschneiden&quot;. Was im Feld angezeigt wird, bleibt bestehen, wenn Sie auf **Speichern** klicken und das Bild beschneiden.
 1. Führen Sie zum Anpassen des zu beschneidenden Bereichs einen der folgenden Schritte aus:
 
    * Ziehen Sie eine Seite oder Ecke des Rahmens. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, dabei jedoch das Seitenverhältnis (die Form) des zu beschneidenden Bereichs beizubehalten.
