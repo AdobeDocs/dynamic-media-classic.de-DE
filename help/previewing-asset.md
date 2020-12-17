@@ -26,7 +26,7 @@ Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_defa
 
 Wenn Sie ein Vorlagen-Asset mit Parameterebenen in der Vorschau anzeigen möchten, können Sie die Parameter oder die Bildvorgabe ändern. Da Ihre Änderungen inline vorgenommen werden, können Sie die Ergebnisse sofort im gleichen Fenster sehen.
 
-Siehe auch Referenzbibliotheksbeispiele für [Adoben-Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **So zeigen Sie eine Asset-Vorschau an**
 
@@ -42,7 +42,7 @@ Siehe auch Referenzbibliotheksbeispiele für [Adoben-Viewer](https://landing.ado
    * Wählen Sie im Fenster „Asset“ in der Rasteransicht oder Listenansicht ein einzelnes Asset aus und klicken Sie dann neben dem Miniaturbild auf „Vorschau“.
    * Klicken Sie in der Rasteransicht, Listenansicht oder Detailansicht in der Symbolleiste über dem Assets-Fenster auf „Vorschau“.
 
-## Anzeigen einer Asset-Vorschau für eine bestimmte Viewer-Plattform {#previewing-an-asset-based-on-viewer-platform-type}
+## Anzeigen einer Asset-Vorschau für eine bestimmte Viewer-Plattform  {#previewing-an-asset-based-on-viewer-platform-type}
 
 Mit der Viewer-Liste können Sie in der Vorschau testen, wie ein Asset in einer bestimmten Viewer-Plattform wie HTML5 angezeigt wird. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar.
 
@@ -79,7 +79,7 @@ Bei einer gegebenen Viewer-Plattform können Sie im Fenster Viewer-Liste visuell
 
 1. Klicken Sie in der rechten unteren Ecke des Fensters „Viewer-Liste“ auf „Schließen“, um zum Assets-Fenster zurückzukehren.
 
-## Anzeigen einer Bild-Asset-Vorschau auf Grundlage seiner Bildvorgabe {#previewing-an-image-asset-based-on-its-image-preset}
+## Anzeigen einer Bild-Asset-Vorschau auf Grundlage seiner Bildvorgabe  {#previewing-an-image-asset-based-on-its-image-preset}
 
 Sie können eine Vorschau eines Bild-Asset auf Grundlage seiner Bildvorgabe aufrufen, um zu sehen, wie das Bild aussieht, wenn es dynamisch in verschiedenen Größen für Ihre Website oder Anwendung bereitgestellt wird.
 
