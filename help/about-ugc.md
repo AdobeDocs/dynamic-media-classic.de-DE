@@ -17,9 +17,9 @@ ht-degree: 56%
 ---
 
 
-# Informationen zu benutzergenerierten Inhalten{#about-user-generated-content}
+# Info zu benutzergenerierten Inhalten{#about-user-generated-content}
 
-Die Verwendung von UGC (benutzergenerierte Inhalte) besteht darin, Assets in ein dediziertes Dynamic Media Classic Datenspeicherung Repository hochzuladen und damit verbundene Vorgänge auszuführen.
+Die Verwendung von UGC (benutzergenerierte Inhalte) besteht darin, Assets in ein dediziertes Dynamic Media Classic-Datenspeicherung-Repository hochzuladen und zugehörige Vorgänge auszuführen.
 
 UGC unterstützt die folgenden Formate:
 
