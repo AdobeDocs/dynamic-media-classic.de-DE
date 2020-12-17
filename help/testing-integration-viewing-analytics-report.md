@@ -20,15 +20,15 @@ ht-degree: 42%
 
 # Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, sie mit den Dynamic Media Classic-Ereignissen verknüpft und die erforderlichen Implementierungsschritte ausgeführt haben, sollten Sie die Einrichtung testen. Sie können in Adobe Analytics selbst testen und prüfen, ob die Daten erfasst werden. Wenn das Setup hier funktioniert, sind keine weiteren Schritte nötig. Wenn Sie die obigen Schritte ausgeführt und Ihre Daten aus dem Dynamic Media Classic-Ereignis mit einer oder mehreren benutzerspezifischen Traffic-Variablen verknüpft haben, führen Sie diesen Arbeitsablauf aus, um Ihre Daten in Adobe Analytics zu testen.
+Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, sie mit Dynamic Media Classic-Ereignissen verknüpft und die erforderlichen Implementierungsschritte abgeschlossen haben, sollten Sie die Einrichtung testen. Sie können in Adobe Analytics selbst testen und prüfen, ob die Daten erfasst werden. Wenn das Setup hier funktioniert, sind keine weiteren Schritte nötig. Wenn Sie die obigen Schritte ausgeführt und Ihre Dynamic Media Classic-Ereignis-Daten mit einer oder mehreren benutzerspezifischen Traffic-Variablen verknüpft haben, führen Sie diesen Arbeitsablauf aus, um Ihre Daten in Adobe Analytics zu testen.
 
 **So testen Sie die Integration durch Anzeigen eines Adobe Analytics-Berichts**
 
-1. Starten Sie einen Dynamic Media Classic-Viewer von Ihrem Konto aus, insbesondere einen, der die Metrik, die Sie erfassen möchten, überträgt, und interagieren Sie damit, um einige Ereignis-Daten zu erstellen.
+1. Starten Sie einen Dynamic Media Classic-Viewer von Ihrem Konto aus, insbesondere einen, der die zu erfassende Metrik überträgt, und interagieren Sie damit, um einige Ereignis-Daten zu erstellen.
 
    Wenn Sie z. B. die beliebtesten alternativen Ansichten in einem Bildset ermitteln möchten, zeigen Sie eine Vorschau des Bildsets an und klicken Sie auf die verschiedenen Miniaturbilder.
 
-1. Inside Adobe Analytics, go to Custom Traffic > Custom Traffic 1-10 > [Name of prop], selecting your traffic prop name from the menu choices.
+1. Gehen Sie innerhalb von Adobe Analytics zu Custom Traffic > Custom Traffic 1-10 > [Name der Eigenschaft] und wählen Sie Ihren Traffic-Eigenschaftsnamen aus den Menüoptionen.
 
    Wenn Sie z. B. die Eigenschaft „LoadAsset“ in unserem Beispielkonto aufrufen möchten, wählen Sie entsprechend „Benutzerspez. Traffic“ > „Benutzerspezifischer Traffic 1-10“ > „LoadAsset“. Wenn Sie über mehr als zehn benutzerdefinierte Eigenschaften verfügen, werden unter Umständen weitere Menüoptionen angezeigt.
 
@@ -36,6 +36,6 @@ Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, sie mit de
 
 >[!NOTE]
 >
->Alle Viewer-Daten des dynamischen Media Classic-Viewers werden in benutzerspezifischen Traffic-Berichten oder benutzerspezifischen Konvertierungsberichten von Adobe Analytics angezeigt und gemeldet.
+>Alle Dynamic Media Classic Viewer-Daten werden in benutzerspezifischen Traffic-Berichten oder benutzerspezifischen Konvertierungsberichten von Adobe Analytics angezeigt und in Berichten aufgeführt.
 
 Weitere Informationen finden Sie unter [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
