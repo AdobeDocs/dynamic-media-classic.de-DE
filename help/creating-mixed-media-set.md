@@ -54,7 +54,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    Klicken Sie auf **Vorschau**, um zu sehen, wie der kombinierte Bildsatz in einem Bildsatz-Viewer aussieht.
 
-## Bearbeiten eines gemischten Mediensets {#edit-a-mixed-media-set}
+## Bearbeiten eines gemischten Mediensets  {#edit-a-mixed-media-set}
 
 Sie können ein gemischtes Medienset bearbeiten. Falls Sie ein Set innerhalb eines gemischten Mediensets bearbeiten möchten, öffnen Sie dieses Set für sich allein, bearbeiten und speichern Sie es. Die Änderungen werden im gemischten Medienset angezeigt.
 
@@ -80,7 +80,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern** oder **Speicher unter**.
 
-## Löschen eines gemischten Mediensets {#deleting-a-mixed-media-set}
+## Löschen eines gemischten Mediensets  {#deleting-a-mixed-media-set}
 
 Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
