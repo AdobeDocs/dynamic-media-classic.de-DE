@@ -2,7 +2,7 @@
 title: Hilfe für Dynamic Media Classic Media Portal
 seo-title: Hilfe für Dynamic Media Classic Media Portal
 description: 'null'
-seo-description: Erfahren Sie, wie Sie Hilfe für Dynamic Media Classic Media Portal erhalten.
+seo-description: Hier erfahren Sie, wie Sie Hilfe für Dynamic Media Classic Media Portal erhalten.
 uuid: d8d2ebe1-0228-43c3-8321-c51ffac7fd58
 contentOwner: admin
 content-type: reference
@@ -20,6 +20,6 @@ ht-degree: 1%
 
 # Hilfe für Dynamic Media Classic Media Portal{#help-for-scene-media-portal}
 
-Das folgende Hilfe-Dokument ist auch in Dynamic Media Classic verfügbar:
+Das folgende Dokument steht auch in Dynamic Media Classic zur Verfügung:
 
-**Die Verwendung von Dynamic Media Classic Media Portal** Adobe Dynamic Media Classic Media Portal ist eine browserbasierte Umgebung, die Portalbenutzern einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Vorschauen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bietet. Siehe [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+**Mit Dynamic Media Classic Media** Portal ist Adobe Dynamic Media Classic Media Portal eine browserbasierte Umgebung, die Portalbenutzern einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Vorschauen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bietet. Siehe [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
