@@ -20,7 +20,7 @@ ht-degree: 62%
 
 # Kurzanleitung: Bildsätze{#quick-start-image-sets}
 
-Dynamische Medien-Classic-Bildsätze bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Bildsatz-Viewer können die Benutzer verschiedene Ansichten eines Elements anzeigen, indem sie auf eine Miniaturansicht klicken. Mit Bildsätzen können Sie alternative hochauflösende Ansichten eines Elements präsentieren.
+Dynamic Media Classic-Bildsätze bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Bildsatz-Viewer können die Benutzer verschiedene Ansichten eines Elements anzeigen, indem sie auf eine Miniaturansicht klicken. Mit Bildsätzen können Sie alternative hochauflösende Ansichten eines Elements präsentieren.
 
 Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Sie haben die Möglichkeit, geführte Zoomziele und Imagemaps im Bildsatz zu erstellen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
 
@@ -28,9 +28,9 @@ Dieser Beginn &quot;Bildsätze - Schnellansicht&quot;hilft Ihnen, sich schnell m
 
 **1. Hochladen von Masterbildern für mehrere Ansichten und Muster**
 
-Laden Sie zuerst die Bilder für die Bildsätze hoch. Da die Benutzer die Bilder im Bildsatz-Viewer heranzoomen können, sollten Sie bei der Auswahl der Bilder deren Eignung zum Zoomen berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
+Laden Sie zuerst die Bilder für die Bildsätze hoch. Da die Benutzer die Bilder im Bildsatz-Viewer heranzoomen können, sollten Sie bei der Auswahl der Bilder deren Eignung zum Zoomen berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Dynamic Media Classic unterstützt viele Bilddateiformate, es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner unter &quot;Dynamische Medien - Classic&quot;hochzuladen.
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen.
 
 Siehe [Vorbereiten von Bildsatz-Assets zum Hochladen](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
@@ -44,9 +44,9 @@ Siehe [Erstellen eines Bildsatzes](creating-image-set.md#creating-an-image-set).
 
 Siehe auch [Einbeziehen von Zoomzielen und Imagemaps in Bildsätze](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)
 
-**3. Einstellen von Bildsatz-Viewer-Vorgaben nach Bedarf**
+**3. Einrichten von Bildsatz-Viewer-Vorgaben nach Bedarf**
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ enthalten. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bilder“ oder Vorgaben für Bildsätze/mehrere Ansichten, um Ihre Bildsätze anzuzeigen.
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bilder“ oder Vorgaben für Bildsätze/mehrere Ansichten, um Ihre Bildsätze anzuzeigen.
 
 Sie können Viewer-Vorgaben aus dem Anzeigebereich „Anwendungseinstellungen“ hinzufügen oder bearbeiten. 
 
@@ -66,7 +66,7 @@ Beim Veröffentlichen eines Bildsatzes wird dieser auf den Servern von Dynamic M
 >
 >Dieser Schritt ist nicht erforderlich, wenn Sie beim Erstellen und Speichern des Bildsatzes die Option **Nach dem Speichern veröffentlichen ausgewählt haben.*(Standard)
 
-Click the Mark for Publish icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol &quot;Zur Veröffentlichung markieren&quot;. Klicken Sie dann auf **Veröffentlichen**. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Beginn Publish**.
 
 Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
@@ -74,6 +74,6 @@ Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
 Dynamic Media Classic erstellt URL-Aufrufe für Bildsätze und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 
-Wählen Sie dazu den Bildsatz aus und klicken Sie auf „Vorschau“. Der Anzeigebereich „Vorschau“ wird geöffnet. Select an Image Set Viewer Preset and click **Copy URL**.
+Wählen Sie dazu den Bildsatz aus und klicken Sie auf „Vorschau“. Der Anzeigebereich „Vorschau“ wird geöffnet. Wählen Sie eine Bildsatz-Viewer-Vorgabe aus und klicken Sie auf **URL kopieren**.
 
 Siehe [Verknüpfen eines Bildsatzes mit einer Website](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
