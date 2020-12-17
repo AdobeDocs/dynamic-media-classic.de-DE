@@ -20,13 +20,13 @@ ht-degree: 86%
 
 # Verknüpfen von Zoom-Viewern mit Webseiten{#linking-zoom-viewers-to-your-web-pages}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Inhalt des Image-Servers für dynamische Medien zu, einschließlich Übergeordnet Zielgruppen und damit verbundene Zoom-Viewer-Vorgaben. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus &quot;Dynamic Media Classic&quot;.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Image Server-Inhalte wie Übergeordnet-Zielgruppen und zugehörige Zoom-Viewer-Vorgaben zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic.
 
 >[!NOTE]
 >
 >Diese URL wird erst dann aktiv, wenn Sie das Asset veröffentlichen.
 
-## Kopieren der URL eines Zoom-Viewers {#copying-a-zoom-viewer-url}
+## Kopieren der URL eines Zoom-Viewers  {#copying-a-zoom-viewer-url}
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den Zoom-Viewer enthält, dessen URL Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
@@ -44,11 +44,11 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
       Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**URL kopieren**“.
 
-## Hinzufügen von Zoom-Viewer-URLs zu einer Webseite {#adding-zoom-viewer-urls-to-your-web-page}
+## Hinzufügen von Zoom-Viewer-URLs zu einer Webseite  {#adding-zoom-viewer-urls-to-your-web-page}
 
 Normalerweise klicken Besucher einer Website zum Zoomen von Bildern zunächst auf ein Zoomsymbol (häufig wird als Symbol eine Lupe verwendet). Über diese Symbolschaltfläche wird eine dynamische Website (ASP oder JSP) aufgerufen und das Bild in einem Popup-Fenster angezeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter &quot; [Einbetten des HTML5-grundlegenden Zoom-Viewers&quot;im Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)für Adoben.
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des einfachen HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
 ## Kopieren von Einbettungscode eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 
