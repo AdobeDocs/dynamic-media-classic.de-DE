@@ -2,7 +2,7 @@
 title: Arbeiten mit PostScript- und Illustrator-Dateien
 seo-title: Arbeiten mit PostScript- und Illustrator-Dateien
 description: 'null'
-seo-description: Erfahren Sie, wie Sie mit PostScript- und Illustrator-Dateien arbeiten.
+seo-description: Erfahren Sie, wie Sie mit PostScript- und Illustrator-Dateien arbeiten können.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: admin
 content-type: reference
@@ -20,22 +20,30 @@ ht-degree: 45%
 
 # Arbeiten mit PostScript- und Illustrator-Dateien{#working-with-postscript-and-illustrator-files}
 
-Sie können Adobe® PostScript®- (EPS-) und Adobe® Illustrator®- (AI-)Dateien in Dynamic Media Classic verwenden. Dynamic Media Classic-Angebote zum Konfigurieren dieser Dateien beim Hochladen.
+In Dynamic Media Classic können Sie Adobe®-PostScript®- (EPS-) und Adobe® Illustrator®-(AI-)Dateien verwenden. Dynamic Media Classic-Angebote zum Konfigurieren dieser Dateien beim Hochladen.
 
 Beim Hochladen von EPS- und AI-Bilddateien stehen Ihnen verschiedene Formatierungsmöglichkeiten zur Verfügung. Sie können die Dateien rastern, sie für die Vorlagenveröffentlichung in FXG konvertieren, einen transparenten Hintergrund festlegen sowie eine Auflösung und einen Farbraum wählen. Die Optionen zum Formatieren von PostScript- und Illustrator-Dateien finden Sie im Anzeigebereich „Hochladen“ unter „PostScript-Optionen“ bzw. im Feld „Upload-Auftragsoptionen“ unter „Illustrator-Optionen“.
 
-* **Verarbeitung** Wählen Sie &quot;Rastern&quot;, um Vektorgrafiken in der Datei in das Bitmapformat zu konvertieren.
+* ****
+VerarbeitungWählen Sie Rastern, um Vektorgrafiken in der Datei in das Bitmapformat zu konvertieren.
 
-* **Transparenten Hintergrund im gerenderten Bild** beibehalten: Die Hintergrundtransparenz der Datei bleibt erhalten.
+* **Transparenten Hintergrund in gerendertem**
+Bild beibehaltenBehält die Hintergrundtransparenz der Datei bei.
 
-* **Auflösung** Legt die Auflösungseinstellung fest. Mit dieser Einstellung wird bestimmt, wie viele Pixel pro Zoll in der Datei angezeigt werden.
+* **Auflösung**
+Legt die Auflösungseinstellung fest. Mit dieser Einstellung wird bestimmt, wie viele Pixel pro Zoll in der Datei angezeigt werden.
 
-* **Farbraum** Wählen Sie im Menü &quot;Farbraum&quot;einen Farbraum aus:
+* **Farbraum**
+Wählen Sie im Menü &quot;Farbraum&quot;einen Farbraum aus:
 
-* **&quot;Erkennen&quot;** Behält automatisch den Farbraum der Datei bei.
+* **Erkennung**
+automatischBehält den Farbraum der Datei bei.
 
-* **Immer RGB** Konvertiert in den RGB-Farbraum.
+* **Immer**
+RGBConvertiert in den RGB-Farbraum.
 
-* **Immer CMYK** Konvertiert in den CMYK-Farbraum.
+* **Immer**
+CMYKConvertiert den CMYK-Farbraum.
 
-* **Immer Graustufen** Konvertiert in den Graustufen-Farbraum.
+* **Immer**
+GraustufenKonvertiert in den Graustufen-Farbraum.
