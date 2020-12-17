@@ -20,7 +20,7 @@ ht-degree: 71%
 
 # Überprüfen von Auftragsdateien{#checking-job-files}
 
-Zur Überwachung von Datei-Uploads in den Dynamic Media Classic und von Dateien, die Sie auf den Servern von Dynamic Media Classic veröffentlichen, wird die Seite &quot;Aufträge&quot;von Dynamic Media Classic Angebot. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
+Zur Überwachung von Datei-Uploads in Dynamic Media Classic und von Dateien, die Sie auf Dynamic Media Classic-Servern veröffentlichen, wird die Seite &quot;Aufträge&quot;von Dynamic Media Classic-Angeboten angezeigt. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
 
 Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können auf das Symbol klicken, um weitere Informationen zum aktiven Auftrag anzuzeigen.
 
@@ -28,31 +28,31 @@ Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der v
 >
 >Eine Liste der kürzlich veröffentlichten Aufträge steht auch auf der Seite „Jüngste Aktivitäten“ zur Verfügung. Klicken Sie in der Symbolleiste für globale Navigation auf „Kürzlich“, um diese Seite zu öffnen.
 
-## Seite „Aufträge“ {#about-the-jobs-page}
+## Seite „Aufträge“  {#about-the-jobs-page}
 
 Klicken Sie auf der Symbolleiste für globale Navigation auf die Schaltfläche „Aufträge“, um die Seite „Aufträge“ zu öffnen. Standardmäßig werden die neuesten Aufträge oben in der Liste angezeigt.
 
 Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträge nach folgenden Kategorien angezeigt:
 
-**Auftragstyp** Ein Symbol gibt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
+**AuftragstypEin Symbol** zeigt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
 
 **Auftragsname** Der Name des Auftrags. Enthalten sind der vom Benutzer eingegebene Teil des Namens und der Datums-/Zeitstempel.
 
-**Startet** , wenn der Auftrag gestartet wurde.
+**** StartetBeim Starten des Auftrags.
 
-**Gesamtsumme** Die Anzahl der übertragenen Dateien.
+**** GesamtsummeDie Anzahl der übertragenen Dateien.
 
-**W (Warnungen)** Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiele sind etwa die Dateien „.DS_store“ (Macintosh) und „Thumbs.db“ (Windows), die Informationen über das Anzeigen von Bilddateien für Nutzer enthalten. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+**W (Warnungen)**  Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiele sind etwa die Dateien „.DS_store“ (Macintosh) und „Thumbs.db“ (Windows), die Informationen über das Anzeigen von Bilddateien für Nutzer enthalten. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
 **E (Fehler)** Liste der Anzahl der Fehler im Auftrag (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
-**Dauer** : Wie lange dauerte es, bis der Auftrag abgeschlossen wurde?
+**** DauerDauer des Auftrags.
 
 **Status** Zeigt den Status des Auftrags an.
 
-**Ziel** Bei Upload-Aufträgen: Firma und Ordner, in den die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
+**** ZielBei Upload-Aufträgen den Dateinamen und den Firmen-Ordner, in den die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
 
-**Gesendet von** Listen, die die Assets hochgeladen haben.
+**Gesendet** vonListen, die die Assets hochgeladen haben.
 
 ***Hinweis **: Sie können in Verarbeitung befindliche Veröffentlichungs- und Upload-Aufträge stornieren, indem Sie auf die Schaltfläche &quot;Abbrechen&quot;neben der Fortschrittsleiste klicken.*
 
@@ -60,17 +60,17 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 Mit den folgenden Verfahren können Sie Aufträge sortieren oder die Ansicht der Registerkarte „Verlauf“ auf der Seite „Aufträge“ ändern:
 
-**Sortieren** Wählen Sie einen Spaltennamen aus, um die Liste nach einer bestimmten Spalte zu sortieren. Durch Klicken auf den Schalter neben dem Spaltennamen können Sie zwischen auf- und absteigender Sortierfolge wechseln.
+**** SortierenWählen Sie einen Spaltennamen aus, um die Liste nach einer bestimmten Spalte zu sortieren. Durch Klicken auf den Schalter neben dem Spaltennamen können Sie zwischen auf- und absteigender Sortierfolge wechseln.
 
 **Datumsbereich** Wählen Sie im Menü &quot;Datumsbereich&quot;eine Option aus, um die Liste von Aufträgen auf das aktuelle Datum, die vorherige Woche oder den vorherigen Monat einzuschränken. Wählen Sie „Benutzerdefinierter Datumsbereich“, wenn Sie einen bestimmten Datumsbereich festlegen möchten.
 
-**Auftragstyp** Wählen Sie im Menü &quot;Auftragstyp&quot;die Option &quot;Veröffentlichen&quot;oder &quot;Hochladen&quot;aus, um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge zu beschränken. Wenn Sie „Alle“ wählen, werden beide Arten von Aufträgen angezeigt.
+**AuftragstypWählen Sie** im Menü &quot;Auftragstyp&quot;die Option &quot;Veröffentlichen&quot;oder &quot;Hochladen&quot;, um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge zu beschränken. Wenn Sie „Alle“ wählen, werden beide Arten von Aufträgen angezeigt.
 
-**&quot;Anzeigen** &quot;: Wählen Sie &quot;Anzeigen&quot;> &quot;Meine Aufträge&quot;oder &quot;Anzeigen&quot;> &quot;Alle Aufträge&quot;, um die Liste auf die von Ihnen bestellten Aufträge oder Aufträge zu beschränken.
+**Wählen Sie &quot;** Anzeigen&quot;> &quot;Meine Aufträge&quot;oder &quot;Anzeigen&quot;> &quot;Alle Aufträge&quot;, um die Liste auf die von Ihnen bestellten Aufträge oder Aufträge zu beschränken, die von den Mitarbeitern in Ihrer Firma bestellt wurden.
 
 ## Anzeigen, Kopieren oder Drucken eines Berichts mit Auftragsdetails {#viewing-copying-or-printing-a-job-details-report}
 
-Doppelklicken Sie auf der Seite „Aufträge“ auf den Namen eines Berichts, um die Seite „Auftragsdetails“ zu öffnen. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Klicken Sie auf &quot;Ansichten-Details&quot;, um die ID, den Zielpfad und die Statusinformationen eines Eintrags für Dynamic Media Classic anzuzeigen. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Dynamic Media Classic nicht verfügbar sind, werden die fehlenden Schriftarten im Bericht Liste.
+Doppelklicken Sie auf der Seite „Aufträge“ auf den Namen eines Berichts, um die Seite „Auftragsdetails“ zu öffnen. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Klicken Sie auf &quot;Ansichten-Details&quot;, um die Dynamic Media Classic-ID, den Zielpfad und Statusinformationen eines Eintrags anzuzeigen. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Dynamic Media Classic nicht verfügbar sind, werden die fehlenden Schriftarten im Bericht Liste.
 
 Sie können diese Informationen in die Zwischenablage kopieren.
 
@@ -88,17 +88,17 @@ Klicken Sie auf der Symbolleiste für globale Navigation auf die Schaltfläche �
 >
 >Sie können die Auftragsliste auf der Registerkarte „Geplant“ über die Menüs „Auftragstyp“ und „Anzeigen“ filtern. Wählen Sie einen Auftragstyp, um die Liste auf Veröffentlichungsaufträge einer bestimmten Art einzuschränken. Wählen Sie eine „Anzeigen“-Option, um entweder nur die von Ihnen erstellten Aufträge oder die Aufträge aller Mitarbeiter im Unternehmen anzuzeigen.
 
-### Bearbeiten, Löschen, Anhalten und Wiederaufnehmen wiederkehrender Aufträge {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Bearbeiten, Löschen, Anhalten und Wiederaufnehmen wiederkehrender Aufträge  {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 Sie können einen auf der Seite „Aufträge“ ausgewählten wiederkehrenden Auftrag mit den folgenden Verfahren bearbeiten bzw. löschen:
 
-**Bearbeiten eines wiederkehrenden Auftrags** Klicken Sie auf &quot;Bearbeiten&quot;und geben Sie im Dialogfeld &quot;Geplanten Auftrag bearbeiten&quot;Planungsinformationen ein. Wenn Sie möchten, dass der Auftrag in einem Intervall Ihrer Wahl wiederholt ausgeführt wird, wählen Sie „Wiederholen“ > „Benutzerdefiniert“. 
+**Bearbeiten eines wiederkehrenden** AuftragsKlicken Sie auf &quot;Bearbeiten&quot;und geben Sie im Dialogfeld &quot;Geplanten Auftrag bearbeiten&quot;Planungsinformationen ein. Wenn Sie möchten, dass der Auftrag in einem Intervall Ihrer Wahl wiederholt ausgeführt wird, wählen Sie „Wiederholen“ > „Benutzerdefiniert“. 
 
 Siehe [Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. Veröffentlichungsaufträge](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-**Löschen eines wiederkehrenden Auftrags** Klicken Sie auf &quot;Löschen&quot;.
+**Löschen eines wiederkehrenden** AuftragsKlicken Sie auf &quot;Löschen&quot;.
 
-**Anhalten (und Wiederaufnehmen) eines wiederkehrenden Auftrags** Deaktivieren Sie in der Spalte Aktiv das Kontrollkästchen, um einen Auftrag anzuhalten. Aktivieren Sie ein Kontrollkästchen, um einen angehaltenen Auftrag wiederaufzunehmen.
+**Anhalten (und Wiederaufnehmen) eines wiederkehrenden** AuftragsDeaktivieren Sie in der Spalte Aktiv das Kontrollkästchen, um einen Auftrag anzuhalten. Aktivieren Sie ein Kontrollkästchen, um einen angehaltenen Auftrag wiederaufzunehmen.
 
 ### Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. Veröffentlichungsaufträge {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -108,7 +108,7 @@ Dies ist die Syntax zum Beschreiben benutzerdefinierter Zeitintervalle für Uplo
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-For example, `0 15 10 * * ?` schedules a job at 10:15.00 every day.
+Beispiel: `0 15 10 * * ?` plant jeden Tag einen Auftrag um 10:15.00 Uhr.
 
 In den folgenden Tabellen und in der Liste unten ist dargestellt, wie sich ein Zeitintervall in das Feld „Regel“ eingeben lässt.
 
@@ -151,7 +151,7 @@ Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „R
 * 0 15 10 ? * 6L: Um 10:15 Uhr am letzten Freitag jedes Monats
 * 0 15 10 * * 6#3: Um 10:15 Uhr am dritten Freitag jedes Monats
 
-## Verwenden eines Upload-Auftrags oder Veröffentlichungsauftrags als Auslöser {#using-an-upload-or-publish-job-as-a-trigger}
+## Verwenden eines Upload-Auftrags oder Veröffentlichungsauftrags als Auslöser  {#using-an-upload-or-publish-job-as-a-trigger}
 
 Wenn Sie Assets per FTP hochladen oder einen Veröffentlichungsauftrag ausführen, können Sie einen Folgeauftrag unmittelbar nach Abschluss des Uploads beginnen lassen. (Wenn für diesen Zeitpunkt die Ausführung anderer Aufträge geplant ist, wird der hier terminierte Auftrag in der Warteschlange hinter diesen Aufträgen eingereiht.) Für den neuen Auftrag wird eine Benachrichtigung an die von Ihnen festgelegte Adresse geschickt, sodass Code am vorgesehenen Ort ausgelöst werden kann. Der nachfolgende Upload-Auftrag erhält denselben Namen wie der aktuelle Upload-Auftrag, jedoch mit dem Präfix „_Pub“.
 
