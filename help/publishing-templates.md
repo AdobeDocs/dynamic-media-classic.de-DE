@@ -26,9 +26,9 @@ Beim Veröffentlichen der Vorlage wird diese auf Dynamic Media-Image-Servern ges
 >
 >Um eine Vorlage zu verwenden, veröffentlichen Sie den gesamten Inhalt, der bei ihrer Erstellung verwendet wurde, einschließlich der Schriftarten und Bilder. Wenn Sie nicht alle erforderlichen Dateien berücksichtigen, wird beim Veröffentlichen eine Fehlermeldung angezeigt.
 
-## Markieren von Vorlagen zur Veröffentlichung {#marking-templates-for-publish}
+## Markieren von Vorlagen zur Veröffentlichung  {#marking-templates-for-publish}
 
-Vorlagen und alle zugehörigen Unterstützungsdateien müssen zur Veröffentlichung markiert werden, damit sie auf den Image-Servern von Dynamic Media abgelegt werden können. You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+Vorlagen und alle zugehörigen Unterstützungsdateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Servern gespeichert werden. Sie können diese Elemente zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol **Zur Veröffentlichung markieren** klicken.
 
 ## Veröffentlichen der Vorlage {#publishing-your-template}
 
