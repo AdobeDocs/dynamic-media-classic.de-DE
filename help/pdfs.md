@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # Arbeiten mit PDF-Dateien{#working-with-pdfs}
 
-PDF-Dateien (Portable Dokument Format) werden in den meisten Fällen in Dynamic Media Classic zum Erstellen von E-Katalogen verwendet. Beim Hochladen einer PDF-Datei werden die Seiten standardmäßig von Dynamic Media Classic gerastert oder gerippt, sodass die Seiten zum Erstellen von Rich-Media-Daten verwendet werden können.
+PDF-Dateien (Portable Dokument Format) werden meist in Dynamic Media Classic zum Erstellen von E-Katalogen verwendet. Wenn Sie eine PDF-Datei hochladen, werden die Seiten von Dynamic Media Classic standardmäßig gerastert oder gerippt, sodass die Seiten zum Erstellen von Rich-Media-Daten verwendet werden können.
 
 ## Optionen für das Hochladen von PDF-Dateien {#pdf-upload-options}
 
@@ -32,13 +32,13 @@ Die Optionen für das Hochladen von PDF-Dateien finden Sie im Anzeigebereich „
 
 Es stehen folgende Verarbeitungsoptionen zur Verfügung:
 
-**Rastern** (Standard) Rippt die Seiten in der PDF-Datei und konvertiert Vektorgrafiken in Bitmapbilder. Wählen Sie diese Option, wenn Sie einen E-Katalog erstellen möchten.
+**Rastern**  (Standard) Rippt die Seiten in der PDF-Datei und konvertiert Vektorgrafiken in Bitmapbilder. Wählen Sie diese Option, wenn Sie einen E-Katalog erstellen möchten.
 
-**Suchbegriffe** extrahieren Extrahiert Wörter aus der PDF-Datei, damit die Datei in einem E-Katalog-Viewer nach Schlüsselwörtern durchsucht werden kann.
+**Suchbegriffe extrahieren** Extrahiert Wörter aus der PDF-Datei, damit die Datei in einem E-Katalog-Viewer nach Schlüsselwörtern durchsucht werden kann.
 
-**Links** extrahieren Extrahiert Links aus den PDF-Dateien und konvertiert sie in Imagemaps, die in einem E-Katalog-Viewer verwendet werden.
+**Extrahieren von** LinksExtrahiert Links aus den PDF-Dateien und konvertiert sie in Imagemaps, die in einem E-Katalog-Viewer verwendet werden.
 
-**E-Katalog mit mehrseitiger PDF** automatisch erstellen und aus der PDF-Datei einen E-Katalog erstellen. Der E-Katalog erhält denselben Namen wie die hochgeladene PDF-Datei. (Diese Option ist nur verfügbar, wenn Sie die PDF-Datei beim Hochladen rastern.)
+**Automatisches Erstellen eines E-Katalogs mit mehrseitiger** PDFAutomatisch erstellt einen E-Katalog aus der PDF-Datei. Der E-Katalog erhält denselben Namen wie die hochgeladene PDF-Datei. (Diese Option ist nur verfügbar, wenn Sie die PDF-Datei beim Hochladen rastern.)
 
 **Auflösung**
 
@@ -48,42 +48,42 @@ Legt die Auflösungseinstellung fest. Mit dieser Einstellung wird bestimmt, wie 
 
 Wählen Sie im Menü „Farbraum“ einen Farbraum für die PDF-Datei aus. Die meisten PDF-Dateien enthalten sowohl RGB- als auch CMYK-Farbbilder. Der RGB-Farbraum eignet sich besonders gut, um die Datei online anzuzeigen.
 
-**&quot;Erkennen&quot;behält automatisch** den Farbraum der PDF-Datei bei.
+**Erkennung** automatischBehält den Farbraum der PDF-Datei bei.
 
-**Immer RGB** wird in den RGB-Farbraum konvertiert.
+**Immer** RGBConvertiert in den RGB-Farbraum.
 
-**Immer CMYK** Konvertiert in den CMYK-Farbraum.
+**Immer** CMYKConvertiert den CMYK-Farbraum.
 
-**Immer Graustufen** Konvertiert in den Graustufen-Farbraum.
+**Immer** GraustufenKonvertiert in den Graustufen-Farbraum.
 
 **Farbprofil**
 
 Wählen Sie eine Farbprofil-Option aus:
 
-**In sRGB** konvertieren Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
+**In** sRGBConverts in sRGB konvertieren (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
 
-**Der ursprüngliche Farbraum** bleibt erhalten.
+**&quot;Ursprünglicher Farbraum beibehalten&quot;** Behält den ursprünglichen Farbraum bei.
 
-**Benutzerdefiniert von > In öffnet** die Menüs, damit Sie einen Farbraum für &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen Photoshop-Standardfarbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben.
+**Benutzerdefiniert von >** Zu öffnet Menüs, damit Sie einen Farbraum &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen Photoshop-Standardfarbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben.
 
 Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
-## Beschneiden weißer Flächen in PDF-Dateien {#cropping-white-space-from-a-pdf-file}
+## Beschneiden weißer Flächen in PDF-Dateien  {#cropping-white-space-from-a-pdf-file}
 
 1. Um beim Hochladen einer PDF-Datei Pixel in weißen Flächen automatisch abzuschneiden, wählen Sie im Menü „Beschneiden“ die Option „Beschneiden“.
 1. Legen Sie die folgenden Optionen fest:
 
-   **EntfernenBasierend auf** Auswahl, ob basierend auf Farbe oder Transparenz beschnitten werden soll:
+   **Entfernen basierend** auf Beschneiden Wählen Sie, ob basierend auf Farbe oder Transparenz beschnitten werden soll:
 
-   **Farbe** Wählen Sie die Option Farbe. Wählen Sie anschließend im Menü „Ecke“ die Ecke in der PDF-Datei aus, deren Farbe mit der Farbe der weißen Flächen, die Sie entfernen möchten, am besten übereinstimmt.
+   **** ColorWählen Sie die Option &quot;Farbe&quot;. Wählen Sie anschließend im Menü „Ecke“ die Ecke in der PDF-Datei aus, deren Farbe mit der Farbe der weißen Flächen, die Sie entfernen möchten, am besten übereinstimmt.
 
    **Transparenz** Wählen Sie die Option &quot;Transparenz&quot;.
 
-   **Toleranz** Ziehen Sie den Schieberegler, um eine Toleranz von 0 bis 1 festzulegen:
+   **Toleranz** Ziehen Sie den Schieberegler, um eine Toleranz zwischen 0 und 1 festzulegen:
 
-   **Beschneiden basierend auf Farbe** Geben Sie 0 an, um Pixel nur zu beschneiden, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke der PDF-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+   **Beschneiden basierend auf** FarbeGeben Sie 0 an, damit Pixel nur abgeschnitten werden, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke der PDF-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-   **Beschneiden basierend auf Transparenz** Geben Sie 0 an, um Pixel nur abzuschneiden, wenn sie vollkommen transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenz zu.
+   **Beschneiden basierend auf** TransparenzGeben Sie 0 an, um Pixel nur abzuschneiden, wenn sie vollkommen transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenz zu.
 
 ## Beschneiden der Kanten von PDF-Seiten {#cropping-from-the-sides-of-pdf-pages}
 
