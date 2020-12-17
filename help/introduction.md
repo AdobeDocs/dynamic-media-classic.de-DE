@@ -1,8 +1,8 @@
 ---
 title: Dynamic Media Classic-Hilfe
 seo-title: Adobe Dynamic Media Classic
-description: Übersicht über Dynamic Media Classic
-seo-description: Übersicht über Dynamic Media Classic
+description: Überblick über Dynamic Media Classic
+seo-description: Überblick über Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
 source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 # Dynamic Media Classic-Hilfe {#scene7-overview}
 
-Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem zum Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Inhalte auf allen Geräten und Bildschirmen. Adobe Dynamic Media Classic bietet folgende Lösungen:
+Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem zum Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Inhalte auf allen Geräten und Bildschirmen. Zu den Lösungen der Adobe Dynamic Media Classic gehören:
 
 * Dynamic Imaging: Bearbeitung, Formatierung und Größenänderung in Echtzeit, interaktives Zoomen und Schwenken; Farb- und Texturänderung; 360-Grad-Drehung; Bildvorlagen; Multimedia-Viewer.
 * E-Kataloge: Autor, Hotspot-Verknüpfung, suchaktivierte Bereitstellung, Veröffentlichung und Bereitstellung dynamisch bereitgestellter Online-Kataloge in konfigurierbaren Viewern.
@@ -35,7 +35,7 @@ Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden
 * [Quick Beginn: Gemischte Mediensets](/help/quick-start-mixed-media-sets.md)
 * [Quick Beginn: Rotationssets](/help/quick-start-spin-sets.md)
 * [Quick Beginn: Mustersets](/help/quick-start-swatch-sets.md)
-* [Quick Beginn: Target Standard/Premium-Integration](/help/quick-start-target-integration.md)
+* [Quick Beginn: Integration von Target Standard/Premium](/help/quick-start-target-integration.md)
 * [Quick Beginn: Vorlagen - Grundlagen](/help/quick-start-template-basics.md)
 * [Kurzanleitung: Video](/help/quick-start-video.md)
 * [Kurzanleitung: Zoom](/help/quick-start-zoom.md)
