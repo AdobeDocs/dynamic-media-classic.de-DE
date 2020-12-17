@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # Verwalten von FTP-Konten{#managing-ftp-accounts}
 
-FTP-Konten können nur von Media Portal-Administratoren verwaltet werden. In addition, only users with the role of *Media Portal Contributor-User *or *Media Portal Contributor* can upload digital assets.
+FTP-Konten können nur von Media Portal-Administratoren verwaltet werden. Außerdem können nur Benutzer mit der Rolle *Media Portal-Mitarbeiter-Benutzer *oder *Media Portal-Mitarbeiter* digitale Assets hochladen.
 
 Denken Sie daran, dass Sie bestehende Media Portal-Benutzer über die Seite „Benutzerverwaltung“ in den Administrationseinstellungen aktivieren bzw. deaktivieren können.
 
@@ -40,7 +40,7 @@ Siehe [Aktivieren oder Deaktivieren von Benutzern](administration-setup.md#activ
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
-## Löschen eines bestehenden FTP-Kontos {#deleting-an-existing-ftp-account}
+## Löschen eines bestehenden FTP-Kontos  {#deleting-an-existing-ftp-account}
 
 1. Klicken Sie auf **„Einstellungen“** > **„Media Portal“** > **„FTP-Konten“**.
 1. Wählen Sie auf der Seite „FTP-Konto hinzufügen“ in der Tabelle „Vorhandene Konten“ das FTP-Konto aus, das Sie entfernen möchten.
