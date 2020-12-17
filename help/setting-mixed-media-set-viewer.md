@@ -27,8 +27,8 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Führen Sie auf der Seite &quot;Viewer-Vorgaben&quot;einen der folgenden Schritte aus:
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
-   * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+   * Um eine neue Vorgabe zu erstellen, klicken Sie auf **Hinzufügen**. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie &quot;Viewer für gemischte Mediensets&quot;und klicken Sie dann auf **Hinzufügen**.
+   * Um eine Viewer-Vorgabe für gemischte Mediensets zu bearbeiten, wählen Sie sie aus und klicken Sie dann auf **Bearbeiten**.
 
    Der Anzeigebereich „Viewer konfigurieren“ wird geöffnet.
 
@@ -55,15 +55,19 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 
 1. Um Community-Funktionen zum Viewer hinzuzufügen (Einbetten, Verknüpfen oder Zur Website), wählen Sie die Optionen für die folgenden Punkte aus:
 
-   * **E-Mail-** Klick auf &quot;Ein&quot;, um die Schaltfläche &quot;E-Mail senden&quot;im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets auf die Schaltfläche „E-Mail an Freunde senden“ klicken, wird eine E-Mail mit der Verknüpfung des Sets generiert.
+   * **E-**
+Mail-Klick auf Ein, um eine Schaltfläche &quot;E-Mail&quot;im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets auf die Schaltfläche „E-Mail an Freunde senden“ klicken, wird eine E-Mail mit der Verknüpfung des Sets generiert.
 
-   * **Einbetten**: Klicken Sie auf Live. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. Klicken Sie auf 
-**Suchen** Sie nach einer benutzerdefinierten Skin für die Schaltfläche und wählen Sie sie aus.
+   * ****
+EmbedClick Live. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. Klicken Sie auf 
+**Suchen Sie** nach einer benutzerdefinierten Skin für die Schaltfläche und wählen Sie sie aus.
 
-   * **Link** Klicken Sie auf Live. Geben Sie im Feld „Beschr. f. Verknüpfungsschaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Verknüpfen“ angezeigt werden soll. Klicken Sie auf 
-**Suchen** Sie nach einer benutzerdefinierten Skin für die Schaltfläche und wählen Sie sie aus.
+   * ****
+LinkKlicken Sie auf Live. Geben Sie im Feld „Beschr. f. Verknüpfungsschaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Verknüpfen“ angezeigt werden soll. Klicken Sie auf 
+**Suchen Sie** nach einer benutzerdefinierten Skin für die Schaltfläche und wählen Sie sie aus.
 
-   * **Besuch**-Klick 
+   * ****
+VisitClick 
 **Live**. Geben Sie im Feld „Beschriftung für Besuchen-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Zur Website“ angezeigt werden soll. Geben Sie im Feld „URL besuchen“ die URL der Webseite an, die durch Klicken auf die Verknüpfung geöffnet werden soll.
 
 1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, klicken Sie neben der Option auf das Symbol „Tipp“ .
