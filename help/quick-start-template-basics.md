@@ -34,11 +34,11 @@ Diese Kurzanleitung hilft Ihnen, sich schnell mit Vorlagen aus Grundelementen ve
 
 Laden Sie zunächst die PSD-Datei oder die Bilddatei für Ihre Vorlage hoch. Dynamic Media Classic unterstützt neben PSD viele Bilddateiformate, aber verlustfreie TIFF- und PNG-Bilder werden für Vorlagen empfohlen, da sie Transparenz ermöglichen.
 
-Wenn Sie eine Vorlage basierend auf einer PSD-Datei erstellen möchten, wählen Sie beim Hochladen der PSD-Datei im Dialogfeld „Upload-Auftragsoptionen“ die Option „Vorlage erstellen“. Wählen Sie außerdem eine Option für die Ebenenbenennung, um Dynamic Media Classic anzugeben, wie PSD-Ebenen benannt werden, wenn sie in Dynamic Media Classic hochgeladen werden.
+Wenn Sie eine Vorlage basierend auf einer PSD-Datei erstellen möchten, wählen Sie beim Hochladen der PSD-Datei im Dialogfeld „Upload-Auftragsoptionen“ die Option „Vorlage erstellen“. Wählen Sie außerdem eine Option für die Ebenenbenennung, um Dynamic Media Classic anzuzeigen, wie PSD-Ebenen benannt werden, wenn sie in Dynamic Media Classic hochgeladen werden.
 
 Wenn Sie Bilddateien verwenden, können Sie die Bilder beim Hochladen beschneiden oder eine Maske aus deren Beschneidungspfaden erstellen.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um eine PSD-Datei oder andere Bilddateien von Ihrem Computer in einen Ordner unter &quot;Dynamic Media Classic&quot;hochzuladen. Siehe [Hochladen von Vorlagendateien](uploading-template-files.md#uploading_template_files).
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um eine PSD-Datei oder andere Bilddateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen. Siehe [Hochladen von Vorlagendateien](uploading-template-files.md#uploading_template_files).
 
 **2. Erstellen von Vorlagen**
 
@@ -60,7 +60,7 @@ Um eine Ebene zu parametrisieren, öffnen Sie die Vorlage im Anzeigebereich „V
 
 **4. Veröffentlichen von Vorlagen**
 
-Beim Veröffentlichen der Vorlage wird diese auf den Image-Servern für dynamische Medien gespeichert, damit sie dynamisch an Ihre Website oder Anwendung übertragen werden kann. Bei der Veröffentlichung wird auch die URL aktiviert, mit der die Vorlage von den Dynamic Media-Image-Servern für Ihre Website oder Anwendung aufgerufen werden kann.
+Beim Veröffentlichen der Vorlage wird diese auf Dynamic Media-Image-Servern gespeichert, damit sie dynamisch an Ihre Website oder Anwendung übertragen werden kann. Bei der Veröffentlichung wird auch die URL aktiviert, mit der die Vorlage von den Dynamic Media-Image-Servern für Ihre Website oder Anwendung aufgerufen werden kann.
 
 Achten Sie darauf, alle Bilder zu veröffentlichen, die der Vorlage zugeordnet sind.
 
@@ -68,6 +68,6 @@ Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und
 
 **5. Verknüpfen einer Vorlage mit einer Website**
 
-Dynamic Media Classic erstellt URLs für Vorlagen und aktiviert die URLs, wenn Sie Vorlagen auf den Image-Servern für dynamische Medien veröffentlichen. Sie können diese URL-Zeichenfolgen im Anzeigebereich „Vorschau für Vorlagen“ kopieren.
+Dynamic Media Classic erstellt URLs für Vorlagen und aktiviert die URLs, wenn Sie Vorlagen auf Dynamic Media-Image-Servern veröffentlichen. Sie können diese URL-Zeichenfolgen im Anzeigebereich „Vorschau für Vorlagen“ kopieren.
 
 Wählen Sie im Durchsuchenbedienfeld die Vorlage aus und klicken Sie auf „Vorschau“, um den Anzeigebereich „Vorschau für Vorlagen“ zu öffnen. Wählen Sie anschließend eine Bildvorgabe zum Übertragen der Vorlage aus und klicken Sie auf „URL kopieren“. Die URL, die Sie im Anzeigebereich „Vorschau“ kopiert haben, können Sie anschließend auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Website](linking-template-web-page.md#linking_a_template_to_a_web_page).
