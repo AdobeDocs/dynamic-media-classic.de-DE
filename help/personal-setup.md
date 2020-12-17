@@ -24,7 +24,7 @@ Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von
 
 >[!NOTE]
 >
->Im Anzeigebereich &quot;Persönliche Einstellungen&quot;wird die Benutzerrolle Liste, die Sie in Dynamic Media Classic haben: Firma Administrator, Administrator oder User.
+>Der Anzeigebereich &quot;Persönliche Einstellungen&quot;Liste die Benutzerrolle, die Sie in Dynamic Media Classic haben: Firma Administrator, Administrator oder User.
 
 Die persönlichen Einstellungen steuern das Standardverhalten des Durchsuchenbedienfelds, den E-Mail-Empfang und die Kennworteinstellungen. Vergessen Sie nicht, nach dem Ändern dieser Einstellungen auf „Speichern“ zu klicken.
 
@@ -38,7 +38,7 @@ Klicken Sie auf Jetzt installieren, um die Desktop-Version von Dynamic Media Cla
 
 ## So installieren Sie das Zusatzmodul auf Ihrer lokalen Festplatte
 
-1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
+1. Klicken Sie auf der Seite &quot;Persönliche Einstellungen&quot;in Dynamic Media Classic unter &quot;Illustrator Plug-in for Web-to-Print&quot;auf **Jetzt herunterladen**, um das **Illustrator-Plugin für Web-to-Print.zip** herunterzuladen.
 1. Entpacken Sie die ZIP-Datei in einen temporären Ordner.
 
    Im Stammverzeichnis der entpackten ZIP-Datei ist eine Readme-Datei enthalten, in der Sie zusätzliche Informationen zum Zusatzmodul finden.
@@ -49,8 +49,8 @@ Klicken Sie auf Jetzt installieren, um die Desktop-Version von Dynamic Media Cla
 
 | Bei der Ausführung von | Schritte |
 |--- |--- |
-| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC-2014.</li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64.</li><li>Klicken Sie auf libraries > flame und kopieren Sie die Datei `aflame.dll` in den ausführbaren Adobe Illustrator-Ordner. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. <br/><ul><li>Kehren Sie zum selben Ordner libraries zurück, klicken Sie auf flamingo und kopieren Sie die Datei `aflamingo.dll` in denselben ausführbaren Adobe Illustrator-Ordner, den Sie im vorherigen Schritt verwendet haben. </li><li>Je nachdem, welchen Ordner Sie in Schritt 2 ausgewählt haben, kehren Sie zum win32- oder win64-Ordner zurück und kopieren Sie die Datei `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
-| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC. </li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
+| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC-2014.</li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64.</li><li>Klicken Sie auf libraries > flame und kopieren Sie die Datei `aflame.dll` in den ausführbaren Adobe Illustrator-Ordner. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen.  <br/><ul><li>Kehren Sie zum selben Ordner libraries zurück, klicken Sie auf flamingo und kopieren Sie die Datei `aflamingo.dll` in denselben ausführbaren Adobe Illustrator-Ordner, den Sie im vorherigen Schritt verwendet haben. </li><li>Je nachdem, welchen Ordner Sie in Schritt 2 ausgewählt haben, kehren Sie zum win32- oder win64-Ordner zurück und kopieren Sie die Datei `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
+| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC. </li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64.</li><li> Kopieren Sie `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
 | Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf 6.0. </li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64. </li><li>Kopieren Sie die Datei AdobeS7FXGFileFormat.aip in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
 
 ### Mac
@@ -58,8 +58,8 @@ Klicken Sie auf Jetzt installieren, um die Desktop-Version von Dynamic Media Cla
 | Bei der Ausführung von | Schritte |
 |--- |--- |
 | Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC-64 > mac64.</li><li>Klicken Sie auf libraries > flame und kopieren Sie den Ordner `aflame.framework` in den Adobe Illustrator-Ordner für Paketinhalte. Beispiel, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Um den Ordner mit den Paketinhalten von Adobe Illustrator zu öffnen, klicken Sie mit der rechten Maustaste auf das Symbol Adobe Illustrator CC 2014 und klicken Sie im Kontextmenü auf Paketinhalt anzeigen).</li><li>Kehren Sie zum selben Ordner libraries zurück, klicken Sie auf `flamingo` und kopieren Sie den Ordner `aflamingo.framework` in denselben Adobe Illustrator-Ordner für Paketinhalte, den Sie im vorherigen Schritt verwendet haben.</li><li>Kehren Sie zum Ordner mac64 zurück, den Sie in Schritt 1 ausgewählt haben, und kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. Beispiel, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. Beispiel, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC > mac64</li><li>Kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf 6.0 > mac64</li><li>Kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
 
 Das Zusatzmodul ist nun in Adobe Illustrator verfügbar und kann verwendet werden.
 
@@ -104,7 +104,7 @@ Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields)
 ## E-Mail an Freunde senden
 
 * **E-Mail-Optionen**
-   * Wählen Sie aus, wie Sie von Dynamic Media Classic per E-Mail informiert werden möchten, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
+   * Wählen Sie aus, wie Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
 * **E-Mail-Umfang**
    * Legt fest, ob Sie E-Mails für alle Aufträge Ihres Unternehmens erhalten möchten oder nur für Upload-Aufträge und Veröffentlichungsaufträge, die Sie selbst gestartet haben.
 * **E-Mail-Typen**
