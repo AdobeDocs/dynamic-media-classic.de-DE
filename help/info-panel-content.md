@@ -35,7 +35,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 
 >[!NOTE]
 >
->Sie können die Antwortvorlage auch in der Viewer-Vorgabe einrichten. To use the Response Template in the Viewer Preset instead, add `fmt=1` to the end of the Information Server URL in the Viewer Preset.
+>Sie können die Antwortvorlage auch in der Viewer-Vorgabe einrichten. Um stattdessen die Antwortvorlage in der Viewer-Vorgabe zu verwenden, fügen Sie am Ende der Infoserver-URL in der Viewer-Vorgabe `fmt=1` hinzu.
 >
 >Siehe [Konfigurieren von E-Katalog-Viewer-Vorgaben](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
@@ -46,15 +46,15 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Wählen Sie eine Vorgabe aus dem Menü „Antwortvorlage“ aus. Der XML-Code für den Vorlagenentwurf wird im Feld „Benutzervorlage“ angezeigt.
    * Wählen Sie „Benutzerdefiniert“, um Ihre eigene Antwortvorlage zu erstellen. Geben Sie die XML-Definition der Vorlage in das Feld „Benutzervorlage“ ein. Sie können die vorgegebenen Vorlagen als Grundlage für Ihre eigenen verwenden. 
 
-1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn beim Abrufen von Informationen für eine Imagemap ein Fehler in Dynamic Media Classic auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 1. Geben Sie die Anzahl der Stunden bis zum Zwischenspeichern der Daten in das Feld „Antwort-TTL“ ein:
 
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
    * Geben Sie eine höhere Zahl ein, falls die Daten relativ stabil sind und nicht so häufig aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
 
-1. Click **Publish**.
+1. Klicken Sie auf **Veröffentlichen**.
 
-## Import source content for the Info Panel in eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}
+## Importieren von Quellinhalten für das Infofeld in E-Katalogen {#import-source-content-for-the-info-panel-in-ecatalogs}
 
 Sie können eine kommagetrennte (CSV) oder tabulatorgetrennte (TXT) Datei für den Quelltext des Infofelds für einen E-Katalog verwenden. Tabulatorgetrennte Dateien müssen die UTF16-Kodierung (Unicode) verwenden. Verschiedene Dateitypen werden mithilfe unterschiedlicher Methoden importiert.
 
@@ -64,7 +64,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 * Stellen Sie sicher, dass das erste Element bzw. die erste Datenspalte der Rollover-Bezeichner ist (verknüpft mit dem rollover_key-Wert aus der URL der Imagemap).
 * Stellen Sie sicher, dass jedes tabulator- oder kommagetrennte Element nach dem Bezeichner das Element ist, das in der Antwortvorlage ersetzt werden soll (sodass also für die erste Spalte $1$, für die zweite $2$ usw. eingesetzt wird).
 
-### Import CSV content into eCatalogs from an externally hosted location {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location} in E-Kataloge
 
 1. Doppelklicken Sie auf den E-Katalog, um ihn in der Detailansicht zu öffnen.
 1. Klicken Sie auf den Anzeigebereich „Infofeld-Daten-Feed“, um diesen zu öffnen.
@@ -72,7 +72,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 1. (Optional) Geben Sie im Menü „Terminplanaktualisierung“ eine Zeit an, zu der die Aktualisierung der Inhalte stattfinden soll, und klicken Sie auf „Hinzufügen“. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu löschen, wählen Sie diese aus und klicken dann auf „Löschen“).
 1. (Optional) Klicken Sie auf „Aktualisierung jetzt ausführen“, um den Inhalt sofort zu aktualisieren.
 
-### Importieren einer tabulatorgetrennten oder CSV-Datei {#import-a-tab-delimited-or-csv-file}
+### Importieren einer tabulatorgetrennten oder CSV-Datei  {#import-a-tab-delimited-or-csv-file}
 
 <!-- 
 
@@ -87,7 +87,7 @@ Last Modified Date:
 1. Doppelklicken Sie auf den E-Katalog, um ihn in der Detailansicht zu öffnen.
 1. Klicken Sie auf den Anzeigebereich „Infofeld-Einrichtung“, um diesen zu öffnen.
 1. **Klicken Sie auf S7Info-Inhalt** hochladen.
-1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
+1. Klicken Sie auf **Durchsuchen**, wählen Sie die tabulatorgetrennte TXT-, CSV- oder SSV-Datei aus, die Sie verwenden möchten, und klicken Sie auf **Öffnen**.
 1. Klicken Sie auf **Hochladen**.
 
 Dynamic Media Classic sendet Ihnen eine E-Mail, in der Sie wissen, ob der Upload erfolgreich war oder nicht.
