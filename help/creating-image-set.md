@@ -22,7 +22,7 @@ ht-degree: 89%
 
 Um einen Bildsatz mit mehreren Ansichten zu erstellen, benötigen Sie Bilder, die ein Element aus unterschiedlichen Perspektiven zeigen oder verschiedene Aspekte eines Elements darstellen. Das Ziel dabei ist, dem Betrachter Bilder eines Elements zu präsentieren, damit er eine umfassende Vorstellung davon erhält, wie es aussieht und was es leistet.
 
-## Erstellen eines Bildsatzes {#create}
+## Erstellen eines Bildsatzes  {#create}
 
 Wenn Sie ein Set erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -37,16 +37,16 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   **Wählen Sie zuerst** die Bilder im Durchsuchenbedienfeld aus, wählen Sie die Bilder aus, die Sie für den Bildsatz verwenden möchten, und klicken Sie auf &quot;Erstellen&quot;> &quot;Bildsätze&quot;.
+   **Wählen Sie die Bilder** zuerst aus. Wählen Sie im Durchsuchenbedienfeld die Bilder aus, die Sie für den Bildsatz verwenden möchten, und klicken Sie auf &quot;Erstellen&quot;> &quot;Bildsätze&quot;.
 
-   **Klicken Sie im Anzeigebereich** &quot;Bildsatz&quot;auf &quot;Erstellen&quot;> &quot;Bildsätze&quot;. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
+   **Klicken Sie im** Anzeigebereich &quot;Bildsatz&quot;auf &quot;Erstellen&quot;> &quot;Bildsätze&quot;. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
 
 1. Um die Reihenfolge der Bilder zu ändern, ziehen Sie die Bilder an die gewünschten Positionen.
 1. Stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Ordner zum Speichern des Bildsatzes aus, geben Sie einen Namen für den Bildsatz ein und klicken Sie auf **Speichern**.
 1. Wenn Sie den Bildsatz im Bildsatz-Viewer anzeigen möchten, klicken Sie im Anzeigebereich „Bildsatz“ auf die Schaltfläche **Vorschau**. Durch Klicken auf Muster-Miniaturansichten im Bildsatz-Viewer können Sie anzeigen, wie sich diese verhalten.
 
-## Bearbeiten eines Bildsatzes {#editing-an-image-set}
+## Bearbeiten eines Bildsatzes  {#editing-an-image-set}
 
 Abhängig davon, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -71,7 +71,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner für das Set aus, geben Sie einen Namen für das Set ein und klicken Sie auf **Speichern**.
 
-## Löschen eines Bildsatzes {#deleting-an-image-set}
+## Löschen eines Bildsatzes  {#deleting-an-image-set}
 
 Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
