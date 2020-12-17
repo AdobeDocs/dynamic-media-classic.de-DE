@@ -20,7 +20,7 @@ ht-degree: 55%
 
 # Arbeiten mit Asset-Ordnern{#working-with-asset-folders}
 
-Dateielemente in Dynamic Media Classic werden in Ordnern gespeichert. In der Asset-Bibliothek werden diese Ordner in alphabetischer Reihenfolge aufgeführt. Bevor Sie Dateien von Ihrem Computer oder Netzwerk in Dynamic Media Classic hochladen, werden Sie aufgefordert, einen Namen zum Speichern der Dateien zu benennen. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
+Dateielemente in Dynamic Media Classic werden in Ordnern gespeichert. In der Asset-Bibliothek werden diese Ordner in alphabetischer Reihenfolge aufgeführt. Bevor Sie Dateien von Ihrem Computer oder Netzwerk in Dynamic Media Classic hochladen, werden Sie aufgefordert, einen Namen für das Speichern der Dateien anzugeben. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
 
 Stellen Sie sicher, dass Sie eine Ordnerstruktur und -anordnung zum Speichern der Dateien in Dynamic Media Classic einrichten, bevor Sie Dateien hochladen.
 
@@ -28,13 +28,17 @@ Stellen Sie sicher, dass Sie eine Ordnerstruktur und -anordnung zum Speichern de
 
 In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie in der Asset-Bibliothek einen Ordner auswählen, wird der Ordnerinhalt im Durchsuchenbedienfeld angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
-* **Anzeigen von Unterordnern** Wählen Sie das Symbol &quot;Ordner erweitern&quot;, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Anzeigen von**
+UnterordnernWählen Sie das Symbol &quot;Ordner erweitern&quot;, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Verschieben eines Ordners** Sie können einen Ordner verschieben, indem Sie ihn ziehen und an seinem neuen Speicherort ablegen oder indem Sie &quot;Datei&quot;> &quot;Ordner verschieben&quot;wählen.
+* **Verschieben eines**
+Ordners: Sie können einen Ordner verschieben, indem Sie ihn ziehen und an seinem neuen Speicherort ablegen oder indem Sie &quot;Datei&quot;> &quot;Ordner verschieben&quot;wählen.
 
-* **Ausblenden von Ordnern** Wählen Sie das Symbol zum Reduzieren von Ordnern aus, um Unterordner auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Ausblenden von**
+OrdnernWählen Sie das Symbol zum Reduzieren von Ordnern aus, um Unterordner auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Öffnen eines Ordners** Wählen Sie einen Ordner aus, um dessen Inhalt im Durchsuchenbedienfeld anzuzeigen.
+* **Öffnen eines**
+OrdnersWählen Sie einen Ordner aus, um dessen Inhalt im Durchsuchenbedienfeld anzuzeigen.
 
 ***Tipp **: Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite auf das Steuerelement zum Erweitern/Reduzieren klicken. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.*
 
@@ -48,15 +52,17 @@ Führen Sie zum Erstellen eines Ordners die folgenden Schritte aus:
 
    >[!NOTE]
    >
-   >Sie können Ordner auch in Dynamic Media Classic erstellen, wenn Sie Dateien per FTP hochladen. Wenn Sie beim Hochladen per FTP die Option „Unterordner einschließen“ aktivieren, wird die Ordnerstruktur von Ihrem Computer ins System übernommen. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
+   >Sie können auch Ordner in Dynamic Media Classic erstellen, wenn Sie Dateien per FTP hochladen. Wenn Sie beim Hochladen per FTP die Option „Unterordner einschließen“ aktivieren, wird die Ordnerstruktur von Ihrem Computer ins System übernommen. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
 
-## Löschen und Umbenennen von Ordnern {#deleting-and-renaming-folders}
+## Löschen und Umbenennen von Ordnern  {#deleting-and-renaming-folders}
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen** Klicken Sie auf &quot;Ordner entfernen&quot;. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen**
+Wählen Sie die Schaltfläche &quot;Ordner entfernen&quot;. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
-* **Beim Umbenennen** der Dublette klicken Sie auf den Namen und geben Sie einen neuen Namen ein.
+* ****
+UmbenennenDoppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 
 >[!NOTE]
 >
