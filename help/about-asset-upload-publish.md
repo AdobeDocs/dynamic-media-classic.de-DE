@@ -2,7 +2,7 @@
 title: Informationen zum Hochladen und Veröffentlichen von Assets
 seo-title: Informationen zum Hochladen und Veröffentlichen von Assets
 description: 'null'
-seo-description: Eine Einführung in das Hochladen und Veröffentlichen von Assets in Dynamic Media Classic.
+seo-description: Einführung in das Hochladen und Veröffentlichen von Assets in Dynamic Media Classic.
 uuid: 01a9c2d7-16bf-4fb2-9001-cb07a6233692
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
