@@ -18,9 +18,9 @@ ht-degree: 84%
 ---
 
 
-# Quick Start: Media Portal{#quick-start-media-portal}
+# Quick Beginn: Media Portal{#quick-start-media-portal}
 
-Mit Media Portal können Firmen ganz einfach kreative Assets erwerben, steuern und an externe Partner und Kanal sowie interne Geschäftsbenutzer verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern mit von Administratoren gesteuerten &quot;Ansichten&quot;einfachen Zugriff auf Dynamic Media Classic-Assets, Durchsuchen, Suchen, Vorschauen und Exportieren von Assets in vom Unternehmen genehmigten Formaten.
+Mit Media Portal können Firmen ganz einfach kreative Assets erwerben, steuern und an externe Partner und Kanal sowie interne Geschäftsbenutzer verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern mit von Administratoren gesteuerten &quot;Ansichten&quot;einfachen Zugriff auf Dynamic Media Classic-Assets, einfaches Durchsuchen, Suchen, Suchen, Vorschauen und Exportieren von Assets in vom Unternehmen genehmigten Formaten.
 
 Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Außerdem können Sie die Oberfläche von Media Portal an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe und Schriftgröße festlegen sowie markenspezifische Elemente, wie z. B. Logos, in die Oberfläche von Media Portal integrieren.
 
