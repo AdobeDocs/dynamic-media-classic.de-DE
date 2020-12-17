@@ -27,8 +27,8 @@ Führen Sie zum Erstellen einer Rotationsset-Viewer-Vorgabe die folgenden Schrit
 1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
-   * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+   * Um eine neue Vorgabe zu erstellen, klicken Sie auf **Hinzufügen** und wählen Sie dann im Dialogfeld &quot;Hinzufügen Viewer-Vorgabe&quot;eine Plattform aus und klicken Sie auf **Rotationsset-Viewer**.
+   * Um eine vorhandene Rotationsset-Viewer-Vorgabe zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie auf **Bearbeiten**.
 
    Der Anzeigebereich „Viewer konfigurieren“ wird geöffnet.
 
