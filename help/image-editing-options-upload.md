@@ -35,17 +35,23 @@ Diese Optionen finden Sie im Anzeigebereich „Hochladen“ unter „Bildbearbei
 
 Um automatisch weiße Pixelflächen von einem Bild abzuschneiden, wählen Sie im Menü „Beschneiden“ die Option „Beschneiden“. Anschließend können Sie folgende Optionen wählen:
 
-* **Entfernen basierend auf** Auswahl, ob basierend auf Farbe oder Transparenz beschnitten werden soll:
+* **Entfernen basierend**
+auf Beschneiden Wählen Sie, ob basierend auf Farbe oder Transparenz beschnitten werden soll:
 
-* **Farbe**: Wählen Sie die Option Farbe. Wählen Sie anschließend in der Dropdown-Liste „Ecke“ die Bildecke mit der Farbe aus, die der Farbe der weißen Flächen, die Sie beschneiden möchten, am besten entspricht.
+* ****
+ColorWählen Sie die Option &quot;Farbe&quot;. Wählen Sie anschließend in der Dropdown-Liste „Ecke“ die Bildecke mit der Farbe aus, die der Farbe der weißen Flächen, die Sie beschneiden möchten, am besten entspricht.
 
-* **Transparenz** Wählen Sie die Option &quot;Transparenz&quot;.
+* **Transparenz**
+Wählen Sie die Option &quot;Transparenz&quot;.
 
-* **Toleranz** Ziehen Sie den Schieberegler, um eine Toleranz zwischen 0 und 1 festzulegen:
+* **Toleranz**
+Ziehen Sie den Schieberegler, um eine Toleranz zwischen 0 und 1 festzulegen:
 
-* **Beschneiden basierend auf Farbe** Geben Sie 0 an, um Pixel nur zu beschneiden, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+* **Beschneiden basierend auf**
+FarbeGeben Sie 0 an, um Pixel nur zu beschneiden, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-* **Beschneiden basierend auf Transparenz** Geben Sie 0 an, damit Pixel nur abgeschnitten werden, wenn sie vollkommen transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenz zu.
+* **Beschneiden basierend auf**
+TransparenzGeben Sie 0 an, um Pixel nur abzuschneiden, wenn sie vollkommen transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenz zu.
 
 **Manuelles Beschneiden eines Bilds an den Kanten**
 
@@ -55,11 +61,14 @@ Um ein Bild manuell an den Kanten zu beschneiden, wählen Sie im Menü „Beschn
 
 Wählen Sie unter „Farbprofil“ eine der folgenden Optionen, um einen Farbraum für das Bild festzulegen:
 
-* **In sRGB** konvertieren Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
+* **In**
+sRGBConverts in sRGB konvertieren (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
 
-* **Der ursprüngliche Farbraum** bleibt erhalten.
+* **&quot;Ursprünglicher Farbraum beibehalten&quot;**
+Behält den ursprünglichen Farbraum bei.
 
-* **Benutzerdefiniert von > In**&#x200B;öffnet die Menüs, damit Sie einen Farbraum für &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen Photoshop-Standardfarbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben.
+* **Benutzerdefiniert von >**
+Zu öffnet Menüs, damit Sie einen Farbraum &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen Photoshop-Standardfarbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben.
 
 Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
@@ -77,14 +86,14 @@ Wählen Sie unter „Unschärfemaske &quot; die gewünschten Optionen aus. Die z
 
 | Optionen für „Unschärfemaske“ | Beschreibung |
 |--- |--- |
-| Betrag | Gibt den Kontrastgrad an, der auf die Pixel an den Rändern angewendet wird. <br><br>Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Der Hauptunterschied zwischen den Zahlenwerten von &quot;Unscharf maskieren&quot;in &quot;Dynamic Media Classic&quot;und den Zahlenwerten in Adobe Photoshop besteht darin, dass Photoshop einen Betrag zwischen 1 % und 500 % hat. Dagegen liegt der Wertebereich in Dynamic Media Classic bei 0,0 bis 5,0. Ein Wert von 5,0 in Dynamic Media Classic entspricht ungefähr 500 % in Photoshop. ein Wert von 0,9 entspricht 90 % usw. |
+| Betrag | Gibt den Kontrastgrad an, der auf die Pixel an den Rändern angewendet wird. <br><br>Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Der Hauptunterschied zwischen den Zahlenwerten von &quot;Unscharf maskieren&quot;in Dynamic Media Classic und den Zahlenwerten in Adobe Photoshop besteht darin, dass Photoshop einen Betrag zwischen 1 % und 500 % hat. Während in Dynamic Media Classic der Wertebereich zwischen 0,0 und 5,0 liegt. Ein Wert von 5,0 in Dynamic Media Classic entspricht ungefähr 500 % in Photoshop. ein Wert von 0,9 entspricht 90 % usw. |
 | Radius | Diese Option steuert den Radius des Effekts. <br><br>Der Wertebereich ist 0-250. Der Effekt wird auf allen Pixeln in einem Bild ausgeführt und strahlt von allen Pixeln in alle Richtungen aus. Der Radius wird in Pixel angegeben. Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein 2000 x 2000-Pixelbild und ein 500 x 500-Pixelbild zu erhalten, können Sie einen Radiuswert von zwei Pixeln auf dem 2000 x 2000-Pixelbild und einen Radiuswert von einem Pixel auf dem 500 x 500-Pixelbild festlegen. Ein größerer Wert wird entsprechend für ein Bild mit mehr Pixeln verwendet.  |
 | Schwelle | Gibt den Kontrastbereich an, der beim Anwenden des Filters „Unschärfemaske“ ignoriert werden soll. Dies ist wichtig, damit kein „Bildrauschen“ entsteht, wenn Sie diesen Filter anwenden. Der Schwellenwert verwendet einen Wert von 0 bis 255, was für die Anzahl der Helligkeitsschritte in einem Graustufenbild steht. 0=schwarz, 128=50 % grau und 255=weiß. <br><br>Beispiel: Ein Schwellenwert von 12 ignoriert leichte Variationen der Hauttonhelligkeit, um kein Rauschen hinzuzufügen, fügt aber trotzdem einen Kantenkontrast zu kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) hinzu. <br><br>Wenn Sie beispielsweise ein Foto mit einem Gesicht einer Person haben, wirkt sich die „Unschärfemaske“ auf die Teile des Bildes mit dem höchsten Kontrast (z. B. wo die Wimpern auf die Haut treffen), und auf die glatte Haut aus, um einen wünschenswerten Kontrastbereich zu schaffen. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln. Dies wiederum erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert)<br><br>Um dieses Problem zu vermeiden, verwenden Sie einen Schwellenwert, bei dem der Filter Pixel ignoriert, die den Kontrast nicht drastisch ändern, wie z. B. glatte Haut. <br><br>Achten Sie in der weiter oben gezeigten Reißverschlussgrafik auf die Textur neben dem Reißverschluss. Hier ist Bildrauschen erkennbar, weil die Schwellenwerte zu niedrig waren, um das Bildrauschen zu unterdrücken. |
 | Monochrom | Wählen Sie diese Option, um die „Umschärfemaske“ auf die Gesamthelligkeit (Intensität) des Bildes anzuwenden.<br><br>Deaktivieren Sie diese Option, um die „Unschärfemaske“ separat für jede Farbkomponente anzuwenden. |
 
 Siehe [Scharfzeichnen von Bildern](sharpening-image.md#sharpening_an_image).
 
-See also [Sharpening images in Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+Siehe auch [Scharfzeichnen von Bildern im Scene7 Publishing System und auf dem Image-Server](/help/assets/s7_sharpening_images.pdf).
 
 **Hintergrund aussparen**
 
