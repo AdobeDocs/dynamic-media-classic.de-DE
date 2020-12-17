@@ -20,7 +20,7 @@ ht-degree: 68%
 
 # Kurzanleitung: Rotationssets{#quick-start-spin-sets}
 
-Mit einem Rotationsset wird simuliert, wie man ein reales Objekt dreht, um es von allen Seiten betrachten zu können. Rotationssets ermöglichen die Anzeige von Objekten aus einem beliebigen Blickwinkel, um seine wichtigsten visuellen Eigenschaften zu erfassen. Ein Rotationsset simuliert eine 360°-Rundumansicht des Objekts. Dynamic Media Classic-Angebote: eindimensionale Rotationssets, in denen Betrachter ein Element drehen können, und zweidimensionale Rotationssets, in denen die Betrachter das Objekt drehen und drehen können. Darüber hinaus können Benutzer mit wenigen Mausklicks jede beliebige Ansicht &quot;frei&quot;zoomen und schwenken. Auf diese Weise können Benutzer ein Objekt näher und aus einer bestimmten Perspektive betrachten.
+Mit einem Rotationsset wird simuliert, wie man ein reales Objekt dreht, um es von allen Seiten betrachten zu können. Rotationssets ermöglichen die Anzeige von Objekten aus einem beliebigen Blickwinkel, um seine wichtigsten visuellen Eigenschaften zu erfassen. Ein Rotationsset simuliert eine 360°-Rundumansicht des Objekts. Dynamic Media Classic-Angebote: eindimensionale Rotationssets, in denen Betrachter ein Element drehen können, und zweidimensionale Rotationssets, in denen die Betrachter das Element drehen und drehen können. Darüber hinaus können Benutzer mit wenigen Mausklicks jede beliebige Ansicht &quot;frei&quot;zoomen und schwenken. Auf diese Weise können Benutzer ein Objekt näher und aus einer bestimmten Perspektive betrachten.
 
 ![Bilder für ein Rotationsset.](/help/assets/spin_set.png)
 
@@ -36,7 +36,7 @@ Dieser Beginn &quot;Rotationsset-Schnellstart&quot;hilft Ihnen, sich schnell mit
 
 Sie benötigen mindestens 8 bis 12 Aufnahmen eines Objekts für ein eindimensionales Rotationsset und 16 bis 24 Aufnahmen für ein zweidimensionales Rotationsset. Die Aufnahmen müssen in regelmäßigen Abständen gemacht werden, um den Eindruck von Rotation und Spiegelung zu erwecken. Wenn Sie beispielsweise ein eindimensionales Rotationsset aus 12 Aufnahmen zusammenstellen, muss das Objekt jeweils um 30° (360 geteilt durch 12) gedreht werden.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche &quot;Hochladen&quot;, um Rotationsbilder von Ihrem Computer oder Netzwerk in Dynamic Media Classic hochzuladen.
+Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche &quot;Hochladen&quot;, um Rotationsbilder von Ihrem Computer oder Netzwerk nach Dynamic Media Classic hochzuladen.
 
 Siehe [Richtlinien für das Aufnehmen von Rotationsset-Bildern](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
@@ -88,9 +88,9 @@ Siehe [Anzeigen einer Vorschau für ein Rotationsset](previewing-spin-set.md#pre
 
 **6. Veröffentlichen eines Rotationssets**
 
-Beim Veröffentlichen eines Rotationssets wird es auf Dynamic Media Classic-Servern gespeichert, damit es dynamisch an Ihre Website oder Anwendung übertragen werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, mit der das Rotationsset von den Image-Servern für Dynamic Media zu Ihrer Website oder Anwendung aufgerufen wird.
+Beim Veröffentlichen eines Rotationssets wird es auf Dynamic Media Classic-Servern gespeichert, damit es dynamisch an Ihre Website oder Anwendung übertragen werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, mit der das Rotationsset von den Dynamic Media-Image-Servern für Ihre Website oder Anwendung aufgerufen wird.
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. Click **Publish** on the Global Navigation bar to initiate a publish. On the Publish screen, click **Start Publish**.
+Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie im Durchsuchenbedienfeld auf das Symbol **Zur Veröffentlichung markieren** neben dem Namen des Rotationssets klicken. Klicken Sie in der Symbolleiste für globale Navigation auf **Veröffentlichen**, um eine Veröffentlichung zu starten. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Beginn Publish**.
 
 Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a-spin-set).
 
@@ -98,6 +98,6 @@ Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a
 
 Dynamic Media Classic erstellt URL-Zeichenfolgen zum Aufrufen von Rotationssets und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 
-Wählen Sie das Rotationsset aus und klicken Sie auf **Vorschau**. Der Anzeigebereich „Vorschau“ wird geöffnet. Wählen Sie eine Rotationsset-Viewer-Vorgabe aus. Klicken Sie dann auf URL **kopieren**.
+Wählen Sie das Rotationsset aus und klicken Sie dann auf **Vorschau**. Der Anzeigebereich „Vorschau“ wird geöffnet. Wählen Sie eine Rotationsset-Viewer-Vorgabe aus. Klicken Sie dann auf **URL kopieren**.
 
 Siehe [Verknüpfen eines Rotationssets mit einer Website](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
