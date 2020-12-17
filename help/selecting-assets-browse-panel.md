@@ -18,14 +18,18 @@ ht-degree: 30%
 ---
 
 
-# Selecting assets in the Browse panel{#selecting-assets-in-the-browse-panel}
+# Auswählen von Assets im Durchsuchenbedienfeld{#selecting-assets-in-the-browse-panel}
 
 Im Durchsuchenbedienfeld können Sie ein Asset zum Verarbeiten auswählen. Sie haben zum Auswählen von Assets die folgenden Möglichkeiten:
 
-* **Ein einzelnes Asset** durch Klicken auf das Asset (durch Klicken auf die Dublette wird das Asset in der Ansicht &quot;Details&quot;geöffnet).
+* **Ein einzelnes**
+AssetKlicken Sie auf das Asset (durch Klicken auf die Dublette wird das Asset in der Ansicht &quot;Details&quot;geöffnet).
 
-* **Mehrere Assets** mit gedrückter Strg- (Windows) bzw. Befehlstaste (Macintosh) markieren, um Assets an verschiedenen Stellen im Durchsuchenbedienfeld auszuwählen. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
+* **Mehrere**
+Assets mit gedrückter Strg-Taste (Windows) bzw. Befehlstaste (Macintosh) auswählen, um Assets an verschiedenen Stellen im Durchsuchenbedienfeld auszuwählen. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
 
-* **Alle Assets im Durchsuchenbedienfeld** Klicken Sie auf Auswählen > Alle.
+* **Alle Assets im Durchsuchenbedienfeld**
+Klicken Sie auf Auswählen > Alle.
 
-* **Keine Assets** auf Auswählen > Keine.
+* **Keine**
+AssetsKlicken Sie auf Auswählen > Keine.
