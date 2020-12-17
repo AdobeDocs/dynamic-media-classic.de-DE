@@ -48,11 +48,11 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Viewer aufweist, wie er aussieht und wie seine Wiedergabe-Steuerelemente funktionieren, hängt von der Viewer-Vorgabe ab, die Sie für die Videowiedergabe auswählen. Sie wählen eine Viewer-Vorgabe im Anzeigebereich „Vorschau“ aus. Nach der Auswahl der Vorgabe können Sie die URL oder den Einbettungscode beziehen, um das Video mit der ausgewählten Viewer-Vorgabe wiederzugeben.
 
-Im Lieferumfang von Dynamic Media Classic sind viele vordefinierte Viewer-Vorgaben für die Wiedergabe von Videos enthalten. Als Administrator können Sie benutzerdefinierte Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
+Im Lieferumfang von Dynamic Media Classic sind viele vordefinierte Viewer-Vorgaben für die Videowiedergabe enthalten. Als Administrator können Sie auch benutzerdefinierte Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
 
 Siehe auch [Anzeigen einer Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-### Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe {#adding-or-editing-a-video-viewer-preset}
+### Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe  {#adding-or-editing-a-video-viewer-preset}
 
 Unter „Viewer-Vorgaben“ werden die verschiedenen Viewer-Typen und ihre Voreinstellungen angezeigt. Sie können auch eigene benutzerdefinierte Viewer-Vorgaben hinzufügen und bearbeiten oder vorhandene Viewer-Vorgaben bearbeiten, die mit Dynamic Media Classic geliefert werden.
 
@@ -62,7 +62,7 @@ Siehe [Viewer-Vorgaben](application-setup.md#viewer_presets).
 
 **So fügen Sie eine Video-Viewer-Vorgabe hinzu oder bearbeiten sie**
 
-1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
+1. Klicken Sie in der rechten oberen Ecke von Dynamic Media Classic auf **Setup** > **Viewer-Vorgaben**.
 
    Um nur die Vorgaben für Video-Viewer anzuzeigen, wählen Sie den Video-Viewer in der Dropdown-Liste „Viewer“ auf der Symbolleiste direkt über der Tabelle aus.
 
@@ -72,11 +72,11 @@ Siehe [Viewer-Vorgaben](application-setup.md#viewer_presets).
 
    Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Hinzufügen auf Grundlage einer vorhandenen Viewer-Vorgabe** Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie dann in der Symbolleiste auf &quot;Bearbeiten&quot;.
+   **Hinzufügen auf Grundlage einer vorhandenen Viewer-** Vorgabe Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie dann in der Symbolleiste auf Bearbeiten.
 
    Klicken Sie nach der Neukonfiguration des Video-Viewers auf **Speichern unter**, um die Vorgabe unter einem anderen Namen im Textfeld „Vorgabename“ zu speichern.
 
-   **Bearbeiten** Wählen Sie eine Video-Viewer-Vorgabe aus und klicken Sie auf &quot;Bearbeiten&quot;.
+   **** BearbeitenWählen Sie eine Video-Viewer-Vorgabe aus und klicken Sie auf &quot;Bearbeiten&quot;.
 
 1. Geben Sie im Anzeigebereich „Viewer konfigurieren“ im Feld „Vorgabename“ den Namen der Vorgabe ein oder bearbeiten Sie den bereits vorhandenen Namen im Feld.
 1. Legen Sie die weiteren gewünschten Optionen fest.
