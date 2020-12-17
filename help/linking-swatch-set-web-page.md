@@ -45,11 +45,11 @@ Nach der Veröffentlichung eines Mustersets können Sie dessen URL oder Einbettu
 
       Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**URL kopieren**“.
 
-## Hinzufügen von Musterset-URLs zur Website {#adding-swatch-set-urls-to-your-web-page}
+## Hinzufügen von Musterset-URLs zur Website  {#adding-swatch-set-urls-to-your-web-page}
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines Mustersets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers im Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)für Adoben.
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
 ## Kopieren von Einbettungscode des Musterset-Viewers {#copying-the-embed-code-of-a-swatch-set-viewer}
 
