@@ -24,23 +24,23 @@ Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Por
 
 Um die Stileinstellungen aufzurufen, wählen Sie **„Einstellungen“**“ > **„Media Portal-Einrichtung“** > **„Stil-Einstellungen“**. Klicken Sie auf **„Speichern“**, um vorgenommene Einstellungen zu speichern. Sie können auf **„Wiederherstellen “** klicken, um wieder zu den Standardeinstellungen zurückzukehren. Im Bereich „Vorschau“ sehen Sie, wie sich jede vorgenommene Änderung auswirkt.
 
-**Logo** Klicken Sie auf &quot;Durchsuchen&quot;und wählen Sie im Fenster &quot;Logo-Bild auswählen&quot;eine Grafik aus.
+**** LogoKlicken Sie auf &quot;Durchsuchen&quot;und wählen Sie im Fenster &quot;Logo-Bild auswählen&quot;eine Grafik aus.
 
-**Anwendung** Erstellen Sie eine Verlaufsfarbenmischung, indem Sie im Menü &quot;Hintergrundverlaufsfarben&quot;eine Auswahl treffen.
+**** AnwendungErstellen Sie eine Verlaufsfarbenmischung, indem Sie im Menü &quot;Hintergrundverlaufsfarben&quot;eine Auswahl treffen.
 
-**Baum** Wählen Sie eine Rollover-Farbe (die beim Bewegen des Mauszeigers über ein Element angezeigt wird) und eine Auswahlfarbe (die bei Auswahl eines Elements angezeigt wird).
+**** TreeWählen Sie eine Rollover-Farbe (die beim Bewegen des Mauszeigers über ein Element angezeigt wird) und eine Auswahlfarbe (die bei Auswahl eines Elements angezeigt wird).
 
-**Akkordeon** Wählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und Auswahlfarben für das Akkordeon aus, das rechts im Bildschirm in der Ansicht &quot;Details&quot;angezeigt wird.
+**** AccordionWählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und Auswahlfarben für das Akkordeon aus, das rechts im Bildschirm in der Ansicht &quot;Details&quot;angezeigt wird.
 
-**Akkordeon-Kopfzeile** Wählen Sie aus, ob Text in der Akkordeon-Kopfzeile formatiert werden soll.
+**Akkordeon-** KopfzeileWählen Sie aus, ob Text in der Akkordeon-Kopfzeile formatiert werden soll.
 
-**DataGrid** Wählen Sie die Farben für die Kopfzeile in den Datenrasten.
+**** DatagridWählen Sie Farben für die Kopfzeile in Datenrasten.
 
 **Warnung** Wählen Sie eine Hintergrundfarbe für Warnmeldungen.
 
 **Fortschrittsleiste** Wählen Sie eine Farbe für die Leiste, die den Fortschritt von Uploads und Downloads anzeigt.
 
-For Media Portal users to see the style settings you choose, they must append `?company=(company name)` to the URL with which they access Media Portal. Um die Stileinstellungen anzuzeigen, müssten Media Portal-Benutzer, die auf das Unternehmen PortalCo unter:
+Damit Media Portal-Benutzer die von Ihnen gewählten Stileinstellungen sehen können, müssen sie `?company=(company name)` an die URL anhängen, mit der sie auf Media Portal zugreifen. Um die Stileinstellungen anzuzeigen, müssten Media Portal-Benutzer, die auf das Unternehmen PortalCo unter:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
