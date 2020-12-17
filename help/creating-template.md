@@ -26,7 +26,7 @@ Um eine Vorlage zu erstellen, klicken Sie auf „Erstellen > Vorlagen aus Grunde
 >
 >Wenn Sie eine Vorlage bearbeiten, die in einer früheren Version von Dynamic Media Classic erstellt wurde, erhalten Sie beim Speichern die Aufforderung &quot;Möchten Sie eine Arbeitsflächenebene hinzufügen?&quot; Wählen Sie „Nein“, um zu verhindern, dass eine neue Grundebene erstellt wird. Falls Sie versehentlich „Ja“ wählen, löschen Sie die Modifikatoren “&amp;allowCanvasPrompt” und “&amp;layer=0” in der URL und drücken Sie die Eingabetaste bzw. den Zeilenschalter.
 
-## Erstellen der Ausgangsvorlage {#creating-the-initial-template}
+## Erstellen der Ausgangsvorlage  {#creating-the-initial-template}
 
 Wenn Sie einen Vorlagensatz erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -43,9 +43,9 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die vo
 
 1. Verwenden Sie zum Erstellen der Vorlage eine der folgenden Methoden:
 
-   **Wählen Sie zuerst** im Durchsuchenbedienfeld die PSD-Datei oder die Bilder aus, die Sie für die Vorlage verwenden möchten, und klicken Sie auf Erstellen > Vorlagen aus Grundelementen.
+   **Wählen Sie** zuerst die PSD-Datei oder die Bilder aus. Wählen Sie im Durchsuchenbedienfeld die PSD-Datei bzw. die Bilder aus, die Sie für die Vorlage verwenden möchten, und klicken Sie auf Erstellen > Vorlagen aus Grundelementen.
 
-   **Klicken Sie im Anzeigebereich** &quot;Vorlage&quot;auf &quot;Erstellen&quot;> &quot;Vorlagen aus Grundelementen&quot;. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. 
+   **Beginn im** Anzeigebereich &quot;Vorlage&quot;Klicken Sie auf Erstellen > Vorlagen aus Grundelementen. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. 
 
 1. Geben Sie im Dialogfeld „Größe der Arbeitsfläche eingeben“ Werte für die Breite und Höhe der Vorlage ein.
 1. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die PSD-Datei bzw. die Bilder, die Sie für die Vorlage verwenden möchten, in den Anzeigebereich „Vorlage“.
@@ -53,7 +53,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die vo
 1. Klicken Sie auf **Speichern**.
 1. Wählen Sie einen Ordner zum Speichern der Vorlage aus, geben Sie einen Namen für die Vorlage ein und klicken Sie auf **Absenden**.
 
-   Bei Bedarf schrumpft Dynamic Media Classic die Bilder auf die Arbeitsfläche, d. h. auf den Bereich im Anzeigebereich &quot;Vorlage&quot;zum Definieren der Vorlage.
+   Dynamic Media Classic schrumpft bei Bedarf die Bilder, um sie auf die Arbeitsfläche zu passen, die sich im Anzeigebereich &quot;Vorlage&quot;befindet, um die Vorlage zu definieren.
 
 ## Bearbeiten eines Vorlagensatzes {#editing-a-template-set}
 
@@ -75,7 +75,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
 
-## Löschen einer Vorlage {#deleting-a-template}
+## Löschen einer Vorlage  {#deleting-a-template}
 
 Wenn Sie einen Vorlagensatz löschen, wird der Satz in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
@@ -92,25 +92,25 @@ Der Anzeigebereich „Vorlage“ enthält Werkzeuge zum Bearbeiten und Parametri
 
 Zum Erstellen von Vorlagen stehen Ihnen im Anzeigebereich „Vorlage“ die folgenden Werkzeuge zur Verfügung:
 
-**Mit dem Schwenken-Werkzeug** können Sie Ebenen auswählen, sie um die Arbeitsfläche verschieben, ihre Größe ändern oder sie drehen.
+**Schwenken-** WerkzeugErmöglicht Ihnen das Auswählen von Ebenen, das Verschieben von Ebenen um die Arbeitsfläche, die Größenanpassung oder das Drehen der Ebenen.
 
 **Textwerkzeug** Erstellt eine Textebene. Ziehen Sie das Werkzeug auf die Arbeitsfläche, um eine Textebene zu erstellen, und geben Sie dann den gewünschten Text in der Ebene ein. Siehe Erstellen einer Textebene.
 
-**Schaltfläche** &quot;Vorschau&quot;Öffnet den Anzeigebereich &quot;Vorschau&quot;und zeigt die Vorlage in einem Zoom-Viewer an. Sie sehen dann, wie die Vorlage auf der Website bzw. in der Anwendung aussehen wird.
+**Schaltfläche &quot;Vorschau&quot;** Öffnet den Anzeigebereich &quot;Vorschau&quot;und zeigt die Vorlage in einem Zoom-Viewer an. Sie sehen dann, wie die Vorlage auf der Website bzw. in der Anwendung aussehen wird.
 
-**Schaltfläche** &quot;Parameterzusammenfassung&quot;öffnet den Anzeigebereich &quot;Parameterzusammenfassung&quot;. Darin werden die Namen aller Ebenen in der Vorlage sowie für jede Ebene die Namen der aktivierten Parameter angezeigt.
+**Schaltfläche &quot;Parameterzusammenfassung&quot;** Öffnet den Anzeigebereich &quot;Parameterzusammenfassung&quot;. Darin werden die Namen aller Ebenen in der Vorlage sowie für jede Ebene die Namen der aktivierten Parameter angezeigt.
 
 **Texteditor Version 4.3 und Texteditor Version 4.2** Sie können den neuesten und am häufigsten verwendeten Texteditor, Texteditor Version 4.3 oder den vorherigen Texteditor, Texteditor Version 4.2, verwenden. Beim Erstellen neuer Vorlagen ist Texteditor Version 4.3 standardmäßig ausgewählt. Beim Bearbeiten älterer Vorlagen ist Texteditor Version 4.2 standardmäßig ausgewählt. Texteditor Version 4.3 unterstützt derzeit keine Umbrüche. Verwenden Sie daher Texteditor Version 4.2, wenn Sie ältere Vorlagen bearbeiten, die Umbrüche verwenden, um die Funktionsfähigkeit der Vorlage beizubehalten. Wenn Ihre älteren Vorlagen keine Umbrüche verwenden, können Sie Texteditor Version 4.3 verwenden, um von den zahlreichen neuen Funktionen zu profitieren, z. B. „Ränder vergrößern“, „Ränder verkleinern“, „Text in Großbuchstaben formatieren“ und „Text einpassen“.
 
-***Hinweis **: Text Editor Version 4.2 wird als Option in Dynamic Media Classic entfernt. Daher wird empfohlen, nach Möglichkeit Text Editor 4.3 zu verwenden. Die Option „Wortumbruch“ wird in einer späteren Version von Texteditor enthalten sein.*
+***Hinweis **: In Dynamic Media Classic wird möglicherweise Texteditor Version 4.2 entfernt. Daher wird empfohlen, nach Möglichkeit Texteditor Version 4.3 zu verwenden. Die Option „Wortumbruch“ wird in einer späteren Version von Texteditor enthalten sein.*
 
-**Designer und Entwickler** Wählen Sie die Option, die Ihre Rolle am besten beschreibt.
+**Designer und** EntwicklerWählen Sie die Option, die Ihre Rolle am besten beschreibt.
 
-**Arbeitsfläche** Definiert den gesamten verfügbaren Bereich zum Definieren der Vorlage in Pixel. Die Standardgröße beträgt 300 x 300 Pixel. Ebenen werden auf der Arbeitsfläche platziert.
+**** ArbeitsflächeDefiniert den gesamten verfügbaren Bereich zum Definieren der Vorlage in Pixel. Die Standardgröße beträgt 300 x 300 Pixel. Ebenen werden auf der Arbeitsfläche platziert.
 
-**Bei der Liste** &quot;Ebenen&quot;wird der Name der Ebenen in der Vorlage Liste. Um eine Ebene auszuwählen, markieren Sie deren Namen in der Liste „Ebenen“. Die Liste „Ebenen“ enthält Werkzeuge, mit denen Ebenen mit Effekten versehen, gelöscht, umsortiert und parametrisiert werden können. Siehe Arbeiten mit Ebenen.
+**Ebenenliste** Listet die Namen der Ebenen in der Vorlage auf. Um eine Ebene auszuwählen, markieren Sie deren Namen in der Liste „Ebenen“. Die Liste „Ebenen“ enthält Werkzeuge, mit denen Ebenen mit Effekten versehen, gelöscht, umsortiert und parametrisiert werden können. Siehe Arbeiten mit Ebenen.
 
-**Mit den Werkzeugen für die Bereichseigenschaften** können Sie die Hintergrundfarbe, Deckkraft, Größe und Position einer Ebene sowie die Hintergrundfarbe, Deckkraft und Größe der Arbeitsfläche ändern. Außerdem können Sie hier die Schatten- und Schein-Effekte anpassen. Siehe Arbeiten mit Ebenen.
+**Bereich &quot;Ebeneneigenschaften&quot;** bietet Werkzeuge zum Ändern der Hintergrundfarbe, Deckkraft, Größe und Position einer Ebene sowie der Hintergrundfarbe, Deckkraft und Größe der Arbeitsfläche. Außerdem können Sie hier die Schatten- und Schein-Effekte anpassen. Siehe Arbeiten mit Ebenen.
 
 ## Erstellen von Bildebenen {#creating-image-layers}
 
@@ -133,7 +133,7 @@ Zum Erstellen von Vorlagen stehen Ihnen im Anzeigebereich „Vorlage“ die folg
 
 1. Klicken Sie auf „Übernehmen“ und schließen Sie das Textfeld.
 
-### Formatieren von Text {#format-text}
+### Formatieren von Text  {#format-text}
 
 Um Text in einer Textebene zu formatieren, führen Sie die folgenden Schritte aus:
 
@@ -141,53 +141,53 @@ Um Text in einer Textebene zu formatieren, führen Sie die folgenden Schritte au
 1. Wählen Sie im Textfeld den zu formatierenden Text aus. Sie können den gesamten Text, Teile davon oder auch nur einzelne Zeichen auswählen.
 1. Geben Sie die gewünschten Formatierungsoptionen an und klicken Sie auf „Übernehmen“.
 
-   **Schrift** Wählen Sie im Menü &quot;Schrift&quot;eine Schrift aus. Wenn eine gewünschte Schriftart nicht im Menü angezeigt wird, können Sie sie in den dynamischen Medienklassiker hochladen. Siehe Schriftarten.
+   **Wählen Sie im Menü &quot;Schrift&quot;eine** Schrift aus. Wenn eine gewünschte Schriftart nicht im Menü angezeigt wird, können Sie sie in Dynamic Media Classic hochladen. Siehe Schriftarten.
 
    **Schriftgröße** Wählen Sie eine Schriftgröße aus dem Menü aus, geben Sie eine bestimmte Größe in das Feld ein oder klicken Sie auf die Nach-oben- oder Nach-unten-Pfeile, um die Größe um zwei Punkte zu erhöhen oder zu verringern.
 
-   **Farbe** Klicken Sie auf , um eine Farbe für den Text auszuwählen.
+   **** ColorClick wählt eine Farbe für Text.
 
-   **Fett, Kursiv oder Unterstrichen** Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
+   **Fett, Kursiv oder** UnterstreichenWählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
 
-   **&quot;Großbuchstaben&quot;, &quot;Hochgestellt&quot;oder &quot;Tiefgestellt** &quot;Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
+   **&quot;Großbuchstaben&quot;, &quot;Hochgestellt&quot;oder &quot;** Tiefgestellt&quot;Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
 
    **Ausrichtung** Wählen Sie eine Ausrichtungsschaltfläche aus, um Text in der Textebene linksbündig, zentriert oder rechtsbündig auszurichten.
 
-   **Tracking** Type oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen Wörtern angepasst werden soll.
+   **** TrackingType oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen Wörtern angepasst werden soll.
 
-   **Kerning** Type oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen Zeichen angepasst werden soll.
+   **** KerningType oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen Zeichen angepasst werden soll.
 
-   **Zeilenabstand** oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen den Zeilen angepasst werden soll.
+   **Line** SpacingType oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen den Zeilen angepasst werden soll.
 
-   **&quot;Grundlinienversatz** &quot;oder wählen Sie einen numerischen Wert aus, um den ein ausgewähltes Zeichen relativ zur Grundlinie des umgebenden Textes nach oben oder unten verschoben werden soll. Diese Option ist insbesondere hilfreich, wenn Sie Brüche von Hand eingeben oder die Position von eingebundenen Grafiken anpassen.
+   **Baseline** ShiftType oder wählen Sie einen numerischen Wert aus, um den ein ausgewähltes Zeichen relativ zur Grundlinie des umgebenden Textes nach oben oder unten verschoben werden soll. Diese Option ist insbesondere hilfreich, wenn Sie Brüche von Hand eingeben oder die Position von eingebundenen Grafiken anpassen.
 
 >[!NOTE]
 >
 >Klicken Sie auf „Rückgängig“, um die letzte Aktion rückgängig zu machen. Klicken Sie auf „Wiederholen“, wenn Sie es sich nach dem Klicken auf „Rückgängig“ zum Zurücknehmen einer Aktion anders überlegen.
 
-### Formatieren von Absätzen {#format-paragraphs}
+### Formatieren von Absätzen  {#format-paragraphs}
 
 1. Doppelklicken Sie in der Liste „Ebenen“ auf den Namen des Textfelds, dessen Inhalt Sie bearbeiten möchten. Der Texteditor wird geöffnet.
 1. Wählen Sie den Absatz, den Sie formatieren möchten.
 1. Geben Sie die gewünschten Formatierungsoptionen an und klicken Sie auf „Übernehmen“.
 
-   **Ausrichtung** Klicken Sie auf , um den Ausrichtungstyp anzugeben: ausrichten, zentrieren, rechts ausrichten oder ausrichten.
+   **** AlignmentKlicken Sie, um den Ausrichtungstyp anzugeben: ausrichten, zentrieren, rechts ausrichten oder ausrichten.
 
-   **Absatzende Ausrichtung** Klicken Sie auf , um die Art der Ausrichtung für die letzte Zeile im Absatz festzulegen: letzte Zeile links ausrichten; letzte Zeile zentriert; und die letzte Zeile rechts ausgerichtet wird.
+   **Absatzende** AusrichtungKlicken Sie auf , um die Art der Ausrichtung für die letzte Zeile im Absatz festzulegen: letzte Zeile links ausrichten; letzte Zeile zentriert; und die letzte Zeile rechts ausgerichtet wird.
 
-   **Zeilenabstand** -Typ oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen allen Zeilen im Absatz angepasst werden soll.
+   **Zeilenabstand** oder wählen Sie einen numerischen Wert aus, um den der Abstand zwischen allen Zeilen im Absatz angepasst werden soll.
 
-   **Alle** einrücken Klicken Sie auf , um den Einzug des Textes zu erhöhen.
+   **Einzug** AlleKlicken, um den Einzug des Textes zu erhöhen.
 
-   **Einzug** entfernen Klicken Sie, um den Einzug des Textes zu verringern.
+   **Entfernen Sie** IndentClick, um den Einzug des Textes zu verringern.
 
-   **Einzug Erste Zeile** Geben Sie den Einzug für die erste Textzeile an.
+   **Einzug erste** ZeileGeben Sie den Einzug für die erste Textzeile an.
 
-   **Abstand vor Absatz** Geben Sie den Abstand an, der über der ersten Textzeile im Absatz angezeigt werden soll.
+   **Abstand vor** AbsatzGeben Sie den Abstand an, der über der ersten Textzeile im Absatz angezeigt werden soll.
 
-   **Abstand nach Absatz** Geben Sie den Abstand an, der unter der letzten Textzeile im Absatz angezeigt werden soll.
+   **Abstand nach** AbsatzGeben Sie den Abstand an, der unter der letzten Textzeile im Absatz angezeigt werden soll.
 
-   **Vertikale Ausrichtung** Wählen Sie aus, wo der Text vertikal im Textfeld angezeigt werden soll: Oben, Mitte, unten.
+   **Vertikale** AusrichtungWählen Sie aus, wo der Text vertikal im Textfeld angezeigt werden soll: Oben, Mitte, unten.
 
    **Textrichtung** Wählen Sie die Richtung aus, in der der Text angezeigt werden soll: von rechts nach links oder von links nach rechts.
 
@@ -200,15 +200,15 @@ Um Text in einer Textebene zu formatieren, führen Sie die folgenden Schritte au
 
    **Wortumbruch (nur Texteditor Version 4.2)** Wählen Sie eine Umbruchoption, um anzugeben, ob oder wie der Text umgebrochen wird:
 
-   **Umfasst** den Text, um ihn in ein Textfeld einzupassen, das horizontal zu klein ist.
+   **Umfasst** den Text, damit er in ein Textfeld passt, das horizontal zu klein ist.
 
-   **Kein Umbruch** Der Text wird nicht umgebrochen, wenn das Textfeld horizontal zu klein ist. Stattdessen wird ein Teil des Textes abgeschnitten.
+   **Kein** UmbruchDer Text wird nicht umgebrochen, wenn das Textfeld horizontal zu klein ist, und es wird stattdessen ein Teil des Textes abgeschnitten.
 
-   **NB Wrap** (kein Umbruch) umschließt Text, um ihn in ein Textfeld einzupassen, ohne dass Wörter umbrochen werden.
+   **NB Wrap**  (Geschützte Umbrüche) umschließt Text, damit er in ein Textfeld passt, ohne dass Wörter umbrochen werden.
 
-   **Position** Gibt die Position des Textfelds auf der Arbeitsfläche an.
+   **** PositionGibt die Position des Textfelds auf der Arbeitsfläche an.
 
-   **Durch Auffüllung** werden Ränder hinzugefügt oder das Rechteck der Ebene beschnitten. Geben Sie die Anzahl der Pixel für links, oben, unten und rechts an, die hinzugefügt bzw. entfernt werden sollen. Geben Sie positive Zahlen ein, um einen Rand hinzuzufügen, bzw. negative zum Beschneiden.
+   **Mit** PaddingFügt Ränder hinzu oder beschneidet das Rechteck der Ebene. Geben Sie die Anzahl der Pixel für links, oben, unten und rechts an, die hinzugefügt bzw. entfernt werden sollen. Geben Sie positive Zahlen ein, um einen Rand hinzuzufügen, bzw. negative zum Beschneiden.
 
 ### Anzeigen und Bearbeiten des Text-Quell-Codes {#view-and-edit-text-source-code}
 
@@ -222,13 +222,13 @@ Die im Texteditor auf der Registerkarte „Quelle“ angegebenen Informationen d
 
 1. Klicken Sie auf „Übernehmen“, um die vorgenommenen Änderungen zu rendern.
 
-## Arbeiten mit Ebenen {#working-with-layers}
+## Arbeiten mit Ebenen  {#working-with-layers}
 
 Sie können in der Liste „Ebenen“ und im Bereich „Ebeneneigenschaften“ mit Ebenen arbeiten. Sie können die Anordnung von Ebenen sowie ihre Größe und Position ändern, Ebenen drehen und Hintergrund- und Vordergrundfarbe, Deckkraft und Übergangsmodus einer Ebene festlegen.
 
 Sie können außerdem die Größe der Arbeitsfläche ändern sowie deren Hintergrundfarbe und Deckkraft festlegen.
 
-### Neuanordnen von Ebenen {#reordering-layers}
+### Neuanordnen von Ebenen  {#reordering-layers}
 
 Eine Änderung der Ebenenreihenfolge kann sich auf ihr Aussehen auswirken, insbesondere wenn Transparenz oder Überdrucken involviert sind. Zeigen Sie unbedingt eine Vorschau der Ergebnisse an, bevor Sie die Änderungen festschreiben.
 
@@ -237,21 +237,21 @@ Eine Änderung der Ebenenreihenfolge kann sich auf ihr Aussehen auswirken, insbe
    * Markieren Sie eine Ebene in der Liste „Ebenen“. Klicken Sie dann entsprechend oft auf die Nach-oben- bzw. Nach-unten-Schaltfläche, um die Ebene an die richtige Position in der Liste zu verschieben.
    * Ziehen Sie eine Ebene in der Liste „Ebenen“ nach oben oder unten.
 
-### Ändern der Größe und Position von Ebenen und der Arbeitsfläche {#changing-the-size-and-position-of-layers-and-the-canvas}
+### Ändern der Größe und Position von Ebenen und der Arbeitsfläche  {#changing-the-size-and-position-of-layers-and-the-canvas}
 
 Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie können die Größe einer Ebene oder der Arbeitsfläche manuell oder durch Eingabe der Abmessungen ändern. Sie können die Position einer Ebene manuell oder durch Eingabe der Abstandswerte ändern. Sie können eine Ebene auch drehen.
 
 >[!NOTE]
 >
->Es wird empfohlen, eine Bildvorgabe zu erstellen, deren Größe exakt der Größe der Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einstellen von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
+>Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, deren Größe exakt der Größe der Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einstellen von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
 
 **Ändern der Größe einer Ebene**
 
 Um die Größe einer Ebene oder der Arbeitsfläche zu ändern, markieren Sie die Ebene oder Arbeitsfläche in der Liste „Ebenen“ und führen Sie eines der folgenden Verfahren aus:
 
-**Manuelles Ändern der Größe** Wählen Sie eine Ecke der Ebene oder Arbeitsfläche aus und ziehen Sie sie. Bei Textebenen können Sie auch eine Kante der Ebene ziehen. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, dabei jedoch das Seitenverhältnis (die Form) beizubehalten.
+**Manuelles Ändern der** GrößeAuswählen und Ziehen einer Ecke der Ebene oder Arbeitsfläche Bei Textebenen können Sie auch eine Kante der Ebene ziehen. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, dabei jedoch das Seitenverhältnis (die Form) beizubehalten.
 
-**Eingeben von Abmessungen** der Ebenengröße Geben Sie in den Textfeldern &quot;W&quot;(Breite) und &quot;H&quot;(Höhe) im Bereich &quot;Ebeneneigenschaften&quot;Pixelmessungen ein.
+**Eingeben von** Abmessungen der EbenengrößeGeben Sie in den Textfeldern &quot;W&quot;(Breite) und &quot;H&quot;(Höhe) im Bereich &quot;Ebeneneigenschaften&quot;Pixelmessungen ein.
 
 Sie können nicht nur die Größe einer Ebene ändern, sondern auch deren Umrandung erweitern. Geben Sie dazu im Bereich „Ebeneneigenschaften“ in den Feldern „Links“, „Rechts“, „Oben“ und „Unten“ Werte für die erweiterte Umrandung ein. Durch eine erweiterte Umrandung wird der aktuellen Ebene ein Rand hinzugefügt, um den Abstand der Ebene zur Begrenzung ihrer Basisebene zu vergrößern. Eine erweiterte Umrandung ist sinnvoll, wenn Sie einen Schatten-Effekt oder den Effekt „Schein nach außen“ hinzufügen und diesen Effekt deutlicher sichtbar machen möchten. Durch eine erweiterte Umrandung nimmt die Größe der Ebene zu und ihre Hintergrundfarbe wird in dem erweiterten Bereich angezeigt. Die Position der Basisebene wird im Verhältnis zur neuen Größe der Ebene angepasst. Wenn die aktuelle Ebene beispielsweise zentriert in der Basisebene angeordnet ist, führt eine Erweiterung auf der linken Seite der Ebene dazu, dass sie in der Basisebene weiter nach rechts verschoben wird.
 
@@ -259,17 +259,17 @@ Sie können nicht nur die Größe einer Ebene ändern, sondern auch deren Umrand
 
 Um die Position einer Ebene auf der Arbeitsfläche zu ändern, markieren Sie deren Namen in der Liste „Ebenen“ und führen Sie eines der folgenden Verfahren aus:
 
-**Manuelles Ändern der Position** Bewegen Sie den Zeiger in der Nähe, jedoch nicht über einer Ebenengrenze. Wenn Sie den Mauszeiger mit vier Spitzen sehen, klicken Sie auf und ziehen Sie den Beginn.
+**Manuelles Ändern der** PositionBewegen Sie den Mauszeiger nahe an eine Ebenengrenze, jedoch nicht darüber. Wenn Sie den Mauszeiger mit vier Spitzen sehen, klicken Sie auf und ziehen Sie den Beginn.
 
-**Eingeben von Versatzwerten** für die Position Geben Sie in den Textfeldern &quot;X&quot;und &quot;Y&quot;die Versatzwerte für die X- und Y-Werte ein. Diese Werte entsprechen dem X- bzw. Y-Abstand des Ankerpunkts in Pixel.
+**Eingeben von** Versatzwerten für die PositionGeben Sie in den Textfeldern &quot;X&quot;und &quot;Y&quot;die Versatzwerte für die X- und Y-Werte ein. Diese Werte entsprechen dem X- bzw. Y-Abstand des Ankerpunkts in Pixel.
 
 **Drehen einer Ebene**
 
 Im Feld „Drehen“ sind die Winkel aufgelistet, um die die Ebene gedreht werden kann. Um eine Ebene zu drehen, wählen Sie deren Namen in der Liste „Ebenen“ aus und führen Sie eine der folgenden Vorgehensweisen aus:
 
-**Manuelles Drehen** Bewegen des Cursors nahe an einer Ecke der Ebene, jedoch nicht darüber. Wenn der Cursor für das Drehen angezeigt wird, ziehen Sie die Ecke der Ebene in die gewünschte Richtung. Halten Sie beim Ziehen die Umschalttaste gedrückt, um in Schritten von 15 Grad zu drehen.
+**Manuelles** DrehenBewegen des Cursors nahe an einer Ecke der Ebene, jedoch nicht darüber. Wenn der Cursor für das Drehen angezeigt wird, ziehen Sie die Ecke der Ebene in die gewünschte Richtung. Halten Sie beim Ziehen die Umschalttaste gedrückt, um in Schritten von 15 Grad zu drehen.
 
-**Eingeben einer Gradmessung** Geben Sie die Anzahl der Grad ein, um die die Ebene gedreht werden soll. Die Drehung erfolgt bei positiven Werten im Uhrzeigersinn und bei negativen gegen den Uhrzeigersinn.
+**Eingeben einer** GradmessungGeben Sie die Anzahl der Grad ein, um die die Ebene gedreht werden soll. Die Drehung erfolgt bei positiven Werten im Uhrzeigersinn und bei negativen gegen den Uhrzeigersinn.
 
 **Ausblenden einer Ebene oder eines Ebeneneffekts**
 
@@ -279,7 +279,7 @@ layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;effect=-1&amp;.effect=Dro
 
 layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;hide=1&amp;effect=-1&amp;.effect=Drop Shadow&amp;blendmode
 
-### Bestimmen von Hintergrundfarbe, Deckkraft und Übergangsmodus {#determining-the-background-color-opacity-and-blend-mode}
+### Bestimmen von Hintergrundfarbe, Deckkraft und Übergangsmodus  {#determining-the-background-color-opacity-and-blend-mode}
 
 Um die Hintergrundfarbe, Deckkraft und den Übergangsmodus für eine Ebene oder die Arbeitsfläche auszuwählen, markieren Sie die Ebene oder Arbeitsfläche und führen Sie eine der folgenden Vorgehensweisen aus:
 
@@ -287,17 +287,17 @@ Um die Hintergrundfarbe, Deckkraft und den Übergangsmodus für eine Ebene oder 
 
 **Hintergrundfarbe** Klicken Sie auf die Schaltfläche &quot;Hintergrundfarbe&quot;und wählen Sie ein Farbfeld aus, um die Farbe der aufgefüllten Bereiche zu ändern.
 
-**Deckkraft** Ziehen Sie den Schieberegler &quot;Deckkraft&quot;, um eine Ebene durchsichtig zu machen, sodass ein Teil des darunter liegenden Bilds durchscheint. Bei einem Wert von 100 Prozent ist die Ebene vollkommen undurchsichtig. Bei einem Wert von 0 ist sie vollkommen transparent.
+**** DeckkraftZiehen Sie den Schieberegler &quot;Deckkraft&quot;, um eine Ebene durchsichtig zu machen, sodass ein Teil des darunter liegenden Bilds durchscheint. Bei einem Wert von 100 Prozent ist die Ebene vollkommen undurchsichtig. Bei einem Wert von 0 ist sie vollkommen transparent.
 
 **Übergangsmodus** Wählen Sie eine Option, um einen der in Photoshop verfügbaren Übergangsmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“. Diese Optionen können nur auf Ebenen, nicht jedoch auf die Arbeitsfläche angewendet werden.
 
-## Verwenden von Schatten- und Schein-Effekten mit Ebenen {#using-shadow-and-glow-effects-on-layers}
+## Verwenden von Schatten- und Schein-Effekten mit Ebenen  {#using-shadow-and-glow-effects-on-layers}
 
 Sie können einen Schatten- oder Schein-Effekt auf eine Ebene anwenden. Der Schatten- oder Schein-Effekt wird auf den Umfang der Ebene angewendet und kann nach innen oder außen gerichtet sein, je nachdem, welche Schatten- oder Schein-Option Sie wählen. Wenn Ihre Vorlage aus einer PSD-Datei mit Schatten- und Schein-Effekten stammt, können Sie diese Effekte in Dynamic Media Classic anpassen.
 
 Nachdem Sie einen Schatten- oder Schein-Effekt angewendet haben, können Sie dessen Größe, Farbe, Deckkraft und Position im Bereich „Ebeneneigenschaften“ des Anzeigebereichs „Vorlage“ anpassen.
 
-### Anwenden eines Schatten- oder Schein-Effekts auf eine Ebene {#applying-a-shadow-or-glow-effect-to-a-layer}
+### Anwenden eines Schatten- oder Schein-Effekts auf eine Ebene  {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 So wenden Sie einen Schatten- oder Schein-Effekt an
 
@@ -306,11 +306,11 @@ So wenden Sie einen Schatten- oder Schein-Effekt an
 
    **Schlagschatten** Wendet einen Schatten auf den unteren und rechten Rand der Ebene an.
 
-   **&quot;Schatten nach innen&quot;** Wendet einen Schatteneffekt innerhalb aller Kanten der Ebene an.
+   **Inner** ShadowWendet einen Schatteneffekt innerhalb aller Kanten der Ebene an.
 
-   **&quot;Schein nach außen** &quot;wendet einen Schein-Effekt auf alle Kanten der Ebene an.
+   **Äußeres** ScheinWendet einen Schein-Effekt auf alle Kanten der Ebene an.
 
-   **Schein nach innen** Wendet einen Schein-Effekt innerhalb aller Kanten der Ebene an.
+   **Inner** GlowWendet einen Schein-Effekt innerhalb aller Kanten der Ebene an.
 
 Nach dem Anwenden eines Effekts wird dessen Name in der Liste „Ebene“ angezeigt. Um einen Effekt zu löschen, markieren Sie dessen Namen in der Liste „Ebenen“ und klicken Sie dann auf „Löschen“.
 
@@ -318,23 +318,23 @@ Nach dem Anwenden eines Effekts wird dessen Name in der Liste „Ebene“ angeze
 >
 >In manchen Fällen sind die Effekte „Schlagschatten“ oder „Schein nach außen“ nicht zu sehen, wenn die darunter liegende Ebene nicht groß genug ist, um die Effekte anzuzeigen. Wenn ein Schatten- oder Schein-Effekt nicht zu sehen ist, können Sie Werte für eine erweiterte Umrandung eingeben oder die Anordnung der Ebene ändern. Siehe [Ändern der Größe und Position von Ebenen und der Arbeitsfläche](creating-template.md#changing_the_size_and_position_of_layers_and_the_canvas) und [Neuanordnen von Ebenen](creating-template.md#reordering_layers).
 
-### Anpassen eines Schatten- oder Schein-Effekts {#adjusting-a-shadow-or-glow-effect}
+### Anpassen eines Schatten- oder Schein-Effekts  {#adjusting-a-shadow-or-glow-effect}
 
 Um einen Schatten- oder Schein-Effekt anzupassen, markieren Sie dessen Namen in der Liste „Ebenen“. Ändern Sie dann im Bereich „Ebeneneigenschaften“ des Anzeigebereichs „Vorlage“ die Einstellungen für den Effekt.
 
-**Farbe** Wählen Sie die Schaltfläche &quot;Farbe&quot;und wählen Sie ein Farbfeld aus, um die Farbe des Schatten- oder Schein-Effekts zu ändern. Sie können auch einen Farbwertparameter in diesem Feld eingeben.
+**** FarbeWählen Sie die Schaltfläche &quot;Farbe&quot;und wählen Sie ein Farbfeld aus, um die Farbe des Schatten- oder Schein-Effekts zu ändern. Sie können auch einen Farbwertparameter in diesem Feld eingeben.
 
-**Deckkraft** Ziehen Sie den Schieberegler, um die Intensität des Effekts festzulegen. Je geringer die Deckkraftwerte, desto transparenter die Effekte.
+**** DeckkraftZiehen Sie den Schieberegler, um die Intensität des Effekts festzulegen. Je geringer die Deckkraftwerte, desto transparenter die Effekte.
 
-**Übergangsmodus** Wählen Sie eine Option, um einen der in Photoshop verfügbaren Übergangsmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“.
+**ÜbergangsmodusWählen Sie eine** Option, um einen der in Photoshop verfügbaren Übergangsmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“.
 
-**Größe** Geben Sie im Feld &quot;X&quot;und &quot;Y&quot;Messungen ein, um den Schatteneffekt zu vergrößern oder zu verkleinern. Die Größenoptionen sind nur für die Effekte „Schatten nach innen“ und „Schlagschatten“ verfügbar.
+**** GrößeGeben Sie im Feld &quot;X&quot;und &quot;Y&quot;Messungen ein, um den Schatteneffekt zu vergrößern oder zu verkleinern. Die Größenoptionen sind nur für die Effekte „Schatten nach innen“ und „Schlagschatten“ verfügbar.
 
-**Vergrößern** Sie den Schieberegler, um den Effekt nach innen oder außen zu erweitern.
+**Ziehen Sie** den Schieberegler, um den Effekt nach innen oder außen zu erweitern.
 
-**Weichzeichnen** Ziehen Sie den Regler, um die weiche Kante an den Kanten des Effekts zu steuern. Je größer der Weichzeichnungswert, desto weicher (undeutlicher) die Kante.
+**Ziehen Sie** den Schieberegler, um die weiche Kante an den Kanten des Effekts zu steuern. Je größer der Weichzeichnungswert, desto weicher (undeutlicher) die Kante.
 
-## Maskieren von Ebenen {#masking-layers}
+## Maskieren von Ebenen  {#masking-layers}
 
 Über die Schaltfläche „Maske“ in der Liste „Ebenen“ können Sie angeben, wie die Maske oder der Alpha-Kanal einer Ebene verwendet werden soll. Mithilfe der Schaltfläche „Maske“ können Sie den Effekt einer Hintergrundebene auf eine bestimmte Ebene oder die gesamte übergeordnete Ebene in der Vorlage anwenden. Wählen Sie in der Liste „Ebenen“ eine Ebene aus und klicken Sie auf „Maske“ , um zwischen folgenden Status zu wechseln:
 
