@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -95,11 +95,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Stellen Sie Bilder oder Videos für das Angebot-Set zusammen. Beginn im Bildschirm &quot;Test&amp;Zielgruppe-Angebot-Set&quot;oder in der Ansicht &quot;Raster-Ansicht&quot;oder &quot;Liste&quot;und verwenden Sie eine der folgenden Methoden:
 
-   * **Test&amp;Zielgruppe Angebot Set**
-screenKlicken Sie auf  **[!UICONTROL Erstellen > Test&amp;Zielgruppe Angebot Set]**. Ziehen Sie die Bilder oder Videos in den Anzeigebereich. Wenn Sie verschiedene Video- oder Bildgrößen erstellen möchten, ziehen Sie mehrere Kopien des Bildes oder Videos in den Anzeigebereich und legen Sie jede Größe einzeln fest.
+   * **Test&amp;Zielgruppe Angebot Set** screenKlicken Sie auf  **[!UICONTROL Erstellen > Test&amp;Zielgruppe Angebot Set]**. Ziehen Sie die Bilder oder Videos in den Anzeigebereich. Wenn Sie verschiedene Video- oder Bildgrößen erstellen möchten, ziehen Sie mehrere Kopien des Bildes oder Videos in den Anzeigebereich und legen Sie jede Größe einzeln fest.
 
-   * **Raster- oder Liste-**
-AnsichtWählen Sie die Bilder oder Videos aus und klicken Sie dann auf  **[!UICONTROL Erstellen > Test&amp;Zielgruppe-Angebot-Set]**.
+   * **Raster- oder Liste-** AnsichtWählen Sie die Bilder oder Videos aus und klicken Sie dann auf  **[!UICONTROL Erstellen > Test&amp;Zielgruppe-Angebot-Set]**.
 
 1. Optional können Sie ein Bild oder Video auswählen und auf **Vorschau** klicken. Auf der Seite &quot;Vorschau Angebote&quot;können Sie die Größe und das Aussehen des ausgewählten Bildes oder Videos ändern. Sie können auch alle Angebote oder Videos im Videoset ändern.
 
