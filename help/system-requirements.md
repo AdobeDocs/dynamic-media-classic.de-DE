@@ -20,7 +20,7 @@ ht-degree: 47%
 
 # Systemanforderungen {#system-requirements}
 
-Um eine optimale Benutzererfahrung mit der Desktop-App Dynamic Media Classic zu erzielen, sollten Sie sicherstellen, dass Ihr System die folgenden Systemanforderungen und Empfehlungen erfüllt:
+Um eine optimale Benutzererfahrung mit der Dynamic Media Classic-Desktop-App zu erzielen, sollten Sie sicherstellen, dass Ihr System die folgenden Systemanforderungen und Empfehlungen erfüllt:
 
 * Microsoft® Windows® 7 oder höher oder macOS X 10.6 oder höher Macintosh® Intel Prozessor erforderlich.
 * 3 GB Arbeitsspeicher (RAM) erforderlich (4 GB oder mehr empfohlen).
