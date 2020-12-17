@@ -20,11 +20,11 @@ ht-degree: 65%
 
 # Kurzanleitung: Video{#quick-start-video}
 
-Adobe Dynamic Media Classic Video ist eine End-to-End-Lösung, mit der Sie hochwertige adaptive Videos für das Streaming über mehrere Bildschirme, einschließlich Desktop-, iOS-, Android-, Blackberry- und Windows-Mobilgeräte, veröffentlichen können. Bei adaptiven Videosets werden Versionen desselben Videos gruppiert, die in unterschiedlichen Bitraten und Formaten kodiert sind, z. B. mit 400 Kbit/s, 800 Kbit/s und 1000 Kbit/s. Der Desktop-Computer oder das Mobilgerät erkennt die verfügbare Bandbreite.
+Adobe Dynamic Media Classic Video ist eine Komplettlösung, mit der Sie hochwertige adaptive Videos für das Streaming auf verschiedenen Anzeigemedien wie Desktop, iOS, Android, Blackberry und Windows mühelos veröffentlichen können. Bei adaptiven Videosets werden Versionen desselben Videos gruppiert, die in unterschiedlichen Bitraten und Formaten kodiert sind, z. B. mit 400 Kbit/s, 800 Kbit/s und 1000 Kbit/s. Der Desktop-Computer oder das Mobilgerät erkennt die verfügbare Bandbreite.
 
 Zum Beispiel werden auf einem iOS-Mobilgerät Bandbreiten wie 3G, 4G oder Wi-Fi erkannt. Anschließend wird unter den verschiedenen Video-Bitraten innerhalb des adaptiven Videosets automatisch das richtig kodierte Video ausgewählt. Das Video wird auf Desktops, Mobilgeräte und Tablets gestreamt.
 
-Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Das adaptive Videoset reagiert auch, wenn der Vollbildmodus auf einem Desktop geöffnet wird. Es verwendet dann eine höhere Auflösung und verbessert so das Seherlebnis des Kunden. Mit adaptiven Video-Sets erhalten Sie die bestmögliche Wiedergabe von Videos, die von Kunden auf mehreren Bildschirmen und Geräten wiedergegeben werden.
+Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Das adaptive Videoset reagiert auch, wenn der Vollbildmodus auf einem Desktop geöffnet wird. Es verwendet dann eine höhere Auflösung und verbessert so das Seherlebnis des Kunden. Mit adaptiven Video-Sets erhalten Sie die bestmögliche Wiedergabe von Dynamic Media Classic-Videos auf mehreren Bildschirmen und Geräten.
 
 Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für die Wiedergabe auszuwählen, basiert auf dem folgenden Algorithmus:
 
@@ -34,15 +34,15 @@ Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für d
    1. Der Player wählt den Stream mit der höchsten Bandbreite unterhalb oder gleich der geschätzten Bandbreite aus.
    1. Der Player berücksichtigt nur 80 % der verfügbaren Bandbreite. Wenn es jedoch nach oben wechselt, ist es bei nur 70 % umstrittener, Überschätzungen zu vermeiden und sofort zurückzuschalten.
 
-Technische Informationen dazu finden Sie in der Logik des Algorithmus unter [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
+Technische Informationen dazu finden Sie in der Logik des Algorithmus unter [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp).
 
 Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dynamic Media Classic Folgendes:
 
-* Das Hochladen von Video aus verschiedenen unterstützten Videoformaten und Audioformaten und das Kodieren von Video im MP4 H.264-Format für die Wiedergabe auf verschiedenen Anzeigemedien. Sie können vordefinierte Vorgaben für adaptive Video-Vorgaben für Dynamic Media Classic oder einzelne Videokodierungsvorgaben verwenden oder Ihre eigene Kodierung anpassen, um die Qualität und Größe des Videos zu steuern.
+* Das Hochladen von Video aus verschiedenen unterstützten Videoformaten und Audioformaten und das Kodieren von Video im MP4 H.264-Format für die Wiedergabe auf verschiedenen Anzeigemedien. Sie können vordefinierte adaptive Video-Vorgaben für Dynamic Media Classic oder einzelne Videokodierungsvorgaben verwenden oder Ihre eigene Kodierung anpassen, um Qualität und Größe des Videos zu steuern.
 
    Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
-   `**Note:**` Übergeordnet-/Quellvideos und andere Quellvideoformate werden *keinem adaptiven Videoset hinzugefügt* .
+   `**Note:**` Übergeordnet-/Quellvideos und andere Quellvideoformate werden keinem adaptiven Videoset  ** hinzugefügt.
 
 * Videountertitel in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light sowie Videokapitelnavigation in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light.
 
@@ -59,13 +59,13 @@ Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dy
 
    Dynamic Media Classic unterstützt die Wiedergabe von mobilen Videos für MP4 H.264-Videos. Blackberry-Geräte, die dieses Videoformat unterstützen, finden Sie auf der folgenden Website:
 
-   Siehe [Unterstützte Videoformate in Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+   Siehe [Unterstützte Videoformate auf Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
    Windows-Geräte, die dieses Videoformat unterstützen, finden Sie hier:
 
-   Siehe [Unterstützte Videoformate auf Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
+   Siehe [Unterstützte Videoformate unter Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
 
-* Wiedergabe des Videos mithilfe von Viewer-Vorgaben für dynamische Medien - Classic, einschließlich der folgenden:
+* Wiedergabe des Videos mit Dynamic Media Classic Viewer-Vorgaben, einschließlich der folgenden:
 
    * Einzel-Video-Viewer
    * Viewer für gemischte Medien, die Video- und Bildinhalte kombinieren
@@ -81,10 +81,12 @@ Die folgende Workflow-Beschreibung hilft Ihnen, sich schnell mit adaptiven Video
 
 Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden Szenarien hoch:
 
-* **Hochladen vorkodierter Videos** Wenn Ihre Videos bereits außerhalb von Dynamic Media Classic kodiert wurden, klicken Sie auf 
-**Laden Sie** die Symbolleiste für globale Navigation hoch, um nach MP4-Videodateien zu suchen und sie direkt in Dynamic Media Classic hochzuladen. Klicken Sie dann auf **Erstellen > Adaptive Videosets**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
-* **Übergeordnet Quellvideos** hochladen Wenn Ihre Videos nicht kodiert sind, klicken Sie auf 
-**Laden Sie** die Symbolleiste für globale Navigation hoch, um Übergeordnet Videoquelldateien (nicht MP4) hochzuladen und sie von Dynamic Media Classic in MP4-Dateien zu kodieren. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ unter den eVideo-Optionen die Option **Adaptive Video**.
+* **Hochladen vorkodierter**
+VideosWenn Ihre Videos bereits außerhalb von Dynamic Media Classic kodiert wurden, klicken Sie auf 
+**Laden Sie** die Symbolleiste für globale Navigation hoch, um MP4-Videodateien direkt nach Dynamic Media Classic zu suchen und hochzuladen. Klicken Sie dann auf **Erstellen > Adaptive Videosets**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
+* **Hochladen von Übergeordnet**
+QuellvideosWenn Ihre Videos nicht kodiert sind, klicken Sie auf 
+**Laden Sie die** Symbolleiste für globale Navigation hoch, um Übergeordnet Videoquelldateien (nicht MP4) hochzuladen und sie von Dynamic Media Classic in MP4-Dateien zu kodieren. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ unter den eVideo-Optionen die Option **Adaptive Video**.
 
    Mit dieser bevorzugten Option können Sie ein adaptives Videoset erstellen, das automatisch die korrekte Kodierungsvorgabe (16:9 oder 4:3) entsprechend den Abmessungen des hochgeladenen Videos anpasst. Wenn Sie den Hochladeauftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videokodierungen im korrekten Seitenverhältnis enthält.
 
@@ -96,7 +98,7 @@ Siehe [Hochladen und Kodieren von Video](uploading-encoding-videos.md#uploading_
 
 **Optional**
 
-Dynamic Media Classic-Angebote mit zahlreichen vordefinierten Videokodierungsvorgaben. Diese vordefinierten Vorgaben decken die heutzutage am häufigsten verwendeten Videokodierungseinstellungen ab und wurden für die Wiedergabe auf den jeweiligen Zieldisplays optimiert.
+Dynamic Media Classic-Angebote verfügen über zahlreiche vordefinierte Videokodierungsvorgaben. Diese vordefinierten Vorgaben decken die heutzutage am häufigsten verwendeten Videokodierungseinstellungen ab und wurden für die Wiedergabe auf den jeweiligen Zieldisplays optimiert.
 
 Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Video-Vorgaben über die Seite „Video-Vorgaben“ hinzufügen und verwalten. Zum Öffnen dieser Seite klicken Sie auf „Einstellungen“ > „Anwendungseinstellungen“ > „Video-Vorgaben“ > „Einzelne Kodierungsvorgaben“. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
@@ -110,9 +112,9 @@ Siehe [Anzeigen einer Vorschau von Videos in einem Video-Viewer](previewing-vide
 
 Sie können das Video im Anzeigebereich „Vorschau“ wiedergeben. Sie können auch verschiedene Video-Viewer auswählen, um auszuprobieren, wie das Video in den verschiedenen Playern dargestellt wird. Wir empfehlen, dass Sie den HTML5 Video-Player für die Wiedergabe auf verschiedenen Anzeigegeräten wie Desktop, Tablet und Mobilgeräte verwenden.
 
-**Optional**
+**optional**
 
-Anpassung der Viewer-Vorgaben - Vordefinierte Viewer-Vorgaben für dynamische Medien und Classic-Angebot für die Bereitstellung von Videos Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie in der rechten oberen Ecke von Dynamic Media Classic auf Einstellungen > Viewer-Vorgaben. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Anpassung der Viewer-Vorgaben - Vordefinierte Viewer-Vorgaben für Dynamic Media Classic-Angebot für die Bereitstellung von Videos Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie oben rechts in Dynamic Media Classic auf &quot;Einstellungen&quot;> &quot;Viewer-Vorgaben&quot;. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
 Siehe [Arbeiten mit Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -122,7 +124,7 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
 * Zeigen Sie das Video in einem eigenen Popup- oder Modalfenster an; in diesem Fall sollten Sie die Funktion „URL kopieren“ verwenden.
 
-   Um eine URL für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+   Um eine URL für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Klicken Sie auf Vorschau und dann rechts neben `Universal_HTML5_Viewer` auf URL kopieren.
 
    Wenn Sie auf die Schaltfläche „URL kopieren“ klicken, wird die URL in die Zwischenablage kopiert. Fügen Sie diesen Code in den HTML-Code Ihrer Website, mobilen Site oder Anwendung ein. 
 
