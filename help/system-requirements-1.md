@@ -20,7 +20,7 @@ ht-degree: 44%
 
 # Media Portal-Systemanforderungen {#system-requirements}
 
-Um eine optimale Benutzererfahrung mit Dynamic Media Classic Media Portal zu erzielen, stellen Sie sicher, dass Ihr System die folgenden Systemanforderungen und Empfehlungen erfüllt:
+Um optimale Ergebnisse mit Dynamic Media Classic Media Portal zu erzielen, stellen Sie sicher, dass Ihr System die folgenden Systemanforderungen und Empfehlungen erfüllt:
 
 * Microsoft® Windows® 7 oder höher oder macOS X 10.6 oder höher Macintosh® Intel Prozessor erforderlich.
 * 3 GB Arbeitsspeicher (RAM) erforderlich (4 GB oder mehr empfohlen).
