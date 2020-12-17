@@ -30,11 +30,13 @@ Führen Sie folgende Schritte aus, um eine E-Katalog-Viewer-Vorgabe zu erstellen
 1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Um im Anzeigebereich „Viewer-Vorgaben“ eine E-Katalog-Viewer-Vorgabe zu erstellen, können Sie ganz neu beginnen oder eine vorhandene E-Katalog-Viewer-Vorgabe als Vorlage verwenden:
 
-   * **Erstellen einer E-Katalog-Viewer-Vorgabe** Klicken Sie auf Hinzufügen. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie &quot;E-Katalog-Viewer&quot;und klicken Sie dann auf 
+   * **Erstellen einer E-Katalog-Viewer-**
+VorgabeKlicken Sie auf Hinzufügen. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie &quot;E-Katalog-Viewer&quot;und klicken Sie dann auf 
 **Hinzufügen**.
 
-   * **Bearbeiten einer E-Katalog-Viewer-Vorgabe** Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und klicken Sie dann auf Bearbeiten. Klicken 
-**Speichern unter** , nachdem Sie die Vorgabe erstellt haben.
+   * **Bearbeiten einer E-Katalog-Viewer-**
+VorgabeWählen Sie eine E-Katalog-Viewer-Vorgabe und klicken Sie dann auf Bearbeiten. Klicken 
+**Speichern Sie** Asbest, nachdem Sie die Vorgabe erstellt haben.
 
 1. Geben Sie im Anzeigebereich „Viewer konfigurieren“ einen Namen für die E-Katalog-Viewer-Vorgabe ein.
 1. Legen Sie im Anzeigebereich „Viewer konfigurieren“ die Optionen fest.
@@ -47,11 +49,11 @@ Führen Sie folgende Schritte aus, um eine E-Katalog-Viewer-Vorgabe zu erstellen
 
    | Platzhalter | Ersetzt durch | Anmerkungen |
    |--- |--- |--- |
-   | `$1$` | „rollover_key“-Wert | The item identifier from the `<area>` element of the map. |
+   | `$1$` | „rollover_key“-Wert | Die Element-ID aus dem Element `<area>` der Map. |
    | `$2$` | frame | Die Sequenznummer des momentan angezeigten Bildfelds im Bildsatz. |
    | `$3$` | imageroot | Das erste Pfadelement des ersten Elements, das im Bildbefehl angegeben wird (normalerweise die Katalog-ID des Katalogeintrags, der den Bildsatz bestimmt). |
 
-1. (Optional) Geben Sie in den Infofeldeinstellungen im Feld &quot;Antwortvorlage&quot;den Text ein, der angezeigt werden soll, wenn beim Abrufen von Informationen für eine Imagemap ein Fehler auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie in den Infofeldeinstellungen im Feld &quot;Antwortvorlage&quot;den Text ein, der angezeigt werden soll, wenn Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 
 >[!NOTE]
 >
@@ -60,7 +62,7 @@ Führen Sie folgende Schritte aus, um eine E-Katalog-Viewer-Vorgabe zu erstellen
 1. Klicken Sie auf „**Speichern**“.
 1. Wenn die soeben erstellte E-Katalog-Viewer-Vorgabe standardmäßig zum Anzeigen von E-Katalogen auf Ihrer Website verwendet werden soll, klicken Sie auf „Standard“.
 
-To delete an eCatalog Viewer Preset, select it on the Viewer Presets screen and click **Delete**.
+Um eine E-Katalog-Viewer-Vorgabe zu löschen, wählen Sie sie im Anzeigebereich &quot;Viewer-Vorgaben&quot;aus und klicken Sie auf **Löschen**.
 
 >[!MORELIKETHIS]
 >
