@@ -20,7 +20,7 @@ ht-degree: 57%
 
 # Adobe Training Services{#adobe-training-services}
 
-Dynamic Media Classic-Angebote-Schulungen in Form von Videoschulungen, Workshops und Websitzungen unter Leitung von Lehrern und Demos.
+Schulungen zu Dynamic Media Classic-Angeboten in Form von Videoschulungen, Workshops und Websitzungen unter Leitung von Lehrern und Demos.
 
 **Adobe Training Services**
 
