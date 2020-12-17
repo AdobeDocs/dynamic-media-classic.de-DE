@@ -20,15 +20,15 @@ ht-degree: 28%
 
 # Veröffentlichen von Zoombildern{#publishing-zoom-images}
 
-Beim Veröffentlichen werden die Zoombilder auf den Image-Servern von Dynamic Media gespeichert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Während des Veröffentlichungsvorgangs aktiviert Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen in den HTML-Code Ihrer Website einfügen.
+Beim Veröffentlichen werden Ihre Zoombilder auf Dynamic Media-Image-Servern gespeichert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Während des Veröffentlichungsvorgangs aktiviert Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen in den HTML-Code Ihrer Website einfügen.
 
 ## Markieren von Bildern zur Veröffentlichung {#marking-images-for-publish}
 
-Die Bilder müssen zur Veröffentlichung markiert werden, damit sie auf die Image-Server der Dynamic Media kopiert werden können. You can mark your images for publish in the Browse Panel by selecting the **Mark for Publish** icon. Sie können Bilder auch während des Hochladens zur Veröffentlichung markieren.
+Die Bilder müssen zur Veröffentlichung markiert werden, damit sie auf die Dynamic Media-Image-Server kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol **Zur Veröffentlichung markieren** klicken. Sie können Bilder auch während des Hochladens zur Veröffentlichung markieren.
 
-## Veröffentlichen von Bildern {#publishing-the-images}
+## Veröffentlichen von Bildern  {#publishing-the-images}
 
-To publish zoom images, start by clicking **Publish** on the Global Navigation bar. Then, select a **When option (One-Time or Recurring)**, optionally enter a name for the publish job, and click **Start Publish**.
+Um Zoombilder zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf **Veröffentlichen**. Wählen Sie dann die Option **Wenn (Einmalig oder Wiederkehrend)**, geben Sie optional einen Namen für den Veröffentlichungsauftrag ein und klicken Sie auf **Beginn Publish**.
 
 >[!MORELIKETHIS]
 >
