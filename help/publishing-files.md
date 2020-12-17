@@ -20,21 +20,23 @@ ht-degree: 76%
 
 # Veröffentlichen von Dateien {#publishing-files}
 
-Sie veröffentlichen Ihre Assets auf Dynamic Media-Image-Servern. Sie können Assets einmalig veröffentlichen oder die Veröffentlichung von Assets nach einem bestimmten Zeitplan in Dynamic Media Classic veranlassen. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe von Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
+Sie veröffentlichen Ihre Assets auf Dynamic Media-Image-Servern. Sie können Assets einmalig veröffentlichen oder anordnen, dass Dynamic Media Classic Assets regelmäßig veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
-Dynamic Media Classic unterstützt jetzt den Versand aller Bilder und Videos über HTTP/2. Das heißt, es ist eine veröffentlichte URL oder ein Einbettungscode für das Bild oder Video verfügbar, um in jede Anwendung integriert zu werden, die ein gehostetes Asset akzeptiert. Das veröffentlichte Asset wird dann über das HTTP/2-Protokoll bereitgestellt. Diese Versand-Methode verbessert die Kommunikation von Browsern und Servern und ermöglicht so eine bessere Reaktion und Ladezeit aller Dynamic Media Classic-Assets. Siehe [HTTP2 Versand der häufig gestellten Fragen](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Dynamic Media Classic unterstützt jetzt den Versand aller Bilder und Videos über HTTP/2. Das heißt, es ist eine veröffentlichte URL oder ein Einbettungscode für das Bild oder Video verfügbar, um in jede Anwendung integriert zu werden, die ein gehostetes Asset akzeptiert. Das veröffentlichte Asset wird dann über das HTTP/2-Protokoll bereitgestellt. Diese Versand-Methode verbessert die Kommunikation von Browsern und Servern und ermöglicht so eine bessere Reaktion und Ladezeit aller Ihrer Dynamic Media Classic-Assets. Siehe [HTTP2-Versand der Content FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Nach dem Hochladen veröffentlichen {#publish-after-uploading}
 
 Assets befinden sich entweder in einem veröffentlichten oder unveröffentlichten Status. Standardmäßig werden alle Assets, die Sie in Dynamic Media Classic hochladen, automatisch zur Veröffentlichung markiert.
 
-Weitere Informationen finden Sie im PDF-Dokument &quot; [Sofortige Veröffentlichung&quot;](/help/assets/rendering-instant-publish-notification.pdf).
+Weitere Informationen finden Sie im PDF-Dokument [Sofortige Veröffentlichung](/help/assets/rendering-instant-publish-notification.pdf).
 
 Sie haben zum Markieren von Assets zur Veröffentlichung die folgenden Möglichkeiten:
 
-* **Nach dem Hochladen** veröffentlichen: Wählen Sie auf der Seite &quot;Hochladen&quot;unten die Option Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
+* **Nach dem**
+Hochladen veröffentlichen: Wählen Sie auf der Seite &quot;Hochladen&quot;unten die Option Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
 
-* **Nach dem Hochladen** veröffentlichen im Dialogfeld &quot;Auftragsoptionen&quot;wählen Sie Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
+* **Nach dem**
+Hochladen veröffentlichen: Wählen Sie im Dialogfeld &quot;Auftragsoptionen&quot;die Option Nach dem Hochladen veröffentlichen. Die Standardeinstellung ist „ausgewählt“.
 
 Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wenn ihre Stammelemente zur Veröffentlichung markiert werden. In der folgenden Tabelle sind die Arten von abgeleiteten Assets aufgeführt, die automatisch zur Veröffentlichung markiert werden.
 
@@ -47,9 +49,9 @@ Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wen
 
 Abgeleitete Bilder werden zur Veröffentlichung markiert, wenn die zugehörigen Stammbilder veröffentlicht werden. Abgeleitete Bilder sind beispielsweise Bilder, die Sie mit Bildbearbeitungsoptionen angepasst haben. In der Detailansicht werden diese abgeleiteten Bilder unter „Version und Ableitungen“ angezeigt.
 
-## Erstellen eines Veröffentlichungsauftrags {#creating-a-publish-job}
+## Erstellen eines Veröffentlichungsauftrags  {#creating-a-publish-job}
 
-Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf die Dynamic Media Classic-Server hochgeladen haben, die Sie jedoch noch nicht automatisch veröffentlicht haben. Sie können Veröffentlichungsaufträge entweder nur einmal ausführen oder eine regelmäßig wiederkehrende Ausführung einstellen. Dynamic Media Classic Angebots bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
+Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf Dynamic Media Classic-Server hochgeladen haben, die Sie jedoch noch nicht automatisch veröffentlicht haben. Sie können Veröffentlichungsaufträge entweder nur einmal ausführen oder eine regelmäßig wiederkehrende Ausführung einstellen. Dynamic Media Classic Angebots bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
 
 **So erstellen Sie einen Veröffentlichungsauftrag**
 
@@ -77,11 +79,11 @@ Sie erstellen einen einmaligen Veröffentlichungsauftrag, indem Sie auf der Seit
 
 Wenn der Veröffentlichungsauftrag zu einem späteren Zeitpunkt ausgeführt werden soll, wählen Sie im Menü „Wann“ die Option „Für späteren Termin einplanen“. Wählen Sie dann per Kalender und Uhrzeit-Regler einen Zeitpunkt für die Ausführung des Veröffentlichungsauftrags aus.
 
-### Erstellen eines wiederkehrenden Veröffentlichungsauftrags {#creating-a-recurring-publish-job}
+### Erstellen eines wiederkehrenden Veröffentlichungsauftrags  {#creating-a-recurring-publish-job}
 
 Sie erstellen einen wiederkehrenden Veröffentlichungsauftrag, indem Sie auf der Seite „Veröffentlichen“ die Option „Wiederkehrend“ aktivieren.
 
-Bestimmen Sie dann durch Auswählen einer Option für „Wiederholen“ („Täglich“, „Wöchentlich“, „Monatlich“ oder „Benutzerdefiniert“) das Intervall für die Ausführung des Veröffentlichungsauftrags. Dynamic Media Classic stellt Kalenderwerkzeuge zum Planen des wiederkehrenden Veröffentlichungsauftrags vor. Sie können die Option „Benutzerdefiniert“ wählen und in das Feld „Regel“ eine Regel zur Beschreibung eines benutzerdefinierten Auftragsintervalls eingeben. 
+Bestimmen Sie dann durch Auswählen einer Option für „Wiederholen“ („Täglich“, „Wöchentlich“, „Monatlich“ oder „Benutzerdefiniert“) das Intervall für die Ausführung des Veröffentlichungsauftrags. Dynamic Media Classic stellt Kalendertools zur Planung des wiederkehrenden Veröffentlichungsauftrags vor. Sie können die Option „Benutzerdefiniert“ wählen und in das Feld „Regel“ eine Regel zur Beschreibung eines benutzerdefinierten Auftragsintervalls eingeben. 
 
 Siehe [Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. Veröffentlichungsaufträge](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -93,17 +95,21 @@ Siehe [Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. V
 
 Sie können auf der Seite „Veröffentlichen“ erweiterte Optionen anzeigen und damit Einstellungen für einen Veröffentlichungsauftrag festlegen:
 
-* **Veröffentlichen auf** Wählen Sie einen Servertyp aus, um Assets nur auf einem bestimmten Server und nicht auf allen Servern zu veröffentlichen.
+* **Veröffentlichen**
+zur Auswahl eines Servertyps, um Assets nur auf einem bestimmten Server und nicht auf allen Servern zu veröffentlichen.
 
-* **Veröffentlichen** Standardmäßig veröffentlicht Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch die Option „Vollständige Veröffentlichung“ wählen, um auch solche Assets zu veröffentlichen, die aktualisiert wurden oder seit der letzten Veröffentlichung verändert wurden. Wählen Sie „Vollständig mit Suchdaten“, wenn Sie einen E-Katalog veröffentlichen und den Lesern das Durchsuchen unter Verwendung von Suchbegriffen ermöglichen möchten.
+* ****
+PublishStandardmäßig veröffentlicht Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch die Option „Vollständige Veröffentlichung“ wählen, um auch solche Assets zu veröffentlichen, die aktualisiert wurden oder seit der letzten Veröffentlichung verändert wurden. Wählen Sie „Vollständig mit Suchdaten“, wenn Sie einen E-Katalog veröffentlichen und den Lesern das Durchsuchen unter Verwendung von Suchbegriffen ermöglichen möchten.
 
-* **Auftrag ausführen unter** Wählen Sie einen Benutzernamen aus der Liste. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch Wählen eines Namens verbinden Sie einen Veröffentlichungsauftrag mit einem Benutzer.
+* **Auftrag**
+ausführen: Wählen Sie einen Benutzernamen aus der Liste. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch Wählen eines Namens verbinden Sie einen Veröffentlichungsauftrag mit einem Benutzer.
 
-**HTTP-Benachrichtigung** Geben Sie eine URL ein, um nachfolgende Veröffentlichungsaufträge auszulösen.
+**HTTP-**
+BenachrichtigungGeben Sie eine URL ein, um nachfolgende Veröffentlichungsaufträge auszulösen.
 
 Siehe [Verwenden eines Upload-Auftrags oder Veröffentlichungsauftrags als Auslöser](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
-## Stornieren eines Veröffentlichungsauftrags {#canceling-a-publish-job}
+## Stornieren eines Veröffentlichungsauftrags  {#canceling-a-publish-job}
 
 Sie haben die Möglichkeit, einen in Verarbeitung befindlichen Veröffentlichungsauftrag zu stornieren. Als Administrator können Sie einen in Verarbeitung befindlichen Veröffentlichungsauftrag auch über die Seite „Aufträge“ für das Unternehmen stornieren.
 
@@ -113,7 +119,7 @@ Rufen Sie zum Stornieren eines Veröffentlichungsauftrags die Seite „Aufträge
 >
 >Wenn Sie einen Veröffentlichungsauftrag storniert haben, ändert sich dessen Status zu „Wird angehalten“, bis ein Punkt erreicht wird, an dem ein sicherer Abbruch möglich ist. Bis zum Anhalten eines Veröffentlichungsauftrags kann es einige Zeit dauern, wenn gerade Daten aus der Datenbank abgerufen werden.
 
-## Manuelles Veröffentlichen von Assets {#manually-publishing-assets}
+## Manuelles Veröffentlichen von Assets  {#manually-publishing-assets}
 
 Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Beim Veröffentlichen eines Sets, z. B. eines Bildsatzes oder adaptiven Videosets, werden das Set (das übergeordnete Element) und alle Mitglieder (die untergeordneten Elemente) innerhalb des Sets veröffentlicht.
 
@@ -129,7 +135,7 @@ Unveröffentlichte Assets werden in der Benutzeroberfläche durch ein graues dur
 
    * Klicken Sie in der Rasteransicht, Listenansicht oder Detailansicht auf das graue durchgestrichene Kreissymbol, das links neben dem Namen des Assets angezeigt wird.
 
-## Manuelles Rückgängigmachen der Veröffentlichung von Assets {#manually-unpublishing-assets}
+## Manuelles Rückgängigmachen der Veröffentlichung von Assets  {#manually-unpublishing-assets}
 
 Sie können die Veröffentlichung einzelner Assets manuell rückgängig machen. Beim Rückgängigmachen der Veröffentlichung eines Sets, z. B. eines Mustersets oder eines E-Katalogs, erhält das Set (das übergeordnete Element) den Status „unveröffentlicht“. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
@@ -141,11 +147,11 @@ Veröffentlichte Elemente werden in der Benutzeroberfläche mit einem grünen Kr
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere veröffentlichte Assets aus.
 
-      On the Global Navigation Bar, click **File > **Unpublish**.
+      Klicken Sie in der Symbolleiste für globale Navigation auf **Datei > **Veröffentlichung rückgängig machen**.
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht auf das grüne Kreissymbol mit dem Häkchen, das links neben dem Namen des Assets angezeigt wird.
 
-## Abrufen des Veröffentlichungsverlaufs für ein Asset {#getting-an-asset-s-publish-history}
+## Abrufen des Veröffentlichungsverlaufs für ein Asset  {#getting-an-asset-s-publish-history}
 
 In der Detailansicht wird oben im Bedienfeld das Datum angezeigt, an dem das Asset zuletzt veröffentlicht wurde. Sie können weitere Details zum Veröffentlichungsverlauf abrufen, indem Sie in der Detailansicht das Bedienfeld „Verlauf und Veröffentlichungsserver“ öffnen. Dort wird angezeigt, wann und auf welchen Servern das Asset veröffentlicht wurde.
 
@@ -155,7 +161,7 @@ Dynamic Media Classic-Assets werden über das Content Versand-Netzwerk (CDN) ver
 
 Wenn ein Benutzer eine Website zum ersten Mal herunterlädt, werden die Assets an einen CDN-Web-Cache-Server übertragen und auf diesem Server gespeichert. Beim nächsten Abruf der Website von einem Benutzer in derselben geografischen Region kann der im Cache gespeicherte Inhalt schneller bereitgestellt werden. Die Inhaltsbereitstellung erfolgt schneller, weil der Inhalt näher beim Endbenutzer aufbewahrt wird. CDN ermöglicht eine schnellere Anzeige von Websites. Die Bandbreitenanforderungen an den zentralen Server werden verringert, da die Inhalte über das Edge-Cache-Netzwerk bereitgestellt werden, nicht jedes Mal von einem zentralen Server aus.
 
-Neu veröffentlichte Dynamic Media Classic-Inhalte stehen dem Endbenutzer sofort zur Verfügung und füllen das Edge-Cache-Netzwerk schnell aus. Neue erneut veröffentlichte Inhalte – etwa Bilder mit identischen Namen wie zuvor auf einem Image-Server veröffentlichte Bilder – werden im CDN jedoch bis zu zehn Stunden lang nicht aktualisiert. Endbenutzer sehen stattdessen die Daten im Web-Cache des CDN. Aus diesem Grund werden Ihre erneut veröffentlichten Dynamic Media Classic-Assets für Endbenutzer möglicherweise zehn Stunden lang nicht angezeigt.
+Neu veröffentlichte Dynamic Media Classic-Inhalte stehen dem Endbenutzer sofort zur Verfügung und füllen das Edge-Cache-Netzwerk schnell aus. Neue erneut veröffentlichte Inhalte – etwa Bilder mit identischen Namen wie zuvor auf einem Image-Server veröffentlichte Bilder – werden im CDN jedoch bis zu zehn Stunden lang nicht aktualisiert. Endbenutzer sehen stattdessen die Daten im Web-Cache des CDN. Aus diesem Grund werden Ihre erneut veröffentlichten Dynamic Media Classic-Assets möglicherweise zehn Stunden lang nicht für Endbenutzer angezeigt.
 
 Wenn Sie möchten, dass neue erneut veröffentlichte Bild-Assets schneller zur Verfügung stehen als mit zehnstündiger Verzögerung, können Sie Web-Caches im CDN bereinigen. Bei der Bereinigung der Web-Caches werden alte Inhalte aus den CDN-Web-Caches entfernt und durch die zuletzt veröffentlichten Assets ersetzt.
 
