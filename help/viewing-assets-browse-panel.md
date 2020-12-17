@@ -18,15 +18,18 @@ ht-degree: 65%
 ---
 
 
-# Viewing assets in the Browse panel{#viewing-assets-in-the-browse-panel}
+# Anzeigen von Assets im Durchsuchenbedienfeld{#viewing-assets-in-the-browse-panel}
 
 Sie können die Anzeige der Assets im Durchsuchenbedienfeld verändern, indem Sie auf eine Ansicht-Schaltfläche klicken:
 
-* **Ansicht**&quot;Raster&quot;Wählen Sie die Schaltfläche &quot;Ansicht&quot;aus, um Assets in Miniaturansichten in einem Raster anzuzeigen. In der Rasteransicht können Sie den Regler „Miniaturansicht“ ziehen, um die Größe der Miniaturansichten zu ändern.
+* **Rasteransicht**
+Wählen Sie die Schaltfläche &quot;Raster-Ansicht&quot;, um Assets in Miniaturansichten in einem Raster anzuzeigen. In der Rasteransicht können Sie den Regler „Miniaturansicht“ ziehen, um die Größe der Miniaturansichten zu ändern.
 
-* **Liste Ansicht** Wählen Sie die Schaltfläche &quot;Liste Ansicht&quot;, um Assets in einer Liste anzuzeigen. In der Liste sind für jedes Asset der Name und Typ, das Erstellungsdatum sowie das Datum der letzten Änderung angegeben. Je nach Asset-Typ erhalten Sie verschiedene weitere Informationen, beispielsweise zu den Abmessungen und zur Dateigröße eines Bildes.
+* **Liste**
+anzeigenKlicken Sie auf die Schaltfläche &quot;Ansicht der Liste&quot;, um Assets in einer Liste anzuzeigen. In der Liste sind für jedes Asset der Name und Typ, das Erstellungsdatum sowie das Datum der letzten Änderung angegeben. Je nach Asset-Typ erhalten Sie verschiedene weitere Informationen, beispielsweise zu den Abmessungen und zur Dateigröße eines Bildes.
 
-* **Detaillierte Ansicht**: Wählen Sie ein Asset aus und klicken Sie dann auf die Schaltfläche &quot;Detaillierte Ansicht&quot;, um das Asset in der Ansicht &quot;Details&quot;zu untersuchen. Sie können auch auf ein Asset doppelklicken oder ein Asset auswählen und dann „Datei“ > „Details“ wählen, um zur Detailansicht zu wechseln. Falls Ihr Administrator die Voreinstellung „URL anzeigen“ angegeben hat, werden in der Detailansicht die URLs für alle Assets angezeigt. Die URLs sind jedoch erst dann aktiv, wenn ein Asset veröffentlicht wurde.
+* **Detailansicht**
+Wählen Sie ein Asset aus und klicken Sie dann auf die Schaltfläche &quot;Ansicht der Details&quot;, um das Asset in der Ansicht &quot;Details&quot;zu untersuchen. Sie können auch auf ein Asset doppelklicken oder ein Asset auswählen und dann „Datei“ > „Details“ wählen, um zur Detailansicht zu wechseln. Falls Ihr Administrator die Voreinstellung „URL anzeigen“ angegeben hat, werden in der Detailansicht die URLs für alle Assets angezeigt. Die URLs sind jedoch erst dann aktiv, wenn ein Asset veröffentlicht wurde.
 
 >[!TIP]
 >
