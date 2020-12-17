@@ -28,13 +28,13 @@ Bei den Parametern für Textebenen können Sie auch die Textzeichenfolge zu eine
 
 Sie können einen Parameter mehrmals referenzieren. Verwenden Sie das Kombinationsfeld für jeden Befehl im Parameterdialogfeld, um alle Parameter auszuwählen, die zum jeweiligen Befehl passen. (Beispielsweise sind alle Größenparameter für den Befehl „size=“ verfügbar usw.) Sie können die Parameterreferenz einem beliebigen Parameter neu zuweisen, der bereits im Kombinationsfeld enthalten ist, und ihr einen neuen Namen geben, der nicht bereits im Kombinationsfeld vorhanden ist. Im letzteren Fall muss der Name eindeutig sein. Andernfalls wird eine Fehlermeldung angezeigt, die besagt, dass der Parameter bereits vorhanden ist. Wenn Sie eine Parameterreferenz löschen, wird der Parameter aus der URL gelöscht, wenn er nicht an einer anderen Stelle referenziert wird. Wenn Sie den Standardwert für einen Textparameter ändern, werden alle Referenzen zu diesem Parameter aktualisiert. Die Aktualisierung ist in der Ebenentabelle, in der Vorlagenanzeige und in der URL sichtbar. Wenn Sie ein Ebenenattribut ändern, indem Sie Griffpunkte verschieben oder im Eigenschaftenbedienfeld Werte eingeben, werden der Parameterwert sowie alle Referenzen zu diesem Parameter aktualisiert. Wenn Sie beispielsweise die Größe zweier Ebenen mithilfe eines Parameters festgelegt haben, werden beide Ebenengrößen aktualisiert, wenn eine der beiden Ebenengrößen geändert wird. Wenn Sie eine Vorlage in der Vorschau anzeigen und dort einen Parameter ändern, werden alle Referenzen zu diesem Parameter aktualisiert.
 
-## Einstellen einer Parametervorgabe für eine Ebene {#parameterizing-a-layer}
+## Einstellen einer Parametervorgabe für eine Ebene  {#parameterizing-a-layer}
 
 Führen Sie für jede Ebene in der Vorlage folgende Schritte zum Erstellen von Vorlagenparametern aus:
 
 1. Klicken Sie in der Liste „Ebenen“ neben dem Namen der Ebene, für die Sie Parameter erstellen möchten, auf „Parameter“ . Der Anzeigebereich „Parameter“ wird geöffnet. Darin werden die Namen aller Parameter in der Ebene, deren Werte und deren Typ aufgelistet.
 1. Aktivieren Sie neben dem Namen jedes Parameters, der in das Vorlagenbild eingefügt werden soll, die Option „Ein“.
-1. Wählen Sie **Schließen** , um den Anzeigebereich &quot;Parameter&quot;zu verlassen.
+1. Wählen Sie **Schließen**, um den Bildschirm &quot;Parameter&quot;zu verlassen.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Führen Sie für jede Ebene in der Vorlage folgende Schritte zum Erstellen von V
 
 Um eine Liste der Parameter anzuzeigen, die Sie für eine Vorlage erstellt haben, klicken Sie im Anzeigebereich „Vorlage“ auf „Parameterzusammenfassung“. Der Anzeigebereich „Parameterzusammenfassung“ wird angezeigt. Darin werden die Namen aller Ebenen und, falls Sie für eine Ebene Parameter erstellt haben, die Namen und Werte der Parameter aufgelistet.
 
-## Festlegen dynamischer Textparameter {#creating-dynamic-text-parameters}
+## Festlegen dynamischer Textparameter  {#creating-dynamic-text-parameters}
 
 Bei Textebenen können Sie außerdem die Textzeichenfolge zu einem dynamischen Feld machen, dem ein Datenbankwert zugeordnet ist. Führen Sie folgende Schritte aus:
 
