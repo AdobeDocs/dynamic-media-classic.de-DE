@@ -20,8 +20,8 @@ ht-degree: 45%
 
 # Media Portal{#media-portal}
 
-Mit Adobe Media Portal können Unternehmen ganz einfach kreative Assets erwerben, kontrollieren und an externe Partner und Kanäle sowie an interne Geschäftsbenutzer verteilen. Diese browserbasierte Self-Service-Umgebung bietet Portalbenutzern mit von Administratoren gesteuerten &quot;Ansichten&quot;einfachen Zugriff auf Dynamic Media Classic-Assets, um sie hochzuladen, zu durchsuchen, zu suchen, zu suchen, Vorschauen zu erstellen und Assets in vom Unternehmen genehmigten Formaten zu exportieren.
+Mit Adobe Media Portal können Unternehmen ganz einfach kreative Assets erwerben, kontrollieren und an externe Partner und Kanäle sowie an interne Geschäftsbenutzer verteilen. Diese browserbasierte Self-Service-Umgebung bietet Portalbenutzern mit von Administratoren gesteuerten &quot;Ansichten&quot;einfachen Zugriff auf Dynamic Media Classic-Assets, um Assets hochzuladen, zu durchsuchen, zu suchen, zu suchen, Vorschauen zu erstellen und sie in die im Unternehmen verwendeten Formate zu exportieren.
 
-For more information about Media Portal including system requirements, see [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+Weitere Informationen zu Media Portal einschließlich Systemanforderungen finden Sie unter [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
 
 Informationen zur Verwaltung von Media Portal finden Sie unter [Kurzanleitung: Media Portal-Administration](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
