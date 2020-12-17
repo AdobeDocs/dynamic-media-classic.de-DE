@@ -35,28 +35,30 @@ Der maximale Zoomprozentsatz für Zoomziele ist 100 %. Der minimale Zoomprozent
 
 Sie können die Größe des Zoom-Viewers an die auf der Website verwendete Größe anpassen. Um diese Einstellung dauerhaft zu ändern, können Sie im Anzeigebereich „Einstellungen“ die Viewer-Größe entsprechend ändern (sofern Sie ein Administrator sind). Siehe [Konfigurieren von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## Erstellen und Bearbeiten von Zoomzielen {#creating-and-editing-zoom-targets}
+## Erstellen und Bearbeiten von Zoomzielen  {#creating-and-editing-zoom-targets}
 
 Im Zoomziel-Editor erstellen und bearbeiten Sie Zoomziele. Um diesen Editor zu öffnen, wählen Sie ein Bild und führen Sie einen der folgenden Schritte aus:
 
-* Click the rollover **[!UICONTROL Edit]** button and choose Zoom Targets.
-* In the Browse Panel, display the image in **[!UICONTROL Detail View]**, then click **[!UICONTROL Zoom Targets]**.
+* Klicken Sie auf die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** und wählen Sie &quot;Zielgruppen vergrößern&quot;.
+* Zeigen Sie im Durchsuchenbedienfeld das Bild in der Ansicht **[!UICONTROL Detail]** an und klicken Sie dann auf **[!UICONTROL Zoom-Zielgruppen]**.
 
-On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (arrow) to select a target before changing its size or position. Click **[!UICONTROL Add Targets]** (rectangle) to create a zoom target on the image. Der Zoomziel-Editor bietet außerdem Werkzeuge zum Löschen, Kopieren und Benennen von Zoomzielen.
+Klicken Sie im Anzeigebereich &quot;Zoom-Zielgruppe-Editor&quot;auf die Schaltfläche **[!UICONTROL Zielgruppe]** auswählen (Pfeil), um eine Zielgruppe auszuwählen, bevor Sie deren Größe oder Position ändern. Klicken Sie auf **[!UICONTROL Hinzufügen Zielgruppen]** (Rechteck), um eine Zoom-Zielgruppe für das Bild zu erstellen. Der Zoomziel-Editor bietet außerdem Werkzeuge zum Löschen, Kopieren und Benennen von Zoomzielen.
 
-### Erstellen eines Zoomziels {#creating-a-zoom-target}
+### Erstellen eines Zoomziels  {#creating-a-zoom-target}
 
 Öffnen Sie den Zoomziel-Editor und führen Sie folgende Schritte aus, um ein Zoomziel zu erstellen:
 
-1. Click **[!UICONTROL Add Targets]** (rectangle), move the pointer over the image, and click where you want to the zoom target to be.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen Zielgruppen]** (Rechteck), bewegen Sie den Mauszeiger über das Bild und klicken Sie auf die Stelle, an der die Zoom-Zielgruppe erfolgen soll.
 
    Ein Miniaturbild des Zoomziels wird im Bedienfeld im rechten Anzeigebereich angezeigt.
 
-1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
+1. Klicken Sie auf **[!UICONTROL Zielgruppe]** (Pfeil), klicken Sie auf , um die erstellte Zoom-Zielgruppe auszuwählen und Größe und Position der Zielgruppe anzupassen.
 
-   * **Größenanpassung** Bewegen Sie den Mauszeiger über eine Ecke der Zoom-Zielgruppe und ziehen Sie, um die Zielgruppe zu vergrößern oder zu verkleinern.
+   * **Größenanpassung**
+Bewegen Sie den Mauszeiger über eine Ecke der Zoom-Zielgruppe und ziehen Sie, um die Zielgruppe zu vergrößern oder zu verkleinern.
 
-   * **Positionierung** Bewegen Sie den Zeiger über die Zoomposition und ziehen Sie ihn an eine andere Position.
+   * ****
+PositionierungBewegen Sie den Zeiger über die Zoom-Zielgruppe und ziehen Sie sie an eine andere Position.
 
 1. Geben Sie im Feld „Name“ einen Namen für das Zoomziel ein.
 
@@ -73,23 +75,27 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 >
 >Um sich eine Vorschau Ihrer Zoomziele in einem Zoom-Viewer anzeigen zu lassen, klicken Sie im Zoomziel-Editor auf die Schaltfläche „Vorschau“ und wählen Sie im Anzeigebereich „Vorschau“ einen Zoom-Viewer aus. Informationen zu diesem Anzeigebereich finden Sie unter [Anzeigen einer Vorschau von Bildern mit verschiedenen Zoom-Viewern](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
-### Bearbeiten von Zoomzielen {#editing-zoom-targets}
+### Bearbeiten von Zoomzielen  {#editing-zoom-targets}
 
 Mit den folgenden Techniken können Sie im Zoomziel-Editor Zoomziele bearbeiten:
 
-* **Positionieren** Sie die Zielgruppe über die Schaltfläche &quot; auswählen&quot;(den Pfeil) und klicken Sie auf die Zielgruppe, um sie auszuwählen. Ziehen Sie das Ziel dann an eine andere Position.
+* ****
+Neupositionieren: Klicken Sie mit der Schaltfläche &quot;Zielgruppe auswählen&quot;(dem Pfeil) auf die Zielgruppe, um sie auszuwählen. Ziehen Sie das Ziel dann an eine andere Position.
 
-* **Durch Klicken** auf die Schaltfläche &quot;Zielgruppe auswählen&quot;(den Pfeil) klicken Sie auf die Zielgruppe, um sie auszuwählen. Bewegen Sie den Zeiger dann über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
+* **Ändern der**
+GrößeKlicken Sie mit der Schaltfläche &quot;Zielgruppe auswählen&quot;(dem Pfeil) auf die Zielgruppe, um sie auszuwählen. Bewegen Sie den Zeiger dann über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
 
-* **Löschen** Klicken Sie auf das Miniaturbild der Zielgruppe auf der rechten Seite des Bildschirms. Klicken Sie dann auf Zielgruppe **[!UICONTROL löschen]**.
+* **Löschen**
+Klicken Sie auf das Miniaturbild der Zielgruppe auf der rechten Seite des Bildschirms. Klicken Sie dann auf **[!UICONTROL Zielgruppe löschen]**.
 
-* **Beim Umbenennen** klicken Sie auf das Miniaturbild der Zielgruppe auf der rechten Seite des Bildschirms. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
+* ****
+UmbenennenKlicken Sie auf das Miniaturbild der Zielgruppe auf der rechten Seite des Bildschirms. Geben Sie dann einen Namen in das Textfeld **[!UICONTROL Name]** ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
 ### Kopieren von Zoomzielen {#copying-zoom-targets}
 
 Sie können Zoomziele von einem Bild zu einem anderen kopieren. Kopieren Sie Ziele, wenn zwei Bilder ähnlichen Inhalt haben und ihre Zoomziele zu den gleichen Orten gehören. Um Zoomziele in ein anderes Bild zu kopieren, führen Sie die folgenden Schritte aus:
 
 1. Öffnen Sie das Bild mit den Zoomzielen, die Sie im Zoomziel-Editor kopieren möchten.
-1. Klicken Sie auf Zielgruppen **[!UICONTROL kopieren nach]**.
-1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
+1. Klicken Sie auf **[!UICONTROL Zielgruppen kopieren nach]**.
+1. Wählen Sie im Dialogfeld &quot;Bilder auswählen&quot;ein Bild aus und klicken Sie auf **[!UICONTROL Auswahl]**.
 
