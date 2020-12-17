@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 61%
@@ -71,14 +71,14 @@ Es gibt zwei Methoden zum Scharfzeichnen:
       * `threshold` (0-255, Empfindlichkeit der Wirkung.)
 
          Dieser Parameter bestimmt, wie stark sich die scharfgezeichneten Pixel vom umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel betrachtet werden, und der Filter schärft sie. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um kein „Rauschen“ zu erzeugen, trotzdem wird kontrastreichen Bereichen, z. B. wo Wimpern auf die Haut treffen, Kantenkontrast hinzugefügt.
-      Weitere Informationen, wie Sie diese drei Parameter einrichten, einschließlich den empfohlenen Verfahren für die Verwendung der Filter, finden Sie in den folgenden Ressourcen:
 
-      Dynamic Media Classic-Hilfethema unter [Scharfzeichnen eines Bildes](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+         Weitere Informationen, wie Sie diese drei Parameter einrichten, einschließlich den empfohlenen Verfahren für die Verwendung der Filter, finden Sie in den folgenden Ressourcen:
 
-      Whitepaper zu bewährten Verfahren [Scharfzeichnen von Bildern im Adobe Scene7 Publishing System und auf dem Image-Server](/help/assets/s7_sharpening_images.pdf).
+         Dynamic Media Classic-Hilfethema unter [Scharfzeichnen eines Bildes](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
-   * Mit Dynamic Media Classic können Sie auch einen vierten Parameter steuern: Monochrom ( `0,1`). Dieser Parameter stellt fest, ob die Unschärfemaske unter Verwendung des Werts `0` separat auf jede Farbkomponente oder unter Verwendung des Werts `1` auf die Gesamthelligkeit/Intensität angewendet wurde.
+         Whitepaper zu bewährten Verfahren [Scharfzeichnen von Bildern im Adobe Scene7 Publishing System und auf dem Image-Server](/help/assets/s7_sharpening_images.pdf).
 
+      * Mit Dynamic Media Classic können Sie auch einen vierten Parameter steuern: Monochrom ( `0,1`). Dieser Parameter stellt fest, ob die Unschärfemaske unter Verwendung des Werts `0` separat auf jede Farbkomponente oder unter Verwendung des Werts `1` auf die Gesamthelligkeit/Intensität angewendet wurde.
 
 Wir empfehlen, mit dem Parameter „Radius“ der Unschärfemaske zu beginnen. Sie können beispielsweise mit den folgenden Radius-Einstellungen beginnen:
 
@@ -130,4 +130,3 @@ Wenn Sie experimentieren, können Ihnen die folgenden allgemeinen Empfehlungen h
 * Testen Sie verschiedene Parameter in Echtzeit, entweder direkt auf einer Dynamic Media Classic-URL oder mithilfe der Bildanpassungsfunktion von Dynamic Media Classic, die Vorschauen zur Anpassung in Echtzeit bietet.
 * Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. Eine Bildvorgabe ist im Grunde URL-Befehlsmakros mit benutzerdefinierten Vorgabennamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabename in einem URL-Pfad ruft diese Voreinstellungen auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
 * Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zum Einstellen der Bildqualität, z. B. das Anwenden von Scharfzeichnen von Bildern bei der Erfassung. Für solche Fälle, bei denen dies eine Option zur Feineinstellung und Optimierung der Darstellungsergebnisse ist, bieten die Adobe Professional Services weitere spezielle Tipps und empfohlene Verfahren an.
-
