@@ -26,11 +26,13 @@ Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenk
 
 ## Zoom-Viewer-Vorgaben {#about-zoom-viewer-presets}
 
-Dynamische Medien - Classic-Angebote:
+Dynamic Media Classic-Angebote:
 
-* **Zoom-Viewer: Einfach** Bietet einen einfachen Zoom auf das Originalbild.
+* **Zoom-Viewer:**
+BasicStellt ein einfaches Zoomen des Originalbilds bereit.
 
-* **Zoom-Viewer: Fly-out** Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
+* **Zoom-Viewer: Fly-**
+outZeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
 
 Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer geladen werden müssen. Die Größe des Flyout-Bildes berechnet sich aus der Größe des Hauptbildes (Anzeigebreite und -höhe) und dem Zoomfaktor. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
 
@@ -38,11 +40,14 @@ Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoom
 
 Dynamic Media Classic empfiehlt folgende Parameter für Flyout-Zoom-Viewer-Vorgaben:
 
-* **Vergrößerte Bildgröße** Ungefähr 1500 x 1500 Pixel, höchstens 2000 x 2000 Pixel.
+* **Vergrößerte**
+BildgrößeUngefähr 1500 x 1500 Pixel, höchstens 2000 x 2000 Pixel.
 
-* **Bildgröße**: 100 KB oder weniger, höchstens 150 KB (komprimieren Sie die Datei, um sie unter 150 KB zu halten).
+* **Bildgröße**
+: 100 KB oder weniger, höchstens 150 KB (komprimieren Sie die Datei, um sie unter 150 KB zu halten).
 
-* **Zoom-Viewer: Benutzerdefiniert** Bietet geführtes oder nicht geführtes Zoomen mit Bildern, Bildsätzen mit mehreren Ansichten oder Farbfeldersätzen.
+* **Zoom-Viewer:**
+BenutzerdefiniertesBietet geführtes oder nicht geführtes Zoomen mit Bildern, Bildsätzen mit mehreren Ansichten oder Farbfeldersätzen.
 
 ## Erstellen und Bearbeiten von Zoom-Viewer-Vorgaben {#creating-and-editing-zoom-viewer-presets}
 
@@ -51,9 +56,11 @@ Führen Sie zum Erstellen oder Bearbeiten einer Zoom-Viewer-Vorgabe folgende Sch
 1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Erstellen einer Vorgabe** Klicken Sie auf Hinzufügen. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie einen Zoom-Viewer und klicken Sie auf &quot;Hinzufügen&quot;. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
+   * **Erstellen einer**
+VorgabeKlicken Sie auf Hinzufügen. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie einen Zoom-Viewer und klicken Sie auf &quot;Hinzufügen&quot;. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
 
-   * **Bearbeiten einer Vorgabe** Wählen Sie eine Zoom-Viewer-Vorgabe aus und klicken Sie dann auf 
+   * **Bearbeiten einer**
+VorgabeWählen Sie eine Zoom-Viewer-Vorgabe und klicken Sie dann auf 
 **Bearbeiten**.
 
 1. Wählen Sie die gewünschten Einstellungen aus.
@@ -63,7 +70,7 @@ Führen Sie zum Erstellen oder Bearbeiten einer Zoom-Viewer-Vorgabe folgende Sch
    Im Anzeigebereich „Vorschau“ werden jeweils die Auswirkungen der vorgenommenen Änderungen angezeigt.
 
 1. Klicken Sie auf **Speichern** oder **Speicher unter**.
-1. Überprüfen Sie im Anzeigebereich „Viewer-Vorgaben“ die neu erstellte Zoom-Viewer-Vorgabe bzw. Zoom-Viewer-Vorgabe für geführtes Zoomen. If it needs adjusting, click **Edit**, change settings on the Configure Viewer screen, and click **Save**.
+1. Überprüfen Sie im Anzeigebereich „Viewer-Vorgaben“ die neu erstellte Zoom-Viewer-Vorgabe bzw. Zoom-Viewer-Vorgabe für geführtes Zoomen. Wenn Sie eine Anpassung vornehmen müssen, klicken Sie auf **Bearbeiten**, ändern Sie die Einstellungen im Bildschirm &quot;Viewer konfigurieren&quot;und klicken Sie auf **Speichern**.
 
 Informationen zum Verwalten von Viewer-Vorgaben im Anzeigebereich „Viewer-Vorgaben“ finden Sie unter [Viewer-Vorgaben](application-setup.md#viewer_presets).
 
