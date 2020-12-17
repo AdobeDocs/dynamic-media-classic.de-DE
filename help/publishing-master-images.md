@@ -20,15 +20,15 @@ ht-degree: 30%
 
 # Veröffentlichen der Masterbilder{#publishing-master-images}
 
-Beim Veröffentlichen der Bilddateien werden diese auf den Image-Servern von Dynamic Media veröffentlicht, damit sie für Ihre Website und Anwendung zur Verfügung stehen. Außerdem aktiviert Dynamic Media Classic während des Veröffentlichungsvorgangs die URL-Zeichenfolgen, die Sie für Ihre Website und Anwendung benötigen.
+Beim Veröffentlichen der Bilddateien werden diese auf den Dynamic Media-Image-Servern veröffentlicht, damit sie für Ihre Website und Anwendung zur Verfügung stehen. Darüber hinaus aktiviert Dynamic Media Classic während des Veröffentlichungsvorgangs die URL-Zeichenfolgen, die Sie für Ihre Website und Anwendung benötigen.
 
 ## Markieren von Masterbildern zur Veröffentlichung {#marking-master-images-for-publish}
 
-Übergeordnet zu veröffentlichende Bilder müssen markiert werden, damit sie auf Dynamic Media Image Server kopiert werden können. Sie können Ihre Übergeordnet zur Veröffentlichung bestimmten Bilder im Durchsuchenbedienfeld markieren, indem Sie auf das Symbol &quot;Zur Veröffentlichung markieren&quot;klicken. Sie können Bilder auch zum Veröffentlichen markieren, wenn Sie sie in Dynamic Media Classic hochladen.
+Übergeordnet zu veröffentlichende Bilder müssen markiert werden, damit sie auf Dynamic Media Image Server kopiert werden können. Sie können Ihre Übergeordnet zur Veröffentlichung bestimmten Bilder im Durchsuchenbedienfeld markieren, indem Sie auf das Symbol &quot;Zur Veröffentlichung markieren&quot;klicken. Sie können Bilder auch beim Hochladen in Dynamic Media Classic zur Veröffentlichung markieren.
 
 ## Veröffentlichen von Masterbildern {#publishing-your-master-images}
 
-Um Übergeordnet Bilder auf den Image-Servern von Dynamic Media zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf &quot;Veröffentlichen&quot;. Wählen Sie dann eine Option für „Wann“ (entweder „Einmalig“ oder „Wiederkehrend“), geben Sie optional einen Namen für den Veröffentlichungsauftrag ein und klicken Sie anschließend auf die Schaltfläche „Veröffentlichungsvorgang starten“.
+Um Übergeordnet Bilder auf Dynamic Media-Image-Servern zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf &quot;Veröffentlichen&quot;. Wählen Sie dann eine Option für „Wann“ (entweder „Einmalig“ oder „Wiederkehrend“), geben Sie optional einen Namen für den Veröffentlichungsauftrag ein und klicken Sie anschließend auf die Schaltfläche „Veröffentlichungsvorgang starten“.
 
 >[!NOTE]
 >
