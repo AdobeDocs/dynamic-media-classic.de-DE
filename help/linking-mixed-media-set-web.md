@@ -41,11 +41,11 @@ Nach der Veröffentlichung eines gemischten Mediensets können Sie dessen URL ab
 
       Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**URL kopieren**“.
 
-## Hinzufügen von URLs für gemischte Mediensets zur Website {#add-mixed-media-set-urls-to-your-web-page}
+## Hinzufügen von URLs für gemischte Mediensets zur Website  {#add-mixed-media-set-urls-to-your-web-page}
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines gemischten Mediensets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das gemischte Medienset in einem gemischtes Medienset-Viewer-Fenster angezeigt wird.
 
-## Kopieren von Einbettungscode eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Kopieren von Einbettungscode eines Viewers für gemischte Mediensets  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung des Codes ist im Dialogfeld Einbettungscode nicht zulässig.
 
