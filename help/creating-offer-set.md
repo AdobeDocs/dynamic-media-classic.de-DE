@@ -26,23 +26,26 @@ Sie können die folgenden Angebotsset-Typen erstellen:
 * Parametrisierte Vorlage
 * Bild
 
-For templates, click **Add and Preview**, then set the parameters you choose. Die anderen Angebotsset-Typen enthalten keine Parameter, aber Sie können sie dennoch anpassen, indem Sie auf **Vorschau** klicken und die verfügbaren Vorgaben ändern.
+Klicken Sie für Vorlagen auf **Hinzufügen und Vorschau** und legen Sie dann die gewünschten Parameter fest. Die anderen Angebotsset-Typen enthalten keine Parameter, aber Sie können sie dennoch anpassen, indem Sie auf **Vorschau** klicken und die verfügbaren Vorgaben ändern.
 
-Werkzeuge für Angebote aus Dynamic Media Classic zum Bearbeiten und Erstellen von Angebot-Sets.
+Dynamic Media Classic-Angebote zum Bearbeiten und Erstellen von Angebot-Sets.
 
 >[!NOTE]
 >
->Bevor Sie ein Angebot-Set erstellen, vergewissern Sie sich, dass Sie alle Assets veröffentlichen, die Sie für den Satz &quot;Dynamisch Media Classic&quot;verwenden möchten. Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
+>Bevor Sie ein Angebot-Set erstellen, vergewissern Sie sich, dass Sie alle Assets veröffentlichen, die Sie für das Set mit Dynamic Media Classic verwenden möchten. Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 ## Angebotsset-Typen {#types-of-offer-sets}
 
 Erstellen Sie ein Angebotsset aus den folgenden Angebotsset-Typen:
 
-* **Bilder** Sie können Bilder für ein Angebot zusammenstellen. Jedes Bild enthält ein anderes Angebot im Set.
+* ****
+BilderSie können Bilder für ein Angebot-Set zusammenstellen. Jedes Bild enthält ein anderes Angebot im Set.
 
-* **Bildvorlage** Sie können Bildvorlagen in Dynamic Media Classic mit dem Befehl &quot;Erstellen&quot;> &quot;Vorlagen aus Grundelementen&quot;parametrisieren. Mithilfe von Parametern können Komponenten der Vorlage (Text in Textrahmen, die verschiedenen Bilder) ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern verschiedene Varianten desselben Bildes erstellen. Weitere Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter Erstellen von Vorlagenparametern.
+* **Bildvorlage**
+Sie können Bildvorlagen in Dynamic Media Classic mit dem Befehl &quot;Erstellen&quot;> &quot;Vorlagen aus Grundelementen&quot;parametrisieren. Mithilfe von Parametern können Komponenten der Vorlage (Text in Textrahmen, die verschiedenen Bilder) ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern verschiedene Varianten desselben Bildes erstellen. Weitere Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter Erstellen von Vorlagenparametern.
 
-* **Video** Sie können Videos für ein Videoset zusammenstellen. Jedes Video besteht dabei aus einem anderen Angebot im Set.
+* ****
+VideoSie können Videos für ein Videoset zusammenstellen. Jedes Video besteht dabei aus einem anderen Angebot im Set.
 
 ## Erstellen eines Angebot-Sets mit einer parametrisierten Vorlage {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -72,12 +75,12 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    Auf der Seite &quot;Test&amp;Zielgruppe-Angebot-Set&quot;werden die von Ihnen erstellten Angebot Liste.
 
 1. Wiederholen Sie die Schritte 3 bis 5, um weitere Angebote für das Set zu erstellen.
-1. When you finish, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
-1. Click **Close**, enter a name for the offer set, and then click **Save**.
+1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
+1. Klicken Sie auf **Schließen**, geben Sie einen Namen für den Angebot-Satz ein und klicken Sie dann auf **Speichern**.
 
 Bevor Sie die Seite &quot;Test&amp;Zielgruppe-Angebot-Set&quot;schließen, schieben Sie das Angebot auf Target Standard/Premium. Siehe [Weiterleiten von Angebotssets an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Creating an offer set with images or videos {#creating-an-offer-set-with-images-or-videos}
+## Erstellen eines Angebot-Sets mit Bildern oder Videos {#creating-an-offer-set-with-images-or-videos}
 
 Wenn Sie ein Angebotsset erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -92,9 +95,11 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Stellen Sie Bilder oder Videos für das Angebot-Set zusammen. Beginn im Bildschirm &quot;Test&amp;Zielgruppe-Angebot-Set&quot;oder in der Ansicht &quot;Raster-Ansicht&quot;oder &quot;Liste&quot;und verwenden Sie eine der folgenden Methoden:
 
-   * **Bildschirm**&quot;Test&amp;Zielgruppe-Angebot-Set&quot; **[!UICONTROL Klicken Sie auf]** Erstellen > Test&amp;Zielgruppe-Angebot-Set. Ziehen Sie die Bilder oder Videos in den Anzeigebereich. Wenn Sie verschiedene Video- oder Bildgrößen erstellen möchten, ziehen Sie mehrere Kopien des Bildes oder Videos in den Anzeigebereich und legen Sie jede Größe einzeln fest.
+   * **Test&amp;Zielgruppe Angebot Set**
+screenKlicken Sie auf  **[!UICONTROL Erstellen > Test&amp;Zielgruppe Angebot Set]**. Ziehen Sie die Bilder oder Videos in den Anzeigebereich. Wenn Sie verschiedene Video- oder Bildgrößen erstellen möchten, ziehen Sie mehrere Kopien des Bildes oder Videos in den Anzeigebereich und legen Sie jede Größe einzeln fest.
 
-   * **Raster- oder Liste-Ansicht** Wählen Sie die Bilder oder Videos aus und klicken Sie dann auf **[!UICONTROL Erstellen > Test&amp;Zielgruppe-Angebot-Set]**.
+   * **Raster- oder Liste-**
+AnsichtWählen Sie die Bilder oder Videos aus und klicken Sie dann auf  **[!UICONTROL Erstellen > Test&amp;Zielgruppe-Angebot-Set]**.
 
 1. Optional können Sie ein Bild oder Video auswählen und auf **Vorschau** klicken. Auf der Seite &quot;Vorschau Angebote&quot;können Sie die Größe und das Aussehen des ausgewählten Bildes oder Videos ändern. Sie können auch alle Angebote oder Videos im Videoset ändern.
 
@@ -103,12 +108,12 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    Klicken Sie auf **Speichern**, um Ihre Änderungen am Bild- oder Videoangebot zu speichern. Klicken Sie anschließend auf **Schließen**, um zur Seite „Test&amp;Target-Angebotsset“ zurückzukehren.
 
-1. After you finish creating offers for the offer set and choosing Image Presets for different images, ensure that **Publish after save** is selected (default).
+1. Nachdem Sie die Angebote für den Bildsatz erstellt und Bildvorgaben für verschiedene Angebote ausgewählt haben, stellen Sie sicher, dass **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, geben Sie einen Namen für das Angebotsset ein und klicken Sie auf **Speichern**.
 
 Bevor Sie die Seite &quot;Test&amp;Zielgruppe-Angebot-Set&quot;schließen, schieben Sie das Angebot auf Target Standard/Premium. Siehe [Weiterleiten von Angebotssets an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Bearbeiten eines Angebotssets {#editing-an-offer-set}
+## Bearbeiten eines Angebotssets  {#editing-an-offer-set}
 
 Je nachdem, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -123,23 +128,27 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 **So bearbeiten Sie ein Angebotsset**
 
-1. To edit an offer set, display the offer set in Grid view or List view, and then click its **Edit** rollover button.
+1. Um einen Angebot-Satz zu bearbeiten, zeigen Sie den Angebot-Satz in der Ansicht &quot;Raster&quot;oder &quot;Liste&quot;an und klicken Sie dann auf die Rollover-Schaltfläche **Bearbeiten**.
 1. Führen Sie auf der Seite &quot;Test&amp;Zielgruppe-Angebot-Set&quot;einen der folgenden Schritte aus:
 
-   * **Entfernen eines Angebots** Wählen Sie das Angebot aus und klicken Sie auf 
-**Löschen** , um ein Angebot aus dem Satz zu entfernen.
-   * **Hinzufügen eines Angebots** Wie Sie ein Angebot hinzufügen, hängt davon ab, mit welchem Angebot Sie arbeiten:
-   * **Vorlagen** Klicken 
+   * **Entfernen eines**
+AngebotsWählen Sie das Angebot aus und klicken Sie auf 
+**Löschen Sie** ein Angebot aus dem Satz.
+   * **Hinzufügen eines**
+AngebotsWie Sie ein Angebot hinzufügen, hängt vom Typ des Angebots ab, mit dem Sie arbeiten:
+   * ****
+TemplatesClick 
 **hinzufügen &amp; Vorschau** und erstellen Sie auf der Seite &quot;Angebote für Hinzufügen und Vorschau&quot;ein weiteres Angebot.
-   * **Bilder und Videos** Ziehen Sie ein Angebot oder Video auf die Seite &quot;Test&amp;Zielgruppe-Set&quot;.
+   * **Bilder und**
+VideosZiehen Sie ein Angebot oder Video auf die Seite &quot;Test&amp;Zielgruppe-Set&quot;.
    >[!NOTE]
    >
    >Angebotssets, die einer Kampagne zugeordnet sind, können nicht gelöscht werden. Um einen mit einer Kampagne verknüpften Angebot-Satz zu löschen, melden Sie sich bei Target Standard/Premium an und entfernen Sie zuerst die Kampagne-Verknüpfungen. Selbst nach dem Aufheben der Verknüpfung mit einer Kampagne kann das Asset nur aus Dynamischer Medienklassik gelöscht werden, wozu eine Anmeldung bei Target Standard/Premium erforderlich ist, und nicht aus Target Standard/Premium.
 
-1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
+1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
 
-## Löschen eines Angebotssets {#deleting-an-offer-set}
+## Löschen eines Angebotssets  {#deleting-an-offer-set}
 
 Wenn Sie ein Angebotsset löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
