@@ -25,5 +25,5 @@ ht-degree: 54%
 1. Schalten Sie alle Ereignis auf der Seite &quot;Adobe Analytics-Konfiguration&quot;in Dynamic Media Classic aus.
 1. Speichern und veröffentlichen Sie.
 
-This turns off the support through Dynamic Media Classic and through URLs obtained from the **CopyURL** feature. Wenn Sie eine benutzerdefinierte Verfolgung implementieren, deaktivieren Sie die Verfolgung durch Adobe Analytics gemäß der Konfiguration auf der Seite „Konfiguration“, um Konflikte mit der benutzerdefinierten Implementierung zu verhindern.
+Dadurch wird die Unterstützung für Dynamic Media Classic und über URLs deaktiviert, die mit der Funktion **CopyURL** abgerufen werden. Wenn Sie eine benutzerdefinierte Verfolgung implementieren, deaktivieren Sie die Verfolgung durch Adobe Analytics gemäß der Konfiguration auf der Seite „Konfiguration“, um Konflikte mit der benutzerdefinierten Implementierung zu verhindern.
 
