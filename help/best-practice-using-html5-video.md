@@ -20,7 +20,7 @@ ht-degree: 30%
 
 # Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers{#best-practice-using-the-html-video-viewer}
 
-Die Dynamic Media Classic HTML5 Video-Viewer-Vorgaben sind robuste Video-Player. Auf der Entwurfsseite des Players können Sie alle Funktionen des Videoplayers mit standardmäßigen Webentwicklungstools erstellen. Sie können beispielsweise die Schaltflächen, die Steuerelemente und den benutzerdefinierten Standbildhintergrund mithilfe von HTML5 und CSS gestalten, um Ihren Kunden ein benutzerdefiniertes Erscheinungsbild zu bieten.
+Die HTML5-Video-Viewer-Vorgaben von Dynamic Media Classic sind robuste Video-Player. Auf der Entwurfsseite des Players können Sie alle Funktionen des Videoplayers mit standardmäßigen Webentwicklungstools erstellen. Sie können beispielsweise die Schaltflächen, die Steuerelemente und den benutzerdefinierten Standbildhintergrund mithilfe von HTML5 und CSS gestalten, um Ihren Kunden ein benutzerdefiniertes Erscheinungsbild zu bieten.
 
 Bei der Wiedergabe erkennt der Viewers automatisch die Videofähigkeit des Browsers. Anschließend wird das Video mit HLS (adaptives Video-Streaming) bereitgestellt. Oder, wenn diese Versand-Methode nicht vorhanden ist, wird stattdessen progressives HTML5 verwendet.
 
@@ -34,7 +34,7 @@ Beim adaptiven Video-Streaming für Desktop- und Mobilgeräte basieren die für 
 
 Die Videowiedergabe erfolgt entweder über HLS oder progressives Video. HLS (HTTP Live Streaming) ist ein Apple-Standard für adaptives Video-Streaming, mit dem die Wiedergabe automatisch an die Netzwerkbandbreitenkapazität angepasst wird. Sie ermöglicht dem Kunden auch, zu jedem Punkt im Video zu suchen, ohne dass der Rest des Videos heruntergeladen werden muss. Siehe auch [HTTP Live Streaming](https://developer.apple.com/streaming/). Progressives Video wird bereitgestellt, indem das Video lokal auf den Desktop-Bildschirm oder das Mobilgerät eines Benutzers heruntergeladen und gespeichert wird.
 
-In der folgenden Tabelle sind die Geräte-, Browser- und Wiedergabemethoden von Videos auf Desktopcomputern und Mobilgeräten mit dem Dynamic Media Classic Video Viewer beschrieben.
+In der folgenden Tabelle sind das Gerät, der Browser und die Wiedergabe von Videos auf Desktopcomputern und Mobilgeräten mit dem Dynamic Media Classic Video Viewer beschrieben.
 
 | Gerät | Browser | Videowiedergabemodus |
 |--- |--- |--- |
