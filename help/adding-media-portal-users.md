@@ -26,7 +26,7 @@ Als Administrator können Sie Benutzer hinzufügen und verwalten, entscheiden, o
 >
 >Bevor Sie Benutzer hinzufügen können, müssen Sie Gruppen einrichten, um die Benutzer zu verwalten. In Media Portal können Benutzer nur hinzugefügt werden, wenn sie gleichzeitig einer oder mehreren Gruppen zugewiesen werden. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Media Portal-Gruppen](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## Handhabung von Media Portal-Kennwörtern {#handling-media-portal-passwords}
+## Handhabung von Media Portal-Kennwörtern  {#handling-media-portal-passwords}
 
 Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer erhalten eine E-Mail mit einem Kennwort, wenn Sie sie anmelden. Administratoren können entscheiden, ob Media Portal-Benutzer dieses Kennwort ändern dürfen.
 
@@ -38,7 +38,7 @@ Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer erhalten eine E-Ma
 >
 >Media Portal-Benutzer, die Kennwörter ändern dürfen, klicken auf **[!UICONTROL „Einstellungen“]** > **[!UICONTROL „Persönliche Einstellungen“]** und ändern Kennwörter im Bildschirm „Persönliche Einstellungen“.
 
-## Hinzufügen eines Media Portal-Benutzers {#adding-a-media-portal-user}
+## Hinzufügen eines Media Portal-Benutzers  {#adding-a-media-portal-user}
 
 1. Klicken Sie auf **[!UICONTROL „Einstellungen“]** > **[!UICONTROL „Anwendungseinstellungen“]** > **[!UICONTROL „Administrationseinstellungen“]** > **[!UICONTROL „Benutzerverwaltung“]**.
 1. Klicken Sie auf der Seite „Benutzerverwaltung“ auf **„Hinzufügen“**.
@@ -60,13 +60,13 @@ Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer erhalten eine E-Ma
 
 Nachdem ein Benutzer hinzugefügt wurde, erhält er von Media Portal eine Begrüßungs-E-Mail. Die Nachricht enthält ein temporäres Passwort und die Media Portal-URL.
 
-## Hochladen einer Media Portal-Benutzerliste {#uploading-a-media-portal-user-list}
+## Hochladen einer Media Portal-Benutzerliste  {#uploading-a-media-portal-user-list}
 
 Um viele Benutzer gleichzeitig hinzuzufügen, können Sie eine Benutzerliste hochladen. Die Benutzer werden automatisch dem derzeit ausgewählten Konto hinzugefügt.
 
 Erstellen Sie die Benutzerliste mit den Benutzerdaten als CSV-Datei (kommagetrennte Werte). Nach dem Hochladen der Liste werden die Benutzer in der Liste dem Konto automatisch mit ihren angegebenen Gruppenzuweisungen hinzugefügt. Jeder Benutzer erhält eine Begrüßungs-E-Mail mit einer Verknüpfung zum Media Portal und einem temporären Kennwort.
 
-### Erstellen der CSV-Datei {#creating-the-csv-file}
+### Erstellen der CSV-Datei  {#creating-the-csv-file}
 
 Erstellen Sie eine CSV-Datei (dateiname.csv), die dem folgenden Format entspricht. In der ersten Zeile der Datei müssen die in dieser Tabelle aufgelisteten Spaltenüberschriften enthalten sein. Die Sortierung der Spalten ist unerheblich. Alle Spalten sind erforderlich.
 
@@ -87,7 +87,7 @@ Die folgende Beispieltabelle zeigt, wie eine CSV-Datei aussehen muss:
 | Kevin | Marks | `kevinm@myco.com` | willkommen | Media Portal-Benutzer | PortalCo/MktgGroup, PortalCo/test |
 
 
-### Hochladen der CSV-Datei {#uploading-the-csv-file}
+### Hochladen der CSV-Datei  {#uploading-the-csv-file}
 
 1. Öffnen Sie unter „Einstellungen“ den Anzeigebereich „Benutzerverwaltung“.
 1. Klicken Sie auf **[!UICONTROL „Benutzerliste hochladen“]**.
@@ -99,7 +99,7 @@ Alle Benutzer in der Liste werden automatisch den angegebenen Gruppen hinzugefü
 >
 >Wenn die CSV-Datei nicht ordnungsgemäß formatiert war, wird die folgende Fehlermeldung angezeigt: „Bei der Verarbeitung der hochgeladenen CSV-Datei ist ein Fehler aufgetreten. Überprüfen Sie den Inhalt der Datei auf gültige Daten.“ Wenn die CSV-Datei einen vorhandenen IP- oder IPS-Benutzer enthält, wird dieser nicht der Benutzerliste hinzugefügt.
 
-## Generieren einer auswählbaren Media Portal-Benutzerliste {#generating-a-selectable-list-of-media-portal-users}
+## Generieren einer auswählbaren Media Portal-Benutzerliste  {#generating-a-selectable-list-of-media-portal-users}
 
 Sie können die Namen und E-Mail-Adressen von Media Portal-Benutzern in einem Popup-Fenster anzeigen. Dies ist nützlich, wenn Sie Benutzernamen und Adressen kopieren und in eine Anwendung außerhalb von Media Portal einfügen möchten.
 
@@ -107,32 +107,32 @@ Sie können die Namen und E-Mail-Adressen von Media Portal-Benutzern in einem Po
 1. Wählen Sie in der Dropdown-Liste **[!UICONTROL „Nach Benutzerrolle“]** eine Media Portal-Rolle aus und klicken Sie auf **[!UICONTROL „Aktualisieren“]**, um die Namen einer Klasse von Media Portal-Benutzern anzuzeigen.
 1. Klicken Sie auf **[!UICONTROL „Popup-Liste“]**, um das Popup-Fenster zu öffnen. Sie können diese Liste kopieren und einfügen.
 
-## Einrichten der Begrüßungs-E-Mail für Media Portal-Benutzer {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
+## Einrichten der Begrüßungs-E-Mail für Media Portal-Benutzer  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer senden lassen, die Sie hinzufügen. Sie können diese E-Mail-Nachricht konfigurieren oder Dynamic Media Classic anweisen, sie nicht zu senden.
 
 1. Wählen Sie **[!UICONTROL „Einstellungen“]** > **[!UICONTROL „Anwendungseinstellungen“]** > **[!UICONTROL „Administrationseinstellungen“]** > **[!UICONTROL „Benutzerverwaltung“]**.
-1. In the User Administration Setup screen, click **[!UICONTROL Email Settings]**.
+1. Klicken Sie im Bildschirm &quot;Benutzerverwaltung&quot;auf **[!UICONTROL E-Mail-Einstellungen]**.
 1. Nehmen Sie im Dialogfeld „E-Mail-Einstellungen“ folgende Einstellungen vor:
 
-   **[!UICONTROL E-Mail]** senden Wenn diese Option deaktiviert ist, können Sie neue Benutzer nicht per E-Mail darüber informieren, dass Sie sie registriert haben.
+   **[!UICONTROL Senden Sie]** E-MailDeaktivieren Sie diese Option, wenn Sie neue Benutzer nicht per E-Mail darüber informieren möchten, dass Sie sie registriert haben.
 
    **[!UICONTROL Standardkennwort]** Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit Dynamic Media Classic zufällige Kennwörter generiert. Benutzer werden bei der ersten Anmeldung gebeten, ihr Kennwort zu ändern.
 
-   **[!UICONTROL Ersatz-URL]** Geben Sie eine URL ein, die sich von der Standard-URL unterscheidet, wenn Ihre Benutzer über eine andere URL auf Dynamic Media Classic zugreifen.
+   **[!UICONTROL Ersatz-]** URLEngeben Sie eine URL ein, die sich vom Standard unterscheidet, wenn Ihre Benutzer über eine andere URL auf Dynamic Media Classic zugreifen.
 
 ## Andere Aufgaben zur Benutzerverwaltung {#other-user-management-tasks}
 
 Über den Anzeigebereich „Benutzerverwaltung“ können Sie außerdem folgende Aufgaben ausführen:
 
-**[!UICONTROL Filtern und Sortieren der Liste]** Benutzer Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu suchen. Siehe Filtern und Sortieren der Benutzerliste.
+**[!UICONTROL Filtern und Sortieren der]** Benutzerliste Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu suchen. Siehe Filtern und Sortieren der Benutzerliste.
 
-**[!UICONTROL Löschen Sie Benutzer]** Löschen Sie einen Benutzer aus der Liste. Siehe Löschen von Benutzern.
+**[!UICONTROL Löschen von]** BenutzernLöschen eines Benutzers aus der Liste Siehe Löschen von Benutzern.
 
-**[!UICONTROL Aktivieren und deaktivieren Sie Benutzer]** , die den Zugriff auf Ordner aussetzen. Siehe Aktivieren und Deaktivieren von Benutzern.
+**[!UICONTROL Aktivieren und Deaktivieren von]** BenutzernBenutzer am Zugriff auf Ordner hindern Siehe Aktivieren und Deaktivieren von Benutzern.
 
-**[!UICONTROL Benutzerinformationen]** bearbeiten Geben Sie aktuelle Informationen zu einem Benutzer ein. Siehe Bearbeiten von Benutzerinformationen.
+**[!UICONTROL Bearbeiten]** von BenutzerinformationenGeben Sie aktuelle Informationen zu einem Benutzer ein. Siehe Bearbeiten von Benutzerinformationen.
 
-**[!UICONTROL Erstellen benutzerdefinierter Felder]** Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, um Assets in der Dynamischen Medienklassik zu organisieren. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
+**[!UICONTROL Erstellen benutzerdefinierter]** FelderErstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, um Assets in Dynamic Media Classic zu organisieren. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
 
 Siehe [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
