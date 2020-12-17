@@ -20,7 +20,7 @@ ht-degree: 52%
 
 # Grundlagen der Navigation{#navigation-basics}
 
-Der Anzeigebereich &quot;Dynamische Medien - Classic&quot;umfasst drei Hauptbereiche: Symbolleiste für globale Navigation, Asset-Bibliothek und Durchsuchenbedienfeld/Erstellenbedienfeld.
+Der Dynamic Media Classic-Bildschirm umfasst drei Hauptbereiche: Symbolleiste für globale Navigation, Asset-Bibliothek und Durchsuchenbedienfeld/Erstellenbedienfeld.
 
 ![Grundlagen der Navigation](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -28,31 +28,31 @@ Der Anzeigebereich &quot;Dynamische Medien - Classic&quot;umfasst drei Hauptbere
 
 Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigebereichs befindet, enthält Schaltflächen zum Ausführen verschiedener Aufgaben:
 
-**Wählen Sie Firma** Wählen Sie die Firma aus, auf die Sie zugreifen möchten. Wenn Sie nur mit einem Unternehmen arbeiten, wird diese Schaltfläche nicht angezeigt.
+**Wählen Sie** FirmaWählen Sie die Firma aus dem Menü aus, auf die Sie zugreifen möchten. Wenn Sie nur mit einem Unternehmen arbeiten, wird diese Schaltfläche nicht angezeigt.
 
-**Hochladen** Öffnet den Anzeigebereich &quot;Hochladen&quot;, in dem Sie Dateien von Ihrem Computer oder Netzwerk in Dynamic Media Classic hochladen können. Die Dateien können entweder vom Desktop oder per FTP hochgeladen werden. Siehe Hochladen von Dateien.
+**** UploadÖffnet den Anzeigebereich &quot;Hochladen&quot;, in dem Sie Dateien von Ihrem Computer oder Netzwerk in Dynamic Media Classic hochladen können. Die Dateien können entweder vom Desktop oder per FTP hochgeladen werden. Siehe Hochladen von Dateien.
 
 **Erstellen** Wählen Sie eine Build-Aufgabe aus dem Menü. Nach der Auswahl wird das Erstellenbedienfeld geöffnet, damit Sie einen Asset-Typ erstellen können.
 
-**Publish** Öffnet den Anzeigebereich &quot;Veröffentlichen&quot;, damit Sie Rich-Media-Assets auf dynamischen Media-Image-Servern und in der übrigen SAAS-Infrastruktur von Dynamic Media Classic veröffentlichen können. Siehe Veröffentlichen.
+**** PublishÖffnet den Anzeigebereich &quot;Veröffentlichen&quot;, damit Sie Rich-Media-Assets auf Dynamic Media-Image-Servern und in der übrigen Dynamic Media Classic SAAS-Infrastruktur veröffentlichen können. Siehe Veröffentlichen.
 
-**Aufträge** Öffnet den Anzeigebereich &quot;Aufträge&quot;, in dem Sie die Datensätze zu Upload- und Veröffentlichungsaufträgen überprüfen können.
+**** AufträgeÖffnet den Anzeigebereich &quot;Aufträge&quot;, in dem Sie Datensätze zu Upload- und Veröffentlichungsaufträgen überprüfen können.
 
-**&quot;Zuletzt** &quot;wird der Bildschirm &quot;Zuletzt verwendete Aktivität&quot;geöffnet, damit Sie die Namen der zuletzt geänderten Assets und der zuletzt bearbeiteten Upload- und Veröffentlichungsaufträge Ansicht haben.
+**&quot;** Zuletzt bearbeitet&quot;Öffnet den Bildschirm &quot;Zuletzt verwendete Aktivität&quot;, in dem Sie die Namen der zuletzt geänderten Assets sowie der letzten Upload- und Veröffentlichungsaufträge Ansicht haben.
 
-**Setup** Öffnet den Anzeigebereich &quot;Einstellungen&quot;, in dem Sie Einstellungs- oder Verwaltungsoptionen zur Optimierung Ihrer Verwendung von Dynamic Media Classic auswählen können. Siehe Einstellungen.
+**** SetupÖffnet den Anzeigebereich &quot;Einstellungen&quot;, in dem Sie Einstellungs- oder Verwaltungsoptionen zur Optimierung Ihrer Verwendung von Dynamic Media Classic auswählen können. Siehe Einstellungen.
 
-**Hilfe** Wählen Sie eine Hilfeoption aus:
+**** HilfeWählen Sie eine Hilfeoption:
 
-**Hilfe > HilfeZu diesem Thema** Öffnet das Hilfesystem zu einer Seite mit Informationen zur derzeit ausgeführten Aufgabe.
+**Hilfe > Hilfe zu diesem** Thema Öffnet das Hilfesystem mit Informationen zur derzeit ausgeführten Aufgabe.
 
-**Hilfe > Videoschulung** Greifen Sie auf Videos zu bestimmten Themen zu, um die ersten Schritte mit den einzelnen Rich-Media-Veröffentlichungs-Arbeitsabläufen zu demonstrieren.
+**Hilfe > Video-** LernprogrammRuft Videos zu bestimmten Themen auf, um die ersten Schritte mit den einzelnen Rich-Media-Veröffentlichungs-Arbeitsabläufen zu demonstrieren.
 
-**Hilfe > Hilfe-Inhalt** Öffnet die Einführungsseite im Hilfesystem. Sie können durch das Inhaltsverzeichnis blättern, um unterschiedliche Themen zu suchen und anzuzeigen.
+**Hilfe > Hilfe-** InhalteÖffnet die Einführungsseite im Hilfesystem. Sie können durch das Inhaltsverzeichnis blättern, um unterschiedliche Themen zu suchen und anzuzeigen.
 
-**Hilfe > Info** Zeigt an, welche Version von Dynamic Media Classic Sie ausführen.
+**Hilfe >** InfoZeigt an, welche Version von Dynamic Media Classic Sie ausführen.
 
-**Hilfe > Support** Zeigt Informationen zum technischen Support von Dynamic Media Classic an.
+**Hilfe >** SupportZeigt Informationen zum technischen Support von Dynamic Media Classic an.
 
 **Abmelden** beendet Dynamic Media Classic.
 
@@ -70,9 +70,9 @@ Im Bedienfeld der Asset-Bibliothek werden oben Befehle zum Suchen von Assets ang
 
 Im Durchsuchen-/Erstellenbedienfeld werden die meisten Arbeitsvorgänge ausgeführt. Was in diesem Bedienfeld angezeigt wird, hängt davon ab, ob Sie gerade im Durchsuchen- oder im Erstellen-Modus arbeiten.
 
-**Durchsuchen-Modus** Wählen Sie in der Asset-Bibliothek einen Ordner aus, der im Durchsuchenbedienfeld Ansicht und bearbeitet werden soll. Für die Arbeit mit Assets stehen Ihnen in diesem Bedienfeld die Menüs „Datei“, „Vorschau“, „Alles auswählen“, „Nichts auswählen“ und „Sortieren nach“ zur Verfügung. Außerdem können Sie die Assets auf verschiedene Art anzeigen, indem Sie den Schieberegler betätigen oder auf „Rasteransicht“ , „Listenansicht“  oder „Detailansicht“  klicken. Wenn Sie auf „Detailansicht“ klicken oder auf ein bestimmtes Asset doppelklicken, wird das Asset in der Detailansicht geöffnet, in der Sie assetspezifische Dateivorgänge ausführen können.
+**Durchsuchen-** ModusWählen Sie in der Asset-Bibliothek einen Ordner aus, der im Durchsuchenbedienfeld Ansicht und bearbeitet werden soll. Für die Arbeit mit Assets stehen Ihnen in diesem Bedienfeld die Menüs „Datei“, „Vorschau“, „Alles auswählen“, „Nichts auswählen“ und „Sortieren nach“ zur Verfügung. Außerdem können Sie die Assets auf verschiedene Art anzeigen, indem Sie den Schieberegler betätigen oder auf „Rasteransicht“ , „Listenansicht“  oder „Detailansicht“  klicken. Wenn Sie auf „Detailansicht“ klicken oder auf ein bestimmtes Asset doppelklicken, wird das Asset in der Detailansicht geöffnet, in der Sie assetspezifische Dateivorgänge ausführen können.
 
-**Erstellen Sie im Modus** Erstellen einen Beginn, um einen E-Katalog, einen Bildsatz, ein Rotationsset oder eines der anderen verfügbaren Elemente im Menü Erstellen zu erstellen. Der Anzeigebereich „Erstellen“ wird geöffnet. Sie können sowohl vor als auch nach dem Aktivieren des Erstellen-Modus die Assets auswählen, mit denen Sie arbeiten möchten.
+**Erstellen** des ModusKlicken Sie auf Erstellen und wählen Sie dann eine Option, um einen Beginn zum Erstellen eines E-Katalogs, eines Bildsatzes, eines Rotationssets oder eines der anderen verfügbaren Elemente im Menü Erstellen zu erstellen. Der Anzeigebereich „Erstellen“ wird geöffnet. Sie können sowohl vor als auch nach dem Aktivieren des Erstellen-Modus die Assets auswählen, mit denen Sie arbeiten möchten.
 
 >[!MORELIKETHIS]
 >
