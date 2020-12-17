@@ -18,7 +18,7 @@ ht-degree: 87%
 ---
 
 
-# Previewing image assets with different Zoom viewers{#previewing-image-assets-with-different-zoom-viewers}
+# Anzeigen einer Vorschau von Bild-Assets mit verschiedenen Zoom-Viewern{#previewing-image-assets-with-different-zoom-viewers}
 
 Im Anzeigebereich „Viewer-Liste“ können Sie sich eine Vorschau von Bildern mit unterschiedlichen Zoom-Viewer-Vorgaben ansehen. 
 
