@@ -35,25 +35,25 @@ Beim Erstellen von Imagemaps haben Sie die folgenden Möglichkeiten:
 * Andere vom W3C (World Wide Web Consortium) festgelegte Aktionen definieren
 * Vorschau der Imagemaps anzeigen
 
-## Zeichnen und Anpassen einer Imagemap {#drawing-and-adjusting-an-image-map}
+## Zeichnen und Anpassen einer Imagemap  {#drawing-and-adjusting-an-image-map}
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * If you are working with an image in the Grid View or List View, in the Edit drop-down list click **Image Map**. Or, open it in Detail View, and then click **Image Map** above the image.
-   * If you are working with a SpinSet in the Grid View or List View, click **Edit**. Or, open it in Detail View, and then click **Edit**. Select an image asset, and then click **Image Map**.
-   * If you are working with an eCatalog, in the Grid View, List View, Detail View, click **Edit**. Click the **Map Pages** tab.
+   * Wenn Sie mit einem Bild in der Ansicht &quot;Raster&quot;oder &quot;Liste&quot;arbeiten, klicken Sie in der Dropdown-Liste &quot;Bearbeiten&quot;auf **Imagemap**. Oder öffnen Sie es in der Detail-Ansicht und klicken Sie dann auf **Imagemap** über dem Bild.
+   * Wenn Sie mit einem Rotationsset in der Ansicht &quot;Raster&quot;oder &quot;Liste&quot;arbeiten, klicken Sie auf **Bearbeiten**. Oder öffnen Sie es in der Detail-Ansicht und klicken Sie dann auf **Bearbeiten**. Wählen Sie ein Bild-Asset aus und klicken Sie dann auf **Imagemap**.
+   * Wenn Sie mit einem E-Katalog arbeiten, klicken Sie in der Ansicht &quot;Raster&quot;, &quot;Liste&quot;, &quot;Detail&quot;auf **Bearbeiten**. Klicken Sie auf die Registerkarte **Imagemap-Seiten**.
 
    ![](assets/ma_image_map.png)
 
 1. Sie können eine rechteckige oder polygonale Imagemap zeichnen:
 
-   **Rechteckige Imagemap** Wählen Sie das Rechteck-Imagemap-Werkzeug aus und ziehen Sie es auf die Seite, um das Rechteck zu erstellen. Um einen Punkt zu einer rechteckigen Map hinzuzufügen (und sie so in eine polygonale verweissensitive Grafik zu ändern), drücken Sie die Strg-Taste, platzieren Sie das Einfügen-Werkzeug an der gewünschten Position und klicken Sie.
+   **Rechteckige** ImagemapWählen Sie das Rechteck-Imagemap-Werkzeug aus und ziehen Sie es auf die Seite, um das Rechteck zu erstellen. Um einen Punkt zu einer rechteckigen Map hinzuzufügen (und sie so in eine polygonale verweissensitive Grafik zu ändern), drücken Sie die Strg-Taste, platzieren Sie das Einfügen-Werkzeug an der gewünschten Position und klicken Sie.
 
-   **Polygonale Imagemap** Wählen Sie das Polygon-Imagemap-Werkzeug aus und klicken Sie auf Punkte auf den Bereich des Bildes, den Sie einschließen möchten. Verwenden Sie den Regler für die Dichte des Polygons, um die Punktdichte im Polygon zu ändern. Die ursprüngliche Dichte wird wiederhergestellt, wenn Sie andere Maps auswählen. Wenn ein Punkt im Polygon hinzugefügt, gelöscht oder verschoben wird, wird die ursprüngliche Dichte verworfen und der Regler auf den Maximalwert zurückgesetzt.
+   **Polygonale** ImagemapWählen Sie das Polygon-Imagemap-Werkzeug aus und klicken Sie auf Punkte auf den Bereich des Bildes, den Sie einschließen möchten. Verwenden Sie den Regler für die Dichte des Polygons, um die Punktdichte im Polygon zu ändern. Die ursprüngliche Dichte wird wiederhergestellt, wenn Sie andere Maps auswählen. Wenn ein Punkt im Polygon hinzugefügt, gelöscht oder verschoben wird, wird die ursprüngliche Dichte verworfen und der Regler auf den Maximalwert zurückgesetzt.
 
 1. Geben Sie optional in der Imagemap-Liste einen Namen für die Imagemap ein. Nachdem Sie eine Imagemap gezeichnet haben, weist Dynamic Media Classic ihr einen Namen zu.
 
-   Um den Namen zu erstellen, hängt Dynamic Media Classic eine fortlaufende Nummer an den Namen des Bilds oder der E-Katalog-Seite an, mit der Sie arbeiten. Sie können jedoch auch einen Namen Ihrer Wahl eingeben.
+   Um den Namen zu erstellen, hängt Dynamic Media Classic eine fortlaufende Nummer an den Namen des Bilds oder der E-Katalogseite an, mit der Sie arbeiten. Sie können jedoch auch einen Namen Ihrer Wahl eingeben.
 
 1. Wenn die Benutzer durch Klicken auf die Imagemap eine neue Website öffnen können sollen, geben Sie in der Imagemap-Liste die entsprechende URL ein. 
 
@@ -72,25 +72,25 @@ Beim Erstellen von Imagemaps haben Sie die folgenden Möglichkeiten:
 
 1. Klicken Sie auf „Speichern“.
 
-### Anpassen der Position, Form und Größe von Imagemaps {#adjusting-the-position-shape-and-size-of-image-maps}
+### Anpassen der Position, Form und Größe von Imagemaps  {#adjusting-the-position-shape-and-size-of-image-maps}
 
 Um die Position, Form und Größe einer Imagemap zu ändern, klicken Sie auf „Imagemap“ . Wählen Sie dann das Schwenken-Werkzeug aus und befolgen Sie die folgenden Anweisungen:
 
-**Ändern der Position** Bewegen Sie den Zeiger nahe an den Rand der Imagemap, jedoch nicht darüber. Wenn der Mauszeiger als Vierfachpfeil dargestellt wird, ziehen Sie die Imagemap an eine andere Position.
+**Ändern der** PositionBewegen Sie den Zeiger nahe am Rand der Imagemap, jedoch nicht darüber. Wenn der Mauszeiger als Vierfachpfeil dargestellt wird, ziehen Sie die Imagemap an eine andere Position.
 
-**Ändern der Größe und Form** Wie Sie Form und Größe einer Imagemap ändern, hängt davon ab, ob Sie mit einer rechteckigen oder polygonalen Imagemap arbeiten:
+**Ändern von Größe und** FormWie Sie Form und Größe einer Imagemap ändern, hängt davon ab, ob Sie mit einer rechteckigen oder polygonalen Imagemap arbeiten:
 
 ***Tipp **: Sie können den Schieberegler &quot;Größe&quot;unten im Bildschirm ziehen, um die Ansichten zu ändern und die Imagemap besser zu betrachten.*
 
-**Rechteckige Imagemap** Bewegen Sie den Mauszeiger über eine Seite oder Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie mit der Maus. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, dabei jedoch das Seitenverhältnis (die Form) beizubehalten.
+**Rechteckige Imagemap** Bewegen des Mauszeigers über eine Seite oder Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie mit der Maus. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, dabei jedoch das Seitenverhältnis (die Form) beizubehalten.
 
-**Polygonale Imagemap** Ziehen Sie einen quadratischen Auswahlpunkt. Um einen Auswahlziehpunkt zu erstellen, klicken Sie auf den Rand der Imagemap und beginnen Sie zu ziehen.
+**Polygonale ImagemapZiehen Sie** einen quadratischen Auswahlziehpunkt. Um einen Auswahlziehpunkt zu erstellen, klicken Sie auf den Rand der Imagemap und beginnen Sie zu ziehen.
 
 ### Beheben von überlappenden Imagemaps {#handling-overlapping-image-maps}
 
 Wenn das Bild oder die E-Katalogseite mehrere Imagemaps enthält, die sich überschneiden, können Sie Einstellungen für die Überschneidung festlegen. Ändern Sie dazu in der Imagemap-Liste die Reihenfolge der Imagemaps. Ziehen Sie die Namen zu einer höheren oder niedrigeren Position in der Liste. Die Imagemaps an höheren Positionen überlagern die Imagemaps an niedrigeren Positionen in der Liste.
 
-### Importieren von Imagemap-Daten {#importing-image-map-data}
+### Importieren von Imagemap-Daten  {#importing-image-map-data}
 
 Anstatt auf jeder Seite Imagemap-Daten einzugeben, können Sie auch die Daten für das Bild, das Rotationsset oder den E-Katalog in den Anzeigebereich mit der Imagemap-Zusammenfassung importieren. Die Imagemap-Daten werden in Form einer tabulatorgetrennten oder XML DTD-Datei importiert. Die Felder in der Datei müssen dieselbe Reihenfolge haben, wie im Anzeigebereich mit der Imagemap-Zusammenfassung dargestellt: „Name“, „Inhaltsverz.“, „Imagemaps“, „URLs“, „Rollover-Text“, „Andere Aktionen“ und „Suchzeichenfolgen“. Indem Sie Imagemap-Daten importieren, können Sie sich die Arbeit beim Eingeben der Daten in der Imagemap-Liste zum Erstellen der einzelnen Imagemaps sparen.
 
@@ -105,7 +105,7 @@ Anstatt auf jeder Seite Imagemap-Daten einzugeben, können Sie auch die Daten f�
 1. (Optional) Geben Sie im Feld „Auftragsname“ einen Namen für den Auftrag „Metadaten hochladen“ ein.
 1. Klicken Sie auf „Hochladen“.
 
-### Kopieren von Imagemaps {#copying-image-maps}
+### Kopieren von Imagemaps  {#copying-image-maps}
 
 Sie können Imagemaps zwischen Bildern und E-Katalogseiten kopieren. Kopieren Sie Imagemaps, um sie als Vorlage zum Erstellen anderer Imagemaps zu verwenden. Sie können Imagemaps auch kopieren, um sie auf Bildern oder Seiten mit demselben Layout oder derselben Imagemap-Struktur erneut zu verwenden.
 
@@ -122,15 +122,15 @@ Das Kopieren von Imagemaps in einem E-Katalog ist zum Beispiel eine praktische M
 
 1. Klicken Sie auf „Auswählen“.
 
-## Eingeben von JavaScript-Code und URLs unter Verwendung einer Vorlage {#using-a-template-to-enter-javascript-and-urls}
+## Eingeben von JavaScript-Code und URLs unter Verwendung einer Vorlage  {#using-a-template-to-enter-javascript-and-urls}
 
-Sie können eine URL-Vorlage (auch Href-Vorlage genannt) definieren, um das Eingeben von Imagemap-URLs einfacher und effizienter zu machen. Es ist sinnvoll, eine URL-Vorlage zu definieren, wenn die meisten Ihrer Imagemap-URLs ein gemeinsames festes Format haben. Wenn Sie den gleich bleibenden Teil der URL als Vorlage definieren, brauchen Sie diesen Teil beim Erstellen einer neuen Imagemap-URL nicht jedes Mal erneut einzugeben. Eine URL-Vorlage kann auch JavaScript-Befehle, Pfadnamen und Parameter enthalten. By default, the URL template contains a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens the image in a new window.
+Sie können eine URL-Vorlage (auch Href-Vorlage genannt) definieren, um das Eingeben von Imagemap-URLs einfacher und effizienter zu machen. Es ist sinnvoll, eine URL-Vorlage zu definieren, wenn die meisten Ihrer Imagemap-URLs ein gemeinsames festes Format haben. Wenn Sie den gleich bleibenden Teil der URL als Vorlage definieren, brauchen Sie diesen Teil beim Erstellen einer neuen Imagemap-URL nicht jedes Mal erneut einzugeben. Eine URL-Vorlage kann auch JavaScript-Befehle, Pfadnamen und Parameter enthalten. Standardmäßig enthält die URL-Vorlage einen proprietären Dynamic Media Classic JavaScript-Handler mit dem Namen `loadProduct`, mit dem das Bild in einem neuen Fenster geöffnet wird.
 
 >[!NOTE]
 >
 >Beachten Sie, dass JavaScript-Code, den Sie dem HREF-Attribut Ihrer Imagemap hinzufügen, auf dem Clientcomputer ausgeführt wird. Stellen Sie daher sicher, dass der JavaScript-Code sicher ist.
 
-### URL-Vorlagen {#about-url-templates}
+### URL-Vorlagen  {#about-url-templates}
 
 Eine URL-Vorlage funktioniert so, dass der Inhalt der Spalte „URL“ in der Imagemap-Liste durch ein doppeltes Dollarzeichen (‘$$’) in der Vorlage ersetzt wird: 
 
@@ -144,7 +144,7 @@ Fügen Sie alle Werte, die sich nicht bei jeder Imagemap ändern, in die URL-Vor
 * URL-Wert: `product.htm`
 * Tatsächlich generierte URL: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. Sie können diesen JavaScript-Handler jedoch mit jedem beliebigen JavaScript-Code ersetzen oder einen der folgenden Dynamic Media Classic-Handler verwenden:
+Standardmäßig enthält die URL-Vorlage einen proprietären Dynamic Media Classic JavaScript-Handler mit dem Namen `loadProduct`, der ein neues Fenster mit dem URL-Ziel öffnet. Sie können diesen JavaScript-Handler jedoch mit jedem beliebigen JavaScript-Code ersetzen oder einen der folgenden Dynamic Media Classic-Handler verwenden:
 
 * `loadProductCW`
 
@@ -154,33 +154,33 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    Zeigt das URL-Ziel an, das in der Spalte „URL“ des übergeordneten Fensters (d. h. der Seite, über die die aktuelle Seite geöffnet wurde) angegeben ist. Das aktuelle Fenster bleibt geöffnet, während im übergeordneten Fenster das URL-Ziel angezeigt wird.
 
-   ***Hinweis **: Der Handler unterstützt `loadProductPW` keine DHTML- und HTML5-Viewer.*
+   ***Hinweis **: Der Handler unterstützt  `loadProductPW` keine DHTML- und HTML5-Viewer.*
 
 ### Erstellen einer URL-Vorlage {#creating-a-url-template}
 
 So erstellen Sie eine URL-Vorlage:
 
 1. Klicken Sie im Anzeigebereich „Map-Editor“ (bei Bildern oder Rotationssets) bzw. auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E-Katalog“ (bei E-Katalogseiten) neben der Option „URL-Vorlage“ auf „Bearbeiten“. Das Dialogfeld „Verweisvorlage bearbeiten“ wird geöffnet.
-1. Enter the JavaScript code and the complete URL (with the variable portion replaced by dollar signs [$$]). Sie können den Code einfügen, indem Sie mit der rechten Maustaste klicken und „Einfügen“ wählen.
+1. Geben Sie den JavaScript-Code und die vollständige URL ein (wobei der variable Teil durch Dollarzeichen [$$] ersetzt wird). Sie können den Code einfügen, indem Sie mit der rechten Maustaste klicken und „Einfügen“ wählen.
 1. Klicken Sie auf „Speichern“.
 
-### Arbeiten mit URL-Vorlagen {#handling-url-templates}
+### Arbeiten mit URL-Vorlagen  {#handling-url-templates}
 
 Auf der Seite „Map-Editor“ (bei Bildern und Rotationssets) bzw. der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E-Katalog“ (bei E-Katalogseiten) stehen folgende Befehle zum Einstellen von URL-Vorlagen zur Verfügung:
 
-**Option** &quot;URL-Vorlage&quot;Wählen Sie die Option &quot;URL-Vorlage&quot;, um Ihre URL-Vorlage auf alle Imagemaps auf einem Bild oder einer E-Katalogseite anzuwenden.
+**Option &quot;URL-Vorlage&quot;** Wählen Sie die Option &quot;URL-Vorlage&quot;, um Ihre URL-Vorlage auf alle Imagemaps auf einem Bild oder einer E-Katalogseite anzuwenden.
 
-**Vorlagenoption** : Deaktivieren Sie in der Liste &quot;URL-Imagemap&quot;die Option &quot;Vorlage&quot;, wenn die URL-Vorlage nicht für eine einzelne Imagemap verwendet werden soll.
+**Option &quot;Vorlage&quot;** Deaktivieren Sie in der Liste &quot;URL-Imagemap&quot;die Option &quot;Vorlage&quot;, wenn die URL-Vorlage nicht für eine einzelne Imagemap verwendet werden soll.
 
 ## Festlegen anderer Aktionen für Imagemaps {#defining-other-actions-for-image-maps}
 
 Sie können im Menü „Anzeigen“ die Option „Andere Aktionen“ wählen, um andere Aktionen als die Anzeige von Rollover-Text und den Aufruf von Websites auszulösen. Wenn der Benutzer den Mauszeiger über eine Imagemap bewegt, kann die Aktion ausgelöst werden. Diese Aktionen sind Attribute, die mithilfe der HTML-Spezifikationen des W3C (World Wide Web Consortium) für clientseitige Imagemaps definiert werden. Diese umfassen Folgende:
 
-**access** löst eine Aktion aus, wenn der Benutzer eine bestimmte Taste auf der Tastatur drückt.
+**** accessLöst eine Aktion aus, wenn der Benutzer eine bestimmte Taste auf der Tastatur drückt.
 
-**onfocus** löst ein Ereignis aus, wenn die Imagemap den Fokus erhält - durch Cursor, Tab-Taste oder Drücken einer Zugriffstaste. Sie können beispielsweise eine Website aufrufen, wenn die Imagemap den Fokus erhält, und sie wieder schließen, wenn die Imagemap den Fokus wieder verliert.
+**Löst** ein Ereignis aus, wenn die Imagemap den Fokus erhält - durch Cursor, Tab-Taste oder Drücken einer Zugriffstaste. Sie können beispielsweise eine Website aufrufen, wenn die Imagemap den Fokus erhält, und sie wieder schließen, wenn die Imagemap den Fokus wieder verliert.
 
-**onblur** löst ein Ereignis aus, wenn die Imagemap den Fokus verliert, entweder durch Cursor oder durch Tab-Taste.
+**Löst** ein Ereignis aus, wenn die Imagemap den Fokus verliert, entweder durch Cursor oder durch Drücken der Tabulatortaste.
 
 **So definieren Sie weitere Aktionen für Imagemaps**
 
@@ -190,7 +190,7 @@ Sie können im Menü „Anzeigen“ die Option „Andere Aktionen“ wählen, um
 
 Wählen Sie im Menü „Anzeigen“ die Option „Beide“, wenn für eine Imagemap sowohl Rollover-Text angezeigt als auch eine Aktion ausgeführt werden soll.
 
-## Erstellen von Imagemaps in Adobe Acrobat oder InDesign {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
+## Erstellen von Imagemaps in Adobe Acrobat oder InDesign  {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
 Sie können Imagemaps während des Entwerfens Ihres E-Katalogs in Adobe Acrobat oder Adobe InDesign erstellen.
 
@@ -198,7 +198,7 @@ Erstellen Sie in Acrobat oder InDesign Hyperlinks an den Stellen, an denen die I
 
 Weitere Informationen finden Sie in der InDesign- oder Acrobat-Hilfe.
 
-### So erstellen Sie Imagemaps in Adobe InDesing {#to-create-image-maps-in-adobe-indesign}
+### So erstellen Sie Imagemaps in Adobe InDesing  {#to-create-image-maps-in-adobe-indesign}
 
 1. Wählen Sie in InDesign „Fenster“ > „Interaktiv“ > „Hyperlinks“, um das Bedienfeld „Hyperlinks“ zu öffnen.
 1. Markieren Sie den Text, das Bild oder die Grafik, die Sie in eine Imagemap einfügen möchten.
@@ -220,7 +220,7 @@ Weitere Informationen finden Sie in der InDesign- oder Acrobat-Hilfe.
 1. Erstellen Sie die Imagemap durch Ziehen. Das Feld „Verknüpfung erstellen“ wird geöffnet.
 1. Wählen Sie „Benutzerdefinierte Verknüpfung“ und klicken Sie auf „Weiter“.
 
-   ***Hinweis **: Sie müssen keine Optionen für das Erscheinungsbild in Acrobat festlegen. Sie können das Erscheinungsbild in Dynamic Media Classic festlegen.*
+   ***Hinweis **: Sie müssen keine Optionen für das Erscheinungsbild in Acrobat festlegen. Sie können das Erscheinungsbild in Dynamic Media Classic angeben.*
 
 1. Klicken Sie im Feld „Verknüpfungseigenschaften“ auf „Aktionen“.
 1. Wählen Sie im Menü „Aktion auswählen“ die Option „Web-Verknüpfung öffnen“ und klicken Sie auf „Hinzufügen“.
