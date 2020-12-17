@@ -24,9 +24,9 @@ Ein Musterset-Bildsatz ermöglicht den Benutzern die Ansicht eines Objekts in un
 
 Beispielsweise können Sie Bilder von Schirmmützen präsentieren, wobei die Schirme rot, grün oder blau sind. In diesem Fall benötigen Sie drei Aufnahmen derselben Mütze: Je eine Aufnahme mit einem roten Schirm, einem grünen und einem blauen Schirm. Darüber hinaus benötigen Sie ein rotes, grünes und blaues Farbfeld. Die Farbfelder dienen als Miniaturansichten, auf die die Benutzer im Musterset-Viewer klicken können, um die Mütze mit rotem, grünem oder blauem Schirm anzuzeigen.
 
-## Erstellen eines Mustersets {#create}
+## Erstellen eines Mustersets  {#create}
 
-Wenn Sie einen Satz erstellen, wirkt sich die Option Nach dem Speichern **veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
+Wenn Sie einen Satz erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 | Option &quot;Nach dem Speichern veröffentlichen&quot;vor dem Speichern ausgewählt?|Status des Sets nach dem Speichern|Status der Set-Mitglieder nach dem Speichern|
 |— |— |— |
 |Ja|Veröffentlicht|Veröffentlicht|
@@ -38,9 +38,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   **Wählen Sie die Bilder zuerst** im Durchsuchenbedienfeld aus, wählen Sie die Bilder aus und klicken Sie dann auf &quot;Erstellen&quot;> &quot;Mustersets&quot;.
+   **Wählen Sie die Bilder** zunächst im Durchsuchenbedienfeld aus und klicken Sie dann auf &quot;Erstellen&quot;> &quot;Mustersets&quot;.
 
-   **Klicken Sie im Anzeigebereich** &quot;Musterset&quot;auf &quot;Erstellen&quot;> &quot;Mustersets&quot;. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
+   **Klicken Sie im** Anzeigebereich &quot;Musterset&quot;auf &quot;Erstellen&quot;> &quot;Mustersets&quot;. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
 
 1. Ziehen Sie Farbfelder, Muster oder Ausführungen in das Platzhalterfeld „Muster“ auf der Seite „Musterset“.
 
@@ -51,7 +51,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Klicken Sie auf **Speichern**, wählen Sie einen Ordner aus, in dem Sie Ihr Farbfeld-Musterset ablegen wollen, geben Sie einen Namen für das Set ein und klicken Sie auf „Senden“.
 1. Um Ihr Musterset im Musterset-Viewer anzuzeigen, klicken Sie im Anzeigebereich „Musterset“ auf **Vorschau**. Sie können auf die Muster-Miniaturansichten im Anzeigebereich „Musterset“ klicken, um zu sehen, wie sie sich verhalten.
 
-## Bearbeiten eines Mustersets {#editing-a-swatch-set}
+## Bearbeiten eines Mustersets  {#editing-a-swatch-set}
 
 Abhängig davon, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -76,7 +76,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
 
-## Löschen eines Mustersets {#deleting-a-swatch-set}
+## Löschen eines Mustersets  {#deleting-a-swatch-set}
 
 Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
