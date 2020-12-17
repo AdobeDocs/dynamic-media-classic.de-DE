@@ -20,27 +20,30 @@ ht-degree: 78%
 
 # Anzeigen, Hinzufügen und Exportieren von Metadaten{#viewing-adding-and-exporting-metadata}
 
-You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. Sie können in Dynamic Media Classic Metadaten zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
+Sie können spezifische Informationen zu den Dateien speichern, mit denen Sie in Dynamic Media Classic arbeiten. Diese Informationen werden als *Metadaten* bezeichnet. Sie können in Dynamic Media Classic Metadaten zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
 
-Metadaten werden in der Ansicht &quot;Details&quot;zusammen mit den von Dynamic Media Classic generierten Informationen wie dem Dateierstellungsdatum, dem Veröffentlichungsdatum und Schlüsselwörtern angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
+Metadaten werden in der Detail-Ansicht zusammen mit von Dynamic Media Classic generierten Informationen wie dem Dateierstellungsdatum, dem Veröffentlichungsdatum und Schlüsselwörtern angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
 
 Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Dynamic Media Classic sie automatisch mit der Datei hoch. Sie können Metadaten in Adobe Photoshop, InDesign, Illustrator und anderen Anwendungen in Quellelemente einbetten. Dynamic Media Classic erkennt diese Metadaten. Sie können in der Detailansicht über das Metadatenbedienfeld auch einzelnen Dateien Metadaten hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
 
-For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
+Weitere Informationen zu eingebetteten Metadaten finden Sie unter [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Anzeigen von Metadaten {#view-metadata}
 
-Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und klicken Sie auf das Metadatenbedienfeld. Wählen Sie anschließend eine Option aus dem Menü „Metadaten-Ansichten“ aus, um einen Metadatenfeldersatz auszuwählen. Dynamic Media Classic-Angebot:
+Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und klicken Sie auf das Metadatenbedienfeld. Wählen Sie anschließend eine Option aus dem Menü „Metadaten-Ansichten“ aus, um einen Metadatenfeldersatz auszuwählen. Dynamic Media Classic-Angebote: Diese Metadaten-Ansichten:
 
-* **Kompakte Ansicht** Eine grundlegende Liste von Werten.
+* **Kompakte**
+AnsichtGrundlegende Liste von Werten.
 
-* **IPTC**-Werte, wie vom International Press Telecommunications Council definiert.
+* ****
+IPTCValues, wie vom Internationalen Rat für Presse und Kommunikation definiert.
 
-* **XMP** Werte, wie sie von der Extensible Metadata Platform definiert werden.
+* ****
+XMPValues, wie von der Extensible Metadata Platform definiert.
 
 Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü „Metadaten-Ansichten“ angezeigt. Weitere Informationen zum Erstellen von Metadaten-Ansichten finden Sie unter [Metadaten-Ansichten](application-setup.md#metadata_views).
 
-## Manuelles Eingeben von Metadaten für ein Asset {#manually-enter-metadata-for-an-asset}
+## Manuelles Eingeben von Metadaten für ein Asset  {#manually-enter-metadata-for-an-asset}
 
 1. Zeigen Sie das Asset in der Detailansicht an.
 1. Öffnen Sie das Metadatenbedienfeld und führen Sie einen oder beide der folgenden Schritte aus:
@@ -54,7 +57,7 @@ Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden au
 >
 >Um die Metadaten mehrerer Assets gleichzeitig zu bearbeiten, wählen Sie „Datei“ > „Informationen bearbeiten“. Bearbeitungen, die Sie im Fenster „Informationen bearbeiten“ an Metadaten vornehmen, werden auf alle ausgewählten Assets angewendet.
 
-## Hinzufügen oder Bearbeiten von Schlüsselwörtern {#add-or-edit-keywords}
+## Hinzufügen oder Bearbeiten von Schlüsselwörtern  {#add-or-edit-keywords}
 
 Neben Metadaten können Sie Schlüsselwörter verwenden, um die Durchsuchung und Verwaltung Ihrer Assets zu unterstützen.
 
@@ -73,7 +76,7 @@ Wenn Sie während dieser Sitzung Schlüsselwörter zu anderen Dateien hinzugefü
 >
 >Sie können Dateien beim Hochladen in Dynamic Media Classic Suchbegriffe hinzufügen. Klicken Sie dazu im Dialogfeld „Upload-Auftragsoptionen“ auf „Zusätzliche Metadaten“ und geben Sie die Schlüsselwörter ein. Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
-## Importieren von Metadaten {#import-metadata}
+## Importieren von Metadaten  {#import-metadata}
 
 Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus einer tabulatorgetrennten Datei oder XML-Datei für mehrere Assets gleichzeitig importieren. Die Metadaten in eine tabulatorgetrennte Datei oder XML-Datei einzugeben und diese Datei dann zu importieren, ist weniger zeitaufwendig, als die Metadaten für einzelne Assets manuell einzugeben. Geben Sie in der ersten Zeile der tabulatorgetrennten Datei die ID und die Namen der gewünschten Metadatenfelder ein. Geben Sie in die nächsten Zeilen jeweils einen Asset-ID-Namen gefolgt von den Metadaten-Werten ein. Felder, die nicht in der tabulatorgetrennten Datei oder in der XML-Datei enthalten sind, werden nicht geändert. Wenn Sie Metadaten aus einer XML-Datei importieren möchten, müssen Sie sicherstellen, dass diese DTD-konform ist.
 
@@ -122,7 +125,7 @@ Beispiel:
 
 Das Präfix muss in der entsprechenden Spaltenüberschrift im Importfeld hinzugefügt werden.
 
-## Importieren von Metadaten (über FTP) {#import-metadata-via-ftp}
+## Importieren von Metadaten (über FTP)  {#import-metadata-via-ftp}
 
 Sie können Metadaten für mehrere Dateien importieren, indem Sie die Metadaten in eine tabulatorgetrennte Datei oder in eine XML-Datei eingeben und im Anzeigebereich „Hochladen (über FTP)“ die Option „Metadaten-Dateien verarbeiten“ auswählen.
 
@@ -130,11 +133,11 @@ Stellen Sie sicher, dass die Daten in der tabulatorgetrennten Datei oder in der 
 
 Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche „Hochladen“ und wählen Sie im Anzeigebereich „Aufträge“ die Registerkarte „Über FTP“ aus, um die Metadaten zu importieren. Klicken Sie dann auf „Auftragsoptionen“. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option „Metadaten-Dateien verarbeiten“.
 
-## Stapel-Umbenennung von IDs mit Metadaten {#batch-rename-ids-using-metadata}
+## Stapel-Umbenennung von IDs mit Metadaten  {#batch-rename-ids-using-metadata}
 
-Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder XML-Datei importiert wurden, können Sie dynamische Medien-Classic-IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Dabei ist es unerheblich, ob Bilder im Durchsuchenbedienfeld ausgewählt sind oder nicht.
+Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder XML-Datei importiert wurden, können Sie Dynamic Media Classic-IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Dabei ist es unerheblich, ob Bilder im Durchsuchenbedienfeld ausgewählt sind oder nicht.
 
-To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
+Um die Dynamic Media Classic-ID eines Bildes umzubenennen, fügen Sie der tabulatorgetrennten Datei eine Spalte mit der Bezeichnung *newipsid* hinzu oder fügen Sie den XML-Daten ein Feld mit der Bezeichnung* new_vc_objectname* hinzu.
 
 Beispiel:
 
@@ -146,9 +149,9 @@ Beispiel:
 
 Im Auftragsprotokoll für den Metadatenauftrag wird festgehalten, welche IDs erfolgreich umbenannt wurden und welche nicht.
 
-## Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten {#create-a-template-for-entering-metadata-to-upload}
+## Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten  {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic-Angebote sind ein Befehl zum Erstellen einer Vorlage zum Aufzeichnen von Metadaten. Mithilfe der Vorlage wird sichergestellt, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Dynamic Media Classic hochgeladen werden können. Führen Sie die folgenden Schritte aus, um eine Vorlage für die Aufzeichnung und den Import von Metadaten in Dynamic Media Classic zu erstellen:
+Dynamic Media Classic-Angebote verwenden einen Befehl zum Erstellen einer Vorlage zum Aufzeichnen von Metadaten. Mithilfe der Vorlage wird sichergestellt, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Dynamic Media Classic hochgeladen werden können. Führen Sie die folgenden Schritte aus, um eine Vorlage zum Aufzeichnen und Importieren von Metadaten in Dynamic Media Classic zu erstellen:
 
 1. Wählen Sie Bildassets mit Metadatenfeldern aus, die Sie in der Vorlage verwenden möchten.
 1. Wählen Sie „Datei“ > „Metadaten importieren“.
@@ -179,9 +182,9 @@ Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdef
 
 >[!NOTE]
 >
->Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Funktionen von Dynamic Media Classic und Metadata Server sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, werden die Metadaten durch die Erstellung des entsprechenden Schemas auch in Dynamic Media Classic und dem Metadaten-Server verwendet.
+>Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Funktionen von Dynamic Media Classic und Metadata Server sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, werden die Metadaten durch die Erstellung des entsprechenden Schemas auch in Dynamic Media Classic und dem Metadatenserver verwendet.
 
-Der Metadaten-Schema-Editor Angebot eine grafische Möglichkeit, ein benutzerdefiniertes Firma-Schema in Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
+Der Metadata Schema Editor Angebot eine grafische Möglichkeit, ein benutzerdefiniertes Firma-Schema in Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
 
 * Name
 
@@ -193,7 +196,7 @@ Der Metadaten-Schema-Editor Angebot eine grafische Möglichkeit, ein benutzerdef
 
 * Namespace
 
-   Technischer eindeutiger Bezeichner für das Schema, normalerweise eine URL im Formular `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namensraum ist in der Benutzeroberfläche von Dynamic Media Classic nicht sichtbar, dient aber zum Speichern von Metadaten im XMP.
+   Technischer eindeutiger Bezeichner für das Schema, normalerweise eine URL im Format `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namensraum ist in der Benutzeroberfläche von Dynamic Media Classic nicht sichtbar, wird aber zum Speichern von Metadaten im XMP-Block verwendet.
 
 * Beschreibung
 
