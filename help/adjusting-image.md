@@ -20,7 +20,7 @@ ht-degree: 95%
 
 # Anpassen eines Bildes{#adjusting-an-image}
 
-In Dynamic Media Classic werden verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bilds Angebot. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
+In Dynamic Media Classic werden verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bildes Angebot. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
 
 Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -57,7 +57,7 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
       Klicken Sie auf **Speichern**.
 
-## Erstellen eines Alias für ein Bild {#creating-an-alias-for-an-image}
+## Erstellen eines Alias für ein Bild  {#creating-an-alias-for-an-image}
 
 Wenn Sie ein Bild angepasst haben, möchten Sie es vielleicht als zusätzliche Ansicht des Masterbildes speichern. Hierfür können Sie mit der Funktion **Als zusätzliche Ansicht des Masterbilds speichern** einen Alias des Bildes erstellen.
 
