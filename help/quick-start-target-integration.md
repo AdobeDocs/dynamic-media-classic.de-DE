@@ -18,13 +18,13 @@ ht-degree: 19%
 ---
 
 
-# Quick Beginn: Integration mit Adobe Target Standard/Premium{#quick-start-target-integration}
+# Quick Beginn: Integration von Adobe Target Standard/Premium{#quick-start-target-integration}
 
 Adobe Target Standard/Premium bietet Marketingexperten die Möglichkeit, schnell und kontinuierlich mehrere A/B- und Multivarianz-Tests durchzuführen, die Effektivität zu messen und die Relevanz von Online-Inhalten durch Segmentierung, Targeting und automatisierte Personalisierung zu erhöhen.
 
 Mit Dynamic Media Classic können Sie Angebot und Angebot-Sets für Target Standard/Premium-Kampagnen erstellen. Sie können beispielsweise einen Angebot-Satz mit drei Varianten desselben Rich-Media-Assets erstellen. Anschließend können Sie Target Standard/Premium bestimmen lassen, welches Asset eine bessere Konvertierungssteigerung bietet. Sie können Angebote und Angebotssets aus einer einfachen Vorlage oder aus einzelnen Bildern erstellen. Nachdem der Angebot-Satz an Adobe Target Standard/Premium weitergeleitet oder gespeichert wurde, wo die Angebot mit Mboxes und Erlebnissen verknüpft sind, kann Target Standard/Premium Kampagnen ausführen, um festzustellen, welche Variante einer Website für Durchklicks und Konversionen am besten geeignet ist.
 
-Verwenden Sie für eine bessere Anpassung dynamischer Inhalte aus dem Classic-Bereich Target Standard/Premium-HTML-Angebot. Weitere Informationen finden Sie in der Produktdokumentation zu Target Standard/Premium.
+Verwenden Sie für eine bessere Anpassung dynamischer Dynamic Media Classic-Inhalte Target Standard/Premium-HTML-Angebot. Weitere Informationen finden Sie in der Produktdokumentation zu Target Standard/Premium.
 
 >[!NOTE]
 >
@@ -34,22 +34,22 @@ Verwenden Sie für eine bessere Anpassung dynamischer Inhalte aus dem Classic-Be
 
 Dieser Quick Beginn hilft Ihnen, sich schnell mit HTML-Angebot-Sets von Target Standard/Premium vertraut zu machen. Führen Sie die Schritte 1 bis 3 aus. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
 
-**1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
+**1. Geben Sie Ihre Adobe Target Standard/Premium-URL im Bildschirm &quot;Allgemeine Programmeinstellungen&quot;ein.**
 
-Für die Integration in Target Standard/Premium benötigt Dynamic Media Classic Ihre Target Standard/Premium-URL. Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. Siehe [Integration von Dynamic Media Classic mit Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Für die Integration in Target Standard/Premium benötigt Dynamic Media Classic Ihre Target Standard/Premium-URL. Kopieren Sie den Teil Ihrer Target Standard/Premium-URL bis einschließlich *.com* und geben Sie ihn im Bildschirm &quot;Allgemeine Programmeinstellungen&quot;von Dynamic Media Classic ein. Siehe [Integration von Dynamic Media Classic mit Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
 **2. Erstellen Sie das Angebotsset.**
 
-Verwenden Sie eine parametrisierte Vorlage oder Bilder, um ein Angebotsset zu erstellen. Sie erstellen HTML-Angebotssets im Anzeigebereich „Test&amp;Target-Angebotsset“. To open this screen, select your template or images, and click **Build** > **Test&amp;Target Offer Set**.
+Verwenden Sie eine parametrisierte Vorlage oder Bilder, um ein Angebotsset zu erstellen. Sie erstellen HTML-Angebotssets im Anzeigebereich „Test&amp;Target-Angebotsset“. Um diesen Anzeigebereich zu öffnen, wählen Sie die Vorlage oder die Bilder aus und klicken Sie auf **Erstellen** > **Test&amp;Zielgruppe-Angebot-Set**.
 
-Um ein Angebot mit einer Vorlage zu erstellen, klicken Sie auf **Hinzufügen und Vorschau**. Ändern Sie im Bildschirm &quot;Hinzufügen und Vorschau&quot;die Parameterwerte.
+Um ein Angebot mit einer Vorlage zu erstellen, klicken Sie auf **Hinzufügen &amp; Vorschau**. Ändern Sie im Bildschirm &quot;Hinzufügen und Vorschau&quot;die Parameterwerte.
 
-Um ein Angebot mit Bildern zu erstellen, ziehen Sie Bilder in den Anzeigebereich „Test&amp;Target-Angebotsset“. Click **Preview** to choose an Image Preset for an image or all the images in the offer set.
+Um ein Angebot mit Bildern zu erstellen, ziehen Sie Bilder in den Anzeigebereich „Test&amp;Target-Angebotsset“. Klicken Sie auf **Vorschau**, um eine Bildvorgabe für ein Angebot oder alle Bilder im Bildsatz auszuwählen.
 
 Speichern Sie das Angebotsset, nachdem Sie es erstellt haben. 
 
 Siehe [Erstellen eines Angebotssets](creating-offer-set.md#creating_an_offer_set).
 
-**3. Angebot auf Adobe Target Standard/Premium verschieben**
+**3. Push-Angebot auf Adobe Target Standard/Premium**
 
-In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. Siehe [Pushing von Angebot-Sets zu Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Klicken Sie im Bildschirm &quot;Test&amp;Zielgruppe-Angebot-Set&quot;auf **Push-Angebot** und geben Sie Ihre Anmeldedaten im Dialogfeld &quot;Test&amp;Zielgruppe-Anmeldung&quot;ein. Siehe [Pushing von Angebot-Sets zu Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
