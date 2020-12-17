@@ -22,7 +22,7 @@ ht-degree: 78%
 
 Zum Erstellen eines E-Katalogs müssen die Seiten geordnet, das Seitenlayout ausgewählt und die Seiten durch Zeichnen von Imagemaps und Eingabe von Rollover- und Hypertext-Verknüpfungsdaten verknüpft werden. Optional können Sie das Inhaltsverzeichnis so anpassen, dass die Betrachter der Website anstelle von Seitenzahlen individuelle Seitennamen im E-Katalog-Viewer sehen.
 
-## Erstellen eines E-Katalogs {#create}
+## Erstellen eines E-Katalogs  {#create}
 
 Sie können sowohl Bilddateien als auch PDF-Dateien in den E-Katalog einbeziehen.
 
@@ -39,21 +39,21 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Wählen Sie zu Beginn der Erstellung eines E-Katalogs eine der folgenden Vorgehensweisen:
 
-   **Wählen Sie die Dateien zuerst** im Durchsuchenbedienfeld aus und klicken Sie dann auf &quot;Erstellen&quot;> &quot;E-Kataloge&quot;.
+   **Wählen Sie die Dateien** zunächst im Durchsuchenbedienfeld aus und klicken Sie dann auf &quot;Erstellen&quot;> &quot;E-Kataloge&quot;.
 
-   **Klicken Sie im Anzeigebereich** &quot;E-Katalog&quot;auf &quot;Erstellen&quot;> &quot;E-Kataloge&quot;. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
+   **Beginn im** Anzeigebereich &quot;E-Katalog&quot;Klicken Sie auf Erstellen > E-Kataloge. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
 
-   ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
+   ***note**: Um die Elemente in der Asset-Bibliothek nach Namen statt nach Miniaturansichten Ansicht, wählen Sie unter &quot;Persönliche Einstellungen&quot;die Option &quot;Name&quot;für die Ansicht &quot;Standard-Asset-Bibliothek&quot;aus. *
 
-1. Wählen Sie ein Gesamtlayout für den E-Katalog aus. Klicken Sie für Einzelseiten auf „1-fach“ , für doppelseitige Druckbögen auf „2-fach“  oder für Druckbögen mit mehr als zwei Seiten auf „Benutzerdefiniert“ . Das Dialogfeld „E-Katalog-Layout ändern“ wird angezeigt. Select the All Spreads options and click **OK**.
-1. Optional können Sie das Layout einzelner Seiten oder Druckbögen ändern, indem Sie auf diese klicken und dann „1-fach“, „2-fach“ oder „Benutzerdefiniert“ wählen. Das Dialogfeld „E-Katalog-Layout ändern“ wird angezeigt. Select the Selected Spreads options and click **OK**.
+1. Wählen Sie ein Gesamtlayout für den E-Katalog aus. Klicken Sie für Einzelseiten auf „1-fach“ , für doppelseitige Druckbögen auf „2-fach“  oder für Druckbögen mit mehr als zwei Seiten auf „Benutzerdefiniert“ . Das Dialogfeld „E-Katalog-Layout ändern“ wird angezeigt. Wählen Sie die Optionen &quot;Alle Druckbögen&quot;aus und klicken Sie auf **OK**.
+1. Optional können Sie das Layout einzelner Seiten oder Druckbögen ändern, indem Sie auf diese klicken und dann „1-fach“, „2-fach“ oder „Benutzerdefiniert“ wählen. Das Dialogfeld „E-Katalog-Layout ändern“ wird angezeigt. Wählen Sie die Optionen für die ausgewählten Druckbögen aus und klicken Sie auf **OK**.
 1. Ordnen Sie die Seiten mit einem der folgenden Verfahren nach Bedarf neu an:
 
    **Ziehen** Sie eine Seite oder einen Druckbogen an eine neue Position. Die vertikale Leiste zeigt an, wohin die Seite verschoben wird.
 
    **Schaltfläche &quot;Verschieben nach&quot;** Wählen Sie eine Seite oder einen Druckbogen aus, klicken Sie auf die Schaltfläche &quot;Verschieben nach&quot;und wählen Sie im Menü die Seite aus, vor der die Seite angezeigt werden soll.
 
-   **Sequenz #** Geben Sie in der Ansicht &quot;Liste&quot;Seitenzahlen in die Felder &quot;Sequenz-Nr.&quot;ein.
+   **Sequenz #** In Ansicht Liste geben Sie Seitenzahlen in die Felder Sequenznummer ein.
 
 1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**.
@@ -62,7 +62,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    Nach dem Speichern können Sie eine Vorschau des E-Katalogs anzeigen, indem Sie auf **Vorschau** klicken.
 
-## Bearbeiten eines E-Katalogs {#editing-an-ecatalog}
+## Bearbeiten eines E-Katalogs  {#editing-an-ecatalog}
 
 Je nachdem, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -82,7 +82,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
 
-## Löschen eines E-Katalogs {#deleting-an-ecatalog}
+## Löschen eines E-Katalogs  {#deleting-an-ecatalog}
 
 Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
@@ -93,9 +93,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht einen oder mehrere E-Kataloge aus.
 1. Klicken Sie in der globalen Navigationsleiste auf **Datei** > **Löschen** > **Löschen**.
 
-## Anpassen des Inhaltsverzeichnisses {#customizing-the-table-of-contents-toc}
+## Anpassen des Inhaltsverzeichnisses  {#customizing-the-table-of-contents-toc}
 
-Dynamische Medien-Classic bietet in Ihrem E-Katalog auf der Registerkarte &quot;Seiten ordnen&quot;des Anzeigebereichs &quot;E-Katalog&quot;Standardseitenzahlen. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Titelseite&quot;anstelle von &quot;Seite 0-1&quot;heißen.
+Dynamic Media Classic stellt in Ihrem E-Katalog auf der Registerkarte &quot;Seiten ordnen&quot;des Anzeigebereichs &quot;E-Katalog&quot;Standardseitenzahlen bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Titelseite&quot;anstelle von &quot;Seite 0-1&quot;heißen.
 
 Sie können ein angepasstes Inhaltsverzeichnis für den E-Katalog erstellen: entweder manuell oder durch das Importieren der Seitennamen aus einer CSV- (nur Mac) oder XML-Datei.
 
@@ -103,15 +103,15 @@ Sie können ein angepasstes Inhaltsverzeichnis für den E-Katalog erstellen: ent
 >
 >Um die standardmäßigen Seitentitel wiederherzustellen, klicken Sie auf der Registerkarte „Seiten ordnen“ auf „Inhaltsverz.“ und wählen Sie „Standardw. wiederherstellen (alle)“.
 
-### Manuelles Eingeben von Seitennamen {#manually-entering-page-names}
+### Manuelles Eingeben von Seitennamen  {#manually-entering-page-names}
 
 Um Seitennamen einzeln von Hand einzugeben, rufen Sie im Anzeigebereich „E-Katalog“ die Registerkarte „Seiten ordnen“ auf. Klicken Sie dann in das Seitenzahlenfeld und geben Sie einen Namen ein. Geben Sie für alle Seiten, deren Namen Sie festlegen möchten, einen Namen ein.
 
-### Importieren von Seitennamen {#importing-page-names}
+### Importieren von Seitennamen  {#importing-page-names}
 
 Das Importieren von Seitennamen wird für einen E-Katalog mit sehr vielen Seiten empfohlen. Sie haben die Möglichkeit, die Namen aus einer tabulatorgetrennten Datei oder einer XML-Datei zu importieren.
 
-Die Inhaltsverzeichnis-Beschriftung wird im Feld &quot;Benutzerdaten&quot;eines Bilds gespeichert. formatieren Sie diese Daten als Liste von `name=<value>`` pairs separated by two question marks “??” `. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnis-Feld mit dem Namen tocEN festzulegen, legen Sie die Benutzerdaten des Bilds auf Folgendes fest:
+Die Inhaltsverzeichnis-Beschriftung wird im Feld &quot;Benutzerdaten&quot;eines Bilds gespeichert. diese Daten als Liste von `name=<value>` ` pairs separated by two question marks “??” ` formatieren. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnis-Feld mit dem Namen tocEN festzulegen, legen Sie die Benutzerdaten des Bilds auf Folgendes fest:
 
 tocEN=&lt;EN_Seitenbeschriftung>
 
