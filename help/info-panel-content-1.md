@@ -35,24 +35,24 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 **So richten Sie eine Antwortvorlage ein**
 
 1. Doppelklicken Sie auf Ihren Bildsatz, um ihn in der Detailansicht zu öffnen.
-1. Click **InfoPanel Setup** to unfold the panel.
+1. Klicken Sie auf **Infofeld-Einrichtung**, um das Bedienfeld zu entfalten.
 1. Führen Sie in der Dropdown-Liste „Antwortvorlage“ einen der folgenden Schritte aus:
 
    * Wählen Sie „Standard“, um die Standardantwort zu verwenden. Im Textfeld „Benutzervorlage“ wird, abgeblendet, der XML-Code für den Vorlagenentwurf angezeigt.
    * Wählen Sie „Benutzerdefiniert“, um eine eigene Antwortvorlage zu erstellen. Geben Sie in das Textfeld „Benutzervorlage“ die XML-Definition der Vorlage ein. Sie können die Standardvorlage verwenden, die im Textfeld als Basis für Ihre eigene Antwort bereits definiert ist.
 
-1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen Bildsatznamen, jedoch keinen Rollover-Bezeichner empfängt, wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn beim Abrufen von Informationen für eine Imagemap ein Fehler in Dynamic Media Classic auftritt. Wenn das System beispielsweise einen Firmennamen und einen Bildsatznamen, jedoch keinen Rollover-Bezeichner empfängt, wird dem Benutzer diese Meldung angezeigt.
 1. Geben Sie in das Textfeld „Antwort-TTL“ die Anzahl der Stunden bis zum Zwischenspeichern der Daten ein.
 
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
    * Geben Sie eine höhere Zahl ein, falls die Daten relativ stabil sind und nicht so häufig aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
 
-1. Click **Upload** to upload info panel content, based on the rollover_key values, to s7info.
-1. In the S7Info Upload dialog box, browse to the file that you want to use, and then click **Upload**.
+1. Klicken Sie auf **Hochladen**, um den Inhalt des Infofelds basierend auf den rollover_key-Werten in s7info hochzuladen.
+1. Navigieren Sie im Dialogfeld &quot;S7Info-Upload&quot;zu der gewünschten Datei und klicken Sie dann auf **Upload**.
 
    Es werden tabulatorgetrennte Dateien mit UTF-16-Kodierung und CSV-Dateien mit ASCII-Kodierung unterstützt. Bei CSV-Dateien müssen Nicht-ASCII-Zeichen HTML-kodiert sein.
 
-1. In the InfoPanel Setup panel, click **Publish**.
+1. Klicken Sie im Infofeld-Setup auf **Veröffentlichen**.
 
 ## Importieren von Quellinhalt für das Infofeld in Bildsätzen {#import-source-content-for-the-info-panel-in-image-sets}
 
@@ -64,14 +64,14 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 * Das erste Element oder die erste Datenspalte muss der Rollover-Bezeichner sein (verknüpft mit dem rollover_key-Wert aus den Imagemap-URLs).
 * Stellen Sie sicher, dass jedes tabulator- oder kommagetrennte Element nach dem Bezeichner das Element ist, das in der Antwortvorlage ersetzt werden soll (sodass also für die erste Spalte $1$, für die zweite $2$ usw. eingesetzt wird).
 
-### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort in Bildsätze {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort {#import-csv-content-into-image-sets-from-an-externally-hosted-location} in Bildsätze
 
 1. Doppelklicken Sie auf den Bildsatz, um ihn in der Detailansicht zu öffnen.
-1. Click **InfoPanel Datafeed** to unfold the panel.
+1. Klicken Sie auf **Infofeld-Daten**, um das Bedienfeld zu entfalten.
 1. Geben Sie in das Textfeld der extern gehosteten CSV-Datei (HTTP) die URL der CSV-Datei ein.
-1. (Optional) In the Schedule Update fields, specify a time to update the content, and then click **Add**.
+1. (Optional) Geben Sie in den Feldern &quot;Planaktualisierung&quot;einen Zeitpunkt für die Aktualisierung des Inhalts ein und klicken Sie dann auf **Hinzufügen**.
 
-   Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Textfeld „Zeiten aktualisieren“ angegeben. To remove a scheduled time, select it, and then click **Delete**.
+   Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Textfeld „Zeiten aktualisieren“ angegeben. Um eine geplante Zeit zu entfernen, wählen Sie sie aus und klicken Sie dann auf **Löschen**.
 
-1. (Optional) Click **Run Update** to immediately update the content.
+1. (Optional) Klicken Sie auf **Aktualisierung ausführen**, um den Inhalt sofort zu aktualisieren.
 
