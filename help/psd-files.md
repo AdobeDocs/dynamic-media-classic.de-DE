@@ -20,7 +20,7 @@ ht-degree: 64%
 
 # Arbeiten mit PSD-Dateien {#working-with-psd-files}
 
-PSD (Photoshop-Dokument-Dateien) werden meist in Dynamic Media Classic zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie aus der Datei automatisch eine dynamische Classic-Vorlage erstellen (wählen Sie im Anzeigebereich &quot;Hochladen&quot;die Option &quot;Vorlage erstellen&quot;).
+PSD (Photoshop-Dokument-Dateien) werden in Dynamic Media Classic am häufigsten zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie aus der Datei automatisch eine Dynamic Media Classic-Vorlage erstellen (wählen Sie im Anzeigebereich &quot;Hochladen&quot;die Option &quot;Vorlage erstellen&quot;).
 
 Dynamic Media Classic erstellt mehrere Bilder aus einer PSD-Datei mit Ebenen, wenn Sie die Datei zum Erstellen einer Vorlage verwenden. Es wird für jede Ebene ein Bild erstellt.
 
@@ -30,9 +30,9 @@ Die Optionen zum Hochladen von PSD-Dateien befinden sich unter „Upload-Auftrag
 
 Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
-**Beschneiden** (befindet sich unter &quot;Beschneidungsoptionen&quot;.) Wählen Sie die Option „Beschneiden“, um die weißen Flächen an den Rändern einer PSD-Datei automatisch abzuschneiden, oder wählen Sie die Option „Manuell“, um die Kanten der PSD-Datei zu beschneiden:
+**Beschneiden**  (befindet sich unter &quot;Beschneidungsoptionen&quot;.) Wählen Sie die Option „Beschneiden“, um die weißen Flächen an den Rändern einer PSD-Datei automatisch abzuschneiden, oder wählen Sie die Option „Manuell“, um die Kanten der PSD-Datei zu beschneiden:
 
-**Beschneiden** Wählen Sie im Menü &quot;Beschneiden basierend auf&quot;die Option &quot;Farbe&quot;oder &quot;Transparenz&quot;aus.
+**&quot;** Beschneiden&quot;Wählen Sie im Menü &quot;Beschneiden basierend auf&quot;die Option &quot;Farbe&quot;oder &quot;Transparenz&quot;aus.
 
 Bei Auswahl der Option „Farbe“ wählen Sie anschließend im Menü „Ecke“ die Ecke in der PSD-Datei aus, deren Farbe mit der Farbe der weißen Flächen, die Sie entfernen möchten, am besten übereinstimmt.
 
@@ -42,35 +42,35 @@ Wenn Sie beim Beschneiden basierend auf Farbe den Wert 0 einstellen, werden Pix
 
 Wenn Sie beim Beschneiden basierend auf Transparenz den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie vollkommen transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenzabweichung zu.
 
-**Manuell** Geben Sie die Anzahl der Pixel ein, die von einer Seite oder jeder Kante des Bilds abgeschnitten werden sollen. Wie viel vom Bild abgeschnitten wird, hängt von der ppi-Einstellung (Pixel pro Zoll) in der Bilddatei ab. Wenn das Bild beispielsweise eine Auflösung von 150 ppi hat und Sie in den Textfeldern „Oben“, „Rechts“, „Unten“ und „Links“ jeweils den Wert 75 eingeben, wird an jeder Kante des Bilds ein halber Zoll (ca. 1,75 cm) abgeschnitten.
+**** ManuellGeben Sie die Anzahl der Pixel ein, die von einer Seite oder jeder Kante des Bilds abgeschnitten werden sollen. Wie viel vom Bild abgeschnitten wird, hängt von der ppi-Einstellung (Pixel pro Zoll) in der Bilddatei ab. Wenn das Bild beispielsweise eine Auflösung von 150 ppi hat und Sie in den Textfeldern „Oben“, „Rechts“, „Unten“ und „Links“ jeweils den Wert 75 eingeben, wird an jeder Kante des Bilds ein halber Zoll (ca. 1,75 cm) abgeschnitten.
 
-**Profil** Farbe (Befindet sich unter &quot;Optionen für Profil-Farbe&quot;.) Wählen Sie eine der folgenden Optionen:
+**Color Profil** (Befindet sich unter &quot;Color Profil Options&quot;.) Wählen Sie eine der folgenden Optionen:
 
 **In sRGB konvertieren (Standard)** Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
 
-**&quot;Ursprünglicher Farbraum** beibehalten&quot;behält den ursprünglichen Farbraum des Bildes bei.
+**&quot;Ursprünglicher Farbraum beibehalten&quot;** Behält den ursprünglichen Farbraum des Bildes bei.
 
-**Benutzerdefiniert von > In öffnet** die Menüs, damit Sie einen Farbraum für &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen Photoshop-Standardfarbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben. Siehe ICC-Profile.
+**Benutzerdefiniert von >** Zu öffnet Menüs, damit Sie einen Farbraum &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen Photoshop-Standardfarbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben. Siehe ICC-Profile.
 
-**Ebenen** beibehalten Rippt die Ebenen in der PSD-Datei (sofern vorhanden) in einzelne Assets. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Zeigen Sie sie an, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei.
+**Ebenen** beibehaltenRippt die Ebenen in der PSD-Datei (sofern vorhanden) in einzelne Assets. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Zeigen Sie sie an, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei.
 
-**Vorlage** erstellen Erstellt eine Vorlage aus den Ebenen in der PSD-Datei.
+**Vorlage erstellen** Erstellt eine Vorlage aus den Ebenen in der PSD-Datei.
 
-**Text** extrahieren Extrahiert den Text, damit Benutzer in einem Viewer nach Text suchen können.
+**Text extrahieren** Extrahiert den Text, damit Benutzer in einem Viewer nach Text suchen können.
 
-**Ebenen bis zur Hintergrundgröße** erweitern Erweitert die Größe der gerippten Bildebenen auf die Größe der Hintergrundebene.
+**Ebenen bis** zur Hintergrundgröße erweiternErweitert die Größe der gerippten Bildebenen auf die Größe der Hintergrundebene.
 
-**Ebenen mit** Ebenennamen in der PSD-Datei werden als separate Bilder hochgeladen. Wählen Sie eine Option zum Benennen dieser Bilder in Dynamic Media Classic:
+**Ebenenbenennungsebenen** in der PSD-Datei werden als separate Bilder hochgeladen. Wählen Sie eine Option zum Benennen dieser Bilder in Dynamic Media Classic:
 
-**Name** der Ebene Benennt die Bilder nach ihren Ebenennamen in der PSD-Datei. Wenn eine Ebene der PSD-Originaldatei beispielsweise „Preisschild“ heißt, wird auch das zugehörige Bild „Preisschild“ genannt. Wenn es sich bei den Namen der Ebenen in der PSD-Datei jedoch um standardmäßige Photoshop-Ebenennamen handelt („Hintergrund“, „Ebene 1“, Ebene 2“ usw.), werden die Bilder nicht nach den Standardebenennamen, sondern nach den Nummern der Ebenen in der PSD-Datei benannt.
+**Name der Ebene** Benennt die Bilder nach den Namen der Ebenen in der PSD-Datei. Wenn eine Ebene der PSD-Originaldatei beispielsweise „Preisschild“ heißt, wird auch das zugehörige Bild „Preisschild“ genannt. Wenn es sich bei den Namen der Ebenen in der PSD-Datei jedoch um standardmäßige Photoshop-Ebenennamen handelt („Hintergrund“, „Ebene 1“, Ebene 2“ usw.), werden die Bilder nicht nach den Standardebenennamen, sondern nach den Nummern der Ebenen in der PSD-Datei benannt.
 
-**Photoshop- und Ebenennummer** Benennt die Bilder nach den Nummern der Ebenen in der PSD-Datei, wobei die ursprünglichen Ebenennamen ignoriert werden. Die Bilder werden mit dem Photoshop-Dateinamen und einer angefügten Nummer der Ebene benannt. Beispielsweise erhält die zweite Ebene der Datei „Frühjahrsannonce.psd“ den Namen „Frühjahrsannonce_2“, auch wenn sie in Photoshop einen nicht standardmäßigen Namen hatte.
+**Photoshop und** Nummer der EbeneBenennt die Bilder nach den Nummern der Ebenen in der PSD-Datei, wobei die ursprünglichen Ebenennamen ignoriert werden. Die Bilder werden mit dem Photoshop-Dateinamen und einer angefügten Nummer der Ebene benannt. Beispielsweise erhält die zweite Ebene der Datei „Frühjahrsannonce.psd“ den Namen „Frühjahrsannonce_2“, auch wenn sie in Photoshop einen nicht standardmäßigen Namen hatte.
 
-**Photoshop und Name** der Ebene Benennen die Bilder nach der PSD-Datei, gefolgt vom Namen der Ebene oder der Nummer der Ebene. Die Nummern der Ebenen werden verwendet, wenn es sich bei den Namen der Ebenen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt. Beispielsweise erhält die Ebene „Preisschild“ in der PSD-Datei „Frühjahrsannonce“ den Namen „Frühjahrsannonce_Preisschild“. Eine Ebene mit dem standardmäßigen Namen „Ebene 2“ erhält den Namen „Frühjahrsannonce_2“.
+**Photoshop und** Name der EbeneBenennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Nummern der Ebenen werden verwendet, wenn es sich bei den Namen der Ebenen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt. Beispielsweise erhält die Ebene „Preisschild“ in der PSD-Datei „Frühjahrsannonce“ den Namen „Frühjahrsannonce_Preisschild“. Eine Ebene mit dem standardmäßigen Namen „Ebene 2“ erhält den Namen „Frühjahrsannonce_2“.
 
-**Verankerung** Geben Sie an, wie Bilder in Vorlagen verankert werden, die aus der aus der PSD-Datei erzeugten Komposition mit Ebenen generiert werden. Standardmäßig wird der Anker zentriert. Bei einem zentrierten Anker können Ersatzbilder unabhängig von ihrem Seitenverhältnis denselben Raum am besten ausfüllen. Bilder mit einem anderen Seitenverhältnis, die dieses Bild ersetzen, nehmen effektiv denselben Raum ein, wenn auf die Vorlage verwiesen und der Parametersatz verwendet wird. Wählen Sie eine andere Einstellung, wenn es für Ihre Anwendung erforderlich ist, dass die Ersatzbilder den zugewiesenen Raum in der Vorlage ausfüllen.
+**** VerankerungGeben Sie an, wie Bilder in Vorlagen verankert werden, die aus der aus der PSD-Datei erzeugten Komposition mit Ebenen generiert werden. Standardmäßig wird der Anker zentriert. Bei einem zentrierten Anker können Ersatzbilder unabhängig von ihrem Seitenverhältnis denselben Raum am besten ausfüllen. Bilder mit einem anderen Seitenverhältnis, die dieses Bild ersetzen, nehmen effektiv denselben Raum ein, wenn auf die Vorlage verwiesen und der Parametersatz verwendet wird. Wählen Sie eine andere Einstellung, wenn es für Ihre Anwendung erforderlich ist, dass die Ersatzbilder den zugewiesenen Raum in der Vorlage ausfüllen.
 
-## Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei {#viewing-and-editing-layers-in-a-psd-file}
+## Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei  {#viewing-and-editing-layers-in-a-psd-file}
 
 Wenn Sie beim Hochladen der PSD-Datei die Option &quot;Ebenen beibehalten&quot;aktiviert haben, wurden die einzelnen Ebenen von Dynamic Media Classic in Assets gerippt. Sie können die zu einer PSD-Datei gehörenden Asset-Ebenen anzeigen und bearbeiten, indem Sie die Datei in der Detailansicht des Durchsuchenbedienfelds öffnen.
 
