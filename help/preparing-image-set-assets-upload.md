@@ -20,7 +20,7 @@ ht-degree: 68%
 
 # Vorbereiten von Bildsatz-Assets zum Hochladen{#preparing-image-set-assets-for-upload}
 
-Stellen Sie vor dem Hochladen der für Bildsätze benötigten Bilder in Dynamic Media Classic sicher, dass die Bilder die richtige Größe und das richtige Format haben.
+Bevor Sie die Bilder hochladen, die Sie für Bildsätze benötigen, sollten Sie sicherstellen, dass die Bilder die richtige Größe und das richtige Format haben.
 
 Um einen Bildsatz mit mehreren Ansichten zu erstellen, benötigen Sie Bilder, die ein Element aus unterschiedlichen Perspektiven zeigen oder verschiedene Aspekte eines Elements darstellen. Das Ziel dabei ist, die wichtigen Merkmale eines Elements so hervorzuheben, dass die Betrachter eine umfassende Vorstellung davon erhalten, wie es aussieht und was es leistet.
 
