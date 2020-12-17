@@ -22,7 +22,7 @@ ht-degree: 50%
 
 Die Benutzer des Dynamic Media Classic Image Authoring-Tools können in Scene7 Vignetten (VNT-Dateien), Fensterbeläge (VNW-Dateien) und Schränke (VNC-Dateien) verwenden. Diese Dateien können nicht in Dynamic Media Classic erstellt oder bearbeitet werden.
 
-Bei Vignetten-, Fensterbehang- und Möbeldateien handelt es sich um durch Authoring erstellte Bilder. Bei Verwendung eines anderen Dynamic Media Classic-Programms mit dem Namen Image Authoring werden Objekte in einem Bild maskiert, sodass die Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Beispielsweise können die Benutzer ein Sofa mit unterschiedlichen Bezügen, ein Fenster mit verschiedenen Vorhängen und Gardinen oder einen Schrank aus unterschiedlichen Holzarten sehen.
+Bei Vignetten-, Fensterbehang- und Möbeldateien handelt es sich um durch Authoring erstellte Bilder. Mit einem anderen Dynamic Media Classic-Programm namens &quot;Image Authoring&quot;können Sie Objekte in einem Bild maskieren, damit die Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Beispielsweise können die Benutzer ein Sofa mit unterschiedlichen Bezügen, ein Fenster mit verschiedenen Vorhängen und Gardinen oder einen Schrank aus unterschiedlichen Holzarten sehen.
 
 Vignetten-, Fensterbehang- und Möbeldateien werden ebenso wie alle anderen Dateien hochgeladen.
 
