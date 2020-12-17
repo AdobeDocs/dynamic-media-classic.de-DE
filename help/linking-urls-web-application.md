@@ -20,11 +20,11 @@ ht-degree: 72%
 
 # Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen auf den Inhalt des dynamischen Medienbilds zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf den Image-Servern für dynamische Medien auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf den Inhalt von Dynamic Media Image Server zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf den Dynamic Media-Image-Servern auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
 
-Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus &quot;Dynamic Media Classic&quot;. Die zu einer Bildvorgabe generierte URL-Zeichenfolge ist im Anzeigebereich „Vorschau“ und im Durchsuchenbedienfeld (in der Detailansicht) abrufbar.
+Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic. Die zu einer Bildvorgabe generierte URL-Zeichenfolge ist im Anzeigebereich „Vorschau“ und im Durchsuchenbedienfeld (in der Detailansicht) abrufbar.
 
-## Abrufen einer Bildvorgabe-URL {#obtaining-an-image-preset-url}
+## Abrufen einer Bildvorgabe-URL  {#obtaining-an-image-preset-url}
 
 Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigebereich „Vorschau“ und in der Detailansicht abrufen. Sie können die URL in die Zwischenablage kopieren und dann nach Bedarf einfügen.
 
@@ -43,7 +43,7 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 1. Klicken Sie im Fester „Bildvorgabeliste“ im rechten oberen Bereich des Vorschaubereichs auf „URL kopieren“ für den ausgewählten Vorgabetyp.
 1. Klicken Sie in der rechten unteren Ecke des Fensters „Bildvorgabeliste“ auf „Schließen“, um zum Assets-Fenster zurückzukehren.
 
-### Abrufen einer Bildvorgabe-URL im Durchsuchenbedienfeld {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Abrufen einer Bildvorgabe-URL im Durchsuchenbedienfeld  {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
@@ -51,13 +51,13 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 1. Klicken Sie im Bereich auf der rechten Seite auf „URLs“, um die Liste der Bildvorgaben einzublenden.
 1. Klicken Sie neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten, auf „URL kopieren“.
 
-## URL-Zeichenfolgen zu Bildvorgaben {#about-image-preset-url-strings}
+## URL-Zeichenfolgen zu Bildvorgaben  {#about-image-preset-url-strings}
 
-Ein URL-Aufruf für die Bildgrößenänderung an dynamische Medienbildserver hat die folgende grundlegende Syntax:
+Ein URL-Aufruf zur Bildgrößenänderung für Dynamic Media-Image-Server hat die folgende grundlegende Syntax:
 
 *Pfad*/*Name des Image-Servers*/*Kontoname*/*Bildname*?*Modifikator1*&amp;*Modifikator2*&amp;...
 
-Unter der URL des Image-Servers für dynamische Medien werden nach dem Fragezeichen (?) Anweisungen zum Anzeigen des Bildes angezeigt. Beispielsweise wird mit dem folgenden URL-Aufruf ein Bild namens „backpack“ mit einer Breite von 250 Pixeln angezeigt:
+In einer Dynamic Media Image Server-URL werden nach dem Fragezeichen (?) Anweisungen zum Anzeigen des Bildes an den Server gesendet. Beispielsweise wird mit dem folgenden URL-Aufruf ein Bild namens „backpack“ mit einer Breite von 250 Pixeln angezeigt:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -75,11 +75,11 @@ Bei einer URL-Zeichenfolge, die mit einer Bildvorgabe generiert wurde, ist statt
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. When a Dynamic Media Image Server encounters the Image Preset portion of the URL (the `Large` in this case), using the size and formatting instructions defined by the “Large” Image Preset.
+Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. Wenn ein Dynamic Media-Image-Server auf den Bildvorgabenteil der URL stößt (in diesem Fall auf das `Large`), verwenden Sie die Größen- und Formatierungsanweisungen, die in der Bildvorgabe &quot;Groß&quot;definiert sind.
 
 ## Einfügen dynamischer Bilder in Websites {#adding-dynamic-images-to-your-web-page}
 
-To add dynamic images to your web page, the `<IMG>` tag in your HTML web page code typically is modified using the Dynamic Media Classic URL string to make a request to Dynamic Media Image Servers. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
+Um Ihrer Webseite dynamische Bilder hinzuzufügen, wird das `<IMG>`-Tag im HTML-Code Ihrer Website in der Regel mithilfe der URL-Zeichenfolge von Dynamic Media Classic geändert, um eine Anforderung an Dynamic Media Image Servers zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
 
 Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise dies:
 
@@ -87,10 +87,10 @@ Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise die
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-you now use the `<IMG>`tag to replace the reference to a static image with an Image Preset call to the Dynamic Media Classic platform. Hier ein Beispiel:
+Sie können jetzt das Tag `<IMG>`verwenden, um den Verweis auf ein statisches Bild durch einen Bildvorgabenaufruf an die Dynamic Media Classic-Plattform zu ersetzen. Hier ein Beispiel:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-In this example, a Dynamic Media Image Server “looks up” the definition of `$thumbnail$` and dynamically generates the appropriate image with the sizing and formatting specifications defined by the `thumbnail`Image Preset. In einer URL-Zeichenfolge sind normalerweise alle Elemente für die Seitenvorlage unveränderlich, ausgenommen der Produktbild-Dateiname (in diesem Fall `backpack_trns`). Das einzige Element, das automatisch von Ihrem kommerziellen Server in die Seitenvorlage eingefügt wird, ist die IPS-ID bzw. der Name des Bildes.
+In diesem Beispiel sucht ein Dynamic Media-Image-Server die Definition von `$thumbnail$` und generiert dynamisch das entsprechende Bild mit den Größen- und Formatierungsspezifikationen, die in der `thumbnail`Bildvorgabe definiert sind. In einer URL-Zeichenfolge sind normalerweise alle Elemente für die Seitenvorlage unveränderlich, ausgenommen der Produktbild-Dateiname (in diesem Fall `backpack_trns`). Das einzige Element, das automatisch von Ihrem kommerziellen Server in die Seitenvorlage eingefügt wird, ist die IPS-ID bzw. der Name des Bildes.
