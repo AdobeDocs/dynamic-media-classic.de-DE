@@ -20,7 +20,7 @@ ht-degree: 83%
 
 # Weitergeben von Asset-Änderungen an Peers in Echtzeit{#sharing-asset-changes-with-peers-in-real-time}
 
-Wenn mehrere Kopien von Dynamic Media Classic auf einem oder mehreren Computern in derselben Firma ausgeführt werden, werden die folgenden Aktionen von allen Dynamic Media Classic-Clients in Echtzeit mit allen Peer-Clients aktualisiert:
+Wenn mehrere Kopien von Dynamic Media Classic auf einem oder mehreren Computern in derselben Firma ausgeführt werden, werden die folgenden Aktionen von einem Dynamic Media Classic-Client in Echtzeit mit allen Peer-Clients aktualisiert:
 
 * Bearbeitung eines Assets (Builder, Bild-Editor usw.)
 * Umbenennung eines Assets
