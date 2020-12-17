@@ -20,7 +20,7 @@ ht-degree: 33%
 
 # Hochladen von Masterbildern{#uploading-master-images}
 
-Bevor Sie Bilder in Dynamic Media Classic hochladen, sollten Sie sicherstellen, dass sie die höchste Qualität aufweisen. Dynamic Media Classic empfiehlt das Hochladen hochwertiger Bilder mit einer ausreichenden Pixelanzahl (von 1500 bis 2000 Pixel in der langen Dimension). Dies gewährleistet, dass alle dynamischen Bildbearbeitungsvorgänge durchgeführt werden können.
+Stellen Sie vor dem Hochladen von Bildern in Dynamic Media Classic sicher, dass sie die höchste Qualität und das höchste Format aufweisen. Dynamic Media Classic empfiehlt das Hochladen hochwertiger Bilder mit einer ausreichenden Pixelanzahl (von 1500 bis 2000 Pixel in der langen Dimension). Dies gewährleistet, dass alle dynamischen Bildbearbeitungsvorgänge durchgeführt werden können.
 
 Detaillierte Informationen über das Hochladen von Bildern finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files).
 
@@ -28,8 +28,11 @@ Detaillierte Informationen über das Hochladen von Bildern finden Sie unter [Hoc
 
 Bereiten Sie die Übergeordnet erstellten Bilddateien vor dem Hochladen in Dynamic Media Classic vor:
 
-* **Bildgröße** Erstellen Sie die Bilder mit der größten Größe, die Sie erwarten. Die typische Bildgröße beträgt zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoomfunktion verwenden möchten, empfiehlt Dynamic Media Classic, Bilder mit einer Länge von mindestens 2000 Pixeln zu verwenden, um optimale Zoomdetails zu erzielen. Dynamic Media Classic kann bis zu 25 Megapixel rendern. Sie können beispielsweise ein Bild mit 5000 x 5000 Megapixeln oder eine beliebige andere Größenkombination mit bis zu 25 Megapixeln verwenden.
+* **Bildgröße**
+Erstellen Sie die Bilder mit der größten Größe, die Sie erwarten. Die typische Bildgröße beträgt zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoomfunktion verwenden möchten, empfiehlt Dynamic Media Classic die Verwendung von Bildern mit einer Länge von mindestens 2000 Pixeln, um optimale Zoomdetails zu erzielen. Dynamic Media Classic kann bis zu 25 Megapixel rendern. Sie können beispielsweise ein Bild mit 5000 x 5000 Megapixeln oder eine beliebige andere Größenkombination mit bis zu 25 Megapixeln verwenden.
 
-* **Dateiformate** Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate, einschließlich TIFF, BMP, JPEG, PSD, GIF und EPS. Verlustfreie Bildformate – TIFF und PNG – werden empfohlen. Wenn Sie JPEG-Bilder verwenden, sollten Sie dafür die höchstmögliche Qualität einstellen.
+* **DateiformateDynamic Media Classic**
+unterstützt alle standardmäßigen Bilddateiformate, einschließlich TIFF, BMP, JPEG, PSD, GIF und EPS. Verlustfreie Bildformate – TIFF und PNG – werden empfohlen. Wenn Sie JPEG-Bilder verwenden, sollten Sie dafür die höchstmögliche Qualität einstellen.
 
-* **Farbraum** RGB ist der Farbraum für Webbildpräsentationen. CMYK-Bilder, die häufig zum Drucken verwendet werden, werden beim Hochladen automatisch in RGB konvertiert. Es empfiehlt sich, CMYK-Bilder hochzuladen, die ein eingebettetes ICC-Farbprofil für die Konvertierung in RGB enthalten. Siehe auch ICC-Profile.
+* **Color**
+spaceRGB ist der Farbraum für Webbildpräsentationen; CMYK-Bilder, die häufig zum Drucken verwendet werden, werden beim Hochladen automatisch in RGB konvertiert. Es empfiehlt sich, CMYK-Bilder hochzuladen, die ein eingebettetes ICC-Farbprofil für die Konvertierung in RGB enthalten. Siehe auch ICC-Profile.
