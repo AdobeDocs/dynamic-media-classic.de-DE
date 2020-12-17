@@ -32,7 +32,7 @@ Dieser Beginn für Gemischte Mediensets Quick hilft Ihnen, sich schnell mit den 
 
 Laden Sie zunächst die Bilder, Musterdateien und Videos für Ihre gemischten Mediensets hoch. Da Benutzer Bilder im Viewer für gemischte Mediensets zoomen können, sollten Sie beim Auswählen von Bildern auch das Zoomen berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Dynamic Media Classic-Ordner hochzuladen.
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen.
 
 Siehe [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
@@ -50,7 +50,7 @@ Siehe [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md#creati
 
 **4. Einrichten der Vorgaben für gemischte Mediensets**
 
-Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für gemischte Mediensets. Administratoren können Viewer-Vorgaben für gemischte Mediensets erstellen oder ändern.
+Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben für gemischte Mediensets enthalten. Administratoren können Viewer-Vorgaben für gemischte Mediensets erstellen oder ändern.
 
 Beim Einrichten einer Viewer-Vorgabe für gemischte Mediensets fügen Sie die Viewer-Vorgaben für alle anderen Assets in Ihrem Set hinzu. Falls Ihr gemischtes Medienset beispielsweise Videos enthält, fügen Sie eine Video-Viewer-Vorgabe zur Viewer-Vorgabe für gemischte Mediensets hinzu. Sie können auch einen Soundtrack zum Viewer hinzufügen. Dieser Soundtrack wird abgespielt, wenn der Viewer geöffnet ist. Wenn ein Video abgespielt wird, wird die Soundtrack-Wiedergabe unterbrochen. 
 
@@ -64,9 +64,9 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 **6. Veröffentlichen eines gemischten Mediensets**
 
-Beim Veröffentlichen eines gemischten Mediensets wird es auf den Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
+Beim Veröffentlichen eines gemischten Mediensets wird dieses auf den Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
-Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden Sie den **Image-Server** , um verwandte Assets wie Video-Miniaturansichten zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
+Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden Sie **Image-Server**, um verwandte Assets wie Video-Miniaturansichten zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
 
 Siehe [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
