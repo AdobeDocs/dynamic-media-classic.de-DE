@@ -21,9 +21,9 @@ ht-degree: 84%
 
 Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsamen geheimen Schlüssel an. Mit diesem gemeinsamen geheimen Schlüssel können Sie ein Upload-Token abrufen. Mit dem Upload-Token können Sie anschließend Bild- oder Vektor-Assets hochladen.
 
-## Anfordern eines gemeinsamen geheimen Schlüssels {#requesting-a-shared-secret-key}
+## Anfordern eines gemeinsamen geheimen Schlüssels  {#requesting-a-shared-secret-key}
 
-Fordern Sie einen *gemeinsamen geheimen Schlüssel* an, indem Sie die Admin Console [verwenden, um einen Supportfall zu erstellen.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Fordern Sie in Ihrem Support-Fall einen gemeinsamen geheimen Schlüssel an.
+Fordern Sie einen *gemeinsamen geheimen Schlüssel* von [mithilfe der Admin Console an, um einen Unterstützungsfall zu erstellen.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Fordern Sie in Ihrem Support-Fall einen gemeinsamen geheimen Schlüssel an.
 
 Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
@@ -34,10 +34,10 @@ Das *Upload-Token* stellt sicher, dass niemand denselben gemeinsamen geheimen Sc
 Das Upload-Token besteht aus einer alphanumerischen Zeichenfolge, die nur für eine begrenzte Zeitspanne gültig ist. Verwenden Sie die folgenden URLs und ersetzen Sie Ihren gemeinsamen geheimen Schlüssel, um das Upload-Token abzurufen.
 
 * Bild
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In diesem Beispiel lautet der gemeinsame geheime Schlüssel `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In diesem Beispiel lautet der gemeinsame geheime Schlüssel  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * Vektor
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In diesem Beispiel lautet der gemeinsame geheime Schlüssel `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In diesem Beispiel lautet der gemeinsame geheime Schlüssel  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
 Standardmäßig läuft das Upload-Token 5 Minuten (300 Sekunden) nach dem Abrufen ab. Wenn Sie mehr Zeit benötigen, schließen Sie den Parameter `expires` und die gewünschte Zeit in Sekunden in die URL ein. So wird bei der folgenden URL für ein Beispielbild ein Upload-Token abgerufen, das 1800 Sekunden gültig ist:
 
@@ -90,7 +90,7 @@ Sie können nun ein Bild-Asset hochladen.
 
 Siehe [Hochladen von Bild-Assets](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Hochladen von Bild-Assets {#uploading-an-image-asset}
+## Hochladen von Bild-Assets  {#uploading-an-image-asset}
 
 Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne gültig ist, können Sie ein Bild-Asset hochladen. Sie laden das Asset mit der POST-Methode als mehrteilige Formulardaten hoch, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden, wie im nachfolgenden Beispiel gezeigt:
 
@@ -98,7 +98,7 @@ Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne g�
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+Die Felder `upload_token` und `company_name` sind erforderlich.
 
 Siehe [Abrufen des Upload-Tokens](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -110,7 +110,7 @@ Sie können auch andere optionale Werte als URL-Anfragezeichenfolgen senden, wie
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. Der Parameter `file_exts` gibt die für das Hochladen zulässigen Erweiterungen des Dateinamens an. Diese beiden Werte sind optional.
+Der Parameter `file_limit` gibt die maximale Dateigröße in Byte an. Der Parameter `file_exts` gibt die für das Hochladen zulässigen Erweiterungen des Dateinamens an. Diese beiden Werte sind optional.
 
 In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei der von Ihnen gesendeten Anforderung um eine Untergruppe der globalen Beschränkungen handelt, wird diese berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
@@ -126,7 +126,7 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Profil und der Dateiname des Assets beibehalten werden sollen.
-* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen unter [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei
 
 <!-- 
@@ -145,9 +145,9 @@ Sie können den HTML-Quellcode, der mit dem oben stehenden Formular verknüpft i
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und dann auf **Seitenquelle**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und klicken Sie dann auf **Seitenquelle der Ansicht**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
 
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“ > „Quelltext“**. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“ > „Quelltext“**. Um die XML-Antwort in Firefox Ansicht, klicken Sie auf **Tools > Web Developer > Page Source**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -188,10 +188,10 @@ Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formular
 | op | Erforderlich | Hochladen |
 | upload_token | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
 | company_name | Erforderlich | Name des hochladenden Unternehmens. |
-| file_limit | Optional | Maximale Dateigröße (in Byte) für das Asset. |
-| file_exts | Optional | Liste der zulässigen Erweiterungen für die Bild-Asset-Datei. |
-| preserve_colorprofile | Optional | Behält eingebettete Farbprofile bei der Konvertierung der hochgeladenen Datei in das PTIFF-Format bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
-| preserve_filename | Optional | Behält den Dateinamen des hochgeladenen Assets bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
+| file_limit | optional | Maximale Dateigröße (in Byte) für das Asset. |
+| file_exts | optional | Liste der zulässigen Erweiterungen für die Bild-Asset-Datei. |
+| preserve_colorprofile | optional | Behält eingebettete Farbprofile bei der Konvertierung der hochgeladenen Datei in das PTIFF-Format bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
+| preserve_filename | optional | Behält den Dateinamen des hochgeladenen Assets bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
 
 >[!NOTE]
 >
@@ -205,7 +205,7 @@ Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formular
 
 POST
 
-### Abrufen von Asset-Metadaten für Bilder {#getting-asset-metadata-for-images}
+### Abrufen von Asset-Metadaten für Bilder  {#getting-asset-metadata-for-images}
 
 Mit `image_info` können Sie Metadaten für ein hochgeladenes Asset abrufen, wie im nachfolgenden Beispiel gezeigt:
 
@@ -253,7 +253,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Infor
 
 GET und POST
 
-## Hochladen von Vektor-Assets {#uploading-a-vector-asset}
+## Hochladen von Vektor-Assets  {#uploading-a-vector-asset}
 
 Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne gültig ist, können Sie ein Vektor-Asset hochladen. Sie laden das Asset mit der POST-Methode als mehrteilige Formulardaten hoch, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden, wie im nachfolgenden Beispiel gezeigt:
 
@@ -261,7 +261,7 @@ Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne g�
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+Die Felder `upload_token` und `company_name` sind erforderlich.
 
 Siehe [Abrufen des Upload-Tokens](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -273,7 +273,7 @@ Sie können auch andere optionale Werte als URL-Anfragezeichenfolgen senden, wie
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. Der Parameter `file_exts` gibt die für das Hochladen zulässigen Erweiterungen des Dateinamens an. Diese beiden Werte sind optional.
+Der Parameter `file_limit` gibt die maximale Dateigröße in Byte an. Der Parameter `file_exts` gibt die für das Hochladen zulässigen Erweiterungen des Dateinamens an. Diese beiden Werte sind optional.
 
 In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei der von Ihnen gesendeten Anforderung um eine Untergruppe der globalen Beschränkungen handelt, wird diese berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
@@ -289,7 +289,7 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Profil und der Dateiname des Assets beibehalten werden sollen.
-* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen in den [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen unter [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei
 
 <!-- 
@@ -380,9 +380,9 @@ Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formular
 |--- |--- |--- |
 | op | Erforderlich | Hochladen |
 | upload_token | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
-| company_name | Erforderlich | Name des hochladenden Unternehmens. |
-| file_limit | Optional | Maximale Dateigröße (in Byte) für das Asset. |
-| file_exts | Optional | Liste der zulässigen Erweiterungen für die Asset-Datei. |
+| firma_name | Erforderlich | Name des hochladenden Unternehmens. |
+| file_limit | optional | Maximale Dateigröße (in Byte) für das Asset. |
+| file_exts | optional | Liste der zulässigen Erweiterungen für die Asset-Datei. |
 
 >[!NOTE]
 >
