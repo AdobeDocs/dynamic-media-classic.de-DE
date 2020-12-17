@@ -31,9 +31,9 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Um eine Viewer-Vorgabe zu erstellen oder zu bearbeiten, gehen Sie im Anzeigebereich „Viewer-Vorgaben“ wie folgt vor:
 
-   **Erstellen** von Hinzufügen. Wählen Sie im Dialogfeld „Viewer-Vorgabe hinzufügen“ eine Plattform aus, wählen Sie „Zoom-Viewer: Benutzerdefiniert“ und klicken Sie auf „Hinzufügen“. Sie können eine neue Zoom-Viewer-Vorgabe auch auf Grundlage einer bereits vorhandenen Vorgabe erstellen. Suchen Sie in diesem Fall nach dem Namen der Vorgabe, die als Vorlage dienen soll, markieren Sie ihn und klicken Sie auf „Bearbeiten“. Geben Sie im Anzeigebereich „Viewer konfigurieren“ einen Namen für die neue Vorgabe ein.
+   **** ErstellenKlicken Sie Hinzufügen. Wählen Sie im Dialogfeld „Viewer-Vorgabe hinzufügen“ eine Plattform aus, wählen Sie „Zoom-Viewer: Benutzerdefiniert“ und klicken Sie auf „Hinzufügen“. Sie können eine neue Zoom-Viewer-Vorgabe auch auf Grundlage einer bereits vorhandenen Vorgabe erstellen. Suchen Sie in diesem Fall nach dem Namen der Vorgabe, die als Vorlage dienen soll, markieren Sie ihn und klicken Sie auf „Bearbeiten“. Geben Sie im Anzeigebereich „Viewer konfigurieren“ einen Namen für die neue Vorgabe ein.
 
-   **Bearbeiten** Zeigen Sie den Namen einer Vorgabe an, wählen Sie sie aus und klicken Sie dann auf **Bearbeiten**.
+   **** BearbeitenZeigen Sie den Namen einer Vorgabe an, wählen Sie sie aus und klicken Sie dann auf  **Bearbeiten**.
 
 1. Wählen Sie im Anzeigebereich „Viewer konfigurieren“ die gewünschten Optionen aus.
 
@@ -51,10 +51,10 @@ Mit der Vorschau können Sie testen, wie ein Asset in einer bestimmten Viewer-Pl
 1. Durchsuchen Sie auf der linken Seite der Asset-Bibliothek die Asset-Ordner, um den Bildsatz auszuwählen, den Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Listenansicht“**. In the Asset window, hover on an asset, then click **Preview**.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Listenansicht“**. Bewegen Sie den Mauszeiger im Fenster &quot;Asset&quot;über ein Asset und klicken Sie dann auf **Vorschau**.
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Rasteransicht“**. Klicken Sie im Fenster „Assets“ in einem Asset-Miniaturfenster auf **„Vorschau“**.
    * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **„Detailansicht“**. Klicken Sie in derselben Symbolleiste auf **„Vorschau“**.
-   * Wählen Sie im Assets-Fenster ein Asset aus. On the toolbar, click **File** > **Preview**.
+   * Wählen Sie im Assets-Fenster ein Asset aus. Klicken Sie in der Symbolleiste auf **Datei** > **Vorschau**.
 
 1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
 1. Klicken Sie auf eine Viewer-Verknüpfung, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
