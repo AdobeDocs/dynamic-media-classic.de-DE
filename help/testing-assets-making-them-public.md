@@ -32,7 +32,7 @@ Möglicherweise bevorzugen Sie aus folgenden Gründen das Erstellen einer Stagin
 
 >[!NOTE]
 >
->Secure Testing hat keine Auswirkungen auf den Zugriff auf Dynamic Media Classic. Die Sicherheit von Dynamic Media Classic bleibt einheitlich und erfordert die üblichen Anmeldeinformationen für den Zugriff auf Dynamic Media Classic und zugehörige Webdienste.
+>Secure Testing beeinträchtigt nicht den Zugriff auf Dynamic Media Classic. Die Sicherheit von Dynamic Media Classic bleibt einheitlich und erfordert die üblichen Anmeldeinformationen für den Zugriff auf Dynamic Media Classic und zugehörige Webdienste.
 
 ## Funktionsweise von Secure Testing {#how-secure-testing-works}
 
@@ -40,9 +40,9 @@ Die meisten Unternehmen haben eine Firewall für den Internetzugriff. Der Zugrif
 
 In Ihrem Unternehmensnetzwerk können Sie Ihre öffentliche IP-Adresse mithilfe von Websites wie https://whatismyip.com herausfinden oder diese Informationen bei Ihrer IT-Abteilung anfordern.
 
-Mit dem Secure Testing stellt Dynamic Media Classic einen eigenen Image-Server für Staging-Umgebung oder interne Anwendungen her. Mit jeder Anforderung bei diesem Server wird die Original-IP-Adresse überprüft. Wenn die eingehende Anforderung nicht auf der genehmigten Liste der IP-Adressen steht, wird eine Fehlerantwort zurückgesendet. Der Administrator der Dynamic Media Classic-Firma konfiguriert die genehmigte Liste der IP-Adressen für die Secure Testing-Umgebung der Firma.
+Mit dem Secure Testing stellt Dynamic Media Classic einen eigenen Image-Server für Staging-Umgebung oder interne Anwendungen her. Mit jeder Anforderung bei diesem Server wird die Original-IP-Adresse überprüft. Wenn die eingehende Anforderung nicht auf der genehmigten Liste der IP-Adressen steht, wird eine Fehlerantwort zurückgesendet. Der Dynamic Media Classic Firma Administrator konfiguriert die genehmigte Liste von IP-Adressen für die Secure Testing-Umgebung der Firma.
 
-Da der Speicherort der ursprünglichen Anforderung bestätigt werden muss, wird der Traffic des Secure Testing-Dienstes nicht über ein Inhaltsverteilungsnetzwerk wie den Traffic des öffentlichen Dynamic Media Image-Servers geleitet. Anforderungen an den Secure Testing-Dienst weisen möglicherweise eine etwas höhere Latenz auf als die öffentlichen Dynamic Media-Image-Server.
+Da der Speicherort der ursprünglichen Anforderung bestätigt werden muss, wird der Traffic des Secure Testing-Dienstes nicht über ein Inhaltsverteilungsnetzwerk wie den öffentlichen Dynamic Media Image Server-Traffic geleitet. Anforderungen an den Secure Testing-Dienst weisen möglicherweise eine etwas höhere Latenz auf als die öffentlichen Dynamic Media-Image-Server.
 
 Unveröffentlichte Assets sind sofort über den Secure Testing-Dienst verfügbar und müssen nicht erst veröffentlicht werden. Dies ermöglicht es Ihnen, eine Vorschau auszuführen, bevor Assets auf dem für die Öffentlichkeit zugänglichen Image-Server veröffentlicht werden.
 
@@ -64,8 +64,8 @@ Last Modified Date:
 * Vignetten (Render-Server-Anforderungen).
 * Render-Server-Anforderungen (unterstützt, aber explizit vom Kunden angefordert).
 * Sätze, einschließlich Bildsätzen, E-Katalog, Rendersets und Mediensets.
-* Standard-Viewer für dynamische Medien Classic mit Rich-Media-Daten.
-* OnDemand-JSP-Seiten für Dynamic Media Classic
+* Standard-Rich-Media-Viewer von Dynamic Media Classic
+* Dynamic Media Classic OnDemand JSP-Seiten.
 * Statische Inhalte wie PDF-Dateien und progressiv bereitgestellte Videos.
 * HTTP-Videostreaming.
 * Progressives Videostreaming.
@@ -75,13 +75,14 @@ Die folgenden Asset-Typen und -Funktionen werden derzeit nicht unterstützt:
 * RTMP-Videostreaming
 * UGC-Dienste
 * Web-to-Print
-* Dynamic Media Classic Info oder E-Katalog-Suche
+* Dynamic Media Classic Info- oder E-Katalogsuche
 
 ## Testen des Secure Testing-Dienstes {#testing-the-secure-testing-service}
 
 Sie sollten den Secure Testing-Dienst testen, um sicherzustellen, dass er wie erwartet funktioniert.
 
-Hinweis: Wenn Sie unter &quot;Einstellungen&quot;> &quot;Veröffentlichungseinstellungen&quot;> &quot;Image-Server&quot;> &quot;Test-Image-Dienst&quot;keine IP-Adresse angeben, können Sie die Assets nur über diese IP aufrufen, ohne dass eine andere IP aufgerufen werden darf. Solange in diesem Abschnitt keine IP erwähnt wird, dürfen alle IPs die Assets abrufen und werden angezeigt.
+Hinweis: Wenn Sie keine IPs unter &quot;Einstellungen&quot;> &quot;Veröffentlichungseinstellungen&quot;> &quot;Image-Server&quot;> &quot;Bilddienst testen&quot;erwähnen
+Wenn Sie nur eine IP hinzufügen, kann diese IP die Assets aufrufen und keine andere IP darf die Aufrufe tätigen. Solange in diesem Abschnitt keine IP erwähnt wird, dürfen alle IPs die Assets abrufen und werden angezeigt.
 
 **Vorbereiten des Kontos**
 
@@ -96,20 +97,20 @@ Last Modified Date:
  -->
 
 1. Wenden Sie sich an den technischen Support und fordern Sie die Aktivierung der sicheren Testumgebung für Ihr Konto an.
-1. Klicken Sie in Dynamic Media Classic auf **Einstellungen** > **Veröffentlichungseinstellungen** > **Image-Server**.
+1. Klicken Sie in Dynamic Media Classic auf **Setup** > **Veröffentlichungseinstellungen** > **Image-Server**.
 1. Wählen Sie auf der Seite „Veröffentlichung zum Image-Server“ in der Dropdownliste „Veröffentlichungskontext“ die Option **Image-Server-Test**.
 1. Für den Client-Adressfilter klicken Sie auf **„Hinzufügen“**.
 1. Wählen Sie das Kontrollkästchen aus, um die Adresse zu aktivieren, und geben Sie dann eine IP-Adresse und eine Netzmaske in die entsprechenden Textfelder ein.
 
    >[!NOTE]
    >
-   >Wenn Sie eine einzelne IP-Adresse und eine Netzmaske hinzufügen, kann diese Adresse Asset-Aufrufe ausführen. Andere von Ihnen hinzugefügte IP-Adressen und Netzmasken dürfen jedoch keine Asset-Aufrufe durchführen. Daher sollten Sie das Kontrollkästchen im obigen Schritt deaktivieren (deaktivieren), um die Möglichkeit zur Angabe einer IP-Adresse und Netzmaske zu deaktivieren. Auf diese Weise können *alle* IP-Adressen Asset-Aufrufe durchführen, und sie werden alle angezeigt.
+   >Wenn Sie eine einzelne IP-Adresse und eine Netzmaske hinzufügen, kann diese Adresse Asset-Aufrufe ausführen. Andere von Ihnen hinzugefügte IP-Adressen und Netzmasken dürfen jedoch keine Asset-Aufrufe durchführen. Daher sollten Sie das Kontrollkästchen im obigen Schritt deaktivieren (deaktivieren), um die Möglichkeit zur Angabe einer IP-Adresse und Netzmaske zu deaktivieren. Auf diese Weise können *alle*-IP-Adressen Asset-Aufrufe durchführen, und sie werden alle angezeigt.
 
 1. Führen Sie einen der folgenden Schritte aus:
    * Wiederholen Sie diese beiden Schritte, um weitere IP-Adressen hinzuzufügen.
    * Fahren Sie mit dem nächsten Schritt fort.
 1. Klicken Sie unten links auf der Seite „Veröffentlichung zum Image-Server“ auf **Speichern**.
-1. Laden Sie die gewünschten Bilder in Ihr Konto für Dynamic Media Classic hoch.
+1. Laden Sie die gewünschten Bilder in Ihr Dynamic Media Classic-Konto hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
@@ -126,7 +127,7 @@ Wenden Sie sich an den Adobe Care, wenn der Servername fehlt oder die URLs zum S
 
 Sie benötigen zwei Variationen einer Website, die Links zu veröffentlichten und unveröffentlichten Assets enthält:
 
-* Öffentliche Version - Verknüpfen Sie Assets mit Ihrer herkömmlichen URL-Syntax für Dynamic Media Classic.
+* Öffentliche Version - Verknüpfen Sie Assets mit Ihrer herkömmlichen Dynamic Media Classic-URL-Syntax.
 * Staging-Version - Verknüpfen Sie Assets mit derselben Syntax, jedoch mit dem Namen der Secure Testing-Site.
 
 **Ausführen von Tests**
