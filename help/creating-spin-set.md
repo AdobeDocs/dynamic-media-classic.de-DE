@@ -20,11 +20,11 @@ ht-degree: 74%
 
 # Erstellen eines Rotationssets{#creating-a-spin-set}
 
-Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, die Bilder korrekt aufzunehmen. Sie können ein Rotationsset in Dynamic Media Classic erstellen, indem Sie auf &quot;Erstellen&quot;klicken und &quot;Rotationssets&quot;wählen. Im Anzeigebereich „Rotationsset“ können Sie Rotationssets bearbeiten.
+Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, die Bilder korrekt aufzunehmen. Sie können ein Rotationsset in Dynamic Media Classic erstellen, indem Sie auf &quot;Erstellen&quot;klicken und dann &quot;Rotationssets&quot;wählen. Im Anzeigebereich „Rotationsset“ können Sie Rotationssets bearbeiten.
 
 >[!NOTE]
 >
->In früheren Versionen von Dynamic Media Classic wurden keine zweidimensionalen Rotationssets Angebot. Wenn Sie ein Rotationsset in einer früheren Version von Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht speichern, ohne es zuvor unter einem anderen Namen zu speichern. Klicken Sie im Anzeigebereich &quot;Rotationsset&quot;auf &quot;Speichern unter&quot;und geben Sie einen neuen Namen ein, damit Sie ihn in &quot;Dynamic Media Classic&quot;bearbeiten können.
+>In früheren Versionen von Dynamic Media Classic wurden keine zweidimensionalen Rotationssets Angebot. Wenn Sie ein Rotationsset in einer früheren Version von Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht ohne vorherige Speicherung unter einem anderen Namen speichern. Klicken Sie im Anzeigebereich &quot;Rotationsset&quot;auf &quot;Speichern unter&quot;und geben Sie einen neuen Namen ein, damit Sie ihn in Dynamic Media Classic bearbeiten können.
 
 ## Richtlinien für das Aufnehmen von Rotationsset-Bildern {#guidelines-for-shooting-spin-set-images}
 
@@ -36,9 +36,9 @@ Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rota
 * Vergewissern Sie sich, dass die Produktdetails gut ausgeleuchtet und fokussiert sind.
 * Nehmen Sie Bilder für Modekleidung mit einer Gliederpuppe oder einem Model auf. Oft wird die Gliederpuppe entweder vollständig maskiert (durch Verwendung einer gläsernen Gliederpuppe) oder das Bild wird mit einer stilisierten Gliederpuppe dargestellt. Sie können ein Rotationsset auch mit einem Model aufnehmen, indem Sie die Anzahl unterschiedlicher Blickwinkel definieren. Markieren Sie jede Winkelposition mit Klebeband auf dem Boden, um dem Model Position und Blickrichtung für die Aufnahmen anzuzeigen.
 
-## Erstellen eines Rotationssets {#create}
+## Erstellen eines Rotationssets  {#create}
 
-Beachten Sie, dass die Reihenfolge, in der das Rotationsset in Dynamic Media Classic erstellt oder verfasst wird, wichtig ist. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Deshalb entspricht die Reihenfolge, in der es im Konstruktor angezeigt wird, der Drehrichtung des Assets, wenn ein Benutzer den Mauszeiger oder Finger von links nach rechts bewegt.
+Beachten Sie, dass die Reihenfolge, in der das Rotationsset in Dynamic Media Classic verfasst oder erstellt wird, wichtig ist. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Deshalb entspricht die Reihenfolge, in der es im Konstruktor angezeigt wird, der Drehrichtung des Assets, wenn ein Benutzer den Mauszeiger oder Finger von links nach rechts bewegt.
 
 Wenn Sie ein Set erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -67,7 +67,7 @@ Nach dem Speichern eines Rotationssets können Sie seine Anzeige im Standard-Vie
 1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem das Rotationsset gespeichert werden soll. Geben Sie in das Feld „Dateiname“ den Namen des Rotationssets ein.
 1. Klicken Sie auf **Speichern**.
 
-## Bearbeiten eines Rotationssets {#editing-a-spin-set}
+## Bearbeiten eines Rotationssets  {#editing-a-spin-set}
 
 Je nachdem, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
@@ -85,20 +85,24 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 1. Klicken Sie auf die Rollover-Schaltfläche **Bearbeiten** des Rotationssets.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Entfernen von Bildern** Wählen Sie das Bild aus und klicken Sie auf 
+   * **Entfernen von**
+BildernWählen Sie das Bild aus und klicken Sie auf 
 **Löschen**.
 
-   * **Hinzufügen von Bildern** Ziehen Sie das Bild in eine Zelle.
+   * **Hinzufügen von**
+BildernZiehen Sie das Bild in eine Zelle.
 
-   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)** Klicken Sie auf ein Zeilenauswahlfeld (links neben der Zeile) und dann auf 
-**Zeile nach unten** oder **nach oben** verschieben
+   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)**
+Klicken Sie auf ein Zeilenauswahlfeld (links neben der Zeile) und dann auf 
+**Zeile** nach unten verschieben oder Zeile nach oben  **verschieben**.
 
-   * **Hinzufügen von Zeilen und Zellen** Geben Sie im Feld &quot;Zeilen&quot;und im Feld &quot;Zellen&quot;eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile festzulegen.
+   * **Hinzufügen von Zeilen und**
+ZellenGeben Sie im Feld &quot;Zeilen&quot;und &quot;Zellen&quot;eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
 
 1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
 
-## Löschen eines Rotationssets {#deleting-a-spin-set}
+## Löschen eines Rotationssets  {#deleting-a-spin-set}
 
 Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
