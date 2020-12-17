@@ -31,7 +31,7 @@ Sie können Assets über das Durchsuchenbedienfeld in andere Ordner verschieben.
    * Zeigen Sie den Ordner, in den Sie die Assets verschieben möchten, in der Asset-Bibliothek an und ziehen Sie dann die Assets in den Ordner.
    * Sie können auch auf „Datei“ > „Verschieben“ klicken, im Fenster „Assets verschieben“ einen Ordner auswählen und dann auf „Verschieben“ klicken.
 
-## Umbenennen von Assets {#rename-assets}
+## Umbenennen von Assets  {#rename-assets}
 
 So benennen Sie ein Asset um
 
@@ -40,7 +40,7 @@ So benennen Sie ein Asset um
    * Wählen Sie den Namen aus, geben Sie den neuen Namen ein und drücken Sie die Eingabetaste oder klicken Sie auf eine andere Stelle.
    * Wählen Sie „Datei“ > „Umbenennen“. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste.
 
-Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen dynamischen Medien-Classic-Assets eingeben.
+Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen Dynamic Media Classic-Assets eingeben.
 
 ## Löschen von Assets {#delete-assets}
 
@@ -55,19 +55,19 @@ Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelösch
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Um ein oder mehrere Assets zu löschen, wählen Sie die Assets im Durchsuchenbedienfeld aus und drücken die Entf-Taste oder wählen „Datei“ > „Löschen“.
-   * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
+   * Um einen Ordner zu löschen, wählen Sie ihn in der Asset-Bibliothek aus und klicken Sie auf **Ordner entfernen**.
 
       Beim Löschen werden die Ordner selbst sowie alle darin (auch in Unterordnern) enthaltenen Assets gelöscht.
 
 >[!NOTE]
 >
->Es wird empfohlen, Asset-Dateien zu überschreiben, anstatt sie zu löschen, wenn Sie eine Asset-Datei aus demselben Grund durch eine andere ersetzen möchten.
+>Dynamic Media Classic empfiehlt, Asset-Dateien zu überschreiben, anstatt sie zu löschen, wenn der Grund für das Löschen einer Asset-Datei darin besteht, sie durch eine andere Datei mit demselben Namen zu ersetzen.
 
 ## Löschen mehrerer Assets mithilfe einer Textdatei {#delete-multiple-assets-with-a-text-file}
 
-Um mehrere Assets gleichzeitig in der Asset-Bibliothek zu löschen, können Sie die zu löschenden Assets in einer Textdatei Liste und die Liste an Dynamic Media Classic senden.
+Um viele Assets gleichzeitig in der Asset-Bibliothek zu löschen, können Sie die zu löschenden Assets in einer Textdatei Liste und die Liste an Dynamic Media Classic senden.
 
-Erstellen Sie die Liste der Classic-IDs für dynamische Medien und speichern Sie sie als Textdatei (.txt). Jede Dynamic Media Classic-ID muss sich in einer eigenen Zeile befinden (gefolgt von einer festen Rückkehr).
+Erstellen Sie die Liste der Dynamic Media Classic-IDs und speichern Sie sie als Textdatei (.txt). Jede Dynamic Media Classic-ID muss sich in einer eigenen Zeile befinden (gefolgt von einem Zeilenumbruch).
 
 Wenn Sie mit dem Erstellen der Liste fertig sind, führen Sie die folgenden Schritte aus, um die Assets zu löschen:
 
@@ -75,7 +75,7 @@ Wenn Sie mit dem Erstellen der Liste fertig sind, führen Sie die folgenden Schr
 1. Gehen Sie im Dialogfeld „Asset-Liste löschen“ zu der Textdatei, die die Liste der zu löschenden Assets enthält, oder geben Sie den Pfad zu dieser Datei ein.
 1. Klicken Sie auf die Schaltfläche „Löschen“.
 
-Wenn Sie Assets mit einer Textdatei löschen und keine Dynamic Media Classic-ID auf der Liste vorhanden ist, wird eine Meldung angezeigt, die Sie darauf hinweist, dass Dynamic Media Classic die Meldung &quot;Diese Einträge in Ihrer Liste können nicht überprüft werden:&quot;zusammen mit der Liste der Einträge enthält. Im Anzeigebereich &quot;Auftrag&quot;generiert Dynamic Media Classic jedoch keinen Fehler.
+Wenn Sie Assets mit einer Textdatei löschen und keine Dynamic Media Classic-ID auf der Liste vorhanden ist, wird eine Meldung angezeigt, die Sie darauf hinweist, dass Dynamic Media Classic neben der Liste der Einträge die Meldung &quot;Diese Einträge in Ihrer Liste können nicht überprüft werden:&quot;enthält. Dynamic Media Classic erzeugt jedoch keinen Fehler im Anzeigebereich &quot;Auftrag&quot;.
 
 >[!MORELIKETHIS]
 >
