@@ -20,7 +20,7 @@ ht-degree: 64%
 
 # Kurzanleitung: Mustersets{#quick-start-swatch-sets}
 
-Dynamische Medienklassische Mustersets bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
+Dynamic Media Classic-Mustersets bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
 
 **Quick Beginn**
 
@@ -30,7 +30,7 @@ Dieser Beginn für Mustersets hilft Ihnen, sich schnell mit den Musterset-Techni
 
 Laden Sie zuerst die Bilder und Musterdateien für die Mustersets hoch.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner unter &quot;Dynamic Media Classic&quot;hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
+Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
 **2. Erstellen eines Mustersets**
 
@@ -38,7 +38,7 @@ Um ein Musterset zu erstellen, klicken Sie auf „Erstellen > Mustersets“. Zie
 
 **3. Einstellen von Musterset-Viewer-Vorgaben**
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ enthalten. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
 
 Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -52,12 +52,12 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 Beim Veröffentlichen eines Mustersets wird es auf den Servern von Dynamic Media Classic platziert und die URL-Zeichenfolge aktiviert.
 
-Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol **Zur Veröffentlichung markieren**. Klicken Sie dann auf **Veröffentlichen**. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Beginn Publish**.
 
 Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
 **6. Verknüpfen eines Mustersets mit einer Website**
 
-Dynamic Media Classic erstellt URL-Aufrufe für Mustersets und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
+Dynamic Media Classic erstellt URL-Aufrufe für Mustersets und aktiviert sie nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 
 Markieren Sie dazu das Musterset und klicken Sie auf „Vorschau“. Der Anzeigebereich „Vorschau“ wird geöffnet. Wählen Sie anschließend eine Musterset-Viewer-Vorgabe aus und klicken Sie auf „URL kopieren“. Siehe [Verknüpfen eines Mustersets mit einer Website](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
