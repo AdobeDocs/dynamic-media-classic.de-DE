@@ -1,8 +1,6 @@
 ---
-title: An- und Abmeldung
-seo-title: An- und Abmeldung
-description: 'null'
-seo-description: Informationen zum Anmelden und Abmelden in Dynamic Media Classic
+title: Anmelden bei und von der Adobe Dynamic Media Classic
+description: Erfahren Sie, wie Sie sich bei Dynamic Media Classic und der Adobe mit einem Produktionsserver in Nordamerika (NA) oder Europa, dem Nahen Osten, Afrika (EMEA) oder dem asiatisch-pazifischen Raum (APAC) anmelden und diese verlassen.
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,23 +8,23 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Anmelden bei Dynamic Media Classic {#sign-in}
+# Anmelden bei Adobe Dynamic Media Classic {#sign-in}
 
-Wie Sie sich bei Dynamic Media Classic anmelden und abmelden, hängt davon ab, ob Sie die Desktop-Anwendung oder den Webbrowser verwenden.
+Wie Sie sich bei Dynamic Media Classic anmelden und sich abmelden, hängt davon ab, ob Sie die [Desktopanwendung](#sign-in-dmc-app) oder den [Webbrowser](#sign-out) verwenden.
 
 Unabhängig davon, wie Sie sich anmelden, vergewissern Sie sich vor der Verwendung von Dynamic Media Classic, dass Sie Folgendes haben:
 
-* **Anmeldename**
+* **Benutzername**
 Sie verwenden Ihre E-Mail-Adresse als Ihren Anmeldenamen.
 
 * **Kennwort**
