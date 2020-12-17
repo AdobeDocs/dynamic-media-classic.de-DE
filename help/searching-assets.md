@@ -30,7 +30,7 @@ Um Dateielemente in Dynamic Media Classic zu finden, können Sie Assets nach Typ
 
 Wenn Sie während Ihrer Suche nur Dateien eines bestimmten Typs sehen möchten, öffnen Sie in der Asset-Bibliothek das Dropdownmenü „Anzeigen“ und wählen Sie den gewünschten Dateityp aus. Danach werden in der Asset-Bibliothek nur Assets des ausgewählten Typs angezeigt.
 
-## Sortieren von Dateien im Durchsuchenbedienfeld {#sorting-files-in-the-browse-panel}
+## Sortieren von Dateien im Durchsuchenbedienfeld  {#sorting-files-in-the-browse-panel}
 
 Um den Inhalt eines Ordners oder die Suchergebnisse im Durchsuchenbedienfeld zu sortieren, wählen Sie im Menü „Sortieren“ eine Option. Folgende Optionen stehen zur Wahl: „Name“, „Größe“, „Typ“, „Erstellungsdatum“ und „Zuletzt geändert“. 
 
@@ -38,7 +38,7 @@ Eine Sortierung ist nach den genannten Kriterien in aufsteigender und absteigend
 
 Klicken Sie in der Listenansicht zum Sortieren auf einen Spaltennamen.
 
-## Durchführen einer einfachen Suche {#conducting-a-simple-search}
+## Durchführen einer einfachen Suche  {#conducting-a-simple-search}
 
 Über das Feld „Suchen“ lassen sich einfache Suchvorgänge starten. Sie können Elemente anhand ihres Namens suchen oder anhand von Metadaten, die ein bestimmtes Schlüsselwort enthalten.
 
@@ -55,21 +55,21 @@ So führen Sie eine einfache Suche durch
 >
 >Dynamic Media Classic verfolgt Suchvorgänge. Wenn Sie eine bestimmte Suche ein zweites Mal ausführen möchten, klicken Sie auf „Suchen“ und wählen Sie ganz unten im Menü „Suchen“ den Namen einer Suche aus.
 
-## Durchführen einer erweiterten Suche {#conducting-an-advanced-search}
+## Durchführen einer erweiterten Suche  {#conducting-an-advanced-search}
 
 Klicken Sie in der Asset-Bibliothek auf „Erweiterte Suche“, wenn Sie die Möglichkeit haben möchten, bei Ihrer Suche zahlreiche Kriterien wie beispielsweise Werte in Metadatenfeldern festzulegen.
 
 Legen Sie nach Bedarf die folgenden Suchkriterien fest:
 
-**Nach Asset-Typ** filtern Schränken Sie Ihre Suche auf einen Asset-Typ ein, indem Sie im Menü einen Asset-Typ auswählen.
+**Nach Asset-** Typ filternSchränken Sie Ihre Suche auf einen Asset-Typ ein, indem Sie im Menü einen Asset-Typ auswählen.
 
-**Dateien und Ordner** Wählen Sie aus, wo Sie suchen möchten: In allen Dateien und Ordnern, im ausgewählten Ordner oder in ausgewählten Ordnern und Unterordnern.
+**Dateien und** OrdnerWählen Sie aus, wo Sie suchen möchten: In allen Dateien und Ordnern, im ausgewählten Ordner oder in ausgewählten Ordnern und Unterordnern.
 
-**Alle Veröffentlichungszustände** Suchen nach Dateien, die als veröffentlichungsbereit markiert sind, sind nicht als veröffentlichungsbereit markiert oder alle Dateien.
+**Alle Veröffentlichungsstatus** Suche nach Dateien, die als &quot;Bereit zur Veröffentlichung&quot;markiert sind, sind nicht als &quot;Bereit zur Veröffentlichung&quot;markiert oder alle Dateien.
 
-**Bedingungen** Wenn Sie Metadaten-Kriterien für die Suche angeben, wählen Sie aus, ob die Suche allen Bedingungen (eine ALL-Suche) oder einer Bedingung (eine ODER-Suche) entsprechen muss.
+**** BedingungenWenn Sie Metadaten-Kriterien für die Suche angeben, wählen Sie aus, ob die Suche allen Bedingungen (eine ALL-Suche) oder einer Bedingung (eine ODER-Suche) entsprechen muss.
 
-**Suchkriterien** für Metadaten festlegen Erstellen Sie ein oder mehrere Suchfelder zum Durchsuchen von Metadaten. So erstellen Sie Suchfelder
+**Festlegen von Metadaten-Suchkriterien** Erstellen Sie ein oder mehrere Suchfelder zum Durchsuchen von Metadaten. So erstellen Sie Suchfelder
 
 1. Öffnen Sie die Liste „Metadatenansicht“ (links neben dem Menü „Feld hinzufügen“) und wählen Sie eine Metadatenansicht. Sie können die Kompaktansicht, IPTC-, XMP-Ansicht oder eine Ansicht wählen, die Ihr Administrator eingerichtet hat.
 1. Wählen Sie im Menü „Feld hinzufügen“ einen Feldnamen aus.
@@ -117,7 +117,7 @@ Führen Sie die folgenden Schritte aus, um Assets durch Filtern ihrer Metadatenw
 
    **Hinzufügen eines Metadatenfelds** Wählen Sie Hinzufügen Bedienfeld aus. Wenn das Bedienfeld im Filterfenster angezeigt wird, klicken Sie auf die Feldschaltfläche und wählen Sie den Namen eines Metadatenfelds aus dem Filtermenü aus.
 
-   **Wenn Sie ein Metadatenfeld** entfernen möchten, wählen Sie im Filtermenü die Option &quot;Bedienfeld entfernen&quot;.
+   **Entfernen eines Metadatenfelds** Wählen Sie im Filtermenü die Option &quot;Bedienfeld entfernen&quot;.
 
    Wenn Sie ein Metadatenfeld auswählen, werden folgende Informationen im Bedienfeld aufgelistet:
 
@@ -135,7 +135,7 @@ Führen Sie die folgenden Schritte aus, um Assets durch Filtern ihrer Metadatenw
 
 1. (Optional) Um den Filtervorgang zu speichern, sodass Sie ihn später erneut ausführen können, klicken Sie auf die Schaltfläche „Vorgabe auswählen“, wählen Sie die Option „Aktuelle Auswahl als neue Vorgaben speichern“ und geben Sie im Dialogfeld „Speichern“ einen Namen ein.
 
-### Speichern, Wiederholen und Löschen von Filtervorgängen {#saving-repeating-and-deleting-filter-operations}
+### Speichern, Wiederholen und Löschen von Filtervorgängen  {#saving-repeating-and-deleting-filter-operations}
 
 Befolgen Sie diese Anweisungen auf der Registerkarte „Filter“, um Filtervorgänge zu speichern, zu wiederholen und zu löschen:
 
@@ -143,9 +143,9 @@ Befolgen Sie diese Anweisungen auf der Registerkarte „Filter“, um Filtervorg
 
 **Wiederholen eines Filtervorgangs** Klicken Sie auf die Schaltfläche &quot;Vorgabe auswählen&quot;und wählen Sie im Menü den Namen eines Filtervorgangs aus. Im Menü sind von Ihnen gespeicherte Filtervorgänge aufgelistet.
 
-**Löschen eines Filtervorgangs aus dem Menü &quot;Vorgabe** auswählen&quot;Ausführen des Filtervorgangs. Klicken Sie dann auf die Schaltfläche „Vorgabe auswählen“ und wählen Sie im Menü die Option „Vorgabe löschen“.
+**Löschen eines Filtervorgangs aus dem** Menü &quot;Vorgabe auswählen&quot;Ausführen des Filtervorgangs. Klicken Sie dann auf die Schaltfläche „Vorgabe auswählen“ und wählen Sie im Menü die Option „Vorgabe löschen“.
 
-## Verwenden des Metadatenservers {#using-the-metadata-server}
+## Verwenden des Metadatenservers  {#using-the-metadata-server}
 
 Beim Metadatenserver handelt es sich um eine öffentliche API, die Sie verwenden können, um Assets anhand von Metadaten mithilfe von HTTP-Anfragen zu suchen.
 
@@ -153,15 +153,15 @@ Klicken Sie zum Konfigurieren des Metadatenservers auf „Einstellungen“ > �
 
 Das Fenster „Veröffentlichung zum Metadatenserver“ wird geöffnet. In diesem Fenster können Sie folgende Optionen festlegen:
 
-**Sofortige Veröffentlichung** Dient zum automatischen Verschieben von Änderungen an Metadaten, einschließlich neuer Assets, Suchbegriffänderungen usw.
+**Sofortiges** VeröffentlichenDient zum automatischen Senden von Änderungen an Metadaten, einschließlich neuer Assets, Suchbegriffsänderungen usw.
 
-**XMP Paket** Veröffentlicht das XMP Paket. Dieses Paket wird nicht für die Suche verwendet, stellt jedoch die aktuellsten XMP-Daten bereit.
+**XMP** PacketVeröffentlicht das XMP Paket. Dieses Paket wird nicht für die Suche verwendet, stellt jedoch die aktuellsten XMP-Daten bereit.
 
-**Suchbegriffe** Veröffentlicht Ihre Suchbegriffe zur Verwendung bei Suchvorgängen auf dem Metadatenserver.
+**** SuchbegriffeVeröffentlicht Ihre Suchbegriffe auf dem Metadatenserver zur Verwendung bei Suchvorgängen.
 
-**Veröffentlichungsfelder** des Metadatenservers Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. So können Sie festlegen, welche Informationen zu Ihren Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
+**Veröffentlichungsfelder** für MetadatenserverWählen Sie die Felder aus, die in die Metadaten einbezogen werden sollen. So können Sie festlegen, welche Informationen zu Ihren Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
 
-Click **Publish Now** to start the job. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
+Klicken Sie auf **Jetzt veröffentlichen**, um den Auftrag Beginn. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
 
 >[!MORELIKETHIS]
 >
