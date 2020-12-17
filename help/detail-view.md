@@ -62,15 +62,20 @@ Sie können die URL eines Assets in der Detailansicht anzeigen. Diese ist jedoch
 
 In der Detailansicht stehen Werkzeuge für die Arbeit mit dem von Ihnen geöffneten Asset zur Verfügung. Die Werkzeuge sind je nach Asset-Typ unterschiedlich, Sie können in der Detailansicht aber immer die folgenden Funktionen ausführen:
 
-* **Elemente zur Veröffentlichung** Klicken Sie auf das Symbol **[!UICONTROL Veröffentlichen]** links neben dem Namen oder klicken Sie auf **[!UICONTROL Datei > Veröffentlichen]** oder **[!UICONTROL Datei > Veröffentlichung rückgängig machen]**.
+* **Elemente zur**
+VeröffentlichungKlicken Sie auf das  **** Veröffentlichungssymbol links neben dem Namen oder klicken Sie auf  **[!UICONTROL &quot;Datei&quot;> &quot;]** Veröffentlichungsdatei&quot;> &quot; **[!UICONTROL Veröffentlichungsdatei&quot;> &quot;Veröffentlichung rückgängig machen&quot;]**.
 
-* **Umbenennen des Assets** Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
+* **Umbenennen des**
+AssetsWählen Sie den Namen und geben Sie einen neuen Namen ein.
 
-* **Bearbeiten und Hinzufügen von Metadaten** Wählen Sie das Metadatenbedienfeld aus und nehmen Sie die gewünschten Änderungen vor. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/viewing-adding-exporting-metadata.md).
+* **Bearbeiten und Hinzufügen von**
+MetadatenWählen Sie das Metadatenbedienfeld aus und nehmen Sie die gewünschten Änderungen vor. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/viewing-adding-exporting-metadata.md).
 
-* **Bearbeiten und Hinzufügen von Suchbegriffen** Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/viewing-adding-exporting-metadata.md).
+* **Bearbeiten und Hinzufügen von**
+SuchbegriffenWählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/viewing-adding-exporting-metadata.md).
 
-* **Löschen des Assets** Klicken Sie auf **[!UICONTROL Datei > Löschen]**.
+* **Löschen des**
+AssetsKlicken Sie auf  **[!UICONTROL Datei > Löschen]**.
 
 Bei eigenständigen Dateien – beispielsweise bei Bildern, Bildsätzen und Schriftarten – können Sie in der Detailansicht den Veröffentlichungs- und Bearbeitungsverlauf einsehen und Auftragsdetails prüfen.
 
@@ -78,7 +83,7 @@ Die folgende Tabelle bietet eine Übersicht über die zusätzlichen Optionen, di
 
 | Asset-Typ | Bearbeiten/Anpassen | Vorschau |
 |--- |--- |--- |
-| Bilder | Imagemaps hinzufügen Hinzufügen Zoom-Zielgruppen Scharfzeichnen Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben. |
+| Bilder | Imagemaps hinzufügen hinzufügen Zoom-Zielgruppen Scharfzeichnen Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben. |
 | Möbel- und Fensterbehangbilder | Nein | Miniaturansicht. |
 | E-Kataloge | Bearbeiten | Ja. Infofeld steht ebenfalls zur Verfügung.. |
 | Schriftarten | Informationen zur Schriftart bearbeiten | Nein. |
