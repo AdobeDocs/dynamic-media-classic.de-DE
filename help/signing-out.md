@@ -22,19 +22,21 @@ ht-degree: 6%
 
 # Anmelden bei Dynamic Media Classic {#sign-in}
 
-Wie Sie sich bei Dynamic Media Classic anmelden und sich abmelden, hängt davon ab, ob Sie die Desktop-Anwendung oder den Webbrowser verwenden.
+Wie Sie sich bei Dynamic Media Classic anmelden und abmelden, hängt davon ab, ob Sie die Desktop-Anwendung oder den Webbrowser verwenden.
 
-Unabhängig davon, wie Sie sich anmelden, stellen Sie vor der Verwendung von Dynamic Media Classic Folgendes sicher:
+Unabhängig davon, wie Sie sich anmelden, vergewissern Sie sich vor der Verwendung von Dynamic Media Classic, dass Sie Folgendes haben:
 
-* **Anmeldename** Sie verwenden Ihre E-Mail-Adresse als Ihren Anmeldenamen.
+* **Anmeldename**
+Sie verwenden Ihre E-Mail-Adresse als Ihren Anmeldenamen.
 
-* **Kennwort** Sie erhalten Ihr temporäres Kennwort in einer Begrüßungs-E-Mail von Dynamic Media Classic oder von Ihrem Administrator von Dynamic Media Classic. Bei der ersten Anmeldung werden Sie dazu aufgefordert, dieses temporäre Kennwort zu ändern.
+* **Kennwort**
+Sie erhalten Ihr temporäres Kennwort in einer Begrüßungs-E-Mail von Dynamic Media Classic oder von Ihrem Dynamic Media Classic-Administrator. Bei der ersten Anmeldung werden Sie dazu aufgefordert, dieses temporäre Kennwort zu ändern.
 
 ## Anmelden bei Dynamic Media Classic über die Desktop-App {#sign-in-dmc-app}
 
-1. Öffnen Sie die Adobe Dynamic Media Classic Desktop-Anwendung.
+1. Öffnen Sie die Dynamic Media Classic-Desktopanwendung der Adobe.
 
-   ![Anmeldung bei Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic-Anmeldung](/help/assets/dmclassic-login1.png)
 
 1. Geben Sie im Feld **[!UICONTROL Benutzername]** Ihre E-Mail-Adresse ein.
 1. Geben Sie im Feld **[!UICONTROL Kennwort]** das Kennwort ein.
@@ -49,29 +51,31 @@ Verwenden Sie die folgende Zuordnung, um die gewünschte Umgebung auszuwählen.
 
 1. Tippen Sie auf **[!UICONTROL Anmelden]**.
 
-### Abmelden von dynamischen Medien über die Desktop-App {#sign-out-dmc-app}
+### Abmelden von Dynamic Media über die Desktop-App {#sign-out-dmc-app}
 
-1. Tippen Sie in der oberen rechten Ecke der Desktop-Anwendung Dynamic Media Classic auf **[!UICONTROL Abmelden]** und dann erneut auf **[!UICONTROL Abmelden]** .
+1. Tippen Sie in der oberen rechten Ecke der Dynamic Media Classic-Desktopanwendung auf **[!UICONTROL Abmelden]** und dann erneut auf **[!UICONTROL Abmelden]**.
 
-## Anmeldung bei Dynamic Media Classic über Ihren Webbrowser {#signing-in-and-out}
+## Anmelden bei Dynamic Media Classic über Ihren Webbrowser {#signing-in-and-out}
 
-Achten Sie neben Ihrem Benutzernamen und Ihrem Kennwort darauf, dass Sie vor der Verwendung von Dynamic Media Classic in Ihrem Webbrowser auch die folgenden Punkte haben:
+Achten Sie neben Ihrem Benutzernamen und Ihrem Kennwort darauf, dass vor der Verwendung von Dynamic Media Classic über Ihren Webbrowser auch die folgenden Angaben vorhanden sind:
 
-* **Setup** Sie müssen von Ihrem Administrator für die Verwendung von Dynamic Media Classic eingerichtet worden sein.
+* ****
+SetupSie müssen von Ihrem Administrator für die Verwendung von Dynamic Media Classic eingerichtet worden sein.
 
-* **URL** Sie müssen über den URL-Speicherort für den Zugriff auf Dynamic Media Classic verfügen. Sie erhalten diese URL über die 
-*Begrüßungs* -E-Mail oder von Ihrem Administrator für Dynamic Media Classic.
+* **Für den Zugriff auf Dynamic Media Classic muss**
+URLY über die URL verfügen. Sie erhalten diese URL über die 
+** Begrüßungsmail oder von Ihrem Dynamic Media Classic-Administrator.
 
-Da Dynamic Media Classic webbasiert ist, wird das System durch Aufrufen einer anderen Website verlassen. Wenn Sie beispielsweise im Browserfenster auf die Schaltfläche &quot;Zurück&quot;klicken, beenden Sie &quot;Dynamische Medien Classic&quot;.
+Da Dynamic Media Classic webbasiert ist, wird das System beim Aufrufen einer anderen Website beendet. Wenn Sie beispielsweise im Browserfenster auf die Schaltfläche &quot;Zurück&quot;klicken, beenden Sie Dynamic Media Classic.
 
 1. Starten Sie Ihren Webbrowser.
-1. Wechseln Sie zur Anmelde-URL für Dynamic Media Classic (aus der Begrüßungs-E-Mail). Alternativ können Sie sich auch über die Website von Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) anmelden, indem Sie auf die Schaltfläche &quot;Kunden-Login&quot;klicken.
+1. Gehen Sie zur Dynamic Media Classic-Anmelde-URL (aus der Begrüßungs-E-Mail). Alternativ können Sie sich auch über die Dynamic Media Classic-Website ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) anmelden, indem Sie auf die Schaltfläche &quot;Kunden-Login&quot;klicken.
 1. Geben Sie im Textfeld **[!UICONTROL Benutzername]** Ihre E-Mail-Adresse ein.
 1. Geben Sie im Textfeld **[!UICONTROL Kennwort]** Ihr Kennwort ein.
-1. Optionally, you can make your computer remember your e-mail address by selecting the **[!UICONTROL Remember My User Name]** option.
+1. Optional können Sie Ihren Computer daran erinnern, dass Sie Ihre E-Mail-Adresse gespeichert haben, indem Sie die Option **[!UICONTROL Benutzernamen merken]** wählen.
 1. Tippen Sie auf **[!UICONTROL Anmelden]**.
 
-### Abmelden bei dynamischen Medien über Ihren Webbrowser {#sign-out}
+### Abmelden von Dynamic Media über Ihren Webbrowser {#sign-out}
 
 1. Führen Sie einen der folgenden Schritte aus:
 
