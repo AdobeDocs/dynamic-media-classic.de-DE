@@ -2,7 +2,7 @@
 title: Neuerungen
 seo-title: Neuerungen
 description: 'null'
-seo-description: In den aktuellen Versionshinweisen erfahren Sie mehr über die neuen Dynamic Media Classic.
+seo-description: In den aktuellen Versionshinweisen erfahren Sie mehr über die neuen Funktionen von Dynamic Media Classic.
 uuid: 78b88ec0-69fc-481b-af54-4c2d0a31057f
 contentOwner: admin
 content-type: reference
@@ -20,4 +20,4 @@ ht-degree: 12%
 
 # Neuerungen {#what-s-new}
 
-Informationen zum aktuellen Release von Adobe Dynamic Media Classic, einschließlich neuer Funktionen, Verbesserungen und Fehlerbehebungen, finden Sie in den [Dynamic Media Classic Versionshinweisen](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+Informationen zur neuesten Adobe Dynamic Media Classic, einschließlich neuer Funktionen, Verbesserungen und Fehlerbehebungen, finden Sie in den [Dynamic Media Classic Versionshinweisen](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html).
