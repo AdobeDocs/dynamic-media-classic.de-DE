@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Nachdem Sie einen Benutzer hinzugefügt haben, sendet Dynamic Media Classic dem 
 
    Nach dem Speichern werden Sie gefragt, ob Sie einem anderen Unternehmen einen Benutzer hinzufügen möchten. Klicken Sie auf „Hinzufügen“, wenn Sie den Benutzer einem Unternehmen hinzufügen möchten.
 
-   Alle neuen Benutzer erhalten ein zufällig generiertes Kennwort; Benutzer müssen Kennwörter bei der ersten Anmeldung bei Dynamic Media Classic ändern.
+   Alle neuen Benutzer erhalten ein zufällig generiertes Kennwort; Benutzer müssen Kennwörter bei der ersten Anmeldung bei der Dynamic Media Classic Desktop-Anwendung ändern.
 
-   Die von Ihnen hinzugefügten neuen Benutzer erhalten eine Begrüßungs-E-Mail. Die E-Mail enthält ein temporäres Kennwort sowie Anleitungen zur Anmeldung am Scene7 Publishing System.
+   Die von Ihnen hinzugefügten neuen Benutzer erhalten eine Begrüßungs-E-Mail. Die E-Mail enthält ein temporäres Kennwort und erklärt, wie Sie sich bei Dynamic Media Classic anmelden.
 
    Wenn der Benutzer die Begrüßungs-E-Mail nicht erhält, lassen Sie ihn die Dynamic Media Classic-Anmeldeseite (https://s7sps1.scene7.com) aufrufen und klicken Sie auf &quot;Kennwort vergessen&quot;. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der Benutzer auch diese E-Mail nicht erhält und sie nicht in seinem Spam-Ordner ist, wenden Sie sich an den technischen Support.
 
