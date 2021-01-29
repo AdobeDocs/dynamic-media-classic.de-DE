@@ -1,8 +1,6 @@
 ---
 title: '"Beginn: Media Portal"'
-seo-title: '"Beginn: Media Portal"'
-description: 'null'
-seo-description: Einführung und Quick Beginn zu Media Portal, mit dem Sie sich schnell mit den Media Portal-Techniken und der Verwaltung vertraut machen können.
+description: Einführung und Quick Beginn zu Media Portal, mit dem Sie sich schnell mit den Media Portal-Techniken und der Verwaltung vertraut machen können.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '704'
 ht-degree: 84%
 
 ---
