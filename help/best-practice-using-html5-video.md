@@ -1,8 +1,6 @@
 ---
-title: '"Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers"'
-seo-title: '"Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers"'
-description: 'null'
-seo-description: Erfahren Sie mehr über die Best Practices für die Verwendung des HTML5-Video-Viewers.
+title: Bewährte Verfahren für die Verwendung des HTML5-Video-Viewers
+description: Erfahren Sie mehr über die Best Practices für die Verwendung des HTML5-Video-Viewers.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 30%
+source-wordcount: '422'
+ht-degree: 26%
 
 ---
 
 
-# Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers{#best-practice-using-the-html-video-viewer}
+# Bewährte Verfahren für die Verwendung des HTML5-Video-Viewers{#best-practice-using-the-html-video-viewer}
 
 Die HTML5-Video-Viewer-Vorgaben von Dynamic Media Classic sind robuste Video-Player. Auf der Entwurfsseite des Players können Sie alle Funktionen des Videoplayers mit standardmäßigen Webentwicklungstools erstellen. Sie können beispielsweise die Schaltflächen, die Steuerelemente und den benutzerdefinierten Standbildhintergrund mithilfe von HTML5 und CSS gestalten, um Ihren Kunden ein benutzerdefiniertes Erscheinungsbild zu bieten.
 
