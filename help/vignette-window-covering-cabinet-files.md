@@ -1,8 +1,6 @@
 ---
 title: Arbeiten mit Vignetten-, Fensterbehang- und Möbeldateien
-seo-title: Arbeiten mit Vignetten-, Fensterbehang- und Möbeldateien
-description: 'null'
-seo-description: Erfahren Sie, wie Sie mit Vignetten-, Fensterbehang- und Schrank-Dateien arbeiten können.
+description: Erfahren Sie, wie Sie mit Vignetten-, Fensterbehang- und Schrank-Dateien arbeiten können.
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 50%
+source-wordcount: '144'
+ht-degree: 47%
 
 ---
 
