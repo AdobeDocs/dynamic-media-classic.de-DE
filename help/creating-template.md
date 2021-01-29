@@ -1,8 +1,6 @@
 ---
 title: Erstellen einer Vorlage
-seo-title: Erstellen einer Vorlage
-description: 'null'
-seo-description: Erfahren Sie, wie Sie eine Vorlage in Dynamic Media Classic erstellen.
+description: Erfahren Sie, wie Sie eine Vorlage in Dynamic Media Classic erstellen.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3437'
 ht-degree: 65%
 
 ---
@@ -202,7 +200,7 @@ Um Text in einer Textebene zu formatieren, führen Sie die folgenden Schritte au
 
    **Umfasst** den Text, damit er in ein Textfeld passt, das horizontal zu klein ist.
 
-   **Kein** UmbruchDer Text wird nicht umgebrochen, wenn das Textfeld horizontal zu klein ist, und es wird stattdessen ein Teil des Textes abgeschnitten.
+   **Kein** UmbruchDer Text wird nicht umgebrochen, wenn das Textfeld horizontal zu klein ist. Stattdessen wird ein Teil des Textes abgeschnitten.
 
    **NB Wrap**  (Geschützte Umbrüche) umschließt Text, damit er in ein Textfeld passt, ohne dass Wörter umbrochen werden.
 
