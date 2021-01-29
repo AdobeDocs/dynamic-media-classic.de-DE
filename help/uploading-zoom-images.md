@@ -1,8 +1,6 @@
 ---
 title: Hochladen von Zoombildern
-seo-title: Hochladen von Zoombildern
-description: 'null'
-seo-description: Erfahren Sie, wie Sie Zoombilder hochladen.
+description: Erfahren Sie, wie Sie Zoombilder hochladen.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 49%
 
 ---
