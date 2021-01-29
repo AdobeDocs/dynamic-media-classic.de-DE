@@ -1,8 +1,6 @@
 ---
 title: Erstellen von Imagemaps in E-Katalogen
-seo-title: Erstellen von Imagemaps in E-Katalogen
-description: 'null'
-seo-description: Erfahren Sie, wie Sie Imagemaps für E-Kataloge erstellen.
+description: Erfahren Sie, wie Sie Imagemaps für E-Kataloge erstellen.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1491'
 ht-degree: 77%
 
 ---
@@ -46,7 +44,7 @@ ImagemapWählen Sie das Polygon-Imagemap-Werkzeug aus und klicken Sie so oft wie
    Siehe [Verwenden von Vorlagen zur Eingabe von JavaScript-Code und URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Optional) Klicken Sie in der Dropdown-Liste &quot;Anzeigen&quot;auf **Rollover-Text** und geben Sie dann den Text ein, den die Benutzer auf dem Bildschirm sehen sollen, wenn sie den Mauszeiger über die Imagemap bewegen.
-1. (Optional) Klicken Sie in der Dropdown-Liste &quot;Anzeigen&quot;auf **Andere Aktionen** und geben Sie ein Attribut ein, um eine Weichzeichner- oder Fokusaktion auszulösen, wenn der Benutzer den Mauszeiger über eine Imagemap bewegt.
+1. (Optional) Klicken Sie in der Dropdown-Liste &quot;Anzeigen&quot;auf **Andere Aktionen** und geben Sie ein Attribut ein, um eine Weichzeichnungs- oder Fokusaktion einzugeben, wenn der Benutzer den Mauszeiger über eine Imagemap bewegt.
 
    Siehe [Definieren anderer Aktionen für Imagemaps](creating-image-maps.md#defining_other_actions_for_image_maps).
 
