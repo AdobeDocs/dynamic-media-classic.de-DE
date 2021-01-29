@@ -1,8 +1,6 @@
 ---
 title: Weitergeben von Asset-Änderungen an Peers in Echtzeit
-seo-title: Weitergeben von Asset-Änderungen an Peers in Echtzeit
-description: 'null'
-seo-description: Erfahren Sie, wie Sie Asset-Änderungen in Echtzeit an andere weitergeben können.
+description: Erfahren Sie, wie Sie Asset-Änderungen in Echtzeit an andere weitergeben können.
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 71%
+source-wordcount: '270'
+ht-degree: 70%
 
 ---
 
