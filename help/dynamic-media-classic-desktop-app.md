@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Diese neue App ist jetzt für Windows und macOS verfügbar.
 
 >[!IMPORTANT]
 >
->Es wird empfohlen, die neue Adobe Dynamic Media Classic Desktop-App bis zum 1. Oktober 2020 zu installieren. Dadurch erhalten Sie eine reibungslose Transition, bevor der Flash Player der Adobe am 31. Dezember 2020 eingestellt wird. Ab diesem Datum können Sie sich nicht mehr bei der Browserversion der Benutzeroberfläche von Adobe Dynamic Media Classic anmelden, die im Produkt als Dynamic Media Classic gekennzeichnet ist.
+>Adobe empfiehlt, die neue Adobe Dynamic Media Classic Desktop-App bis zum 1. Oktober 2020 zu installieren. Dadurch erhalten Sie eine reibungslose Transition, bevor der Flash Player der Adobe am 31. Dezember 2020 eingestellt wird. Nach diesem Datum können Sie sich nicht mehr bei der Browserversion der Benutzeroberfläche von Adobe Dynamic Media Classic anmelden, die im Produkt als Dynamic Media Classic gekennzeichnet ist.
 
 Siehe Häufig gestellte Fragen zum neuen Dynamic Media Classic-Anmeldeerlebnis.](/help/new-ui-2020.md)[
 
 ## Systemanforderungen für die Dynamic Media Classic-Desktop-App der Adobe {#system-requirements-dmc-app}
 
 Die Desktop-App der Adobe Dynamic Media Classic ist mit den folgenden Betriebssystemen kompatibel:
-* macOS X 10.10 oder neuer.
+
+* macOS 10.10 oder neuer.
 * Windows 7 oder neuer.
 
 ## Fehlerbehebungen in der neuesten Version (20.21.1) {#latest-fixes-desktop-app}
 
-* Probleme beim Anmelden aufgrund eines Timeouts, das zu folgender Meldung führt: *Dieser Benutzer kann ohne Berechtigung der Gruppe/den Gruppen zugewiesen werden. Wenden Sie sich an Ihren Administrator.*
+* Probleme beim Anmelden aufgrund eines Timeouts, das zu folgender Meldung führt: *Dieser Benutzer kann ohne Berechtigung der Gruppe oder Gruppen zugewiesen werden. Wenden Sie sich an Ihren Administrator.*
 * Viewer-Vorgaben werden bei jedem fehlerhaften Kennwortversuch dupliziert.
-* Desktop-Anwendung reagiert aufgrund einer großen Anzahl von Assets im Stammordner nicht mehr. (Behoben unter Windows; wie gewünscht unter macOS.)
+* Die Desktop-Anwendung reagiert nicht mehr, da sich viele Assets im Stammordner befinden. (Behoben unter Windows; wie gewünscht unter macOS.)
 
 ## Fehlerbehebungen in der vorherigen Version (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -84,7 +85,7 @@ Verwandte Themen:
 
    ![Dynamic Media Classic-Anmeldung](/help/assets/dmclassic-login1.png)
 
-1. Verwenden Sie dieselben Anmeldedaten wie Ihr Browser, um sich bei Adobe Dynamic Media Classic anzumelden.
+1. Um sich bei der Dynamic Media Classic Desktop-App der Adobe anzumelden, verwenden Sie dieselben Anmeldeinformationen wie bei der Anmeldung bei Dynamic Media Classic im Browser.
 
    Die folgenden Zuordnungen für die Produktions-Umgebung finden Sie, damit **[!UICONTROL server]** verwendet wird:
 
@@ -94,7 +95,7 @@ Verwandte Themen:
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
-1. Wenn Sie die Benutzeroberfläche für die Anmeldung posten, werden Sie das übliche Benutzeroberflächenerlebnis des Browsers bemerken. Sie können Ihre tägliche Aktivität jetzt wie gewohnt in der Benutzeroberfläche der Desktop-App übernehmen.
+1. Beachten Sie nach dem Anmelden die vertraute Benutzeroberfläche des Browsers. Sie können Ihre tägliche Dynamic Media Classic-Aktivität wie gewohnt auf der Desktop-App fortsetzen.
 
 ## Laden Sie die neueste Adobe Dynamic Media Classic Desktop-App unter macOS {#install-silent-mac-dmc-app} herunter und installieren Sie sie.**
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Media Classic-Anmeldung](/help/assets/dmclassic-login1.png)
 
-1. Verwenden Sie dieselben Anmeldedaten wie Ihr Browser, um sich bei Adobe Dynamic Media Classic anzumelden.
+1. Um sich bei der Dynamic Media Classic Desktop-App der Adobe anzumelden, verwenden Sie dieselben Anmeldeinformationen wie bei der Anmeldung bei Dynamic Media Classic im Browser.
 
    Die folgenden Zuordnungen für die Produktions-Umgebung finden Sie, damit **[!UICONTROL server]** verwendet wird:
 
@@ -169,7 +170,7 @@ So laden Sie die neueste Version der Dynamic Media Classic Desktop-App unter Win
 
    ![Dynamic Media Classic-Anmeldung](/help/assets/dmclassic-login1.png)
 
-1. Verwenden Sie dieselben Anmeldedaten wie Ihr Browser, um sich bei Adobe Dynamic Media Classic anzumelden.
+1. Um sich bei der Dynamic Media Classic Desktop-App der Adobe anzumelden, verwenden Sie dieselben Anmeldeinformationen wie bei der Anmeldung bei Dynamic Media Classic im Browser.
 
    Die folgenden Zuordnungen für die Produktions-Umgebung finden Sie, damit **[!UICONTROL server]** verwendet wird:
 
@@ -194,7 +195,7 @@ Sehen Sie sich ein [Video-Durchlaufen bei der Verwendung der Dynamic Media Class
 
 ### Manuelles Löschen des Bild-Cache und des Asset-Cache
 
-Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie diese Aufgabe auch manuell durchführen, indem Sie den Cache direkt aus dem Dateisystem löschen.
+Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den Cache auch direkt aus dem Dateisystem löschen.
 
 1. Navigieren Sie je nach Betriebssystem zu den folgenden Schritten:
 
@@ -207,7 +208,7 @@ Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie die
 
 **_Gilt für Windows und macOS - Wie kann ich zwischen Firmen wechseln?_**<br>Gehen Sie wie folgt vor, um zwischen Firmen zu wechseln:
 * Wählen Sie in der Dynamic Media Classic-App die neue Firma aus der Dropdown-Liste &quot;Firma&quot;aus.
-* Wenn das Popup angezeigt wird, tippen Sie auf **[!UICONTROL OK]**, um sich abzumelden und die App zu schließen.
+* Wenn das Popupfenster angezeigt wird, tippen Sie auf **[!UICONTROL OK]**, um sich abzumelden und die App zu schließen.
 
    ![Starten Sie die App neu, um die neue Firma zu verwenden](/help/assets/dmclassic-new-company1.png)
 * Starten Sie Dynamic Media Classic neu und melden Sie sich wie gewohnt an, um mit der neuen Firma zu arbeiten.
@@ -216,7 +217,7 @@ Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie die
 
 **_Ich kann das Warenkorbbedienfeld auf der Landingpage von Dynamic Media Classic nicht sehen._**<br>Tippen Sie in Dynamic Media Classic auf**[!UICONTROL Einstellungen > Persönliche Einstellungen ]**. Stellen Sie im Abschnitt Browser sicher, dass**[!UICONTROL MediaPortal-Funktionen anzeigen ]**ausgewählt ist (markiert). Tippen Sie auf**[!UICONTROL Speichern > Schließen ]**.
 
-**_Der Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt dargestellt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus der Assets anzuzeigen. In der Desktop-App wurde in der Symbolleiste das Symbol**[!UICONTROL Aktualisieren ]**rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**eingefügt. Tippen Sie auf das Symbol**[!UICONTROL Aktualisieren ]**, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Es ist keine erneute Anmeldung erforderlich, wie bei der Browser-Benutzeroberfläche.
+**_Der Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt dargestellt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus der Assets anzuzeigen. In der Desktop-App hat Adobe in der Symbolleiste das Symbol**[!UICONTROL Aktualisieren ]**rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**eingeführt. Tippen Sie auf das Symbol**[!UICONTROL Aktualisieren ]**, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Wie bei der Browser-Benutzeroberfläche ist keine erneute Anmeldung erforderlich.
 
 ![Aktualisierungssymbol](/help/assets/refresh-icon1.png)
 *Symbol &quot;Aktualisieren&quot;*
