@@ -1,17 +1,15 @@
 ---
 title: Verknüpfen von Zoom-Viewern mit Webseiten
 description: Erfahren Sie, wie Sie Zoom-Viewer mit Ihren Webseiten verknüpfen.
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
 Normalerweise klicken Besucher einer Website zum Zoomen von Bildern zunächst auf ein Zoomsymbol (häufig wird als Symbol eine Lupe verwendet). Über diese Symbolschaltfläche wird eine dynamische Website (ASP oder JSP) aufgerufen und das Bild in einem Popup-Fenster angezeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des einfachen HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des einfachen HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren von Einbettungscode eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausge
 
    Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-1. Klicken Sie auf Schließen.
-
+1. Klicken Sie auf **Schließen**.
