@@ -1,16 +1,14 @@
 ---
 title: '"Kurzanleitung: Video"'
-description: Eine Einführung und ein kurzer Beginn zu Video, mit dem Sie schnell loslegen und laufen können.
-uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
+description: Eine Einführung und ein kurzer Beginn zur Adobe von Dynamic Media Classic Video, mit dem Sie schnell und einfach loslegen können.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1441'
 ht-degree: 65%
 
 ---
@@ -53,7 +51,7 @@ Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dy
 
    Das adaptive Video-Streaming wird auf zahlreichen iOS-Plattformen unterstützt.
 
-   Weitere Informationen finden Sie im [Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+   Weitere Informationen finden Sie im [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
    Dynamic Media Classic unterstützt die Wiedergabe von mobilen Videos für MP4 H.264-Videos. Blackberry-Geräte, die dieses Videoformat unterstützen, finden Sie auf der folgenden Website:
 
