@@ -1,17 +1,15 @@
 ---
 title: Empfohlene Verfahren zur Optimierung der Bildqualität
 description: Hier lernen Sie bewährte Verfahren zur Optimierung der Bildqualität kennen.
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 61%
+source-wordcount: '1474'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +20,7 @@ Das Optimieren der Bildqualität kann ein sehr zeitaufwendiger Prozess sein, da 
 
 Dynamic Media Classic umfasst mehr als 100 Bildbereitstellungsbefehle zum Optimieren und Optimieren von Bildern und zum Rendern von Ergebnissen. Die folgenden Richtlinien sollen Ihnen dabei helfen, den Vorgang zu optimieren und die gewünschten Ergebnisse schnell mit nur einigen wichtigen Befehle und empfohlenen Verfahren zu erzielen.
 
-Siehe auch [Smart Imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Siehe auch [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -50,7 +48,7 @@ Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bi
 
 Whitepaper zu bewährten Verfahren [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image Server](/help/assets/s7_sharpening_images.pdf).
 
-Siehe auch [Scharfzeichnen eines Bildes mit einer Unschärfemaske](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 Mit Dynamic Media Classic können Sie Bilder beim Erfassen, beim Versand oder beidem scharfzeichnen. In den meisten Fällen sollten Sie Bilder jedoch nur mit einer der beiden Methoden scharfzeichnen, nicht mit beiden. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
 
@@ -70,11 +68,7 @@ Es gibt zwei Methoden zum Scharfzeichnen:
 
          Dieser Parameter bestimmt, wie stark sich die scharfgezeichneten Pixel vom umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel betrachtet werden, und der Filter schärft sie. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um kein „Rauschen“ zu erzeugen, trotzdem wird kontrastreichen Bereichen, z. B. wo Wimpern auf die Haut treffen, Kantenkontrast hinzugefügt.
 
-         Weitere Informationen, wie Sie diese drei Parameter einrichten, einschließlich den empfohlenen Verfahren für die Verwendung der Filter, finden Sie in den folgenden Ressourcen:
-
-         Dynamic Media Classic-Hilfethema unter [Scharfzeichnen eines Bildes](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
-
-         Whitepaper zu bewährten Verfahren [Scharfzeichnen von Bildern im Adobe Scene7 Publishing System und auf dem Image-Server](/help/assets/s7_sharpening_images.pdf).
+         Weitere Informationen zum Festlegen dieser drei Parameter, einschließlich bewährter Verfahren für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern im Adobe Scene7 Publishing System und auf Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * Mit Dynamic Media Classic können Sie auch einen vierten Parameter steuern: Monochrom ( `0,1`). Dieser Parameter stellt fest, ob die Unschärfemaske unter Verwendung des Werts `0` separat auf jede Farbkomponente oder unter Verwendung des Werts `1` auf die Gesamthelligkeit/Intensität angewendet wurde.
 
