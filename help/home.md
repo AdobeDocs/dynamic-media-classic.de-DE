@@ -5,9 +5,9 @@ description: Technische Dokumentation zur Adobe Dynamic Media Classic
 seo-description: 'Technische Dokumentation, Versionshinweise und Selbsthilfematerialien für die Adobe Dynamic Media Classic, vormals Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 13%
 
 ---
@@ -25,7 +25,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates ab 7. Mai 2020.
 
 ## Entwicklerressourcen für Dynamic Media
 
-* [Dynamic Media Developer Resources-Landingpage](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) — Enthält Viewer-Referenzhandbuch, Image Serving/Image Rendering-API, Image Production System-API und Dynamic Media Classic-Versionshinweise.
+* [Dynamic Media Developer Resources-Landingpage](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) — Enthält Viewer-Referenzhandbuch, Image Serving/Image Rendering-API, Image Production System-API und Dynamic Media Classic-Versionshinweise.
 * [Beispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  für die Viewer-Bibliothek— Enthält Viewer-Beispiele für Video, einkaufbare Medien, gemischte Medien, Rotationssets, Inline-Zoom, Bild- und Mustersets und Flyouts.
 
 ## Dynamic Media Classic-Benutzerressourcen
