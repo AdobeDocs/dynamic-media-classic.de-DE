@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: c6160315007fa1658f88a857589ec11ac3f0d5ae
 workflow-type: tm+mt
-source-wordcount: '10914'
+source-wordcount: '10925'
 ht-degree: 68%
 
 ---
@@ -371,9 +371,9 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 | 1 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (400 KBit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
 | 2 | 4:3, 384x288, Mobil (iPhone, iPad, Android), (400 KBit/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
 | 1 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (600 KBit/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Gleich Quelle | 64 | Mittlere Auflösung, 3G |
-| 4 | 4:3, 384x288, Mobil (iPhone, iPad, Android), (600 KBit/s) | 700 | _Mobile_384x288_600 | 600 | 384 x 288 | Gleich Quelle | 64 | Mittlere Auflösung, 3G |
+| 4 | 4:3, 384x288, Mobil (iPhone, iPad, Android), (600 KBit/s) | 700 | _Mobile_384x288_600 | 800 | 384 x 288 | Gleich Quelle | 64 | Mittlere Auflösung, 3G |
 | 5 | 16:9, 640x360, Tablet (iPad, Android), (800 KBit/s) | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Auflösung, WiFi |
-| 6 | 4:3, 640x480, Tablet (iPad, Android), (800 KBit/s) | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Gleich Quelle | 80 | Mittlere Auflösung, WiFi |
+| 6 | 4:3, 640x480, Tablet (iPad, Android), (800 KBit/s) | 900 | _iPad_640x480_800K | 600 | 640 x 480 | Gleich Quelle | 80 | Mittlere Auflösung, WiFi |
 | 7 | 16:9, 768x432, Tablet (iPad, Android), (1200 KBit/s) | 1,5 Mbit/s | _iPad_768x432_1200K | 1200 | 768 x 432 | Gleich Quelle | 96 | Hohe Auflösung, WiFi |
 | 8 | 4:3, 768x576, Tablet (iPad, Android), (1200 KBit/s) | 1,5 Mbit/s | _iPad_768x576_1200K | 1200 | 768 x 576 | Gleich Quelle | 96 | Hohe Auflösung, WiFi |
 | 9 | 16:9, 1280 x 720, Desktop, (2000 Kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
@@ -390,11 +390,11 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480 x 270 (400 Kbit/s) | 500 | _480x270_400K | 400 | 480 x 270 | Gleich Quelle | 64 | Niedrige Auflösung, Widescreen |
-| 2 | 16:9, 640 x 360 (800 Kbit/s) | 900 | _640x360_800K | 600 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
+| 2 | 16:9, 640 x 360 (800 Kbit/s) | 900 | _640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
 | 1 | 16:9, 800 x 450 (1200 Kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
 | 4 | 16:9, 1280 x 720 (2000 Kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
 | 5 | 4:3, 320 x 240 (400 Kbit/s) | 500 | _320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
-| 6 | 4:3, 480 x 360 (800 Kbit/s) | 900 | _480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
+| 6 | 4:3, 480 x 360 (800 Kbit/s) | 900 | _480x360_800K | 600 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
 | 7 | 4:3, 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
 | 8 | 4:3, 1280 x 960 (2000 Kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
@@ -407,7 +407,7 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 | 1 | 16:9, 800 x 450 (1200 Kbit/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
 | 4 | 16:9, 1280 x 720 (2000 Kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
 | 5 | 4:3, 320 x 240 (400 Kbit/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
-| 6 | 4:3, 480 x 360 (800 Kbit/s), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
+| 6 | 4:3, 480 x 360 (800 Kbit/s), OGG | 900 | _OGG_480x360_800K | 600 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
 | 7 | 4:3, 640 x 480 (1200 Kbit/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
 | 8 | 4:3, 1280 x 960 (2000 Kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
@@ -422,7 +422,7 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videobitrate (Kbit/s) | Pixel Breite/Höhe | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512 x 288, Mobil (400 Kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
-| 2 | 16:9, 512 x 288, Mobil (600 Kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Gleich Quelle | 64 | Mittlere Auflösung, 3G |
+| 2 | 16:9, 512 x 288, Mobil (600 Kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Gleich Quelle | 64 | Mittlere Auflösung, 3G |
 | 1 | 16:9, 512 x 288, Mobil (800 Kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Gleich Quelle | 80 | Mittlere Auflösung, Wi-Fi |
 | 4 | 16:9, 512 x 288, Mobil (1000 Kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1000 | 512 x 288 | Gleich Quelle | 80 | Hohe Auflösung, Wi-Fi |
 | 5 | 16:9, 512 x 288, Mobil (1200 Kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1200 | 512 x 288 | Gleich Quelle | 96 | Hohe Auflösung, Wi-Fi |
@@ -456,7 +456,7 @@ Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com
 
 Verschiedene Webseiten haben unterschiedliche Anforderungen. Eventuell möchten Sie eine Webseite erstellen, die einen Link bereitstellt, der den HTML5-Viewer in einem separaten Browserfenster angezeigt. In anderen Fällen kann es erforderlich sein, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall hat der Webseite möglicherweise ein statisches Layout. Sie kann auch „Interaktiv“ sein und auf verschiedenen Geräten unterschiedlich oder für verschiedene Fenstergrößen im Browser angezeigt werden. Um diese Anforderungen zu erfüllen, unterstützen die HTML5-Viewer, die mit Dynamic Media Classic geliefert werden, sowohl statische Webseiten als auch reaktionsfähige Webseiten.
 
-Weitere Informationen zum Einbetten interaktiver Viewer in Ihre Webseiten finden Sie unter [Responsive Static Image Library](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)in der *Adobe Image Serving API-Hilfe*.
+Weitere Informationen zum Einbetten von interaktiven Viewern in Ihre Webseiten finden Sie unter [Bibliothek für responsive Bilder](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Verwenden der Bibliothek für responsive Bilder](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api) und [Befehlsreferenz - Befehlsattribute](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
 
 ### Viewer-Vorgabentypen {#viewer-preset-types}
 
