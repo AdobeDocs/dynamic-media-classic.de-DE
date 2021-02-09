@@ -1,17 +1,15 @@
 ---
 title: Verknüpfen eines Mustersets mit einer Website
 description: Erfahren Sie, wie Sie ein Musterset mit einer Webseite verknüpfen.
-uuid: 1f623bf2-3bb0-481f-b063-79e4ce125424
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 94%
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +45,7 @@ Nach der Veröffentlichung eines Mustersets können Sie dessen URL oder Einbettu
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines Mustersets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren von Einbettungscode des Musterset-Viewers {#copying-the-embed-code-of-a-swatch-set-viewer}
 
