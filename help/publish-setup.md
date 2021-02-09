@@ -1,13 +1,11 @@
 ---
 title: Veröffentlichungseinstellungen
 description: Die Einstellungen im Anzeigebereich "Veröffentlichungseinstellungen"bestimmen, wie Assets standardmäßig von Dynamic Media Classic-Servern an Websites oder Anwendungen bereitgestellt werden.
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ Die Einstellungen im Anzeigebereich &quot;Veröffentlichungseinstellungen&quot;b
 
 Administratoren können die Standardeinstellungen in den Anzeigebereichen „Image-Server“, „Bild-Renderer“ und „Vignette“ ändern, um festzulegen, wie Assets standardmäßig von den Servern gesendet werden.
 
-Um den Anzeigebereich „Veröffentlichungseinstellungen“ zu öffnen, wählen Sie „Einstellungen“ > „Administrationseinstellungen“ > „Veröffentlichungseinstellungen“.
+Um die Anzeigebereiche &quot;Veröffentlichungseinstellungen&quot;zu öffnen, klicken Sie auf **Einstellungen** > **Anwendungseinstellungen** > **Veröffentlichungseinstellungen**.
 
 >[!NOTE]
 >
