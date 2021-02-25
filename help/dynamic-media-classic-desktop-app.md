@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Die Desktop-App der Adobe Dynamic Media Classic ist mit den folgenden Betriebssy
 * Probleme beim Anmelden aufgrund eines Timeouts, das zu folgender Meldung führt: *Dieser Benutzer kann ohne Berechtigung der Gruppe oder Gruppen zugewiesen werden. Wenden Sie sich an Ihren Administrator.*
 * Viewer-Vorgaben werden bei jedem fehlerhaften Kennwortversuch dupliziert.
 * Die Desktop-Anwendung reagiert nicht mehr, da sich viele Assets im Stammordner befinden. (Behoben unter Windows; wie gewünscht unter macOS.)
+* jlkjlkj
 
 ## Fehlerbehebungen in der vorherigen Version (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -189,11 +190,11 @@ Sehen Sie sich ein [Video-Durchlaufen bei der Verwendung der Dynamic Media Class
 
 1. Tippen Sie in der Dynamic Media Classic Desktop-App oben rechts auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]**.
 1. Führen Sie auf der Seite **[!UICONTROL Persönliche Einstellungen]** unter der Überschrift **[!UICONTROL Desktop]** einen der folgenden Schritte aus:
-   * Tippen Sie auf **[!UICONTROL Bildcache]** löschen, um alle Adobe-Dynamic Media-zwischengespeicherten Bilddateien von Ihrem Computer zu entfernen. Tippen Sie auf **[!UICONTROL OK]**.
-   * Tippen Sie auf **[!UICONTROL Asset-Cache löschen]**, um alle im Dynamic Media zwischengespeicherten Asset-Dateien der Adobe von Ihrem Computer zu entfernen. Tippen Sie auf **[!UICONTROL OK]**.
+   * Um alle im Dynamic Media zwischengespeicherten Bilddateien der Adobe von Ihrem Computer zu entfernen, tippen Sie auf **[!UICONTROL Cache löschen]** und dann auf **[!UICONTROL OK]**.
+   * Um alle im Dynamic Media zwischengespeicherten Asset-Dateien der Adobe von Ihrem Computer zu entfernen, tippen Sie auf **[!UICONTROL Asset-Cache löschen]** und dann auf **[!UICONTROL OK]**.
 1. Tippen Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Schließen]**.
 
-### Manuelles Löschen des Bild-Cache und des Asset-Cache
+### Manuelles Löschen des Bild-Cache und des Asset-Cache {#clear-cache}
 
 Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den Cache auch direkt aus dem Dateisystem löschen.
 
@@ -201,6 +202,10 @@ Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Bekannte Einschränkung in Dynamic Media Classic 2021.1
+
+* Die Dropdown-Liste **[!UICONTROL Server]** ist nach dem Aktualisieren auf die Dynamic Media Classic Desktop-App 20.21.1 - Szenario leer: Sie installieren und melden sich bei Dynamic Media Classic 20.20.1 oder 20.20.2 an und schließen dann die Anwendung. Aktualisieren Sie anschließend auf Dynamic Media Classic 20.21.1. Wenn Sie versuchen, sich anzumelden, ist die Dropdown-Liste **[!UICONTROL Server]** im Dialogfeld **[!UICONTROL Anmelden bei Ihrem Konto]** leer. Um dieses Problem zu umgehen, löschen Sie [den Cache](#clear-cache) manuell.
 
 ## Bekannte Einschränkungen in Dynamic Media Classic 20.20.1 (behoben in 20.20.2)
 
@@ -210,7 +215,8 @@ Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den
 * Wählen Sie in der Dynamic Media Classic-App die neue Firma aus der Dropdown-Liste &quot;Firma&quot;aus.
 * Wenn das Popupfenster angezeigt wird, tippen Sie auf **[!UICONTROL OK]**, um sich abzumelden und die App zu schließen.
 
-   ![Starten Sie die App neu, um die neue Firma zu verwenden](/help/assets/dmclassic-new-company1.png)
+   ![Um die neue Firma zu verwenden, starten Sie die App neu](/help/assets/dmclassic-new-company1.png)
+
 * Starten Sie Dynamic Media Classic neu und melden Sie sich wie gewohnt an, um mit der neuen Firma zu arbeiten.
 
 ## Tipps und Tricks
