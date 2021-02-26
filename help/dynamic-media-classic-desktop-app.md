@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
+source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -203,7 +203,7 @@ Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Bekannte Einschränkung in Dynamic Media Classic 2021.1
+## Bekannte Einschränkung in Dynamic Media Classic 20.21.1
 
 * Die Dropdown-Liste **[!UICONTROL Server]** ist nach dem Aktualisieren auf die Dynamic Media Classic Desktop-App 20.21.1 - Szenario leer: Sie installieren und melden sich bei Dynamic Media Classic 20.20.1 oder 20.20.2 an und schließen dann die Anwendung. Dann aktualisieren Sie auf Dynamic Media Classic 20.21.1. Wenn Sie versuchen, sich anzumelden, ist die Dropdown-Liste **[!UICONTROL Server]** im Dialogfeld **[!UICONTROL Anmelden bei Ihrem Konto]** leer. Um dieses Problem zu umgehen, müssen Sie [den Cache](#clear-cache) manuell löschen (siehe die Schritte oben).
 
