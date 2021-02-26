@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -186,7 +186,7 @@ So laden Sie die neueste Version der Dynamic Media Classic Desktop-App unter Win
 
 Sehen Sie sich ein [Video-Durchlaufen bei der Verwendung der Dynamic Media Classic Desktop-App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) an (Länge: 2 Minuten, 36 Sekunden).
 
-## Löschen des Bild-Cache und des Asset-Cache auf Ihrem Computer mithilfe der Desktop-App
+## Löschen des Bild-Cache und des Asset-Cache auf Ihrem Computer mit der Desktop-App {#clear-cache}
 
 1. Tippen Sie in der Dynamic Media Classic Desktop-App oben rechts auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]**.
 1. Führen Sie auf der Seite **[!UICONTROL Persönliche Einstellungen]** unter der Überschrift **[!UICONTROL Desktop]** einen der folgenden Schritte aus:
@@ -194,7 +194,7 @@ Sehen Sie sich ein [Video-Durchlaufen bei der Verwendung der Dynamic Media Class
    * Um alle im Dynamic Media zwischengespeicherten Asset-Dateien der Adobe von Ihrem Computer zu entfernen, tippen Sie auf **[!UICONTROL Asset-Cache löschen]** und dann auf **[!UICONTROL OK]**.
 1. Tippen Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Schließen]**.
 
-### Manuelles Löschen des Bild-Cache und des Asset-Cache {#clear-cache}
+### Manuelles Löschen des Bild-Cache und des Asset-Cache
 
 Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den Cache auch direkt aus dem Dateisystem löschen.
 
