@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
+source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Die Desktop-App der Adobe Dynamic Media Classic ist mit den folgenden Betriebssy
 * Probleme beim Anmelden aufgrund eines Timeouts, das zu folgender Meldung führt: *Dieser Benutzer kann ohne Berechtigung der Gruppe oder Gruppen zugewiesen werden. Wenden Sie sich an Ihren Administrator.*
 * Viewer-Vorgaben werden bei jedem fehlerhaften Kennwortversuch dupliziert.
 * Die Desktop-Anwendung reagiert nicht mehr, da sich viele Assets im Stammordner befinden. (Behoben unter Windows; wie gewünscht unter macOS.)
-* jlkjlkj
 
 ## Fehlerbehebungen in der vorherigen Version (20.20.2) {#previous-version-fixes-desktop-app}
 
