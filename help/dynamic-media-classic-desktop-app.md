@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Die Desktop-App der Adobe Dynamic Media Classic ist mit den folgenden Betriebssy
 * Die Anzahl der Dateien, die Sie über die Benutzeroberfläche der Desktop-App hochladen können, ist für MacOS und Windows nicht beschränkt.
 * Sie müssen sich nicht bei der Desktop-App abmelden, um zwischen Firmen zu wechseln.
 * Strg+V zum Einfügen funktioniert jetzt unter Windows.
-* Wenn in Zukunft eine neue Version der Desktop-App veröffentlicht wird, werden die Benutzer in der Desktop-App selbst benachrichtigt. —>
+* Wenn in Zukunft eine neue Version der Desktop-App veröffentlicht wird, werden die Benutzer in der Desktop-App selbst benachrichtigt.
 
 ## Laden Sie die neueste Dynamic Media Classic Desktop-App der Adobe unter MacOS oder Windows {#installation-dmc-app} herunter und installieren Sie sie.
 
