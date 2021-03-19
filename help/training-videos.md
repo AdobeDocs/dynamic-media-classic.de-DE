@@ -1,10 +1,12 @@
 ---
 title: Dynamic Media Classic-Schulungsvideos
 description: Dynamic Media Classic-Schulungsvideos zu den Themen "Erste Schritte", "Dynamische Bildbearbeitung", "Video", "Medienportal", "Vorlagen"und "Bild erstellen und rendern".
+feature: Dynamic Media Classic
+role: Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '6544'
+source-wordcount: '6550'
 ht-degree: 0%
 
 ---
