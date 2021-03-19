@@ -8,10 +8,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
+feature: Dynamic Media Classic, Viewer, Video
+role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3945'
 ht-degree: 81%
 
 ---
@@ -246,7 +248,7 @@ Ein Beispiel: Angenommen das Quellvideo hat die Maße 1920 x 1080. In der folgen
 
 | Videotyp | Breite x Höhe | Breitenverhältnis | Höhenverhältnis |
 |--- |--- |--- |--- |
-| Quelle | 1920 x 1080 | 1 | 1 |
+| Quelle | 1920 x 1080 | 1 | 3 |
 | Kodiert | 960 x 540 | 2 | 2 |
 | Kodiert | 640 x 360 | 3 | 3 |
 | Kodiert | 480 x 270 | 4 | 4 |
