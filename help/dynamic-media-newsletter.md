@@ -2,10 +2,12 @@
 description: 'Der Dynamic Media Newsletter von Experience League ist ein monatlicher Newsletter. Es wurde so konzipiert, dass Sie sich mit Dynamic Media und Dynamic Media Classic auf den neuesten Stand bringen können, sodass Sie sofort einen Nutzen daraus ziehen können. In diesem One-Stopp-Shop-Newsletter stehen wertvolle Ressourcen zum Wissensaufbau zur Verfügung. Es enthält Informationen zu Videos und Lösungsübersichten. Außerdem werden wichtige Funktionen wie Bildvorgaben, Viewer-Vorgaben und Video-Profile vorgestellt. '
 keywords: dynamische Medien;Newsletter;Produktaktualisierungen;Tipps und Tricks;Ereignisse;Kundenerfolg;Blog;Blogs;Videos;Videos;Funktionen;Funktionen
 title: Dynamic Media-Newsletter
+feature: Dynamic Media Classic
+role: Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 416ac66db1cbe60a2cac80f72db1e3e0354f9e0a
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
