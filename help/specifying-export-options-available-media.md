@@ -6,11 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
+feature: Dynamic Media Classic, Zusammenarbeit, Asset Management
+role: Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 83%
+source-wordcount: '377'
+ht-degree: 81%
 
 ---
 
@@ -39,7 +41,7 @@ Konversion aktivieren Wenn diese Option aktiviert ist, können Benutzer im Fenst
       Wenn diese Option deaktiviert ist, können Benutzer nur Dateien herunterladen, ohne sie dabei neu zu formatieren.
 
    * **Aktivieren Sie &quot;**
-Original exportieren&quot;. Damit können Sie Übergeordnet Originalbilder exportieren. Im Bedienfeld „Ausgewählte Assets exportieren“ können Benutzer das Dropdown-Menü Konvertierung öffnen und Original exportieren auswählen, um Originaldateien zu exportieren. Wenn diese Option deaktiviert ist, müssen Benutzer beim Exportieren von Bildern eine Bildvorgabe auswählen oder Konvertierungsoptionen festlegen.
+Original exportieren&quot;Ermöglicht den Export von Übergeordnet-Originalbildern. Im Bedienfeld „Ausgewählte Assets exportieren“ können Benutzer das Dropdown-Menü Konvertierung öffnen und Original exportieren auswählen, um Originaldateien zu exportieren. Wenn diese Option deaktiviert ist, müssen Benutzer beim Exportieren von Bildern eine Bildvorgabe auswählen oder Konvertierungsoptionen festlegen.
 
 >[!MORELIKETHIS]
 >
