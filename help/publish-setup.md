@@ -1,13 +1,15 @@
 ---
 title: Veröffentlichungseinstellungen
-description: Die Einstellungen im Anzeigebereich "Veröffentlichungseinstellungen"bestimmen, wie Assets standardmäßig von Dynamic Media Classic-Servern an Websites oder Anwendungen bereitgestellt werden.
+description: Mit den Einstellungen für Veröffentlichungseinstellungen können Sie festlegen, wie Assets standardmäßig von Dynamic Media Classic-Servern an Websites oder Anwendungen gesendet werden.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2422'
 ht-degree: 64%
 
 ---
@@ -45,7 +47,7 @@ Im Anzeigebereich „Image-Server“ werden Standardeinstellungen für das Sende
 
 **Kompatibilitätsattribute** Diese Einstellung ermöglicht die Behandlung von vor- und nachgestellten Absätzen in Textebenen wie in Version 3.6 zur Abwärtskompatibilität.
 
-**Lokale Anpassung** SupportMit diesen Einstellungen können Sie mehrere Gebietsschema-Attribute verwalten. Damit können Sie außerdem eine Zeichenfolge für Gebietsschemakarten angeben, um zu definieren, welche Sprachen Sie für die verschiedenen QuickInfos in den Viewern unterstützen möchten.
+**lokale Anpassung** SupportMit diesen Einstellungen können Sie mehrere Gebietsschema-Attribute verwalten. Damit können Sie außerdem eine Zeichenfolge für Gebietsschemakarten angeben, um zu definieren, welche Sprachen Sie für die verschiedenen QuickInfos in den Viewern unterstützen möchten.
 
 Wenn Sie beispielsweise eine multinationale Marke sind mit Vertrieb in verschiedenen Ländern, können Sie sicherstellen, dass jedes Land seinen eigenen Gebietsschema-spezifischen Viewer hat. Für diese Funktion geben Sie eine Zeichenfolge für Gebietsschemakarten an. Bearbeiten Sie anschließend den QuickInfo-Text in der Vorgabe eines Viewer, indem Sie die übersetzten Zeichenfolgen für die gewünschte Sprache hinzufügen. 
 
