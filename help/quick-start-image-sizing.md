@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
+feature: Dynamic Media Classic, Asset Management
+role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 54%
+source-wordcount: '853'
+ht-degree: 53%
 
 ---
 
