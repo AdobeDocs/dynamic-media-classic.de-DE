@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
+feature: Dynamic Media Classic
+role: Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1197'
 ht-degree: 78%
 
 ---
@@ -55,7 +57,7 @@ Klicken Sie auf Jetzt installieren, um die Desktop-Version von Dynamic Media Cla
 
 | Bei der Ausführung von | Schritte |
 |--- |--- |
-| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC-64 > mac64.</li><li>Klicken Sie auf libraries > flame und kopieren Sie den Ordner `aflame.framework` in den Adobe Illustrator-Ordner für Paketinhalte. Beispiel, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Um den Ordner mit den Paketinhalten von Adobe Illustrator zu öffnen, klicken Sie mit der rechten Maustaste auf das Symbol Adobe Illustrator CC 2014 und klicken Sie im Kontextmenü auf Paketinhalt anzeigen).</li><li>Kehren Sie zum selben Ordner libraries zurück, klicken Sie auf `flamingo` und kopieren Sie den Ordner `aflamingo.framework` in denselben Adobe Illustrator-Ordner für Paketinhalte, den Sie im vorherigen Schritt verwendet haben.</li><li>Kehren Sie zum Ordner mac64 zurück, den Sie in Schritt 1 ausgewählt haben, und kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC-64 > mac64.</li><li>Klicken Sie auf libraries > flame und kopieren Sie den Ordner `aflame.framework` in den Adobe Illustrator-Ordner für Paketinhalte. Beispiel, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Um den Paketinhalt-Ordner von Adobe Illustrator zu öffnen, klicken Sie mit der rechten Maustaste auf das Symbol Adobe Illustrator CC 2014 und klicken Sie im Kontextmenü auf Paketinhalt anzeigen).</li><li>Kehren Sie zum selben Ordner libraries zurück, klicken Sie auf `flamingo` und kopieren Sie den Ordner `aflamingo.framework` in denselben Adobe Illustrator-Ordner für Paketinhalte, den Sie im vorherigen Schritt verwendet haben.</li><li>Kehren Sie zum Ordner mac64 zurück, den Sie in Schritt 1 ausgewählt haben, und kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
 | Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC > mac64</li><li>Kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
 | Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf 6.0 > mac64</li><li>Kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
 
