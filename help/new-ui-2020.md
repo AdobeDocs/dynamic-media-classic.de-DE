@@ -4,10 +4,12 @@ description: Dynamic Media Classic-Benutzer können jetzt die Benutzeroberfläch
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -93,7 +95,7 @@ Dynamic Media Classic ist eine leistungsstarke, funktionsreiche Lösung, mit der
 * [Dynamic Media-Blog-Beiträge](https://theblog.adobe.com/tag/dynamic-media/)
 * [Dynamic Media Newsletter-Archive](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-Zusätzlich können Sie [den Dynamic Media Newsletter abonnieren, um sich über aktuelle Neuigkeiten, Informationen, Schulungsmöglichkeiten, leistungsstarke Funktionen wie [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) und das ergänzende Audit-Programm auf dem Laufenden zu halten.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
+Und abonnieren Sie den Dynamic Media Newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html), um sich über Neuigkeiten, Informationen, Schulungsmöglichkeiten, leistungsstarke Funktionen wie [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) und das ergänzende Audit-Programm auf dem Laufenden zu halten.[
 
 ### **_Ich möchte mehr über die Aktualisierung auf Dynamic Media mit AEM Assets erfahren. Wo finde ich weitere Informationen?_**
 
