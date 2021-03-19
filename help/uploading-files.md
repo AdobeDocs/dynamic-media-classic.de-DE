@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
+feature: Dynamic Media Classic, Asset Management
+role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3859'
 ht-degree: 43%
 
 ---
@@ -262,13 +264,13 @@ Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#
 * **POSTSCRIPT-OPTIONS** — Sie können PostScript® rastern, Dateien beschneiden, transparente Hintergründe beibehalten, eine Auflösung wählen und einen Farbraum wählen.
 Siehe [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **PHOTOSHOP OPTIONS** — Sie können Vorlagen aus Adobe® Photoshop®-Dateien erstellen, Ebenen verwalten, angeben, wie Ebenen benannt werden, Text extrahieren und angeben, wie Bilder in Vorlagen verankert werden.
+* **Photoshop OPTIONS** — Sie können Vorlagen aus Adobe® Photoshop®-Dateien erstellen, Ebenen verwalten, angeben, wie Ebenen benannt werden, Text extrahieren und angeben, wie Bilder in Vorlagen verankert werden.
 Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
 
 * **PDF-OPTIONS** — Sie können die Dateien rastern, Suchbegriffe und Links extrahieren, automatisch einen E-Katalog erstellen, die Auflösung festlegen und einen Farbraum auswählen.
 Siehe [Optionen für das Hochladen von PDF-Dateien](pdfs.md#pdf_upload_options).
 
-* **ILLUSTRATOR OPTIONS** — Sie können Adobe Illustrator®-Dateien rastern, transparente Hintergründe beibehalten, eine Auflösung wählen und einen Farbraum wählen.
+* **Illustrator OPTIONS** — Sie können Adobe Illustrator®-Dateien rastern, transparente Hintergründe beibehalten, eine Auflösung wählen und einen Farbraum wählen.
 Siehe [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **EVIDEO-OPTIONS** — Sie können eine Videodatei durch Auswahl einer Video-Vorgabe transkodieren.
