@@ -4,11 +4,13 @@ seo-title: Adobe Dynamic Media Classic
 description: Überblick über Dynamic Media Classic
 seo-description: Überblick über Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administrator, Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 31%
+source-wordcount: '252'
+ht-degree: 30%
 
 ---
 
