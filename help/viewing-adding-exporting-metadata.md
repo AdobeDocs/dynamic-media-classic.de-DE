@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
+feature: Dynamic Media Classic, Asset Management, Metadaten
+role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '2256'
+source-wordcount: '2264'
 ht-degree: 78%
 
 ---
@@ -180,7 +182,7 @@ Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdef
 
 >[!NOTE]
 >
->Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Funktionen von Dynamic Media Classic und Metadata Server sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, werden die Metadaten durch die Erstellung des entsprechenden Schemas auch in Dynamic Media Classic und dem Metadatenserver verwendet.
+>Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Funktionen von Dynamic Media Classic und Metadata Server sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, werden die Metadaten auch bei der Erstellung des entsprechenden Schemas in Dynamic Media Classic und auf dem Metadatenserver verwendet.
 
 Der Metadata Schema Editor Angebot eine grafische Möglichkeit, ein benutzerdefiniertes Firma-Schema in Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
 
