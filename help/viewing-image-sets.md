@@ -10,10 +10,10 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic, Viewer, Bildsätze
 role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 88%
+ht-degree: 80%
 
 ---
 
@@ -37,7 +37,7 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 
 1. Wählen Sie im Anzeigebereich „Viewer konfigurieren“ die gewünschten Optionen aus.
 
-   Um eine Beschreibung einer Option anzuzeigen, klicken Sie neben der Option auf das Symbol „Tipp“ .
+   Um eine Beschreibung einer Option anzuzeigen, klicken Sie auf das Symbol &quot;Tipp&quot;neben der Option.
 
    Im Anzeigebereich „Vorschau“ werden jeweils die Auswirkungen der vorgenommenen Änderungen angezeigt.
 
@@ -57,11 +57,11 @@ Mit der Vorschau können Sie testen, wie ein Asset in einer bestimmten Viewer-Pl
    * Wählen Sie im Assets-Fenster ein Asset aus. Klicken Sie in der Symbolleiste auf **Datei** > **Vorschau**.
 
 1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
-1. Klicken Sie auf eine Viewer-Verknüpfung, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
+1. Um das Asset im ausgewählten Viewer Vorschau, klicken Sie auf einen Viewer-Link.
 
    Wenn Sie auf eine Viewer-Verknüpfung klicken, wird die verknüpfte URL automatisch in die Zwischenablage kopiert.
 
-1. Schließen Sie den angezeigten Viewer, um zum Anzeigebereich „Vorschau“ zurückzukehren.
+1. Um zum Bildschirm &quot;Vorschau&quot;zurückzukehren, schließen Sie den angezeigten Viewer.
 1. Klicken Sie auf **„Schließen“**, um zum Fenster „Assets“ zurückzukehren.
 
 >[!MORELIKETHIS]
