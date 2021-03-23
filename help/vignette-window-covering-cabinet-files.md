@@ -10,19 +10,19 @@ discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 feature: Dynamic Media Classic, Asset Management
 role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 45%
+source-wordcount: '143'
+ht-degree: 26%
 
 ---
 
 
 # Arbeiten mit Vignetten-, Fensterbehang- und Möbeldateien{#working-with-vignette-window-covering-and-cabinet-files}
 
-Die Benutzer des Dynamic Media Classic Image Authoring-Tools können in Scene7 Vignetten (VNT-Dateien), Fensterbeläge (VNW-Dateien) und Schränke (VNC-Dateien) verwenden. Diese Dateien können nicht in Dynamic Media Classic erstellt oder bearbeitet werden.
+Die Benutzer des Dynamic Media Classic Image Authoring-Tools können *Vignetten (VNT-Dateien), Fensterumschläge (VNW-Dateien) und Schränke (VNC-Dateien) verwenden.* Diese Dateien können nicht in Dynamic Media Classic erstellt oder bearbeitet werden.
 
-Bei Vignetten-, Fensterbehang- und Möbeldateien handelt es sich um durch Authoring erstellte Bilder. Mit einem anderen Dynamic Media Classic-Programm namens &quot;Image Authoring&quot;können Sie Objekte in einem Bild maskieren, damit die Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Beispielsweise können die Benutzer ein Sofa mit unterschiedlichen Bezügen, ein Fenster mit verschiedenen Vorhängen und Gardinen oder einen Schrank aus unterschiedlichen Holzarten sehen.
+Bei Vignetten-, Fensterbehang- und Möbeldateien handelt es sich um durch Authoring erstellte Bilder. Mit einem anderen Dynamic Media Classic-Programm namens &quot;Image Authoring&quot;können Sie Objekte in einem Bild maskieren, damit die Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Zum Beispiel sehen die Benutzer ein Sofa mit verschiedenen Stoffen, ein Fenster mit verschiedenen Fensterbehandlungen oder ein Schrank mit verschiedenen Holzarten.
 
 Vignetten-, Fensterbehang- und Möbeldateien werden ebenso wie alle anderen Dateien hochgeladen.
 
