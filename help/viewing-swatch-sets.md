@@ -10,10 +10,10 @@ discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 feature: Dynamic Media Classic,Viewer
 role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 85%
+source-wordcount: '435'
+ht-degree: 71%
 
 ---
 
@@ -31,13 +31,13 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um eine neue Vorgabe zu erstellen, klicken Sie auf **Hinzufügen**. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie &quot;Musterset-Viewer&quot;und klicken Sie dann auf **Hinzufügen**.
+   * Um eine Vorgabe zu erstellen, klicken Sie auf **Hinzufügen**. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie &quot;Musterset-Viewer&quot;und klicken Sie dann auf **Hinzufügen**.
    * Um eine vorhandene Musterset-Viewer-Vorgabe zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie dann auf **Bearbeiten**.
 
 1. Geben Sie in das Feld „Vorgabenname“ einen Namen für die Musterset-Viewer-Vorgabe ein.
 1. Wählen Sie im Anzeigebereich „Viewer konfigurieren“ die gewünschten Optionen aus.
 
-   Um eine Beschreibung einer Option anzuzeigen, klicken Sie neben der Option auf das Symbol „Tipp“ .
+   Um eine Beschreibung einer Option anzuzeigen, klicken Sie auf das Symbol &quot;Tipp&quot;neben der Option.
 
    Im Anzeigebereich „Vorschau“ werden jeweils die Auswirkungen der vorgenommenen Änderungen angezeigt.
 
@@ -47,7 +47,7 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 
 Mit der Vorschau können Sie testen, wie ein Asset in einer bestimmten Viewer-Plattform wie HTML5 angezeigt wird. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen für die Vorschau verfügbar.
 
-1. Wählen Sie auf der linken Seite der Asset-Bibliothek in der Dropdown-Liste „Anzeigen“ einen auf einem Musterset basierenden Asset-Typ aus, z. B. „Musterset“.
+1. Wählen Sie im linken Bedienfeld &quot;Asset-Bibliothek&quot;in der Dropdown-Liste &quot;Anzeigen&quot;einen auf Mustersets basierenden Asset-Typ, z. B. ein Musterset.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Musterset enthält, das Sie mit einem Viewer in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -57,11 +57,11 @@ Mit der Vorschau können Sie testen, wie ein Asset in einer bestimmten Viewer-Pl
    * Wählen Sie im Assets-Fenster ein Asset aus. Klicken Sie in der Symbolleiste auf **Datei** > **Vorschau**.
 
 1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
-1. Klicken Sie auf eine Viewer-Verknüpfung, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
+1. Um das Asset im ausgewählten Viewer Vorschau, klicken Sie auf einen Viewer-Link.
 
    Wenn Sie auf eine Viewer-Verknüpfung klicken, wird die verknüpfte URL automatisch in die Zwischenablage kopiert.
 
-1. Schließen Sie den angezeigten Viewer, um zum Anzeigebereich „Vorschau“ zurückzukehren.
+1. Um zum Bildschirm &quot;Vorschau&quot;zurückzukehren, schließen Sie den angezeigten Viewer.
 1. Klicken Sie auf **„Schließen“**, um zum Fenster „Assets“ zurückzukehren.
 
 >[!MORELIKETHIS]
