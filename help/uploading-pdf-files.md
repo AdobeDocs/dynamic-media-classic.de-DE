@@ -9,25 +9,25 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic, Viewer, E-Katalog
 role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 70%
+source-wordcount: '701'
+ht-degree: 56%
 
 ---
 
 
 # Hochladen der PDF-Dateien{#uploading-the-pdf-files}
 
-Normalerweise werden Adobe PDF-Dateien als Grundlage für einen E-Katalog verwendet, da sie sämtliche Bildinformationen sowie Schriftarten und Vektorgrafiken enthalten. Sie können einen E-Katalog jedoch auch auf Grundlage von Bildern erstellen. Nachdem Sie die PDF-Dateien zum Hochladen vorbereitet haben, klicken Sie in der Symbolleiste für globale Navigation auf „Hochladen“, um den Vorgang zu starten.
+Normalerweise werden Adobe PDF-Dateien als Quelle für einen E-Katalog verwendet. Diese Dateien enthalten alle Bildinformationen, Schriftarten und Vektorgrafiken. Sie können einen E-Katalog jedoch auch auf Grundlage von Bildern erstellen. Nachdem Sie die PDF-Dateien zum Hochladen vorbereitet haben, klicken Sie in der Symbolleiste für globale Navigation auf „Hochladen“, um den Vorgang zu starten.
 
 ## Vorbereiten der PDF-Dateien  {#preparing-your-pdf-files}
 
 Bereiten Sie die PDF-Dateien vor dem Hochladen in Dynamic Media Classic vor:
 
-* Platzieren Sie alle Dateien in demselben Ordner auf dem Computer oder im Netzwerk, um das Hochladen zu vereinfachen.
+* Um das Hochladen der Dateien zu vereinfachen, legen Sie alle Dateien im selben Ordner auf Ihrem Computer oder im Netzwerk ab.
 * Benennen Sie die Dateien in alphanumerischer Reihenfolge gemäß der gewünschten Seitenabfolge. Eine Vorabsortierung der Seiten erleichtert nach dem Hochladen die Anordnung der Dateien in der richtigen Reihenfolge.
-* Überprüfen Sie, ob die PDF-Seiten Schnittmarken, Passermarken oder Farbkontrollstreifen enthalten. Diese Markierungen kennzeichnen die Stellen, an denen das Papier beim Druck abgeschnitten werden soll. Sie müssen vor der Veröffentlichung des E-Katalogs im Internet entfernt werden. Dynamic Media Classic bietet Optionen für Schnittmarken, wenn Sie PDF-Dateien hochladen.
+* Um zu sehen, ob PDF-Zielgruppen Schnittmarken, Registrierungs- oder Farbleisten enthalten, überprüfen Sie die Seiten. Diese Markierungen kennzeichnen die Stellen, an denen das Papier beim Druck abgeschnitten werden soll. Sie müssen vor der Veröffentlichung des E-Katalogs im Internet entfernt werden. Dynamic Media Classic bietet Optionen für Schnittmarken, wenn Sie PDF-Dateien hochladen.
 * Wenn Sie möchten, dass Betrachter der Website den E-Katalog nach Schlüsselwörtern durchsuchen können, stellen Sie fest, ob es sich um reduzierte PDF-Dateien handelt. Aus reduzierten PDF-Dateien können keine Suchbegriffe extrahiert werden. Um festzustellen, ob eine PDF-Datei reduziert ist, versuchen Sie, Text darin zu markieren. Wenn kein Text markiert werden kann, ist es eine reduzierte PDF-Datei und folglich können Betrachter der Website den E-Katalog nicht nach Schlüsselwörtern durchsuchen.
 * Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Standardmäßig kann Dynamic Media Classic diese CMYK-Bilder intelligent erkennen und mithilfe eines internen CMYK-Profils konvertieren. Sie können zum Konvertieren der CMYK-Bilder auch ein benutzerdefiniertes Farbprofil verwenden. 
 
@@ -40,7 +40,7 @@ Ausführliche Informationen zu den verschiedenen Methoden zum Hochladen finden S
 Wählen Sie die hochzuladenden Dateien aus und beachten Sie die folgenden bewährten Optionen ** für PDF-Dateien:
 
 * ****
-Beschneiden Wählen Sie im Menü &quot;Beschneiden&quot;die Option &quot;Manuell&quot;, wenn die Seiten Schnittmarken, Passermarken oder andere Markierungen enthalten. Geben Sie die Anzahl der Pixel an, die an den Seitenkanten oben, rechts, unten und links abgeschnitten werden sollen. Schnittmarken werden normalerweise einen halben Zoll vom Rand gesetzt. Sofern Sie die empfohlene Auflösung von 150 ppi gewählt haben, bewirkt die Eingabe des Werts 75 in den Textfeldern „Oben“, „Rechts“, „Unten“ und „Links“, dass die Ränder jeweils um einen halben Zoll (ca. 1,75 cm) beschnitten werden (weil 75 Pixel bei 150 ppi einem halben Zoll entsprechen).
+Beschneiden Wählen Sie im Menü &quot;Beschneiden&quot;die Option &quot;Manuell&quot;, wenn die Seiten Schnittmarken, Passermarken oder andere Markierungen enthalten. Geben Sie die Anzahl der Pixel an, die an den Seitenkanten oben, rechts, unten und links abgeschnitten werden sollen. Schnittmarken werden oft auf einen halben Zoll-Rand eingestellt. Angenommen, Sie wählen &quot;150 (empfohlen)&quot;als Auflösung für Pixel pro Zoll und geben in die Textfelder &quot;Oben&quot;, &quot;Rechts&quot;, &quot;Unten&quot;und &quot;Links&quot;die Werte 75, 75, 75 und 75 ein. In diesem Fall wird ein halber Zoll von den Rändern abgeschnitten (bei 150 ppi, die Hälfte von 1 gleich 75 Pixel).
 
 * ****
 VerarbeitungWählen Sie im Menü &quot;Verarbeitung&quot;die Option &quot;Rastern&quot;. Die PDF-Datei muss gerastert werden, damit alle Seiten und Bilder im E-Katalog angezeigt werden können.
