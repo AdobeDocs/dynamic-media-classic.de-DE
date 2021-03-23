@@ -10,10 +10,10 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic, Asset Management
 role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 71%
+source-wordcount: '1586'
+ht-degree: 60%
 
 ---
 
@@ -26,23 +26,23 @@ Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der v
 
 >[!NOTE]
 >
->Eine Liste der kürzlich veröffentlichten Aufträge steht auch auf der Seite „Jüngste Aktivitäten“ zur Verfügung. Klicken Sie in der Symbolleiste für globale Navigation auf „Kürzlich“, um diese Seite zu öffnen.
+>Eine Liste der kürzlich veröffentlichten Aufträge steht auch auf der Seite „Jüngste Aktivitäten“ zur Verfügung. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Zuletzt verwendet, um diese Seite zu öffnen.]**
 
-## Seite „Aufträge“  {#about-the-jobs-page}
+## Seite „Aufträge“{#about-the-jobs-page}
 
-Klicken Sie auf der Symbolleiste für globale Navigation auf die Schaltfläche „Aufträge“, um die Seite „Aufträge“ zu öffnen. Standardmäßig werden die neuesten Aufträge oben in der Liste angezeigt.
+Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Aufträge]** aus, um die Seite &quot;Aufträge&quot;zu öffnen. Standardmäßig werden die neuesten Aufträge oben in der Liste angezeigt.
 
 Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträge nach folgenden Kategorien angezeigt:
 
 **AuftragstypEin Symbol** zeigt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
 
-**Auftragsname** Der Name des Auftrags. Enthalten sind der vom Benutzer eingegebene Teil des Namens und der Datums-/Zeitstempel.
+**Auftragsname** Der Name des Auftrags. Der Name enthält den vom Benutzer eingegebenen Teil des Namens sowie das Datum und die Uhrzeit.
 
 **** StartetBeim Starten des Auftrags.
 
 **** GesamtsummeDie Anzahl der übertragenen Dateien.
 
-**W (Warnungen)**  Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiele sind etwa die Dateien „.DS_store“ (Macintosh) und „Thumbs.db“ (Windows), die Informationen über das Anzeigen von Bilddateien für Nutzer enthalten. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+**W (Warnungen)**  Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispielsweise enthalten die Dateien `.DS_store` (Macintosh) und Thumbs.db (Windows®) Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
 **E (Fehler)** Liste der Anzahl der Fehler im Auftrag (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
@@ -50,7 +50,7 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 **Status** Zeigt den Status des Auftrags an.
 
-**** ZielBei Upload-Aufträgen den Dateinamen und den Firmen-Ordner, in den die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
+**** ZielBei Upload-Aufträgen: Name der Firma und , in die die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
 
 **Gesendet** vonListen, die die Assets hochgeladen haben.
 
@@ -62,7 +62,7 @@ Mit den folgenden Verfahren können Sie Aufträge sortieren oder die Ansicht der
 
 **** SortierenWählen Sie einen Spaltennamen aus, um die Liste nach einer bestimmten Spalte zu sortieren. Durch Klicken auf den Schalter neben dem Spaltennamen können Sie zwischen auf- und absteigender Sortierfolge wechseln.
 
-**Datumsbereich** Wählen Sie im Menü &quot;Datumsbereich&quot;eine Option aus, um die Liste von Aufträgen auf das aktuelle Datum, die vorherige Woche oder den vorherigen Monat einzuschränken. Wählen Sie „Benutzerdefinierter Datumsbereich“, wenn Sie einen bestimmten Datumsbereich festlegen möchten.
+**Datumsbereich** Wählen Sie im Menü &quot;Datumsbereich&quot;eine Option aus, um die Liste von Aufträgen auf das aktuelle Datum, die vorherige Woche oder den vorherigen Monat einzuschränken. Wählen Sie &quot;Benutzerdefinierter Datumsbereich&quot;und geben Sie dann einen bestimmten Datumsbereich ein.
 
 **AuftragstypWählen Sie** im Menü &quot;Auftragstyp&quot;die Option &quot;Veröffentlichen&quot;oder &quot;Hochladen&quot;, um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge zu beschränken. Wenn Sie „Alle“ wählen, werden beide Arten von Aufträgen angezeigt.
 
@@ -116,27 +116,27 @@ Diese Tabelle enthält Informationen zu den Zeitabschnitten, den jeweils zuläss
 
 | Zeitabschnitte | Zulässige Werte | Kommentare | Unterstützte Platzhalter |
 |--- |--- |--- |--- |
-| Sekunden | 0-59 |  | , - * / |
-| Minuten | 0-59 |  | , - * / |
-| Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | , - * / |
-| Tag des Monats | 1-31 | Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines der beiden Felder muss ein Platzhalterzeichen ? enthalten. | , - * / ? L K |
-| Monat | 1-12 oder Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Sep, Okt, Nov, Dec | Bei den Werten wird zwischen Groß- und Kleinschreibung unterschieden. | , - * / |
-| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei den Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines der beiden Felder muss ein Platzhalterzeichen ? enthalten. | , - * / ? L K # |
-| Jahr (optional) | Leer oder 1970-2099 |  | , - * / |
+| Sekunden | 0-59 |  | `, - * /` |
+| Minuten | 0-59 |  | `, - * /` |
+| Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | `, - * /` |
+| Tag des Monats | 1-31 | Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines dieser Felder muss ein Platzhalterzeichen `?` verwenden. | `, - * / ? L C` |
+| Monat | 1-12 oder Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Sep, Okt, Nov, Dec | Bei den Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `, - * /` |
+| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei den Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines der beiden Felder muss ein Platzhalterzeichen ? enthalten. | `, - * / ? L C #` |
+| Jahr (optional) | Leer oder 1970-2099 |  | `, - * /` |
 
 
 In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mit Nutzungshinweisen aufgeführt:
 
 | Platzhalterzeichen | Name | Beschreibung |
 |--- |--- |--- |
-| * | Sternchen | Alle Werte (beispielsweise „jede Minute“). |
-| ? | Fragezeichen | Kein bestimmter Wert (beispielsweise „jede Minute innerhalb der festgelegten Stunde“). |
-| , | Komma | Zusätzliche Werte (beispielsweise „Montag und Mittwoch“). |
-| - | Trennstrich | Wertebereich (beispielsweise „Montag bis Freitag“). |
-| / | Schrägstrich | Abschnitte (z. B. „alle 15 Minuten“). |
-| L | Großes L | Letzter „Tag des Monats“ bzw. „Wochentag“ (nur bei diesen Feldern verfügbar). Im Monat Januar würde der Wert „L“ für „Tag des Monats“ den Auftrag beispielsweise für den 31. Januar planen.Für das Feld „Wochentag“ kann das Zeichen allein eingegeben werden, um den Auftrag für Samstag zu planen. Sie können ihn mit einer Zahl (z. B. 6L) verwenden, um den letzten Freitag des Monats anzugeben. Geben Sie &quot;L&quot;nicht mit den Platzhaltern &quot;Komma&quot;oder &quot;Bindestrich&quot;an. |
-| # | Zeichen für „Nr.“ | Der n-te Wochentag des Monats (nur beim Feld „Wochentag“ verfügbar).Beispielsweise würde mit 6#3 im Feld „Wochentag“ der dritte Freitag des Monats festgelegt werden. Die 6 steht für Freitag (sechster Tag der Woche), die 3 für das dritte Auftreten im Monat. |
-| K | Großes K | Erster „Tag des Monats“ im Kalender bzw. erster „Wochentag“ im Kalender (nur bei diesen Feldern verfügbar). Wenn Sie beispielsweise den Wert 1C für &quot;Tag des Monats&quot;angeben, wird der erste Tag im Kalender eingeplant, der am oder nach dem fünften Tag eintritt. Bei Angabe von 1C wird der erste Tag im Kalender am oder nach dem Sonntag geplant |
+| `*` | Sternchen | Alle Werte (beispielsweise „jede Minute“). |
+| `?` | Fragezeichen | Kein bestimmter Wert (beispielsweise „jede Minute innerhalb der festgelegten Stunde“). |
+| `,` | Komma | Andere Werte (z. B. &quot;Montag und Mittwoch&quot;). |
+| `-` | Trennstrich | Wertebereich (beispielsweise „Montag bis Freitag“). |
+| `/` | Schrägstrich | Abschnitte (z. B. „alle 15 Minuten“). |
+| `L` | Großes L | Letzter „Tag des Monats“ bzw. „Wochentag“ (nur bei diesen Feldern verfügbar). Im Monat Januar würde der Wert „L“ für „Tag des Monats“ den Auftrag beispielsweise für den 31. Januar planen. Für das Feld „Wochentag“ kann das Zeichen allein eingegeben werden, um den Auftrag für Samstag zu planen. Sie können ihn mit einer Zahl (z. B. `6L`) verwenden, um den letzten Freitag des Monats anzugeben. Geben Sie `L` nicht mit den Platzhaltern Komma oder Bindestrich an. |
+| `#` | Zeichen für „Nr.“ | Der n-te Wochentag des Monats (nur beim Feld „Wochentag“ verfügbar). Beispiel: `6#3` im Feld &quot;Wochentag&quot;gibt den dritten Freitag des Monats an. Das `6` gibt &quot;Friday&quot;(sechster Tag der Woche) und das `3` das dritte Vorkommen im Monat an. |
+| `C` | Großes K | Erster „Tag des Monats“ im Kalender bzw. erster „Wochentag“ im Kalender (nur bei diesen Feldern verfügbar). Wenn Sie beispielsweise den Wert `1C` für &quot;Tag des Monats&quot;angeben, wird der erste Tag im Kalender eingeplant, der am oder nach dem fünften Tag eintritt. Beim Festlegen von `1C` wird für das Feld &quot;Wochentag&quot;der erste Tag im Kalender am oder nach dem Sonntag eingeplant |
 
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:
 
@@ -153,6 +153,6 @@ Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „R
 
 ## Verwenden eines Upload-Auftrags oder Veröffentlichungsauftrags als Auslöser  {#using-an-upload-or-publish-job-as-a-trigger}
 
-Wenn Sie Assets per FTP hochladen oder einen Veröffentlichungsauftrag ausführen, können Sie einen Folgeauftrag unmittelbar nach Abschluss des Uploads beginnen lassen. (Wenn für diesen Zeitpunkt die Ausführung anderer Aufträge geplant ist, wird der hier terminierte Auftrag in der Warteschlange hinter diesen Aufträgen eingereiht.) Für den neuen Auftrag wird eine Benachrichtigung an die von Ihnen festgelegte Adresse geschickt, sodass Code am vorgesehenen Ort ausgelöst werden kann. Der nachfolgende Upload-Auftrag erhält denselben Namen wie der aktuelle Upload-Auftrag, jedoch mit dem Präfix „_Pub“.
+Wenn Sie Assets per FTP hochladen oder einen Veröffentlichungsauftrag ausführen, können Sie einen Folgeauftrag planen, der nach Abschluss des Uploads beginnt. (Wenn dann andere Aufträge beginnen sollen, wird der hier geplante Auftrag in der Warteschlange hinter ihnen liegen.) Für den neuen Auftrag wird eine Benachrichtigung an die von Ihnen festgelegte Adresse geschickt, sodass Code am vorgesehenen Ort ausgelöst werden kann. Der nachfolgende Upload-Auftrag erhält denselben Namen wie der aktuelle Upload-Auftrag, jedoch mit dem Präfix „_Pub“.
 
 Wenn ein Upload-Auftrag- oder Veröffentlichungsauftrag einen anderen Auftrag auslösen soll, wählen Sie auf der Seite „Hochladen“ oder „Veröffentlichen“ die Option „Erweitert“. Geben Sie dann die URL in das Textfeld „HTTP-Benachrichtigung“ ein.
