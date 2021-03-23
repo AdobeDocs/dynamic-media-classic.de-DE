@@ -10,17 +10,17 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Media Classic, Asset Management
 role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 31%
+source-wordcount: '249'
+ht-degree: 23%
 
 ---
 
 
 # Hochladen von Masterbildern{#uploading-master-images}
 
-Stellen Sie vor dem Hochladen von Bildern in Dynamic Media Classic sicher, dass sie die höchste Qualität und das höchste Format aufweisen. Dynamic Media Classic empfiehlt das Hochladen hochwertiger Bilder mit einer ausreichenden Pixelanzahl (von 1500 bis 2000 Pixel in der langen Dimension). Dies gewährleistet, dass alle dynamischen Bildbearbeitungsvorgänge durchgeführt werden können.
+Bevor Sie Bilder in Dynamic Media Classic hochladen, sollten Sie sicherstellen, dass sie die höchste Qualität aufweisen. Dynamic Media Classic empfiehlt das Hochladen hochwertiger Bilder mit einer ausreichenden Pixelanzahl (von 1500 bis 2000 Pixel in der langen Dimension). Diese Größenanpassung ermöglicht eine dynamische Bildbearbeitung, die erforderlich ist.
 
 Detaillierte Informationen über das Hochladen von Bildern finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files).
 
@@ -32,7 +32,7 @@ Bereiten Sie die Übergeordnet erstellten Bilddateien vor dem Hochladen in Dynam
 Erstellen Sie die Bilder mit der größten Größe, die Sie erwarten. Die typische Bildgröße beträgt zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoomfunktion verwenden möchten, empfiehlt Dynamic Media Classic die Verwendung von Bildern mit einer Länge von mindestens 2000 Pixeln, um optimale Zoomdetails zu erzielen. Dynamic Media Classic kann bis zu 25 Megapixel rendern. Sie können beispielsweise ein Bild mit 5000 x 5000 Megapixeln oder eine beliebige andere Größenkombination mit bis zu 25 Megapixeln verwenden.
 
 * **DateiformateDynamic Media Classic**
-unterstützt alle standardmäßigen Bilddateiformate, einschließlich TIFF, BMP, JPEG, PSD, GIF und EPS. Verlustfreie Bildformate – TIFF und PNG – werden empfohlen. Wenn Sie JPEG-Bilder verwenden, sollten Sie dafür die höchstmögliche Qualität einstellen.
+unterstützt alle standardmäßigen Bilddateiformate, einschließlich TIFF, BMP, JPEG, PSD, GIF und EPS. Verlustfreie Bildformate – TIFF und PNG – werden empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die Einstellungen mit der höchsten Qualität.
 
 * **Color**
 spaceRGB ist der Farbraum für Webbildpräsentationen; CMYK-Bilder, die häufig zum Drucken verwendet werden, werden beim Hochladen automatisch in RGB konvertiert. Es empfiehlt sich, CMYK-Bilder hochzuladen, die ein eingebettetes ICC-Farbprofil für die Konvertierung in RGB enthalten. Siehe auch ICC-Profile.
