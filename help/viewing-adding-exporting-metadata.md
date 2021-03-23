@@ -10,10 +10,10 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic, Asset Management, Metadaten
 role: Geschäftspraktiker
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 78%
+source-wordcount: '2250'
+ht-degree: 63%
 
 ---
 
@@ -30,7 +30,7 @@ Weitere Informationen zu eingebetteten Metadaten finden Sie unter [www.adobe.com
 
 ## Anzeigen von Metadaten {#view-metadata}
 
-Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und klicken Sie auf das Metadatenbedienfeld. Wählen Sie anschließend eine Option aus dem Menü „Metadaten-Ansichten“ aus, um einen Metadatenfeldersatz auszuwählen. Dynamic Media Classic-Angebote: Diese Metadaten-Ansichten:
+Um die Metadaten eines Assets Ansicht, öffnen Sie das Asset in der Ansicht &quot;Details&quot;und tippen Sie auf das Metadatenbedienfeld. Um einen Satz von Metadatenfeldern auszuwählen, wählen Sie eine Option im Menü &quot;Metadaten-Ansicht&quot;. Dynamic Media Classic-Angebote: Diese Metadaten-Ansichten:
 
 * **Kompakte**
 AnsichtGrundlegende Liste von Werten.
@@ -59,7 +59,7 @@ Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden au
 
 ## Hinzufügen oder Bearbeiten von Schlüsselwörtern  {#add-or-edit-keywords}
 
-Neben Metadaten können Sie Schlüsselwörter verwenden, um die Durchsuchung und Verwaltung Ihrer Assets zu unterstützen.
+Neben Metadaten können Sie Suchbegriffe verwenden, um die Suche und Verwaltung Ihrer Assets zu unterstützen.
 
 Wenn Sie während dieser Sitzung Schlüsselwörter zu anderen Dateien hinzugefügt oder aus Ihrer Liste entfernt haben, werden Sie in der Tabelle für Schlüsselwortvorschläge angezeigt.
 
@@ -97,21 +97,21 @@ Weitere Informationen zu standardisierten Eigenschaften finden Sie unter: https:
 
 Beachten Sie Folgendes, wenn verschiedene Metadaten-Typen für den Import identifiziert werden:
 
-* Benutzerdefinierte Felder werden anhand des Namens identifiziert, der unter „Einstellungen“ > „Anwendungseinstellungen“ > „Metadaten“ > „Benutzerdefinierte Felder“ angegeben wurde. Lassen Sie sich mit der Funktion „Datei generieren“ eine Liste mit allen definierten UDFs im richtigen Importformat anzeigen.
-* Bei den XMP-Metadaten-Eigenschaften muss das entsprechende XMP-Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das XMP-Präfix finden Sie unter „Einstellungen > „Anwendungseinstellungen“ > „Metadaten“ > „Schema-Editor“. Die technischen Namen finden Sie in der Dokumentation zum jeweiligen XMP-Schema. Beachten Sie, dass XMP-Eigenschaftsnamen nicht bei der Funktion „Datei generieren“ angezeigt werden.
-* Bei den Metadaten-Eigenschaften muss das entsprechende Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das Präfix und die Eigenschaftsnamen werden im Metadaten-Schema-Editor definiert. Beachten Sie, dass die Eigenschaftsnamen von Metadaten-Schematas nicht bei der Funktion „Datei generieren“ angezeigt werden.
+* Benutzerdefinierte Felder werden anhand ihres Namens identifiziert, der unter &quot;Einstellungen&quot;> &quot;Anwendungseinstellungen&quot;> &quot;Metadaten&quot;> &quot;Benutzerdefinierte Felder&quot;erstellt wurde. Lassen Sie sich mit der Funktion „Datei generieren“ eine Liste mit allen definierten UDFs im richtigen Importformat anzeigen.
+* Bei den XMP-Metadaten-Eigenschaften muss das entsprechende XMP-Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das XMP-Präfix finden Sie unter „Einstellungen > „Anwendungseinstellungen“ > „Metadaten“ > „Schema-Editor“. Die technischen Namen finden Sie in der Dokumentation zum jeweiligen XMP-Schema. XMP Namen von Eigenschaften werden nicht in der Funktion Datei erstellen angezeigt.
+* Bei den Metadaten-Eigenschaften muss das entsprechende Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das Präfix und die Eigenschaftsnamen werden im Metadaten-Schema-Editor definiert. Die Namen der Metadaten-Schema-Eigenschaften werden nicht in der Funktion &quot;Datei erstellen&quot;angezeigt.
 
 Beispiel: Die XMP-Eigenschaft für Schlüsselwörter ist das XMP-Schema „Dublin Core“ mit dem Präfix „dc“ und „subject“ ist der technische XMP-Name. Das Präfix und der technische XMP-Name werden zu „dc:subject“ kombiniert und bilden den Namen der Eigenschaft. Im Importformat der XML-Metadaten muss der Eigenschaftsname „dc:subject“ lauten. Im tabulatorgetrennten Importformat muss es die Spaltenüberschrift sein.
 
 **Importieren von Schlüsselwörtern**
 
-Schlüsselwörter lassen sich als Komma getrennte Liste importieren. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, muss ihm ein umgekehrter Schrägstrich (\) (Backslash) vorangestellt werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden.
+Suchbegriffe können als kommagetrennte Liste importiert werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, muss es mit einem umgekehrten Schrägstrich (\) versehen werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden.
 
 Beispiel: Eine Metadaten-Importdatei mit dem Wert „Hello\, World!,back\\slash,foo“ für „dc: subject“ legt drei XMP-Schlüsselwörter für das Asset fest: „Hello, World!“, „back\slash“ und „foo“.
 
 **Importieren von XMP- und Metadaten-Schema-XMP-Dateien**
 
-Der XML-Import akzeptiert nur gültige XML. Wenn Sie XMP- oder Metadaten-Schema-Felder importieren, wird das Namespace-Präfix hinzugefügt und wie ein XMP-Namespace behandelt. Dieser Namespace muss (z. B. auf oberster Tag-Ebene) angegeben werden.
+Der XML-Import akzeptiert nur gültige XML. Beim Importieren von Schema-Feldern XMP oder Metadaten wird das Präfix des Namensraums hinzugefügt und verhält sich hier wie ein XMP-Namensraum. Dieser Namensraum muss erklärt werden. Beispiel: im Tag der obersten Ebene.
 
 Beispiel:
 
@@ -131,9 +131,9 @@ Sie können Metadaten für mehrere Dateien importieren, indem Sie die Metadaten 
 
 Stellen Sie sicher, dass die Daten in der tabulatorgetrennten Datei oder in der XML-Datei im korrekten Format vorliegen. Geben Sie in die erste Zeile das ID-Feld, gefolgt von den Namen der Metadaten-Felder ein, die geändert werden sollen. Geben Sie in die nächsten Zeilen jeweils einen Asset-ID-Namen gefolgt von den Metadaten-Werten ein. Felder, die nicht in der tabulatorgetrennten Datei oder in der XML-Datei enthalten sind, werden nicht geändert.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche „Hochladen“ und wählen Sie im Anzeigebereich „Aufträge“ die Registerkarte „Über FTP“ aus, um die Metadaten zu importieren. Klicken Sie dann auf „Auftragsoptionen“. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option „Metadaten-Dateien verarbeiten“.
+Klicken Sie in der Symbolleiste für globale Navigation auf die Schaltfläche &quot;Hochladen&quot;. Um die Metadaten zu importieren, wählen Sie im Anzeigebereich &quot;Aufträge&quot;die Registerkarte **[!UICONTROL Über FTP]** und klicken Sie dann auf **[!UICONTROL Auftragsoptionen]**. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option Metadatendateien verarbeiten.
 
-## Stapel-Umbenennung von IDs mit Metadaten  {#batch-rename-ids-using-metadata}
+## Stapel-Umbenennung von IDs mit Metadaten {#batch-rename-ids-using-metadata}
 
 Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder XML-Datei importiert wurden, können Sie Dynamic Media Classic-IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Dabei ist es unerheblich, ob Bilder im Durchsuchenbedienfeld ausgewählt sind oder nicht.
 
@@ -146,12 +146,11 @@ Beispiel:
 | testjacket_1 | Jacket_test_1 |
 | testjacket_blue | Jacket_test_2 |
 
+Das Auftragsprotokoll für den Metadatenauftrag zeigt an, welche IDs erfolgreich umbenannt wurden und welche nicht.
 
-Im Auftragsprotokoll für den Metadatenauftrag wird festgehalten, welche IDs erfolgreich umbenannt wurden und welche nicht.
+## Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten {#create-a-template-for-entering-metadata-to-upload}
 
-## Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten  {#create-a-template-for-entering-metadata-to-upload}
-
-Dynamic Media Classic-Angebote verwenden einen Befehl zum Erstellen einer Vorlage zum Aufzeichnen von Metadaten. Mithilfe der Vorlage wird sichergestellt, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Dynamic Media Classic hochgeladen werden können. Führen Sie die folgenden Schritte aus, um eine Vorlage zum Aufzeichnen und Importieren von Metadaten in Dynamic Media Classic zu erstellen:
+Dynamic Media Classic-Angebote verwenden einen Befehl zum Erstellen einer Vorlage zum Aufzeichnen von Metadaten. Mithilfe der Vorlage wird sichergestellt, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Dynamic Media Classic hochgeladen werden können. Gehen Sie wie folgt vor, um eine Vorlage zum Aufzeichnen und Importieren von Metadaten in Dynamic Media Classic zu erstellen:
 
 1. Wählen Sie Bildassets mit Metadatenfeldern aus, die Sie in der Vorlage verwenden möchten.
 1. Wählen Sie „Datei“ > „Metadaten importieren“.
@@ -164,21 +163,21 @@ Dynamic Media Classic-Angebote verwenden einen Befehl zum Erstellen einer Vorlag
 
 Ein Unternehmensadministrator kann eine Liste aller verfügbaren Schemata anzeigen. Öffnen Sie „Anwendungseinstellungen“ > „Metadaten¬> „Metadaten-Schema“.
 
-Zunächst werden die Listen der globalen Standardschemata wie XMP ausgeblendet. Sie können mithilfe des Kontrollkästchens unten in der Liste angezeigt werden.
+Zunächst wird die Liste von Schemas wie XMP ausgeblendet. Sie können mithilfe des Kontrollkästchens unten in der Liste angezeigt werden.
 
-Der Unternehmensadministrator kann ein neues benutzerdefiniertes Schema erstellen oder ein vorhandenes benutzerdefiniertes Schema bearbeiten.
+Der Administrator der Firma kann ein benutzerdefiniertes Schema erstellen oder ein vorhandenes benutzerdefiniertes Schema bearbeiten.
 
 Sie können den Metadaten-Schema-Editor verwenden, um die folgenden Aktionen ausführen:
 
 | Aktion | Beschreibung |
 |--- |--- |
-| Hinzufügen | Fügt eine neue Eigenschaft zum Schema hinzu. Ein modaler Dialog erfasst die Informationen: ID, Beschriftung, Struktur und Datentyp. |
-| Auswahlwert hinzufügen | Fügt einer Eigenschaft mit „Offene Auswahl“ oder „Geschlossene Auswahl“ eine neue Auswahloption hinzu. Alle Auswahlwerte haben den gleichen Typ. Sie müssen die Eigenschaft auswählen, um die Schaltfläche zu aktivieren. |
+| Hinzufügen | Fügt dem Schema eine Eigenschaft hinzu. In einem modalen Dialog werden die folgenden Informationen gesammelt: ID, Bezeichnung, Struktur und Datentyp. |
+| Auswahlwert hinzufügen | Fügt einer Eigenschaft mit „Offene Auswahl“ oder „Geschlossene Auswahl“ eine neue Auswahloption hinzu. Alle Auswahlwerte haben den gleichen Typ. Wählen Sie die Eigenschaft selbst aus, um die Schaltfläche zu aktivieren. |
 | Bearbeiten | Bearbeiten der Beschriftung einer Eigenschaft oder eines Auswahlwertes. Sie können nur die Beschriftung und ID ändern, nicht aber die Typinformationen. |
-| Nach oben verschieben/Nach unten verschieben | Die Reihenfolge im Schema wird in der Benutzeroberfläche übernommen. Um die Reihenfolge zu ändern, wählen Sie eine Eigenschaft oder einen Auswahlwert aus und verschieben diese mit den Schaltflächen. Ziehen und Ablegen wird derzeit nicht unterstützt. |
-| Löschen | Löscht eine Eigenschaft oder einen Auswahlwert aus dem Schema. Damit werden keine Werte aus dem XMP-Block oder der Datenbank gelöscht. Die Eigenschaft ist nicht mehr für Metadaten-Ansichten verfügbar und wird aus der Asset-Detailansicht entfernt. Wenn die Eigenschaft auf dem Metadatenserver veröffentlicht wurde, erzwingen Sie eine Veröffentlichung, um die Daten von dem öffentlich zugänglichen Metadaten-Server zu entfernen. |
+| Nach oben verschieben/Nach unten verschieben | Die Reihenfolge im Schema wird in der Benutzeroberfläche übernommen. Um die Reihenfolge zu ändern, wählen Sie eine Eigenschaft oder einen Auswahlwert aus und verschieben diese mit den Schaltflächen. Drag &amp; Drop wird derzeit nicht unterstützt. |
+| Löschen | Löscht eine Eigenschaft oder einen Auswahlwert aus dem Schema. Es werden keine Werte aus dem XMP oder der Datenbank gelöscht. Die Eigenschaft ist für Metadaten-Ansichten nicht mehr verfügbar und wird aus der Ansicht &quot;Asset-Details&quot;entfernt. Wenn die Eigenschaft auf dem Metadaten-Server veröffentlicht wurde, führen Sie eine erzwungene Veröffentlichung durch, um die Daten vom öffentlich zugänglichen Metadaten-Server zu entfernen. |
 
-Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdefinierte Felder mit dem Präfix „s7udf“. Dies sind die vorhandenen benutzerdefinierten Felder, die in ihrem eigenen Einstellungsbereich bearbeitet werden.
+Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdefinierte Felder mit dem Präfix „s7udf“. Es handelt sich um vorhandene benutzerdefinierte Felder, die in ihrem eigenen Setup-Abschnitt bearbeitet werden.
 
 >[!NOTE]
 >
