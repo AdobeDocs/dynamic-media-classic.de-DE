@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administrator
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 
 Die Suchmaschinenoptimierung (SEO) ist ein Vorgang, der die Erhöhung der Zugriffe auf eine Website über Suchmaschinen zum Ziel hat. Suchmaschinen zeigen beim Sammeln von Informationen zu textbasierten Inhalten ausgezeichnete Leistung. Bei Videoinhalten können sie jedoch nur dann zufriedenstellende Informationen aufweisen, wenn diese direkt in die Suchmaschine eingespeist werden.
 
-Mit Dynamic Media Classic Video SEO können Sie Videometadaten nutzen, um Suchmaschinen Beschreibungen Ihrer Videos bereitzustellen. Dynamic Media Classic bietet die Möglichkeit, Video-Sitemaps und mRSS-Feeds zu erstellen. Bei diesen Formaten handelt es sich um standardmäßige XML-Dateien, mit denen Videoinformationen an Suchmaschinen übermittelt werden:
+Mit Dynamic Media Classic Video SEO können Sie Videometadaten anwenden, um Suchmaschinen Beschreibungen Ihrer Videos bereitzustellen. Mit Dynamic Media Classic können Sie Video-Sitemaps und mRSS-Feeds erstellen. Diese Standard-XML-Dateien dienen zum Übermitteln von Videoinformationen an Suchmaschinen:
 
-**Video** SitemapInformiert Google genau, wo und was der Videoinhalt auf einer Site ist. In der Folge sind die Videos vollständig auf Google suchbar. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Weitere Informationen zu Video-Sitemaps finden Sie unter https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Video** SitemapInformiert Google genau, wo und was der Videoinhalt auf einer Site ist. Videos können also in Google vollständig durchsucht werden. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Weitere Informationen zu Video-Sitemaps finden Sie unter https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
 **mRSS (Media Really Simple Syndication)-** FeedWird von Content Herausgebern verwendet, um Mediendateien in Yahoo!! Videosuche einzuspeisen. Weitere Informationen zu mRSS-Feeds finden Sie unter https://www.rssboard.org/media-rss.
 
@@ -74,7 +74,7 @@ Wählen Sie in der Dropdown-Liste „Automatischer Modus“ bzw. „Manueller Mo
 
 **Markieren Sie die erstellte XML-Datei zur Veröffentlichung** von PublishMarks.
 
-**Teilweise** GenerationSuchmaschinen zulassen kann eine XML-Datei ablehnen, wenn sie keine vollständigen Metadateninformationen für alle Videos enthält. Mit dieser Option wird die XML-Datei erstellt, selbst wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
+**Teilweise** GenerationSuchmaschinen können eine XML-Datei ablehnen, wenn sie keine vollständigen Metadateninformationen für alle Videos enthält. Mit dieser Option wird die XML-Datei erstellt, selbst wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
 
 ### Auswählen von Erstellungseinstellungen  {#choosing-generation-settings}
 
@@ -93,7 +93,7 @@ Im Bereich „Erstellungseinstellungen“ sind Eingabefelder für die Video-Site
 
 >[!NOTE]
 >
->Sie müssen die Video-Sitemap oder das mRSS-Feed veröffentlichen, bevor Sie die Datei an Suchmaschinen übermitteln können. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien gegebenenfalls zur Veröffentlichung und klicken Sie auf die Schaltfläche „Veröffentlichen“.
+>Veröffentlichen Sie die Video-Sitemap oder den mRSS-Feed, bevor Sie sie an Suchmaschinen senden können. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien gegebenenfalls zur Veröffentlichung und klicken Sie auf die Schaltfläche „Veröffentlichen“.
 
 ## Übermitteln von Video-Sitemap- und mRSS-Feed-Dateien an Suchmaschinen  {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
