@@ -8,14 +8,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Administrator
+exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 62%
+source-wordcount: '1946'
+ht-degree: 61%
 
 ---
-
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
@@ -89,7 +89,7 @@ Benutzer, die deaktiviert wurden, können nicht mehr auf das oben im Menü „Ko
 
 Welche Benutzerinformationen Sie bearbeiten können, hängt von Ihrer Rolle als Administrator und der zugewiesenen Rolle der Benutzer ab, deren Angaben Sie bearbeiten möchten. Abgeblendete Optionen (nicht verfügbar) sind nicht bearbeitbar.
 
-1. Gehen Sie zu **„Einstellungen“** > **„Anwendungseinstellungen“** > **„Administrationseinstellungen“** > **„Benutzerverwaltung“**.
+1. Gehen Sie zu **Setup** > **Anwendungseinstellungen** > **Administrationseinstellungen** > **Benutzerverwaltung**.
 1. Wählen Sie den Benutzer aus und klicken Sie auf **„Bearbeiten“**.
 1. Wählen Sie den Eintrag in der Tabelle aus, die das Unternehmen anzeigt, für das Sie die Berechtigungen oder den Zugriff ändern möchten, und klicken Sie dann auf den Link „Unternehmen verwalten“.
 1. Wählen Sie die Benutzerrolle aus.
@@ -102,15 +102,15 @@ Sie können die Benutzerliste sortieren und filtern, um Benutzer zu suchen. Alle
 
 Sie können die folgenden Techniken zum Filtern der Benutzerliste verwenden:
 
-**Nach** Gruppe filternWählen Sie im Menü Nach Gruppe eine Option aus, um die Liste auf die Benutzer in einer Gruppe zu beschränken.
+* **Nach Gruppe**  filtern: Wählen Sie im Menü &quot;Nach Gruppe&quot;eine Option, um die Liste auf die Benutzer in einer Gruppe zu beschränken.
 
-**Nach Benutzerrolle filtern** Wählen Sie das Menü Nach Benutzerrolle aus und wählen Sie eine Option, um die Liste auf Benutzer oder Administratoren verschiedener Typen einzuschränken.
+* **Nach Benutzerrolle**  filtern: Wählen Sie das Menü Nach Benutzerrolle und wählen Sie eine Option, um die Liste auf Benutzer oder Administratoren verschiedener Typen einzuschränken.
 
-**Nach** Feldnamen filternWählen Sie die Option &quot;Filter nach Feld aktivieren&quot;. Wählen Sie anschließend im Menü „Nach Feldname“ die Spalte, nach der Sie filtern möchten, und im Menü „Zeichen filtern“ den gewünschten Buchstaben aus. Anschließend wird die Liste in der ausgewählten Spalte nach dem angegebenen Buchstaben gefiltert. Um wieder die vollständige Liste anzuzeigen, deaktivieren Sie die Option „Filtern nach Feld aktivieren“.
+* **Nach Feldnamen**  filtern: Wählen Sie die Option &quot;Filter nach Feld aktivieren&quot;. Wählen Sie anschließend im Menü „Nach Feldname“ die Spalte, nach der Sie filtern möchten, und im Menü „Zeichen filtern“ den gewünschten Buchstaben aus. Anschließend wird die Liste in der ausgewählten Spalte nach dem angegebenen Buchstaben gefiltert. Um wieder die vollständige Liste anzuzeigen, deaktivieren Sie die Option „Filtern nach Feld aktivieren“.
 
-**Ungültige** Benutzer herausfilternDeaktivieren Sie die Option &quot;Ungültige einschließen&quot;. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und sämtlichen von Ihnen verwalteten Konten gelöscht.
+* **Ungültige Benutzer**  herausfiltern - Deaktivieren Sie die Option &quot;Ungültige einschließen&quot;. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und sämtlichen von Ihnen verwalteten Konten gelöscht.
 
-**Sortieren nach Spaltenüberschrift** Klicken Sie auf eine Überschrift, um alle Benutzer nach ihrem Status, alphabetisch nach Vorname, Nachname oder E-Mail, nach Benutzerrolle oder nach dem Status &quot;gültig/ungültig&quot;zu sortieren.
+* **Sortieren nach Spaltenüberschrift** : Klicken Sie auf eine Überschrift, um alle Benutzer nach ihrem Status, alphabetisch nach Vorname, Nachname oder E-Mail, nach Benutzerrolle oder nach dem Status &quot;Gültig/Ungültig&quot;zu sortieren.
 
 Wenn Sie mit sehr vielen Benutzern arbeiten, können Sie im Menü „Max. Listengr.“ eine Zahl eingeben, um die Länge der Liste zu beschränken.
 
@@ -161,20 +161,19 @@ Die folgende Tabelle beschreibt Berichte, die Sie im Anzeigebereich „Bandbreit
 | Video-Streaming | Bandbreitennutzung für Streaming-Videos | Verfolgen Sie die Nutzung von Streaming-Videos nach Unternehmen über bestimmte Zeitspannen, um Datenverkehrsmuster zu ermitteln. |
 | Videoinhalt | Wiedergabezeit verschiedener Videos | Ermitteln Sie, welche Videos am häufigsten und am wenigsten häufig abgerufen werden. |
 
-
 Der Bericht „Bildinhalt“ enthält Informationen über Anforderungen nach den folgenden Bildtypen:
 
-**Image** RequestRequests for images.
+* **Bildanforderung** : Bildanforderungen.
 
-**Miniaturansicht-** AnfrageAnfragen für Muster oder alternative Bilder in Viewern.
+* **Miniaturansichtsanforderung** : Anfragen nach Musterbildern oder alternativen Bildern in Viewern.
 
-**Maskenanforderung** Anforderungen an Bilder, die Graustufen-Masken zurückgeben.
+* **Maskenanforderung** : Anforderungen an Bilder, die Graustufenmasken zurückgeben.
 
-**Von einem Viewer geladene** Viewer-KachelanfragenBild-Anforderungen.
+* **Viewer-Kachelanforderung** : Bildanforderungen, die von einem Viewer geladen werden.
 
-**VNT-Objekt-** AnfrageImage-Rendering-Anforderungen, die ein Bild mit bestimmten Objekten in den angeforderten Vignetten zurückgeben.
+* **VNT-Objektanforderung** : Bildwiedergabeanforderungen, die ein Bild mit bestimmten Objekten in den angeforderten Vignetten zurückgeben.
 
-**Vnt Info** RequestImage Rendering-Anforderungen, die Informationen zu den angeforderten Vignetten zurückgeben.
+* **VNT-Info-Anforderung** : Image Rendering-Anforderungen, die Informationen zu den angeforderten Vignetten zurückgeben.
 
 >[!NOTE]
 >
@@ -194,27 +193,27 @@ So generieren Sie einen Bericht zur Bandbreite, zum Speicher, zu Bildinhalt, zur
 
 Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert haben, können Sie Optionen zum Anzeigen der Informationen auswählen. Sie können festlegen, wie die Informationen dargestellt werden, die Informationen in einem Diagramm oder Datenraster anzeigen und einen Zeitraum für das Erfassen von Informationen bestimmen. In der Datenansicht können Sie die Informationen auch sortieren und in Spalten anordnen.
 
-**Anzeigen von Daten in einem Diagramm oder einem** DatenrasterKlicken Sie auf die Option &quot;Ansicht des Diagramms&quot;, um Daten in einem Diagramm Ansicht; Klicken Sie auf die Option &quot;Ansicht der Daten&quot;, um Daten in einem Datenraster Ansicht.
+* **Anzeigen von Daten in einem Diagramm oder Datenraster**  - Klicken Sie auf die Option &quot;DiagrammAnsicht&quot;, um Daten in einem Diagramm Ansicht; Klicken Sie auf die Option &quot;Ansicht der Daten&quot;, um Daten in einem Datenraster Ansicht.
 
-**Wählen Sie einen** Typ der Berichtspräsentation. Wählen Sie im Menü &quot;Berichtstyp&quot;die Option &quot;Zusammenfassung&quot;, &quot;Täglich&quot;oder &quot;Monatlich&quot;, um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
+* **Auswahl des Präsentationstyps**  eines Berichts: Wählen Sie im Menü &quot;Berichtstyp&quot;die Option &quot;Zusammenfassung&quot;, &quot;Täglich&quot;oder &quot;Monatlich&quot;, um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
 
-**Festlegen eines** ZeitraumsWählen Sie Optionen zum Definieren eines Zeitraums für Ihren Bericht aus und klicken Sie anschließend auf Aktualisieren:
+* **Festlegen eines Zeitraums**  - Wählen Sie Optionen zur Definition eines Zeitraums für Ihren Bericht aus und klicken Sie nach der Definition eines Zeitraums auf Aktualisieren:
 
-**Vordefinierter** ZeitraumWählen Sie im Menü Vordefinierter Bericht eine Option. Wählen Sie beispielsweise „Letzter Monat“, um die Daten des letzten Monats zu erfassen.
+* **Vordefinierter Zeitraum**  - Wählen Sie im Menü Vordefinierter Bericht eine Option. Wählen Sie beispielsweise „Letzter Monat“, um die Daten des letzten Monats zu erfassen.
 
-**Benutzerdefinierter** ZeitraumWählen Sie im Menü Vordefinierter Bericht die Option Benutzerdefiniert. Wählen Sie anschließend ein Datum im Menü „Startmonat“ (bzw. „Startdatum“) und ein Datum im Menü „Anzahl Monate (bzw. „Anzahl Tage“). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
+* **Benutzerdefinierter Zeitraum**  - Wählen Sie im Menü Vordefinierter Bericht die Option Benutzerdefiniert. Wählen Sie anschließend ein Datum im Menü „Startmonat“ (bzw. „Startdatum“) und ein Datum im Menü „Anzahl Monate (bzw. „Anzahl Tage“). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
 
-**Sortieren von Daten (nur Ansicht)**  Klicken Sie zum Sortieren von Informationen in einer Spalte auf die Spaltenüberschrift. Bei erneutem Klicken wird die Sortierreihenfolge umgekehrt (absteigend).
+* **Sortieren von Daten (nur Ansicht)**  - Klicken Sie zum Sortieren von Informationen in einer Spalte auf die Spaltenüberschrift. Bei erneutem Klicken wird die Sortierreihenfolge umgekehrt (absteigend).
 
-**Neuanordnen von Ansichten (nur Datenspalten)**  Um eine Spalte an eine andere Position im Datenraster zu verschieben, ziehen Sie die Überschrift.
+* **Neuanordnen von Ansichten (nur Datenspalten)**  - Um eine Spalte an eine andere Position im Datenraster zu verschieben, ziehen Sie die Überschrift.
 
 ### Exportieren und Drucken von Berichten {#exporting-and-printing-reports}
 
 Nachdem Sie einen Bericht generiert haben, können Sie die Daten für die Verwendung in Tabellen und anderen Anwendungen exportieren. Sie können die Berichte auch ausdrucken.
 
-**Exportieren von Berichtsdaten** In der Ansicht der Daten sortieren und ordnen Sie die Daten nach Bedarf an. Rufen Sie anschließend das Menü „Exportieren“ auf und wählen Sie ein Format: „Tabulatorgetrennt“, „Durch Komma getrennt“ oder „HTML-formatiert“. Die Daten werden in dem gewünschten Format in die Zwischenablage kopiert. Jetzt können Sie die Daten in eine Tabelle oder Anwendung einfügen.
+* **Exportieren von Berichtsdaten**  - In der Ansicht der Daten können Sie die Daten nach Bedarf sortieren und anordnen. Rufen Sie anschließend das Menü „Exportieren“ auf und wählen Sie ein Format: „Tabulatorgetrennt“, „Durch Komma getrennt“ oder „HTML-formatiert“. Die Daten werden in dem gewünschten Format in die Zwischenablage kopiert. Jetzt können Sie die Daten in eine Tabelle oder Anwendung einfügen.
 
-**Drucken eines** BerichtsKlicken Sie auf Drucken, wählen Sie im Dialogfeld Drucken die gewünschten Optionen und klicken Sie dann auf OK.
+* **Drucken eines Berichts** : Klicken Sie auf  **[!UICONTROL Drucken]**, wählen Sie die gewünschten Optionen im Dialogfeld &quot;Drucken&quot;aus und klicken Sie dann auf  **[!UICONTROL OK]**.
 
 ## Bildfehler {#image-errors}
 
@@ -227,21 +226,21 @@ Dynamic Media Classic-Administratoren können Bildfehlerberichte erstellen. Ein 
    * Klicken Sie auf eine Spaltenüberschrift, um die Fehler nach der jeweiligen Spaltenangabe zu sortieren. Standardmäßig sind die Fehler absteigend nach der Anzahl der Instanzen geordnet.
    * Bewegen Sie den Cursor über das Feld „Antwort“ eines Fehlers, um die jeweilige Fehlermeldung anzuzeigen.
    * Bewegen Sie den Cursor über das Feld „URL“ oder „Referrer“, um den Link zum Bild oder der Referrer-Website anzuzeigen.
-   * Klicken Sie auf „URL kopieren“, um den Link zum tatsächlichen Bild zu kopieren. Sie können diesen Link in ein Browserfenster kopieren, um das Bild aufzurufen und den Fehler zu prüfen.
-   * Klicken Sie auf die zum Feld „Referrer“ gehörige Schaltfläche „URL kopieren“, um den Link zur Referrer-Website zu kopieren.
+   * Klicken Sie auf **[!UICONTROL URL kopieren]**, um den Link zum tatsächlichen Bild zu kopieren. Sie können diesen Link in ein Browserfenster kopieren, um das Bild aufzurufen und den Fehler zu prüfen.
+   * Klicken Sie auf **[!UICONTROL Werber URL kopieren]**, um den Link zur Werber-Webseite zu kopieren.
 
 Die angezeigten Fehler betreffen das Unternehmen, bei dem Sie aktuell angemeldet sind. Jeder Fehler enthält die folgenden Informationen:
 
-**Bild** IDID für das verletzende Bild.
+* **Bild-ID**  - ID für das betreffende Bild.
 
-**** ZeitDer Zeitraum, in dem der Fehler zum ersten Mal gemeldet wurde, bis zum letzten Mal, in den letzten 24 Stunden, gemeldet wurde.
+* **Zeit** : Der Zeitraum, in dem der Fehler zum ersten Mal gemeldet wurde, bis zum letzten Mal, in den letzten 24 Stunden, gemeldet wurde.
 
-**Anzahl** der gemeldeten Fehler.
+* **Anzahl**  - Die Anzahl der im Bild gemeldeten Fehler.
 
-**** AntwortDie spezifische Fehlermeldung. Fehler haben IDs, die mit 4xx oder 5xx beginnen.
+* **Antwort** : Die spezifische Fehlermeldung. Fehler haben IDs, die mit 4xx oder 5xx beginnen.
 
-**** URLsListet die URL zum Bild in Scene7 auf.
+* **URLs** : Liste der URL zum Bild in Dynamic Media Classic.
 
-**** ReferrerGibt die URL der Website an, von der die ursprüngliche Anforderung stammt. Der Referrer kann jede Website sein, auf der ein Link zu dem Bild zu finden ist.
+* **Werber**  - Gibt die URL der Website an, von der die ursprüngliche Anforderung stammt. Der Referrer kann jede Website sein, auf der ein Link zu dem Bild zu finden ist.
 
 Für die Spalten „URL“ und „Referrer“ gibt es die Schaltfläche „URL kopieren“, um das Testen der URLs zu vereinfachen.
