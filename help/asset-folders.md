@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic, Asset Management
-role: Geschäftspraktiker
+role: Business Practitioner
+exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 54%
+source-wordcount: '442'
+ht-degree: 49%
 
 ---
-
 
 # Arbeiten mit Asset-Ordnern{#working-with-asset-folders}
 
@@ -28,26 +28,22 @@ Stellen Sie sicher, dass Sie eine Ordnerstruktur und -anordnung zum Speichern de
 
 In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie in der Asset-Bibliothek einen Ordner auswählen, wird der Ordnerinhalt im Durchsuchenbedienfeld angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
-* **Anzeigen von**
-UnterordnernWählen Sie das Symbol &quot;Ordner erweitern&quot;, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Anzeigen von Unterordnern** : Wählen Sie das Symbol &quot;Ordner erweitern&quot;, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Verschieben eines**
-Ordners: Sie können einen Ordner verschieben, indem Sie ihn ziehen und an seinem neuen Speicherort ablegen oder indem Sie &quot;Datei&quot;> &quot;Ordner verschieben&quot;wählen.
+* **Verschieben eines Ordners** : Sie können einen Ordner verschieben, indem Sie ihn ziehen und an seinem neuen Speicherort ablegen oder indem Sie &quot;Datei&quot;> &quot;Ordner verschieben&quot;wählen.
 
-* **Ausblenden von**
-OrdnernWählen Sie das Symbol zum Reduzieren von Ordnern aus, um Unterordner auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Ausblenden von Ordnern** : Klicken Sie auf das Symbol zum Minimieren von Ordnern, um Unterordner zu reduzieren. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Öffnen eines**
-OrdnersWählen Sie einen Ordner aus, um dessen Inhalt im Durchsuchenbedienfeld anzuzeigen.
+* **Öffnen eines Ordners** : Wählen Sie einen Ordner aus, um dessen Inhalt im Durchsuchenbedienfeld anzuzeigen.
 
 ***Tipp **: Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite auf das Steuerelement zum Erweitern/Reduzieren klicken. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.*
 
 ## Erstellen von Ordnern {#creating-folders}
 
-Führen Sie zum Erstellen eines Ordners die folgenden Schritte aus:
+Gehen Sie zum Erstellen von Ordnern wie folgt vor:
 
 1. Wählen Sie in der Asset-Bibliothek den Ordner aus, in dem Sie einen Unterordner erstellen möchten.
-1. Klicken Sie am oberen Rand der Ordnerliste auf „Ordner hinzufügen“ .
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen Ordner]**. Dieses Symbol befindet sich oben in der Liste des Ordners.
 1. Geben Sie in das Feld neben dem Ordnersymbol einen beschreibenden Namen für Ihren neuen Ordner bzw. Unterordner ein.
 
    >[!NOTE]
@@ -58,11 +54,9 @@ Führen Sie zum Erstellen eines Ordners die folgenden Schritte aus:
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen**
-Wählen Sie die Schaltfläche &quot;Ordner entfernen&quot;. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen**  - Klicken Sie auf &quot;Ordner entfernen&quot;. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
-* ****
-UmbenennenDoppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
+* **Umbenennen** : Klicken Sie mit der Dublette auf den Namen und geben Sie einen neuen Namen ein.
 
 >[!NOTE]
 >
