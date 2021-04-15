@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic, Asset Management
-role: Geschäftspraktiker
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 61%
+source-wordcount: '1465'
+ht-degree: 55%
 
 ---
-
 
 # Empfohlene Verfahren zur Optimierung der Bildqualität{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Siehe auch [Smart Imaging](https://experienceleague.adobe.com/docs/experience-ma
 
 * Das JPG- oder das PNG-Format ist die beste Wahl, um Bilder in akzeptabler Qualität und handlicher Größe und Dateigröße bereitzustellen.
 * Wenn in der URL kein Formatbefehl angegeben ist, wird für Dynamic Media Image Serving standardmäßig JPG für den Versand verwendet.
-* JPG-Dateien werden in einem Verhältnis von 10:1 komprimiert und produzieren so in der Regel kleinere Bilddateigrößen. PNG-Dateien werden mit einem Verhältnis von etwa 2:1 komprimiert, außer in einigen Fällen, z. B. wenn Bilder einen leeren Hintergrund enthalten. Dennoch lässt sich sagen, dass PNG-Dateien grundsätzlich größer sind als JPG-Dateien.
+* JPG-Dateien werden in einem Verhältnis von 10:1 komprimiert und produzieren so in der Regel kleinere Bilddateigrößen. PNG-Dateien werden mit einem Verhältnis von etwa 2:1 komprimiert, es sei denn, Bilder enthalten einen leeren Hintergrund. Dennoch lässt sich sagen, dass PNG-Dateien grundsätzlich größer sind als JPG-Dateien.
 * JPG verwendet eine verlustbehaftete Komprimierung. Dies bedeutet, dass Bildelemente (Pixel) bei der Komprimierung verworfen werden. Im Gegensatz dazu verwendet PNG eine verlustfreie Komprimierung.
 * JPG komprimiert Fotografien häufig mit einer höheren Genauigkeit als künstliche Bilder mit scharfen Kanten und hohem Kontrast.
 * Wenn die Bilder transparente Anteile enthalten, sollte das PNG-Format verwendet werden, da JPG keine Transparenz unterstützt.
@@ -52,7 +52,7 @@ Whitepaper zu bewährten Verfahren [Scharfzeichnen von Bildern in Adobe Dynamic 
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Mit Dynamic Media Classic können Sie Bilder beim Erfassen, beim Versand oder beidem scharfzeichnen. In den meisten Fällen sollten Sie Bilder jedoch nur mit einer der beiden Methoden scharfzeichnen, nicht mit beiden. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
+Mit Dynamic Media Classic können Sie Bilder beim Erfassen, beim Versand oder beidem scharfzeichnen. Normalerweise werden Bilder jedoch nur mit der einen oder anderen Methode scharfgezeichnet, nicht mit beidem. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
 
 Es gibt zwei Methoden zum Scharfzeichnen:
 
@@ -100,7 +100,7 @@ Unsere Empfehlung für die JPG-Komprimierung ist der Wert `&qlt=85,0`.
 
 ## Empfohlene Verfahren für die JPEG-Größenanpassung (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-`jpegSize` ist ein sehr nützlicher Parameter, wenn Sie sicherstellen möchten, dass ein Bild für die Bereitstellung für Geräte mit einem begrenzten Speicherplatz eine bestimmte Größe nicht überschreitet.
+Der Parameter `jpegSize` ist hilfreich, wenn Sie sicherstellen möchten, dass ein Versand auf Geräten mit begrenztem Speicherplatz eine bestimmte Bildgröße nicht überschreitet.
 
 * Dieser Parameter wird in Kilobyte ( `jpegSize=<size_in_kilobytes>`) eingestellt. Er legt die maximal zulässige Größe für Bildbereitstellung fest.
 * `&jpegSize=` interagiert mit dem JPG-Komprimierungsparameter  `&qlt=`. Wenn die JPG-Antwort mit dem angegebenen JPG-Komprimierungsparameter ( `&qlt=`) den Wert `jpegSize` nicht überschreitet, wird das Bild wie definiert mit `&qlt=` zurückgegeben. Andernfalls wird `&qlt=` allmählich verringert, bis das Bild in die maximal zulässige Größe passt oder bis das System feststellt, dass es nicht passen kann und einen Fehler zurückgibt.
@@ -119,8 +119,8 @@ Wenn eine weitere Optimierung für das Bild erforderlich ist, passen die Paramet
 
 Wenn die gewünschten Ergebnisse für das Scharfzeichnen noch nicht erreicht wurden, erhöhen Sie den Radius in Dezimalschritten. Beginnen Sie für jeden Dezimalschnitt wieder mit einem Betrag von 1,75 und erhöhen Sie den Wert schrittweise bis maximal 4. Wiederholen Sie diesen Vorgang, bis das gewünschte Ergebnis erreicht ist. Obwohl die oben aufgeführten Werte einen von Kreativstudios erprobten Ansatz bieten, können Sie auch mit anderen Werten beginnen und andere Strategien verfolgen. Die Zufriedenheit mit den erzielten Ergebnisse ist immer subjektiv, aus diesem Grund ist strukturiertes Experimentieren der Schlüssel zum Erfolg.
 
-Wenn Sie experimentieren, können Ihnen die folgenden allgemeinen Empfehlungen helfen, den Vorgang zu optimieren:
+Beim Experimentieren sind die folgenden allgemeinen Vorschläge hilfreich, um Ihren Workflow zu optimieren:
 
-* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt auf einer Dynamic Media Classic-URL oder mithilfe der Bildanpassungsfunktion von Dynamic Media Classic, die Vorschauen zur Anpassung in Echtzeit bietet.
-* Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. Eine Bildvorgabe ist im Grunde URL-Befehlsmakros mit benutzerdefinierten Vorgabennamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabename in einem URL-Pfad ruft diese Voreinstellungen auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
-* Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zum Einstellen der Bildqualität, z. B. das Anwenden von Scharfzeichnen von Bildern bei der Erfassung. Für solche Fälle, bei denen dies eine Option zur Feineinstellung und Optimierung der Darstellungsergebnisse ist, bieten die Adobe Professional Services weitere spezielle Tipps und empfohlene Verfahren an.
+* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt über eine Dynamic Media Classic-URL oder mithilfe der Bildanpassungsfunktion von Dynamic Media Classic. Letztere bieten Vorschauen in Echtzeit für Anpassungsvorgänge.
+* Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. Eine Bildvorgabe ist im Grunde URL-Befehlsmakros mit benutzerdefinierten Vorgabennamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabenname in einem URL-Pfad ruft diese Vorgaben auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
+* Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zum Einstellen der Bildqualität, z. B. zum Anwenden der Scharfzeichnung bei der Erfassung. Für erweiterte Anwendungsfälle, bei denen eine weitere Abstimmung und Optimierung der gerenderten Ergebnisse eine Option ist, kann Adobe Professional Services Ihnen bei der Erstellung benutzerdefinierter Einblicke und Best Practices helfen.
