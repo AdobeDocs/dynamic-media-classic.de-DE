@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 0%
+source-wordcount: '1845'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dynamic Media Classic-Benutzer haben jetzt Zugriff auf eine neue Desktop-App, die nicht mehr auf Adobe Flash-Technologie im Browser basiert.
 
-Diese neue App ist jetzt für Windows und macOS verfügbar.
+Diese neue App ist jetzt für Windows® und macOS verfügbar.
 
 >[!IMPORTANT]
 >
@@ -33,41 +33,57 @@ Siehe Häufig gestellte Fragen zum neuen Dynamic Media Classic-Anmeldeerlebnis.]
 Die Desktop-App der Adobe Dynamic Media Classic ist mit den folgenden Betriebssystemen kompatibel:
 
 * macOS 10.10 oder neuer.
-* Windows 7 oder neuer.
+* Windows® 7 oder neuer.
+
+>[!NOTE]
+>
+>Die Aktualisierungsbenachrichtigung innerhalb der Dynamic Media Classic-Desktopanwendung wird für *Nebenversionen* nicht generiert. Kunden, die von Fehlerbehebungen in einer Nebenversion profitieren, können ein Upgrade durchführen.
+
+## Fehlerbehebungen in der Nebenversion (20.21.2) {#minor-release}
+
+* Bekannte Einschränkung in 20.21.1 des Server-Dropdown-Menüs leer.
+* Unter **[!UICONTROL Upload-Auftragsoptionen]** ist der Standardwert für die Ebenenbenennung unter **[!UICONTROL Photoshop-Optionen]** jetzt **[!UICONTROL Photoshop und der Ebenenname]**. Die Ebenen der PSD-Datei werden als getrennte Bilder hochgeladen.
+   * Die Bilder wurden in der früheren Standardeinstellung von **[!UICONTROL Name der Ebene]** nach dem Namen der Ebene oder der Nummer der Ebene in der PSD-Datei benannt. Die Nummer der Ebene wurde verwendet, wenn die Ebenennamen in der PSD-Datei standardmäßige Photoshop-Ebenennamen waren.
+   * Die neue Standardeinstellung von **[!UICONTROL Photoshop und Ebenenname]** benennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Nummern der Ebenen werden verwendet, wenn es sich bei den Namen der Ebenen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt.
+   * Da die Ebenenbilder in Dynamic Media Classic jetzt eindeutige Namen haben, werden keine Aktualisierungen der vorhandenen PSD- oder Vorlagendateien vorgenommen (die in den ursprünglichen PSD-Dateien die Namen freigegebener Ebenen enthalten).
+* Fehlerhafte Miniaturansichten von Assets.
 
 ## Fehlerbehebungen in der neuesten Version (20.21.1) {#latest-fixes-desktop-app}
 
 * Probleme beim Anmelden aufgrund eines Timeouts, das zu folgender Meldung führt: *Dieser Benutzer kann ohne Berechtigung der Gruppe oder Gruppen zugewiesen werden. Wenden Sie sich an Ihren Administrator.*
 * Viewer-Vorgaben werden bei jedem fehlerhaften Kennwortversuch dupliziert.
-* Die Desktop-Anwendung reagiert nicht mehr, da sich viele Assets im Stammordner befinden. (Behoben unter Windows; wie gewünscht unter macOS.)
+* Die Desktop-Anwendung reagiert nicht mehr, da sich viele Assets im Stammordner befinden. (Behoben unter Windows®; wie gewünscht unter macOS.)
 
 ## Fehlerbehebungen in der vorherigen Version (20.20.2) {#previous-version-fixes-desktop-app}
 
-* Die Anzahl der Dateien, die Sie über die Benutzeroberfläche der Desktop-App hochladen können, ist für MacOS und Windows nicht beschränkt.
+* Die Anzahl der Dateien, die Sie über die Benutzeroberfläche der Desktop-App hochladen können, ist für MacOS und Windows® nicht beschränkt.
 * Sie müssen sich nicht bei der Desktop-App abmelden, um zwischen Firmen zu wechseln.
-* Strg+V zum Einfügen funktioniert jetzt unter Windows.
+* Strg+V zum Einfügen funktioniert jetzt unter Windows®.
 * Wenn in Zukunft eine neue Version der Desktop-App veröffentlicht wird, werden die Benutzer in der Desktop-App selbst benachrichtigt.
 
-## Laden Sie die neueste Dynamic Media Classic Desktop-App der Adobe unter MacOS oder Windows {#installation-dmc-app} herunter und installieren Sie sie.
+## Laden Sie die neueste Dynamic Media Classic Desktop-App der Adobe unter MacOS oder Windows® {#installation-dmc-app} herunter und installieren Sie sie.
 
 Verwandte Themen:
 
 * [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac herunter und installieren Sie sie unbeaufsichtigt](#install-silent-mac-dmc-app)
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows herunter und installieren Sie sie unbeaufsichtigt](#install-silent-windows-dmc-app)
+* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows® herunter und installieren Sie sie unbeaufsichtigt](#install-silent-windows-dmc-app)
 
 1. Deinstallieren Sie alle älteren Dynamic Media Classic Desktop-App-Versionen auf Ihrem System.
 
 1. Laden Sie das neueste Installationsprogramm für die Dynamic Media Classic-Desktop-App der Adobe herunter.
 
-   * Die neueste Version (20.21.1) ist unter folgender Adresse verfügbar:
+   * Die neueste Version (20.21.2) ist unter folgender Adresse verfügbar:
 
-      * [macOS (.DMG) - Herunterladen.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows (.EXE) - Herunterladen.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * Die vorherige Version (20.20.2) ist unter folgender Adresse verfügbar:
+      * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+      * [Windows® (.EXE) - Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * Die vorherige Version (20.21.1) ist unter folgender Adresse verfügbar:
 
-      * [macOS (.DMG) - Herunterladen.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows (.EXE) - Herunterladen.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows® (.EXE) - Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
+
+<!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. Führen Sie je nach heruntergeladenem Installationsprogramm einen der folgenden Schritte aus:
@@ -103,8 +119,8 @@ Verwandte Themen:
 
 Verwandte Themen:
 
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac oder Windows herunter und installieren Sie sie](#installation-dmc-app)
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows herunter und installieren Sie sie unbeaufsichtigt](#install-silent-windows-dmc-app)
+* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac oder Windows® herunter und installieren Sie sie](#installation-dmc-app)
+* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows® herunter und installieren Sie sie unbeaufsichtigt](#install-silent-windows-dmc-app)
 
 So laden Sie die neueste Version der Dynamic Media Classic-Desktop-App der Adobe unter macOS herunter und installieren sie:**
 
@@ -112,11 +128,11 @@ So laden Sie die neueste Version der Dynamic Media Classic-Desktop-App der Adobe
 
 1. Laden Sie das neueste Installationsprogramm für die Dynamic Media Classic-Desktop-App der Adobe für macOS herunter.
 
-   * [macOS (.DMG) - Herunterladen.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
 1. Laden Sie das heruntergeladene Disk Image (.DMG) mithilfe des folgenden Befehls an einen Speicherort für den Mountpoint herunter:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
 1. Kopieren Sie die APP-Datei mit dem folgenden Befehl in **[!UICONTROL Anwendungen]**:
 
@@ -137,36 +153,36 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
-## Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows herunter und installieren Sie sie {#install-silent-windows-dmc-app}.**
+## Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows® {#install-silent-windows-dmc-app} herunter und installieren Sie sie.**
 
-Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Installation vorgesehen. Das Installationsprogramm für die Dynamic Media Classic-Desktop-App ist jedoch ein InstallScript-MSI-Installationsprogramm, das mit InstallShield erstellt wurde. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine unbeaufsichtigte Installation verwendet, wie unter [Ausführen von Installationen im Hintergrund beschrieben.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Installation vorgesehen. Das Installationsprogramm für die Dynamic Media Classic-Desktop-App ist jedoch ein InstallScript-MSI-Installationsprogramm, das mit InstallShield erstellt wurde. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine unbeaufsichtigte Installation verwendet, wie unter [Ausführen von Installationen im Hintergrund beschrieben.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Verwandte Themen:
 
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac oder Windows herunter und installieren Sie sie](#installation-dmc-app)
+* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac oder Windows® herunter und installieren Sie sie](#installation-dmc-app)
 * [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter macOS herunter und installieren Sie sie unbeaufsichtigt](#install-silent-mac-dmc-app)
 
-So laden Sie die neueste Version der Dynamic Media Classic Desktop-App unter Windows herunter und installieren Sie diese unter:**
+So laden Sie die neueste Version der Dynamic Media Classic Desktop-App unter Windows® herunter und installieren Sie diese unter:**
 
 1. Deinstallieren Sie alle älteren Dynamic Media Classic Desktop-App-Versionen auf Ihrem System.
 
 1. Laden Sie das neueste Installationsprogramm für die Dynamic Media Classic-Desktop-App der Adobe herunter.
 
-   * [Windows (.EXE) - Herunterladen.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows® (.EXE) - Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
 1. Führen Sie das Installationsprogramm mit dem folgenden Befehl im Datensatzmodus aus:
 
-   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
 1. Führen Sie im Fenster des GUI-Installationsprogramms die Installationsschritte aus, damit Interaktionen/Eingaben, wie z. B. der Installationsort, in der Datei `Setup.iss` aufgezeichnet werden.
 
-1. Kopieren Sie die erstellte Datei `Setup.iss` und `adobe-dynamic-media-classic-20.21.1.exe` auf einen anderen Computer.
+1. Kopieren Sie die erstellte Datei `Setup.iss` und `adobe-dynamic-media-classic-20.21.2.exe` auf einen anderen Computer.
 
 1. Führen Sie den folgenden Befehl für eine unbeaufsichtigte Installation aus:
 
-   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
 
-   Details zu Befehlszeilenparametern finden Sie unter [Setup.exe und Update.exe Befehlszeilenparameter.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Details zu Befehlszeilenparametern finden Sie unter [Setup.exe und Update.exe Befehlszeilenparameter.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. Wenn Sie die Anwendung öffnen, wird die neue Adobe &quot;Dynamic Media Classic-Anmeldung&quot;angezeigt:
 
@@ -202,7 +218,7 @@ Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den
 1. Navigieren Sie je nach Betriebssystem zu den folgenden Schritten:
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Bekannte Einschränkung in Dynamic Media Classic 20.21.1
 
@@ -210,9 +226,10 @@ Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den
 
 ## Bekannte Einschränkungen in Dynamic Media Classic 20.20.1 (behoben in 20.20.2)
 
-**_Gilt nur für Windows - Gibt es eine Beschränkung für die Anzahl der Dateien, die über die Benutzeroberfläche der Desktop-App hochgeladen werden können?_**<br>Ja. Über die Benutzeroberfläche der Desktop-App können maximal 150 Dateien gleichzeitig hochgeladen werden.
+**_Gilt nur für Windows® - Gibt es eine Beschränkung für die Anzahl der Dateien, die über die Benutzeroberfläche der Desktop-App hochgeladen werden können?_**<br>Ja. Über die Benutzeroberfläche der Desktop-App können maximal 150 Dateien gleichzeitig hochgeladen werden.
 
-**_Gilt für Windows und macOS - Wie kann ich zwischen Firmen wechseln?_**<br>Gehen Sie wie folgt vor, um zwischen Firmen zu wechseln:
+**_Gilt für Windows® und macOS - Wie kann ich zwischen Firmen wechseln?_**<br>Gehen Sie wie folgt vor, um zwischen Firmen zu wechseln:
+
 * Wählen Sie in der Dynamic Media Classic-App die neue Firma aus der Dropdown-Liste &quot;Firma&quot;aus.
 * Wenn das Popupfenster angezeigt wird, tippen Sie auf **[!UICONTROL OK]**, um sich abzumelden und die App zu schließen.
 
