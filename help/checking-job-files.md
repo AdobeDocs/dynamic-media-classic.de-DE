@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic, Asset Management
-role: Geschäftspraktiker
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # Überprüfen von Auftragsdateien{#checking-job-files}
 
@@ -121,7 +121,7 @@ Diese Tabelle enthält Informationen zu den Zeitabschnitten, den jeweils zuläss
 | Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | `, - * /` |
 | Tag des Monats | 1-31 | Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines dieser Felder muss ein Platzhalterzeichen `?` verwenden. | `, - * / ? L C` |
 | Monat | 1-12 oder Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Sep, Okt, Nov, Dec | Bei den Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `, - * /` |
-| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei den Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines der beiden Felder muss ein Platzhalterzeichen ? enthalten. | `, - * / ? L C #` |
+| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei den Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines dieser Felder muss ein Platzhalterzeichen `?` verwenden. | `, - * / ? L C #` |
 | Jahr (optional) | Leer oder 1970-2099 |  | `, - * /` |
 
 
