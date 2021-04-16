@@ -8,25 +8,25 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: Data Engineer, Administrator, Business Practitioner
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 50%
+source-wordcount: '1196'
+ht-degree: 46%
 
 ---
-
 
 # Konfigurieren von Adobe Analytics-Berichten{#configuring-adobe-analytics-reports}
 
 Um in Adobe Analytics festzulegen, welche Informationen in Adobe Analytics-Berichten enthalten sein sollen, rufen Sie den Anzeigebereich „Adobe Analytics-Konfiguration“ auf. Nach dem Konfigurieren von Berichten wird in diesem Anzeigebereich für jedes Viewer-Ereignis, für das Informationen benötigt werden, eine entsprechende Adobe Analytics-Variable und eine Dynamic Media Classic-Variable Liste. Diese Viewer-Ereignis-Adobe Analytics-Variablenkombinationen Dynamic Media Classic bestimmen, welche Informationen gemeldet werden.
 
-Neben der Möglichkeit, Viewer-Ereignisse mit Variablen zu verknüpfen, umfasst der Anzeigebereich „Adobe Analytics-Konfiguration“ auch Funktionen zum Aktivieren, Bearbeiten und Löschen von Viewer-Ereignissen.
+Neben dem Verknüpfen von Viewer-Ereignissen mit Variablen können Sie im Anzeigebereich &quot;Adobe Analytics-Konfiguration&quot;auch Angebote zum Aktivieren, Bearbeiten und Löschen von Viewer-Ereignissen verwenden.
 
 >[!NOTE]
 >
->Wenn Sie die Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, stellen Sie sicher, dass Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen erneut speichern und dann erneut veröffentlichen.
+>Wenn Sie die Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, stellen Sie sicher, dass Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen speichern und dann erneut veröffentlichen.
 
 Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
@@ -38,7 +38,7 @@ Verwenden Sie den Anzeigebereich &quot;Adobe Analytics-Konfiguration&quot;, um V
 
 **So weisen Sie Dynamic Media Classic-Viewer-Ereignissen und -Variablen Adobe Analytics-Variablen zu**
 
-1. Nachdem Sie sich von Dynamic Media Classic aus bei Adobe Analytics angemeldet und eine Report Suite ausgewählt haben, aktivieren Sie auf der Seite &quot;Adobe Analytics-Konfiguration&quot;in der Tabellenspalte ganz rechts ein Viewer-Ereignis, indem Sie auf **Aktivieren** klicken.
+1. Nachdem Sie sich von Dynamic Media Classic aus bei Adobe Analytics angemeldet und eine Report Suite ausgewählt haben, aktivieren Sie auf der Seite &quot;Adobe Analytics-Konfiguration&quot;in der rechten Tabellenspalte ein Viewer-Ereignis, indem Sie auf **[!UICONTROL Aktivieren]** klicken.
 1. Zeigen Sie in der Spalte „Variablen“ die Variablenpaarauswahl an, indem Sie für das gewünschte Viewer-Ereignis auf die Pfeilschaltfläche klicken.
 
    Siehe [Viewer-Ereignisse](configuring-analytics-reports.md#viewer_events).
@@ -60,7 +60,7 @@ Verwenden Sie den Anzeigebereich &quot;Adobe Analytics-Konfiguration&quot;, um V
 
 ### Viewer-Ereignisse {#viewer-events}
 
-Viewer-Ereignis beschreiben Aktionen, die Benutzer mit Dynamic Media Classic-Viewern ausführen. Wenn ein Benutzer eine bestimmte Aktion startet, z. B. wenn er auf eine Miniatur klickt oder ein Video startet oder anhält, „überträgt“ der Viewer ein Ereignis sowie die mit diesem Ereignis zusammenhängenden Daten an die Webseite.
+Viewer-Ereignis beschreiben Aktionen, die Benutzer mit Dynamic Media Classic-Viewern ausführen. Wenn ein Benutzer eine bestimmte Aktion auslöst, z. B. durch Klicken auf eine Miniaturansicht oder Starten oder Beenden eines Videos, sendet der Viewer ein Ereignis zusammen mit den mit diesem Ereignis verknüpften Daten an die Webseite.
 
 In der folgenden Tabelle werden Viewer-Ereignisse beschrieben, die Sie dem Anzeigebereich „Adobe Analytics-Konfiguration“ hinzufügen können.
 
