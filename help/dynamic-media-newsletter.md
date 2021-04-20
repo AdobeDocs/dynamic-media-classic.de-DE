@@ -3,7 +3,7 @@ description: 'Der Dynamic Media Newsletter von Experience League ist ein monatli
 keywords: dynamische Medien;Newsletter;Produktaktualisierungen;Tipps und Tricks;Ereignisse;Kundenerfolg;Blog;Blogs;Videos;Videos;Funktionen;Funktionen
 title: Dynamic Media-Newsletter
 feature: Dynamic Media Classic
-role: Administrator, Geschäftspraktiker
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

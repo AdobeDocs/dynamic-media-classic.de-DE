@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 solution: Dynamic Media Classic
-type: Dokumentation
+type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.de-DE
 translation-type: tm+mt

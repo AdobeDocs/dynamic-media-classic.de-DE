@@ -4,7 +4,7 @@ description: Informationen zum Hinzufügen von Untertiteln zu Videos
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic, Viewer, Video
+feature: Dynamic Media Classic,Viewers,Video
 role: Business Practitioner
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 translation-type: tm+mt
