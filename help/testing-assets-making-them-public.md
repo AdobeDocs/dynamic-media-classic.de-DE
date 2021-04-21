@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # Testen von Assets vor dem Veröffentlichen {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ Da der Speicherort der ursprünglichen Anforderung bestätigt werden muss, wird 
 
 Unveröffentlichte Assets sind sofort über den Secure Testing-Dienst verfügbar und müssen nicht erst veröffentlicht werden. Dies ermöglicht es Ihnen, eine Vorschau auszuführen, bevor Assets auf dem für die Öffentlichkeit zugänglichen Image-Server veröffentlicht werden.
 
-***Hinweis **: Secure Testing-Dienste nutzen den Katalogserver, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihre Firma für die Veröffentlichung auf Secure Testing konfiguriert ist, beachten Sie daher, dass hochgeladene Assets in Dynamic Media Classic sofort in Secure Testing-Diensten verfügbar sind. Dies gilt unabhängig davon, ob die Assets für das Hochladen oder Veröffentlichen markiert wurden.*
+>[!NOTE]
+>
+>Secure Testing-Dienste erweitern den Katalogserver, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihre Firma für die Veröffentlichung auf Secure Testing konfiguriert ist, beachten Sie daher, dass hochgeladene Assets in Dynamic Media Classic sofort in Secure Testing-Diensten verfügbar sind. Dies gilt unabhängig davon, ob die Assets für das Hochladen oder Veröffentlichen markiert wurden.
 
 Secure Testing-Dienste unterstützen derzeit die folgenden Asset-Typen und -Funktionen:
 
@@ -145,4 +147,3 @@ Führen Sie die folgenden Tests aus:
    Greifen Sie auf Ihr Netzwerk von außerhalb zu (z. B. von Ihrem Heimcomputer oder über eine 3G-Verbindung). Vergewissern Sie sich so, dass die öffentliche Version der Website alle veröffentlichten Assets, jedoch keine unveröffentlichten Inhalte anzeigt.
 
    Die Staging-Version darf kein Asset anzeigen, weil Sie mit einer nicht zugelassenen IP-Adresse auf den Secure Testing-Dienst zugreifen.
-
