@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,Image Presets
+feature: Dynamic Media Classic, Bildvorgaben
 role: Business Practitioner
+exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 64%
 
 ---
-
 
 # Einstellen von Bildvorgaben{#setting-up-image-presets}
 
@@ -30,7 +30,7 @@ Bei Bildern, deren Größe bei der dynamischen Bereitstellung von einem Server v
 
 Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu erstellen. Sie können neue Bildvorgaben oder Beginn mit einer standardmäßigen Bildvorgabe erstellen, die Dynamic Media Classic bereitstellt, bearbeiten und mit einem neuen Namen speichern.
 
-**So erstellen Sie ein Bildvorgabe**
+**So erstellen Sie ein Bildvorgabe:**
 
 1. Klicken Sie auf **„Einstellungen“** > **„Bildvorgaben“**.
 
@@ -65,7 +65,7 @@ für Unschärfemaske (USM) Geben Sie die folgenden Einstellungen ein:
    |--- |--- |--- |--- |--- |
    | Cross-Selling (besonders kleine Miniaturansicht) | 75 x 75 | 1,5 | 0,8 | 5 |
    | Miniaturansicht | 150 x 150 | 1,1 | 1 | 5 |
-   | Hauptansicht | 350 x 350 | 3 | 1 | 6 |
+   | Hauptansicht | 350 x 350 | 1 | 1 | 6 |
    | Vergrößerung | 500 x 500 | 1,2 | 1,2 | 5 |
 
 1. Klicken Sie auf „**Speichern**“.
