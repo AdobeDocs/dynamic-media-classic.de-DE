@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: a5a6596213e273d806fbc012e2c63bf3458127b0
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1402'
 ht-degree: 77%
 
 ---
@@ -109,23 +109,26 @@ Führen Sie die folgenden Schritte aus, um Assets durch Filtern ihrer Metadatenw
 
 1. Klicken Sie in einem Bedienfeld auf die Feldschaltfläche  und gehen Sie folgendermaßen vor, um das Filtermenü anzuzeigen und den Filtervorgang zu erstellen:
 
-   **Auswählen eines Metadatenfelds** Wählen Sie den Namen des Felds im Filtermenü aus.
+   * **Auswählen eines Metadatenfelds** : Wählen Sie im Filtermenü den Namen des Felds aus.
 
-   ***Hinweis **: Im Filtermenü werden nur die Namen der Metadatenfelder in der standardmäßigen Metadaten-Ansicht angezeigt.*
+      >[!NOTE]
+      >
+      >Nur die Namen von Metadatenfeldern der standardmäßigen Metadaten-Ansicht werden im Filtermenü angezeigt. 
 
-   Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
+      Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
 
-   **Hinzufügen eines Metadatenfelds** Wählen Sie Hinzufügen Bedienfeld aus. Wenn das Bedienfeld im Filterfenster angezeigt wird, klicken Sie auf die Feldschaltfläche und wählen Sie den Namen eines Metadatenfelds aus dem Filtermenü aus.
+   * **Hinzufügen eines Metadatenfelds** : Wählen Sie Hinzufügen Bedienfeld aus. Wenn das Bedienfeld im Filterfenster angezeigt wird, klicken Sie auf die Feldschaltfläche und wählen Sie den Namen eines Metadatenfelds aus dem Filtermenü aus.
 
-   **Entfernen eines Metadatenfelds** Wählen Sie im Filtermenü die Option &quot;Bedienfeld entfernen&quot;.
+   * **Entfernen eines Metadatenfelds** : Wählen Sie im Filtermenü die Option &quot;Dieses  **[!UICONTROL Bedienfeld]** entfernen&quot;.
 
    Wenn Sie ein Metadatenfeld auswählen, werden folgende Informationen im Bedienfeld aufgelistet:
 
    * alle in das Feld eingegebenen Metadatenwerte.
    * für jeden Metadatenwert die Anzahl der Assets mit diesem Wert.
 
+
 1. Wiederholen Sie Schritt 2 so oft wie nötig, um alle Metadatenfelder in Bedienfeldern anzuzeigen, die Sie für den Filtervorgang verwenden möchten.
-1. Wählen Sie in jedem Bedienfeld einen Metadatenwert aus, nach dem gefiltert werden soll. Sie können in jedem Bedienfeld nur einen Metadatenwert auswählen.
+1. Wählen Sie in jedem Bedienfeld einen Metadatenwert aus, nach dem gefiltert werden soll. Sie können nicht mehr als einen Metadatenwert in jedem Bedienfeld auswählen.
 
    Assets, die über alle ausgewählten Werte verfügen, werden im Durchsuchenbedienfeld angezeigt.
 
@@ -139,13 +142,13 @@ Führen Sie die folgenden Schritte aus, um Assets durch Filtern ihrer Metadatenw
 
 Befolgen Sie diese Anweisungen auf der Registerkarte „Filter“, um Filtervorgänge zu speichern, zu wiederholen und zu löschen:
 
-**Speichern eines Filtervorgangs** Klicken Sie auf die Schaltfläche &quot;Vorgabe auswählen&quot;, wählen Sie &quot;Aktuelle Auswahl als neue Vorgaben speichern&quot;und geben Sie im Dialogfeld &quot;Speichern&quot;einen Namen ein.
+* **Speichern eines Filtervorgangs** : Klicken Sie auf &quot;Vorgabe  **[!UICONTROL auswählen]**&quot;, wählen Sie &quot;Aktuelle Auswahl als neue Vorgaben  **[!UICONTROL speichern]**&quot;und geben Sie im Dialogfeld &quot;Speichern&quot;einen Namen ein.
 
-**Wiederholen eines Filtervorgangs** Klicken Sie auf die Schaltfläche &quot;Vorgabe auswählen&quot;und wählen Sie im Menü den Namen eines Filtervorgangs aus. Im Menü sind von Ihnen gespeicherte Filtervorgänge aufgelistet.
+* **Wiederholen eines Filtervorgangs** : Klicken Sie auf  **[!UICONTROL &quot;]** Vorgabe auswählen&quot;und wählen Sie im Menü den Namen eines Filtervorgangs aus. Im Menü sind von Ihnen gespeicherte Filtervorgänge aufgelistet.
 
-**Löschen eines Filtervorgangs aus dem** Menü &quot;Vorgabe auswählen&quot;Ausführen des Filtervorgangs. Klicken Sie dann auf die Schaltfläche „Vorgabe auswählen“ und wählen Sie im Menü die Option „Vorgabe löschen“.
+* **Löschen eines Filtervorgangs im Menü**  &quot;Vorgabe auswählen&quot;- Führen Sie den Filtervorgang aus. Klicken Sie dann auf **[!UICONTROL Vorgabe]** auswählen und wählen Sie im Menü die Option &quot;Vorgabe löschen&quot;.
 
-## Verwenden des Metadatenservers  {#using-the-metadata-server}
+## Verwenden des Metadatenservers {#using-the-metadata-server}
 
 Beim Metadatenserver handelt es sich um eine öffentliche API, die Sie verwenden können, um Assets anhand von Metadaten mithilfe von HTTP-Anfragen zu suchen.
 
@@ -153,15 +156,15 @@ Klicken Sie zum Konfigurieren des Metadatenservers auf „Einstellungen“ > �
 
 Das Fenster „Veröffentlichung zum Metadatenserver“ wird geöffnet. In diesem Fenster können Sie folgende Optionen festlegen:
 
-**Sofortiges** VeröffentlichenDient zum automatischen Senden von Änderungen an Metadaten, einschließlich neuer Assets, Suchbegriffsänderungen usw.
+* **Sofortige Veröffentlichung** : Dient zum automatischen Senden von Änderungen an Metadaten, einschließlich neuer Assets, Suchbegriffänderungen usw.
 
-**XMP** PacketVeröffentlicht das XMP Paket. Dieses Paket wird nicht für die Suche verwendet, stellt jedoch die aktuellsten XMP-Daten bereit.
+* **XMP-Paket** : Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, stellt jedoch die aktuellsten XMP-Daten bereit.
 
-**** SuchbegriffeVeröffentlicht Ihre Suchbegriffe auf dem Metadatenserver zur Verwendung bei Suchvorgängen.
+* **Suchbegriffe** : Veröffentlicht Ihre Suchbegriffe zur Verwendung bei Suchvorgängen auf dem Metadatenserver.
 
-**Veröffentlichungsfelder** für MetadatenserverWählen Sie die Felder aus, die in die Metadaten einbezogen werden sollen. So können Sie festlegen, welche Informationen zu Ihren Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
+* **Veröffentlichungsfelder**  des Metadatenservers: Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. So können Sie festlegen, welche Informationen zu Ihren Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
 
-Klicken Sie auf **Jetzt veröffentlichen**, um den Auftrag Beginn. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
+Klicken Sie auf **[!UICONTROL Jetzt veröffentlichen]**, um den Auftrag Beginn. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
 
 >[!MORELIKETHIS]
 >
