@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic, Viewer, Video
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
-ht-degree: 81%
+source-wordcount: '3942'
+ht-degree: 82%
 
 ---
-
 
 # Hochladen und Kodieren von Video{#uploading-and-encoding-videos}
 
@@ -248,9 +248,9 @@ Ein Beispiel: Angenommen das Quellvideo hat die Maße 1920 x 1080. In der folgen
 
 | Videotyp | Breite x Höhe | Breitenverhältnis | Höhenverhältnis |
 |--- |--- |--- |--- |
-| Quelle | 1920 x 1080 | 1 | 3 |
+| Quelle | 1920 x 1080 | 1 | 1 |
 | Kodiert | 960 x 540 | 2 | 2 |
-| Kodiert | 640 x 360 | 3 | 3 |
+| Kodiert | 640 x 360 | 3 | 1 |
 | Kodiert | 480 x 270 | 4 | 4 |
 
 ### Kodiertes Videodateiformat  {#encoded-video-file-format}
@@ -313,22 +313,24 @@ Sie können auch basierend auf einem Wiedergabegerät filtern, um die Liste auf 
 
 Aktivierte Videovorgaben werden im Dialogfeld „Upload-Auftragseinstellungen“ angezeigt. Dieses Dialogfeld wird angezeigt, wenn ein Benutzer Videodateien während des Upload-Prozesses hochlädt. Sie können in einer Liste oder aktivierten Kodierungsvorgaben wählen.
 
-**So aktivieren oder deaktivieren Sie Videokodierungsvorgaben**
+**So aktivieren oder deaktivieren Sie Videokodierungsvorgaben:**
 
-1. Klicken Sie in Dynamic Media Classic auf **Setup** > **Anwendungseinstellungen** > **Video-Vorgaben**.
+1. Klicken Sie in Dynamic Media Classic auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **Adaptive Videovorgaben**.
-   * Klicken Sie auf **Einzelne Kodierungsvorgaben**.
+   * Klicken Sie auf **[!UICONTROL Adaptive Videovorgaben]**.
+   * Klicken Sie auf **[!UICONTROL Einzelne Kodierungsvorgaben]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Zum Aktivieren einer Videovorgabe aktivieren Sie auf der Seite der Vorgaben unter der Spalte „Aktiv“ das Kontrollkästchen neben einem Vorgabenamen.
    * Zum Deaktivieren einer Videovorgabe deaktivieren Sie das Kontrollkästchen dem Videovorgabenamen, den Sie deaktivieren möchten.
 
-      ***note**: Inaktive Video-Vorgaben werden nicht im Dialogfeld &quot;Upload-Auftragsoptionen&quot;angezeigt. *
+      >[!NOTE]
+      >
+      >Inaktive Videovorgaben werden im Dialogfeld „Upload-Auftragseinstellungen“ nicht angezeigt.
 
-1. Klicken Sie in der rechten unteren Ecke der Seite auf **Schließen**.
+1. Klicken Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Schließen]**.
 
 ### Hinzufügen oder Bearbeiten einer Videokodierungsvorgabe  {#adding-or-editing-a-video-encoding-preset}
 
