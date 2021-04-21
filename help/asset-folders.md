@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,9 +36,11 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 * **Öffnen eines Ordners** : Wählen Sie einen Ordner aus, um dessen Inhalt im Durchsuchenbedienfeld anzuzeigen.
 
-***Tipp **: Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite auf das Steuerelement zum Erweitern/Reduzieren klicken. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.*
+>[!TIP]
+>
+>Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite auf das Steuerelement **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** klicken. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.
 
-## Erstellen von Ordnern {#creating-folders}
+## Erstellen von Ordnern  {#creating-folders}
 
 Gehen Sie zum Erstellen von Ordnern wie folgt vor:
 
