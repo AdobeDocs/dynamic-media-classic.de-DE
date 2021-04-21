@@ -27,10 +27,10 @@ Beispielsweise können Sie Bilder von Schirmmützen präsentieren, wobei die Sch
 ## Erstellen eines Mustersets  {#create}
 
 Wenn Sie einen Satz erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
-|**[!UICONTROL Option Nach dem Speichern veröffentlichen vor dem Speichern ausgewählt?|Status des Sets nach dem Speichern|Status der Set-Mitglieder nach dem Speichern|
-|— |— |— |
+|**[!UICONTROL Option Nach dem Speichern veröffentlichen vor dem Speichern ausgewählt?]**|Status des Sets nach dem Speichern|Status der Set-Mitglieder nach dem Speichern|
+|--- |--- |--- |
 |Ja|Veröffentlicht|Veröffentlicht|
-|Nein|Unveröffentlicht|Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei.|]**
+|Nein|Unveröffentlicht|Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei.|
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
