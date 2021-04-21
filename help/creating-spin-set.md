@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic, Viewer, Rotationssets
 role: Business Practitioner
+exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 73%
+source-wordcount: '902'
+ht-degree: 66%
 
 ---
-
 
 # Erstellen eines Rotationssets{#creating-a-spin-set}
 
@@ -34,15 +34,15 @@ Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rota
 * Verwenden Sie ein verlustfreies Format. Zu empfehlen sind die Formate TIFF und PNG.
 * Maskieren Sie alle Bilder, so dass das Objekt vor einem reinweißen oder anderen kontrastreichen Hintergrund erscheint. Fügen Sie nach Wunsch Schatten hinzu.
 * Vergewissern Sie sich, dass die Produktdetails gut ausgeleuchtet und fokussiert sind.
-* Nehmen Sie Bilder für Modekleidung mit einer Gliederpuppe oder einem Model auf. Oft wird die Gliederpuppe entweder vollständig maskiert (durch Verwendung einer gläsernen Gliederpuppe) oder das Bild wird mit einer stilisierten Gliederpuppe dargestellt. Sie können ein Rotationsset auch mit einem Model aufnehmen, indem Sie die Anzahl unterschiedlicher Blickwinkel definieren. Markieren Sie jede Winkelposition mit Klebeband auf dem Boden, um dem Model Position und Blickrichtung für die Aufnahmen anzuzeigen.
+* Nehmen Sie Bilder für Modekleidung mit einer Gliederpuppe oder einem Model auf. Oft wird das Mannequin entweder maskiert (mit einem Glasmannequin) oder eine stilisierte Mannequin/Dressform im Bild dargestellt. Sie können ein Rotationsset auch mit einem Model aufnehmen, indem Sie die Anzahl unterschiedlicher Blickwinkel definieren. Markieren Sie jede Winkelposition mit Klebeband auf dem Boden, um dem Model Position und Blickrichtung für die Aufnahmen anzuzeigen.
 
 ## Erstellen eines Rotationssets  {#create}
 
-Beachten Sie, dass die Reihenfolge, in der das Rotationsset in Dynamic Media Classic verfasst oder erstellt wird, wichtig ist. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Deshalb entspricht die Reihenfolge, in der es im Konstruktor angezeigt wird, der Drehrichtung des Assets, wenn ein Benutzer den Mauszeiger oder Finger von links nach rechts bewegt.
+Die Reihenfolge, in der das Rotationsset in Dynamic Media Classic verfasst oder erstellt wird, ist wichtig. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Daher wird das Asset in der Reihenfolge, in der es visuell angezeigt wird, gedreht, wenn ein Benutzer den Mauszeiger oder Finger von links nach rechts bewegt.
 
-Wenn Sie ein Set erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
+Wenn Sie ein Set erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
 
-| Option „Nach dem Speichern veröffentlichen“ vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| **[!UICONTROL Nach]** Auswahl der Option &quot;Nach dem Speichern veröffentlichen&quot;vor dem Speichern veröffentlichen? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -51,56 +51,50 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 
 Nach dem Speichern eines Rotationssets können Sie seine Anzeige im Standard-Viewer mithilfe der Vorschau auf der Seite „Erstellen: Rotationsset“ testen.
 
-**So erstellen Sie ein Rotationsset**
+**So erstellen Sie ein Rotationsset:**
 
-1. Klicken Sie im Dropdown-Menü **Erstellen** auf **Rotationssets**.
+1. Klicken Sie im Dropdown-Menü **[!UICONTROL Erstellen]** auf **[!UICONTROL Rotationssets]**.
 1. Legen Sie im Dialogfeld „Größe des Rotationssets“ die gewünschte Anzahl an Zeilen und Zellen fest.
 
    Wählen Sie für ein eindimensionales Rotationsset nur eine Zeile.
 
    Wählen Sie für ein zweidimensionales Rotationsset zwei oder mehr Zeilen.
 
-1. Klicken Sie auf **OK**.
+1. Klicken Sie auf **[!UICONTROL OK]**.
 1. Ziehen Sie Bilder auf das Raster im Anzeigebereich „Rotationsset“.
 1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
-1. Klicken Sie auf **Speichern**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem das Rotationsset gespeichert werden soll. Geben Sie in das Feld „Dateiname“ den Namen des Rotationssets ein.
-1. Klicken Sie auf **Speichern**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Bearbeiten eines Rotationssets  {#editing-a-spin-set}
 
-Je nachdem, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
+Unabhängig davon, ob Sie einen veröffentlichten oder unveröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
 
-| Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL Nach]** Auswahl der Option &quot;Nach dem Speichern veröffentlichen&quot;veröffentlichen, bevor Sie Ihre Bearbeitung speichern? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-publishing-assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually-unpublishing-assets).
 
-**So bearbeiten Sie ein Rotationsset**
+**So bearbeiten Sie ein Rotationsset:**
 
-1. Klicken Sie auf die Rollover-Schaltfläche **Bearbeiten** des Rotationssets.
+1. Klicken Sie auf die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des Rotationssets.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Entfernen von**
-BildernWählen Sie das Bild aus und klicken Sie auf 
-**Löschen**.
+   * **Bilder**  entfernen: Wählen Sie das Bild aus und klicken Sie auf  **[!UICONTROL Löschen]**.
 
-   * **Hinzufügen von**
-BildernZiehen Sie das Bild in eine Zelle.
+   * **Hinzufügen von Bildern** : Ziehen Sie das Bild in eine Zelle.
 
-   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)**
-Klicken Sie auf ein Zeilenauswahlfeld (links neben der Zeile) und dann auf 
-**Zeile** nach unten verschieben oder Zeile nach oben  **verschieben**.
+   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)**  - Klicken Sie auf ein Zeilenauswahlfeld (links neben der Zeile) und klicken Sie dann auf &quot;Zeile  **[!UICONTROL nach]** unten verschieben&quot;oder &quot;Zeile nach oben  **[!UICONTROL verschieben&quot;]**.
 
-   * **Hinzufügen von Zeilen und**
-ZellenGeben Sie im Feld &quot;Zeilen&quot;und &quot;Zellen&quot;eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
+   * **Hinzufügen von Zeilen und Zellen** : Geben Sie im Feld &quot;Zeilen&quot;und &quot;Zellen&quot;eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile festzulegen.
 
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
-1. Klicken Sie auf **Speichern**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **Speichern**.
+1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 ## Löschen eines Rotationssets  {#deleting-a-spin-set}
 
@@ -108,8 +102,7 @@ Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitgli
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-publishing-assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually-unpublishing-assets).
 
-**So löschen Sie ein Rotationsset**
+**So löschen Sie ein Rotationsset:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Rotationssets aus.
-1. Klicken Sie in der globalen Navigationsleiste auf **Datei** > **Löschen** > **Löschen**.
-
+1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
