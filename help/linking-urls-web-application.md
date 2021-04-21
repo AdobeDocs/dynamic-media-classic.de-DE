@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
-
 
 # Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
 
@@ -28,9 +28,11 @@ Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen einzufügen, kopier
 
 Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigebereich „Vorschau“ und in der Detailansicht abrufen. Sie können die URL in die Zwischenablage kopieren und dann nach Bedarf einfügen.
 
-***Hinweis **: Die URL ist erst aktiv, wenn Sie das Asset veröffentlichen.*
+>[!NOTE]
+>
+>Diese URL wird erst dann aktiv, wenn Sie das Asset veröffentlichen.
 
-### Abrufen einer Bildvorgabe-URL aus „Vorschau“{#obtaining-an-image-preset-url-from-preview}
+### Abrufen einer Bildvorgabe-URL aus „Vorschau“  {#obtaining-an-image-preset-url-from-preview}
 
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
