@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 32%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
-
 
 # Adobe Dynamic Media Classic - Plattformübersicht{#adobe-scene-platform-overview}
 
@@ -26,17 +26,13 @@ Dynamic Media Classic ist eine integrierte Rich Media Management-, Publishing- u
 
 Die wichtigsten Schritte des Dynamic Media Classic-Workflows sind:
 
-* **Hochladen und Verwalten Ihrer**
-AssetsLaden Sie Ihre Medienelemente in Dynamic Media Classic hoch. In diesem System können Sie Assets organisieren und durchsuchen sowie nach bestimmten Assets suchen. Außerdem können Sie Metadaten auf Assets anwenden.
+* **Hochladen und Verwalten Ihrer Assets**  - Laden Sie Ihre Medienelemente in Dynamic Media Classic hoch. In diesem System können Sie Assets organisieren und durchsuchen sowie nach bestimmten Assets suchen. Außerdem können Sie Metadaten auf Assets anwenden.
 
-* **Rich-**
-Media-Daten erstellenErstellen Sie verschiedene Konfigurationen Ihrer Assets, z. B. E-Kataloge, Bildsätze, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen. Weitere Informationen finden Sie unter Rich-Media-Daten.
+* **Rich-Media** -Erstellung - Erstellen Sie verschiedene Konfigurationen Ihrer Assets, z. B. E-Kataloge, Bildsätze, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen.
 
-* **Veröffentlichen und**
-verwaltenVeröffentlichen Sie Assets im Dynamic Media Classic Saas-Netzwerk, überwachen Sie den Status der Assets beim Veröffentlichen, verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
+* **Veröffentlichen und Verwalten** : Veröffentlichen Sie Assets im Dynamic Media Classic SaaS-Netzwerk, überwachen Sie den Status der Assets, wenn sie veröffentlicht werden, verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
 
-* ****
-ServeDeliver media from Dynamic Media Classic SaaS network to web pages, applications, and mobile devices; die Medien sind leistungsoptimiert und werden mit CDN-Caching bereitgestellt. Dynamic Media Classic stellt eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
+* **Bereitstellung**  von Medien aus dem Dynamic Media Classic SaaS-Netzwerk für Webseiten, Anwendungen und Mobilgeräte; die Medien sind leistungsoptimiert und werden mit CDN-Caching bereitgestellt. Dynamic Media Classic stellt eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
 
 ![Der Arbeitsablaufprozess von Dynamic Media Classic](/help/assets/gs_workflow.png)
 
@@ -50,4 +46,4 @@ Die URL-Zeichenfolgen, die Sie mit Dynamic Media Classic generieren, enthalten A
 
 ## Inhalts-Caching {#content-caching}
 
-Die dynamisch von Dynamic Media Classic erstellten Bilder sind Cache-freundlich. In den meisten Fällen handelt es sich um JPEG-Bilder mit eindeutigen URL-Aufrufen, die diese identifizieren. Die Bilder werden über ein CDN-System (Content Delivery Network) gesendet, ein Netzwerk von Servern, die über das Internet miteinander verbunden sind und dazu dienen, Inhalte schneller zu übermitteln. Die Bilder werden zunächst von weltweit verbreiteten Servern verteilt und dann an einzelne Computer gesendet. Bei der Implementierung eines Caching-Mechanismus mit einem beliebigen CDN-Anbieter ändern Sie einfach den Servernamen so, dass er auf den CDN-fähigen Dynamic Media Image Server verweist. Alle Dynamic Media Classic-Editionen enthalten CDN-Caching im Paket.
+Die dynamisch von Dynamic Media Classic erstellten Bilder sind Cache-freundlich. Normalerweise handelt es sich dabei um JPEG-Bilder mit eindeutigen URL-Aufrufen, die sie identifizieren. Die Bilder werden über ein CDN-System (Content Delivery Network) gesendet, ein Netzwerk von Servern, die über das Internet miteinander verbunden sind und dazu dienen, Inhalte schneller zu übermitteln. Die Bilder werden zunächst von weltweit verbreiteten Servern verteilt und dann an einzelne Computer gesendet. Bei der Implementierung eines Caching-Mechanismus mit einem beliebigen CDN-Anbieter ändern Sie einfach den Servernamen so, dass er auf den CDN-fähigen Dynamic Media Image Server verweist. Alle Dynamic Media Classic-Editionen enthalten CDN-Caching im Paket.
