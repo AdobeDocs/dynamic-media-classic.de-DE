@@ -7,44 +7,44 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic, Zusammenarbeit, Asset Management
 role: Administrator,Business Practitioner
+exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 51%
+source-wordcount: '347'
+ht-degree: 46%
 
 ---
 
-
 # Anpassen der Oberfläche von Media Portal{#customizing-the-media-portal-screen}
 
-Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Portal mit eigenen Unternehmenslogos und Farben anpassen. Verwenden Sie die Stileinstellungen, um Media Portal an das Erscheinungsbild Ihres Unternehmens anzupassen.
+Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Portal mit eigenen Unternehmenslogos und Farben anpassen. Verwenden Sie die Stileinstellungen, um das Branding Ihrer Firma in Media Portal einzustellen.
 
-Um die Stileinstellungen aufzurufen, wählen Sie **„Einstellungen“**“ > **„Media Portal-Einrichtung“** > **„Stil-Einstellungen“**. Klicken Sie auf **„Speichern“**, um vorgenommene Einstellungen zu speichern. Sie können auf **„Wiederherstellen “** klicken, um wieder zu den Standardeinstellungen zurückzukehren. Im Bereich „Vorschau“ sehen Sie, wie sich jede vorgenommene Änderung auswirkt.
+Um die Stileinstellungen aufzurufen, wählen Sie **[!UICONTROL „Einstellungen“]**“ > **[!UICONTROL „Media Portal-Einrichtung“]** > **[!UICONTROL „Stil-Einstellungen“]**. Klicken Sie auf **[!UICONTROL „Speichern“]**, um vorgenommene Einstellungen zu speichern. Sie können auf **[!UICONTROL „Wiederherstellen “]** klicken, um wieder zu den Standardeinstellungen zurückzukehren. Im Bereich „Vorschau“ sehen Sie, wie sich jede vorgenommene Änderung auswirkt.
 
-**** LogoKlicken Sie auf &quot;Durchsuchen&quot;und wählen Sie im Fenster &quot;Logo-Bild auswählen&quot;eine Grafik aus.
+* **Logo** : Klicken Sie auf  **** Durchsuchen und wählen Sie im Fenster Logo-Bild auswählen eine Grafik aus.
 
-**** AnwendungErstellen Sie eine Verlaufsfarbenmischung, indem Sie im Menü &quot;Hintergrundverlaufsfarben&quot;eine Auswahl treffen.
+* **Anwendung** : Erstellen Sie eine Verlaufsfarbenmischung, indem Sie im Menü &quot;Hintergrundverlaufsfarben&quot;eine Auswahl treffen.
 
-**** TreeWählen Sie eine Rollover-Farbe (die beim Bewegen des Mauszeigers über ein Element angezeigt wird) und eine Auswahlfarbe (die bei Auswahl eines Elements angezeigt wird).
+* **Struktur**  - Wählen Sie eine Rollover-Farbe (die beim Bewegen des Mauszeigers über ein Element angezeigt wird) und eine Auswahlfarbe (die bei Auswahl eines Elements angezeigt wird).
 
-**** AccordionWählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und Auswahlfarben für das Akkordeon aus, das rechts im Bildschirm in der Ansicht &quot;Details&quot;angezeigt wird.
+* **Akkordeon** : Wählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und Auswahlfarben für das Akkordeon aus, das rechts im Bildschirm in der Ansicht &quot;Details&quot;angezeigt wird.
 
-**Akkordeon-** KopfzeileWählen Sie aus, ob Text in der Akkordeon-Kopfzeile formatiert werden soll.
+* **Akkordeon-Kopfzeile** : Wählen Sie aus, ob Text in der Akkordeon-Kopfzeile fett formatiert werden soll.
 
-**** DatagridWählen Sie Farben für die Kopfzeile in Datenrasten.
+* **DataGrid**  - Wählen Sie die Farben für die Kopfzeile in den Datenrastern aus.
 
-**Warnung** Wählen Sie eine Hintergrundfarbe für Warnmeldungen.
+* **Warnung** : Wählen Sie eine Hintergrundfarbe für Warnmeldungen.
 
-**Fortschrittsleiste** Wählen Sie eine Farbe für die Leiste, die den Fortschritt von Uploads und Downloads anzeigt.
+* **Fortschrittsleiste** : Wählen Sie eine Farbe für die Leiste aus, die den Fortschritt von Uploads und Downloads anzeigt.
 
 Damit Media Portal-Benutzer die von Ihnen gewählten Stileinstellungen sehen können, müssen sie `?company=(company name)` an die URL anhängen, mit der sie auf Media Portal zugreifen. Um die Stileinstellungen anzuzeigen, müssten Media Portal-Benutzer, die auf das Unternehmen PortalCo unter:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
-zugreifen, stattdessen folgende URL verwenden:
+Verwenden Sie stattdessen die folgende URL:
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 
