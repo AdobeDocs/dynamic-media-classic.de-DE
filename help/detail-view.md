@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
+exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 78%
+source-wordcount: '587'
+ht-degree: 70%
 
 ---
-
 
 # Arbeiten in der Detailansicht {#working-in-detail-view}
 
@@ -46,11 +46,11 @@ Um ein Asset genau zu überprüfen, in einer Vorschau anzuzeigen oder zu bearbei
 
    * Doppelklicken Sie auf das gewünschte Asset.
    * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Detail-Ansicht]**.
-   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Datei > Details]**.
+   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Datei]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
->Mit den Schaltflächen „Vorheriges Asset“ und „Nächstes Asset“ können Sie in der Detailansicht zwischen Assets aus demselben Ordner wechseln. Die Schaltflächen befinden sich rechts oben in der Detailansicht.
+>Mit den Schaltflächen „Vorheriges Asset“ und „Nächstes Asset“ können Sie in der Detailansicht zwischen Assets aus demselben Ordner wechseln. Diese Schaltflächen befinden sich oben rechts in der Ansicht &quot;Details&quot;.
 
 ## Abrufen von Informationen in der Detailansicht {#getting-information-in-detail-view}
 
@@ -62,45 +62,40 @@ Sie können die URL eines Assets in der Detailansicht anzeigen. Diese ist jedoch
 
 In der Detailansicht stehen Werkzeuge für die Arbeit mit dem von Ihnen geöffneten Asset zur Verfügung. Die Werkzeuge sind je nach Asset-Typ unterschiedlich, Sie können in der Detailansicht aber immer die folgenden Funktionen ausführen:
 
-* **Elemente zur**
-VeröffentlichungKlicken Sie auf das  **** Veröffentlichungssymbol links neben dem Namen oder klicken Sie auf  **[!UICONTROL &quot;Datei&quot;> &quot;]** Veröffentlichungsdatei&quot;> &quot; **[!UICONTROL Veröffentlichungsdatei&quot;> &quot;Veröffentlichung rückgängig machen&quot;]**.
+* **Elemente zur Veröffentlichung**  - Klicken Sie auf das Symbol  **** Veröffentlichung links neben dem Namen oder auf  **[!UICONTROL Datei >]** Veröffentlichungsdatei >  **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
-* **Umbenennen des**
-AssetsWählen Sie den Namen und geben Sie einen neuen Namen ein.
+* **Umbenennen des Assets** : Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
-* **Bearbeiten und Hinzufügen von**
-MetadatenWählen Sie das Metadatenbedienfeld aus und nehmen Sie die gewünschten Änderungen vor. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/viewing-adding-exporting-metadata.md).
+* **Bearbeiten und Hinzufügen von Metadaten** : Wählen Sie das Metadatenbedienfeld aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/viewing-adding-exporting-metadata.md).
 
-* **Bearbeiten und Hinzufügen von**
-SuchbegriffenWählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/viewing-adding-exporting-metadata.md).
+* **Bearbeiten und Hinzufügen von Suchbegriffen** : Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/viewing-adding-exporting-metadata.md).
 
-* **Löschen des**
-AssetsKlicken Sie auf  **[!UICONTROL Datei > Löschen]**.
+* **Löschen des Assets** : Klicken Sie auf  **[!UICONTROL Datei]**  >  **[!UICONTROL Löschen]**.
 
 Bei eigenständigen Dateien – beispielsweise bei Bildern, Bildsätzen und Schriftarten – können Sie in der Detailansicht den Veröffentlichungs- und Bearbeitungsverlauf einsehen und Auftragsdetails prüfen.
 
-Die folgende Tabelle bietet eine Übersicht über die zusätzlichen Optionen, die in der Detailansicht für unterschiedliche Asset-Typen zur Verfügung stehen.
+Die folgende Tabelle zeigt, welche anderen Optionen für verschiedene Asset-Typen in der Detail-Ansicht verfügbar sind.
 
 | Asset-Typ | Bearbeiten/Anpassen | Vorschau |
 |--- |--- |--- |
-| Bilder | Imagemaps hinzufügen hinzufügen Zoom-Zielgruppen Scharfzeichnen Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben. |
-| Möbel- und Fensterbehangbilder | Nein | Miniaturansicht. |
-| E-Kataloge | Bearbeiten | Ja. Infofeld steht ebenfalls zur Verfügung.. |
-| Schriftarten | Informationen zur Schriftart bearbeiten | Nein. |
-| FXG-Dateien | Bearbeiten | Ja. |
-| ICC-Profile | Profilinformationen bearbeiten | Nein. |
-| Illustrator-Dateien | Nein (sofern nicht in FXG konvertiert) | Nein. |
-| Bildsets | Bearbeiten | Ja. |
-| InDesign-Dateien | Nein (sofern nicht in FXG konvertiert) | Nein. |
-| PDF-Dateien | Nein | Nein. |
-| PSD-Dateien | Ja für einzelne Ebenen | Ja für einzelne Ebenen. |
-| Rotationssets | Bearbeiten | Ja. |
-| SVG-Dateien | Nein | Nein. |
-| Vorlagen | Bearbeiten | Ja. |
-| Videos | Nein | Ja. |
-| Vignetten und gerenderte Vignetten | Nein | Bild wird gezeigt; Inhalt und Struktur der renderbaren Elemente einer Vignette sind im XML-Format dargestellt. |
-| XML-Dateien | Nein | Inhalt wird gezeigt. |
-| Zip-Dateien | Nein | Inhalt wird nicht gezeigt. |
+| Bilder | Imagemaps hinzufügen<br>hinzufügen Zoomziele<br><br><br>ScharfzeichnenAngepasste Ansichten erstellen | Ja; Zoom und Bildvorgaben |
+| Möbel- und Fensterbehangbilder | Nein | Miniaturansicht |
+| E-Kataloge | Bearbeiten | Ja<br>Infofeld ist ebenfalls verfügbar |
+| Schriftarten | Informationen zur Schriftart bearbeiten | Nein |
+| FXG-Dateien | Bearbeiten | Ja |
+| ICC-Profile | Profilinformationen bearbeiten | Nein |
+| Illustrator-Dateien | Nein (sofern nicht in FXG konvertiert) | Nein |
+| Bildsets | Bearbeiten | Ja |
+| InDesign-Dateien | Nein (sofern nicht in FXG konvertiert) | Nein |
+| PDF-Dateien | Nein | Nein |
+| PSD-Dateien | Ja für einzelne Ebenen | Ja für einzelne Ebenen |
+| Rotationssets | Bearbeiten | Ja |
+| SVG-Dateien | Nein | Nein |
+| Vorlagen | Bearbeiten | Ja |
+| Videos | Nein | Ja |
+| Vignetten und gerenderte Vignetten | Nein | Bild wird angezeigt<br>Sie können Inhalt und Struktur der renderbaren Elemente der Vignette im XML-Format Ansicht werden. |
+| XML-Dateien | Nein | Inhalt wird gezeigt |
+| Zip-Dateien | Nein | Inhalt wird nicht gezeigt |
 
 >[!MORELIKETHIS]
 >
