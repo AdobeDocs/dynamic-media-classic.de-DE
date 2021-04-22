@@ -9,18 +9,18 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 39%
+source-wordcount: '426'
+ht-degree: 36%
 
 ---
 
-
 # Schriftarten{#fonts}
 
-In einigen Fällen erfordert Dynamic Media Classic das Hochladen einer Schriftartdatei, um Text in einer bestimmten Schriftart einzugeben oder wiederzugeben. Wenn Sie beispielsweise eine bestimmte Schriftart für Text auf einer Vorlagenebene verwenden möchten, laden Sie die entsprechende Schriftartdatei hoch. Wenn die Seitenzahlen des E-Katalog-Viewers in einer bestimmten Schriftart angezeigt werden sollen, laden Sie die entsprechende Schriftartdatei hoch.
+Manchmal erfordert Dynamic Media Classic das Hochladen einer Schriftartdatei, um Text in einer bestimmten Schriftart einzugeben oder wiederzugeben. Wenn Sie beispielsweise eine bestimmte Schriftart für Text auf einer Vorlagenebene verwenden möchten, laden Sie die entsprechende Schriftartdatei hoch. Wenn die Seitenzahlen des E-Katalog-Viewers in einer bestimmten Schriftart angezeigt werden sollen, laden Sie die entsprechende Schriftartdatei hoch.
 
 Dynamic Media Classic unterstützt die folgenden Schriftarten:
 
@@ -42,28 +42,28 @@ Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Sc
 
 ## Bearbeiten von Schriftartdateidaten  {#editing-font-file-information}
 
-Sie können den ID-Namen einer Schriftart sowie deren Typdaten ändern. Die Bearbeitung einer Schriftartdatei kann für Suchvorgänge hilfreich sein und das Auffinden von Schriftarten erleichtern.
+Sie können den ID-Namen einer Schriftart und deren Typinformationen ändern. Die Bearbeitung einer Schriftartdatei kann für Suchvorgänge hilfreich sein und das Auffinden von Schriftarten erleichtern.
 
 Wählen Sie die zu bearbeitende Schriftartdatei in der Detailansicht des Durchsuchenbedienfelds und wählen Sie „Datei“ > „Informationen bearbeiten“. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen und klicken Sie anschließend auf „Absenden“.
 
-**Schriftname:** Dieser Name gibt die Schriftart an, wenn sie veröffentlicht wird.
+* **Schriftname** : Dieser Name gibt die Schriftart an, wenn sie veröffentlicht wird.
 
-**PostScript-** NameDieser Name ist der vollständige PostScript-Name für die Schriftart. Er gibt normalerweise auch die Stärke und den Schnitt der Schriftart an.
+* **PostScript-Name** : Dieser Name ist der vollständige PostScript-Name für die Schriftart. Er gibt normalerweise auch die Stärke und den Schnitt der Schriftart an.
 
-**RTF-** NameDieser Name wird in einem Popupmenü im RTF-Editor angezeigt, in dem Vorlagentextebenen erstellt werden.
+* **RTF-Name** : Dieser Name wird in einem Popupmenü im RTF-Editor angezeigt, in dem Vorlagentextebenen erstellt werden.
 
-**Name der Schriftfamilie** Dieser Name Liste den Schriftartnamen ohne Angabe von Stil, Gewichtung oder Schriftart.
+* **Name**  der Schriftfamilie: Dieser Name Liste den Schriftartnamen ohne Angabe von Stil, Gewichtung oder Schriftart.
 
-**SchriftschnittDie** Optionen sind &quot;Klein&quot;, &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Fett-Kursiv&quot;.
+* **Schriftschnitt** : Die Optionen sind &quot;Klein&quot;, &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Fett-Kursiv&quot;.
 
-**Schriftart** Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten mit einem anderen Namen bezeichnen, können Sie diesen eingeben.
+* **Schriftart**  - Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten mit einem anderen Namen bezeichnen, können Sie diesen eingeben.
 
-**Schriftart** AbkürzungDie Optionen lauten wie folgt:
+* **Schriftartabkürzung** : Die Optionen lauten wie folgt:
 
-**** TTFTrueType-Schriftartdateien, die für das Rendern und Image Serving von PDF/PostScript verwendet werden.
+   * **** TTFTrueType-Schriftartdateien, die für das Rendern und Image Serving von PDF/PostScript verwendet werden.
 
-**** AFMAdobe PostScript-Schriftartdateien, die Adobe Font Metrics Informationen enthalten und für die Image Serving verwendet werden.
+   * **** AFMAdobe PostScript-Schriftartdateien, die Adobe Font Metrics Informationen enthalten und für die Image Serving verwendet werden.
 
-**** PFMAdobe PostScript-Schriftartdateien, die Informationen zur binären Schriftartmetrik enthalten.
+   * **** PFMAdobe PostScript-Schriftartdateien, die Informationen zur binären Schriftartmetrik enthalten.
 
-**** PFBAdobe PostScript-Schriftartdateien, die binäre Schriftartkonturinformationen enthalten und für das Rendern und Image Serving von PDF/PostScript verwendet werden.
+   * **** PFBAdobe PostScript-Schriftartdateien, die binäre Schriftartkonturinformationen enthalten und für das Rendern und Image Serving von PDF/PostScript verwendet werden.
