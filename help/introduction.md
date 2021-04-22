@@ -6,21 +6,21 @@ seo-description: Überblick über Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 30%
+source-wordcount: '249'
+ht-degree: 31%
 
 ---
-
 
 # Dynamic Media Classic-Hilfe {#scene7-overview}
 
 Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem zum Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Inhalte auf allen Geräten und Bildschirmen. Zu den Lösungen der Adobe Dynamic Media Classic gehören:
 
 * Dynamic Imaging: Bearbeitung, Formatierung und Größenänderung in Echtzeit, interaktives Zoomen und Schwenken; Farb- und Texturänderung; 360-Grad-Drehung; Bildvorlagen; Multimedia-Viewer.
-* E-Kataloge: Autor, Hotspot-Verknüpfung, suchaktivierte Bereitstellung, Veröffentlichung und Bereitstellung dynamisch bereitgestellter Online-Kataloge in konfigurierbaren Viewern.
+* E-Kataloge: Erstellen, Hotspot-Verknüpfen, Suchfunktionen, Veröffentlichen und Bereitstellen dynamisch bereitgestellter Online-Kataloge in konfigurierbaren Viewern.
 * Media Portal: Self-Service-Umgebung, die Portalbenutzern mit von Administratoren gesteuerten &quot;Ansichten&quot;einfachen Zugriff auf Dynamic Media Classic-Assets ermöglicht, Assets hochzuladen, zu durchsuchen, zu suchen, zu suchen, zu Vorschau und zu exportieren.
 * eVideo: Hochladen von fertigen Videos in beliebigem Format, Verwalten, Bearbeiten, Erstellen von Hotspots und Videovorlagen, Veröffentlichen und Streamen in konfigurierbare Video-Viewer
 * Visuelle Konfiguratoren: Technologie zum Rendern in Echtzeit, um Personalisierungs- und Anpassungseffekte, wie Echtzeitrendering von Farbstrukturen, Oberflächen, Mustern, Monogrammen und Gravuren in Produktbildern oder Szenen, online visuell konfigurieren zu können.
@@ -41,4 +41,3 @@ Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden
 * [Quick Beginn: Vorlagen - Grundlagen](/help/quick-start-template-basics.md)
 * [Kurzanleitung: Video](/help/quick-start-video.md)
 * [Kurzanleitung: Zoom](/help/quick-start-zoom.md)
-
