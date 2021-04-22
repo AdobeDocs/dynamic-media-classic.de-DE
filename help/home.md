@@ -1,21 +1,21 @@
 ---
-title: Adobe Dynamic Media Classic-Anleitung
+title: Handbuch von Adobe Dynamic Media Classic
 seo-title: Technische Dokumentation und Hilfe zur Adobe Dynamic Media Classic
 description: Technische Dokumentation zur Adobe Dynamic Media Classic
 seo-description: 'Technische Dokumentation, Versionshinweise und Selbsthilfematerialien für die Adobe Dynamic Media Classic, vormals Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 6%
+source-wordcount: '585'
+ht-degree: 7%
 
 ---
 
-
-# Adobe Dynamic Media Classic-Anleitung {#scene7-overview}
+# Handbuch von Adobe Dynamic Media Classic {#scene7-overview}
 
 Willkommen bei der Dynamic Media Classic-Hilfe. Hier finden Sie alle verfügbaren Ressourcen, um mehr über die Verwendung von Dynamic Media Classic (früher Scene7 genannt) zu erfahren.
 
@@ -27,8 +27,8 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates ab 7. Mai 2020.
 
 ## Entwicklerressourcen für Dynamic Media
 
-* [Dynamic Media Developer Resources-Landingpage](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) — Enthält Viewer-Referenzhandbuch, Image Serving/Image Rendering-API, Image Production System-API und Dynamic Media Classic-Versionshinweise.
-* [Beispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  für die Viewer-Bibliothek— Enthält Viewer-Beispiele für Video, einkaufbare Medien, gemischte Medien, Rotationssets, Inline-Zoom, Bild- und Mustersets und Flyouts.
+* [Dynamic Media Developer Resources-Landingpage](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) : Enthält Viewer-Referenzhandbuch, Image Serving/Image Rendering API, Image Production System API und Dynamic Media Classic Versionshinweise.
+* [Beispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  für die Viewer-Bibliothek: Enthält Viewer-Beispiele für Videos, einkaufbare Medien, gemischte Medien, Rotationssets, Inline-Zoom, Bild- und Mustersets und Flyouts.
 
 ## Dynamic Media Classic-Benutzerressourcen
 
