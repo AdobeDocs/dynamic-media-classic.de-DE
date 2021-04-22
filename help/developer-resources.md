@@ -6,50 +6,50 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer
+exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 38%
+source-wordcount: '273'
+ht-degree: 40%
 
 ---
 
-
-# Entwicklerressourcen{#developer-resources}
+# Entwicklerressourcen {#developer-resources}
 
 Dynamic Media Classic stellt Dokumentation zu den neuesten Hauptversionen der einzelnen Dynamic Media Classic-Softwaremodule bereit. Module-Dokumente stehen für Image Authoring, Dynamic Media Classic, Image Server und Image Rendering sowie Viewer zur Verfügung.
 
 Zu einigen Modulen gibt es außerdem Versionshinweise. Die Versionshinweise enthalten Details zur jeweiligen Version, einschließlich Verbesserungen, neue Funktionen, Tipps, Ratschläge zur Fehlerbehebung und bekannte Probleme, die aktuell untersucht werden. Darüber hinaus finden Sie in den Versionshinweisen interaktive Beispiele für Rich-Media-Funktionen und Angaben dazu, wie sie aktiviert werden. Häufig enthalten die Versionshinweise außerdem Anleitungen zur Installation und Konfiguration für Kunden mit lizenzierter Software.
 
-Referenzhandbücher zu Image Serving und Image Rendering und Viewer beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die die Rich-Media-Daten von Dynamic Media Classic für eine Website oder eine benutzerdefinierte Anwendung weiter anpassen und nutzen möchten, können diese Handbücher verwenden. Dynamic Media Classic geht davon aus, dass der Leser mit der Desktop-App, den allgemeinen Standards und Konventionen des HTTP-Protokolls und der grundlegenden Terminologie der Bildbearbeitung vertraut ist.
+Referenzhandbücher zu Image Serving und Image Rendering und Viewer beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die die Rich-Media-Daten von Dynamic Media Classic für eine Website oder eine benutzerdefinierte Anwendung weiter anpassen und verwenden möchten, können diese Handbücher verwenden. Dynamic Media Classic geht davon aus, dass der Benutzer mit der Desktop-App, den allgemeinen Standards und Konventionen des HTTP-Protokolls und der grundlegenden Terminologie der Bildbearbeitung vertraut ist.
 
 
-**Dynamic Media Classic API**
+## Dynamic Media Classic API
 
 | Dokument | Webadresse |
 |--- |--- |
 | API-Referenzhandbuch | Die Dokumentation erhalten Sie vom technischen Support von Dynamic Media Classic. |
 
-**Image Authoring**
+## Image Authoring
 
 | Dokument | Webadresse |
 |--- |--- |
 | Benutzerhandbuch | Wenden Sie sich für diese Dokumentation an den technischen Support von Dynamic Media Classic. |
 | Versionshinweise | Wenden Sie sich für diese Dokumentation an den technischen Support von Dynamic Media Classic. |
 
-**Image Serving and Image Rendering**
+## Image Serving and Image Rendering
 
 | Dokument | Webadresse |
 |--- |--- |
-| API-Referenzhandbuch | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) |
+| API-Referenzhandbuch | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
-**Viewer**
+## Viewer
 
 | Dokument | Webadresse |
 |--- |--- |
-| Viewer-Referenzhandbuch und Versionshinweise | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) |
+| Viewer-Referenzhandbuch und Versionshinweise | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 | Beispiele für die Viewer-Bibliothek | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 
