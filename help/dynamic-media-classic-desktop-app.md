@@ -9,9 +9,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1849'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Die Desktop-App der Adobe Dynamic Media Classic ist mit den folgenden Betriebssy
 * Die Anzahl der Dateien, die Sie über die Benutzeroberfläche der Desktop-App hochladen können, ist für MacOS und Windows® nicht beschränkt.
 * Sie müssen sich nicht bei der Desktop-App abmelden, um zwischen Firmen zu wechseln.
 * Strg+V zum Einfügen funktioniert jetzt unter Windows®.
-* Wenn in Zukunft eine neue Version der Desktop-App veröffentlicht wird, werden die Benutzer in der Desktop-App selbst benachrichtigt.
+* Wenn in Zukunft eine neue Version der Desktop-App veröffentlicht wird, werden Benutzer in der Desktop-App selbst benachrichtigt.
 
 ## Laden Sie die neueste Dynamic Media Classic Desktop-App der Adobe unter MacOS oder Windows® {#installation-dmc-app} herunter und installieren Sie sie.
 
