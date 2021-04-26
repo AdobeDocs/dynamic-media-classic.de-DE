@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 73%
+source-wordcount: '832'
+ht-degree: 53%
 
 ---
 
@@ -37,23 +37,23 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend unterhalb des Miniaturbilds auf „Vorschau“ > „Bildvorgabeliste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset und klicken Sie anschließend rechts neben dem Miniaturbild auf „Vorschau“ > „Bildvorgabeliste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ > „Bildvorgabeliste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Rasteransicht“]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und klicken Sie anschließend unter dem Miniaturbild auf **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabe-Liste]**.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Listenansicht“]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabe-Liste]**.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Detailansicht“]**. Klicken Sie in derselben Symbolleiste auf **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabe-Liste]**.
 
-1. (Optional) Wählen Sie unten im Fenster „Bildvorgabeliste“ in der Dropdown-Liste „URL-Kodierung für URL-kopieren-Generierung“ die URL-Kodierung aus, die beim Kopieren der Bild-Asset-URL für die URL verwendet werden soll.
-1. Klicken Sie im Fester „Bildvorgabeliste“ im rechten oberen Bereich des Vorschaubereichs auf „URL kopieren“ für den ausgewählten Vorgabetyp.
-1. Klicken Sie in der rechten unteren Ecke des Fensters „Bildvorgabeliste“ auf „Schließen“, um zum Assets-Fenster zurückzukehren.
+1. (Optional) Wählen Sie in der Liste &quot;Bildvorgabe&quot;in der Dropdown-Liste &quot;URL-Kodierung für URL-kopieren-Generierung&quot;die URL-Kodierung aus, die Sie beim Kopieren der Bild-Asset-URL auf die URL anwenden möchten.
+1. Klicken Sie im Fenster &quot;Bildvorgabe-Liste&quot;oben rechts im Bereich &quot;Vorschau&quot;für den ausgewählten Vorgabentyp auf **[!UICONTROL URL kopieren]**.
+1. Klicken Sie in der rechten unteren Ecke des Fensters &quot;Bildvorgabe&quot;auf **[!UICONTROL Schließen]**, um zum Bildschirm &quot;Assets&quot;zurückzukehren.
 
-### Abrufen einer Bildvorgabe-URL im Durchsuchenbedienfeld  {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Abrufen einer Bildvorgabe-URL im Durchsuchenbedienfeld {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
-1. Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
-1. Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“.
-1. Klicken Sie im Bereich auf der rechten Seite auf „URLs“, um die Liste der Bildvorgaben einzublenden.
-1. Klicken Sie neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten, auf „URL kopieren“.
+1. Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Rasteransicht“]**. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
+1. Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Detailansicht“]**. 
+1. Klicken Sie im Bedienfeld auf der rechten Seite des Bildschirms auf **[!UICONTROL URLs]**, um die Liste der Bildvorgaben zu entfalten.
+1. Klicken Sie auf den Link **[!UICONTROL URL kopieren]** neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten.
 
-## URL-Zeichenfolgen zu Bildvorgaben  {#about-image-preset-url-strings}
+## URL-Zeichenfolgen zu Bildvorgaben {#about-image-preset-url-strings}
 
 Ein URL-Aufruf zur Bildgrößenänderung für Dynamic Media-Image-Server hat die folgende grundlegende Syntax:
 
@@ -89,7 +89,7 @@ Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise die
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Sie können jetzt das Tag `<IMG>`verwenden, um den Verweis auf ein statisches Bild durch einen Bildvorgabenaufruf an die Dynamic Media Classic-Plattform zu ersetzen. Hier ein Beispiel:
+Mit dem Tag `<IMG>`ersetzen Sie nun den Verweis auf ein statisches Bild durch einen Bildvorgabenaufruf für die Dynamic Media Classic-Plattform. Hier ein Beispiel:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
