@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
+exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 65%
+source-wordcount: '553'
+ht-degree: 44%
 
 ---
-
 
 # Verschieben, Umbenennen und Löschen von Assets{#moving-renaming-and-deleting-assets}
 
@@ -29,22 +29,20 @@ Sie können Assets über das Durchsuchenbedienfeld in andere Ordner verschieben.
 1. Wählen Sie im Durchsuchenbedienfeld die gewünschten Assets aus und führen Sie dann einen der folgenden Schritte durch:
 
    * Zeigen Sie den Ordner, in den Sie die Assets verschieben möchten, in der Asset-Bibliothek an und ziehen Sie dann die Assets in den Ordner.
-   * Sie können auch auf „Datei“ > „Verschieben“ klicken, im Fenster „Assets verschieben“ einen Ordner auswählen und dann auf „Verschieben“ klicken.
+   * Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Verschieben]**, wählen Sie im Fenster &quot;Assets verschieben&quot;einen Ordner aus und wählen Sie **[!UICONTROL Verschieben]**.
 
-## Umbenennen von Assets  {#rename-assets}
-
-So benennen Sie ein Asset um
+## Umbenennen von Assets {#rename-assets}
 
 1. Wählen Sie im Durchsuchenbedienfeld das Asset aus und führen Sie dann einen der folgenden Schritte durch:
 
-   * Wählen Sie den Namen aus, geben Sie den neuen Namen ein und drücken Sie die Eingabetaste oder klicken Sie auf eine andere Stelle.
-   * Wählen Sie „Datei“ > „Umbenennen“. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste.
+   * Wählen Sie den Namen aus, geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL oder klicken Sie auf einen anderen Namen.]**
+   * Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Umbenennen]**. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie **[!UICONTROL die Eingabetaste]**.
 
 Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen Dynamic Media Classic-Assets eingeben.
 
 ## Löschen von Assets {#delete-assets}
 
-Sie können im Durchsuchenbedienfeld ausgewählte Assets oder auch ganze Ordner löschen. Gelöschte Assets und Ordner werden in den Ordner „Papierkorb“ verschoben und nach sieben Tagen endgültig gelöscht.
+Sie können ausgewählte Assets im Durchsuchenbedienfeld löschen und ganze Ordner löschen. Gelöschte Assets und Ordner werden in den Ordner „Papierkorb“ verschoben und nach sieben Tagen endgültig gelöscht.
 
 Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelöscht. Beim Löschen eines Bildes, für das Sie Zoomziele erstellt haben, werden beispielsweise auch die Zoomziele gelöscht.
 
@@ -54,10 +52,10 @@ Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelösch
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um ein oder mehrere Assets zu löschen, wählen Sie die Assets im Durchsuchenbedienfeld aus und drücken die Entf-Taste oder wählen „Datei“ > „Löschen“.
-   * Um einen Ordner zu löschen, wählen Sie ihn in der Asset-Bibliothek aus und klicken Sie auf **Ordner entfernen**.
+   * Um ein oder mehrere Assets zu löschen, wählen Sie die Assets im Durchsuchenbedienfeld aus und drücken Sie die Taste **[!UICONTROL Löschen]** oder klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
+   * Um einen Ordner zu löschen, wählen Sie ihn in der Asset-Bibliothek aus und klicken Sie auf **[!UICONTROL Ordner entfernen]**.
 
-      Beim Löschen werden die Ordner selbst sowie alle darin (auch in Unterordnern) enthaltenen Assets gelöscht.
+      Beim Löschen eines Ordners werden der Ordner, alle Assets im Ordner und alle Assets in dessen Unterordnern gelöscht.
 
 >[!NOTE]
 >
@@ -71,11 +69,11 @@ Erstellen Sie die Liste der Dynamic Media Classic-IDs und speichern Sie sie als 
 
 Wenn Sie mit dem Erstellen der Liste fertig sind, führen Sie die folgenden Schritte aus, um die Assets zu löschen:
 
-1. Wählen Sie „Datei“ > „Asset-Liste löschen“.
-1. Gehen Sie im Dialogfeld „Asset-Liste löschen“ zu der Textdatei, die die Liste der zu löschenden Assets enthält, oder geben Sie den Pfad zu dieser Datei ein.
-1. Klicken Sie auf die Schaltfläche „Löschen“.
+1. Klicken Sie auf **[!UICONTROL Liste]** > **[!UICONTROL Asset löschen]**.
+1. Suchen Sie im Dialogfeld &quot;Asset-Liste löschen&quot;den Pfad zur Textdatei mit der Liste der zu löschenden Assets oder geben Sie ihn ein.
+1. Klicken Sie auf „**[!UICONTROL Löschen]**“.
 
-Wenn Sie Assets mit einer Textdatei löschen und keine Dynamic Media Classic-ID auf der Liste vorhanden ist, wird eine Meldung angezeigt, die Sie darauf hinweist, dass Dynamic Media Classic neben der Liste der Einträge die Meldung &quot;Diese Einträge in Ihrer Liste können nicht überprüft werden:&quot;enthält. Dynamic Media Classic erzeugt jedoch keinen Fehler im Anzeigebereich &quot;Auftrag&quot;.
+Wenn Sie Assets mit einer Textdatei löschen und keine Dynamic Media Classic-ID auf der Liste vorhanden ist, wird die Meldung &quot;Folgende Einträge in Ihrer Liste können nicht überprüft werden:&quot;angezeigt und die Liste der Einträge. Dynamic Media Classic generiert jedoch keinen Fehler auf der Seite &quot;Auftrag&quot;.
 
 >[!MORELIKETHIS]
 >
