@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic, Viewer, Mix-Mediensets
 role: Business Practitioner
+exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 96%
+source-wordcount: '645'
+ht-degree: 97%
 
 ---
-
 
 # Verknüpfen eines gemischten Mediensets mit einer Website{#linking-a-mixed-media-set-to-a-web-page}
 
@@ -24,22 +24,22 @@ Nach der Veröffentlichung eines gemischten Mediensets können Sie dessen URL ab
 
 ## Abrufen einer gemischten Medienset-URL {#obtain-a-mixed-media-set-url}
 
-1. Klicken Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste „Anzeigen“ auf „**Medienset**“.
+1. Klicken Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste „Anzeigen“ auf „**[!UICONTROL Medienset]**“.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Medienset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
-   * Klicken Sie auf „**Rasteransicht**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Klicken Sie im URLs- und Code-einbetten-Bedienfeld auf der rechten Seite rechts neben dem gewünschten Viewer auf „**URL kopieren**“.
-   * Klicken Sie auf „**Rasteransicht**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie anschließend unterhalb des Miniaturbilds auf „**Vorschau**“ > „**Viewer-Liste**“.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Klicken Sie im URLs- und Code-einbetten-Bedienfeld auf der rechten Seite rechts neben dem gewünschten Viewer auf „**[!UICONTROL URL kopieren]**“.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie anschließend unterhalb des Miniaturbilds auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**URL kopieren**“.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“.
 
-   * Klicken Sie auf „**Listenansicht**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „**Vorschau**“ > „**Viewer-Liste**“.
+   * Klicken Sie auf „**[!UICONTROL Listenansicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**URL kopieren**“.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“.
 
-   * Klicken Sie auf „**Rasteransicht**“, „**Listenansicht**“ oder „**Detailansicht**“. Klicken Sie in der gleichen Symbolleiste auf „**Vorschau**“ > „**Viewer-Liste**“.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“, „**[!UICONTROL Listenansicht]**“ oder „**[!UICONTROL Detailansicht]**“. Klicken Sie in der gleichen Symbolleiste auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**URL kopieren**“.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“.
 
 ## Hinzufügen von URLs für gemischte Mediensets zur Website  {#add-mixed-media-set-urls-to-your-web-page}
 
@@ -49,30 +49,30 @@ Die am häufigsten verwendete Möglichkeit zum Implementieren eines gemischten M
 
 Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung des Codes ist im Dialogfeld Einbettungscode nicht zulässig.
 
-**So kopieren Sie den Einbettungscode eines Viewers für gemischte Mediensets**
+**So kopieren Sie den Einbettungscode eines Viewers für gemischte Mediensets:**
 
-1. Klicken Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste „Anzeigen“ auf „**Gemischtes Medienset**“.
+1. Klicken Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste „Anzeigen“ auf „**[!UICONTROL Gemischtes Medienset]**“.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das gemischte Medienset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
-   * Klicken Sie auf „**Rasteransicht**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Klicken Sie im URLs- und Code-einbetten-Bedienfeld auf der rechten Seite rechts neben dem gewünschten Viewer auf „**Code einbetten**“.
-   * Klicken Sie auf „**Rasteransicht**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie anschließend unterhalb des Miniaturbilds auf „**Vorschau**“ > „**Viewer-Liste**“.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Klicken Sie im URLs- und Code-einbetten-Bedienfeld auf der rechten Seite rechts neben dem gewünschten Viewer auf „**[!UICONTROL Code einbetten]**“.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie anschließend unterhalb des Miniaturbilds auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**Code einbetten**“.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“.
 
-   * Klicken Sie auf „**Listenansicht**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „**Vorschau**“ > „**Viewer-Liste**“.
+   * Klicken Sie auf „**[!UICONTROL Listenansicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**Code einbetten**“.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“.
 
-   * Klicken Sie auf „**Rasteransicht**“, „**Listenansicht**“ oder „**Detailansicht**“. Klicken Sie in der gleichen Symbolleiste auf „**Vorschau**“ > „**Viewer-Liste**“.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“, „**[!UICONTROL Listenansicht]**“ oder „**[!UICONTROL Detailansicht]**“. Klicken Sie in der gleichen Symbolleiste auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**Code einbetten**“.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“.
 
-1. Klicken Sie im Dialogfeld „Code einbetten“ auf „**In Zwischenablage kopieren**“.
+1. Klicken Sie im Dialogfeld „Code einbetten“ auf „**[!UICONTROL In Zwischenablage kopieren]**“.
 
    Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-1. Klicken Sie auf **Schließen**.
+1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
 >[!MORELIKETHIS]
 >
