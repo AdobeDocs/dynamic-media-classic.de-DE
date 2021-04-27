@@ -7,22 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
+exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 81%
+source-wordcount: '50'
+ht-degree: 34%
 
 ---
 
-
 # Drucken von Assets{#printing-assets}
 
-Führen Sie zum Drucken von Assets die folgenden Schritte aus:
-
 1. Wählen Sie im Durchsuchenbedienfeld die zu druckenden Assets aus.
-1. Wählen Sie „Datei“ > „Drucken“ oder drücken Sie Strg+P (Windows) bzw. Befehl+P (Macintosh).
-1. Geben Sie im Dialogfeld „Drucken“ an, wie viele Exemplare gedruckt werden sollen, und klicken Sie dann auf die Schaltfläche „Drucken“.
-
+1. Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Drucken]** oder drücken Sie `Ctrl+P` (Windows®) bzw. `Command+P` (Macintosh).
+1. Wählen Sie im Dialogfeld &quot;Drucken&quot;aus, wie viele Exemplare gedruckt werden sollen, und klicken Sie dann auf **[!UICONTROL Drucken]**.
