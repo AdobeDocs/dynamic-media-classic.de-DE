@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic, Viewer, Zoom
 role: Business Practitioner
+exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 64%
+source-wordcount: '835'
+ht-degree: 63%
 
 ---
-
 
 # Kurzanleitung: Zoom{#quick-start-zoom}
 
@@ -62,7 +62,7 @@ Die Zoomschaltflächen werden angezeigt. Sie können sehen, wie die Zoombilder a
 
 Beim Veröffentlichen von Zoombildern werden diese auf Dynamic Media-Image-Servern gespeichert, damit sie an Ihre Website und Anwendung gesendet werden können. Während des Veröffentlichungsvorgangs aktiviert Dynamic Media Classic URL-Zeichenfolgen. Diese URL-Zeichenfolgen rufen Zoombilder von Dynamic Media-Image-Servern für Ihre Website oder Anwendung auf.
 
-Klicken Sie auf der Symbolleiste für globale Navigation auf die Schaltfläche „Veröffentlichen“, um einen Veröffentlichungsvorgang einzuleiten. Klicken Sie im Anzeigebereich „Veröffentlichen“ auf die Schaltfläche „Veröffentlichungsvorgang starten“. Siehe [Veröffentlichen von Zoombildern](publishing-zoom-images.md#publishing_zoom_images).
+Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL „Veröffentlichen“]**. Klicken Sie im Dialogfeld &quot;Veröffentlichen&quot;auf &quot;Veröffentlichen senden&quot;. Siehe [Veröffentlichen von Zoombildern](publishing-zoom-images.md#publishing_zoom_images).
 
 **6. Verknüpfen von Zoom-Viewern mit einer Website**
 
