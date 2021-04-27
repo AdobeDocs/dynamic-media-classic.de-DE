@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 41%
+source-wordcount: '146'
+ht-degree: 37%
 
 ---
-
 
 # Veröffentlichen von Adobe Analytics-Konfigurationsinformationen{#publishing-adobe-analytics-configuration-information}
 
@@ -30,8 +30,7 @@ Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)
 
 Siehe [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-**So veröffentlichen Sie Konfigurationsinformationen**
+**So veröffentlichen Sie Konfigurationsinformationen:**
 
-1. Klicken Sie in der globalen Navigationsleiste auf **„Veröffentlichen“**.
-1. Klicken Sie im Dialogfeld „Veröffentlichen“ auf **„Veröffentlichungsvorgang starten“**.
-
+1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL „Veröffentlichen“]**.
+1. Klicken Sie im Dialogfeld &quot;Veröffentlichen&quot;auf **[!UICONTROL Veröffentlichen senden]**.
