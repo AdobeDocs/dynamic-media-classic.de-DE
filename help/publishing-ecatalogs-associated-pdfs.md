@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic, Viewer, E-Katalog
 role: Business Practitioner
+exl-id: 00b70162-2394-433d-a46c-1d90667030af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 33%
+source-wordcount: '190'
+ht-degree: 26%
 
 ---
-
 
 # Veröffentlichen von E-Katalogen und zugehörigen PDFs{#publishing-ecatalogs-and-associated-pdfs}
 
@@ -26,15 +26,15 @@ Beim Veröffentlichen werden der E-Katalog und die PDF-Datei auf Dynamic Media-I
 >
 >Vergewissern Sie sich, dass sich der E-Katalog und die PDF-Datei im selben Ordner befinden und im Durchsuchenbedienfeld oder auf der Seite &quot;Asset-Details&quot;zur Veröffentlichung markiert sind, bevor Sie sie veröffentlichen.
 
-So veröffentlichen Sie den E-Katalog auf Dynamic Media-Image-Servern
+**So veröffentlichen Sie E-Kataloge und zugehörige PDFs**
 
-1. Klicken Sie in der Symbolleiste für globale Navigation auf **Veröffentlichen**.
-1. Wählen Sie im Anzeigebereich „Veröffentlichen“ eine der „Wann“-Optionen („Einmalig“ oder „Wiederkehrend“).
-1. (Optional) Sie können einen Namen für den Veröffentlichungsauftrag eingeben. Lassen Sie die aus Datum und Uhrzeit bestehende Zeitmarke jedoch unverändert.
+1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL „Veröffentlichen“]**.
+1. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**.
+1. (Optional) Geben Sie im Feld &quot;Auftragsname&quot;einen Namen für den Veröffentlichungsauftrag ein, behalten Sie jedoch den vordefinierten Datums- und Uhrzeittext bei.
 
-   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Klicken Sie auf Erweitert und dann auf Erweiterte Optionen. Klicken Sie im Dropdown-Menü Veröffentlichen auf Vollständige Suchdaten. Diese Option ist standardmäßig aktiviert.
+   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Klicken Sie im Dialogfeld &quot;Veröffentlichen&quot;auf **[!UICONTROL Erweitert]**. Klicken Sie im Dropdownmenü **[!UICONTROL Veröffentlichen]** auf **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
 
-1. Klicken Sie auf **Beginn Publish**.
+1. Klicken Sie auf ****[!UICONTROL Veröffentlichung]****.
 
 >[!MORELIKETHIS]
 >
