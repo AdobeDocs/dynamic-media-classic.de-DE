@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 53%
+source-wordcount: '850'
+ht-degree: 52%
 
 ---
-
 
 # Kurzanleitung: Bildgrößenänderung{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ Das Veröffentlichen Ihrer Masterbilddateien hat zwei wichtige Auswirkungen:
 * Veröffentlichen von Übergeordnet erstellten Bildern auf Dynamic Media-Image-Servern, damit die Bilder dynamisch an Ihre Website und Anwendung übertragen werden können.
 * Beim Veröffentlichen werden die URL-Zeichenfolgen aktiviert, mit denen Bilder von den Dynamic Media-Image-Servern für Ihre Website oder Anwendung aufgerufen werden können. Nach der Veröffentlichung können Sie die von Dynamic Media Classic generierten URLs kopieren und gegebenenfalls in Ihre Website oder Anwendung einfügen.
 
-Klicken Sie auf der Symbolleiste für globale Navigation auf die Schaltfläche „Veröffentlichen“, um einen Veröffentlichungsvorgang einzuleiten. Klicken Sie im Anzeigebereich „Veröffentlichen“ auf die Schaltfläche „Veröffentlichungsvorgang starten“. Siehe [Veröffentlichen von Masterbildern](publishing-master-images.md#publishing_master_images).
+Klicken Sie auf der Symbolleiste für globale Navigation auf die Schaltfläche „Veröffentlichen“, um einen Veröffentlichungsvorgang einzuleiten. Klicken Sie im Dialogfeld &quot;Veröffentlichen&quot;auf **[!UICONTROL Veröffentlichen senden]**. Siehe [Veröffentlichen von Masterbildern](publishing-master-images.md#publishing_master_images).
 
-**5. Verknüpfen von URLs mit einer Web-Anwendung**
+**5. Verknüpfen von URLs mit einer Web-Anwendung:**
 
 Dynamic Media Classic erstellt URL-Zeichenfolgen zum Aufrufen von Bildern. Wenn Sie Bilder auf Dynamic Media-Image-Servern veröffentlichen, werden die URLs aktiv. Sie können diese URL-Zeichenfolgen vom Durchsuchenbedienfeld (in der Detailansicht) oder vom Anzeigebereich „Vorschau“ aus kopieren. Nach dem Kopieren sind die URL-Zeichenfolgen auf der Website und in Anwendungen einsetzbar. Die URL für die Bildgrößenänderung ersetzt den Verweis auf den Namen eines statischen Bildes im Code Ihrer Website. Die URL referenziert einen Masterbildnamen, der über Ihre Datenbank für jedes neue anzuzeigende Bild ersetzt wird.
 
