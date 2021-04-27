@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic, Viewer, Rotationssets
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # Kurzanleitung: Rotationssets{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Siehe [Anzeigen einer Vorschau für ein Rotationsset](previewing-spin-set.md#pre
 
 Beim Veröffentlichen eines Rotationssets wird es auf Dynamic Media Classic-Servern gespeichert, damit es dynamisch an Ihre Website oder Anwendung übertragen werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, mit der das Rotationsset von den Dynamic Media-Image-Servern für Ihre Website oder Anwendung aufgerufen wird.
 
-Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie im Durchsuchenbedienfeld auf das Symbol **Zur Veröffentlichung markieren** neben dem Namen des Rotationssets klicken. Klicken Sie in der Symbolleiste für globale Navigation auf **Veröffentlichen**, um eine Veröffentlichung zu starten. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Beginn Publish**.
+Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie im Durchsuchenbedienfeld auf das Symbol **Zur Veröffentlichung markieren** neben dem Namen des Rotationssets klicken. Klicken Sie in der Symbolleiste für globale Navigation auf **Veröffentlichen**, um eine Veröffentlichung zu starten. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Veröffentlichen senden**.
 
 Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a-spin-set).
 
