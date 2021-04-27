@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: a019f973-7647-466f-8af3-5312e9225e89
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 78%
+source-wordcount: '819'
+ht-degree: 28%
 
 ---
-
 
 # Persönliche Einstellungen {#personal-setup}
 
@@ -32,95 +32,86 @@ Die persönlichen Einstellungen steuern das Standardverhalten des Durchsuchenbed
 
 Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewiesene Benutzerrolle.
 
-### Desktop-Version
+## Desktop
 
-Klicken Sie auf Jetzt installieren, um die Desktop-Version von Dynamic Media Classic auf Ihrer lokalen Festplatte zu installieren. Alternativ dazu können Sie auf „Jetzt neu installieren“ klicken, um die Desktop-Version erneut zu installieren.
+* **Bildcache**  löschen: Entfernt alle Adobe-Dynamic Media-zwischengespeicherten Bilddateien von Ihrem Computer.
+* **Asset-Cache löschen** : Entfernt alle Adoben, in denen Dynamic Media Asset-Dateien zwischenspeichert.
 
-## So installieren Sie das Zusatzmodul auf Ihrer lokalen Festplatte
+Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den Cache auch direkt aus dem Dateisystem löschen. Navigieren Sie je nach Betriebssystem zu den folgenden Schritten:
 
-1. Klicken Sie auf der Seite &quot;Persönliche Einstellungen&quot;in Dynamic Media Classic unter &quot;Illustrator Plug-in for Web-to-Print&quot;auf **Jetzt herunterladen**, um das **Illustrator-Plugin für Web-to-Print.zip** herunterzuladen.
-1. Entpacken Sie die ZIP-Datei in einen temporären Ordner.
+* macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+* Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-   Im Stammverzeichnis der entpackten ZIP-Datei ist eine Readme-Datei enthalten, in der Sie zusätzliche Informationen zum Zusatzmodul finden.
+## Creative Suite Extension
 
-1. Führen Sie je nach installiertem Betriebssystem einen der folgenden Schritte durch:
+**So installieren Sie Adobe Dynamic Media Creative Suite Extension:**
 
-### Windows
+1. Klicken Sie in Dynamic Media Classic auf der Symbolleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]** und klicken Sie unter &quot;Creative Suite Extension&quot;auf **[!UICONTROL Jetzt herunterladen]**, um die Datei `s7csxs.zxp` herunterzuladen.
+1. Klicken Sie auf die Links **[!UICONTROL Installation]** und **[!UICONTROL Systemanforderungen]**, um weitere Informationen zur Erweiterung anzuzeigen.
 
-| Bei der Ausführung von | Schritte |
+<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+
+1. Depending on your installed operating system, do one of the following: -->
+
+<!-- #### Windows
+
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC-2014.</li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64.</li><li>Klicken Sie auf libraries > flame und kopieren Sie die Datei `aflame.dll` in den ausführbaren Adobe Illustrator-Ordner. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen.  <br/><ul><li>Kehren Sie zum selben Ordner libraries zurück, klicken Sie auf flamingo und kopieren Sie die Datei `aflamingo.dll` in denselben ausführbaren Adobe Illustrator-Ordner, den Sie im vorherigen Schritt verwendet haben. </li><li>Je nachdem, welchen Ordner Sie in Schritt 2 ausgewählt haben, kehren Sie zum win32- oder win64-Ordner zurück und kopieren Sie die Datei `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
-| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC. </li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64.</li><li> Kopieren Sie `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
-| Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf 6.0. </li><li>Je nachdem, welche Adobe Illustrator-Version Sie verwenden, klicken Sie auf win32 oder win64. </li><li>Kopieren Sie die Datei AdobeS7FXGFileFormat.aip in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Hinweis**: Dieser Beispielpfad bezieht sich auf den 64-Bit-Speicherort. Der 32-Bit-Speicherort kann stattdessen unter Programm Files (x86) fallen. |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014.</li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li>Click libraries > flame, and then copy `aflame.dll` to Adobe Illustrator's executable folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead. <br/><ul><li>Return to the same libraries folder, click flamingo, and then copy `aflamingo.dll` to the same Adobe Illustrator executable folder that you used in the previous step. </li><li>Return to the win32 or win64 folder that you selected in step 2, and then copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64. </li><li>Copy AdobeS7FXGFileFormat.aip to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
 
-### Mac
+#### Mac
 
-| Bei der Ausführung von | Schritte |
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 in Adobe Creative Cloud 2014 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC-64 > mac64.</li><li>Klicken Sie auf libraries > flame und kopieren Sie den Ordner `aflame.framework` in den Adobe Illustrator-Ordner für Paketinhalte. Beispiel, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Um den Paketinhalt-Ordner von Adobe Illustrator zu öffnen, klicken Sie mit der rechten Maustaste auf das Symbol Adobe Illustrator CC 2014 und klicken Sie im Kontextmenü auf Paketinhalt anzeigen).</li><li>Kehren Sie zum selben Ordner libraries zurück, klicken Sie auf `flamingo` und kopieren Sie den Ordner `aflamingo.framework` in denselben Adobe Illustrator-Ordner für Paketinhalte, den Sie im vorherigen Schritt verwendet haben.</li><li>Kehren Sie zum Ordner mac64 zurück, den Sie in Schritt 1 ausgewählt haben, und kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 in Adobe Creative Cloud | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf CC > mac64</li><li>Kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 in Adobe Creative Suite 6 | <ul><li>Klicken Sie im Stammverzeichnis des entpackten Ordners auf 6.0 > mac64</li><li>Kopieren Sie den Ordner `AdobeS7FXGFileFormat.aip` in den Adobe Illustrator-Ordner für Zusatzmodule. Beispiel, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014 > mac64.</li><li>Click libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator’s package contents folder, right-click on the Adobe illustrator CC 2014 icon and click Show Package Contents from context menu).</li><li>Return to the same libraries folder, click `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-Das Zusatzmodul ist nun in Adobe Illustrator verfügbar und kann verwendet werden.
+The plug-in is now available for you to use in Adobe Illustrator. -->
 
-### Browser
+## Browser
 
-* **Größe für Miniaturansichten**
-   * Legt die Standardgröße für Miniaturansichten in der Rasteransicht im Durchsuchenbedienfeld fest.
-* **Standardansicht für Asset-Bibliothek**
-   * Legt fest, ob die Assets in der Asset-Bibliothek als Miniaturansichten oder als Liste von Namen angezeigt werden sollen. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
-* **Standardsortierreihenfolge für das Durchsuchen**
-   * Legt die Reihenfolge fest, in der Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
-* **Standard-Speicherort für Durchsuchen**
-   * Hiermit können Sie die Suchposition auf Standard, den zuletzt durchsuchten Ordner oder eine bestimmte Position festlegen, zu der Sie navigieren und sie identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
-* **Standardansicht beim Durchsuchen**
-   * Legt fest, ob beim ersten Öffnen des Durchsuchenbedienfelds standardmäßig die Rasteransicht oder die Listenansicht angezeigt werden soll.
-* **Darstellung von Vorschaltseiten**
-   * Legt fest, ob Vorschaltseiten wie der Begrüßungsbildschirm angezeigt werden sollen.
-* **QuickInfo einblenden**
-   * Legt fest, ob QuickInfos angezeigt werden sollen, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationsverknüpfungen bewegen. QuickInfos enthalten Beschreibungen der angezeigten Elemente.
-* **Schachbretthintergrund**
-   * Zeigt hinter Bildern eine Ebene mit Schachbrettmuster an, sodass bei Bildern mit Alpha-Kanal die transparenten Bereiche leicht erkennbar sind.
-* **Dateigröße anzeigen**
-   * Zeigt beim Durchsuchen die Dateigröße eines Assets an.
-* **Ben.-def. Felder in Suche einschließen**
-   * Deaktiviert (Standard), um die Systemleistung bei den meisten möglichen Metadaten-Suchen zu verbessern.
+* **Größe**  der Miniaturansichten: Legt die Standardgröße der Miniaturansichten in der Ansicht &quot;Raster&quot;im Durchsuchenbedienfeld fest.
+* **Standardmäßige Ansicht**  der Asset-Bibliothek: Legt fest, ob die Assets in der Asset-Bibliothek für Buildsätze als Miniaturansichten oder anhand des Namens angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
+* **Standardmäßige Sortierreihenfolge**  für Durchsuchen: Legt fest, in welcher Reihenfolge Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
+* **Standardspeicherort**  für Durchsuchen: Hiermit können Sie den Durchsuchenspeicherort auf den Standard- oder den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und diesen identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
+* **Standardmäßige Durchsuchen-Ansicht** : Legt fest, ob die Ansicht der Rastereinstellungen oder der Listen die Ansicht ist, die beim ersten Öffnen des Durchsuchenbedienfelds standardmäßig angezeigt wird.
+* **Startbildschirm** : Legt fest, ob Startbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
+* **QuickInfos**  anzeigen: Legt fest, ob QuickInfos angezeigt werden, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationslinks bewegen. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
+* **Schachbretthintergrund** : Zeigt hinter Bildern eine Schachbrettebene an, sodass Sie die transparenten Bereiche eines Bildes mit einem Alpha-Kanal leicht erkennen können.
+* **Dateigröße**  anzeigen: Zeigt die Dateigröße eines Assets beim Durchsuchen an.
+* **UDFs in Suche**  einbeziehen - Zur Verbesserung der Systemleistung bei den meisten von Ihnen ausgeführten Metadaten-Suchen deaktivieren Sie die Option (Standard).
 
-Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ bietet Ihnen die erweiterte Suche eine zielgerichtetere und schnellere Suche als bei der Verwendung benutzerdefinierter Felder.
+   Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ bietet Ihnen die erweiterte Suche eine zielgerichtetere und schnellere Suche als bei der Verwendung benutzerdefinierter Felder.
 
-Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
+   Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
 
-Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
+   Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
 
-* **Einfacher Suchtyp**
-   * Wählen Sie einen Standardsuchtyp, „Enthält“ oder „Beginnt mit“.
-* **Media Portal-Funktionen anzeigen**
-   * Wählen Sie diese Option, um auf Media Portal-Funktionen wie den Warenkorb zuzugreifen.
-* **Befehlsfeedback anzeigen**
-   * Zeigt Befehlsanfragen an den Server an.
-* **Dialog beim Exportieren anzeigen**
-   * Zeigt beim Exportieren ein Dialogfeld an. Wenn Sie die Auswahl dieser Option aufheben, können Sie trotzdem die Ergebnisse des Exports auf der Seite „Aufträge“ abrufen.
+* **Einfacher Suchtyp** : Sie können aus zwei Optionen auswählen:  **** Enthält die vollständige Zeichenfolge nach dem angegebenen Wert;  **[!UICONTROL Starts]** Entzieht Suchläufen am Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als  **[!UICONTROL Enthält]**. Bei beiden Optionen wird die Standardeinstellung außer Kraft gesetzt, die unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Programmeinstellungen]** vom Administrator festgelegt wurde.
+* **Befehlsfeedback**  anzeigen: Wählen Sie diese Option, um die Anzeige der Befehlsanforderungen an den Server zu aktivieren. deaktivieren.
+* **Dialogfeld während Export**  anzeigen: Wählen Sie diese Option, um während des Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie trotzdem zur Seite &quot;Aufträge&quot;wechseln, um die Ergebnisse Ihres Exports abzurufen.
 
 ## E-Mail an Freunde senden
 
-* **E-Mail-Optionen**
-   * Wählen Sie aus, wie Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
-* **E-Mail-Umfang**
-   * Legt fest, ob Sie E-Mails für alle Aufträge Ihres Unternehmens erhalten möchten oder nur für Upload-Aufträge und Veröffentlichungsaufträge, die Sie selbst gestartet haben.
-* **E-Mail-Typen**
-   * Legt fest, ob Sie darüber informiert werden möchten, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
-* **Sprache**
-* **Bevorzugte Sprache**
-   * Bestimmt die Sprache der Oberfläche.
-* **Kennwort**
-* **Neues Kennwort**
-   * Geben Sie ein neues, gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
-      * Zwischen 8 und 25 Zeichen lang
-      * Mindestens einen Kleinbuchstaben
-      * Mindestens einen Großbuchstaben
-      * Mindestens eine Zahl enthalten
-      * enthält mindestens eines der folgenden Sonderzeichen: #$&amp;-_:{}
-* **Kennwort erneut eingeben**
-   * Geben Sie das neue Kennwort zur Bestätigung erneut ein.
-* **Ablaufdatum des Kennworts**
-   * Legt fest, ob Ihr Kennwort aus Sicherheitsgründen nach 72 Tagen ablaufen soll. Wenn Sie „Ja“ wählen, werden Sie nach 72 Tagen aufgefordert, ein neues Kennwort zu erstellen.
+* **E-Mail-Optionen** : Wählen Sie aus, wie Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
+* **E-Mail-Umfang** : Bestimmt, ob Sie für Ihre Firma die gesamte Auftrags-E-Mail oder nur eine E-Mail mit den von Ihnen initiierten Upload- und Veröffentlichungsaufträgen erhalten.
+* **E-Mail-Typen** : Legt fest, ob Sie informiert werden, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
+
+## Sprache
+
+* **Bevorzugte Sprache** : Bestimmt die Sprache, die Sie für die Benutzeroberfläche verwenden möchten.
+
+## Kennwort
+
+* **Aktuelles Passwort**  - Geben Sie das Passwort ein.
+* **Neues Kennwort**  - Geben Sie ein neues, gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
+   * Sie müssen zwischen 8 und 25 Zeichen lang sein.
+   * Enthält mindestens einen Kleinbuchstaben.
+   * Enthält mindestens einen Großbuchstaben.
+   * Enthält mindestens eine Zahl.
+   * enthält mindestens eines der folgenden Sonderzeichen: `# $ & - _ : { }`
+* **Kennwort**  erneut eingeben - Geben Sie das neue Kennwort erneut ein, um sicherzustellen, dass Sie es korrekt eingeben.
+* **Passwortablauf**  - Bestimmt, ob Ihr Passwort als Sicherheitsmaßnahme nach 72 Tagen abläuft. Wenn Sie „Ja“ wählen, werden Sie nach 72 Tagen aufgefordert, ein neues Kennwort zu erstellen.
