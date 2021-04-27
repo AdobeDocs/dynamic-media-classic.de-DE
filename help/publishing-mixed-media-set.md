@@ -11,10 +11,10 @@ feature: Dynamic Media Classic, Viewer, Mix-Mediensets
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**So veröffentlichen Sie ein gemischtes Medienset**
+**So veröffentlichen Sie ein gemischtes Medienset:**
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (Optional) Geben Sie im Feld **[!UICONTROL Auftragsname]** einen Namen für den Veröffentlichungsauftrag ein.
 1. Wählen Sie in den **[!UICONTROL erweiterten Optionen]** in der Dropdown-Liste **[!UICONTROL Veröffentl. auf:]** die Option **[!UICONTROL Video-Server]** aus.
 
-   Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) für zusätzliche Optionen, die festgelegt werden können.
+   Weitere Optionen, die Sie festlegen können, finden Sie unter [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options).
 
 1. Klicken Sie auf **[!UICONTROL Veröffentlichung]**.
 1. Wiederholen Sie die obigen Schritte 2 bis 4.
 1. Wählen Sie in den **[!UICONTROL erweiterten Optionen]** in der Dropdown-Liste **[!UICONTROL Veröffentl. auf:]** die Option **[!UICONTROL Image-Server]** aus.
 
-   Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) für zusätzliche Optionen, die festgelegt werden können.
+   Weitere Optionen, die Sie festlegen können, finden Sie unter [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options).
 
 1. Klicken Sie auf **[!UICONTROL Veröffentlichung]**.
