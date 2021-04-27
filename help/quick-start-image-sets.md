@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic, Viewer, Bildsätze
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 61%
 
 ---
-
 
 # Kurzanleitung: Bildsätze{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ Beim Veröffentlichen eines Bildsatzes wird dieser auf den Servern von Dynamic M
 >
 >Dieser Schritt ist nicht erforderlich, wenn Sie beim Erstellen und Speichern des Bildsatzes die Option **Nach dem Speichern veröffentlichen ausgewählt haben.*(Standard)
 
-Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol &quot;Zur Veröffentlichung markieren&quot;. Klicken Sie dann auf **Veröffentlichen**. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Beginn Publish**.
+Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol &quot;Zur Veröffentlichung markieren&quot;. Klicken Sie dann auf **Veröffentlichen**. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Veröffentlichen senden**.
 
 Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
-**6. Verknüpfen eines Bildsatzes mit Ihrer Website**
+**6. Verknüpfen eines Bildsatzes mit Ihrer Website:**
 
 Dynamic Media Classic erstellt URL-Aufrufe für Bildsätze und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 
