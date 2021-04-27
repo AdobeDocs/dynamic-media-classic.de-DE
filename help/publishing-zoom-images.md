@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic, Viewer, Zoom
 role: Business Practitioner
+exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 25%
+source-wordcount: '151'
+ht-degree: 20%
 
 ---
-
 
 # Veröffentlichen von Zoombildern{#publishing-zoom-images}
 
@@ -24,11 +24,11 @@ Beim Veröffentlichen werden Ihre Zoombilder auf Dynamic Media-Image-Servern ges
 
 ## Markieren von Bildern zur Veröffentlichung {#marking-images-for-publish}
 
-Die Bilder müssen zur Veröffentlichung markiert werden, damit sie auf die Dynamic Media-Image-Server kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol **Zur Veröffentlichung markieren** klicken. Sie können Bilder auch während des Hochladens zur Veröffentlichung markieren.
+Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Server kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** klicken. Sie können Bilder auch beim Hochladen zur Veröffentlichung markieren.
 
-## Veröffentlichen von Bildern  {#publishing-the-images}
+## Veröffentlichen von Bildern {#publishing-the-images}
 
-Um Zoombilder zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf **Veröffentlichen**. Wählen Sie dann die Option **Wenn (Einmalig oder Wiederkehrend)**, geben Sie optional einen Namen für den Veröffentlichungsauftrag ein und klicken Sie auf **Beginn Publish**.
+Um Zoombilder zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Veröffentlichen]** und wählen Sie dann die Option **[!UICONTROL Wenn]** (**[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**). Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Klicken Sie auf **Veröffentlichung**.
 
 >[!MORELIKETHIS]
 >
