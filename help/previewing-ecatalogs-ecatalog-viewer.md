@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic, Viewer, E-Katalog
 role: Business Practitioner
+exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 93%
+source-wordcount: '252'
+ht-degree: 81%
 
 ---
-
 
 # Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
@@ -26,19 +26,19 @@ Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_defa
 
 Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing_an_asset).
 
-**So zeigen Sie eine Vorschau von E-Katalogen im E-Katalog-Viewer an**
+**So zeigen Sie eine Vorschau von E-Katalogen im E-Katalog-Viewer an:**
 
 1. Wählen Sie auf der linken Seite der Asset-Bibliothek in der Dropdown-Liste „Anzeigen“ einen videobasierten Asset-Typ, z. B. „Video“ oder „Videoset“.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu den Asset-Ordnern, die Videos enthalten, die Sie mit einem E-Katalog-Viewer in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Rasteransicht“. Klicken Sie im Assets-Fenster unter dem Miniaturbild auf „Vorschau“ > „Viewer-Liste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Listenansicht“. Wählen Sie im Assets-Fenster ein Asset und klicken Sie dann rechts neben dem Miniaturbild auf „Vorschau“ > „Viewer-Liste“.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf „Detailansicht“. Klicken Sie in der gleichen Symbolleiste auf „Vorschau“ > „Viewer-Liste“.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Rasteransicht“]**. Klicken Sie im Fenster &quot;Asset&quot;unter dem Miniaturbild auf **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Listenansicht“]**. Wählen Sie im Fenster „Asset“ ein Asset und klicken Sie dann rechts neben dem Miniaturbild auf **[!UICONTROL „Vorschau“]** > **[!UICONTROL „Viewer-Liste“]**.
+   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Detailansicht“]**. Klicken Sie in der gleichen Symbolleiste auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
 1. Klicken Sie im Fenster „Viewer-Liste“ in der Tabelle auf einen Viewer-Hyperlink, um das Asset im ausgewählten Viewer als Vorschau anzuzeigen.
-1. Schließen Sie den angezeigten Viewer, um zum Bildschirm „Viewer-Liste“ zurückzukehren.
-1. Klicken Sie in der rechten unteren Ecke des Fensters „Viewer-Liste“ auf „Schließen“, um zum Assets-Fenster zurückzukehren.
+1. Schließen Sie den angezeigten Viewer.
+1. Klicken Sie unten rechts im Fenster &quot;Viewer-Liste&quot;auf **[!UICONTROL Schließen]**, um zum Assets-Bildschirm zurückzukehren.
 
 >[!MORELIKETHIS]
 >
