@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Viewer
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 62%
 
 ---
-
 
 # Kurzanleitung: Mustersets{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 Beim Veröffentlichen eines Mustersets wird es auf den Servern von Dynamic Media Classic platziert und die URL-Zeichenfolge aktiviert.
 
-Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol **Zur Veröffentlichung markieren**. Klicken Sie dann auf **Veröffentlichen**. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Beginn Publish**.
+Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol **Zur Veröffentlichung markieren**. Klicken Sie dann auf **Veröffentlichen**. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Veröffentlichen senden**.
 
 Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
