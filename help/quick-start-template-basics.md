@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # Kurzanleitung: Vorlagen aus Grundelementen{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ Beim Veröffentlichen der Vorlage wird diese auf Dynamic Media-Image-Servern ges
 
 Achten Sie darauf, alle Bilder zu veröffentlichen, die der Vorlage zugeordnet sind.
 
-Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und klicken in der Symbolleiste für globale Navigation auf „Veröffentlichen“. Klicken Sie anschließend auf „Veröffentlichungsvorgang starten“. Siehe [Veröffentlichen von Vorlagen](publishing-templates.md#publishing_templates).
+Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und klicken in der Symbolleiste für globale Navigation auf „Veröffentlichen“. Klicken Sie dann auf **[!UICONTROL Veröffentlichung senden]**. Siehe [Veröffentlichen von Vorlagen](publishing-templates.md#publishing_templates).
 
 **5. Verknüpfen einer Vorlage mit einer Website**
 
