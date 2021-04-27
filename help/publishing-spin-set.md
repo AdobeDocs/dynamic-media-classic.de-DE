@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic, Viewer, Rotationssets
 role: Business Practitioner
+exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 44%
+source-wordcount: '176'
+ht-degree: 22%
 
 ---
-
 
 # Veröffentlichen eines Rotationssets{#publishing-a-spin-set}
 
@@ -24,11 +24,11 @@ Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic M
 
 ## Markieren eines Rotationssets zur Veröffentlichung {#marking-a-spin-set-for-publish}
 
-Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Dynamic Media Classic-Image-Server kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld links neben dem Namen des Rotationssets auf das Symbol „Zur Veröffentlichung markieren“  klicken. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
+Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Dynamic Media Classic-Image-Server kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** links neben dem Namen klicken. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
 
 ## Veröffentlichen des Rotationssets  {#publishing-the-spin-set}
 
-Um ein Rotationsset auf Dynamic Media-Image-Servern zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf &quot;Veröffentlichen&quot;. Wählen Sie dann eine „Wann“-Option aus, geben Sie optional einen Namen für den Veröffentlichungsauftrag ein und klicken Sie auf „Veröffentlichungsvorgang starten“.
+Um ein Rotationsset auf Dynamic Media-Image-Servern zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Veröffentlichen]**. Wählen Sie dann die Option **[!UICONTROL Wenn]**. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Klicken Sie auf **[!UICONTROL Veröffentlichung]**.
 
 >[!MORELIKETHIS]
 >
