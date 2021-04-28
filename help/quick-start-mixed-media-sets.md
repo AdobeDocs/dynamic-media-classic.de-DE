@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic, Viewer, Mix-Mediensets
 role: Business Practitioner
+exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 79%
+source-wordcount: '637'
+ht-degree: 52%
 
 ---
-
 
 # Kurzanleitung: Gemischte Mediensets{#quick-start-mixed-media-sets}
 
@@ -24,31 +24,29 @@ Gemischte Mediensets von bieten Benutzern eine integrierte Anzeigeerfahrung. Gem
 
 Die Viewer-Vorgaben für gemischte Mediensets enthalten Community-Optionen, mit denen Endbenutzer Code einbetten, URLs kopieren und Verknüpfungen zur Haupt-Website erstellen können. Über diese Optionen können Benutzer Produktinformationen auf ihren eigenen Websites oder Social-Networking-Sites zur Verfügung stellen.
 
-**Quick Beginn**
-
 Dieser Beginn für Gemischte Mediensets Quick hilft Ihnen, sich schnell mit den Techniken für gemischte Mediensets in Dynamic Media Classic vertraut zu machen.
 
-**1. Hochladen der Bilder, Musterdateien und Videos**
+## 1. Hochladen der Bilder, Musterdateien und Videos
 
-Laden Sie zunächst die Bilder, Musterdateien und Videos für Ihre gemischten Mediensets hoch. Da Benutzer Bilder im Viewer für gemischte Mediensets zoomen können, sollten Sie beim Auswählen von Bildern auch das Zoomen berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat.
+Laden Sie zunächst die Bilder, Musterdateien und Videos für Ihre gemischten Mediensets hoch. Da die Benutzer Bilder im Viewer für gemischte Mediensets heranzoomen können, sollten Sie diese Möglichkeit bei der Auswahl der Bilder berücksichtigen. Achten Sie darauf, dass die Bilder die größte Größe von mindestens 2000 Pixel haben.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen.
+Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Hochladen]**, um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen.
 
 Siehe [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
-**2. Erstellen von Mediensets zur Verwendung im gemischten Medienset**
+## 2. Erstellen von Mediensets zur Verwendung im gemischten Medienset
 
 Sie können Bilder, Bildsätze, Mustersets, Rotationssets und Videos zu Ihrem gemischten Medienset hinzufügen. Bereiten Sie die Mediensets vor, bevor Sie sie zum gemischten Medienset hinzufügen.
 
 Siehe [Erstellen eines Bildsatzes](creating-image-set.md#creating-an-image-set), [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set) und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
 
-**3. Erstellen eines gemischten Mediensets**
+## 3. Erstellen eines gemischten Mediensets
 
-Klicken Sie auf die Schaltfläche „Erstellen“ und wählen Sie „Gemischte Mediensets“. Ziehen Sie die Bilder, Mustersets, Bildsätze und Videos auf den Anzeigebereich „Gemischtes Medienset“. Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“. 
+Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Erstellen]** > **[!UICONTROL Gemischte Mediensets]**. Ziehen Sie die Bilder, Mustersets, Bildsätze und Videos auf die Seite &quot;Gemischte Mediensets&quot;. Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“. 
 
 Siehe [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-**4. Einrichten der Vorgaben für gemischte Mediensets**
+## 4. Einrichten von Viewer-Vorgaben für gemischte Medien
 
 Im Lieferumfang von Dynamic Media Classic sind standardmäßige Viewer-Vorgaben für gemischte Mediensets enthalten. Administratoren können Viewer-Vorgaben für gemischte Mediensets erstellen oder ändern.
 
@@ -56,13 +54,13 @@ Beim Einrichten einer Viewer-Vorgabe für gemischte Mediensets fügen Sie die Vi
 
 Siehe [Einrichten einer Viewer-Vorgabe für gemischte Mediensets](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) und [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
-**5. Anzeigen einer Vorschau eines gemischten Mediensets**
+## 5. Anzeigen einer Vorschau eines gemischten Mediensets
 
-Klicken Sie auf die Rollover-Schaltfläche „Vorschau“ des gemischten Mediensets. Das gemischte Medienset wird angezeigt. Sie können auf die Miniaturansichten und Mustersymbole klicken, um das gemischte Medienset im gemischten Medienset-Viewer genau zu betrachten. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen. 
+Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]** des gemischten Mediensets. Sie können auf die Miniaturansichten und Mustersymbole klicken, um das gemischte Medienset im gemischten Medienset-Viewer genau zu betrachten. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen. 
 
 Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
-**6. Veröffentlichen eines gemischten Mediensets**
+## 6. Veröffentlichen eines gemischten Mediensets
 
 Beim Veröffentlichen eines gemischten Mediensets wird dieses auf den Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
@@ -70,8 +68,8 @@ Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **
 
 Siehe [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
-**7. Verknüpfen eines gemischten Mediensets mit einer Website**
+## 7. Verknüpfen eines gemischten Mediensets mit einer Webseite
 
-Dynamic Media Classic aktiviert URL-Aufrufe für gemischte Mediensets, nachdem Sie sie veröffentlicht haben. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
+Dynamic Media Classic aktiviert URL-Aufrufe für gemischte Mediensets, nachdem Sie sie veröffentlicht haben. Sie können diese URLs von der Seite &quot;Vorschau&quot;kopieren.
 
-Wählen Sie das gemischte Medienset aus und klicken Sie auf „Vorschau“. Wählen Sie im Anzeigebereich „Vorschau“ eine Viewer-Vorgabe für gemischte Mediensets aus und klicken Sie dann auf „URL kopieren“. Siehe [Verknüpfen eines gemischten Mediensets mit einer Webseite](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Wählen Sie das gemischte Medienset aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Wählen Sie auf der Seite &quot;Vorschau&quot;eine Viewer-Vorgabe für gemischte Mediensets aus und klicken Sie dann auf **[!UICONTROL URL kopieren]**. Siehe [Verknüpfen eines gemischten Mediensets mit einer Webseite](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
