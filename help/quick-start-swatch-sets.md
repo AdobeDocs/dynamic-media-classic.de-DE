@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Viewer
 role: Business Practitioner
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 62%
+source-wordcount: '388'
+ht-degree: 35%
 
 ---
 
@@ -22,42 +22,40 @@ ht-degree: 62%
 
 Dynamic Media Classic-Mustersets bieten Benutzern eine integrierte Anzeigeerfahrung. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
 
-**Quick Beginn**
-
 Dieser Beginn für Mustersets hilft Ihnen, sich schnell mit den Musterset-Techniken in Dynamic Media Classic vertraut zu machen.
 
-**1. Hochladen der Bilder und Musterdateien**
+## 1. Hochladen der Bilder und Musterdateien
 
 Laden Sie zuerst die Bilder und Musterdateien für die Mustersets hoch.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf &quot;Hochladen&quot;, um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
+Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Hochladen]**, um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
-**2. Erstellen eines Mustersets**
+## 2. Erstellen eines Mustersets
 
-Um ein Musterset zu erstellen, klicken Sie auf „Erstellen > Mustersets“. Ziehen Sie im Anzeigebereich „Musterset“ die Bilder und Farbfelder in den Anzeigebereich. Siehe [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set).
+Um ein Musterset zu erstellen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Erstellen]** > **[!UICONTROL Mustersets]**. Ziehen Sie auf der Seite &quot;Musterset&quot;Bilder und Farbfelder auf die Seite. Siehe [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set).
 
-**3. Einstellen von Musterset-Viewer-Vorgaben**
+## 3. Einrichten von Musterset-Viewer-Vorgaben
 
 Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
 
 Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
-**4. Anzeigen einer Vorschau für ein Musterset**
+## 4. Anzeigen einer Vorschau eines Mustersets
 
-Wählen Sie das Musterset im Durchsuchenbedienfeld aus und klicken Sie auf „Vorschau“. Das Musterset wird in diesem Anzeigebereich angezeigt. Klicken Sie auf die Miniaturansichten und Mustersymbole, um das Musterset im Bildsatz-Viewer genau zu betrachten. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
+Wählen Sie das Musterset im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Ihr Musterset wird auf dieser Seite angezeigt. Klicken Sie auf die Miniaturansichten und Mustersymbole, damit Sie das Musterset im ausgewählten Viewer überprüfen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
 
 Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
-**5. Veröffentlichen eines Mustersets**
+## 5. Veröffentlichen eines Mustersets
 
 Beim Veröffentlichen eines Mustersets wird es auf den Servern von Dynamic Media Classic platziert und die URL-Zeichenfolge aktiviert.
 
-Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol **Zur Veröffentlichung markieren**. Klicken Sie dann auf **Veröffentlichen**. Klicken Sie im Anzeigebereich &quot;Veröffentlichen&quot;auf **Veröffentlichen senden**.
+Klicken Sie im Durchsuchenbedienfeld links neben dem Namen auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]**. Klicken Sie dann auf **[!UICONTROL Veröffentlichen]**. Klicken Sie auf der Seite &quot;Veröffentlichen&quot;auf **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
-**6. Verknüpfen eines Mustersets mit einer Website**
+## 6. Verknüpfen eines Mustersets mit einer Website
 
-Dynamic Media Classic erstellt URL-Aufrufe für Mustersets und aktiviert sie nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
+Dynamic Media Classic erstellt URL-Aufrufe für Mustersets und aktiviert sie nach der Veröffentlichung. Sie können diese URLs von der Seite &quot;Vorschau&quot;kopieren.
 
-Markieren Sie dazu das Musterset und klicken Sie auf „Vorschau“. Der Anzeigebereich „Vorschau“ wird geöffnet. Wählen Sie anschließend eine Musterset-Viewer-Vorgabe aus und klicken Sie auf „URL kopieren“. Siehe [Verknüpfen eines Mustersets mit einer Website](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Markieren Sie dazu das Musterset und klicken Sie auf „Vorschau“. Die Seite &quot;Vorschau&quot;wird geöffnet. Wählen Sie anschließend eine Musterset-Viewer-Vorgabe aus und klicken Sie auf „URL kopieren“. Siehe [Verknüpfen eines Mustersets mit einer Website](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
