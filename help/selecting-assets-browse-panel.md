@@ -7,29 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 8e6ce2bf-c99b-4106-942a-1716f152c7b2
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
+exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 29%
+ht-degree: 18%
 
 ---
 
-
 # Auswählen von Assets im Durchsuchenbedienfeld{#selecting-assets-in-the-browse-panel}
 
-Im Durchsuchenbedienfeld können Sie ein Asset zum Verarbeiten auswählen. Sie haben zum Auswählen von Assets die folgenden Möglichkeiten:
+Wählen Sie im Durchsuchenbedienfeld ein Asset aus, damit Sie es bearbeiten können. Sie haben zum Auswählen von Assets die folgenden Möglichkeiten:
 
-* **Ein einzelnes**
-AssetKlicken Sie auf das Asset (durch Klicken auf die Dublette wird das Asset in der Ansicht &quot;Details&quot;geöffnet).
+* **Ein einzelnes Asset** : Klicken Sie auf das Asset (klicken Sie mit der Dublette auf das Asset und öffnen Sie es in der Ansicht &quot;Details&quot;).
 
-* **Mehrere**
-Assets mit gedrückter Strg-Taste (Windows) bzw. Befehlstaste (Macintosh) auswählen, um Assets an verschiedenen Stellen im Durchsuchenbedienfeld auszuwählen. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
+* **Mehrere Assets** : Zum Auswählen von Assets an verschiedenen Stellen im Durchsuchenbedienfeld klicken Sie bei gedrückter Strg-Taste (Windows®) bzw. Befehlstaste (Macintosh) auf die Assets. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
 
-* **Alle Assets im Durchsuchenbedienfeld**
-Klicken Sie auf Auswählen > Alle.
+* **Alle Assets im Durchsuchenbedienfeld**  - Klicken Sie auf  **[!UICONTROL Auswählen]** >  **[!UICONTROL Alle]**.
 
-* **Keine**
-AssetsKlicken Sie auf Auswählen > Keine.
+* **Keine Assets**  - Klicken Sie auf  **[!UICONTROL Auswählen]**  >  **[!UICONTROL Keine]**.
