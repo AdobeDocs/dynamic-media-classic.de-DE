@@ -9,31 +9,29 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 64%
+source-wordcount: '192'
+ht-degree: 23%
 
 ---
 
-
 # Grundlagen der Einstellungen{#setup-basics}
 
-Geben Sie im Anzeigebereich &quot;Dynamic Media Classic-Einstellungen&quot;Ihre persönlichen Einstellungen ein. Falls Sie ein Administrator sind, legen Sie die Unternehmenseinstellungen fest. Klicken Sie auf die Schaltfläche „Einstellungen“ in der Symbolleiste der globalen Navigation, um einen Anzeigebereich „Einstellungen“ zu öffnen.
+Geben Sie auf der Seite &quot;Dynamic Media Classic Setup&quot;Ihre persönlichen Einstellungen ein. Falls Sie ein Administrator sind, legen Sie die Unternehmenseinstellungen fest. Um eine Seite &quot;Einstellungen&quot;zu öffnen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]**.
 
-Welche Einstellungen in diesem Anzeigebereich zur Verfügung stehen, hängt von Ihrem Status als Benutzer oder Administrator ab.
+Die auf dieser Seite verfügbaren Einstellungen hängen von Ihrem Status als Benutzer oder Administrator ab:
 
-* Benutzer können nur auf persönliche Einstellungen und die Konten der Unternehmen zugreifen, deren Mitglied sie sind. Sie können keine Verwaltungsaufgaben ausführen.
-* Administratoren haben Zugriff auf persönliche Einstellungen und können außerdem ihre eigenen Unternehmenskonten anzeigen und verwalten. Sie können weiterhin alle Funktionen zum Festlegen der Anwendungseinstellungen sowie Verwaltungsfunktionen, einschließlich des Hinzufügens von Administratoren und Benutzern, ausführen.
+* Benutzer können nur auf **[!UICONTROL Persönliche Einstellungen]** und die Konten der Firmen zugreifen, deren Mitglied sie sind. Sie können keine administrativen Aufgaben durchführen.
+* Administratoren können auf **[!UICONTROL Persönliche Einstellungen]** zugreifen, Ansichten ausführen und eigene Firmen verwalten. Sie können weiterhin alle Funktionen zum Festlegen der Anwendungseinstellungen sowie Verwaltungsfunktionen, einschließlich des Hinzufügens von Administratoren und Benutzern, ausführen.
 
-Darüber hinaus können Administratoren im Anzeigebereich „Einstellungen“ auch Bildvorgaben und Viewer-Vorgaben festlegen:
+Administratoren können Bildvorgaben und Viewer-Vorgaben auch auf der Seite **[!UICONTROL Setup]** einrichten:
 
-* **Bildvorgaben**
-sind gespeicherte Formate für die Anzeige von Übergeordnet dargestellten Bildern in unterschiedlichen Größen und Formaten.
+* **Bildvorgaben** : Bildvorgaben sind gespeicherte Formate für die Anzeige von Übergeordnet-Bildern in unterschiedlichen Größen und Formaten.
 
-* **Viewer-**
-VorgabenViewer-Vorgaben bestimmen, wie Rich-Media-Daten angezeigt werden, wenn sie in einem Viewer angezeigt werden.
+* **Viewer-Vorgaben** : Mit Viewer-Vorgaben wird festgelegt, wie Rich-Media-Daten im Viewer angezeigt werden.
 
 >[!MORELIKETHIS]
 >
