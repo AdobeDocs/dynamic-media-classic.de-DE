@@ -7,7 +7,7 @@ breadcrumb-title: Dynamic Media Classic-Anleitung
 user-guide-description: Weitere Informationen zur Verwendung von Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 77%
@@ -33,7 +33,7 @@ ht-degree: 77%
    + [Häufig genutzte Ressourcen](popular-resources.md)
    + [Schulungsvideos](training-videos.md)
 + Erste Schritte {#getting-started}
-   + [Übersicht über die Adobe Dynamic Media Classic-Plattform](dmc-platform-overview.md)
+   + [Übersicht über Adobe Dynamic Media Classic Programm](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [An- und Abmeldung](signing-out.md)
    + [Grundlagen der Navigation](navigation-basics.md)
