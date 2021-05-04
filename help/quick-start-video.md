@@ -9,7 +9,7 @@ feature: Dynamic Media Classic, Viewer, Video
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 43%
@@ -40,7 +40,9 @@ Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dy
 
    Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
-   `**Note:**` Übergeordnet-/Quellvideos und andere Quellvideoformate werden keinem adaptiven Videoset  ** hinzugefügt.
+   >[!NOTE]
+   >
+   >Übergeordnet-/Quellvideos und andere Quellvideoformate werden einem adaptiven Videoset *nicht* hinzugefügt.
 
 * Videountertitel in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light sowie Videokapitelnavigation in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light.
 
