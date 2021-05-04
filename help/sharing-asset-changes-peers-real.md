@@ -7,22 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Media Classic,Asset Management,Collaboration
+feature: Dynamic Media Classic, Asset Management, Zusammenarbeit
 role: Administrator,Business Practitioner
+exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 68%
+source-wordcount: '280'
+ht-degree: 50%
 
 ---
 
-
 # Weitergeben von Asset-Änderungen an Peers in Echtzeit{#sharing-asset-changes-with-peers-in-real-time}
 
-Wenn mehrere Kopien von Dynamic Media Classic auf einem oder mehreren Computern in derselben Firma ausgeführt werden, werden die folgenden Aktionen von einem Dynamic Media Classic-Client in Echtzeit mit allen Peer-Clients aktualisiert:
+Wenn mehrere Exemplare von Dynamic Media Classic auf einem oder mehreren Computern in derselben Firma ausgeführt werden, werden die folgenden Aktionen von jedem Dynamic Media Classic-Client in Echtzeit mit allen Peer-Clients aktualisiert:
 
-* Bearbeitung eines Assets (Builder, Bild-Editor usw.)
+* Bearbeiten eines Assets (Builder, Bild-Editor usw.)
 * Umbenennung eines Assets
 * Löschung eines Assets
 * Verschiebung eines Assets
@@ -33,6 +33,6 @@ Nachdem im ursprünglichen Client eine Änderung vorgenommen wurde, werden alle 
 
 Wenn Sie sich anmelden, werden Sie aufgefordert, Peer-Aktualisierungen zuzulassen oder abzulehnen. Sie können festlegen, dass Ihre Auswahl gespeichert wird, sodass Sie die Eingabe nur einmal vornehmen müssen. Um Ihre Auswahl zu löschen, löschen Sie die jeweilige Site in den globalen Einstellungen aus dem Anzeigebereich „Peer-Netzwerk“.
 
-Wenn Sie ein Asset gerade bearbeiten, das von einem Peer geändert wurde, werden Sie aufgefordert, die Änderung in den Builder oder Editor zu übernehmen. Wenn Sie „Ja“ auswählen, verwirft der Builder oder Editor Ihre eigenen Änderungen am Asset und importiert das aktualisierte Asset. Wenn Sie „Nein“ auswählen, wird das Asset im Builder oder Editor nicht aktualisiert und Ihre eigenen Änderungen bleiben in der Sitzung erhalten.
+Wenn Sie ein Asset gerade bearbeiten, das von einem Peer geändert wurde, werden Sie aufgefordert, die Änderung in den Builder oder Editor zu übernehmen. Wenn Sie **[!UICONTROL Ja]** auswählen, verwirft der Builder oder Editor alle Änderungen, die am Asset vorgenommen wurden, und importiert das aktualisierte Asset. Wenn Sie **[!UICONTROL Nein]** wählen, bleibt das Asset im Builder oder Editor unverändert und alle Änderungen, die Sie vorgenommen haben, bleiben in dieser Sitzung erhalten.
 
 Nach dem Speichern des Assets werden Sie informiert, dass eine aktuellere Version vorhanden ist und gefragt, ob Sie das Asset mit Ihren Änderungen überschreiben möchten.
