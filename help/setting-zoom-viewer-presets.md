@@ -7,70 +7,60 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic, Viewer, Zoom
 role: Business Practitioner
+exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 68%
+source-wordcount: '607'
+ht-degree: 52%
 
 ---
 
-
 # Konfigurieren von Zoom-Viewer-Vorgaben{#setting-up-zoom-viewer-presets}
 
-Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Dynamic Media Classic bietet viele Optionen zum Anpassen und Skin von Viewern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige einfache (schnelle), Flyout- und benutzerdefinierte Zoom-Viewer-Vorgaben enthalten. Als Administrator können Sie neue unternehmensweite Zoom-Viewer-Vorgaben erstellen oder eine Standardvorgabe bearbeiten und sie unter einem neuen Namen speichern.
+Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Dynamic Media Classic bietet viele Optionen zum Anpassen und Skin von Viewern. Im Lieferumfang von Dynamic Media Classic sind standardmäßige einfache (schnelle), Flyout- und benutzerdefinierte Zoom-Viewer-Vorgaben enthalten. Als Administrator können Sie Zoom-Viewer-Vorgaben für Firmen erstellen oder eine Standardvorgabe bearbeiten und unter einem neuen Namen speichern.
 
-Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenken und Zurücksetzen des Bildes in seinen ursprünglichen Zustand vor dem Zoomen. Das Aussehen dieser Schaltflächen und des Fensters an sich hängt von den ausgewählten Zoom-Viewer-Vorgaben ab. Sie können eine Zoom-Viewer-Vorgabe mit unterschiedlichen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren. Wenn Sie einen Zoom-Viewer für geführtes Zoomen konfigurieren, können Sie darüber hinaus auch die Positionierung der Zoomziele festlegen. Zoomziele sind Miniaturansichten, auf die ein Benutzer klicken kann, um den von Ihnen zugeordneten Bildausschnitt heranzuzoomen.
+Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenken und Zurücksetzen des Bildes in seinen ursprünglichen Zustand vor dem Zoomen. Wie diese Schaltflächen aussehen und wie das Fenster selbst angezeigt wird, hängt von Ihrer Wahl der Zoom-Viewer-Vorgaben ab. Sie können eine Zoom-Viewer-Vorgabe mit unterschiedlichen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren. Wenn Sie einen Zoom-Viewer für geführtes Zoomen konfigurieren, können Sie darüber hinaus auch die Positionierung der Zoomziele festlegen. Zoomziele sind Miniaturansichten, auf die ein Benutzer klicken kann, um den von Ihnen zugeordneten Bildausschnitt heranzuzoomen.
 
 ## Zoom-Viewer-Vorgaben {#about-zoom-viewer-presets}
 
 Dynamic Media Classic-Angebote:
 
-* **Zoom-Viewer:**
-BasicStellt ein einfaches Zoomen des Originalbilds bereit.
+* **Zoom-Viewer: Einfach**  - Bietet einen einfachen Zoom auf das Originalbild.
 
-* **Zoom-Viewer: Fly-**
-outZeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
+* **Zoom-Viewer: Fly-out** : Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
 
 Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer geladen werden müssen. Die Größe des Flyout-Bildes berechnet sich aus der Größe des Hauptbildes (Anzeigebreite und -höhe) und dem Zoomfaktor. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
 
 Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoomfaktor von 3 beträgt, ist das Flyout-Bild 1050 x 1050 Pixel groß. Wenn die Größe des Hauptbildes 300 x 300 Pixel bei einem Zoomfaktor von 4 beträgt, ist das Flyout-Bild 1200 x 1200 Pixel groß. Über die Einstellung für die JPEG-Qualität (empfohlener Wert: zwischen 80 und 90) können Sie die Dateigröße deutlich reduzieren. Der empfohlene Wert für den Zoomfaktor liegt, je nach Größe des Hauptbildes, zwischen 2,5 und 4.
 
-Dynamic Media Classic empfiehlt folgende Parameter für Flyout-Zoom-Viewer-Vorgaben:
+Dynamic Media Classic empfiehlt die folgenden Parameter für Flyout-Zoom-Viewer-Vorgaben:
 
-* **Vergrößerte**
-BildgrößeUngefähr 1500 x 1500 Pixel, höchstens 2000 x 2000 Pixel.
+* **Vergrößerte Bildgröße** : Ungefähr 1500 x 1500 Pixel, nicht größer als 2000 x 2000 Pixel.
 
-* **Bildgröße**
-: 100 KB oder weniger, höchstens 150 KB (komprimieren Sie die Datei, um sie unter 150 KB zu halten).
+* **Bildgröße** : 100 KB oder weniger, maximal 150 KB (komprimieren Sie die Datei, um sie unter 150 KB zu halten).
 
-* **Zoom-Viewer:**
-BenutzerdefiniertesBietet geführtes oder nicht geführtes Zoomen mit Bildern, Bildsätzen mit mehreren Ansichten oder Farbfeldersätzen.
+* **Zoom-Viewer: Benutzerdefiniert** : Bietet geführtes oder nicht gezähltes Zoomen mit Bildern, Bildsätzen mit mehreren Ansichten oder Farbfeldsätzen.
 
 ## Erstellen und Bearbeiten von Zoom-Viewer-Vorgaben {#creating-and-editing-zoom-viewer-presets}
 
-Führen Sie zum Erstellen oder Bearbeiten einer Zoom-Viewer-Vorgabe folgende Schritte aus:
-
-1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
+1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Erstellen einer**
-VorgabeKlicken Sie auf Hinzufügen. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie einen Zoom-Viewer und klicken Sie auf &quot;Hinzufügen&quot;. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
+   * **Erstellen einer Vorgabe**  - Klicken Sie auf  **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie einen Zoom-Viewer und klicken Sie dann auf **[!UICONTROL Hinzufügen]**. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
 
-   * **Bearbeiten einer**
-VorgabeWählen Sie eine Zoom-Viewer-Vorgabe und klicken Sie dann auf 
-**Bearbeiten**.
+   * **Bearbeiten einer Vorgabe** : Wählen Sie eine Zoom-Viewer-Vorgabe und klicken Sie dann auf  **[!UICONTROL Bearbeiten]**.
 
 1. Wählen Sie die gewünschten Einstellungen aus.
 
-   Um eine Beschreibung einer Option anzuzeigen, klicken Sie neben der Option auf das Symbol „Tipp“ .
+   Um eine Beschreibung einer Option anzuzeigen, klicken Sie neben der Option auf das Symbol **[!UICONTROL Info Tipp]**.
 
-   Im Anzeigebereich „Vorschau“ werden jeweils die Auswirkungen der vorgenommenen Änderungen angezeigt.
+   Auf der Seite &quot;Vorschau&quot;wird der Viewer angezeigt, während Sie die Einstellungen aktualisieren und ändern.
 
-1. Klicken Sie auf **Speichern** oder **Speicher unter**.
-1. Überprüfen Sie im Anzeigebereich „Viewer-Vorgaben“ die neu erstellte Zoom-Viewer-Vorgabe bzw. Zoom-Viewer-Vorgabe für geführtes Zoomen. Wenn Sie eine Anpassung vornehmen müssen, klicken Sie auf **Bearbeiten**, ändern Sie die Einstellungen im Bildschirm &quot;Viewer konfigurieren&quot;und klicken Sie auf **Speichern**.
+1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speicher unter]**.
+1. Überprüfen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die erstellte Zoom-Viewer-Vorgabe oder Zoom-Viewer-Vorgabe für geführtes Zoomen. Wenn Sie eine Anpassung vornehmen müssen, klicken Sie auf **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen auf der Seite &quot;Viewer konfigurieren&quot;und klicken Sie auf ****[!UICONTROL Speichern]****.
 
 Informationen zum Verwalten von Viewer-Vorgaben im Anzeigebereich „Viewer-Vorgaben“ finden Sie unter [Viewer-Vorgaben](application-setup.md#viewer_presets).
 
