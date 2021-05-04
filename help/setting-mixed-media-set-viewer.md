@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic, Viewer, Mix-Mediensets
 role: Business Practitioner
+exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 81%
+source-wordcount: '614'
+ht-degree: 51%
 
 ---
-
 
 # Einrichten einer Viewer-Vorgabe für gemischte Mediensets{#setting-up-a-mixed-media-set-viewer-preset}
 
@@ -24,57 +24,48 @@ Viewer-Vorgaben für gemischte Mediensets bestimmen den Stil, das Verhalten und 
 
 Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Viewer hinzufügen. Die Funktion „Einbetten“ fügt eine Verknüpfung zum Viewer hinzu, über die Benutzer den Code für die Anzeige des Viewers auf einer externen Seite (wie z. B. einem Blog, einer Website oder einer Social-Networking-Site) kopieren können. Mit der Funktion „Verknüpfen“ wird dem Viewer die URL zur Verfügung gestellt, mit der Benutzer eine Verknüpfung zum Viewer erstellen können. Mit der Funktion „Zur Website“ können Sie eine Verknüpfung zu einer bestimmten Website einfügen.
 
-1. Klicken Sie auf **Einstellungen** > **Viewer-Vorgaben**.
+1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie auf der Seite &quot;Viewer-Vorgaben&quot;einen der folgenden Schritte aus:
 
-   * Um eine neue Vorgabe zu erstellen, klicken Sie auf **Hinzufügen**. Wählen Sie im Dialogfeld &quot;Hinzufügen-Viewer-Vorgabe&quot;eine Plattform, wählen Sie &quot;Viewer für gemischte Mediensets&quot;und klicken Sie dann auf **Hinzufügen**.
-   * Um eine Viewer-Vorgabe für gemischte Mediensets zu bearbeiten, wählen Sie sie aus und klicken Sie dann auf **Bearbeiten**.
+   * Um eine Vorgabe zu erstellen, klicken Sie auf **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld Hinzufügen Viewer-Vorgabe eine Plattform, wählen Sie **[!UICONTROL Viewer für gemischte Mediensets]** und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+   * Um eine Viewer-Vorgabe für gemischte Mediensets zu bearbeiten, wählen Sie sie aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
-   Der Anzeigebereich „Viewer konfigurieren“ wird geöffnet.
+1. Geben Sie auf der Seite &quot;Configuration Viewer&quot;einen Namen in das Feld &quot;Vorgabenname&quot;für die Viewer-Vorgabe für gemischte Mediensets ein.
+1. Geben Sie **[!UICONTROL Tabs]** oder **[!UICONTROL Keine Tabs]** an. Über Registerkarten können Sie Elemente nach Typ, wie z. B. Videos, Mustersets oder Rotationsets trennen. Wenn Sie keine Registerkarten angeben, werden alle Elemente in einer Zeile unter dem Fenster &quot;Vorschau&quot;angezeigt.
+1. Geben Sie in das Feld **[!UICONTROL Name]** einen Namen für den Viewer ein, den Sie hinzufügen möchten.
 
-1. Geben Sie einen Namen in das Feld „Vorgabenname“ für die Viewer-Vorgabe für gemischte Mediensets ein.
-1. Geben Sie an, ob Registerkarten verwendet werden sollen. Über Registerkarten können Sie Elemente nach Typ, wie z. B. Videos, Mustersets oder Rotationsets trennen. Wenn Sie keine Registerkarten verwenden, werden alle Elemente in einer Zeile unter dem Vorschaufenster angezeigt.
-1. Geben Sie im Feld „Name“ einen Namen für den Viewer ein, den Sie hinzufügen möchten.
-
-   Falls Sie beispielsweise ein Musterset zu Ihrem gemischten Medienset hinzufügen, so geben Sie *Musterset A* ein.
+   Wenn Sie beispielsweise ein Musterset zu Ihrem gemischten Medienset hinzufügen, geben Sie `Swatch Set A` ein.
 
 1. Wählen Sie im Menü „Viewer“ den Asset-Typ aus, den Sie anzeigen möchten (z. B. „Mustersets“).
 1. Wählen Sie im Menü „Vorgabe“ eine Vorgabe für den gewählten Asset-Typ aus.
 
-   Falls Sie beispielsweise ein Musterset hinzufügen, so wählen Sie „Musterset1-Farben“.
+   Wenn Sie beispielsweise ein Musterset hinzufügen, wählen Sie **[!UICONTROL SwatchSet1-Colors]**.
 
-1. Klicken Sie auf **„Hinzufügen“**.
+1. Klicken Sie auf **[!UICONTROL „Hinzufügen“]**.
 
    Die neue Viewer-Vorgabe wird in der Liste angezeigt.
 
 1. Wiederholen Sie die Schritte 6–9 für alle Viewer-Vorgaben, die Sie hinzufügen möchten.
 1. Gehen Sie wie folgt vor, um die Vorgabenliste zu bearbeiten:
 
-   * Um eine Vorgabe aus der Liste zu löschen, klicken Sie auf „Löschen“.
-   * Um die Vorgaben in der Liste neu anzuordnen, wählen Sie eine Vorgabe aus und klicken Sie auf den blauen Pfeil nach oben bzw. unten.
+   * Um eine Vorgabe aus der Liste zu löschen, wählen Sie sie aus und klicken Sie dann auf **[!UICONTROL Löschen]**.
+   * Um die Vorgaben in der Liste neu anzuordnen, wählen Sie eine Vorgabe aus und klicken Sie dann auf den blauen Pfeil **[!UICONTROL Nach oben]** oder **[!UICONTROL Nach unten]**.
 
 1. Um Community-Funktionen zum Viewer hinzuzufügen (Einbetten, Verknüpfen oder Zur Website), wählen Sie die Optionen für die folgenden Punkte aus:
 
-   * **E-**
-Mail-Klick auf Ein, um eine Schaltfläche &quot;E-Mail&quot;im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets auf die Schaltfläche „E-Mail an Freunde senden“ klicken, wird eine E-Mail mit der Verknüpfung des Sets generiert.
+   * **E-Mail** : Klicken Sie auf  **** Onlineoptionen, um eine Schaltfläche &quot;E-Mail senden&quot;im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets auf die Schaltfläche „E-Mail an Freunde senden“ klicken, wird eine E-Mail mit der Verknüpfung des Sets generiert.
 
-   * ****
-EmbedClick Live. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. Klicken Sie auf 
-**Suchen Sie** nach einer benutzerdefinierten Skin für die Schaltfläche und wählen Sie sie aus.
+   * **Einbetten**  - Klicken Sie auf  **[!UICONTROL Live]**. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. Falls gewünscht, klicken Sie auf **[!UICONTROL Durchsuchen]**, um eine benutzerdefinierte Skin für die Schaltfläche zu suchen und auszuwählen.
 
-   * ****
-LinkKlicken Sie auf Live. Geben Sie im Feld „Beschr. f. Verknüpfungsschaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Verknüpfen“ angezeigt werden soll. Klicken Sie auf 
-**Suchen Sie** nach einer benutzerdefinierten Skin für die Schaltfläche und wählen Sie sie aus.
+   * **Link**  - Klicken Sie auf  **[!UICONTROL Live]**. Geben Sie in das Feld &quot;Beschriftung der Schaltfläche &quot;Verknüpfen&quot;den Namen ein, der im Viewer für die Schaltfläche &quot;Verknüpfen&quot;angezeigt werden soll. Falls gewünscht, klicken Sie auf **[!UICONTROL Durchsuchen]**, um eine benutzerdefinierte Skin für die Schaltfläche zu suchen und auszuwählen.
 
-   * ****
-VisitClick 
-**Live**. Geben Sie im Feld „Beschriftung für Besuchen-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Zur Website“ angezeigt werden soll. Geben Sie im Feld „URL besuchen“ die URL der Webseite an, die durch Klicken auf die Verknüpfung geöffnet werden soll.
+   * **Besuch**  - Klicken Sie auf  **[!UICONTROL Live]**. Geben Sie in das Feld &quot;Beschriftung der Schaltfläche &quot;Besuch&quot;den Namen ein, der im Viewer für die Schaltfläche &quot;Besuch&quot;angezeigt werden soll. Geben Sie im Feld „URL besuchen“ die URL der Webseite an, die durch Klicken auf die Verknüpfung geöffnet werden soll.
 
-1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, klicken Sie neben der Option auf das Symbol „Tipp“ .
+1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, klicken Sie auf das Symbol &quot;Tipp&quot;neben der Option.
 
-   Im Anzeigebereich „Vorschau“ werden jeweils die Auswirkungen der vorgenommenen Änderungen angezeigt.
+   Auf der Seite &quot;Vorschau&quot;wird der Viewer angezeigt, während Sie die Einstellungen aktualisieren und ändern.
 
-1. Klicken Sie auf „**Speichern**“.
+1. Klicken Sie auf „**[!UICONTROL Speichern]**“.
 
 >[!MORELIKETHIS]
 >
