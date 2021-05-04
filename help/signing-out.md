@@ -7,14 +7,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '228'
+ht-degree: 7%
 
 ---
-
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
@@ -22,11 +22,9 @@ ht-degree: 6%
 
 Vergewissern Sie sich vor der Verwendung der Dynamic Media Classic-Desktopanwendung, dass Sie über Folgendes verfügen:
 
-* **Benutzername**
-Sie verwenden Ihre E-Mail-Adresse als Ihren Anmeldenamen.
+* **Benutzername**  - Sie verwenden Ihre E-Mail-Adresse als Ihren Anmeldenamen.
 
-* **Kennwort**
-Sie erhalten Ihr temporäres Kennwort in einer Begrüßungs-E-Mail von Dynamic Media Classic oder von Ihrem Dynamic Media Classic-Administrator. Bei der ersten Anmeldung werden Sie dazu aufgefordert, dieses temporäre Kennwort zu ändern.
+* **Kennwort** : Sie erhalten Ihr temporäres Kennwort in einer Begrüßungs-E-Mail von Dynamic Media Classic oder von Ihrem Dynamic Media Classic-Administrator. Bei der ersten Anmeldung werden Sie dazu aufgefordert, dieses temporäre Kennwort zu ändern.
 
 1. Öffnen Sie die Dynamic Media Classic-Desktopanwendung der Adobe.
 
