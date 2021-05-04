@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic, Zusammenarbeit, Asset Management
 role: Administrator,Business Practitioner
+exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 81%
+source-wordcount: '380'
+ht-degree: 68%
 
 ---
-
 
 # Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen {#specifying-export-options-available-to-media-portal-users}
 
@@ -28,20 +28,18 @@ Die folgenden beiden Einschränkungen gelten, wenn Sie Bild-Asset über eine ben
 
 Siehe auch [Exportieren von Assets aus Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**So legen Sie fest, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen**.
+**So legen Sie Exportoptionen fest, die Media Portal-Benutzern zur Verfügung stehen:**
 
-1. Klicken Sie auf **„Einstellungen“** > **„Bildvorgaben“**.
+1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Bildvorgaben]**.
 1. Legen Sie im Fenster „Bildvorgaben“ die folgenden Optionen nach Bedarf fest:
 
-   * **Benutzerdefinierte**
-Konversion aktivieren Wenn diese Option aktiviert ist, können Benutzer im Fenster &quot;Ausgewählte Assets exportieren&quot;aus der Dropdown-Liste &quot;Größe&quot;eine andere Option auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
+   * **Benutzerdefinierte Konversion**  aktivieren: Wenn diese Option aktiviert ist, können Benutzer im Fenster &quot;Ausgewählte Assets exportieren&quot;aus der Dropdown-Liste &quot; **** Größe&quot;eine andere Option auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
 
-      Wenn in der Dropdownliste **Größe** der Wert **Pixel** ausgewählt wird, kann die resultierende Bildhöhe x Bildbreite maximal 100 Millionen Pixel betragen. Diese Größe entspricht 10.000 x 10.000 Pixel bei einem quadratischen Bild bzw. etwa 8.000 x 12.000 Pixel bei einem Seitenverhältnis von 2:3. Diese Größenbeschränkung gilt nicht, wenn Sie Original-Masterbilder exportieren.
+      Wenn in der Dropdownliste **[!UICONTROL Größe]** der Wert **[!UICONTROL Pixel]** ausgewählt wird, kann die resultierende Bildhöhe x Bildbreite maximal 100 Millionen Pixel betragen. Diese Größe entspricht 10.000 x 10.000 Pixel bei einem quadratischen Bild bzw. etwa 8.000 x 12.000 Pixel bei einem Seitenverhältnis von 2:3. Diese Größenbeschränkung gilt nicht, wenn Sie Original-Masterbilder exportieren.
 
       Wenn diese Option deaktiviert ist, können Benutzer nur Dateien herunterladen, ohne sie dabei neu zu formatieren.
 
-   * **Aktivieren Sie &quot;**
-Original exportieren&quot;Ermöglicht den Export von Übergeordnet-Originalbildern. Im Bedienfeld „Ausgewählte Assets exportieren“ können Benutzer das Dropdown-Menü Konvertierung öffnen und Original exportieren auswählen, um Originaldateien zu exportieren. Wenn diese Option deaktiviert ist, müssen Benutzer beim Exportieren von Bildern eine Bildvorgabe auswählen oder Konvertierungsoptionen festlegen.
+   * **&quot;Original**  exportieren&quot;aktivieren: Hiermit können Sie Übergeordnet Originalbilder exportieren. Im Bedienfeld **[!UICONTROL Ausgewählte Assets exportieren]** können Benutzer das Dropdown-Menü **[!UICONTROL Konversion]** öffnen und **[!UICONTROL Original exportieren]** wählen, um Originaldateien zu exportieren. Deaktivieren Sie diese Option, wenn Sie Benutzer zwingen möchten, beim Exportieren von Bildern eine Bildvorgabe auszuwählen oder Konvertierungsoptionen auszuwählen.
 
 >[!MORELIKETHIS]
 >
