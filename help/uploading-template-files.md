@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 69%
+source-wordcount: '236'
+ht-degree: 48%
 
 ---
-
 
 # Hochladen von Vorlagendateien{#uploading-template-files}
 
@@ -30,8 +30,11 @@ Vorlagen können basierend auf Adobe Photoshop-PSD- oder Bilddateien erstellt w
 
 Detaillierte Anweisungen zum Hochladen von Dateien finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files). Folgendes ist beim Hochladen von Vorlagendateien zu beachten:
 
-* Wenn Sie PSD-Dateien hochladen, können Sie eine Vorlage daraus erstellen. Dynamic Media Classic erstellt für jede Ebene in der PSD ein eigenes Bild. Rufen Sie im Dialogfeld „Upload-Auftragsoptionen“ die „Photoshop-Optionen“ auf, wählen Sie dort die Option „Ebenen beibehalten“ und dann die Option „Vorlage erstellen“. Wählen Sie dann im Menü &quot;Ebenenname&quot;eine Option zum Benennen der Bilder, die Dynamic Media Classic aus den Ebenen in der PSD erstellt. Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
-* Wenn Sie Bilder hochladen, können Sie eine Maske aus ihrem Beschneidungspfad erstellen. Diese Option betrifft Bilder, die unter Verwendung eines Beschneidungspfads erstellt wurden. Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Bildbearbeitungsoptionen und dann die Option „Maske aus Beschneidungspfad erstellen“. Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Wenn Sie eine PSD-Datei hochladen, können Sie daraus eine Vorlage erstellen. Dynamic Media Classic erstellt für jede Ebene in der PSD ein eigenes Bild. Klicken Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;auf **[!UICONTROL Photoshop-Optionen]** und wählen Sie **[!UICONTROL Ebenen beibehalten]** und **[!UICONTROL Vorlage erstellen]**. Wählen Sie dann eine Option aus der Dropdown-Liste **[!UICONTROL Ebenenname]** aus, um die Bilder zu benennen, die Dynamic Media Classic aus Ebenen in der PSD erstellt.
+Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
