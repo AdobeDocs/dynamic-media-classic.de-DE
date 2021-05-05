@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 84%
+source-wordcount: '1497'
+ht-degree: 78%
 
 ---
-
 
 # Hochladen von Bild-Assets oder Vektor-Assets{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden m�
 
 Das *Upload-Token* stellt sicher, dass niemand denselben gemeinsamen geheimen Schlüssel zum Hochladen von Assets verwenden kann. Außerdem stellt es sicher, dass der Upload zulässig ist und von einer vertrauenswürdigen Quelle stammt.
 
-Das Upload-Token besteht aus einer alphanumerischen Zeichenfolge, die nur für eine begrenzte Zeitspanne gültig ist. Verwenden Sie die folgenden URLs und ersetzen Sie Ihren gemeinsamen geheimen Schlüssel, um das Upload-Token abzurufen.
+Das Upload-Token besteht aus einer alphanumerischen Zeichenfolge, die nur für eine begrenzte Zeitspanne gültig ist. Verwenden Sie die folgenden URLs und ersetzen Sie Ihren gemeinsamen geheimen Schlüssel, damit Sie das Upload-Token abrufen können.
 
 * Bild
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In diesem Beispiel lautet der gemeinsame geheime Schlüssel  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ Standardmäßig läuft das Upload-Token 5 Minuten (300 Sekunden) nach dem Abru
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-Die erfolgreiche Antwort für Bilder sieht folgendermaßen aus:
+Die erfolgreiche Antwort für Bilder wird wie folgt angezeigt:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upl
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**Zulässige HTTP-Methoden:** GET und POST
+**Zulässige HTTP-Methoden:**
+`GET` und  `POST`
 
 Sie können nun ein Bild-Asset hochladen.
 
@@ -124,8 +125,9 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Profil und der Dateiname des Assets beibehalten werden sollen.
-* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen unter [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
-* Den Namen der hochzuladenden Datei
+* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest.
+Siehe Hintergrund aussparen in [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Den Namen der hochzuladenden Datei.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+Sie können den HTML-Quellcode, der mit dem oben stehenden Formular verknüpft ist, durch Klicken auf [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) Ansicht
 
-Sie können den HTML-Quellcode, der mit dem oben stehenden Formular verknüpft ist, durch Klicken auf den folgenden Link Ansicht haben:
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und klicken Sie dann auf **[!UICONTROL Seitenquelle der Ansicht]**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und klicken Sie dann auf **Seitenquelle der Ansicht**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
-
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“ > „Quelltext“**. Um die XML-Antwort in Firefox Ansicht, klicken Sie auf **Tools > Web Developer > Page Source**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **[!UICONTROL „Ansicht“]** > **[!UICONTROL „Quelltext“]**. Um die XML-Antwort in Firefox Ansicht, klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Browserwerkzeuge]** > **[!UICONTROL Webentwickler-Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -183,13 +181,13 @@ Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formular
 
 | URL-Parameter | Erforderlich oder optional | Wert |
 |--- |--- |--- |
-| op | Erforderlich | Hochladen |
-| upload_token | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
-| company_name | Erforderlich | Name des hochladenden Unternehmens. |
-| file_limit | optional | Maximale Dateigröße (in Byte) für das Asset. |
-| file_exts | optional | Liste der zulässigen Erweiterungen für die Bild-Asset-Datei. |
-| preserve_colorprofile | optional | Behält eingebettete Farbprofile bei der Konvertierung der hochgeladenen Datei in das PTIFF-Format bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
-| preserve_filename | optional | Behält den Dateinamen des hochgeladenen Assets bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
+| `op` | Erforderlich | Hochladen |
+| `upload_token` | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
+| `company_name` | Erforderlich | Name des hochladenden Unternehmens. |
+| `file_limit` | optional | Maximale Dateigröße (in Byte) für das Asset. |
+| `file_exts` | optional | Liste der zulässigen Erweiterungen für die Bild-Asset-Datei. |
+| `preserve_colorprofile` | optional | Behält eingebettete Farbprofile bei der Konvertierung der hochgeladenen Datei in das PTIFF-Format bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
+| `preserve_filename` | optional | Behält den Dateinamen des hochgeladenen Assets bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ Mit `image_info` können Sie Metadaten für ein hochgeladenes Asset abrufen, wie
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Hier ein Beispiel für eine erfolgreiche Antwort:
+Ein Beispiel für eine erfolgreiche Antwort wird wie folgt angezeigt:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Infor
 
 | URL-Parameter | Erforderlich oder optional | Wert |
 |--- |--- |--- |
-| op | Erforderlich | image_info |
-| shared_secret | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
-| image_name | Erforderlich | Name des Bildes. |
+| `op` | Erforderlich | image_info |
+| `shared_secret` | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
+| `image_name` | Erforderlich | Name des Bildes. |
 
 **Beispiel-URL:**
 
@@ -287,8 +285,9 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Profil und der Dateiname des Assets beibehalten werden sollen.
-* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest. Siehe Hintergrund aussparen unter [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
-* Den Namen der hochzuladenden Datei
+* Gibt an, ob der Hintergrund &quot;Aussparen&quot;verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllmethode&quot;fest.
+Siehe Hintergrund aussparen in [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+* Den Namen der hochzuladenden Datei.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-Der folgende HTML-Code wird angezeigt, wenn Sie im Browserfenster mit der rechten Maustaste klicken und anschließend für das in der Abbildung dargestellte Formular auf **„Quelltext anzeigen“** klicken. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **„Absenden“** klickt.
+Der folgende HTML-Code wird angezeigt, wenn Sie mit der rechten Maustaste in das Browserfenster klicken und dann für das im Beispiel dargestellte Formular auf **[!UICONTROL Ansicht Quelle]** klicken. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **„Ansicht“** > **„Quelltext“**. Um die XML-Antwort in Firefox anzuzeigen, klicken Sie auf **„Ansicht“** > **„Seitenquelltext anzeigen“**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **[!UICONTROL „Ansicht“]** > **[!UICONTROL „Quelltext“]**. Um die XML-Antwort in Firefox Ansicht, klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Browserwerkzeuge]** > **[!UICONTROL Seitenquelle]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -366,7 +363,7 @@ Hier eine Beispielantwort für einen erfolgreiche Upload:
 >
 >Das hochgeladene Asset (AI, EPS, PDF usw.) wird ins FXG-Format umgewandelt und mit der Antwort wird eine direkte Verknüpfung zu diesem FXG-Asset gesendet.
 
-Das Asset kann wie jede andere Web-to-Print-Ressource gehandhabt werden; Sie können auch Verarbeitungsanfragen darauf anwenden. Beispielsweise wandelt die folgende URL eine FXG-Ressource in ein png-Bild mit 500x500 Pixeln um.
+Das Asset ist wie jede andere Web-to-Print-Ressource. Sie wenden Verarbeitungs-Abfragen darauf an. Beispielsweise wandelt die folgende URL eine FXG-Ressource in ein png-Bild mit 500x500 Pixeln um.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formular
 
 | URL-Parameter | Erforderlich oder optional | Wert |
 |--- |--- |--- |
-| op | Erforderlich | Hochladen |
-| upload_token | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
-| Firma_name | Erforderlich | Name des hochladenden Unternehmens. |
-| file_limit | optional | Maximale Dateigröße (in Byte) für das Asset. |
-| file_exts | optional | Liste der zulässigen Erweiterungen für die Asset-Datei. |
+| `op` | Erforderlich | Hochladen |
+| `upload_token` | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
+| `company_name` | Erforderlich | Name des hochladenden Unternehmens. |
+| `file_limit` | optional | Maximale Dateigröße (in Byte) für das Asset. |
+| `file_exts` | optional | Liste der zulässigen Erweiterungen für die Asset-Datei. |
 
 >[!NOTE]
 >
