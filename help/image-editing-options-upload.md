@@ -11,10 +11,10 @@ feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 61%
+source-wordcount: '1160'
+ht-degree: 59%
 
 ---
 
@@ -33,19 +33,19 @@ Diese Optionen finden Sie auf der Seite &quot;Hochladen&quot;unter &quot;Bildbea
 
 ## Beschneiden von Bildern zum Entfernen weißer Flächen
 
-Um automatisch weiße Pixelflächen von einem Bild abzuschneiden, wählen Sie im Menü „Beschneiden“ die Option „Beschneiden“. Anschließend können Sie folgende Optionen wählen:
+Um weiße Flächen automatisch von einem Bild abzuschneiden, klicken Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;auf **[!UICONTROL Optionen für Beschneiden]**. Wählen Sie in der Dropdown-Liste **[!UICONTROL Beschneiden]** **[!UICONTROL Beschneiden]**. Anschließend können Sie folgende Optionen wählen:
 
-* **Entfernen basierend auf** : Wählen Sie, ob basierend auf Farbe oder Transparenz beschnitten werden soll:
+* **Entfernen basierend auf** : Wählen Sie in dieser Dropdown-Liste aus, ob basierend auf Farbe oder Transparenz beschnitten werden soll:
 
-* **Farbe** : Wählen Sie die  **** Option &quot;Farbe&quot;. Wählen Sie dann in der Dropdown-Liste **[!UICONTROL Ecke]** die Bildecke mit der Farbe aus, die der Farbe des weißen Raumes, die Sie beschneiden möchten, am besten entspricht.
+   * **Farbe** : Wählen Sie die  **** Option &quot;Farbe&quot;. Wählen Sie dann in der Dropdown-Liste **[!UICONTROL Ecke]** die Bildecke mit der Farbe aus, die der Farbe des weißen Raumes, die Sie beschneiden möchten, am besten entspricht.
 
-* **Transparenz** : Wählen Sie die Option &quot;Transparenz&quot;.
+   * **Transparenz** : Wählen Sie die Option &quot;Transparenz&quot;.
 
 * **Toleranz** : Ziehen Sie den Schieberegler, um eine Toleranz von 0 bis 1 festzulegen:
 
-* **Beschneiden basierend auf Farbe** : Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+   * **Beschneiden basierend auf Farbe** : Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-* **Beschneiden basierend auf Transparenz** : Geben Sie 0 an, um Pixel nur zu beschneiden, wenn sie transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenz zu.
+   * **Beschneiden basierend auf Transparenz** : Geben Sie 0 an, um Pixel nur zu beschneiden, wenn sie transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenz zu.
 
 ## Manuelles Beschneiden eines Bilds an den Kanten
 
