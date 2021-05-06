@@ -11,18 +11,20 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # Grundlagen der Navigation{#navigation-basics}
 
-Der Dynamic Media Classic-Bildschirm umfasst drei Hauptbereiche: Symbolleiste für globale Navigation, Asset-Bibliothek und Durchsuchenbedienfeld/Erstellenbedienfeld.
+Der Dynamic Media Classic-Bildschirm umfasst drei Hauptbereiche: Symbolleiste für globale Navigation, Asset-Bibliothek, Registerkarte &quot;Asset-Filter&quot;, Durchsuchenbedienfeld/Erstellenbedienfeld und Warenkorb (nur Media Portal).
 
-![Grundlagen der Navigation](/help/assets/gs_navigation_basics_popup_popup.png)
+![NavigationsgrundlagenWichtigste klassische ](/help/assets/gs_navigation_basics_popup_popup.png)
+*Bereiche des Dynamic Media*
+*A) Symbolleiste für globale Navigation B) Bedienfeld &quot;Asset-Bibliothek&quot; C) Registerkarte &quot;Asset-Filter&quot; D) Bedienfeld &quot;Durchsuchen&quot; E) Warenkorb (nur Media Portal)*
 
 ## Symbolleiste für globale Navigation {#global-navigation-bar}
 
