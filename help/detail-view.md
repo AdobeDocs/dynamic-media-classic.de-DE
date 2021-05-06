@@ -11,10 +11,10 @@ feature: Dynamic Media Classic, Asset Management
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 70%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Detailansicht](/help/assets/image_0.img.png)
+![Detailansicht ](/help/assets/image_0.img.png)
+*Detail-Ansicht mit dem Bedienfeld &quot;Asset-Bibliothek&quot;links von der Ansicht ausgeblendet.*
 
 >[!NOTE]
 >
@@ -44,8 +45,8 @@ Um ein Asset genau zu überprüfen, in einer Vorschau anzuzeigen oder zu bearbei
 
 1. Führen Sie im Durchsuchenbedienfeld einen der folgenden Schritte aus:
 
+   * Wählen Sie das Asset aus. Klicken Sie in der rechten oberen Ecke von Dynamic Media Classic auf das Symbol **[!UICONTROL Detail-Ansicht]** .
    * Doppelklicken Sie auf das gewünschte Asset.
-   * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Detail-Ansicht]**.
    * Wählen Sie das Asset aus und klicken Sie dann auf **[!UICONTROL Datei]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
