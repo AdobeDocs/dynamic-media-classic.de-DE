@@ -1,21 +1,16 @@
 ---
-source-git-commit: f5c296566dba4ea1a01ce74a537b7a94c92eef15
-translation-type: tm+mt
+source-git-commit: 23660fd17351c68027a79ce21a913fd19e7abc3f
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 1%
 
 ---
 # MIT-Lizenz
 
-© Copyright 2018 Adobe. Alle Rechte vorbehalten.
+© Copyright 2021 Adobe. Alle Rechte vorbehalten.
 
-Die Berechtigung wird für jede Person kostenlos gewährt, die eine Kopie
-dieser Software und der zugehörigen Dokumentationsdateien (die "Software" ) erhält, um die Software ohne Einschränkung zu verwenden, zu kopieren, zu ändern, zusammenzuführen, zu veröffentlichen, zu kopieren, unterlizenz zu erstellen und/oder Kopien der Software zu erstellen,
-und um Personen, die die Software zur Verfügung stellen, zu ermöglichen, die Software zu verwenden, um zu funktionieren. unterliegt daher den folgenden Bedingungen:
+Jede Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die &quot;Software&quot;) erhält, wird hiermit unentgeltlich ermächtigt, die Software uneingeschränkt zu nutzen, einschließlich der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und Personen, denen die Software bereitgestellt wird, dies zu gestatten, sofern folgende Bedingungen erfüllt sind:
 
-Der oben stehende Urheberrechtshinweis und diese Berechtigung werden in alle
-Kopien oder erheblichen Teile der Software einbezogen.
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
 
-DIE SOFTWARE WIRD ALS "AS IS" BEREITGESTELLT, OHNE JEGLICHE AUSDRÜCKLICHE ODER
-STILLSCHWEIGENDE GARANTIE, EINSCHLIESSLICH DER GARANTIEN DER MARKTGÄNGIGKEIT,
-EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. IN KEINEM FALL SIND DIE
-AUTOREN ODER URHEBERRECHTSINHABER FÜR JEGLICHE SCHADENERSATZANSPRÜCHE, SCHADENSERFOLG ODER SONSTIGE
-HAFTUNG HAFTBAR, UNABHÄNGIG DAVON, OB SIE IN EINER VERTRAGSAKTION, TORK ODER ANDERWEITIG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN GEGENSTÄNDEN DER SOFTWARE HAFTET.
+DIE SOFTWARE WIRD &quot;WIE VORHANDEN&quot;BEREITGESTELLT, OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER IMPLIZIERT, EINSCHLIESSLICH, ABER NICHT AUF DIE GARANTIEN DER MERCHANTABILITÄT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG BESCHRÄNKT. AUF KEINEN FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNG VERANTWORTLICH, OB IM ZUSAMMENHANG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN BEHANDLUNGEN IN DER SOFTWARE, AUS DER SOFTWARE ODER IM ZUSAMMENHANG MIT DER SOFTWARE.
