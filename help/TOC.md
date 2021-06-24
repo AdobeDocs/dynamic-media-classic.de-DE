@@ -6,7 +6,6 @@ user-guide-title: Handbuch von Adobe Dynamic Media Classic
 breadcrumb-title: Dynamic Media Classic-Anleitung
 user-guide-description: Weitere Informationen zur Verwendung von Dynamic Media Classic
 index: y
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
@@ -15,25 +14,25 @@ ht-degree: 77%
 ---
 
 
-# Handbuch von Adobe Dynamic Media Classic  {#using}
+# Handbuch von Adobe Dynamic Media Classic {#using}
 
 + [Handbuch von Adobe Dynamic Media Classic](home.md)
-+ [Übungen zu Best Practices](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NEUE Dynamic Media Classic-Anmeldeerfahrung jetzt verfügbar](new-ui-2020.md)
-+ [Dynamic Media-Newsletter von Experience League](dynamic-media-newsletter.md)
-+ Einführung in die Adobe Dynamic Media Classic {#intro}
-   + [Adobe Dynamic Media Classic Desktop-App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
++ [Tutorial zu Best Practices](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Neues Dynamic Media Classic-Anmeldeerlebnis jetzt verfügbar](new-ui-2020.md)
++ [Dynamic Media-Newsletter nach Experience League](dynamic-media-newsletter.md)
++ Einführung in Adobe Dynamic Media Classic {#intro}
+   + [Adobe Dynamic Media Classic Desktop App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
    + [Informationen zur Dynamic Media Classic-Hilfe](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
    + [Neuerungen](whats-new.md)
    + [Systemanforderungen](system-requirements.md)
-   + [Support](support.md)
+   + [Technischer Support](support.md)
    + [Hilfe für Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Häufig genutzte Ressourcen](popular-resources.md)
    + [Schulungsvideos](training-videos.md)
 + Erste Schritte {#getting-started}
-   + [Übersicht über Adobe Dynamic Media Classic Programm](dmc-platform-overview.md)
+   + [Adobe Dynamic Media Classic - Programmübersicht](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [An- und Abmeldung](signing-out.md)
    + [Grundlagen der Navigation](navigation-basics.md)
@@ -43,11 +42,11 @@ ht-degree: 77%
    + [Persönliche Einstellungen](personal-setup.md)
    + [Anwendungseinstellungen](application-setup.md)
    + [Veröffentlichungseinstellungen](publish-setup.md)
-   + [Video SEO (Search Engine Optimization)](video-seo-search-engine-optimization.md)
+   + [Video SEO](video-seo-search-engine-optimization.md)
    + [Administrationseinstellungen](administration-setup.md)
 + Media Portal {#media-portal}
    + [Systemanforderungen](system-requirements-1.md)
-   + [Quick Beginn: Media Portal](quick-start-media-portal-administration.md)
+   + [Schnellstart: Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal-Benutzerrollen](media-portal-user-roles.md)
    + [Erstellen und Verwalten von Media Portal-Gruppen](creating-media-portal-groups.md)
    + [Hinzufügen und Verwalten von Media Portal-Benutzern](adding-media-portal-users.md)
@@ -63,10 +62,10 @@ ht-degree: 77%
    + [Testen von Assets vor dem Veröffentlichen](testing-assets-making-them-public.md)
    + [Überprüfen von Auftragsdateien](checking-job-files.md)
 + Verwalten von Assets {#managing-assets}
-   + [Informationen zum Verwalten von Assets](about-managing-assets.md)
+   + [Verwalten von Assets](about-managing-assets.md)
    + [Arbeiten mit Asset-Ordnern](asset-folders.md)
-   + [Anzeigen von Assets im Durchsuchenbedienfeld](viewing-assets-browse-panel.md)
-   + [Auswählen von Assets im Durchsuchenbedienfeld](selecting-assets-browse-panel.md)
+   + [Anzeigen von Assets im Bedienfeld &quot;Durchsuchen&quot;](viewing-assets-browse-panel.md)
+   + [Auswählen von Assets im Bedienfeld &quot;Durchsuchen&quot;](selecting-assets-browse-panel.md)
    + [Suchen nach Assets](searching-assets.md)
    + [Anzeigen einer Asset-Vorschau](previewing-asset.md)
    + [Verschieben, Umbenennen und Löschen von Assets](moving-renaming-deleting-assets.md)
@@ -88,25 +87,25 @@ ht-degree: 77%
    + [Hochladen von Zoombildern](uploading-zoom-images.md)
    + [Erstellen von Zoomzielen für geführten Zoom](creating-zoom-targets-guided-zoom.md)
    + [Konfigurieren von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md)
-   + [Anzeigen einer Vorschau von Bild-Assets mit verschiedenen Zoom-Viewern](previewing-image-assets-different-zoom.md)
+   + [Vorschau von Bild-Assets mit verschiedenen Zoom-Viewern](previewing-image-assets-different-zoom.md)
    + [Veröffentlichen von Zoombildern](publishing-zoom-images.md)
    + [Verknüpfen von Zoom-Viewern mit Webseiten](linking-zoom-viewers-web-pages.md)
 + E-Kataloge {#ecatalogs}
-   + [Quick Beginn: E-Kataloge](quick-start-ecatalog.md)
+   + [Schnellstart: E-Kataloge](quick-start-ecatalog.md)
    + [Hochladen der PDF-Dateien](uploading-pdf-files.md)
    + [Erstellen eines E-Katalogs](creating-ecatalog.md)
    + [Erstellen von Imagemaps in E-Katalogen](creating-ecatalog-image-maps.md)
-   + [Verwalten des Infofeldinhalts in E-Katalogen](info-panel-content.md)
+   + [Verwalten des Informationsbereichsinhalts in E-Katalogen](info-panel-content.md)
    + [Konfigurieren von E-Katalog-Viewer-Vorgaben](setting-ecatalog-viewer-presets.md)
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Veröffentlichen von E-Katalogen und zugehörigen PDF-Dateien](publishing-ecatalogs-associated-pdfs.md)
+   + [Veröffentlichen von E-Katalogen und zugehörigen PDFs](publishing-ecatalogs-associated-pdfs.md)
    + [Verknüpfen eines E-Katalogs mit einer Website](linking-ecatalog-web-page.md)
 + Bildsätze {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
    + [Vorbereiten von Bildsatz-Assets zum Hochladen](preparing-image-set-assets-upload.md)
    + [Erstellen eines Bildsatzes](creating-image-set.md)
    + [Einbeziehen von Zoomzielen und Imagemaps in Bildsätze](including-zoom-targets-image-maps.md)
-   + [Verwalten des Infofeldinhalts in Bildsätzen](info-panel-content-1.md)
+   + [Verwalten des Informationsbereichsinhalts in Bildsets](info-panel-content-1.md)
    + [Anzeigen von Bildsätzen](viewing-image-sets.md)
    + [Automatisierte Bildsatzerstellung](automated-image-set-generation.md)
    + [Verknüpfen eines Bildsatzes mit einer Website](linking-image-set-web-page.md)
@@ -124,7 +123,7 @@ ht-degree: 77%
    + [Veröffentlichen eines Rotationssets](publishing-spin-set.md)
    + [Einstellen von Rotationsset-Viewer-Vorgaben](setting-spin-set-viewer-presets.md)
    + [Verknüpfen eines Rotationssets mit einer Website](linking-spin-set-web-page.md)
-+ Vorlagen - Grundlagen {#template-basics}
++ Vorlagengrundlagen {#template-basics}
    + [Kurzanleitung: Vorlagen aus Grundelementen](quick-start-template-basics.md)
    + [Hochladen von Vorlagendateien](uploading-template-files.md)
    + [Erstellen einer Vorlage](creating-template.md)
@@ -147,8 +146,8 @@ ht-degree: 77%
    + [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md)
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
-+ Adobe Analytics-Instrumentierungskit {#analytics-kit}
-   + [Quick Beginn: Integration von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-dmc-analytics.md)
++ Adobe Analytics Instrumentations-Kit {#analytics-kit}
+   + [Schnellstart: Integrieren von Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
    + [Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,12 +156,12 @@ ht-degree: 77%
    + [Aktivieren von Adobe Analytics-Videoberichten](enabling-analytics-video-reports.md)
    + [Veröffentlichen von Adobe Analytics-Konfigurationsinformationen](publishing-analytics-configuration-information.md)
 + Integration von Adobe Target Standard/Premium {#target-classic}
-   + [Quick Beginn: Integration mit Adobe Target Standard/Premium](quick-start-target-integration.md)
-   + [Integration von Dynamic Media Classic mit Adobe Target Standard/Premium](integrating-dmc-with-target.md)
+   + [Schnellstart: Integration von Adobe Target Standard/Premium](quick-start-target-integration.md)
+   + [Integrieren von Dynamic Media Classic mit Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Erstellen eines Angebotssets](creating-offer-set.md)
-   + [Pushing von Angebot-Sets auf Adobe Target Standard/Premium](pushing-offer-sets-target.md)
+   + [Angebotssets an Adobe Target Standard/Premium senden](pushing-offer-sets-target.md)
 + Benutzergenerierte Inhalte {#user-generated-content}
-   + [Informationen zu benutzergenerierten Inhalten](about-ugc.md)
+   + [Über benutzergenerierte Inhalte](about-ugc.md)
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
    + [Abrufen von Speichernutzungsinformationen](getting-disk-usage-information.md)
    + [Hochladen von Bild-Assets oder Vektor-Assets](uploading-image-asset-or-vector.md)
