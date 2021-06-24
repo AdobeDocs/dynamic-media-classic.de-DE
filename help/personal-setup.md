@@ -1,6 +1,6 @@
 ---
 title: Persönliche Einstellungen
-description: Alle Benutzer können die Einstellungen im Anzeigebereich "Persönliche Einstellungen"von Dynamic Media Classic ändern.
+description: Alle Benutzer können die Einstellungen im Bildschirm "Persönliche Einstellungen"von Dynamic Media Classic ändern.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '819'
@@ -24,7 +23,7 @@ Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von
 
 >[!NOTE]
 >
->Der Anzeigebereich &quot;Persönliche Einstellungen&quot;Liste die Benutzerrolle, die Sie in Dynamic Media Classic haben: Firma Administrator, Administrator oder User.
+>Im Bildschirm Persönliche Einstellungen wird angezeigt, welche Benutzerrolle Sie in Dynamic Media Classic haben: Unternehmensadministrator, Administrator oder Benutzer.
 
 Die persönlichen Einstellungen steuern das Standardverhalten des Durchsuchenbedienfelds, den E-Mail-Empfang und die Kennworteinstellungen. Vergessen Sie nicht, nach dem Ändern dieser Einstellungen auf „Speichern“ zu klicken.
 
@@ -34,20 +33,20 @@ Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewi
 
 ## Desktop
 
-* **Bildcache**  löschen: Entfernt alle Adobe-Dynamic Media-zwischengespeicherten Bilddateien von Ihrem Computer.
-* **Asset-Cache löschen** : Entfernt alle Adoben, in denen Dynamic Media Asset-Dateien zwischenspeichert.
+* **Image-Cache löschen** : Entfernt alle Adobe-Dynamic Media-zwischengespeicherten Bilddateien von Ihrem Computer.
+* **Asset-Cache löschen** : Entfernt alle Adoben, in denen Dynamic Media Asset-Dateien von Ihrem Computer zwischenspeichert.
 
-Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den Cache auch direkt aus dem Dateisystem löschen. Navigieren Sie je nach Betriebssystem zu den folgenden Schritten:
+Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm löschen, sondern auch den Cache direkt aus dem Dateisystem löschen. Navigieren Sie je nach Betriebssystem zu Folgendem:
 
 * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
 * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Creative Suite Extension
 
-**So installieren Sie Adobe Dynamic Media Creative Suite Extension:**
+**So installieren Sie die Adobe Dynamic Media Creative Suite Extension:**
 
-1. Klicken Sie in Dynamic Media Classic auf der Symbolleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]** und klicken Sie unter &quot;Creative Suite Extension&quot;auf **[!UICONTROL Jetzt herunterladen]**, um die Datei `s7csxs.zxp` herunterzuladen.
-1. Klicken Sie auf die Links **[!UICONTROL Installation]** und **[!UICONTROL Systemanforderungen]**, um weitere Informationen zur Erweiterung anzuzeigen.
+1. Klicken Sie in Dynamic Media Classic in der Symbolleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]** und klicken Sie unter &quot;Creative Suite Extension&quot;auf **[!UICONTROL Jetzt herunterladen]** , um die Datei `s7csxs.zxp` herunterzuladen.
+1. Klicken Sie auf die Links **[!UICONTROL Installation]** und **[!UICONTROL Systemanforderungen]**, um weitere Informationen zur Erweiterung zu erhalten.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -73,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Browser
 
-* **Größe**  der Miniaturansichten: Legt die Standardgröße der Miniaturansichten in der Ansicht &quot;Raster&quot;im Durchsuchenbedienfeld fest.
-* **Standardmäßige Ansicht**  der Asset-Bibliothek: Legt fest, ob die Assets in der Asset-Bibliothek für Buildsätze als Miniaturansichten oder anhand des Namens angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
-* **Standardmäßige Sortierreihenfolge**  für Durchsuchen: Legt fest, in welcher Reihenfolge Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
-* **Standardspeicherort**  für Durchsuchen: Hiermit können Sie den Durchsuchenspeicherort auf den Standard- oder den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und diesen identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
-* **Standardmäßige Durchsuchen-Ansicht** : Legt fest, ob die Ansicht der Rastereinstellungen oder der Listen die Ansicht ist, die beim ersten Öffnen des Durchsuchenbedienfelds standardmäßig angezeigt wird.
-* **Startbildschirm** : Legt fest, ob Startbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
-* **QuickInfos**  anzeigen: Legt fest, ob QuickInfos angezeigt werden, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationslinks bewegen. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
-* **Schachbretthintergrund** : Zeigt hinter Bildern eine Schachbrettebene an, sodass Sie die transparenten Bereiche eines Bildes mit einem Alpha-Kanal leicht erkennen können.
-* **Dateigröße**  anzeigen: Zeigt die Dateigröße eines Assets beim Durchsuchen an.
-* **UDFs in Suche**  einbeziehen - Zur Verbesserung der Systemleistung bei den meisten von Ihnen ausgeführten Metadaten-Suchen deaktivieren Sie die Option (Standard).
+* **Größe der Miniaturansichten**  - Bestimmt die Standardgröße der Miniaturansichten in der Rasteransicht im Durchsuchenbedienfeld.
+* **Asset-Standardbibliothek-Ansicht**  - Bestimmt, ob die Assets in der Asset-Bibliothek für Buildsets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
+* **Standardsortierungsreihenfolge für Durchsuchen**  - Bestimmt die Reihenfolge, in der Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
+* **Standard-Durchsuchspeicherort**  - Hier können Sie den Durchsuchspeicherort auf den Standard-, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und ihn identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
+* **Standardmäßige Durchsuchen-Ansicht**  - Bestimmt, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie beim ersten Öffnen des Bedienfelds &quot;Durchsuchen&quot;sehen.
+* **Startbildschirm**  - Bestimmt, ob Begrüßungsbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
+* **QuickInfos anzeigen**  - Legt fest, ob QuickInfos angezeigt werden, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationslinks bewegen. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
+* **Hintergrund**  - Zeigt eine Schachbrettebene hinter Bildern an, sodass Sie die transparenten Bereiche eines Bildes mit einem Alphakanal leicht sehen können.
+* **Dateigröße anzeigen**  - Zeigt die Dateigröße eines Assets beim Durchsuchen an.
+* **Benutzerdefinierte Felder in Suche einschließen**  - Um die Systemleistung für die meisten von Ihnen ausgeführten Metadaten-Suchen zu verbessern, deaktivieren Sie (Standard).
 
    Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ bietet Ihnen die erweiterte Suche eine zielgerichtetere und schnellere Suche als bei der Verwendung benutzerdefinierter Felder.
 
@@ -90,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
    Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
 
-* **Einfacher Suchtyp** : Sie können aus zwei Optionen auswählen:  **** Enthält die vollständige Zeichenfolge nach dem angegebenen Wert;  **[!UICONTROL Starts]** Entzieht Suchläufen am Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als  **[!UICONTROL Enthält]**. Bei beiden Optionen wird die Standardeinstellung außer Kraft gesetzt, die unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Programmeinstellungen]** vom Administrator festgelegt wurde.
-* **Befehlsfeedback**  anzeigen: Wählen Sie diese Option, um die Anzeige der Befehlsanforderungen an den Server zu aktivieren. deaktivieren.
-* **Dialogfeld während Export**  anzeigen: Wählen Sie diese Option, um während des Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie trotzdem zur Seite &quot;Aufträge&quot;wechseln, um die Ergebnisse Ihres Exports abzurufen.
+* **Grundlegender Suchtyp**  - Sie können aus zwei Optionen auswählen:  **** Enthält die vollständige Zeichenfolge für den angegebenen Wert.  **** StartsWith Suchvorgänge vom Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als  **[!UICONTROL Contains]**. Jede der Optionen setzt die Standardeinstellung außer Kraft, die vom Administrator unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Programmeinstellungen]** festgelegt wurde.
+* **Befehlseingabe anzeigen**  - Wählen Sie diese Option aus, um die Anzeige von Befehlsanforderungen an den Server zu aktivieren. Deaktivieren Sie diese Option, um sie zu deaktivieren.
+* **Dialogfeld während Export anzeigen**  - Wählen Sie diese Option aus, um während eines Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie weiterhin zur Seite &quot;Aufträge&quot;wechseln, um die Ergebnisse Ihres Exports abzurufen.
 
 ## E-Mail an Freunde senden
 
-* **E-Mail-Optionen** : Wählen Sie aus, wie Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
-* **E-Mail-Umfang** : Bestimmt, ob Sie für Ihre Firma die gesamte Auftrags-E-Mail oder nur eine E-Mail mit den von Ihnen initiierten Upload- und Veröffentlichungsaufträgen erhalten.
-* **E-Mail-Typen** : Legt fest, ob Sie informiert werden, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
+* **E-Mail-Optionen**  - Wählen Sie aus, wie Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
+* **E-Mail-Umfang**  - Bestimmt, ob Sie die gesamte Auftrags-E-Mail für Ihr Unternehmen erhalten oder nur E-Mails zu Upload- und Veröffentlichungsaufträgen erhalten, die Sie initiieren.
+* **E-Mail-Typen**  - Bestimmt, ob Sie informiert werden, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
 
 ## Sprache
 
-* **Bevorzugte Sprache** : Bestimmt die Sprache, die Sie für die Benutzeroberfläche verwenden möchten.
+* **Bevorzugte Sprache**  - Bestimmt die Sprache, die Sie für die Benutzeroberfläche verwenden möchten.
 
 ## Kennwort
 
-* **Aktuelles Passwort**  - Geben Sie das Passwort ein.
-* **Neues Kennwort**  - Geben Sie ein neues, gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
-   * Sie müssen zwischen 8 und 25 Zeichen lang sein.
-   * Enthält mindestens einen Kleinbuchstaben.
-   * Enthält mindestens einen Großbuchstaben.
-   * Enthält mindestens eine Zahl.
-   * enthält mindestens eines der folgenden Sonderzeichen: `# $ & - _ : { }`
-* **Kennwort**  erneut eingeben - Geben Sie das neue Kennwort erneut ein, um sicherzustellen, dass Sie es korrekt eingeben.
+* **Aktuelles Passwort**  - Geben Sie das Passwort Ihres aktuellen Passworts ein.
+* **Neues Kennwort**  - Geben Sie ein neues gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
+   * Zwischen 8 und 25 Zeichen lang sein.
+   * mindestens einen Kleinbuchstaben enthalten.
+   * mindestens einen Großbuchstaben enthalten.
+   * mindestens eine Zahl enthalten.
+   * mindestens eines der folgenden Sonderzeichen enthalten: `# $ & - _ : { }`
+* **Kennwort erneut eingeben**  - Geben Sie das neue Kennwort erneut ein, um zu bestätigen, dass Sie es korrekt eingeben.
 * **Passwortablauf**  - Bestimmt, ob Ihr Passwort als Sicherheitsmaßnahme nach 72 Tagen abläuft. Wenn Sie „Ja“ wählen, werden Sie nach 72 Tagen aufgefordert, ein neues Kennwort zu erstellen.
