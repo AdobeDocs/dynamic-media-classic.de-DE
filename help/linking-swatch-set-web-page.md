@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic,Viewer
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -43,7 +42,7 @@ Nach der Veröffentlichung eines Mustersets können Sie dessen URL oder Einbettu
 
       Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“.
 
-## Hinzufügen von Musterset-URLs zur Website  {#adding-swatch-set-urls-to-your-web-page}
+## Hinzufügen von Musterset-URLs zur Website {#adding-swatch-set-urls-to-your-web-page}
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines Mustersets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
