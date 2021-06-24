@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic, Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: Business Practitioner
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '426'
@@ -20,34 +19,34 @@ ht-degree: 63%
 
 # Exportieren von Assets aus Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Sie können Assets, die Sie in Dynamic Media Classic bearbeitet haben, auf einem lokalen Netzlaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
+Sie können die in Dynamic Media Classic bearbeiteten Assets auf einem lokalen Netzlaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
 
 Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Außerdem sind maximal 500 Assets pro Exportauftrag zulässig.
 
-Dynamic Media Classic speichert im Anzeigebereich &quot;Aufträge&quot;einen Datensatz zu Exportaufträgen.
+Dynamic Media Classic speichert einen Datensatz mit Exportvorgängen im Bildschirm &quot;Aufträge&quot;.
 
 **So exportieren Sie Assets aus Dynamic Media Classic:**
 
 1. Wählen Sie die zu exportierenden Assets aus und klicken Sie dann auf **[!UICONTROL „Datei“]** > **[!UICONTROL „Exportieren“]**.
 1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **„Bildoptionen“** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):
 
-   * **Vorgaben** : Wählen Sie optional eine Bildvorgabe, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
+   * **Vorgaben**  - Wählen Sie optional eine Bildvorgabe aus, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
 
-   * **Konversion** : Konvertieren Sie die Asset-Datei oder das Originalbild.
+   * **Konversion**  - Konvertieren Sie die Asset-Datei oder das Originalbild.
 
-   * **Größe** : Sie können eine Standardgröße auswählen. Sie können auch in der Dropdown-Liste „Größe“ auf **[!UICONTROL „Andere“]** klicken, die gewünschte Maßeinheit wählen und dann die Breite und Höhe festlegen.****
+   * **Größe**  - Sie können eine Standardgröße auswählen. Sie können auch in der Dropdown-Liste „Größe“ auf **[!UICONTROL „Andere“]** klicken, die gewünschte Maßeinheit wählen und dann die Breite und Höhe festlegen.****
 
       Siehe auch [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Format** : Wählen Sie ein Bildformat.
+   * **Format**  - Wählen Sie ein Bildformat.
 
-   * **Farbe** : Wählen Sie &quot;RGB&quot;, &quot;CMYK&quot;oder &quot;Grau&quot;.
+   * **Farbe**  - Wählen Sie RGB, CMYK oder Grau.
 
-   * **Auflösung** : Wählen Sie 72 ppi, 150 ppi oder 300 ppi.
+   * **Lösung**  - Wählen Sie 72 ppi, 150 ppi oder 300 ppi.
 
-   * **Auftragsname** : Sie können dem Export einen Auftragsnamen zuweisen.
+   * **Auftragsname**  - Sie können dem Export einen Auftragsnamen zuweisen.
 
-   * **E-Mail senden an** : Geben Sie optional eine E-Mail-Adresse ein, an die die Assets per E-Mail gesendet werden sollen. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
+   * **E-Mail senden an**  - Geben Sie optional eine E-Mail-Adresse ein, an die die Assets per E-Mail gesendet werden sollen. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
 
 1. Klicken Sie auf „**[!UICONTROL Exportieren]**“.
 
