@@ -6,10 +6,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic, Viewer, Mix-Mediensets
+feature: Dynamic Media Classic,Viewer,Mix-Mediensets
 role: Business Practitioner
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '625'
@@ -52,13 +51,13 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern des gemischten Mediensets aus, geben Sie einen Namen für das Set ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Um zu sehen, wie der kombinierte Bildsatz in einem Bildsatz-Viewer aussieht, klicken Sie auf **[!UICONTROL Vorschau]**.
+   Um zu sehen, wie das kombinierte Bildset in einem Bildset-Viewer aussieht, klicken Sie auf **[!UICONTROL Vorschau]**.
 
 ## Bearbeiten eines gemischten Mediensets {#edit-a-mixed-media-set}
 
 Sie können ein gemischtes Medienset bearbeiten. Falls Sie ein Set innerhalb eines gemischten Mediensets bearbeiten möchten, öffnen Sie dieses Set für sich allein, bearbeiten und speichern Sie es. Die Änderungen werden im gemischten Medienset angezeigt.
 
-Unabhängig davon, ob Sie einen veröffentlichten oder unveröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
+Unabhängig davon, ob Sie einen veröffentlichten oder unveröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf den Satz und die Setmitglieder aus:
 
 | Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
@@ -80,7 +79,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speicher unter]**.
 
-## Löschen eines gemischten Mediensets  {#deleting-a-mixed-media-set}
+## Löschen eines gemischten Mediensets {#deleting-a-mixed-media-set}
 
 Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
