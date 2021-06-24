@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic, Viewer, Mix-Mediensets
+feature: Dynamic Media Classic,Viewer,Mix-Mediensets
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -41,11 +40,11 @@ Nach der Veröffentlichung eines gemischten Mediensets können Sie dessen URL ab
 
       Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“.
 
-## Hinzufügen von URLs für gemischte Mediensets zur Website  {#add-mixed-media-set-urls-to-your-web-page}
+## Hinzufügen von URLs für gemischte Mediensets zur Website {#add-mixed-media-set-urls-to-your-web-page}
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines gemischten Mediensets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das gemischte Medienset in einem gemischtes Medienset-Viewer-Fenster angezeigt wird.
 
-## Kopieren von Einbettungscode eines Viewers für gemischte Mediensets  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Kopieren von Einbettungscode eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung des Codes ist im Dialogfeld Einbettungscode nicht zulässig.
 
