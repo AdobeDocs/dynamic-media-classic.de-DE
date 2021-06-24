@@ -5,10 +5,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-feature: Dynamic Media Classic, Viewer, Zoom
+feature: Dynamic Media Classic,Viewer,Zoom
 role: Business Practitioner
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '678'
@@ -18,13 +17,13 @@ ht-degree: 81%
 
 # Verknüpfen von Zoom-Viewern mit Webseiten{#linking-zoom-viewers-to-your-web-pages}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Image Server-Inhalte wie Übergeordnet-Zielgruppen und zugehörige Zoom-Viewer-Vorgaben zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Dynamic Media Image Server-Inhalt zu, einschließlich Übergeordneter Bilder und zugehöriger Zoomziele sowie Zoom-Viewer-Vorgaben. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihre Webseiten und Anwendungen zu platzieren, kopieren Sie sie aus Dynamic Media Classic.
 
 >[!NOTE]
 >
 >Diese URL wird erst dann aktiv, wenn Sie das Asset veröffentlichen.
 
-## Kopieren der URL eines Zoom-Viewers  {#copying-a-zoom-viewer-url}
+## Kopieren der URL eines Zoom-Viewers {#copying-a-zoom-viewer-url}
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den Zoom-Viewer enthält, dessen URL Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
@@ -42,11 +41,11 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
       Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“.
 
-## Hinzufügen von Zoom-Viewer-URLs zu einer Webseite  {#adding-zoom-viewer-urls-to-your-web-page}
+## Hinzufügen von Zoom-Viewer-URLs zu einer Webseite {#adding-zoom-viewer-urls-to-your-web-page}
 
-Normalerweise zoomen Besucher die Bilder auf einer Website, indem sie zuerst ein Zoomsymbol auswählen (oft wird das Bild einer Lupe angezeigt). Über diese Symbolschaltfläche wird eine dynamische Website (ASP oder JSP) aufgerufen und das Bild in einem Popup-Fenster angezeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
+In der Regel zoomen Besucher Bilder auf einer Website, indem sie zunächst ein Zoom-Symbol auswählen (häufig zeigt das Symbol das Bild einer Lupe an). Über diese Symbolschaltfläche wird eine dynamische Website (ASP oder JSP) aufgerufen und das Bild in einem Popup-Fenster angezeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des einfachen HTML5-Zoom-Viewers im Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5 Basic Zoom Viewers im Adobe Viewer Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren von Einbettungscode eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 
