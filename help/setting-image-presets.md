@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic, Bildvorgaben
+feature: Dynamic Media Classic,Bildvorgaben
 role: Business Practitioner
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '654'
@@ -20,15 +19,15 @@ ht-degree: 64%
 
 # Einstellen von Bildvorgaben{#setting-up-image-presets}
 
-Eine Bildvorgabe ähnelt einem Makro – es handelt sich um eine vordefinierte, mit gemeinsamem Namen gespeicherte Sammlung von Befehlen zur Größeneinstellung und Formatierung. Ein Beispiel zur Funktionsweise von Bildvorgaben: Angenommen, für Ihre Website wird jedes Produktbild in zwei unterschiedlichen Größen benötigt, einmal im Format 500 x 500 Pixel und einmal im Format 150 x 150 Pixel. Sie erstellen dann zwei Bildvorgaben, eine mit der Bezeichnung „Vergrößerung“ zum Anzeigen von Bildern mit 500 x 500 Pixeln, eine mit der Bezeichnung „Miniaturansicht“ zum Anzeigen von Bildern mit 150 x 150 Pixeln. Um Bilder in den Größen &quot;Vergrößern&quot;und &quot;Miniaturansicht&quot;bereitzustellen, sucht ein Dynamic Media-Image-Server nach der Definition der Bildvorgabe &quot;Vergrößern&quot;und der Bildvorgabe &quot;Miniaturansicht&quot;. Dann erstellt der Server dynamisch je ein Bild in der Größe und mit den Formatierungsangaben, die in den beiden Bildvorgaben gespeichert sind.
+Eine Bildvorgabe ähnelt einem Makro – es handelt sich um eine vordefinierte, mit gemeinsamem Namen gespeicherte Sammlung von Befehlen zur Größeneinstellung und Formatierung. Ein Beispiel zur Funktionsweise von Bildvorgaben: Angenommen, für Ihre Website wird jedes Produktbild in zwei unterschiedlichen Größen benötigt, einmal im Format 500 x 500 Pixel und einmal im Format 150 x 150 Pixel. Sie erstellen dann zwei Bildvorgaben, eine mit der Bezeichnung „Vergrößerung“ zum Anzeigen von Bildern mit 500 x 500 Pixeln, eine mit der Bezeichnung „Miniaturansicht“ zum Anzeigen von Bildern mit 150 x 150 Pixeln. Um Bilder in den Größen &quot;Vergrößern&quot;und &quot;Miniaturansicht&quot;bereitzustellen, sucht ein Dynamic Media-Bildserver nach der Definition der Bildvorgabe &quot;Vergrößern&quot;und der Bildvorgabe &quot;Miniaturansicht&quot;. Dann erstellt der Server dynamisch je ein Bild in der Größe und mit den Formatierungsangaben, die in den beiden Bildvorgaben gespeichert sind.
 
-Im Lieferumfang von Dynamic Media Classic sind mehrere bewährte Bildvorgaben enthalten, die bereits für die Verwendung eingerichtet wurden. Administratoren können auch neue Bildvorgaben erstellen. Sie können eine Bildvorgabe komplett neu erstellen oder eine vorhandene Bildvorgabe abwandeln und unter neuem Namen speichern.
+Dynamic Media Classic enthält mehrere Bildvorgaben, die bereits für die Verwendung durch Sie eingerichtet sind. Administratoren können auch neue Bildvorgaben erstellen. Sie können eine Bildvorgabe komplett neu erstellen oder eine vorhandene Bildvorgabe abwandeln und unter neuem Namen speichern.
 
 Bei Bildern, deren Größe bei der dynamischen Bereitstellung von einem Server verringert wird, kann es zu einem Verlust an Schärfe und Detail kommen. Aus diesem Grund enthält jede Bildvorgabe Elemente zur Formatierungssteuerung, mit denen ein Bild bei Bereitstellung in einer bestimmten Größe optimiert wird. Ihre Bilder werden dadurch scharf und klar für die Website bzw. Anwendung bereitgestellt.
 
-## Erstellen einer Bildvorgabe  {#creating-an-image-preset}
+## Erstellen einer Bildvorgabe {#creating-an-image-preset}
 
-Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu erstellen. Sie können neue Bildvorgaben oder Beginn mit einer standardmäßigen Bildvorgabe erstellen, die Dynamic Media Classic bereitstellt, bearbeiten und mit einem neuen Namen speichern.
+Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu erstellen. Sie können neue Bildvorgaben erstellen oder mit einer standardmäßigen Bildvorgabe beginnen, die Dynamic Media Classic bereitstellt, sie bearbeiten und mit einem neuen Namen speichern.
 
 **So erstellen Sie ein Bildvorgabe:**
 
@@ -38,29 +37,29 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Erstellen einer**
-BildvorgabeKlicken Sie auf Hinzufügen.
+   * **Erstellen einer Bildvorgabe**
+Klicken Sie auf &quot;Hinzufügen&quot;.
 
    * **Bearbeiten einer Bildvorgabe**
-Durchsuchen Sie die Bildvorgabe, die der gewünschten am ehesten entspricht, und klicken Sie auf &quot;Bearbeiten&quot;.
+Durchsuchen Sie die Bildvorgabe, die der Bildvorgabe am ehesten ähnelt, und klicken Sie auf Bearbeiten.
 
 1. Geben Sie einen Namen für die Bildvorgabe ein.
 1. Geben Sie die Breite und Höhe in Pixeln ein. Diese Werte bestimmen die Größe, in der Bilder bereitgestellt werden.
 1. Füllen Sie die Felder im Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ aus. Einzelheiten dazu finden Sie im Abschnitt [Optionen für Bildvorgaben](application-setup.md#image_preset_options).
 
-   Dynamic Media Classic empfiehlt für den Beginn die folgenden &quot;Best Practice&quot;-Optionen:
+   Dynamic Media Classic empfiehlt die folgenden Best Practice-Optionen, um zu beginnen:
 
-   * **Wählen Sie**
-JPEG oder ein anderes Format, das Ihren Anforderungen entspricht. Alle Webbrowser unterstützen das JPEG-Bildformat. Es bietet eine gute Balance zwischen kleinen Dateigrößen und Bildqualität. Bilder im JPEG-Format verwenden jedoch ein verlustbehaftetes Komprimierungsschema, das unerwünschte Bildartefakte hervorrufen kann, wenn die Komprimierungseinstellung zu niedrig festgelegt ist. Daher empfiehlt Dynamic Media Classic, die Komprimierungsqualität (auf dem Schieberegler) auf 75 einzustellen. Diese Einstellung bietet eine gute Balance zwischen Bildqualität und kleiner Dateigröße.
+   * ****
+FormatChoose JPEG oder ein anderes Format, das Ihren Anforderungen entspricht. Alle Webbrowser unterstützen das JPEG-Bildformat. Es bietet eine gute Balance zwischen kleinen Dateigrößen und Bildqualität. Bilder im JPEG-Format verwenden jedoch ein verlustbehaftetes Komprimierungsschema, das unerwünschte Bildartefakte hervorrufen kann, wenn die Komprimierungseinstellung zu niedrig festgelegt ist. Daher empfiehlt Dynamic Media Classic, die Komprimierungsqualität (auf dem Regler) auf 75 festzulegen. Diese Einstellung bietet eine gute Balance zwischen Bildqualität und kleiner Dateigröße.
 
-   * **ScharfzeichnenWählen Sie**
-&quot;Scharfzeichnen&quot;nicht aus (diese Scharfzeichnungsfilter-Angebot haben weniger Kontrolle als die Einstellungen für &quot;Unschärfemaske&quot;).
+   * ****
+ScharfzeichnenWählen Sie nicht Scharfzeichnen aus (dieser Scharfzeichnungsfilter bietet weniger Kontrolle als die Einstellungen für &quot;Unschärfemaske&quot;).
 
-   * **Resampling**
-ModeChoose Bi-Cubic.
+   * **Resample**
+ModeChoose Bikubisch.
 
-   * **Optionen**
-für Unschärfemaske (USM) Geben Sie die folgenden Einstellungen ein:
+   * **Unschärfemaske (USM)-**
+OptionenGeben Sie die folgenden Einstellungen ein:
    | Vorgabetyp | Größe | Unschärfem.: Betrag | Unschärfem.: Radius | Unschärfem.: Schwelle |
    |--- |--- |--- |--- |--- |
    | Cross-Selling (besonders kleine Miniaturansicht) | 75 x 75 | 1,5 | 0,8 | 5 |
@@ -70,13 +69,13 @@ für Unschärfemaske (USM) Geben Sie die folgenden Einstellungen ein:
 
 1. Klicken Sie auf „**Speichern**“.
 
-Die im Folgenden aufgeführten bewährten Verfahren für das Erstellen von Bildvorgaben in Dynamic Media Classic sind allgemeine Empfehlungen. Scharfzeichnen ist hochgradig subjektiv. Die oben aufgeführten Einstellungen wurden für ein Masterbild der Größe 2000 x 2000 Pixel festgelegt; Einstellungen für größere oder kleinere Masterversionen können abweichen. Wenn Sie die Einstellungen für die Unschärfemaske anpassen möchten, empfiehlt Dynamic Media Classic die folgenden Bereiche:
+Die im Folgenden aufgeführten Dynamic Media Classic-Best Practice-Optionen zum Erstellen von Bildvorgaben sind allgemeine Empfehlungen. Scharfzeichnen ist sehr subjektiv. Die oben aufgeführten Einstellungen wurden für ein Masterbild der Größe 2000 x 2000 Pixel festgelegt; Einstellungen für größere oder kleinere Masterversionen können abweichen. Wenn Sie die Einstellungen für die Unschärfemaske anpassen möchten, empfiehlt Dynamic Media Classic die folgenden Bereiche:
 
-* **Betrag**
-zwischen 0,8 und 1,5.
+* ****
+AmountBetween .8 and 1.5.
 
-* **Radius**
-zwischen 0,6 und 2.
+* ****
+RadiusZwischen .6 und 2.
 
 * ****
 Schwellenwert1-6.
@@ -86,6 +85,6 @@ Wenn Sie eine Bildvorgabe löschen möchten, wählen Sie sie im Anzeigebereich �
 >[!MORELIKETHIS]
 >
 >* [Erstellen und Bearbeiten von Bildvorgaben](application-setup.md#creating_and_editing_image_presets)
->* [Optionen für Bildvorgaben](application-setup.md#image_preset_options)
->* [Anzeigen einer Bild-Asset-Vorschau auf Grundlage seiner Bildvorgabe](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+* [Optionen für Bildvorgaben](application-setup.md#image_preset_options)
+* [Anzeigen eines Bild-Asset auf Grundlage seiner Bildvorgabe](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
 
