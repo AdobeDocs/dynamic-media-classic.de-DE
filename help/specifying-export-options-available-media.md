@@ -1,15 +1,14 @@
 ---
 title: Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen
-description: Hier erfahren Sie, wie Sie Exportoptionen festlegen, die Media Portal-Benutzern zur Verfügung stehen.
+description: Erfahren Sie, wie Sie Exportoptionen angeben, die für Media Portal-Benutzer verfügbar sind.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic, Zusammenarbeit, Asset Management
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Administrator,Business Practitioner
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '380'
@@ -28,21 +27,21 @@ Die folgenden beiden Einschränkungen gelten, wenn Sie Bild-Asset über eine ben
 
 Siehe auch [Exportieren von Assets aus Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**So legen Sie Exportoptionen fest, die Media Portal-Benutzern zur Verfügung stehen:**
+**So legen Sie Exportoptionen fest, die für Media Portal-Benutzer verfügbar sind:**
 
-1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Bildvorgaben]**.
+1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Bildvorgaben]**.
 1. Legen Sie im Fenster „Bildvorgaben“ die folgenden Optionen nach Bedarf fest:
 
-   * **Benutzerdefinierte Konversion**  aktivieren: Wenn diese Option aktiviert ist, können Benutzer im Fenster &quot;Ausgewählte Assets exportieren&quot;aus der Dropdown-Liste &quot; **** Größe&quot;eine andere Option auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
+   * **Benutzerdefinierte Konversion aktivieren**  - Wenn diese Option aktiviert ist, können Benutzer aus der Dropdown-Liste  **** Größe im Fenster Ausgewählte Assets exportieren andere Optionen auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
 
       Wenn in der Dropdownliste **[!UICONTROL Größe]** der Wert **[!UICONTROL Pixel]** ausgewählt wird, kann die resultierende Bildhöhe x Bildbreite maximal 100 Millionen Pixel betragen. Diese Größe entspricht 10.000 x 10.000 Pixel bei einem quadratischen Bild bzw. etwa 8.000 x 12.000 Pixel bei einem Seitenverhältnis von 2:3. Diese Größenbeschränkung gilt nicht, wenn Sie Original-Masterbilder exportieren.
 
       Wenn diese Option deaktiviert ist, können Benutzer nur Dateien herunterladen, ohne sie dabei neu zu formatieren.
 
-   * **&quot;Original**  exportieren&quot;aktivieren: Hiermit können Sie Übergeordnet Originalbilder exportieren. Im Bedienfeld **[!UICONTROL Ausgewählte Assets exportieren]** können Benutzer das Dropdown-Menü **[!UICONTROL Konversion]** öffnen und **[!UICONTROL Original exportieren]** wählen, um Originaldateien zu exportieren. Deaktivieren Sie diese Option, wenn Sie Benutzer zwingen möchten, beim Exportieren von Bildern eine Bildvorgabe auszuwählen oder Konvertierungsoptionen auszuwählen.
+   * **Original exportieren**  aktivieren - Ermöglicht den Export Übergeordneter Originalbilder. Im Bedienfeld **[!UICONTROL Ausgewählte Assets exportieren]** können Benutzer das Dropdown-Menü **[!UICONTROL Konversion]** öffnen und **[!UICONTROL Original exportieren]** auswählen, um Originaldateien zu exportieren. Deaktivieren Sie diese Option, wenn Sie Benutzer zwingen möchten, eine Bildvorgabe auszuwählen oder beim Exportieren von Bildern Konvertierungsoptionen auszuwählen.
 
 >[!MORELIKETHIS]
 >
 >* [Bildvorgaben](application-setup.md#image_presets)
->* [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+* [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 
