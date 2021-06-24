@@ -9,10 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
-feature: Dynamic Media Classic, Zusammenarbeit, Asset Management
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Administrator,Business Practitioner
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '328'
@@ -24,11 +23,11 @@ ht-degree: 71%
 
 Media Portal stellt die folgenden Rollen mit jeweils unterschiedlichen Zugriffsrechten und Berechtigungen zur Verfügung. Wenn Sie einen Benutzer registrieren, weisen Sie dem Benutzer eine der folgenden Rollen zu:
 
-* **Media Portal-Administrator** : Kann Administratoren, Mitarbeiter und Benutzer hinzufügen und entfernen. Administratoren können außerdem Zugriffsrechte für Gruppen festlegen, FTP-Konten verwalten, vom Unternehmen genehmigte Konvertierungsformate (Vorgaben) zuweisen, E-Mails an Media Portal-Benutzer versenden sowie Berichte zur Portal- und Speichernutzung einsehen.
+* **Media Portal-Administrator**  - Kann Administratoren, Mitarbeiter und Benutzer hinzufügen und entfernen. Administratoren können außerdem Zugriffsrechte für Gruppen festlegen, FTP-Konten verwalten, vom Unternehmen genehmigte Konvertierungsformate (Vorgaben) zuweisen, E-Mails an Media Portal-Benutzer versenden sowie Berichte zur Portal- und Speichernutzung einsehen.
 
 * **Media Portal-Benutzer**  - Hat Zugriff auf Ordner und Dateien. Benutzer können nur Dateien auflisten, eine Dateivorschau anzeigen und Dateien herunterladen. Diese Rolle ist geeignet für Kanal- oder Servicepartner, die auf Ihre vom Unternehmen genehmigten Assets zugreifen müssen.
 
-* **Media Portal-Mitarbeiter** : Kann Dateien und Metadaten in Bereichen, für die ein Administrator Berechtigungen erteilt hat, hochladen, Vorschauen erstellen und durchsuchen. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
+* **Media Portal-Mitarbeiter** : Kann Dateien und Metadaten in Bereichen, für die ein Administrator Berechtigungen erteilt hat, hochladen, in einer Vorschau anzeigen und durchsuchen. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
 * **Media Portal-Mitarbeiter-Benutzer**  - Hat Zugriff auf Ordner und Dateien. Ein Mitarbeiter-Benutzer kann Bilder und Metadaten durchsuchen, als Vorschau anzeigen, herunterladen und hochladen. Mitarbeiter-Benutzer können Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
