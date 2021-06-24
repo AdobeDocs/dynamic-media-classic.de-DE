@@ -1,16 +1,15 @@
 ---
 title: Verknüpfen eines E-Katalogs mit einer Website
-description: Erfahren Sie, wie Sie einen E-Katalog mit einer Webseite verknüpfen.
+description: Erfahren Sie, wie Sie einen eCatalog mit einer Webseite verknüpfen.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
-feature: Dynamic Media Classic, Viewer, E-Katalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: Business Practitioner
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '684'
@@ -20,13 +19,13 @@ ht-degree: 85%
 
 # Verknüpfen eines E-Katalogs mit einer Website{#linking-an-ecatalog-to-a-web-page}
 
-Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Image Server-Inhalte, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für den E-Katalog auf Ihren Webseiten und in Ihren Anwendungen einzufügen, kopieren Sie ihn/ihn aus Dynamic Media Classic.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Image Server-Inhalte, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für Ihren eCatalog in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie ihn aus Dynamic Media Classic.
 
 >[!NOTE]
 >
 >Diese URL wird erst dann aktiv, wenn Sie das Asset veröffentlichen.
 
-## Kopieren der URL eines E-Katalogs  {#copying-an-ecatalog-url}
+## Kopieren der URL eines E-Katalogs {#copying-an-ecatalog-url}
 
 1. Klicken Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste „Anzeigen“ auf „**[!UICONTROL Katalog]**“.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den E-Katalog enthält, dessen Einbettungscode Sie kopieren möchten.
@@ -45,11 +44,11 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
       Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**URL kopieren**“.
 
-## Hinzufügen von E-Katalog-URLs zu einer Webseite  {#adding-ecatalog-urls-to-your-web-page}
+## Hinzufügen von E-Katalog-URLs zu einer Webseite {#adding-ecatalog-urls-to-your-web-page}
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines E-Katalogs ist, eine Verknüpfung in Form einer Miniaturansicht der E-Katalog-Titelseite auf einer Website zu platzieren. Vergewissern Sie sich, dass der E-Katalog im Browser in einem eigenen zentrierten Popup-Fenster angezeigt wird (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). In dem Fenster darf keine Symbol- und Adressleiste angezeigt werden.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-E-Katalog-Viewers im Viewer-Referenzhandbuch für Adoben](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-E-Katalog-Viewers im Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren von Einbettungscode eines E-Katalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
 
