@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Viewer
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 82%
 
 ---
-
 
 # Vorbereiten der Musterset-Assets für das Hochladen{#preparing-swatch-set-assets-for-upload}
 
@@ -27,7 +26,7 @@ Wenn Sie ein Musterset mit Farbfeldern erstellen möchten, benötigen Sie Vignet
 * Je eine Aufnahme der Jacke in Schwarz, Braun und Grün.
 * Je ein schwarzes, braunes und grünes Farbfeld.
 
-Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Dynamic Media Classic unterstützt viele Bilddateiformate, es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
+Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
 
 Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files).
 
