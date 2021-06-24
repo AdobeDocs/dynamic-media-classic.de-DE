@@ -10,7 +10,6 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '95'
@@ -20,12 +19,12 @@ ht-degree: 34%
 
 # Systemanforderungen {#system-requirements}
 
-Um eine optimale Benutzererfahrung mit der Dynamic Media Classic-Desktop-App zu erzielen, sollten Sie sicherstellen, dass Ihr System die folgenden Systemanforderungen und Empfehlungen erfüllt:
+Um das bestmögliche Erlebnis mit dem Dynamic Media Classic-Desktop-Programm zu erzielen, stellen Sie sicher, dass Ihr System die folgenden Systemanforderungen und -vorschläge erfüllt:
 
-* Microsoft® Windows® 7 oder höher oder macOS X 10.6 oder höher Macintosh Intel® Prozessor erforderlich.
+* Für Microsoft® Windows® 7 oder höher oder macOS X 10.6 oder höher ist ein Macintosh Intel® Prozessor erforderlich.
 * 3 GB RAM oder höher erforderlich (4 GB oder höher empfohlen).
 * Farbmonitor.
 * Grafikkarte, die True Color mit einer Auflösung von 1280x1024 oder höher unterstützt.
-* JAVA-aktivierter Browser.
+* Browser mit aktivierter JAVA-Funktion.
 * Unterstützte Browser unter Windows: Internet Explorer 9.0 oder höher, Firefox 23 oder höher.
 * Unterstützte Browser unter Mac OS: Safari 6.0 oder höher, Firefox™ 23 oder höher.
