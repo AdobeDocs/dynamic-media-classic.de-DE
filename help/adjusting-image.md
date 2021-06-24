@@ -10,7 +10,6 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: Business Practitioner
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '553'
@@ -20,7 +19,7 @@ ht-degree: 86%
 
 # Anpassen eines Bildes{#adjusting-an-image}
 
-In Dynamic Media Classic werden verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bildes Angebot. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
+Dynamic Media Classic bietet verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bildes. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
 
 Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -49,17 +48,17 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
       Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   * So speichern Sie das Bild als eine andere Ansicht des Übergeordneten. können Sie einen Alias erstellen. Klicken Sie auf **[!UICONTROL Speichern unter]**.
+   * So speichern Sie das Bild als eine andere Ansicht des Übergeordneten Bildes. können Sie einen Alias erstellen. Klicken Sie auf **[!UICONTROL Speichern unter]**.
 
-      Klicken Sie im Dialogfeld **[!UICONTROL Speichern unter]** in der Dropdown-Liste auf **[!UICONTROL Als weitere Ansicht von Übergeordnet]** speichern.
+      Klicken Sie im Dialogfeld **[!UICONTROL Speichern unter]** in der Dropdownliste auf **[!UICONTROL Als weitere Ansicht von Übergeordnet]** speichern.
 
       Wählen Sie im Listenfeld **[!UICONTROL Ordnername]** den Ordner, in dem das neue Masterbild gespeichert werden soll.
 
       Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Erstellen eines Alias für ein Bild  {#creating-an-alias-for-an-image}
+## Erstellen eines Alias für ein Bild {#creating-an-alias-for-an-image}
 
-Wenn Sie ein Bild angepasst haben, können Sie es als eine andere Ansicht des Übergeordneten speichern. Hierfür können Sie mit der Funktion **[!UICONTROL Als zusätzliche Ansicht des Masterbilds speichern]** einen Alias des Bildes erstellen.
+Wenn Sie ein Bild angepasst haben, können Sie es als eine andere Ansicht des Übergeordneten Bildes speichern. Hierfür können Sie mit der Funktion **[!UICONTROL Als zusätzliche Ansicht des Masterbilds speichern]** einen Alias des Bildes erstellen.
 
 1. Klicken Sie in der Rasteransicht oder der Listenansicht in der Dropdown-Liste **[!UICONTROL Bearbeiten]** neben dem Bild, für das Sie einen Alias erstellen möchten, auf **[!UICONTROL Anpassen]**.
 1. Klicken Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Speichern unter]**.
