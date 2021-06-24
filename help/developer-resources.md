@@ -6,10 +6,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '273'
@@ -19,18 +18,18 @@ ht-degree: 40%
 
 # Entwicklerressourcen {#developer-resources}
 
-Dynamic Media Classic stellt Dokumentation zu den neuesten Hauptversionen der einzelnen Dynamic Media Classic-Softwaremodule bereit. Module-Dokumente stehen für Image Authoring, Dynamic Media Classic, Image Server und Image Rendering sowie Viewer zur Verfügung.
+Dynamic Media Classic bietet eine Dokumentation für die neueste Hauptversion jedes Dynamic Media Classic-Softwaremoduls. Moduldokumente sind für Image Authoring, Dynamic Media Classic, Image-Server und Image-Rendering sowie Viewer verfügbar.
 
 Zu einigen Modulen gibt es außerdem Versionshinweise. Die Versionshinweise enthalten Details zur jeweiligen Version, einschließlich Verbesserungen, neue Funktionen, Tipps, Ratschläge zur Fehlerbehebung und bekannte Probleme, die aktuell untersucht werden. Darüber hinaus finden Sie in den Versionshinweisen interaktive Beispiele für Rich-Media-Funktionen und Angaben dazu, wie sie aktiviert werden. Häufig enthalten die Versionshinweise außerdem Anleitungen zur Installation und Konfiguration für Kunden mit lizenzierter Software.
 
-Referenzhandbücher zu Image Serving und Image Rendering und Viewer beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die die Rich-Media-Daten von Dynamic Media Classic für eine Website oder eine benutzerdefinierte Anwendung weiter anpassen und verwenden möchten, können diese Handbücher verwenden. Dynamic Media Classic geht davon aus, dass der Benutzer mit der Desktop-App, den allgemeinen Standards und Konventionen des HTTP-Protokolls und der grundlegenden Terminologie der Bildbearbeitung vertraut ist.
+Referenzhandbücher für Image Serving und Image Rendering sowie Viewer beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die die Rich-Media-Elemente von Dynamic Media Classic für eine Website oder eine benutzerdefinierte Anwendung weiter anpassen und verwenden möchten, können diese Handbücher verwenden. In Dynamic Media Classic wird davon ausgegangen, dass der Benutzer mit dem Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
 
 
-## Dynamic Media Classic API
+## Dynamic Media Classic-API
 
 | Dokument | Webadresse |
 |--- |--- |
-| API-Referenzhandbuch | Die Dokumentation erhalten Sie vom technischen Support von Dynamic Media Classic. |
+| API-Referenzhandbuch | Wenden Sie sich für die Dokumentation an den technischen Support von Dynamic Media Classic. |
 
 ## Image Authoring
 
