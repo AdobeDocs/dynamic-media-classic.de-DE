@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic Desktop-App - jetzt verfügbar
-description: Erfahren Sie mehr über die Dynamic Media Classic-Desktopanwendung.
+title: Adobe Dynamic Media Classic-Desktop-Programm - jetzt verfügbar
+description: Erfahren Sie mehr über das Dynamic Media Classic-Desktop-Programm.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '1850'
@@ -16,165 +15,165 @@ ht-degree: 1%
 
 ---
 
-# Jetzt verfügbar: Adobe Dynamic Media Classic Desktop-App {#dynamic-media-classic-desktop-app}
+# Jetzt verfügbar: Adobe Dynamic Media Classic-Desktop-Programm {#dynamic-media-classic-desktop-app}
 
-Dynamic Media Classic-Benutzer haben jetzt Zugriff auf eine neue Desktop-App, die nicht mehr auf Adobe Flash-Technologie im Browser basiert.
+Dynamic Media Classic-Benutzer haben jetzt Zugriff auf ein neues Desktop-Programm-Erlebnis, das im Browser nicht mehr auf die Adobe Flash-Technologie angewiesen ist.
 
 Diese neue App ist jetzt für Windows® und macOS verfügbar.
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt, die neue Adobe Dynamic Media Classic Desktop-App bis zum 1. Oktober 2020 zu installieren. Dadurch erhalten Sie eine reibungslose Transition, bevor der Flash Player der Adobe am 31. Dezember 2020 eingestellt wird. Nach diesem Datum können Sie sich nicht mehr bei der Browserversion der Benutzeroberfläche von Adobe Dynamic Media Classic anmelden, die im Produkt als Dynamic Media Classic gekennzeichnet ist.
+>Adobe empfiehlt, die neue Adobe Dynamic Media Classic-Desktop-App bis zum 1. Oktober 2020 zu installieren. Dadurch wird sichergestellt, dass Sie einen reibungslosen Übergang haben, bevor der Adobe-Flash Player am 31. Dezember 2020 eingestellt wird. Nach diesem Datum können Sie sich nicht mehr bei der Browserversion der Benutzeroberfläche von Adobe Dynamic Media Classic anmelden, die im Produkt als Dynamic Media Classic gekennzeichnet ist.
 
-Siehe Häufig gestellte Fragen zum neuen Dynamic Media Classic-Anmeldeerlebnis.](/help/new-ui-2020.md)[
+Siehe Häufig gestellte Fragen zum [neuen Dynamic Media Classic-Anmeldeerlebnis jetzt verfügbar.](/help/new-ui-2020.md)
 
-## Systemanforderungen für die Dynamic Media Classic-Desktop-App der Adobe {#system-requirements-dmc-app}
+## Systemanforderungen für das Adobe Dynamic Media Classic-Desktop-Programm {#system-requirements-dmc-app}
 
-Die Desktop-App der Adobe Dynamic Media Classic ist mit den folgenden Betriebssystemen kompatibel:
+Das Adobe Dynamic Media Classic-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
 
-* macOS 10.10 oder neuer.
-* Windows® 7 oder neuer.
+* macOS 10.10 oder höher.
+* Windows® 7 oder höher.
 
 >[!NOTE]
 >
->Die Aktualisierungsbenachrichtigung innerhalb der Dynamic Media Classic-Desktopanwendung wird für *Nebenversionen* nicht generiert. Kunden, die von Fehlerbehebungen in einer Nebenversion profitieren, können ein Upgrade durchführen.
+>Die Aktualisierungsbenachrichtigung innerhalb der Dynamic Media Classic-Desktop-Applikation wird nicht für *Nebenversionen* generiert. Kunden, die von Fehlerbehebungen in einer kleineren Version profitieren, können ein Upgrade durchführen.
 
 ## Fehlerbehebungen in der Nebenversion (20.21.2) {#minor-release}
 
-* Bekannte Einschränkung in 20.21.1 des Server-Dropdown-Menüs leer.
-* Unter **[!UICONTROL Upload-Auftragsoptionen]** ist der Standardwert für die Ebenenbenennung unter **[!UICONTROL Photoshop-Optionen]** jetzt **[!UICONTROL Photoshop und der Ebenenname]**. Die Ebenen der PSD-Datei werden als getrennte Bilder hochgeladen.
-   * Die Bilder wurden in der früheren Standardeinstellung von **[!UICONTROL Name der Ebene]** nach dem Namen der Ebene oder der Nummer der Ebene in der PSD-Datei benannt. Die Nummer der Ebene wurde verwendet, wenn die Ebenennamen in der PSD-Datei standardmäßige Photoshop-Ebenennamen waren.
+* Bekannte Einschränkung in 20.21.1 des Dropdown-Menüs Server ist leer.
+* In **[!UICONTROL Upload-Auftragsoptionen]** ist der Standardwert für die Ebenenbenennung unter **[!UICONTROL Photoshop-Optionen]** jetzt **[!UICONTROL Photoshop und der Ebenenname]**. Die Ebenen der PSD-Datei werden als getrennte Bilder hochgeladen.
+   * Der frühere Standard von **[!UICONTROL Ebenenname]** benannte die Bilder nach ihrem Ebenennamen oder ihrer Ebenennummer in der PSD-Datei. Die Ebenennummer wurde verwendet, wenn die Ebenennamen in der PSD-Datei standardmäßige Photoshop-Ebenennamen waren.
    * Die neue Standardeinstellung von **[!UICONTROL Photoshop und Ebenenname]** benennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Nummern der Ebenen werden verwendet, wenn es sich bei den Namen der Ebenen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt.
-   * Da die Ebenenbilder in Dynamic Media Classic jetzt eindeutige Namen haben, werden keine Aktualisierungen der vorhandenen PSD- oder Vorlagendateien vorgenommen (die in den ursprünglichen PSD-Dateien die Namen freigegebener Ebenen enthalten).
-* Fehlerhafte Miniaturansichten von Assets.
+   * Da Ebenenbilder in Dynamic Media Classic jetzt eindeutige Namen haben, werden keine Aktualisierungen an vorhandenen PSD- oder Vorlagen vorgenommen (die in den Original-PSD-Dateien gemeinsame Ebenennamen haben).
+* Beschädigte Miniaturansichten von Assets.
 
 ## Fehlerbehebungen in der neuesten Version (20.21.1) {#latest-fixes-desktop-app}
 
-* Probleme beim Anmelden aufgrund eines Timeouts, das zu folgender Meldung führt: *Dieser Benutzer kann ohne Berechtigung der Gruppe oder Gruppen zugewiesen werden. Wenden Sie sich an Ihren Administrator.*
-* Viewer-Vorgaben werden bei jedem fehlerhaften Kennwortversuch dupliziert.
-* Die Desktop-Anwendung reagiert nicht mehr, da sich viele Assets im Stammordner befinden. (Behoben unter Windows®; wie gewünscht unter macOS.)
+* Probleme bei der Anmeldung aufgrund eines Timeouts, was zu folgender Meldung führt: *Dieser Benutzer kann der Gruppe oder den Gruppen ohne Berechtigung zugewiesen werden. Wenden Sie sich an Ihren Administrator.*
+* Viewer-Vorgaben werden bei jedem falschen Kennwortversuch dupliziert.
+* Das Desktop-Programm reagiert aufgrund vieler Assets im Stammordner nicht mehr. (Behoben unter Windows®; Arbeiten wie gewünscht unter macOS.)
 
 ## Fehlerbehebungen in der vorherigen Version (20.20.2) {#previous-version-fixes-desktop-app}
 
-* Die Anzahl der Dateien, die Sie über die Benutzeroberfläche der Desktop-App hochladen können, ist für MacOS und Windows® nicht beschränkt.
-* Sie müssen sich nicht bei der Desktop-App abmelden, um zwischen Firmen zu wechseln.
+* Keine Begrenzung der Anzahl der Dateien, die Sie über die Benutzeroberfläche des Desktop-Programms sowohl für macOS als auch für Windows® hochladen können.
+* Sie müssen sich nicht von der Desktop-App abmelden, um zwischen Unternehmen zu wechseln.
 * Strg+V zum Einfügen funktioniert jetzt unter Windows®.
-* Wenn in Zukunft eine neue Version der Desktop-App veröffentlicht wird, werden Benutzer in der Desktop-App selbst benachrichtigt.
+* Wenn in Zukunft eine neue Version des Desktop-Programms veröffentlicht wird, werden Benutzer über das Desktop-Programm selbst benachrichtigt.
 
-## Laden Sie die neueste Dynamic Media Classic Desktop-App der Adobe unter MacOS oder Windows® {#installation-dmc-app} herunter und installieren Sie sie.
+## Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm unter macOS oder Windows® herunter und installieren Sie es. {#installation-dmc-app}
 
 Verwandte Themen:
 
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac herunter und installieren Sie sie unbeaufsichtigt](#install-silent-mac-dmc-app)
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows® herunter und installieren Sie sie unbeaufsichtigt](#install-silent-windows-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm herunter und installieren Sie es still unter Mac](#install-silent-mac-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm herunter und installieren Sie es still unter Windows®](#install-silent-windows-dmc-app)
 
-1. Deinstallieren Sie alle älteren Dynamic Media Classic Desktop-App-Versionen auf Ihrem System.
+1. Deinstallieren Sie alle älteren Versionen des Dynamic Media Classic-Desktop-Programms auf Ihrem System.
 
-1. Laden Sie das neueste Installationsprogramm für die Dynamic Media Classic-Desktop-App der Adobe herunter.
+1. Laden Sie das neueste Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm herunter.
 
-   * Die neueste Version (20.21.2) ist unter folgender Adresse verfügbar:
+   * Die neueste Version (20.21.2) ist verfügbar unter:
 
       * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-      * [Windows® (.EXE) - Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * Die vorherige Version (20.21.1) ist unter folgender Adresse verfügbar:
+      * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * Die vorherige Version (20.21.1) ist verfügbar unter:
 
       * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows® (.EXE) - Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+      * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
-1. Führen Sie je nach heruntergeladenem Installationsprogramm einen der folgenden Schritte aus:
+1. Führen Sie je nach heruntergeladenem Installationsprogramm einen der folgenden Schritte aus.
 
    * **Für macOS** : Ziehen Sie im Dialogfeld  **[!UICONTROL Drag &amp; Drop zum]** Installationsprogramm die  **[!UICONTROL Adobe Dynamic Media]** Classic und legen Sie sie auf  **[!UICONTROL Anwendungen]** ab.
 
-      ![Drag &amp; Drop der Installation unter macOS](/help/assets/dragondrop-install1.png)
+      ![Installieren per Drag-and-Drop auf macOS](/help/assets/dragondrop-install1.png)
 
-   * Tippen Sie im Ordner **[!UICONTROL Applications]** auf das Symbol Adobe Dynamic Media Classic.
-   * Tippen Sie im Dialogfeld auf **[!UICONTROL Öffnen]**, um die Desktop-App der Adobe Dynamic Media Classic zu öffnen.
+   * Tippen Sie im Ordner **[!UICONTROL Anwendungen]** auf das Symbol Adobe Dynamic Media Classic .
+   * Tippen Sie im Dialogfeld auf **[!UICONTROL Öffnen Sie]**, um das Adobe Dynamic Media Classic-Desktop-Programm zu öffnen.
 
       ![Heruntergeladene App öffnen](/help/assets/open-dmclassicapp1.png)
 
-   * **Windows** : Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um die Desktop-App zu installieren.
+   * **Für Windows** : Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um das Desktop-Programm zu installieren.
 
-1. Wenn Sie die Anwendung öffnen, wird die neue Adobe &quot;Dynamic Media Classic-Anmeldung&quot;angezeigt:
+1. Wenn Sie die Anwendung öffnen, wird die neue Adobe Dynamic Media Classic-Anmeldeseite angezeigt:
 
-   ![Dynamic Media Classic-Anmeldung](/help/assets/dmclassic-login1.png)
+   ![Anmeldung bei Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Um sich bei der Dynamic Media Classic Desktop-App der Adobe anzumelden, verwenden Sie dieselben Anmeldeinformationen wie bei der Anmeldung bei Dynamic Media Classic im Browser.
+1. Um sich bei der Adobe Dynamic Media Classic-Desktop-App anzumelden, verwenden Sie dieselben Anmeldedaten wie für die Anmeldung bei Dynamic Media Classic im Browser.
 
-   Die folgenden Zuordnungen für die Produktions-Umgebung finden Sie, damit **[!UICONTROL server]** verwendet wird:
+   Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
-   | Browser-URL | Servername der Desktop-App |
+   | Browser-URL | Server-Name des Desktop-Programms |
    |---|---|
    | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
-1. Beachten Sie nach dem Anmelden die vertraute Benutzeroberfläche des Browsers. Sie können Ihre tägliche Dynamic Media Classic-Aktivität wie gewohnt auf der Desktop-App fortsetzen.
+1. Beachten Sie nach der Anmeldung die bekannte Benutzeroberfläche des Browsers. Sie können Ihre tägliche Dynamic Media Classic-Aktivität wie gewohnt im Desktop-Programm fortsetzen.
 
-## Laden Sie die neueste Adobe Dynamic Media Classic Desktop-App unter macOS {#install-silent-mac-dmc-app} herunter und installieren Sie sie.**
+## Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter macOS herunter und installieren Sie *silent*. {#install-silent-mac-dmc-app}
 
 Verwandte Themen:
 
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac oder Windows® herunter und installieren Sie sie](#installation-dmc-app)
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows® herunter und installieren Sie sie unbeaufsichtigt](#install-silent-windows-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm unter Mac oder Windows® herunter und installieren Sie es.](#installation-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm herunter und installieren Sie es still unter Windows®](#install-silent-windows-dmc-app)
 
-So laden Sie die neueste Version der Dynamic Media Classic-Desktop-App der Adobe unter macOS herunter und installieren sie:**
+So laden Sie die neueste Adobe Dynamic Media Classic Desktop App unter macOS herunter und installieren Sie *silent*:
 
-1. Deinstallieren Sie alle älteren Dynamic Media Classic Desktop-App-Versionen auf Ihrem System.
+1. Deinstallieren Sie alle älteren Versionen des Dynamic Media Classic-Desktop-Programms auf Ihrem System.
 
-1. Laden Sie das neueste Installationsprogramm für die Dynamic Media Classic-Desktop-App der Adobe für macOS herunter.
+1. Laden Sie das neueste Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm für macOS herunter.
 
    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
-1. Laden Sie das heruntergeladene Disk Image (.DMG) mithilfe des folgenden Befehls an einen Speicherort für den Mountpoint herunter:
+1. Stellen Sie das heruntergeladene Disk Image (.DMG) mithilfe des folgenden Befehls an einen Bereitstellungspunkt-Speicherort bereit:
 
    `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
-1. Kopieren Sie die APP-Datei mit dem folgenden Befehl in **[!UICONTROL Anwendungen]**:
+1. Kopieren Sie die .APP-Datei mit dem folgenden Befehl in **[!UICONTROL Applications]**:
 
    `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
 Unmount DMG - hdiutil detach <mount_point_path>`
 
-1. Wenn Sie die Anwendung öffnen, wird die neue Adobe &quot;Dynamic Media Classic-Anmeldung&quot;angezeigt:
+1. Wenn Sie die Anwendung öffnen, wird die neue Adobe Dynamic Media Classic-Anmeldeseite angezeigt:
 
-   ![Dynamic Media Classic-Anmeldung](/help/assets/dmclassic-login1.png)
+   ![Anmeldung bei Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Um sich bei der Dynamic Media Classic Desktop-App der Adobe anzumelden, verwenden Sie dieselben Anmeldeinformationen wie bei der Anmeldung bei Dynamic Media Classic im Browser.
+1. Um sich bei der Adobe Dynamic Media Classic-Desktop-App anzumelden, verwenden Sie dieselben Anmeldedaten wie für die Anmeldung bei Dynamic Media Classic im Browser.
 
-   Die folgenden Zuordnungen für die Produktions-Umgebung finden Sie, damit **[!UICONTROL server]** verwendet wird:
+   Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
-   | Browser-URL | Servername der Desktop-App |
+   | Browser-URL | Server-Name des Desktop-Programms |
    |---|---|
    | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
-## Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Windows® {#install-silent-windows-dmc-app} herunter und installieren Sie sie.**
+## Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Windows® herunter und installieren Sie *silent*. {#install-silent-windows-dmc-app}
 
-Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Installation vorgesehen. Das Installationsprogramm für die Dynamic Media Classic-Desktop-App ist jedoch ein InstallScript-MSI-Installationsprogramm, das mit InstallShield erstellt wurde. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine unbeaufsichtigte Installation verwendet, wie unter [Ausführen von Installationen im Hintergrund beschrieben.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Installation. Das Installationsprogramm für das Dynamic Media Classic-Desktop-Programm ist jedoch ein InstallScript-MSI-Installationsprogramm, das mit InstallShield erstellt wurde. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine unbeaufsichtigte Installation verwendet, wie unter [Ausführen von Installationen im unbeaufsichtigten Modus beschrieben.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Verwandte Themen:
 
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter Mac oder Windows® herunter und installieren Sie sie](#installation-dmc-app)
-* [Laden Sie die neueste Dynamic Media Classic-Desktop-App der Adobe unter macOS herunter und installieren Sie sie unbeaufsichtigt](#install-silent-mac-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm unter Mac oder Windows® herunter und installieren Sie es.](#installation-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm herunter und installieren Sie es auf macOS](#install-silent-mac-dmc-app)
 
-So laden Sie die neueste Version der Dynamic Media Classic Desktop-App unter Windows® herunter und installieren Sie diese unter:**
+So laden Sie die neueste Version des Dynamic Media Classic-Desktop-Programms unter Windows® herunter und installieren Sie *silent*:
 
-1. Deinstallieren Sie alle älteren Dynamic Media Classic Desktop-App-Versionen auf Ihrem System.
+1. Deinstallieren Sie alle älteren Versionen des Dynamic Media Classic-Desktop-Programms auf Ihrem System.
 
-1. Laden Sie das neueste Installationsprogramm für die Dynamic Media Classic-Desktop-App der Adobe herunter.
+1. Laden Sie das neueste Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm herunter.
 
-   * [Windows® (.EXE) - Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
-1. Führen Sie das Installationsprogramm mit dem folgenden Befehl im Datensatzmodus aus:
+1. Führen Sie das Installationsprogramm im Datensatzmodus mit dem folgenden Befehl aus:
 
    `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
-1. Führen Sie im Fenster des GUI-Installationsprogramms die Installationsschritte aus, damit Interaktionen/Eingaben, wie z. B. der Installationsort, in der Datei `Setup.iss` aufgezeichnet werden.
+1. Führen Sie im Fenster des GUI-Installationsprogramms die Schritte zum Installieren aus, damit Interaktionen/Eingaben, wie der Installationsspeicherort, in der Datei `Setup.iss` aufgezeichnet werden.
 
 1. Kopieren Sie die erstellte Datei `Setup.iss` und `adobe-dynamic-media-classic-20.21.2.exe` auf einen anderen Computer.
 
@@ -184,66 +183,66 @@ So laden Sie die neueste Version der Dynamic Media Classic Desktop-App unter Win
 
    Details zu Befehlszeilenparametern finden Sie unter [Setup.exe und Update.exe Befehlszeilenparameter.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
-1. Wenn Sie die Anwendung öffnen, wird die neue Adobe &quot;Dynamic Media Classic-Anmeldung&quot;angezeigt:
+1. Wenn Sie die Anwendung öffnen, wird die neue Adobe Dynamic Media Classic-Anmeldeseite angezeigt:
 
-   ![Dynamic Media Classic-Anmeldung](/help/assets/dmclassic-login1.png)
+   ![Anmeldung bei Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Um sich bei der Dynamic Media Classic Desktop-App der Adobe anzumelden, verwenden Sie dieselben Anmeldeinformationen wie bei der Anmeldung bei Dynamic Media Classic im Browser.
+1. Um sich bei der Adobe Dynamic Media Classic-Desktop-App anzumelden, verwenden Sie dieselben Anmeldedaten wie für die Anmeldung bei Dynamic Media Classic im Browser.
 
-   Die folgenden Zuordnungen für die Produktions-Umgebung finden Sie, damit **[!UICONTROL server]** verwendet wird:
+   Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
-   | Browser-URL | Servername der Desktop-App |
+   | Browser-URL | Server-Name des Desktop-Programms |
    |---|---|
    | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
 
-## Video-Einführung zur Verwendung der Dynamic Media Classic Desktop-App {#dmc-app-video-walk-through}
+## Video-exemplarische Vorgehensweise zur Verwendung der Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Sehen Sie sich ein [Video-Durchlaufen bei der Verwendung der Dynamic Media Classic Desktop-App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) an (Länge: 2 Minuten, 36 Sekunden).
+Sehen Sie sich ein [Video-Beispiel zur Verwendung der Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) an (Länge: 2 Minuten 36 Sekunden).
 
-## Löschen des Bild-Cache und des Asset-Cache auf Ihrem Computer mit der Desktop-App {#clear-cache}
+## Löschen des Bild-Cache und des Asset-Cache auf Ihrem Computer mithilfe des Desktop-Programms {#clear-cache}
 
-1. Tippen Sie in der Dynamic Media Classic Desktop-App oben rechts auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]**.
+1. Tippen Sie im Dynamic Media Classic-Desktop-Programm oben rechts auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]**.
 1. Führen Sie auf der Seite **[!UICONTROL Persönliche Einstellungen]** unter der Überschrift **[!UICONTROL Desktop]** einen der folgenden Schritte aus:
-   * Um alle im Dynamic Media zwischengespeicherten Bilddateien der Adobe von Ihrem Computer zu entfernen, tippen Sie auf **[!UICONTROL Cache löschen]** und dann auf **[!UICONTROL OK]**.
-   * Um alle im Dynamic Media zwischengespeicherten Asset-Dateien der Adobe von Ihrem Computer zu entfernen, tippen Sie auf **[!UICONTROL Asset-Cache löschen]** und dann auf **[!UICONTROL OK]**.
-1. Tippen Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Schließen]**.
+   * Um alle Adobe-Bilddateien zu entfernen, die von Dynamic Media zwischengespeichert wurden, tippen Sie auf **[!UICONTROL Image-Cache löschen]** und dann auf **[!UICONTROL OK]**.
+   * Um alle Adobe-Asset-Dateien zu entfernen, die von Dynamic Media zwischengespeichert wurden, tippen Sie auf **[!UICONTROL Asset-Cache löschen]** und dann auf **[!UICONTROL OK]**.
+1. Tippen Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Close]**.
 
-### Manuelles Löschen des Bild-Cache und des Asset-Cache
+### Manuelles Löschen des Bild-Caches und des Asset-Caches
 
-Neben dem Löschen des Bild- und Asset-Cache mit der Desktop-App können Sie den Cache auch direkt aus dem Dateisystem löschen.
+Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm löschen, sondern auch den Cache direkt aus dem Dateisystem löschen.
 
-1. Navigieren Sie je nach Betriebssystem zu den folgenden Schritten:
+1. Navigieren Sie je nach Betriebssystem zu Folgendem:
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Bekannte Einschränkung in Dynamic Media Classic 20.21.1
+## Bekannte Einschränkungen in Dynamic Media Classic 20.21.1
 
-* Die Dropdown-Liste **[!UICONTROL Server]** ist nach dem Aktualisieren auf die Dynamic Media Classic Desktop-App 20.21.1 - Szenario leer: Sie installieren und melden sich bei Dynamic Media Classic 20.20.1 oder 20.20.2 an und schließen dann die Anwendung. Dann aktualisieren Sie auf Dynamic Media Classic 20.21.1. Wenn Sie versuchen, sich anzumelden, ist die Dropdown-Liste **[!UICONTROL Server]** im Dialogfeld **[!UICONTROL Anmelden bei Ihrem Konto]** leer. Um dieses Problem zu umgehen, müssen Sie [den Cache](#clear-cache) manuell löschen (siehe die Schritte oben).
+* Die Dropdownliste **[!UICONTROL Server]** ist nach der Aktualisierung auf das Dynamic Media Classic-Desktop-Programm 20.21.1 - Szenario leer: Sie installieren und melden sich bei Dynamic Media Classic 20.20.1 oder 20.20.2 an und schließen dann das Programm. Anschließend aktualisieren Sie auf Dynamic Media Classic 20.21.1. Wenn Sie versuchen, sich anzumelden, ist die Dropdownliste **[!UICONTROL Server]** im Dialogfeld **[!UICONTROL Anmelden bei Ihrem Konto]** leer. Um dieses Problem zu umgehen, müssen Sie [den Cache](#clear-cache) manuell löschen (siehe obige Schritte).
 
 ## Bekannte Einschränkungen in Dynamic Media Classic 20.20.1 (behoben in 20.20.2)
 
-**_Gilt nur für Windows® - Gibt es eine Beschränkung für die Anzahl der Dateien, die über die Benutzeroberfläche der Desktop-App hochgeladen werden können?_**<br>Ja. Über die Benutzeroberfläche der Desktop-App können maximal 150 Dateien gleichzeitig hochgeladen werden.
+**_Gilt nur für Windows® - Gibt es eine Beschränkung für die Anzahl der Dateien, die über die Benutzeroberfläche des Desktop-Programms hochgeladen werden können?_**<br>Ja, über die Benutzeroberfläche des Desktop-Programms können maximal 150 Dateien gleichzeitig hochgeladen werden.
 
-**_Gilt für Windows® und macOS - Wie kann ich zwischen Firmen wechseln?_**<br>Gehen Sie wie folgt vor, um zwischen Firmen zu wechseln:
+**_Gilt für Windows® und macOS - Wie kann ich zwischen Unternehmen wechseln?_**<br>Gehen Sie wie folgt vor, um zwischen Unternehmen zu wechseln:
 
-* Wählen Sie in der Dynamic Media Classic-App die neue Firma aus der Dropdown-Liste &quot;Firma&quot;aus.
-* Wenn das Popupfenster angezeigt wird, tippen Sie auf **[!UICONTROL OK]**, um sich abzumelden und die App zu schließen.
+* Wählen Sie in der Dynamic Media Classic-App das neue Unternehmen aus der Dropdownliste &quot;Unternehmen&quot;aus.
+* Wenn das Popup-Fenster angezeigt wird, tippen Sie auf **[!UICONTROL OK]**, um sich abzumelden und die App zu schließen.
 
-   ![Um die neue Firma zu verwenden, starten Sie die App neu](/help/assets/dmclassic-new-company1.png)
+   ![Um das neue Unternehmen zu verwenden, starten Sie das Programm neu](/help/assets/dmclassic-new-company1.png)
 
-* Starten Sie Dynamic Media Classic neu und melden Sie sich wie gewohnt an, um mit der neuen Firma zu arbeiten.
+* Starten Sie Dynamic Media Classic neu und melden Sie sich wie gewohnt an, um mit dem neuen Unternehmen zu arbeiten.
 
 ## Tipps und Tricks
 
-**_Ich kann das Warenkorbbedienfeld auf der Landingpage von Dynamic Media Classic nicht sehen._**<br>Tippen Sie in Dynamic Media Classic auf**[!UICONTROL Einstellungen > Persönliche Einstellungen ]**. Stellen Sie im Abschnitt Browser sicher, dass**[!UICONTROL MediaPortal-Funktionen anzeigen ]**ausgewählt ist (markiert). Tippen Sie auf**[!UICONTROL Speichern > Schließen ]**.
+**_Auf der Landingpage von Dynamic Media Classic kann ich das Bedienfeld &quot;Warenkorb&quot;nicht sehen._**<br>Tippen Sie in Dynamic Media Classic auf**[!UICONTROL Einstellungen > Persönliche Einstellungen ]**. Stellen Sie im Abschnitt Browser sicher, dass**[!UICONTROL MediaPortal-Funktionen anzeigen ]**ausgewählt ist (markiert). Tippen Sie auf**[!UICONTROL Speichern > Schließen ]**.
 
-**_Der Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt dargestellt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus der Assets anzuzeigen. In der Desktop-App hat Adobe in der Symbolleiste das Symbol**[!UICONTROL Aktualisieren ]**rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**eingeführt. Tippen Sie auf das Symbol**[!UICONTROL Aktualisieren ]**, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Wie bei der Browser-Benutzeroberfläche ist keine erneute Anmeldung erforderlich.
+**_Der Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus der Assets anzuzeigen. Im Desktop-Programm hat Adobe in der Symbolleiste das Symbol**[!UICONTROL Aktualisieren ]**rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**eingeführt. Tippen Sie auf das Symbol**[!UICONTROL Aktualisieren ]**, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Wie bei der Browser-Benutzeroberfläche ist keine erneute Anmeldung erforderlich.
 
-![Aktualisierungssymbol](/help/assets/refresh-icon1.png)
-*Symbol &quot;Aktualisieren&quot;*
+![Symbol ](/help/assets/refresh-icon1.png)
+*&quot;Aktualisieren&quot;*
 
-**_Stapelsatzvorgaben funktionieren nicht in der Desktop-App._**<br>Tippen Sie auf**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben ]**. Stellen Sie sicher, dass die relevante**[!UICONTROL Stapelsatzvorgabe ]**aktiviert ist. Klicken Sie auf**[!UICONTROL Upload speichern und senden ]**.
+**_Stapelsatzvorgaben funktionieren nicht im Desktop-Programm._**<br>Tippen Sie auf**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben ]**. Stellen Sie sicher, dass die entsprechende**[!UICONTROL Stapelsatzvorgabe ]**aktiviert ist. Klicken Sie auf**[!UICONTROL Upload speichern und senden ]**.
