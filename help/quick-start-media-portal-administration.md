@@ -1,16 +1,15 @@
 ---
-title: '"Beginn: Media Portal"'
-description: Einführung und Quick Beginn zu Media Portal, mit dem Sie sich schnell mit den Media Portal-Techniken und der Verwaltung vertraut machen können.
+title: '"Schnellstart: Media Portal"'
+description: Eine Einführung in Media Portal und ein Schnellstart für Media Portal, die Ihnen helfen, die Media Portal-Techniken und -Administration schnell einzurichten und auszuführen.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
-feature: Dynamic Media Classic, Zusammenarbeit, Asset Management
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Administrator,Business Practitioner
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -18,13 +17,13 @@ ht-degree: 73%
 
 ---
 
-# Quick Beginn: Media Portal{#quick-start-media-portal}
+# Schnellstart: Media Portal{#quick-start-media-portal}
 
-Mit Media Portal können Firmen genehmigte Assets mühelos erwerben, steuern und an externe Partner und Kanal sowie an interne Benutzer einer Firma verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern mit von Administratoren gesteuerten &quot;Ansichten&quot;einfachen Zugriff auf Dynamic Media Classic-Assets, einfaches Durchsuchen, Suchen, Suchen, Vorschauen und Exportieren von Assets in vom Unternehmen genehmigten Formaten.
+Mit Media Portal können Unternehmen problemlos genehmigte Assets abrufen, kontrollieren und an externe Partner und Kanäle sowie interne Benutzer eines Unternehmens verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern administratorgesteuerte &quot;Ansichten&quot;in Dynamic Media Classic-Assets, mit denen sie leicht auf Assets zugreifen, sie durchsuchen, suchen, in der Vorschau ansehen und sie in vom Unternehmen genehmigte Formate exportieren können.
 
-Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Außerdem können Sie die Oberfläche von Media Portal an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe, Schriftgröße und Branding-Elemente wie Logos in der Media Portal-Oberfläche angeben.
+Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Außerdem können Sie die Oberfläche von Media Portal an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe, Schriftgröße und Branding-Elemente wie Logos in der Media Portal-Benutzeroberfläche angeben.
 
-Diese Kurzanleitung hilft Ihnen, sich schnell mit der Media Portal-Administration vertraut zu machen. Klicken Sie am Ende jedes Schritts auf den Themenlink, um weitere Informationen zu erhalten.
+Diese Kurzanleitung hilft Ihnen, sich schnell mit der Media Portal-Administration vertraut zu machen. Klicken Sie am Ende jedes Schritts auf den Themenlink, um mehr zu erfahren.
 
 ## 1. Verstehen der Media Portal-Benutzerrollen
 
@@ -76,6 +75,6 @@ Siehe [Effizientes Arbeiten mit Metadaten](making-efficient-metadata.md#making_m
 
 ## 8. Anpassen der Media Portal-Seite
 
-Mit den Media Portal-Stileinstellungen können Sie die Media Portal-Seite mit Ihrem Firma-Logo und Ihren Farben markieren. Verwenden Sie die Stileinstellungen, um das Branding Ihrer Firma in Media Portal einzustellen.
+Mit den Stileinstellungen von Media Portal können Sie die Media Portal-Seite mit Ihrem Firmenlogo und Ihren Farben versehen. Verwenden Sie die Stileinstellungen, um Ihr Unternehmensbranding in Media Portal zu platzieren.
 
 Siehe [Anpassen der Media Portal-Seite](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
