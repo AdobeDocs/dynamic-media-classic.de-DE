@@ -1,21 +1,20 @@
 ---
 title: Neue Funktionen
-description: In den aktuellen Versionshinweisen erfahren Sie mehr über die neuen Funktionen von Dynamic Media Classic.
+description: Informationen zu den neuen Funktionen von Dynamic Media Classic finden Sie in den aktuellen Versionshinweisen.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 94cfb748-30f9-4a8b-9576-3b4775964d04
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 3%
 
 ---
 
-
 # Neuerungen {#what-s-new}
 
-Informationen zur neuesten Adobe Dynamic Media Classic, einschließlich neuer Funktionen, Verbesserungen und Fehlerbehebungen, finden Sie in den [Dynamic Media Classic Versionshinweisen](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+Informationen zur neuesten Adobe Dynamic Media Classic, einschließlich neuer Funktionen, Verbesserungen und Fehlerbehebungen, finden Sie in den [Versionshinweisen zu Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
