@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
-feature: Dynamic Media Classic, Viewer, Video
+feature: Dynamic Media Classic,Viewer,Video
 role: Business Practitioner
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '1683'
@@ -20,19 +19,19 @@ ht-degree: 64%
 
 # Bereitstellen von Video auf Websites und mobilen Sites{#deploying-video-to-your-websites-and-mobile-sites}
 
-Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Classic-Serverinhalte, einschließlich Videos, zu. Dynamic Media Classic aktiviert diese URL-Zeichenfolgen während des Veröffentlichungsvorgangs. Um die URL-Zeichenfolge oder den Einbettungscode für Ihr Video in Ihre Webseiten, mobilen Seiten und Desktop-Anwendungen einzufügen, kopieren Sie sie/ihn aus Dynamic Media Classic.
+Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Serverinhalt von Dynamic Media Classic zu, einschließlich Videos. Dynamic Media Classic aktiviert diese URL-Zeichenfolgen während des Veröffentlichungsvorgangs. Um die URL-Zeichenfolge oder den Einbettungscode für Ihr Video in Ihre Webseiten, mobilen Seiten und Desktop-Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic.
 
 >[!NOTE]
 >
 >Diese URL bzw. der Einbettungscode wird erst dann aktiv, wenn Sie das Asset veröffentlichen.
 
-## Veröffentlichen von Videos  {#publishing-video}
+## Veröffentlichen von Videos {#publishing-video}
 
-Durch das Veröffentlichen eines Videos können Dynamic Media Classic-Server Videos an Ihre Website, mobile Site oder Anwendung übertragen.
+Durch das Veröffentlichen eines Videos können Dynamic Media Classic-Server Videos für Ihre Website, mobile Site oder Anwendung bereitstellen.
 
 Es gibt zwei unterschiedliche Methoden zum Veröffentlichen von Video:
 
-* **Videos sofort beim Hochladen automatisch veröffentlichen** - Im Rahmen des Video-Uploads kann Dynamic Media Classic Videos automatisch veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
+* **Videos sofort beim Hochladen automatisch veröffentlichen** - Im Rahmen des Video-Upload-Prozesses kann Dynamic Media Classic Videos automatisch veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
 
 * **Videos nach dem Hochladen manuell veröffentlichen** - Wenn Sie Videos nach dem Hochladen nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
 
@@ -42,7 +41,7 @@ Nach der Veröffentlichung von Videos aktiviert Dynamic Media Classic die URL-Ze
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um Videos beim Hochladen automatisch und sofort zu veröffentlichen, klicken Sie auf der Seite &quot;Hochladen&quot;auf **[!UICONTROL Nach dem Hochladen veröffentlichen.]** An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
+   * Um Videos automatisch und sofort beim Hochladen zu veröffentlichen, klicken Sie auf der Seite &quot;Hochladen&quot;auf **[!UICONTROL Nach dem Hochladen veröffentlichen]**. An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
    * Um Videos nach dem Hochladen manuell zu veröffentlichen, wählen Sie die entsprechenden Videos im Bedienfeld „Durchsuchen“ aus und klicken dann auf der globalen Navigationsleiste auf **Veröffentlichen**.
 
 ## Verknüpfen einer Video-URL mit einer mobilen Site oder Website {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -59,22 +58,22 @@ Siehe auch [Einbetten des Video-Viewers auf einer Webseite](deploying-video-webs
 1. Im Bedienfeld „Asset-Bibliothek“ auf der linken Seite navigieren Sie zu dem Asset-Ordner, in dem das Video bzw. das adaptive Videoset enthalten ist, für das Sie eine Verknüpfung erstellen möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
-   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“ oder „**[!UICONTROL Listenansicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf eine Videominiatur, um sie in der Detailansicht zu öffnen. In dem Bedienfeld für URLs und Einbettungscode auf der rechten Seite klicken Sie unter „HTTP Streaming“ auf **[!UICONTROL URL kopieren]** rechts neben dem gewünschten Viewer. Als Best Practice sollten Sie die mit dem Viewer `Universal_HTML5_Video` verknüpfte URL kopieren.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“ oder „**[!UICONTROL Listenansicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf eine Videominiatur, um sie in der Detailansicht zu öffnen. In dem Bedienfeld für URLs und Einbettungscode auf der rechten Seite klicken Sie unter „HTTP Streaming“ auf **[!UICONTROL URL kopieren]** rechts neben dem gewünschten Viewer. Kopieren Sie als Best Practice die URL, die mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
    * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie anschließend unterhalb des Miniaturbilds auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“. Als Best Practice sollten Sie die mit dem Viewer `Universal_HTML5_Video` verknüpfte URL kopieren.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“. Kopieren Sie als Best Practice die URL, die mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
 
    * Klicken Sie auf „**[!UICONTROL Listenansicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“. Als Best Practice sollten Sie die mit dem Viewer `Universal_HTML5_Video` verknüpfte URL kopieren.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“. Kopieren Sie als Best Practice die URL, die mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
 
    * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“, „**[!UICONTROL Listenansicht]**“ oder „**[!UICONTROL Detailansicht]**“. Klicken Sie in der gleichen Symbolleiste auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“. Als Best Practice sollten Sie die mit dem Viewer `Universal_HTML5_Video` verknüpfte URL kopieren.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL URL kopieren]**“. Kopieren Sie als Best Practice die URL, die mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
 
 1. Fügen Sie die HTML5 Video-URL auf Ihrer Website und Ihrer mobilen Site ein.
 
-## Einbetten des Video-Viewers auf einer Webseite  {#embedding-the-video-viewer-on-a-web-page}
+## Einbetten des Video-Viewers auf einer Webseite {#embedding-the-video-viewer-on-a-web-page}
 
 Verwenden Sie die Funktion zum Einbetten von Code, wenn Sie das auf Ihrer Website eingebettete Video wiedergeben möchten. Kopieren Sie den Einbettungscode in die Zwischenablage, damit Sie ihn in Ihre Webseiten einfügen können. Die Bearbeitung des Codes ist im Dialogfeld Einbettungscode nicht zulässig.
 
@@ -86,18 +85,18 @@ Siehe auch [ Verknüpfen einer Video-URL mit einer mobilen Site oder Website](de
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Video bzw. das adaptive Videoset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
-   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“ oder „**[!UICONTROL Listenansicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf eine Videominiatur, um sie in der Detailansicht zu öffnen. Klicken Sie im Bedienfeld für die URLs und den Einbettungscode auf der rechten Seite unter „HTTP Streaming“ auf **[!UICONTROL Code einbetten]** rechts neben dem gewünschten Viewer. Als Best Practice sollten Sie auf **[!UICONTROL Einbettungscode]** klicken, der mit dem `Universal_HTML5_Video`-Viewer verknüpft ist.
+   * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“ oder „**[!UICONTROL Listenansicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf eine Videominiatur, um sie in der Detailansicht zu öffnen. Klicken Sie im Bedienfeld für die URLs und den Einbettungscode auf der rechten Seite unter „HTTP Streaming“ auf **[!UICONTROL Code einbetten]** rechts neben dem gewünschten Viewer. Es hat sich bewährt, auf **[!UICONTROL Einbettungscode]** zu klicken, der mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
    * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie anschließend unterhalb des Videominiaturbilds auf **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“. Als Best Practice sollten Sie auf **[!UICONTROL Einbettungscode]** klicken, der mit dem `Universal_HTML5_Video`-Viewer verknüpft ist.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“. Es hat sich bewährt, auf **[!UICONTROL Einbettungscode]** zu klicken, der mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
 
    * Klicken Sie auf „**[!UICONTROL Listenansicht]**“. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“. Als Best Practice sollten Sie auf **[!UICONTROL Einbettungscode]** klicken, der mit dem `Universal_HTML5_Video`-Viewer verknüpft ist.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“. Es hat sich bewährt, auf **[!UICONTROL Einbettungscode]** zu klicken, der mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
 
    * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“, „**[!UICONTROL Listenansicht]**“ oder „**[!UICONTROL Detailansicht]**“. Klicken Sie in der gleichen Symbolleiste auf „**[!UICONTROL Vorschau]**“ > „**[!UICONTROL Viewer-Liste]**“.
 
-      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“. Als Best Practice sollten Sie auf **[!UICONTROL Einbettungscode]** klicken, der mit dem `Universal_HTML5_Video`-Viewer verknüpft ist.
+      Klicken Sie auf der Seite „Viewer-Liste“ in der Spalte „Aktionen“ der Tabelle auf „**[!UICONTROL Code einbetten]**“. Es hat sich bewährt, auf **[!UICONTROL Einbettungscode]** zu klicken, der mit dem Viewer `Universal_HTML5_Video` verknüpft ist.
 
 1. Klicken Sie im Dialogfeld „Code einbetten“ auf „**[!UICONTROL In Zwischenablage kopieren]**“.
 
@@ -106,9 +105,9 @@ Siehe auch [ Verknüpfen einer Video-URL mit einer mobilen Site oder Website](de
 1. Klicken Sie auf **[!UICONTROL Schließen]**.
 1. Fügen Sie den Einbettungscode in Ihre Webseiten ein.
 
-### Implementieren von Einbettungscode für die Verwendung von HTML5-Video mit MP4-Video-Assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implementieren von Einbettungscode für die Verwendung von HTML5-Videos mit MP4-Video-Assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Wenn Sie den Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sondern stattdessen das native HTML5 `<video>`-Tag mit MP4-Video-Assets verwenden möchten, können Sie das folgende Einbettungscode-Beispiel verwenden:
+Wenn Sie den HTML5-Videoplayer von Dynamic Media Classic nicht verwenden, stattdessen aber das native HTML5 `<video>`-Tag mit MP4-Video-Assets verwenden möchten, können Sie das folgende Einbettungscode-Beispiel verwenden:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -118,7 +117,7 @@ Wenn Sie den Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sondern st
 </video>
 ```
 
-* Ersetzen Sie `"S7 video thumbnail URL"` durch die Miniatur-URL des Videos, d. h. das Miniaturbild des Videos, das einem Benutzer vor der Wiedergabe des Videos angezeigt wird.
+* Ersetzen Sie `"S7 video thumbnail URL"` durch die Miniatur-URL des Videos, die das Miniaturbild des Videos darstellt, das ein Benutzer vor der Wiedergabe des Videos sieht.
 
    Siehe [Abrufen von Videominiatur-URLs](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
@@ -130,29 +129,29 @@ Wenn Sie den Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sondern st
 
    Siehe [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-## Bereitstellen von Videos mithilfe von Video-Playern von von Drittanbietern  {#deploying-video-using-a-third-party-video-player}
+## Bereitstellen von Videos mithilfe von Video-Playern von von Drittanbietern {#deploying-video-using-a-third-party-video-player}
 
-Wenn Sie anstelle eines Dynamic Media Classic-Video-Viewers einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Videoplayer verwenden, können Sie die direkte Video-URL abrufen, die für das HLS-Video-Streaming mit mehreren Bitraten oder progressives Herunterladen verwendet werden kann.
+Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Video-Viewers von Dynamic Media Classic verwenden, können Sie die direkte Video-URL abrufen, die für HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
 
 **So stellen Sie ein Video mit einem Video-Player eines Drittanbieters bereit:**
 
-1. Klicken Sie in Dynamic Media Classic in der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
+1. Klicken Sie in Dynamic Media Classic auf der globalen Navigationsleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
 1. Abhängig vom URL-Typ, die Sie verwenden möchten, führen Sie einen der folgenden Schritte aus:
 
-* So generieren Sie eine direkte URL für das HLS-Streaming-Video (mit mehreren Bitraten)
+* So generieren Sie eine direkte HLS-Streaming-Video-URL (Multi-Bitrate)
 
-   Erstellen Sie auf der Seite **[!UICONTROL Allgemeine Programmeinstellungen]** in der Gruppe **[!UICONTROL Server]** im Textfeld **[!UICONTROL Veröffentlichter Servername]** die direkte URL. Verwenden Sie die folgende Syntax: `server/is/content/company/folder/filename.m3u8`
+   Erstellen Sie auf der Seite **[!UICONTROL Application General Settings]** in der Gruppe **[!UICONTROL Servers]** im Textfeld **[!UICONTROL Veröffentlichter Servername]** die direkte URL. Verwenden Sie die folgende Syntax: `server/is/content/company/folder/filename.m3u8`
 
-   Angenommen, der Name des veröffentlichten Servers ist `https://s7d9.scene7.com/.` Die direkte URL könnte mit der Syntax in Schritt 2 wie folgt aussehen:
+   Angenommen, der Name des veröffentlichten Servers ist `https://s7d9.scene7.com/.` Die direkte URL könnte unter Verwendung der Syntax in Schritt 2 wie folgt aussehen:
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
-* So generieren Sie eine direkte URL für das HLS-Streaming für Videos (mit einer Bitrate)
+* So generieren Sie eine direkte HLS-Streaming-Video-URL (Einzelbit-Rate)
 
-   Erstellen Sie auf der Seite **[!UICONTROL Allgemeine Programmeinstellungen]** in der Gruppe **[!UICONTROL Server]** im Textfeld **[!UICONTROL HLS-Streaming-Servername]** die direkte URL mit der folgenden Syntax:
+   Erstellen Sie auf der Seite **[!UICONTROL Application General Settings]** in der Gruppe **[!UICONTROL Servers]** im Textfeld **[!UICONTROL HLS Streaming Server Name]** die direkte URL unter Verwendung der folgenden Syntax:
 
    `server/company/folder/filename.ext.m3u8`
 
-   Angenommen, der Name des HLS-Streaming-Servers ist `https://s7mbrstream.scene7.com/hls-vod/`. Mithilfe der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
+   Angenommen, der Name des HLS-Streaming-Servers ist `https://s7mbrstream.scene7.com/hls-vod/`. Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * So generieren Sie eine direkte URL für ein progressives Video
@@ -161,18 +160,18 @@ Wenn Sie anstelle eines Dynamic Media Classic-Video-Viewers einen Video-Player e
 
    `server/company/folder/filename`
 
-   Angenommen, der Name des progressiven Video-Servers ist `https://s7d9.scene7.com/is/content/`. Mithilfe der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
+   Angenommen, der progressive Video-Server-Name ist `https://s7d9.scene7.com/is/content/`. Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Arbeiten mit Videominiaturen {#working-with-video-thumbnails}
 
-Dynamic Media Classic generiert Miniaturansichten für kodierte und vorkodierte Videos. Videominiaturen können wie alle anderen Bild-Assets verwendet werden. Darüber hinaus können Sie URLs für die von Dynamic Media Classic erstellten Videominiaturen abrufen und diese URLs außerhalb von Dynamic Media Classic bereitstellen. Beispielsweise können Sie die Miniaturansichten in Suchergebnissen, relevanten Videolisten und Videowiedergabelisten auf einer Website bereitstellen.
+Dynamic Media Classic generiert Miniaturansichten für kodierte Videos und vorkodierte Videos. Videominiaturen können wie alle anderen Bild-Assets verwendet werden. Darüber hinaus können Sie URLs für die von Dynamic Media Classic generierten Videominiaturen abrufen und diese URLs außerhalb von Dynamic Media Classic bereitstellen. Beispielsweise können Sie die Miniaturansichten in Suchergebnissen, relevanten Videolisten und Videowiedergabelisten auf einer Website bereitstellen.
 
 Miniaturansichten werden basierend auf dem ersten heterogenen Frame (d. h. kein vollständig schwarzer oder vollständig weißer Frame usw.) des Videos generiert.
 
 ### Abrufen von Videominiatur-URLs {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic generiert während des Hochladevorgangs automatisch Videominiaturen. Die Miniaturansichten werden im Durchsuchenbedienfeld in der Listen- und Rasteransicht angezeigt.
+Dynamic Media Classic generiert während des Upload-Prozesses automatisch Videominiaturen. Die Miniaturansichten werden im Durchsuchenbedienfeld in der Listen- und Rasteransicht angezeigt.
 
 Führen Sie zum Erstellen von URLs für Videominiaturen einen Veröffentlichungsvorgang durch.
 
@@ -182,7 +181,7 @@ Nach der Veröffentlichung können Sie Videominiatur-URLs in der Detailansicht i
 
 ### Bearbeiten von Standbildern in Video-Viewern {#modifying-poster-frames-in-video-viewers}
 
-Das *Standbild* ist das erste Bild, das in Video-Viewern angezeigt wird, bevor die Wiedergabe beginnt. Dynamic Media Classic verwendet Videominiaturen als Standbilder.
+Das *Standbild* ist das erste Bild, das in Video-Viewern angezeigt wird, bevor die Wiedergabe beginnt. Dynamic Media Classic verwendet Videominiaturen als Posterrahmen.
 
 Sie können auch Bildmodifikatoren auf das Standbild anwenden. Sie können das Standbild beispielsweise beschneiden oder transparent machen. Öffnen Sie zum Bearbeiten des Standbilds den Anzeigebereich „Konfiguration“ des Video-Viewers und geben Sie unter „Standbildmodifikatoren“ Modifikatoren ein. 
 
