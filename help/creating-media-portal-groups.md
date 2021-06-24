@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
-feature: Dynamic Media Classic, Zusammenarbeit, Asset Management
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Administrator,Business Practitioner
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '827'
@@ -22,23 +21,23 @@ ht-degree: 86%
 
 Mithilfe von *Gruppen* können Sie die Media Portal-Benutzer leichter verwalten. Um auf ein Asset zugreifen zu können, muss ein Benutzer Mitglied mindestens einer Gruppe mit den erforderlichen Berechtigungen für dieses Asset sein. Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine oder mehrere Rollen zu. Dadurch gewähren Sie dem Benutzer Zugriffsrechte für die Ordner, denen die Gruppe zugewiesen wurde. Sie können auch angeben, welche Bildvorgaben einer Gruppe zur Verfügung stehen.
 
-## Verwenden von Gruppen zum Beschränken des Zugriffs auf Ordner, Assets und Bildvorgaben  {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
+## Verwenden von Gruppen zum Beschränken des Zugriffs auf Ordner, Assets und Bildvorgaben {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
 Wenn Sie Gruppen erstellen, können Sie Zugriffsrechte auf unterschiedlichen Ebenen gewähren. Für jede Gruppe weisen Sie Lese-, Schreib- und Löschberechtigungen für unterschiedliche Ordner und Assets in den Ordnern zu. Außerdem legen Sie fest, welche Bildvorgaben der Gruppe zur Verfügung stehen. Anschließend weisen Sie Benutzer den Gruppen zu. Ein Benutzer kann Mitglied mehrerer Gruppen sein. Durch das Gruppenkonzept können Sie flexibel Zugriffsrechte für einen Teil des Gesamtinhalts zuweisen.
 
-Wenn Sie einem Asset oder einem Ordner keine Gruppenberechtigung zuweisen, erbt dieses Asset bzw. dieser Ordner die Berechtigungen, die Sie seinem übergeordneten Ordner (dem Ordner darüber in der Ordnerhierarchie) zugewiesen haben. Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte für sämtliche darin enthaltenen Ordner übernommen.
+Wenn Sie einem Asset oder Ordner keine Gruppenberechtigungen gewähren, erbt dieses Asset oder Ordner die Berechtigungen, die Sie seinem übergeordneten Ordner (dem Ordner darüber in der Ordnerhierarchie) zugewiesen haben. Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte für sämtliche darin enthaltenen Ordner übernommen.
 
 >[!NOTE]
 >
 >Benutzer können mehreren Gruppen angehören. Wenn ein Benutzer zwei Gruppen mit unterschiedlichen Zugriffsrechten für einen Ordner angehört, werden jeweils die höchsten Zugriffsrechte angewendet.
 
-## Hinzufügen einer Gruppe  {#adding-a-group}
+## Hinzufügen einer Gruppe {#adding-a-group}
 
 1. Klicken Sie auf **[!UICONTROL „Einstellungen“]** > **[!UICONTROL „Media Portal-Einrichtung“]** > **[!UICONTROL „Gruppen“]**.
 1. Klicken Sie auf **[!UICONTROL „Hinzufügen“]**.
 1. Geben Sie im Dialogfeld „Gruppe hinzufügen“ im Feld „Gruppenname“ einen Namen für die Gruppe ein und klicken Sie dann auf **[!UICONTROL „Gruppe hinzufügen“]**.
 1. Bei Bedarf können Sie die Kontrollkästchen neben den Namen von Benutzern aktivieren, um diese Benutzer der neuen Gruppe hinzuzufügen.
-1. Wenn Sie jetzt Zugriffsberechtigungen festlegen möchten, klicken Sie auf die Registerkarte **[!UICONTROL Asset-Zugriffsberechtigungen]** und geben Sie dann die gewünschten Optionen an.
+1. Wenn Sie jetzt Zugriffsberechtigungen festlegen möchten, klicken Sie auf die Registerkarte **[!UICONTROL Asset Access Permissions]** und geben Sie dann die gewünschten Optionen an.
 
    Siehe [Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
@@ -46,9 +45,9 @@ Wenn Sie einem Asset oder einem Ordner keine Gruppenberechtigung zuweisen, erbt 
 
    Siehe [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
-1. Klicken Sie auf „**[!UICONTROL Schließen]**“.
+1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
-## Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe  {#establishing-asset-access-permissions-for-a-group}
+## Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe {#establishing-asset-access-permissions-for-a-group}
 
 1. Klicken Sie auf **[!UICONTROL „Einstellungen“]** > **[!UICONTROL „Media Portal-Einrichtung“]** > **[!UICONTROL „Gruppen“]**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:
@@ -76,7 +75,7 @@ Wenn Sie einem Asset oder einem Ordner keine Gruppenberechtigung zuweisen, erbt 
 >
 >Zugriffsrechte werden eingerichtet, wenn Sie ein Kästchen aktivieren. Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte auch den darin enthaltenen Ordner und Dateien zugewiesen. Sie können jedoch auch abweichende Rechte für einzelne Unterordner und Asset-Dateien festlegen.
 
-## Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe  {#choosing-image-preset-access-permissions-for-a-group}
+## Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe {#choosing-image-preset-access-permissions-for-a-group}
 
 Wählen Sie Bildvorgabezugriffsberechtigungen für eine Gruppe, wenn Sie festlegen möchten, welche Bildvorgaben den Gruppenmitgliedern beim Exportieren von Assets mit dem Media Portal zur Verfügung stehen sollen.
 
@@ -89,14 +88,14 @@ Siehe auch [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügu
    * Um die Bildvorgabe-Optionen einer Gruppe zu bearbeiten, wählen Sie die Gruppe aus und klicken dann auf **[!UICONTROL „Bearbeiten“]**.
 
 1. Klicken Sie im Dialogfeld „Gruppe hinzufügen“ bzw. „Gruppe bearbeiten“ auf die Registerkarte **[!UICONTROL „Bildvorgabezugriffsberechtigungen“]**.
-1. Um festzulegen, welche Vorgaben Media Portal-Benutzern beim Exportieren von Assets zur Verfügung stehen, wählen Sie Bildvorgaben aus oder deaktivieren Sie sie.
-1. Klicken Sie auf „**[!UICONTROL Schließen]**“.
+1. Um festzulegen, welche Vorgaben für Media Portal-Benutzer beim Exportieren von Assets verfügbar sind, wählen Sie Bildvorgaben aus oder deaktivieren Sie sie.
+1. Klicken Sie auf **[!UICONTROL Schließen]**.
 
-## Bearbeiten und Löschen von Gruppen  {#edit-and-delete-groups}
+## Bearbeiten und Löschen von Gruppen {#edit-and-delete-groups}
 
 1. Klicken Sie auf **[!UICONTROL „Einstellungen“]** > **[!UICONTROL „Media Portal-Einrichtung“]** > **[!UICONTROL „Gruppen“]**.
 1. Wählen Sie auf der Seite „Gruppenliste“ eine Gruppe aus und bearbeiten oder löschen Sie sie.
 
-   **Bearbeiten einer Gruppe** : Klicken Sie auf &quot; **[!UICONTROL Bearbeiten]**&quot;und wählen Sie dann im Dialogfeld &quot;Gruppe bearbeiten&quot;die gewünschten Optionen aus.
+   **Bearbeiten einer Gruppe**  - Klicken Sie auf  **[!UICONTROL Bearbeiten]** und wählen Sie dann im Dialogfeld &quot;Gruppe bearbeiten&quot;Optionen aus.
 
    **Löschen einer Gruppe**  - Klicken Sie auf  **[!UICONTROL Löschen]**.
