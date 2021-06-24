@@ -10,11 +10,10 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewer
 role: Business Practitioner
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 79%
+ht-degree: 82%
 
 ---
 
@@ -24,13 +23,13 @@ Ein Musterset-Bildsatz ermöglicht den Benutzern die Ansicht eines Objekts in un
 
 Beispielsweise können Sie Bilder von Schirmmützen präsentieren, wobei die Schirme rot, grün oder blau sind. In diesem Fall benötigen Sie drei Aufnahmen derselben Mütze: Je eine Aufnahme mit einem roten Schirm, einem grünen und einem blauen Schirm. Darüber hinaus benötigen Sie ein rotes, grünes und blaues Farbfeld. Die Farbfelder dienen als Miniaturansichten, auf die die Benutzer im Musterset-Viewer klicken können, um die Mütze mit rotem, grünem oder blauem Schirm anzuzeigen.
 
-## Erstellen eines Mustersets  {#create}
+## Erstellen eines Mustersets {#create}
 
-Wenn Sie einen Satz erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
-|**[!UICONTROL Option Nach dem Speichern veröffentlichen vor dem Speichern ausgewählt?]**|Status des Sets nach dem Speichern|Status der Set-Mitglieder nach dem Speichern|
-|--- |--- |--- |
+Wenn Sie ein Set erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
+|**[!UICONTROL Option Nach dem Speichern veröffentlichen]** vor dem Speichern ausgewählt?|Status des Sets nach dem Speichern|Status der Set-Mitglieder nach dem Speichern|
+|— |— |— |
 |Ja|Veröffentlicht|Veröffentlicht|
-|Nein|Unveröffentlicht|Set-Mitglieder behalten ihren Status &quot;veröffentlicht&quot;oder &quot;unveröffentlicht&quot;bei.|
+|Nein|Nicht veröffentlicht|Setmitglieder behalten ihren Veröffentlichungsstatus bei oder machen die Veröffentlichung rückgängig.|
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
@@ -38,9 +37,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Wählen Sie zuerst**  die Bilder aus. Wählen Sie dann im Durchsuchenbedienfeld die Bilder aus und klicken Sie dann auf  **[!UICONTROL Erstellen]** >  **[!UICONTROL Mustersets]**.
+   * **Wählen Sie zuerst**  die Bilder aus - Wählen Sie im Durchsuchenbedienfeld die Bilder aus und klicken Sie dann auf  **[!UICONTROL Erstellen]**  >  **[!UICONTROL Mustersets]**.
 
-   * **Beginn im Anzeigebereich**  &quot;Musterset&quot;- Klicken Sie auf  **[!UICONTROL &quot;Erstellen]** &quot;> &quot; **[!UICONTROL Mustersets]**&quot;. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
+   * **Starten Sie im Bildschirm**  &quot;Musterset&quot;- Klicken Sie auf  **[!UICONTROL Erstellen]**  >  **[!UICONTROL Mustersets]**. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
 
 1. Ziehen Sie Farbfelder, Muster oder Ausführungen in das Platzhalterfeld „Muster“ auf der Seite „Musterset“.
 
@@ -48,14 +47,14 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Um die Reihenfolge der Bilder in Ihrem Musterset zu ändern, ziehen Sie die Bilder zu neuen Positionen.
 1. Stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
-1. Klicken Sie auf **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern des Farbfeldsets aus, geben Sie einen Namen für den Satz ein und klicken Sie auf **[!UICONTROL Senden]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern Ihres Farbmuster-Mustersets aus, geben Sie einen Namen für das Set ein und klicken Sie auf **[!UICONTROL Senden]**.
 1. Um Ihr Musterset im Musterset-Viewer anzuzeigen, klicken Sie im Anzeigebereich „Musterset“ auf **[!UICONTROL Vorschau]**. Sie können auf die Muster-Miniaturansichten im Anzeigebereich „Musterset“ klicken, um zu sehen, wie sie sich verhalten.
 
-## Bearbeiten eines Mustersets  {#editing-a-swatch-set}
+## Bearbeiten eines Mustersets {#editing-a-swatch-set}
 
-Unabhängig davon, ob Sie einen veröffentlichten oder unveröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
+Unabhängig davon, ob Sie einen veröffentlichten oder unveröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf den Satz und die Setmitglieder aus:
 
-| Set bereits veröffentlicht? | **[!UICONTROL Option]** Nach dem Speichern veröffentlichen vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL Vor dem Speichern der Bearbeitung ausgewählte Option]** Nach dem Speichern veröffentlichen? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -76,7 +75,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-## Löschen eines Mustersets  {#deleting-a-swatch-set}
+## Löschen eines Mustersets {#deleting-a-swatch-set}
 
 Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
