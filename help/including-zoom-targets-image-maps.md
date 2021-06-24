@@ -1,22 +1,21 @@
 ---
 title: Einbeziehen von Zoomzielen und Imagemaps in Bildsätze
-description: Erfahren Sie, wie Sie Zoom-Zielgruppen und Imagemaps in Bildsätze aufnehmen.
+description: Erfahren Sie, wie Sie Zoomziele und Imagemaps in Bildsets einbeziehen.
 uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Viewer,Bildsets
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 88%
+source-wordcount: '166'
+ht-degree: 89%
 
 ---
-
 
 # Einbeziehen von Zoomzielen und Imagemaps in Bildsätze{#including-zoom-targets-and-image-maps-in-image-sets}
 
@@ -27,5 +26,5 @@ Wenn Sie den Benutzern Zoomziele und Imagemaps zur Verfügung stellen möchten, 
 >[!MORELIKETHIS]
 >
 >* [Erstellen von Zoomzielen für geführten Zoom](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
->* [Erstellen von Imagemaps](creating-image-maps.md#creating_image_maps)
+* [Erstellen von Imagemaps](creating-image-maps.md#creating_image_maps)
 
