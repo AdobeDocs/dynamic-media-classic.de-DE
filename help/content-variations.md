@@ -10,7 +10,6 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-translation-type: tm+mt
 source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
 source-wordcount: '244'
@@ -22,15 +21,15 @@ ht-degree: 59%
 
 Verwenden Sie Vorlagensätze, um die Veröffentlichung von Asset-Variationen zu verwalten.
 
-Erstellen Sie einen Vorlagensatz, um Variationen einer Vorlage zu verwalten. Sie können festlegen, welche Variation verwendet wird, ohne den Code auf der Website zu ändern. Diese Methode hilft Content Managern, Inhalte zu drehen, ohne dass die IT-Abteilung eine URL im Webcode ändern muss.
+Erstellen Sie einen Vorlagensatz, um Variationen einer Vorlage zu verwalten. Sie können festlegen, welche Variation verwendet wird, ohne den Code auf der Website zu ändern. Diese Methode hilft Inhaltsmanagern beim Rotieren von Inhalten, ohne dass die IT-Abteilung eine URL im Webcode ändern muss.
 
-Universelle URLs werden verwendet, um die Vorlagenvariation anzuzeigen, die auf der Seite angezeigt wird, basierend auf der Reihenfolge, in der sie im Satz aufgeführt sind. Die erste Vorlage in der Vorlagensatz-Liste wird immer veröffentlicht.
+Universelle URLs werden verwendet, um die auf der Seite angezeigte Vorlagenvariante in der Reihenfolge anzuzeigen, in der sie im Satz aufgeführt sind. Die erste Vorlage in der Vorlagensatz-Liste wird immer veröffentlicht.
 
 Sie können jede beliebige Bildvorgabe-URL aus der Liste verwenden. Bildvorgabe-URLs sind mit universellen URLs vergleichbar. Es kann mehr als eine Bildvorlage-URL geben.
 
 1. Klicken Sie auf **[!UICONTROL Build]** > **[!UICONTROL Vorlagensätze]**. Der Builder wird geöffnet.
 1. Wählen Sie eine Vorlage aus und klicken Sie dann auf **[!UICONTROL Hinzufügen/Vorschau]**.
-1. Ändern Sie die Vorlageneigenschaften und klicken Sie auf **[!UICONTROL Speichern unter]**, um eine andere Version zu erstellen.
+1. Ändern Sie die Vorlageneigenschaften und klicken Sie auf **[!UICONTROL Speichern unter]** , um eine weitere Version zu erstellen.
 1. Geben Sie einen Namen ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
    Sowohl das Asset als auch die Vorlage müssen veröffentlicht werden.
@@ -41,4 +40,4 @@ Sie können eine Vorlage in der Reihenfolge verschieben (z. B. an den Anfang de
 
 >[!NOTE]
 >
->Löschen Sie bei Bedarf den Cache, um die Änderungen zu sehen. Die Änderung wird nur auf der Website angezeigt, nachdem die Änderung den Cache-Zyklus durchlaufen hat.
+>Falls nötig, leeren Sie den Cache, um die Änderungen zu sehen. Die Änderung wird nur auf der Website angezeigt, nachdem die Änderung den Cache-Zyklus durchlaufen hat.
