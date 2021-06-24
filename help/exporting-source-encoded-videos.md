@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
-feature: Dynamic Media Classic, Viewer, Video
+feature: Dynamic Media Classic,Viewer,Video
 role: Business Practitioner
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '71'
@@ -20,7 +19,7 @@ ht-degree: 40%
 
 # Exportieren von Quellvideos und kodierten Videos{#exporting-source-and-encoded-videos}
 
-Quellvideos haben im Durchsuchenbedienfeld die Bezeichnung „Mastervideo“. Kodierte Videos haben die Bezeichnung „Video“. Sie können Quellvideos und Übergeordnet Videos exportieren. Um Videodateien zu exportieren, wählen Sie sie im Durchsuchenbedienfeld aus und klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Exportieren]**.
+Quellvideos haben im Durchsuchenbedienfeld die Bezeichnung „Mastervideo“. Kodierte Videos haben die Bezeichnung „Video“. Sie können Quellvideos und Übergeordnete Videos exportieren. Um Videodateien zu exportieren, wählen Sie sie im Bedienfeld Durchsuchen aus und klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Export]**.
 
 Siehe [Exportieren von Assets aus Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
