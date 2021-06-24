@@ -1,5 +1,5 @@
 ---
-title: Informationen zu benutzergenerierten Inhalten
+title: Über benutzergenerierte Inhalte
 description: Eine Einführung in benutzergenerierte Inhalte.
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
@@ -8,18 +8,17 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 55%
+source-wordcount: '138'
+ht-degree: 56%
 
 ---
 
+# Über benutzergenerierte Inhalte{#about-user-generated-content}
 
-# Info zu benutzergenerierten Inhalten{#about-user-generated-content}
-
-Die Verwendung von UGC (benutzergenerierte Inhalte) besteht darin, Assets in ein dediziertes Dynamic Media Classic-Datenspeicherung-Repository hochzuladen und zugehörige Vorgänge auszuführen.
+Die Verwendung von benutzergenerierten Inhalten besteht darin, Assets in ein dediziertes Dynamic Media Classic-Speicher-Repository hochzuladen und zugehörige Vorgänge auszuführen.
 
 UGC unterstützt die folgenden Formate:
 
@@ -34,4 +33,3 @@ Wenn Sie einen gemeinsamen geheimen Schlüssel und ein Upload-Token erhalten hab
 * Abrufen von Asset-Metadaten für Bilder
 * Löschen eines hochgeladenen Assets. 
 * Abrufen von Informationen zur Speichernutzung eines Unternehmens. 
-
