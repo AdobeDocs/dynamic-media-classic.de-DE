@@ -135,8 +135,7 @@ So laden Sie die neueste Adobe Dynamic Media Classic Desktop App unter macOS her
 
 1. Kopieren Sie die .APP-Datei mit dem folgenden Befehl in **[!UICONTROL Applications]**:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. Wenn Sie die Anwendung öffnen, wird die neue Adobe Dynamic Media Classic-Anmeldeseite angezeigt:
 
