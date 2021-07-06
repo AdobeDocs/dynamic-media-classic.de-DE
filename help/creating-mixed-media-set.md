@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Viewer,Mix-Mediensets
-role: Business Practitioner
+role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 91%
+source-wordcount: '626'
+ht-degree: 88%
 
 ---
 
@@ -40,7 +40,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    >[!NOTE]
    >
-   >Gemischte Mediensets unterstützen keine Assets mit Dateinamen, die eines der folgenden Zeichen enthalten: `( ) { }`.
+   >Ein gemischtes Medienset unterstützt keine Assets mit Dateinamen, die eines der folgenden Zeichen enthalten: `( ) { }`.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
