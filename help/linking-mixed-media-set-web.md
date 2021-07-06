@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,Viewer,Mix-Mediensets
-role: Business Practitioner
+feature: Dynamic Media Classic,Viewers,Mix Media Set
+role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Nach der Veröffentlichung eines gemischten Mediensets können Sie dessen URL ab
 
 ## Hinzufügen von URLs für gemischte Mediensets zur Website {#add-mixed-media-set-urls-to-your-web-page}
 
-Die am häufigsten verwendete Möglichkeit zum Implementieren eines gemischten Mediensets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das gemischte Medienset in einem gemischtes Medienset-Viewer-Fenster angezeigt wird.
+Die gängigste Methode zur Bereitstellung eines gemischten Mediensets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das gemischte Medienset in einem gemischtes Medienset-Viewer-Fenster angezeigt wird.
 
 ## Kopieren von Einbettungscode eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
