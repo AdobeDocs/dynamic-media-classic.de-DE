@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewer,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 85%
+source-wordcount: '627'
+ht-degree: 56%
 
 ---
 
 # Hinzufügen von Kapitelmarken zu Video{#adding-chapter-markers-to-video}
 
-Um das Betrachten von und das Navigieren in langen Videos zu vereinfachen, können Sie Kapitelmarken zu einzelnen Videos oder adaptiven Videosets hinzufügen. Wenn Benutzer das Video abspielen, können sie in der Videozeitleiste (auch Video-Abspielleiste genannt) auf eine Kapitelmarke klicken, um zu einer bestimmten Stelle im Video oder direkt zu anderen Inhalten, Demos, Übungen usw. zu springen.
+Um das Betrachten von und das Navigieren in langen Videos zu vereinfachen, können Sie Kapitelmarken zu einzelnen Videos oder adaptiven Videosets hinzufügen. Wenn ein Benutzer das Video abspielt, kann er auf die Kapitelmarken in der Video-Timeline (auch als Video-Scrubber bezeichnet) klicken. Auf diese Weise können sie einfach zu ihrem Zielpunkt navigieren oder sofort zu neuen Inhalten, Demonstrationen, Tutorials usw. springen.
 
 >[!NOTE]
 >
 >Der verwendete Video-Player muss die Verwendung von Kapitelmarken unterstützen. 
 
-Informationen zum Konfigurieren der Cue-Points für die Kapitelnavigation und der in Popups angezeigten Kapiteltitel für den [-Viewer (HTML5) finden Sie unter ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe`Universal_HTML5_Video`.
+Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) , wenn Sie die Cue-Punkte für die Kapitelnavigation und den Popup-Text für Kapiteltitel für den Viewer `Universal_HTML5_Video` (HTML5) konfigurieren möchten.
 
 Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -49,21 +49,21 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Im obigen Beispiel ist `Chapter 1` der Cue-Point-Bezeichner. Diese Angabe ist optional. Die Cue-Point-Zeit von `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels im Format 00:00:000 an. Die letzten drei Ziffern geben die Millisekunden an und können auf „000“ belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die tatsächliche Beschreibung des Kapitelinhalts. Der Cue-Point-Bezeichner, die Cue-Point-Zeit und der Kapiteltitel werden im Video-Player in einem Popup angezeigt, wenn ein Benutzer mit dem Mauszeiger auf einen visuellen Cue-Point in der Video-Zeitleiste zeigt oder darüberfährt.
+Im obigen Beispiel ist `Chapter 1` der Cue-Point-Bezeichner. Diese Angabe ist optional. Die Cue-Point-Zeit von `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels im Format 00:00:000 an. Die letzten drei Ziffern geben die Millisekunden an und können auf „000“ belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die tatsächliche Beschreibung des Kapitelinhalts. Die Cue-Point-ID, die Cue-Point-Zeit und der Kapiteltitel werden im Video-Player in einem Popup-Fenster angezeigt, wenn der Mauszeiger über einen visuellen Cue-Point in der Timeline des Videos bewegt wird.
 
-Da Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Kapiteldatei dem WebVTT (Web Video Text Tracks)-Standard folgt. Die Erweiterung der Kapiteldatei lautet .vtt. Weitere Informationen zum WebVTT-Untertitelstandard
+Da Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Kapiteldatei dem WebVTT (Web Video Text Tracks)-Standard folgt. Die Kapiteldateinamenerweiterung lautet .VTT. Weitere Informationen zum WebVTT-Untertitelstandard
 
-Siehe [WebVTT: Das Webvideo-Text-Tracking-Format](https://dev.w3.org/html5/webvtt/).
+Siehe [WebVTT: Der Web-Video-Text verfolgt das Format](https://w3c.github.io/webvtt/).
 
-**So fügen Sie Kapitelmarken zu Video hinzu**
+**So fügen Sie Kapitelmarken zu Video hinzu:**
 
 1. Erstellen Sie Ihre Videokapiteldatei mit einem einfachen Texteditor außerhalb von Dynamic Media Classic.
 
    >[!NOTE]
    >
-   >Für globale Unterstützung von Videokapiteln in anderen Sprachen als Englisch erfordert der WebVTT-Standard separate .vtt-Dateien und Abrufe für jede Sprache, die unterstützt werden soll.
+   >Für die globale Unterstützung von Videokapiteln in anderen Sprachen als Englisch erfordert der WebVTT-Standard, dass Sie separate .vtt-Dateien und Aufrufe für jede Sprache erstellen, die Sie unterstützen möchten.
 
-1. Speichern Sie die .vtt-Datei mit UTF-8-Kodierung, um Problemen mit der Zeichenwiedergabe im Text der Kapiteltitel vorzubeugen.
+1. Speichern Sie die VTT-Datei in UTF8-Kodierung, damit Sie Probleme mit der Zeichendarstellung im Text des Kapiteltitels vermeiden können.
 
    Im Allgemeinen sollte die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und über den Dateinamenanhang `chapters` verfügen. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen.
 
@@ -77,7 +77,7 @@ Siehe [WebVTT: Das Webvideo-Text-Tracking-Format](https://dev.w3.org/html5/webvt
 
    * Klicken Sie für einen Popup-Video-Viewer rechts neben dem Namen auf „**[!UICONTROL URL kopieren]**“.
 
-      Hängen Sie an die kopierte URL des Videos die folgende Syntax an, um es mit der kopierten URL der Untertiteldatei zuzuordnen:
+      Hängen Sie die kopierte URL des Videos mit der folgenden Syntax an, damit Sie sie mit der kopierten URL Ihrer Untertiteldatei verknüpfen können:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
