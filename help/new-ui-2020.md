@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dynamic Media Classic-Benutzer haben jetzt Zugriff auf ein neues Anmeldeerlebnis
 
 ### **_Wenn Browser die Unterstützung von Adobe Flash am 31. Dezember 2020 einstellen, wird dies Auswirkungen auf Dynamic Media Classic (früher Scene7) haben?_**
 
-Adobe Flash Player war ein Webbrowser-Plug-in, mit dem Webbrowser auf in Adobe Flash Platform entwickelte Inhalte zugreifen konnten. Die Web-Benutzeroberfläche von Dynamic Media Classic (derzeit mit der Bezeichnung [!DNL Scene7 Publishing System] oder [!DNL SPS] im Produkt) erforderte den Flash Player Adobe. Wenn der Adobe-Flash am 31. Dezember 2020 nicht mehr unterstützt wird, können sich Dynamic Media Classic-Kunden nicht mehr bei der Web-Benutzeroberfläche anmelden. Aufgrund dieser Änderung hat Adobe Kunden ein Desktop-Programm bereitgestellt, das das Browsererlebnis ersetzt.
+Adobe Flash Player war ein Webbrowser-Plug-in, mit dem Webbrowser Inhalte verwenden konnten, die in Adobe Flash Platform entwickelt wurden. Die Web-Benutzeroberfläche von Dynamic Media Classic (derzeit mit der Bezeichnung [!DNL Scene7 Publishing System] oder [!DNL SPS] im Produkt) erforderte den Flash Player Adobe. Wenn der Adobe-Flash am 31. Dezember 2020 nicht mehr unterstützt wird, können sich Dynamic Media Classic-Kunden nicht mehr bei der Web-Benutzeroberfläche anmelden. Aufgrund dieser Änderung hat Adobe Kunden ein Desktop-Programm bereitgestellt, das das Browsererlebnis ersetzt.
 
 ### **_Wie greife ich auf das neue Desktop-Programm zu?_**
 
@@ -98,7 +98,7 @@ Außerdem können Sie [den Dynamic Media-Newsletter](https://www.adobe.com/subsc
 
 ### **_Ich möchte mehr über die Aktualisierung auf Dynamic Media mit AEM Assets erfahren. Wo finde ich weitere Informationen?_**
 
-Weitere Informationen zu den Vorteilen der Aktualisierung auf die nächste Generation von Rich-Media-Authoring, -Veröffentlichung und dynamischer Bereitstellung finden Sie im [Dynamic Media-Upgradeportal](http://exploreadobe.com/dynamic-media-upgrade/).
+Weitere Informationen zu den Vorteilen der Aktualisierung auf die nächste Generation von Rich-Media-Authoring, -Veröffentlichung und dynamischer Bereitstellung finden Sie im [Dynamic Media-Upgradeportal](https://exploreadobe.com/dynamic-media-upgrade/).
 
 >[!MORELIKETHIS]
 >
