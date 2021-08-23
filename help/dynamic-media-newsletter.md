@@ -5,7 +5,7 @@ title: Dynamic Media-Newsletter-Archiv
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ca42d0167f72adc1b22f1e6e65b7026b6f6897a3
+source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 Der Dynamic Media-Newsletter nach Experience League soll Ihnen helfen, sich mit Dynamic Media und Dynamic Media Classic vertraut zu machen, damit Sie sofort Nutzen ziehen können.
 
 In diesem archivierten One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen zur Wissensbildung, wie Videos und Lösungsübersichten. Außerdem werden wichtige Funktionen wie Bildvorgaben, Viewer-Vorgaben und Videoprofile vorgestellt.
+
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
 <!-- ## Get inspired. Stay informed.
 
