@@ -1,5 +1,5 @@
 ---
-title: Über benutzergenerierte Inhalte
+title: Über benutzergenerierte Inhalte in Dynamic Media Classic
 description: Eine Einführung in benutzergenerierte Inhalte.
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
@@ -9,14 +9,14 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 56%
+source-wordcount: '146'
+ht-degree: 53%
 
 ---
 
-# Über benutzergenerierte Inhalte{#about-user-generated-content}
+# Über benutzergenerierte Inhalte in Dynamic Media Classic {#about-user-generated-content}
 
 Die Verwendung von benutzergenerierten Inhalten besteht darin, Assets in ein dediziertes Dynamic Media Classic-Speicher-Repository hochzuladen und zugehörige Vorgänge auszuführen.
 
