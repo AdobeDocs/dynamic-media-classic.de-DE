@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 55%
@@ -69,7 +69,7 @@ Es gibt zwei Methoden zum Scharfzeichnen:
 
          Dieser Parameter bestimmt, wie stark sich die scharfgezeichneten Pixel vom umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel betrachtet werden, und der Filter schärft sie. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um kein „Rauschen“ zu erzeugen, trotzdem wird kontrastreichen Bereichen, z. B. wo Wimpern auf die Haut treffen, Kantenkontrast hinzugefügt.
 
-         Weitere Informationen dazu, wie Sie diese drei Parameter festlegen, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern im Adobe Scene7 Publishing System und auf Image-Server](/help/assets/s7_sharpening_images.pdf).
+         Weitere Informationen dazu, wie Sie diese drei Parameter festlegen, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image-Server](/help/assets/s7_sharpening_images.pdf).
 
       * Mit Dynamic Media Classic können Sie auch einen vierten Parameter steuern: monochrome ( `0,1`). Dieser Parameter stellt fest, ob die Unschärfemaske unter Verwendung des Werts `0` separat auf jede Farbkomponente oder unter Verwendung des Werts `1` auf die Gesamthelligkeit/Intensität angewendet wurde.
 
