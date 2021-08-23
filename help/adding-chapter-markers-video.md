@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen von Kapitelmarken zu Video
-description: Erfahren Sie, wie Sie einem Video Kapitelmarken hinzufügen.
+title: Hinzufügen von Kapitelmarken zu Videos
+description: Erfahren Sie, wie Sie in Dynamic Media Classic Kapitelmarken zu einem Video hinzufügen.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewer,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 56%
+source-wordcount: '631'
+ht-degree: 42%
 
 ---
 
-# Hinzufügen von Kapitelmarken zu Video{#adding-chapter-markers-to-video}
+# Hinzufügen von Kapitelmarken zu Videos {#adding-chapter-markers-to-video}
 
-Um das Betrachten von und das Navigieren in langen Videos zu vereinfachen, können Sie Kapitelmarken zu einzelnen Videos oder adaptiven Videosets hinzufügen. Wenn ein Benutzer das Video abspielt, kann er auf die Kapitelmarken in der Video-Timeline (auch als Video-Scrubber bezeichnet) klicken. Auf diese Weise können sie einfach zu ihrem Zielpunkt navigieren oder sofort zu neuen Inhalten, Demonstrationen, Tutorials usw. springen.
+Um das Betrachten von und das Navigieren in langen Videos zu vereinfachen, können Sie Kapitelmarken zu einzelnen Videos oder adaptiven Videosets hinzufügen. Wenn ein Benutzer das Video abspielt, kann er die Kapitelmarken in der Video-Timeline (auch als Video-Scrubber bezeichnet) auswählen. Auf diese Weise können sie einfach zu ihrem Zielpunkt navigieren oder sofort zu neuen Inhalten, Demonstrationen, Tutorials usw. springen.
 
 >[!NOTE]
 >
 >Der verwendete Video-Player muss die Verwendung von Kapitelmarken unterstützen. 
 
-Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) , wenn Sie die Cue-Punkte für die Kapitelnavigation und den Popup-Text für Kapiteltitel für den Viewer `Universal_HTML5_Video` (HTML5) konfigurieren möchten.
+Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset), wenn Sie die Cue-Punkte für die Kapitelnavigation und den Popup-Text für Kapiteltitel für den Viewer `Universal_HTML5_Video` (HTML5) konfigurieren möchten.
 
 Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -72,18 +72,18 @@ Siehe [WebVTT: Der Web-Video-Text verfolgt das Format](https://w3c.github.io/web
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der die Videodatei enthält, die Sie der hochgeladenen Kapiteldatei zuordnen möchten.
-1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie anschließend unterhalb des Miniaturbildes des Assets auf **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie dann unter dem Miniaturbild des Assets auf **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 1. Suchen Sie in der Tabelle „Viewer-Liste“ den HTML5-Viewer mit dem Namen **Universal_HTML5_Video** und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie für einen Popup-Video-Viewer rechts neben dem Namen auf „**[!UICONTROL URL kopieren]**“.
+   * Wählen Sie für ein Popup-Video-Viewer-Erlebnis **[!UICONTROL URL]** rechts neben dem Namen kopieren aus.
 
       Hängen Sie die kopierte URL des Videos mit der folgenden Syntax an, damit Sie sie mit der kopierten URL Ihrer Untertiteldatei verknüpfen können:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Klicken Sie für einen eingebetteten Video-Viewer rechts neben dem Namen auf „**[!UICONTROL Code einbetten]**“.
+   * Wählen Sie für ein eingebettetes Video-Viewer-Erlebnis **[!UICONTROL Einbettungscode]** rechts neben dem Namen aus.
 
-      Klicken Sie im Dialogfeld „Code einbetten“ auf „**[!UICONTROL In Zwischenablage kopieren]**“.
+      Wählen Sie im Dialogfeld &quot;Einbettungscode&quot;die Option **[!UICONTROL In Zwischenablage kopieren]**.
 
       Hängen Sie für den HTML5 `Universal_HTML5_Video`-Viewer den kopierten Einbettungscode wie folgt an:
 
