@@ -1,6 +1,6 @@
 ---
 title: Überprüfen von Auftragsdateien
-description: Erfahren Sie, wie Sie Auftragsdateien überprüfen.
+description: Erfahren Sie, wie Sie Auftragsdateien in Dynamic Media Classic überprüfen.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 61%
+source-wordcount: '1590'
+ht-degree: 40%
 
 ---
 
@@ -21,89 +21,89 @@ ht-degree: 61%
 
 Zur Überwachung von Datei-Uploads in Dynamic Media Classic und von Dateien, die Sie auf Dynamic Media Classic-Servern veröffentlichen, bietet Dynamic Media Classic die Seite &quot;Aufträge&quot;. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
 
-Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können auf das Symbol klicken, um weitere Informationen zum aktiven Auftrag anzuzeigen.
+Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können das Symbol auswählen, um weitere Informationen zum aktiven Auftrag anzuzeigen.
 
 >[!NOTE]
 >
->Eine Liste der kürzlich veröffentlichten Aufträge steht auch auf der Seite „Jüngste Aktivitäten“ zur Verfügung. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Kürzlich]** , um diese Seite zu öffnen.
+>Eine Liste der kürzlich veröffentlichten Aufträge steht auch auf der Seite „Jüngste Aktivitäten“ zur Verfügung. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Kürzlich]** aus.
 
 ## Seite „Aufträge“ {#about-the-jobs-page}
 
-Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Aufträge]** aus, um die Seite &quot;Aufträge&quot;zu öffnen. Standardmäßig werden die neuesten Aufträge oben in der Liste angezeigt.
+Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Aufträge]** aus, damit die Seite &quot;Aufträge&quot;geöffnet wird. Standardmäßig werden die neuesten Aufträge oben in der Liste angezeigt.
 
 Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträge nach folgenden Kategorien angezeigt:
 
-**AuftragstypEin Symbol** gibt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
+* **[!UICONTROL Auftragstyp]**  - Ein Symbol zeigt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
 
-**Auftragsname** Der Name des Auftrags. Der Name enthält den vom Benutzer eingegebenen Teil des Namens sowie Datum und Uhrzeit.
+* **[!UICONTROL Auftragsname]**  - Der Name des Auftrags. Der Name enthält den vom Benutzer eingegebenen Teil des Namens sowie Datum und Uhrzeit.
 
-**** StartedWann der Auftrag gestartet wurde.
+* **[!UICONTROL Started]**  - Der Zeitpunkt, zu dem der Auftrag gestartet wurde.
 
-**** GesamtDie Anzahl der übertragenen Dateien.
+* **[!UICONTROL Gesamt]**  - Die Anzahl der übertragenen Dateien.
 
-**W (Warnungen)** Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispielsweise enthalten die Dateien `.DS_store` (Macintosh) und Thumbs.db (Windows®) Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht auf die Verwendung dieser Dateien in Dynamic Media Classic beziehen. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+* **[!UICONTROL W (Warnungen)]**  - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispielsweise enthalten die Dateien `.DS_store` (Macintosh) und Thumbs.db (Windows®) Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht auf die Verwendung dieser Dateien in Dynamic Media Classic beziehen. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
-**E (Fehler)** Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
+* **[!UICONTROL E (Fehler)]**  - Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
-**** DauerWie lange es dauerte, den Auftrag abzuschließen.
+* **[!UICONTROL Dauer]**  - Wie lange es dauerte, den Auftrag abzuschließen.
 
-**** StatusZeigt den Status des Auftrags an.
+* **[!UICONTROL Status]**  - Zeigt den Status des Auftrags an.
 
-**** ZielBei Upload-Aufträgen: der Unternehmensname und der Ordner, in den die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
+* **[!UICONTROL Ziel]**  - Bei Upload-Aufträgen: der Name des Unternehmens und der Ordner, in den die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
 
-**Gesendet** vonListen, die die Assets hochgeladen haben.
+* **[!UICONTROL Gesendet von]**  - Listen, die die Assets hochgeladen haben.
 
 >[!NOTE]
 >
->Sie können in Verarbeitung befindliche Veröffentlichungsaufträge und Upload-Aufträge stornieren, indem Sie neben der Fortschrittsleiste auf die Schaltfläche „Abbrechen“ klicken.
+>Sie können laufende Veröffentlichungs- und Upload-Aufträge abbrechen, indem Sie neben der Fortschrittsleiste die Schaltfläche **[!UICONTROL Abbrechen]** auswählen.
 
-## Ändern von Ansichten auf der Seite „Aufträge“ {#changing-views-on-the-jobs-page}
+## Ansichten auf der Seite &quot;Aufträge&quot;ändern {#changing-views-on-the-jobs-page}
 
 Mit den folgenden Verfahren können Sie Aufträge sortieren oder die Ansicht der Registerkarte „Verlauf“ auf der Seite „Aufträge“ ändern:
 
-**** SortierungWählen Sie einen Spaltennamen aus, um die Liste nach einer bestimmten Spalte zu sortieren. Durch Klicken auf den Schalter neben dem Spaltennamen können Sie zwischen auf- und absteigender Sortierfolge wechseln.
+* **[!UICONTROL Sortierung]**  - Wählen Sie einen Spaltennamen aus, um die Liste nach einer bestimmten Spalte zu sortieren. Durch Klicken auf den Schalter neben dem Spaltennamen können Sie zwischen auf- und absteigender Sortierfolge wechseln.
 
-**Datumsbereich** Wählen Sie das Menü Datumsbereich aus und wählen Sie eine Option, um die Liste der Aufträge auf das aktuelle Datum, die vorherige Woche oder den vorherigen Monat einzuschränken. Wählen Sie Benutzerdefinierter Datumsbereich und geben Sie dann einen bestimmten Datumsbereich ein.
+* **[!UICONTROL Datumsbereich]**  - Wählen Sie das Menü  **[!UICONTROL Datumsbereich]** aus und wählen Sie eine Option, um die Liste der Aufträge auf das aktuelle Datum, die vorherige Woche oder den vorherigen Monat einzuschränken. Wählen Sie **[!UICONTROL Benutzerdefinierter Datumsbereich]** und geben Sie dann einen bestimmten Datumsbereich ein.
 
-**AuftragstypWählen Sie** das Menü Auftragstyp und dann Veröffentlichen oder Hochladen aus, um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge einzuschränken. Wenn Sie „Alle“ wählen, werden beide Arten von Aufträgen angezeigt.
+* **[!UICONTROL Auftragstyp]**  - Wählen Sie das Menü  **[!UICONTROL Auftragstyp]** und dann  **** Veröffentlichungs- **** Upload aus, um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge einzuschränken. Wählen Sie **[!UICONTROL Alle]** aus, um beide Auftragstypen anzuzeigen.
 
-**** ShowChoose Show > My Jobs oder Show > All Jobs , um die Liste auf Aufträge zu beschränken, die Sie bestellt haben, oder auf Aufträge, die Personen in Ihrem Unternehmen bestellt haben.
+* **[!UICONTROL Anzeigen]**  - Gehen Sie zu  **[!UICONTROL Anzeigen]**  >  **[!UICONTROL My]** Jobsor  **[!UICONTROL Show]**  >  **[!UICONTROL All]** JGeburto schränken die Liste auf Aufträge ein, die Sie bestellt haben, oder Aufträge, die Personen in Ihrem Unternehmen bestellt haben.
 
-## Anzeigen, Kopieren oder Drucken eines Berichts mit Auftragsdetails {#viewing-copying-or-printing-a-job-details-report}
+## Anzeigen, Kopieren oder Drucken eines Berichts &quot;Auftragsdetails&quot; {#viewing-copying-or-printing-a-job-details-report}
 
-Doppelklicken Sie auf der Seite „Aufträge“ auf den Namen eines Berichts, um die Seite „Auftragsdetails“ zu öffnen. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Klicken Sie auf Details anzeigen , um die Dynamic Media Classic-ID, den Zielpfad und die Statusinformationen eines Eintrags anzuzeigen. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Dynamic Media Classic nicht verfügbar sind, werden im Bericht die fehlenden Schriftarten aufgelistet.
+Doppelklicken Sie auf der Seite &quot;Aufträge&quot;auf den Namen eines Berichts, damit die Seite &quot;Auftragsdetails&quot;geöffnet wird. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Wählen Sie **[!UICONTROL Detail anzeigen]** aus, damit Sie die Dynamic Media Classic-ID, den Zielpfad und die Statusinformationen eines Eintrags sehen können. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Dynamic Media Classic nicht verfügbar sind, werden im Bericht die fehlenden Schriftarten aufgelistet.
 
 Sie können diese Informationen in die Zwischenablage kopieren.
 
-1. Doppelklicken Sie auf der Seite „Aufträge“ auf den Namen eines Berichts, um die Seite „Auftragsdetails“ zu öffnen. 
-1. Klicken Sie auf „Detailansicht“, um einen detaillierten Bericht über einen Eintrag zu erhalten.
-1. Klicken Sie auf „In Zwischenabl. kop.“.
+1. Doppelklicken Sie auf der Seite &quot;Aufträge&quot;auf den Namen eines Berichts.
+1. Wählen Sie auf der Seite Auftragsdetails **[!UICONTROL Detail anzeigen]** aus, um einen detaillierten Bericht über einen Eintrag zu erhalten.
+1. Wählen Sie **[!UICONTROL In Zwischenablage kopieren]** aus.
 
-## Umgang mit wiederkehrenden Upload-Aufträgen und Veröffentlichungsaufträgen {#handling-recurring-upload-and-publish-jobs}
+## Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge {#handling-recurring-upload-and-publish-jobs}
 
 Wiederkehrende Upload- und Veröffentlichungsaufträge, die Sie auf den Seiten „Hochladen“ und „Veröffentlichen“ erstellen, werden auf der Seite „Aufträge“ auf der Registerkarte „Geplant“ angezeigt. Sie können wiederkehrende Aufträge auf der Registerkarte „Geplant“ bearbeiten und löschen.
 
-Klicken Sie auf der Symbolleiste für globale Navigation auf die Schaltfläche „Aufträge“. Wählen Sie auf der Seite „Aufträge“ die Registerkarte „Geplant“ aus, um wiederkehrende Aufträge bearbeiten und löschen zu können.
+Wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Aufträge und wählen Sie auf der Seite &quot;Aufträge&quot;die Registerkarte **[!UICONTROL Geplant]** aus, damit Sie wiederkehrende Aufträge bearbeiten und löschen können.
 
 >[!NOTE]
 >
->Sie können die Auftragsliste auf der Registerkarte „Geplant“ über die Menüs „Auftragstyp“ und „Anzeigen“ filtern. Wählen Sie einen Auftragstyp, um die Liste auf Veröffentlichungsaufträge einer bestimmten Art einzuschränken. Wählen Sie eine „Anzeigen“-Option, um entweder nur die von Ihnen erstellten Aufträge oder die Aufträge aller Mitarbeiter im Unternehmen anzuzeigen.
+>Sie können die Auftragsliste auf der Registerkarte **[!UICONTROL Geplant]** mit den Menüs **[!UICONTROL Auftragstyp]** und **[!UICONTROL Anzeigen]** filtern. Wählen Sie einen Auftragstyp aus, damit Sie die Liste auf Veröffentlichungsaufträge eines bestimmten Typs eingrenzen können. Wählen Sie die Option **[!UICONTROL Anzeigen]** aus, wenn Sie von Ihnen erstellte Aufträge oder Aufträge anzeigen möchten, die von jedem in Ihrem Unternehmen erstellt wurden.
 
-### Bearbeiten, Löschen, Anhalten und Wiederaufnehmen wiederkehrender Aufträge {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### Bearbeiten, Löschen, Anhalten und Fortsetzen wiederkehrender Aufträge {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
-Sie können einen auf der Seite „Aufträge“ ausgewählten wiederkehrenden Auftrag mit den folgenden Verfahren bearbeiten bzw. löschen:
+Wählen Sie auf der Seite &quot;Aufträge&quot;einen wiederkehrenden Auftrag aus und befolgen Sie die folgenden Anweisungen, wenn Sie ihn bearbeiten oder löschen möchten:
 
-**Bearbeiten eines wiederkehrenden** Auftrags Wählen Sie die Schaltfläche Bearbeiten aus und geben Sie im Dialogfeld Geplanten Auftrag bearbeiten Planungsinformationen ein. Wenn Sie möchten, dass der Auftrag in einem Intervall Ihrer Wahl wiederholt ausgeführt wird, wählen Sie „Wiederholen“ > „Benutzerdefiniert“. 
+* **Einen wiederkehrenden Auftrag bearbeiten**  - Wählen Sie die Schaltfläche &quot; **** Bearbeiten&quot;aus und geben Sie im Dialogfeld &quot;Geplanten Auftrag bearbeiten&quot;Planungsinformationen ein. Wenn der Auftrag in einem Intervall Ihrer Wahl wiederholt werden soll, gehen Sie zu **[!UICONTROL Wiederholen]** > **[!UICONTROL Benutzerdefiniert]**.
 
-Siehe [Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. Veröffentlichungsaufträge](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Upload- oder Veröffentlichungsaufträge](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-**Löschen eines wiederkehrenden** Auftrags: Wählen Sie die Schaltfläche Löschen aus.
+* **Löschen eines wiederkehrenden Auftrags**  - Wählen Sie die  **** Schaltfläche Löschen aus.
 
-**Anhalten (und Wiederaufnehmen) eines wiederkehrenden** AuftragsDeaktivieren Sie in der Spalte Aktiv das Kontrollkästchen, um einen Auftrag anzuhalten. Aktivieren Sie ein Kontrollkästchen, um einen angehaltenen Auftrag wieder aufzunehmen.
+* **Anhalten (und Wiederaufnehmen) eines wiederkehrenden Auftrags**  - Deaktivieren Sie in der Spalte Aktiv das Kontrollkästchen, um einen Auftrag anzuhalten. Aktivieren Sie ein Kontrollkästchen, um einen angehaltenen Auftrag wieder aufzunehmen.
 
-### Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. Veröffentlichungsaufträge {#creating-a-custom-upload-or-publish-job-time-interval}
+### Benutzerdefiniertes Upload- oder Veröffentlichungsauftragszeitintervall erstellen {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Wenn Sie ein benutzerdefiniertes Zeitintervall für einen Upload-Auftrag (per FTP) oder einen Veröffentlichungsauftrag festlegen möchten, wählen Sie auf der Seite „Hochladen“ bzw. „Veröffentlichen“ den Befehl „Wiederholen“ > „Benutzerdefiniert“. Geben Sie dann Zahlen und Platzhalter in das Feld „Regel“ ein, um ein Zeitintervall für die wiederkehrenden Upload-Aufträge bzw. Veröffentlichungsaufträge festzulegen.
+Um ein benutzerdefiniertes Zeitintervall für einen Upload-Auftrag (über FTP) oder einen Veröffentlichungsauftrag zu erstellen, gehen Sie auf der Seite &quot;Hochladen&quot;oder &quot;Veröffentlichen&quot;zu **[!UICONTROL Wiederholen]** > **[!UICONTROL Benutzerdefiniert]**. Geben Sie dann im Feld Regel Zahlen und Platzhalter ein, die ein Zeitintervall für die wiederkehrenden Upload- oder Veröffentlichungsaufträge beschreiben.
 
 Dies ist die Syntax zum Beschreiben benutzerdefinierter Zeitintervalle für Upload-Aufträge bzw. Veröffentlichungsaufträge im Feld „Regel“:
 
@@ -141,19 +141,19 @@ In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mi
 
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:
 
-* 0 0 12 * * ?: Jeden Tag am Mittag
-* 0 15 10 ? * *: 10:15 morgens an jedem Tag
-* 0 0/5 14 * * ?: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag
-* 0 0/5 14,18 * * ?: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag und alle 5 Minuten zwischen 18:00 und 18:55 Uhr an jedem Tag
-* 0 10,44 14 ? 3: Mi um 14:10 Uhr sowie 14:44 Uhr jeden Mittwoch im März
-* 0 15 10? *: Montag bis Freitag um 10:15 Uhr
-* 0 15 10 20 * ?: Um 10:15 Uhr am 20. Tag jedes Monats
-* 0 15 10 L * ?: Um 10:15 Uhr am letzten Tag jedes Monats
-* 0 15 10? * 6L: Um 10:15 Uhr am letzten Freitag jedes Monats
-* 0 15 10 * * 6#3: Um 10:15 Uhr am dritten Freitag jedes Monats
+* `0 0 12 * * ?` : Jeden Tag am Mittag
+* `0 15 10 ? * *` : 10:15 morgens an jedem Tag
+* `0 0/5 14 * * ?`: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag
+* `0 0/5 14,18 * * ?` : Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag und alle 5 Minuten zwischen 18:00 und 18:55 Uhr an jedem Tag
+* `0 10,44 14 ? 3` : Mi um 14:10 Uhr sowie 14:44 Uhr jeden Mittwoch im März
+* `0 15 10 ? *` : Montag bis Freitag um 10:15 Uhr
+* `0 15 10 20 * ?` : Um 10:15 Uhr am 20. Tag jedes Monats
+* `0 15 10 L * ?` : Um 10:15 Uhr am letzten Tag jedes Monats
+* `0 15 10 ? * 6L` : Um 10:15 Uhr am letzten Freitag jedes Monats
+* `0 15 10 * * 6#3` : Um 10:15 Uhr am dritten Freitag jedes Monats
 
-## Verwenden eines Upload-Auftrags oder Veröffentlichungsauftrags als Auslöser {#using-an-upload-or-publish-job-as-a-trigger}
+## Upload- oder Veröffentlichungsauftrag als Trigger verwenden {#using-an-upload-or-publish-job-as-a-trigger}
 
 Wenn Sie Assets über FTP hochladen oder einen Veröffentlichungsauftrag ausführen, können Sie einen nachfolgenden Auftrag planen, der nach Abschluss des Uploads beginnt. (Wenn dann andere Aufträge geplant sind, wird der hier geplante Auftrag hinter ihnen in die Warteschlange gestellt.) Für den neuen Auftrag wird eine Benachrichtigung an die von Ihnen festgelegte Adresse geschickt, sodass Code am vorgesehenen Ort ausgelöst werden kann. Der nachfolgende Upload-Auftrag erhält denselben Namen wie der aktuelle Upload-Auftrag, jedoch mit dem Präfix „_Pub“.
 
-Wenn ein Upload-Auftrag- oder Veröffentlichungsauftrag einen anderen Auftrag auslösen soll, wählen Sie auf der Seite „Hochladen“ oder „Veröffentlichen“ die Option „Erweitert“. Geben Sie dann die URL in das Textfeld „HTTP-Benachrichtigung“ ein.
+Um einen Upload- oder Veröffentlichungsauftrag-Trigger in einen anderen Auftrag zu versetzen, wählen Sie auf der Seite &quot;Hochladen&quot;oder &quot;Veröffentlichen&quot;die Option **[!UICONTROL Erweitert]** aus. Geben Sie dann die URL in das Textfeld „HTTP-Benachrichtigung“ ein.
