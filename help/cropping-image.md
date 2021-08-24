@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 39%
 
 ---
 
@@ -34,8 +34,8 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 1. Um ein Bild zu beschneiden, klicken Sie auf den Rollover **[!UICONTROL Schaltfläche &quot;Bearbeiten]**&quot;und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchenbedienfeld in der Detailansicht an und wählen Sie die Schaltfläche **[!UICONTROL Zuschneiden]** aus.
 1. Führen Sie auf der Seite &quot;Beschneidungseditor&quot;einen der folgenden Schritte aus:
 
-   * Um Farbpixel zu beschneiden, gehen Sie zu **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Das Dialogfeld „Nach Farbe zuschneiden“ wird angezeigt. Wählen Sie das Menü **[!UICONTROL Ecke]** aus und wählen Sie eine Ecke mit der Hintergrundfarbe, die Sie entfernen möchten. Geben Sie dann die Einstellung **[!UICONTROL Toleranz]** von 0 bis 1 ein. Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Wählen Sie **[!UICONTROL Zuschneiden]** aus.
-   * Um transparente Pixel zu beschneiden, gehen Sie zu **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Das Dialogfeld „Auto-Zuschneiden nach Transparenz“ wird angezeigt. Geben Sie für die Einstellung „Toleranz“ einen Wert zwischen 0 und 1 ein. Bei der Einstellung 0 werden Pixel nur dann abgeschnitten, wenn sie transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenzabweichung zu. Wählen Sie **[!UICONTROL Zuschneiden]** aus.
+   * Um Farbpixel zu beschneiden, gehen Sie zu **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Wählen Sie im Dialogfeld **[!UICONTROL Automatisches Zuschneiden nach Farbe]** das Menü **[!UICONTROL Ecke]** aus und wählen Sie eine Ecke mit der Hintergrundfarbe, die Sie entfernen möchten. Geben Sie dann die Einstellung **[!UICONTROL Toleranz]** von 0 bis 1 ein. Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Wählen Sie **[!UICONTROL Zuschneiden]** aus.
+   * Um transparente Pixel zu beschneiden, gehen Sie zu **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Geben Sie im Dialogfeld **[!UICONTROL Automatisches Zuschneiden nach Transparenz]** eine Toleranzeinstellung von 0 bis 1 ein. Bei der Einstellung 0 werden Pixel nur dann abgeschnitten, wenn sie transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenzabweichung zu. Wählen Sie **[!UICONTROL Zuschneiden]** aus.
 
 1. Wählen Sie **[!UICONTROL Save]** aus.
 
