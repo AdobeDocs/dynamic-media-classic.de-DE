@@ -1,6 +1,6 @@
 ---
-title: Erstellen von Imagemaps in E-Katalogen
-description: Erfahren Sie, wie Sie eCatalog-Imagemaps erstellen.
+title: Erstellen von eCatalog-Imagemaps
+description: Erfahren Sie, wie Sie eCatalog-Imagemaps in Dynamic Media Classic erstellen.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 46%
+source-wordcount: '1491'
+ht-degree: 40%
 
 ---
 
-# Erstellen von Imagemaps in E-Katalogen{#creating-ecatalog-image-maps}
+# Erstellen von eCatalog-Imagemaps{#creating-ecatalog-image-maps}
 
 Eine Imagemap ist ein Bereich auf einer eCatalog-Seite, den Sie mit der Maus verschieben oder auswählen können, um Trigger-Aktionen verschiedener Art durchzuführen. Wenn Sie den Mauszeiger beispielsweise über eine Imagemap bewegen, wird eine Rollover-Textbeschreibung eines Elements angezeigt. Wenn Sie eine Imagemap auswählen, wird eine weitere Aktion eingeleitet. Beispielsweise können Sie eine Webseite öffnen, damit die Besucher der Website mehr über einen Artikel erfahren oder ihn kaufen können oder damit Sie ein Video starten können, um einen Artikel in Aktion zu sehen.
 
-## Zeichnen von Imagemaps in E-Katalogen {#drawing-ecatalog-image-maps}
+## Zeichnen von eCatalog-Imagemaps {#drawing-ecatalog-image-maps}
 
 Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E-Katalog“ gezeichnet. In diesem Anzeigebereich wird links der Bereich „Imagemap“ mit den E-Katalogseiten und rechts eine Liste mit Imagemaps angezeigt. Beim Erstellen von Imagemaps werden deren Namen in der Imagemap-Liste eingefügt.
 
@@ -41,19 +41,19 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 
    Um die Eingabe von URLs (Href-Vorlagen) zu vereinfachen, wählen Sie **[!UICONTROL Bearbeiten]** aus und geben Sie eine Vorlage ein.
 
-Siehe [Verwenden von Vorlagen zur Eingabe von JavaScript-Code und URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+Siehe [Verwenden Sie eine Vorlage, um JavaScript und URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls) einzugeben.
 
 1. (Optional) Wählen Sie in der Dropdownliste Anzeigen die Option **[!UICONTROL Rollover-Text]** aus und geben Sie dann den Text ein, den Benutzer auf dem Bildschirm sehen sollen, wenn sie ihre Zeiger über die Imagemap bewegen.
 1. (Optional) Wählen Sie in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Andere Aktionen]** aus und geben Sie ein Attribut ein, um eine Weichzeichnung oder Fokusaktion Trigger, wenn Benutzer den Zeiger über eine Imagemap bewegen.
 
-   Siehe [Definieren anderer Aktionen für Imagemaps](creating-image-maps.md#defining_other_actions_for_image_maps).
+   Siehe [Andere Aktionen für Imagemaps definieren](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Wählen Sie **[!UICONTROL Save]** aus.
 1. (Optional) Wählen Sie **[!UICONTROL Vorschau]** aus, um den eCatalog mit der standardmäßigen eCatalog-Viewer-Vorgabe anzuzeigen.
 
 Um eine Imagemap zu löschen, wählen Sie deren Namen in der Liste &quot;Imagemap&quot;aus und klicken Sie auf **[!UICONTROL Löschen]**. Um eine Imagemap vorübergehend auf einer Seite zu deaktivieren, ohne sie jedoch zu löschen, deaktivieren Sie im Imagemap-Liste-Bedienfeld die Option „Ein“ der jeweiligen Imagemap.
 
-## Einbetten von Rich-Media-Daten in einen E-Katalog {#embedding-rich-media-in-an-ecatalog}
+## Rich Media in einen eCatalog einbetten {#embedding-rich-media-in-an-ecatalog}
 
 Mit der Rich-Media-Option des E-Katalogs können Sie Videos im MP4-Format oder Rotationssets zu Imagemaps hinzufügen, die Sie in einen E-Katalog eingefügt haben. Wenn ein Benutzer den Bereich &quot;Imagemap&quot;im eCatalog auswählt, wird das zugehörige Rotationsset oder Video angezeigt. Diese Funktion ist besonders hilfreich, wenn Sie möchten, dass die Kunden einen Artikel in Aktion oder einen Artikel aus unterschiedlichen Blickwinkeln und Perspektiven sehen können.
 
@@ -63,7 +63,7 @@ Sie können optional auch QuickInfo-Text anzeigen, wenn Kunden ihre Zeiger über
 
 1. Zeichnen Sie eine E-Katalog-Imagemap. 
 
-   Siehe [Zeichnen von Imagemaps in E-Katalogen](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
+   Siehe [Zeichnen von eCatalog-Imagemaps](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Wählen Sie in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Rich Media]** aus.
 1. Navigieren Sie im Bedienfeld „Assets hinzufügen“ links zu einem Ordner, der das Rotationsset oder Video-Asset (MP4-Format) enthält, das Sie einbetten möchten.
@@ -79,7 +79,7 @@ Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E
 
    Siehe [Anpassen der Position, Form und Größe von Imagemaps](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Ändern der Form und Größe**  - Um die Größe einer rechteckigen Imagemap zu ändern, wählen Sie das Schwenken-Tool aus. Bewegen Sie dann den Mauszeiger über den Rand oder eine Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie ihn. Um die Größe einer polygonalen Imagemap zu ändern, ziehen Sie einen quadratischen Auswahlziehpunkt an die gewünschte Stelle. Um einen Auswahlpunkt zu erstellen, wählen Sie den Rahmen der Imagemap aus und ziehen Sie.
+* **Form und Größe ändern**  - Um die Größe einer rechteckigen Imagemap zu ändern, wählen Sie das Schwenken-Tool aus. Bewegen Sie dann den Mauszeiger über den Rand oder eine Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie ihn. Um die Größe einer polygonalen Imagemap zu ändern, ziehen Sie einen quadratischen Auswahlziehpunkt an die gewünschte Stelle. Um einen Auswahlpunkt zu erstellen, wählen Sie den Rahmen der Imagemap aus und ziehen Sie.
 
    Siehe [Anpassen der Position, Form und Größe von Imagemaps](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -89,15 +89,15 @@ Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E
 
 * **Handhabung überlappender Imagemaps** : Ziehen Sie, um die Reihenfolge der Imagemaps in der Imagemap-Liste zu ändern.
 
-   Siehe [Beheben von überlappenden Imagemaps](creating-image-maps.md#handling_overlapping_image_maps).
+   Siehe [Verarbeiten überlappender Imagemaps](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Kopieren von Imagemaps auf anderen Seiten**  - Wählen Sie &quot; **[!UICONTROL Zuordnungen kopieren nach]** &quot;(stellen Sie sicher, dass Sie sich auf der Registerkarte Zuordnungsseiten befinden). Wählen Sie im Bildschirm &quot;Bilder auswählen&quot;die Seite(n) aus, auf die Sie die Imagemaps kopieren möchten, und wählen Sie **[!UICONTROL Wählen Sie]** aus.
 
-   Siehe [Kopieren von Imagemaps in andere Bilder](creating-image-maps.md#copying_image_maps).
+   Siehe [Imagemaps in andere Bilder kopieren](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
->Sie können Imagemaps nicht nur auf verschiedene Seiten in einem E-Katalog kopieren, sondern auch alle Imagemaps in einem E-Katalog in einen anderen eCatalog kopieren. Siehe [Kopieren von Imagemaps zwischen E-Katalogen](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Sie können Imagemaps nicht nur auf verschiedene Seiten in einem E-Katalog kopieren, sondern auch alle Imagemaps in einem E-Katalog in einen anderen eCatalog kopieren. Siehe [Kopieren von Imagemaps zwischen eCatalog](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Überprüfen und Importieren von Imagemap-Daten {#reviewing-and-importing-image-map-data}
 
