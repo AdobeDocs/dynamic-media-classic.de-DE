@@ -1,6 +1,6 @@
 ---
-title: Verwalten von Inhaltsvariationen
-description: Erfahren Sie, wie Sie Inhaltsvarianten verwalten.
+title: Inhaltsvarianten verwalten
+description: Erfahren Sie, wie Sie Inhaltsvarianten in Dynamic Media Classic verwalten.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '250'
+ht-degree: 54%
 
 ---
 
-# Verwalten von Inhaltsvariationen{#managing-content-variations}
+# Inhaltsvarianten verwalten{#managing-content-variations}
 
 Verwenden Sie Vorlagensätze, um die Veröffentlichung von Asset-Variationen zu verwalten.
 
@@ -27,10 +27,10 @@ Universelle URLs werden verwendet, um die auf der Seite angezeigte Vorlagenvaria
 
 Sie können jede beliebige Bildvorgabe-URL aus der Liste verwenden. Bildvorgabe-URLs sind mit universellen URLs vergleichbar. Es kann mehr als eine Bildvorlage-URL geben.
 
-1. Klicken Sie auf **[!UICONTROL Build]** > **[!UICONTROL Vorlagensätze]**. Der Builder wird geöffnet.
-1. Wählen Sie eine Vorlage aus und klicken Sie dann auf **[!UICONTROL Hinzufügen/Vorschau]**.
-1. Ändern Sie die Vorlageneigenschaften und klicken Sie auf **[!UICONTROL Speichern unter]** , um eine weitere Version zu erstellen.
-1. Geben Sie einen Namen ein und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagensätze]**.
+1. Wählen Sie im Builder eine Vorlage und dann **[!UICONTROL Hinzufügen/Vorschau]** aus.
+1. Ändern Sie die Vorlageneigenschaften und wählen Sie **[!UICONTROL Speichern unter]** aus, um eine andere Version zu erstellen.
+1. Geben Sie einen Namen ein und wählen Sie dann **[!UICONTROL Save]** aus.
 
    Sowohl das Asset als auch die Vorlage müssen veröffentlicht werden.
 
