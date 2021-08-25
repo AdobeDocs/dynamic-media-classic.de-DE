@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Verwandte Themen:
 
 1. Führen Sie je nach heruntergeladenem Installationsprogramm einen der folgenden Schritte aus.
 
-   * **Für macOS** : Ziehen Sie im Dialogfeld  **[!UICONTROL Drag &amp; Drop zum]** Installationsprogramm die  **[!UICONTROL Adobe Dynamic Media]** Classic und legen Sie sie auf  **[!UICONTROL Anwendungen]** ab.
+   * **macOS**  - Ziehen Sie im Dialogfeld  **[!UICONTROL Drag &amp; Drop zum]** Installationsprogramm die  **[!UICONTROL Adobe Dynamic Media]** Classic und legen Sie sie auf  **[!UICONTROL Anwendungen]** ab.
 
       ![Installieren per Drag-and-Drop auf macOS](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ Verwandte Themen:
 
       ![Heruntergeladene App öffnen](/help/assets/open-dmclassicapp1.png)
 
-   * **Für Windows** : Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um das Desktop-Programm zu installieren.
+   * **Windows**  - Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um das Desktop-Programm zu installieren.
 
 1. Wenn Sie die Anwendung öffnen, wird die neue Adobe Dynamic Media Classic-Anmeldeseite angezeigt:
 
@@ -107,7 +107,7 @@ Verwandte Themen:
    Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
    | Browser-URL | Server-Name des Desktop-Programms |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
@@ -149,7 +149,7 @@ So laden Sie die neueste Adobe Dynamic Media Classic Desktop App unter macOS her
    Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
    | Browser-URL | Server-Name des Desktop-Programms |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
@@ -194,7 +194,7 @@ So laden Sie die neueste Version des Dynamic Media Classic-Desktop-Programms unt
    Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
    | Browser-URL | Server-Name des Desktop-Programms |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
