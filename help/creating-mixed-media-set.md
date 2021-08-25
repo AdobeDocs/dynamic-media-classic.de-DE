@@ -1,18 +1,18 @@
 ---
 title: Erstellen eines gemischten Mediensets
-description: Erfahren Sie, wie Sie ein gemischtes Medienset erstellen.
+description: Erfahren Sie, wie Sie ein gemischtes Medienset in Dynamic Media Classic erstellen.
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic,Viewer,gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 5f7e0c821dc2a34170e811157c9e689370d36d21
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 88%
+source-wordcount: '625'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ Erstellen Sie ein gemischtes Medienset, wenn Sie mehrere Arten von Viewern in ei
 Wenn Sie ein Set erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
 
 | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
-|--- |--- |--- |
+| --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -35,7 +35,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 **So erstellen Sie ein gemischtes Medienset:**
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Gemischte Mediensets]**.
+1. Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Gemischte Mediensets]**.
 1. Ziehen Sie die Videos, Bildsätze, Rotationssets und Muster aus der Asset-Bibliothek in den Anzeigebereich „Gemischte Mediensets“.
 
    >[!NOTE]
@@ -49,9 +49,11 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    * (Optional) Um eine benutzerdefinierte Miniaturansicht für ein Video im Viewer hinzuzufügen, ziehen Sie eine Bilddatei aus der Asset-Bibliothek in das Platzhalterfeld für die Miniaturansicht.
 
 1. Stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
-1. Klicken Sie auf **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern des gemischten Mediensets aus, geben Sie einen Namen für das Set ein und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Save]** aus.
+1. Wählen Sie einen Ordner zum Speichern des gemischten Mediensets aus und geben Sie dann einen Namen für das Set ein.
+1. Wählen Sie **[!UICONTROL Save]** aus.
 
-   Um zu sehen, wie das kombinierte Bildset in einem Bildset-Viewer aussieht, klicken Sie auf **[!UICONTROL Vorschau]**.
+   Um zu sehen, wie das kombinierte Bildset in einem Bildset-Viewer aussieht, wählen Sie **[!UICONTROL Vorschau]** aus.
 
 ## Bearbeiten eines gemischten Mediensets {#edit-a-mixed-media-set}
 
@@ -59,8 +61,8 @@ Sie können ein gemischtes Medienset bearbeiten. Falls Sie ein Set innerhalb ein
 
 Unabhängig davon, ob Sie einen veröffentlichten oder unveröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf den Satz und die Setmitglieder aus:
 
-| Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
-|--- |--- |--- |--- |
+| Set bereits veröffentlicht? | **[!UICONTROL Nach der]** Speicheroption veröffentlichen vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| --- |--- |--- |--- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
@@ -70,14 +72,14 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 **So bearbeiten Sie ein gemischte Medienset:**
 
-1. Klicken Sie auf die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des gemischten Mediensets.
+1. Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des gemischten Mediensets aus.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Um Elemente zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
    * Um Elemente neu anzuordnen, ziehen Sie sie an die gewünschten Positionen.
 
 1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
-1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speicher unter]**.
+1. Wählen Sie **[!UICONTROL Save]** oder **[!UICONTROL Save As]**.
 
 ## Löschen eines gemischten Mediensets {#deleting-a-mixed-media-set}
 
@@ -88,4 +90,4 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 **So löschen Sie ein gemischtes Medienset:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere gemischte Mediensets aus.
-1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
+1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
