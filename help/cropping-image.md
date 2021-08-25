@@ -1,6 +1,6 @@
 ---
-title: Beschneiden eines Bildes
-description: Erfahren Sie, wie Sie ein Bild zuschneiden.
+title: Bilder zuschneiden
+description: Erfahren Sie, wie Sie ein Bild in Dynamic Media Classic zuschneiden.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,13 @@ Sie haben die Möglichkeit, durch Beschneiden den weißen Bereich um das Bild he
 
 >[!NOTE]
 >
->Nach dem Zuschneiden können Sie **[!UICONTROL Speichern unter]** auswählen und eine zugeschnittene Version des Bildes unter einem anderen Namen speichern. Wählen Sie im Fenster „Speichern unter“ die Option „Als neue Masterversion speichern“, um eine zweite Kopie des Bilds zu speichern. Wählen Sie **[!UICONTROL Als zusätzliche Ansicht von Übergeordnet speichern]** aus, damit Sie das Original und die zugeschnittene Version unter einem anderen Namen speichern können. Wählen Sie **[!UICONTROL Original ersetzen]** aus, um die Originaldatei zu löschen, von der Sie das Bild beschnitten haben. Geben Sie dann einen Namen für das Bild ein und wählen Sie **[!UICONTROL Submit]** aus.
+>Nach dem Zuschneiden können Sie **[!UICONTROL Speichern unter]** auswählen und eine zugeschnittene Version des Bildes unter einem anderen Namen speichern. Wählen Sie im Fenster &quot;Speichern unter&quot;die Option **[!UICONTROL Als neu speichern]** aus, um eine zweite Bildkopie zu speichern. Wählen Sie **[!UICONTROL Als zusätzliche Ansicht von Übergeordnet speichern]** aus, damit Sie das Original und die zugeschnittene Version unter einem anderen Namen speichern können. Wählen Sie **[!UICONTROL Original ersetzen]** aus, um die Originaldatei zu löschen, von der Sie das Bild beschnitten haben. Geben Sie dann einen Namen für das Bild ein und wählen Sie **[!UICONTROL Submit]** aus.
 
 ## Beschneiden zum Entfernen des weißen Bereichs am Bildrand {#crop-to-remove-white-space-around-an-image}
 
 Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch Beschneiden entfernen.
 
-1. Um ein Bild zu beschneiden, klicken Sie auf den Rollover **[!UICONTROL Schaltfläche &quot;Bearbeiten]**&quot;und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchenbedienfeld in der Detailansicht an und wählen Sie die Schaltfläche **[!UICONTROL Zuschneiden]** aus.
+1. Um ein Bild zu beschneiden, wählen Sie dessen Rollover **[!UICONTROL Schaltfläche &quot;Bearbeiten]**&quot;und klicken Sie dann auf **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchenbedienfeld in der Detailansicht an und wählen Sie die Schaltfläche **[!UICONTROL Zuschneiden]** aus.
 1. Führen Sie auf der Seite &quot;Beschneidungseditor&quot;einen der folgenden Schritte aus:
 
    * Um Farbpixel zu beschneiden, gehen Sie zu **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Wählen Sie im Dialogfeld **[!UICONTROL Automatisches Zuschneiden nach Farbe]** das Menü **[!UICONTROL Ecke]** aus und wählen Sie eine Ecke mit der Hintergrundfarbe, die Sie entfernen möchten. Geben Sie dann die Einstellung **[!UICONTROL Toleranz]** von 0 bis 1 ein. Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Wählen Sie **[!UICONTROL Zuschneiden]** aus.
@@ -63,6 +63,6 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 >[!MORELIKETHIS]
 >
 >* [Optionen für die Bildbearbeitung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload)
-* [Leerraum aus einer PDF-Datei beschneiden](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [Zuschneiden von den Seiten der PDF-Seiten](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Leerraum aus einer PDF-Datei beschneiden](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Zuschneiden von den Seiten der PDF-Seiten](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
