@@ -1,6 +1,6 @@
 ---
 title: Löschen eines hochgeladenen Assets
-description: Erfahren Sie, wie Sie ein hochgeladenes Asset löschen.
+description: Erfahren Sie, wie Sie ein hochgeladenes Asset in Dynamic Media Classic löschen.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 85%
+source-wordcount: '95'
+ht-degree: 84%
 
 ---
 
@@ -45,9 +45,9 @@ Hier ein Beispiel für eine Antwort, wenn ein Bild-Asset gelöscht wird:
 Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines Assets verwenden:
 
 | URL-Parameter | Erforderlich/optional | Wert |
-|--- |--- |--- |
-| op | Erforderlich | löschen |
-| shared_secret | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
+| --- | --- | --- |
+| `op` | Erforderlich | löschen |
+| `shared_secret` | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
 | <ul><li>Für Bilder:image_name</li><li>Bei Vektoren:fxg_name</li></ul> | Erforderlich | Name des Assets, das gelöscht werden soll. |
 
 **Beispielbild-URL:**
