@@ -1,6 +1,6 @@
 ---
-title: ICC-Profile
-description: Erfahren Sie mehr über ICC-Profile.
+title: ICC-Profile (International Color Consortium)
+description: Erfahren Sie mehr über ICC-Profile in Dynamic Media Classic.
 uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 71%
+source-wordcount: '446'
+ht-degree: 64%
 
 ---
 
@@ -27,20 +27,20 @@ Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#
 
 Sie können nicht nur die standardmäßigen ICC-Profile verwenden, sondern auch andere ICC-Profile in Dynamic Media Classic hochladen und für die Farbraumkonvertierung verfügbar machen. Rufen Sie die Detailansicht des Durchsuchenbedienfelds auf, um die Einstellungen für „Profil-Kategorie“, „Art des Farbraums“ und „PCS-Typ“ eines ICC-Profils zu ermitteln.
 
-## Hochladen von ICC-Profilen {#uploading-icc-profiles}
+## ICC-Profile hochladen {#uploading-icc-profiles}
 
 ICC-Profile werden genau so wie andere Dateien hochgeladen. Sie können ICC-Profile in einem beliebigen Dynamic Media Classic-Ordner speichern.
 
-Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
+Siehe [Hochladen Ihrer Dateien](uploading-files.md#uploading_your_files).
 
-## Überprüfen von ICC-Profilen {#examining-an-icc-profile}
+## Prüfen eines ICC-Profils {#examining-an-icc-profile}
 
-Um ein ICC-Profil zu überprüfen, zeigen Sie es in der Detailansicht des Durchsuchenbedienfelds an. Die Detailansicht enthält folgende Informationen zu ICC-Profilen:
+Um ein ICC-Profil zu überprüfen, zeigen Sie es in der Detailansicht des Durchsuchenbedienfelds an. Die Detailansicht enthält diese Informationen zu ICC-Profilen:
 
-* **Profilklasse**  - Das ICC (International Color Consortium) definiert jede Klasse, um einen Anwendungstyp abzudecken. Beispielsweise betreffen Eingabeprofile Geräte wie Digitalkameras und Scanner, während Ausgabeprofile Drucker betreffen.
+* **[!UICONTROL Profilklasse]**  - Das ICC (International Color Consortium) definiert jede Klasse, um einen Anwendungstyp abzudecken. Beispielsweise betreffen Eingabeprofile Geräte wie Digitalkameras und Scanner, während Ausgabeprofile Drucker betreffen.
 
-* **Farbraumtyp**  - Diese Zahl ist der &quot;Eingabe&quot;-Farbraum des Profils, wie vom ICC definiert. Die Art des Farbraums definiert die Anzahl an Komponenten des Farbraums und deren Interpretation. Der RGB-Farbraum enthält beispielsweise drei Komponenten: Rot, Grün und Blau. Die Art des Farbraums gibt jedoch nicht die besonderen Farbcharakteristika des Farbraums an (z. B. die Chromatizität der Primärfarben).
+* **[!UICONTROL Farbraumtyp]**  - Diese Zahl ist der &quot;Eingabe&quot;-Farbraum des Profils, wie vom ICC definiert. Die Art des Farbraums definiert die Anzahl an Komponenten des Farbraums und deren Interpretation. Der RGB-Farbraum enthält beispielsweise drei Komponenten: Rot, Grün und Blau. Die Art des Farbraums gibt jedoch nicht die besonderen Farbcharakteristika des Farbraums an (z. B. die Chromatizität der Primärfarben).
 
-* **PCS-Typ**  - Dieser PCS-Typ ist der &quot;Ausgabe&quot;-Farbraum des Profils - sein Profil-Verbindungsraum. Beispielsweise kann ein Farbprofil RGB in PCS konvertieren, von dem es anschließend in CMYK konvertiert wird.
+* **[!UICONTROL PCS-Typ]**  - Dieser PCS-Typ ist der &quot;Ausgabe&quot;-Farbraum des Profils - sein Profil-Verbindungsraum. Beispielsweise kann ein Farbprofil RGB in PCS konvertieren, von dem es anschließend in CMYK konvertiert wird.
 
 Für Eingabe-, Anzeige- oder Ausgabeprofile, mit denen Farben oder Bilder mit Tags versehen werden können, ist der PCS-Typ entweder „XYZ“ oder „Lab“. Dieses Profil ist als der entsprechend bestimmte Farbraum gemäß der Definition der ICC-Spezifikation zu interpretieren.

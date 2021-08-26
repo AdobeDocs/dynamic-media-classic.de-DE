@@ -10,9 +10,9 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1424'
 ht-degree: 50%
 
 ---
@@ -87,7 +87,7 @@ Siehe [Verwenden von Imagemaps zum Einbetten von Rich-Media-Daten in einen E-Kat
 
 Der Imagemap-Text kann mithilfe der Infofeldeinstellungen im Anzeigebereich „E-Katalog“ eingestellt und verwaltet werden. 
 
-Siehe [ Verwalten des Infofeldinhalts](info-panel-content.md#managing-info-panel-content).
+Siehe [Verwalten von Infofeldinhalten in E-Katalogen](/help/info-panel-content-ecatalog.md).
 
 ## 4. Einrichten von E-Katalog-Viewer-Vorgaben
 

@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: a55f7279-6bba-43f1-99fa-88e922ac1803
-feature: Dynamic Media Classic, Brand Portal
+feature: Dynamic Media Classic,Brand Portal
 role: Admin,User
 exl-id: 2c7c0838-0c48-450e-94ff-521bae19425f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Das folgende Hilfedokument ist auch in Dynamic Media Classic verfügbar:
 
-**Verwenden von Dynamic Media Classic Media Portal**  - Adobe Dynamic Media Classic Media Portal ist eine browserbasierte Umgebung, die Portalbenutzern einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bietet. Siehe [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+**Verwenden von Dynamic Media Classic Media Portal**  - Adobe Dynamic Media Classic Media Portal ist eine browserbasierte Umgebung, die Portalbenutzern einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bietet. Siehe [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
 
 <!-- Is this topic still needed? -rb 04/22/21
- -->
+ used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/-->

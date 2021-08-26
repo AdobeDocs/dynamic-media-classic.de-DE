@@ -1,6 +1,6 @@
 ---
-title: Abrufen von Speichernutzungsinformationen
-description: Erfahren Sie, wie Sie Informationen zur Festplattenauslastung abrufen.
+title: Informationen zur Festplattenauslastung abrufen
+description: Erfahren Sie, wie Sie Informationen zur Festplattenauslastung in Dynamic Media Classic abrufen.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 88%
+source-wordcount: '89'
+ht-degree: 78%
 
 ---
 
-# Abrufen von Speichernutzungsinformationen {#getting-disk-usage-information}
+# Informationen zur Festplattenauslastung abrufen {#getting-disk-usage-information}
 
 Mit dem Parameter `disk_info` können Sie Informationen zur Speichernutzung eines Unternehmens abrufen, wie im folgenden Beispiel gezeigt:
 
@@ -45,7 +45,7 @@ Eine Antwort sieht beispielsweise folgendermaßen aus:
 Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Speichernutzungsinformationen verwenden:
 
 | URL-Parameter | Erforderlich/optional | Wert |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Erforderlich | disk_info |
 | shared_secret | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen |
 
