@@ -1,5 +1,5 @@
 ---
-title: 'Veröffentlichen von Dateien '
+title: Veröffentlichen von Dateien
 description: '"Erfahren Sie, wie Sie Ihre Assets auf Dynamic Media-Image-Servern veröffentlichen. Sie können Assets einmalig veröffentlichen oder für Adobe Dynamic Media Classic anordnen, Assets nach einem wiederkehrenden Zeitplan zu veröffentlichen. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen."'
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 56%
+source-wordcount: '1726'
+ht-degree: 48%
 
 ---
 
-# Veröffentlichen von Dateien {#publishing-files}
+# Veröffentlichen von Dateien{#publishing-files}
 
 Sie veröffentlichen Ihre Assets auf Dynamic Media-Image-Servern. Sie können Assets einmalig veröffentlichen oder für Adobe Dynamic Media Classic anordnen, Assets nach einem wiederkehrenden Zeitplan zu veröffentlichen. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
@@ -29,14 +29,14 @@ Weitere Informationen finden Sie unter [Hinweis zur sofortigen Veröffentlichung
 
 Sie haben zum Markieren von Assets zur Veröffentlichung die folgenden Möglichkeiten:
 
-* **Nach dem Hochladen veröffentlichen**  - Wählen Sie auf der Seite &quot;Hochladen&quot;unten die Option Nach dem Hochladen veröffentlichen aus. Die Standardeinstellung ist „ausgewählt“.
+* **[!UICONTROL Nach dem Hochladen veröffentlichen]**  - Wählen Sie auf der Seite &quot;Hochladen&quot;unten die Option  **[!UICONTROL Nach dem Hochladen veröffentlichen]** aus. Die Standardeinstellung ist „ausgewählt“.
 
-* **Nach dem Hochladen veröffentlichen**  - Wählen Sie im Dialogfeld &quot;Auftragsoptionen&quot;die Option Nach dem Hochladen veröffentlichen aus. Die Standardeinstellung ist „ausgewählt“.
+* **[!UICONTROL Nach dem Hochladen veröffentlichen]**  - Wählen Sie im Dialogfeld &quot;Auftragsoptionen&quot;die Option  **[!UICONTROL Nach dem Hochladen veröffentlichen]** aus. Die Standardeinstellung ist „ausgewählt“.
 
 Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wenn ihre Stammelemente zur Veröffentlichung markiert werden. In der folgenden Tabelle sind die Arten von abgeleiteten Assets aufgeführt, die automatisch zur Veröffentlichung markiert werden.
 
 | Übergeordnetes Element (Gruppe) | Untergeordnete Elemente (Mitglieder) |
-|--- |--- |
+| --- | --- |
 | Bildsätze | Die Bilder in einem Satz. |
 | Mustersets | Die Farbfelder in einem Satz. |
 | Rotationssets | Die Bilder in einem Satz. |
@@ -44,13 +44,13 @@ Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wen
 
 Abgeleitete Bilder werden zur Veröffentlichung markiert, wenn die zugehörigen Stammbilder veröffentlicht werden. Abgeleitete Bilder sind beispielsweise Bilder, die Sie mit Bildbearbeitungsoptionen angepasst haben. Sie können diese abgeleiteten Bilder in der Detailansicht unter &quot;Built &amp; Derivatives&quot;anzeigen.
 
-## Erstellen eines Veröffentlichungsauftrags {#creating-a-publish-job}
+## Veröffentlichungsauftrag erstellen {#creating-a-publish-job}
 
-Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf Adobe Dynamic Media Classic-Server hochgeladen haben, diese jedoch noch nicht automatisch veröffentlicht haben. Sie können einen einmaligen Veröffentlichungsauftrag ausführen oder Aufträge planen, die regelmäßig wiederholt werden. Adobe Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von bereits veröffentlichten Assets.
+Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf Adobe Dynamic Media Classic-Server hochgeladen haben, aber noch nicht automatisch veröffentlichen möchten. Sie können einen einmaligen Veröffentlichungsauftrag ausführen oder Aufträge planen, die regelmäßig wiederholt werden. Adobe Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von bereits veröffentlichten Assets.
 
 **So erstellen Sie einen Veröffentlichungsauftrag:**
 
-1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL „Veröffentlichen“]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Publish]** aus.
 1. Wählen Sie im Dialogfeld „Veröffentlichen“ aus, ob Sie einen einmaligen oder einen wiederkehrenden Auftrag veröffentlichen möchten.
 
    Siehe [Erstellen eines einmaligen Veröffentlichungsauftrags](publishing-files.md#creating_a_one_time_publish_job) und [Erstellen eines wiederkehrenden Veröffentlichungsauftrags](publishing-files.md#creating_a_recurring_publish_job).
@@ -60,7 +60,7 @@ Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, di
 
    Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options).
 
-1. Klicken Sie auf **[!UICONTROL Veröffentlichung]**.
+1. Wählen Sie **[!UICONTROL Veröffentlichen senden]** aus.
 
 Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &quot;Aufträge&quot;nach. Sie können Veröffentlichungsaufträge auf dieser Seite überprüfen.
 
@@ -70,17 +70,17 @@ Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &
 
 ### Erstellen eines einmaligen Veröffentlichungsauftrags {#creating-a-one-time-publish-job}
 
-Sie erstellen einen einmaligen Veröffentlichungsauftrag, indem Sie auf der Seite „Veröffentlichen“ die Option „Einmalig“ auswählen.
+Erstellen Sie einen einmaligen Veröffentlichungsauftrag, indem Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Einmalig]** auswählen.
 
-Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite &quot;Veröffentlichen&quot;die Option **[!UICONTROL Einmalig]** und klicken Sie dann auf die Dropdownliste **[!UICONTROL Für später einplanen]** . Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
+Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite &quot;Veröffentlichen&quot;die Option **[!UICONTROL Einmalig]** und dann die Dropdownliste **[!UICONTROL Für später einplanen]** aus. Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
 
 ### Erstellen eines wiederkehrenden Veröffentlichungsauftrags {#creating-a-recurring-publish-job}
 
 Erstellen Sie einen wiederkehrenden Veröffentlichungsauftrag, indem Sie auf der Seite &quot;Veröffentlichen&quot;die Option **[!UICONTROL Wiederkehrend]** auswählen.
 
-Wählen Sie dann die Option Wiederholen **[!UICONTROL Täglich]**, **[!UICONTROL Wöchentlich]**, **[!UICONTROL Monatlich]** oder **[!UICONTROL Benutzerdefiniert]** und geben Sie an, wann der Veröffentlichungsauftrag wiederholt werden soll. Adobe Dynamic Media Classic stellt Kalendertools zur Planung des wiederkehrenden Veröffentlichungsvorgangs vor. Sie können auf die Option **[!UICONTROL Benutzerdefiniert]** klicken und eine Regel in das Textfeld &quot;Regel&quot;eingeben, um ein benutzerdefiniertes Auftragsintervall zu beschreiben.
+Wählen Sie dann die Option Wiederholen **[!UICONTROL Täglich]**, **[!UICONTROL Wöchentlich]**, **[!UICONTROL Monatlich]** oder **[!UICONTROL Benutzerdefiniert]** und geben Sie an, wann der Veröffentlichungsauftrag wiederholt werden soll. Adobe Dynamic Media Classic stellt Kalendertools zur Planung des wiederkehrenden Veröffentlichungsvorgangs vor. Sie können die Option **[!UICONTROL Benutzerdefiniert]** auswählen und eine Regel in das Textfeld &quot;Regel&quot;eingeben, um ein benutzerdefiniertes Auftragsintervall zu beschreiben.
 
-Siehe [Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. Veröffentlichungsaufträge](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Upload- oder Veröffentlichungsaufträge](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >
@@ -90,21 +90,21 @@ Siehe [Festlegen eines individuellen Zeitintervalls für Upload-Aufträge bzw. V
 
 Sie können auf der Seite „Veröffentlichen“ erweiterte Optionen anzeigen und damit Einstellungen für einen Veröffentlichungsauftrag festlegen:
 
-* **Veröffentlichen in**  - Wenn Sie Assets nur auf einem bestimmten Server veröffentlichen möchten, wählen Sie einen Servertyp aus.
+* **[!UICONTROL Veröffentlichen in]**  - Wenn Sie Assets nur auf einem bestimmten Server veröffentlichen möchten, wählen Sie einen Servertyp aus.
 
-* **Veröffentlichen**  - Standardmäßig veröffentlicht Adobe Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch auf **[!UICONTROL Vollständige Veröffentlichung]** klicken, um auch Assets zu veröffentlichen, die seit der letzten Veröffentlichung aktualisiert oder geändert wurden. Wählen Sie **[!UICONTROL Vollständig mit Suchdaten]** aus, wenn Sie einen eCatalog veröffentlichen und möchten, dass Leser ihn mit einem Schlüsselwort durchsuchen können.
+* **[!UICONTROL Veröffentlichen]**  - Standardmäßig veröffentlicht Adobe Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch **[!UICONTROL Vollständige Veröffentlichung]** auswählen, um auch Assets zu veröffentlichen, die seit der letzten Veröffentlichung aktualisiert oder geändert wurden. Wählen Sie **[!UICONTROL Vollständig mit Suchdaten]** aus, wenn Sie einen eCatalog veröffentlichen und möchten, dass Leser ihn mit einem Schlüsselwort durchsuchen können.
 
-* **Auftrag ausführen als**  - Wählen Sie einen Benutzernamen aus der Liste aus. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch Wählen eines Namens verbinden Sie einen Veröffentlichungsauftrag mit einem Benutzer.
+* **[!UICONTROL Auftrag ausführen als]**  - Wählen Sie einen Benutzernamen aus der Liste aus. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch Wählen eines Namens verbinden Sie einen Veröffentlichungsauftrag mit einem Benutzer.
 
-**HTTP-Benachrichtigung**  - Geben Sie eine URL für den Trigger nachfolgender Veröffentlichungsaufträge ein.
+**[!UICONTROL HTTP-Benachrichtigung]**  - Geben Sie eine URL für den Trigger nachfolgender Veröffentlichungsaufträge ein.
 
-Siehe [Verwenden eines Upload-Auftrags oder Veröffentlichungsauftrags als Auslöser](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
+Siehe [Upload- oder Veröffentlichungsauftrag als Trigger verwenden](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
-## Stornieren eines Veröffentlichungsauftrags {#canceling-a-publish-job}
+## Abbrechen eines Veröffentlichungsauftrags {#canceling-a-publish-job}
 
 Sie haben die Möglichkeit, einen in Verarbeitung befindlichen Veröffentlichungsauftrag zu stornieren. Als Administrator können Sie einen in Verarbeitung befindlichen Veröffentlichungsauftrag auch über die Seite „Aufträge“ für das Unternehmen stornieren.
 
-Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Aufträge&quot;und klicken Sie auf **[!UICONTROL Abbrechen]**. Auf der Registerkarte „Geplant“ der Seite „Aufträge“ können Sie einen Auftrag anhalten und wiederaufnehmen, indem Sie in der Spalte „Aktiv“ des Auftrags das Kontrollkästchen markieren bzw. dessen Markierung aufheben.
+Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Aufträge&quot;und wählen Sie **[!UICONTROL Abbrechen]** aus. Auf der Registerkarte „Geplant“ der Seite „Aufträge“ können Sie einen Auftrag anhalten und wiederaufnehmen, indem Sie in der Spalte „Aktiv“ des Auftrags das Kontrollkästchen markieren bzw. dessen Markierung aufheben.
 
 >[!NOTE]
 >
@@ -122,9 +122,9 @@ Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Assets aus.
 
-      Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]**.
+      Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]**.
 
-   * Klicken Sie in der Rasteransicht, Listenansicht oder Detailansicht auf das graue, runde Symbol mit einem Schrägstrich links neben dem Asset-Namen.
+   * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht das graue, runde Symbol mit einem Schrägstrich links neben dem Asset-Namen aus.
 
 ## Manuelles Rückgängigmachen der Veröffentlichung von Assets {#manually-unpublishing-assets}
 
@@ -138,11 +138,11 @@ Veröffentlichte Elemente werden in der Benutzeroberfläche mit einem grünen Kr
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere veröffentlichte Assets aus.
 
-      Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängigmachen]**.
+      Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
-   * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht auf das grüne Kreissymbol mit dem Häkchen, das links neben dem Namen des Assets angezeigt wird.
+   * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht das runde grüne Häkchensymbol links neben dem Asset-Namen aus.
 
-## Abrufen des Veröffentlichungsverlaufs für ein Asset {#getting-an-asset-s-publish-history}
+## Abrufen des Veröffentlichungsverlaufs eines Assets {#getting-an-asset-s-publish-history}
 
 Das letzte Datum, an dem ein Asset veröffentlicht wurde, wird in der Detailansicht oben im Bedienfeld angezeigt. Weitere Informationen zum Veröffentlichungsverlauf erhalten Sie, indem Sie das Bedienfeld Verlauf und veröffentlichte Server in der Detailansicht öffnen. Dort wird angezeigt, wann und auf welchen Servern das Asset veröffentlicht wurde.
 
@@ -156,10 +156,10 @@ Neu veröffentlichte Adobe Dynamic Media Classic-Inhalte stehen dem Endbenutzer 
 
 Wenn Sie möchten, dass neue erneut veröffentlichte Bild-Assets schneller zur Verfügung stehen als mit zehnstündiger Verzögerung, können Sie Web-Caches im CDN bereinigen. Bei der Bereinigung der Web-Caches werden alte Inhalte aus den CDN-Web-Caches entfernt und durch die zuletzt veröffentlichten Assets ersetzt.
 
-Um den Cache zu leeren, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Datei]** > **[!UICONTROL Ungültiges CDN]**. Alle ausgewählten Dateien werden aus dem Cache entfernt. Wenn keine veröffentlichbare Assets vorhanden oder Sie kein Unternehmensadministrator sind, ist die CDN-Option „Entfernen“ nicht verfügbar.
+Um den Cache zu leeren, gehen Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Ungültiges CDN]**. Alle ausgewählten Dateien werden aus dem Cache entfernt. Wenn keine veröffentlichbare Assets vorhanden oder Sie kein Unternehmensadministrator sind, ist die CDN-Option „Entfernen“ nicht verfügbar.
 
 >[!MORELIKETHIS]
 >
 >* [Überprüfen von Auftragsdateien](checking-job-files.md)
->* [Bearbeiten, Löschen, Anhalten und Wiederaufnehmen wiederkehrender Aufträge](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+>* [Bearbeiten, Löschen, Anhalten und Fortsetzen wiederkehrender Aufträge](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
 

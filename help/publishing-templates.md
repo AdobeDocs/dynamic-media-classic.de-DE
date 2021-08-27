@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichen von Vorlagen
-description: Erfahren Sie, wie Sie Vorlagen veröffentlichen.
+description: Erfahren Sie, wie Sie Vorlagen aus Adobe Dynamic Media Classic veröffentlichen.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 22%
+source-wordcount: '172'
+ht-degree: 11%
 
 ---
 
@@ -27,14 +27,14 @@ Durch das Veröffentlichen Ihrer Vorlage wird sie auf Dynamic Media-Image-Server
 
 ## Markieren von Vorlagen zur Veröffentlichung {#marking-templates-for-publish}
 
-Vorlagen und alle zugehörigen Supportdateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Servern platziert werden können. Sie können diese Elemente im Durchsuchenbedienfeld zur Veröffentlichung markieren, indem Sie auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** klicken.
+Vorlagen und alle zugehörigen Supportdateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Servern platziert werden können. Sie können diese Elemente im Durchsuchenbedienfeld zur Veröffentlichung markieren, indem Sie das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** auswählen.
 
-## Veröffentlichen der Vorlage {#publishing-your-template}
+## Vorlage veröffentlichen {#publishing-your-template}
 
-Um Vorlagen auf Dynamic Media-Bildservern zu veröffentlichen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Publish]** und wählen Sie dann die Option **[!UICONTROL When]** aus. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Klicken Sie auf **[!UICONTROL Veröffentlichung]**.
+Um Vorlagen auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Publish]** und dann die Option **[!UICONTROL When]** aus. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **[!UICONTROL Veröffentlichen senden]** aus.
 
 >[!MORELIKETHIS]
 >
 >* [Markieren von Assets zur Veröffentlichung](publishing-files.md#publish_after_uploading)
->* [Erstellen eines Veröffentlichungsauftrags](publishing-files.md#creating_a_publish_job)
+>* [Veröffentlichungsauftrag erstellen](publishing-files.md#creating_a_publish_job)
 

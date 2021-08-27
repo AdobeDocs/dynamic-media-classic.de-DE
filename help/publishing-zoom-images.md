@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichen von Zoombildern
-description: Erfahren Sie, wie Sie Zoombilder veröffentlichen.
+description: Erfahren Sie, wie Sie Zoombilder aus Adobe Dynamic Media Classic veröffentlichen.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 21%
+source-wordcount: '153'
+ht-degree: 9%
 
 ---
 
@@ -25,11 +25,11 @@ Beim Veröffentlichen werden Ihre Zoombilder auf Dynamic Media-Bildservern platz
 
 Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Bilder im Durchsuchenbedienfeld zur Veröffentlichung markieren, indem Sie das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** auswählen. Sie können Bilder auch beim Hochladen zur Veröffentlichung markieren.
 
-## Veröffentlichen von Bildern {#publishing-the-images}
+## Bilder veröffentlichen {#publishing-the-images}
 
-Um Zoombilder zu veröffentlichen, klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Publish]** und wählen Sie dann die Option **[!UICONTROL When]** (**[!UICONTROL Einmalige]** oder **[!UICONTROL Wiederkehrende]**). Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Klicken Sie auf **Veröffentlichung**.
+Um Zoombilder zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Publish]** und dann die Option **[!UICONTROL When]** (**[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**). Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **Veröffentlichen senden** aus.
 
 >[!MORELIKETHIS]
 >
->* [Veröffentlichen](publishing-files.md#publishing_files)
+>* [Veröffentlichen von Dateien](publishing-files.md#publishing_files)
 

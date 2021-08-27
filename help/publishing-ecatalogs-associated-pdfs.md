@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichen von E-Katalogen und zugehörigen PDFs
-description: Erfahren Sie, wie Sie E-Kataloge und zugehörige PDFs veröffentlichen.
+description: Erfahren Sie, wie Sie E-Kataloge und zugehörige PDFs aus Adobe Dynamic Media Classic veröffentlichen.
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 26%
+source-wordcount: '192'
+ht-degree: 21%
 
 ---
 
@@ -27,15 +27,15 @@ Beim Veröffentlichen werden der E-Katalog und die PDF-Datei auf Dynamic Media-I
 
 **So veröffentlichen Sie E-Kataloge und zugehörige PDFs:**
 
-1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL „Veröffentlichen“]**.
-1. Klicken Sie im Bildschirm &quot;Veröffentlichen&quot;auf **[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Publish]** aus.
+1. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**.
 1. (Optional) Geben Sie im Feld &quot;Auftragsname&quot;einen Namen für den Veröffentlichungsauftrag ein, behalten Sie jedoch den vordefinierten Datums- und Uhrzeittext bei.
 
-   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Klicken Sie im Dialogfeld &quot;Veröffentlichen&quot;auf **[!UICONTROL Erweitert]**. Klicken Sie im Dropdown-Menü **[!UICONTROL Publish]** auf **[!UICONTROL Full w/ Search Data]**. Diese Option ist standardmäßig aktiviert.
+   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld &quot;Veröffentlichen&quot;die Option **[!UICONTROL Erweitert]**. Wählen Sie aus dem Dropdown-Menü **[!UICONTROL Publish]** die Option **[!UICONTROL Full w/ Search Data]**. Diese Option ist standardmäßig aktiviert.
 
-1. Klicken Sie auf ****[!UICONTROL Veröffentlichung]****.
+1. Klicken Sie auf **[!UICONTROL Veröffentlichung]**.
 
 >[!MORELIKETHIS]
 >
->* [Veröffentlichen](publishing-files.md)
+>* [Veröffentlichen von Dateien](publishing-files.md)
 

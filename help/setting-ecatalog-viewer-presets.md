@@ -9,7 +9,7 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 42%
@@ -20,7 +20,7 @@ ht-degree: 42%
 
 Mit E-Katalog-Viewer-Vorgaben werden Stil, Verhalten und Aussehen von E-Katalog-Viewern bestimmt. Adobe Dynamic Media Classic stellt E-Katalog-Viewer-Vorgaben bereit. Wenn Sie Administrator sind, können Sie auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
-Um eine Vorgabe zu erstellen, können Sie von Grund auf neu beginnen oder mit einer von Dynamic Media Classic bereitgestellten E-Katalog-Viewer-Vorgabe beginnen und sie unter einem neuen Namen speichern. Sie können eigene E-Katalog-Viewer-Vorgaben erstellen, um Druckwerbematerial in den Farben Ihres Unternehmens zu präsentieren.
+Um eine Vorgabe zu erstellen, können Sie von Grund auf neu beginnen oder mit einer von Dynamic Media Classic bereitgestellten E-Katalog-Viewer-Vorgabe der Adobe beginnen und sie unter einem neuen Namen speichern. Sie können eigene E-Katalog-Viewer-Vorgaben erstellen, um Druckwerbematerial in den Farben Ihres Unternehmens zu präsentieren.
 
 E-Katalog-Viewer-Vorgaben bieten zahlreiche Einstellungen für das Umblättern der Seiten, für Zoomfunktionen, Suchfunktionen und die Auswahl von Skins. Wie diese Steuerelemente aussehen und wie der Viewer angezeigt wird, hängt von Ihrer Wahl der E-Katalog-Viewer-Vorgaben ab.
 
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe 
 
    * **Erstellen einer E-Katalog-Viewer-Vorgabe**  - Klicken Sie auf  **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, wählen Sie einen E-Katalog-Viewer und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
-   * **Bearbeiten einer E-Katalog-Viewer-Vorgabe** : Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und klicken Sie auf Bearbeiten. Klicken Sie auf **[!UICONTROL Speichern unter]**, nachdem Sie die Vorgabe fertig erstellt haben.
+   * **Bearbeiten einer E-Katalog-Viewer-Vorgabe** : Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und klicken Sie auf  **[!UICONTROL Bearbeiten]**. Klicken Sie auf **[!UICONTROL Speichern unter]**, nachdem Sie die Vorgabe fertig erstellt haben.
 
 1. Geben Sie im Anzeigebereich „Viewer konfigurieren“ einen Namen für die E-Katalog-Viewer-Vorgabe ein.
 1. Legen Sie im Anzeigebereich „Viewer konfigurieren“ die Optionen fest.

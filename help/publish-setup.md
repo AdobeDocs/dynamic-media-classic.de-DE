@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 46%
+source-wordcount: '2410'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ Die Einstellungen der Seite &quot;Veröffentlichungseinstellungen&quot;bestimmen
 
 Administratoren können die Standardeinstellungen auf den Seiten Image-Server, Image-Renderer und Vignette ändern, um Standardeinstellungen für die Bereitstellung von Assets von Servern festzulegen.
 
-Um die Seiten zur Veröffentlichungseinstellungen zu öffnen, klicken Sie auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinrichtung]**.
+Um die Seiten Veröffentlichungseinstellungen zu öffnen, gehen Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]**.
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ Auf der Image-Server-Seite werden Standardeinstellungen für die Bereitstellung 
 
 Ändern Sie diese Einstellungen nur mithilfe eines Support-Mitarbeiters der Adobe Dynamic Media Classic.
 
-* **Katalogverwaltung**  - Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und der Katalog interagieren. Im Gegensatz zu den meisten Webservern gehen Dynamic Media Image Server-URL-Aufrufe an eine Manifest- oder Katalogdatei und nicht an eine Bilddatei. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste mit dem gesamten Inhalt, der auf dem Image-Server veröffentlicht wurde, und den Pfaden aller Bilddateien. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
+* **[!UICONTROL Katalogverwaltung]**  - Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und der Katalog interagieren. Im Gegensatz zu den meisten Webservern gehen Dynamic Media Image Server-URL-Aufrufe an eine Manifest- oder Katalogdatei und nicht an eine Bilddatei. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste mit dem gesamten Inhalt, der auf dem Image-Server veröffentlicht wurde, und den Pfaden aller Bilddateien. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
 
-* **Anfrage-Attribute** : Mit diesen Einstellungen werden Einschränkungen für Bilder festgelegt, die vom Server bereitgestellt werden können. Beispielsweise ist *maximum* **[!UICONTROL Maximale Antwortbildgröße]** **[!UICONTROL Breite]** 5000 und **[!UICONTROL Höhe]** 5000.
+* **[!UICONTROL Anfrage-Attribute]** : Mit diesen Einstellungen werden Einschränkungen für Bilder festgelegt, die vom Server bereitgestellt werden können. Beispielsweise ist *maximum* **[!UICONTROL Maximale Antwortbildgröße]** **[!UICONTROL Breite]** 5000 und **[!UICONTROL Höhe]** 5000.
 
-* **Standardattribute für Anfragen**  - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
+* **[!UICONTROL Standardattribute für Anfragen]**  - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
 
-* **Allgemeine Attribute für Miniaturansichten** : Diese Einstellungen beziehen sich auf die standardmäßige Darstellung und Ausrichtung von Miniaturbildern.
+* **[!UICONTROL Allgemeine Attribute für Miniaturansichten]** : Diese Einstellungen beziehen sich auf die standardmäßige Darstellung und Ausrichtung von Miniaturbildern.
 
-* **Standardeinstellungen für Katalogfelder**  - Diese Einstellungen beziehen sich auf die Auflösung und den Standardtyp für Miniaturansichten von Bildern.
+* **[!UICONTROL Standardeinstellungen für Katalogfelder]**  - Diese Einstellungen beziehen sich auf die Auflösung und den Standardtyp für Miniaturansichten von Bildern.
 
-* **Farbverwaltungsattribute**  - Diese Einstellungen bestimmen, welche ICC-Farbprofile verwendet werden.
+* **[!UICONTROL Farbverwaltungsattribute]**  - Diese Einstellungen bestimmen, welche ICC-Farbprofile verwendet werden.
 
-* **Kompatibilitätsattribute**  - Mit dieser Einstellung können führende und nachfolgende Absätze in Textebenen aus Gründen der Abwärtskompatibilität wie in Version 3.6 behandelt werden.
+* **[!UICONTROL Kompatibilitätsattribute]**  - Mit dieser Einstellung können führende und nachfolgende Absätze in Textebenen aus Gründen der Abwärtskompatibilität wie in Version 3.6 behandelt werden.
 
-* **Lokalisierungsunterstützung**  - Mit diesen Einstellungen können Sie mehrere Gebietsschemaattribute verwalten. Damit können Sie außerdem eine Zeichenfolge für Gebietsschemakarten angeben, um zu definieren, welche Sprachen Sie für die verschiedenen QuickInfos in den Viewern unterstützen möchten.
+* **[!UICONTROL Lokalisierungsunterstützung]*** - Mit diesen Einstellungen können Sie mehrere Gebietsschemaattribute verwalten. Damit können Sie außerdem eine Zeichenfolge für Gebietsschemakarten angeben, um zu definieren, welche Sprachen Sie für die verschiedenen QuickInfos in den Viewern unterstützen möchten.
 
    Wenn Sie beispielsweise eine multinationale Marke sind mit Vertrieb in verschiedenen Ländern, können Sie sicherstellen, dass jedes Land seinen eigenen Gebietsschema-spezifischen Viewer hat. Für diese Funktion geben Sie eine Zeichenfolge für Gebietsschemakarten an. Bearbeiten Sie anschließend den QuickInfo-Text in der Vorgabe eines Viewer, indem Sie die übersetzten Zeichenfolgen für die gewünschte Sprache hinzufügen. 
 
    >[!NOTE]
    > Verwenden Sie zum Einrichten von Support-Optionen für die Lokalisierung [die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) In Ihrem Support-Fall fordern Sie Hilfe bei der Einrichtung an.
 
-   Weitere Informationen zum Einrichten von **Lokalisierungsunterstützung** finden Sie unter [Betrachtungen beim Planen der Asset-Lokalisierung](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+   Weitere Informationen zum Einrichten von **[!UICONTROL Lokalisierungsunterstützung]** finden Sie unter [Betrachtungen beim Planen der Asset-Lokalisierung](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Betrachtungen beim Planen der Asset-Lokalisierung {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,12 +90,12 @@ Zu den Vorteilen der Verwendung von `locale=` und `attribute::DefaultLocale` zä
 #### Anwendungsszenarios
 
 | Anwendung | Szenario |
-|--- |--- |
+| --- | --- |
 | Viewer-Lokalisierung | Nachdem statische Inhaltskataloge implementiert wurden, wird die Lokalisierung ausschließlich mit dem Parameter locale= gesteuert, der an alle durchgeführten IS-Abfragen angehängt wird. Konfigurationsdatensätze, Skins, Splashscreens usw. können über Gebietsschema-spezifische Varianten verfügen. Der korrekte Inhalt wird über IS bereitgestellt, ohne dass der Viewer wissen muss, welche Inhalte lokalisiert sind und wie die entsprechenden IDs lauten. |
 | Bilder und Videos | Internationale Konzerne verwenden häufig eine Mischung aus generischen und Gebietsschema-spezifischen Inhalten. Mit diesem Mechanismus kann ein Verweis auf ein Bild oder Video generisch sein. Und IS stellt die Gebietsschema-spezifischen Inhalte bereit, sofern diese vorhanden sind. |
-| Bildsätze und Mediensets | Das gesamte Bildset kann für einige Gebietsschemata unterschiedlich sein, z. B. wenn ein E-Katalog unterschiedlich ist, wobei die Übersetzung von einem generischen zu einem gebietsschemaspezifischen Bildset vom Viewer verarbeitet wird. In der Regel können einzelne IDs in einem generischen Satz auf lokalisierte Inhalte verweisen. Beispielsweise können die meisten Fotos eines Geräts in allen Sprachen identisch sein, mit Ausnahme des Fotos des Control Panels. IS übersetzt automatisch IDs, sodass keine Gebietsschema-spezifischen Bildsets erstellt werden müssen. |
+| Bildsets und Mediensets | Das gesamte Bildset kann für einige Gebietsschemata unterschiedlich sein, z. B. wenn ein E-Katalog unterschiedlich ist, wobei die Übersetzung von einem generischen zu einem gebietsschemaspezifischen Bildset vom Viewer verarbeitet wird. In der Regel können einzelne IDs in einem generischen Satz auf lokalisierte Inhalte verweisen. Beispielsweise können die meisten Fotos eines Geräts in allen Sprachen identisch sein, mit Ausnahme des Fotos des Control Panels. IS übersetzt automatisch IDs, sodass keine Gebietsschema-spezifischen Bildsets erstellt werden müssen. |
 
-#### Implementieren von Asset-Lokalisierung
+#### Implementieren der Asset-Lokalisierung
 
 Adobe Dynamic Media Classic und Image Serving verfügen über eine Benutzeroberfläche, die die Lokalisierung von Bildern und statischen Inhalten ermöglicht.
 
@@ -107,7 +107,7 @@ Bei der Lokalisierung fügt eine Image-Server-URL den Parameter `locale=` wie im
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Nach Erhalt des HTTP-Aufrufs durch den Image-Server wird der Parameter `locale=` durch das Feld localeMap geparst, das unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinrichtung]** > **[!UICONTROL Image-Server]** > **[!UICONTROL Lokalisierungsunterstützung]** zu finden ist.
+Nach Erhalt des HTTP-Aufrufs durch den Image-Server wird der Parameter `locale=` durch das Feld `localeMap` geparst, das unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinrichtung]** > **[!UICONTROL Image-Server]** > **[!UICONTROL Lokalisierungsunterstützung]** Gruppe.
 
 Das Feld „Gebietsschemakarte“ enthält eine Liste mit Einträgen, die durch einen senkrechten Strich (|) getrennt sind.
 
@@ -122,18 +122,18 @@ Ob ein Suffixwert oder ein Ersetzungswert angewendet wird, hängt von der Einste
 **Beispiel für ein Suffix:**
 
 | URL | localeMap-IDs | Ergebnis |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschema-Parameter de_DE wird mit dem ersten Eintrag in der localeMap abgeglichen. Der erste entsprechende Wert _DE wird dem Asset als Suffix angehängt image_DE und er wird auf dem Image-Server gesucht. Wenn er auf dem Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert „“ als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap` abgeglichen. Der erste entsprechende Wert _DE wird dem Asset als Suffix angehängt image_DE und er wird auf dem Image-Server gesucht. Wenn er auf dem Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert „“ als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
 
 **Beispiel für eine Ersetzung:**
 
-| URL | GlobalLocale- und localeMap-IDs | Ergebnis |
+| URL | `GlobalLocale` und  `localeMap` IDs | Ergebnis |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Im Ersetzungsbeispiel oben ist GlobalLocale auf main eingestellt. Der Gebietsschema-Parameter de_DE wird mit dem ersten Eintrag in der localeMap abgeglichen. Die GlobalLocale-Unterzeichenfolge wird gefunden und durch den ersten entsprechenden Wert `de` in der localeMap ersetzt: `image-de-01`. Wenn er auf dem Image-Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert ersetzt, was zu `image-main-01` führt. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Im Ersetzungsbeispiel oben ist GlobalLocale auf main eingestellt. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap` abgeglichen. Die Substring GlobalLocale wird gefunden und durch den ersten entsprechenden Wert `de` in `localeMap` ersetzt: `image-de-01`. Wenn er auf dem Image-Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert ersetzt, was zu `image-main-01` führt. |
 
 Wenn in der URL kein Gebietsschema definiert ist, verwendet der Image-Server DefaultLocale, sofern definiert, und wendet es auf die URL an.
 
-Wenn ein unbekannter oder leerer Gebietsschemaparameter mit `locale=` bereitgestellt wird, wird die localeMap auf den leeren Wert &quot;Beginnt mit&quot; gescannt. Es ist wichtig, dass ein standardmäßiges Gebietsschema für unbekannte Gebietsschemata angewendet wird.
+Wenn ein unbekannter oder leerer Gebietsschemaparameter mit `locale=` bereitgestellt wird, wird der `localeMap` auf den leeren Wert &quot;Beginnt mit&quot; gescannt. Es ist wichtig, dass ein standardmäßiges Gebietsschema für unbekannte Gebietsschemata angewendet wird.
 
 #### Über defaultImage
 
@@ -154,7 +154,7 @@ Die Gebietsschema-IDs werden den entsprechenden Suffixen zugeordnet. Wenn keine 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | locale= | Zu durchsuchende Ausgabe-IDs |
-|--- |--- |
+| --- | --- |
 | en,en_us, en_uk | myImg_E,myImg |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
@@ -167,7 +167,7 @@ Sie können unbekannte Gebietsschemas bestimmten IDs oder generischen IDs zuordn
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | locale= | Zu durchsuchende Ausgabe-IDs |
-|--- |--- |
+| --- | --- |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
 | Alle anderen | myImg_E,myImg |
@@ -180,7 +180,7 @@ Oder Sie können wie im folgenden Beispiel direkt die generische ID zuordnen:
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-##### Suchen der localeMap mit einer mehrstufigen Suche
+##### Suchen der localeMap mithilfe einer mehrstufigen Suche
 
 Häufig ist es hilfreich, Gebietsschemas zu gruppieren, z. B. nach den Regionen Europa, Naher Osten und Nordamerika, um so regionalen Standards wie Sonneneinstrahlung zu berücksichtigen. Diesen Effekt erzielen Sie mit einer mehrstufigen Suche.
 
@@ -189,14 +189,14 @@ In diesem Beispiel gehen wir davon aus, dass Sie Sammlungen für die Verwendung 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | locale= | Zu durchsuchende Ausgabe-IDs |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
 | m2 | myImg-M2, myImg-M, myImg |
 | Alle anderen | mylmg |
 
-##### Suchen der localeMap über die Suche nach bestimmten IDs
+##### Suchen der localeMap durch Suchen nach bestimmten IDs
 
 Einige Bildbenennungskonventionen unterstützen keine allgemeinen Bild-IDs. Die generischen IDs aus der Abfrage müssen einer bestimmten ID im Katalog zugeordnet werden. Es gibt jedoch Fälle, in denen die genaue spezifische ID nicht bekannt ist.
 
@@ -205,7 +205,7 @@ Anhand des ersten Beispiels können Bilder für alle Sprachen die Suffixe `_1`, 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | locale= | Zu durchsuchende Ausgabe-IDs |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Alle anderen | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ Anhand des ersten Beispiels können Bilder für alle Sprachen die Suffixe `_1`, 
 
 Auf der Seite Bild-Renderer werden Standardeinstellungen für die Bereitstellung von Bildsets von Bild-Rendering-Servern festgelegt. Einstellungen sind in diesen fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie auf der Image-Server-Seite selbst ):
 
-* **Katalogverwaltung**  - Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und die Katalogdatei interagieren. Adobe Dynamic Media Classic Render Server URL-Aufrufe werden an den Katalog gesendet, der wiederum Aufrufe zur Bereitstellung von Bildern vom Server sendet. Ändern Sie diese Einstellungen nur mithilfe eines Support-Mitarbeiters der Adobe Dynamic Media Classic.
+* **[!UICONTROL Katalogverwaltung]**  - Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und die Katalogdatei interagieren. Adobe Dynamic Media Classic Render Server URL-Aufrufe werden an den Katalog gesendet, der wiederum Aufrufe zur Bereitstellung von Bildern vom Server sendet. Ändern Sie diese Einstellungen nur mithilfe eines Support-Mitarbeiters der Adobe Dynamic Media Classic.
 
-* **Sitzungsattribute**  - Mit diesen Einstellungen werden Fehlerparameter, die URL für relative Bild-URLs und die Berechtigung zur Überlappung von Objekten festgelegt.
+* **[!UICONTROL Sitzungsattribute]**  - Mit diesen Einstellungen werden Fehlerparameter, die URL für relative Bild-URLs und die Berechtigung zur Überlappung von Objekten festgelegt.
 
-* **Standardmäßige Materialattribute**  - Mit diesen Einstellungen werden standardmäßige Auflösungs- und Scharfzeichnungseinstellungen für Bilder festgelegt.
+* **[!UICONTROL Standardmäßige Materialattribute]**  - Mit diesen Einstellungen werden standardmäßige Auflösungs- und Scharfzeichnungseinstellungen für Bilder festgelegt.
 
-* **Bildattribute für Antworten**  - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
+* **[!UICONTROL Bildattribute für Antworten]**  - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
 
-* **Farbverwaltungsattribute**  - Diese Einstellungen beziehen sich auf die Standardfarbeinstellungen von Bildern.
+* **[!UICONTROL Farbverwaltungsattribute]**  - Diese Einstellungen beziehen sich auf die Standardfarbeinstellungen von Bildern.
 
 ## Vignette {#vignette}
 

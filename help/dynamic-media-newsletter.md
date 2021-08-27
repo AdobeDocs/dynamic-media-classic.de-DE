@@ -5,7 +5,7 @@ keywords: dynamische Medien; Newsletter; Produktupdates; Tipps und Tricks; Ereig
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -61,7 +61,7 @@ In diesem archivierten One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen
 
    In dieser Ausgabe:
 
-   * Nehmen Sie an neuen Skill Builder-Webinaren teil und verwandeln Sie sich in eine Adobe Dynamic Media Classic-Expertin.
+   * Nehmen Sie an neuen Skill Builder-Webinaren teil und verwandeln Sie sich in eine Adobe von Dynamic Media Classic-Experten.
    * Hier finden Sie Dynamic Media im Adobe Summit 2020.
    * Erfahren Sie, wie Sie den Zauber des Zuschnitts von Dynamic Media verwenden.
    * Nutzen Sie ein kostenloses Audit von Adobe, um die Vorteile von Adobe Dynamic Media Classic zu optimieren.

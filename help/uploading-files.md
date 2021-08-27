@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '3863'
 ht-degree: 36%
@@ -89,7 +89,7 @@ Um mit dem Adobe Dynamic Media Classic-Programm optimale Ergebnisse zu erzielen,
 
 >[!NOTE]
 >
->Wenn Sie Bilddateien und PDF-Dateien in Adobe Dynamic Media Classic hochladen, konvertiert das System diese Quelldateien in P-TIFF-Dateien (Pyramid TIFF). Diese P-TIFFs sind die Dateien, die später auf Dynamic Media-Image-Servern veröffentlicht werden. Adobe Dynamic Media Classic verwendet das Pyramid Tiff-Dateiformat, da es verschiedene Zoom-Ratios enthält, die bei der Anzeige mit einem Dynamic Media Classic Zoom Viewer eine schnelle Zoomfunktion ermöglichen.
+>Wenn Sie Bilddateien und PDF-Dateien in Adobe Dynamic Media Classic hochladen, konvertiert das System diese Quelldateien in P-TIFF-Dateien (Pyramid TIFF). Diese P-TIFFs sind die Dateien, die später auf Dynamic Media-Image-Servern veröffentlicht werden. Adobe Dynamic Media Classic verwendet das Pyramid Tiff-Dateiformat, da es verschiedene Zoom-Ratios enthält, die bei der Anzeige mit einem Dynamic Media Classic Zoom-Viewer eine schnelle Zoomfunktion ermöglichen.
 
 ### Unterstützte statische Dateiformate {#supported-static-file-formats}
 
