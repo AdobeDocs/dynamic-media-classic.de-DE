@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -32,7 +32,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Aktualisierungen ab 7. Ma
 ## Adobe Dynamic Media Classic-Benutzerressourcen
 
 * [Monatlicher Dynamic Media-Newsletter](dynamic-media-newsletter.md)
-* [Guide: Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Guide: Best Practices-Handbuch für Scharfzeichnen von Bildern](/help/assets/s7_sharpening_images.pdf)
 * [Guide: So unterstützt Adobe Dynamic Media Classic SEO](/help/assets/s7_seo.pdf)  - Suchmaschinen ermöglichen heute die Suche nach Websites und Bildern. Adobe Dynamic Media Classic unterstützt Bemühungen, Bilder suchmaschinenfreundlich zu gestalten, sodass mehr Traffic auf die Website der Adobe Dynamic Media Classic-Benutzer geleitet wird. In diesem Handbuch in PDF erhalten Sie Hintergrundinformationen und Implementierungsempfehlungen, um dies zu erreichen.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

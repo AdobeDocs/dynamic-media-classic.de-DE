@@ -10,10 +10,10 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 45%
+source-wordcount: '661'
+ht-degree: 38%
 
 ---
 
@@ -29,13 +29,13 @@ Optionen zum Hochladen von PDF-Dateien finden Sie auf der Seite Hochladen unter 
 
 ### Verarbeitungsoptionen
 
-**Rastern**  - (Standard) Rippt die Seiten in der PDF-Datei und konvertiert Vektorgrafiken in Bitmap-Bilder. Wählen Sie diese Option, um einen eCatalog zu erstellen.
+**[!UICONTROL Rastern]**  - (Standard) Rippt die Seiten in der PDF-Datei und konvertiert Vektorgrafiken in Bitmap-Bilder. Wählen Sie diese Option, um einen eCatalog zu erstellen.
 
-**Suchbegriffe extrahieren**  - Extrahiert Wörter aus der PDF-Datei, damit die Datei in einem E-Katalog-Viewer nach Schlüsselwörtern durchsucht werden kann.
+**[!UICONTROL Suchbegriffe extrahieren]**  - Extrahiert Wörter aus der PDF-Datei, damit die Datei in einem E-Katalog-Viewer nach Schlüsselwörtern durchsucht werden kann.
 
-**Links extrahieren**  - Extrahiert Links aus den PDF-Dateien und konvertiert sie in Imagemaps, die in einem E-Katalog-Viewer verwendet werden.
+**[!UICONTROL Links extrahieren]**  - Extrahiert Links aus den PDF-Dateien und konvertiert sie in Imagemaps, die in einem E-Katalog-Viewer verwendet werden.
 
-**eCatalog mit mehrseitiger PDF automatisch erstellen**  - Erstellt automatisch einen eCatalog aus der PDF-Datei. Der E-Katalog erhält denselben Namen wie die hochgeladene PDF-Datei. (Diese Option ist nur verfügbar, wenn Sie die PDF-Datei beim Hochladen rastern.)
+**[!UICONTROL E-Katalog mit mehrseitiger PDF automatisch erstellen]**  - Erstellt automatisch einen eCatalog aus der PDF-Datei. Der E-Katalog erhält denselben Namen wie die hochgeladene PDF-Datei. (Diese Option ist nur verfügbar, wenn Sie die PDF-Datei beim Hochladen rastern.)
 
 ### Auflösung
 
@@ -45,46 +45,46 @@ Legt die Auflösungseinstellung fest. Mit dieser Einstellung wird bestimmt, wie 
 
 Wählen Sie im Menü „Farbraum“ einen Farbraum für die PDF-Datei aus. Die meisten PDF-Dateien enthalten sowohl RGB- als auch CMYK-Farbbilder. Der RGB-Farbraum eignet sich besonders gut, um die Datei online anzuzeigen.
 
-* **Automatisch erkennen**  - Behält den Farbraum der PDF-Datei bei.
+* **[!UICONTROL Automatisch erkennen]**  - Behält den Farbraum der PDF-Datei bei.
 
-* **Immer RGB**  - Konvertiert in den RGB-Farbraum.
+* **[!UICONTROL Immer RGB]**  - Konvertiert in den RGB-Farbraum.
 
-* **Immer CMYK**  - Konvertiert in den CMYK-Farbraum.
+* **[!UICONTROL Immer CMYK]**  - Konvertiert in den CMYK-Farbraum.
 
-* **Immer Graustufen**  - Konvertiert in den Graustufen-Farbraum.
+* **[!UICONTROL Immer Graustufen]**  - Konvertiert in den Graustufen-Farbraum.
 
 ### Farbprofiloptionen
 
-* **In sRGB konvertieren**  - Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
+* **[!UICONTROL In sRGB konvertieren]**  - Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
 
-* **Originalfarbraum beibehalten**  - Behält den ursprünglichen Farbraum bei.
+* **[!UICONTROL Originalfarbraum beibehalten]**  - Behält den ursprünglichen Farbraum bei.
 
-* **Benutzerdefiniert von > in**  - Öffnet Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
+* **[!UICONTROL Benutzerdefiniert von]**  >  **[!UICONTROL in]**  - Öffnet die Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
 
 Siehe auch [ICC-Profile](/help/icc-profiles.md#icc_profiles).
 
-## Beschneiden weißer Flächen in PDF-Dateien {#cropping-white-space-from-a-pdf-file}
+## Leerraum aus einer PDF-Datei beschneiden {#cropping-white-space-from-a-pdf-file}
 
 1. Um beim Hochladen einer PDF-Datei Pixel in weißen Flächen automatisch abzuschneiden, wählen Sie im Menü „Beschneiden“ die Option „Beschneiden“.
 1. Legen Sie die folgenden Optionen fest:
 
-   * **Entfernen basierend auf**  - Wählen Sie, ob das Zuschneiden auf Grundlage von Farbe oder Transparenz erfolgen soll:
+   * **[!UICONTROL Entfernen basierend auf]**  - Wählen Sie, ob das Zuschneiden auf Grundlage von Farbe oder Transparenz erfolgen soll:
 
-   * **Farbe**  - Wählen Sie die Option &quot;Farbe&quot;. Wählen Sie anschließend im Menü „Ecke“ die Ecke in der PDF-Datei aus, deren Farbe mit der Farbe der weißen Flächen, die Sie entfernen möchten, am besten übereinstimmt.
+      * **[!UICONTROL Farbe]**  - Wählen Sie die Option &quot;Farbe&quot;. Wählen Sie dann das Menü **[!UICONTROL Ecke]** aus und wählen Sie die Ecke der PDF-Datei mit der Farbe aus, die am besten der zu beschneidenden Leerraum-Farbe entspricht.
 
-   * **Transparenz**  - Wählen Sie die Option &quot;Transparenz&quot;.
+      * **[!UICONTROL Transparenz]**  - Wählen Sie die Option &quot;Transparenz&quot;.
+   * **[!UICONTROL Toleranz]**  - Ziehen Sie den Regler, um eine Toleranz zwischen 0 und 1 anzugeben.
 
-   * **Toleranz**  - Ziehen Sie den Regler, um eine Toleranz zwischen 0 und 1 anzugeben.
+   * **[!UICONTROL Beschneiden anhand der Farbe]**  - Legen Sie den Wert 0 fest, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Ecke der PDF-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-   * **Beschneiden anhand der Farbe**  - Legen Sie den Wert 0 fest, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Ecke der PDF-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+   * **[!UICONTROL Auf Transparenz basierendes Zuschneiden]**  - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
 
-   * **Auf Transparenz basierendes Zuschneiden**  - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
 
-## Beschneiden der Kanten von PDF-Seiten {#cropping-from-the-sides-of-pdf-pages}
+## Zuschneiden von den Seiten der PDF-Seiten {#cropping-from-the-sides-of-pdf-pages}
 
 Sie können die Druckmarken an den Kanten der Seiten in einer PDF-Datei beim Hochladen manuell entfernen.
 
-1. Klicken Sie im Menü Zuschneiden auf **[!UICONTROL Manuell]**.
+1. Wählen Sie im Menü Zuschneiden **[!UICONTROL Manuell]** aus.
 1. Geben Sie in die Textfelder „Oben“, „Rechts“, „Unten“ und „Links“ Pixelwerte für den Bereich ein, der am jeweiligen Bildrand abgeschnitten werden soll.
 
 Wie viel von der Seite tatsächlich abgeschnitten wird, hängt davon ab, welchen Wert Sie für die Auflösungseinstellung „Pixel/Zoll“ der PDF-Datei eingeben. Wenn Sie beispielsweise 150 (Standard) als Einstellung für die Auflösung &quot;PX/Inch&quot;eingeben und 75 Pixel von den Seiten abschneiden, wird ein halber Zoll zugeschnitten. bei 150 Pixel pro Zoll 75 Pixel entspricht einem halben Zoll.
