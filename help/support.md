@@ -8,21 +8,21 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 25%
 
 ---
 
 # Technischer Support {#support}
 
-Unternehmen jeder Größe können den für sie richtigen technischen Support erhalten. In der folgenden Tabelle werden die Angebote der Dynamic Media Classic-Kundenunterstützung beschrieben:
+Unternehmen jeder Größe können den für sie richtigen technischen Support erhalten. In der folgenden Tabelle wird die Adobe Dynamic Media Classic Customer Care beschrieben:
 
 | Technischer Support | Mitgliedschaft |
 |--- |--- |
 | Max. Anz. Fälle | Unbegrenzt. |
-| Überprüfen des Systemstatus der Adobe | [Systemstatus von Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Überprüfen des Systemstatus der Adobe | [Systemstatus von Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
 | Kann keine Antwort finden? | [Um Hilfe vom Support zu erhalten, öffnen Sie ein Ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
 | Community-Forum | [Community-Forum von Experience Managern](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA (Service Level Agreements) | [Support-Services/Geschäftsbedingungen](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
@@ -34,9 +34,9 @@ Unternehmen jeder Größe können den für sie richtigen technischen Support erh
 
 Geben Sie beim Melden von Problemen an das Team des technischen Supports bitte die folgenden Informationen an:
 
-* Unternehmensname von Dynamic Media Classic.
+* Firmenname von Adobe Dynamic Media Classic.
 * Name, Telefonnummer und E-Mail-Adresse.
-* Dynamic Media Classic-Anwendung, -Plattform und -Version.
+* Adobe Dynamic Media Classic-Anwendung, -Plattform und -Version.
 * Beschreibung des Problems; Schritte zum Reproduzieren des Problems.
 * Fehlermeldung, falls vorhanden.
 * Browsertyp und -version, falls zutreffend.

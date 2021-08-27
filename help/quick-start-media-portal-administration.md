@@ -10,16 +10,16 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 73%
 
 ---
 
 # Schnellstart: Media Portal{#quick-start-media-portal}
 
-Mit Media Portal können Unternehmen problemlos genehmigte Assets abrufen, kontrollieren und an externe Partner und Kanäle sowie interne Benutzer eines Unternehmens verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern administratorgesteuerte &quot;Ansichten&quot;in Dynamic Media Classic-Assets, mit denen sie leicht auf Assets zugreifen, sie durchsuchen, suchen, in der Vorschau ansehen und sie in vom Unternehmen genehmigte Formate exportieren können.
+Mit Media Portal können Unternehmen problemlos genehmigte Assets abrufen, kontrollieren und an externe Partner und Kanäle sowie interne Benutzer eines Unternehmens verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, mit denen sie leicht auf Assets zugreifen, sie durchsuchen, suchen, in der Vorschau ansehen und sie in vom Unternehmen genehmigte Formate exportieren können.
 
 Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Außerdem können Sie die Oberfläche von Media Portal an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe, Schriftgröße und Branding-Elemente wie Logos in der Media Portal-Benutzeroberfläche angeben.
 
@@ -45,7 +45,7 @@ Siehe [Hinzufügen und Verwalten von Media Portal-Benutzern](adding-media-portal
 
 ## 4. Verwalten von FTP-Konten
 
-Sie können über separate FTP-Konten verfügen, die mit Media Portal verknüpft sind und einem bestimmten Ordner in Ihrem Dynamic Media Classic-Konto zugeordnet sind. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
+Sie können über separate FTP-Konten verfügen, die mit Media Portal verknüpft sind und einem bestimmten Ordner in Ihrem Adobe Dynamic Media Classic-Konto zugeordnet sind. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
 
 Siehe [Verwalten von FTP-Konten](ftp-accounts.md#managing_ftp_accounts).
 

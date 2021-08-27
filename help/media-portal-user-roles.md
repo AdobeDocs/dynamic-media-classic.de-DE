@@ -1,8 +1,6 @@
 ---
 title: Media Portal-Benutzerrollen
-seo-title: Media Portal-Benutzerrollen
-description: Erfahren Sie mehr über die verschiedenen Benutzerrollen, die in Media Portal verfügbar sind.
-seo-description: Erfahren Sie mehr über die verschiedenen Benutzerrollen, die in Media Portal verfügbar sind.
+description: Erfahren Sie mehr über die verschiedenen Benutzerrollen, die in Media Portal in Adobe Dynamic Media Classic verfügbar sind.
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: admin
 content-type: reference
@@ -12,10 +10,10 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 71%
+source-wordcount: '313'
+ht-degree: 74%
 
 ---
 
@@ -23,23 +21,23 @@ ht-degree: 71%
 
 Media Portal stellt die folgenden Rollen mit jeweils unterschiedlichen Zugriffsrechten und Berechtigungen zur Verfügung. Wenn Sie einen Benutzer registrieren, weisen Sie dem Benutzer eine der folgenden Rollen zu:
 
-* **Media Portal-Administrator**  - Kann Administratoren, Mitarbeiter und Benutzer hinzufügen und entfernen. Administratoren können außerdem Zugriffsrechte für Gruppen festlegen, FTP-Konten verwalten, vom Unternehmen genehmigte Konvertierungsformate (Vorgaben) zuweisen, E-Mails an Media Portal-Benutzer versenden sowie Berichte zur Portal- und Speichernutzung einsehen.
+* **[!UICONTROL Media Portal-Administrator]**  - Kann Administratoren, Mitarbeiter und Benutzer hinzufügen und entfernen. Administratoren können außerdem Zugriffsrechte für Gruppen festlegen, FTP-Konten verwalten, vom Unternehmen genehmigte Konvertierungsformate (Vorgaben) zuweisen, E-Mails an Media Portal-Benutzer versenden sowie Berichte zur Portal- und Speichernutzung einsehen.
 
-* **Media Portal-Benutzer**  - Hat Zugriff auf Ordner und Dateien. Benutzer können nur Dateien auflisten, eine Dateivorschau anzeigen und Dateien herunterladen. Diese Rolle ist geeignet für Kanal- oder Servicepartner, die auf Ihre vom Unternehmen genehmigten Assets zugreifen müssen.
+* **[!UICONTROL Media Portal-Benutzer]**  - Hat Zugriff auf Ordner und Dateien. Benutzer können nur Dateien auflisten, eine Dateivorschau anzeigen und Dateien herunterladen. Diese Rolle ist geeignet für Kanal- oder Servicepartner, die auf Ihre vom Unternehmen genehmigten Assets zugreifen müssen.
 
-* **Media Portal-Mitarbeiter** : Kann Dateien und Metadaten in Bereichen, für die ein Administrator Berechtigungen erteilt hat, hochladen, in einer Vorschau anzeigen und durchsuchen. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
+* **[!UICONTROL Media Portal-Mitarbeiter]** : Kann Dateien und Metadaten in Bereichen, für die ein Administrator Berechtigungen erteilt hat, hochladen, in einer Vorschau anzeigen und durchsuchen. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
-* **Media Portal-Mitarbeiter-Benutzer**  - Hat Zugriff auf Ordner und Dateien. Ein Mitarbeiter-Benutzer kann Bilder und Metadaten durchsuchen, als Vorschau anzeigen, herunterladen und hochladen. Mitarbeiter-Benutzer können Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
+* **[!UICONTROL Media Portal-Mitarbeiter-Benutzer]**  - Hat Zugriff auf Ordner und Dateien. Ein Mitarbeiter-Benutzer kann Bilder und Metadaten durchsuchen, als Vorschau anzeigen, herunterladen und hochladen. Mitarbeiter-Benutzer können Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
 In dieser Tabelle sind die zulässigen Aufgaben für die einzelnen Rollen aufgelistet. Administratoren und Mitarbeiter-Benutzer können alle in dieser Tabelle aufgelisteten Aufgaben ausführen:
 
 | Aufgabe | Benutzer | Mitarbeiter | Mitarbeiter-Benutzer |
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 | Ordner und Dateien durchsuchen | X | X | X |
 | Metadaten durchsuchen | X | X | X |
 | Dateivorschau | X | X | X |
 | Dateien suchen | X | X | X |
-| Hochladen von Dateien in Dynamic Media Classic |  | X | X |
+| Hochladen von Dateien in Adobe Dynamic Media Classic |  | X | X |
 | Asset-Metadaten bearbeiten und importieren |  | X | X |
 | Ordner erstellen, umbenennen und löschen |  | X | X |
 | Asset-Metadaten exportieren | X |  | X |
@@ -47,4 +45,4 @@ In dieser Tabelle sind die zulässigen Aufgaben für die einzelnen Rollen aufgel
 | Dateien in andere Ordner verschieben |  | X | X |
 | Dateien umbenennen |  | X | X |
 | Dateien löschen |  | X | X |
-| Exportieren (Herunterladen) von Dateien aus Dynamic Media Classic | X |  | X |
+| Exportieren (Herunterladen) von Dateien aus der Adobe Dynamic Media Classic | X |  | X |

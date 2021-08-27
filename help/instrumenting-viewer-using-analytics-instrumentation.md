@@ -1,6 +1,6 @@
 ---
 title: Instrumentieren eines Viewers mit dem Adobe Analytics Instrumentation Kit
-description: Erfahren Sie, wie Sie einen Viewer mit dem Adobe Analytics Instrumentation Kit in Dynamic Media Classic instrumentieren.
+description: Erfahren Sie, wie Sie einen Viewer mit dem Adobe Analytics Instrumentation Kit in Adobe Dynamic Media Classic instrumentieren.
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 20%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 20%
 
 Sie können das Adobe Analytics Instrumentation Kit verwenden, um einen HTML5-Viewer in Adobe Analytics zu integrieren.
 
-Wenn Sie eine der vordefinierten HTML5-Viewer-Vorgaben von Dynamic Media Classic verwenden, enthalten diese bereits den gesamten Implementierungscode zum Senden von Daten an Adobe Analytics. Sie benötigen keine weitere Instrumentierung.
+Wenn Sie eine der vordefinierten HTML5-Viewer-Vorgaben der Adobe Dynamic Media Classic verwenden, enthalten diese bereits den gesamten Implementierungscode zum Senden von Daten an Adobe Analytics. Sie benötigen keine weitere Instrumentierung.
 
-## Einrichten des Adobe Analytics-Trackings über Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Einrichten des Adobe Analytics-Trackings über Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 Fügen Sie für alle HTML5-Viewer das folgende JavaScript zum HTML-Container hinzu, normalerweise im &lt;head> -Element:
 
 ```as3
-<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Dabei ist `Dynamic Media Classic Company ID` auf den Unternehmensnamen von Dynamic Media Classic festgelegt. Und `&preset` ist optional, es sei denn, der Unternehmensvorgabenname ist nicht `companypreset`. In solchen Fällen könnte es `companypreset-1, companypreset-2` sein usw. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen für den Unternehmensvorgabenwert zu ermitteln, wählen Sie **[!UICONTROL URL kopieren]** und dann den Parameter `preset=`aus, um den Unternehmensvorgabennamen zu finden.
+Dabei ist `Adobe Dynamic Media Classic Company ID` auf den Unternehmensnamen von Adobe Dynamic Media Classic festgelegt. Und `&preset` ist optional, es sei denn, der Unternehmensvorgabenname ist nicht `companypreset`. In solchen Fällen könnte es `companypreset-1, companypreset-2` sein usw. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen für den Unternehmensvorgabenwert zu ermitteln, wählen Sie **[!UICONTROL URL kopieren]** und dann den Parameter `preset=`aus, um den Unternehmensvorgabennamen zu finden.
 
 Fügen Sie nun eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Trackingcode sendet.
 

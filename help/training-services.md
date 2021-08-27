@@ -10,10 +10,10 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 52%
+source-wordcount: '162'
+ht-degree: 53%
 
 ---
 
@@ -29,12 +29,12 @@ Siehe [Adobe Training Services](https://learning.adobe.com/)
 
 ## Demos
 
-Sehen Sie sich Demonstrationen der Viewer-Funktionen von Dynamic Media Classic an.
+Sehen Sie sich Demonstrationen der Viewer-Funktionen von Adobe Dynamic Media Classic an.
 
 Siehe [Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ## Kapitel „Erste Schritte“ in der Hilfe
 
-Im Abschnitt Erste Schritte des Hilfesystems finden Sie Anweisungen für Benutzer, die neu bei Dynamic Media Classic sind. Darin werden die Grundlagen des Programms, der Navigation, des Setups, der Asset-Verwaltung und des Aufbaus von Rich Media erläutert.
+Im Abschnitt Erste Schritte des Hilfesystems finden Sie Anweisungen für Benutzer, die mit Adobe Dynamic Media Classic noch nicht vertraut sind. Darin werden die Grundlagen des Programms, der Navigation, des Setups, der Asset-Verwaltung und des Aufbaus von Rich Media erläutert.
 
 Siehe [Erste Schritte](dmc-platform-overview.md).

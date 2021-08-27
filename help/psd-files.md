@@ -10,10 +10,10 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 45%
+source-wordcount: '990'
+ht-degree: 41%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 45%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
 
-PSD (Photoshop Document Files) wird meist in Dynamic Media Classic zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie automatisch eine Dynamic Media Classic-Vorlage aus der Datei erstellen (wählen Sie im Bildschirm &quot;Hochladen&quot;die Option Vorlage erstellen aus).
+PSD (Photoshop Document Files) werden in Adobe Dynamic Media Classic meist zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie automatisch eine Adobe Dynamic Media Classic-Vorlage aus der Datei erstellen (wählen Sie im Bildschirm &quot;Hochladen&quot;die Option Vorlage erstellen aus).
 
-Dynamic Media Classic erstellt mehrere Bilder aus einer PSD-Datei mit Ebenen, wenn Sie die Datei zum Erstellen einer Vorlage verwenden. erstellt es für jede Ebene ein Bild.
+Adobe Dynamic Media Classic erstellt mehrere Bilder aus einer PSD-Datei mit Ebenen, wenn Sie die Datei zum Erstellen einer Vorlage verwenden. erstellt es für jede Ebene ein Bild.
 
 ## Optionen für das Hochladen von PSD-Dateien {#psd-upload-options}
 
@@ -47,11 +47,11 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
    * **Originalfarbraum beibehalten** : Behält den ursprünglichen Farbraum des Bildes bei.
 
-   * **Benutzerdefiniert von > in**  - Öffnet Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben. Siehe [ICC-Profile](/help/icc-profiles.md).
+   * **Benutzerdefiniert von > in**  - Öffnet Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben. Siehe [ICC-Profile](/help/icc-profiles.md).
 
 * **Photoshop-Optionen**
 
-   * **Ebenen beibehalten**  - Rippt die Ebenen in der PSD, falls vorhanden, in einzelne Assets. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Zeigen Sie sie an, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei.
+   * **Ebenen beibehalten**  - Rippt die Ebenen in der PSD, falls vorhanden, in einzelne Assets. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Sie können sie anzeigen, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei.
 
    * **Vorlage erstellen**  - Erstellt eine Vorlage aus den Ebenen in der PSD-Datei.
 
@@ -59,7 +59,7 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
    * **Ebenen auf Hintergrundgröße ausdehnen**  - Erweitert die Größe der gerippten Bildebenen auf die Größe der Hintergrundebene.
 
-   * **Ebenenbenennung**  - Ebenen in der PSD-Datei werden als separate Bilder hochgeladen. Um diese Bilder in Dynamic Media Classic zu benennen, wählen Sie eine der folgenden Optionen:
+   * **Ebenenbenennung**  - Ebenen in der PSD-Datei werden als separate Bilder hochgeladen. Um diese Bilder in Adobe Dynamic Media Classic zu benennen, wählen Sie eine der folgenden Optionen:
 
       * **Ebenenname**  - Benennt die Bilder nach ihren Ebenennamen in der PSD-Datei. Wenn eine Ebene der PSD-Originaldatei beispielsweise „Preisschild“ heißt, wird auch das zugehörige Bild „Preisschild“ genannt. Wenn es sich bei den Namen der Ebenen in der PSD-Datei jedoch um standardmäßige Photoshop-Ebenennamen handelt („Hintergrund“, „Ebene 1“, Ebene 2“ usw.), werden die Bilder nicht nach den Standardebenennamen, sondern nach den Nummern der Ebenen in der PSD-Datei benannt.
 
@@ -71,7 +71,7 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
 ## Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei {#viewing-and-editing-layers-in-a-psd-file}
 
-Wenn Sie beim Hochladen der PSD die Option Ebenen beibehalten ausgewählt haben, hat Dynamic Media Classic die einzelnen Ebenen in Assets gerippt. Sie können die zu einer PSD-Datei gehörenden Asset-Ebenen anzeigen und bearbeiten, indem Sie die Datei in der Detailansicht des Durchsuchenbedienfelds öffnen.
+Wenn Sie beim Hochladen der PSD die Option Ebenen beibehalten ausgewählt haben, wurden die einzelnen Ebenen von Adobe Dynamic Media Classic in Assets gerippt. Sie können die zu einer PSD-Datei gehörigen Asset-Ebenen anzeigen und bearbeiten, indem Sie die Datei im Durchsuchenbedienfeld in der Detailansicht öffnen.
 
 1. Doppelklicken Sie im Durchsuchenbedienfeld auf die vollständige PSD-Datei. Die Datei wird in der Detailansicht geöffnet.
 

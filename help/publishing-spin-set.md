@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Media Classic,Viewer,Rotationssets
+feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 22%
+source-wordcount: '172'
+ht-degree: 23%
 
 ---
 
 # Veröffentlichen eines Rotationssets{#publishing-a-spin-set}
 
-Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic Media-Bildservern platziert, wo sie für Ihre Website oder Anwendung verfügbar sind. Darüber hinaus aktiviert Dynamic Media Classic während des Veröffentlichungsvorgangs die URL-Zeichenfolgen für Rotationssets, die Sie für Ihre Website oder Anwendung benötigen.
+Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic Media-Bildservern platziert, wo sie für Ihre Website oder Anwendung verfügbar sind. Darüber hinaus aktiviert Adobe Dynamic Media Classic während des Veröffentlichungsvorgangs die URL-Zeichenfolgen für das Rotationsset, die Sie für Ihre Website oder Anwendung benötigen.
 
 ## Markieren eines Rotationssets zur Veröffentlichung {#marking-a-spin-set-for-publish}
 
-Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Dynamic Media Classic-Bildserver kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** links neben dem Namen klicken. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
+Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** links neben dem Namen klicken. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
 
 ## Veröffentlichen des Rotationssets {#publishing-the-spin-set}
 

@@ -10,26 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 41%
 
 ---
 
 # Kurzanleitung: Bildsätze{#quick-start-image-sets}
 
-Dynamic Media Classic-Bildsets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Bildsatz-Viewer können die Benutzer verschiedene Ansichten eines Elements anzeigen, indem sie auf eine Miniaturansicht klicken. Mit Bildsets können Sie alternative hochauflösende Ansichten eines Elements darstellen.
+Adobe Dynamic Media Classic-Bildsets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Bildsatz-Viewer können die Benutzer verschiedene Ansichten eines Elements anzeigen, indem sie auf eine Miniaturansicht klicken. Mit Bildsets können Sie alternative hochauflösende Ansichten eines Elements darstellen.
 
 Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Sie haben die Möglichkeit, geführte Zoomziele und Imagemaps im Bildsatz zu erstellen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
 
-Diese Kurzanleitung für Bildsets wurde entwickelt, um die Bildset-Techniken in Dynamic Media Classic schnell zu implementieren.
+Diese Kurzanleitung für Bildsets wurde entwickelt, um die Bildset-Techniken in Adobe Dynamic Media Classic schnell zu implementieren.
 
 ## 1. Hochladen Übergeordneter Bilder für mehrere Ansichten und Muster
 
-Laden Sie zuerst die Bilder für die Bildsätze hoch. Da Benutzer Bilder im Bildset-Viewer einzoomen können, müssen Sie diese Möglichkeit bei der Auswahl von Bildern berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
+Laden Sie zuerst die Bilder für die Bildsätze hoch. Da Benutzer Bilder im Bildset-Viewer einzoomen können, müssen Sie diese Möglichkeit bei der Auswahl von Bildern berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Upload]** , um Dateien von Ihrem Computer in einen Ordner in Dynamic Media Classic hochzuladen.
+Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Upload]** , um Dateien von Ihrem Computer in einen Ordner auf Adobe Dynamic Media Classic hochzuladen.
 
 Siehe [Vorbereiten von Bildsatz-Assets zum Hochladen](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
@@ -45,7 +45,7 @@ Siehe auch [Einbeziehen von Zoomzielen und Imagemaps in Bildsätze](/help/includ
 
 ## 3. Einrichten von Bildset-Viewer-Vorgaben nach Bedarf
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bilder“ oder Vorgaben für Bildsätze/mehrere Ansichten, um Ihre Bildsätze anzuzeigen.
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bilder“ oder Vorgaben für Bildsätze/mehrere Ansichten, um Ihre Bildsätze anzuzeigen.
 
 Sie können Viewer-Vorgaben aus dem Anzeigebereich „Anwendungseinstellungen“ hinzufügen oder bearbeiten. 
 
@@ -59,7 +59,7 @@ Siehe [Anzeigen einer Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 ## 5. Veröffentlichen eines Bildsets
 
-Beim Veröffentlichen eines Bildsets wird es auf Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
+Beim Veröffentlichen eines Bildsets wird es auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Siehe [Veröffentlichen](publishing-files.md#publishing-files).
 
 ## 6. Verknüpfen eines Bildsets mit Ihrer Website
 
-Dynamic Media Classic erstellt URL-Aufrufe für Bildsets und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
+Adobe Dynamic Media Classic erstellt URL-Aufrufe für Bildsets und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 
 Wählen Sie das Bildset aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Wählen Sie jetzt eine Bildset-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL URL kopieren]**.
 

@@ -1,6 +1,6 @@
 ---
 title: Bereitstellen von Videos auf Websites und mobilen Sites
-description: Erfahren Sie, wie Sie von Dynamic Media Classic aus Videos auf Ihren Websites und mobilen Sites bereitstellen.
+description: Erfahren Sie, wie Sie von Adobe Dynamic Media Classic aus Videos auf Ihren Websites und mobilen Sites bereitstellen.
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 37%
+source-wordcount: '1704'
+ht-degree: 35%
 
 ---
 
 # Bereitstellen von Videos auf Websites und mobilen Sites{#deploying-video-to-your-websites-and-mobile-sites}
 
-Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Serverinhalt von Dynamic Media Classic zu, einschließlich Videos. Dynamic Media Classic aktiviert diese URL-Zeichenfolgen während des Veröffentlichungsvorgangs. Um die URL-Zeichenfolge oder den Einbettungscode für Ihr Video in Ihre Webseiten, mobilen Seiten und Desktop-Anwendungen einzufügen, kopieren Sie sie aus Dynamic Media Classic.
+Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf den Serverinhalt von Adobe Dynamic Media Classic zu, einschließlich Videos. Adobe Dynamic Media Classic aktiviert diese URL-Zeichenfolgen während des Veröffentlichungsvorgangs. Um die URL-Zeichenfolge oder den Einbettungscode für Ihr Video in Ihre Webseiten, mobilen Seiten und Desktop-Applikationen zu platzieren, kopieren Sie ihn aus der Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ Websites, mobile Sites und Desktop-Anwendungen greifen mithilfe von URL-Zeichenf
 
 ## Veröffentlichen von Videos {#publishing-video}
 
-Durch das Veröffentlichen eines Videos können Dynamic Media Classic-Server Videos für Ihre Website, mobile Site oder Anwendung bereitstellen.
+Durch das Veröffentlichen eines Videos können Adobe Dynamic Media Classic-Server Videos für Ihre Website, mobile Site oder Anwendung bereitstellen.
 
 Es gibt zwei unterschiedliche Methoden zum Veröffentlichen von Video:
 
-* **Videos sofort beim Hochladen automatisch veröffentlichen** - Im Rahmen des Video-Upload-Prozesses kann Dynamic Media Classic Videos automatisch veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
+* **Videos sofort beim Hochladen automatisch veröffentlichen** - Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic automatisch Videos veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
 
 * **Videos nach dem Hochladen manuell veröffentlichen** - Wenn Sie Videos nach dem Hochladen nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
 
-Nach der Veröffentlichung von Videos aktiviert Dynamic Media Classic die URL-Zeichenfolgen für Ihre HTML-Seite oder Ihren Anwendungscode.
+Nach der Veröffentlichung von Videos aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen für Ihre HTML-Seite oder Ihren Anwendungscode.
 
 **So Veröffentlichen Sie Video:**
 
@@ -107,7 +107,7 @@ Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](dep
 
 ### Implementieren von Einbettungscode für die Verwendung von HTML5-Videos mit MP4-Video-Assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Wenn Sie den HTML5-Videoplayer von Dynamic Media Classic nicht verwenden, stattdessen aber das native HTML5 `<video>`-Tag mit MP4-Video-Assets verwenden möchten, können Sie das folgende Einbettungscode-Beispiel verwenden:
+Wenn Sie nicht den Adobe Dynamic Media Classic HTML5-Videoplayer, sondern stattdessen das native HTML5 `<video>`-Tag mit MP4-Video-Assets verwenden möchten, können Sie das folgende Einbettungscode-Beispiel verwenden:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,11 +131,11 @@ Wenn Sie den HTML5-Videoplayer von Dynamic Media Classic nicht verwenden, stattd
 
 ## Bereitstellen von Videos mit einem Video-Player eines Drittanbieters {#deploying-video-using-a-third-party-video-player}
 
-Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Video-Viewers von Dynamic Media Classic verwenden, erhalten Sie die direkte Video-URL, die für das HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
+Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Video-Viewers der Adobe Dynamic Media Classic verwenden, erhalten Sie die direkte Video-URL, die für HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
 
 **So stellen Sie ein Video mit einem Video-Player eines Drittanbieters bereit:**
 
-1. Navigieren Sie in Dynamic Media Classic auf der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
+1. Navigieren Sie in Adobe Dynamic Media Classic auf der Symbolleiste für globale Navigation zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
 1. Abhängig vom URL-Typ, die Sie verwenden möchten, führen Sie einen der folgenden Schritte aus:
 
 * So generieren Sie eine direkte HLS-Streaming-Video-URL (Multi-Bitrate)
@@ -165,13 +165,13 @@ Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten 
 
 ## Arbeiten mit Videominiaturen {#working-with-video-thumbnails}
 
-Dynamic Media Classic generiert Miniaturansichten für kodierte Videos und vorkodierte Videos. Videominiaturen können wie alle anderen Bild-Assets verwendet werden. Darüber hinaus können Sie URLs für die von Dynamic Media Classic generierten Videominiaturen abrufen und diese URLs außerhalb von Dynamic Media Classic bereitstellen. Beispielsweise können Sie die Miniaturansichten in Suchergebnissen, relevanten Videolisten und Videowiedergabelisten auf einer Website bereitstellen.
+Adobe Dynamic Media Classic generiert Miniaturansichten für kodierte Videos und vorkodierte Videos. Videominiaturen können wie alle anderen Bild-Assets verwendet werden. Darüber hinaus können Sie URLs für die Videominiaturen abrufen, die von Adobe Dynamic Media Classic generiert werden, und diese URLs außerhalb von Adobe Dynamic Media Classic bereitstellen. Beispielsweise können Sie die Miniaturansichten in Suchergebnissen, relevanten Videolisten und Videowiedergabelisten auf einer Website bereitstellen.
 
 Miniaturansichten werden basierend auf dem ersten heterogenen Frame (d. h. kein vollständig schwarzer oder vollständig weißer Frame usw.) des Videos generiert.
 
 ### Abrufen von URLs für Videominiaturen {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic generiert während des Upload-Prozesses automatisch Videominiaturen. Die Miniaturansichten werden im Durchsuchenbedienfeld in der Listen- und Rasteransicht angezeigt.
+Adobe Dynamic Media Classic generiert während des Upload-Prozesses automatisch Videominiaturen. Die Miniaturansichten werden im Bedienfeld &quot;Durchsuchen&quot;in der Listen- und Rasteransicht angezeigt.
 
 Führen Sie zum Erstellen von URLs für Videominiaturen einen Veröffentlichungsvorgang durch.
 
@@ -181,7 +181,7 @@ Nach der Veröffentlichung können Sie Videominiatur-URLs in der Detailansicht i
 
 ### Ändern von Standbildern in Video-Viewern {#modifying-poster-frames-in-video-viewers}
 
-Das *Standbild* ist das erste Bild, das in Video-Viewern angezeigt wird, bevor die Wiedergabe beginnt. Dynamic Media Classic verwendet Videominiaturen als Posterrahmen.
+Das *Standbild* ist das erste Bild, das in Video-Viewern angezeigt wird, bevor die Wiedergabe beginnt. Adobe Dynamic Media Classic verwendet Videominiaturen als Posterrahmen.
 
 Sie können auch Bildmodifikatoren auf das Standbild anwenden. Sie können das Standbild beispielsweise beschneiden oder transparent machen. Öffnen Sie zum Bearbeiten des Standbilds den Anzeigebereich „Konfiguration“ des Video-Viewers und geben Sie unter „Standbildmodifikatoren“ Modifikatoren ein. 
 

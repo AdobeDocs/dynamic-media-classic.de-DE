@@ -1,6 +1,6 @@
 ---
 title: Erstellen von eCatalog-Imagemaps
-description: Erfahren Sie, wie Sie eCatalog-Imagemaps in Dynamic Media Classic erstellen.
+description: Erfahren Sie, wie Sie eCatalog-Imagemaps in Adobe Dynamic Media Classic erstellen.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 
    * **Rechteckige Karte**  - Wählen Sie das Rechteck-Bildzuordnungstool aus und ziehen Sie auf die Seite, um das Rechteck zu erstellen.
 
-   * **Polygonale Landkarte**  - Wählen Sie das Polygon-Imagemap-Tool aus und wählen Sie dann so oft wie nötig um den Bildbereich herum aus. Wie Sie auswählen, zeichnet Dynamic Media Classic die Ränder der Imagemap.
+   * **Polygonale Landkarte**  - Wählen Sie das Polygon-Imagemap-Tool aus und wählen Sie dann so oft wie nötig um den Bildbereich herum aus. Wie Sie auswählen, zeichnet Adobe Dynamic Media Classic die Ränder der Imagemap.
 
-      Nachdem Sie eine Imagemap gezeichnet haben, weist Dynamic Media Classic ihr einen Namen in der Imagemap-Liste zu. Um den Namen zu bilden, hängt Dynamic Media Classic eine sequenzielle Nummer an den Namen der eCatalog-Seite an, auf der Sie arbeiten.
+      Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Imagemap-Liste zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der eCatalog-Seite an, auf der Sie arbeiten.
 
 1. (Optional) In der Liste &quot;Imagemap&quot;können Sie in der Spalte [!UICONTROL Name] einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
 1. Sie können Viewer eine neue Webseite öffnen lassen, wenn sie die Imagemap auswählen. Geben Sie im Imagemap-Liste-Bedienfeld in der Spalte „URL“ die URL der Webseite ein.
@@ -131,7 +131,7 @@ Führen Sie im Anzeigebereich mit der Imagemap-Zusammenfassung die folgenden Sch
 
 ## Kopieren von Imagemaps zwischen E-Katalogen {#copying-image-maps-between-ecatalogs}
 
-Sie können alle Imagemaps in einem E-Katalog in einen anderen E-Katalog kopieren. Das Kopieren der Imagemaps auf diese Weise ist ein praktisches Verfahren, um Imagemaps zwischen fremdsprachigen Versionen des gleichen E-Katalogs zu kopieren. Damit das Kopieren erfolgreich ist, empfiehlt Dynamic Media Classic das Kopieren zwischen E-Katalogen mit derselben Anzahl von Seiten und Bildern.
+Sie können alle Imagemaps in einem E-Katalog in einen anderen E-Katalog kopieren. Das Kopieren der Imagemaps auf diese Weise ist ein praktisches Verfahren, um Imagemaps zwischen fremdsprachigen Versionen des gleichen E-Katalogs zu kopieren. Damit das Kopieren erfolgreich ist, empfiehlt Adobe Adobe Dynamic Media Classic das Kopieren zwischen E-Katalogen mit derselben Seitenzahl und denselben Bildern.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Gehen Sie wie folgt vor, um alle Imagemaps in einem eCatalog in einen anderen eC
 1. Wählen Sie auf der Registerkarte Seiten ordnen die Option **[!UICONTROL Maps kopieren]**.
 1. Wählen Sie im Dialogfeld &quot;Select Asset&quot;den E-Katalog aus, in den Sie die Imagemaps kopieren möchten, und klicken Sie dann auf **[!UICONTROL Select]**.
 
-Dynamic Media Classic zeigt eine Warnmeldung an, wenn der Ziel-eCatalog (der E-Katalog, in den Sie Imagemaps kopieren) eine andere Anzahl von Seiten oder Bildern mit einer anderen Größe aufweist. Wählen Sie **[!UICONTROL Weiter]** aus, um die Imagemaps trotz der Warnung zu kopieren.
+Adobe Dynamic Media Classic zeigt eine Warnmeldung an, wenn der Ziel-eCatalog (der E-Katalog, in den Sie Imagemaps kopieren) eine andere Anzahl von Seiten oder Bildern hat, die eine andere Größe aufweisen. Wählen Sie **[!UICONTROL Weiter]** aus, um die Imagemaps trotz der Warnung zu kopieren.

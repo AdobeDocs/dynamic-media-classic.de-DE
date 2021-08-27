@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines Mustersets
-description: Erfahren Sie, wie Sie in Dynamic Media Classic ein Musterset erstellen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic ein Musterset erstellen.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 61%
 
 ---

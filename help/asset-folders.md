@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit Asset-Ordnern
-description: Erfahren Sie, wie Sie mit Asset-Ordnern in Dynamic Media Classic arbeiten.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic mit Asset-Ordnern arbeiten.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '451'
 ht-degree: 39%
 
 ---
 
 # Arbeiten mit Asset-Ordnern{#working-with-asset-folders}
 
-Datei-Assets in Dynamic Media Classic werden in Ordnern aufbewahrt. In der Asset-Bibliothek werden diese Ordner in alphabetischer Reihenfolge aufgeführt. Bevor Sie Dateien von Ihrem Computer oder Netzwerk in Dynamic Media Classic hochladen, müssen Sie einen Ordner zum Speichern der Dateien benennen. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
+Datei-Assets in der Adobe Dynamic Media Classic werden in Ordnern aufbewahrt. In der Asset-Bibliothek werden diese Ordner in alphabetischer Reihenfolge aufgeführt. Bevor Sie Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochladen, müssen Sie einen Ordner zum Speichern der Dateien benennen. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
 
-Stellen Sie vor dem Hochladen von Dateien eine Ordnerstruktur und -organisation zum Speichern Ihrer Dateien in Dynamic Media Classic ein.
+Stellen Sie vor dem Hochladen von Dateien eine Ordnerstruktur und -organisation zum Speichern Ihrer Dateien in Adobe Dynamic Media Classic ein.
 
 ## Anzeigen, Verschieben, Ausblenden und Öffnen von Ordnern {#displaying-moving-hiding-and-opening-folders}
 
@@ -47,7 +47,7 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
    >[!NOTE]
    >
-   >Sie können auch Ordner in Dynamic Media Classic erstellen, wenn Sie Dateien über FTP hochladen. Wenn Sie beim Hochladen über FTP die Option **[!UICONTROL Unterordner einschließen]** auswählen, wird die Ordnerstruktur auf Ihrem Computer im System repliziert. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
+   >Sie können Ordner auch in Adobe Dynamic Media Classic erstellen, wenn Sie Dateien über FTP hochladen. Wenn Sie beim Hochladen über FTP die Option **[!UICONTROL Unterordner einschließen]** auswählen, wird die Ordnerstruktur auf Ihrem Computer im System repliziert. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
 
 ## Ordner löschen und umbenennen {#deleting-and-renaming-folders}
 
@@ -59,4 +59,4 @@ Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und
 
 >[!NOTE]
 >
->Sie können keine Ordner oder Assets kopieren, da dadurch in Dynamic Media Classic doppelte Ordner und Assets erstellt werden und Duplikate nicht zulässig sind.
+>Sie können keine Ordner oder Assets kopieren, da dadurch in Adobe Dynamic Media Classic doppelte Ordner und Assets erstellt werden und Duplikate nicht zulässig sind.

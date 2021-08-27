@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 55%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 Das Optimieren der Bildqualität kann ein sehr zeitaufwendiger Prozess sein, da viele Faktoren dazu beitragen, akzeptable Ergebnisse zu erzielen. Das Ergebnis ist teilweise subjektiv, da jede Person die Bildqualität unterschiedlich wahrnimmt. Strukturiertes Experimentieren ist der Schlüssel zum Erfolg.
 
-Dynamic Media Classic umfasst mehr als 100 Image Serving-Befehle zum Optimieren und Optimieren von Bildern und zum Rendern von Ergebnissen. Die folgenden Richtlinien sollen Ihnen dabei helfen, den Vorgang zu optimieren und die gewünschten Ergebnisse schnell mit nur einigen wichtigen Befehle und empfohlenen Verfahren zu erzielen.
+Adobe Dynamic Media Classic umfasst mehr als 100 Image Serving-Befehle zum Optimieren und Optimieren von Bildern und zum Rendern von Ergebnissen. Die folgenden Richtlinien sollen Ihnen dabei helfen, den Vorgang zu optimieren und die gewünschten Ergebnisse schnell mit nur einigen wichtigen Befehle und empfohlenen Verfahren zu erzielen.
 
 Siehe auch [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
@@ -45,13 +45,13 @@ Verwenden Sie als Best Practice für die Bildgröße `&wid=<value>&hei=<value>&r
 
 ## Empfohlene Verfahren für das Scharfzeichnen von Bildern {#best-practices-for-image-sharpening}
 
-Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bildern für Ihre Website. Hier werden auch die meisten Fehler begangen. Nehmen Sie sich die Zeit, um mehr über die Funktionsweise von Scharfzeichnen und Unschärfemaske in Dynamic Media Classic zu erfahren, indem Sie auf die folgenden hilfreichen Ressourcen verweisen:
+Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bildern für Ihre Website. Hier werden auch die meisten Fehler begangen. Nehmen Sie sich die Zeit, um mehr über die Funktionsweise von Scharfzeichnen und Unschärfemaske in Adobe Dynamic Media Classic zu erfahren, indem Sie auf die folgenden hilfreichen Ressourcen verweisen:
 
 Whitepaper zu Best Practices [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und Image-Server](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Mit Dynamic Media Classic können Sie Bilder bei der Aufnahme, bei der Bereitstellung oder beidem scharfzeichnen. In der Regel werden Bilder jedoch nur mit der einen oder der anderen Methode scharfgezeichnet, jedoch nicht mit beiden. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
+Mit Adobe Dynamic Media Classic können Sie Bilder bei der Aufnahme, bei der Bereitstellung oder beidem scharfzeichnen. In der Regel werden Bilder jedoch nur mit der einen oder der anderen Methode scharfgezeichnet, jedoch nicht mit beiden. Das Scharfzeichnen von Bildern bei der Auslieferung, auf einer URL, bietet in der Regel die besten Ergebnisse.
 
 Es gibt zwei Methoden zum Scharfzeichnen:
 
@@ -71,7 +71,7 @@ Es gibt zwei Methoden zum Scharfzeichnen:
 
          Weitere Informationen dazu, wie Sie diese drei Parameter festlegen, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image-Server](/help/assets/s7_sharpening_images.pdf).
 
-      * Mit Dynamic Media Classic können Sie auch einen vierten Parameter steuern: monochrome ( `0,1`). Dieser Parameter stellt fest, ob die Unschärfemaske unter Verwendung des Werts `0` separat auf jede Farbkomponente oder unter Verwendung des Werts `1` auf die Gesamthelligkeit/Intensität angewendet wurde.
+      * Mit Adobe Dynamic Media Classic können Sie auch einen vierten Parameter steuern: monochrome ( `0,1`). Dieser Parameter stellt fest, ob die Unschärfemaske unter Verwendung des Werts `0` separat auf jede Farbkomponente oder unter Verwendung des Werts `1` auf die Gesamthelligkeit/Intensität angewendet wurde.
 
 Wir empfehlen, mit dem Parameter „Radius“ der Unschärfemaske zu beginnen. Sie können beispielsweise mit den folgenden Radius-Einstellungen beginnen:
 
@@ -120,6 +120,6 @@ Wenn die gewünschten Ergebnisse für das Scharfzeichnen noch nicht erreicht wur
 
 Beim Experimentieren sind die folgenden allgemeinen Vorschläge zur Optimierung Ihres Workflows hilfreich:
 
-* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt über eine Dynamic Media Classic-URL oder über die Bildanpassungsfunktion von Dynamic Media Classic. Letztere bietet eine Echtzeitvorschau für Anpassungsvorgänge.
+* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt auf einer Adobe Dynamic Media Classic-URL oder mithilfe der Bildanpassungsfunktion von Adobe Dynamic Media Classic. Letztere bietet eine Echtzeitvorschau für Anpassungsvorgänge.
 * Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. Eine Bildvorgabe besteht im Wesentlichen aus URL-Befehlsmakros mit benutzerdefinierten Vorgabenamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabenname in einem URL-Pfad ruft diese Vorgaben auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
-* Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten, die Bildqualität anzupassen, z. B. das Anwenden von Bild-Scharfzeichnung bei der Aufnahme. Für erweiterte Anwendungsfälle, in denen eine weitere Optimierung und Optimierung der gerenderten Ergebnisse eine Option ist, kann Adobe Professional Services Ihnen mit benutzerdefinierten Einblicken und Best Practices helfen.
+* Adobe Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zur Abstimmung der Bildqualität, z. B. das Anwenden von Bildschärfe bei der Aufnahme. Für erweiterte Anwendungsfälle, in denen eine weitere Optimierung und Optimierung der gerenderten Ergebnisse eine Option ist, kann Adobe Professional Services Ihnen mit benutzerdefinierten Einblicken und Best Practices helfen.

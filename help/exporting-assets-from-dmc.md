@@ -1,6 +1,6 @@
 ---
-title: Exportieren von Assets aus Dynamic Media Classic
-description: Erfahren Sie, wie Sie Assets aus Dynamic Media Classic exportieren.
+title: Exportieren von Assets aus Adobe Dynamic Media Classic
+description: Erfahren Sie, wie Sie Assets aus Adobe Dynamic Media Classic exportieren.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 52%
 
 ---
 
-# Exportieren von Assets aus Dynamic Media Classic{#exporting-assets-from-dmc}
+# Exportieren von Assets aus Adobe Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Sie können die in Dynamic Media Classic bearbeiteten Assets auf einem lokalen Netzlaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
+Sie können die in Adobe Dynamic Media Classic bearbeiteten Assets auf einem lokalen Netzlaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
 
 Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Außerdem sind maximal 500 Assets pro Exportauftrag zulässig.
 
-Dynamic Media Classic speichert einen Datensatz mit Exportvorgängen im Bildschirm &quot;Aufträge&quot;.
+Adobe Dynamic Media Classic speichert im Bildschirm &quot;Aufträge&quot;einen Datensatz mit Exportvorgängen.
 
-**So exportieren Sie Assets aus Dynamic Media Classic:**
+**So exportieren Sie Assets aus Adobe Dynamic Media Classic:**
 
 1. Wählen Sie die Assets aus, die Sie exportieren möchten, und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Export]**.
 1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **[!UICONTROL „Bildoptionen“]** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):

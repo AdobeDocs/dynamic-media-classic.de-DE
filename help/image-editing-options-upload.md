@@ -1,6 +1,6 @@
 ---
 title: Bildoptimierungsoptionen beim Hochladen
-description: Erfahren Sie mehr über die Bildoptimierungsoptionen, die zum Zeitpunkt des Uploads in Dynamic Media Classic verfügbar sind.
+description: Erfahren Sie mehr über die Bildoptimierungsoptionen, die zum Zeitpunkt des Uploads in Adobe Dynamic Media Classic verfügbar sind.
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 54%
 
 ---
@@ -58,7 +58,7 @@ Um einen Farbraum für das Bild auszuwählen, wählen Sie eine Farbprofil -Optio
 
 * **[!UICONTROL Originalfarbraum beibehalten]**  - Behält den ursprünglichen Farbraum bei.
 
-* **[!UICONTROL Benutzerdefiniert von]**  >  **[!UICONTROL in]**  - Öffnet die Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben.
+* **[!UICONTROL Benutzerdefiniert von]**  >  **[!UICONTROL in]**  - Öffnet die Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
 
 Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
@@ -76,7 +76,7 @@ Wählen Sie unter „Unschärfemaske &quot; die gewünschten Optionen aus. Die z
 
 | Optionen für „Unschärfemaske“ | Beschreibung |
 | --- | --- |
-| Betrag | Gibt den Kontrastgrad an, der auf die Pixel an den Rändern angewendet wird. <br><br>Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Der Hauptunterschied zwischen den Zahlenwerten von Unschärfemaske in Dynamic Media Classic und den Zahlenwerten in Adobe Photoshop besteht darin, dass Photoshop über einen Mengenbereich von 1 % bis 500 % verfügt. In Dynamic Media Classic liegt der Wertebereich zwischen 0,0 und 5,0. Ein Wert von 5,0 in Dynamic Media Classic entspricht ungefähr 500 % in Photoshop. Ein Wert von 0,9 entspricht 90 % usw. |
+| Betrag | Gibt den Kontrastgrad an, der auf die Pixel an den Rändern angewendet wird. <br><br>Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Der Hauptunterschied zwischen den Zahlenwerten von Unschärfemaske in Adobe Dynamic Media Classic und den in Adobe Photoshop angegebenen Zahlenwerten besteht darin, dass Photoshop einen Mengenbereich von 1 % bis 500 % aufweist. In Adobe Dynamic Media Classic liegt der Wertebereich zwischen 0,0 und 5,0. In Adobe Dynamic Media Classic beträgt der Wert 5,0 % und in Photoshop etwa 500 %. Ein Wert von 0,9 entspricht 90 % usw. |
 | Radius | Diese Option steuert den Radius des Effekts. <br><br>Der Wertebereich beträgt 0 bis 250. Der Effekt wird auf allen Pixeln im Bild ausgeführt und strahlt in alle Richtungen aus. Der Radius wird in Pixel angegeben. Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein Bild mit 2000 x 2000 Pixel und ein Bild mit 500 x 500 Pixel zu erhalten, legen Sie einen Radius von zwei Pixel auf dem Bild mit 2000 x 2000 Pixel fest. Legen Sie dann einen Radius-Wert von einem Pixel auf dem 500 x 500 Pixelbild fest. Ein größerer Wert wird entsprechend für ein Bild mit mehr Pixeln verwendet.  |
 | Schwelle | Gibt den Kontrastbereich an, der beim Anwenden des Filters „Unschärfemaske“ ignoriert werden soll. Dieser Effekt ist wichtig, damit bei Verwendung dieses Filters kein Bildrauschen entsteht. Der Schwellenwert verwendet einen Wert von 0 bis 255, was für die Anzahl der Helligkeitsschritte in einem Graustufenbild steht. 0=schwarz, 128=50 % grau und 255=weiß. <br><br>Beispiel: Ein Schwellenwert von 12 ignoriert leichte Variationen der Hauttonhelligkeit, um kein Rauschen hinzuzufügen, fügt aber trotzdem einen Kantenkontrast zu kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) hinzu. <br><br>Wenn Sie z. B. ein Foto von jemandes Gesicht haben, wirkt sich die Unschärfemaske auf die kontrastreichen Teile des Bildes aus. Zum Beispiel, wo Wimpern und Haut treffen, um einen offensichtlichen Kontrastbereich zu schaffen, und die glatte Haut selbst. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln. Dies wiederum erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert)<br><br>Um dieses Problem zu vermeiden, verwenden Sie einen Schwellenwert, bei dem der Filter Pixel ignoriert, die den Kontrast nicht drastisch ändern, wie z. B. glatte Haut. <br><br>Achten Sie in der weiter oben gezeigten Reißverschlussgrafik auf die Textur neben dem Reißverschluss. Hier ist Bildrauschen erkennbar, weil die Schwellenwerte zu niedrig waren, um das Bildrauschen zu unterdrücken. |
 | Monochrom | Wählen Sie diese Option, um die „Umschärfemaske“ auf die Gesamthelligkeit (Intensität) des Bildes anzuwenden.<br><br>Deaktivieren Sie diese Option, um die „Unschärfemaske“ separat für jede Farbkomponente anzuwenden. |

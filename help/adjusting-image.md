@@ -1,6 +1,6 @@
 ---
 title: Bilder anpassen
-description: Erfahren Sie, wie Sie ein Bild in Dynamic Media Classic anpassen.
+description: Erfahren Sie, wie Sie ein Bild in Adobe Dynamic Media Classic anpassen.
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '565'
 ht-degree: 58%
 
 ---
 
 # Bilder anpassen{#adjusting-an-image}
 
-Dynamic Media Classic bietet verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bildes. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
+Adobe Dynamic Media Classic bietet verschiedene Befehle zum Anpassen des Erscheinungsbilds eines Bildes. Sie können ein Bild spiegeln, drehen, weichzeichnen, färben und dessen Farbbalance ändern. Während Sie mit diesen Befehlen experimentieren, können Sie deren Auswirkungen auf die Darstellung des bearbeiteten Bilds verfolgen.
 
 Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_alias_for_an_image).
 

@@ -7,29 +7,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Asset Management,Metadaten
+feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 48%
+source-wordcount: '2268'
+ht-degree: 47%
 
 ---
 
 # Anzeigen, Hinzufügen und Exportieren von Metadaten{#viewing-adding-and-exporting-metadata}
 
-Sie können Informationen speichern, die speziell für die Dateien gelten, mit denen Sie in Dynamic Media Classic arbeiten. Diese Informationen werden als *Metadaten* bezeichnet. Sie können Metadaten in Dynamic Media Classic zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
+Sie können Informationen speichern, die speziell für die Dateien gelten, mit denen Sie in Adobe Dynamic Media Classic arbeiten. Diese Informationen werden als *Metadaten* bezeichnet. Sie können Metadaten in Adobe Dynamic Media Classic zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
 
-Metadaten werden in der Detailansicht zusammen mit von Dynamic Media Classic generierten Informationen wie dem Erstellungsdatum der Datei, dem Veröffentlichungsdatum und Schlüsselwörtern angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie dann das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
+Metadaten werden in der Detailansicht zusammen mit von Adobe Dynamic Media Classic generierten Informationen wie dem Erstellungsdatum der Datei, dem Veröffentlichungsdatum und Schlüsselwörtern angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie dann das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
 
-Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Dynamic Media Classic sie automatisch mit der Datei hoch. Sie können Metadaten in Quell-Assets in Adobe Photoshop, InDesign, Illustrator und andere Anwendungen einbetten. Dynamic Media Classic erkennt diese Metadaten. Sie können in der Detailansicht über das Metadatenbedienfeld auch einzelnen Dateien Metadaten hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
+Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Adobe Dynamic Media Classic sie automatisch mit der Datei hoch. Sie können Metadaten in Quell-Assets in Adobe Photoshop, InDesign, Illustrator und andere Anwendungen einbetten. Adobe Dynamic Media Classic erkennt diese Metadaten. Sie können auch einzelnen Dateien Metadaten im Metadatenbedienfeld in der Detailansicht hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
 
 Weitere Informationen zu eingebetteten Metadaten finden Sie unter [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Anzeigen von Metadaten {#view-metadata}
 
-Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailansicht und tippen Sie auf das Metadatenbedienfeld. Um einen Satz von Metadatenfeldern auszuwählen, wählen Sie eine Option im Menü Metadatenansicht . Dynamic Media Classic bietet diese Metadaten-Ansichten:
+Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailansicht und tippen Sie auf das Metadatenbedienfeld. Um einen Satz von Metadatenfeldern auszuwählen, wählen Sie eine Option im Menü Metadatenansicht . Adobe Dynamic Media Classic bietet diese Metadaten-Ansichten:
 
 * **Kompakte Ansicht**  - Eine einfache Liste von Werten.
 
@@ -43,7 +43,7 @@ Informationen zum Erstellen von Metadaten-Ansichten finden Sie unter [Metadaten-
 
 ## Manuelles Eingeben von Metadaten für ein Asset {#manually-enter-metadata-for-an-asset}
 
-1. Zeigen Sie das Asset in der Detailansicht an.
+1. Öffnen Sie das Asset in der Detailansicht.
 1. Öffnen Sie das Metadatenbedienfeld und führen Sie einen oder beide der folgenden Schritte aus:
 
    * Wählen Sie die Metadatenansicht aus, um festzustellen, welche Metadatenfelder im Bedienfeld angezeigt werden.
@@ -72,7 +72,7 @@ Wenn Sie während dieser Sitzung Suchbegriffe zu anderen Dateien hinzugefügt ha
 
 >[!NOTE]
 >
->Sie können Dateien beim Hochladen in Dynamic Media Classic Suchbegriffe hinzufügen. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Zusätzliche Metadaten]** und geben Sie Suchbegriffe ein.
+>Sie können Dateien beim Hochladen in Adobe Dynamic Media Classic Suchbegriffe hinzufügen. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Zusätzliche Metadaten]** und geben Sie Suchbegriffe ein.
 >Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
 ## Importieren von Metadaten {#import-metadata}
@@ -81,7 +81,7 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 
 >[!NOTE]
 >
->Sie können eine Vorlage für die Eingabe von Metadaten erstellen, damit sie ordnungsgemäß in Dynamic Media Classic importiert werden können. Nach dem Erstellen der Vorlage können Sie sie zum Eingeben der Metadaten verwenden.
+>Sie können eine Vorlage für die Eingabe von Metadaten erstellen, damit sie ordnungsgemäß in Adobe Dynamic Media Classic importiert werden können. Nach dem Erstellen der Vorlage können Sie sie zum Eingeben der Metadaten verwenden.
 >Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Weitere Informationen zu standardisierten Eigenschaften finden Sie unter [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
@@ -135,9 +135,9 @@ Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Hochla
 
 ## Stapel-Umbenennung von IDs mit Metadaten {#batch-rename-ids-using-metadata}
 
-Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder einer XML-Datei importiert wurden, können Sie Dynamic Media Classic-IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Es spielt keine Rolle, ob Bilder im Durchsuchenbedienfeld ausgewählt sind.
+Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder XML-Datei importiert wurden, können Sie die Adobe Dynamic Media Classic IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Es spielt keine Rolle, ob Bilder im Durchsuchenbedienfeld ausgewählt sind.
 
-Um die Dynamic Media Classic-ID eines Bildes umzubenennen, fügen Sie der tabulatorgetrennten Datei eine Spalte mit der Bezeichnung *newipsid* hinzu oder fügen Sie den XML-Daten ein Feld mit der Bezeichnung `new_vc_objectname` hinzu.
+Um die Adobe Dynamic Media Classic ID eines Bildes umzubenennen, fügen Sie der tabulatorgetrennten Datei eine Spalte mit der Bezeichnung *newipsid* hinzu oder fügen Sie den XML-Daten ein Feld mit der Bezeichnung `new_vc_objectname` hinzu.
 
 Beispiel:
 
@@ -150,7 +150,7 @@ Das Auftragsprotokoll für den Metadatenauftrag zeigt an, welche IDs erfolgreich
 
 ## Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic bietet einen Befehl zum Erstellen einer Vorlage für die Aufzeichnung von Metadaten. Die Verwendung der Vorlage stellt sicher, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Dynamic Media Classic hochgeladen werden können. Gehen Sie wie folgt vor, um eine Vorlage für die Aufzeichnung und den Import von Metadaten in Dynamic Media Classic zu erstellen:
+Adobe Dynamic Media Classic bietet einen Befehl zum Erstellen einer Vorlage für die Aufzeichnung von Metadaten. Die Verwendung der Vorlage stellt sicher, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Adobe Dynamic Media Classic hochgeladen werden können. Gehen Sie wie folgt vor, um eine Vorlage für die Aufzeichnung und den Import von Metadaten in Adobe Dynamic Media Classic zu erstellen:
 
 1. Wählen Sie Bildassets mit Metadatenfeldern aus, die Sie in der Vorlage verwenden möchten.
 1. Wählen Sie **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
@@ -181,15 +181,15 @@ Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdef
 
 >[!NOTE]
 >
->Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Dynamic Media Classic- und Metadaten-Server-Funktionen sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, werden die Metadaten durch die Erstellung des entsprechenden Schemas in Dynamic Media Classic und dem Metadatenserver verwendet.
+>Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Adobe Dynamic Media Classic- und Metadaten-Server-Funktionen sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, werden die Metadaten durch die Erstellung des entsprechenden Schemas in Adobe Dynamic Media Classic und dem Metadatenserver verwendet.
 
-Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefiniertes Unternehmensschema in Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
+Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefiniertes Unternehmensschema in Adobe Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
 
 * **Name**  - UI-Name für das Schema. Wird verwendet, um die Eigenschaften in den Metadaten-Ansichten und bei der erweiterten Suche zu identifizieren. Vergleichbar mit XMP-Abschnitten wie Basic, IPTC, PDF.
 
-* **Präfix**  - Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Benutzeroberfläche von Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Das Präfix wird verwendet, um Metadaten-Felder bei Metadaten-Suchanfragen beim Metadatenserver oder beim Importieren eindeutig zu identifizieren.
+* **Präfix**  - Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Das Präfix wird verwendet, um Metadaten-Felder bei Metadaten-Suchanfragen beim Metadatenserver oder beim Importieren eindeutig zu identifizieren.
 
-* **Namespace**  - Technische eindeutige Kennung für das Schema, normalerweise eine URL im Formular  `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namespace ist in der Benutzeroberfläche von Dynamic Media Classic nicht sichtbar, wird jedoch zum Speichern von Metadaten im XMP-Block verwendet.
+* **Namespace**  - Technische eindeutige Kennung für das Schema, normalerweise eine URL im Formular  `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namespace ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch zum Speichern von Metadaten im XMP verwendet.
 
 * **Beschreibung**  - Kostenlose Beschreibung des Schemas.
 
@@ -201,7 +201,7 @@ Eigenschaften beschreiben die Metadaten, die mit diesem Schema im XMP-Block gesp
 
 | Eigenschaft | Beschreibung |
 |--- |--- |
-| ID | Technischer Identifikator für diese Eigenschaft. Die ID ist nicht in der Benutzeroberfläche von Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Die ID wird verwendet, um Suchanfragen auf dem Metadatenserver zu erstellen. Die ID hat einige Einschränkungen wie folgende: <ul><li>Keine Leerzeichen</li><li>Kein „.“, „:“, „$“</li><li>Keine Zahl als erstes Zeichen</li><li>Es empfiehlt sich, a-z oder A-Z als erstes Zeichen zu verwenden</li></ul> <br>Sobald erstellt, kann die ID nicht geändert werden. |
+| ID | Technischer Identifikator für diese Eigenschaft. Die ID ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Die ID wird verwendet, um Suchanfragen auf dem Metadatenserver zu erstellen. Die ID hat einige Einschränkungen wie folgende: <ul><li>Keine Leerzeichen</li><li>Kein „.“, „:“, „$“</li><li>Keine Zahl als erstes Zeichen</li><li>Es empfiehlt sich, a-z oder A-Z als erstes Zeichen zu verwenden</li></ul> <br>Sobald erstellt, kann die ID nicht geändert werden. |
 | Beschriftung | Name dieser Eigenschaft in der Benutzeroberfläche. |
 | Struktur | Legt die Art der Eigenschaft zusammen mit dem Datentyp fest. Eine Struktur kann sein:<ul><li>Einfacher Typ: Einzelwert des Datentyps</li><li>Sequenz: eine Liste von Werten desselben Datentyps</li><li>Offene Auswahl: Wählen Sie ein Element aus einer zuvor festgelegten Liste von Werten aus oder geben Sie einen beliebigen Text ein. Kann nur vom Datentyp „Zeichenfolge“ oder „Integer“ sein.</li><li>Geschlossene Auswahl: Wählen Sie ein Element aus einer zuvor festgelegten Liste von Werten aus (ein Popup- oder ein Kombinationsfeld).</li></ul> |
 | Datentyp | Wählen Sie aus den verfügbaren Typen aus: <ul><li>Zeichenfolge</li><li>Integer</li><li>Float</li><li>Ja/Nein (Boolescher Wert)</li><li>Datum</li></ul> |
@@ -210,11 +210,11 @@ Wenn die Eigenschaft als Struktur eine offene oder geschlossene Auswahl verwende
 
 | Eigenschaft | Beschreibung |
 |--- |--- |
-| ID | Technischer Identifikator für diesen Wert. Die ID ist in der Benutzeroberfläche von Dynamic Media Classic nicht sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Die ID wird für Suchanfragen auf dem Metadatenserver verwendet. Die ID darf keine Leerzeichen enthalten. Sobald erstellt, kann die ID nicht geändert werden. |
+| ID | Technischer Identifikator für diesen Wert. Die ID ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Die ID wird für Suchanfragen auf dem Metadatenserver verwendet. Die ID darf keine Leerzeichen enthalten. Sobald erstellt, kann die ID nicht geändert werden. |
 | Beschriftung | Name dieses Wertes in der Benutzeroberfläche. |
 
 >[!MORELIKETHIS]
 >
 >* [Viewer-Vorgaben](application-setup.md#viewer_presets)
-* [Metadaten-Vorgaben](application-setup.md#metadata_presets)
+>* [Metadaten-Vorgaben](application-setup.md#metadata_presets)
 

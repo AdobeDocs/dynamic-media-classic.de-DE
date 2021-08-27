@@ -10,16 +10,16 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
 
 # Suchen nach Assets{#searching-assets}
 
-Um nach Datei-Assets in Dynamic Media Classic zu suchen, können Sie Assets nach Typ anzeigen, Assets im Durchsuchenbedienfeld sortieren, eine einfache Suche durchführen, eine erweiterte Suche durchführen und nach Assets filtern.
+Um nach Datei-Assets in Adobe Dynamic Media Classic zu suchen, können Sie Assets nach Typ anzeigen, Assets im Durchsuchenbedienfeld sortieren, eine einfache Suche durchführen, eine erweiterte Suche durchführen und nach Assets filtern.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Um beim Durchsuchen nur Dateien eines bestimmten Typs anzuzeigen, wählen Sie in
 
 >[!NOTE]
 >
->Wenn das Bedienfeld &quot;Asset-Bibliothek&quot;nicht auf der linken Seite angezeigt wird, klicken Sie auf den Pfeil mit dem rechten Dreieck auf der linken Seite, um die Asset-Bibliothek auf der halben Seite des Dynamic Media Classic-Fensters zu öffnen.)
+>Wenn das Bedienfeld &quot;Asset-Bibliothek&quot;nicht auf der linken Seite angezeigt wird, klicken Sie auf den Pfeil mit dem rechten Dreieck auf der linken Seite, um die Adobe Dynamic Media Classic zu öffnen.)
 
 ## Sortieren von Dateien im Durchsuchenbedienfeld {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ Verwenden Sie das Suchfeld in der Asset-Bibliothek, damit Sie einfache Suchen du
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## Durchführen einer erweiterten Suche {#conducting-an-advanced-search}
 
@@ -171,5 +171,5 @@ Klicken Sie auf **[!UICONTROL Jetzt veröffentlichen]** , um den Auftrag zu star
 >[!MORELIKETHIS]
 >
 >* [Grundlagen der Navigation](navigation-basics.md#navigation_basics)
-* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

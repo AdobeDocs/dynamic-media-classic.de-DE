@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines Rotationssets
-description: Erfahren Sie, wie Sie ein Rotationsset in Dynamic Media Classic erstellen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic ein Rotationsset erstellen.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 56%
+source-wordcount: '910'
+ht-degree: 55%
 
 ---
 
 # Erstellen eines Rotationssets{#creating-a-spin-set}
 
-Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, die Bilder korrekt aufzunehmen. Sie können ein Rotationsset in Dynamic Media Classic erstellen, indem Sie auf die Schaltfläche Erstellen klicken und Rotationssets auswählen. Im Anzeigebereich „Rotationsset“ können Sie Rotationssets bearbeiten.
+Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, die Bilder korrekt aufzunehmen. Sie können ein Rotationsset in Adobe Dynamic Media Classic erstellen, indem Sie auf die Schaltfläche Erstellen klicken und Rotationssets auswählen. Im Anzeigebereich „Rotationsset“ können Sie Rotationssets bearbeiten.
 
 >[!NOTE]
 >
->Frühere Versionen von Dynamic Media Classic boten keine zweidimensionalen Rotationssets an. Wenn Sie ein Rotationsset in einer früheren Version von Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht speichern, ohne es zuerst unter einem anderen Namen zu speichern. Wählen Sie im Bildschirm &quot;Rotationsset&quot;die Option **[!UICONTROL Speichern unter]** und geben Sie einen neuen Namen ein, damit Sie ihn in Dynamic Media Classic bearbeiten können.
+>Frühere Versionen von Adobe Dynamic Media Classic boten keine zweidimensionalen Rotationssets an. Wenn Sie ein Rotationsset in einer früheren Version von Adobe Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht speichern, ohne es zuvor unter einem anderen Namen zu speichern. Wählen Sie im Bildschirm &quot;Rotationsset&quot;die Option **[!UICONTROL Speichern unter]** und geben Sie einen neuen Namen ein, damit Sie ihn in Adobe Dynamic Media Classic bearbeiten können.
 
 ## Richtlinien für das Aufnehmen von Rotationsset-Bildern {#guidelines-for-shooting-spin-set-images}
 
-Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Dynamic Media Classic empfiehlt die folgenden Richtlinien für die Aufnahme von Bildern zur Verwendung in Rotationssets:
+Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Adobe Dynamic Media Classic empfiehlt die folgenden Richtlinien für das Fotografieren von Bildern zur Verwendung in Rotationssets:
 
 * Verwenden Sie mindestens 8 bis 12 Bilder in einem eindimensionalen Rotationsset und 16 bis 24 Bilder in einem zweidimensionalen Rotationsset.
 * Verwenden Sie ein verlustfreies Format. Zu empfehlen sind die Formate TIFF und PNG.
@@ -37,7 +37,7 @@ Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rota
 
 ## Erstellen eines Rotationssets {#create}
 
-Die Reihenfolge, in der das Rotationsset in Dynamic Media Classic erstellt oder erstellt wird, ist wichtig. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Daher wird das Asset in der visuell angezeigten Reihenfolge angezeigt, wenn ein Benutzer seinen Mauszeiger bewegt oder seinen Finger von links nach rechts bewegt.
+Die Reihenfolge, in der das Rotationsset in Adobe Dynamic Media Classic erstellt oder erstellt wird, ist wichtig. Je nachdem, in welcher Reihenfolge Sie die Assets anordnen, wenn Sie Bilder auf einem Raster auf der Seite „Rotationsset“ ablegen, dreht sich das Rotationsset in eine bestimmte Richtung. Daher wird das Asset in der visuell angezeigten Reihenfolge angezeigt, wenn ein Benutzer seinen Mauszeiger bewegt oder seinen Finger von links nach rechts bewegt.
 
 Wenn Sie ein Set erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
 

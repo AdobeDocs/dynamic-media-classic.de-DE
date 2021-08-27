@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,Viewer,gemischte Mediensets
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 55%
+source-wordcount: '254'
+ht-degree: 56%
 
 ---
 
 # Veröffentlichen eines gemischten Mediensets{#publishing-a-mixed-media-set}
 
-Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie für die Veröffentlichung auf Dynamic Media Classic Video Server und Image Server markiert haben. Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von bereits veröffentlichten Assets.
+Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie für die Veröffentlichung in Adobe Dynamic Media Classic Video Server und Image Server markiert haben. Adobe Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von bereits veröffentlichten Assets.
 
 >[!NOTE]
 >
 >Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Außerdem verwenden Sie **Image-Server**, um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
 
-Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf dem Bildschirm &quot;Aufträge&quot;nach.
+Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf dem Bildschirm &quot;Aufträge&quot;nach.
 
 Siehe [Veröffentlichen](publishing-files.md#publishing_files).
 

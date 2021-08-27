@@ -1,6 +1,6 @@
 ---
 title: Hinzufügen und Verwalten von Media Portal-Benutzern
-description: Erfahren Sie, wie Sie Media Portal-Benutzer in Dynamic Media Classic hinzufügen und verwalten.
+description: Erfahren Sie, wie Sie Media Portal-Benutzer in Adobe Dynamic Media Classic hinzufügen und verwalten.
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ Sie können die Namen und E-Mail-Adressen von Media Portal-Benutzern in einem Po
 
 ## Einrichten der Begrüßungs-E-Mail für Media Portal-Benutzer {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer senden lassen, die Sie hinzufügen. Sie können diese E-Mail-Nachricht konfigurieren oder Dynamic Media Classic anweisen, sie nicht zu senden.
+Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer senden lassen, die Sie hinzufügen. Sie können diese E-Mail-Nachricht konfigurieren oder Adobe Dynamic Media Classic anweisen, sie nicht zu senden.
 
 1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
 1. Wählen Sie im Bildschirm &quot;Benutzerverwaltung einrichten&quot;die Option **[!UICONTROL E-Mail-Einstellungen]**.
@@ -115,9 +115,9 @@ Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter
 
    * **[!UICONTROL E-Mail senden]**  - Deaktivieren Sie diese Option, wenn Sie neue Benutzer nicht per E-Mail darüber informieren möchten, dass Sie sie angemeldet haben.
 
-   * **[!UICONTROL Standardkennwort]**  - Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit Dynamic Media Classic zufällige Kennwörter generiert. Benutzer werden aufgefordert, bei der ersten Anmeldung Kennwörter zu ändern.
+   * **[!UICONTROL Standardkennwort]**  - Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit Adobe Dynamic Media Classic zufällige Kennwörter generiert. Benutzer werden aufgefordert, bei der ersten Anmeldung Kennwörter zu ändern.
 
-   * **[!UICONTROL Ersatz-URL]**  - Geben Sie eine URL ein, die sich von der Standardeinstellung unterscheidet, wenn Ihre Benutzer über eine andere URL auf Dynamic Media Classic zugreifen.
+   * **[!UICONTROL Ersatz-URL]**  - Geben Sie eine URL ein, die sich von der Standardeinstellung unterscheidet, wenn Ihre Benutzer über eine andere URL auf die Adobe Dynamic Media Classic zugreifen.
 
 ## Andere Aufgaben zur Benutzerverwaltung {#other-user-management-tasks}
 
@@ -131,6 +131,6 @@ Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter
 
 * **[!UICONTROL Benutzerinformationen bearbeiten]**  - Geben Sie aktuelle Informationen zu einem Benutzer ein.
 
-* **[!UICONTROL Erstellen benutzerdefinierter Felder]**  - Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, damit Sie Assets in Dynamic Media Classic organisieren können. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
+* **[!UICONTROL Erstellen benutzerdefinierter Felder]**  - Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, damit Sie Assets in der Adobe Dynamic Media Classic organisieren können. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
 
 Siehe [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).

@@ -1,6 +1,6 @@
 ---
 title: Zoomziele für geführten Zoom erstellen
-description: Erfahren Sie, wie Sie in Dynamic Media Classic Zoomziele für geführtes Zoomen erstellen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Zoomziele für geführtes Zoomen erstellen.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 44%
 
 ---
@@ -38,7 +38,7 @@ Sie können die Größe des Zoom-Viewers an die auf der Website verwendete Grö�
 
 Im Zoomziel-Editor erstellen und bearbeiten Sie Zoomziele. Um diesen Editor zu öffnen, wählen Sie ein Bild und führen Sie einen der folgenden Schritte aus:
 
-* Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** und dann Zoomziele aus.
+* Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** und dann Zoomziele aus.
 * Zeigen Sie im Durchsuchenbedienfeld das Bild in **[!UICONTROL Detailansicht]** an und wählen Sie dann **[!UICONTROL Zoomziele]** aus.
 
 Wählen Sie im Bildschirm &quot;Zoom-Ziel-Editor&quot;die Schaltfläche **[!UICONTROL Target]** auswählen (Pfeil), um ein Ziel auszuwählen, bevor Sie dessen Größe oder Position ändern. Um ein Zoomziel für das Bild zu erstellen, wählen Sie **[!UICONTROL Zielgruppen hinzufügen]** (Rechteck) aus. Auf der Seite &quot;Zoom-Ziel-Editor&quot;finden Sie außerdem Tools zum Löschen, Kopieren und Benennen von Zoomzielen.

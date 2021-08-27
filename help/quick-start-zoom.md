@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewer,Zoom
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '818'
 ht-degree: 41%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 41%
 
 Mit Zoom können Sie interaktiv hochauflösende Details in Bildern anzeigen. Sie können beispielsweise die Farben, Optionen, Winkel und Details eines Bilds in einem dynamischen, voll konfigurierbaren, integrierten Viewer anzeigen. Dieser Viewer kann in eine Website eingebettet oder in einem Popup-Fenster angezeigt werden. Sie können Bilder in nächster Nähe prüfen und mit hohen Auflösungen schwenken, um sie genau zu untersuchen. Die Zoomfunktion bietet Ihren Kunden eine nützliche, informative und interaktive Anzeigemöglichkeit.
 
-Dynamic Media Classic bietet außerdem geführtes Zoomen, mit dem Sie die wichtigen Funktionen eines Bildes hervorheben können. Wenn Sie die Aufmerksamkeit der Betrachter beispielsweise auf ein Logo lenken möchten, können Sie ein Zoomziel für das Logo erstellen. Wenn die Betrachter dann auf das Zoomziel klicken, wird das Logo herangezoomt.
+Adobe Dynamic Media Classic bietet auch geführtes Zoomen, mit dem Sie die wichtigen Funktionen eines Bildes hervorheben können. Wenn Sie die Aufmerksamkeit der Betrachter beispielsweise auf ein Logo lenken möchten, können Sie ein Zoomziel für das Logo erstellen. Wenn die Betrachter dann auf das Zoomziel klicken, wird das Logo herangezoomt.
 
-Alle Zoombilder werden mithilfe von einzelnen Masterbildern, Grafiken und datenbankgestützten Attributen erstellt und gesendet. Durch die Zoomfunktion von Dynamic Media Classic werden Zeit und Kosten für die Produktion und Bereitstellung von Bildern erheblich reduziert. Mit Zoom-Viewern können Sie Bilder ein- und auszoomen. Im Zoom-Viewer gibt es Schaltflächen zum Zoomen und Schwenken des Bildes. Das Schwenken ist darüber hinaus auch durch Ziehen des Bildes im Anzeigebereich möglich. Mithilfe von Zoom-Viewer-Vorgaben können Sie den Zoom-Viewer für das Zoomen von Bildern konfigurieren.
+Alle Zoombilder werden mithilfe von einzelnen Masterbildern, Grafiken und datenbankgestützten Attributen erstellt und gesendet. Durch die Zoomfunktion von Adobe Dynamic Media Classic werden Zeit und Kosten für die Produktion und Bereitstellung von Bildern erheblich reduziert. Mit Zoom-Viewern können Sie Bilder ein- und auszoomen. Im Zoom-Viewer gibt es Schaltflächen zum Zoomen und Schwenken des Bildes. Das Schwenken ist darüber hinaus auch durch Ziehen des Bildes im Anzeigebereich möglich. Mithilfe von Zoom-Viewer-Vorgaben können Sie den Zoom-Viewer für das Zoomen von Bildern konfigurieren.
 
-Dieser Zoom-Schnellstart wurde entwickelt, um die Zoom-Techniken in Dynamic Media Classic schnell zu implementieren. Führen Sie die Schritte 1 bis 6 aus. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
+Dieser Zoom-Schnellstart wurde entwickelt, um die Zoom-Techniken in Adobe Dynamic Media Classic schnell zu implementieren. Führen Sie die Schritte 1 bis 6 aus. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
 
 ## 1. Hochladen von Zoombildern
 
-Laden Sie zunächst Ihre Zoombilder in Dynamic Media Classic hoch. Für ein optimales Zoomen empfiehlt Dynamic Media Classic, dass die längste Bildgröße mindestens 2000 Pixel beträgt.
+Laden Sie zunächst Ihre Zoombilder in Adobe Dynamic Media Classic hoch. Für eine optimale Zoomfunktion empfiehlt Adobe Dynamic Media Classic, dass die längste Bildgröße mindestens 2000 Pixel beträgt.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Upload]** , um Bilder von Ihrem Computer oder Netzwerk in einen Ordner in Dynamic Media Classic hochzuladen. Siehe [Hochladen von Zoombildern](uploading-zoom-images.md#uploading_zoom_images).
+Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Upload]** , um Bilder von Ihrem Computer oder Netzwerk in einen Ordner auf Adobe Dynamic Media Classic hochzuladen. Siehe [Hochladen von Zoombildern](uploading-zoom-images.md#uploading_zoom_images).
 
 ## 2. Erstellen von Zoomzielen für geführtes Zoomen
 
@@ -41,11 +41,11 @@ Um ein Zoomziel zu erstellen, klicken Sie auf **[!UICONTROL Bearbeiten]** und w�
 
 ## 3. Einrichten von Zoom-Viewer-Vorgaben
 
-Mithilfe von Zoom-Viewer-Vorgaben wird der Stil und das Verhalten von Zoom-Viewern festgelegt. Sie können Zoom-Viewer-Vorgaben einrichten, wenn Sie Administrator sind. Dynamic Media Classic enthält auch standardmäßige Zoom-Viewer-Vorgaben, die sich für Best Practices eignen.
+Mithilfe von Zoom-Viewer-Vorgaben wird der Stil und das Verhalten von Zoom-Viewern festgelegt. Sie können Zoom-Viewer-Vorgaben einrichten, wenn Sie Administrator sind. Adobe Dynamic Media Classic enthält auch standardmäßige Zoom-Viewer-Vorgaben, die sich für Best Practices eignen.
 
 Um eine Zoom-Viewer-Vorgabe zu erstellen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**. Klicken Sie auf der Seite &quot;Viewer-Vorgaben&quot;auf **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform und einen Zoom-Viewer aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**. Wählen Sie dann Optionen auf der Seite Viewer konfigurieren aus.
 
-Dynamic Media Classic bietet die Optionen **[!UICONTROL Zoom-Viewer-Vorgabe]** , mit denen Sie den Schaltflächenstil und das Gesamtbild des Viewers auswählen können. Sie können auch die Zoomeinstellungen für Ihre Website anpassen. Siehe [Konfigurieren von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Adobe Dynamic Media Classic bietet die Optionen **[!UICONTROL Zoom-Viewer-Vorgabe]** , mit denen Sie den Schaltflächenstil und das Gesamtbild des Viewers auswählen können. Sie können auch die Zoomeinstellungen für Ihre Website anpassen. Siehe [Konfigurieren von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## 4. Vorschau von Bildern mit dem Zoom-Viewer
 
@@ -57,10 +57,10 @@ Die Zoomschaltflächen werden angezeigt. Sie können sehen, wie die Zoombilder a
 
 ## 5. Veröffentlichen von Zoombildern
 
-Beim Veröffentlichen Ihrer Zoombilder werden diese auf Dynamic Media-Bildservern platziert, damit sie auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden können. Im Zuge der Veröffentlichung aktiviert Dynamic Media Classic URL-Zeichenfolgen. Diese URL-Zeichenfolgen rufen Zoombilder von Dynamic Media-Bildservern auf Ihre Website oder Anwendung auf.
+Beim Veröffentlichen Ihrer Zoombilder werden diese auf Dynamic Media-Bildservern platziert, damit sie auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic URL-Zeichenfolgen. Diese URL-Zeichenfolgen rufen Zoombilder von Dynamic Media-Bildservern auf Ihre Website oder Anwendung auf.
 
 Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL „Veröffentlichen“]**. Klicken Sie im Dialogfeld &quot;Veröffentlichen&quot;auf **[!UICONTROL Veröffentlichen senden]**. Siehe [Veröffentlichen von Zoombildern](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Verknüpfen von Zoom-Viewern mit einer Webseite
 
-Dynamic Media Classic erstellt die für das Zoomen von Bildern erforderlichen URL-Aufrufzeichenfolgen und aktiviert sie, wenn Sie Bilder auf Dynamic Media-Image-Servern veröffentlichen. Sie können diese URL-Zeichenfolgen von der Seite **[!UICONTROL Vorschau]** kopieren. Nach dem Kopieren sind die URL-Zeichenfolgen für Ihre Websites und Anwendungen verfügbar. Siehe [Verknüpfen von Zoom-Viewern mit einer Website](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic erstellt die URL-Callout-Zeichenfolgen, die zum Zoomen von Bildern erforderlich sind, und aktiviert sie, wenn Sie Bilder auf Dynamic Media-Image-Servern veröffentlichen. Sie können diese URL-Zeichenfolgen von der Seite **[!UICONTROL Vorschau]** kopieren. Nach dem Kopieren sind die URL-Zeichenfolgen für Ihre Websites und Anwendungen verfügbar. Siehe [Verknüpfen von Zoom-Viewern mit einer Website](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

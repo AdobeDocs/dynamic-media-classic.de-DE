@@ -10,20 +10,20 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 15%
 
 ---
 
 # Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, mit Dynamic Media Classic-Ereignissen verknüpft und die erforderlichen Implementierungsschritte ausgeführt haben, können Sie das Setup testen. Sie können in Adobe Analytics selbst testen und prüfen, ob die Daten erfasst werden. Wenn das Setup hier funktioniert, sind keine weiteren Schritte nötig. Wenn Sie die oben genannten Schritte ausgeführt und Ihre Dynamic Media Classic-Ereignisdaten mit einer oder mehreren benutzerspezifischen Traffic-Variablen verknüpft haben, führen Sie diesen Workflow aus, um Ihre Daten in Adobe Analytics zu testen.
+Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, mit Adobe Dynamic Media Classic-Ereignissen verknüpft und die erforderlichen Implementierungsschritte ausgeführt haben, können Sie das Setup testen. Sie können in Adobe Analytics selbst testen und prüfen, ob die Daten erfasst werden. Wenn das Setup hier funktioniert, sind keine weiteren Schritte nötig. Angenommen, Sie haben die oben genannten Schritte ausgeführt und Ihre Adobe Dynamic Media Classic-Ereignisdaten mit einer oder mehreren benutzerspezifischen Traffic-Variablen verknüpft. Führen Sie diesen Workflow aus, um Ihre Daten in Adobe Analytics zu testen.
 
 **So testen Sie die Integration durch Anzeigen eines Adobe Analytics-Berichts:**
 
-1. Starten Sie einen Dynamic Media Classic-Viewer über Ihr Konto, insbesondere einen, der die gewünschte Metrik sendet, und interagieren Sie mit ihm, um einige Ereignisdaten zu erstellen.
+1. Starten Sie einen Adobe Dynamic Media Classic-Viewer von Ihrem Konto aus, insbesondere einen, der die gewünschte Metrik sendet, und interagieren Sie mit ihm, um einige Ereignisdaten zu erstellen.
 
    Wenn Sie beispielsweise beliebte alternative Ansichten in einem Bildset messen möchten, zeigen Sie eine Vorschau eines Bildsets an und klicken Sie auf die verschiedenen Miniaturansichten.
 
@@ -35,6 +35,6 @@ Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, mit Dynami
 
 >[!NOTE]
 >
->Alle Dynamic Media Classic-Viewer-Daten werden in benutzerspezifischen Traffic-Berichten oder benutzerspezifischen Konversionsberichten von Adobe Analytics angezeigt und gemeldet.
+>Alle Adobe Dynamic Media Classic-Viewer-Daten werden in benutzerspezifischen Traffic-Berichten oder benutzerspezifischen Konversionsberichten von Adobe Analytics angezeigt und gemeldet.
 
 Weitere Informationen finden Sie unter [Analytics-Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).

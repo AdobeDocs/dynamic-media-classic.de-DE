@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-feature: Dynamic Media Classic,Viewer,Video
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1432'
 ht-degree: 43%
 
 ---
@@ -21,7 +21,7 @@ Adobe Dynamic Media Classic Video ist eine Komplettlösung, mit der Sie hochwert
 
 Zum Beispiel werden auf einem iOS-Mobilgerät Bandbreiten wie 3G, 4G oder Wi-Fi erkannt. Anschließend wird unter den verschiedenen Video-Bitraten innerhalb des adaptiven Videosets automatisch das richtig kodierte Video ausgewählt. Das Video wird auf Desktops, Mobilgeräte und Tablets gestreamt.
 
-Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Wenn ein Kunde auf einem Desktop in den Vollbildmodus wechselt, antwortet das adaptive Videoset mit einer besseren Auflösung, wodurch das Anzeigeerlebnis des Kunden verbessert wird. Mit adaptiven Videosets erhalten Sie die bestmögliche Wiedergabe für Kunden, die Dynamic Media Classic-Videos auf mehreren Bildschirmen und Geräten wiedergeben.
+Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Wenn ein Kunde auf einem Desktop in den Vollbildmodus wechselt, antwortet das adaptive Videoset mit einer besseren Auflösung, wodurch das Anzeigeerlebnis des Kunden verbessert wird. Mit adaptiven Videosets erhalten Sie die bestmögliche Wiedergabe für Kunden, die Adobe Dynamic Media Classic-Videos auf mehreren Bildschirmen und Geräten wiedergeben.
 
 Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für die Wiedergabe auszuwählen, basiert auf dem folgenden Algorithmus:
 
@@ -33,9 +33,9 @@ Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für d
 
 Technische Informationen dazu finden Sie in der Logik des Algorithmus unter [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp).
 
-Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dynamic Media Classic Folgendes:
+Für die Verwaltung von Einzelvideo- und adaptiven Videosets unterstützt Adobe Dynamic Media Classic Folgendes:
 
-* Das Hochladen von Video aus verschiedenen unterstützten Videoformaten und Audioformaten und das Kodieren von Video im MP4 H.264-Format für die Wiedergabe auf verschiedenen Anzeigemedien. Sie können vordefinierte adaptive Dynamic Media Classic-Videovorgaben oder einzelne Videokodierungsvorgaben verwenden oder Ihre eigene Kodierung anpassen, um die Qualität und Größe des Videos zu steuern.
+* Das Hochladen von Video aus verschiedenen unterstützten Videoformaten und Audioformaten und das Kodieren von Video im MP4 H.264-Format für die Wiedergabe auf verschiedenen Anzeigemedien. Sie können vordefinierte Adobe Dynamic Media Classic-Vorgaben für adaptive Videos oder einzelne Videokodierungsvorgaben verwenden oder Ihre eigene Kodierung anpassen, um die Qualität und Größe des Videos zu steuern.
 
    Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
@@ -56,7 +56,7 @@ Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dy
 
    Weitere Informationen finden Sie im [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. BlackBerry®-Geräte, die dieses Videoformat unterstützen, finden Sie auf folgender Website:
+   Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. BlackBerry®-Geräte, die dieses Videoformat unterstützen, finden Sie auf folgender Website:
 
    Siehe [Unterstützte Videoformate auf BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -64,7 +64,7 @@ Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dy
 
    Siehe [Unterstützte Videoformate unter Windows® Phone](https://docs.microsoft.com/en-us/).
 
-* Wiedergabe des Videos mit Dynamic Media Classic-Viewer-Vorgaben, einschließlich der folgenden:
+* Wiedergabe des Videos mit Adobe Dynamic Media Classic Viewer-Vorgaben, einschließlich der folgenden:
 
    * Einzel-Video-Viewer
    * Viewer für gemischte Medien, die Video- und Bildinhalte kombinieren
@@ -74,14 +74,14 @@ Für die Verwaltung von einzelnen Videos und adaptiven Videosets unterstützt Dy
 
 **Schnellstart**
 
-Die folgende schrittweise Workflow-Beschreibung soll Ihnen dabei helfen, adaptive Videosets in Dynamic Media Classic einzurichten und schnell auszuführen. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
+Die folgende schrittweise Workflow-Beschreibung soll Ihnen dabei helfen, adaptive Videosets in Adobe Dynamic Media Classic einzurichten und schnell auszuführen. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
 
 ## 1. Hochladen und Kodieren von Videos
 
 Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden Szenarien hoch:
 
-* **Hochladen vorkodierter Videos** : Wenn Ihre Videos bereits außerhalb von Dynamic Media Classic kodiert wurden, klicken Sie in der Symbolleiste für globale Navigation auf  **** Hochladen , um MP4-Videodateien direkt in Dynamic Media Classic zu durchsuchen und hochzuladen. Klicken Sie dann auf **[!UICONTROL Erstellen]** > **[!UICONTROL Adaptive Videosets]**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
-* **Übergeordnete Quellvideos hochladen**  - Wenn Ihre Videos nicht kodiert sind, klicken Sie in der globalen Navigationsleiste auf  **** Hochladen , um Übergeordnete Videoquelldateien (nicht MP4) hochzuladen und sie von Dynamic Media Classic in MP4-Dateien zu kodieren. Wählen Sie im Dialogfeld **[!UICONTROL Upload-Auftragsoptionen]** unter **[!UICONTROL eVideo-Optionen]** die Option **[!UICONTROL Adaptives Video]**.
+* **Hochladen vorkodierter Videos** : Wenn Ihre Videos bereits außerhalb von Adobe Dynamic Media Classic kodiert wurden, klicken Sie in der Symbolleiste für globale Navigation auf  **** Hochladen , um MP4-Videodateien direkt in Adobe Dynamic Media Classic zu durchsuchen und hochzuladen. Klicken Sie dann auf **[!UICONTROL Erstellen]** > **[!UICONTROL Adaptive Videosets]**. Navigieren Sie zu Ihren Videodateien. Fügen Sie die gewünschten Videodateien per Drag &amp; Drop in die Tabelle für adaptive Videosets ein und speichern Sie das Set.
+* **Übergeordnete Quellvideos hochladen**  - Wenn Ihre Videos nicht kodiert sind, klicken Sie in der globalen Navigationsleiste auf  **** Hochladen , um Übergeordnete Videoquelldateien (nicht MP4) hochzuladen und sie von Adobe Dynamic Media Classic in MP4-Dateien zu kodieren. Wählen Sie im Dialogfeld **[!UICONTROL Upload-Auftragsoptionen]** unter **[!UICONTROL eVideo-Optionen]** die Option **[!UICONTROL Adaptives Video]**.
 
    Mit dieser bevorzugten Option können Sie ein adaptives Videoset erstellen, das automatisch die korrekte Kodierungsvorgabe (16:9 oder 4:3) entsprechend den Abmessungen des hochgeladenen Videos anpasst. Wenn Sie den Hochladeauftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videokodierungen im korrekten Seitenverhältnis enthält.
 
@@ -93,7 +93,7 @@ Siehe [Hochladen und Kodieren von Video](uploading-encoding-videos.md#uploading_
 
 **Optional**
 
-Dynamic Media Classic bietet zahlreiche vordefinierte Vorgaben für die Videokodierung. Diese vordefinierten Vorgaben spiegeln die am häufigsten verwendeten Videokodierungsparameter wider und sind für die Wiedergabe auf Zielseiten optimiert.
+Adobe Dynamic Media Classic bietet zahlreiche vordefinierte Vorgaben für die Videokodierung. Diese vordefinierten Vorgaben spiegeln die am häufigsten verwendeten Videokodierungsparameter wider und sind für die Wiedergabe auf Zielseiten optimiert.
 
 Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite &quot;Videovorgaben&quot;hinzufügen und verwalten, die unter **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]** > **[!UICONTROL Einzelne Kodierungsvorgaben]** verfügbar ist. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
@@ -109,7 +109,7 @@ Sie können das Video auf der Seite &quot;Vorschau&quot;abspielen. Sie können a
 
 **Optional**
 
-Anpassung von Viewer-Vorgaben - Dynamic Media Classic bietet vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie oben rechts in Dynamic Media Classic auf **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Anpassung der Viewer-Vorgaben - Adobe Dynamic Media Classic bietet vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie oben rechts in der Adobe Dynamic Media Classic auf **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
 Siehe [Arbeiten mit Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 

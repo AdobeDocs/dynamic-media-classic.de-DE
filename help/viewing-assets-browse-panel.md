@@ -10,10 +10,10 @@ discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 40%
+source-wordcount: '243'
+ht-degree: 33%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 40%
 
 Sie können die Anzeige der Assets im Durchsuchenbedienfeld verändern, indem Sie auf eine Ansicht-Schaltfläche klicken:
 
-* **Rasteransicht**  - Klicken Sie in der rechten oberen Ecke des Dynamic Media Classic-Bildschirms auf  **[!UICONTROL Raster-]** Viewer, um Assets in Miniaturansichten in einem Raster anzuzeigen. In der Rasteransicht können Sie den Regler „Miniaturansicht“ ziehen, um die Größe der Miniaturansichten zu ändern.
+* **Rasteransicht**  - Klicken Sie in der rechten oberen Ecke des Bildschirms von Adobe Dynamic Media Classic auf  **[!UICONTROL Raster-]** Viewer, um Assets in Miniaturansichten in einem Raster anzuzeigen. In der Rasteransicht können Sie den Regler Miniaturansicht ziehen, um die Größe der Miniaturansichten zu ändern.
 
-* **Listenansicht**  - Klicken Sie in der rechten oberen Ecke des Dynamic Media Classic-Bildschirms auf  **[!UICONTROL Listenansicht]** , um Assets in einer Liste anzuzeigen. In der Liste sind für jedes Asset der Name und Typ, das Erstellungsdatum sowie das Datum der letzten Änderung angegeben. Je nach Asset-Typ erhalten Sie verschiedene weitere Informationen, beispielsweise zu den Abmessungen und zur Dateigröße eines Bildes.
+* **Listenansicht**  - Klicken Sie in der rechten oberen Ecke des Bildschirms &quot;Adobe Dynamic Media Classic&quot;auf  **[!UICONTROL Listenansicht]** , um Assets in einer Liste anzuzeigen. In der Liste sind für jedes Asset der Name und Typ, das Erstellungsdatum sowie das Datum der letzten Änderung angegeben. Je nach Asset-Typ erhalten Sie verschiedene weitere Informationen, beispielsweise zu den Abmessungen und zur Dateigröße eines Bildes.
 
-* **Detailansicht**  - Wählen Sie ein Asset aus. Klicken Sie in der rechten oberen Ecke des Dynamic Media Classic-Bildschirms auf das Symbol **[!UICONTROL Detailansicht]** , um das Asset in der Detailansicht zu untersuchen. Sie können auch auf ein Asset doppelklicken oder es auswählen und auf **[!UICONTROL Datei]** > **[!UICONTROL Details]** klicken, um es in der Detailansicht anzuzeigen. Wenn Ihr Administrator die Voreinstellung &quot;URL anzeigen&quot;festgelegt hat, werden in der Detailansicht URLs für alle Assets angezeigt. Die URLs sind jedoch erst aktiv, nachdem das Asset veröffentlicht wurde.
+* **Detailansicht**  - Wählen Sie ein Asset aus. Klicken Sie in der rechten oberen Ecke des Bildschirms &quot;Adobe Dynamic Media Classic&quot;auf das Symbol **[!UICONTROL Detailansicht]** , um das Asset in der Detailansicht zu untersuchen. Sie können auch auf ein Asset doppelklicken oder es auswählen und auf **[!UICONTROL Datei]** > **[!UICONTROL Details]** klicken, um es in der Detailansicht anzuzeigen. Wenn Ihr Administrator die Voreinstellung &quot;URL anzeigen&quot;festgelegt hat, werden in der Detailansicht URLs für alle Assets angezeigt. Die URLs sind jedoch erst aktiv, nachdem das Asset veröffentlicht wurde.
 
 >[!TIP]
 >

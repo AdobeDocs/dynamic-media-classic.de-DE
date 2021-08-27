@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic,Viewer,Rotationssets,Viewer-Vorgaben
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 31%
+source-wordcount: '233'
+ht-degree: 32%
 
 ---
 
 # Einstellen von Rotationsset-Viewer-Vorgaben{#setting-up-spin-set-viewer-presets}
 
-Mit Rotationsset-Viewer-Vorgaben werden der Stil, das Verhalten und das Aussehen von Viewern bestimmt. Dynamic Media Classic ist mit standardmäßigen Rotationsset-Viewer-Vorgaben ausgestattet. Als Administrator können Sie auch eigene Rotationsset-Viewer-Vorgaben erstellen. Sie können eine Rotationsset-Viewer-Vorgabe mit verschiedenen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren.
+Mit Rotationsset-Viewer-Vorgaben werden der Stil, das Verhalten und das Aussehen von Viewern bestimmt. Adobe Dynamic Media Classic ist mit standardmäßigen Rotationsset-Viewer-Vorgaben ausgestattet. Als Administrator können Sie auch eigene Rotationsset-Viewer-Vorgaben erstellen. Sie können eine Rotationsset-Viewer-Vorgabe mit verschiedenen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren.
 
 **So erstellen Sie eine Rotationsset-Viewer-Vorgabe:**
 

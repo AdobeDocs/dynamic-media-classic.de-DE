@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
-feature: Dynamic Media Classic,Viewer,Bildsets
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '491'
 ht-degree: 33%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 33%
 
 Sie können Ihre Bildsätze unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Für Bildsätze verwenden Sie eine benutzerdefinierte Viewer-Vorgabe für Zoom-Viewer.
 
-Dynamic Media Classic ist mit standardmäßigen Viewer-Vorgaben ausgestattet. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
+Adobe Dynamic Media Classic ist mit standardmäßigen Viewer-Vorgaben ausgestattet. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
 
 ## Einrichten von Zoom-Viewer-Vorgaben für Bildsätze {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -51,9 +51,9 @@ Mit der Vorschau können Sie sehen, wie ein Asset in einem bestimmten Viewer-Typ
 1. Durchsuchen Sie auf der linken Seite der Asset-Bibliothek die Asset-Ordner, um den Bildsatz auszuwählen, den Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus
 
-   * Klicken Sie in der rechten oberen Ecke des Dynamic Media Classic-Fensters auf das Symbol **[!UICONTROL Listenansicht]** . Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und klicken Sie dann auf **[!UICONTROL Vorschau]** (nicht auf die Dropdownliste &quot;Vorschau&quot;).
-   * Klicken Sie in der rechten oberen Ecke des Dynamic Media Classic-Fensters auf das Symbol **[!UICONTROL Rasteransicht]**. Klicken Sie im Fenster &quot;Asset&quot;in einem Asset-Miniaturfenster auf **[!UICONTROL Vorschau]** (nicht auf die Dropdownliste &quot;Vorschau&quot;).
-   * Klicken Sie in der rechten oberen Ecke des Dynamic Media Classic-Fensters auf das Symbol **[!UICONTROL Detailansicht]**. Klicken Sie in derselben Symbolleiste auf **[!UICONTROL Vorschau]** (nicht die Dropdownliste &quot;Vorschau&quot;).
+   * Klicken Sie in der rechten oberen Ecke des Fensters Adobe Dynamic Media Classic auf das Symbol **[!UICONTROL Listenansicht]** . Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und klicken Sie dann auf **[!UICONTROL Vorschau]** (nicht auf die Dropdownliste &quot;Vorschau&quot;).
+   * Klicken Sie in der rechten oberen Ecke des Fensters Adobe Dynamic Media Classic auf das Symbol **[!UICONTROL Rasteransicht]** . Klicken Sie im Fenster &quot;Asset&quot;in einem Asset-Miniaturfenster auf **[!UICONTROL Vorschau]** (nicht auf die Dropdownliste &quot;Vorschau&quot;).
+   * Klicken Sie in der rechten oberen Ecke des Fensters Adobe Dynamic Media Classic auf das Symbol **[!UICONTROL Detailansicht]**. Klicken Sie in derselben Symbolleiste auf **[!UICONTROL Vorschau]** (nicht die Dropdownliste &quot;Vorschau&quot;).
 
 1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
 1. Um eine Vorschau des Assets im ausgewählten Viewer anzuzeigen, klicken Sie auf einen Viewer-Link.

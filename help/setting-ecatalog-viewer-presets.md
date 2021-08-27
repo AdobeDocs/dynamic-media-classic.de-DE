@@ -6,19 +6,19 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
-feature: Dynamic Media Classic,Viewer,Viewer-Vorgaben,eCatalog
+feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 42%
 
 ---
 
 # Konfigurieren von E-Katalog-Viewer-Vorgaben{#setting-up-ecatalog-viewer-presets}
 
-Mit E-Katalog-Viewer-Vorgaben werden Stil, Verhalten und Aussehen von E-Katalog-Viewern bestimmt. Dynamic Media Classic stellt E-Katalog-Viewer-Vorgaben bereit. Wenn Sie Administrator sind, können Sie auch eigene E-Katalog-Viewer-Vorgaben erstellen.
+Mit E-Katalog-Viewer-Vorgaben werden Stil, Verhalten und Aussehen von E-Katalog-Viewern bestimmt. Adobe Dynamic Media Classic stellt E-Katalog-Viewer-Vorgaben bereit. Wenn Sie Administrator sind, können Sie auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
 Um eine Vorgabe zu erstellen, können Sie von Grund auf neu beginnen oder mit einer von Dynamic Media Classic bereitgestellten E-Katalog-Viewer-Vorgabe beginnen und sie unter einem neuen Namen speichern. Sie können eigene E-Katalog-Viewer-Vorgaben erstellen, um Druckwerbematerial in den Farben Ihres Unternehmens zu präsentieren.
 
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe 
    | `$2$` | frame | Die Sequenznummer des momentan angezeigten Bildfelds im Bildsatz. |
    | `$3$` | imageroot | Das erste Pfadelement des ersten Elements, das im Bildbefehl angegeben wird (normalerweise die Katalog-ID des Katalogeintrags, der den Bildsatz bestimmt). |
 
-1. (Optional) Geben Sie in das Feld **[!UICONTROL Info Panel Settings]** im Feld **[!UICONTROL Response Template]** den Text ein, der angezeigt werden soll, wenn Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie in das Feld **[!UICONTROL Info Panel Settings]** im Feld **[!UICONTROL Response Template]** den Text ein, der angezeigt werden soll, wenn in Adobe Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap ein Fehler auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 
 >[!NOTE]
 >

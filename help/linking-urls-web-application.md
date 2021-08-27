@@ -1,6 +1,6 @@
 ---
-title: Verknüpfen von URLs mit einer Web-Anwendung
-description: Erfahren Sie, wie Sie URLs mit Ihrer Web-Anwendung verknüpfen.
+title: Verknüpfen von URLs mit einer Webanwendung
+description: Erfahren Sie, wie Sie URLs von Adobe Dynamic Media Classic aus mit Ihrer Web-Anwendung verknüpfen.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 53%
+source-wordcount: '843'
+ht-degree: 37%
 
 ---
 
-# Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
+# Verknüpfen von URLs mit einer Webanwendung{#linking-urls-to-your-web-application}
 
-Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf den Dynamic Media Image Server-Inhalt zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Dynamic Media Classic eine URL-Zeichenfolge, die auf Dynamic Media-Image-Servern auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf den Dynamic Media Image Server-Inhalt zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf Dynamic Media-Image-Servern auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
 
-Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen zu platzieren, kopieren Sie sie aus Dynamic Media Classic. Die zu einer Bildvorgabe generierte URL-Zeichenfolge ist im Anzeigebereich „Vorschau“ und im Durchsuchenbedienfeld (in der Detailansicht) abrufbar.
+Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen zu platzieren, kopieren Sie sie aus Adobe Dynamic Media Classic. Um eine mit einer Bildvorgabe generierte URL-Zeichenfolge abzurufen, gehen Sie zum Bildschirm &quot;Vorschau&quot;oder zum Durchsuchenbedienfeld (in der Detailansicht).
 
 ## Abrufen einer Bildvorgabe-URL {#obtaining-an-image-preset-url}
 
@@ -31,26 +31,26 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 >
 >Diese URL wird erst dann aktiv, wenn Sie das Asset veröffentlichen.
 
-### Abrufen einer Bildvorgabe-URL aus „Vorschau“ {#obtaining-an-image-preset-url-from-preview}
+### Abrufen einer Bildvorgabe-URL aus der Vorschau {#obtaining-an-image-preset-url-from-preview}
 
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Rasteransicht“]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und klicken Sie dann unter dem Miniaturbild auf **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Listenansicht“]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und klicken Sie dann rechts neben dem Miniaturbild auf **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Detailansicht“]**. Klicken Sie in derselben Symbolleiste auf **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabeliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabeliste]**.
 
 1. (Optional) Wählen Sie in der Liste &quot;Bildvorgabe&quot;in der Dropdown-Liste URL-Kodierung für URL-Kopiegenerierung die URL-Kodierung aus, die Sie beim Kopieren auf die URL des Bild-Assets anwenden möchten.
-1. Klicken Sie im Fenster Bildvorgabeliste oben rechts im Vorschaufenster auf **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp.
-1. Klicken Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste auf **[!UICONTROL Close]** , um zum Bildschirm &quot;Assets&quot;zurückzukehren.
+1. Wählen Sie im Fenster Bildvorgabenliste im rechten oberen Bereich des Vorschaufensters für den ausgewählten Vorgabetyp **[!UICONTROL URL kopieren]** aus.
+1. Wählen Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste die Option **[!UICONTROL Close]** aus, um zum Bildschirm &quot;Assets&quot;zurückzukehren.
 
-### Abrufen einer Bildvorgabe-URL im Durchsuchenbedienfeld {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Abrufen einer Bildvorgabe-URL aus dem Durchsuchenbedienfeld {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
-1. Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Rasteransicht“]**. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
-1. Klicken Sie über dem Assets-Fenster auf der rechten Seite der Symbolleiste auf **[!UICONTROL „Detailansicht“]**. 
-1. Klicken Sie auf **[!UICONTROL URLs]** im Bedienfeld auf der rechten Seite des Bildschirms, um die Liste der Bildvorgaben zu erweitern.
-1. Klicken Sie auf den Link **[!UICONTROL URL]** neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten.
+1. Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
+1. Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus.
+1. Wählen Sie im Bedienfeld auf der rechten Bildschirmseite **[!UICONTROL URLs]** aus, damit Sie die Liste der Bildvorgaben erweitern können.
+1. Wählen Sie den Link **[!UICONTROL URL]** neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten.
 
 ## URL-Zeichenfolgen zu Bildvorgaben {#about-image-preset-url-strings}
 
@@ -78,9 +78,9 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. Wenn ein Dynamic Media-Bildserver auf den Bildvorgabenteil der URL trifft (in diesem Fall auf `Large`), wobei die Größen- und Formatierungsanweisungen verwendet werden, die von der Bildvorgabe &quot;Groß&quot;definiert werden.
 
-## Einfügen dynamischer Bilder in Websites {#adding-dynamic-images-to-your-web-page}
+## Dynamische Bilder zu Ihrer Webseite hinzufügen {#adding-dynamic-images-to-your-web-page}
 
-Um Ihrer Web-Seite dynamische Bilder hinzuzufügen, wird das Tag `<IMG>` im HTML-Webseitencode in der Regel mithilfe der Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anforderung an Dynamic Media-Image-Server zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
+Um Ihrer Web-Seite dynamische Bilder hinzuzufügen, wird das Tag `<IMG>` im HTML-Webseitencode in der Regel mithilfe der Adobe Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anforderung an Dynamic Media-Image-Server zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
 
 Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise dies:
 
@@ -88,7 +88,7 @@ Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise die
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Sie verwenden jetzt das Tag `<IMG>`, um den Verweis auf ein statisches Bild durch einen Bildvorgabenaufruf für die Dynamic Media Classic-Plattform zu ersetzen. Hier ein Beispiel:
+Sie verwenden jetzt das Tag `<IMG>`, um den Verweis auf ein statisches Bild durch einen Bildvorgabenaufruf für die Adobe Dynamic Media Classic-Plattform zu ersetzen. Hier ein Beispiel:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”

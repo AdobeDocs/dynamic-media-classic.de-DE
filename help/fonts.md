@@ -1,6 +1,6 @@
 ---
 title: Schriftarten
-description: Erfahren Sie, wie Sie Schriftarten in Dynamic Media Classic verwenden.
+description: Erfahren Sie, wie Sie Schriftarten in Adobe Dynamic Media Classic verwenden.
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 33%
+source-wordcount: '429'
+ht-degree: 28%
 
 ---
 
 # Schriftarten{#fonts}
 
-Manchmal erfordert Dynamic Media Classic, dass Sie eine Schriftartdatei hochladen, um Text in einer bestimmten Schriftart einzugeben oder zu rendern. Wenn Sie beispielsweise eine bestimmte Schriftart für Text auf einer Vorlagenebene verwenden möchten, laden Sie die entsprechende Schriftartdatei hoch. Wenn die Seitenzahlen des E-Katalog-Viewers in einer bestimmten Schriftart angezeigt werden sollen, laden Sie die entsprechende Schriftartdatei hoch.
+Manchmal erfordert es Adobe Dynamic Media Classic, dass Sie eine Schriftartdatei hochladen, um Text in einer bestimmten Schriftart einzugeben oder zu rendern. Wenn Sie beispielsweise eine bestimmte Schriftart für Text auf einer Vorlagenebene verwenden möchten, laden Sie die entsprechende Schriftartdatei hoch. Wenn die Seitenzahlen des E-Katalog-Viewers in einer bestimmten Schriftart angezeigt werden sollen, laden Sie die entsprechende Schriftartdatei hoch.
 
-Dynamic Media Classic unterstützt die folgenden Schriftarten:
+Adobe Dynamic Media Classic unterstützt diese Schrifttypen:
 
 * Alle TrueType-Schriftarten
 * PostScript® fonts
@@ -29,21 +29,21 @@ Dynamic Media Classic unterstützt die folgenden Schriftarten:
 * OpenType/PostScript-Schriftarten
 * PhotoFonts
 
-Nachdem eine Schriftartdatei hochgeladen wurde, können Sie die Dynamic Media Classic-ID, den Schriftnamen und die Informationen im Bildschirm &quot;Informationen bearbeiten&quot;ändern.
+Nachdem eine Schriftartdatei hochgeladen wurde, können Sie die Adobe Dynamic Media Classic ID, den Schriftnamen und die Informationen auf dem Bildschirm &quot;Informationen bearbeiten&quot;ändern.
 
 >[!NOTE]
 >
->Dynamic Media Classic empfiehlt das Hochladen aller Schriftstile (fett, kursiv, fett/kursiv und normal), wenn Sie Schriftarten in Vorlagenschichten verwenden möchten. Dynamic Media Classic benötigt diese Schriftstile, um Anforderungen zu verarbeiten. Es ist außerdem zu empfehlen, alle PostScript-/Adobe-Type 1-Dateien, die einer Schriftart zugeordnet sind, hochzuladen, weil einige dieser Schriftarten detaillierte Kerning-Daten enthalten.
+>Adobe Dynamic Media Classic empfiehlt das Hochladen aller Schriftstile (fett, kursiv, fett/kursiv und normal), wenn Sie Schriftarten in Vorlagenschichten verwenden möchten. Adobe Dynamic Media Classic benötigt diese Schriftstile, um Anforderungen verarbeiten zu können. Es ist außerdem zu empfehlen, alle PostScript-/Adobe-Type 1-Dateien, die einer Schriftart zugeordnet sind, hochzuladen, weil einige dieser Schriftarten detaillierte Kerning-Daten enthalten.
 
 ## Hochladen von Schriftartdateien {#uploading-font-files}
 
-Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Schriftartdateien in einem beliebigen Dynamic Media Classic-Ordner speichern. Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
+Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Schriftartdateien in jedem beliebigen Adobe Dynamic Media Classic-Ordner speichern. Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
 
 ## Informationen zu Schriftartdateien bearbeiten {#editing-font-file-information}
 
 Sie können den ID-Namen einer Schriftart und deren Typinformationen ändern. Die Bearbeitung einer Schriftartdatei kann für Suchvorgänge hilfreich sein und das Auffinden von Schriftarten erleichtern.
 
-Wählen Sie die zu bearbeitende Schriftartdatei in der Detailansicht des Durchsuchenbedienfelds und wählen Sie „Datei“ > „Informationen bearbeiten“. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen und dann **[!UICONTROL Submit]** aus.
+Wählen Sie im Durchsuchenbedienfeld in der Detailansicht die Schriftartdatei aus, die Sie bearbeiten möchten, und wählen Sie &quot;Datei&quot;> &quot;Informationen bearbeiten&quot;. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen und dann **[!UICONTROL Submit]** aus.
 
 * **[!UICONTROL Schriftname]**  - Dieser Name gibt die Schriftart bei der Veröffentlichung an.
 

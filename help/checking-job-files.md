@@ -1,6 +1,6 @@
 ---
 title: Überprüfen von Auftragsdateien
-description: Erfahren Sie, wie Sie Auftragsdateien in Dynamic Media Classic überprüfen.
+description: Erfahren Sie, wie Sie Auftragsdateien in Adobe Dynamic Media Classic überprüfen.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 40%
 
 ---
 
 # Überprüfen von Auftragsdateien{#checking-job-files}
 
-Zur Überwachung von Datei-Uploads in Dynamic Media Classic und von Dateien, die Sie auf Dynamic Media Classic-Servern veröffentlichen, bietet Dynamic Media Classic die Seite &quot;Aufträge&quot;. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
+Zur Überwachung von Datei-Uploads in die Adobe Dynamic Media Classic und von Dateien, die Sie auf Adobe Dynamic Media Classic-Servern veröffentlichen, bietet Adobe Dynamic Media Classic die Seite &quot;Aufträge&quot;. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
 
 Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können das Symbol auswählen, um weitere Informationen zum aktiven Auftrag anzuzeigen.
 
@@ -41,7 +41,7 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 * **[!UICONTROL Gesamt]**  - Die Anzahl der übertragenen Dateien.
 
-* **[!UICONTROL W (Warnungen)]**  - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispielsweise enthalten die Dateien `.DS_store` (Macintosh) und Thumbs.db (Windows®) Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht auf die Verwendung dieser Dateien in Dynamic Media Classic beziehen. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+* **[!UICONTROL W (Warnungen)]**  - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispielsweise enthalten die Dateien `.DS_store` (Macintosh) und Thumbs.db (Windows®) Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
 * **[!UICONTROL E (Fehler)]**  - Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
@@ -71,7 +71,7 @@ Mit den folgenden Verfahren können Sie Aufträge sortieren oder die Ansicht der
 
 ## Anzeigen, Kopieren oder Drucken eines Berichts &quot;Auftragsdetails&quot; {#viewing-copying-or-printing-a-job-details-report}
 
-Doppelklicken Sie auf der Seite &quot;Aufträge&quot;auf den Namen eines Berichts, damit die Seite &quot;Auftragsdetails&quot;geöffnet wird. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Wählen Sie **[!UICONTROL Detail anzeigen]** aus, damit Sie die Dynamic Media Classic-ID, den Zielpfad und die Statusinformationen eines Eintrags sehen können. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Dynamic Media Classic nicht verfügbar sind, werden im Bericht die fehlenden Schriftarten aufgelistet.
+Doppelklicken Sie auf der Seite &quot;Aufträge&quot;auf den Namen eines Berichts, damit die Seite &quot;Auftragsdetails&quot;geöffnet wird. Auf dieser Seite werden die im Auftrag enthaltenen Dateien aufgelistet. Wählen Sie **[!UICONTROL Detail anzeigen]** aus, damit Sie die Adobe Dynamic Media Classic ID, den Zielpfad und die Statusinformationen eines Eintrags sehen können. Wenn Sie eine PDF- oder PostScript-Datei hochgeladen haben, für die Schriftarten erforderlich sind, die in Adobe Dynamic Media Classic nicht verfügbar sind, werden im Bericht die fehlenden Schriftarten aufgelistet.
 
 Sie können diese Informationen in die Zwischenablage kopieren.
 

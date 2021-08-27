@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Vorlagen
-description: Erfahren Sie, wie Sie eine Vorlage in Dynamic Media Classic erstellen.
+description: Erfahren Sie, wie Sie eine Vorlage in Adobe Dynamic Media Classic erstellen.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3405'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ Um eine Vorlage zu erstellen, gehen Sie zu **[!UICONTROL Build]** > **[!UICONTRO
 
 >[!NOTE]
 >
->Wenn Sie eine Vorlage bearbeiten, die in einer früheren Version von Dynamic Media Classic erstellt wurde, werden Sie aufgefordert, beim Speichern von &quot;Möchten Sie eine Arbeitsflächenebene hinzufügen?&quot;zu speichern. Wählen Sie **[!UICONTROL Nein]** aus, um das Hinzufügen einer Basisebene zu vermeiden. Wenn Sie versehentlich **[!UICONTROL Ja]** auswählen, löschen Sie die Modifikatoren `&allowCanvasPrompt` und `&layer=0` in der URL und drücken Sie die **[!UICONTROL Eingabetaste]** oder die **[!UICONTROL Eingabetaste]**.
+>Wenn Sie eine Vorlage bearbeiten, die in einer früheren Version von Adobe Dynamic Media Classic erstellt wurde, werden Sie aufgefordert, beim Speichern von &quot;Möchten Sie eine Arbeitsflächenebene hinzufügen?&quot;zu fragen. Wählen Sie **[!UICONTROL Nein]** aus, um das Hinzufügen einer Basisebene zu vermeiden. Wenn Sie versehentlich **[!UICONTROL Ja]** auswählen, löschen Sie die Modifikatoren `&allowCanvasPrompt` und `&layer=0` in der URL und drücken Sie die **[!UICONTROL Eingabetaste]** oder die **[!UICONTROL Eingabetaste]**.
 
 ## Erstellen der ursprünglichen Vorlage {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 1. Wählen Sie **[!UICONTROL Save]** aus.
 1. Wählen Sie einen Ordner zum Speichern der Vorlage aus, geben Sie einen Namen für die Vorlage ein und wählen Sie **[!UICONTROL Submit]** aus.
 
-   Dynamic Media Classic verkleinert Bilder bei Bedarf, um sie auf die Arbeitsfläche anzupassen (der Bereich auf dem Bildschirm &quot;Vorlage&quot;zur Definition Ihrer Vorlage).
+   Adobe Dynamic Media Classic schrumpft Bilder bei Bedarf auf der Arbeitsfläche, also im Bereich auf dem Vorlagenbildschirm zur Definition Ihrer Vorlage.
 
 ## Vorlagensatz bearbeiten {#editing-a-template-set}
 
@@ -103,7 +103,7 @@ Verwenden Sie diese Tools auf dem Bildschirm &quot;Vorlage&quot;, um Vorlagen zu
 
    >[!NOTE]
    >
-   >Die Version 4.2 des Texteditors ist als Option in Dynamic Media Classic geplant. Daher wird empfohlen, nach Möglichkeit den Texteditor 4.3 zu verwenden. Die Option **[!UICONTROL Wortumbruch]** wird in eine künftige Version des Texteditors eingefügt.
+   >Der Texteditor v4.2 ist als Option in Adobe Dynamic Media Classic geplant. Daher wird empfohlen, den Texteditor 4.3 nach Möglichkeit zu verwenden. Die Option **[!UICONTROL Wortumbruch]** wird in eine künftige Version des Texteditors eingefügt.
 
 * **[!UICONTROL Designer und Entwickler]**  - Wählen Sie die Option, die Ihre Rolle am besten beschreibt.
 
@@ -121,7 +121,7 @@ Verwenden Sie diese Tools auf dem Bildschirm &quot;Vorlage&quot;, um Vorlagen zu
 
    >[!NOTE]
    >
-   >Bei Bedarf verkleinert Dynamic Media Classic die Bilder, damit sie beim Erstellen einer Bildebene auf die Arbeitsfläche passen.
+   >Bei Bedarf verkleinert Adobe Dynamic Media Classic die Bilder, damit sie beim Erstellen einer Bildebene auf die Arbeitsfläche passen.
 
 ## Erstellen einer Textebene {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 1. Wählen Sie im Textfeld des Texteditors den Text aus, den Sie formatieren möchten. Sie können den gesamten Text, Teile des Textes oder einzelne Zeichen auswählen.
 1. Geben Sie eine der folgenden Formatierungsoptionen an und wählen Sie dann **[!UICONTROL Apply]** aus.
 
-   * **[!UICONTROL Schrift]**  - Wählen Sie eine Schrift im Menü &quot;Schrift&quot;. Wenn eine gewünschte Schriftart nicht im Menü angezeigt wird, können Sie sie in Dynamic Media Classic hochladen. Siehe Schriftarten.
+   * **[!UICONTROL Schrift]**  - Wählen Sie eine Schrift im Menü &quot;Schrift&quot;. Wenn eine gewünschte Schriftart nicht im Menü angezeigt wird, können Sie sie in die Adobe Dynamic Media Classic hochladen. Siehe Schriftarten.
 
    * **[!UICONTROL Schriftgröße]**  - Wählen Sie eine Schriftgröße aus dem Menü aus, geben Sie eine bestimmte Größe in das Feld ein oder wählen Sie die  **** Nach-oben- **** Taste, um die Schriftgröße um zwei Punkte zu erhöhen oder zu verringern.
 
@@ -244,7 +244,7 @@ Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie k�
 
 >[!NOTE]
 >
->Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der exakten Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Bildvorgaben einrichten](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic empfiehlt die Erstellung einer Bildvorgabe, die der exakten Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Bildvorgaben einrichten](setting-image-presets.md#setting_up_image_presets).
 
 * **Ändern der Größe einer Ebene** : Um die Größe einer Ebene oder der Arbeitsfläche zu ändern, wählen Sie die Ebene oder Arbeitsfläche in der Liste &quot;Ebenen&quot;aus und verwenden Sie eine der folgenden Methoden:
 
@@ -288,7 +288,7 @@ Um die Hintergrundfarbe, Deckkraft und den Übergangsmodus für eine Ebene oder 
 
 ## Schatten- und Schatteneffekte auf Ebenen verwenden {#using-shadow-and-glow-effects-on-layers}
 
-Sie können einen Schatten- oder Schein-Effekt auf eine Ebene anwenden. Der Schatten- oder Schein-Effekt wird auf den Umfang der Ebene angewendet und kann nach innen oder außen gerichtet sein, je nachdem, welche Schatten- oder Schein-Option Sie wählen. Wenn Ihre Vorlage aus einer PSD-Datei mit Schatten- und Schein-Effekten stammt, können Sie diese Effekte in Dynamic Media Classic anpassen.
+Sie können einen Schatten- oder Schein-Effekt auf eine Ebene anwenden. Der Schatten- oder Schein-Effekt wird auf den Umfang der Ebene angewendet und kann nach innen oder außen gerichtet sein, je nachdem, welche Schatten- oder Schein-Option Sie wählen. Wenn Ihre Vorlage aus einer PSD-Datei mit Schatten- und Schein-Effekten stammt, können Sie diese Effekte in Adobe Dynamic Media Classic anpassen.
 
 Nachdem Sie einen Schatten- oder Schein-Effekt angewendet haben, können Sie dessen Größe, Farbe, Deckkraft und Position im Bereich „Ebeneneigenschaften“ des Anzeigebereichs „Vorlage“ anpassen.
 

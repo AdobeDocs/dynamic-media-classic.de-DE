@@ -1,18 +1,18 @@
 ---
 title: Hinzufügen von Kapitelmarken zu Videos
-description: Erfahren Sie, wie Sie in Dynamic Media Classic Kapitelmarken zu einem Video hinzufügen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Kapitelmarken zu einem Video hinzufügen.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Viewer,Video
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 42%
 
 ---
@@ -57,7 +57,7 @@ Siehe [WebVTT: Der Web-Video-Text verfolgt das Format](https://w3c.github.io/web
 
 **So fügen Sie Kapitelmarken zu Video hinzu:**
 
-1. Erstellen Sie Ihre Videokapiteldatei mit einem einfachen Texteditor außerhalb von Dynamic Media Classic.
+1. Erstellen Sie Ihre Videokapiteldatei mit einem einfachen Texteditor außerhalb der Adobe Dynamic Media Classic.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Siehe [WebVTT: Der Web-Video-Text verfolgt das Format](https://w3c.github.io/web
 
    Im Allgemeinen sollte die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und über den Dateinamenanhang `chapters` verfügen. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen.
 
-1. Laden Sie in Dynamic Media Classic Ihre WebVTT-Kapiteldatei hoch.
+1. Laden Sie in Adobe Dynamic Media Classic Ihre WebVTT-Kapiteldatei hoch.
 
    Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
 

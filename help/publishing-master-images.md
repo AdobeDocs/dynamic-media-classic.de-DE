@@ -10,20 +10,20 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
 
 # Veröffentlichen der Masterbilder{#publishing-master-images}
 
-Beim Veröffentlichen Ihrer Bilddateien werden diese auf Dynamic Media-Image-Servern veröffentlicht, auf denen sie für Ihre Website und Anwendung verfügbar sind. Darüber hinaus aktiviert Dynamic Media Classic während des Veröffentlichungsprozesses die URL-Zeichenfolgen, die Sie für Ihre Website und Anwendung benötigen.
+Beim Veröffentlichen Ihrer Bilddateien werden diese auf Dynamic Media-Image-Servern veröffentlicht, auf denen sie für Ihre Website und Anwendung verfügbar sind. Darüber hinaus aktiviert Adobe Dynamic Media Classic während des Veröffentlichungsprozesses die URL-Zeichenfolgen, die Sie für Ihre Website und Anwendung benötigen.
 
 ## Markieren von Masterbildern zur Veröffentlichung {#marking-master-images-for-publish}
 
-Übergeordnete Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Übergeordneten Bilder im Durchsuchenbedienfeld zur Veröffentlichung markieren, indem Sie auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** klicken. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie in Dynamic Media Classic hochladen.
+Übergeordnete Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Übergeordneten Bilder im Durchsuchenbedienfeld zur Veröffentlichung markieren, indem Sie auf das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** klicken. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie in Adobe Dynamic Media Classic hochladen.
 
 ## Veröffentlichen von Masterbildern {#publishing-your-master-images}
 

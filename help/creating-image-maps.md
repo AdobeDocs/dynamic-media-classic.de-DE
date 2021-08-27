@@ -1,6 +1,6 @@
 ---
 title: Imagemaps erstellen
-description: Erfahren Sie, wie Sie in Dynamic Media Classic Imagemaps erstellen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Imagemaps erstellen.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 50%
+source-wordcount: '2422'
+ht-degree: 49%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 50%
 
 Eine Imagemap ist ein Bereich auf einem Bild oder einer E-Katalog-Seite oder ein Bild in einem Rotationsset, mit dessen Hilfe ein Bedienfeld mit Rollover-Text angezeigt werden kann. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise kann eine Website aufgerufen werden, auf der der Benutzer mehr über ein Produkt erfährt. Um eine Imagemap wird ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
 
-Neben der Möglichkeit, in Dynamic Media Classic Imagemaps zu erstellen, können Sie beim Erstellen eines Katalogs in Adobe Acrobat oder Adobe InDesign auch Imagemaps erstellen.
+Neben der Möglichkeit, in Adobe Dynamic Media Classic Imagemaps zu erstellen, können Sie bei der Erstellung eines Katalogs in Adobe Acrobat oder Adobe InDesign auch Imagemaps erstellen.
 
 Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 
@@ -50,9 +50,9 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 
    * **Polygonale Karte**  - Wählen Sie das Polygon-Imagemap-Tool aus und wählen Sie Punkte auf dem Umfang des Bildbereichs aus, den Sie einschließen möchten. Verwenden Sie den Regler für die Dichte des Polygons, um die Punktdichte im Polygon zu ändern. Die ursprüngliche Dichte wird wiederhergestellt, wenn Sie andere Maps auswählen. Wenn ein Punkt im Polygon hinzugefügt, gelöscht oder verschoben wird, wird die ursprüngliche Dichte verworfen und der Regler auf den Maximalwert zurückgesetzt.
 
-1. Geben Sie optional in der Imagemap-Liste einen Namen für die Imagemap ein. Nachdem Sie eine Imagemap gezeichnet haben, weist Dynamic Media Classic ihr einen Namen zu.
+1. Geben Sie optional in der Imagemap-Liste einen Namen für die Imagemap ein. Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen zu.
 
-   Um den Namen zu erstellen, hängt Dynamic Media Classic eine sequenzielle Nummer an den Namen des Bilds oder der E-Katalog-Seite an, mit der Sie arbeiten. Sie können jedoch auch einen Namen Ihrer Wahl eingeben.
+   Um den Namen zu erstellen, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen des Bildes oder der E-Katalog-Seite an, mit der Sie arbeiten. Sie können jedoch auch einen Namen Ihrer Wahl eingeben.
 
 1. Wenn Sie möchten, dass Benutzer beim Auswählen der Imagemap eine neue Webseite öffnen, geben Sie die URL in die Liste &quot;Imagemap&quot;ein.
 
@@ -126,7 +126,7 @@ Das Kopieren von Imagemaps in einem E-Katalog ist zum Beispiel eine praktische M
 
 ## Verwenden Sie eine Vorlage, um JavaScript und URLs einzugeben. {#using-a-template-to-enter-javascript-and-urls}
 
-Sie können eine URL-Vorlage (auch Href-Vorlage genannt) definieren, um das Eingeben von Imagemap-URLs einfacher und effizienter zu machen. Es ist sinnvoll, eine URL-Vorlage zu definieren, wenn die meisten Ihrer Imagemap-URLs ein gemeinsames festes Format haben. Wenn Sie den gleich bleibenden Teil der URL als Vorlage definieren, brauchen Sie diesen Teil beim Erstellen einer neuen Imagemap-URL nicht jedes Mal erneut einzugeben. Eine URL-Vorlage kann auch JavaScript-Befehle, Pfadnamen und Parameter enthalten. Standardmäßig enthält die URL-Vorlage einen proprietären Dynamic Media Classic-JavaScript-Handler namens `loadProduct`, der das Bild in einem neuen Fenster öffnet.
+Sie können eine URL-Vorlage (auch Href-Vorlage genannt) definieren, um das Eingeben von Imagemap-URLs einfacher und effizienter zu machen. Es ist sinnvoll, eine URL-Vorlage zu definieren, wenn die meisten Ihrer Imagemap-URLs ein gemeinsames festes Format haben. Wenn Sie den gleich bleibenden Teil der URL als Vorlage definieren, brauchen Sie diesen Teil beim Erstellen einer neuen Imagemap-URL nicht jedes Mal erneut einzugeben. Eine URL-Vorlage kann auch JavaScript-Befehle, Pfadnamen und Parameter enthalten. Standardmäßig enthält die URL-Vorlage einen proprietären JavaScript-Handler der Adobe Dynamic Media Classic namens `loadProduct` , der das Bild in einem neuen Fenster öffnet.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Sie platzieren alle Werte, die sich nicht zwischen Imagemaps ändern, in der URL
 * URL-Wert - `product.htm`
 * Tatsächliche URL generiert - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Standardmäßig enthält die URL-Vorlage einen proprietären Dynamic Media Classic-JavaScript-Handler namens `loadProduct` , der ein neues Fenster mit dem URL-Ziel öffnet. Sie können jedoch beliebigen JavaScript-Code verwenden, um diesen JavaScript-Handler zu ersetzen, oder einen der folgenden Dynamic Media Classic-Handler verwenden:
+Standardmäßig enthält die URL-Vorlage einen proprietären JavaScript-Handler der Adobe Dynamic Media Classic namens `loadProduct` , der ein neues Fenster mit dem URL-Ziel öffnet. Sie können jedoch beliebigen JavaScript-Code verwenden, um diesen JavaScript-Handler zu ersetzen, oder einen der folgenden Adoben für Dynamic Media Classic-Handler verwenden:
 
 * `loadProductCW` - Zeigt das URL-Ziel an, das in der Spalte „URL“ des aktuellen Fensters angegeben ist. Dieser Handler ist hauptsächlich für E-Kataloge vorgesehen, die in eine Seite innerhalb einer Website integriert sind.
 
@@ -192,7 +192,7 @@ Wählen Sie das Menü **[!UICONTROL Anzeigen]** und dann **[!UICONTROL Beide]** 
 
 Sie können Imagemaps während des Entwerfens Ihres E-Katalogs in Adobe Acrobat oder Adobe InDesign erstellen.
 
-Erstellen Sie in Acrobat oder InDesign Hyperlinks an den Stellen, an denen die Imagemaps angezeigt werden sollen. Geben Sie die entsprechende URL für die Imagemaps an. Wenn Sie beim Hochladen der PDF-Datei in Dynamic Media Classic die Option Links extrahieren auswählen, werden die Links automatisch in Imagemaps konvertiert.
+Erstellen Sie in Acrobat oder InDesign Hyperlinks an den Stellen, an denen die Imagemaps angezeigt werden sollen. Geben Sie die entsprechende URL für die Imagemaps an. Wenn Sie beim Hochladen der PDF-Datei in Adobe Dynamic Media Classic die Option Verknüpfungen extrahieren auswählen, werden die Links automatisch in Imagemaps konvertiert.
 
 Weitere Informationen finden Sie in der Hilfe zu Adobe InDesign oder in der Adobe Acrobat-Hilfe.
 
@@ -203,15 +203,15 @@ Weitere Informationen finden Sie in der Hilfe zu Adobe InDesign oder in der Adob
 1. Wählen Sie **[!UICONTROL Neuer Hyperlink]** aus dem Bedienfeldmenü aus.
 1. Wählen Sie im Dialogfeld Neuer Hyperlink im Menü **[!UICONTROL Link zu]** die Option **[!UICONTROL URL]**.
 1. Geben Sie die Produkt-ID in das Feld &quot;URL&quot;ein oder fügen Sie sie ein.
-1. Wählen Sie **[!UICONTROL OK]** aus. (Dynamic Media Classic vervollständigt die URL mit der URL-Vorlage für Imagemap.)
+1. Wählen Sie **[!UICONTROL OK]** aus. (Adobe Dynamic Media Classic vervollständigt die URL mit der URL-Vorlage &quot;Imagemap&quot;.)
 
    >[!NOTE]
    >
-   >Sie müssen keine Darstellungsoptionen in Adobe InDesign festlegen. Sie können das Erscheinungsbild in Dynamic Media Classic festlegen.
+   >Sie müssen keine Darstellungsoptionen in Adobe InDesign festlegen. Sie können das Erscheinungsbild in Adobe Dynamic Media Classic festlegen.
 
 1. Wiederholen Sie Schritt 2 bis 6 für alle Imagemaps, die Sie erstellen möchten.
 1. Exportieren Sie die Datei als PDF.
-1. Laden Sie die PDF-Datei in Dynamic Media Classic hoch.
+1. Laden Sie die PDF-Datei in Adobe Dynamic Media Classic hoch.
 1. Wählen Sie unter **[!UICONTROL PDF Options]** **[!UICONTROL Extract Links]** aus.
 
 ### So erstellen Sie Imagemaps in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -222,11 +222,11 @@ Weitere Informationen finden Sie in der Hilfe zu Adobe InDesign oder in der Adob
 
 >[!NOTE]
 >
->Sie müssen keine Darstellungsoptionen in Adobe Acrobat festlegen. Sie können das Erscheinungsbild in Dynamic Media Classic festlegen.
+>Sie müssen keine Darstellungsoptionen in Adobe Acrobat festlegen. Sie können das Erscheinungsbild in Adobe Dynamic Media Classic festlegen.
 
 1. Wählen Sie im Feld &quot;Link Properties&quot;die Option **[!UICONTROL Actions]**.
 1. Wählen Sie **[!UICONTROL Öffnen Sie einen Web-Link]** aus dem Menü Aktion auswählen und wählen Sie dann **[!UICONTROL Hinzufügen]** aus.
-1. Geben Sie die Produkt-ID für die Imagemap in das Feld &quot;URL bearbeiten&quot;ein und wählen Sie **[!UICONTROL OK]** aus. (Dynamic Media Classic vervollständigt die URL mit der URL-Vorlage für die Imagemap.)
+1. Geben Sie die Produkt-ID für die Imagemap in das Feld &quot;URL bearbeiten&quot;ein und wählen Sie **[!UICONTROL OK]** aus. (Adobe Dynamic Media Classic vervollständigt die URL mit der URL-Vorlage für die Imagemap.)
 1. Wiederholen Sie Schritt 1 bis 7 für alle Imagemaps, die Sie erstellen möchten.
 1. Speichern Sie die Datei.
-1. Laden Sie die PDF-Datei in Dynamic Media Classic hoch und wählen Sie aus den PDF-Optionen die Option Links extrahieren aus.
+1. Laden Sie die PDF-Datei in Adobe Dynamic Media Classic hoch und wählen Sie aus den PDF-Optionen die Option Verknüpfungen extrahieren aus.

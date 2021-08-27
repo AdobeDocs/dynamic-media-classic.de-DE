@@ -9,10 +9,10 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 68%
+source-wordcount: '375'
+ht-degree: 69%
 
 ---
 
@@ -25,7 +25,7 @@ Die folgenden beiden Einschränkungen gelten, wenn Sie Bild-Asset über eine ben
 * Die komprimierte Zip-Exportdatei kann für den Exportauftrag maximal 1 GB groß sein.
 * Sie können maximal 500 Assets pro Exportauftrag haben.
 
-Siehe auch [Exportieren von Assets aus Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Siehe auch [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **So legen Sie Exportoptionen fest, die für Media Portal-Benutzer verfügbar sind:**
 
@@ -43,5 +43,5 @@ Siehe auch [Exportieren von Assets aus Dynamic Media Classic](exporting-assets-f
 >[!MORELIKETHIS]
 >
 >* [Bildvorgaben](application-setup.md#image_presets)
-* [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

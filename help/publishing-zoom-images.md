@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic,Viewer,Zoom
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 20%
+source-wordcount: '147'
+ht-degree: 21%
 
 ---
 
 # Veröffentlichen von Zoombildern{#publishing-zoom-images}
 
-Beim Veröffentlichen werden Ihre Zoombilder auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen in den HTML-Code Ihrer Website einfügen.
+Beim Veröffentlichen werden Ihre Zoombilder auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen in den HTML-Code Ihrer Website einfügen.
 
 ## Markieren von Bildern zur Veröffentlichung {#marking-images-for-publish}
 

@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit PDF-Dateien
-description: Erfahren Sie, wie Sie in Dynamic Media Classic mit PDFs arbeiten.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic mit PDFs arbeiten.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 45%
 
 ---
 
 # Arbeiten mit PDF-Dateien{#working-with-pdfs}
 
-PDF-Dateien (Portable Document Format) werden meist in Dynamic Media Classic zum Erstellen von E-Katalogen verwendet. Beim Hochladen einer PDF-Datei rastert Dynamic Media Classic die Seiten standardmäßig, sodass die Seiten zum Erstellen von Rich-Media-Daten verwendet werden können.
+PDF-Dateien (Portable Document Format) werden meist in Adobe Dynamic Media Classic zum Erstellen von E-Katalogen verwendet. Wenn Sie eine PDF-Datei hochladen, rastert Adobe Dynamic Media Classic die Seiten standardmäßig, sodass die Seiten zum Erstellen von Rich-Media-Daten verwendet werden können.
 
 ## Optionen für das Hochladen von PDF-Dateien {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ Wählen Sie im Menü „Farbraum“ einen Farbraum für die PDF-Datei aus. Die m
 
 * **Originalfarbraum beibehalten**  - Behält den ursprünglichen Farbraum bei.
 
-* **Benutzerdefiniert von > in**  - Öffnet Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Dynamic Media Classic hochgeladen haben.
+* **Benutzerdefiniert von > in**  - Öffnet Menüs, damit Sie einen Farbraum vom Typ &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
 
 Siehe auch [ICC-Profile](/help/icc-profiles.md#icc_profiles).
 

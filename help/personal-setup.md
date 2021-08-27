@@ -1,6 +1,6 @@
 ---
 title: Persönliche Einstellungen
-description: Alle Benutzer können die Einstellungen im Bildschirm "Persönliche Einstellungen"von Dynamic Media Classic ändern.
+description: Alle Benutzer können die Einstellungen im Bildschirm "Persönliche Einstellungen"von Adobe Dynamic Media Classic ändern.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 28%
 
 ---
@@ -23,7 +23,7 @@ Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von
 
 >[!NOTE]
 >
->Im Bildschirm Persönliche Einstellungen wird angezeigt, welche Benutzerrolle Sie in Dynamic Media Classic haben: Unternehmensadministrator, Administrator oder Benutzer.
+>Im Bildschirm Persönliche Einstellungen wird angezeigt, welche Benutzerrolle Sie in Adobe Dynamic Media Classic haben: Unternehmensadministrator, Administrator oder Benutzer.
 
 Die persönlichen Einstellungen steuern das Standardverhalten des Durchsuchenbedienfelds, den E-Mail-Empfang und die Kennworteinstellungen. Vergessen Sie nicht, nach dem Ändern dieser Einstellungen auf „Speichern“ zu klicken.
 
@@ -45,7 +45,7 @@ Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm lösche
 
 **So installieren Sie die Adobe Dynamic Media Creative Suite Extension:**
 
-1. Klicken Sie in Dynamic Media Classic in der Symbolleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]** und klicken Sie unter &quot;Creative Suite Extension&quot;auf **[!UICONTROL Jetzt herunterladen]** , um die Datei `s7csxs.zxp` herunterzuladen.
+1. Klicken Sie in Adobe Dynamic Media Classic in der Symbolleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]** und klicken Sie unter &quot;Creative Suite Extension&quot;auf **[!UICONTROL Jetzt herunterladen]** , um die Datei `s7csxs.zxp` herunterzuladen.
 1. Klicken Sie auf die Links **[!UICONTROL Installation]** und **[!UICONTROL Systemanforderungen]**, um weitere Informationen zur Erweiterung zu erhalten.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## E-Mail an Freunde senden
 
-* **E-Mail-Optionen**  - Wählen Sie aus, wie Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
+* **E-Mail-Optionen**  - Wählen Sie aus, wie Adobe Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
 * **E-Mail-Umfang**  - Bestimmt, ob Sie die gesamte Auftrags-E-Mail für Ihr Unternehmen erhalten oder nur E-Mails zu Upload- und Veröffentlichungsaufträgen erhalten, die Sie initiieren.
 * **E-Mail-Typen**  - Bestimmt, ob Sie informiert werden, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
 

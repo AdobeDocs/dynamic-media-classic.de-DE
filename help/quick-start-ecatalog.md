@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 50%
+source-wordcount: '1430'
+ht-degree: 48%
 
 ---
 
@@ -47,13 +47,13 @@ Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in de
 >
 >Klicken Sie oben links auf der CRXDE Lite auf **[!UICONTROL Alle speichern]**.
 >
->Sie können jetzt E-Kataloge in Dynamic Media Classic erstellen.
+>Sie können jetzt E-Kataloge in Adobe Dynamic Media Classic erstellen.
 
 Diese Kurzanleitung für die Erstellung eines E-Katalogs hilft Ihnen, sich schnell mit den E-Katalogfunktionen vertraut zu machen. Führen Sie die Schritte 1 bis 7 aus. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
 
 ## 1. Hochladen der PDF-Dateien
 
-Normalerweise werden Adobe PDF-Dateien als Grundlage für einen E-Katalog verwendet. Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Dynamic Media Classic erkennt diese Bilder und konvertiert sie mithilfe eines standardmäßigen CMYK-Farbprofils. Sie müssen jedoch ein benutzerdefiniertes Farbprofil hochladen und verwenden.
+Normalerweise werden Adobe PDF-Dateien als Grundlage für einen E-Katalog verwendet. Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Adobe Dynamic Media Classic erkennt diese Bilder und konvertiert sie mithilfe eines standardmäßigen CMYK-Farbprofils. Sie müssen jedoch ein benutzerdefiniertes Farbprofil hochladen und verwenden.
 
 Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Upload]** , um mit dem Hochladen von PDF-Dateien oder Bildern für Ihren E-Katalog zu beginnen. Sie können die Dateien entweder vom Desktop oder per FTP hochladen. FTP ist zu empfehlen, wenn Sie viele Dateien oder Dateien, die größer als 100 MB sind, hochladen möchten.
 
@@ -69,7 +69,7 @@ Wählen Sie auf der eCatalog-Seite auf der Registerkarte **[!UICONTROL Seiten so
 
 Um Seiten hinzuzufügen, wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten PDF-Dateien oder Bilddateien aus dem Ordner in den Anzeigebereich „Seiten ordnen“. Anstelle der standardmäßigen Seitenzahlen können Sie benutzerdefinierte Seitennamen angeben oder viele Seitennamen importieren.
 
-Klicken Sie auf **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren E-Katalog ein, wählen Sie einen Ordner in Dynamic Media Classic zum Speichern aus und klicken Sie auf **[!UICONTROL Speichern]**. Jedes Mal, wenn Sie die Seitenreihenfolge ändern oder den E-Katalog bearbeiten, speichern Sie Ihre Änderungen, indem Sie auf **[!UICONTROL Speichern]** klicken.
+Klicken Sie auf **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren E-Katalog ein, wählen Sie einen Ordner der Adobe Dynamic Media Classic zum Speichern aus und klicken Sie auf **[!UICONTROL Speichern]**. Jedes Mal, wenn Sie die Seitenreihenfolge ändern oder den E-Katalog bearbeiten, speichern Sie Ihre Änderungen, indem Sie auf **[!UICONTROL Speichern]** klicken.
 
 Siehe [Erstellen eines E-Katalogs](creating-ecatalog.md).
 
@@ -91,7 +91,7 @@ Siehe [Verwalten von Infofeldinhalten in E-Katalogen](/help/info-panel-content-e
 
 ## 4. Einrichten von E-Katalog-Viewer-Vorgaben
 
-Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können beispielsweise die Rahmenfarbe ändern und eine neue Skin zur Gestaltung des E-Katalogs auswählen. Dynamic Media Classic verfügt über mehrere bewährte eCatalog-Viewer-Vorgaben. Sie können eine dieser Vorgaben für die Anzeige Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
+Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können beispielsweise die Rahmenfarbe ändern und eine neue Skin zur Gestaltung des E-Katalogs auswählen. Adobe Dynamic Media Classic enthält mehrere bewährte eCatalog-Viewer-Vorgaben. Sie können eine dieser Vorgaben für die Anzeige Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
 Um eine E-Katalog-Viewer-Vorgabe zu erstellen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Einrichtung]** und wählen Sie **[!UICONTROL Viewer-Vorgaben]** aus. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform aus und klicken Sie dann auf **[!UICONTROL eCatalog > Viewer]**.
 
@@ -109,7 +109,7 @@ Siehe [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-e
 
 ## 6. Veröffentlichen des E-Katalogs und der zugehörigen PDFs
 
-Durch das Veröffentlichen Ihres E-Katalogs und der zugehörigen PDF-Datei wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Dynamic Media Classic die URL-Zeichenfolge für Ihren eCatalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
+Durch das Veröffentlichen Ihres E-Katalogs und der zugehörigen PDF-Datei wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren eCatalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
 
 Nachdem Sie Ihren E-Katalog und Ihre PDF-Datei im Durchsuchenbedienfeld zur Veröffentlichung markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Klicken Sie im Bildschirm &quot;Veröffentlichen&quot;auf **[!UICONTROL Veröffentlichen senden]**.
 
@@ -117,7 +117,7 @@ Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDFs](publishing-ecatal
 
 ## 7. Verknüpfen eines E-Katalogs mit einer Webseite
 
-Dynamic Media Classic aktiviert die URL-Callout-Zeichenfolge, die zum Anzeigen des E-Katalogs beim Veröffentlichen auf Dynamic Media-Image-Servern erforderlich ist. Sie können diese URL-Zeichenfolge aus dem Anzeigebereich „Vorschau“ sowie aus dem Durchsuchenbedienfeld (in der Detailansicht) kopieren, nachdem Sie im Bedienfeld URLs ausgewählt haben. Nach dem Kopieren ist die URL-Zeichenfolge für Ihre Websites und Anwendungen verfügbar.
+Adobe Dynamic Media Classic aktiviert die URL-Callout-Zeichenfolge, die für die Anzeige Ihres E-Katalogs beim Veröffentlichen auf Dynamic Media-Image-Servern erforderlich ist. Sie können diese URL-Zeichenfolge aus dem Vorschaubildschirm und dem Durchsuchenbedienfeld (in der Detailansicht) kopieren, indem Sie im Bedienfeld URLs auswählen. Nach dem Kopieren ist die URL-Zeichenfolge für Ihre Websites und Anwendungen verfügbar.
 
 Platzieren Sie die Verknüpfung zum E-Katalog an geeigneter Stelle auf Ihrer Website (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). Wenn Benutzer auf die Verknüpfung klicken, wird der E-Katalog-Viewer angezeigt, damit die Benutzer den E-Katalog durchsuchen können. 
 

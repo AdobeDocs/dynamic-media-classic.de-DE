@@ -10,16 +10,16 @@ discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 42%
+source-wordcount: '210'
+ht-degree: 43%
 
 ---
 
 # Arbeiten mit PostScript- und Illustrator-Dateien{#working-with-postscript-and-illustrator-files}
 
-Sie können Adobe PostScript® (EPS)- und Adobe® Illustrator® (AI)-Dateien in Dynamic Media Classic verwenden. Dynamic Media Classic bietet Befehle zum Konfigurieren dieser Dateien beim Hochladen.
+Sie können Adobe PostScript® (EPS)- und Adobe® Illustrator® (AI)-Dateien in Adobe Dynamic Media Classic verwenden. Adobe Dynamic Media Classic bietet Befehle zum Konfigurieren dieser Dateien beim Hochladen.
 
 Beim Hochladen von EPS- und AI-Bilddateien stehen Ihnen verschiedene Formatierungsmöglichkeiten zur Verfügung. Sie können die Dateien rastern, sie für die Vorlagenveröffentlichung in FXG konvertieren, einen transparenten Hintergrund festlegen sowie eine Auflösung und einen Farbraum wählen. Die Optionen zum Formatieren von PostScript- und Illustrator-Dateien finden Sie im Anzeigebereich „Hochladen“ unter „PostScript-Optionen“ bzw. im Feld „Upload-Auftragsoptionen“ unter „Illustrator-Optionen“.
 

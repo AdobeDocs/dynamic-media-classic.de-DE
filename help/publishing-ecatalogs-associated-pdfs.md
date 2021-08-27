@@ -10,16 +10,16 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 26%
 
 ---
 
 # Veröffentlichen von E-Katalogen und zugehörigen PDFs{#publishing-ecatalogs-and-associated-pdfs}
 
-Beim Veröffentlichen werden der E-Katalog und die PDF-Datei auf Dynamic Media-Image-Servern gespeichert, damit sie für Ihre Website oder Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Dynamic Media Classic die URL-Zeichenfolge. die Sie anschließend in den HTML-Code der Website einfügen können.
+Beim Veröffentlichen werden der E-Katalog und die PDF-Datei auf Dynamic Media-Image-Servern gespeichert, damit sie für Ihre Website oder Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. die Sie anschließend in den HTML-Code der Website einfügen können.
 
 >[!NOTE]
 >

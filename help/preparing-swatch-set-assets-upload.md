@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic,Viewer
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 82%
+source-wordcount: '173'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ Wenn Sie ein Musterset mit Farbfeldern erstellen möchten, benötigen Sie Vignet
 * Je eine Aufnahme der Jacke in Schwarz, Braun und Grün.
 * Je ein schwarzes, braunes und grünes Farbfeld.
 
-Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
+Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
 
 Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files).
 

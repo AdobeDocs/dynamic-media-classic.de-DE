@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Inhalten im Informationsbereich in E-Katalogen
-description: Erfahren Sie, wie Sie in Dynamic Media Classic den Inhalt des Info-Bedienfelds in E-Katalogen verwalten.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic den Inhalt des Info-Bedienfelds in E-Katalogen verwalten.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '866'
 ht-degree: 59%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darüber hinaus besteht jedoch auch die Möglichkeit, anhand eines Infofelds größere Mengen von Rollover-Text, einschließlich Links, hinzuzufügen. Zur Verwaltung des Infofelds können Sie zeitlich begrenztes Caching und geplante Inhaltsaktualisierungen verwenden.
 
-Sie können die Einrichtung und Daten des InfoPanel mit den folgenden Funktionen in Dynamic Media Classic verwalten:
+Sie können Ihre InfoPanel-Einrichtung und Ihre Daten mithilfe der folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
 * Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der E-Katalog automatisch veröffentlicht werden soll.
 * Im Bedienfeld &quot;InfoPanel-Datenfluss&quot;können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des InfoPanel angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
@@ -45,7 +45,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Wählen Sie eine Vorgabe aus dem Menü „Antwortvorlage“ aus. Der XML-Code für den Vorlagenentwurf wird im Feld „Benutzervorlage“ angezeigt.
    * Um eine eigene Antwortvorlage zu erstellen, wählen Sie **[!UICONTROL Benutzerdefiniert]** aus. Geben Sie die XML-Definition der Vorlage in das Feld „Benutzervorlage“ ein. Sie können die vorgegebenen Vorlagen als Grundlage für Ihre eigenen verwenden. 
 
-1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn bei Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap ein Fehler auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn in Adobe Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap ein Fehler auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 1. Geben Sie die Anzahl der Stunden bis zum Zwischenspeichern der Daten in das Feld „Antwort-TTL“ ein:
 
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
@@ -89,7 +89,7 @@ Last Modified Date:
 1. Wählen Sie **[!UICONTROL Durchsuchen]**, wählen Sie die tabulatorgetrennte TXT-, CSV- oder SSV-Datei aus, die Sie verwenden möchten, und wählen Sie **[!UICONTROL Öffnen]** aus.
 1. Wählen Sie **[!UICONTROL Upload]** aus.
 
-Dynamic Media Classic sendet Ihnen eine E-Mail, in der Sie darüber informiert werden, ob der Upload erfolgreich war oder nicht.
+Adobe Dynamic Media Classic sendet Ihnen eine E-Mail, in der Sie darüber informiert werden, ob der Upload erfolgreich war oder nicht.
 
 ## Anzeigen der Vorschau für Rollover-Text für eine Imagemap {#preview-rollover-key-text-for-an-image-map}
 

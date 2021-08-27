@@ -10,16 +10,16 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 22%
 
 ---
 
 # Veröffentlichen von Vorlagen{#publishing-templates}
 
-Durch das Veröffentlichen Ihrer Vorlage wird sie auf Dynamic Media-Image-Servern platziert, auf denen sie für Ihre Website und Anwendung verfügbar ist. Während des Veröffentlichungsvorgangs aktiviert Dynamic Media Classic die URLs, die Sie für Ihre Website und Anwendung benötigen.
+Durch das Veröffentlichen Ihrer Vorlage wird sie auf Dynamic Media-Image-Servern platziert, auf denen sie für Ihre Website und Anwendung verfügbar ist. Während des Veröffentlichungsvorgangs aktiviert Adobe Dynamic Media Classic die URLs, die Sie für Ihre Website und Anwendung benötigen.
 
 >[!NOTE]
 >
@@ -36,5 +36,5 @@ Um Vorlagen auf Dynamic Media-Bildservern zu veröffentlichen, klicken Sie in de
 >[!MORELIKETHIS]
 >
 >* [Markieren von Assets zur Veröffentlichung](publishing-files.md#publish_after_uploading)
-* [Erstellen eines Veröffentlichungsauftrags](publishing-files.md#creating_a_publish_job)
+>* [Erstellen eines Veröffentlichungsauftrags](publishing-files.md#creating_a_publish_job)
 

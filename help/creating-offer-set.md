@@ -1,6 +1,6 @@
 ---
 title: Angebotssatz erstellen
-description: Erfahren Sie, wie Sie ein Angebotsset in Dynamic Media Classic erstellen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic ein Angebotsset erstellen.
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1232'
 ht-degree: 38%
 
 ---
@@ -27,11 +27,11 @@ Sie können die folgenden Angebotsset-Typen erstellen:
 
 Wählen Sie für Vorlagen **[!UICONTROL Hinzufügen und Vorschau]** und legen Sie dann die von Ihnen gewählten Parameter fest. Die anderen Angebotssatztypen enthalten keine Parameter. Sie können sie jedoch dennoch anpassen, indem Sie **[!UICONTROL Vorschau]** auswählen und die verfügbaren Vorgaben ändern.
 
-Dynamic Media Classic bietet Tools zum Bearbeiten und Erstellen von Angebotssets.
+Adobe Dynamic Media Classic bietet Tools zum Bearbeiten und Erstellen von Angebotssets.
 
 >[!NOTE]
 >
->Stellen Sie vor der Erstellung eines Angebotssets sicher, dass Sie alle Assets veröffentlichen, die Sie für den Satz mit Dynamic Media Classic verwenden möchten. Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
+>Stellen Sie vor der Erstellung eines Angebotssets sicher, dass Sie alle Assets veröffentlichen, die Sie für das Set mit Adobe Dynamic Media Classic verwenden möchten. Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 ## Angebotsset-Typen {#types-of-offer-sets}
 
@@ -39,7 +39,7 @@ Erstellen Sie ein Angebotsset aus den folgenden Angebotsset-Typen:
 
 * **Bilder**  - Sie können Bilder für ein Angebotsset zusammenstellen. Jedes Bild enthält ein anderes Angebot im Set.
 
-* **Bildvorlage**  - Sie können Bildvorlagen in Dynamic Media Classic mit dem Befehl &quot;Erstellen&quot;> &quot;Vorlagengrundlagen&quot;parametrisieren. Mithilfe von Parametern können Komponenten der Vorlage (Text in Textrahmen, die verschiedenen Bilder) ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern verschiedene Varianten desselben Bildes erstellen. Weitere Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter Erstellen von Vorlagenparametern.
+* **Bildvorlage**  - Sie können Bildvorlagen in Adobe Dynamic Media Classic mit dem Befehl &quot;Erstellen&quot;> &quot;Vorlagengrundlagen&quot;parametrisieren. Mithilfe von Parametern können Komponenten der Vorlage (Text in Textrahmen, die verschiedenen Bilder) ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern verschiedene Varianten desselben Bildes erstellen. Weitere Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter Erstellen von Vorlagenparametern.
 
 * **Video**  - Sie können Videos für ein Angebotsset zusammenstellen. Jedes Video besteht dabei aus einem anderen Angebot im Set.
 
@@ -132,7 +132,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    >[!NOTE]
    >
-   >Angebotssets, die einer Kampagne zugeordnet sind, können nicht gelöscht werden. Um ein mit einer Kampagne verknüpftes Angebotsset zu löschen, melden Sie sich bei Adobe Target Standard/Premium an und entfernen Sie zuerst die Kampagnenzuordnungen. Selbst wenn Sie die Zuordnung zu einer Kampagne aufgehoben haben, kann das Asset nur aus Dynamic Media Classic gelöscht werden, wozu eine Anmeldung bei Adobe Target Standard/Premium erforderlich ist und nicht aus Adobe Target Standard/Premium.
+   >Angebotssets, die einer Kampagne zugeordnet sind, können nicht gelöscht werden. Um ein mit einer Kampagne verknüpftes Angebotsset zu löschen, melden Sie sich bei Adobe Target Standard/Premium an und entfernen Sie zuerst die Kampagnenzuordnungen. Selbst wenn Sie die Zuordnung zu einer Kampagne aufgehoben haben, kann das Asset nur aus Adobe Dynamic Media Classic gelöscht werden, wozu eine Anmeldung bei Adobe Target Standard/Premium erforderlich ist, nicht aber aus Adobe Target Standard/Premium.
 
 1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie in der rechten unteren Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Save]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für den Satz ein und wählen Sie **[!UICONTROL Save]** aus.

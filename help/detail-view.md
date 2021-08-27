@@ -1,6 +1,6 @@
 ---
 title: Arbeiten in der Detailansicht
-description: Erfahren Sie, wie Sie in der Detailansicht in Dynamic Media Classic arbeiten.
+description: Erfahren Sie, wie Sie in der Detailansicht in Adobe Dynamic Media Classic arbeiten.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 25%
 
 ---
@@ -44,7 +44,7 @@ Um ein Asset genau zu untersuchen, eine Vorschau anzuzeigen oder zu bearbeiten, 
 
 1. Führen Sie im Durchsuchenbedienfeld einen der folgenden Schritte aus:
 
-   * Wählen Sie das Asset aus. Wählen Sie rechts oben in Dynamic Media Classic das Symbol **[!UICONTROL Detailansicht]** aus.
+   * Wählen Sie das Asset aus. Wählen Sie rechts oben in der Adobe Dynamic Media Classic das Symbol **[!UICONTROL Detailansicht]** aus.
    * Doppelklicken Sie auf das gewünschte Asset.
    * Wählen Sie das Asset aus und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Details]**.
 
@@ -54,7 +54,7 @@ Um ein Asset genau zu untersuchen, eine Vorschau anzuzeigen oder zu bearbeiten, 
 
 ## Abrufen von Informationen in der Detailansicht {#getting-information-in-detail-view}
 
-Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Sie zeigt diese Informationen zu einem Element an: den Ordner, in dem das Element gespeichert ist, den Dateinamen, das Datum, an dem es in Dynamic Media Classic hochgeladen wurde, und den Veröffentlichungsverlauf. Sie können Metadaten auch anzeigen und bearbeiten sowie Suchbegriffe für ein Asset in der Detailansicht hinzufügen.
+Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Sie zeigt diese Informationen zu einem Element an: den Ordner, in dem das Element gespeichert ist, den Dateinamen, das Datum, an dem es in Adobe Dynamic Media Classic hochgeladen wurde, und den Veröffentlichungsverlauf. Sie können Metadaten auch anzeigen und bearbeiten sowie Suchbegriffe für ein Asset in der Detailansicht hinzufügen.
 
 Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst aktiv, wenn Sie das Asset veröffentlichen. Für Bilder bietet die Detailansicht auch eine Liste der erstellten und abgeleiteten Assets und Metadaten, z. B. Zoomziele und Bildsets.
 

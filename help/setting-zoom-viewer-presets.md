@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
-feature: Dynamic Media Classic,Viewer,Zoom
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '606'
 ht-degree: 52%
 
 ---
 
 # Konfigurieren von Zoom-Viewer-Vorgaben{#setting-up-zoom-viewer-presets}
 
-Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Dynamic Media Classic bietet viele Optionen zum Anpassen und Entwerfen von Viewern. Dynamic Media Classic verfügt über standardmäßige einfache (schnelle), Flyout- und benutzerdefinierte Zoom-Viewer-Vorgaben. Administratoren können Viewer-Vorgaben für Unternehmen erstellen oder eine Standardvorgabe bearbeiten und sie mit einem neuen Namen speichern.
+Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Adobe Dynamic Media Classic bietet viele Optionen zum Anpassen und Entschlüsseln von Viewern. Adobe Dynamic Media Classic enthält standardmäßige einfache (schnelle), Flyout-Viewer-Vorgaben und benutzerdefinierte Zoom-Viewer-Vorgaben. Administratoren können Viewer-Vorgaben für Unternehmen erstellen oder eine Standardvorgabe bearbeiten und sie mit einem neuen Namen speichern.
 
 Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenken und Zurücksetzen des Bildes in seinen ursprünglichen Zustand vor dem Zoomen. Wie diese Schaltflächen aussehen und wie das Fenster selbst angezeigt wird, hängt von Ihrer Auswahl an Zoom-Viewer-Vorgaben ab. Sie können eine Zoom-Viewer-Vorgabe mit unterschiedlichen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren. Wenn Sie einen Zoom-Viewer für geführtes Zoomen konfigurieren, können Sie darüber hinaus auch die Positionierung der Zoomziele festlegen. Zoomziele sind Miniaturansichten, auf die ein Benutzer klicken kann, um den von Ihnen zugeordneten Bildausschnitt heranzuzoomen.
 
 ## Zoom-Viewer-Vorgaben {#about-zoom-viewer-presets}
 
-Dynamic Media Classic bietet die folgenden Zoom-Viewer-Vorgaben:
+Adobe Dynamic Media Classic bietet die folgenden Zoom-Viewer-Vorgaben:
 
 * **Zoom-Viewer: Einfach**  - Bietet einen einfachen Zoom des Originalbilds.
 
@@ -35,7 +35,7 @@ Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen View
 
 Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoomfaktor von 3 beträgt, ist das Flyout-Bild 1050 x 1050 Pixel groß. Wenn die Größe des Hauptbildes 300 x 300 Pixel bei einem Zoomfaktor von 4 beträgt, ist das Flyout-Bild 1200 x 1200 Pixel groß. Über die Einstellung für die JPEG-Qualität (empfohlener Wert: zwischen 80 und 90) können Sie die Dateigröße deutlich reduzieren. Der empfohlene Wert für den Zoomfaktor liegt, je nach Größe des Hauptbildes, zwischen 2,5 und 4.
 
-Dynamic Media Classic empfiehlt die folgenden Parameter für Fly-Out-Zoom-Viewer-Vorgaben:
+Adobe Dynamic Media Classic empfiehlt die folgenden Parameter für Fly-Out-Zoom-Viewer-Vorgaben:
 
 * **Vergrößerte Bildgröße** : Ungefähr 1500 x 1500 Pixel, höchstens 2000 x 2000 Pixel.
 

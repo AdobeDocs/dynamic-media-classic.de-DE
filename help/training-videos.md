@@ -1,10 +1,10 @@
 ---
-title: Schulungsvideos zu Dynamic Media Classic
-description: Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamischen Bildbearbeitung, zum Video, zum Medienportal, zu Vorlagen sowie zum Authoring und Rendering von Bildern.
+title: Schulungsvideos zu Adobe Dynamic Media Classic
+description: Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamischen Bildbearbeitung, zum Video, zum Medienportal, zu Vorlagen sowie zum Authoring und Rendering von Bildern.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '6546'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Schulungsvideos zu Adobe Dynamic Media Classic {#training-videos}
 
-Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamischen Bildbearbeitung, zum Video, zum Medienportal, zu Vorlagen sowie zum Authoring und Rendering von Bildern.
+Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamischen Bildbearbeitung, zum Video, zum Medienportal, zu Vorlagen sowie zum Authoring und Rendering von Bildern.
 
 ## Erste Schritte {#get-started-training}
 
