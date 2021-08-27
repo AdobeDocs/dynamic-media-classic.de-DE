@@ -1,5 +1,5 @@
 ---
-title: '"Schnellstart: Integration von Adobe Dynamic Media Classic und Adobe Analytics"'
+title: '"Schnellstart: Integrieren von Adobe Dynamic Media Classic und Adobe Analytics"'
 description: Eine Einführung und ein Schnellstart zur Integration von Adobe Dynamic Media Classic und Adobe Analytics, damit Sie schnell arbeiten können.
 contentOwner: admin
 content-type: reference
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 39%
+source-wordcount: '690'
+ht-degree: 27%
 
 ---
 
@@ -35,13 +35,13 @@ Diese Kurzanleitung hilft Ihnen, sich schnell mit dem Adobe Analytics-Instrument
 
 >[!NOTE]
 >
->Bevor Sie Adobe Analytics-Berichte konfigurieren und Adobe Analytics-Berichtsvariablen mit Adobe Dynamic Media Classic-Ereignissen verknüpfen können, stellen Sie sicher, dass Sie als Mitglied der Zugriffsgruppe für Webdienste in Adobe Analytics hinzugefügt wurden. Mitglieder dieser Gruppe können unabhängig von den in der Schnittstelle eingerichteten Berechtigungen auf alle Berichte in den angegebenen Bericht-Suites über die Marketing Cloud Web-Services-API zugreifen. Um ein Mitglied der Gruppe zu werden, klicken Sie in Adobe Analytics auf **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen bearbeiten]**.
+>Bevor Sie Adobe Analytics-Berichte konfigurieren und Adobe Analytics-Berichtsvariablen mit Adobe Dynamic Media Classic-Ereignissen verknüpfen können, stellen Sie sicher, dass Sie als Mitglied der Zugriffsgruppe für Webdienste in Adobe Analytics hinzugefügt wurden. Mitglieder dieser Gruppe können über die Web-Services-API des Experience Cloud auf alle Berichte in den angegebenen Report Suites zugreifen, unabhängig von den in der Benutzeroberfläche festgelegten Berechtigungen. Um ein Mitglied zur Gruppe hinzuzufügen, gehen Sie in Adobe Analytics zu **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen bearbeiten]**.
 
-Nachdem Sie sich vergewissert haben, dass Sie Mitglied der Zugriffsgruppe für Webdienste sind, gehen Sie in Adobe Dynamic Media Classic zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Adobe Analytics]**. Klicken Sie auf der Seite „Adobe Analytics-Konfiguration“ auf **[!UICONTROL Adobe Analytics-Anmeldung]**.
+Nachdem Sie sich vergewissert haben, dass Sie Mitglied der Zugriffsgruppe für Webdienste sind, gehen Sie in Adobe Dynamic Media Classic zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Adobe Analytics]**. Wählen Sie auf der Seite &quot;Adobe Analytics Configuration&quot;die Option **[!UICONTROL Adobe Analytics Login]**.
 
 Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Geben Sie im Dialogfeld &quot;Adobe Analytics Login&quot;Ihre Marketing Cloud-Organisations-ID (optional) und Ihre vollständigen Anmeldeinformationen ein und klicken Sie dann auf **[!UICONTROL Anmelden]**. Wählen Sie im Dropdown-Menü „Berichts-Suite“ den Namen der Berichts-Suite aus, die Sie verwenden möchten.
+Geben Sie im Dialogfeld &quot;Adobe Analytics Login&quot;Ihre Experience Cloud-Organisations-ID (optional) und Ihre vollständigen Anmeldeinformationen ein und wählen Sie **[!UICONTROL Login]** aus. Wählen Sie im Dropdown-Menü „Berichts-Suite“ den Namen der Berichts-Suite aus, die Sie verwenden möchten.
 
 ## 2. Weisen Sie Adobe Analytics-Berichtsvariablen Adobe Dynamic Media Classic-Viewer-Ereignissen und Adobe Dynamic Media Classic-Variablen zu
 
@@ -52,7 +52,7 @@ Geben Sie auf der Seite „Adobe Analytics-Konfiguration“ die Informationen an
 
 Die Adobe Analytics-Konfiguration bietet zudem Werkzeuge, um Viewer-Ereignisse zu aktivieren, zu bearbeiten und zu löschen.
 
-Nachdem Sie auf der Adobe Analytics-Konfigurationsseite auf **[!UICONTROL Speichern]** geklickt haben, wird der benutzerdefinierte Trackingcode zur Messung der Benutzeraktivität in die Adobe Dynamic Media Classic-Viewer eingefügt. Mit dieser Funktion können Sie Benutzeraktivitäten in Adobe Analytics-Berichten verfolgen. 
+Nachdem Sie auf der Adobe Analytics-Konfigurationsseite **[!UICONTROL Speichern]** ausgewählt haben, wird der benutzerdefinierte Trackingcode zur Messung der Benutzeraktivität in die Adobe Dynamic Media Classic-Viewer eingefügt. Mit dieser Funktion können Sie Benutzeraktivitäten in Adobe Analytics-Berichten verfolgen. 
 
 Siehe [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
@@ -60,7 +60,7 @@ Siehe [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-report
 
 Veröffentlichen Sie Ihre Adobe Dynamic Media Classic-Viewer, damit die Viewer (mit Code zur Benutzeraktivität in Adobe Analytics-Berichten) auf Adobe Dynamic Media Classic-Servern geladen werden. Nach der Veröffentlichung sind diese Informationen in den Viewern enthalten und können für die Adobe Analytics-Analyse verwendet werden. 
 
-Siehe [Veröffentlichen von Konfigurationsinformationen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Siehe [Veröffentlichungskonfigurationsinformationen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 ## 4. Platzieren Sie Adobe Dynamic Media Classic-Viewer auf Ihrer Website.
 

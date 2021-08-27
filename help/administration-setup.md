@@ -9,9 +9,9 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1965'
 ht-degree: 36%
 
 ---
@@ -70,7 +70,7 @@ Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classi
 
 ### Löschen eines Benutzers {#deleting-a-user}
 
-Sie können Benutzer aus Adobe Adobe Dynamic Media Classic löschen, indem Sie sie ungültig machen. Ungültige Benutzer werden aus dem System und sämtlichen Konten entfernt.
+Sie können Benutzer aus Adobe Dynamic Media Classic löschen, indem Sie sie ungültig machen. Ungültige Benutzer werden aus dem System und sämtlichen Konten entfernt.
 
 1. Gehen Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
 1. Wählen Sie einen Benutzer aus der Liste aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.

@@ -10,9 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1703'
 ht-degree: 35%
 
 ---
@@ -131,7 +131,7 @@ Wenn Sie nicht den Adobe Dynamic Media Classic HTML5-Videoplayer, sondern stattd
 
 ## Bereitstellen von Videos mit einem Video-Player eines Drittanbieters {#deploying-video-using-a-third-party-video-player}
 
-Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Video-Viewers der Adobe Dynamic Media Classic verwenden, erhalten Sie die direkte Video-URL, die für HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
+Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Video-Viewers von Dynamic Media Classic verwenden, erhalten Sie die direkte Video-URL, die für das HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
 
 **So stellen Sie ein Video mit einem Video-Player eines Drittanbieters bereit:**
 

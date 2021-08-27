@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 55%
 
 ---
@@ -120,6 +120,6 @@ Wenn die gewünschten Ergebnisse für das Scharfzeichnen noch nicht erreicht wur
 
 Beim Experimentieren sind die folgenden allgemeinen Vorschläge zur Optimierung Ihres Workflows hilfreich:
 
-* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt auf einer Adobe Dynamic Media Classic-URL oder mithilfe der Bildanpassungsfunktion von Adobe Dynamic Media Classic. Letztere bietet eine Echtzeitvorschau für Anpassungsvorgänge.
+* Testen Sie verschiedene Parameter in Echtzeit, entweder direkt über eine URL oder mithilfe der Bildanpassungsfunktion von Adobe Dynamic Media Classic. Letztere bietet eine Echtzeitvorschau für Anpassungsvorgänge.
 * Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. Eine Bildvorgabe besteht im Wesentlichen aus URL-Befehlsmakros mit benutzerdefinierten Vorgabenamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabenname in einem URL-Pfad ruft diese Vorgaben auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
 * Adobe Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zur Abstimmung der Bildqualität, z. B. das Anwenden von Bildschärfe bei der Aufnahme. Für erweiterte Anwendungsfälle, in denen eine weitere Optimierung und Optimierung der gerenderten Ergebnisse eine Option ist, kann Adobe Professional Services Ihnen mit benutzerdefinierten Einblicken und Best Practices helfen.
