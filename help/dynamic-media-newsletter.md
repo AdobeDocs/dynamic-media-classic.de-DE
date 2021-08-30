@@ -5,9 +5,9 @@ keywords: dynamische Medien; Newsletter; Produktupdates; Tipps und Tricks; Ereig
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ In diesem archivierten One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen
    * Erfahren Sie mehr über ein bevorstehendes Webinar zum Schutz Ihrer digitalen Assets.
    * Nächste Haltestellen auf der informativen Adobe Insider Tour.
    * Erfreuliche Funktionen, wenn Sie Dynamic Media in Experience Manager Assets (Experience Manager Assets) verwenden.
-   * Hinzufügen von 360-Grad-Videos und benutzerdefinierten Videominiaturen zu Ihrer Website.
+   * Hinzufügen von 360°-Videos und benutzerdefinierten Videominiaturen zu Ihrer Website.
    * Treffen Sie `Andrew Hathaway`, Principal Solutions Consultant für Dynamic Media in Experience Manager Assets.
 
 * **[Juni 2019, Ausgabe 06](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

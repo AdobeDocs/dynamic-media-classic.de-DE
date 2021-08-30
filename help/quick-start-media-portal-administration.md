@@ -1,6 +1,6 @@
 ---
 title: '"Schnellstart: Media Portal"'
-description: Eine Einführung in Media Portal und ein Schnellstart für Media Portal, die Ihnen helfen, die Media Portal-Techniken und -Administration schnell einzurichten und auszuführen.
+description: Eine Einführung in Media Portal und ein Schnellstart für Media Portal, die Ihnen helfen, die Media Portal-Techniken und -Administration in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 73%
+source-wordcount: '693'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Mit Media Portal können Unternehmen problemlos genehmigte Assets abrufen, kontr
 
 Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Außerdem können Sie die Oberfläche von Media Portal an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe, Schriftgröße und Branding-Elemente wie Logos in der Media Portal-Benutzeroberfläche angeben.
 
-Diese Kurzanleitung hilft Ihnen, sich schnell mit der Media Portal-Administration vertraut zu machen. Klicken Sie am Ende jedes Schritts auf den Themenlink, um mehr zu erfahren.
+Diese Kurzanleitung hilft Ihnen, sich schnell mit der Media Portal-Administration vertraut zu machen. Wählen Sie am Ende jedes Schritts den Themenlink aus, um mehr zu erfahren.
 
 ## 1. Verstehen der Media Portal-Benutzerrollen
 
@@ -47,7 +47,7 @@ Siehe [Hinzufügen und Verwalten von Media Portal-Benutzern](adding-media-portal
 
 Sie können über separate FTP-Konten verfügen, die mit Media Portal verknüpft sind und einem bestimmten Ordner in Ihrem Adobe Dynamic Media Classic-Konto zugeordnet sind. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
 
-Siehe [Verwalten von FTP-Konten](ftp-accounts.md#managing_ftp_accounts).
+Siehe [FTP-Konten verwalten](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user
 
 Media Portal-Benutzer können Dateien in verschiedenen Formaten und als Original-Masterdateien exportieren, sofern Sie ihnen die erforderlichen Berechtigungen zugeteilt haben. Als Administrator entscheiden Sie, wie Benutzer Dateien exportieren können. 
 
-Siehe [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Siehe [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Erstellen von Bildvorgaben
 

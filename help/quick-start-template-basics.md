@@ -1,6 +1,6 @@
 ---
 title: '"Kurzanleitung: Vorlagen aus Grundelementen"'
-description: Eine Einführung und ein Schnellstart zu den Vorlagengrundlagen , die Ihnen dabei helfen, schnell zu arbeiten.
+description: Eine Einführung und ein Schnellstart zu den Vorlagengrundlagen , die Ihnen helfen, in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 34%
+source-wordcount: '789'
+ht-degree: 32%
 
 ---
 
@@ -35,14 +35,14 @@ Wenn Sie eine PSD-Datei zum Erstellen Ihrer Vorlage verwenden, wählen Sie **[!U
 
 Wenn Sie Bilddateien verwenden, können Sie die Bilder beim Hochladen beschneiden oder eine Maske aus deren Beschneidungspfaden erstellen.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Upload]** , um eine PSD-Datei oder andere Bilddateien von Ihrem Computer in einen Ordner auf Adobe Dynamic Media Classic hochzuladen. Siehe [Hochladen von Vorlagendateien](uploading-template-files.md#uploading_template_files).
+Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Upload]** aus, um eine PSD-Datei oder andere Bilddateien von Ihrem Computer in einen Ordner auf Adobe Dynamic Media Classic hochzuladen. Siehe [Hochladen von Vorlagendateien](uploading-template-files.md#uploading_template_files).
 
 ## 2. Erstellen einer Vorlage
 
-Um eine Vorlage aus einer PSD-Datei zu erstellen, wählen Sie beim Hochladen der Datei **[!UICONTROL Vorlage erstellen]** aus. Um eine Vorlage aus Bildern zu erstellen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]** und geben Sie eine Breite und Höhe für die Arbeitsfläche ein. Wählen Sie in der rechten oberen Ecke der Seite entweder **[!UICONTROL Designer]** oder **[!UICONTROL Entwickler]** aus und ziehen Sie Bilder auf die Seite &quot;Vorlage&quot;. Sie können auch die Bilder *vor* auswählen, indem Sie auf **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]** klicken. Die Seite &quot;Vorlage&quot;bietet Tools für:
+Um eine Vorlage aus einer PSD-Datei zu erstellen, wählen Sie beim Hochladen der Datei **[!UICONTROL Vorlage erstellen]** aus. Um eine Vorlage aus Bildern zu erstellen, gehen Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]** und geben Sie eine Breite und Höhe für die Arbeitsfläche ein. Wählen Sie in der rechten oberen Ecke der Seite entweder **[!UICONTROL Designer]** oder **[!UICONTROL Entwickler]** aus und ziehen Sie Bilder auf die Seite &quot;Vorlage&quot;. Sie können auch die Bilder *auswählen, bevor* Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]** navigieren. Die Seite &quot;Vorlage&quot;bietet Tools für:
 
 * Bildebenen hinzufügen. Um eine Ebene hinzuzufügen, ziehen Sie ein Bild auf die Seite Vorlage .
-* Textebenen hinzufügen. Klicken Sie auf das Symbol **[!UICONTROL Text-Tool]**. Ziehen Sie den Mauszeiger, um ein Feld für die Textebene zu erstellen. Formatieren Sie dann den Text mit Tools auf der Seite Text .
+* Textebenen hinzufügen. Wählen Sie das Symbol **[!UICONTROL Text-Tool]** aus. Ziehen Sie den Mauszeiger, um ein Feld für die Textebene zu erstellen. Formatieren Sie dann den Text mit Tools auf der Seite Text .
 * Größe und Position von Ebenen ändern.
 * Anordnung von Ebenen ändern.
 * Schatten- und Schein-Effekte auf Bild- und Textebenen anwenden. 
@@ -53,7 +53,7 @@ Siehe [Erstellen einer Vorlage](creating-template.md#creating_a_template).
 
 Im nächsten Schritt werden die Eigenschaften von Ebenen in Parameter umgewandelt, d. h. parametrisiert, um festzulegen, welche Ebeneneigenschaften in die URL-Zeichenfolge aufgenommen werden. Parameter bieten Ihnen bei der Verwendung von Vorlagen größtmögliche Flexibilität. Nachdem Sie eine Ebeneneigenschaft parametrisiert haben, können Sie den Parameter dynamisch ändern.
 
-Um eine Ebene zu parametrisieren, öffnen Sie die Vorlage auf der Seite Vorlage und klicken Sie dann neben einem Ebenennamen auf **[!UICONTROL Parameter]** . Wählen Sie auf der Seite Parameter die Option neben jedem Parameter aus, den Sie hinzufügen möchten. Siehe [Erstellen von Vorlagenparametern](creating-template-parameters.md#creating_template_parameters).
+Um eine Ebene zu parametrisieren, öffnen Sie die Vorlage auf der Seite Vorlage und wählen Sie dann **[!UICONTROL Parameter]** neben einem Ebenennamen aus. Wählen Sie auf der Seite Parameter die Option neben jedem Parameter aus, den Sie hinzufügen möchten. Siehe [Vorlagenparameter erstellen](creating-template-parameters.md#creating_template_parameters).
 
 ## 4. Veröffentlichungsvorlagen
 
@@ -61,10 +61,10 @@ Durch das Veröffentlichen Ihrer Vorlage wird sie auf Dynamic Media-Image-Server
 
 Achten Sie darauf, alle Bilder zu veröffentlichen, die der Vorlage zugeordnet sind.
 
-Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Veröffentlichen]**. Klicken Sie dann auf **[!UICONTROL Veröffentlichen senden]**. Siehe [Veröffentlichen von Vorlagen](publishing-templates.md#publishing_templates).
+Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Publish]** aus. Wählen Sie dann **[!UICONTROL Veröffentlichen senden]** aus. Siehe [Veröffentlichungsvorlagen](publishing-templates.md#publishing_templates).
 
 ## 5. Verknüpfen einer Vorlage mit einer Webseite
 
 Dynamic Media Classic erstellt URLs für Vorlagen und aktiviert die URLs, wenn Sie Vorlagen auf Dynamic Media-Image-Servern veröffentlichen. Sie können diese URL-Zeichenfolgen von der Seite &quot;Vorlagenvorschau&quot;kopieren.
 
-Wählen Sie Ihre Vorlage im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]** , um die Seite &quot;Vorlagenvorschau&quot;zu öffnen. Wählen Sie eine Bildvorgabe für die Bereitstellung Ihrer Vorlage aus und klicken Sie auf **[!UICONTROL URL kopieren]**. Nachdem Sie die URL von der Seite &quot;Vorschau&quot;kopiert haben, können Sie sie auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Website](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Wählen Sie Ihre Vorlage im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]** , um die Seite &quot;Vorlagenvorschau&quot;zu öffnen. Wählen Sie eine Bildvorgabe für die Bereitstellung Ihrer Vorlage und dann **[!UICONTROL URL kopieren]**. Nachdem Sie die URL von der Seite &quot;Vorschau&quot;kopiert haben, können Sie sie auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Webseite](linking-template-web-page.md#linking_a_template_to_a_web_page).

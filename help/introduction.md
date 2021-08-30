@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 33%
+source-wordcount: '243'
+ht-degree: 24%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 Willkommen bei Adobe Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem für das Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Dienste auf allen Geräten und Bildschirmen. Adobe Dynamic Media Classic-Lösungen umfassen Folgendes:
 
-* Dynamic Imaging: Bearbeitung, Formatierung und Größenänderung in Echtzeit, interaktives Zoomen und Schwenken; Farb- und Texturänderung; 360-Grad-Drehung; Bildvorlagen; Multimedia-Viewer.
+* Dynamic Imaging: Echtzeitbearbeitung, Formatierung und Größenanpassung, interaktiver Zoom und Schwenken; Farb- und Texturbeobachtung; 360° Rotation; Bildvorlagen; Multimedia-Viewer.
 * E-Kataloge: Erstellen, Hotspot-Verknüpfen, Suchfunktion, Veröffentlichen und Bereitstellen dynamisch bereitgestellter Online-Kataloge in konfigurierbaren Viewern.
 * Media Portal: Self-Service-Umgebung, die Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets bietet, mit denen sie leicht auf Assets zugreifen können, um sie hochzuladen, zu durchsuchen, zu suchen, in der Vorschau anzuzeigen und zu exportieren.
 * eVideo: Hochladen fertiger Videos in einem beliebigen Format, Verwalten, Bearbeiten, Erstellen von Hotspots und Videovorlagen, Veröffentlichen und Streamen in konfigurierbare Video-Viewer
