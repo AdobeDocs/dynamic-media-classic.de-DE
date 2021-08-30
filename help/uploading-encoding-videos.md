@@ -11,7 +11,7 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
 source-wordcount: '3893'
 ht-degree: 69%
@@ -84,9 +84,9 @@ Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#
 1. Erweitern Sie im Dialogfeld Assets erneut verarbeiten **[!UICONTROL eVideo Options]** und führen Sie dann einen der folgenden Schritte aus:
    * Wie empfehlen, die folgende Methode zu verwenden. Wählen Sie **Adaptive Video**.
 Siehe [Adaptive Video (Standard)](application-setup.md#adaptive-video-default).
-   * Optional. Wenn Sie einzelne Kodierungseinstellungen verwenden möchten, erweitern Sie ****[!UICONTROL Einzelne Kodierungsvorgaben]**** und wählen Sie dann die gewünschten Kodierungsoptionen für Desktop, Mobilgerät und Tablet aus.
+   * Optional. Wenn Sie einzelne Kodierungseinstellungen verwenden möchten, erweitern Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** und wählen Sie dann die gewünschten Kodierungsoptionen für Desktop, Mobilgerät und Tablet aus.
 Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
-1. Klicken Sie im Dialogfeld „Assets neu verarbeiten“ auf **[!UICONTROL Absenden]**.
+1. Wählen Sie im Dialogfeld Assets erneut verarbeiten **[!UICONTROL Senden]** aus.
 
 Wenn Sie eine Kodierungsvorgabe für adaptives Video oder mehrere einzelne Kodierungsvorgaben verwenden, ist das Ergebnis ein adaptives Videoset, das automatisch mit mehreren Videokodierungen erzeugt wurde. Sie können auch manuell ein adaptives Videoset erstellen, indem Sie die einzelnen Videos auswählen.
 
@@ -140,7 +140,7 @@ Beim Kodieren einer Videodatei sollten Sie eine Quell-Videodatei mit der höchst
 In der folgenden Tabelle werden die empfohlene Größe, das Seitenverhältnis und die minimale Bitrate beschrieben, die Ihre Quellvideodateien bei der Kodierung aufweisen müssen:
 
 | Größe | Seitenverhältnis | Minimale Bitrate |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 X 768 | 4:3 | 4500 Kbit/s sind für die meisten Videos ausreichend. |
 | 1280 X 720 | 16:9 | 3000–6000 Kbit/s, je nach Ausmaß der Bewegungen im Video. |
 | 1920 X 1080 | 16:9 | 6000–8000 Kbit/s, je nach Ausmaß der Bewegungen im Video. |
@@ -149,7 +149,7 @@ In der folgenden Tabelle werden die empfohlene Größe, das Seitenverhältnis un
 
 Sie können die Metadaten einer Datei abrufen, indem Sie die Metadaten in Adobe Dynamic Media Classic anzeigen, ein Video-Bearbeitungswerkzeug verwenden oder eine Anwendung zum Abrufen von Metadaten verwenden. Im Folgenden finden Sie Anweisungen zur Verwendung von MediaInfo, einer Drittanbieter-Anwendung zum Abrufen der Metadaten einer Videodatei.
 
-1. Gehen Sie auf diese Webseite: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Gehen Sie auf diese Webseite: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Wählen Sie das Installationsprogramm für die GUI-Version aus und laden Sie es herunter. Befolgen Sie anschließend die Installationsanweisungen.
 1. Klicken Sie nach der Installation mit der rechten Maustaste auf die Videodatei (nur Windows®) und wählen Sie MediaInfo aus oder öffnen Sie MediaInfo und ziehen Sie die Videodatei in die Anwendung. Es werden alle mit der Videodatei verknüpften Metadaten angezeigt, einschließlich Breite, Höhe und FPS.
 

@@ -1,6 +1,6 @@
 ---
 title: Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen
-description: Erfahren Sie, wie Sie Exportoptionen angeben, die für Media Portal-Benutzer verfügbar sind.
+description: Erfahren Sie, wie Sie Exportoptionen angeben, die für Media Portal-Benutzer in Adobe Dynamic Media Classic verfügbar sind.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 69%
+source-wordcount: '381'
+ht-degree: 68%
 
 ---
 
@@ -29,7 +29,7 @@ Siehe auch [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-as
 
 **So legen Sie Exportoptionen fest, die für Media Portal-Benutzer verfügbar sind:**
 
-1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Bildvorgaben]**.
+1. Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Bildvorgaben]**.
 1. Legen Sie im Fenster „Bildvorgaben“ die folgenden Optionen nach Bedarf fest:
 
    * **Benutzerdefinierte Konversion aktivieren**  - Wenn diese Option aktiviert ist, können Benutzer aus der Dropdown-Liste  **** Größe im Fenster Ausgewählte Assets exportieren andere Optionen auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.

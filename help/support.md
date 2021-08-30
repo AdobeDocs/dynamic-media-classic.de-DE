@@ -1,6 +1,6 @@
 ---
 title: Technischer Support
-description: Erfahren Sie mehr über die technischen Support-Optionen.
+description: Erfahren Sie mehr über die technischen Support-Optionen für Adobe Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 523d6e82a5410d8b1ae1a69b4ea2c0a0a4793fc7
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 25%
+source-wordcount: '192'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 25%
 Unternehmen jeder Größe können den für sie richtigen technischen Support erhalten. In der folgenden Tabelle wird die Adobe Dynamic Media Classic Customer Care beschrieben:
 
 | Technischer Support | Mitgliedschaft |
-|--- |--- |
+| --- | --- |
 | Max. Anz. Fälle | Unbegrenzt. |
 | Überprüfen des Systemstatus der Adobe | [Systemstatus von Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
 | Kann keine Antwort finden? | [Um Hilfe vom Support zu erhalten, öffnen Sie ein Ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
@@ -28,7 +28,7 @@ Unternehmen jeder Größe können den für sie richtigen technischen Support erh
 | SLA (Service Level Agreements) | [Support-Services/Geschäftsbedingungen](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Unterstützte Benutzer | Bis zu zehn Benutzer pro Organisation können als unterstützte Benutzer benannt werden, die Fälle mit der Kundenunterstützung öffnen können. |
 | Kostenlose Live-Web-Schulungsvideos | Inbegriffen. |
-| Telefonunterstützung | <ul><li>USA und Kanada: 1-800-497-0335 </li><li>[Telefonnummern für andere Regionen](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
+| Telefonunterstützung | <ul><li>USA und Kanada: 1-800-497-0335 </li><li>[Telefonnummern für andere Regionen](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 

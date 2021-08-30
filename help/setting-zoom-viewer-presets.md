@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren von Zoom-Viewer-Vorgaben
-description: Erfahren Sie, wie Sie Zoom-Viewer-Vorgaben einrichten.
+title: Einrichten von Zoom-Viewer-Vorgaben
+description: Erfahren Sie, wie Sie Zoom-Viewer-Vorgaben in Adobe Dynamic Media Classic einrichten.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 52%
+source-wordcount: '613'
+ht-degree: 47%
 
 ---
 
-# Konfigurieren von Zoom-Viewer-Vorgaben{#setting-up-zoom-viewer-presets}
+# Einrichten von Zoom-Viewer-Vorgaben{#setting-up-zoom-viewer-presets}
 
 Mithilfe von Zoom-Viewer-Vorgaben wird der Stil, das Verhalten und das Aussehen von Zoom-Viewern festgelegt. Adobe Dynamic Media Classic bietet viele Optionen zum Anpassen und Entschlüsseln von Viewern. Adobe Dynamic Media Classic enthält standardmäßige einfache (schnelle), Flyout-Viewer-Vorgaben und benutzerdefinierte Zoom-Viewer-Vorgaben. Administratoren können Viewer-Vorgaben für Unternehmen erstellen oder eine Standardvorgabe bearbeiten und sie mit einem neuen Namen speichern.
 
@@ -45,21 +45,21 @@ Adobe Dynamic Media Classic empfiehlt die folgenden Parameter für Fly-Out-Zoom-
 
 ## Erstellen und Bearbeiten von Zoom-Viewer-Vorgaben {#creating-and-editing-zoom-viewer-presets}
 
-1. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**.
+1. Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Vorgabe erstellen**  - Klicken Sie auf  **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, wählen Sie einen Zoom-Viewer und klicken Sie dann auf **[!UICONTROL Hinzufügen]**. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
+   * **Vorgabe erstellen**  - Wählen Sie  **[!UICONTROL Hinzufügen]** aus. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, einen Zoom-Viewer und dann **[!UICONTROL Hinzufügen]**. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
 
-   * **Bearbeiten einer Vorgabe** : Wählen Sie eine Zoom-Viewer-Vorgabe aus und klicken Sie auf  **[!UICONTROL Bearbeiten]**.
+   * **Vorgabe bearbeiten**  - Wählen Sie eine Zoom-Viewer-Vorgabe aus und klicken Sie auf  **[!UICONTROL Bearbeiten]**.
 
 1. Wählen Sie die gewünschten Einstellungen aus.
 
-   Um eine Beschreibung einer Option anzuzeigen, klicken Sie auf das Symbol **[!UICONTROL Info Tip]** neben der Option.
+   Um eine Beschreibung einer Option anzuzeigen, wählen Sie das Symbol **[!UICONTROL Info Tip]** neben der Option aus.
 
    Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]** oder **[!UICONTROL Speicher unter]**.
-1. Überprüfen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die von Ihnen erstellte Zoom-Viewer-Vorgabe oder Geführte Zoom-Viewer-Vorgabe. Wenn es angepasst werden muss, klicken Sie auf **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen auf der Seite &quot;Viewer konfigurieren&quot;und klicken Sie auf ****[!UICONTROL Speichern]****.
+1. Wählen Sie **[!UICONTROL Save]** oder **[!UICONTROL Save As]**.
+1. Überprüfen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die von Ihnen erstellte Zoom-Viewer-Vorgabe oder Geführte Zoom-Viewer-Vorgabe. Wenn es angepasst werden muss, wählen Sie **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen auf der Seite &quot;Viewer konfigurieren&quot;und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 Informationen zum Verwalten von Viewer-Vorgaben im Anzeigebereich „Viewer-Vorgaben“ finden Sie unter [Viewer-Vorgaben](application-setup.md#viewer_presets).
 

@@ -1,5 +1,5 @@
 ---
-title: Anmelden bei und Abmelden von Adobe Dynamic Media Classic
+title: Bei und von Adobe Dynamic Media Classic anmelden
 description: Erfahren Sie mehr über die Anmeldung bei und die Abmeldung von der Adobe Dynamic Media Classic und die Verbindung zu einem Produktionsumgebungs-Server in Nordamerika (NA) oder Europa, dem Nahen Osten, Afrika (EMEA) oder Asien-Pazifik (APAC).
 contentOwner: admin
 content-type: reference
@@ -8,16 +8,16 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 6%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Anmeldung bei Adobe Dynamic Media Classic {#dmc-sign-in}
+# Bei Adobe Dynamic Media Classic anmelden {#dmc-sign-in}
 
 Stellen Sie sicher, dass Sie Folgendes haben, bevor Sie das Adobe Dynamic Media Classic -Desktop-Programm verwenden:
 
@@ -35,16 +35,16 @@ Stellen Sie sicher, dass Sie Folgendes haben, bevor Sie das Adobe Dynamic Media 
 Verwenden Sie die folgende Zuordnung, um die Produktionsumgebung auszuwählen, die Sie verwenden möchten.
 
    | Browser-URL | Server-Name des Desktop-Programms |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
-1. Tippen Sie auf **[!UICONTROL Anmelden]**.
+1. Wählen Sie **[!UICONTROL Anmelden]**.
 
 ## Abmelden von Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Tippen Sie oben rechts in der Adobe Dynamic Media Classic-Desktop-Applikation auf **[!UICONTROL Abmelden]** und dann erneut auf **[!UICONTROL Abmelden]** .
+1. Wählen Sie rechts oben in der Adobe Dynamic Media Classic -Desktop-Applikation **[!UICONTROL Abmelden]** und klicken Sie dann erneut auf **[!UICONTROL Abmelden]** .
 
 >[!MORELIKETHIS]
 >
