@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3866'
 ht-degree: 33%
@@ -128,7 +128,7 @@ Stellen Sie deshalb sicher, dass allen Benutzern in Ihrem Unternehmen die folgen
 Normalerweise kann ein Asset-Dateiname mit der Artikelnummer, Produkt-SKU oder einem anderen Namen wie im Folgenden übereinstimmen:
 
 | Element | Dateiname | Asset-ID |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -155,7 +155,7 @@ Sie können einzelne Dateien vom Desktop oder Ordner über FTP hochladen. Wenn S
 
 Adobe Dynamic Media Classic sendet Ihnen eine E-Mail, in der Sie bestätigen, wann Ihr Upload-Auftrag beginnt und endet, und Sie über alle Probleme informieren.
 
-Während (oder unmittelbar danach) eines großen Upload-Auftrags konnten einige neue Elemente die Meldung &quot;Bild noch nicht optimiert&quot;anzeigen. Diese Meldung wird angezeigt, da die Dateien noch nicht vollständig verarbeitet und der Adobe Dynamic Media Classic hinzugefügt wurden. Sie können die betroffenen Dateien später optimieren. Siehe [Optimieren von Dateien](application-setup.md#optimize_files).
+Während (oder unmittelbar danach) eines großen Upload-Auftrags konnten einige neue Elemente die Meldung &quot;Bild noch nicht optimiert&quot;anzeigen. Diese Meldung wird angezeigt, da die Dateien noch nicht vollständig verarbeitet und der Adobe Dynamic Media Classic hinzugefügt wurden. Sie können die betroffenen Dateien später optimieren. Siehe [Dateien optimieren](application-setup.md#optimize_files).
 
 ### Hochladen von Dateien über die Registerkarte &quot;Von Desktop&quot; {#upload-files-using-sps-desktop-application}
 
@@ -234,7 +234,7 @@ Aktivieren Sie diese Option, wenn Sie auch die Unterordner im hochzuladenden Ord
 Siehe [Importieren von Metadaten (über FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPTIONS zuschneiden**  - Um weiße Leerraum-Pixel automatisch aus einem Bild zu beschneiden, öffnen Sie das  **** Menü Zuschneiden, wählen Sie  **[!UICONTROL Manuell]** aus und geben Sie die Pixelmessungen in die Textfelder oben, rechts, unten und links ein, um sie von den Seiten zu beschneiden. Sie können auch **[!UICONTROL Zuschneiden]** im Menü &quot;Zuschneiden&quot;auswählen und die folgenden Optionen auswählen:
+* **Optionen für das Zuschneiden** : Um weiße Leerraum-Pixel automatisch aus einem Bild zu beschneiden, öffnen Sie das  **** Zuschnittsmenü, wählen Sie  **[!UICONTROL Manuell]** aus und geben Sie die Pixelmessungen in die Textfelder oben, rechts, unten und links ein, um sie von den Seiten zu beschneiden. Sie können auch **[!UICONTROL Zuschneiden]** im Menü &quot;Zuschneiden&quot;auswählen und die folgenden Optionen auswählen:
 
    * **[!UICONTROL Entfernen basierend auf]**  - Wählen Sie, ob das Zuschneiden auf Grundlage von Farbe oder Transparenz erfolgen soll:
       * **[!UICONTROL Farbe]**  - Wählen Sie die Option &quot;Farbe&quot;. Wählen Sie anschließend im Menü „Ecke“ die Bildecke mit der Farbe aus, die der Farbe der weißen Flächen, die Sie entfernen möchten, am besten entspricht.
@@ -243,7 +243,7 @@ Beschneiden anhand der Farbe: Geben Sie 0 an, damit Pixel nur dann abgeschnitten
 Auf Transparenz basierendes Zuschneiden: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
       * **[!UICONTROL Toleranz]**  - Ziehen Sie den Regler, um eine Toleranz zwischen 0 und 1 anzugeben.
 
-* **FARBPROFIL-OPTIONS**  - Wählen Sie eine Farbkonvertierung, wenn Sie optimierte Dateien erstellen, die für die dynamische Bereitstellung von Adobe Dynamic Media Classic verwendet werden:
+* **Farbprofiloptionen**  - Wählen Sie eine Farbkonvertierung, wenn Sie optimierte Dateien erstellen, die für die dynamische Bereitstellung von Adobe Dynamic Media Classic verwendet werden:
 
    * **[!UICONTROL Beibehaltung der Standardfarbe]**  - Behält die Quellbildfarben bei, wenn die Bilder Farbrauminformationen enthalten. Es gibt keine Farbkonvertierung. Heutzutage ist in fast allen Bildern das entsprechende Farbprofil eingebettet. Wenn jedoch ein CMYK-Quellbild kein eingebettetes Farbprofil enthält, werden die Farben in den sRGB-Farbraum (standardmäßiges Rot Grün Blau) umgewandelt. sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
    * **[!UICONTROL Ursprünglichen Farbraum beibehalten]** : Behält die Originalfarben ohne Farbkonvertierung zum Zeitpunkt der Aufnahme in Adobe Dynamic Media Classic bei. Bei Bildern ohne eingebettetes Farbprofil erfolgt die erforderliche Farbkonvertierung zur Verarbeitung von Bildanforderungen mithilfe der Standardfarbprofile, die in den Veröffentlichungseinstellungen konfiguriert sind. Diese Farbprofile stimmen nicht immer mit der Farbe in den mit dieser Option erstellten Dateien überein. Deshalb empfehlen wir, die Option „Beibehaltung der Standardfarbe“ zu verwenden.
@@ -252,7 +252,7 @@ Auf Transparenz basierendes Zuschneiden: Geben Sie 0 an, damit Pixel nur dann ab
 * **Bildbearbeitungsoptionen**  - Sie können die Beschneidungs- &lt;> Masken in Bildern beibehalten und ein Farbprofil auswählen.
 Siehe [Bildverfeinerungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **PostScript®-Optionen**  - Sie können PostScript® rastern, Dateien beschneiden, transparente Hintergründe beibehalten, eine Auflösung wählen und einen Farbraum auswählen.
+* **PostScript®**  - Sie können PostScript® rastern, Dateien beschneiden, transparente Hintergründe beibehalten, eine Auflösung wählen und einen Farbraum auswählen.
 Siehe [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Photoshop-Optionen**  - Sie können Vorlagen aus Adobe® Photoshop®-Dateien erstellen, Ebenen beibehalten, angeben, wie Ebenen benannt werden, Text extrahieren und festlegen, wie Bilder in Vorlagen verankert werden.
@@ -264,7 +264,7 @@ Siehe [Optionen für das Hochladen von PDF-Dateien](pdfs.md#pdf_upload_options).
 * **Illustrator-Optionen**  - Sie können Adobe Illustrator®-Dateien rastern, transparente Hintergründe beibehalten, eine Auflösung wählen und einen Farbraum auswählen.
 Siehe [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **EVIDEO-Optionen** : Sie können eine Videodatei durch Auswählen einer Videovorgabe umkodieren.
+* **EVIDEO-Optionen**  - Sie können eine Videodatei durch Auswählen einer Videovorgabe umkodieren.
 Siehe [Arbeiten mit Videokodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Zusätzliche Metadaten**  - Geben Sie Suchbegriffe ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter mit Kommata. Schlüsselwörter vereinfachen die Suche nach Assets. Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).

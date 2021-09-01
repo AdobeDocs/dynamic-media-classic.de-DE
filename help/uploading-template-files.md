@@ -1,6 +1,6 @@
 ---
 title: Hochladen von Vorlagendateien
-description: Erfahren Sie, wie Sie Vorlagendateien hochladen.
+description: Erfahren Sie, wie Sie Vorlagendateien in Adobe Dynamic Media Classic hochladen.
 uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 48%
+source-wordcount: '242'
+ht-degree: 38%
 
 ---
 
@@ -29,7 +29,7 @@ Vorlagen können basierend auf Adobe Photoshop-PSD- oder Bilddateien erstellt w
 
 Detaillierte Anweisungen zum Hochladen von Dateien finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files). Folgendes ist beim Hochladen von Vorlagendateien zu beachten:
 
-* Wenn Sie eine PSD-Datei hochladen, können Sie daraus eine Vorlage erstellen. Adobe Dynamic Media Classic erstellt für jede Ebene in der PSD ein eigenes Bild. Klicken Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;auf **[!UICONTROL Photoshop-Optionen]** und wählen Sie **[!UICONTROL Ebenen verwalten]** und **[!UICONTROL Vorlage erstellen]**. Wählen Sie dann eine Option aus der Dropdownliste **[!UICONTROL Ebenennamen]** aus, um die Bilder zu benennen, die Adobe Dynamic Media Classic aus Ebenen in der PSD erstellt.
+* Wenn Sie eine PSD-Datei hochladen, können Sie daraus eine Vorlage erstellen. Adobe Dynamic Media Classic erstellt für jede Ebene in der PSD ein eigenes Bild. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Photoshop-Optionen]** und wählen Sie **[!UICONTROL Ebenen verwalten]** und **[!UICONTROL Vorlage erstellen]**. Wählen Sie dann eine Option aus der Dropdownliste **[!UICONTROL Ebenennamen]** aus, um die Bilder zu benennen, die Adobe Dynamic Media Classic aus Ebenen in der PSD erstellt.
 Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
 
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
@@ -38,5 +38,5 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 >[!MORELIKETHIS]
 >
 >* [Hochladen der Dateien](uploading-files.md#uploading_your_files)
->* [Arbeiten mit PSD-Dateien ](psd-files.md#working_with_psd_files)
+>* [Arbeiten mit PSD-Dateien](psd-files.md#working_with_psd_files)
 

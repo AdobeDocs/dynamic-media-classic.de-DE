@@ -1,6 +1,6 @@
 ---
 title: Anzeigen, Hinzufügen und Exportieren von Metadaten
-description: Erfahren Sie, wie Sie Metadaten anzeigen, hinzufügen und exportieren.
+description: Erfahren Sie, wie Sie Metadaten in Adobe Dynamic Media Classic anzeigen, hinzufügen und exportieren.
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 47%
+source-wordcount: '2259'
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ Metadaten werden in der Detailansicht zusammen mit von Adobe Dynamic Media Class
 
 Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Adobe Dynamic Media Classic sie automatisch mit der Datei hoch. Sie können Metadaten in Quell-Assets in Adobe Photoshop, InDesign, Illustrator und andere Anwendungen einbetten. Adobe Dynamic Media Classic erkennt diese Metadaten. Sie können auch einzelnen Dateien Metadaten im Metadatenbedienfeld in der Detailansicht hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
 
-Weitere Informationen zu eingebetteten Metadaten finden Sie unter [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
+Weitere Informationen zu eingebetteten Metadaten finden Sie unter [Extensible Metadata Platform](https://www.adobe.com/products/xmp.html).
 
 ## Anzeigen von Metadaten {#view-metadata}
 
@@ -47,13 +47,13 @@ Informationen zum Erstellen von Metadaten-Ansichten finden Sie unter [Metadaten-
 1. Öffnen Sie das Metadatenbedienfeld und führen Sie einen oder beide der folgenden Schritte aus:
 
    * Wählen Sie die Metadatenansicht aus, um festzustellen, welche Metadatenfelder im Bedienfeld angezeigt werden.
-   * Wählen Sie einen Vorgabewert aus und klicken Sie dann auf **[!UICONTROL Anwenden]**, um Metadatenfelder mit Vorgabewerten zu füllen. Diese Vorgabewerte werden von Unternehmensadministratoren erstellt.
+   * Wählen Sie einen Vorgabenwert und dann **[!UICONTROL Anwenden]**, um Metadatenfelder mit Vorgabewerten zu füllen. Diese Vorgabewerte werden von Unternehmensadministratoren erstellt.
 
 1. Geben Sie Werte in das Metadatenbedienfeld ein.
 
 >[!NOTE]
 >
->Um die Metadaten mehrerer Assets gleichzeitig zu bearbeiten, wählen Sie die Assets aus und klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Informationen bearbeiten]**. Bearbeitungen, die Sie im Fenster „Informationen bearbeiten“ an Metadaten vornehmen, werden auf alle ausgewählten Assets angewendet.
+>Um die Metadaten mehrerer Assets gleichzeitig zu bearbeiten, wählen Sie die Assets aus und gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Informationen bearbeiten]**. Bearbeitungen, die Sie im Fenster „Informationen bearbeiten“ an Metadaten vornehmen, werden auf alle ausgewählten Assets angewendet.
 
 ## Hinzufügen oder Bearbeiten von Schlüsselwörtern {#add-or-edit-keywords}
 
@@ -62,11 +62,11 @@ Zusätzlich zu den Metadaten können Sie Keywords verwenden, um die Suche und Ve
 Wenn Sie während dieser Sitzung Suchbegriffe zu anderen Dateien hinzugefügt haben oder wenn Sie Suchbegriffe aus Ihrer Liste entfernt haben, werden diese in der Tabelle Suchbegriffvorschläge angezeigt.
 
 1. Öffnen Sie die Datei in der Detailansicht.
-1. Klicken Sie auf **[!UICONTROL Suchbegriffe]**.
+1. Wählen Sie **[!UICONTROL Keywords]** aus.
 1. Führen Sie einen der folgenden Schritte aus, um Schlüsselwörter hinzuzufügen:
 
-   * Geben Sie einen Suchbegriff in das Textfeld ein und klicken Sie auf **[!UICONTROL Hinzufügen]**.
-   * Klicken Sie in der Tabelle **[!UICONTROL Suchbegriffvorschläge]** auf einen Suchbegriff.
+   * Geben Sie einen Suchbegriff in das Textfeld ein und wählen Sie **[!UICONTROL Hinzufügen]** aus.
+   * Wählen Sie einen Suchbegriff in der Tabelle **[!UICONTROL Suchbegriffvorschläge]** aus.
 
 1. Um einen Suchbegriff zu entfernen, wählen Sie ihn aus und klicken Sie auf **[!UICONTROL Entfernen]**. Es wird in die Tabelle für Schlüsselwortvorschläge verschoben.
 
@@ -87,13 +87,13 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 Weitere Informationen zu standardisierten Eigenschaften finden Sie unter [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
 1. Wählen Sie im Durchsuchenbedienfeld die Bilder aus, denen Sie Metadaten aus der tabulatorgetrennten oder XML-Datei hinzufügen möchten.
-1. Wählen Sie **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
-1. Klicken Sie im Dialogfeld **[!UICONTROL Metadaten hochladen]** auf **[!UICONTROL Durchsuchen]**.
+1. Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
+1. Wählen Sie im Dialogfeld **[!UICONTROL Metadaten hochladen]** die Option **[!UICONTROL Durchsuchen]**.
 1. Wählen Sie im Dialogfeld **[!UICONTROL Hochzuladende Dateien auswählen]** die tabulatorgetrennte Datei bzw. die XML-Datei mit den Metadaten aus.
 1. Geben Sie einen Auftragsnamen ein.
-1. Klicken Sie auf **[!UICONTROL Hochladen]**.
+1. Wählen Sie **[!UICONTROL Upload]** aus.
 
-### Identifizieren von verschiedenen Metadaten-Typen beim Import
+### Identifizieren verschiedener Metadatentypen im Import
 
 Beachten Sie Folgendes, wenn verschiedene Metadaten-Typen für den Import identifiziert werden:
 
@@ -107,7 +107,7 @@ Beispiel: Die XMP Eigenschaft für Suchbegriffe ist das XMP Schema &quot;Dublin 
 
 Schlüsselwörter können als kommagetrennte Liste importiert werden. Wenn ein Komma in einem der einzelnen Werte erscheint, muss es durch einen umgekehrten Schrägstrich (\) maskiert werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden.
 
-Beispiel: Eine Metadaten-Importdatei mit dem Wert &quot;Hello\, World!,back\\slash,foo&quot;für `dc:subject` legt drei XMP Schlüsselwörter für das Asset fest: &quot;Hallo, Welt!&quot;, &quot;Zurück\Schrägstrich&quot;und &quot;foo&quot;.
+Eine Metadaten-Importdatei mit dem Wert `Hello\, World!,back\\slash,foo` für `dc:subject` legt beispielsweise drei XMP Schlüsselwörter für das Asset fest: `Hello, World!,` `back\slash,` und `foo`.
 
 ### Importieren von XMP- und Metadaten-Schema-XMP-Dateien
 
@@ -131,7 +131,7 @@ Sie können Metadaten für mehrere Dateien importieren, indem Sie die Metadaten 
 
 Stellen Sie sicher, dass die Daten in der tabulatorgetrennten Datei oder in der XML-Datei im korrekten Format vorliegen. Geben Sie in die erste Zeile das ID-Feld, gefolgt von den Namen der Metadaten-Felder ein, die geändert werden sollen. Geben Sie in die nächsten Zeilen jeweils einen Asset-ID-Namen gefolgt von den Metadaten-Werten ein. Felder, die nicht in der tabulatorgetrennten Datei oder in der XML-Datei enthalten sind, werden nicht geändert.
 
-Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Hochladen]**. Um die Metadaten zu importieren, klicken Sie auf der Seite &quot;Hochladen&quot;auf die Registerkarte **[!UICONTROL Via FTP]** und klicken Sie dann auf **[!UICONTROL Auftragsoptionen]**. Klicken Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;auf **[!UICONTROL Job]** und aktivieren Sie dann das Kontrollkästchen **[!UICONTROL Metadatendateien verarbeiten]**.
+Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Upload]** aus. Um die Metadaten zu importieren, wählen Sie auf der Seite Hochladen die Registerkarte **[!UICONTROL Über FTP]** und dann **[!UICONTROL Auftragsoptionen]** aus. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Job]** und aktivieren Sie dann das Kontrollkästchen **[!UICONTROL Metadatendateien verarbeiten]**.
 
 ## Stapel-Umbenennung von IDs mit Metadaten {#batch-rename-ids-using-metadata}
 
@@ -141,8 +141,8 @@ Um die Adobe Dynamic Media Classic ID eines Bildes umzubenennen, fügen Sie der 
 
 Beispiel:
 
-| ipsid | newipsid |
-|--- |--- |
+|  | newipsid |
+| --- | --- |
 | testjacket_1 | Jacket_test_1 |
 | testjacket_blue | Jacket_test_2 |
 
@@ -153,15 +153,15 @@ Das Auftragsprotokoll für den Metadatenauftrag zeigt an, welche IDs erfolgreich
 Adobe Dynamic Media Classic bietet einen Befehl zum Erstellen einer Vorlage für die Aufzeichnung von Metadaten. Die Verwendung der Vorlage stellt sicher, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Adobe Dynamic Media Classic hochgeladen werden können. Gehen Sie wie folgt vor, um eine Vorlage für die Aufzeichnung und den Import von Metadaten in Adobe Dynamic Media Classic zu erstellen:
 
 1. Wählen Sie Bildassets mit Metadatenfeldern aus, die Sie in der Vorlage verwenden möchten.
-1. Wählen Sie **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
+1. Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
 1. Wählen Sie für **[!UICONTROL Asset-Eigenschaftstyp]** **[!UICONTROL Bild]** aus.
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Datei erzeugen]** die Option **[!UICONTROL Tabulatorgetrennte Vorlage]**, **[!UICONTROL XML-Metadaten des Assets]** oder **[!UICONTROL XML-DTD]**.
-1. Klicken Sie auf **[!UICONTROL Generate]**.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Datei erzeugen]** die Option **[!UICONTROL tabulatorgetrennte Vorlage]**, **[!UICONTROL XML-Metadaten des Assets]** oder **[!UICONTROL XML-DTD]**.
+1. Wählen Sie **[!UICONTROL Generate]** aus.
 1. Kopieren Sie die Daten im daraufhin angezeigten Dialogfeld. Verwenden Sie diese Daten, um die Vorlage zu erstellen.
 
 ## Arbeiten mit Metadaten-Schemata {#working-with-metadata-schemas}
 
-Ein Unternehmensadministrator kann eine Liste aller verfügbaren Schemata anzeigen. Klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Metadatenschema]**.
+Ein Unternehmensadministrator kann eine Liste aller verfügbaren Schemata anzeigen. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Metadatenschema]**.
 
 Zunächst wird die Liste der globalen Standardschemata wie XMP ausgeblendet. Sie können mithilfe des Kontrollkästchens unten in der Liste angezeigt werden.
 
@@ -170,7 +170,7 @@ Der Unternehmensadministrator kann ein benutzerdefiniertes Schema erstellen oder
 Sie können den Metadaten-Schema-Editor verwenden, um die folgenden Aktionen ausführen:
 
 | Aktion | Beschreibung |
-|--- |--- |
+| --- | --- |
 | Hinzufügen | Fügt dem Schema eine Eigenschaft hinzu. Ein modales Dialogfeld erfasst die folgenden Informationen: ID, Beschriftung, Struktur und Datentyp. |
 | Auswahlwert hinzufügen | Fügt einer Eigenschaft mit „Offene Auswahl“ oder „Geschlossene Auswahl“ eine neue Auswahloption hinzu. Alle Auswahlwerte haben den gleichen Typ. Wählen Sie die Eigenschaft selbst aus, um die Schaltfläche zu aktivieren. |
 | Bearbeiten | Bearbeiten der Beschriftung einer Eigenschaft oder eines Auswahlwertes. Sie können nur die Beschriftung und ID ändern, nicht aber die Typinformationen. |
@@ -185,13 +185,13 @@ Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdef
 
 Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefiniertes Unternehmensschema in Adobe Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
 
-* **Name**  - UI-Name für das Schema. Wird verwendet, um die Eigenschaften in den Metadaten-Ansichten und bei der erweiterten Suche zu identifizieren. Vergleichbar mit XMP-Abschnitten wie Basic, IPTC, PDF.
+* **[!UICONTROL Name]**  - UI-Name für das Schema. Wird verwendet, um die Eigenschaften in den Metadaten-Ansichten und bei der erweiterten Suche zu identifizieren. Vergleichbar mit XMP-Abschnitten wie Basic, IPTC, PDF.
 
-* **Präfix**  - Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Das Präfix wird verwendet, um Metadaten-Felder bei Metadaten-Suchanfragen beim Metadatenserver oder beim Importieren eindeutig zu identifizieren.
+* **[!UICONTROL Präfix]**  - Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Das Präfix wird verwendet, um Metadaten-Felder bei Metadaten-Suchanfragen beim Metadatenserver oder beim Importieren eindeutig zu identifizieren.
 
-* **Namespace**  - Technische eindeutige Kennung für das Schema, normalerweise eine URL im Formular  `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namespace ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch zum Speichern von Metadaten im XMP verwendet.
+* **[!UICONTROL Namespace]**  - Technische eindeutige Kennung für das Schema, normalerweise eine URL im Formular  `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namespace ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch zum Speichern von Metadaten im XMP verwendet.
 
-* **Beschreibung**  - Kostenlose Beschreibung des Schemas.
+* **[!UICONTROL Beschreibung]**  - Kostenlose Beschreibung des Schemas.
 
 >[!NOTE]
 >
@@ -200,7 +200,7 @@ Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefin
 Eigenschaften beschreiben die Metadaten, die mit diesem Schema im XMP-Block gespeichert werden können. Eine Eigenschaft besteht aus:
 
 | Eigenschaft | Beschreibung |
-|--- |--- |
+| --- | --- |
 | ID | Technischer Identifikator für diese Eigenschaft. Die ID ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Die ID wird verwendet, um Suchanfragen auf dem Metadatenserver zu erstellen. Die ID hat einige Einschränkungen wie folgende: <ul><li>Keine Leerzeichen</li><li>Kein „.“, „:“, „$“</li><li>Keine Zahl als erstes Zeichen</li><li>Es empfiehlt sich, a-z oder A-Z als erstes Zeichen zu verwenden</li></ul> <br>Sobald erstellt, kann die ID nicht geändert werden. |
 | Beschriftung | Name dieser Eigenschaft in der Benutzeroberfläche. |
 | Struktur | Legt die Art der Eigenschaft zusammen mit dem Datentyp fest. Eine Struktur kann sein:<ul><li>Einfacher Typ: Einzelwert des Datentyps</li><li>Sequenz: eine Liste von Werten desselben Datentyps</li><li>Offene Auswahl: Wählen Sie ein Element aus einer zuvor festgelegten Liste von Werten aus oder geben Sie einen beliebigen Text ein. Kann nur vom Datentyp „Zeichenfolge“ oder „Integer“ sein.</li><li>Geschlossene Auswahl: Wählen Sie ein Element aus einer zuvor festgelegten Liste von Werten aus (ein Popup- oder ein Kombinationsfeld).</li></ul> |
@@ -209,7 +209,7 @@ Eigenschaften beschreiben die Metadaten, die mit diesem Schema im XMP-Block gesp
 Wenn die Eigenschaft als Struktur eine offene oder geschlossene Auswahl verwendet, müssen Sie mindestens einen Auswahlwert zur Verfügung stellen. Eine offene Auswahl kann geändert werden. Eine geschlossene Auswahl kann nicht geändert werden. Alle Auswahlwerte haben den Datentyp der Eigenschaft.
 
 | Eigenschaft | Beschreibung |
-|--- |--- |
+| --- | --- |
 | ID | Technischer Identifikator für diesen Wert. Die ID ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Die ID wird für Suchanfragen auf dem Metadatenserver verwendet. Die ID darf keine Leerzeichen enthalten. Sobald erstellt, kann die ID nicht geändert werden. |
 | Beschriftung | Name dieses Wertes in der Benutzeroberfläche. |
 

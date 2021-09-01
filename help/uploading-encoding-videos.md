@@ -1,8 +1,6 @@
 ---
-title: Hochladen und Kodieren von Video
-seo-title: Uploading and encoding videos
-description: Erfahren Sie, wie Sie Videos hochladen und kodieren.
-seo-description: Learn how to upload and encode videos.
+title: Hochladen und Kodieren von Videos
+description: Erfahren Sie, wie Sie Videos in Adobe Dynamic Media Classic hochladen und kodieren.
 uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: admin
 content-type: reference
@@ -11,14 +9,14 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '3893'
-ht-degree: 69%
+source-wordcount: '3909'
+ht-degree: 62%
 
 ---
 
-# Hochladen und Kodieren von Video{#uploading-and-encoding-videos}
+# Hochladen und Kodieren von Videos{#uploading-and-encoding-videos}
 
 Um einzelne Videos oder adaptive Videosets für die Bereitstellung auf Web- oder Mobilgeräten zu erstellen, laden Sie zunächst Ihre Übergeordneten Videodateien in Adobe Dynamic Media Classic hoch. Adobe Dynamic Media Classic kodiert Videos in das MP4-Format und veröffentlicht Videos in den folgenden Dateiformaten:
 
@@ -54,33 +52,33 @@ Führen Sie einen der folgenden Schritte aus.
 
 *Ihre Videos wurden bereits kodiert*
 
-1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Hochladen]**.
-1. Klicken Sie auf der Seite &quot;Hochladen&quot;auf die Registerkarte **[!UICONTROL vom Desktop]** .
-1. Klicken Sie auf der Seite &quot;Hochladen&quot;im Bedienfeld **[!UICONTROL Dateien zum Hochladen auswählen]** auf **[!UICONTROL Durchsuchen]**, navigieren Sie zu einer MP4-Videodatei und klicken Sie dann auf **[!UICONTROL Öffnen]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Upload]** aus.
+1. Wählen Sie auf der Seite &quot;Hochladen&quot;die Registerkarte **[!UICONTROL Vom Desktop]** aus.
+1. Wählen Sie auf der Seite Hochladen im Bedienfeld **[!UICONTROL Dateien zum Hochladen auswählen]** die Option **[!UICONTROL Durchsuchen]**, navigieren Sie zu einer MP4-Videodatei und wählen Sie dann **[!UICONTROL Öffnen]**.
 1. Wählen Sie im Bedienfeld **[!UICONTROL Ordner-Ziel auswählen]** einen Ordner für die hochgeladene Datei aus.
 1. Stellen Sie auf der Seite Hochladen sicher, dass **[!UICONTROL Nach dem Hochladen veröffentlichen]** aktiviert ist.
-1. Klicken Sie auf **[!UICONTROL Upload starten]**.
+1. Wählen Sie **[!UICONTROL Upload starten]** aus.
 
 *Wenn Sie Ihre Videos mit Adobe Dynamic Media Classic kodieren möchten*
 
-1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Hochladen]**.
-1. Klicken Sie auf der Seite &quot;Hochladen&quot;auf die Registerkarte **[!UICONTROL vom Desktop]** .
-1. Klicken Sie im Bedienfeld **[!UICONTROL Hochzuladende Dateien auswählen]** auf **[!UICONTROL Durchsuchen]**, navigieren Sie zu einer Übergeordneten Quellvideodatei und klicken Sie dann auf **[!UICONTROL Öffnen]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Upload]** aus.
+1. Wählen Sie auf der Seite &quot;Hochladen&quot;die Registerkarte **[!UICONTROL Vom Desktop]** aus.
+1. Wählen Sie im Bedienfeld **[!UICONTROL Hochzuladende Dateien auswählen]** die Option **[!UICONTROL Durchsuchen]**, navigieren Sie zu einer Übergeordneten Quellvideodatei und wählen Sie dann **[!UICONTROL Öffnen]**.
 1. Wählen Sie im Bedienfeld **[!UICONTROL Ordner-Ziel auswählen]** einen Ordner für die hochgeladene Datei aus.
-1. Klicken Sie in der unteren rechten Ecke der Seite auf **[!UICONTROL Auftragsoptionen]**,
+1. Wählen Sie in der rechten unteren Ecke der Seite **[!UICONTROL Auftragsoptionen]**,
 1. Erweitern Sie im Dialogfeld &quot;Upload Job Options&quot;den Eintrag **[!UICONTROL eVideo Options]** und führen Sie dann einen der folgenden Schritte aus:
 
    * Es empfiehlt sich, **[!UICONTROL Adaptive Videokodierung]** auszuwählen. Siehe [Adaptive Video (Standard)](application-setup.md#adaptive-video-default).
    * Optional. Wenn Sie einzelne Kodierungseinstellungen verwenden möchten, erweitern Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** und wählen Sie dann die gewünschten Kodierungsoptionen für Desktop, Mobilgerät und Tablet aus.
 Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
-1. Klicken Sie im Dialogfeld „Upload-Auftragsoptionen“ auf **[!UICONTROL Speichern]**.
+1. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Speichern]**.
 1. Stellen Sie auf der Seite Hochladen sicher, dass **[!UICONTROL Nach dem Hochladen veröffentlichen]** aktiviert ist.
-1. Klicken Sie unten rechts auf der Seite „Hochladen“ auf **[!UICONTROL Upload starten]**.
+1. Wählen Sie auf der Seite Hochladen in der rechten unteren Ecke **[!UICONTROL Upload senden]** aus.
 
 *Wenn Sie eine bereits hochgeladene Videodatei neu kodieren möchten*
 
 1. Navigieren Sie in Adobe Dynamic Media Classic im Bedienfeld &quot;Durchsuchen&quot;zum Video und wählen Sie es aus.
-1. Klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Neu verarbeiten]**.
+1. Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Neu verarbeiten]**.
 1. Erweitern Sie im Dialogfeld Assets erneut verarbeiten **[!UICONTROL eVideo Options]** und führen Sie dann einen der folgenden Schritte aus:
    * Wie empfehlen, die folgende Methode zu verwenden. Wählen Sie **Adaptive Video**.
 Siehe [Adaptive Video (Standard)](application-setup.md#adaptive-video-default).
@@ -101,7 +99,7 @@ In der folgenden Tabelle sind die Videodateitypen (mit zulässigen Video-Codecs)
 * **Video-Codecs**  - Ein Video-Codec beschreibt den Algorithmus, mit dem ein Video kodiert wird. Ein Video-Player dekodiert das Video entsprechend dem Codec und zeigt dann eine Reihe von Bildern, auch Frames oder Bildfelder genannt, auf dem Bildschirm an. Codecs reduzieren die Datenmenge, die in Videodateien gespeichert werden muss, um das Video wiedergeben zu können. Statt Daten zu jedem einzelnen Bildfeld zu speichern, werden nur die Unterschiede zwischen zwei Bildfeldern gespeichert. Da sich die meisten Videos von einem Frame zum nächsten kaum ändern, ermöglichen Codecs hohe Komprimierungsraten, was zu kleineren Dateigrößen führt.
 
    | Videodateiformat | Video-Codecs |
-   |:--- |:--- |
+   | --- | --- |
    | 3GP | H.263, H.264 |
    | AVI | DivX, DV |
    | M2P | MPEG-2 PS |
@@ -145,7 +143,7 @@ In der folgenden Tabelle werden die empfohlene Größe, das Seitenverhältnis un
 | 1280 X 720 | 16:9 | 3000–6000 Kbit/s, je nach Ausmaß der Bewegungen im Video. |
 | 1920 X 1080 | 16:9 | 6000–8000 Kbit/s, je nach Ausmaß der Bewegungen im Video. |
 
-### Abrufen der Metadaten der Datei {#obtaining-a-file-s-metadata}
+### Abrufen der Metadaten einer Datei {#obtaining-a-file-s-metadata}
 
 Sie können die Metadaten einer Datei abrufen, indem Sie die Metadaten in Adobe Dynamic Media Classic anzeigen, ein Video-Bearbeitungswerkzeug verwenden oder eine Anwendung zum Abrufen von Metadaten verwenden. Im Folgenden finden Sie Anweisungen zur Verwendung von MediaInfo, einer Drittanbieter-Anwendung zum Abrufen der Metadaten einer Videodatei.
 
@@ -157,14 +155,14 @@ Sie können die Metadaten einer Datei abrufen, indem Sie die Metadaten in Adobe 
 
 Beim Auswählen bzw. beim Erstellen einer Videokodierungsvorgabe für Ihre Mastervideodatei müssen Sie sicherstellen, dass die Vorgabe das gleiche Seitenverhältnis wie die Mastervideodatei aufweist. Das *Seitenverhältnis* ist das Verhältnis von Breite und Höhe des Videos.
 
-Um das Seitenverhältnis einer Videodatei zu ermitteln, rufen Sie die Metadaten der Datei ab und notieren Sie die Breite und Höhe der Datei (siehe [Abrufen der Metadaten einer Datei](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Berechnen Sie das Seitenverhältnis anhand der folgenden Formel:
+Um das Seitenverhältnis einer Videodatei zu ermitteln, rufen Sie die Metadaten der Datei ab und notieren Sie die Breite und Höhe der Datei (siehe [Metadaten einer Datei abrufen](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Berechnen Sie das Seitenverhältnis anhand der folgenden Formel:
 
 Breite/Höhe = Seitenverhältnis
 
 In der folgenden Tabelle sind die Formelergebnisse und die zugehörigen gebräuchlichen Seitenverhältnisse angegeben:
 
 | Formelergebnis | Seitenverhältnis |
-|--- |--- |
+| --- | --- |
 | 1,33 | 4:3 |
 | 0,75 | 3:4 |
 | 1,78 | 16:9 |
@@ -185,7 +183,7 @@ Berücksichtigen Sie bei der Auswahl einer Videokodierungsvorgabe die Verbindung
 In dieser Tabelle sind die Datenraten typischer Verbindungsgeschwindigkeiten aufgeführt.
 
 | Geschwindigkeit (Kbit/s) | Verbindungstyp |
-|--- |--- |
+| --- | --- |
 | 256 | Einwählverbindung. |
 | 800 | Typische Mobilverbindung. Für diese Verbindung sollten Sie für eine wahre 3G-Erfahrung eine Datenrate zwischen 400 und maximal 800 Kbit/s veranschlagen. |
 | 2000 | Typische Breitband-Desktop-Verbindung. Für diese Verbindung sollten Sie eine Datenrate zwischen 800 und 2000 kBit/s anvisieren, wobei die meisten Ziele im Durchschnitt zwischen 1200 und 1500 kBit/s aufweisen. |
@@ -198,7 +196,7 @@ Als *Auflösung* wird die Höhe und Breite einer Videodatei in Pixel bezeichnet.
 Auflösung und Datenrate sind zwei eng miteinander verknüpfte Faktoren, die die Videoqualität bestimmen. Um stets die gleiche Videoqualität aufrechtzuerhalten, muss bei einer Erhöhung der Pixelanzahl in einer Videodatei (d. h. bei einer höheren Auflösung) auch eine entsprechend höhere Datenrate verwendet werden. Nehmen Sie beispielsweise die Anzahl der Pixel pro Bild in einer Videodatei mit einer Auflösung von 320 x 240 und einer anderen mit einer Auflösung von 640 x 480:
 
 | Auflösung | Pixel pro Bild |
-|--- |--- |
+| --- | --- |
 | 320 x 240 | 76.800 |
 | 640 x 480 | 307.200 |
 
@@ -216,7 +214,7 @@ Da Auflösung und Datenrate eng miteinander verbunden sind, haben Sie beim Kodie
 Bei der Auswahl (bzw. beim Erstellen) einer Videokodierungsvorgabe für Ihre Master-Videodatei, ermitteln Sie anhand der folgenden Tabelle die korrekte Auflösung:
 
 | Auflösung | Höhe (Pixel) | Bildschirmgröße |
-|--- |--- |--- |
+| --- | --- | --- |
 | 240p | 240 | Winziger Bildschirm |
 | 300p | 300 | Kleiner Bildschirm wie bei Mobilgeräten |
 | 360p | 360 | Kleiner Bildschirm |
@@ -241,7 +239,7 @@ Wenn das resultierende Verhältnis eine Ganzzahl ist, bedeutet dies, dass das Vi
 Ein Beispiel: Angenommen das Quellvideo hat die Maße 1920 x 1080. In der folgenden Tabelle werden die optimalen Kodierungseinstellungen für drei kodierte Videos aufgeführt.
 
 | Videotyp | Breite x Höhe | Breitenverhältnis | Höhenverhältnis |
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 | Quelle | 1920 x 1080 | 1 | 1 |
 | Kodiert | 960 x 540 | 2 | 2 |
 | Kodiert | 640 x 360 | 3 | 1 |
@@ -255,7 +253,7 @@ Adobe Dynamic Media Classic empfiehlt die Verwendung von MP4 H.264-Videokodierun
 
 Mastervideodateien, die mit professioneller Produktionsausrüstung und Videoschnittsoftware erstellt wurden, sind häufig zu groß und liegen in einem für Online-Medien ungeeigneten Format vor. Um digitales Videomaterial in geeignete Formate für verschiedene Ausgabemedien zu konvertieren, können Sie die Videodateien *transkodieren* (ein Vorgang, der auch als *Kodieren* bezeichnet wird). Durch das Kodieren wird das Video komprimiert und in Größe und Format für die Ausgabe auf Websites und mobilen Geräten optimiert.
 
-Siehe [Hochladen und Kodieren von Video](uploading-encoding-videos.md#uploading-and-encoding-videos).
+Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
 Adobe Dynamic Media Classic bietet eine Bibliothek vordefinierter Videokodierungsvorgaben, die die am häufigsten verwendeten Kodierungseinstellungen widerspiegeln. Diese Kodierungsvorgaben wurden für die Wiedergabe auf den jeweiligen Zieldisplays optimiert. Außerdem können Administratoren eigene Videokodierungsvorgaben erstellen, um die Größe und Wiedergabe von Videos für Endbenutzer anzupassen. Alle Videokodierungsvorgaben, unabhängig davon, ob sie vorkonfiguriert von Adobe Dynamic Media Classic oder benutzerdefiniert sind, geben Videos im MP4-Dateiformat aus.
 
@@ -268,11 +266,11 @@ Adobe Dynamic Media Classic bietet eine Bibliothek vordefinierter Videokodierung
 
 Jedes Video, das Sie in Adobe Dynamic Media Classic hochladen oder in Adobe Dynamic Media Classic kodieren, wird als &quot;Video&quot;behandelt. Diese Asset-Bezeichnung bedeutet, dass Sie das Video für die Wiedergabe auf Desktops, mobilen Geräten oder beiden bereitstellen können. Beispielsweise können Sie eine Vorschau dieser Videotypen in Adobe Dynamic Media Classic anzeigen. Sie können auch URLs (mithilfe der Funktion „URL kopieren“) sowie Einbettungscode (mithilfe der Funktion „Code einbetten“) für die Verwendung mit Video-Playern, auf Websites usw. generieren.
 
-Siehe [Anzeigen einer Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
+Siehe [Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
 Siehe [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website).
 
-Siehe [Einbetten des Video-Viewers auf einer Webseite](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
+Siehe [Einbetten des Video-Viewers auf einer Web-Seite](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
 
 Für Video-Assets, die Sie in Adobe Dynamic Media Classic hochladen und kodieren, wird das Video im folgenden Dateiformat bereitgestellt:
 
@@ -284,7 +282,7 @@ Für Video-Assets, die Sie in Adobe Dynamic Media Classic hochladen und kodieren
 
 Jedes andere Videoformat und jeder andere Codec werden als &quot;Übergeordnetes Video&quot;behandelt. Diese Asset-Bezeichnung bedeutet, dass das Video eine Quellvideodatei ist und nicht für die Wiedergabe auf Desktops oder mobilen Geräten verwendet werden kann. Sie können diese Videotypen beispielsweise nicht in Adobe Dynamic Media Classic in der Vorschau anzeigen. Sie können auch keine Verknüpfungen des Typs „URL kopieren“ sowie Einbettungscode für die Verwendung in Video-Playern, auf Websites usw. generieren.
 
-### Filtern der Liste von Videokodierungsvorgaben {#filtering-the-list-of-video-encoding-presets}
+### Filtern der Liste der Videokodierungsvorgaben {#filtering-the-list-of-video-encoding-presets}
 
 Die Seite &quot;Videovorgaben&quot;und die Seite &quot;Adaptive Videovorgaben&quot;bestehen aus einer Tabelle, in der der aktive Status, der Vorgabenname, das vorgesehene Wiedergabegerät, die Videogröße und die Datenrate jeder Videovorgabe aufgelistet sind.
 
@@ -294,7 +292,7 @@ Sie können auch basierend auf einem Wiedergabegerät filtern, um die Liste auf 
 
 **So filtern Sie die Liste der Videokodierungsvorgaben:**
 
-1. Klicken Sie in Adobe Dynamic Media Classic in der Symbolleiste für globale Navigation auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]** > **[!UICONTROL Adaptive Videovorgaben]** oder **[!UICONTROL Einzelne Kodierungsvorgaben]**.
+1. Navigieren Sie in Adobe Dynamic Media Classic auf der Symbolleiste für globale Navigation zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]** > **[!UICONTROL Adaptive Videovorgaben]** oder **[!UICONTROL Einzelne Kodierungsvorgaben]**.
 
    Die Seiten für adaptive Videovorgaben und einzelne Kodierungsvorgaben enthalten eine Tabelle, in der der aktive Status, der Name der Vorgabe, das geplante Wiedergabegerät, die Videodimensionen und die Datenrate jeder Videovorgabe aufgelistet sind.
 
@@ -307,11 +305,11 @@ Sie können auch basierend auf einem Wiedergabegerät filtern, um die Liste auf 
 
 Aktivierte Videovorgaben werden im Dialogfeld „Upload-Auftragseinstellungen“ angezeigt. Das Dialogfeld wird angezeigt, wenn ein Benutzer während des Upload-Prozesses Videodateien hochlädt. Sie können in einer Liste oder aktivierten Kodierungsvorgaben wählen.
 
-1. Klicken Sie in Adobe Dynamic Media Classic auf der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]**.
+1. Navigieren Sie in Adobe Dynamic Media Classic auf der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL Adaptive Videovorgaben]**.
-   * Klicken Sie auf **[!UICONTROL Einzelne Kodierungsvorgaben]**.
+   * Wählen Sie **[!UICONTROL Adaptive Videovorgaben]** aus.
+   * Wählen Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** aus.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -322,9 +320,9 @@ Aktivierte Videovorgaben werden im Dialogfeld „Upload-Auftragseinstellungen“
       >
       >Inaktive Videovorgaben werden im Dialogfeld „Upload-Auftragseinstellungen“ nicht angezeigt.
 
-1. Klicken Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Schließen]**.
+1. Wählen Sie in der rechten unteren Ecke der Seite **[!UICONTROL Close]** aus.
 
-### Hinzufügen oder Bearbeiten einer Videokodierungsvorgabe {#adding-or-editing-a-video-encoding-preset}
+### Hinzufügen oder Bearbeiten von Videokodierungsvorgaben {#adding-or-editing-a-video-encoding-preset}
 
 Sie können Ihre eigenen, benutzerdefinierten einzelnen Kodierungsvorlagen erstellen und sie zur Tabelle der Videovorgaben hinzufügen. Sie können auch alle vordefinierten Videovorgaben für die einzelne Kodierung ändern, die in der Adobe Dynamic Media Classic enthalten sind, vorausgesetzt, Sie speichern die bearbeitete Vorgabe unter einem neuen Namen.
 
@@ -336,12 +334,12 @@ Adobe Dynamic Media Classic hat Höchstgrenzen für die Zieldatenrate, die Höhe
 
 **So fügen Sie eine Videokodierungsvorgabe hinzu oder bearbeiten sie:**
 
-1. Klicken Sie in Adobe Dynamic Media Classic auf der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]**.
-1. Klicken Sie auf **[!UICONTROL Einzelne Kodierungsvorgaben]**.
+1. Navigieren Sie in Adobe Dynamic Media Classic auf der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]**.
+1. Wählen Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** aus.
 1. Auf der Seite „Video-Vorgaben“ führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie in der Symbolleiste &quot;Videovorgaben&quot;auf **[!UICONTROL Hinzufügen]**, damit Sie eine Videovorgabe hinzufügen können.
-   * Wählen Sie eine Video-Vorgabe aus. Klicken Sie auf der Symbolleiste auf **[!UICONTROL Bearbeiten]**.
+   * Wählen Sie in der Symbolleiste &quot;Videovorgaben&quot;die Option **[!UICONTROL Hinzufügen]** aus, damit Sie eine Videovorgabe hinzufügen können.
+   * Wählen Sie eine Video-Vorgabe aus. Wählen Sie in der Symbolleiste **[!UICONTROL Bearbeiten]** aus.
 
       Vordefinierte Vorgaben aus Adobe Dynamic Media Classic können nicht bearbeitet werden. Sie können eine Vorgabe nur aus einer vorhandenen erstellen, indem Sie **[!UICONTROL Speichern unter]** auswählen.
 
@@ -350,34 +348,34 @@ Adobe Dynamic Media Classic hat Höchstgrenzen für die Zieldatenrate, die Höhe
    Die empfohlenen Einstellungen finden Sie unter [Bewährte Vorgehensweise für die Videokodierung](uploading-encoding-videos.md#best-practices-for-video-encoding).
 
    | Option „Video-Vorgabe“ | Beschreibung |
-   |--- |--- |
+   | --- | --- |
    | Vorgabenname | Geben Sie einen beschreibenden Namen für die Video-Vorgabe ein. Der hier eingegebene Name wird im Dialogfeld „Upload-Auftragsoptionen“ angezeigt, in dem Benutzer Optionen zum Transkodieren auswählen. |
    | Beschreibung | Beschreiben Sie die Video-Vorgabe. Was Sie eingeben, wird als QuickInfo angezeigt, wenn Sie den Mauszeiger im Dialogfeld &quot;Upload-Auftragsoptionen&quot;über den Namen der Vorgabe bewegen, in dem Benutzer Optionen zum Transkodieren auswählen. |
    | Wiedergabegerät | Wählen Sie das Gerät aus, auf dem das Video wiedergegeben werden soll. Die Optionen sind Computer (Desktops), Mobiltelefon (iPhone, iPad, Android™). oder Tablet (nur iPad). Über diese Einstellung wird automatisch der geeignete Video- und Audio-Codec für die Kodierung festgelegt. |
    | Zieldatenrate | Geben Sie die durchschnittliche Verbindungsgeschwindigkeit des Endbenutzers in Kilobit pro Sekunde ein. Sie können die Datenrate eingeben oder zur Eingabe den Regler ziehen. Für die Verbindungsgeschwindigkeit werden typische Geschwindigkeiten für Breitband-, DSL-, mobile und DFÜ-Verbindungen aufgelistet. Diese Einstellung legt automatisch die kombinierte Video- und Audiodatenrate fest. Anders ausgedrückt, die Datenmenge, die kodiert wird, um eine einzige Sekunde für die Videowiedergabe zu generieren. Je höher die Datenrate, desto besser ist die Qualität des resultierenden Videos. Ist die Datenrate jedoch zu hoch, kommt es zu erheblich größeren Dateien und dadurch zu einer Beeinträchtigung der Wiedergabe bei geringeren Bandbreiten. Es empfiehlt sich, einen Kompromiss zwischen hohen und niedrigen Datenraten einzugehen. Die Videos sollten in möglichst hoher Qualität wiedergegeben werden, ohne jedoch Benutzer mit langsameren Verbindungen zu benachteiligen. |
-   | Seitenverhältnis | Das Seitenverhältnis ist das Verhältnis von Breite und Höhe des Videos. Die ersten beiden Seitenverhältnisse in der Liste werden häufig verwendet, um Video horizontal anzuzeigen:<ul><li> 4:3: Wird für nahezu alle TV-Übertragungen in Standardauflösung verwendet.</li><li>16:9: Wird für nahezu alle HDTV-Übertragungen in Widescreen sowie für Spielfilme verwendet.</li><li>Autom. Skalierung (Standard): Eine einzelne Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, um Videos zur Wiedergabe auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos (Verhältnis von Breite zu Höhe) beizubehalten.</li><li>Benutzerdefiniert: Verwenden Sie diese Einstellung, wenn Sie ein eigenes Videoformat festlegen möchten.</li><li>Das ausgewählte Seitenverhältnis legt die Einstellungen für Breite und Höhe für die Auflösungsgröße fest. Der Breiten- bzw. Höhenwert wird automatisch an das jeweilige Seitenverhältnis angepasst.</li></ul> |
-   | Auflösung | Die Größe der Auflösung, ausgedrückt durch die Anzahl der Pixel breit durch die Anzahl der Pixel hoch, bestimmt die Größe. Geben Sie einen Wert für die Breite und Höhe in Pixeln ein oder ziehen Sie zur Eingabe den Regler. Für die Auflösung werden typische Werte aufgelistet. Die Werte für Breite und Höhe werden jeweils automatisch an das ausgewählte Seitenverhältnis angepasst. Wenn Sie zum Beispiel als Seitenverhältnis „4:3“ festlegen und als Breite „400“ eingeben, wird für die Höhe automatisch „300“ eingegeben. Wenn Sie für das Seitenverhältnis die Einstellung Autom. Skalierung festgelegt haben, wird für die Breite der Auflösungsgröße automatisch der Wert Auto festgelegt. Klicken Sie auf Vorschau , um ein Browserfenster zu öffnen und dort die Optionen zur Auflösung anzuzeigen. |
+   | Seitenverhältnis | Das Seitenverhältnis ist das Verhältnis von Breite und Höhe des Videos. Die ersten beiden Seitenverhältnisse in der Liste werden häufig verwendet, um Video horizontal anzuzeigen:<ul><li> 4:3: Wird für nahezu alle TV-Übertragungen in Standardauflösung verwendet.</li><li>16:9 - wird für fast alle Breitbildinhalte und Filme im High-Definition-Fernsehen (HDTV) verwendet.</li><li>Autom. Skalierung (Standard): Eine einzelne Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, um Videos zur Wiedergabe auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos (Verhältnis von Breite zu Höhe) beizubehalten.</li><li>Benutzerdefiniert: Verwenden Sie diese Einstellung, wenn Sie ein eigenes Videoformat festlegen möchten.</li><li>Das ausgewählte Seitenverhältnis legt die Einstellungen für Breite und Höhe für die Auflösungsgröße fest. Der Breiten- bzw. Höhenwert wird automatisch an das jeweilige Seitenverhältnis angepasst.</li></ul> |
+   | Auflösung | Die Größe der Auflösung, ausgedrückt durch die Anzahl der Pixel breit durch die Anzahl der Pixel hoch, bestimmt die Größe. Geben Sie einen Wert für die Breite und Höhe in Pixeln ein oder ziehen Sie zur Eingabe den Regler. Für die Auflösung werden typische Werte aufgelistet. Die Werte für Breite und Höhe werden jeweils automatisch an das ausgewählte Seitenverhältnis angepasst. Wenn Sie zum Beispiel als Seitenverhältnis „4:3“ festlegen und als Breite „400“ eingeben, wird für die Höhe automatisch „300“ eingegeben. Wenn Sie für das Seitenverhältnis die Einstellung Autom. Skalierung festgelegt haben, wird für die Breite der Auflösungsgröße automatisch der Wert Auto festgelegt. Wählen Sie **[!UICONTROL Vorschau]** aus, damit Sie ein Browser-Fenster öffnen und dort Ihre Lösungsoptionen anzeigen können. |
    | Kodierungsdateisuffix | Geben Sie ein Suffix ein. Dieses Suffix wird dem Namen der Videodatei nach erfolgter Kodierung angehängt. Der Name darf Bindestriche und Unterstriche enthalten, jedoch keine Leerzeichen oder Sonderzeichen. |
    | Andere Einstellungen | Adobe Dynamic Media Classic ermittelt alle anderen Kodierungseinstellungen automatisch gemäß den Best Practice-Kodierungsrichtlinien. |
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie eine Video-Vorgabe hinzugefügt oder bearbeitet haben.
-   * Klicken Sie auf **[!UICONTROL Speichern unter]**, wenn Sie eine Video-Vorgabe auf Grundlage einer bereits vorhandenen Vorgabe erstellt haben.
+   * Wählen Sie **[!UICONTROL Speichern]** aus, wenn Sie eine Videovorgabe hinzugefügt oder bearbeitet haben.
+   * Wählen Sie **[!UICONTROL Speichern unter]** aus, wenn Sie eine Videovorgabe hinzugefügt haben, indem Sie mit einer vorhandenen Vorgabe beginnen.
 
 ### Löschen einer Videokodierungsvorgabe {#deleting-a-video-encoding-preset}
 
 Administratoren können benutzerdefinierte Video-Vorgaben löschen. Videovorgaben, die in Adobe Dynamic Media Classic enthalten sind, können nicht gelöscht werden.
 
-1. Klicken Sie in Adobe Dynamic Media Classic auf der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]**.
-1. Klicken Sie auf **[!UICONTROL Einzelne Kodierungsvorgaben]**.
+1. Navigieren Sie in Adobe Dynamic Media Classic auf der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]**.
+1. Wählen Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** aus.
 1. Wählen Sie auf der Seite „Video-Vorgaben“ die Vorgabe aus, die Sie nicht mehr benötigen und entfernen möchten.
-1. Klicken Sie auf der Symbolleiste „Video-Vorgabe“ auf **[!UICONTROL Löschen]**.
-1. Klicken Sie im Dialogfeld „Voreinstellung löschen“ auf **[!UICONTROL Löschen]**.
+1. Wählen Sie in der Symbolleiste &quot;Videovorgaben&quot;die Option **[!UICONTROL Löschen]**.
+1. Wählen Sie im Dialogfeld &quot;Vorgabe löschen&quot;die Option **[!UICONTROL Löschen]**.
 
 >[!MORELIKETHIS]
 >
->* [Kurzanleitung: Video](quick-start-video.md#quick-start-video)
->* [Hochladen und Kodieren von Video](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [Schnellstart: Video in Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
+>* [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Arbeiten mit Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 

@@ -1,16 +1,16 @@
 ---
 title: Hochladen von Bild-Assets oder Vektor-Assets
-description: Erfahren Sie, wie Sie ein Bild-Asset oder ein Vektor-Asset hochladen.
+description: Erfahren Sie, wie Sie ein Bild-Asset oder ein Vektor-Asset in Adobe Dynamic Media Classic hochladen.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 78%
+source-wordcount: '1504'
+ht-degree: 70%
 
 ---
 
@@ -24,7 +24,7 @@ Fordern Sie einen *Shared-Secret-Schlüssel* von [unter Verwendung der Admin Con
 
 Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Adobe Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
-## Abrufen des Upload-Tokens {#retrieving-the-upload-token}
+## Upload-Token abrufen {#retrieving-the-upload-token}
 
 Das *Upload-Token* stellt sicher, dass niemand denselben gemeinsamen geheimen Schlüssel zum Hochladen von Assets verwenden kann. Außerdem stellt es sicher, dass der Upload zulässig ist und von einer vertrauenswürdigen Quelle stammt.
 
@@ -68,7 +68,7 @@ Speichern Sie das Upload-Token für zukünftige Anfragen lokal.
 Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upload-Tokens verwenden:
 
 | URL-Parameter | Erforderlich oder optional | Wert |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Erforderlich | get_uploadtoken |
 | shared_secret | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen, das den Upload ausführt. |
 | expires | Optional | Anzahl der Sekunden, die das Upload-Token gültig ist. Der Standardwert ist 300 Sekunden, wenn nicht spezifiziert. |
@@ -86,9 +86,9 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upl
 
 Sie können nun ein Bild-Asset hochladen.
 
-Siehe [Hochladen von Bild-Assets](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Siehe [Hochladen eines Bild-Assets](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Hochladen von Bild-Assets {#uploading-an-image-asset}
+## Hochladen eines Bild-Assets {#uploading-an-image-asset}
 
 Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne gültig ist, können Sie ein Bild-Asset hochladen. Sie laden das Asset mit der POST-Methode als mehrteilige Formulardaten hoch, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden, wie im nachfolgenden Beispiel gezeigt:
 
@@ -98,9 +98,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Die Felder `upload_token` und `company_name` sind erforderlich.
 
-Siehe [Abrufen des Upload-Tokens](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Siehe [Upload-Token abrufen](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Siehe [Anfordern eines gemeinsamen geheimen Schlüssels](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Siehe [Abrufen eines gemeinsamen geheimen Schlüssels](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Sie können auch andere optionale Werte als URL-Anfragezeichenfolgen senden, wie das nachfolgende Beispiel zeigt:
 
@@ -113,7 +113,7 @@ Der Parameter `file_limit` gibt die Dateigrößenbeschränkung in Byte an. Der P
 In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei der von Ihnen gesendeten Anforderung um eine Untergruppe der globalen Beschränkungen handelt, wird diese berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
 | Globale Beschränkung | Wert |
-|--- |--- |
+| --- | --- |
 | Dateigröße für alle Clients | 20 MB |
 | Unterstützte Bilddateiformate zum Hochladen | BMP, GIF, JPG, PNG, PSD |
 
@@ -125,7 +125,7 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
 * Gibt an, ob Hintergrund aussparen verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
-Siehe Hintergrund aussparen in [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+Siehe &quot;Hintergrund aussparen&quot;in [Optionen zur Bild-Feinabstimmung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-Sie können den HTML-Quellcode, der mit dem oben stehenden Formular verknüpft ist, anzeigen, indem Sie auf [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) klicken.
+Sie können den HTML-Quellcode, der mit dem obigen Formular verknüpft ist, anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) auswählen.
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und klicken Sie dann auf **[!UICONTROL Seitenquelle anzeigen]**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie dann **[!UICONTROL Seitenquelle anzeigen]** aus. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
 
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **[!UICONTROL „Ansicht“]** > **[!UICONTROL „Quelltext“]**. Um die XML-Antwort in Firefox anzuzeigen, klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Web Developer Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort in Internet Explorer anzuzeigen, gehen Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Quelle]**. Um die XML-Antwort in Firefox anzuzeigen, gehen Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Web-Entwicklertools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formulardaten, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden. Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Hochladen eines Assets verwenden:
 
 | URL-Parameter | Erforderlich oder optional | Wert |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Erforderlich | Hochladen |
 | `upload_token` | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
 | `company_name` | Erforderlich | Name des hochladenden Unternehmens. |
@@ -235,7 +235,7 @@ Ein Beispiel für eine erfolgreiche Antwort wird in etwa wie folgt angezeigt:
 Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Informationen für ein Asset verwenden:
 
 | URL-Parameter | Erforderlich oder optional | Wert |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Erforderlich | image_info |
 | `shared_secret` | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
 | `image_name` | Erforderlich | Name des Bildes. |
@@ -248,7 +248,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Infor
 
 GET und POST
 
-## Hochladen von Vektor-Assets {#uploading-a-vector-asset}
+## Hochladen eines Vektor-Assets {#uploading-a-vector-asset}
 
 Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne gültig ist, können Sie ein Vektor-Asset hochladen. Sie laden das Asset mit der POST-Methode als mehrteilige Formulardaten hoch, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden, wie im nachfolgenden Beispiel gezeigt:
 
@@ -258,9 +258,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Die Felder `upload_token` und `company_name` sind erforderlich.
 
-Siehe [Abrufen des Upload-Tokens](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Siehe [Upload-Token abrufen](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Siehe [Anfordern eines gemeinsamen geheimen Schlüssels](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Siehe [Abrufen eines gemeinsamen geheimen Schlüssels](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Sie können auch andere optionale Werte als URL-Anfragezeichenfolgen senden, wie das nachfolgende Beispiel zeigt:
 
@@ -273,7 +273,7 @@ Der Parameter `file_limit` gibt die Dateigrößenbeschränkung in Byte an. Der P
 In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei der von Ihnen gesendeten Anforderung um eine Untergruppe der globalen Beschränkungen handelt, wird diese berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
 | Globale Beschränkung | Wert |
-|--- |--- |
+| --- | --- |
 | Dateigröße für alle Clients | 20 MB |
 | Unterstützte Vektordateiformate zum Hochladen | AI, EPS, PDF (nur, wenn das PDF-Dokument zuvor in Adobe Illustrator CS6 geöffnet und gespeichert wurde) |
 
@@ -285,7 +285,7 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
 * Gibt an, ob Hintergrund aussparen verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
-Siehe Hintergrund aussparen in [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+Siehe &quot;Hintergrund aussparen&quot;in [Optionen zur Bild-Feinabstimmung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-Der folgende HTML-Code wird angezeigt, wenn Sie mit der rechten Maustaste in das Browserfenster klicken und dann für das im Beispiel dargestellte Formular **[!UICONTROL Quelle anzeigen]** auswählen. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
+Der folgende HTML-Code wird angezeigt, wenn Sie mit der rechten Maustaste in das Browserfenster klicken und dann **[!UICONTROL Quelle anzeigen]** für das im Beispiel dargestellte Formular auswählen. Der Code zeigt die entsprechende URL-Abfragezeichenfolge und die POST an, die ausgeführt werden, wenn der Benutzer **[!UICONTROL Submit]** auswählt.
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-Um die XML-Antwort im Internet Explorer anzuzeigen, klicken Sie auf **[!UICONTROL „Ansicht“]** > **[!UICONTROL „Quelltext“]**. Um die XML-Antwort in Firefox anzuzeigen, klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Seitenquelle]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort in Internet Explorer anzuzeigen, gehen Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Quelle]**. Um die XML-Antwort in Firefox anzuzeigen, gehen Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Seitenquelle]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formulardaten, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden. Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Hochladen eines Assets verwenden:
 
 | URL-Parameter | Erforderlich oder optional | Wert |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Erforderlich | Hochladen |
 | `upload_token` | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
 | `company_name` | Erforderlich | Name des hochladenden Unternehmens. |

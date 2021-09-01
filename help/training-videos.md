@@ -1,19 +1,19 @@
 ---
 title: Schulungsvideos zu Adobe Dynamic Media Classic
-description: Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamischen Bildbearbeitung, zum Video, zum Medienportal, zu Vorlagen sowie zum Authoring und Rendering von Bildern.
+description: Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, Dynamic Imaging, Video, Medienportal, Vorlagen sowie Bildbearbeitung und -rendering.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '6546'
+source-wordcount: '6552'
 ht-degree: 0%
 
 ---
 
 # Schulungsvideos zu Adobe Dynamic Media Classic {#training-videos}
 
-Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamischen Bildbearbeitung, zum Video, zum Medienportal, zu Vorlagen sowie zum Authoring und Rendering von Bildern.
+Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, Dynamic Imaging, Video, Medienportal, Vorlagen sowie Bildbearbeitung und -rendering.
 
 ## Erste Schritte {#get-started-training}
 
@@ -61,7 +61,7 @@ Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamis
 
 * [Schnellstart 2: E-Kataloge](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
-## Video {#video-training}
+## Video in Adobe Dynamic Media Classic {#video-training}
 
 * [MP4-Videoübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
@@ -97,7 +97,7 @@ Adobe Dynamic Media Classic-Schulungsvideos zu den ersten Schritten, zur dynamis
 
 * [SPS 6.5, Update-Übersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/529_6.5%20highlights_2012.11.06%20-%20Scene7%20-%206.5%20Release%20Highlights_Scratch-AVS)
 
-## Image Authoring und Rendering {#image-authoring-rendering-training}
+## Image Authoring und Image Rendering {#image-authoring-rendering-training}
 
 Schulungsvideos zu verschiedenen Aspekten der folgenden Themen:
 
@@ -155,7 +155,7 @@ Kehren Sie zu [Image Authoring and Rendering](#image-authoring-rendering-trainin
 
 * [Fehler bei Beleuchtungskarten](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/999_21_common_mistakes_bad_illumination_maps_ia_01colorizing-AVS)
 
-### Musterzuordnung {#pattern-mapping}
+### Musterkarte {#pattern-mapping}
 
 Kehren Sie zu [Image Authoring and Rendering](#image-authoring-rendering-training) zurück.
 
@@ -261,7 +261,7 @@ Kehren Sie zu [Image Authoring and Rendering](#image-authoring-rendering-trainin
 
 * [Bekleidungskolorialisierung](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/620_700_apparel_colorization_review_ia_07apparel-AVS)
 
-* [Bemühung um Musterzuordnung bewerten](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
+* [Bemühung um Musterzuordnung](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
 
 * [Authoring von Bekleidungsflossen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/622_702_apparel_flowline_authoring_ia_07apparel-AVS)
 

@@ -1,6 +1,6 @@
 ---
 title: Video SEO
-description: Erfahren Sie, wie Sie SEO-Einstellungen für Videos konfigurieren.
+description: Erfahren Sie, wie Sie SEO-Videoeinstellungen in Adobe Dynamic Media Classic konfigurieren.
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 40%
+source-wordcount: '1037'
+ht-degree: 37%
 
 ---
 
@@ -43,15 +43,15 @@ Adobe Dynamic Media Classic erstellt Berichte über Video-Sitemaps und mRSS-Feed
 >
 >Für die Video-Sitemaps und mRSS-Feeds erfasst Adobe Dynamic Media Classic Metadaten nur aus Videos, die zur Veröffentlichung markiert sind. Markieren Sie Videos zur Veröffentlichung, um ihre Metadaten in Video-Sitemaps und mRSS-Feeds einzuschließen.
 
-## Auswählen von Video SEO-Einstellungen {#choosing-video-seo-settings}
+## Video SEO-Einstellungen auswählen {#choosing-video-seo-settings}
 
-Klicken Sie auf der Seite **[!UICONTROL Video Search Engine Optimization Settings]** auf Video SEO-Einstellungen für Video-Sitemaps und mRSS-Feeds. Um diese Seite zu öffnen, klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Einstellungen]**.
+Wählen Sie Video SEO-Einstellungen für Video-Sitemaps und mRSS-Feeds auf der Seite **[!UICONTROL Einstellungen für die Video Search Engine Optimization]** aus. Um diese Seite zu öffnen, navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Einstellungen]**.
 
 Wählen Sie im Bereich **[!UICONTROL Allgemeine Einstellung]** aus, ob Sie Video-Sitemaps, mRSS-Feeds oder beides generieren möchten. Ordnen Sie im Bereich **[!UICONTROL Erstellungseinstellungen]** Metadatenfelder Eingabefeldern zu.
 
-Nachdem Sie die Einstellungen ausgewählt haben, klicken Sie auf **[!UICONTROL Speichern]** (oder **[!UICONTROL Speichern und Generieren]**), um die Video-Sitemap, mRSS-Feeds oder beides zu erstellen.
+Nachdem Sie die Einstellungen ausgewählt haben, wählen Sie **[!UICONTROL Save]** (oder **[!UICONTROL Save &amp; Generate]**) aus, um die Video-Sitemap, mRSS-Feeds oder beides zu erstellen.
 
-### Auswählen von allgemeinen Einstellungen {#choosing-general-settings}
+### Einrichten allgemeiner Einstellungen {#choosing-general-settings}
 
 Wählen Sie in der Dropdownliste **[!UICONTROL Erstellungsmodus]** einen Berichtsmodus:
 
@@ -65,17 +65,17 @@ Wählen Sie in der Dropdownliste **[!UICONTROL Erstellungsmodus]** einen Bericht
 
 Wählen Sie in der Dropdown-Liste **[!UICONTROL Automatischer/manueller Modus]** aus, ob automatisch oder manuell generiert werden soll:
 
-* **Automatischer Modus**  - Adobe Dynamic Media Classic generiert täglich automatisch eine Video-Sitemap, einen Media RSS (mRSS)-Feed oder beides. Wählen Sie die Option Zur Veröffentlichung markieren , um die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung zu markieren.
+* **Automatischer Modus**  - Adobe Dynamic Media Classic generiert täglich automatisch eine Video-Sitemap, einen Media RSS (mRSS)-Feed oder beides. Wählen Sie die Option **[!UICONTROL Zur Veröffentlichung markieren]** aus, um die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung zu markieren.
 
    * **Markieren Sie zur** Veröffentlichung die generierte XML-Datei zur Veröffentlichung.
 
-* **Manueller Modus**  - Adobe Dynamic Media Classic generiert die Video-Sitemap, den Media RSS (mRSS)-Feed oder beides, wenn Sie auf Generieren oder Speichern und Generieren im Bildschirm &quot;Videosuchoptimierungseinstellungen&quot;klicken. Wählen Sie außerdem aus den folgenden Optionen:
+* **Manueller Modus**  - Adobe Dynamic Media Classic generiert die Video-Sitemap, den Media RSS (mRSS)-Feed oder beides, wenn Sie im Bildschirm &quot;Einstellungen für die Videosuche&quot;die Option  **** Generieren oder  **[!UICONTROL Speichern und]** Generieren auswählen. Wählen Sie außerdem aus den folgenden Optionen:
 
    * **Keine weiteren Einstellungen**  - Markiert die generierte XML-Datei nicht zur Veröffentlichung.
 
    * **Zur Veröffentlichung markieren**  - Markiert die generierte XML-Datei zur Veröffentlichung.
 
-   * **Teilgenerierung zulassen**  - Suchmaschinen können eine XML-Datei ablehnen, wenn sie keine vollständigen Metadateninformationen für alle Videos enthält. Mit dieser Option wird die XML-Datei erstellt, selbst wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
+   * **Teilgenerierung zulassen**  - Suchmaschinen können eine XML-Datei ablehnen, wenn sie keine vollständigen Metadateninformationen für alle Videos enthält. Mit dieser Option wird die XML-Datei generiert, selbst wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
 
 ### Auswählen von Erstellungseinstellungen {#choosing-generation-settings}
 
@@ -91,16 +91,16 @@ Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um Ihre Einstellungen zu speichern, ohne die XML-Datei zu generieren, klicken Sie auf **[!UICONTROL Speichern]**.
-   * Um die Datei zu speichern und zu generieren, klicken Sie auf **[!UICONTROL Speichern und generieren]**.
+   * Um Ihre Einstellungen zu speichern, ohne die XML-Datei zu generieren, wählen Sie **[!UICONTROL Speichern]** aus.
+   * Um die Datei zu speichern und zu generieren, wählen Sie **[!UICONTROL Speichern und Generieren]** aus.
 
       Die XML-Datei wird erstellt und in das Auftragsprotokoll eingetragen. Video-Sitemap-Dateien (video-sitemap) und Media RSS (mRSS)-Feed-Dateien (mrss-feed) werden im Stammordner Ihres Unternehmens gespeichert.
 
 >[!NOTE]
 >
->Veröffentlichen Sie die Video-Sitemap oder den mRSS-Feed, bevor Sie ihn an Suchmaschinen senden können. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien ggf. zur Veröffentlichung und klicken Sie auf **[!UICONTROL Publish]**.
+>Veröffentlichen Sie die Video-Sitemap oder den mRSS-Feed, bevor Sie ihn an Suchmaschinen senden können. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien ggf. zur Veröffentlichung und wählen Sie **[!UICONTROL Publish]** aus.
 
-## Übermitteln von Video-Sitemap- und mRSS-Feed-Dateien an Suchmaschinen {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
+## Senden von Video-Sitemap- und mRSS-Feed-Dateien an eine Suchmaschine {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
 Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert:
 
@@ -109,8 +109,8 @@ Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unter
 
 Kopieren Sie eine dieser URLs in die Webmaster-Tools einer Suchmaschine, um Ihre Video-Sitemap- oder Media RSS (mRSS)-Feed-Datei an diese Suchmaschine zu übermitteln.
 
-## Anzeigen von Berichten für Video SEO {#viewing-video-seo-reports}
+## Anzeigen von Video SEO-Berichten {#viewing-video-seo-reports}
 
-Zeigen Sie Video SEO-Berichte auf der Seite &quot;Video Search Engine Optimization Report&quot;an. Um diese Seite zu öffnen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Berichte]**.
+Zeigen Sie Video SEO-Berichte auf der Seite &quot;Video Search Engine Optimization Report&quot;an. Um diese Seite zu öffnen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Berichte]**.
 
 Wenn bei der Berichterstellung Fehler aufgetreten sind, werden diese auf der Seite Bericht aufgeführt.
