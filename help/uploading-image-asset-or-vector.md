@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 70%
+source-wordcount: '1540'
+ht-degree: 69%
 
 ---
 
 # Hochladen von Bild-Assets oder Vektor-Assets{#uploading-an-image-asset-or-a-vector-asset}
 
 Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsamen geheimen Schlüssel an. Mit diesem gemeinsamen geheimen Schlüssel können Sie ein Upload-Token abrufen. Mit dem Upload-Token können Sie anschließend Bild- oder Vektor-Assets hochladen.
+
+>[!IMPORTANT]
+>
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endet am 30. September 2021.
 
 ## Anfordern eines gemeinsamen geheimen Schlüssels {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Infor
 GET und POST
 
 ## Hochladen eines Vektor-Assets {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endet am 30. September 2021.
 
 Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne gültig ist, können Sie ein Vektor-Asset hochladen. Sie laden das Asset mit der POST-Methode als mehrteilige Formulardaten hoch, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden, wie im nachfolgenden Beispiel gezeigt:
 

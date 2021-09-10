@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 83%
+source-wordcount: '114'
+ht-degree: 70%
 
 ---
 
@@ -49,6 +49,10 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines As
 | `op` | Erforderlich | löschen |
 | `shared_secret` | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
 | <ul><li>Für Bilder:image_name</li><li>Bei Vektoren:fxg_name</li></ul> | Erforderlich | Name des Assets, das gelöscht werden soll. |
+
+>[!IMPORTANT]
+>
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endet am 30. September 2021.
 
 **Beispielbild-URL:**
 

@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 53%
+source-wordcount: '164'
+ht-degree: 47%
 
 ---
 
@@ -24,6 +24,10 @@ UGC unterstützt die folgenden Formate:
 
 * Raster: JPG, PNG, TIFF
 * Vektor: AI, EPS (EPS-Dateien aus Adobe Illustrator 2018 werden nicht unterstützt), PDF (nur, wenn die PDF-Datei zuvor in Adobe Illustrator CS6 geöffnet und gespeichert wurde)
+
+>[!IMPORTANT]
+>
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endet am 30. September 2021.
 
 Sie erhalten einen gemeinsamen geheimen Schlüssel, bevor Sie Assets hochladen. Verwenden Sie diesen Schlüssel, um ein Upload-Token abzurufen. Sie senden das Upload-Token, wenn Sie Assets hochladen und andere Aufgaben für benutzergenerierte Inhalte ausführen.
 
