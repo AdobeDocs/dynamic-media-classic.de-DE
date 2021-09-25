@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
+source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
@@ -106,11 +106,11 @@ Verwandte Themen:
 
    Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
-   | Server-Name des Desktop-Programms | Browser-URL |
+   | Browser-URL | Server-Name des Desktop-Programms |
    | --- | --- |
-   | Produktion der NA (Nordamerika) | `https://s7sps1.scene7.com/` |
-   | Produktion von EMEA (Europa, Naher Osten und Afrika) | `https://s7sps3.scene7.com/` |
-   | APAC-Produktion (Asien-Pazifik) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
+   | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
 1. Beachten Sie nach der Anmeldung die bekannte Benutzeroberfläche des Browsers. Sie können die tägliche Adobe der Dynamic Media Classic-Aktivität wie gewohnt im Desktop-Programm fortsetzen.
 
@@ -123,7 +123,7 @@ Verwandte Themen:
 
 So laden Sie die neueste Adobe Dynamic Media Classic Desktop App unter macOS herunter und installieren Sie *silent*:
 
-1. Deinstallieren Sie alle älteren Adobe Dynamic Media Classic Desktop-Programm-Versionen auf Ihrem System, indem Sie die Adobe Dynamic Media Classic.app in Papierkorb verschieben.
+1. Deinstallieren Sie alle älteren Adobe Dynamic Media Classic Desktop-Programm-Versionen auf Ihrem System.
 
 1. Laden Sie das neueste Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm für macOS herunter.
 
@@ -148,11 +148,11 @@ So laden Sie die neueste Adobe Dynamic Media Classic Desktop App unter macOS her
 
    Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
-   | Server-Name des Desktop-Programms | Browser-URL |
+   | Browser-URL | Server-Name des Desktop-Programms |
    | --- | --- |
-   | Produktion der NA (Nordamerika) | `https://s7sps1.scene7.com/` |
-   | Produktion von EMEA (Europa, Naher Osten und Afrika) | `https://s7sps3.scene7.com/` |
-   | APAC-Produktion (Asien-Pazifik) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
+   | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
 ## Laden Sie die neueste Adobe Dynamic Media Classic-Desktop-App unter Windows® herunter und installieren Sie *silent*. {#install-silent-windows-dmc-app}
 
@@ -193,11 +193,12 @@ So laden Sie die neueste Version des Dynamic Media Classic-Desktop-Programms unt
 
    Informationen zur Verwendung von **[!UICONTROL Server]** finden Sie in der folgenden Zuordnung für die Produktionsumgebung:
 
-   | Server-Name des Desktop-Programms | Browser-URL |
+   | Browser-URL | Server-Name des Desktop-Programms |
    | --- | --- |
-   | Produktion der NA (Nordamerika) | `https://s7sps1.scene7.com/` |
-   | Produktion von EMEA (Europa, Naher Osten und Afrika) | `https://s7sps3.scene7.com/` |
-   | APAC-Produktion (Asien-Pazifik) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Produktion der NA (Nordamerika) |
+   | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
+
 
 ## Video-exemplarische Vorgehensweise zur Verwendung der Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
