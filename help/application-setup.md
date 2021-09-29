@@ -1,6 +1,6 @@
 ---
 title: Anwendungseinstellungen
-description: Erfahren Sie, wie Sie den Anwendungsbereich von Adobe Dynamic Media Classic einrichten.
+description: Erfahren Sie, wie Sie den Anwendungsbereich von Adobe Dynamic Media Classic einrichten und konfigurieren. Im Bereich "Anwendung"können Sie allgemeine Einstellungen eingeben, Bild-, Viewer- und Videokodierungsvorgaben erstellen, Standard-Viewer und -Metadaten definieren, Veröffentlichungseinstellungen und SEO-Einstellungen für Videos festlegen. Sie können den Bereich auch verwenden, um Stapelsatzvorgaben einzurichten, um die Erstellung von 2D-Rotationssets zu automatisieren.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '10951'
-ht-degree: 44%
+source-wordcount: '11003'
+ht-degree: 43%
 
 ---
 
@@ -957,7 +957,7 @@ spin-03-12
 
 Mit diesen Informationen kann Ihr Stapelsatztyp-Rezept wie folgt erstellt werden:
 
-![](assets/se_batch_set_recipe.png)
+![Stapelsatzrezeptbild](assets/se_batch_set_recipe.png)
 
 Die Gruppierung für den Teil des gemeinsamen Asset-Namens des Rotationssets wird dem Feld Übereinstimmung hinzugefügt (wie hervorgehoben). Der variable Teil des Asset-Namens, der die Zeile und Spalte enthält, wird den Feldern Zeile bzw. Spalte hinzugefügt.
 

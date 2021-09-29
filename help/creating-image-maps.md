@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2425'
 ht-degree: 49%
 
 ---
@@ -42,7 +42,7 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
    * Wenn Sie mit einem Rotationsset in der Rasteransicht oder Listenansicht arbeiten, wählen Sie **[!UICONTROL Bearbeiten]**. Oder öffnen Sie es in der Detailansicht und wählen Sie **[!UICONTROL Bearbeiten]** aus. Wählen Sie ein Bild-Asset aus und klicken Sie dann auf **[!UICONTROL Imagemap]**.
    * Wenn Sie mit einem eCatalog arbeiten, wählen Sie in der Rasteransicht, Listenansicht und Detailansicht **[!UICONTROL Bearbeiten]** aus. Wählen Sie die Registerkarte **[!UICONTROL Seiten zuordnen]** aus.
 
-   ![](assets/ma_image_map.png)
+   ![Imagemap-Bild](assets/ma_image_map.png)
 
 1. Sie können eine rechteckige oder polygonale Imagemap zeichnen:
 
