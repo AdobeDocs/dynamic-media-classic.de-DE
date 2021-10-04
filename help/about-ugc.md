@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 48%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 47%
 
 Die Verwendung von benutzergenerierten Inhalten besteht darin, Assets in ein dediziertes Dynamic Media Classic-Speicher-Repository hochzuladen und zugehörige Vorgänge auszuführen.
 
-UGC unterstützt die folgenden Formate:
-
-* Raster: JPG, PNG, TIFF
-* Vektor: AI, EPS (EPS-Dateien aus Adobe Illustrator 2018 werden nicht unterstützt), PDF (nur, wenn die PDF-Datei zuvor in Adobe Illustrator CS6 geöffnet und gespeichert wurde)
+UGC unterstützt Rasterbilddateiformate BMP, GIF, JPG, PNG, PSD, TIFF.
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
 >
->Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endet am 30. September 2021.
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
 
 Sie erhalten einen gemeinsamen geheimen Schlüssel, bevor Sie Assets hochladen. Verwenden Sie diesen Schlüssel, um ein Upload-Token abzurufen. Sie senden das Upload-Token, wenn Sie Assets hochladen und andere Aufgaben für benutzergenerierte Inhalte ausführen.
 

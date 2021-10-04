@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 31%
 
 ---
@@ -73,14 +73,14 @@ Last Modified Date:
 
 Die folgenden Asset-Typen und -Funktionen werden derzeit nicht unterstützt:
 
-* RTMP-Videostreaming
-* UGC-Dienste (benutzergenerierte Inhalte)
-* Web-to-Print
 * Adobe Dynamic Media Classic Info oder eCatalog-Suche
+* RTMP-Videostreaming
+* Web-to-Print
+* UGC-Dienste (benutzergenerierte Inhalte)
 
 >[!IMPORTANT]
 >
->Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endet am 30. September 2021.
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
 
 ## Testen des Secure Testing-Dienstes {#testing-the-secure-testing-service}
 
