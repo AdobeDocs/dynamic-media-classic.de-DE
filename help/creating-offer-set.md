@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie fertig sind, stellen Sie in der Nähe der rechten unteren Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen*]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Close]**, geben Sie einen Namen für das Angebotsset ein und wählen Sie **[!UICONTROL Save]**.
 
-Bevor Sie die Seite &quot;Test&amp;Target-Angebotsset&quot;schließen, pushen Sie das Angebotsset auf Adobe Target Standard/Premium. Siehe [Weiterleiten von Angebotssets an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Bevor Sie die Seite &quot;Test&amp;Target-Angebotsset&quot;schließen, pushen Sie das Angebotsset auf Adobe Target Standard/Premium. Siehe [Angebotssets an Test&amp;Target pushen](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Angebotssatz mit Bildern oder Videos erstellen {#creating-an-offer-set-with-images-or-videos}
 
