@@ -10,9 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 25%
 
 ---
@@ -31,7 +31,7 @@ Die wichtigsten Schritte des Adobe Dynamic Media Classic-Workflows sind:
 
 * **Rich Media erstellen**  - Erstellen Sie verschiedene Konfigurationen Ihrer Assets, z. B. E-Kataloge, Bildsets, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen.
 
-* **Veröffentlichen und verwalten**  - Veröffentlichen Sie Assets im SaaS-Netzwerk von Adobe Dynamic Media Classic und überwachen Sie den Status von Assets bei der Veröffentlichung, verwalten Sie Benutzerrechte und gewährleisten Sie Sicherheit.
+* **Veröffentlichen und Verwalten**  - Veröffentlichen Sie Assets im SaaS-Netzwerk von Adobe Dynamic Media Classic. Überwachen Sie den Status von Assets, wenn sie veröffentlicht werden. Verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
 
 * **Bereitstellung**  - Bereitstellen von Medien aus dem Adobe Dynamic Media Classic SaaS-Netzwerk für Webseiten, Anwendungen und Mobilgeräte; die Medien sind leistungsoptimiert und werden mit CDN-Zwischenspeicherung bereitgestellt. Adobe Dynamic Media Classic stellt Ihnen eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
 

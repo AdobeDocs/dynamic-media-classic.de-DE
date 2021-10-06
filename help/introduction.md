@@ -1,20 +1,20 @@
 ---
 title: Hilfe zu Adobe Dynamic Media Classic
-description: Willkommen bei Adobe Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem für das Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Dienste auf allen Geräten und Bildschirmen.
+description: Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem für das Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Dienste auf allen Geräten und Bildschirmen.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
 
 # Hilfe zu Adobe Dynamic Media Classic {#scene7-overview}
 
-Willkommen bei Adobe Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem für das Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Dienste auf allen Geräten und Bildschirmen. Adobe Dynamic Media Classic-Lösungen umfassen Folgendes:
+Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem für das Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Dienste auf allen Geräten und Bildschirmen. Adobe Dynamic Media Classic-Lösungen umfassen Folgendes:
 
 * Dynamic Imaging: Echtzeitbearbeitung, Formatierung und Größenanpassung, interaktiver Zoom und Schwenken; Farb- und Texturbeobachtung; 360° Rotation; Bildvorlagen; Multimedia-Viewer.
 * E-Kataloge: Erstellen, Hotspot-Verknüpfen, Suchfunktion, Veröffentlichen und Bereitstellen dynamisch bereitgestellter Online-Kataloge in konfigurierbaren Viewern.
