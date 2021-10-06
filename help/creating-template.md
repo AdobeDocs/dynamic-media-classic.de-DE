@@ -10,16 +10,18 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 45%
+source-wordcount: '3466'
+ht-degree: 44%
 
 ---
 
 # Erstellen von Vorlagen {#creating-a-template}
 
 Um eine Vorlage zu erstellen, gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. Auf dieser Seite können Sie Bild- und Textebenen hinzufügen. Darüber hinaus können Sie sowohl die Anordnung als auch die Größe und Position von Ebenen ändern sowie Schatten- und Schein-Effekte auf Bilder und Text anwenden.
+
+Siehe auch Schulungsvideo zu [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) .
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 
 1. Verwenden Sie eine der folgenden Methoden, um Ihre Ausgangsvorlage zu erstellen:
 
-   * **Wählen Sie zuerst**  die PSD oder die Bilder aus. Wählen Sie im Durchsuchenbedienfeld die PSD-Datei oder die Bilder aus, die Sie für die Vorlage verwenden möchten, und gehen Sie zu  **[!UICONTROL Erstellen]**  >  **[!UICONTROL Vorlagengrundlagen]**.
+   * **Wählen Sie zuerst**  die PSD oder die Bilder aus. Wählen Sie im Durchsuchenbedienfeld die PSD-Datei oder die-Bilder aus, die Sie für Ihre Vorlage verwenden möchten, gehen Sie zu  **[!UICONTROL Erstellen]**  >  **[!UICONTROL Vorlagengrundlagen]**.
 
    * **Beginnen Sie im Bildschirm**  &quot;Vorlage&quot;- Navigieren Sie zu  **[!UICONTROL Erstellen]**  >  **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. 
 
@@ -52,7 +54,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 1. Wählen Sie **[!UICONTROL Save]** aus.
 1. Wählen Sie einen Ordner zum Speichern der Vorlage aus, geben Sie einen Namen für die Vorlage ein und wählen Sie **[!UICONTROL Submit]** aus.
 
-   Adobe Dynamic Media Classic schrumpft Bilder bei Bedarf auf der Arbeitsfläche, also im Bereich auf dem Vorlagenbildschirm zur Definition Ihrer Vorlage.
+   Adobe Dynamic Media Classic verkleinert Bilder bei Bedarf, um sie auf die Arbeitsfläche anzupassen, also den Bereich auf dem Bildschirm &quot;Vorlage&quot;zur Definition Ihrer Vorlage.
 
 ## Vorlagensatz bearbeiten {#editing-a-template-set}
 
@@ -103,7 +105,7 @@ Verwenden Sie diese Tools auf dem Bildschirm &quot;Vorlage&quot;, um Vorlagen zu
 
    >[!NOTE]
    >
-   >Der Texteditor v4.2 ist als Option in Adobe Dynamic Media Classic geplant. Daher wird empfohlen, den Texteditor 4.3 nach Möglichkeit zu verwenden. Die Option **[!UICONTROL Wortumbruch]** wird in eine künftige Version des Texteditors eingefügt.
+   >Die Version 4.2 des Texteditors ist als Option in Adobe Dynamic Media Classic geplant. Daher wird empfohlen, den Texteditor 4.3 nach Möglichkeit zu verwenden. Die Option **[!UICONTROL Wortumbruch]** wird in eine künftige Version des Texteditors eingefügt.
 
 * **[!UICONTROL Designer und Entwickler]**  - Wählen Sie die Option, die Ihre Rolle am besten beschreibt.
 
@@ -244,7 +246,7 @@ Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie k�
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt die Erstellung einer Bildvorgabe, die der exakten Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Bildvorgaben einrichten](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der exakten Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Bildvorgaben einrichten](setting-image-presets.md#setting_up_image_presets).
 
 * **Ändern der Größe einer Ebene** : Um die Größe einer Ebene oder der Arbeitsfläche zu ändern, wählen Sie die Ebene oder Arbeitsfläche in der Liste &quot;Ebenen&quot;aus und verwenden Sie eine der folgenden Methoden:
 

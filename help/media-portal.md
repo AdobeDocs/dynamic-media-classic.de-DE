@@ -10,17 +10,23 @@ discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
 feature: Dynamic Media Classic,Asset Management
 role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '283'
+ht-degree: 5%
 
 ---
 
 # Media Portal{#media-portal}
 
-Adobe Medien Portal bietet Unternehmen die Möglichkeit, problemlos genehmigte Assets zu erwerben, zu kontrollieren und an externe Partner und Kanäle sowie interne Benutzer zu verteilen. Die browserbasierte Self-Service-Umgebung bietet Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, mit denen sie leicht auf Assets zugreifen können, die vom Administrator hochgeladen, durchsucht, gesucht, in der Vorschau angezeigt und in vom Unternehmen genehmigte Formate exportiert werden können.
+Adobe Medien Portal bietet Unternehmen die Möglichkeit, problemlos genehmigte Assets zu erwerben, zu kontrollieren und an externe Partner und Kanäle sowie interne Benutzer zu verteilen. Die browserbasierte Self-Service-Umgebung bietet Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, die einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bieten.
 
 Weitere Informationen zu Media Portal einschließlich der Systemanforderungen finden Sie unter [Verwenden von Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
 
 Informationen zur Verwaltung von Media Portal finden Sie unter [Kurzanleitung: Media Portal-Administration](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
+
+Siehe auch die folgenden Schulungsvideos:
+
+* [Übersicht über Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+* [Media Portal-Tour 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Media Portal-Tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)

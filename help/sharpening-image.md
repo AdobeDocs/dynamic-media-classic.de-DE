@@ -10,10 +10,10 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 44%
+source-wordcount: '2276'
+ht-degree: 42%
 
 ---
 
@@ -29,17 +29,19 @@ Unabhängig davon, ob Sie Bildvorgaben und Viewer-Vorgaben oder eine andere Meth
 
 >[!NOTE]
 >
->Mit dem Befehl „Scharfzeichnen“ werden die Einstellungen unter „Bildvorgaben“, einschließlich der dort angegebenen Scharfzeichnungseinstellungen, überschrieben. Eine Bildvorgabe legt die Größe und Formatierung fest, mit der Bilder von Dynamic Media-Bildservern bereitgestellt werden. Adobe Dynamic Media Classic empfiehlt dringend die Verwendung von Bildvorgaben, um alle Bilder bereitzustellen, um sicherzustellen, dass die Bilder in einheitlicher Größe und mit einheitlicher Scharfzeichnung bereitgestellt werden. Wenn jedoch die Scharfzeichnungseinstellungen für ein einzelnes Bild geändert wurden, gelten die Scharfzeichnungseinstellungen der Bildvorgabe nicht mehr für dieses Bild. Es wird dann ohne Anwendung der Scharfzeichnungseinstellungen der Bildvorgabe gesendet.
+>Mit dem Befehl „Scharfzeichnen“ werden die Einstellungen unter „Bildvorgaben“, einschließlich der dort angegebenen Scharfzeichnungseinstellungen, überschrieben. Eine Bildvorgabe legt die Größe und Formatierung fest, mit der Bilder von Dynamic Media-Bildservern bereitgestellt werden. Adobe Dynamic Media Classic empfiehlt dringend die Verwendung von Bildvorgaben, um alle Bilder bereitzustellen, um sicherzustellen, dass Bilder in einheitlicher Größe und Scharfzeichnung bereitgestellt werden. Wenn jedoch die Scharfzeichnungseinstellungen für ein einzelnes Bild geändert wurden, gelten die Scharfzeichnungseinstellungen der Bildvorgabe nicht mehr für dieses Bild. Es wird dann ohne Anwendung der Scharfzeichnungseinstellungen der Bildvorgabe gesendet.
 
-Es ist oft notwendig, Bilder scharfzuzeichnen. Adobe Dynamic Media Classic und Image-Server bieten mehrere Scharfzeichnungsoptionen. Es ist wichtig zu wissen, was das Scharfzeichnen bei einem Bild bewirkt und wie viel Scharfzeichnung Sie benötigen. Die meisten Bilder müssen etwas scharfgezeichnet werden, aber der Grad der Scharfzeichnung hängt vom Bild ab.
+Es ist oft notwendig, Bilder scharfzuzeichnen. Adobe Dynamic Media Classic- und Image-Server bieten mehrere Scharfzeichnungsoptionen. Es ist wichtig zu wissen, was das Scharfzeichnen bei einem Bild bewirkt und wie viel Scharfzeichnung Sie benötigen. Die meisten Bilder müssen etwas scharfgezeichnet werden, aber der Grad der Scharfzeichnung hängt vom Bild ab.
 
 Die Bildschärfung erhöht den Kontrast der Pixel, um den Eindruck zu erwecken, dass die Kanten akzentuiert sind. Menschen nehmen diesen erhöhten Kantenkontrast als Schärfe wahr. Obwohl es einfach ist, ein Bild mithilfe von Scharfzeichnungsfiltern zu verbessern, ist es auch einfach, ein Bild zu stark scharfzuzeichnen.
 
 Wenn ein Bild zu stark scharfgezeichnet ist, entsteht ein Halo- oder Banding-Effekt.
 
-Es gibt Best Practices, die Sie befolgen können, um das Scharfzeichnen Ihrer Bilder in Adobe Dynamic Media Classic und auf Dynamic Media Image Server zu optimieren.
+Es gibt Best Practices, die Sie befolgen können, um das Scharfzeichnen Ihrer Bilder in Adobe Dynamic Media Classic und auf dem Dynamic Media Image Server zu optimieren.
 
 Siehe [Best Practices für das Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+
+Siehe auch Schulungsvideo zu [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 **So zeichnen Sie ein Bild scharf:**
 
@@ -69,7 +71,7 @@ Wählen Sie das Menü **[!UICONTROL Scharfzeichnen]** aus und wählen Sie eine O
 
 Wählen Sie diese Optionen aus, damit Sie die Scharfzeichnung mit der Unschärfemaske optimieren können:
 
-* **Betrag**  - Steuert den auf die Kantenpixel angewendeten Kontrastwert. Der Standardwert ist 0,0. Für Bilder mit höherer Auflösung können Sie ihn auf bis zu 5,0 erhöhen. Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Die Einstellung **[!UICONTROL Amount]** in Adobe Dynamic Media Classic ist nicht die gleiche wie die Einstellung Amount in Adobe Photoshop. Adobe Photoshop verwendet einen Betrag zwischen 1 % und 500 %, während Adobe Dynamic Media Classic von 0,0 auf 5,0 skaliert. (5,0 entspricht ungefähr 500 % in Photoshop, 0,9 ungefähr 90 % usw.)
+* **Betrag**  - Steuert den auf die Kantenpixel angewendeten Kontrastwert. Der Standardwert ist 0,0. Für Bilder mit höherer Auflösung können Sie ihn auf bis zu 5,0 erhöhen. Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Die Einstellung **[!UICONTROL Amount]** in Adobe Dynamic Media Classic entspricht nicht der Einstellung Amount in Adobe Photoshop. Adobe Photoshop verwendet einen Betrag zwischen 1 % und 500 %, während Adobe Dynamic Media Classic zwischen 0,0 und 5,0 skaliert. (5,0 entspricht ungefähr 500 % in Photoshop, 0,9 ungefähr 90 % usw.)
 
 * **Radius**  - Bestimmt die Anzahl der Pixel um die Kantenpixel, die sich auf die Scharfzeichnung auswirken. Der Effekt wird auf allen Pixeln im Bild ausgeführt und strahlt in alle Richtungen aus. 
 
@@ -101,7 +103,7 @@ Wählen Sie das Menü **[!UICONTROL Resampling]** aus und wählen Sie eine Optio
 
 **Scharfzeichnen und Bildvorgaben**
 
-Sie können alle drei Scharfzeichnungseffekte integrieren, um Ihr Endergebnis zu erzielen. Diese Methode wird jedoch nicht empfohlen. Adobe Dynamic Media Classic empfiehlt, die Scharfzeichnungseffekte als Teil einer Bildvorgabe zu speichern. Mit Bildvorgaben können Sie die am häufigsten verwendeten Bild-Modifikatoren verpacken, um ein dynamisch angepasstes Bild in einer kleinen Textzeichenfolge zu erstellen. Eine Bildvorgabe enthält Werte für das Dateiformat (normalerweise JPEG für das Internet), die Pixelanzahl und die Bildschärfe. Anstatt die URL mit jedem Bild-Modifikator anzuhängen, den Sie zum Erstellen eines bestimmten Typs der Bildgröße verwenden müssen, erstellen Sie eine benannte Bildvorgabe, z. B. &quot;Miniaturansicht&quot;. Konfigurieren Sie dann die Bildvorgabe für die Miniaturansicht mit den entsprechenden Größe, dem Dateiformat und den Scharfzeichnungsoptionen. Rufen Sie das Bild mit dem Namen der Bildvorgabe auf. Bildvorgaben verkürzen die Länge der gesamten URL. Diese beiden URLs erzeugen dasselbe 350 x 350 JPEG-Bild mit Scharfzeichnung:
+Sie können alle drei Scharfzeichnungseffekte integrieren, um Ihr Endergebnis zu erzielen. Diese Methode wird jedoch nicht empfohlen. Adobe Dynamic Media Classic empfiehlt, die Scharfzeichnungseffekte als Teil einer Bildvorgabe zu speichern. Mit Bildvorgaben können Sie die am häufigsten verwendeten Bild-Modifikatoren verpacken, um ein dynamisch angepasstes Bild in einer kleinen Textzeichenfolge zu erstellen. Eine Bildvorgabe enthält Werte für das Dateiformat (normalerweise JPEG für das Web), die Pixelanzahl und die Bildschärfe. Anstatt die URL mit jedem Bild-Modifikator anzuhängen, den Sie zum Erstellen eines bestimmten Typs der Bildgröße verwenden müssen, erstellen Sie eine benannte Bildvorgabe, z. B. &quot;Miniaturansicht&quot;. Konfigurieren Sie dann die Bildvorgabe für die Miniaturansicht mit den entsprechenden Größe, dem Dateiformat und den Scharfzeichnungsoptionen. Rufen Sie das Bild mit dem Namen der Bildvorgabe auf. Bildvorgaben verkürzen die Länge der gesamten URL. Diese beiden URLs erzeugen dasselbe 350 x 350 JPEG-Bild mit Scharfzeichnung:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -118,7 +120,7 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 * **Regler**  - Bestimmt die JPG-Komprimierungsstufe. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala ist 1-100.
 
-* **JPG-Chrominanz-Downsampling aktivieren** : Da das Auge weniger empfindlich gegenüber hochfrequenten Farbinformationen als gegenüber hochfrequenter Luminanz ist, teilen JPEG-Bilder Bildinformationen in Luminanz und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Obwohl das Datenvolumen beim Downsampling um die Hälfte oder ein Drittel reduziert wird, ist die auftretende Qualitätsminderung kaum wahrnehmbar. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
+* **JPG Chrominance-Downsampling aktivieren**  - Da das Auge weniger empfindlich gegenüber hochfrequenten Farbinformationen als gegenüber hochfrequenter Luminanz ist, teilen JPEG-Bilder Bildinformationen in Luminanz und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Obwohl das Datenvolumen beim Downsampling um die Hälfte oder ein Drittel reduziert wird, ist die auftretende Qualitätsminderung kaum wahrnehmbar. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
 **Festlegen unternehmensweiter Scharfzeichnungsoptionen**
 
@@ -131,6 +133,8 @@ Um die standardmäßigen Scharfzeichnungsoptionen Ihres Unternehmens festzulegen
 Wenn Sie der Vorgabe keine Scharfzeichnungs-Bildmodifizierer hinzufügen, kann das kleine, anfänglich geladene Bild verschwommen aussehen, weil ein Downsampling durchgeführt wurde, um es in das Viewer-Fenster einzupassen, ohne scharfgezeichnet zu werden.
 
 Mit Viewer-Vorgaben (wie Bildvorgaben) können Sie viele Optionen an einem Ort zentralisieren, einschließlich der Auswahl der Haut- und Viewer-Optionen (z. B. durch Eingabe einer Drucken-Schaltfläche oder Steuerung der Geschwindigkeit der Zoom-Animation). Viewer-Vorgaben befinden sich im selben Abschnitt wie Bildvorgaben unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Viewer-Vorgaben]**.
+
+Siehe Schulungsvideo zu [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 Die Modifiziereroption befindet sich im Bereich „Core-Einstellungen“ aller E-Katalog-, Rotations- und benutzerdefinierter Zoom-Viewer-Vorgaben. Wenn Sie die URL-Scharfzeichnungsbefehle zum Feld „Modifizierer“ hinzufügen, fügen Sie bei jedem Aufruf des Viewers mit der jeweiligen Viewer-Vorgabe Scharfzeichnung hinzu.
 

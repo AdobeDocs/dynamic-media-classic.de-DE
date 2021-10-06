@@ -1,6 +1,6 @@
 ---
 title: '"Kurzanleitung: Rotationssets"'
-description: Eine Einführung in Adobe Dynamic Media Classic und ein Schnellstart zu Rotationssets, die Ihnen den schnellen Einstieg in Classic erleichtern.
+description: Eine Einführung und ein Schnellstart für das Rotationsset, damit Sie in Adobe Dynamic Media Classic schnell arbeiten können.
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 25%
+source-wordcount: '796'
+ht-degree: 23%
 
 ---
 
 # Kurzanleitung: Rotationssets{#quick-start-spin-sets}
 
-Mit einem Rotationsset wird simuliert, wie man ein reales Objekt dreht, um es von allen Seiten betrachten zu können. Rotationssets ermöglichen die Anzeige von Objekten aus einem beliebigen Blickwinkel, um seine wichtigsten visuellen Eigenschaften zu erfassen. Ein Rotationsset simuliert eine 360°-Anzeige. Adobe Dynamic Media Classic bietet eindimensionale Rotationssets, in denen die Betrachter ein Element drehen können, und zweidimensionale Rotationssets, in denen die Betrachter das Element drehen und spiegeln können. Darüber hinaus können Benutzer mit wenigen einfachen Mausklicks beliebige Ansichten &quot;frei&quot;zoomen und schwenken. Auf diese Weise können Benutzer ein Objekt näher und aus einer bestimmten Perspektive betrachten.
+Mit einem Rotationsset wird simuliert, wie man ein reales Objekt dreht, um es von allen Seiten betrachten zu können. Rotationssets ermöglichen die Anzeige von Objekten aus einem beliebigen Blickwinkel, um seine wichtigsten visuellen Eigenschaften zu erfassen. Ein Rotationsset simuliert eine 360°-Anzeige. Adobe Dynamic Media Classic bietet eindimensionale Rotationssets, in denen die Viewer ein Element drehen können, und zweidimensionale Rotationssets, in denen die Viewer das Element drehen und spiegeln können. Darüber hinaus können Benutzer mit wenigen einfachen Mausklicks beliebige Ansichten &quot;frei&quot;zoomen und schwenken. Auf diese Weise können Benutzer ein Objekt näher und aus einer bestimmten Perspektive betrachten.
 
 ![Bilder für ein Rotationsset.](/help/assets/spin_set.png)
 
@@ -27,7 +27,9 @@ Rotationssets akzeptieren auch Imagemaps. Eine Imagemap ist ein Bereich auf eine
 
 Siehe [Erstellen von Imagemaps](creating-image-maps.md).
 
-Diese Kurzanleitung für Rotationssets wurde entwickelt, um mit den Rotationssets-Techniken in Adobe Dynamic Media Classic schnell vertraut zu machen. Führen Sie die Schritte 1 bis 7 aus. Am Ende jedes Schritts können Sie einen Themenlink auswählen, um mehr zu erfahren.
+Siehe [Bild- und Rotationssets: Schulungsvideo für Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+
+Diese Kurzanleitung für Rotationssets soll Sie in Adobe Dynamic Media Classic schnell mit den Rotationssets-Techniken vertraut machen. Führen Sie die Schritte 1 bis 7 aus. Am Ende jedes Schritts können Sie einen Themenlink auswählen, um mehr zu erfahren.
 
 ## 1. Erstellen und Hochladen der Bilder
 
@@ -65,7 +67,7 @@ Siehe [Vorschau eines Rotationssets](previewing-spin-set.md#previewing-a-spin-se
 
 ## 6. Veröffentlichen eines Rotationssets
 
-Beim Veröffentlichen eines Rotationssets wird es auf Adobe Dynamic Media Classic-Servern platziert, damit es dynamisch für Ihre Website oder Anwendung bereitgestellt werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, mit der das Rotationsset von den Dynamic Media-Bildservern auf Ihre Website oder Anwendung aufgerufen wird.
+Durch das Veröffentlichen eines Rotationssets wird es auf Adobe Dynamic Media Classic-Servern platziert, damit es dynamisch auf Ihrer Website oder in Ihrer Anwendung bereitgestellt werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, mit der das Rotationsset von den Dynamic Media-Bildservern auf Ihre Website oder Anwendung aufgerufen wird.
 
 Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie im Durchsuchenbedienfeld das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** neben dem Namen auswählen. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Veröffentlichen]** aus, um eine Veröffentlichung zu starten. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
@@ -73,7 +75,7 @@ Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a
 
 ## 7. Verknüpfen eines Rotationssets mit einer Webseite
 
-Adobe Dynamic Media Classic erstellt URL-Hinweisszeichenfolgen für Rotationssets und aktiviert sie nach der Veröffentlichung. Sie können diese URLs von der Seite &quot;Vorschau&quot;kopieren.
+Adobe Dynamic Media Classic erstellt URL-Callout-Zeichenfolgen für Rotationssets und aktiviert sie nach der Veröffentlichung. Sie können diese URLs von der Seite &quot;Vorschau&quot;kopieren.
 
 Wählen Sie das Rotationsset aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Wählen Sie eine Rotationsset-Viewer-Vorgabe aus. Wählen Sie dann **[!UICONTROL URL kopieren]** aus.
 

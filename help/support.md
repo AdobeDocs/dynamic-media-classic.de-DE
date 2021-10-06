@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 523d6e82a5410d8b1ae1a69b4ea2c0a0a4793fc7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 24%
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # Technischer Support {#support}
 
-Unternehmen jeder Größe können den für sie richtigen technischen Support erhalten. In der folgenden Tabelle wird die Adobe Dynamic Media Classic Customer Care beschrieben:
+Unternehmen jeder Größe können den für sie richtigen technischen Support erhalten. In der folgenden Tabelle werden die Adobe Dynamic Media Classic-Kundenbetreuungsangebote beschrieben:
 
 | Technischer Support | Mitgliedschaft |
 | --- | --- |
@@ -34,7 +34,7 @@ Unternehmen jeder Größe können den für sie richtigen technischen Support erh
 
 Geben Sie beim Melden von Problemen an das Team des technischen Supports bitte die folgenden Informationen an:
 
-* Firmenname von Adobe Dynamic Media Classic.
+* Adobe Dynamic Media Classic-Unternehmensname.
 * Name, Telefonnummer und E-Mail-Adresse.
 * Adobe Dynamic Media Classic-Anwendung, -Plattform und -Version.
 * Beschreibung des Problems; Schritte zum Reproduzieren des Problems.

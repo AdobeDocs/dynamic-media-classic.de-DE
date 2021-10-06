@@ -1,6 +1,6 @@
 ---
 title: '"Kurzanleitung: Bildsätze"'
-description: Eine Einführung und ein Schnellstart zu Bildsets , die Ihnen helfen, die Bildset-Techniken in Adobe Dynamic Media Classic einzurichten und schnell auszuführen.
+description: Eine Einführung und ein Schnellstart zu Bildsets , die Ihnen helfen, die Bildset-Techniken in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 25%
+source-wordcount: '626'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,9 @@ Adobe Dynamic Media Classic-Bildsets bieten Benutzern ein integriertes Anzeigeer
 
 Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Sie haben die Möglichkeit, geführte Zoomziele und Imagemaps im Bildsatz zu erstellen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
 
-Diese Kurzanleitung für Bildsets wurde entwickelt, um die Bildset-Techniken in Adobe Dynamic Media Classic schnell zu implementieren.
+Siehe [Bild- und Rotationssets: Schulungsvideo für Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+
+Der folgende Schnellstart für Bildsets soll Ihnen einen schnellen Einstieg in die Bildset-Techniken in Adobe Dynamic Media Classic ermöglichen.
 
 ## 1. Laden Sie Ihre Übergeordneten Bilder für mehrere Ansichten und Muster hoch.
 

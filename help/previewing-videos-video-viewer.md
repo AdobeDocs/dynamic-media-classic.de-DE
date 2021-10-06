@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 34%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
@@ -49,15 +49,19 @@ Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Vi
 
 Adobe Dynamic Media Classic enthält viele vordefinierte Viewer-Vorgaben für die Wiedergabe von Videos. Wenn Sie Administrator sind, können Sie benutzerdefinierte Viewer-Vorgaben erstellen. Es stehen mehr als ein Dutzend verschiedener Einstellungen zur Konfiguration des Video-Viewers zur Verfügung. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
 
-Siehe auch [Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Siehe [Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+
+Siehe auch Schulungsvideo zu [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben {#adding-or-editing-a-video-viewer-preset}
 
-Unter „Viewer-Vorgaben“ werden die verschiedenen Viewer-Typen und ihre Voreinstellungen angezeigt. Sie können auch Ihre eigenen benutzerdefinierten Viewer-Vorgaben hinzufügen und bearbeiten oder vorhandene Viewer-Vorgaben bearbeiten, die mit der Adobe Dynamic Media Classic bereitgestellt werden.
+Unter „Viewer-Vorgaben“ werden die verschiedenen Viewer-Typen und ihre Voreinstellungen angezeigt. Sie können auch Ihre eigenen benutzerdefinierten Viewer-Vorgaben hinzufügen und bearbeiten oder vorhandene Viewer-Vorgaben bearbeiten, die mit Adobe Dynamic Media Classic bereitgestellt werden.
 
 Unter „Viewer-Vorgaben“ können Sie Viewer-Vorgaben aktivieren, filtern, sortieren und Vorschauen von ihnen anzeigen. 
 
 Siehe [Viewer-Vorgaben](application-setup.md#viewer_presets).
+
+Siehe auch Schulungsvideo zu [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 **So fügen Sie eine Video-Viewer-Vorgabe hinzu oder bearbeiten sie:**
 

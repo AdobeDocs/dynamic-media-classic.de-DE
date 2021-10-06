@@ -6,10 +6,10 @@ user-guide-title: Handbuch von Adobe Dynamic Media Classic
 breadcrumb-title: Dynamic Media Classic-Anleitung
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 29%
+source-wordcount: '776'
+ht-degree: 28%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 29%
 
 + [Handbuch von Adobe Dynamic Media Classic](home.md)
 + [Tutorial zu Best Practices für Adobe Dynamic Media Class](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [Die neue Adobe Dynamic Media Classic-Anmeldeerfahrung ist jetzt verfügbar](new-ui-2020.md)
++ [NEUES Adobe Dynamic Media Classic-Anmeldeerlebnis jetzt verfügbar](new-ui-2020.md)
 + [Adobe Dynamic Media-Newsletter-Archiv nach Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic Desktop App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
-   + [Informationen zu Adobe Dynamic Media Classic - Hilfe](introduction.md)
+   + [Informationen zur Adobe Dynamic Media Classic-Hilfe](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
    + [Neuerungen](whats-new.md)
    + [Systemanforderungen für das Adobe Dynamic Media Classic-Desktop-Programm](system-requirements.md)
    + [Technischer Support](support.md)
    + [Hilfe für Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
-   + [Häufig genutzte Ressourcen](popular-resources.md)
+   + [Häufig verwendete Lernressourcen](popular-resources.md)
    + [Schulungsvideos](training-videos.md)
 + Erste Schritte {#getting-started}
-   + [Adobe Dynamic Media Classic - Programmübersicht](dmc-platform-overview.md)
+   + [Adobe Dynamic Media Classic-Programmübersicht](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Anmelden und Abmelden](signing-out.md)
    + [Grundlagen der Navigation](navigation-basics.md)
@@ -98,7 +98,7 @@ ht-degree: 29%
    + [Verwalten von Inhalten im Informationsbereich in E-Katalogen](info-panel-content-ecatalog.md)
    + [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md)
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Veröffentlichen von E-Katalogen und zugehörigen PDFs](publishing-ecatalogs-associated-pdfs.md)
+   + [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md)
    + [E-Katalog mit einer Webseite verknüpfen](linking-ecatalog-web-page.md)
 + Bildsätze {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
@@ -173,7 +173,7 @@ ht-degree: 29%
    + [Bilder scharfzeichnen](sharpening-image.md)
    + [Bilder anpassen](adjusting-image.md)
    + [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md)
-   + [Arbeiten mit PDF-Dateien](pdfs.md)
+   + [Arbeiten mit PDF](pdfs.md)
    + [Arbeiten mit PSD-Dateien](psd-files.md)
    + [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md)
    + [Arbeiten mit Vignetten-, Fensterabdeckungs- und Kabinendateien](vignette-window-covering-cabinet-files.md)

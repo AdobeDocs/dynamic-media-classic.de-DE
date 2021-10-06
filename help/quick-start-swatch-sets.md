@@ -10,9 +10,9 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 25%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 25%
 
 Adobe Dynamic Media Classic-Mustersets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
 
-Diese Kurzanleitung für Mustersets wurde entwickelt, um mit den Musterset-Techniken in Adobe Dynamic Media Classic schnell zu arbeiten.
+Diese Kurzanleitung für Mustersets soll Ihnen einen schnellen Einstieg in die Arbeit mit Musterset-Techniken in Adobe Dynamic Media Classic ermöglichen.
 
 ## 1. Hochladen der Bilder und Musterdateien
 

@@ -10,10 +10,10 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 38%
+source-wordcount: '701'
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ Gemischte Mediensets von bieten Benutzern eine integrierte Anzeigeerfahrung. Gem
 
 Die Viewer-Vorgaben für gemischte Mediensets enthalten Community-Optionen, mit denen Endbenutzer Code einbetten, URLs kopieren und Verknüpfungen zur Haupt-Website erstellen können. Über diese Optionen können Benutzer Produktinformationen auf ihren eigenen Websites oder Social-Networking-Sites zur Verfügung stellen.
 
-Dieser Schnellstart für gemischte Mediensets wurde entwickelt, um schnell mit gemischten Mediensets-Techniken in Adobe Dynamic Media Classic vertraut zu machen.
+Dieser Schnellstart für gemischte Mediensets wurde entwickelt, um Sie schnell mit den Techniken für gemischte Mediensets in Adobe Dynamic Media Classic vertraut zu machen.
 
 ## 1. Hochladen der Bilder, Musterdateien und Videos
 
@@ -52,6 +52,8 @@ Adobe Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für gemis
 Fügen Sie beim Einrichten einer Viewer-Vorgabe für gemischte Mediensets die Viewer-Vorgaben für alle anderen Assets in Ihrem Set hinzu. Falls Ihr gemischtes Medienset beispielsweise Videos enthält, fügen Sie eine Video-Viewer-Vorgabe zur Viewer-Vorgabe für gemischte Mediensets hinzu. Sie können auch einen Soundtrack zum Viewer hinzufügen. Dieser Soundtrack wird abgespielt, wenn der Viewer geöffnet ist. Wenn ein Video abgespielt wird, wird die Soundtrack-Wiedergabe unterbrochen. 
 
 Siehe [Einrichten einer Viewer-Vorgabe für gemischte Mediensets](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) und [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
+
+Siehe auch Schulungsvideo zu [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 ## 5. Vorschau eines gemischten Mediensets
 

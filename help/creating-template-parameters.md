@@ -10,10 +10,10 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '844'
+ht-degree: 59%
 
 ---
 
@@ -26,6 +26,8 @@ Beim Erstellen von Vorlagenparametern legen Sie im Endeffekt fest, welche Teile 
 Bei den Parametern für Textebenen können Sie auch die Textzeichenfolge zu einem dynamischen Feld machen, dem Werte in der Datenbank zugeordnet sind. Die Möglichkeit, Text mit einer Datenbank zu verknüpfen, ist beispielsweise für Werbekampagnen nützlich. Sie können dadurch benutzerdefinierte Vorlagenbilder erstellen, auf denen die Namen der Kunden angezeigt werden. Sie können auch einen Text-Layer-Parameter mit einer Preisdatenbank verknüpfen, um den Preis eines Artikels in einem Vorlagenbild anzuzeigen.
 
 Sie können einen Parameter mehrmals referenzieren. Verwenden Sie das Kombinationsfeld für jeden Befehl im Parameterdialogfeld, um alle Parameter auszuwählen, die zum jeweiligen Befehl passen. Beispielsweise sind alle Größenparameter für den Befehl `size=` verfügbar. Sie können die Parameterreferenz einem beliebigen Parameter neu zuweisen, der bereits im Kombinationsfeld enthalten ist, und ihr einen neuen Namen geben, der nicht bereits im Kombinationsfeld vorhanden ist. In letzterem Fall muss der Name eindeutig sein. Andernfalls gibt ein Fehler an, dass der Parameter vorhanden ist. Wenn Sie einen Parameterverweis löschen, wird der Parameter aus der URL entfernt, wenn er nirgendwo anders referenziert wird. Wenn Sie den Standardwert für einen Textparameter ändern, werden alle Verweise auf diesen Parameter aktualisiert. Die Aktualisierung wird in der Ebenentabelle, im Rendering der Vorlage und in der URL angezeigt. Wenn Sie ein Ebenenattribut ändern, indem Sie Größenänderungs-Handles bearbeiten oder Werte im Eigenschaftenbereich eingeben, wird der Parameterwert aktualisiert und alle Verweise auf den Parameter werden aktualisiert. Wenn Sie beispielsweise die Größe zweier Ebenen mithilfe eines Parameters festgelegt haben, werden beide Ebenengrößen aktualisiert, wenn eine der beiden Ebenengrößen geändert wird. Wenn Sie eine Vorlage in der Vorschau anzeigen und dort einen Parameter ändern, werden alle Referenzen zu diesem Parameter aktualisiert.
+
+Siehe auch Schulungsvideo zu [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) .
 
 ## Parametrisieren einer Ebene {#parameterizing-a-layer}
 
