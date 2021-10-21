@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
+source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Beginnen Sie mit der Integration von Dynamic Media Classic in Adobe Analytics OA
 1. Im linken Feld, unter **[!UICONTROL Anwendungseinstellungen]**, wählen **[!UICONTROL Adobe Analytics]**.
 1. Auf **[!UICONTROL Adobe Analytics-Konfiguration]** Seite, auswählen **[!UICONTROL Adobe Analytics-Anmeldung]**.
 1. In **[!UICONTROL Adobe Analytics-Anmeldung]** im **[!UICONTROL CLIENT-ID]** und **[!UICONTROL CLIENT SECRET]** , fügen Sie die entsprechenden Werte ein, die Sie zuvor kopiert haben.
-1. Wählen Sie in der rechten unteren Ecke des Dialogfelds Anmelden aus und führen Sie die Adobe IMS (Identity Management Services)-Anmeldung durch.
+1. Wählen Sie in der rechten unteren Ecke des Dialogfelds die Option **[!UICONTROL Anmelden]** und führen Sie Ihre Adobe IMS (Identity Management Services)-Anmeldung durch.
 
    Wenn Sie sich erfolgreich angemeldet haben, wird das Dialogfeld Adobe Analytics-Anmeldung zusammen mit dem **[!UICONTROL Firmen]** Dropdown-Liste, initiiert durch die Firmen, die Ihnen zur Verfügung stehen.
 
