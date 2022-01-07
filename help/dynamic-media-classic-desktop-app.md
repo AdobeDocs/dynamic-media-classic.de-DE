@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,13 @@ Das Adobe Dynamic Media Classic-Desktop-Programm ist mit den folgenden Betriebss
 
 ## Fehlerbehebungen in der neuesten Version (20.22.1) {#release-jan2022}
 
-* 
+Bildbearbeitung **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* Bildbearbeitung **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
+* Im Set-Editor wird die **[!UICONTROL Schließen]**, **[!UICONTROL Speichern]** und **[!UICONTROL Speichern unter]** -Schaltflächen werden nach dem Scrollen von Assets im **[!UICONTROL Hinzufügen von Assets]** Bereich.
+* **[!UICONTROL Play]** -Schaltfläche in der Videodetailansicht nicht funktionierte.
+* Nicht eingeben `d` und `e` in **[!UICONTROL Benutzername]** und **[!UICONTROL Passwort]** Felder beim Ausführen von macOS Monterey.
+* Die verbleibenden Analyse-APIs wurden in Version 2.0 verschoben.
 
 ## Fehlerbehebungen in Version 20.21.3 {#release-sept2021}
 
@@ -160,7 +152,7 @@ Zum Herunterladen und *stumm* Installieren Sie die neueste Version des Adobe Dyn
 
 1. Laden Sie das neueste Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm für macOS herunter.
 
-   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. Stellen Sie das heruntergeladene Disk Image (.DMG) mithilfe des folgenden Befehls an einen Bereitstellungspunkt-Speicherort bereit:
 
