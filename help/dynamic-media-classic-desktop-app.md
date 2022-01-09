@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -39,8 +39,6 @@ Das Adobe Dynamic Media Classic-Desktop-Programm ist mit den folgenden Betriebss
 >Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-Desktop-Applikation wird nicht für *klein* veröffentlicht. Kunden, die von Fehlerbehebungen in einer kleineren Version profitieren, können ein Upgrade durchführen.
 
 ## Fehlerbehebungen in der neuesten Version (20.22.1) {#release-jan2022}
-
-Bildbearbeitung **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
 
 * Bildbearbeitung **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
 * Im Set-Editor wird die **[!UICONTROL Schließen]**, **[!UICONTROL Speichern]** und **[!UICONTROL Speichern unter]** -Schaltflächen werden nach dem Scrollen von Assets im **[!UICONTROL Hinzufügen von Assets]** Bereich.
