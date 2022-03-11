@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -40,17 +40,17 @@ Je nach den Einstellungen, die Sie für Ihren E-Katalog auswählen, können Sie 
 * Verwenden von Gesten zur Interaktion, einschließlich der Zangenbewegung zum Zoomen und der Wischbewegung zum Umblättern von Seiten.
 * Durchsuchen der Elemente nach bestimmten Schlüsselwörtern
 
-![Der eCatalog, wie er Benutzern angezeigt wird. A) eCatalog zur Seite zum Öffnen. B)eCatalog, der auf Seite 2.](/help/assets/ec_cat_viewer_popup.png)
+![Der eCatalog, wie er Benutzern angezeigt wird. A) eCatalog zur Seite zum Öffnen. B) eCatalog auf Seite 2 umgestellt.](/help/assets/ec_cat_viewer_popup.png)
 
-Zum Erstellen eines E-Katalogs verwenden Sie normalerweise hoch auflösende PDF-Dateien, die in Adobe® Acrobat® oder einem anderen Druckprogramm erstellt wurden. Sie können jedoch auch einen E-Katalog aus Bilddateien erstellen.
+Um einen E-Katalog zu erstellen, verwenden Sie normalerweise PDF-Dateien mit hoher Auflösung, die in Adobe Acrobat oder einem anderen Druckprogramm erstellt wurden. Sie können jedoch auch einen E-Katalog aus Bilddateien erstellen.
 
 Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in der gewünschten Reihenfolge anordnen. Darüber hinaus können Sie angeben, ob Einzelseiten, doppelseitige Druckbögen oder mehrseitige Druckbögen verwendet werden sollen. Sie können Imagemaps für Seitenbereiche erstellen, sodass Betrachter beispielsweise einen Bereich auf der Seite auswählen und eine neue Seite auf Ihrer Website öffnen können. Der Rollover-Text, der angezeigt wird, kann mithilfe der Infofeldeinstellungen im Anzeigebereich „E-Katalog“ verwaltet werden. Außerdem haben Sie bei der Konfiguration des E-Katalog-Viewers die Möglichkeit, aus mehr als 100 verschiedenen Konfigurationsoptionen zu wählen. Sie können die Funktionen und die Darstellung des Viewers speziell für die gewünschte Zielgruppe anpassen.
 
 >[!NOTE]
 >
->Wenn Sie Benutzer im Dynamic Media-Scene7-Modus sind und E-Kataloge verwenden möchten, bearbeiten Sie den Wert `pdfbrochure` in CRXDE Lite. Gehen Sie dazu in Adobe Experience Manager zu **[!UICONTROL Tools]** > **[!UICONTROL Allgemein]** > **[!UICONTROL CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Wenn Sie Benutzer im Modus Dynamic Media - Scene7 sind und E-Kataloge verwenden möchten, bearbeiten Sie die `pdfbrochure` -Wert in CRXDE Lite. Gehen Sie dazu in Adobe Experience Manager zu **[!UICONTROL Instrumente]** > **[!UICONTROL Allgemein]** > **[!UICONTROL CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
->Wählen Sie im unteren rechten Bereich auf der Registerkarte **[!UICONTROL Eigenschaften]** die Zeile `jobParam` aus. Legen Sie den Wert für `pdfbrochure` von `false` auf `true` fest. Wie in `pdfbrochure=true`
+>Im unteren rechten Bereich im **[!UICONTROL Eigenschaften]** auswählen, wählen Sie die `jobParam` Zeile. Legen Sie den Wert für `pdfbrochure` von `false` nach `true`. Wie in `pdfbrochure=true`
 >
 >Wählen Sie links oben auf der Seite &quot;CRXDE Lite&quot;die Option **[!UICONTROL Alle speichern]**.
 >
@@ -62,21 +62,21 @@ Diese Kurzanleitung für die Erstellung eines E-Katalogs hilft Ihnen, sich schne
 
 Normalerweise werden Adobe PDF-Dateien als Grundlage für einen E-Katalog verwendet. Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Adobe Dynamic Media Classic erkennt diese Bilder und konvertiert sie mithilfe eines standardmäßigen CMYK-Farbprofils. Sie müssen jedoch ein benutzerdefiniertes Farbprofil hochladen und verwenden.
 
-Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Upload]** aus, um mit dem Hochladen von PDF-Dateien oder -Bildern für Ihren E-Katalog zu beginnen. Sie können die Dateien entweder vom Desktop oder per FTP hochladen. FTP ist zu empfehlen, wenn Sie viele Dateien oder Dateien, die größer als 100 MB sind, hochladen möchten.
+Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um mit dem Hochladen von PDF-Dateien oder -Bildern für Ihren eCatalog zu beginnen. Sie können die Dateien entweder vom Desktop oder per FTP hochladen. FTP ist zu empfehlen, wenn Sie viele Dateien oder Dateien, die größer als 100 MB sind, hochladen möchten.
 
 Im Anzeigebereich „Hochladen“ finden Sie im Bereich „PDF-Optionen“ Einstellungen für das Hochladen von PDF-Dateien mit der angemessenen Auflösung und dem richtigen Farbraum. Eine Auflösung von 150 Pixel pro Zoll wird empfohlen. Wenn unmittelbar nach dem Hochladen einer PDF-Datei automatisch ein E-Katalog erstellt werden soll, wählen Sie die Option „E-Katalog automatisch erstellen“. 
 
-Siehe [Hochladen der PDF-Dateien](uploading-pdf-files.md#uploading_the_pdf_files).
+Siehe [PDF-Dateien hochladen](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. Erstellen eines E-Katalogs
 
-Erstellen Sie den E-Katalog, indem Sie im Durchsuchenbedienfeld PDF oder Bilddateien auswählen. Wählen Sie **[!UICONTROL Build]** und dann **[!UICONTROL eCatalogs]**.
+Erstellen Sie den E-Katalog, indem Sie im Durchsuchenbedienfeld PDF oder Bilddateien auswählen. Auswählen **[!UICONTROL Build]**, wählen Sie **[!UICONTROL E-Kataloge]**.
 
-Wählen Sie auf der eCatalog-Seite auf der Registerkarte **[!UICONTROL Seiten sortieren]** eine Layout-Option: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Custom]**. Sie können die Anordnung der Seiten oder Druckbögen durch Ziehen oder, insbesondere in großen E-Katalogen, durch Auswahl eines Seitennamens im Menü „Verschieben nach“ ändern.
+Auf der eCatalog-Seite finden Sie auf der **[!UICONTROL Bestellseiten]** Wählen Sie eine Layout -Option aus: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Benutzerdefiniert]**. Sie können die Anordnung der Seiten oder Druckbögen durch Ziehen oder, insbesondere in großen E-Katalogen, durch Auswahl eines Seitennamens im Menü „Verschieben nach“ ändern.
 
 Um Seiten hinzuzufügen, wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten PDF-Dateien oder Bilddateien aus dem Ordner in den Anzeigebereich „Seiten ordnen“. Anstelle der standardmäßigen Seitenzahlen können Sie benutzerdefinierte Seitennamen angeben oder viele Seitennamen importieren.
 
-Wählen Sie **[!UICONTROL Save]**, geben Sie einen Namen für Ihren eCatalog ein, wählen Sie einen Adobe Dynamic Media Classic-Ordner zum Speichern aus und wählen Sie **[!UICONTROL Save]** aus. Jedes Mal, wenn Sie die Seitenreihenfolge ändern oder den E-Katalog bearbeiten, speichern Sie Ihre Änderungen, indem Sie auf **[!UICONTROL Speichern]** klicken.
+Auswählen **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren eCatalog ein, wählen Sie einen Ordner in Adobe Dynamic Media Classic aus, um ihn zu speichern, und wählen Sie **[!UICONTROL Speichern]**. Jedes Mal, wenn Sie die Seitenreihenfolge ändern oder den E-Katalog bearbeiten, speichern Sie Ihre Änderungen, indem Sie auf **[!UICONTROL Speichern]**.
 
 Siehe [Erstellen eines eCatalog](creating-ecatalog.md).
 
@@ -84,23 +84,23 @@ Siehe [Erstellen eines eCatalog](creating-ecatalog.md).
 
 Imagemaps fügen eCatalog-Seiten einen weiteren Aspekt hinzu. Eine Imagemap ist ein Seitenbereich, mit dessen Hilfe weitere Informationen zu einem Element angezeigt werden können. Wenn Betrachter der Website den Mauszeiger über eine Imagemap bewegen, wird eine Beschreibung des Elements angezeigt. Durch Klicken auf eine Imagemap wird ein externer Verweis aktiviert, mit dem eine neue Website mit weiteren Informationen zu einem Element geöffnet wird.
 
-Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Gehen Sie dann zum Tab **[!UICONTROL Seiten zuordnen]** des E-Katalog-Bildschirms und rahmen Sie die Karte mit dem Rechteck-Bild-Map-Tool oder dem Polygon-Imagemap-Tool. Durch Ziehen der Ränder mit dem Schwenken-Werkzeug  können Sie die Position und Größe von Imagemaps nachträglich ändern.
+Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Gehen Sie dann zu **[!UICONTROL Seiten zuordnen]** auf dem eCatalog-Bildschirm angezeigt werden, und rahmen Sie die Karte mit dem Rechteck-Bild-Map-Tool oder dem Polygon-Imagemap-Tool. Durch Ziehen der Ränder mit dem Schwenken-Werkzeug  können Sie die Position und Größe von Imagemaps nachträglich ändern.
 
 Geben Sie nach dem Frame der Imagemap die URL-Adresse ein, die Sie verwenden möchten, wenn Sie die Imagemap auswählen. Sie können auch den Rollover-Text eingeben, der beim Bewegen des Mauszeigers über die Imagemap angezeigt werden soll. 
 
 Siehe [Erstellen von eCatalog-Imagemaps](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
-Siehe [Verwenden von Imagemaps zum Einbetten von Rich-Media in einen eCatalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
+Siehe [Verwenden von Imagemaps zum Einbetten von Rich Media in einen E-Katalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
 Der Imagemap-Text kann mithilfe der Infofeldeinstellungen im Anzeigebereich „E-Katalog“ eingestellt und verwaltet werden. 
 
-Siehe [Verwalten von Infofeldinhalten in E-Katalogen](/help/info-panel-content-ecatalog.md).
+Siehe [Verwalten von Inhalten im Informationsbereich in E-Katalogen](/help/info-panel-content-ecatalog.md).
 
 ## 4. E-Katalog-Viewer-Vorgaben einrichten
 
 Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können beispielsweise die Rahmenfarbe ändern und eine neue Skin zur Gestaltung des E-Katalogs auswählen. Adobe Dynamic Media Classic enthält mehrere bewährte E-Katalog-Viewer-Vorgaben. Sie können eine dieser Vorgaben für die Anzeige Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
-Um eine E-Katalog-Viewer-Vorgabe zu erstellen, wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Einrichtung]** und dann **[!UICONTROL Viewer-Vorgaben]** aus. Wählen Sie **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform und dann **[!UICONTROL eCatalog]** > **[!UICONTROL Viewer]**.
+Um eine E-Katalog-Viewer-Vorgabe zu erstellen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Einrichtung]** und wählen Sie **[!UICONTROL Viewer-Vorgaben]**. Auswählen **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform aus und klicken Sie auf **[!UICONTROL eCatalog]** > **[!UICONTROL Viewer]**.
 
 Siehe [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
@@ -108,17 +108,17 @@ Siehe [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md#
 
 Mithilfe von E-Katalog-Viewer-Vorgaben wird der Stil und das Verhalten von E-Katalog-Viewern festgelegt.
 
-Um herauszufinden, wie E-Katalog-Viewer-Vorgaben Ihren E-Katalog anzeigen, wählen Sie Ihren E-Katalog im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
+Um herauszufinden, wie eCatalog-Viewer-Vorgaben Ihren E-Katalog anzeigen, wählen Sie Ihren E-Katalog im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
 
 Achten Sie auf Ausrichtung, Farbschema, Aussehen der Steuerelemente zum Umblättern der Seiten und Aussehen der Seiten beim Umblättern. 
 
-Siehe [Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
+Siehe [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
 ## 6. Veröffentlichen Sie den eCatalog und die zugehörigen PDF
 
 Durch das Veröffentlichen Ihres E-Katalogs und der zugehörigen PDF wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
 
-Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Veröffentlichung übermitteln]**.
 
 Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
@@ -128,4 +128,4 @@ Adobe Dynamic Media Classic aktiviert die URL-Aufrufzeichenfolge, die zum Anzeig
 
 Platzieren Sie die Verknüpfung zum E-Katalog an geeigneter Stelle auf Ihrer Website (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). Wenn Benutzer den Link auswählen, wird der E-Katalog-Viewer angezeigt und Benutzer können Ihren E-Katalog durchsuchen.
 
-Siehe [Verknüpfen eines E-Katalogs mit einer Webseite](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
+Siehe [E-Katalog mit einer Webseite verknüpfen](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
