@@ -1,16 +1,16 @@
 ---
 title: Adobe Dynamic Media Classic-Desktop-Programm - jetzt verfügbar
 description: Erfahren Sie mehr über das Adobe Dynamic Media Classic-Desktop-Programm.
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2025'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,14 @@ Siehe FAQs für die [Neue Adobe Dynamic Media Classic-Anmeldeerfahrung jetzt ver
 Das Adobe Dynamic Media Classic-Desktop-Programm ist mit den folgenden Betriebssystemen kompatibel:
 
 * macOS 10.10 oder höher.
+
+   >[!NOTE]
+   >
+   >Das Dynamic Media Classic-Desktop-Programm weist bei Verwendung mit macOS Monterey eingeschränkte Funktionen auf. Daher arbeitet Adobe an der Veröffentlichung einer neuen Desktop-Programm-Version in den kommenden Wochen.
+
 * Windows® 7 oder höher.
 
->[!NOTE]
->
->Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-Desktop-Applikation wird nicht für *klein* veröffentlicht. Kunden, die von Fehlerbehebungen in einer kleineren Version profitieren, können ein Upgrade durchführen.
+Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-Desktop-Applikation wird nicht für *klein* veröffentlicht. Kunden, die von Fehlerbehebungen in einer kleineren Version profitieren, können ein Upgrade durchführen.
 
 ## Fehlerbehebungen in der neuesten Version (20.22.1) {#release-jan2022}
 
@@ -135,7 +138,7 @@ Verwandte Themen:
    | EMEA-Produktion (Europa, Naher Osten und Afrika) | https://s7sps3.scene7.com/ |
    | APAC-Produktion (Asien-Pazifik) | https://s7sps5.scene7.com/ |
 
-1. Beachten Sie nach der Anmeldung die bekannte Benutzeroberfläche des Browsers. Sie können die tägliche Adobe Dynamic Media Classic-Aktivität wie gewohnt im Desktop-Programm fortsetzen.
+1. Beachten Sie nach der Anmeldung die bekannte Benutzeroberfläche des Browsers. Sie können Ihre tägliche Adobe Dynamic Media Classic-Aktivität wie gewohnt im Desktop-Programm fortsetzen.
 
 ## Herunterladen und *stumm* Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms auf macOS {#install-silent-mac-dmc-app}
 
