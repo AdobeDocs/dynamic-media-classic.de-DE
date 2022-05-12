@@ -10,7 +10,7 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 26%
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 Um das bestmögliche Erlebnis mit dem Adobe Dynamic Media Classic-Desktop-Programm zu erzielen, stellen Sie sicher, dass Ihr System die folgenden Systemanforderungen und -vorschläge erfüllt:
 
-* Für Microsoft® Windows® 7 oder höher oder macOS X 10.6 oder höher ist ein Macintosh Intel® Prozessor erforderlich.
+* Microsoft® Windows® 7 oder höher oder macOS X 10.10 oder neuer Macintosh Intel® Prozessor erforderlich.
 * 3 GB RAM oder höher erforderlich (4 GB oder höher empfohlen).
 * Farbmonitor.
 * Grafikkarte, die True Color mit einer Auflösung von 1280x1024 oder höher unterstützt.

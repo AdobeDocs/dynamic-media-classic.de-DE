@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,11 @@ Das Adobe Dynamic Media Classic-Desktop-Programm ist mit den folgenden Betriebss
 * macOS 10.10 oder höher.
 * Windows® 7 oder höher.
 
+Die vollständigen Systemanforderungen finden Sie unter [Systemanforderungen für das Adobe Dynamic Media Classic-Desktop-Programm](/help/system-requirements.md).
+
 Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-Desktop-Applikation wird nicht für *klein* veröffentlicht. Kunden, die von Fehlerbehebungen in einer kleineren Version profitieren, können ein Upgrade durchführen.
 
-## In der neuesten Version (20.22.2) behoben - nur macOS {#release-feb2022}
+## Nur in der neuesten Version (20.22.2) von macOS behoben {#release-feb2022}
 
 * macOS Monterey - Datei-Upload-Seite wird bei nachfolgenden Uploads nicht mehr angezeigt. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
