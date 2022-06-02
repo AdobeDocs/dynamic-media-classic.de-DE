@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 55%
+source-wordcount: '939'
+ht-degree: 54%
 
 ---
 
@@ -23,11 +23,11 @@ Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, 
 
 >[!NOTE]
 >
->Frühere Versionen von Adobe Dynamic Media Classic boten keine zweidimensionalen Rotationssets an. Wenn Sie ein Rotationsset in einer früheren Version von Adobe Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht speichern, ohne es zuvor unter einem anderen Namen zu speichern. Wählen Sie im Bildschirm &quot;Rotationsset&quot;die Option **[!UICONTROL Speichern unter]** und geben Sie einen neuen Namen ein, damit Sie ihn in Adobe Dynamic Media Classic bearbeiten können.
+>Frühere Versionen von Adobe Dynamic Media Classic boten keine zweidimensionalen Rotationssets an. Wenn Sie ein Rotationsset in einer früheren Version von Adobe Dynamic Media Classic erstellt haben, können Sie das eindimensionale Rotationsset nicht speichern, ohne es zuvor unter einem anderen Namen zu speichern. Auswählen **[!UICONTROL Speichern unter]** Geben Sie im Bildschirm &quot;Rotationsset&quot;einen neuen Namen ein, damit Sie ihn in Adobe Dynamic Media Classic bearbeiten können.
 
 ## Richtlinien für das Aufnehmen von Rotationsset-Bildern {#guidelines-for-shooting-spin-set-images}
 
-Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Adobe Dynamic Media Classic empfiehlt die folgenden Richtlinien für das Fotografieren von Bildern zur Verwendung in Rotationssets:
+Allgemein gilt, je mehr Bilder das Rotationsset hat, desto besser kommt der Rotationseffekt zur Geltung. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Adobe Dynamic Media Classic empfiehlt die folgenden Richtlinien für die Aufnahme von Bildern zur Verwendung in Rotationssets:
 
 * Verwenden Sie mindestens 8 bis 12 Bilder in einem eindimensionalen Rotationsset und 16 bis 24 Bilder in einem zweidimensionalen Rotationsset.
 * Verwenden Sie ein verlustfreies Format. Zu empfehlen sind die Formate TIFF und PNG.
@@ -41,36 +41,46 @@ Die Reihenfolge, in der das Rotationsset in Adobe Dynamic Media Classic erstellt
 
 Wenn Sie ein Set erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
 
-| **[!UICONTROL Nach der]** Speicheroption Veröffentlichen vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-publishing-assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually-unpublishing-assets).
 
+>[!NOTE]
+>
+>Beim Erstellen eines Rotationssets empfiehlt Adobe die folgende Best Practice-Richtlinie und die erzwungene Beschränkung.
+>
+>* Maximale Anzahl von Zeilen/Spalten pro 2D-Rotationsset
+   > 
+   >   * Best Practice: 1000
+   >   * Erzwungene Beschränkung: 1000
+
+
 Nach dem Speichern eines Rotationssets können Sie seine Anzeige im Standard-Viewer mithilfe der Vorschau auf der Seite „Erstellen: Rotationsset“ testen.
 
 **So erstellen Sie ein Rotationsset:**
 
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Build]** die Option **[!UICONTROL Rotationssets]** aus.
+1. Im **[!UICONTROL Build]** Dropdown-Menü auswählen **[!UICONTROL Rotationssets]**.
 1. Legen Sie im Dialogfeld „Größe des Rotationssets“ die gewünschte Anzahl an Zeilen und Zellen fest.
 
    Wählen Sie für ein eindimensionales Rotationsset nur eine Zeile.
 
    Wählen Sie für ein zweidimensionales Rotationsset zwei oder mehr Zeilen.
 
-1. Wählen Sie **[!UICONTROL OK]** aus.
+1. Auswählen **[!UICONTROL OK]**.
 1. Ziehen Sie Bilder auf das Raster im Anzeigebereich „Rotationsset“.
 1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
-1. Wählen Sie **[!UICONTROL Save]** aus.
+1. Auswählen **[!UICONTROL Speichern]**.
 1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem das Rotationsset gespeichert werden soll. Geben Sie in das Feld „Dateiname“ den Namen des Rotationssets ein.
-1. Wählen Sie **[!UICONTROL Save]** aus.
+1. Auswählen **[!UICONTROL Speichern]**.
 
 ## Bearbeiten eines Rotationssets {#editing-a-spin-set}
 
-Unabhängig davon, ob Sie einen veröffentlichten oder einen nicht veröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf den Satz und die Setmitglieder aus:
+Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein nicht veröffentlichtes Set bearbeiten, wird die **[!UICONTROL Nach dem Speichern veröffentlichen]** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
-| Set bereits veröffentlicht? | **[!UICONTROL Nach der]** Speicheroption veröffentlichen vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -81,19 +91,19 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 
 **So bearbeiten Sie ein Rotationsset:**
 
-1. Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des Rotationssets aus.
+1. Rollover des Rotationssets auswählen **[!UICONTROL Bearbeiten]** Schaltfläche.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Entfernen von Bildern**  - Wählen Sie das Bild aus und klicken Sie auf  **[!UICONTROL Löschen]**.
+   * **Entfernen von Bildern** - Wählen Sie das Bild aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
-   * **Bilder hinzufügen**  - Ziehen Sie das Bild in eine Zelle.
+   * **Bilder hinzufügen** - Ziehen Sie das Bild in eine Zelle.
 
-   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)**  - Wählen Sie ein Zeilenauswahlfeld (links neben der Zeile) aus und wählen Sie dann  **[!UICONTROL Zeile]** nach unten verschieben oder Zeile nach oben  **[!UICONTROL verschieben]** aus.
+   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)** - Wählen Sie ein Zeilenauswahlfeld (links neben der Zeile) aus und wählen Sie dann **[!UICONTROL Zeile nach unten]** oder **[!UICONTROL Zeile nach oben]**.
 
-   * **Zeilen und Zellen hinzufügen**  - Geben Sie in das Feld &quot;Zeilen&quot;und in das Feld &quot;Zellen&quot;eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
+   * **Zeilen und Zellen hinzufügen** - Geben Sie in die Felder Zeilen und Zellen eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
 
 1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
-1. Wählen Sie **[!UICONTROL Save]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für den Satz ein und wählen Sie **[!UICONTROL Save]** aus.
+1. Auswählen **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und wählen Sie dann **[!UICONTROL Speichern]**.
 
 ## Löschen eines Rotationssets {#deleting-a-spin-set}
 
@@ -104,4 +114,4 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 **So löschen Sie ein Rotationsset:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Rotationssets aus.
-1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
+1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.

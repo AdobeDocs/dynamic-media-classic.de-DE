@@ -2,21 +2,21 @@
 cloud: Experience Cloud
 product: adobe dynamic media classic
 audience: end-user
-user-guide-title: Handbuch von Adobe Dynamic Media Classic
-breadcrumb-title: Dynamic Media Classic-Anleitung
+user-guide-title: Handbuch zu Adobe Dynamic Media Classic
+breadcrumb-title: Handbuch zu Dynamic Media Classic
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic
 index: y
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 28%
+source-wordcount: '787'
+ht-degree: 29%
 
 ---
 
 
-# Handbuch von Adobe Dynamic Media Classic {#using}
+# Handbuch zu Adobe Dynamic Media Classic {#using}
 
-+ [Handbuch von Adobe Dynamic Media Classic](home.md)
++ [Handbuch zu Adobe Dynamic Media Classic](home.md)
 + [Tutorial zu Best Practices für Adobe Dynamic Media Class](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NEUES Adobe Dynamic Media Classic-Anmeldeerlebnis jetzt verfügbar](new-ui-2020.md)
 + [Adobe Dynamic Media-Newsletter-Archiv nach Experience League](dynamic-media-newsletter.md)
@@ -38,7 +38,7 @@ ht-degree: 28%
    + [Grundlagen der Navigation](navigation-basics.md)
    + [Grundlagen der Einstellungen](setup-basics.md)
    + [Rich-Media](rich-media.md)
-+ Einrichten von {#setup}
++ Einrichten {#setup}
    + [Persönliche Einstellungen](personal-setup.md)
    + [Anwendungseinstellungen](application-setup.md)
    + [Veröffentlichungseinstellungen](publish-setup.md)
@@ -59,6 +59,7 @@ ht-degree: 28%
    + [Informationen zum Hochladen und Veröffentlichen von Assets](about-asset-upload-publish.md)
    + [Hochladen von Dateien](uploading-files.md)
    + [Veröffentlichen von Dateien](publishing-files.md)
+   + [Best Practices und erzwungene Einschränkungen von Dynamic Media für Asset-Typen](best-practices-enforced-limits.md)
    + [Testen Sie Assets, bevor Sie sie veröffentlichen](testing-assets-making-them-public.md)
    + [Überprüfen von Auftragsdateien](checking-job-files.md)
 + Verwalten von Assets {#managing-assets}
@@ -100,7 +101,7 @@ ht-degree: 28%
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
    + [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md)
    + [E-Katalog mit einer Webseite verknüpfen](linking-ecatalog-web-page.md)
-+ Bildsätze {#image-sets}
++ Bildsets {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
    + [Vorbereiten von Bildset-Assets für das Hochladen](preparing-image-set-assets-upload.md)
    + [Erstellen eines Bildsatzes](creating-image-set.md)
@@ -146,7 +147,7 @@ ht-degree: 28%
    + [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md)
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
-+ Adobe Analytics Instrumentations-Kit {#analytics-kit}
++ Adobe Analytics-Instrumentenkit {#analytics-kit}
    + [Schnellstart: Integrieren von Adobe Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
