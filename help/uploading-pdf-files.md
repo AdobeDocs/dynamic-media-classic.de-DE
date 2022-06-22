@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 39%
 
 ---
@@ -20,14 +20,20 @@ ht-degree: 39%
 
 In der Regel sind Adobe PDF-Dateien die Quelle für einen eCatalog. Diese Dateien enthalten alle Bildinformationen, Schriftarten und Vektorgrafiken. Sie können einen E-Katalog jedoch auch auf Grundlage von Bildern erstellen. Nachdem Sie Ihre PDF-Dateien für den Upload vorbereitet haben, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um mit dem Hochladen der PDF zu beginnen.
 
+Wenn Sie eine PDF zur Seitenextraktion hochladen, erzwingt Adobe die folgende Einschränkung:
+
+| PDF-Limit-Typ | Implementierte Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
+| --- | --- | --- |
+| Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll | 5000 (für neue Uploads) | 100 |
+
+<!-- 
 >[!NOTE]
 >
->Wenn Sie eine PDF für die Seitenextraktion hochladen, enthält die Adobe die folgende Best Practice-Richtlinie und die erzwungene Beschränkung.
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* Maximale Seitenzahl pro PDF, die für die Extraktion berücksichtigt wird
-   >   * Best Practice: 100
-   >   * Erzwungene Beschränkung: 1000 (für Aktualisierungs-Uploads)
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## Vorbereiten der PDF-Dateien {#preparing-your-pdf-files}
 

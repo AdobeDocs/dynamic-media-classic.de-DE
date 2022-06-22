@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 21%
 
 ---
@@ -25,17 +25,12 @@ Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilde
 
 Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
 
->[!NOTE]
->
->Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practice-Richtlinien und erzwungenen Einschränkungen.
->
->* Anzahl der doppelten Assets pro Bildset
-   >   * Best Practice: 20
-   >   * Erzwungene Beschränkung: 20
->* Maximale Seitenzahl pro Bildset
-   >   * Best Practice: 1000
-   >   * Ausgedrückt Grenze: 1000
+Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen um:
 
+| Bildset-Begrenzungstyp | Optimale Vorgehensweise | Implementierung der Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
+| --- | --- | --- | --- |
+| Anzahl der doppelten Assets pro Satz | Keine Duplikate | 100 | 20 |
+| Maximale Anzahl an Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
 
 Der folgende Schnellstart für Bildsets soll Ihnen einen schnellen Einstieg in die Bildset-Techniken in Adobe Dynamic Media Classic ermöglichen.
 

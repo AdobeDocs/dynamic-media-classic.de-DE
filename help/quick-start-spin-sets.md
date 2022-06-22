@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 22%
+source-wordcount: '833'
+ht-degree: 23%
 
 ---
 
@@ -29,15 +29,11 @@ Siehe [Erstellen von Imagemaps](creating-image-maps.md).
 
 Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
 
->[!NOTE]
->
->Beim Erstellen eines Rotationssets empfiehlt Adobe die folgende Best Practice-Richtlinie und die erzwungene Beschränkung.
->
->* Maximale Anzahl von Zeilen/Spalten pro 2D-Rotationsset
-   > 
-   >   * Best Practice: 1000
-   >   * Erzwungene Beschränkung: 1000
+Beim Erstellen eines Rotationssets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgende Beschränkung:
 
+| Rotationsset-Begrenzungstyp | Optimale Vorgehensweise | Implementierte Beschränkung |
+| --- | --- | --- |
+| Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
 
 Diese Kurzanleitung für Rotationssets soll Sie in Adobe Dynamic Media Classic schnell mit den Rotationssets-Techniken vertraut machen. Führen Sie die Schritte 1 bis 7 aus. Am Ende jedes Schritts können Sie einen Themenlink auswählen, um mehr zu erfahren.
 

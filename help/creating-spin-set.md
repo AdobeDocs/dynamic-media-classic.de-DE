@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 54%
+source-wordcount: '947'
+ht-degree: 53%
 
 ---
 
@@ -48,15 +48,11 @@ Wenn Sie ein Set erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speiche
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-publishing-assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually-unpublishing-assets).
 
->[!NOTE]
->
->Beim Erstellen eines Rotationssets empfiehlt Adobe die folgende Best Practice-Richtlinie und die erzwungene Beschränkung.
->
->* Maximale Anzahl von Zeilen/Spalten pro 2D-Rotationsset
-   > 
-   >   * Best Practice: 1000
-   >   * Erzwungene Beschränkung: 1000
+Beim Erstellen eines Rotationssets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgende Beschränkung:
 
+| Rotationsset-Begrenzungstyp | Optimale Vorgehensweise | Implementierte Beschränkung |
+| --- | --- | --- |
+| Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
 
 Nach dem Speichern eines Rotationssets können Sie seine Anzeige im Standard-Viewer mithilfe der Vorschau auf der Seite „Erstellen: Rotationsset“ testen.
 

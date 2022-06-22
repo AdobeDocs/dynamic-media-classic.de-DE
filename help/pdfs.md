@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 36%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 36%
 
 PDF-Dateien (Portable Document Format) werden in Adobe Dynamic Media Classic meist zum Erstellen von E-Katalogen verwendet. Wenn Sie eine PDF-Datei hochladen, rastert Adobe Dynamic Media Classic die Seiten standardmäßig, sodass die Seiten zum Erstellen von Rich-Media-Daten verwendet werden können.
 
->[!NOTE]
->
->Wenn Sie eine PDF für die Seitenextraktion hochladen, enthält die Adobe die folgende Best Practice-Richtlinie und die erzwungene Beschränkung.
->
->* Maximale Seitenzahl pro PDF, die für die Extraktion berücksichtigt wird
-   >   * Best Practice: 100
-   >   * Erzwungene Beschränkung: 1000 (für Aktualisierungs-Uploads)
+Wenn Sie eine PDF zur Seitenextraktion hochladen, erzwingt Adobe die folgende Einschränkung:
 
+| PDF-Limit-Typ | Implementierte Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
+| --- | --- | --- |
+| Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll | 5000 (für neue Uploads) | 100 |
 
 ## Optionen für das Hochladen von PDF-Dateien {#pdf-upload-options}
 
