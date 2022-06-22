@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 3%
+source-wordcount: '171'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,8 @@ Die folgenden Abschnitte beschreiben Einschränkungen in Dynamic Media.
 Dieses Thema enthält die folgenden Abschnitte:
 
 * Best Practices und erzwungene Einschränkungen von Dynamic Media für Asset-Typen
-* Nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media-Viewer
+
+<!-- * Unsupported web browser and operating system combinations for Dynamic Media Viewers -->
 
 ## Best Practices und erzwungene Einschränkungen von Dynamic Media für Asset-Typen
 
@@ -36,6 +37,8 @@ Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung
 | **Bildset** - Maximale Anzahl von Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
 | **Rotationsset** - Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
 | **PDF** - Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 5000 (für neue Uploads) | 100 |
+
+<!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 
 <!-- ## Unsupported web browser and operating system combinations for Dynamic Media Viewers
 

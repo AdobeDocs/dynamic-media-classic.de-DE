@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '680'
 ht-degree: 21%
 
 ---
@@ -31,6 +31,8 @@ Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und s
 | --- | --- | --- | --- |
 | Anzahl der doppelten Assets pro Satz | Keine Duplikate | 100 | 20 |
 | Maximale Anzahl an Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
+
+Siehe auch [Einschränkungen bei Dynamic Media](/help/limitations.md).
 
 Der folgende Schnellstart für Bildsets soll Ihnen einen schnellen Einstieg in die Bildset-Techniken in Adobe Dynamic Media Classic ermöglichen.
 

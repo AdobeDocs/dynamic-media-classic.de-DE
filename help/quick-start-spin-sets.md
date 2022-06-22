@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 23%
+source-wordcount: '838'
+ht-degree: 22%
 
 ---
 
@@ -34,6 +34,8 @@ Beim Erstellen eines Rotationssets empfiehlt Adobe die folgenden Best Practices 
 | Rotationsset-Begrenzungstyp | Optimale Vorgehensweise | Implementierte Beschränkung |
 | --- | --- | --- |
 | Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
+
+Siehe auch [Einschränkungen bei Dynamic Media](/help/limitations.md).
 
 Diese Kurzanleitung für Rotationssets soll Sie in Adobe Dynamic Media Classic schnell mit den Rotationssets-Techniken vertraut machen. Führen Sie die Schritte 1 bis 7 aus. Am Ende jedes Schritts können Sie einen Themenlink auswählen, um mehr zu erfahren.
 

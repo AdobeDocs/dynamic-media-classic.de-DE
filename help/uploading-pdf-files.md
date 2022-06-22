@@ -9,10 +9,10 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 39%
+source-wordcount: '826'
+ht-degree: 38%
 
 ---
 
@@ -25,6 +25,8 @@ Wenn Sie eine PDF zur Seitenextraktion hochladen, erzwingt Adobe die folgende Ei
 | PDF-Limit-Typ | Implementierte Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
 | --- | --- | --- |
 | Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll | 5000 (für neue Uploads) | 100 |
+
+Siehe auch [Einschränkungen bei Dynamic Media](/help/limitations.md).
 
 <!-- 
 >[!NOTE]
