@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 38%
 
 ---
@@ -22,7 +22,7 @@ In der Regel sind Adobe PDF-Dateien die Quelle für einen eCatalog. Diese Dateie
 
 Wenn Sie eine PDF zur Seitenextraktion hochladen, erzwingt Adobe die folgende Einschränkung:
 
-| PDF-Limit-Typ | Implementierte Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
+| PDF-Limit-Typ | Begrenzung auferlegt | Änderung der Beschränkung am 31. Dezember 2022 |
 | --- | --- | --- |
 | Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll | 5000 (für neue Uploads) | 100 |
 

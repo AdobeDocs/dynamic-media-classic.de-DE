@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
@@ -34,9 +34,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen um:
 
-| Bildset-Begrenzungstyp | Optimale Vorgehensweise | Implementierung der Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
-| --- | --- | --- | --- |
-| Anzahl der doppelten Assets pro Satz | Keine Duplikate | 100 | 20 |
+| Begrenzungstyp | Optimale Vorgehensweise | Begrenzung auferlegt |
+| --- | --- | --- |
+| Anzahl der doppelten Assets pro Satz | Keine Duplikate | 20 |
 | Maximale Anzahl an Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
 
 Siehe auch [Einschränkungen bei Dynamic Media](/help/limitations.md).

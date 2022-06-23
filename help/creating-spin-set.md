@@ -10,7 +10,7 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 53%
@@ -50,7 +50,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 
 Beim Erstellen eines Rotationssets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgende Beschränkung:
 
-| Rotationsset-Begrenzungstyp | Optimale Vorgehensweise | Implementierte Beschränkung |
+| Rotationsset-Begrenzungstyp | Optimale Vorgehensweise | Begrenzung auferlegt |
 | --- | --- | --- |
 | Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
 

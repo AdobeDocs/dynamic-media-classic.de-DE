@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '673'
 ht-degree: 21%
 
 ---
@@ -27,9 +27,9 @@ Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewe
 
 Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen um:
 
-| Bildset-Begrenzungstyp | Optimale Vorgehensweise | Implementierung der Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
-| --- | --- | --- | --- |
-| Anzahl der doppelten Assets pro Satz | Keine Duplikate | 100 | 20 |
+| Begrenzungstyp | Optimale Vorgehensweise | Begrenzung auferlegt |
+| --- | --- | --- |
+| Anzahl der doppelten Assets pro Satz | Keine Duplikate | 20 |
 | Maximale Anzahl an Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
 
 Siehe auch [Einschränkungen bei Dynamic Media](/help/limitations.md).

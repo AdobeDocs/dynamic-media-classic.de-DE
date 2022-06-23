@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '706'
 ht-degree: 36%
 
 ---
@@ -23,9 +23,9 @@ PDF-Dateien (Portable Document Format) werden in Adobe Dynamic Media Classic mei
 
 Wenn Sie eine PDF zur Seitenextraktion hochladen, erzwingt Adobe die folgende Einschränkung:
 
-| PDF-Limit-Typ | Implementierte Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
+| Begrenzungstyp | Begrenzung auferlegt | Änderung der Beschränkung am 31. Dezember 2022 |
 | --- | --- | --- |
-| Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll | 5000 (für neue Uploads) | 100 |
+| Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll | 5000 (für neue Uploads) | 100 (für alle PDF) |
 
 Siehe auch [Einschränkungen bei Dynamic Media](/help/limitations.md).
 

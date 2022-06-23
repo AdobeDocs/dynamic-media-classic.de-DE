@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 4%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
@@ -31,12 +31,12 @@ Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung
 
 <!-- | **Image** - Number of Smart Crops per image | 5 | 100 |  | -->
 
-| Asset - Limit-Typ | Optimale Vorgehensweise | Implementierte Beschränkung | Änderungen an der Beschränkung vom 31. Dezember 2022 |
+| Asset - Limit-Typ | Optimale Vorgehensweise | Begrenzung auferlegt | Änderung der Beschränkung am 31. Dezember 2022 |
 | --- | --- | --- | --- |
-| **Bildset** - Anzahl doppelter Assets pro Satz | Keine Duplikate | 100 | 20 |
-| **Bildset** - Maximale Anzahl von Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
+| **Alle Sets** - Anzahl doppelter Assets pro Satz | Keine Duplikate | 20 |  |
+| **Alle Sets** - Maximale Anzahl von Assets pro Satz | 5 - 10 Bilder pro Set | 1000 |
 | **Rotationsset** - Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
-| **PDF** - Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 5000 (für neue Uploads) | 100 |
+| **PDF** - Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 5000 (für neue Uploads) | 100 (für alle PDF) |
 
 <!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 

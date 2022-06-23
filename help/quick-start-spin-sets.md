@@ -10,7 +10,7 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 22%
@@ -31,7 +31,7 @@ Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewe
 
 Beim Erstellen eines Rotationssets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgende Beschränkung:
 
-| Rotationsset-Begrenzungstyp | Optimale Vorgehensweise | Implementierte Beschränkung |
+| Rotationsset-Begrenzungstyp | Optimale Vorgehensweise | Begrenzung auferlegt |
 | --- | --- | --- |
 | Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
 
