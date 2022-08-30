@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2036'
 ht-degree: 1%
 
 ---
@@ -185,11 +185,12 @@ Zum Herunterladen und *stumm* Installieren Sie die neueste Version des Adobe Dyn
 
 ## Herunterladen und *stumm* Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows® {#install-silent-windows-dmc-app}
 
-Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Installation. Das Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm ist jedoch ein InstallScript-MSI-Installationsprogramm, das mit InstallShield erstellt wurde. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine unbeaufsichtigte Installation verwendet, wie unter [Ausführen von Installationen im unbeaufsichtigten Modus.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Installation. Das Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm ist jedoch ein InstallScript-MSI-Installationsprogramm, das mit InstallShield erstellt wurde. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine unbeaufsichtigte Installation verwendet, wie unter [Laufende Installationen im Ruhezustand](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 Verwandte Themen:
 
 * [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm unter Mac oder Windows® herunter und installieren Sie es.](#installation-dmc-app)
+
 * [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms auf macOS](#install-silent-mac-dmc-app)
 
 Zum Herunterladen und *stumm* Installieren Sie die neueste Version des Adobe Dynamic Media Classic-Desktop-Programms unter Windows®:
@@ -212,7 +213,7 @@ Zum Herunterladen und *stumm* Installieren Sie die neueste Version des Adobe Dyn
 
    `adobe-dynamic-media-classic-20.22.1.exe /s /f1"C:\Setup.iss"`
 
-   Details zu Befehlszeilenparametern finden Sie unter [Befehlszeilenparameter &quot;Setup.exe&quot;und &quot;Update.exe&quot;.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Details zu Befehlszeilenparametern finden Sie unter [Befehlszeilenparameter &quot;Setup.exe&quot;und &quot;Update.exe&quot;](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters).
 
 1. Wenn Sie die Anwendung öffnen, wird die neue Adobe Dynamic Media Classic-Anmeldeseite angezeigt:
 
