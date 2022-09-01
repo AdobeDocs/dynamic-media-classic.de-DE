@@ -9,20 +9,18 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: fe98d962624284b70a1297d7276478de1453c83e
+source-git-commit: 61c433567870cedfa36b89c6e7be97abd3b0fdca
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 36%
+source-wordcount: '184'
+ht-degree: 23%
 
 ---
 
 # Entwicklerressourcen {#developer-resources}
 
-Adobe Dynamic Media Classic bietet Dokumentation zur neuesten Hauptversion jedes Adobe Dynamic Media Classic-Softwaremoduls. Moduldokumente sind für Image Authoring, Adobe Dynamic Media Classic, Image-Server und Image-Rendering sowie Viewer verfügbar.
+Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie Image Production System beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die die Rich Media-Daten von Adobe Dynamic Media Classic für eine Website oder eine benutzerdefinierte Anwendung weiter anpassen und verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit dem Dynamic Media Classic-Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
 
-Zu einigen Modulen gibt es außerdem Versionshinweise. Die Versionshinweise enthalten Details zur jeweiligen Version, einschließlich Verbesserungen, neue Funktionen, Tipps, Ratschläge zur Fehlerbehebung und bekannte Probleme, die aktuell untersucht werden. Darüber hinaus finden Sie in den Versionshinweisen interaktive Beispiele für Rich-Media-Funktionen und Angaben dazu, wie sie aktiviert werden. Häufig enthalten die Versionshinweise außerdem Anleitungen zur Installation und Konfiguration für Kunden mit lizenzierter Software.
-
-Referenzhandbücher für Image Serving und Image Rendering sowie Viewer beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die die Rich Media-Daten von Adobe Dynamic Media Classic für eine Website oder eine benutzerdefinierte Anwendung weiter anpassen und verwenden möchten, können diese Handbücher verwenden. In Adobe Dynamic Media Classic wird davon ausgegangen, dass der Benutzer mit dem Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
+Siehe auch [Dynamic Media-Entwicklungsressourcen](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
 ## Viewer {#viewers-guide}
 
@@ -43,19 +41,19 @@ Referenzhandbücher für Image Serving und Image Rendering sowie Viewer beschrei
 | --- | --- |
 | API-Referenzhandbuch | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html) |
 
-## Image Authoring {#ia}
+<!-- ## Image Authoring {#ia}
 
-| Dokument | Webadresse |
+| Document| Web address |
 | --- | --- |
-| Benutzerhandbuch | Wenden Sie sich für diese Dokumentation an den technischen Support von Adobe Dynamic Media Classic. |
-| Versionshinweise | Wenden Sie sich für diese Dokumentation an den technischen Support von Adobe Dynamic Media Classic. |
+| User Guide | Contact Adobe Dynamic Media Classic technical support for this documentation. |
+| Release Notes | Contact Adobe Dynamic Media Classic technical support for this documentation. |
 
-## Dynamic Media Classic-API {#dmc-api}
+## Dynamic Media Classic API {#dmc-api}
 
-| Dokument | Webadresse |
+| Document | Web address |
 | --- | --- |
-| API-Referenzhandbuch | Wenden Sie sich für die Dokumentation an den technischen Support von Adobe Dynamic Media Classic. |
-
+| API Reference Guide | Contact Adobe Dynamic Media Classic technical support for documentation. |
+ -->
 
 
 
