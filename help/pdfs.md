@@ -2,7 +2,7 @@
 title: Arbeiten mit PDF
 description: Erfahren Sie, wie Sie mit PDF in Adobe Dynamic Media Classic arbeiten.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '710'
 ht-degree: 36%
 
 ---
@@ -95,4 +95,4 @@ Sie können die Druckmarken an den Kanten der Seiten in einer PDF-Datei beim Hoc
 1. Wählen Sie im Menü Beschneiden die Option **[!UICONTROL Manuell]**.
 1. Geben Sie in die Textfelder „Oben“, „Rechts“, „Unten“ und „Links“ Pixelwerte für den Bereich ein, der am jeweiligen Bildrand abgeschnitten werden soll.
 
-Wie viel von der Seite tatsächlich abgeschnitten wird, hängt davon ab, welchen Wert Sie für die Auflösungseinstellung „Pixel/Zoll“ der PDF-Datei eingeben. Wenn Sie beispielsweise 150 (Standard) als Einstellung für die Auflösung &quot;PX/Inch&quot;eingeben und 75 Pixel von den Seiten abschneiden, wird ein halber Zoll zugeschnitten. bei 150 Pixel pro Zoll 75 Pixel entspricht einem halben Zoll.
+Wie viel von der Seite tatsächlich abgeschnitten wird, hängt davon ab, welchen Wert Sie für die Auflösungseinstellung „Pixel/Zoll“ der PDF-Datei eingeben. Angenommen, Sie geben 150 (Standard) als Einstellung &quot;Auflösung PX/Zoll&quot;ein. Anschließend schneiden Sie 75 Pixel von den Seiten ab. In diesem Fall 0,5 Zoll. zugeschnitten ist. Bei 150 Pixel pro Zoll entsprechen 75 Pixel einem halben Zoll.

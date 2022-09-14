@@ -1,8 +1,8 @@
 ---
 title: Verwalten von Inhalten im Informationsbereich in E-Katalogen
-description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic den Inhalt des Info-Bedienfelds in E-Katalogen verwalten.
+description: Erfahren Sie, wie Sie den Inhalt des Infofelds in E-Katalogen in Adobe Dynamic Media Classic verwalten.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,7 +10,7 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 59%
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darüber hinaus besteht jedoch auch die Möglichkeit, anhand eines Infofelds größere Mengen von Rollover-Text, einschließlich Links, hinzuzufügen. Zur Verwaltung des Infofelds können Sie zeitlich begrenztes Caching und geplante Inhaltsaktualisierungen verwenden.
 
-Sie können Ihre InfoPanel-Einrichtung und Ihre Daten mithilfe der folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
+Sie können die Einrichtung und die Daten des InfoPanel mit den folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
 * Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der E-Katalog automatisch veröffentlicht werden soll.
 * Im Bedienfeld &quot;InfoPanel-Datenfluss&quot;können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des InfoPanel angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
@@ -34,16 +34,16 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 
 >[!NOTE]
 >
->Sie können die Antwortvorlage auch in der Viewer-Vorgabe einrichten. Um stattdessen die Antwortvorlage in der Viewer-Vorgabe zu verwenden, fügen Sie `fmt=1` am Ende der URL des Informationsservers in der Viewer-Vorgabe hinzu.
+>Sie können die Antwortvorlage auch in der Viewer-Vorgabe einrichten. Um stattdessen die Antwortvorlage in der Viewer-Vorgabe zu verwenden, fügen Sie `fmt=1` an das Ende der URL des Informationsservers in der Viewer-Vorgabe.
 >
 >Siehe [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Doppelklicken Sie auf Ihren eCatalog, damit er in der Detailansicht geöffnet wird.
-1. Wählen Sie das Bedienfeld **[!UICONTROL InfoPanel Setup]** aus.
+1. Wählen Sie die **[!UICONTROL InfoPanel-Einrichtung]** Bereich.
 1. Wählen Sie eine Antwortvorlage aus:
 
    * Wählen Sie eine Vorgabe aus dem Menü „Antwortvorlage“ aus. Der XML-Code für den Vorlagenentwurf wird im Feld „Benutzervorlage“ angezeigt.
-   * Um eine eigene Antwortvorlage zu erstellen, wählen Sie **[!UICONTROL Benutzerdefiniert]** aus. Geben Sie die XML-Definition der Vorlage in das Feld „Benutzervorlage“ ein. Sie können die vorgegebenen Vorlagen als Grundlage für Ihre eigenen verwenden. 
+   * Um eine eigene Antwortvorlage zu erstellen, wählen Sie **[!UICONTROL Benutzerdefiniert]**. Geben Sie die XML-Definition der Vorlage in das Feld „Benutzervorlage“ ein. Sie können die vorgegebenen Vorlagen als Grundlage für Ihre eigenen verwenden. 
 
 1. (Optional) Geben Sie im Feld &quot;Standardantwort&quot;den Text ein, der angezeigt werden soll, wenn in Adobe Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap ein Fehler auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 1. Geben Sie die Anzahl der Stunden bis zum Zwischenspeichern der Daten in das Feld „Antwort-TTL“ ein:
@@ -51,7 +51,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
    * Geben Sie eine höhere Zahl ein, falls die Daten relativ stabil sind und nicht so häufig aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
 
-1. Wählen Sie **[!UICONTROL Publish]** aus.
+1. Auswählen **[!UICONTROL Veröffentlichen]**.
 
 ## Importieren von Quellinhalten für das Info-Bedienfeld in E-Katalogen {#import-source-content-for-the-info-panel-in-ecatalogs}
 
@@ -66,10 +66,10 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 ### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort in E-Kataloge {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Doppelklicken Sie auf den eCatalog, damit er in der Detailansicht geöffnet wird.
-1. Wählen Sie das Bedienfeld **[!UICONTROL InfoPanel Datafeed]** aus.
+1. Wählen Sie die **[!UICONTROL InfoPanel Datafeed]** Bereich.
 1. Geben Sie die URL für die CSV-Datei in das Feld „Speicherort der extern gehosteten CSV-Datei (HTTP)“ ein. Sie können diese URL in das Feld kopieren oder sie direkt eintippen.
-1. (Optional) Geben Sie einen Zeitpunkt für die Inhaltsaktualisierung mithilfe der Menüs Zeitplanaktualisierung an und wählen Sie **[!UICONTROL Hinzufügen]** aus. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.)
-1. (Optional) Wählen Sie **[!UICONTROL Jetzt aktualisieren ausführen]** aus, um den Inhalt sofort zu aktualisieren.
+1. (Optional) Geben Sie einen Zeitpunkt für die Aktualisierung des Inhalts mithilfe der Menüs Aktualisierung planen an und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
+1. (Optional) Wählen Sie **[!UICONTROL Update jetzt ausführen]** , um den Inhalt sofort zu aktualisieren.
 
 ### Importieren einer tabulatorgetrennten oder CSV-Datei {#import-a-tab-delimited-or-csv-file}
 
@@ -84,10 +84,10 @@ Last Modified Date:
  -->
 
 1. Doppelklicken Sie auf den eCatalog, damit er in der Detailansicht geöffnet wird.
-1. Wählen Sie das Bedienfeld **[!UICONTROL InfoPanel Setup]** aus.
-1. Wählen Sie **[!UICONTROL S7Info Content]** hochladen.
-1. Wählen Sie **[!UICONTROL Durchsuchen]**, wählen Sie die tabulatorgetrennte TXT-, CSV- oder SSV-Datei aus, die Sie verwenden möchten, und wählen Sie **[!UICONTROL Öffnen]** aus.
-1. Wählen Sie **[!UICONTROL Upload]** aus.
+1. Wählen Sie die **[!UICONTROL InfoPanel-Einrichtung]** Bereich.
+1. Auswählen **[!UICONTROL S7Info-Inhalt hochladen]**.
+1. Auswählen **[!UICONTROL Durchsuchen]**, wählen Sie die TXT-, CSV- oder SSV-Datei mit Tabulatorzeichen aus und wählen Sie **[!UICONTROL Öffnen]**.
+1. Auswählen **[!UICONTROL Hochladen]**.
 
 Adobe Dynamic Media Classic sendet Ihnen eine E-Mail, in der Sie darüber informiert werden, ob der Upload erfolgreich war oder nicht.
 
@@ -95,8 +95,8 @@ Adobe Dynamic Media Classic sendet Ihnen eine E-Mail, in der Sie darüber inform
 
 Im Anzeigebereich „Imagemap-Seiten“ können Sie einfach und schnell den Infofeldtext für die Imagemaps auf einer bestimmten Seite Ihres E-Katalogs anzeigen.
 
-1. Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des Katalogs aus.
-1. Wählen Sie **[!UICONTROL Seiten zuordnen]** aus.
-1. Wählen Sie oben in der Tabelle auf der rechten Bildschirmseite **[!UICONTROL Infofeld]** aus dem Menü Anzeigen .
+1. Rollover des Katalogs auswählen **[!UICONTROL Bearbeiten]** Schaltfläche.
+1. Auswählen **[!UICONTROL Seiten zuordnen]**.
+1. Wählen Sie oben in der Tabelle auf der rechten Bildschirmseite die Option **[!UICONTROL Infobereich]** über das Menü Anzeigen .
 
    Der Rollover-Schlüssel-Text wird neben jeder Image Map angezeigt, die Informationsfenster-Text enthält.

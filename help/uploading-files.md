@@ -2,17 +2,17 @@
 title: Hochladen von Dateien
 description: Erfahren Sie, wie Sie Dateien in Adobe Dynamic Media Classic hochladen.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3926'
-ht-degree: 32%
+source-wordcount: '3929'
+ht-degree: 31%
 
 ---
 
@@ -78,7 +78,7 @@ Um mit dem Adobe Dynamic Media Classic-Programm optimale Ergebnisse zu erzielen,
 | Schriftarten | Hochgeladene TrueType-, Type1- (nur Windows®), OpenType®-Schriftarten und FotoFonts. |
 | Bilder | Bilder und Bilddateien mit mehreren Ebenen. |
 | Bildsätze und Mustersets | Sammlungen zusammengehöriger Bilder, die in einem Viewer angezeigt werden können. |
-| ICC-Profile | Farbprofil, mit dem ein hochgeladenes Bild aus dem Ursprungsfarbraum in einen anderen Farbraum konvertiert werden kann. |
+| ICC-Profile | Ein Farbprofil, mit dem Sie ein hochgeladenes Bild aus dem Quellfarbraum in einen anderen Farbraum konvertieren können. |
 | Vignetten | Mit dem Image Authoring-Programm erstellte Bilder und zugehörige Dateien. |
 | Inhaltsdateien | Adobe InDesign-, Illustrator- oder Photoshop-Inhaltsdateien. |
 | FXG-Dateien | Auflösungsunabhängige Grafikformatdateien, mit deren Hilfe Sie anpassbare Vorlagen für die Ausgabe auf Druckern, im Web, als E-Mail, auf einem Desktop und auf anderen Geräten erstellen können. |
@@ -101,7 +101,7 @@ Die folgenden Dateitypen können veröffentlicht werden:
 * Audiodateien
 * CSS
 * JavaScript (wenn das Unternehmen mit einer eigenen Domäne konfiguriert wurde)
-* Mastervideo
+* Primäres Video
 * PDF (wenn PDF nach dem Hochladen zur Veröffentlichung markiert ist, um die Bereitstellung aller PDF für den bestehenden E-Katalog-/PDF-Workflow zu vermeiden)
 * PrX-Video
 * SVG
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classic bietet keine Option zum Generieren einer Vorschau-UR
 
 Da beim Hochladen die Erweiterungen aus den Dateinamen entfernt werden, sind Dateien mit demselben Stammnamen nicht zulässig. Im Adobe Dynamic Media Classic-System wird der Asset-Dateiname abzüglich der Dateinamenerweiterung zur Asset-ID für das Asset. Deshalb muss jedes Asset einen eindeutigen Namen haben.
 
-Stellen Sie deshalb sicher, dass allen Benutzern in Ihrem Unternehmen die folgenden Dateinamensregeln vertraut sind:
+Stellen Sie sicher, dass alle Benutzer in Ihrem Unternehmen die folgenden Regeln für die Benennung von Dateien verstehen:
 
 * Asset-IDs mit exakt demselben Namen sind im System nicht zulässig.
 * Bei Asset-ID-Namen wird zwischen Groß- und Kleinschreibung unterschieden.
 * Asset-IDs sollten keine Leerzeichen enthalten (z. B. nicht „Schwarze Jacke.tif“ oder „Blaue Jacke.jpg“). Adobe Dynamic Media Classic ASCII-kodiert leere Leerzeichen in Asset-Namen, wenn es Asset-Namen verwendet, um URL-Zeichenfolgen zu erstellen. Diese ASCII-Codierung beeinträchtigt jedoch die Lesbarkeit der URLs.
 * Sprachspezifische Zeichen sind in Dateinamen zulässig. Allerdings dürfen Dateinamen die folgenden Zeichen nicht enthalten:
 
-   \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    Wenn ein Dateiname eines oder mehrere der oben aufgeführten Zeichen enthält, werden die Zeichen beim Hochladen aus dem Dateinamen entfernt.
 
@@ -277,7 +277,7 @@ Siehe [Arbeiten mit Videokodierungsvorgaben](uploading-encoding-videos.md#workin
 
 Wenn Sie Elemente per FTP hochladen, können Sie einen nachfolgenden Auftrag planen, der nach Abschluss des Uploads beginnt. Wenn andere Aufträge geplant sind, werden die Aufträge, die Sie hier planen, nach ihnen in die Warteschlange gestellt.
 
-Für den neuen Auftrag wird eine Benachrichtigung an die von Ihnen festgelegte Adresse geschickt, sodass Code am vorgesehenen Ort ausgelöst werden kann. Der nachfolgende Veröffentlichungsauftrag erhält den Namen des Upload-Auftrags mit dem Präfix *Pub_*(für Publikation).
+Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adresse, damit der Code an dieser Stelle ausgelöst werden kann. Der nachfolgende Veröffentlichungsauftrag erhält den Namen des Upload-Auftrags mit dem Präfix *Pub_*(für Publikation).
 
 **So folgen Sie dem Hochladen mit einem anderen Auftrag:**
 

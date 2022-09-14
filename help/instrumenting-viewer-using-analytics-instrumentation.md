@@ -2,7 +2,7 @@
 title: Instrumentieren eines Viewers mit dem Adobe Analytics Instrumentation Kit
 description: Erfahren Sie, wie Sie einen Viewer mit dem Adobe Analytics Instrumentation Kit in Adobe Dynamic Media Classic instrumentieren.
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,7 +10,7 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 20%
@@ -21,28 +21,28 @@ ht-degree: 20%
 
 Sie können das Adobe Analytics Instrumentation Kit verwenden, um einen HTML5-Viewer in Adobe Analytics zu integrieren.
 
-Wenn Sie eine der vordefinierten HTML5-Viewer-Vorgaben der Adobe Dynamic Media Classic verwenden, enthalten diese bereits den gesamten Implementierungscode zum Senden von Daten an Adobe Analytics. Sie benötigen keine weitere Instrumentierung.
+Wenn Sie eine der vordefinierten Adobe Dynamic Media Classic HTML5-Viewer-Vorgaben verwenden, enthalten diese bereits den gesamten Implementierungscode zum Senden von Daten an Adobe Analytics. Sie benötigen keine weitere Instrumentierung.
 
-## Einrichten des Adobe Analytics-Trackings über Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Einrichten von Adobe Analytics-Tracking über Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-Fügen Sie für alle HTML5-Viewer das folgende JavaScript zum HTML-Container hinzu, normalerweise im &lt;head> -Element:
+Fügen Sie für alle HTML5-Viewer das folgende JavaScript zum HTML-Container hinzu, normalerweise im &lt;head> element:
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Dabei ist `Adobe Dynamic Media Classic Company ID` auf den Unternehmensnamen von Adobe Dynamic Media Classic festgelegt. Und `&preset` ist optional, es sei denn, der Unternehmensvorgabenname ist nicht `companypreset`. In solchen Fällen könnte es `companypreset-1, companypreset-2` sein usw. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen für den Unternehmensvorgabenwert zu ermitteln, wählen Sie **[!UICONTROL URL kopieren]** und dann den Parameter `preset=`aus, um den Unternehmensvorgabennamen zu finden.
+Wo `Adobe Dynamic Media Classic Company ID` auf den Adobe Dynamic Media Classic-Unternehmensnamen festgelegt ist. und `&preset` ist optional, es sei denn, der Vorgabenname des Unternehmens ist nicht `companypreset`. In solchen Fällen kann es `companypreset-1, companypreset-2`usw. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen für die Unternehmensvorgabe zu bestimmen, wählen Sie **[!UICONTROL URL kopieren]** , und sehen Sie sich dann die `preset=`-Parameter, um den Unternehmensvorgabennamen zu finden.
 
 Fügen Sie nun eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Trackingcode sendet.
 
-Fügen Sie die Funktion `s7ComponentEvent()` zum Container-HTML (oder JSP, ASPX oder anderen) hinzu:
+Fügen Sie die `s7ComponentEvent()` -Funktion auf die Container-HTML (oder JSP, ASPX oder andere):
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-Beim Funktionsnamen wird zwischen Groß- und Kleinschreibung unterschieden. Der einzige Parameter, der an `s7componentEvent`übergeben wird und erforderlich ist, ist der letzte: `eventData`. Wobei `s7track()` in s_code.jsp definiert ist, die oben aufgeführt sind. Und `s7track` verarbeitet das gesamte Tracking pro Ereignis. (Wenn Sie an Adobe Analytics übermittelte Daten weiter anpassen müssen, sollten Sie dies an dieser Stelle tun.)
+Beim Funktionsnamen wird zwischen Groß- und Kleinschreibung unterschieden. Der einzige Parameter, der an `s7componentEvent`erforderlich ist der letzte: `eventData`. Wo `s7track()` ist in s_code.jsp definiert, die oben enthalten ist. und `s7track` verarbeitet das gesamte Tracking pro Ereignis. (Wenn Sie an Adobe Analytics übermittelte Daten weiter anpassen müssen, sollten Sie dies an dieser Stelle tun.)
 
 ## Aktivieren von HREF- und ITEM-Ereignissen {#enabling-href-and-item-events}
 
-Sie können HREF-Ereignisse (Rollover) und ITEM-Ereignisse (Mausklicks/Berührungen) in den Viewern aktivieren, indem Sie die Imagemap bearbeiten. Definieren Sie die Identifikatoren für HREF und ITEM in der mit dem Viewer-Inhalt verknüpften Imagemap. Fügen Sie dem HREF-Wert in der Imagemap den Parameter `&rolloverKey=` hinzu.
+Sie können HREF-Ereignisse (Rollover) und ITEM-Ereignisse (Mausklicks/Berührungen) in den Viewern aktivieren, indem Sie die Imagemap bearbeiten. Definieren Sie die Identifikatoren für HREF und ITEM in der mit dem Viewer-Inhalt verknüpften Imagemap. Hinzufügen einer `&rolloverKey=` zum HREF-Wert in der Imagemap.

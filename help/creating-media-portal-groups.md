@@ -1,8 +1,8 @@
 ---
 title: Erstellen und Verwalten von Media Portal-Gruppen
-description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Media Portal-Gruppen erstellen und verwalten.
+description: Erfahren Sie, wie Sie Media Portal-Gruppen in Adobe Dynamic Media Classic erstellen und verwalten.
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -33,29 +33,29 @@ Wenn Sie einem Asset oder Ordner keine Gruppenberechtigungen gewähren, erbt die
 
 ## Hinzufügen einer Gruppe {#adding-a-group}
 
-1. Gehen Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
-1. Wählen Sie **[!UICONTROL Hinzufügen]**.
-1. Geben Sie im Dialogfeld Gruppe hinzufügen im Feld Gruppenname einen Namen für die Gruppe ein und wählen Sie dann **[!UICONTROL Gruppe hinzufügen]** aus.
+1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Auswählen **[!UICONTROL Hinzufügen]**.
+1. Geben Sie im Dialogfeld Gruppe hinzufügen im Feld Gruppenname einen Namen für die Gruppe ein und wählen Sie dann **[!UICONTROL Gruppe hinzufügen]**.
 1. Bei Bedarf können Sie die Kontrollkästchen neben den Namen von Benutzern aktivieren, um diese Benutzer der neuen Gruppe hinzuzufügen.
-1. Wenn Sie jetzt Zugriffsberechtigungen festlegen möchten, wählen Sie die Registerkarte **[!UICONTROL Asset Access Permissions]** aus und geben Sie dann die gewünschten Optionen an.
+1. Wenn Sie jetzt Zugriffsberechtigungen festlegen möchten, wählen Sie die **[!UICONTROL Asset-Zugriffsberechtigungen]** und geben Sie die gewünschten Optionen an.
 
    Siehe [Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Wenn Sie auswählen möchten, welche Bildvorgaben für die Gruppe verfügbar sind, wählen Sie die Registerkarte **[!UICONTROL Bildvorgabenzugriffsberechtigungen]** und dann Bildvorgaben, die die Gruppe verwenden kann.
+1. Wenn Sie auswählen möchten, welche Bildvorgaben für die Gruppe verfügbar sind, wählen Sie die **[!UICONTROL Zugriffsberechtigungen für Bildvorgaben]** und wählen Sie Bildvorgaben aus, die die Gruppe verwenden kann.
 
    Siehe [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
-1. Wählen Sie **[!UICONTROL Close]** aus.
+1. Auswählen **[!UICONTROL Schließen]**.
 
 ## Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe {#establishing-asset-access-permissions-for-a-group}
 
-1. Gehen Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:
 
-   * Um eine Gruppe hinzuzufügen und Berechtigungen festzulegen, wählen Sie **[!UICONTROL Hinzufügen]** aus. Geben Sie im Dialogfeld Gruppe hinzufügen einen Namen für die Gruppe ein, wählen Sie **[!UICONTROL Gruppe hinzufügen]** und fügen Sie Benutzer zur Gruppe hinzu.
+   * Um eine Gruppe hinzuzufügen und Berechtigungen festzulegen, wählen Sie **[!UICONTROL Hinzufügen]**. Geben Sie im Dialogfeld Gruppe hinzufügen einen Namen für die Gruppe ein und wählen Sie **[!UICONTROL Gruppe hinzufügen]** und fügen Sie Benutzer zur Gruppe hinzu.
    * Um die Berechtigungen einer Gruppe zu bearbeiten, wählen Sie die Gruppe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die Registerkarte **[!UICONTROL Asset-Zugriffsberechtigungen]** aus. Über die Kontrollkästchen auf der rechten Seite der Registerkarte können Sie Rechte zum Lesen, Schreiben und Löschen für Ordner und Assets festlegen. Im linken Fensterbereich können Sie Ordner und Unterordner erweitern und minimieren.
+1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die **[!UICONTROL Asset-Zugriffsberechtigungen]** Registerkarte. Über die Kontrollkästchen auf der rechten Seite der Registerkarte können Sie Rechte zum Lesen, Schreiben und Löschen für Ordner und Assets festlegen. Im linken Fensterbereich können Sie Ordner und Unterordner erweitern und minimieren.
 1. Um Ordnern oder einzelnen Assets Rechte zuzuweisen, wählen Sie den Ordner im linken Fensterbereich aus. Der Inhalt des Ordners wird im rechten Fensterbereich angezeigt. Legen Sie dann die Rechte für die Gruppe fest, indem Sie im rechten Fensterbereich die Kontrollkästchen für die entsprechenden Dateien bzw. Ordner aktivieren.
 
    In dieser Tabelle werden verschiedenen Aufgaben Berechtigungen zum Lesen, Schreiben und Löschen zugewiesen.
@@ -69,7 +69,7 @@ Wenn Sie einem Asset oder Ordner keine Gruppenberechtigungen gewähren, erbt die
    | Dateien umbenennen |  | X |  |
    | Dateien löschen |  |  | X |
 
-1. Wählen Sie **[!UICONTROL Close]** aus.
+1. Auswählen **[!UICONTROL Schließen]**.
 
 >[!NOTE]
 >
@@ -83,21 +83,21 @@ Siehe auch [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfüg
 
 **So wählen Sie Zugriffsberechtigungen für Bildvorgaben für eine Gruppe aus:**
 
-1. Gehen Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:
 
-   * Um eine Gruppe hinzuzufügen und anzugeben, welche Bildvorgaben verfügbar sind, wählen Sie **[!UICONTROL Hinzufügen]** aus. Geben Sie im Dialogfeld Gruppe hinzufügen einen Namen für die Gruppe ein, wählen Sie **[!UICONTROL Gruppe hinzufügen]** und fügen Sie Benutzer zur Gruppe hinzu.
+   * Um eine Gruppe hinzuzufügen und anzugeben, welche Bildvorgaben ihr zur Verfügung stehen, wählen Sie **[!UICONTROL Hinzufügen]**. Geben Sie im Dialogfeld Gruppe hinzufügen einen Namen für die Gruppe ein und wählen Sie **[!UICONTROL Gruppe hinzufügen]** und fügen Sie Benutzer zur Gruppe hinzu.
    * Um die Bildvorgabenoptionen einer Gruppe zu bearbeiten, wählen Sie die Gruppe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die Registerkarte **[!UICONTROL Bildvorgabe Zugriffsberechtigungen]** aus.
+1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die **[!UICONTROL Zugriffsberechtigungen für Bildvorgaben]** Registerkarte.
 1. Um festzulegen, welche Vorgaben für Media Portal-Benutzer beim Exportieren von Assets verfügbar sind, wählen Sie Bildvorgaben aus oder deaktivieren Sie sie.
-1. Wählen Sie **[!UICONTROL Close]** aus.
+1. Auswählen **[!UICONTROL Schließen]**.
 
 ## Bearbeiten und Löschen von Gruppen {#edit-and-delete-groups}
 
-1. Gehen Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Wählen Sie auf der Seite „Gruppenliste“ eine Gruppe aus und bearbeiten oder löschen Sie sie.
 
-   **Gruppe bearbeiten**  - Wählen Sie  **[!UICONTROL Bearbeiten]** aus und wählen Sie dann Optionen im Dialogfeld Gruppe bearbeiten aus.
+   **Eine Gruppe bearbeiten** - Auswählen **[!UICONTROL Bearbeiten]** und wählen Sie dann im Dialogfeld &quot;Gruppe bearbeiten&quot;Optionen aus.
 
-   **Gruppe löschen**  - Wählen Sie  **[!UICONTROL Löschen]** aus.
+   **Gruppe löschen** - Auswählen **[!UICONTROL Löschen]**.

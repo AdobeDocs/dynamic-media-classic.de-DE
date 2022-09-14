@@ -1,17 +1,17 @@
 ---
 title: Veröffentlichen von Dateien
-description: '"Erfahren Sie, wie Sie Ihre Assets auf Dynamic Media-Image-Servern veröffentlichen. Sie können Assets einmalig veröffentlichen oder dafür sorgen, dass Adobe Dynamic Media Classic Assets regelmäßig veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen."'
-contentOwner: admin
+description: "Erfahren Sie, wie Sie Ihre Assets auf Dynamic Media-Image-Servern veröffentlichen. Sie können Assets einmalig veröffentlichen oder dafür sorgen, dass Adobe Dynamic Media Classic Assets regelmäßig veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen."
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 48%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &
 
 >[!NOTE]
 >
->Assets, die Sie erneut publizieren (nachdem sie bereits veröffentlicht wurden), werden aufgrund des Web-Cache-Mechanismus im Netzwerk zur Inhaltsbereitstellung (Content Delivery Network, CDN) nicht sofort auf Ihrer Website angezeigt. Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
+>Assets, die Sie erneut veröffentlichen (Sie haben sie bereits veröffentlicht), werden aufgrund des Web-Caching-Mechanismus im Inhaltsbereitstellungsnetzwerk (Content Delivery Network, CDN) nicht sofort auf Ihrer Website angezeigt. Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Erstellen eines einmaligen Veröffentlichungsauftrags {#creating-a-one-time-publish-job}
 
@@ -102,7 +102,7 @@ Siehe [Upload- oder Veröffentlichungsauftrag als Trigger verwenden](checking-jo
 
 ## Abbrechen eines Veröffentlichungsauftrags {#canceling-a-publish-job}
 
-Sie haben die Möglichkeit, einen in Verarbeitung befindlichen Veröffentlichungsauftrag zu stornieren. Als Administrator können Sie einen in Verarbeitung befindlichen Veröffentlichungsauftrag auch über die Seite „Aufträge“ für das Unternehmen stornieren.
+Sie können einen laufenden Veröffentlichungsauftrag abbrechen. Als Administrator können Sie einen in Verarbeitung befindlichen Veröffentlichungsauftrag auch über die Seite „Aufträge“ für das Unternehmen stornieren.
 
 Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Aufträge&quot;und wählen Sie **[!UICONTROL Abbrechen]**. Auf der Registerkarte „Geplant“ der Seite „Aufträge“ können Sie einen Auftrag anhalten und wiederaufnehmen, indem Sie in der Spalte „Aktiv“ des Auftrags das Kontrollkästchen markieren bzw. dessen Markierung aufheben.
 

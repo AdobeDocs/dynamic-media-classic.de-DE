@@ -2,7 +2,7 @@
 title: Vorbereiten von Musterset-Assets für das Hochladen
 description: Erfahren Sie, wie Sie Musterset-Assets für den Upload in Adobe Dynamic Media Classic vorbereiten.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
@@ -10,10 +10,10 @@ discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 65%
+source-wordcount: '179'
+ht-degree: 61%
 
 ---
 
@@ -28,7 +28,7 @@ Wenn Sie ein Musterset mit Farbfeldern erstellen möchten, benötigen Sie Vignet
 
 Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate. Es werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder empfohlen.
 
-Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Hochladen von Dateien](uploading-files.md#uploading_files).
+Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >

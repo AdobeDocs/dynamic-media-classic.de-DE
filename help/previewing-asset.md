@@ -1,8 +1,8 @@
 ---
 title: Asset-Vorschau
-description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic eine Vorschau eines Assets anzeigen.
+description: Erfahren Sie, wie Sie eine Asset-Vorschau in Adobe Dynamic Media Classic anzeigen.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,7 +10,7 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 37%
@@ -25,21 +25,21 @@ Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_v
 
 Wenn Sie eine Vorschau eines Vorlagen-Assets mit Parameterschichten anzeigen, können Sie Parameter ändern oder die Bildvorgabe ändern. Da Ihre Änderungen inline vorgenommen werden, können Sie die Ergebnisse sofort im gleichen Fenster sehen.
 
-Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch [Beispiele für Referenzbibliotheken für Adoben-Viewer](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **So zeigen Sie eine Asset-Vorschau an:**
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu den Asset-Ordnern, die das Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Listenansicht]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**.
 
 1. Führen Sie je nach verwendeter Ansicht einen der folgenden Schritte aus:
 
-   * Wählen Sie im Fenster &quot;Asset&quot;der Rasteransicht oder Listenansicht ein einzelnes Asset aus und klicken Sie dann neben dem Miniaturbild auf **[!UICONTROL Vorschau]**.
-   * Wählen Sie in der Symbolleiste über dem Fenster &quot;Assets&quot;der Rasteransicht, Listenansicht oder Detailansicht **[!UICONTROL Vorschau]** aus.
+   * Wählen Sie im Fenster &quot;Asset&quot;der Raster- oder Listenansicht ein einzelnes Asset aus und wählen Sie dann **[!UICONTROL Vorschau]** in der Nähe des Miniaturbilds.
+   * Wählen Sie in der Symbolleiste über dem Fenster &quot;Assets&quot;in der Rasteransicht, Listenansicht oder Detailansicht die Option **[!UICONTROL Vorschau]**.
 
 ## Asset-Vorschau basierend auf Viewer-Plattformtyp {#previewing-an-asset-based-on-viewer-platform-type}
 
@@ -54,29 +54,29 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster &quot;Viewer-Liste&
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu den Asset-Ordnern, die das Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-1. (Optional) Wählen Sie im Fenster &quot;Viewer-Liste&quot;die Spaltenüberschrift **[!UICONTROL Name]** oder **[!UICONTROL Plattformtyp]** aus, um die Spalte in auf- oder absteigender Reihenfolge zu sortieren.
-1. Wählen Sie im Fenster &quot;Viewer-Liste&quot;unter der Spalte &quot;Aktionen&quot;der Tabelle **[!UICONTROL Vorschau]** aus, um zu sehen, wie das Asset für einen ausgewählten Viewer und Plattformtyp angezeigt wird.
+1. (Optional) Wählen Sie im Fenster &quot;Viewer-Liste&quot;die Spaltenüberschrift aus. **[!UICONTROL Name]** oder **[!UICONTROL Plattformtyp]** um die Spalte in auf- oder absteigender Reihenfolge zu sortieren.
+1. Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Vorschau]** , um zu sehen, wie das Asset für einen ausgewählten Viewer und Plattformtyp angezeigt wird.
 
    Schließen Sie die angezeigte Vorschau.
 
 1. (Optional) Wählen Sie unten im Fenster „Viewer-Liste“ in der Dropdown-Liste „URL-Kodierung für URL-kopieren-Generierung“ die URL-Kodierung aus, die beim Kopieren der Asset-URL für die URL verwendet werden soll.
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie im Fenster &quot;Viewer-Liste&quot;unter der Spalte &quot;Aktionen&quot;der Tabelle **[!UICONTROL URL kopieren]** für einen ausgewählten Viewer und Plattformtyp aus.
+   * Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]** für einen ausgewählten Viewer und Plattformtyp.
 
-      Wenn Sie **[!UICONTROL URL kopieren]** auswählen, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
+      Wenn Sie **[!UICONTROL URL kopieren]**, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
 
-   * Wählen Sie im Fenster &quot;Viewer-Liste&quot;unter der Spalte &quot;Aktionen&quot;der Tabelle **[!UICONTROL Einbettungscode]** aus.
+   * Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**.
 
-      Wenn Sie **[!UICONTROL Einbettungscode]** auswählen, wird das Fenster Einbettungscode geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten einfügen können.
+      Wenn Sie **[!UICONTROL Einbettungscode]**, wird das Fenster Einbettungscode geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten einfügen können.
 
       Schließen Sie die angezeigte Vorschau.
 
-1. Wählen Sie in der rechten unteren Ecke des Fensters &quot;Viewer-Liste&quot;die Option **[!UICONTROL Close]** aus, um zum Bildschirm &quot;Assets&quot;zurückzukehren.
+1. Wählen Sie in der rechten unteren Ecke des Fensters &quot;Viewer-Liste&quot;die Option **[!UICONTROL Schließen]** , um zum Bildschirm &quot;Assets&quot;zurückzukehren.
 
 ## Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe {#previewing-an-image-asset-based-on-its-image-preset}
 
@@ -84,7 +84,7 @@ Sie können eine Vorschau eines Bild-Asset auf Grundlage seiner Bildvorgabe aufr
 
 Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen, mit denen Größe, Qualität, Format, Auflösung und andere Darstellungsaspekte für ein Bild beim Exportieren festgelegt werden. 
 
-Siehe [Bildvorgaben einrichten](setting-image-presets.md#setting_up_image_presets).
+Siehe [Einrichten von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
 
 Siehe [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
@@ -93,14 +93,14 @@ Siehe [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-preset
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabeliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
 
 1. Wählen Sie im Fenster „Bildvorgabeliste“ in der Tabelle den Namen einer Vorgabe aus, deren Bild-Asset Sie inline im rechten Fensterbereich in der Vorschau anzeigen möchten.
-1. (Optional) Wählen Sie im Fenster Bildvorgabeliste in der Dropdown-Liste **[!UICONTROL URL-Kodierung für URL-Kopiegenerierung]** unten die URL-Kodierung aus, die beim Kopieren auf die URL des Bild-Assets angewendet werden soll.
-1. (Optional) Wählen Sie im Fenster Bildvorgabeliste oben rechts im Vorschaufenster **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp aus.
+1. (Optional) Im Fenster Bildvorgabenliste können Sie im **[!UICONTROL URL-Kodierung für die Generierung der URL kopieren]** Wählen Sie unten in der Dropdown-Liste die URL-Kodierung aus, die beim Kopieren auf die URL des Bild-Assets angewendet werden soll.
+1. (Optional) Wählen Sie im Fenster Bildvorgabeliste oben rechts im Vorschaufenster die Option **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp.
 
-   Wenn Sie **[!UICONTROL URL kopieren]** auswählen, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
+   Wenn Sie **[!UICONTROL URL kopieren]**, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
 
-1. Wählen Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste die Option **[!UICONTROL Close]** aus, um zum Bildschirm &quot;Assets&quot;zurückzukehren.
+1. Wählen Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste die Option **[!UICONTROL Schließen]** , um zum Bildschirm &quot;Assets&quot;zurückzukehren.

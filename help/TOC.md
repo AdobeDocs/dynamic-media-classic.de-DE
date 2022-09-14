@@ -6,7 +6,7 @@ user-guide-title: Handbuch zu Adobe Dynamic Media Classic
 breadcrumb-title: Handbuch zu Dynamic Media Classic
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 29%
@@ -79,8 +79,8 @@ ht-degree: 29%
    + [Organisieren Ihrer Arbeit mit Projekten](organizing-projects.md)
 + Bildgrößenänderung {#image-sizing}
    + [Kurzanleitung: Bildgrößenänderung](quick-start-image-sizing.md)
-   + [Übergeordnete Bilder hochladen](uploading-master-images.md)
-   + [Übergeordnete Bilder veröffentlichen](publishing-master-images.md)
+   + [Hochladen von Primärbildern](uploading-master-images.md)
+   + [Primärbilder veröffentlichen](publishing-master-images.md)
    + [Einrichten von Bildvorgaben](setting-image-presets.md)
    + [Verknüpfen von URLs mit einer Webanwendung](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -166,7 +166,7 @@ ht-degree: 29%
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
    + [Informationen zur Festplattenauslastung abrufen](getting-disk-usage-information.md)
    + [Hochladen eines Rasterbild-Assets](uploading-image-asset-or-vector.md)
-+ Masterdateien {#master-files}
++ Primäre Dateien {#master-files}
    + [Empfohlene Verfahren zur Optimierung der Bildqualität](best-practices-optimizing-quality-images.md)
    + [Bilder bearbeiten](editing-images.md)
    + [Imagemaps erstellen](creating-image-maps.md)

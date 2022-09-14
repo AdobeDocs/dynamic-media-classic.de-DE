@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Kapitelmarken zu Videos
-description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Kapitelmarken zu einem Video hinzufügen.
+description: Erfahren Sie, wie Sie einem Video in Adobe Dynamic Media Classic Kapitelmarken hinzufügen.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
@@ -10,7 +10,7 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 42%
@@ -25,7 +25,7 @@ Um das Betrachten von und das Navigieren in langen Videos zu vereinfachen, könn
 >
 >Der verwendete Video-Player muss die Verwendung von Kapitelmarken unterstützen. 
 
-Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset), wenn Sie die Cue-Punkte für die Kapitelnavigation und den Popup-Text für Kapiteltitel für den Viewer `Universal_HTML5_Video` (HTML5) konfigurieren möchten.
+Siehe [Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) , wenn Sie die Cue-Point für die Kapitelnavigation und den Popup-Text für Kapiteltitel für `Universal_HTML5_Video` Viewer (HTML5).
 
 Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -49,15 +49,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Im obigen Beispiel ist `Chapter 1` der Cue-Point-Bezeichner. Diese Angabe ist optional. Die Cue-Point-Zeit von `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels im Format 00:00:000 an. Die letzten drei Ziffern geben die Millisekunden an und können auf „000“ belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die tatsächliche Beschreibung des Kapitelinhalts. Die Cue-Point-ID, die Cue-Point-Zeit und der Kapiteltitel werden im Video-Player in einem Popup-Fenster angezeigt, wenn der Mauszeiger über einen visuellen Cue-Point in der Timeline des Videos bewegt wird.
+Im obigen Beispiel ist `Chapter 1` der Cue-Point-Bezeichner. Diese Angabe ist optional. Die Cue-Point-Zeit `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels in 00 an.:00:Format &quot;000&quot;. Die letzten drei Ziffern geben die Millisekunden an und können auf „000“ belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die tatsächliche Beschreibung des Kapitelinhalts. Die Cue-Point-ID, die Cue-Point-Zeit und der Kapiteltitel werden im Video-Player in einem Popup-Fenster angezeigt, wenn der Mauszeiger über einen visuellen Cue-Point in der Timeline des Videos bewegt wird.
 
 Da Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Kapiteldatei dem WebVTT (Web Video Text Tracks)-Standard folgt. Die Kapiteldateinamenerweiterung lautet .VTT. Weitere Informationen zum WebVTT-Untertitelstandard
 
-Siehe [WebVTT: Der Web-Video-Text verfolgt das Format](https://w3c.github.io/webvtt/).
+Siehe [WebVTT: Format der Webvideo-Textspuren](https://w3c.github.io/webvtt/).
 
 **So fügen Sie Kapitelmarken zu Video hinzu:**
 
-1. Erstellen Sie Ihre Videokapiteldatei mit einem einfachen Texteditor außerhalb der Adobe Dynamic Media Classic.
+1. Erstellen Sie Ihre Videokapiteldatei mit einem einfachen Texteditor außerhalb von Adobe Dynamic Media Classic.
 
    >[!NOTE]
    >
@@ -69,22 +69,22 @@ Siehe [WebVTT: Der Web-Video-Text verfolgt das Format](https://w3c.github.io/web
 
 1. Laden Sie in Adobe Dynamic Media Classic Ihre WebVTT-Kapiteldatei hoch.
 
-   Siehe [Hochladen von Dateien](uploading-files.md#uploading_files).
+   Siehe [Dateien hochladen](uploading-files.md#uploading_files).
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der die Videodatei enthält, die Sie der hochgeladenen Kapiteldatei zuordnen möchten.
-1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie dann unter dem Miniaturbild des Assets auf **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und wählen Sie dann unter dem Miniaturbild des Assets die Option **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 1. Suchen Sie in der Tabelle „Viewer-Liste“ den HTML5-Viewer mit dem Namen **Universal_HTML5_Video** und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie für ein Popup-Video-Viewer-Erlebnis **[!UICONTROL URL]** rechts neben dem Namen kopieren aus.
+   * Wählen Sie für ein Popup-Video-Viewer-Erlebnis **[!UICONTROL URL kopieren]** rechts vom Namen.
 
       Hängen Sie die kopierte URL des Videos mit der folgenden Syntax an, damit Sie sie mit der kopierten URL Ihrer Untertiteldatei verknüpfen können:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Wählen Sie für ein eingebettetes Video-Viewer-Erlebnis **[!UICONTROL Einbettungscode]** rechts neben dem Namen aus.
+   * Für ein eingebettetes Video-Viewer-Erlebnis wählen Sie **[!UICONTROL Einbettungscode]** rechts vom Namen.
 
-      Wählen Sie im Dialogfeld &quot;Einbettungscode&quot;die Option **[!UICONTROL In Zwischenablage kopieren]**.
+      Wählen Sie im Dialogfeld Einbettungscode die Option **[!UICONTROL In Zwischenablage kopieren]**.
 
-      Hängen Sie für den HTML5 `Universal_HTML5_Video`-Viewer den kopierten Einbettungscode wie folgt an:
+      Für die HTML 5 `Universal_HTML5_Video` -Viewer den kopierten Einbettungscode wie folgt anhängen:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`

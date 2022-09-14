@@ -1,16 +1,16 @@
 ---
 title: Einschränkungen bei Dynamic Media
-description: 'Erfahren Sie mehr über die Best Practices und erzwungenen Einschränkungen beim Erstellen eines Bildsets oder eines Rotationssets oder beim Hochladen einer PDF. Erfahren Sie auch mehr über nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media-Viewer. '
-contentOwner: admin
+description: Erfahren Sie mehr über die Best Practices und erzwungenen Einschränkungen beim Erstellen eines Bildsets oder eines Rotationssets oder beim Hochladen einer PDF. Erfahren Sie auch mehr über nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media-Viewer.
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: ec840640b1131a56c1261f22b7638e53dac1bce8
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Adobe Dynamic Media Viewers unterstützt nicht die folgenden Webbrowser- und Bet
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-## Ende der Unterstützung für TLS 1.0 und 1.1 {#tls}
+## Ende der Unterstützung für Transport Layer Security 1.0 und 1.1 {#tls}
 
 <!-- CQDOC-19433 -->
 

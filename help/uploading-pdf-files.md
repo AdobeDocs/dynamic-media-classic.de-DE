@@ -2,17 +2,17 @@
 title: PDF-Dateien hochladen
 description: Erfahren Sie, wie Sie die mit einem E-Katalog verknüpften PDF-Dateien in Adobe Dynamic Media Classic hochladen.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 38%
+source-wordcount: '831'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ Bereiten Sie Ihre PDF-Dateien vor dem Hochladen auf Adobe Dynamic Media Classic 
 
 Ausführliche Informationen zu den verschiedenen Methoden zum Hochladen finden Sie unter [Hochladen der Dateien](uploading-files.md#uploading_your_files).
 
-Wählen Sie die hochzuladenden Dateien aus und beachten Sie die folgenden bewährten Optionen ** für PDF-Dateien:
+Wählen Sie die Dateien aus, die Sie hochladen möchten, und wählen Sie diese dann aus *Best Practice* PDF Options:
 
 * **Optionen zum Zuschneiden** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Optionen zum Zuschneiden]**. Wenn die PDF-Seiten Zuschnittmarkierungen, Registrierungszeichen oder andere Zeichen enthalten, wird die **[!UICONTROL Zuschneiden]** Dropdown-Liste auswählen **[!UICONTROL Manuell]**. Geben Sie die Anzahl der Pixel an, die an den Seitenkanten oben, rechts, unten und links abgeschnitten werden sollen. Zuschnittmarkierungen sind oft auf einen halben Zoll-Rand eingestellt. Angenommen, Sie wählen **[!UICONTROL 150]** (empfohlen) als Pixelpro-Zoll-Auflösung und geben Sie in die Textfelder &quot;Oben&quot;, &quot;Rechts&quot;, &quot;Unten&quot;und &quot;Links&quot;die Werte 75, 75, 75 und 75 ein. In diesem Fall schneidet er einen halben Zoll von den Rändern ab (bei 150 ppi, die Hälfte von 1 entspricht 75 Pixel).
 

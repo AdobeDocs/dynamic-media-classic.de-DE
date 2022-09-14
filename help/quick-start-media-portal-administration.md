@@ -1,8 +1,8 @@
 ---
-title: '"Schnellstart: Media Portal"'
+title: "Schnellstart: Media Portal"
 description: Eine Einführung in Media Portal und ein Schnellstart für Media Portal, die Ihnen helfen, die Media Portal-Techniken und -Administration in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 52%
+ht-degree: 49%
 
 ---
 
@@ -65,7 +65,7 @@ Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user
 
 ## 5. Festlegen von Exportoptionen
 
-Media Portal-Benutzer können Dateien in verschiedenen Formaten und als Original-Masterdateien exportieren, sofern Sie ihnen die erforderlichen Berechtigungen zugeteilt haben. Als Administrator entscheiden Sie, wie Benutzer Dateien exportieren können. 
+Benutzer von Media Portal können beim Exportieren von Dateien die Dateien neu formatieren und die ursprünglichen primären Dateien exportieren, sofern Sie ihnen die entsprechenden Berechtigungen erteilen. Als Administrator entscheiden Sie, wie Benutzer Dateien exportieren können. 
 
 Siehe [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 

@@ -2,7 +2,7 @@
 title: Konfigurieren von Adobe Analytics-Berichten
 description: Erfahren Sie, wie Sie Adobe Analytics-Berichte in Adobe Dynamic Media Classic konfigurieren.
 uuid: bf210f68-dcb0-4e86-be04-0a8b2117ef2a
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,50 +10,50 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 30%
+source-wordcount: '1231'
+ht-degree: 27%
 
 ---
 
 # Konfigurieren von Adobe Analytics-Berichten{#configuring-adobe-analytics-reports}
 
-Um in Adobe Analytics festzulegen, welche Informationen in Adobe Analytics-Berichten enthalten sein sollen, rufen Sie den Anzeigebereich „Adobe Analytics-Konfiguration“ auf. Nachdem Sie Berichte konfiguriert haben, werden auf diesem Bildschirm für jedes Viewer-Ereignis, über das Sie Informationen erhalten möchten, eine entsprechende Adobe Analytics-Variable und die Dynamic Media Classic-Variable der Adobe aufgelistet. Diese Viewer-Ereignisse - Adobe Analytics-Variablenkombinationen Dynamic Media Classic-Adoben bestimmen, welche Informationen gemeldet werden.
+Um Adobe Analytics mitzuteilen, welche Informationen Sie in Adobe Analytics-Berichten erhalten möchten, rufen Sie den Bildschirm Adobe Analytics-Konfiguration auf. Nachdem Sie Berichte konfiguriert haben, werden in diesem Bildschirm für jedes Viewer-Ereignis, über das Informationen gewünscht werden, eine entsprechende Adobe Analytics-Variable und Adobe Dynamic Media Classic-Variable aufgelistet. Diese Viewer-Ereignisse - Variablenkombinationen Adobe Analytics und Adobe Dynamic Media Classic bestimmen, welche Informationen gemeldet werden.
 
 Neben der Zuordnung von Viewer-Ereignissen zu Variablen bietet der Bildschirm &quot;Adobe Analytics-Konfiguration&quot;Tools zum Aktivieren, Bearbeiten und Löschen von Viewer-Ereignissen.
 
 >[!NOTE]
 >
->Wenn Sie die Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, müssen Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, die Adobe Analytics-Konfigurationseinstellungen erneut speichern und dann erneut veröffentlichen.
+>Wenn Sie die Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, stellen Sie sicher, dass Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen speichern und dann erneut veröffentlichen.
 
 Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Siehe [Veröffentlichungskonfigurationsinformationen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Siehe [Konfigurationsinformationen veröffentlichen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 ## Zuweisen von Adobe Analytics-Variablen zu Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
-Verknüpfen Sie im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;Viewer-Ereignisse mit Adobe Analytics-Variablen und Adobe Dynamic Media Classic-Variablen. Wählen Sie für jedes Viewer-Ereignis eine Adobe Analytics-Variable und eine Dynamic Media Classic-Adobe aus. Anweisungen zum Öffnen des Anzeigebereichs „Adobe Analytics-Konfiguration“ finden Sie unter [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
+Verknüpfen Sie im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;Viewer-Ereignisse mit Adobe Analytics-Variablen und Adobe Dynamic Media Classic-Variablen. Wählen Sie für jedes Viewer-Ereignis eine Adobe Analytics-Variable und eine Adobe Dynamic Media Classic-Variable aus. Anweisungen zum Öffnen des Anzeigebereichs „Adobe Analytics-Konfiguration“ finden Sie unter [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-**So weisen Sie Adobe Analytics-Variablen Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen zu:**
+**So weisen Sie Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen Adobe Analytics-Variablen zu:**
 
-1. Nachdem Sie sich von Adobe Dynamic Media Classic aus bei Adobe Analytics angemeldet und eine Report Suite ausgewählt haben, aktivieren Sie auf der Seite &quot;Adobe Analytics-Konfiguration&quot;in der rechten Tabellenspalte ein Viewer-Ereignis, indem Sie **[!UICONTROL Aktivieren]** auswählen.
+1. Nachdem Sie sich von Adobe Dynamic Media Classic aus bei Adobe Analytics angemeldet und eine Report Suite ausgewählt haben, aktivieren Sie auf der Seite &quot;Adobe Analytics-Konfiguration&quot;in der rechten Tabellenspalte ein Viewer-Ereignis, indem Sie **[!UICONTROL Aktivieren]**.
 1. Zeigen Sie unter der Spalte Variablen die Variablenpaarauswahl an, indem Sie die Pfeilschaltfläche für das gewünschte Viewer-Ereignis auswählen.
 
    Siehe [Viewer-Ereignisse](configuring-analytics-reports.md#viewer_events).
 
-1. Fügen Sie eine Adobe Dynamic Media Classic -Variable hinzu.
+1. Fügen Sie eine Adobe Dynamic Media Classic-Variable hinzu.
 
    Siehe [Adobe Dynamic Media Classic-Variablen](configuring-analytics-reports.md#scene7_variables).
 
 1. Fügen Sie eine Adobe Analytics-Variable hinzu.
-1. (Optional) Um ein weiteres Variablenpaar hinzuzufügen, wählen Sie **[!UICONTROL Hinzufügen]** aus.
-1. Wählen Sie **[!UICONTROL Save]** aus.
+1. (Optional) Um ein weiteres Variablenpaar hinzuzufügen, wählen Sie **[!UICONTROL Hinzufügen]**.
+1. Auswählen **[!UICONTROL Speichern]**.
 
-   Nachdem Sie **[!UICONTROL Save]** ausgewählt haben, werden das Viewer-Ereignis, die zugehörige Adobe Analytics-Variable und die zugehörige Dynamic Media Classic-Variable &quot;Adobe&quot;im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;aufgelistet.
+   Nachdem Sie **[!UICONTROL Speichern]**, werden das Viewer-Ereignis, die zugehörige Adobe Analytics-Variable und die Adobe Dynamic Media Classic-Variable im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;aufgeführt.
 
-1. Wählen Sie in der rechten unteren Ecke **[!UICONTROL Close]** aus.
-1. Gehen Sie zu **[!UICONTROL Publish]** > **[!UICONTROL Submit Publish]** , um eine Image Serving-Veröffentlichung auszuführen.
+1. Wählen Sie in der rechten unteren Ecke die Option **[!UICONTROL Schließen]**.
+1. Navigieren Sie zu **[!UICONTROL Veröffentlichen]** > **[!UICONTROL Veröffentlichung übermitteln]** , um eine Image Serving-Veröffentlichung auszuführen.
 
    Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf den Adobe Dynamic Media Classic-Servern verfügbar sind.
 
@@ -61,7 +61,7 @@ Verknüpfen Sie im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;Viewer-Er
 
 Viewer-Ereignisse beschreiben Aktionen, die Benutzer mit Adobe Dynamic Media Classic-Viewern ausführen. Wenn ein Benutzer eine bestimmte Aktion auslöst, z. B. eine Miniaturansicht auszuwählen oder ein Video zu starten oder zu stoppen, &quot;sendet&quot;der Viewer ein Ereignis zusammen mit den mit diesem Ereignis verknüpften Daten an die Webseite.
 
-In der folgenden Tabelle werden Viewer-Ereignisse beschrieben, die Sie dem Anzeigebereich „Adobe Analytics-Konfiguration“ hinzufügen können.
+In der folgenden Tabelle werden Viewer-Ereignisse beschrieben, die Sie dem Bildschirm &quot;Adobe Analytics-Konfiguration&quot;hinzufügen können.
 
 | Viewer-Ereignis | Unterstützung und Viewer für die HTML5 Viewer-Plattform | Beschreibung |
 | --- | --- | --- |
@@ -73,8 +73,8 @@ In der folgenden Tabelle werden Viewer-Ereignisse beschrieben, die Sie dem Anzei
 | TARGET |  | Wenn ein Benutzer in zielgerichteten Zoom-Viewern ein Zoomziel auswählt, um einen Teil eines Bildes zu vergrößern. |
 | SEARCH |  | Wenn ein Benutzer in E-Katalogen eine Wortsuche durchführt |
 | PLAY | **X** (Video) | Wenn ein Benutzer in Video-Viewern Play auswählt, um mit der Wiedergabe eines Videos zu beginnen.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
-| PAUSE | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Pause]** auswählt, um ein Video einzufrieren.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
-| STOP | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Stopp]** auswählt, um die Wiedergabe eines Videos zu beenden.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
+| PAUSE | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Anhalten]** um ein Video einzufrieren.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
+| STOP | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Anhalten]** , um die Wiedergabe eines Videos zu beenden.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
 | MILESTONE | **X**  (Video) | In Video-Viewern werden Meilensteinereignisse generiert, wenn der Benutzer jeweils 0, 25, 50, 75 oder 100 Prozent des Videos gesehen hat.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
 | SWATCH | **X** (Flyout, Zoom) | Dieses Viewer-Ereignis wird dem SEITEN-Viewer-Ereignis in Adobe Dynamic Media Classic zugeordnet. |
 | ZOOM | **X** (E-Katalog, Rotationsset, Zoom) | Wird nicht von Adobe Analytics verfolgt. |
@@ -83,13 +83,13 @@ In der folgenden Tabelle werden Viewer-Ereignisse beschrieben, die Sie dem Anzei
 
 ### Adobe Dynamic Media Classic-Variablen {#scene-variables}
 
-Wählen Sie für jedes Viewer-Ereignis auf dem Bildschirm &quot;Adobe Analytics-Konfiguration&quot;eine Adobe Analytics-Variable und eine *Adobe Dynamic Media Classic-Variable*. Adobe Dynamic Media Classic -Variablen stellen Daten dar, die Sie für einen Bericht abrufen können. Zum Beispiel listet die Variable `searchTerm` Schlüsselwörter auf, die in E-Katalog-Suchvorgängen verwendet wurden.
+Wählen Sie für jedes Viewer-Ereignis auf dem Bildschirm &quot;Adobe Analytics-Konfiguration&quot;eine Adobe Analytics-Variable und eine *Adobe Dynamic Media Classic-Variable*. Adobe Dynamic Media Classic-Variablen stellen Daten dar, die Sie für einen Bericht abrufen können. Zum Beispiel listet die Variable `searchTerm` Schlüsselwörter auf, die in E-Katalog-Suchvorgängen verwendet wurden.
 
-In der folgenden Tabelle wird die Adobe Dynamic Media Classic -Variablen beschrieben:
+In der folgenden Tabelle werden Adobe Dynamic Media Classic-Variablen beschrieben:
 
 | Adobe Dynamic Media Classic-Variable | Beschreibung |
 | --- | --- |
-| asset | Adobe Dynamic Media Classic Asset-ID oder Videopfaddatei. |
+| asset | Adobe Dynamic Media Classic-Asset-ID oder Videopfaddatei. |
 | viewerId | Eine beliebige Zahl, die den verschiedenen Viewertypen zugeordnet wird. |
 | pageLabel | Die Seite, die von einem Viewer in E-Katalogen angezeigt wird. |
 | label | Der Beschriftungswert (eine Zeichenfolge). |
@@ -105,8 +105,8 @@ In der folgenden Tabelle wird die Adobe Dynamic Media Classic -Variablen beschri
 
 Im Anzeigebereich „Adobe Analytics-Konfiguration“ können Sie Viewer-Ereignisse aktivieren, bearbeiten und löschen:
 
-* **Aktivieren**  - Wählen Sie  **** Aktivieren , um ein ausgewähltes Viewer-Ereignis zu aktivieren oder zu  **** deaktivieren.
+* **Aktivieren** - Auswählen **[!UICONTROL Aktivieren]** aktivieren oder **[!UICONTROL Deaktivieren]** , um ein ausgewähltes Viewer-Ereignis zu deaktivieren.
 
-* **Bearbeiten**  - Wählen Sie ein Viewer-Ereignis aus und klicken Sie auf die grau  **[!UICONTROL Ansicht/]** BearbeitenVariablen . Wählen Sie in den Dropdownlisten Adobe Dynamic Media Classic Variable und Adobe Analytics-Variable eine andere Variable aus den jeweiligen Listen aus. Weitere Informationen finden Sie unter [Zuweisen von Adobe Analytics-Variablen zu Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Bearbeiten** - Wählen Sie ein Viewer-Ereignis aus und wählen Sie **[!UICONTROL Anzeigen/Bearbeiten]** Variablengrauschaltfläche. Wählen Sie in den Dropdownlisten Adobe Dynamic Media Classic-Variable und Adobe Analytics-Variable eine andere Variable aus den jeweiligen Listen aus. Weitere Informationen finden Sie unter [Zuweisen von Adobe Analytics-Variablen zu Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Löschen**  - Wählen Sie ein Viewer-Ereignis aus und klicken Sie auf die grau  **[!UICONTROL Ansicht/]** Bearbeitung der Variablen . Wählen Sie **[!UICONTROL Löschen]** aus.
+* **Löschen** - Wählen Sie ein Viewer-Ereignis aus und wählen Sie **[!UICONTROL Anzeigen/Bearbeiten]** Variablengrauschaltfläche. Auswählen **[!UICONTROL Löschen]**.

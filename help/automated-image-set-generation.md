@@ -1,8 +1,8 @@
 ---
 title: Automatisierte Bildsatzerstellung
-description: 'Erfahren Sie, wie Sie die Erstellung von Bildsets in Adobe Dynamic Media Classic automatisieren. '
+description: Erfahren Sie, wie Sie die Erstellung von Bildsets in Adobe Dynamic Media Classic automatisieren.
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
@@ -10,7 +10,7 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 66%
@@ -33,11 +33,11 @@ Sie können die Bildsatzerstellung als unabhängigen Auftrag automatisieren, der
 
 **So automatisieren Sie einen Bildsatz:**
 
-1. Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Erstellen Sie einen Satz]**.
+1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Satz generieren]**.
 1. Geben Sie im Dialogfeld „Erstellen eines Sets“ einen Auftragsnamen an.
 
    Standardmäßig wird dem Auftrag ein Name zugewiesen, aus dem hervorgeht, dass es sich um einen generierten Auftrag handelt und wann der Auftrag generiert wurde.
 
 1. Wählen Sie die anzuwendende Voreinstellung aus.
-1. Wählen Sie **[!UICONTROL Zielordner]** und geben Sie dann den Ordner an, den Sie verwenden möchten.
-1. Wählen Sie **[!UICONTROL Submit]** aus.
+1. Auswählen **[!UICONTROL Zielordner]** und geben Sie dann den Ordner an, den Sie verwenden möchten.
+1. Auswählen **[!UICONTROL Einsenden]**.

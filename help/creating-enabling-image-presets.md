@@ -2,7 +2,7 @@
 title: Erstellen und Aktivieren von Bildvorgaben
 description: Erfahren Sie, wie Sie Bildvorgaben in Adobe Dynamic Media Classic erstellen und aktivieren.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 78%
+ht-degree: 72%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 78%
 
 Wenn Benutzer Bildassets aus Media Portal exportieren, können sie im Dialogfeld „Ausgewählte Assets exportieren“ eine Bildvorgabe auswählen. Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen, mit denen Größe, Qualität, Format, Auflösung und andere Darstellungsaspekte für ein Bild beim Exportieren festgelegt werden.
 
-Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Bildvorgaben formatieren Bilder entsprechend den Spezifikationen Ihres Unternehmens neu, wenn Benutzer Bilder aus der Adobe Dynamic Media Classic exportieren. Benutzer müssen Bilder also nicht selbst neu formatieren, sondern können sie entsprechend den präzisen Einstellungen einer Bildvorgabe exportieren.
+Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Bildvorgaben formatieren Bilder gemäß den Spezifikationen Ihres Unternehmens neu, wenn Benutzer Bilder aus der Adobe Dynamic Media Classic exportieren. Benutzer müssen Bilder also nicht selbst neu formatieren, sondern können sie entsprechend den präzisen Einstellungen einer Bildvorgabe exportieren.
 
 Die folgenden Einschränkungen gelten, wenn Sie Bild-Assets exportieren:
 
@@ -31,7 +31,7 @@ Die folgenden Einschränkungen gelten, wenn Sie Bild-Assets exportieren:
 
 >[!NOTE]
 >
->Diese Einschränkungen gelten nur für den Export von abgeleiteten Bild-Assets, nicht für den Export von Masterdateien.
+>Diese Einschränkungen gelten nur für den Export von abgeleiteten Bild-Assets, nicht für den Export von Primärdateien.
 
 Hinweise zum Erstellen von Bildvorgaben finden Sie unter [Bildvorgaben](application-setup.md#image_presets).
 

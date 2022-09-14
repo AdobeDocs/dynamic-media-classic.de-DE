@@ -1,8 +1,8 @@
 ---
-title: '"Schnellstart: eCatalog"'
+title: "Schnellstart: eCatalog"
 description: Eine Einführung in und ein Schnellstart für E-Kataloge, die Ihnen helfen, in Adobe Dynamic Media Classic schnell mit E-Katalog-Techniken umzugehen.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 36%
+source-wordcount: '1559'
+ht-degree: 35%
 
 ---
 
@@ -56,7 +56,7 @@ Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in de
 >
 >Sie können jetzt E-Kataloge in Adobe Dynamic Media Classic erstellen.
 
-Diese Kurzanleitung für die Erstellung eines E-Katalogs hilft Ihnen, sich schnell mit den E-Katalogfunktionen vertraut zu machen. Führen Sie die Schritte 1 bis 7 aus. Nach jedem Schritt wird auf ein Thema mit weiteren Informationen verwiesen.
+Diese Kurzanleitung für die Erstellung eines E-Katalogs hilft Ihnen, sich schnell mit den E-Katalogfunktionen vertraut zu machen. Führen Sie die Schritte 1 bis 7 aus. Nach jedem Schritt gibt es einen Querverweis zu einer Themenüberschrift, in der Sie weitere Informationen finden können.
 
 ## 1. Hochladen der PDF-Dateien
 

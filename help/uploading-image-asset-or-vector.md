@@ -1,13 +1,13 @@
 ---
 title: Hochladen eines Rasterbild-Assets
-description: Erfahren Sie, wie Sie ein Rasterbild-Asset in Adobe Dynamic Media Classic hochladen.
-contentOwner: admin
+description: Erfahren Sie, wie Sie ein Rasterbild-Asset in Adobe Dynamic Media Classic hochladen
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 69%
@@ -24,7 +24,7 @@ Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsa
 
 ## Anfordern eines gemeinsamen geheimen Schlüssels {#requesting-a-shared-secret-key}
 
-Fordern Sie einen *Shared-Secret-Schlüssel* von [unter Verwendung der Admin Console an, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um einen gemeinsam genutzten geheimen Schlüssel.
+Anfordern einer *shared-secret key* von [Verwenden der Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um einen gemeinsam genutzten geheimen Schlüssel.
 
 Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Adobe Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
@@ -35,7 +35,7 @@ Das *Upload-Token* stellt sicher, dass niemand denselben gemeinsamen geheimen Sc
 Das Upload-Token besteht aus einer alphanumerischen Zeichenfolge, die nur für eine begrenzte Zeitspanne gültig ist. Verwenden Sie die folgenden URLs und ersetzen Sie den gemeinsam genutzten geheimen Schlüssel, damit Sie das Upload-Token abrufen können.
 
 * Rasterbild
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In diesem Beispiel lautet der gemeinsame geheime Schlüssel  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In diesem Beispiel lautet der gemeinsame geheime Schlüssel `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -86,7 +86,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upl
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **Zulässige HTTP-Methoden:**
-`GET` und  `POST`
+`GET` und `POST`
 
 Sie können nun ein Bild-Asset hochladen.
 
@@ -100,7 +100,7 @@ Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne g�
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Die Felder `upload_token` und `company_name` sind erforderlich.
+Die `upload_token` und `company_name` -Felder erforderlich sind.
 
 Siehe [Upload-Token abrufen](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -112,7 +112,7 @@ Sie können auch andere optionale Werte als URL-Anfragezeichenfolgen senden, wie
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Der Parameter `file_limit` gibt die Dateigrößenbeschränkung in Byte an. Der Parameter `file_exts` gibt die für das Hochladen zulässigen Erweiterungen des Dateinamens an. Diese beiden Werte sind optional.
+Die `file_limit` gibt die maximale Dateigröße in Byte an. Der Parameter `file_exts` gibt die für das Hochladen zulässigen Erweiterungen des Dateinamens an. Diese beiden Werte sind optional.
 
 In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei der von Ihnen gesendeten Anforderung um eine Untergruppe der globalen Beschränkungen handelt, wird diese berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
@@ -129,14 +129,14 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
 * Gibt an, ob Hintergrund aussparen verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
-Siehe &quot;Hintergrund aussparen&quot;in [Optionen zur Bild-Feinabstimmung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+Siehe Hintergrund aussparen in [Bildoptimierungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei.
 
-Sie können den HTML-Quellcode, der mit dem obigen Formular verknüpft ist, anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) auswählen.
+Sie können den mit dem obigen Formular verknüpften HTML-Quellcode anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie dann **[!UICONTROL Seitenquelle anzeigen]** aus. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie **[!UICONTROL Seitenquelle anzeigen]**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
 
-Um die XML-Antwort in Internet Explorer anzuzeigen, gehen Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Quelle]**. Um die XML-Antwort in Firefox anzuzeigen, gehen Sie zu **[!UICONTROL Tools]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Web-Entwicklertools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort in Internet Explorer anzuzeigen, navigieren Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Quelle]**. Um die XML-Antwort in Firefox anzuzeigen, navigieren Sie zu **[!UICONTROL Instrumente]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Web Developer Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
