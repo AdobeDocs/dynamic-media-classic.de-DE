@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 04dde89c9dddac51c03367a8b2bec5ccb324a10c
+source-git-commit: 35ae9a73c6dc662d8902de423a51c04db54fe4e5
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
@@ -28,13 +28,13 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung hochladen, empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen um:
 
-| Asset - Limit-Typ | Optimale Vorgehensweise | Begrenzung auferlegt | Änderung der Beschränkung am 31. Dezember 2022 |
-| --- | --- | --- | --- |
-| **Bild** - Anzahl der smarten Zuschnitte pro Bild | 5 | 100 | Nicht anwendbar |
-| **Alle Sets** - Anzahl doppelter Assets pro Satz | Keine Duplikate | 20 | Nicht anwendbar |
-| **Alle Sets** - Maximale Anzahl von Assets pro Satz | 5 - 10 Bilder pro Set | 1000 | Nicht anwendbar |
-| **Rotationsset** - Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 | Nicht anwendbar |
-| **PDF** - Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 5000 (für neue Uploads) | 100 (für alle PDF) |
+| Asset - Limit-Typ | Optimale Vorgehensweise | Begrenzung auferlegt |
+| --- | --- | --- |
+| **Bild** - Anzahl der smarten Zuschnitte pro Bild | 5 | 100 |
+| **Alle Sets** - Anzahl doppelter Assets pro Satz | Keine Duplikate | 20 |
+| **Alle Sets** - Maximale Anzahl von Assets pro Satz | 5 - 10 Bilder pro Set | 1000 |
+| **Rotationsset** - Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
+| **PDF** - Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 100 (für alle PDF) |
 
 <!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
 
