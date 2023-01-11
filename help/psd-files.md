@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 25%
 
 ---
@@ -34,12 +34,12 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 * **Optionen zum Zuschneiden** - Untergebracht unter **[!UICONTROL Optionen zum Zuschneiden]**. Auswählen **[!UICONTROL Zuschneiden]** automatisch den Leerraum von den Kanten einer PSD-Datei abschneiden; select **[!UICONTROL Manuell]** zum Zuschneiden der Seiten der PSD-Datei:
 
    * **[!UICONTROL Zuschneiden]** - Wählen Sie die **[!UICONTROL Entfernen basierend auf]** und wählen Sie **[!UICONTROL Farbe]** oder **[!UICONTROL Transparenz]**.
+   Wenn Sie die **[!UICONTROL Farbe]** Wählen Sie das Menü Ecke aus und wählen Sie die Ecke des PSD mit der Farbe aus, die am besten für die gewünschte Leerraum-Farbe steht.
 
-      Wenn Sie die **[!UICONTROL Farbe]** Wählen Sie das Menü Ecke aus und wählen Sie die Ecke des PSD mit der Farbe aus, die am besten für die gewünschte Leerraum-Farbe steht.
-
-      Ziehen Sie den Regler, um eine Toleranz von 0 bis 1 anzugeben. Wenn Sie beim Beschneiden basierend auf Farbe den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke der PSD-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Um das Beschneiden auf der Grundlage der Transparenz vorzunehmen, geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
+   Ziehen Sie den Regler, um eine Toleranz von 0 bis 1 anzugeben. Wenn Sie beim Beschneiden basierend auf Farbe den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke der PSD-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Um das Beschneiden auf der Grundlage der Transparenz vorzunehmen, geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
 
    * **[!UICONTROL Manuell]** - Geben Sie die Anzahl der Pixel ein, die von einer beliebigen Seite oder jeder Seite des Bildes abgeschnitten werden sollen. Wie viel vom Bild abgeschnitten wird, hängt von der ppi-Einstellung (Pixel pro Zoll) in der Bilddatei ab. Wenn das Bild beispielsweise 150 ppi aufweist und Sie in die Textfelder oben, rechts, unten und links den Wert 75 eingeben, sind es 0,5 Zoll. von jeder Bildseite abgeschnitten wird.
+
 
 * **Farbprofiloptionen** - Untergebracht unter **[!UICONTROL Farbprofiloptionen]**.
 
@@ -72,6 +72,10 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 ## Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei {#viewing-and-editing-layers-in-a-psd-file}
 
 Wenn Sie beim Hochladen der PSD die Option Ebenen beibehalten ausgewählt haben, hat Adobe Dynamic Media Classic die einzelnen Ebenen in Assets gerippt. Sie können die zu einer PSD-Datei gehörigen Asset-Ebenen anzeigen und bearbeiten, indem Sie sie im Durchsuchenbedienfeld in der Detailansicht öffnen.
+
+>[!NOTE]
+>
+>Adobe Dynamic Media Classic unterstützt bis zu fünf Ebenen in einer verschachtelten Ebenengruppe.
 
 1. Doppelklicken Sie im Durchsuchenbedienfeld auf die vollständige PSD-Datei. Die Datei wird in der Detailansicht geöffnet.
 
