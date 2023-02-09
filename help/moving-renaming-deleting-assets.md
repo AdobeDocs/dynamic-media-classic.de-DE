@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 33%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,8 @@ Sie können Assets über das Durchsuchenbedienfeld verschieben, umbenennen und l
 
 Sie können Assets über das Durchsuchenbedienfeld in andere Ordner verschieben.
 
+**So verschieben Sie Assets:**
+
 1. Wählen Sie im Durchsuchenbedienfeld die gewünschten Assets aus und führen Sie dann einen der folgenden Schritte durch:
 
    * Zeigen Sie den Ordner an, in den Sie die Assets verschieben möchten, und ziehen Sie die Assets in den Ordner.
@@ -32,12 +34,10 @@ Sie können Assets über das Durchsuchenbedienfeld in andere Ordner verschieben.
 
 ## Umbenennen von Assets {#rename-assets}
 
-1. Wählen Sie im Durchsuchenbedienfeld das Asset aus und führen Sie dann einen der folgenden Schritte durch:
+1. Wählen Sie das Asset im Durchsuchenbedienfeld aus und führen Sie einen der folgenden Schritte aus:
 
    * Wählen Sie den Namen aus, geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL Eingabe]** oder wählen Sie weg vom Namen aus.
-   * Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Umbenennen]**. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL Eingabe]**.
-
-Vergewissern Sie sich, dass Sie den Namen eines vorhandenen Adobe Dynamic Media Classic-Assets nicht eingeben.
+   * Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Umbenennen]**. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL Eingabe]**. Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen Adobe Dynamic Media Classic-Assets eingeben.
 
 ## Löschen von Assets {#delete-assets}
 
@@ -45,9 +45,13 @@ Sie können ausgewählte Assets im Durchsuchenbedienfeld löschen und ganze Ordn
 
 Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelöscht. Beim Löschen eines Bildes, für das Sie Zoomziele erstellt haben, werden beispielsweise auch die Zoomziele gelöscht.
 
->[!NOTE]
+Zoomziele, Bildattribute und Verlaufseinträge werden endgültig gelöscht, wenn Sie die zugehörigen Assets löschen. Die Elemente werden nicht zusammen mit den Assets in den Ordner „Papierkorb“ verschoben, sie können daher auch nicht wiederhergestellt werden.
+
+>[!IMPORTANT]
 >
->Zoomziele, Bildattribute und Verlaufseinträge werden endgültig gelöscht, wenn Sie die zugehörigen Assets löschen. Die Elemente werden nicht zusammen mit den Assets in den Ordner „Papierkorb“ verschoben, sie können daher auch nicht wiederhergestellt werden.
+>Die Massenlöschung ist ein intensiver Vorgang. Stellen Sie sicher, dass Sie Massenlöschungen sequenziell anstatt als gleichzeitige, schwere Löschvorgänge ausführen. Adobe empfiehlt, die Löschvorgänge auf 5000 oder weniger Asset-Löschungen pro Stunde zu beschränken. Eine Zahl über 5000 pro Stunde kann zu einer Ratenbegrenzung führen.
+
+**So löschen Sie Assets:**
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -56,9 +60,7 @@ Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelösch
 
       Beim Löschen eines Ordners werden der Ordner, alle Assets im Ordner und alle Assets in den zugehörigen Unterordnern gelöscht.
 
->[!NOTE]
->
->Adobe Dynamic Media Classic empfiehlt, Asset-Dateien zu überschreiben, anstatt sie zu löschen, wenn der Grund für das Löschen einer Asset-Datei darin besteht, sie durch andere Dateien mit demselben Namen zu ersetzen.
+Adobe Dynamic Media Classic empfiehlt, Asset-Dateien zu überschreiben, anstatt sie zu löschen, wenn der Grund für das Löschen einer Asset-Datei darin besteht, sie durch andere Dateien mit demselben Namen zu ersetzen.
 
 ## Löschen mehrerer Assets mithilfe einer Textdatei {#delete-multiple-assets-with-a-text-file}
 
