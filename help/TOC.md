@@ -2,29 +2,29 @@
 cloud: Experience Cloud
 product: adobe dynamic media classic
 audience: end-user
-user-guide-title: Handbuch zu Adobe Dynamic Media Classic
-breadcrumb-title: Handbuch zu Dynamic Media Classic
+user-guide-title: Adobe Dynamic Media Classic-Handbuch
+breadcrumb-title: Dynamic Media Classic-Handbuch
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic
 index: y
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 779f152007ee7ec797c3206765c1d103e384962e
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 29%
+ht-degree: 25%
 
 ---
 
 
-# Handbuch zu Adobe Dynamic Media Classic {#using}
+# Adobe Dynamic Media Classic-Handbuch {#using}
 
-+ [Handbuch zu Adobe Dynamic Media Classic](home.md)
-+ [Tutorial zu Best Practices für Adobe Dynamic Media Class](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Adobe Dynamic Media Classic-Handbuch](home.md)
++ [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NEUES Adobe Dynamic Media Classic-Anmeldeerlebnis jetzt verfügbar](new-ui-2020.md)
 + [Adobe Dynamic Media-Newsletter-Archiv nach Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic Desktop App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
    + [Informationen zur Adobe Dynamic Media Classic-Hilfe](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
-   + [Neuerungen](whats-new.md)
+   + [Neue Funktionen](whats-new.md)
    + [Systemanforderungen für das Adobe Dynamic Media Classic-Desktop-Programm](system-requirements.md)
    + [Technischer Support](support.md)
    + [Hilfe für Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
@@ -101,7 +101,7 @@ ht-degree: 29%
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
    + [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md)
    + [E-Katalog mit einer Webseite verknüpfen](linking-ecatalog-web-page.md)
-+ Bildsets {#image-sets}
++ Bildsätze {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
    + [Vorbereiten von Bildset-Assets für das Hochladen](preparing-image-set-assets-upload.md)
    + [Erstellen eines Bildsatzes](creating-image-set.md)
