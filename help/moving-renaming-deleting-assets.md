@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -34,7 +34,7 @@ Sie können Assets über das Durchsuchenbedienfeld in andere Ordner verschieben.
 
 ## Umbenennen von Assets {#rename-assets}
 
-1. Wählen Sie das Asset im Durchsuchenbedienfeld aus und führen Sie einen der folgenden Schritte aus:
+1. Wählen Sie im Durchsuchenbedienfeld das Asset aus und führen Sie dann einen der folgenden Schritte durch:
 
    * Wählen Sie den Namen aus, geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL Eingabe]** oder wählen Sie weg vom Namen aus.
    * Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Umbenennen]**. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL Eingabe]**. Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen Adobe Dynamic Media Classic-Assets eingeben.
@@ -49,7 +49,7 @@ Zoomziele, Bildattribute und Verlaufseinträge werden endgültig gelöscht, wenn
 
 >[!IMPORTANT]
 >
->Die Massenlöschung ist ein intensiver Vorgang. Stellen Sie sicher, dass Sie Massenlöschungen sequenziell anstatt als gleichzeitige, schwere Löschvorgänge ausführen. Adobe empfiehlt, die Löschvorgänge auf 5000 oder weniger Asset-Löschungen pro Stunde zu beschränken. Eine Zahl über 5000 pro Stunde kann zu einer Ratenbegrenzung führen.
+>Die Massenlöschung ist ein intensiver Vorgang. Stellen Sie sicher, dass Sie Massenlöschungen sequenziell anstatt als gleichzeitige, schwere Löschvorgänge ausführen. Adobe empfiehlt, die Löschvorgänge auf 5000 oder weniger Asset-Löschungen pro Stunde zu beschränken. Jede Zahl, die größer als 5.000 pro Stunde ist, kann zu einer Ratenbegrenzung führen.
 
 **So löschen Sie Assets:**
 
