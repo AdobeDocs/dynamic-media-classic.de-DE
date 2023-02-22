@@ -10,10 +10,10 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 532d4ec9515b561682678d3a0140096c8b3deae8
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ Administratoren können Bildvorgaben und Viewer-Vorgaben auch im **[!UICONTROL E
 
 * **Bildvorgaben** - Bildvorgaben sind gespeicherte Formate für die Anzeige von Primärbildern in unterschiedlichen Größen und Formaten.
 
-* **Viewer-Vorgaben** - Viewer-Vorgaben bestimmen, wie Rich-Media angezeigt werden, wenn sie in einem Viewer angezeigt werden.
+* **Viewer-Vorgaben** - Viewer-Vorgaben bestimmen, wie Rich Media angezeigt wird, wenn Sie es in einem Viewer sehen.
 
 >[!MORELIKETHIS]
 >
