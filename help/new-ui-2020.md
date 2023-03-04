@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Für die Verwendung des neuen Adobe Dynamic Media Classic-Desktop-Programms ist 
 +++
 
 +++**_Wie werden Upgrades zum Adobe Dynamic Media Classic-Desktop-Programm aktiviert?_**
-Nach der Veröffentlichung des Adobe Dynamic Media Classic-Desktop-Programms am 30. Juni 2020 müssen Kunden, die eine neue Adobe veröffentlichen, die neue Version herunterladen und wie gewohnt installieren (ersetzen Sie die vorhandene App in **[!UICONTROL Anwendungen]**). Sie werden über Ihr CSM (Customer Success Manager) und einen In-App-Benachrichtigungsmechanismus zur Aktualisierung über die neue Version benachrichtigt, die die Benutzer über eine Aktualisierung informiert.
+Nach der Veröffentlichung des Adobe Dynamic Media Classic-Desktop-Programms am 30. Juni 2020 müssen Kunden, die eine neue Adobe veröffentlichen, die neue Version herunterladen und wie gewohnt installieren (ersetzen Sie die vorhandene App in **[!UICONTROL Anwendungen]**). Sie werden über Ihr Adobe Account Team und einen In-App-Benachrichtigungsmechanismus zur Aktualisierung über die neue Version benachrichtigt, die die Benutzer über eine Aktualisierung informiert.
 +++
 
 +++**_Wie erhalte ich Hilfe bei Problemen mit dem Adobe Dynamic Media Classic-Desktop-Programm?_**

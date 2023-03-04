@@ -3,9 +3,9 @@ title: Aktualisierte FAQs
 description: Häufig gestellte Fragen (FAQ) beim Upgrade von [!DNL Adobe Dynamic Media Classic] Desktop-Applikation auf [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] Assets.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Aktuell [!DNL Dynamic Media Classic] (ehemals Scene7) Kunden, die auch [!DNL Exp
 +++
 
 +++**Wie starte ich den Upgrade-Prozess?**
-Wenden Sie sich an Ihren Adobe CSM-Support-Mitarbeiter (Customer Service Management) oder [email s7support@adobe.com](mailto:s7support@adobe.com) mit der Betreffzeile `[!DNL Dynamic Media] Upgrade Program`.
+Wenden Sie sich an Ihren Kundenbetreuer bei Adobe oder [email s7support@adobe.com](mailto:s7support@adobe.com) mit der Betreffzeile `[!DNL Dynamic Media] Upgrade Program`.
 
 +++
 
@@ -90,7 +90,7 @@ Die Zeit des Aktualisierungsprozesses hängt von verschiedenen Faktoren ab, unte
 +++
 
 +++**Gibt es einen Unterschied bei den Lizenzkosten?**
-Wenden Sie sich an Ihren Adobe CSM-Support-Mitarbeiter, um Informationen zu den Preisen zu erhalten.
+Wenden Sie sich an Ihren Kundenbetreuer für Adobe, um Informationen zu den Preisen zu erhalten.
 
 +++
 
@@ -195,7 +195,7 @@ Adobe führt eine automatisierte Validierung für alle Assets durch, die in [!DN
 +++
 
 +++**Gibt es eine SLA für [!DNL Dynamic Media]?**
-Ja. Weitere Informationen erhalten Sie von Ihrem Adobe-CSM-Support-Mitarbeiter.
+Ja. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer für Adoben.
 
 +++
 
@@ -251,7 +251,7 @@ Telefon: 1-800-898-9743 (USA) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japan
 +++**Wo erhalte ich weitere Informationen über bezahlte Schulungsmöglichkeiten?**
 Siehe [Adobe Digital Learning Services](https://learning.adobe.com).
 
-Wenden Sie sich für benutzerdefinierte oder individuelle Schulungen an Ihren Adobe CSM-Support-Mitarbeiter.
+Wenden Sie sich für benutzerdefinierte oder individuelle Schulungen an Ihren Kundenbetreuer bei der Adobe.
 
 +++
 
