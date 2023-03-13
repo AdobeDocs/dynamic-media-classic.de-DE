@@ -8,8 +8,8 @@ user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic M
 index: y
 source-git-commit: 51b32a874654cf2070b67c7473554d401a264051
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
