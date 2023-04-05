@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 69%
+source-wordcount: '1023'
+ht-degree: 67%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 69%
 Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsamen geheimen Schlüssel an. Mit diesem gemeinsamen geheimen Schlüssel können Sie ein Upload-Token abrufen. Anschließend verwenden Sie das Upload-Token, um Rasterbild-Assets hochzuladen.
 
 >[!IMPORTANT]
+>
+>Ab dem 1. Mai 2023 stehen UGC-Raster-Assets in Dynamic Media Classic bis zu 60 Tage ab dem Datum des Uploads zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
+
+>[!NOTE]
 >
 >Die Unterstützung für neue oder vorhandene UGC-Vektor-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
 

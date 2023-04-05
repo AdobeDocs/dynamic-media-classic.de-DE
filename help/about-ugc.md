@@ -9,21 +9,26 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 48%
+source-wordcount: '168'
+ht-degree: 35%
 
 ---
 
 # Über benutzergenerierte Inhalte in Adobe Dynamic Media Classic {#about-user-generated-content}
 
-Die Verwendung von benutzergenerierten Inhalten besteht darin, Assets in ein dediziertes Dynamic Media Classic-Speicher-Repository hochzuladen und zugehörige Vorgänge auszuführen.
+Die Verwendung von benutzergenerierten Inhalten besteht darin, Assets in ein dediziertes Adobe Dynamic Media Classic-Speicher-Repository hochzuladen und zugehörige Vorgänge auszuführen.
 
 UGC unterstützt Rasterbilddateiformate BMP, GIF, JPG, PNG, PSD, TIFF.
-<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
+>
+>Ab dem 1. Mai 2023 stehen UGC-Raster-Assets in Dynamic Media Classic bis zu 60 Tage ab dem Datum des Uploads zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
+
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
+
+>[!NOTE]
 >
 >Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
 
@@ -34,4 +39,4 @@ Wenn Sie einen gemeinsamen geheimen Schlüssel und ein Upload-Token erhalten hab
 * Hochladen eines Assets.
 * Abrufen von Asset-Metadaten für Bilder
 * Löschen eines hochgeladenen Assets. 
-* Abrufen von Informationen zur Speichernutzung eines Unternehmens. 
+* Erhalten Sie Informationen zur Festplattenspeicherplatznutzung eines Unternehmens.

@@ -1,5 +1,5 @@
 ---
-title: Löschen eines hochgeladenen Assets
+title: Löschen eines hochgeladenen Rasterbild-Assets
 description: Erfahren Sie, wie Sie ein hochgeladenes Asset in Adobe Dynamic Media Classic löschen.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 71%
+source-wordcount: '133'
+ht-degree: 51%
 
 ---
 
@@ -53,6 +53,10 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines As
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>Ab dem 1. Mai 2023 stehen UGC-Raster-Assets in Dynamic Media Classic bis zu 60 Tage ab dem Datum des Uploads zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
+
+>[!NOTE]
 >
 >Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
 
