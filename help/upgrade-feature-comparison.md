@@ -3,13 +3,13 @@ title: Funktionsvergleich
 description: Tabelle mit Funktionsvergleichen [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets und [!DNL Adobe Dynamic Media Classic] Desktop-Applikation.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 1b18fbc086fb6296aef8674d8471dd5b15a845c7
+exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
+source-git-commit: fa69e9df791597462db1bad9204c40896ea74020
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
-
 
 # Funktionsvergleich
 
@@ -38,8 +38,8 @@ Eine Tabelle zum Funktionsvergleich zwischen [!DNL Dynamic Media] in [!DNL Adobe
 | Videokodierung | ✓ | ✓ |
 | Zugänglichkeit des Viewers | ✓ | ✓ |
 | Viewer-Integration mit Analytics | ✓ | ✓ |
-| 1:1-Vorlagen | - | ✓ |
-| Visual Configurator<br>(Produktpersonalisierung) | - | ✓ |
+| 1:1-Vorlagen | ✓<br>*Personalisiertes Medienbundle* | ✓ |
+| Visual Configurator<br>(Produktpersonalisierung) | ✓<br>*Personalisiertes Medienbundle* | ✓ |
 | 3D - Experience Manager Sites<br>WCM-Komponente | ✓ | - |
 | 3D - Interaktiver Experience Viewer | ✓ | - |
 | 3D - Veröffentlichen von AR/VR- und 3D-Hauptdateien | ✓ | - |
