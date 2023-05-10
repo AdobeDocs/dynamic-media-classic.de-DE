@@ -4,7 +4,7 @@ description: Tabelle mit Funktionsvergleichen [!DNL Dynamic Media] in [!DNL Adob
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
-source-git-commit: 39dabb64c1c14422bf0dff234c01e6daad8ab0b5
+source-git-commit: 56efe781a1f4366f0c9d726332fd6633f50abc99
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Eine Tabelle zum Funktionsvergleich zwischen [!DNL Dynamic Media] in [!DNL Adobe
 | Interaktive Viewer | ✓ | ✓ |
 | Manifestdateien | ✓ | ✓ |
 | Media Portal | ✓<br>*Wird als &quot;Brand Portal&quot;bezeichnet* | ✓ |
-| Regelblätter | ✓ | ✓ |
+| Regelsätze | ✓ | ✓ |
 | Sichere Vorschau | ✓ | ✓ |
 | Sets (Bild, Rotation, gemischte Medien) | ✓<br>*Keine Multiachsen-Rotation* | ✓ |
 | Intelligente Bildbearbeitung | ✓ | ✓ |
