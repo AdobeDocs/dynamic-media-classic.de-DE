@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: f3082fc6b66cf0903bf6cb1907a8615a12399fdc
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 54%
+source-wordcount: '1569'
+ht-degree: 51%
 
 ---
 
@@ -22,6 +22,18 @@ Das Optimieren der Bildqualität kann ein sehr zeitaufwendiger Prozess sein, da 
 Adobe Dynamic Media Classic umfasst mehr als 100 Image-Serving-Befehle zum Optimieren und Optimieren von Bildern und zum Rendern von Ergebnissen. Die folgenden Richtlinien sollen Ihnen dabei helfen, den Vorgang zu optimieren und die gewünschten Ergebnisse schnell mit nur einigen wichtigen Befehle und empfohlenen Verfahren zu erzielen.
 
 Siehe auch [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+
+>[!TIP]
+>
+>Probieren Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung mithilfe von Dynamic Media aus. [_Momentaufnahme_](https://snapshot.scene7.com/).
+>
+> Snapshot ist ein visuelles Demonstrationswerkzeug, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, um die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell zu beobachten, und optimieren Sie die intelligente Bildbearbeitung für Folgendes:
+>* Dateigröße (mit WebP- und AVIF-Bereitstellung)
+>* Netzwerkbandbreite
+>* DSGVO (Gerätepixelverhältnis)
+>
+>Um zu erfahren, wie einfach es ist, Snapshot zu verwenden, spielen Sie die [Schulungsvideo zu Momentaufnahmen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 Minuten und 17 Sekunden).
+
 
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -67,7 +79,7 @@ Es gibt zwei Methoden zum Scharfzeichnen von Bildern, die Sie verwenden können:
 
       * `threshold` (0-255, Empfindlichkeit der Wirkung.)
 
-         Dieser Parameter bestimmt, wie stark sich die scharfgezeichneten Pixel vom umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel betrachtet werden, und der Filter schärft sie. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um kein „Rauschen“ zu erzeugen, trotzdem wird kontrastreichen Bereichen, z. B. wo Wimpern auf die Haut treffen, Kantenkontrast hinzugefügt.
+         Dieser Parameter legt fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und vom Filter scharfgezeichnet werden. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Beispiel: Bei einem Schwellenwert von 12 werden leichte Variationen der Hauttonhelligkeit ignoriert, um kein Rauschen hinzuzufügen, aber dennoch wird kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) ein Kantenkontrast hinzugefügt.
 
          Weitere Informationen zum Festlegen dieser drei Parameter, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf dem Image-Server](/help/assets/s7_sharpening_images.pdf).
 
