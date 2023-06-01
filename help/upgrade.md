@@ -3,13 +3,13 @@ title: Upgrade von Adobe [!DNL Dynamic Media Classic] nach [!DNL Dynamic Media] 
 description: Upgrade von [!DNL Adobe Dynamic Media Classic] nach [!DNL Dynamic Media] on [!DNL Adobe Experience Manager]. Erfahren Sie mehr über die wichtigsten Vorteile und Funktionen von [!DNL Dynamic Media]. Überprüfen Sie den Vergleich der Funktionsliste, die häufig gestellten Fragen zur Aktualisierung und die Checkliste zur Bereitschaft.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
-
 
 # Warum aktualisieren Sie auf [!DNL Dynamic Media]?
 
@@ -25,7 +25,7 @@ Die neue [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] basiert auf den
 | Einfache Bearbeitung | Schnelles Erstellen, Anpassen und Starten umfangreicher Erlebnisse ohne technische Hilfe |
 | Intuitive Benutzeroberfläche | Bearbeiten Sie Bild-Viewer und Videoplayer mit einer einfach zu bedienenden WYSIWYG-Oberfläche (What You See It What You Get). |
 | Shoppable Media | Erstellen Sie Bilder, Videos und Karussells mit Shopping-Funktion und Bild-Hotspots und anklickbaren Links. |
-| Skalierbare CDN | Greifen Sie auf das erstklassige Content Delivery Network (CDN) mit bewährter Skalierung und Leistung zu, um jede Anforderung zu erfüllen. |
+| Skalierbares CDN (Content Delivery Network) | Greifen Sie auf das erstklassige CDN mit bewährter Skalierung und Leistung zu, um jede Nachfrage zu decken. |
 | Dynamic Imaging | Mithilfe einer Primärdatei können Sie unbegrenzte Versionen automatisch generieren und veröffentlichen, Größe, Format, Auflösung, Zuschneiden oder Effekt ändern. |
 | Dynamisches Video | Videos in voller Größe werden für alle Bildschirme automatisch skaliert und adaptiv gestreamt, um ein konsistentes und hochwertiges Benutzererlebnis zu gewährleisten. |
 | Personalisierung | Einfaches Erstellen und Veröffentlichen [!DNL Dynamic Media] interaktive Erlebnisse wie Produktkonfiguratoren, personalisierte Banner und E-Mails. |
@@ -54,17 +54,4 @@ Die neue [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] basiert auf den
 * Leistungsstarke Funktion im Bericht zur Online-Videoplattform von 2016.
 * Top-Rich-Media-Anbieter für Internet-Einzelhandel 1000, neun Jahre in Folge.
 * 24/7/265 Unterstützung, 99,95% SLAs, Adobe Professional Services.
-* Eine bewährte Infrastruktur, die weltweit über 800 Kunden versorgt, 3,5 Petabytes Traffic pro Monat und mehr als 500 Millionen Assets in der Verwaltung, 60% Wachstum des Traffics im Jahresvergleich.
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Die bewährte Infrastruktur, die weltweit über 800 Kunden versorgt, 3,5-Petabytes-Traffic pro Monat und mehr als 500 Millionen Assets in der Verwaltung, 60% Wachstum des Traffics im Jahresvergleich.

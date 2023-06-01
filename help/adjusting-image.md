@@ -10,7 +10,7 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -43,7 +43,7 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
       Wählen Sie in der Dropdown-Liste **[!UICONTROL Original ersetzen]** und wählen Sie **[!UICONTROL Speichern]**.
 
-   * Um das Bild als neues Übergeordnetes Bild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
+   * Um das Bild als neues Primärbild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
 
       Wählen Sie in der Dropdownliste **[!UICONTROL Als neue Masterversion speichern]**.
 Im **[!UICONTROL Ordnername]** Listenfeld den Ordner auswählen, in dem das neue Primärbild gespeichert werden soll.

@@ -3,13 +3,13 @@ title: Aktualisierte FAQs
 description: Häufig gestellte Fragen (FAQ) beim Upgrade von [!DNL Adobe Dynamic Media Classic] Desktop-Applikation auf [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] Assets.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
-
 
 # Häufig gestellte Fragen zum Upgrade von [!DNL Dynamic Media Classic] nach [!DNL Dynamic Media]
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * Digital Asset Management auf Unternehmensebene mit robuster Metadatenunterstützung, intelligenter Suche, Lightbox und Sammlungen, Versionskontrolle und sicherer Asset-Freigabe für die Verwendung durch Anbieter, Partner und Franchisenehmer, Review- und Genehmigungs-Workflows für die Arbeit in Prozess-Assets.
 * Einfachere Akzeptanz und Verwendung mit der neuen Benutzeroberfläche.
 * Erstellen Sie Shop-fähige/interaktive Medienerlebnisse mit Bildern und Videos, die die Konversion fördern und die Benutzerinteraktion und -zufriedenheit steigern.
-* Kombinieren Sie Kampagnen-Assets mit Produktinformationen, um Klick auf den Warenkorb zu optimieren.
+* Straffen Sie den Klick auf den Warenkorb, indem Sie Kampagnen-Assets mit Produktinformationen kombinieren.
 * Einfaches Erstellen, Anpassen, Markieren und Bereitstellen interaktiver Viewer mit dem WYSIWYG Viewer Designer.
 * Bereitstellen optimierter Rich-Media-Daten für [!DNL Experience Cloud] Lösungen.
 * Integration mit [!DNL Experience Cloud] für erweiterte Asset-Analyse, Targeting und Asset-Wiederverwendung über Marketing-Touchpoints hinweg. Zu diesen Touchpoints gehören [!DNL Adobe Campaign] für E-Mails, [!DNL Adobe Social] für soziale Kanäle und [!DNL Experience Manager] Sites für responsive Web- und mobile Apps.
@@ -43,7 +43,7 @@ Ja, [!DNL Dynamic Media] verwendet das robuste, erstklassige Bereitstellungsnetz
 
 * Top-Rich-Media-Anbieter für Internet-Einzelhandel 1000, neun Jahre in Folge.
 * 24/7/265 Unterstützung, 99,95% SLAs.
-* Eine bewährte Infrastruktur, die weltweit über 800 Kunden versorgt, 3,5 Petabytes Traffic pro Monat und mehr als 500 Millionen Assets in der Verwaltung, 60% Wachstum im Traffic-Jahr im Jahresvergleich.
+* Die bewährte Infrastruktur, die weltweit über 800 Kunden versorgt, 3,5-PB Traffic pro Monat und mehr als 500 Millionen Assets im Management, 60% Wachstum im Traffic-Jahr im Vergleich zum Jahr.
 
 +++
 
@@ -175,7 +175,7 @@ Adobe unterstützt und unterhält weiterhin [!DNL Dynamic Media Classic] (von Ku
 +++
 
 +++**Wie viel Speicher einnimmt [!DNL Dynamic Media]?**
-Sechzig Gigabyte Speicher sind enthalten. Sie können zusätzlichen Speicher in Blöcken von 250 GB erwerben. Überprüfen Sie Ihre Vertragsdetails, um Ihre aktuelle Speicherzuteilung zu erhalten.
+60 GB Speicherplatz sind im Lieferumfang enthalten. Sie können zusätzlichen Speicher in Blöcken von 250 GB erwerben. Um Ihre aktuelle Speicherzuteilung zu erhalten, überprüfen Sie Ihre Vertragsdetails.
 
 +++
 
@@ -204,8 +204,8 @@ Ja. Sie können Ihr eigenes CDN mit [!DNL Dynamic Media].
 
 +++
 
-+++**Does [!DNL Dynamic Media] über die Funktionen verfügen, die ich für ein Upgrade benötige? Welche Funktionen sind mit verfügbar? [!DNL Dynamic Media] on [!DNL Experience Manager] Assets?**
-Siehe [Funktionsvergleich](/help/upgrade-feature-comparison.md) Seite , um mehr zu erfahren.
++++**Does [!DNL Dynamic Media] über die Funktionen verfügen, die ich aktualisieren muss? Welche Funktionen sind mit verfügbar? [!DNL Dynamic Media] on [!DNL Experience Manager] Assets?**
+Siehe [Funktionsvergleich](/help/upgrade-feature-comparison.md) Seite.
 
 +++
 
@@ -216,7 +216,7 @@ Kunden, die Folgendes benötigen, können weiterhin Zugriff auf [!DNL Dynamic Me
 * Bildvorlagen.
 * E-Kataloge.
 
-Siehe auch [Funktionsvergleich](/help/upgrade-feature-comparison.md) Seite , um mehr zu erfahren.
+Siehe auch [Funktionsvergleich](/help/upgrade-feature-comparison.md) Seite.
 
 +++
 
@@ -251,7 +251,7 @@ Telefon: 1-800-898-9743 (USA) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japan
 +++**Wo erhalte ich weitere Informationen über bezahlte Schulungsmöglichkeiten?**
 Siehe [Adobe Digital Learning Services](https://learning.adobe.com).
 
-Wenden Sie sich für benutzerdefinierte oder individuelle Schulungen an Ihren Kundenbetreuer bei der Adobe.
+Wenden Sie sich für benutzerdefinierte oder individuelle Schulungen an Ihren Kundenbetreuer für Adobe.
 
 +++
 
