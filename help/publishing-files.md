@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 37%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &
 
 Erstellen Sie einen einmaligen Veröffentlichungsauftrag, indem Sie die **[!UICONTROL Einmalig]** auf der Seite Veröffentlichen .
 
-Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite &quot;Veröffentlichen&quot;die Option **[!UICONTROL Einmalig]**, wählen Sie **[!UICONTROL Für später einplanen]** angezeigt. Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
+Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite &quot;Veröffentlichen&quot;die Option **[!UICONTROL Einmalig]**, wählen Sie **[!UICONTROL Für später einplanen]** Dropdown-Liste. Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
 
 ### Erstellen eines wiederkehrenden Veröffentlichungsauftrags {#creating-a-recurring-publish-job}
 
@@ -104,15 +104,15 @@ Siehe [Upload- oder Veröffentlichungsauftrag als Trigger verwenden](checking-jo
 
 Sie können einen laufenden Veröffentlichungsauftrag abbrechen. Als Administrator können Sie einen in Verarbeitung befindlichen Veröffentlichungsauftrag auch über die Seite „Aufträge“ für das Unternehmen stornieren.
 
-Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Aufträge&quot;und wählen Sie **[!UICONTROL Abbrechen]**. Auf der Registerkarte &quot;Geplant&quot;der Seite &quot;Aufträge&quot;können Sie einen Auftrag anhalten oder fortsetzen, indem Sie in der Spalte &quot;Aktiv&quot;des Auftrags das Kontrollkästchen deaktivieren oder aktivieren.
+Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Aufträge&quot;und wählen Sie **[!UICONTROL Abbrechen]**. Auf der Registerkarte „Geplant“ der Seite „Aufträge“ können Sie einen Auftrag anhalten und wiederaufnehmen, indem Sie in der Spalte „Aktiv“ des Auftrags das Kontrollkästchen markieren bzw. dessen Markierung aufheben.
 
 >[!NOTE]
 >
->Nachdem Sie einen Veröffentlichungsauftrag abgebrochen haben, erhält er den Status &quot;Anhalten&quot;, bis der Auftrag einen Punkt erreicht hat, an dem er sicher anhalten kann. Bis zum Anhalten eines Veröffentlichungsauftrags kann es einige Zeit dauern, wenn gerade Daten aus der Datenbank abgerufen werden.
+>Wenn Sie einen Veröffentlichungsauftrag storniert haben, ändert sich dessen Status zu „Wird angehalten“, bis ein Punkt erreicht wird, an dem ein sicherer Abbruch möglich ist. Bis zum Anhalten eines Veröffentlichungsauftrags kann es einige Zeit dauern, wenn gerade Daten aus der Datenbank abgerufen werden.
 
 ## Manuelles Veröffentlichen von Assets {#manually-publishing-assets}
 
-Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Wenn Sie Sets veröffentlichen, z. B. ein Bildset oder ein adaptives Videoset, werden das Set (oder &quot;übergeordnetes Element&quot;) und alle Mitglieder (oder &quot;untergeordnete Elemente&quot;) innerhalb dieses Sets veröffentlicht.
+Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Beim Veröffentlichen eines Sets, z. B. eines Bildsatzes oder adaptiven Videosets, werden das Set (das übergeordnete Element) und alle Mitglieder (die untergeordneten Elemente) innerhalb des Sets veröffentlicht.
 
 Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues, rundes Symbol mit einem Schrägstrich (Status &quot;Nicht veröffentlicht&quot;) links neben dem Asset-Namen angezeigt. Nach dem Veröffentlichen eines Assets ändert sich das Symbol in ein grünes Kreissymbol mit einem weißen Häkchen (Status „veröffentlicht“).
 
@@ -128,9 +128,9 @@ Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues
 
 ## Manuelles Rückgängigmachen der Veröffentlichung von Assets {#manually-unpublishing-assets}
 
-Sie können die Veröffentlichung einzelner Assets manuell rückgängig machen. Wenn Sie die Veröffentlichung von Sets, z. B. eines Mustersets oder eines E-Katalogs, rückgängig machen, erhält das Set (oder &quot;übergeordnetes&quot;) selbst den Status &quot;unveröffentlicht&quot;. Die Mitglieder (oder &quot;untergeordneten&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Veröffentlichungs- oder Veröffentlichungsstatus bei.
+Sie können die Veröffentlichung einzelner Assets manuell rückgängig machen. Beim Rückgängigmachen der Veröffentlichung eines Sets, z. B. eines Mustersets oder eines E-Katalogs, erhält das Set (das übergeordnete Element) den Status „unveröffentlicht“. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
 
-Veröffentlichte Assets werden in der Benutzeroberfläche durch ein rundes, grünes Symbol mit einem weißen Häkchen in der Mitte (Veröffentlichungsstatus) links neben dem Asset-Namen gekennzeichnet. Nachdem die Veröffentlichung eines Assets rückgängig gemacht wurde, wird das Symbol grau mit einem Schrägstrich (Status &quot;Nicht veröffentlicht&quot;) dargestellt.
+Veröffentlichte Elemente werden in der Benutzeroberfläche mit einem grünen Kreissymbol mit einem weißen Häkchen gekennzeichnet (Status „veröffentlicht“), das links neben dem Namen des Assets angezeigt wird. Nachdem die Veröffentlichung eines Assets rückgängig gemacht wurde, wird das Symbol grau mit einem Schrägstrich (Status &quot;Nicht veröffentlicht&quot;) dargestellt.
 
 **So machen Sie die Veröffentlichung eines Assets manuell rückgängig:**
 

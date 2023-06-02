@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-De
 
 ## Fehlerbehebungen in der neuesten Version (20.22.1) {#release-jan2022}
 
-* Bild bearbeiten **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
+* Bildbearbeitung **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
 * Im Set-Editor wird die **[!UICONTROL Schließen]**, **[!UICONTROL Speichern]** und **[!UICONTROL Speichern unter]** -Schaltflächen werden nach dem Scrollen von Assets im **[!UICONTROL Hinzufügen von Assets]** Bereich.
 * **[!UICONTROL Play]** -Schaltfläche in der Videodetailansicht nicht funktionierte.
 * Nicht eingeben `d` und `e` in **[!UICONTROL Benutzername]** und **[!UICONTROL Passwort]** Felder beim Ausführen von macOS Monterey.
@@ -89,7 +89,7 @@ Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-De
 Verwandte Themen:
 
 * [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms auf Mac](#install-silent-mac-dmc-app)
-* [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows](#install-silent-windows-dmc-app)
+* [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows®](#install-silent-windows-dmc-app)
 
 1. Deinstallieren Sie alle älteren Versionen des Adobe Dynamic Media Classic-Desktop-Programms auf Ihrem System.
 
@@ -108,7 +108,7 @@ Verwandte Themen:
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -147,8 +147,8 @@ Verwandte Themen:
 
 Verwandte Themen:
 
-* [Herunterladen und Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Mac oder Windows](#installation-dmc-app)
-* [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows](#install-silent-windows-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm unter Mac oder Windows® herunter und installieren Sie es.](#installation-dmc-app)
+* [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows®](#install-silent-windows-dmc-app)
 
 Zum Herunterladen und *stumm* Installieren Sie die neueste Version des Adobe Dynamic Media Classic-Desktop-Programms auf macOS:
 
@@ -189,7 +189,7 @@ Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Ins
 
 Verwandte Themen:
 
-* [Herunterladen und Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Mac oder Windows](#installation-dmc-app)
+* [Laden Sie das neueste Adobe Dynamic Media Classic-Desktop-Programm unter Mac oder Windows® herunter und installieren Sie es.](#installation-dmc-app)
 
 * [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms auf macOS](#install-silent-mac-dmc-app)
 

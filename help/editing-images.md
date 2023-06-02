@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Adobe Dynamic Media Classic bietet viele Tools zum Erstellen von Rich-Media-Effekten. Diese Tools sind verfügbar, indem Sie auf das Rollover klicken **[!UICONTROL Bearbeiten]** und im Durchsuchenbedienfeld in der Detailansicht. Sie können die folgenden Bildbearbeitungsaufgaben in Adobe Dynamic Media Classic ausführen:
 
-* **Erstellen von Imagemaps** - Um eine Imagemap zu erstellen, wählen Sie den Befehl Bild oder **[!UICONTROL Imagemap]** Schaltfläche. Eine Imagemap ist ein Hotspot auf einem Bild, einer eCatalog-Seite oder ein Bild in einem Rotationsset, der ein Bedienfeld mit Rollover-Text anzeigt. Benutzer können beispielsweise eine Imagemap auswählen, um eine neue Webseite zu starten. Siehe [Erstellen von Imagemaps](/help/creating-image-maps.md).
+* **Erstellen von Imagemaps** - Um eine Imagemap zu erstellen, wählen Sie den Befehl Bild oder **[!UICONTROL Imagemap]** Schaltfläche. Eine Imagemap ist ein Hotspot auf einem Bild oder einer E-Katalog-Seite oder ein Bild in einem Rotationsset, mit dessen Hilfe ein Bedienfeld mit Rollover-Text angezeigt werden kann. Benutzer können beispielsweise eine Imagemap auswählen, um eine neue Webseite zu starten. Siehe [Erstellen von Imagemaps](/help/creating-image-maps.md).
 
 * **Zoomziele erstellen** - Um Miniaturansichten zu erstellen, wählen Sie den Befehl Zoomziele oder **[!UICONTROL Zoomziele]** Schaltfläche. Benutzer können im Zoom-Viewer eine Miniaturansicht als Ziel auswählen, um direkt auf einen bestimmten Teil eines Bildes zu zoomen. Siehe [Zoomziele für geführten Zoom erstellen](/help/creating-zoom-targets-guided-zoom.md).
 
