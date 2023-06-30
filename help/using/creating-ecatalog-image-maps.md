@@ -10,7 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 40%
@@ -34,7 +36,7 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 
    * **Polygonale Karte** - Wählen Sie das Tool Polygon Image Map aus und wählen Sie dann so oft wie nötig den Bildbereich aus. Wie Sie auswählen, zeichnet Adobe Dynamic Media Classic die Ränder der Imagemap.
 
-      Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Imagemap-Liste zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der eCatalog-Seite an, auf der Sie arbeiten.
+     Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Imagemap-Liste zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der eCatalog-Seite an, auf der Sie arbeiten.
 
 1. (Optional) In der Liste &quot;Imagemap&quot;in der [!UICONTROL Name] können Sie einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
 1. Sie können Viewer eine neue Webseite öffnen lassen, wenn sie die Imagemap auswählen. Geben Sie im Imagemap-Liste-Bedienfeld in der Spalte „URL“ die URL der Webseite ein.
@@ -77,23 +79,23 @@ Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E
 
 * **Position anpassen** - Wählen Sie das Schwenken-Tool aus und bewegen Sie den Mauszeiger nahe, jedoch nicht über den Rahmen der Karte. Wenn sich der Zeiger in einen vierköpfigen Pfeil ändert, ziehen Sie die gesamte Imagemap an eine neue Position. 
 
-   Siehe [Position, Form und Größe von Imagemaps anpassen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Siehe [Position, Form und Größe von Imagemaps anpassen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Form und Größe ändern** - Um die Größe einer rechteckigen Imagemap zu ändern, wählen Sie das Schwenken-Tool aus. Bewegen Sie dann den Mauszeiger über den Rand oder eine Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie ihn. Um die Größe einer polygonalen Imagemap zu ändern, ziehen Sie einen quadratischen Auswahlziehpunkt an die gewünschte Stelle. Um einen Auswahlpunkt zu erstellen, wählen Sie den Rahmen der Imagemap aus und ziehen Sie.
 
-   Siehe [Position, Form und Größe von Imagemaps anpassen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Siehe [Position, Form und Größe von Imagemaps anpassen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Löschen von Imagemaps** - Wählen Sie das Schwenken-Tool aus, wählen Sie die Imagemap aus, um sie auszuwählen, und klicken Sie auf **[!UICONTROL Löschen]**.
 
-   Um alle Imagemaps aus einem E-Katalog zu entfernen, wählen Sie die **[!UICONTROL Bestellseiten]** und wählen Sie **[!UICONTROL Clear Maps]**.
+  Um alle Imagemaps aus einem E-Katalog zu entfernen, wählen Sie die **[!UICONTROL Bestellseiten]** und wählen Sie **[!UICONTROL Clear Maps]**.
 
 * **Umgang mit überlappenden Imagemaps** - Ziehen Sie, um die Reihenfolge der Imagemaps in der Liste Imagemap zu ändern.
 
-   Siehe [Überlagerte Imagemaps verwalten](creating-image-maps.md#handling_overlapping_image_maps).
+  Siehe [Überlagerte Imagemaps verwalten](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Kopieren von Imagemaps auf anderen Seiten** - Auswählen **[!UICONTROL Zuordnungen kopieren nach]** (Stellen Sie sicher, dass Sie sich auf der Registerkarte Seiten zuordnen befinden). Wählen Sie im Bildschirm &quot;Bilder auswählen&quot;die Seite(n) aus, auf die Sie die Imagemaps kopieren möchten, und wählen Sie **[!UICONTROL Auswählen]**.
 
-   Siehe [Kopieren von Imagemaps in andere Bilder](creating-image-maps.md#copying_image_maps).
+  Siehe [Kopieren von Imagemaps in andere Bilder](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

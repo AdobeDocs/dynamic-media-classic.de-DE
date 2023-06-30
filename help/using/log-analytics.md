@@ -10,7 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -75,7 +77,6 @@ Integrieren Sie zunächst Dynamic Media Classic in Adobe Analytics OAuth. Die OA
 >* Eine neue Tracking-Variable wird in einen Bericht eingeführt und Sie möchten in der Dynamic Media Classic-Benutzeroberfläche eine bestimmte Viewer-Variable mit dieser neuen Analytics-Variablen verknüpfen.
 >
 
-
 1. Navigieren Sie in der rechten oberen Ecke des Adobe Dynamic Media Classic-Desktop-Programms zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]**.
 1. Im linken Bereich unter **[!UICONTROL Anwendungseinstellungen]** auswählen **[!UICONTROL Adobe Analytics]**.
 1. Im **[!UICONTROL Adobe Analytics-Konfiguration]** Seite, wählen Sie **[!UICONTROL Adobe Analytics-Anmeldung]**.
@@ -105,4 +106,3 @@ Integrieren Sie zunächst Dynamic Media Classic in Adobe Analytics OAuth. Die OA
 >[!MORELIKETHIS]
 >
 >* [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
-

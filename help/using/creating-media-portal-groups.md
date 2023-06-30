@@ -10,7 +10,9 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -62,12 +64,12 @@ Wenn Sie einem Asset oder Ordner keine Gruppenberechtigungen gewähren, erbt die
 
    | Aufgabe | Lesen | Schreiben | Löschen |
    | --- | --- | --- | --- |
-   | Ordner und Dateien durchsuchen | X |  |  |
-   | Dateien bearbeiten (zuschneiden, scharfzeichnen, anpassen) |  | X |  |
-   | Dateinamen ändern |  | X |  |
-   | Dateien in andere Ordner verschieben |  | X |  |
-   | Dateien umbenennen |  | X |  |
-   | Dateien löschen |  |  | X |
+   | Ordner und Dateien durchsuchen | X | | |
+   | Dateien bearbeiten (zuschneiden, scharfzeichnen, anpassen) | | X | |
+   | Dateinamen ändern | | X | |
+   | Dateien in andere Ordner verschieben | | X | |
+   | Dateien umbenennen | | X | |
+   | Dateien löschen | | | X |
 
 1. Auswählen **[!UICONTROL Schließen]**.
 

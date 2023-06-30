@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 36%
@@ -68,13 +70,13 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster &quot;Viewer-Liste&
 
    * Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]** für einen ausgewählten Viewer und Plattformtyp.
 
-      Wenn Sie **[!UICONTROL URL kopieren]**, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
+     Wenn Sie **[!UICONTROL URL kopieren]**, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
 
    * Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**.
 
-      Wenn Sie **[!UICONTROL Einbettungscode]**, wird das Fenster Einbettungscode geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten einfügen können.
+     Wenn Sie **[!UICONTROL Einbettungscode]**, wird das Fenster Einbettungscode geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten einfügen können.
 
-      Schließen Sie die angezeigte Vorschau.
+     Schließen Sie die angezeigte Vorschau.
 
 1. Wählen Sie in der rechten unteren Ecke des Fensters &quot;Viewer-Liste&quot;die Option **[!UICONTROL Schließen]** , um zum Bildschirm &quot;Assets&quot;zurückzukehren.
 

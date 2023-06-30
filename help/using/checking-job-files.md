@@ -10,7 +10,9 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 39%
@@ -136,7 +138,7 @@ In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mi
 | `-` | Trennstrich | Wertebereich (beispielsweise „Montag bis Freitag“). |
 | `/` | Schrägstrich | Abschnitte (z. B. „alle 15 Minuten“). |
 | `L` | Großes L | Letzter „Tag des Monats“ bzw. „Wochentag“ (nur bei diesen Feldern verfügbar). Im Monat Januar würde der Wert „L“ für „Tag des Monats“ den Auftrag beispielsweise für den 31. Januar planen. Für das Feld „Wochentag“ kann das Zeichen allein eingegeben werden, um den Auftrag für Samstag zu planen. Sie können ihn mit einer Zahl verwenden (z. B. `6L`), um den letzten Freitag des Monats anzugeben. Geben Sie `L` mit den Platzhaltern Komma oder Bindestrich. |
-| `#` | Zeichen für „Nr.“ | Der n-te Wochentag des Monats (nur beim Feld „Wochentag“ verfügbar). Beispiel: `6#3` im Feld &quot;Wochentag&quot;den dritten Freitag des Monats. Die `6` bezeichnet &quot;Freitag&quot;(der sechste Tag der Woche) und `3` gibt das dritte Vorkommen im Monat an. |
+| `#` | Zeichen für „Nr.“ | Der n-te Wochentag des Monats (nur beim Feld „Wochentag“ verfügbar). Beispiel: `6#3` im Feld &quot;Wochentag&quot;den dritten Freitag des Monats. Die `6` bedeutet &quot;Freitag&quot;(der sechste Tag der Woche) und `3` gibt das dritte Vorkommen im Monat an. |
 | `C` | Großes K | Erster „Tag des Monats“ im Kalender bzw. erster „Wochentag“ im Kalender (nur bei diesen Feldern verfügbar). Beispielsweise kann der Wert `1C` Für &quot;Tag des Monats&quot;wird der erste Tag im Kalender geplant, der am oder nach dem fünften Tag eintritt. Geben Sie für das Feld &quot;Wochentag&quot;Folgendes an: `1C` plant den ersten Tag im Kalender, der am oder nach Sonntag eintritt |
 
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:

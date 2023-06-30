@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 51%
@@ -75,13 +77,13 @@ Es gibt zwei Methoden zum Scharfzeichnen von Bildern, die Sie verwenden können:
       * `amount` (0-5, Stärke des Effekts.)
       * `radius` (0 bis 250, die Breite der „Scharfzeichnen-Linien“, die um das scharfgezeichnete Objekt gezogen werden, in Pixel gemessen.)
 
-         Beachten Sie, dass die Parameter `radius` und `amount` arbeiten gegeneinander. Verringerung `radius` kann durch `amount`. `Radius` ermöglicht eine bessere Kontrolle, da ein geringer Wert nur die Kantenpixel scharfzeichnet, während bei einem hohen Wert ein breiter Pixelbereich scharfgezeichnet wird.
+        Beachten Sie, dass die Parameter `radius` und `amount` arbeiten gegeneinander. Verringerung `radius` kann durch `amount`. `Radius` ermöglicht eine bessere Kontrolle, da ein geringer Wert nur die Kantenpixel scharfzeichnet, während bei einem hohen Wert ein breiter Pixelbereich scharfgezeichnet wird.
 
       * `threshold` (0-255, Empfindlichkeit der Wirkung.)
 
-         Dieser Parameter legt fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und vom Filter scharfgezeichnet werden. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Beispiel: Bei einem Schwellenwert von 12 werden leichte Variationen der Hauttonhelligkeit ignoriert, um kein Rauschen hinzuzufügen, aber dennoch wird kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) ein Kantenkontrast hinzugefügt.
+        Dieser Parameter legt fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und vom Filter scharfgezeichnet werden. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Beispiel: Bei einem Schwellenwert von 12 werden leichte Variationen der Hauttonhelligkeit ignoriert, um kein Rauschen hinzuzufügen, aber dennoch wird kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) ein Kantenkontrast hinzugefügt.
 
-         Weitere Informationen zum Festlegen dieser drei Parameter, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf dem Image-Server](/help/using/assets/s7_sharpening_images.pdf).
+        Weitere Informationen zum Festlegen dieser drei Parameter, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf dem Image-Server](/help/using/assets/s7_sharpening_images.pdf).
 
       * Mit Adobe Dynamic Media Classic können Sie auch einen vierten Parameter steuern: Monochrom ( `0,1`). Dieser Parameter stellt fest, ob die Unschärfemaske unter Verwendung des Werts `0` separat auf jede Farbkomponente oder unter Verwendung des Werts `1` auf die Gesamthelligkeit/Intensität angewendet wurde.
 

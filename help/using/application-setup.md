@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '11299'
 ht-degree: 40%
@@ -55,25 +57,25 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 * **[!UICONTROL Vorlage für CDN-Invalidierung]** - Gibt die Vorlage an, die für die Invalidierung des CDN (Content Delivery Network)-Cache verwendet wird.
 
-   Angenommen, Sie geben eine Bild-URL (einschließlich Bildvorgaben oder Modifikatoren) ein, die auf `<ID>`, anstatt einer bestimmten Bild-ID wie im folgenden Beispiel:
+  Angenommen, Sie geben eine Bild-URL (einschließlich Bildvorgaben oder Modifikatoren) ein, die auf `<ID>`, anstatt einer bestimmten Bild-ID wie im folgenden Beispiel:
 
-   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+  `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   Wenn die Vorlage nur enthält `<ID>`, füllt Adobe Dynamic Media Classic die `https://<server>/is/image`, wobei `<server>` ist der Veröffentlichungsservername, der in den allgemeinen Einstellungen definiert ist.
+  Wenn die Vorlage nur enthält `<ID>`, füllt Adobe Dynamic Media Classic die `https://<server>/is/image`, wobei `<server>` ist der Veröffentlichungsservername, der in den allgemeinen Einstellungen definiert ist.
 
-   Legen Sie die Vorlage für CDN-Invalidierung fest, wählen Sie ein Bild mit dem Namen Backpack_B aus und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Ungültiges CDN]** führt zu der folgenden generierten URL in der Benutzeroberfläche für CDN-Invalidierung:
+  Legen Sie die Vorlage für CDN-Invalidierung fest, wählen Sie ein Bild mit dem Namen Backpack_B aus und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Ungültiges CDN]** führt zu der folgenden generierten URL in der Benutzeroberfläche für CDN-Invalidierung:
 
-   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+  `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-   Wählen Sie im URL-Listenfeld **[!UICONTROL Weiter]** , um den Cache für diesen spezifischen Bild-URL-Aufruf zu löschen. Sie können URLs auch hinzufügen, indem Sie sie in das URL-Listenfeld eingeben oder einfügen. Sie müssen die Vorlage nicht vorab festlegen.
+  Wählen Sie im URL-Listenfeld **[!UICONTROL Weiter]** , um den Cache für diesen spezifischen Bild-URL-Aufruf zu löschen. Sie können URLs auch hinzufügen, indem Sie sie in das URL-Listenfeld eingeben oder einfügen. Sie müssen die Vorlage nicht vorab festlegen.
 
-   Nachdem Sie Ihre Vorlage für CDN-Invalidierung ausgewählt und eine Ungültigmachen-CDN-Anfrage gestellt haben, wird in der Benutzeroberfläche ein Indikator angezeigt. Sie erhalten eine Schätzung, wie lange es dauert, den Cache zu leeren.
+  Nachdem Sie Ihre Vorlage für CDN-Invalidierung ausgewählt und eine Ungültigmachen-CDN-Anfrage gestellt haben, wird in der Benutzeroberfläche ein Indikator angezeigt. Sie erhalten eine Schätzung, wie lange es dauert, den Cache zu leeren.
 
-   Wenn in Adobe Dynamic Media Classic beim Aufrufen von **[!UICONTROL Datei]** > **[!UICONTROL Ungültiges CDN]**, wird jedes Bild in der gespeicherten Vorlagen-URL referenziert. Daher können Sie eine Vorlage für CDN-Invalidierung definieren, die auf jede URL verweist, auf die auf Ihrer Website verwiesen wird (z. B. Produktdetails und Suchergebnisse). Wenn Sie dann ein Bild oder mehrere Bilder für das Ungültigmachen aus Cache auswählen, wird die URL automatisch in der Benutzeroberfläche eingetragen. 
+  Wenn in Adobe Dynamic Media Classic beim Aufrufen von **[!UICONTROL Datei]** > **[!UICONTROL Ungültiges CDN]**, wird jedes Bild in der gespeicherten Vorlagen-URL referenziert. Daher können Sie eine Vorlage für CDN-Invalidierung definieren, die auf jede URL verweist, auf die auf Ihrer Website verwiesen wird (z. B. Produktdetails und Suchergebnisse). Wenn Sie dann ein Bild oder mehrere Bilder für das Ungültigmachen aus Cache auswählen, wird die URL automatisch in der Benutzeroberfläche eingetragen. 
 
-   Siehe [Inhalts-Caching](dmc-platform-overview.md#content_caching).
+  Siehe [Inhalts-Caching](dmc-platform-overview.md#content_caching).
 
-   Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
+  Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Durchsuchen
 
@@ -85,21 +87,21 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 * **[!UICONTROL Kodierte Videos anzeigen]** - Standardmäßig deaktiviert (deaktiviert).
 
-   Wenn Sie Videos in Adobe Dynamic Media Classic schnell suchen und suchen möchten, ohne durch zahlreiche kodierte Varianten desselben Videos navigieren zu müssen, lassen Sie diese Option deaktiviert (Standard). Es werden nur die Miniaturansicht des Primären Videos (das Quellvideo, das Sie hochgeladen und zum Erstellen der Varianten verwendet haben) und die Miniaturansicht des übergeordneten adaptiven Videosets (das die untergeordneten Varianten des kodierten Videosets enthält) angezeigt.
+  Wenn Sie Videos in Adobe Dynamic Media Classic schnell suchen und suchen möchten, ohne durch zahlreiche kodierte Varianten desselben Videos navigieren zu müssen, lassen Sie diese Option deaktiviert (Standard). Es werden nur die Miniaturansicht des Primären Videos (das Quellvideo, das Sie hochgeladen und zum Erstellen der Varianten verwendet haben) und die Miniaturansicht des übergeordneten adaptiven Videosets (das die untergeordneten Varianten des kodierten Videosets enthält) angezeigt.
 
-   Sie können jedoch weiterhin auf einzelne kodierte Videos über das Primäre Video oder das adaptive Videoset zugreifen. Doppelklicken Sie hierzu auf das Videominiaturbild, um die Detailansicht zu öffnen. Wählen Sie anschließend **[!UICONTROL Kodierte Videos]** im rechten Bereich, damit Sie auf alle untergeordneten Videos zugreifen können.
+  Sie können jedoch weiterhin auf einzelne kodierte Videos über das Primäre Video oder das adaptive Videoset zugreifen. Doppelklicken Sie hierzu auf das Videominiaturbild, um die Detailansicht zu öffnen. Wählen Sie anschließend **[!UICONTROL Kodierte Videos]** im rechten Bereich, damit Sie auf alle untergeordneten Videos zugreifen können.
 
-   Sie können auch **[!UICONTROL Datei]** > **[!UICONTROL Neuverarbeitung]** um kodiertere &quot;untergeordnete&quot;Videos direkt aus einem adaptiven Videoset zu erstellen. Adobe Dynamic Media Classic findet automatisch das &quot;übergeordnete&quot;Primäre Video des adaptiven Videosets und verwendet es als Quellvideo für die Transkodierung. Nachdem Sie die neuen, individuell kodierten Videos gespeichert haben, werden sie jedoch nicht angezeigt, wenn Sie nach ihnen suchen. Sie sind jedoch weiterhin über die Registerkarte „Kodierte Videos“ in der Detailansicht verfügbar.
+  Sie können auch **[!UICONTROL Datei]** > **[!UICONTROL Neuverarbeitung]** um kodiertere &quot;untergeordnete&quot;Videos direkt aus einem adaptiven Videoset zu erstellen. Adobe Dynamic Media Classic findet automatisch das &quot;übergeordnete&quot;Primäre Video des adaptiven Videosets und verwendet es als Quellvideo für die Transkodierung. Nachdem Sie die neuen, individuell kodierten Videos gespeichert haben, werden sie jedoch nicht angezeigt, wenn Sie nach ihnen suchen. Sie sind jedoch weiterhin über die Registerkarte „Kodierte Videos“ in der Detailansicht verfügbar.
 
-   Siehe [Hochladen und Transkodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Siehe [Hochladen und Transkodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-   Um auch im Rahmen einer Suche weiterhin auf alle verschlüsselten Videoableitungen zugreifen zu können, aktivieren Sie die Option **[!UICONTROL „Kodierte Videos anzeigen“]**.
+  Um auch im Rahmen einer Suche weiterhin auf alle verschlüsselten Videoableitungen zugreifen zu können, aktivieren Sie die Option **[!UICONTROL „Kodierte Videos anzeigen“]**.
 
-   Das Menü „Erstellen“ enthält bestimmte Aktionen, die nur (oder optional) mit einzelnen Videos verwendet werden. Daher müssen alle kodierten Videoableitungen angezeigt werden, aus denen Sie auswählen können, unabhängig davon, wie Sie die Option **[!UICONTROL „Kodierte Videos anzeigen“]** eingestellt haben. Die Build-Aktionen, die die **[!UICONTROL Kodierte Videos anzeigen]** einbeziehen **[!UICONTROL Adaptive Videosets]** und **[!UICONTROL E-Kataloge]**.
+  Das Menü „Erstellen“ enthält bestimmte Aktionen, die nur (oder optional) mit einzelnen Videos verwendet werden. Daher müssen alle kodierten Videoableitungen angezeigt werden, aus denen Sie auswählen können, unabhängig davon, wie Sie die Option **[!UICONTROL „Kodierte Videos anzeigen“]** eingestellt haben. Die Build-Aktionen, die die **[!UICONTROL Kodierte Videos anzeigen]** einbeziehen **[!UICONTROL Adaptive Videosets]** und **[!UICONTROL E-Kataloge]**.
 
-   >[!NOTE]
-   >
-   >Wenn Sie Ihre Video-Assets nicht mit Adobe Dynamic Media Classic hochgeladen und kodiert haben, zeigt Adobe Dynamic Media Classic alle kodierten Videos an, selbst wenn diese Option deaktiviert ist.
+  >[!NOTE]
+  >
+  >Wenn Sie Ihre Video-Assets nicht mit Adobe Dynamic Media Classic hochgeladen und kodiert haben, zeigt Adobe Dynamic Media Classic alle kodierten Videos an, selbst wenn diese Option deaktiviert ist.
 
 * **[!UICONTROL Schaltfläche &quot;Unterordner aktualisieren&quot;anzeigen]** - Ein- oder Ausschalten der Anzeige der Unterordner Schaltfläche Aktualisieren .
 
@@ -198,22 +200,22 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
       * **[!UICONTROL Anzahl Farben]** - Ziehen Sie den Regler, um 2-255 einzugeben.
 
       * **[!UICONTROL Farbliste]** - Geben Sie eine kommagetrennte Liste ein. Geben Sie beispielsweise für Weiß, Grau und Schwarz `000000,888888,ffffff`.
+
    * JPEG-Optionen
 
       * **[!UICONTROL Qualität]** - Steuert die JPEG-Komprimierungsstufe. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala ist 1-100.
 
       * **[!UICONTROL JPG Chrominanz-Downsampling aktivieren]** - Da das Auge weniger empfindlich gegenüber hochfrequenten Farbinformationen als gegenüber hochfrequenter Luminanz ist, teilen JPEG-Bilder die Bildinformationen in Luminanz und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Obwohl das Datenvolumen beim Downsampling um die Hälfte oder ein Drittel reduziert wird, ist die auftretende Qualitätsminderung kaum wahrnehmbar. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
+
    * PDF- und TIFF-Optionen
 
       * **[!UICONTROL Komprimierung]** - Wählen Sie einen Komprimierungsalgorithmus.
-
-
 
 * **[!UICONTROL Farbraum]** - Wählen Sie einen Farbraum aus.
 
 * **[!UICONTROL Scharfzeichnen]** - Wählen Sie die Option Einfaches Scharfzeichnen aktivieren , um einen einfachen Scharfzeichnungsfilter auf das Bild anzuwenden, nachdem die Skalierung abgeschlossen ist. Wenn ein Bild in einer anderen Größe verschwommen angezeigt wird, kann dieser Effekt durch Scharfzeichnen kompensiert werden.
 
-   Weitere Informationen zu Scharfzeichnen, Neuberechnungsmodi und Unschärfemaske finden Sie unter [Scharfzeichnen von Bildern](sharpening-image.md#sharpening_an_image). Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
+  Weitere Informationen zu Scharfzeichnen, Neuberechnungsmodi und Unschärfemaske finden Sie unter [Scharfzeichnen von Bildern](sharpening-image.md#sharpening_an_image). Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
 
 * **[!UICONTROL Beispielmodus]** - Wählen Sie eine Option für den Resamplingmodus . Mit diesen Optionen wird ein Bild beim Downsampling scharfgezeichnet:
 
@@ -239,7 +241,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Ausgabefarbprofil]** - Auswählen **[!UICONTROL Use Default]** oder eines der in der Adobe Dynamic Media Classic verfügbaren ICC-Farbprofile.
 
-   Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
+  Siehe auch [ICC-Profile](icc-profiles.md#icc_profiles).
 
 * **[!UICONTROL Rendering Intent]** - Wählen Sie eine Option aus, wenn Sie den standardmäßigen Rendering-Intent des Farbprofils überschreiben möchten. Verwenden Sie diese Option, wenn eines der standardmäßigen ICC-Profile der Zielfarbraum einer Farbkonvertierung ist. Oder ein Ausgabegerät (Drucker oder Monitor) ist durch dieses Profil gekennzeichnet und die angegebene Rendering-Absicht gilt für dieses Profil.
 
@@ -292,19 +294,19 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie rechts unten auf der Seite &
 
    * **[!UICONTROL Adaptives Video]** - Eine einzelne Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, um Videos für die Bereitstellung auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten.
 
-      Die Flexibilität der automatischen Skalierungsfunktion ist ebenfalls standardmäßig verfügbar, wenn Sie eine eigene benutzerdefinierte Vorgabe für die Videokodierung erstellen.
+     Die Flexibilität der automatischen Skalierungsfunktion ist ebenfalls standardmäßig verfügbar, wenn Sie eine eigene benutzerdefinierte Vorgabe für die Videokodierung erstellen.
 
-      Siehe [Hinzufügen oder Bearbeiten von Videokodierungsvorgaben](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
+     Siehe [Hinzufügen oder Bearbeiten von Videokodierungsvorgaben](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
    * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]** - Erstellen Sie sowohl Videos mit dem Seitenverhältnis 16:9 als auch mit dem Seitenverhältnis 4:3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Alle optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-      Siehe [Vorgaben für die Videokodierung (16:9 oder 16:9: 3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Siehe [Vorgaben für die Videokodierung (16:9 oder 16:9: 3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Einzelne Kodierungsvorgaben]**
 
-      >[!NOTE]
-      >
-      >Um Videos auf iPads bereitzustellen, können Sie eine Kodierungsvorgabe für Mobilgeräte oder eine Kodierungsvorgabe für Tablets auswählen. Tablet-Vorgaben weisen gewöhnlich eine höhere Auflösung und Qualität auf und sind für den iPad mit seinem größeren Display und der hohen Verbindungsgeschwindigkeit optimiert. Damit Videodateien, die mit einer Tablet-Vorgabe kodiert wurden, richtig wiedergegeben werden können, muss die mobile Site bzw. Anwendung über einen Code zur Geräteerkennung verfügen. Dieser Code sorgt dafür, dass, abhängig vom erkannten Wiedergabegerät, das entsprechende Videomaterial für iPhone oder iPad bereitgestellt wird. Durch die Auswahl einer Mobil-Vorgabe für die Wiedergabe von Videodateien auf dem iPad wird der Workflow vereinfacht. Das liegt daran, dass Sie für iPhones und iPads dieselbe Videodatei verwenden können. Allerdings wird dabei die Qualität des Videomaterials an das iPhone mit seiner geringeren Auflösung angepasst.
+     >[!NOTE]
+     >
+     >Um Videos auf iPads bereitzustellen, können Sie eine Kodierungsvorgabe für Mobilgeräte oder eine Kodierungsvorgabe für Tablets auswählen. Tablet-Vorgaben weisen gewöhnlich eine höhere Auflösung und Qualität auf und sind für den iPad mit seinem größeren Display und der hohen Verbindungsgeschwindigkeit optimiert. Damit Videodateien, die mit einer Tablet-Vorgabe kodiert wurden, richtig wiedergegeben werden können, muss die mobile Site bzw. Anwendung über einen Code zur Geräteerkennung verfügen. Dieser Code sorgt dafür, dass, abhängig vom erkannten Wiedergabegerät, das entsprechende Videomaterial für iPhone oder iPad bereitgestellt wird. Durch die Auswahl einer Mobil-Vorgabe für die Wiedergabe von Videodateien auf dem iPad wird der Workflow vereinfacht. Das liegt daran, dass Sie für iPhones und iPads dieselbe Videodatei verwenden können. Allerdings wird dabei die Qualität des Videomaterials an das iPhone mit seiner geringeren Auflösung angepasst.
 
       * Wählen Sie unter der Gruppe „Kodierungsvorgaben“ in der Dropdown-Liste „Kodierungsvorgaben sortieren“ entweder „Name“ oder „Größe“, um die Vorgaben nach Name oder Auflösung zu sortieren.
       * Wählen Sie eine Kodierungsvorgabe basierend auf der Auflösung und Bandbreite aus, mit der Sie das Video wiedergeben möchten.
@@ -558,29 +560,29 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
 
 * **Vorgabe hinzufügen** - Auswählen **[!UICONTROL Hinzufügen]** und wählen Sie im Dialogfeld Viewer-Vorgabe hinzufügen aus.
 
-       Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Vorgabe bearbeiten** - Wählen Sie eine Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-       Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Vorgabe löschen** - Wählen Sie eine Vorgabe aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
 * **Vorgabe exportieren** - Wählen Sie eine HTML5-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Export]** , um die Viewer-Skin herunterzuladen, damit Sie sie als Grundlage für die Erstellung und das Hinzufügen einer weiteren Viewer-Vorgabe verwenden können.
 
-       Siehe [HTML5-Viewer-Vorgabe exportieren](application-setup.md#exporting_an_html5_viewer_preset).
-   
+      Siehe [HTML5-Viewer-Vorgabe exportieren](application-setup.md#exporting_an_html5_viewer_preset).
+  
 * **Filtern der Liste &quot;Viewer-Vorgaben&quot;** - Verwenden Sie diese Tools, um die Liste zu filtern:
 
-       * Öffnen Sie die Dropdownliste **Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
-       * Öffnen Sie die Dropdown-Liste **Viewer** und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]**, um alle Viewer anzuzeigen.
-   
+      * Öffnen Sie die Dropdownliste **Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
+      * Öffnen Sie die Dropdown-Liste **Viewer** und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]**, um alle Viewer anzuzeigen.
+  
 * **Sortieren von Vorgaben** - Wählen Sie eine Spaltenüberschrift (**[!UICONTROL Aktiv]**, **[!UICONTROL Typ]**, **[!UICONTROL Vorgabe]** oder **[!UICONTROL Plattform]**), um die Liste in einer Spalte zu sortieren. Wählen Sie eine Spaltenüberschrift ein zweites Mal aus, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren.
 
 * **Aktivieren und Deaktivieren von Vorgaben** - Wählen Sie eine Vorgabe aus und wählen Sie dann die Option Aktiv , um sie zu aktivieren oder zu deaktivieren.
 
-       Siehe [Aktivieren oder Deaktivieren von Viewer-Vorgaben](application-setup.md#activating_or_deactivating_viewer_presets).
-   
+      Siehe [Aktivieren oder Deaktivieren von Viewer-Vorgaben](application-setup.md#activating_or_deactivating_viewer_presets).
+  
 >[!NOTE]
 >
 >Auswählen **[!UICONTROL Vorschau]** auf der rechten Seite der Seite &quot;Viewer-Vorgaben&quot;, damit Sie sehen können, wie ein Asset in der von Ihnen ausgewählten Viewer-Vorgabe aussieht. Um ein anderes Asset anzuzeigen, wählen Sie **[!UICONTROL Durchsuchen]** auf der Seite &quot;Viewer-Vorgaben&quot;ein anderes Asset im Dialogfeld &quot;Asset-Vorschau auswählen&quot;auswählen.
@@ -603,12 +605,12 @@ Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer
 
    * **Hinzufügen** - Wählen Sie in der Symbolleiste die Option **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform aus und wählen Sie einen Rich-Media-Asset-Typ aus.
 
-          Wählen Sie **[!UICONTROL Speichern unter]** wenn Sie mit der Erstellung der Viewer-Vorgabe fertig sind.
-      
+         Wählen Sie **[!UICONTROL Speichern unter]** wenn Sie mit der Erstellung der Viewer-Vorgabe fertig sind.
+     
    * **Hinzufügen ausgehend von einer vorhandenen Viewer-Vorgabe** - Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]** in der Symbolleiste.
 
-          Nachdem Sie den Video-Viewer neu konfiguriert haben, wählen Sie **[!UICONTROL Speichern unter]** , um die Vorgabe unter einem anderen Namen im Textfeld Vorgabenname zu speichern.
-      
+         Nachdem Sie den Video-Viewer neu konfiguriert haben, wählen Sie **[!UICONTROL Speichern unter]** , um die Vorgabe unter einem anderen Namen im Textfeld Vorgabenname zu speichern.
+     
    * **Bearbeiten** - Wählen Sie eine vorhandene Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Geben Sie im Bildschirm &quot;Viewer konfigurieren&quot;im Feld Vorgabenname den Vorgabennamen ein oder bearbeiten Sie ihn.
@@ -696,9 +698,11 @@ Die URL wird in die Zwischenablage kopiert. Anschließend können Sie sie nach B
    Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
    * Auswählen **[!UICONTROL Listenansicht]**. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+
    Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
    * Auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+
    Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
 ### Kopieren des Einbettungscodes einer Viewer-Vorgabe {#copying-the-embed-code-of-a-viewer-preset}
@@ -718,9 +722,11 @@ Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
    Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**.
 
    * Auswählen **[!UICONTROL Listenansicht]**. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+
    Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**.
 
    * Auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+
    Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**.
 
 1. Wählen Sie im Dialogfeld Einbettungscode die Option **[!UICONTROL In Zwischenablage kopieren]**.
@@ -760,7 +766,7 @@ Adobe Dynamic Media Classic verfügt über vordefinierte Metadaten-Ansichten und
 1. Geben Sie im Textfeld Vorgabenname einen Namen für die Ansicht ein.
 1. (Optional) Aktivieren Sie **[!UICONTROL Als Standard festlegen]** , damit Benutzer diese Ansicht sehen, wenn sie das Metadatenbedienfeld in der Detailansicht öffnen.
 1. (Optional) Wählen Sie **[!UICONTROL UDF einschließen]** , um benutzerdefinierte Felder in die Ansicht einzuschließen. Benutzerdefinierte Felder werden oben im Metadatenbedienfeld in der Detailansicht angezeigt.
-1. Wählen Sie die Felder aus, die Sie für die Ansicht verwenden möchten (wählen Sie **[!UICONTROL Alle auswählen]** zur Auswahl aller Felder).
+1. Wählen Sie die Felder aus, die Sie für die Ansicht verwenden möchten (wählen Sie **[!UICONTROL Alle auswählen]** um alle Felder auszuwählen).
 1. Auswählen **[!UICONTROL Speichern]**.
 
    Die ausgewählten Kategorien und Felder für die Ansicht werden im Vorschaubedienfeld angezeigt.
@@ -848,9 +854,9 @@ Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Ak
 
    * **[!UICONTROL Gilt für]** - Wählen Sie optional einen Asset-Typ aus, wenn das Metadatenfeld nur auf einen bestimmten Asset-Typ angewendet werden soll.
 
-      >[!NOTE]
-      >
-      >Wählen Sie eine **[!UICONTROL Gilt für]** vorsichtig sein, da die **[!UICONTROL Gilt für]** nach der Erstellung eines benutzerdefinierten Felds. Mit Adobe Dynamic Media Classic können Sie den Namen, den Typ und den Standardwert eines benutzerdefinierten Felds bearbeiten, nicht jedoch die **[!UICONTROL Gilt für]** -Einstellung. *
+     >[!NOTE]
+     >
+     >Wählen Sie eine **[!UICONTROL Gilt für]** vorsichtig sein, da die **[!UICONTROL Gilt für]** nach der Erstellung eines benutzerdefinierten Felds. Mit Adobe Dynamic Media Classic können Sie den Namen, den Typ und den Standardwert eines benutzerdefinierten Felds bearbeiten, nicht jedoch die **[!UICONTROL Gilt für]** -Einstellung. *
 
 1. Auswählen **[!UICONTROL Speichern]** wenn Sie die Erstellung des Metadatenfelds abgeschlossen haben.
 
@@ -1024,4 +1030,3 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
 >* [Einrichten von Bildvorgaben](setting-image-presets.md#setting_up_image_presets)
 >* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 >* [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files)
-

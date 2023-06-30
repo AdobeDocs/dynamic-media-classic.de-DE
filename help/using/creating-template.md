@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 44%
@@ -103,9 +105,9 @@ Verwenden Sie diese Tools auf dem Bildschirm &quot;Vorlage&quot;, um Vorlagen zu
 
 * **[!UICONTROL Texteditor v4.3 und Texteditor v4.2]** - Sie können den neuesten Texteditor mit den meisten Funktionen, den Texteditor v4.3 oder den vorherigen Texteditor, Text Editor v4.2, verwenden. Beim Erstellen von Vorlagen ist standardmäßig der Texteditor v4.3 ausgewählt. Beim Bearbeiten älterer Vorlagen ist Texteditor Version 4.2 standardmäßig ausgewählt. Texteditor Version 4.3 unterstützt derzeit keine Umbrüche. Verwenden Sie daher Texteditor Version 4.2, wenn Sie ältere Vorlagen bearbeiten, die Umbrüche verwenden, um die Funktionsfähigkeit der Vorlage beizubehalten. Wenn Ihre ältere Vorlage keine Wortumbrüche verwendet, können Sie den Texteditor v4.3 auswählen, um die zahlreichen neuen Funktionen zu nutzen. So können Sie beispielsweise Ränder erhöhen, Ränder reduzieren, Text in allen Kapiteln einstellen und Text an Textgröße kopieren.
 
-   >[!NOTE]
-   >
-   >Der Texteditor v4.2 ist für die Entfernung als Option in Adobe Dynamic Media Classic geplant. Daher wird empfohlen, nach Möglichkeit den Texteditor 4.3 zu verwenden. Die **[!UICONTROL Wortumbruch]** wird in eine künftige Version des Texteditors aufgenommen.
+  >[!NOTE]
+  >
+  >Der Texteditor v4.2 ist für die Entfernung als Option in Adobe Dynamic Media Classic geplant. Daher wird empfohlen, nach Möglichkeit den Texteditor 4.3 zu verwenden. Die **[!UICONTROL Wortumbruch]** wird in eine künftige Version des Texteditors aufgenommen.
 
 * **[!UICONTROL Designer und Entwickler]** - Wählen Sie die Option aus, die Ihre Rolle am besten beschreibt.
 

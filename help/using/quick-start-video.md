@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Beginner
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 25%
@@ -49,24 +51,24 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
 * Videountertitel in den Viewern Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark, Universal_HTML5_MixedMedia_light und Videokapitelnavigation in den Viewern Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark und Universal_HTML5_MixedMedia_light.
 
-   Siehe [Hinzufügen von Untertiteln zu Videos](adding-captions-video.md).
+  Siehe [Hinzufügen von Untertiteln zu Videos](adding-captions-video.md).
 
-   Siehe [Hinzufügen von Kapitelmarken zu Videos](adding-chapter-markers-video.md).
+  Siehe [Hinzufügen von Kapitelmarken zu Videos](adding-chapter-markers-video.md).
 
 * Organisieren, Durchsuchen und Suchen von Videos mit vollständiger Metadatenunterstützung für eine effiziente Verwaltung von Video-Assets.
 * Bereitstellen von adaptiven Videosets für das Web, Desktops und Mobilgeräte, einschließlich iPhone, iPad, Android™, BlackBerry® und Windows® Phone.
 
-   Das adaptive Video-Streaming wird auf verschiedenen iOS-Plattformen unterstützt.
+  Das adaptive Video-Streaming wird auf verschiedenen iOS-Plattformen unterstützt.
 
-   Siehe neueste Unterstützung im Abschnitt [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Siehe neueste Unterstützung im Abschnitt [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. BlackBerry®-Geräte, die dieses Videoformat unterstützen, finden Sie auf folgender Website:
+  Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. BlackBerry®-Geräte, die dieses Videoformat unterstützen, finden Sie auf folgender Website:
 
-   Siehe [Unterstützte Videoformate in BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  Siehe [Unterstützte Videoformate in BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
-   Windows®-Geräte, die dieses Videoformat unterstützen, finden Sie unter:
+  Windows®-Geräte, die dieses Videoformat unterstützen, finden Sie unter:
 
-   Siehe [Unterstützte Videoformate auf Windows® Phone](https://docs.microsoft.com/en-us/).
+  Siehe [Unterstützte Videoformate auf Windows® Phone](https://docs.microsoft.com/en-us/).
 
 * Wiedergabe des Videos mit Adobe Dynamic Media Classic-Viewer-Vorgaben, einschließlich der folgenden:
 
@@ -96,9 +98,9 @@ Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden 
 * **Hochladen vorkodierter Videos** - Wenn Ihre Videos bereits außerhalb von Adobe Dynamic Media Classic kodiert wurden, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um MP4-Videodateien direkt zu Adobe Dynamic Media Classic zu durchsuchen und hochzuladen. Gehen Sie dann zu **[!UICONTROL Build]** > **[!UICONTROL Adaptive Videosets]**. Navigieren Sie zu Ihren Videodateien. Ziehen Sie die gewünschten Videodateien per Drag-and-Drop in die Tabelle Adaptives Videoset und speichern Sie dann das Set.
 * **Hochladen von Primärvideos** - Wenn Ihre Videos nicht kodiert sind, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um die Primärvideoquelldateien (nicht MP4) hochzuladen. Adobe Dynamic Media Classic kodiert sie in MP4-Dateien für Sie. Im **[!UICONTROL Upload-Auftragsoptionen]** Dialogfeld, unter **[!UICONTROL eVideo-Optionen]** auswählen **[!UICONTROL Adaptives Video]**.
 
-   Mit dieser bevorzugten Option können Sie ein adaptives Videoset erstellen, das automatisch die korrekte Kodierungsvorgabe (16:9 oder 4:3) entsprechend den Abmessungen des hochgeladenen Videos anpasst. Wenn Sie Ihren Upload-Auftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videoeinstellungen im richtigen Seitenverhältnis kodiert.
+  Mit dieser bevorzugten Option können Sie ein adaptives Videoset erstellen, das automatisch die korrekte Kodierungsvorgabe (16:9 oder 4:3) entsprechend den Abmessungen des hochgeladenen Videos anpasst. Wenn Sie Ihren Upload-Auftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videoeinstellungen im richtigen Seitenverhältnis kodiert.
 
-   Oder im selben **[!UICONTROL Auftragsoptionen]** Dialogfeld, unter **[!UICONTROL eVideo-Optionen]**, erweitern **[!UICONTROL Einzelne Kodierungsvorgaben]**. Auswählen einzelner Videokodierungsvorgaben, aus denen Sie möchten **Desktop**, **Mobil (iPhone, iPad, Android™)** und **Tablet (iPad, Android™)** sodass Sie die MP4-Dateien erstellen.
+  Oder im selben **[!UICONTROL Auftragsoptionen]** Dialogfeld, unter **[!UICONTROL eVideo-Optionen]**, erweitern **[!UICONTROL Einzelne Kodierungsvorgaben]**. Auswählen einzelner Videokodierungsvorgaben, aus denen Sie möchten **Desktop**, **Mobil (iPhone, iPad, Android™)** und **Tablet (iPad, Android™)** sodass Sie die MP4-Dateien erstellen.
 
 * Alternativ können Sie ein Primärvideo mithilfe der **[!UICONTROL Neuverarbeitung]** Funktion. Die neu kodierten Videos werden dem vorhandenen adaptiven Videoset hinzugefügt.
 
@@ -134,27 +136,26 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
 * Zeigen Sie das Video in einem eigenen Popup- oder modalen Fenster an. Verwenden Sie in diesem Fall die **[!UICONTROL URL kopieren]** Funktion.
 
-   Um eine URL für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Auswählen **[!UICONTROL Vorschau]** und wählen Sie **[!UICONTROL URL kopieren]** auf das Recht `Universal_HTML5_Viewer`.
+  Um eine URL für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Auswählen **[!UICONTROL Vorschau]** und wählen Sie **[!UICONTROL URL kopieren]** auf das Recht `Universal_HTML5_Viewer`.
 
-   Wenn Sie **[!UICONTROL URL kopieren]**, wird die URL in die Zwischenablage kopiert. Fügen Sie diesen Code in den HTML-Code Ihrer Website, mobilen Site oder Anwendung ein. 
+  Wenn Sie **[!UICONTROL URL kopieren]**, wird die URL in die Zwischenablage kopiert. Fügen Sie diesen Code in den HTML-Code Ihrer Website, mobilen Site oder Anwendung ein. 
 
-   >[!NOTE]
-   >
-   >URLs werden erst aktiv, nachdem Sie das Video oder das adaptive Videoset veröffentlicht haben.
+  >[!NOTE]
+  >
+  >URLs werden erst aktiv, nachdem Sie das Video oder das adaptive Videoset veröffentlicht haben.
 
 * Zeigen Sie das eingebettete Video auf der Web-Seite an. Verwenden Sie in diesem Fall die **[!UICONTROL Einbettungscode]** Funktion.
 
-   Um den Einbettungscode für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Navigieren Sie zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungscode]** auf das Recht `Universal_HTML5_Video`. Das Bearbeiten des Codes ist nicht zulässig.
+  Um den Einbettungscode für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Navigieren Sie zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungscode]** auf das Recht `Universal_HTML5_Video`. Das Bearbeiten des Codes ist nicht zulässig.
 
-   Auswählen **[!UICONTROL Schließen]** und fügen Sie den Einbettungscode in Ihre Webseiten ein.
+  Auswählen **[!UICONTROL Schließen]** und fügen Sie den Einbettungscode in Ihre Webseiten ein.
 
-   >[!NOTE]
-   >
-   >Der Einbettungscode wird erst aktiv, nachdem Sie das Video oder das adaptive Videoset veröffentlicht haben.
+  >[!NOTE]
+  >
+  >Der Einbettungscode wird erst aktiv, nachdem Sie das Video oder das adaptive Videoset veröffentlicht haben.
 
 Siehe [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >
 >* [Optimale Vorgehensweisen für die Videokodierung](uploading-encoding-videos.md#best_practices_for_video_encoding)
-

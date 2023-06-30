@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ In dieser Tabelle sind die zulässigen Aufgaben für die einzelnen Rollen aufgel
 | Metadaten durchsuchen | X | X | X |
 | Dateivorschau | X | X | X |
 | Dateien suchen | X | X | X |
-| Hochladen von Dateien in Adobe Dynamic Media Classic |  | X | X |
-| Asset-Metadaten bearbeiten und importieren |  | X | X |
-| Ordner erstellen, umbenennen und löschen |  | X | X |
-| Asset-Metadaten exportieren | X |  | X |
-| Dateinamen ändern |  | X | X |
-| Dateien in andere Ordner verschieben |  | X | X |
-| Dateien umbenennen |  | X | X |
-| Dateien löschen |  | X | X |
-| Exportieren (Herunterladen) von Dateien aus Adobe Dynamic Media Classic | X |  | X |
+| Hochladen von Dateien in Adobe Dynamic Media Classic | | X | X |
+| Asset-Metadaten bearbeiten und importieren | | X | X |
+| Ordner erstellen, umbenennen und löschen | | X | X |
+| Asset-Metadaten exportieren | X | | X |
+| Dateinamen ändern | | X | X |
+| Dateien in andere Ordner verschieben | | X | X |
+| Dateien umbenennen | | X | X |
+| Dateien löschen | | X | X |
+| Exportieren (Herunterladen) von Dateien aus Adobe Dynamic Media Classic | X | | X |

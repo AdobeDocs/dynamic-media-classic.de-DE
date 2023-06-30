@@ -9,7 +9,9 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3929'
 ht-degree: 31%
@@ -121,9 +123,9 @@ Stellen Sie sicher, dass alle Benutzer in Ihrem Unternehmen die folgenden Regeln
 * Asset-IDs sollten keine Leerzeichen enthalten (z. B. nicht „Schwarze Jacke.tif“ oder „Blaue Jacke.jpg“). Adobe Dynamic Media Classic ASCII-kodiert leere Leerzeichen in Asset-Namen, wenn es Asset-Namen verwendet, um URL-Zeichenfolgen zu erstellen. Diese ASCII-Codierung beeinträchtigt jedoch die Lesbarkeit der URLs.
 * Sprachspezifische Zeichen sind in Dateinamen zulässig. Allerdings dürfen Dateinamen die folgenden Zeichen nicht enthalten:
 
-   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
-   Wenn ein Dateiname eines oder mehrere der oben aufgeführten Zeichen enthält, werden die Zeichen beim Hochladen aus dem Dateinamen entfernt.
+  Wenn ein Dateiname eines oder mehrere der oben aufgeführten Zeichen enthält, werden die Zeichen beim Hochladen aus dem Dateinamen entfernt.
 
 Normalerweise kann ein Asset-Dateiname mit der Artikelnummer, Produkt-SKU oder einem anderen Namen wie im Folgenden übereinstimmen:
 
@@ -209,7 +211,7 @@ Beim Hochladen von Dateien können Sie im Dialogfeld &quot;Upload-Auftragsoption
 
 * **AUFTRAG** - Auswählen **[!UICONTROL AUFTRAG]** , um Optionen auszuwählen, die sich auf den gesamten Upload-Auftrag auswirken.
 
-   Sie können auch *default* Optionen zum Hochladen von Aufträgen mithilfe der **[!UICONTROL Standardmäßige Upload-Optionen]** in den allgemeinen Einstellungen. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Standardmäßige Upload-Optionen]** und legen Sie dann die gewünschten Standardoptionen fest.
+  Sie können auch *default* Optionen zum Hochladen von Aufträgen mithilfe der **[!UICONTROL Standardmäßige Upload-Optionen]** in den allgemeinen Einstellungen. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Standardmäßige Upload-Optionen]** und legen Sie dann die gewünschten Standardoptionen fest.
 
    * **[!UICONTROL Wann]** - Diese Option ist nur verfügbar, wenn Sie die **[!UICONTROL ÜBER FTP]** Registerkarte.
       * **[!UICONTROL Einmalig]** - Geben Sie einen Upload-Auftrag an, der einmal ausgeführt wird. Zu den Optionen gehören:
@@ -220,6 +222,7 @@ Beim Hochladen von Dateien können Sie im Dialogfeld &quot;Upload-Auftragsoption
          * **[!UICONTROL Wöchentlich]** - Wählen Sie einen bestimmten Wochentag und eine bestimmte Uhrzeit aus, zu der der Auftrag ausgeführt werden soll.
          * **[!UICONTROL Monatlich]** - Wählen Sie einen bestimmten Tag des Monats oder Wochentags aus, einschließlich der Startzeit, für die der Auftrag ausgeführt werden soll.
          * **[!UICONTROL Benutzerdefiniert]** - Passen Sie das Zeitintervall für Upload- oder Veröffentlichungsaufträge an Ihre eigenen Spezifikationen an. Siehe [Benutzerdefiniertes Upload- oder Veröffentlichungsauftragszeitintervall erstellen](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+
    * **[!UICONTROL Nach dem Hochladen veröffentlichen]** - Verfügbar, wenn Sie entweder **[!UICONTROL VON DESKTOP]** oder **[!UICONTROL ÜBER FTP]** Registerkarte. Wählen Sie diese Option, um die hochgeladenen Elemente automatisch zu veröffentlichen. Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung.
 
    * **[!UICONTROL In einem beliebigen Ordner Assets mit ident. Namen unabhängig von Erweiterung überschreiben]** - Verfügbar, wenn Sie entweder **[!UICONTROL VON DESKTOP]** oder **[!UICONTROL ÜBER FTP]** Registerkarte. Aktivieren Sie diese Option, wenn die hochgeladenen Dateien vorhandene gleichnamige Dateien ersetzen sollen. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung. Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Anwendung hochladen]** > **[!UICONTROL Bilder überschreiben]**.
@@ -232,7 +235,6 @@ Aktivieren Sie diese Option, wenn Sie auch die Unterordner im hochzuladenden Ord
 
    * **[!UICONTROL Verarbeiten von Metadatendateien]** - Nur verfügbar, wenn Sie entweder **[!UICONTROL ÜBER FTP]** Registerkarte. Wenn diese Option aktiviert ist, können Sie eine tabulatorgetrennte Datei oder XML-Datei hochladen, um gleichzeitig mehreren Assets Metadaten hinzuzufügen.
 Siehe [Importieren von Metadaten (über FTP)](viewing-adding-exporting-metadata.md#import-metadata).
-
 
 * **Optionen für das Zuschneiden** - Um automatisch weiße Leerraum-Pixel aus einem Bild zu beschneiden, öffnen Sie die **[!UICONTROL Zuschneiden]** Menü auswählen **[!UICONTROL Manuell]** und geben Sie die Pixelmessungen in die Textfelder &quot;Oben&quot;, &quot;Rechts&quot;, &quot;Unten&quot;und &quot;Links&quot;ein, um sie von den Seiten zu beschneiden. Sie können auch **[!UICONTROL Zuschneiden]** Wählen Sie im Menü &quot;Zuschneiden&quot;die folgenden Optionen aus:
 
@@ -305,4 +307,3 @@ Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adress
 >* [Arbeiten mit Asset-Ordnern](asset-folders.md#working_with_asset_folders)
 >* [Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Upload- oder Veröffentlichungsauftrag als Trigger verwenden](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
-

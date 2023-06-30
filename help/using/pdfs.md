@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ Siehe auch [ICC-Profile](/help/using/icc-profiles.md#icc_profiles).
       * **[!UICONTROL Farbe]** - Wählen Sie die Option Farbe aus. Wählen Sie dann die **[!UICONTROL Ecke]** und wählen Sie die Ecke des PDF mit der Farbe aus, die am besten der zu beschneidenden Leerraumfarbe entspricht.
 
       * **[!UICONTROL Transparenz]** - Wählen Sie die Option Transparenz aus.
+
    * **[!UICONTROL Toleranz]** - Ziehen Sie den Regler, um eine Toleranz von 0 bis 1 anzugeben.
 
    * **[!UICONTROL Beschneiden anhand der Farbe]** - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Ecke des PDF ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
    * **[!UICONTROL Auf Transparenz basierende Beschneidung]** - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
-
 
 ## Beschneiden von Seiten auf PDF-Seiten {#cropping-from-the-sides-of-pdf-pages}
 

@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 19%
@@ -113,11 +115,11 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 
    * **Metadatenfeld auswählen** - Wählen Sie im Filtermenü den Namen des Felds aus.
 
-      >[!NOTE]
-      >
-      >Nur die Namen von Metadatenfeldern der standardmäßigen Metadaten-Ansicht werden im Filtermenü angezeigt. 
+     >[!NOTE]
+     >
+     >Nur die Namen von Metadatenfeldern der standardmäßigen Metadaten-Ansicht werden im Filtermenü angezeigt. 
 
-      Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
+     Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
 
    * **Hinzufügen von Metadatenfeldern** - Auswählen **[!UICONTROL Bedienfeld hinzufügen]**. Nachdem das Bedienfeld im Bereich &quot;Filter&quot;angezeigt wird, wählen Sie dessen **[!UICONTROL Feld]** und wählen Sie im Filtermenü den Namen eines Metadatenfelds aus.
 
@@ -127,7 +129,6 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 
    * alle in das Feld eingegebenen Metadatenwerte.
    * für jeden Metadatenwert die Anzahl der Assets mit diesem Wert.
-
 
 1. Wiederholen Sie Schritt 2 so oft wie nötig, um alle Metadatenfelder in Bedienfeldern anzuzeigen, die Sie für den Filtervorgang verwenden möchten.
 1. Wählen Sie in jedem Bedienfeld einen Metadatenwert aus, nach dem gefiltert werden soll. Sie können nicht mehr als einen Metadatenwert in jedem Bedienfeld auswählen.
@@ -172,4 +173,3 @@ Auswählen **[!UICONTROL Jetzt veröffentlichen]** , um den Auftrag zu starten. 
 >
 >* [Grundlagen der Navigation](navigation-basics.md#navigation_basics)
 >* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

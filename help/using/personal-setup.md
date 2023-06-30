@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Dateigröße anzeigen]** - Zeigt die Dateigröße eines Assets beim Durchsuchen an.
 * **[!UICONTROL Einschließen von UDFs in die Suche]** - Um die Systemleistung für die meisten von Ihnen ausgeführten Metadatensuchen zu verbessern, deaktivieren Sie (Standard).
 
-   Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ bietet Ihnen die erweiterte Suche eine zielgerichtetere und schnellere Suche als bei der Verwendung benutzerdefinierter Felder.
+  Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ bietet Ihnen die erweiterte Suche eine zielgerichtetere und schnellere Suche als bei der Verwendung benutzerdefinierter Felder.
 
-   Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
+  Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
 
-   Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
+  Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
 
 * **[!UICONTROL Einfacher Suchtyp]** - Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die vollständige Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als **[!UICONTROL Enthält]**. Jede der Optionen setzt die in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Programmeinstellungen]** durch den Administrator.
 * **[!UICONTROL Befehls-Feedback anzeigen]** - Aktivieren Sie diese Option, um die Anzeige von Befehlsanforderungen an den Server zu aktivieren. Deaktivieren Sie diese Option, um sie zu deaktivieren.

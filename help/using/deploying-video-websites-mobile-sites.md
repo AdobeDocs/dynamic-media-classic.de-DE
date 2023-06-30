@@ -10,7 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 34%
@@ -61,15 +63,15 @@ Siehe auch [Einbetten des Video-Viewers auf einer Web-Seite](deploying-video-web
    * Auswählen **[!UICONTROL Rasteransicht]** oder **[!UICONTROL Listenansicht]**. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf eine Videominiatur, um sie in der Detailansicht zu öffnen. Wählen Sie im Bereich &quot;URLs&quot;und &quot;Einbettungscode&quot;auf der rechten Seite unter &quot;HTTP Streaming&quot;die Option **[!UICONTROL URL kopieren]** rechts neben dem gewünschten Viewer. Als Best Practice wird empfohlen, die URL zu kopieren, die der `Universal_HTML5_Video` Viewer.
    * Auswählen **[!UICONTROL Rasteransicht]**. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**. Als Best Practice wird empfohlen, die URL zu kopieren, die der `Universal_HTML5_Video` Viewer.
+     Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**. Als Best Practice wird empfohlen, die URL zu kopieren, die der `Universal_HTML5_Video` Viewer.
 
    * Auswählen **[!UICONTROL Listenansicht]**. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**. Als Best Practice wird empfohlen, die URL zu kopieren, die der `Universal_HTML5_Video` Viewer.
+     Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**. Als Best Practice wird empfohlen, die URL zu kopieren, die der `Universal_HTML5_Video` Viewer.
 
    * Auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**. Als Best Practice wird empfohlen, die URL zu kopieren, die der `Universal_HTML5_Video` Viewer.
+     Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**. Als Best Practice wird empfohlen, die URL zu kopieren, die der `Universal_HTML5_Video` Viewer.
 
 1. Fügen Sie die HTML5 Video-URL auf Ihrer Website und Ihrer mobilen Site ein.
 
@@ -88,15 +90,15 @@ Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](dep
    * Auswählen **[!UICONTROL Rasteransicht]** oder **[!UICONTROL Listenansicht]**. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf eine Videominiatur, um sie in der Detailansicht zu öffnen. Wählen Sie im Bereich &quot;URLs&quot;und &quot;Einbettungscode&quot;auf der rechten Seite unter &quot;HTTP Streaming&quot;die Option **[!UICONTROL Einbettungscode]** rechts neben dem gewünschten Viewer. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
    * Auswählen **[!UICONTROL Rasteransicht]**. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und wählen Sie dann unter dem Videominiaturbild die Option **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
+     Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
 
    * Auswählen **[!UICONTROL Listenansicht]**. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
+     Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
 
    * Auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
+     Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
 
 1. Wählen Sie im Dialogfeld Einbettungscode die Option **[!UICONTROL In Zwischenablage kopieren]**.
 
@@ -119,15 +121,15 @@ Wenn Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sond
 
 * Ersetzen `"S7 video thumbnail URL"` mit der Miniatur-URL des Videos, der dem Miniaturbild des Videos entspricht, das einem Benutzer vor der Wiedergabe des Videos angezeigt wird.
 
-   Siehe [Abrufen von URLs für Videominiaturen](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  Siehe [Abrufen von URLs für Videominiaturen](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * Ersetzen `"S7 OGG video asset URL (no player)"` mit der progressiven URL des Videos für OGG-Videos.
 
-   Siehe [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Siehe [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * Ersetzen `"S7 MP4 mobile progressive video asset URL (no player)"` mit der progressiven mobilen URL des Videos.
 
-   Siehe [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Siehe [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## Bereitstellen von Videos mit einem Video-Player eines Drittanbieters {#deploying-video-using-a-third-party-video-player}
 
@@ -140,28 +142,28 @@ Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten 
 
 * So generieren Sie eine direkte HLS-Streaming-Video-URL (Multi-Bitrate)
 
-   Im **[!UICONTROL Allgemeine Programmeinstellungen]** in der **[!UICONTROL Server]** in der Gruppe **[!UICONTROL Veröffentlichter Servername]** Textfeld erstellen, erstellen Sie die direkte URL. Verwenden Sie die folgende Syntax: `server/is/content/company/folder/filename.m3u8`
+  Im **[!UICONTROL Allgemeine Programmeinstellungen]** in der **[!UICONTROL Server]** in der Gruppe **[!UICONTROL Veröffentlichter Servername]** Textfeld erstellen, erstellen Sie die direkte URL. Verwenden Sie die folgende Syntax: `server/is/content/company/folder/filename.m3u8`
 
-   Angenommen, der Name des veröffentlichten Servers lautet `https://s7d9.scene7.com/.` Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
-   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
+  Angenommen, der Name des veröffentlichten Servers lautet `https://s7d9.scene7.com/.` Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
+  `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * So generieren Sie eine direkte HLS-Streaming-Video-URL (Einzelbit-Rate)
 
-   Im **[!UICONTROL Allgemeine Programmeinstellungen]** in der **[!UICONTROL Server]** in der Gruppe **[!UICONTROL HLS-Streaming-Server-Name]** Textfeld die direkte URL mithilfe der folgenden Syntax erstellen:
+  Im **[!UICONTROL Allgemeine Programmeinstellungen]** in der **[!UICONTROL Server]** in der Gruppe **[!UICONTROL HLS-Streaming-Server-Name]** Textfeld die direkte URL mithilfe der folgenden Syntax erstellen:
 
-   `server/company/folder/filename.ext.m3u8`
+  `server/company/folder/filename.ext.m3u8`
 
-   Angenommen, der Name des HLS-Streaming-Servers lautet `https://s7mbrstream.scene7.com/hls-vod/`. Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
-   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
+  Angenommen, der Name des HLS-Streaming-Servers lautet `https://s7mbrstream.scene7.com/hls-vod/`. Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
+  `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * So generieren Sie eine direkte URL für ein progressives Video
 
-   Erstellen Sie auf der Seite **[!UICONTROL Allgemeine Programmeinstellungen]** in der Gruppe **[!UICONTROL Server]** im Textfeld **[!UICONTROL Servername für progressives Video]** die direkte URL für das eVideo unter Verwendung der folgenden Syntax:
+  Erstellen Sie auf der Seite **[!UICONTROL Allgemeine Programmeinstellungen]** in der Gruppe **[!UICONTROL Server]** im Textfeld **[!UICONTROL Servername für progressives Video]** die direkte URL für das eVideo unter Verwendung der folgenden Syntax:
 
-   `server/company/folder/filename`
+  `server/company/folder/filename`
 
-   Angenommen, der Name des progressiven Video-Servers lautet `https://s7d9.scene7.com/is/content/`. Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
-   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
+  Angenommen, der Name des progressiven Video-Servers lautet `https://s7d9.scene7.com/is/content/`. Unter Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
+  `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Arbeiten mit Videominiaturen {#working-with-video-thumbnails}
 

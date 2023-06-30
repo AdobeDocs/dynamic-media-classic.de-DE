@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 31%
@@ -58,7 +60,7 @@ Zoomziele, Bildattribute und Verlaufseinträge werden endgültig gelöscht, wenn
    * Um ein oder mehrere Assets zu löschen, wählen Sie die Assets im Durchsuchenbedienfeld aus und drücken Sie die Eingabetaste **[!UICONTROL Löschen]** oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
    * Um einen Ordner zu löschen, wählen Sie ihn in der Asset-Bibliothek aus und klicken Sie auf **[!UICONTROL Ordner löschen]**.
 
-      Beim Löschen eines Ordners werden der Ordner, alle Assets im Ordner und alle Assets in den zugehörigen Unterordnern gelöscht.
+     Beim Löschen eines Ordners werden der Ordner, alle Assets im Ordner und alle Assets in den zugehörigen Unterordnern gelöscht.
 
 Adobe Dynamic Media Classic empfiehlt, Asset-Dateien zu überschreiben, anstatt sie zu löschen, wenn der Grund für das Löschen einer Asset-Datei darin besteht, sie durch andere Dateien mit demselben Namen zu ersetzen.
 
@@ -81,4 +83,3 @@ Wenn Sie Assets mit einer Textdatei löschen und keine Adobe Dynamic Media Class
 >* [Auswählen von Assets im Bedienfeld &quot;Durchsuchen&quot;](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Vorbereiten der Assets und Ordner auf das Hochladen](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Wiederherstellen von Assets aus dem Ordner &quot;Papierkorb&quot;](trash-folder.md#restoring_assets_from_the_trash_folder)
-

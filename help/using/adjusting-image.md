@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -41,17 +43,17 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
    * Um das Original des Bildes zu ersetzen, wählen Sie **[!UICONTROL Speichern unter]**.
 
-      Wählen Sie in der Dropdown-Liste **[!UICONTROL Original ersetzen]** und wählen Sie **[!UICONTROL Speichern]**.
+     Wählen Sie in der Dropdown-Liste **[!UICONTROL Original ersetzen]** und wählen Sie **[!UICONTROL Speichern]**.
 
    * Um das Bild als neues Übergeordnetes Bild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
 
-      Wählen Sie in der Dropdownliste **[!UICONTROL Als neue Masterversion speichern]**.
+     Wählen Sie in der Dropdownliste **[!UICONTROL Als neue Masterversion speichern]**.
 Im **[!UICONTROL Ordnername]** Listenfeld den Ordner auswählen, in dem das neue Primärbild gespeichert werden soll.
 Auswählen **[!UICONTROL Speichern]**.
 
    * So speichern Sie das Bild als eine andere Ansicht des Primärbilds. können Sie einen Alias erstellen. Auswählen **[!UICONTROL Speichern unter]**.
 
-      Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als weitere Ansicht von Übergeordneten speichern]**.
+     Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als weitere Ansicht von Übergeordneten speichern]**.
 Im **[!UICONTROL Ordnername]** Listenfeld den Ordner auswählen, in dem das neue Primärbild gespeichert werden soll.
 Auswählen **[!UICONTROL Speichern]**.
 

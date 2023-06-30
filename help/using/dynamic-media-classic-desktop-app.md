@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -56,11 +58,11 @@ Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-De
 * Das Desktop-Programm reagiert nicht mehr, normalerweise nach den Vorgängen &quot;Set&quot;.
 * Verschleierung und Sperrmodus für Anfragen automatisch aktiviert unter **[!UICONTROL Image-Serving testen]**.
 
-   Siehe [Testen des Secure Testing-Dienstes](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  Siehe [Testen des Secure Testing-Dienstes](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * Der Authentifizierungsmechanismus wurde mit Adobe Analytics aktualisiert. Relevant für neue Integrationen oder wenn einige Analytics-Variablen vom Dynamic Media Classic-Desktop-Programm aus aktualisiert werden müssen.
 
-   Siehe [Bei Adobe Analytics anmelden](/help/using/log-analytics.md) für aktualisierte Schritte.
+  Siehe [Bei Adobe Analytics anmelden](/help/using/log-analytics.md) für aktualisierte Schritte.
 
 ## Fehlerbehebungen in Version 20.21.2 {#minor-release}
 
@@ -99,11 +101,11 @@ Verwandte Themen:
 
       * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
       * [Windows (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+
    * Die vorherige Version ist verfügbar unter:
 
       * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
-
 
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
@@ -118,12 +120,12 @@ Verwandte Themen:
 
    * **macOS** -Im **[!UICONTROL Drag &amp; Drop zum Installieren]** Dialogfeld, ziehen **[!UICONTROL Adobe Dynamic Media Classic]** und legen Sie sie auf **[!UICONTROL Anwendungen]**.
 
-      ![Installieren per Drag &amp; Drop in macOS](/help/using/assets/dragondrop-install1.png)
+     ![Installieren per Drag &amp; Drop in macOS](/help/using/assets/dragondrop-install1.png)
 
    * Im **[!UICONTROL Anwendungen]** auf das Symbol Adobe Dynamic Media Classic.
    * Tippen Sie im Dialogfeld auf **[!UICONTROL Öffnen]** , um das Adobe Dynamic Media Classic-Desktop-Programm zu öffnen.
 
-      ![Heruntergeladene App öffnen](/help/using/assets/open-dmclassicapp1.png)
+     ![Heruntergeladene App öffnen](/help/using/assets/open-dmclassicapp1.png)
 
    * **Windows** - Führen Sie die Binärdatei des Installationsprogramms aus und befolgen Sie die Anweisungen auf dem Bildschirm, um das Desktop-Programm zu installieren.
 
@@ -263,7 +265,7 @@ Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm lösche
 * Wählen Sie in der Adobe Dynamic Media Classic-App das neue Unternehmen aus der Dropdownliste &quot;Unternehmen&quot;aus.
 * Wenn das Popup-Fenster angezeigt wird, tippen Sie auf **[!UICONTROL OK]** , um sich abzumelden und die App zu schließen.
 
-   ![Um das neue Unternehmen zu verwenden, starten Sie das Programm neu](/help/using/assets/dmclassic-new-company1.png)
+  ![Um das neue Unternehmen zu verwenden, starten Sie das Programm neu](/help/using/assets/dmclassic-new-company1.png)
 
 * Starten Sie Adobe Dynamic Media Classic neu und melden Sie sich wie gewohnt an, um mit dem neuen Unternehmen zusammenzuarbeiten.
 

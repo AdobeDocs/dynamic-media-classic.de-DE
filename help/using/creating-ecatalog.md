@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 56%
@@ -42,9 +44,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    * **Vom eCatalog-Bildschirm starten** - Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
 
-      >[!NOTE]
-      >
-      >Um die Elemente in der Asset-Bibliothek als Liste der Namen anzuzeigen statt als Miniaturansichten, wählen Sie unter „Persönliche Einstellungen“ als Standardansicht für die Asset-Bibliothek die Option „Name“ aus.
+     >[!NOTE]
+     >
+     >Um die Elemente in der Asset-Bibliothek als Liste der Namen anzuzeigen statt als Miniaturansichten, wählen Sie unter „Persönliche Einstellungen“ als Standardansicht für die Asset-Bibliothek die Option „Name“ aus.
 
 1. Wählen Sie ein Gesamtlayout für den E-Katalog aus. Auswählen **[!UICONTROL 1 Up]** für einzelne Seiten, **[!UICONTROL 2 Up]** bei doppelseitigen Tabellen oder **[!UICONTROL Benutzerdefiniert]** für Seitenaufschläge von mehr als zwei Seiten. Im **[!UICONTROL Ändern des eCatalog-Layouts]** auswählen, wählen Sie das **[!UICONTROL Alle Spreads]** Optionen und wählen Sie **[!UICONTROL OK]**.
 1. Optional können Sie das Layout einzelner Seiten oder Seitenaufteilungen ändern, indem Sie sie auswählen und dann **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Benutzerdefiniert]** Schaltfläche. Im **[!UICONTROL Ändern des eCatalog-Layouts]** auswählen, wählen Sie das **[!UICONTROL Ausgewählte Spreads]** Optionen und wählen Sie **[!UICONTROL OK]**.
