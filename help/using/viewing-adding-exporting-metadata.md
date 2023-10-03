@@ -12,7 +12,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '2261'
 ht-degree: 45%
@@ -21,7 +21,7 @@ ht-degree: 45%
 
 # Anzeigen, Hinzufügen und Exportieren von Metadaten{#viewing-adding-and-exporting-metadata}
 
-Sie können Informationen speichern, die für die Dateien gelten, mit denen Sie in Adobe Dynamic Media Classic arbeiten. diese Informationen werden *Metadaten*. Sie können Metadaten in Adobe Dynamic Media Classic zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
+Sie können spezifische Informationen zu den Dateien speichern, mit denen Sie in Adobe Dynamic Media Classic arbeiten. Diese Informationen werden *Metadaten*. Sie können Metadaten in Adobe Dynamic Media Classic zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
 
 Metadaten werden in der Detailansicht zusammen mit Adobe Dynamic Media Classic-generierten Informationen wie dem Erstellungsdatum der Datei, dem Veröffentlichungsdatum und Schlüsselwörtern angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie dann das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
 
@@ -35,7 +35,7 @@ Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailans
 
 * **Kompakte Ansicht** - Eine einfache Werteliste.
 
-* **IPTC** - Werte gemäß der Definition des Internationalen Rates für Presse und Kommunikation.
+* **IPTC** - Werte gemäß der Definition des Internationalen Rates für Presse und Telekommunikation.
 
 * **XMP** - Werte, wie vom Erweiterbaren Metadatenprogramm definiert.
 
@@ -68,13 +68,13 @@ Wenn Sie während dieser Sitzung Suchbegriffe zu anderen Dateien hinzugefügt ha
 1. Führen Sie einen der folgenden Schritte aus, um Schlüsselwörter hinzuzufügen:
 
    * Geben Sie einen Suchbegriff in das Textfeld ein und wählen Sie **[!UICONTROL Hinzufügen]**.
-   * Wählen Sie einen Suchbegriff im **[!UICONTROL Suchbegriffvorschläge]** Tabelle.
+   * Wählen Sie im **[!UICONTROL Suchbegriffvorschläge]** Tabelle.
 
 1. Um einen Suchbegriff zu entfernen, wählen Sie ihn aus und klicken Sie auf **[!UICONTROL Entfernen]**. Es wird in die Tabelle für Schlüsselwortvorschläge verschoben.
 
 >[!NOTE]
 >
->Sie können Dateien beim Hochladen in Adobe Dynamic Media Classic Suchbegriffe hinzufügen. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Zusätzliche Metadaten]** und Keywords eingeben.
+>Sie können Dateien beim Hochladen in Adobe Dynamic Media Classic Suchbegriffe hinzufügen. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Zusätzliche Metadaten]** und geben Sie Suchbegriffe ein.
 >Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
 ## Importieren von Metadaten {#import-metadata}
@@ -89,7 +89,7 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 Weitere Informationen zu standardisierten Eigenschaften finden Sie unter [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
 1. Wählen Sie im Durchsuchenbedienfeld die Bilder aus, denen Sie Metadaten aus der tabulatorgetrennten oder XML-Datei hinzufügen möchten.
-1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Importieren von Metadaten]**.
+1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
 1. Im **[!UICONTROL Hochladen von Metadaten]** Dialogfeld auswählen **[!UICONTROL Durchsuchen]**.
 1. Wählen Sie im Dialogfeld **[!UICONTROL Hochzuladende Dateien auswählen]** die tabulatorgetrennte Datei bzw. die XML-Datei mit den Metadaten aus.
 1. Geben Sie einen Auftragsnamen ein.
@@ -103,7 +103,7 @@ Beachten Sie Folgendes, wenn verschiedene Metadaten-Typen für den Import identi
 * Bei den XMP-Metadaten-Eigenschaften muss das entsprechende XMP-Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das XMP-Präfix finden Sie unter **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Metadatenschema]** Editor. Die technischen Namen finden Sie in der Dokumentation zum jeweiligen XMP-Schema. XMP Eigenschaftsnamen werden nicht in der Funktion Datei generieren angezeigt.
 * Bei den Metadaten-Eigenschaften muss das entsprechende Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das Präfix und die Eigenschaftsnamen werden im Metadaten-Schema-Editor definiert. Namen von Metadatenschema-Eigenschaften werden nicht in der Funktion Datei generieren angezeigt.
 
-Beispiel: Die XMP-Eigenschaft für Suchbegriffe ist das XMP Schema &quot;Dublin Core&quot;mit dem Präfix `dc` und `subject` ist der technische XMP. Das Präfix und der technische XMP werden im `dc:subject` vollständiger Eigenschaftsname. Im XML-Metadaten-Importformat: `dc.subject` muss der Eigenschaftsname sein. Im tabulatorgetrennten Importformat muss es sich um die Spaltenüberschrift handeln.
+Beispiel: Die XMP-Eigenschaft für Suchbegriffe ist das XMP Schema &quot;Dublin Core&quot;mit dem Präfix `dc` und `subject` ist der technische XMP. Das Präfix und der technische XMP werden in der `dc:subject` vollständiger Eigenschaftsname. Im XML-Metadaten-Importformat: `dc.subject` muss der Eigenschaftsname sein. Im tabulatorgetrennten Importformat muss es sich um die Spaltenüberschrift handeln.
 
 ### Importieren von Schlüsselwörtern
 
@@ -133,13 +133,13 @@ Sie können Metadaten für mehrere Dateien importieren, indem Sie die Metadaten 
 
 Stellen Sie sicher, dass die Daten in der tabulatorgetrennten Datei oder in der XML-Datei im korrekten Format vorliegen. Geben Sie in die erste Zeile das ID-Feld, gefolgt von den Namen der Metadaten-Felder ein, die geändert werden sollen. Geben Sie in die nächsten Zeilen jeweils einen Asset-ID-Namen gefolgt von den Metadaten-Werten ein. Felder, die nicht in der tabulatorgetrennten Datei oder in der XML-Datei enthalten sind, werden nicht geändert.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]**. Um die Metadaten zu importieren, wählen Sie auf der Seite &quot;Hochladen&quot;die **[!UICONTROL Über FTP]** Registerkarte und wählen Sie **[!UICONTROL Auftragsoptionen]**. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Auftrag]**, wählen Sie **[!UICONTROL Verarbeiten von Metadatendateien]** aktivieren.
+Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]**. Um die Metadaten zu importieren, wählen Sie auf der Seite Hochladen die **[!UICONTROL Über FTP]** Registerkarte und wählen Sie **[!UICONTROL Auftragsoptionen]**. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Auftrag]**, wählen Sie **[!UICONTROL Verarbeiten von Metadatendateien]** aktivieren.
 
 ## Stapel-Umbenennung von IDs mit Metadaten {#batch-rename-ids-using-metadata}
 
 Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder einer XML-Datei importiert wurden, können Sie Adobe Dynamic Media Classic-IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Es spielt keine Rolle, ob Bilder im Durchsuchenbedienfeld ausgewählt sind.
 
-Um die Adobe Dynamic Media Classic ID eines Bildes umzubenennen, fügen Sie eine Spalte mit der Bezeichnung *newipsid* der tabulatorgetrennten Datei hinzugefügt oder ein Feld mit dem Namen `new_vc_objectname` den XML-Daten.
+Um die Adobe Dynamic Media Classic ID eines Bildes umzubenennen, fügen Sie eine Spalte mit der Bezeichnung *newipsid* der tabulatorgetrennten Datei hinzugefügt oder ein Feld mit dem Namen `new_vc_objectname` zu den XML-Daten.
 
 Beispiel:
 
@@ -155,7 +155,7 @@ Das Auftragsprotokoll für den Metadatenauftrag zeigt an, welche IDs erfolgreich
 Adobe Dynamic Media Classic bietet einen Befehl zum Erstellen einer Vorlage zum Aufzeichnen von Metadaten. Die Verwendung der Vorlage stellt sicher, dass die Metadaten im richtigen Format eingegeben werden, damit sie korrekt in Adobe Dynamic Media Classic hochgeladen werden können. Gehen Sie wie folgt vor, um eine Vorlage für die Aufzeichnung und den Import von Metadaten in Adobe Dynamic Media Classic zu erstellen:
 
 1. Wählen Sie Bild-Assets mit Metadatenfeldern aus, die Sie für Ihre Vorlage verwenden möchten.
-1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Importieren von Metadaten]**.
+1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
 1. Für **[!UICONTROL Asset-Eigenschaftstyp]** auswählen **[!UICONTROL Bild]**.
 1. Aus dem **[!UICONTROL Datei generieren]** Dropdown-Liste auswählen **[!UICONTROL Tabulatorgetrennte Vorlage]**, **[!UICONTROL XML-Metadaten des Assets]** oder **[!UICONTROL XML DTD]**.
 1. Auswählen **[!UICONTROL Erzeugen]**.
@@ -173,7 +173,7 @@ Sie können den Metadaten-Schema-Editor verwenden, um die folgenden Aktionen aus
 
 | Aktion | Beschreibung |
 | --- | --- |
-| Hinzufügen | Fügt dem Schema eine Eigenschaft hinzu. Ein modales Dialogfeld erfasst die folgenden Informationen: ID, Beschriftung, Struktur und Datentyp. |
+| Hinzufügen | Fügt dem Schema eine Eigenschaft hinzu. Ein modales Dialogfeld erfasst die Informationen: ID, Titel, Struktur und Datentyp. |
 | Auswahlwert hinzufügen | Fügt einer Eigenschaft mit „Offene Auswahl“ oder „Geschlossene Auswahl“ eine neue Auswahloption hinzu. Alle Auswahlwerte haben den gleichen Typ. Wählen Sie die Eigenschaft selbst aus, um die Schaltfläche zu aktivieren. |
 | Bearbeiten | Bearbeiten der Beschriftung einer Eigenschaft oder eines Auswahlwertes. Sie können nur die Beschriftung und ID ändern, nicht aber die Typinformationen. |
 | Nach oben verschieben/Nach unten verschieben | Die Reihenfolge im Schema wird in der Benutzeroberfläche übernommen. Um die Reihenfolge zu ändern, wählen Sie eine Eigenschaft oder einen Auswahlwert aus und verschieben diese mit den Schaltflächen. Drag &amp; Drop wird derzeit nicht unterstützt. |

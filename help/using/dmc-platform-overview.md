@@ -12,7 +12,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 17%
@@ -33,9 +33,9 @@ Die wichtigsten Schritte des Adobe Dynamic Media Classic-Workflows sind:
 
 * **Rich Media erstellen** - Erstellen Sie unterschiedliche Konfigurationen Ihrer Assets wie E-Kataloge, Bildsets, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen.
 
-* **Veröffentlichen und Verwalten** - Veröffentlichen Sie Assets im SaaS-Netzwerk von Adobe Dynamic Media Classic. Überwachen Sie den Status von Assets, wenn sie veröffentlicht werden. Verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
+* **Veröffentlichen und Verwalten** - Veröffentlichen Sie Assets im SaaS-Netzwerk von Adobe Dynamic Media Classic. Überwachen des Status von Assets beim Veröffentlichen Verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
 
-* **Serve** - Bereitstellung von Medien vom Adobe Dynamic Media Classic SaaS-Netzwerk zu Webseiten, Anwendungen und Mobilgeräten; die Medien sind leistungsoptimiert und werden mit CDN-Zwischenspeicherung bereitgestellt. Adobe Dynamic Media Classic stellt Ihnen eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
+* **Serve** - Bereitstellen von Medien vom Adobe Dynamic Media Classic SaaS-Netzwerk zu Webseiten, Anwendungen und Mobilgeräten; die Medien sind leistungsoptimiert und werden mit CDN-Zwischenspeicherung bereitgestellt. Adobe Dynamic Media Classic stellt Ihnen eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
 
 ![Der Adobe Dynamic Media Classic-Workflow-Prozess](/help/using/assets/gs_workflow.png)
 
@@ -50,4 +50,4 @@ Die URL-Zeichenfolgen, die Sie mit Adobe Dynamic Media Classic generieren, entha
 
 ## Inhalts-Caching {#content-caching}
 
-Die von Adobe Dynamic Media Classic dynamisch generierten Bilder sind Cache-günstig. Normalerweise sind es JPEG-Bilder mit eindeutigen URL-Aufrufen, die sie identifizieren. Die Bilder werden über ein CDN-System (Content Delivery Network) gesendet, ein Netzwerk von Servern, die über das Internet miteinander verbunden sind und dazu dienen, Inhalte schneller zu übermitteln. Die Bilder werden zunächst von weltweit verbreiteten Servern verteilt und dann an einzelne Computer gesendet. Wenn Sie einen Caching-Mechanismus mit einem beliebigen CDN-Anbieter implementieren, ändern Sie einfach den Servernamen so, dass er auf den CDN-fähigen Dynamic Media-Bildserver verweist. Alle Adobe Dynamic Media Classic-Editionen umfassen das gebündelte CDN-Caching.
+Die von Adobe Dynamic Media Classic dynamisch generierten Bilder sind Cache-günstig. Normalerweise handelt es sich dabei um JPEG-Bilder mit eindeutigen URL-Aufrufen, die sie identifizieren. Die Bilder werden über ein CDN-System (Content Delivery Network) gesendet, ein Netzwerk von Servern, die über das Internet miteinander verbunden sind und dazu dienen, Inhalte schneller zu übermitteln. Die Bilder werden zunächst von weltweit verbreiteten Servern verteilt und dann an einzelne Computer gesendet. Wenn Sie einen Caching-Mechanismus mit einem beliebigen CDN-Anbieter implementieren, ändern Sie einfach den Servernamen so, dass er auf den CDN-fähigen Dynamic Media-Bildserver verweist. Alle Adobe Dynamic Media Classic-Editionen umfassen das gebündelte CDN-Caching.

@@ -12,10 +12,10 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 28%
+source-wordcount: '880'
+ht-degree: 21%
 
 ---
 
@@ -27,19 +27,19 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 **So zeigen sie eine Vorschau von Videos im Video-Viewer an:**
 
-1. Wählen Sie links im Bedienfeld &quot;Asset-Bibliothek&quot;in der Dropdown-Liste &quot;Anzeigen&quot;die Option **[!UICONTROL Video]** (einzelne kodierte Videos) oder **[!UICONTROL Adaptives Videoset]**. Wenn die Kodierungsvorgabe für adaptive Videos verwendet wird, führt dies zu einer Reihe von Videos mit mehreren Bitraten.
+1. Wählen Sie links im Bedienfeld &quot;Asset-Bibliothek&quot;in der Dropdown-Liste &quot;Anzeigen&quot;die Option **[!UICONTROL Video]** (einkodierte Videos) oder **[!UICONTROL Adaptives Videoset]**. Wenn die Kodierungsvorgabe für adaptive Videos verwendet wird, führt dies zu einer Reihe von Videos mit mehreren Bitraten.
 1. Navigieren Sie im linken Bedienfeld „Asset-Bibliothek“ zu den Asset-Ordnern, um das Video auszuwählen, von dem Sie eine Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Asset-Fenster in einem Asset-Miniaturfenster die Option **[!UICONTROL Vorschau]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Wählen Sie in derselben Symbolleiste die Option **[!UICONTROL Vorschau]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Asset-Fenster in einem Asset-Miniaturfenster die Option **[!UICONTROL Vorschau]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Wählen Sie in derselben Symbolleiste die Option **[!UICONTROL Vorschau]**.
    * Wählen Sie im Assets-Fenster ein Asset aus. Navigieren Sie in der Symbolleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Vorschau]**.
 
-1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
+1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die Sie beim Kopieren auf die URL des Assets anwenden möchten.
 1. Wählen Sie die **[!UICONTROL Vorschau]** verknüpfen, damit Sie das Asset im ausgewählten Viewer überprüfen können.
 1. Schließen Sie den angezeigten Viewer.
-1. Auswählen **[!UICONTROL Schließen]** , um zum Bildschirm &quot;Assets&quot;zurückzukehren.
+1. Auswählen **[!UICONTROL Schließen]** , um zum Bildschirm Assets zurückzukehren.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 ## Arbeiten mit Video-Viewer-Vorgaben {#working-with-video-viewer-presets}
 
-Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Viewer aufweist, wie er aussieht und wie seine Wiedergabe-Steuerelemente funktionieren, hängt von der Viewer-Vorgabe ab, die Sie für die Videowiedergabe auswählen. Sie wählen eine Viewer-Vorgabe im Anzeigebereich „Vorschau“ aus. Nach der Auswahl der Vorgabe können Sie die URL oder den Einbettungscode beziehen, um das Video mit der ausgewählten Viewer-Vorgabe wiederzugeben.
+Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Viewer aufweist, wie er aussieht und wie seine Wiedergabe-Steuerelemente funktionieren, hängt von der Viewer-Vorgabe ab, die Sie für die Videowiedergabe auswählen. Sie wählen eine Viewer-Vorgabe im Anzeigebereich „Vorschau“ aus. Nachdem Sie eine Vorgabe ausgewählt haben, können Sie die URL oder den Einbettungscode für die Wiedergabe des Videos mit der ausgewählten Viewer-Vorgabe abrufen.
 
 Adobe Dynamic Media Classic enthält viele vordefinierte Viewer-Vorgaben für die Wiedergabe von Videos. Wenn Sie Administrator sind, können Sie benutzerdefinierte Viewer-Vorgaben erstellen. Es gibt mehr als 12 verschiedene Einstellungen zum Konfigurieren des Video-Viewers. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
 
@@ -59,7 +59,7 @@ Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.h
 
 Unter „Viewer-Vorgaben“ werden die verschiedenen Viewer-Typen und ihre Voreinstellungen angezeigt. Sie können auch Ihre eigenen benutzerdefinierten Viewer-Vorgaben hinzufügen und bearbeiten oder vorhandene Viewer-Vorgaben bearbeiten, die mit Adobe Dynamic Media Classic bereitgestellt werden.
 
-Unter „Viewer-Vorgaben“ können Sie Viewer-Vorgaben aktivieren, filtern, sortieren und Vorschauen von ihnen anzeigen. 
+In Viewer-Vorgaben können Sie Viewer-Vorgaben aktivieren, filtern, sortieren und in der Vorschau anzeigen.
 
 Siehe [Viewer-Vorgaben](application-setup.md#viewer_presets).
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,15 @@ In dieser Datei wird beschrieben, wie Sie Beiträge beisteuern können, und es w
 
 ## Adobe Open Source-Verhaltenskodex
 
-Für dieses Projekt gilt der Open Source-Verhaltenskodex ](code-of-conduct.md) der Adobe. [ Mit Ihrer Teilnahme an der Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Bitte melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt hat die [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). Mit Ihrer Teilnahme an der Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Leitlinien für Beiträge
 
-Obwohl Adobe Beiträge zur Verbesserung der Dokumentation begrüßt, sollten Sie sicherstellen, dass Ihr Beitrag nach Möglichkeit bestimmten Richtlinien und Standards entspricht. Weitere Informationen finden Sie in den [Richtlinien zur Teilnahme an der Adobe Dynamic Media Classic-Dokumentation](guidelines.md) .
+Adobe begrüßt zwar alle Beiträge zur Verbesserung der Dokumentation, vergewissern Sie sich jedoch, dass der Beitrag nach Möglichkeit bestimmten Richtlinien und Standards entspricht. Überprüfen Sie die [Richtlinien für Beiträge zur Adobe Dynamic Media Classic-Dokumentation](guidelines.md) für weitere Informationen.
 
 ## Beiträge
 
-Adobe möchte die Einreichung Ihrer Beiträge so einfach wie möglich gestalten. Sie können auf zwei Arten beitragen:
+Adobe möchte es so einfach wie möglich machen, Ihre Beiträge einzureichen. Sie können auf zwei Arten beitragen:
 
 * [Problem erstellen](#create-an-issue)
 * [Pull-Anforderung erstellen](#create-a-pull-request)
@@ -30,19 +30,19 @@ Welche Methode Sie auswählen, hängt davon ab, wie bequem Sie die Dokumentation
 
 >[!NOTE]
 >
->Die von Ihnen übermittelten Beiträge unterliegen den Nutzungsbedingungen der [Adobe.](https://www.adobe.com/legal/terms.html)
+>Die Beiträge, die Sie einreichen, werden vom [Adobe Nutzungsbedingungen.](https://www.adobe.com/legal/terms.html)
 
 ### Problem erstellen {#create-an-issue}
 
-Haben Sie einen Vorschlag, eine Beobachtung über die aktuellen Dokumente oder eine Frage, wie etwas beschrieben wird? Erstellen Sie dann bitte ein Problem. Probleme eignen sich auch hervorragend, wenn Sie etwas beizutragen haben, sich aber nicht wohl fühlen, die Dokumente zu bearbeiten oder selbst eine Pull-Anforderung zu stellen.
+Haben Sie einen Vorschlag, eine Beobachtung über die aktuellen Dokumente oder eine Frage, wie etwas beschrieben wird? Erstellen Sie dann ein Problem. Probleme eignen sich auch hervorragend, wenn Sie etwas beizutragen haben, sich aber nicht wohl fühlen, die Dokumente zu bearbeiten oder selbst eine Pull-Anforderung zu stellen.
 
-Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach beschreiben, damit ein Dokumentationsteam sie überprüfen kann. Um ein Problem zu erstellen, wählen Sie **[!UICONTROL Ein Problem protokollieren]** oben im rechten Navigationsbereich auf einer beliebigen Seite aus.
+Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach beschreiben, damit ein Dokumentationsteam sie überprüfen kann. Um ein Problem zu erstellen, wählen Sie **[!UICONTROL Problem protokollieren]** oben im rechten Navigationsbereich auf einer beliebigen Seite.
 
 ### Pull-Anforderung erstellen {#create-a-pull-request}
 
-Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, die dann von einem Mitglied des Dokumentationsteams zur Aufnahme geprüft werden. Um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen, wählen Sie auf einer beliebigen Seite oben rechts im Navigationsbereich **[!UICONTROL Diese Seite bearbeiten]** aus.
+Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, die dann von einem Mitglied des Dokumentationsteams zur Aufnahme geprüft werden. Um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen, wählen Sie **[!UICONTROL Diese Seite bearbeiten]** oben rechts im Navigationsfenster auf einer beliebigen Seite.
 
-Alle Pull-Anforderungen müssen von einer signierten [Lizenzvereinbarung für Mitwirkende oder CLA](https://opensource.adobe.com/cla.html) begleitet sein. Dieser Workflow ermöglicht der Adobe die Neuverteilung Ihrer Projektbeiträge. Sie senden nur einmal eine Adobe-CLA. Wenn Sie also bereits eine übermittelt haben, werden Sie festgelegt.
+Bei allen Pull-Anfragen muss eine signierte [Lizenzvereinbarung für Mitwirkende oder CLA](https://opensource.adobe.com/cla.html). Dieser Workflow ermöglicht es der Adobe, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. Sie senden nur einmal eine Adobe-CLA. Wenn Sie also bereits eine übermittelt haben, werden Sie festgelegt.
 
 ### Schnellvideo-Einführung
 
@@ -52,10 +52,10 @@ Sehen Sie sich das folgende Video an, um einen schnellen Überblick darüber zu 
 
 ### Beiträge von Adobe-Mitarbeitern
 
-Wenn Sie Mitarbeiter der Adobe sind und einen Beitrag leisten, verwenden Sie bitte die `AdobeDocs`-Organisation im Git-Repository des Unternehmens.
+Wenn Sie Adobe-Mitarbeiter sind und einen Beitrag einreichen möchten, verwenden Sie die `AdobeDocs` im Git-Repository des Unternehmens.
 
 Adobe begrüßt jeden Beitrag. Beiträge werden überprüft, wenn sie im öffentlichen Repository vorgenommen werden. Pull-Anforderungen von Adobe-Mitarbeitern sind jedoch einfacher zu verarbeiten und werden schneller im Unternehmens-Repository genehmigt. Stellen Sie sicher, dass geschützte Informationen nur im Repository des Unternehmens diskutiert werden.
 
 ## Weitere Informationen
 
-Weitere Informationen zur Verwendung der GitHub-Authoring-Plattform finden Sie im [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) .
+Siehe [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) Weitere Informationen zur Verwendung der GitHub-Authoring-Plattform.

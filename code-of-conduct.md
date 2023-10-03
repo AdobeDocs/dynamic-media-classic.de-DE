@@ -1,15 +1,15 @@
 ---
-source-git-commit: c168511f3fe08a6f0262da758e45117af4bda029
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
-# Verhaltenskodex der Adobe
+# Adobe-Verhaltenskodex
 
-## Unser Versprechen
+## Adobe
 
-Um eine offene und einladende Umgebung zu fördern, verpflichten wir uns als Mitwirkende und Betreuer, die Teilnahme an unserem Projekt und an unserer Community für alle zu einem belästigungsfreien Erlebnis zu machen. Dieses Verhalten trifft unabhängig von Folgendem zu:
+Um eine offene und einladende Umgebung zu fördern, verpflichten sich Mitarbeiter und Betreuer, die Teilnahme am Adobe- und Community-Projekt für alle zu einem belästigungsfreien Erlebnis zu machen. Dieses Verhalten trifft unabhängig von Folgendem zu:
 
 * Alter
 * Körpergröße
@@ -23,7 +23,7 @@ Um eine offene und einladende Umgebung zu fördern, verpflichten wir uns als Mit
 * Religion
 * sexuelle Identität und Orientierung
 
-## Unsere Standards
+## Adobe
 
 Beispiele für Verhaltensweisen, die zur Schaffung einer positiven Umgebung beitragen, sind:
 
@@ -41,7 +41,7 @@ Beispiele für inakzeptables Verhalten von Teilnehmern:
 * Veröffentlichung privater Informationen anderer Personen, z. B. einer physischen oder elektronischen Adresse, ohne ausdrückliche Erlaubnis
 * Andere Verhaltensweisen, die in einem professionellen Umfeld als unangemessen betrachtet werden könnten
 
-## Unsere Zuständigkeiten
+## Adobe
 
 Projektverantwortliche sind dafür verantwortlich, die Standards für akzeptables Verhalten zu verdeutlichen, und es wird erwartet, dass sie als Reaktion auf alle Fälle von inakzeptablem Verhalten geeignete und faire Korrekturmaßnahmen ergreifen.
 
@@ -50,9 +50,9 @@ Projektverantwortliche haben das Recht und die Verantwortung,
 * Entfernen oder Bearbeiten
 * oder weisen Kommentare, Commits, Code, Wiki-Bearbeitungen, Probleme und andere Beiträge zurück
 
-die nicht mit diesem Verhaltenskodex in Einklang stehen. Oder um Mitwirkende für andere Verhaltensweisen, die sie für unangemessen, bedrohend, beleidigend oder schädlich halten, vorübergehend oder dauerhaft zu verbieten.
+Nicht an diesen Verhaltenskodex angepasst. Oder um Mitwirkende für andere Verhaltensweisen, die sie für unangemessen, bedrohend, beleidigend oder schädlich halten, vorübergehend oder dauerhaft zu verbieten.
 
-## Ebene
+## Anwendungsbereich
 
 Dieser Verhaltenskodex gilt sowohl innerhalb von Projektbereichen als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder die Community repräsentiert. Beispiele für die Repräsentation eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Posten über ein offizielles Social-Media-Konto oder das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann von den Projektbetreuern weiter definiert und geklärt werden.
 

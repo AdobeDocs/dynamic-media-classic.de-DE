@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 42%
+source-wordcount: '2274'
+ht-degree: 39%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic empfiehlt dringend die Verwendung von Bildvorgaben f
 
 Adobe Dynamic Media Classic empfiehlt auch, Scharfzeichnung zu Viewer-Vorgaben hinzuzufügen und dann einen Viewer mit dieser Vorgabe aufzurufen. Dadurch wird sichergestellt, dass Bilder in Ihren Viewern scharf und attraktiv sind.
 
-Unabhängig davon, ob Sie Bildvorgaben und Viewer-Vorgaben oder eine andere Methode der Scharfzeichnung verwenden, besteht das Endergebnis darin, dass Sie Ihre Bilder scharfzeichnen müssen. Wenn Sie dies nicht tun, können Ihre Bilder (und die Website) weich und unscharf aussehen.
+Unabhängig davon, ob Sie Bildvorgaben und Viewer-Vorgaben oder eine Methode der Scharfzeichnung verwenden, besteht das Endergebnis darin, dass Sie Ihre Bilder scharfzeichnen müssen. Wenn Sie dies nicht tun, können Ihre Bilder (und die Website) weich und unscharf aussehen.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Es ist oft notwendig, Bilder scharfzuzeichnen. Adobe Dynamic Media Classic- und 
 
 Die Bildschärfung erhöht den Kontrast der Pixel, um den Eindruck zu erwecken, dass die Kanten akzentuiert sind. Menschen nehmen diesen erhöhten Kantenkontrast als Schärfe wahr. Obwohl es einfach ist, ein Bild mithilfe von Scharfzeichnungsfiltern zu verbessern, ist es auch einfach, ein Bild zu stark scharfzuzeichnen.
 
-Wenn ein Bild zu stark scharfgezeichnet ist, entsteht ein Halo- oder Banding-Effekt.
+Das übermäßige Scharfzeichnen eines Bildes erzeugt einen Halo-Effekt oder das Banding der Kantenlinien.
 
 Es gibt Best Practices, die Sie anwenden können, um die Scharfzeichnung Ihrer Bilder in Adobe Dynamic Media Classic und auf dem Dynamic Media Image Server zu optimieren.
 
@@ -47,7 +47,7 @@ Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.
 
 **So zeichnen Sie ein Bild scharf:**
 
-Um ein Bild scharfzuzeichnen, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** und wählen Sie **[!UICONTROL Scharfzeichnen]** oder öffnen Sie es im Durchsuchenbedienfeld in der Detailansicht und wählen Sie dann **[!UICONTROL Scharfzeichnen]**. Die Seite mit dem Scharfzeichnungseditor wird mit Scharfzeichnungsbefehlen geöffnet. Wählen Sie Befehle aus und klicken Sie auf **[!UICONTROL Speichern]**.
+Um ein Bild scharfzuzeichnen, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** Schaltfläche und wählen Sie **[!UICONTROL Scharfzeichnen]** oder öffnen Sie es im Durchsuchenbedienfeld in der Detailansicht und wählen Sie dann **[!UICONTROL Scharfzeichnen]**. Die Seite mit dem Scharfzeichnungseditor wird mit Scharfzeichnungsbefehlen geöffnet. Wählen Sie Befehle aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
@@ -60,8 +60,8 @@ Die folgende Tabelle zeigt die Scharfzeichnungsoptionen des Image-Servers.
 | Name | URL-Protokoll | Werte | Beispiel |
 | --- | --- | --- | --- |
 | Einfaches Scharfzeichnen | `op_sharpen` | `0` oder `1` | `op_sharpen=1` |
-| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. schnellste Resamplingmethode; einige Aliasing-Artefakte sind häufig sichtbar.<br>`bicub`: Wählt bikubische Interpolation aus. CPU-intensiver als bilin, erzielt aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, die sowohl eine höhere als auch eine niedrigere Auflösung verwendet, falls verfügbar. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
-| Unschärfemaske | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: Filterfestigkeitsfaktor (real 0...5)<br><br>`radius`: Filterkernel-Radius in Pixel (real 0...250) <br><br>`threshold`: Filterschwellenwert (int 0...255)<br><br>`monochrome`: auf `0` zur Unschärfemaske jeder Farbkomponente einzeln festlegen, auf `1` zur Bildhelligkeit (Intensität) der Unschärfemaske | `op_usm=1,1,10,0` |
+| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind häufig sichtbar.<br>`bicub`: Wählt bikubische Interpolation aus. CPU-intensiver als bilin, erzielt aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, die sowohl eine höhere als auch eine niedrigere Auflösung verwendet, falls verfügbar. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
+| Unschärfemaske | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: Filterfestigkeitsfaktor (real 0...5)<br><br>`radius`: Filterkernel-Radius in Pixel (real 0...250) <br><br>`threshold`: Filterschwellenwert (int 0...255)<br><br>`monochrome`: setzt auf `0` zur Unschärfemaske jeder Farbkomponente einzeln festlegen, auf `1` zur Bildhelligkeit (Intensität) der Unschärfemaske | `op_usm=1,1,10,0` |
 
 Wählen Sie die **[!UICONTROL Scharfzeichnen]** und wählen Sie eine Option:
 
@@ -69,7 +69,7 @@ Wählen Sie die **[!UICONTROL Scharfzeichnen]** und wählen Sie eine Option:
 
 * **Scharfzeichnen** - Führt einen einfachen Scharfzeichnungsdurchlauf auf der Datei aus, nachdem die Größe geändert wurde. Sie ähnelt dem Filter &quot;Scharfzeichnen&quot;in Adobe Photoshop und unterstützt alle Benutzerparameter. Normalerweise würden Sie diesen Filter oder **[!UICONTROL Unschärfemaske]**, aber nicht beides. Diese Methode wird nicht als Best Practice empfohlen, sie kann aber verschwommene Bilder kompensieren. (URL: `op_sharpen`)
 
-* **Unschärfemaske** - Hiermit können Sie einen Scharfzeichnungsfiltereffekt für das endgültige heruntergesampelte Bild optimieren. Sie können die Intensität des Effekts, den Radius des Effekts (gemessen in Pixel) und einen Schwellenwert für den ignorierten Kontrast festlegen. Dieser Effekt verwendet die gleichen Optionen wie der Photoshop-Filter „Unscharf maskieren“. (URL: `op_usm`)
+* **Unschärfemaske** - Hiermit können Sie einen Scharfzeichnungsfiltereffekt für das endgültige heruntergesampelte Bild optimieren. Sie können die Intensität des Effekts, den Radius des Effekts (gemessen in Pixel) und einen Schwellenwert für den ignorierten Kontrast festlegen. Dieser Effekt verwendet dieselben Optionen wie der Photoshop-Filter &quot;Unschärfemaske&quot;. (URL: `op_usm`)
 
 Wählen Sie diese Optionen aus, damit Sie die Scharfzeichnung mit der Unschärfemaske optimieren können:
 
@@ -85,9 +85,9 @@ Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein Bild mit 2000
 
 Der Schwellenwert verwendet einen Wert zwischen 0 und 255, was der Anzahl der Helligkeitsschritte in einem Graustufenbild entspricht. 0=schwarz, 128=50 % grau und 255=weiß. Beispiel: Ein Schwellenwert von 12 ignoriert leichte Variationen der Hauttonhelligkeit, um kein Rauschen hinzuzufügen, fügt aber trotzdem Kantenkontrast zu kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) hinzu. 
 
-Wenn Sie beispielsweise ein Foto mit einem Gesicht einer Person haben, wirkt sich „Unscharf maskieren“ auf die Teile des Bildes mit dem höchsten Kontrast und der glattesten Haut aus. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln und erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert). Um dieses Problem zu vermeiden, verwenden Sie einen Schwellenwert, bei dem der Filter Pixel ignoriert, die den Kontrast nicht drastisch ändern, wie z. B. glatte Haut. Um Rauschen oder posterisierende Bilder mit Fruchtfarben zu vermeiden, experimentieren Sie beispielsweise mit **[!UICONTROL Schwellenwert]** Werte zwei bis 20. Die Standardeinstellung **[!UICONTROL Schwellenwert]** mit dem Wert 0 werden alle Pixel im Bild scharfgezeichnet.
+Angenommen, Sie haben ein Foto von jemandes Gesicht. wirkt sich „Unscharf maskieren“ auf die Teile des Bildes mit dem höchsten Kontrast und der glattesten Haut aus. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln und erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert). Um dieses Problem zu vermeiden, verwenden Sie einen Schwellenwert, bei dem der Filter Pixel ignoriert, die den Kontrast nicht drastisch ändern, wie z. B. glatte Haut. Um Rauschen oder posterisierende Bilder mit Fruchtfarben zu vermeiden, experimentieren Sie beispielsweise mit **[!UICONTROL Schwellenwert]** Werte zwei bis 20. Die Standardeinstellung **[!UICONTROL Schwellenwert]** mit dem Wert 0 werden alle Pixel im Bild scharfgezeichnet.
 
-* **Anwenden auf** - Auswählen **[!UICONTROL Jede Farbe]** wenn Sie die Scharfzeichnung separat auf jede Farbkomponente anwenden möchten; Auswählen **[!UICONTROL Helligkeit]** , wenn Sie die Scharfzeichnung auf die Bildhelligkeitsbereiche anwenden möchten.
+* **Anwenden auf** - Auswählen **[!UICONTROL Jede Farbe]** Wenn Sie die Scharfzeichnung separat auf jede Farbkomponente anwenden möchten, wählen Sie **[!UICONTROL Helligkeit]** , wenn Sie die Scharfzeichnung auf die Bildhelligkeitsbereiche anwenden möchten.
 
 **Resampling**
 
@@ -95,17 +95,17 @@ Wählen Sie die **[!UICONTROL Resampling]** und wählen Sie eine Option. Mit die
 
 * **[!UICONTROL Keines]** - Deaktiviert die Neuberechnung.
 
-* **[!UICONTROL Bilinear]** - die schnellste Resamplingmethode; einige Aliasing-Artefakte sind sichtbar.
+* **[!UICONTROL Bilinear]** - Die schnellste Resampling-Methode; einige Aliasing-Artefakte sind sichtbar.
 
 * **[!UICONTROL Bikubisch]** - Erhöht die CPU-Auslastung auf dem Image-Server, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten.
 
 * **[!UICONTROL Scharfzeichnen2]** - Erzeugt etwas schärfere Ergebnisse als **[!UICONTROL Bikubisch]**, aber bei noch höheren CPU-Kosten auf dem Image-Server.
 
-* **[!UICONTROL Trilinear]** - verwendet sowohl höhere als auch niedrigere Auflösungen, sofern verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem darstellt. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
+* **[!UICONTROL Trilinear]** - Verwendet sowohl höhere als auch niedrigere Auflösungen, sofern verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem darstellt. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
 
 **Scharfzeichnen und Bildvorgaben**
 
-Sie können alle drei Scharfzeichnungseffekte integrieren, um Ihr Endergebnis zu erzielen. Diese Methode wird jedoch nicht empfohlen. Adobe Dynamic Media Classic empfiehlt, die Scharfzeichnungseffekte als Teil einer Bildvorgabe zu speichern. Mit Bildvorgaben können Sie die am häufigsten verwendeten Bild-Modifikatoren verpacken, um ein dynamisch angepasstes Bild in einer kleinen Textzeichenfolge zu erstellen. Eine Bildvorgabe enthält Werte für das Dateiformat (normalerweise JPEG für das Web), die Pixelanzahl und die Bildschärfe. Anstatt die URL mit jedem Bild-Modifikator anzuhängen, den Sie zum Erstellen eines bestimmten Typs der Bildgröße verwenden müssen, erstellen Sie eine benannte Bildvorgabe, z. B. &quot;Miniaturansicht&quot;. Konfigurieren Sie dann die Bildvorgabe für die Miniaturansicht mit den entsprechenden Größe, dem Dateiformat und den Scharfzeichnungsoptionen. Rufen Sie das Bild mit dem Namen der Bildvorgabe auf. Bildvorgaben verkürzen die Länge der gesamten URL. Diese beiden URLs erzeugen dasselbe 350 x 350 JPEG-Bild mit Scharfzeichnung:
+Sie können alle drei Scharfzeichnungseffekte integrieren, um Ihr Endergebnis zu erzielen. Diese Methode wird jedoch nicht empfohlen. Adobe Dynamic Media Classic empfiehlt, die Scharfzeichnungseffekte als Teil einer Bildvorgabe zu speichern. Mit Bildvorgaben können Sie die am häufigsten verwendeten Bild-Modifikatoren verpacken, um ein dynamisch in der Größe angepasstes Bild in einer kleinen Textzeichenfolge zu erstellen. Eine Bildvorgabe enthält Werte für das Dateiformat (normalerweise JPEG für das Web), die Pixelanzahl und die Bildschärfe. Anstatt die URL mit jedem Bild-Modifikator anzuhängen, den Sie zum Erstellen eines bestimmten Typs der Bildgröße verwenden müssen, erstellen Sie eine benannte Bildvorgabe, z. B. &quot;Miniaturansicht&quot;. Konfigurieren Sie dann die Bildvorgabe für die Miniaturansicht mit den entsprechenden Größe, dem Dateiformat und den Scharfzeichnungsoptionen. Rufen Sie das Bild mit dem Namen der Bildvorgabe auf. Bildvorgaben verkürzen die Länge der gesamten URL. Diese beiden URLs erzeugen dasselbe 350 x 350 JPEG-Bild mit Scharfzeichnung:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -122,7 +122,7 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 * **Regler** - Bestimmt die JPG-Komprimierungsstufe. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala ist 1-100.
 
-* **JPG Chrominanz-Downsampling aktivieren** - Da das Auge weniger empfindlich gegenüber hochfrequenten Farbinformationen als gegenüber hochfrequenter Luminanz ist, teilen JPEG-Bilder die Bildinformationen in Luminanz und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Obwohl das Datenvolumen beim Downsampling um die Hälfte oder ein Drittel reduziert wird, ist die auftretende Qualitätsminderung kaum wahrnehmbar. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
+* **JPG Chrominanz-Downsampling aktivieren** - Da das Auge weniger empfindlich gegenüber hochfrequenten Farbinformationen als gegenüber hochfrequenter Luminanz ist, teilen JPEG-Bilder die Bildinformationen in Luminanz und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass sich dies auf die wahrgenommene Qualität auswirkt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
 **Festlegen unternehmensweiter Scharfzeichnungsoptionen**
 

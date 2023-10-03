@@ -1,21 +1,19 @@
 ---
-title: "Schnellstart: eCatalog"
+title: "Schnellstart: E-Kataloge"
 description: Eine Einführung in und ein Schnellstart für E-Kataloge, die Ihnen helfen, in Adobe Dynamic Media Classic schnell mit E-Katalog-Techniken umzugehen.
-uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 35%
+source-wordcount: '1560'
+ht-degree: 34%
 
 ---
 
@@ -32,13 +30,13 @@ Je nach den Einstellungen, die Sie für Ihren E-Katalog auswählen, können Sie 
 
 * Suchen Sie im Katalog nach einem oder mehreren Keywords. Die Suchergebnisse werden als Liste von Miniaturansichten in einem Suchbereich auf der linken Seite des Katalogs angezeigt. Jede klickbare Miniaturansicht stellt einen Katalogbereich dar, in dem der markierte Suchbegriff gefunden wurde.
 
-* den Katalog über soziale Medien freigeben; den Katalog herunterladen, um ihn offline anzuzeigen; Aktivieren Sie Favoriten , um Elemente zu markieren, zu denen Sie schnell zurückkehren möchten, oder drucken Sie den Katalog.
-* Navigieren Sie im Katalog mit dem Inhaltsverzeichnis oder der Seitenrasteransicht. Seite vorwärts oder rückwärts durch Klicken auf den mittleren Rand einer Seite.
+* Geben Sie den Katalog über soziale Medien frei. Laden Sie den Katalog herunter, um ihn offline anzuzeigen. Aktivieren Sie Favoriten, um Elemente zu markieren, zu denen Sie zurückkehren möchten, oder drucken Sie den Katalog.
+* Navigieren Sie im Katalog mithilfe des Inhaltsverzeichnisses oder der Seitenrasteransicht, der Seite vorwärts oder rückwärts durch Klicken auf den mittleren Rand einer Seite.
 * Heranzoomen, Herauszoomen und Schwenken, um bestimmte Elemente auf einer Seite genau zu betrachten
 * Bewegen Sie den Mauszeiger über einen Seitenbereich (eine so genannte Imagemap), damit Sie ein Popup-Fenster mit Informationen zu einem Element sehen können.
 * Wählen Sie einen Seitenbereich aus, damit eine neue Webseite mit weiteren Informationen zu einem Element geöffnet wird.
 * Schreiben und Anbringen eines Klebezettels als Lesezeichen an einer bestimmten E-Katalogseite
-* Tippen Sie auf Imagemap-Symbole, wenn Sie zugehörige Web-Seiten oder kontextbezogene Infofelder starten möchten.
+* Tippen Sie auf Imagemap-Symbole, wenn Sie zugehörige Web-Seiten oder kontextbezogene Informationsbedienfelder starten möchten.
 * Verwenden von Gesten zur Interaktion, einschließlich der Zangenbewegung zum Zoomen und der Wischbewegung zum Umblättern von Seiten.
 * Durchsuchen der Elemente nach bestimmten Schlüsselwörtern
 
@@ -54,7 +52,7 @@ Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in de
 >
 >Im unteren rechten Bereich im **[!UICONTROL Eigenschaften]** auswählen, wählen Sie die `jobParam` Zeile. Legen Sie den Wert für `pdfbrochure` von `false` nach `true`. Wie in `pdfbrochure=true`
 >
->Wählen Sie links oben auf der Seite &quot;CRXDE Lite&quot;die Option **[!UICONTROL Alle speichern]**.
+>Wählen Sie links oben auf der CRXDE Lite-Seite die Option **[!UICONTROL Alle speichern]**.
 >
 >Sie können jetzt E-Kataloge in Adobe Dynamic Media Classic erstellen.
 
@@ -100,7 +98,7 @@ Siehe [Verwalten von Inhalten im Informationsbereich in E-Katalogen](/help/using
 
 ## 4. E-Katalog-Viewer-Vorgaben einrichten
 
-Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können beispielsweise die Rahmenfarbe ändern und eine neue Skin zur Gestaltung des E-Katalogs auswählen. Adobe Dynamic Media Classic enthält mehrere bewährte E-Katalog-Viewer-Vorgaben. Sie können eine dieser Vorgaben für die Anzeige Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
+Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können die Farbe des Versandentwurfs ändern und eine neue &quot;Skin&quot;auswählen, um Ihren E-Katalog zu markieren. Adobe Dynamic Media Classic enthält mehrere bewährte E-Katalog-Viewer-Vorgaben. Sie können eine dieser Vorgaben für die Anzeige Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
 Um eine E-Katalog-Viewer-Vorgabe zu erstellen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Einrichtung]** und wählen Sie **[!UICONTROL Viewer-Vorgaben]**. Auswählen **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform aus und klicken Sie auf **[!UICONTROL eCatalog]** > **[!UICONTROL Viewer]**.
 
@@ -110,7 +108,7 @@ Siehe [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md#
 
 Mithilfe von E-Katalog-Viewer-Vorgaben wird der Stil und das Verhalten von E-Katalog-Viewern festgelegt.
 
-Um herauszufinden, wie eCatalog-Viewer-Vorgaben Ihren E-Katalog anzeigen, wählen Sie Ihren E-Katalog im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
+Um herauszufinden, wie eCatalog-Viewer-Vorgaben Ihren E-Katalog anzeigen, wählen Sie Ihren eCatalog im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
 
 Achten Sie auf Ausrichtung, Farbschema, Aussehen der Steuerelemente zum Umblättern der Seiten und Aussehen der Seiten beim Umblättern. 
 
@@ -120,7 +118,7 @@ Siehe [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-e
 
 Durch das Veröffentlichen Ihres E-Katalogs und der zugehörigen PDF wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
 
-Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Veröffentlichung übermitteln]**.
+Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

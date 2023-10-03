@@ -12,16 +12,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 39%
+source-wordcount: '1598'
+ht-degree: 28%
 
 ---
 
 # Überprüfen von Auftragsdateien{#checking-job-files}
 
-Zur Überwachung von Datei-Uploads in die Adobe Dynamic Media Classic und von Dateien, die Sie auf Adobe Dynamic Media Classic-Servern veröffentlichen, bietet Adobe Dynamic Media Classic die Seite &quot;Aufträge&quot;. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
+Zur Überwachung von Datei-Uploads in Adobe Dynamic Media Classic und von Dateien, die Sie auf Adobe Dynamic Media Classic-Servern veröffentlichen, bietet Adobe Dynamic Media Classic die Seite &quot;Aufträge&quot;. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
 
 Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können das Symbol auswählen, um weitere Informationen zum aktiven Auftrag anzuzeigen.
 
@@ -43,7 +43,7 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 * **[!UICONTROL Ingesamt]** - Die Anzahl der übertragenen Dateien.
 
-* **[!UICONTROL W (Warnungen)]** - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiel: `.DS_store` -Dateien (Macintosh) und Thumbs.db-Dateien (Windows®) enthalten Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht auf die Verwendung dieser Dateien in Adobe Dynamic Media Classic beziehen. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+* **[!UICONTROL W (Warnungen)]** - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiel: `.DS_store` -Dateien (Macintosh) und Thumbs.db-Dateien (Windows®) enthalten Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
 * **[!UICONTROL E (Fehler)]** - Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
@@ -51,13 +51,13 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 * **[!UICONTROL Status]** - Zeigt den Status des Auftrags an.
 
-* **[!UICONTROL Ziel]** - Bei Upload-Aufträgen: der Unternehmensname und der Ordner, in den die Dateien hochgeladen wurden. Bei Veröffentlichungsaufträgen kommt diese Kategorie nicht vor.
+* **[!UICONTROL Ziel]** - Bei Upload-Aufträgen: der Unternehmensname und der Ordner, in den die Dateien hochgeladen wurden. Diese Kategorie gilt nicht für Aufträge zur Veröffentlichung.
 
 * **[!UICONTROL Gesendet von]** - Listen, die die Assets hochgeladen haben.
 
 >[!NOTE]
 >
->Sie können laufende Veröffentlichungs- und Upload-Aufträge abbrechen, indem Sie die **[!UICONTROL Abbrechen]** neben der Fortschrittsleiste.
+>Sie können laufende Veröffentlichungs- und Upload-Aufträge durch Auswahl der **[!UICONTROL Abbrechen]** neben der Fortschrittsleiste.
 
 ## Ansichten auf der Seite &quot;Aufträge&quot;ändern {#changing-views-on-the-jobs-page}
 
@@ -83,9 +83,9 @@ Sie können diese Informationen in die Zwischenablage kopieren.
 
 ## Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge {#handling-recurring-upload-and-publish-jobs}
 
-Wiederkehrende Upload- und Veröffentlichungsaufträge, die Sie auf den Seiten „Hochladen“ und „Veröffentlichen“ erstellen, werden auf der Seite „Aufträge“ auf der Registerkarte „Geplant“ angezeigt. Sie können wiederkehrende Aufträge auf der Registerkarte „Geplant“ bearbeiten und löschen.
+Wiederkehrende Upload- und Veröffentlichungsaufträge, die Sie auf den Seiten &quot;Hochladen&quot;und &quot;Veröffentlichen&quot;erstellen, werden auf der Registerkarte &quot;Geplant&quot;der Seite &quot;Aufträge&quot;aufgeführt. Sie können wiederkehrende Aufträge auf der Registerkarte „Geplant“ bearbeiten und löschen.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Aufträge aus und wählen Sie auf der Seite &quot;Aufträge&quot;die Option **[!UICONTROL Geplant]** -Tab, damit Sie wiederkehrende Aufträge bearbeiten und löschen können.
+Wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Aufträge aus und wählen Sie auf der Seite &quot;Aufträge&quot;die **[!UICONTROL Geplant]** -Tab, damit Sie wiederkehrende Aufträge bearbeiten und löschen können.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Siehe [Benutzerdefiniertes Upload- oder Veröffentlichungsauftragszeitintervall 
 
 * **Löschen eines wiederkehrenden Auftrags** - Wählen Sie die **[!UICONTROL Löschen]** Schaltfläche.
 
-* **Anhalten (und Wiederaufnehmen) eines wiederkehrenden Auftrags** - Deaktivieren Sie in der Spalte Aktiv das Kontrollkästchen, um einen Auftrag anzuhalten. Aktivieren Sie ein Kontrollkästchen, um einen angehaltenen Auftrag wieder aufzunehmen.
+* **Anhalten (und Wiederaufnehmen) eines wiederkehrenden Auftrags** - Deaktivieren Sie in der Spalte Aktiv das Kontrollkästchen zum Anhalten eines Vorgangs. Aktivieren Sie das Kontrollkästchen, um einen angehaltenen Auftrag wieder aufzunehmen.
 
 ### Benutzerdefiniertes Upload- oder Veröffentlichungsauftragszeitintervall erstellen {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -122,9 +122,9 @@ Diese Tabelle enthält Informationen zu den Zeitabschnitten, den jeweils zuläss
 | Sekunden | 0-59 |  | `, - * /` |
 | Minuten | 0-59 |  | `, - * /` |
 | Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | `, - * /` |
-| Tag des Monats | 1-31 | Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C` |
-| Monat | 1-12 oder Jan, Feb, Mar, Apr, Mai, Jun, Jul, Aug, Sep, Sep, Okt, Nov, Dez. | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `, - * /` |
-| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, sowohl für „Tag des Monats“ als auch für „Wochentag“ einen numerischen Wert festzulegen. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C #` |
+| Tag des Monats | 1-31 | Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C` |
+| Monat | 1-12 oder Jan, Feb, Mar, Apr, Mai, Jun, Jul, Aug, Sep, Sep, Okt, November, Dez. | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `, - * /` |
+| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C #` |
 | Jahr (optional) | Leer oder 1970-2099 |  | `, - * /` |
 
 
@@ -132,14 +132,14 @@ In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mi
 
 | Platzhalterzeichen | Name | Beschreibung |
 |--- |--- |--- |
-| `*` | Sternchen | Alle Werte (beispielsweise „jede Minute“). |
-| `?` | Fragezeichen | Kein bestimmter Wert (beispielsweise „jede Minute innerhalb der festgelegten Stunde“). |
-| `,` | Komma | Andere Werte (z. B. &quot;Montag und Mittwoch&quot;). |
-| `-` | Trennstrich | Wertebereich (beispielsweise „Montag bis Freitag“). |
-| `/` | Schrägstrich | Abschnitte (z. B. „alle 15 Minuten“). |
-| `L` | Großes L | Letzter „Tag des Monats“ bzw. „Wochentag“ (nur bei diesen Feldern verfügbar). Im Monat Januar würde der Wert „L“ für „Tag des Monats“ den Auftrag beispielsweise für den 31. Januar planen. Für das Feld „Wochentag“ kann das Zeichen allein eingegeben werden, um den Auftrag für Samstag zu planen. Sie können ihn mit einer Zahl verwenden (z. B. `6L`), um den letzten Freitag des Monats anzugeben. Geben Sie `L` mit den Platzhaltern Komma oder Bindestrich. |
-| `#` | Zeichen für „Nr.“ | Der n-te Wochentag des Monats (nur beim Feld „Wochentag“ verfügbar). Beispiel: `6#3` im Feld &quot;Wochentag&quot;den dritten Freitag des Monats. Die `6` bedeutet &quot;Freitag&quot;(der sechste Tag der Woche) und `3` gibt das dritte Vorkommen im Monat an. |
-| `C` | Großes K | Erster „Tag des Monats“ im Kalender bzw. erster „Wochentag“ im Kalender (nur bei diesen Feldern verfügbar). Beispielsweise kann der Wert `1C` Für &quot;Tag des Monats&quot;wird der erste Tag im Kalender geplant, der am oder nach dem fünften Tag eintritt. Geben Sie für das Feld &quot;Wochentag&quot;Folgendes an: `1C` plant den ersten Tag im Kalender, der am oder nach Sonntag eintritt |
+| `*` | Sternchen | Alle Werte (beispielsweise &quot;jede Minute&quot;). |
+| `?` | Fragezeichen | Kein bestimmter Wert (z. B. &quot;beliebige Minute innerhalb der angegebenen Stunde&quot;). |
+| `,` | Komma | Andere Werte (beispielsweise &quot;Montag und Mittwoch&quot;). |
+| `-` | Trennstrich | Wertebereich (beispielsweise &quot;Montag bis Freitag&quot;). |
+| `/` | Schrägstrich | Erhöhungen (z. B. &quot;alle 15 Minuten&quot;). |
+| `L` | Großes L | Letzter &quot;Tag des Monats&quot;oder &quot;Tag der Woche&quot;(nur für diese Felder verfügbar). Wenn der Monat beispielsweise der Januar ist, wird der Auftrag mit dem Wert L für das Feld &quot;Tag des Monats&quot;für den 31. Januar geplant. Für das Feld &quot;Wochentag&quot;können Sie dieses Zeichen allein eingeben, um den Auftrag am Samstag zu planen. Sie können ihn mit einer Zahl verwenden (z. B. `6L`), um den letzten Freitag des Monats anzugeben. Geben Sie `L` mit den Platzhaltern Komma oder Bindestrich. |
+| `#` | Zeichen für „Nr.“ | Nter Wochentag des Monats (nur für das Feld &quot;Wochentag&quot;verfügbar). Beispiel: `6#3` im Feld &quot;Wochentag&quot;den dritten Freitag des Monats. Die `6` bedeutet &quot;Freitag&quot;(der sechste Tag der Woche) und `3` gibt das dritte Vorkommen im Monat an. |
+| `C` | Großes K | Erster Kalender &quot;Tag des Monats&quot;oder &quot;Tag der Woche&quot;(nur für diese Felder verfügbar). Beispielsweise kann der Wert `1C` Für &quot;Tag des Monats&quot;wird der erste Tag im Kalender geplant, der am oder nach dem fünften Tag eintritt. Geben Sie für das Feld &quot;Wochentag&quot;Folgendes an: `1C` plant den ersten Tag im Kalender, der am oder nach Sonntag eintritt |
 
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:
 
@@ -148,7 +148,7 @@ Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „R
 * `0 0/5 14 * * ?`: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag
 * `0 0/5 14,18 * * ?` : Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag und alle 5 Minuten zwischen 18:00 und 18:55 Uhr an jedem Tag
 * `0 10,44 14 ? 3` : Mi um 14:10 Uhr sowie 14:44 Uhr jeden Mittwoch im März
-* `0 15 10 ? *` : Montag bis Freitag um 10:15 Uhr
+* `0 15 10 ? *` : Montag bis Freitag um 10:15 Uhr jeden Wochentag
 * `0 15 10 20 * ?` : Um 10:15 Uhr am 20. Tag jedes Monats
 * `0 15 10 L * ?` : Um 10:15 Uhr am letzten Tag jedes Monats
 * `0 15 10 ? * 6L` : Um 10:15 Uhr am letzten Freitag jedes Monats

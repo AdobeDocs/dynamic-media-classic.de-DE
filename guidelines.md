@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ## Philosophie der Adobe Dynamic Media Classic-Dokumentation
 
-Wir wissen, dass Adobe Dynamic Media Classic-Benutzer in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu schaffen, die sie von ihren Wettbewerbern abheben. Daher ist es wichtig, dass diese Tools bei der Bereitstellung erweiterter neuer Tools durch eine genaue und klare Dokumentation ergänzt werden. Auf diese Weise kann der Kunde sofort seine Adobe Dynamic Media Classic-Investition nutzen und den ROI maximieren.
+Adobe weiß, dass Adobe Dynamic Media Classic-Benutzer in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu schaffen, die sie von ihren Wettbewerbern abheben. Daher ist es wichtig, dass bei der Bereitstellung erweiterter neuer Tools durch Adobe diese Tools durch eine genaue und klare Dokumentation ergänzt werden. Auf diese Weise kann der Kunde sofort seine Adobe Dynamic Media Classic-Investition nutzen und den ROI maximieren.
 
-Ziel der Dokumentation ist es, den Benutzern so bald wie möglich aktuelle Dokumentationen zur Verfügung zu stellen. Daher priorisieren wir genaue, nutzbare Dokumentation und bemühen uns, diese kontinuierlich zu aktualisieren und zu verbessern.
+Ziel der Dokumentation ist es, den Benutzern so bald wie möglich aktuelle Dokumentationen zur Verfügung zu stellen. Daher priorisiert Adobe die genaue, nutzbare Dokumentation und bemüht sich, sie laufend zu aktualisieren und zu verbessern.
 
 ## Dokumentationsbeiträge
 
@@ -19,15 +19,15 @@ Um die Dokumentation kontinuierlich zu verbessern, kann die gesamte Community vo
 
 ## Dokumentationsstandards
 
-Auch wenn wir Beiträge zu unserer Dokumentation begrüßen, sollte jeder Beitrag zur Dokumentation in Form einer Pull-Anforderung oder eines Problems mit unseren Beitrags- und Dokumentationsstandards übereinstimmen.
+Während Adobe seine Dokumentation begrüßt, sollte jeder Beitrag zur Dokumentation in Form einer Pull-Anforderung oder eines Problems mit Beiträgen zu Adobes Beitrags und Dokumentationsstandards entsprechen.
 
 Beiträge, die diesen Standards nicht entsprechen, können abgelehnt werden.
 
-### Wir dokumentieren Standardanwendungsfälle.
+### Adobe dokumentiert Standardanwendungsfälle.
 
 Die Dokumentation umfasst Standard-Anwendungsfälle. Anwendungsfälle, die über den Umfang der Standardinstallation und -nutzung des Produkts hinausgehen, sind nicht Teil der Dokumentation.
 
-### Im Allgemeinen dokumentieren wir keine Fehler oder ihre Umgehungslösungen.
+### Adobe dokumentiert im Allgemeinen keine Fehler oder ihre Umgehungslösungen.
 
 Die Dokumentation umfasst Standard-Anwendungsfälle. Aus diesem Grund werden Fehler, durch Fehler verursachte Effekte und Problemumgehungen für Fehler nicht dokumentiert.
 
@@ -37,7 +37,7 @@ Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit mögl
 
 Alle Ideen, die Sie möglicherweise zur Verbesserung der Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anforderungen sind jedoch für *Beiträge* nur. Sie sollen Ihre Fragen zur Verwendung von Adobe Dynamic Media Classic, zur Implementierung Ihres Projekts oder zur Lösung technischer Probleme nicht beantworten.
 
-Fragen zur Verwendung von Adobe Dynamic Media Classic oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten über das [Experience Cloud Enterprise Support-Portal](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) oder im [Experience Cloud Community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
+Fragen zur Verwendung von Adobe Dynamic Media Classic oder zu technischen Fehlern, die möglicherweise bei Ihnen auftreten, sollten über das [Experience Cloud Enterprise Support-Portal](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) oder in der [Experience Cloud-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
 ***Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** und Beiträge, die Antworten auf Supportfragen suchen, werden abgelehnt.
 
@@ -49,9 +49,9 @@ Dies gilt nicht für Pull-Anforderungen, da Pull-Anforderungen auf die betroffen
 
 ## Dokumentationsrichtlinien
 
-Wir bitten darum, dass alle Beiträge zu unserer Dokumentation bestimmten Stilrichtlinien entsprechen.
+Adobe bittet darum, dass alle Beiträge zu seiner Dokumentation bestimmten Stilrichtlinien entsprechen.
 
-Durch Befolgen dieser Richtlinien wird die Überprüfung Ihres Beitrags vereinfacht und die Integration in unsere Dokumentation wird dadurch schneller durchgeführt.
+Durch Befolgen dieser Richtlinien wird die Überprüfung Ihres Beitrags vereinfacht und die Integration in die Adobe-Dokumentation ist daher schneller.
 
 ### Sprache und Stil
 
@@ -65,7 +65,7 @@ Denken Sie daran, dass die Leser der Dokumentation weltweit sind. Man kann nicht
 
 #### Befolgen Sie das Microsoft® Manual of Style
 
-[Das Microsoft® Stilhandbuch](https://docs.microsoft.com/en-us/style-guide/welcome/) ist ein kostenloses Stil-Handbuch zur Dokumentation, das sich auf die Softwaredokumentation konzentriert und die Adobe Dynamic Media Classic-Dokumentation diesem Handbuch folgt, wo immer möglich.
+[Das Microsoft® Stilhandbuch](https://learn.microsoft.com/en-us/style-guide/welcome/) ist ein kostenloses Stil-Handbuch zur Dokumentation, das sich auf die Softwaredokumentation konzentriert und die Adobe Dynamic Media Classic-Dokumentation diesem Handbuch folgt, wo immer möglich.
 
 ### Formatierung
 

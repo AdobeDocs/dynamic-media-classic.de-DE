@@ -12,16 +12,16 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 56%
+ht-degree: 54%
 
 ---
 
 # Erstellen und Verwalten von Media Portal-Gruppen{#creating-and-managing-media-portal-groups}
 
-Mithilfe von *Gruppen* können Sie die Media Portal-Benutzer leichter verwalten. Um auf ein Asset zugreifen zu können, muss ein Benutzer Mitglied mindestens einer Gruppe mit den erforderlichen Berechtigungen für dieses Asset sein. Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine oder mehrere Rollen zu. Dadurch gewähren Sie dem Benutzer Zugriffsrechte für die Ordner, denen die Gruppe zugewiesen wurde. Sie können auch angeben, welche Bildvorgaben einer Gruppe zur Verfügung stehen.
+Mithilfe von *Gruppen* können Sie die Media Portal-Benutzer leichter verwalten. Um auf ein Asset zugreifen zu können, muss ein Benutzer Mitglied mindestens einer Gruppe mit den erforderlichen Berechtigungen für dieses Asset sein. Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine oder mehrere Rollen zu. Dabei gewähren Sie dem Benutzer Zugriff auf Ordner, denen die Gruppe zugewiesen wurde. Sie können auch angeben, welche Bildvorgaben einer Gruppe zur Verfügung stehen.
 
 ## Verwenden Sie Gruppen, um den Zugriff auf Ordner, Assets und Bildvorgaben zu beschränken. {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
@@ -83,7 +83,7 @@ Wählen Sie Bildvorgabezugriffsberechtigungen für eine Gruppe, wenn Sie festleg
 
 Siehe auch [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-**So wählen Sie Zugriffsberechtigungen für Bildvorgaben für eine Gruppe aus:**
+**So wählen Sie Zugriffsberechtigungen für Bildvorgabe für eine Gruppe aus:**
 
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:

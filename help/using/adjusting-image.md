@@ -12,7 +12,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -45,7 +45,7 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
      Wählen Sie in der Dropdown-Liste **[!UICONTROL Original ersetzen]** und wählen Sie **[!UICONTROL Speichern]**.
 
-   * Um das Bild als neues Übergeordnetes Bild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
+   * Um das Bild als neues Primärbild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
 
      Wählen Sie in der Dropdownliste **[!UICONTROL Als neue Masterversion speichern]**.
 Im **[!UICONTROL Ordnername]** Listenfeld den Ordner auswählen, in dem das neue Primärbild gespeichert werden soll.
@@ -53,7 +53,7 @@ Auswählen **[!UICONTROL Speichern]**.
 
    * So speichern Sie das Bild als eine andere Ansicht des Primärbilds. können Sie einen Alias erstellen. Auswählen **[!UICONTROL Speichern unter]**.
 
-     Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als weitere Ansicht von Übergeordneten speichern]**.
+     Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als weitere Ansicht des Master speichern]**.
 Im **[!UICONTROL Ordnername]** Listenfeld den Ordner auswählen, in dem das neue Primärbild gespeichert werden soll.
 Auswählen **[!UICONTROL Speichern]**.
 
@@ -65,7 +65,7 @@ Wenn Sie ein Bild angepasst haben, können Sie es als eine andere Ansicht des Pr
 
 1. In der Rasteransicht oder Listenansicht im **[!UICONTROL Bearbeiten]** Dropdown-Liste neben einem Bild, für das Sie einen Alias erstellen möchten, wählen Sie **[!UICONTROL Anpassen]**.
 1. Wählen Sie in der rechten unteren Ecke der Seite die Option **[!UICONTROL Speichern unter]**.
-1. Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als zusätzliche Ansicht von Übergeordneten speichern]**.
+1. Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als zusätzliche Ansicht des Master speichern]**.
 1. Wählen Sie im Listenfeld **[!UICONTROL Ordnername]** den Ordner, in dem Sie das Aliasbild speichern möchten.
 1. Geben Sie im Feld **[!UICONTROL Dateiname]** den Namen ein, den Sie für den Alias verwenden möchten.
 1. Auswählen **[!UICONTROL Speichern]**.
