@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Ja, [!DNL Dynamic Media] nutzt Adobes robuste Bereitstellung auf der obersten Eb
 
 * Top-Rich-Media-Anbieter für Internet-Einzelhandel 1000, neun Jahre in Folge.
 * 24/7/265 Unterstützung, 99,95% SLAs.
-* Die bewährte Infrastruktur, die weltweit über 800 Kunden versorgt, 3,5-Petabytes-Traffic pro Monat und mehr als 500 Millionen Assets im Management, 60% Wachstum im Traffic-Jahresvergleich.
+* Bewährte Infrastruktur, die weltweit über 800 Kunden versorgt, 3,5 PB Traffic pro Monat und mehr als 500 Millionen Assets in der Verwaltung, 60% Wachstum im Traffic-Jahresvergleich.
 
 +++
 

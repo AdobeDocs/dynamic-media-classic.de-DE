@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 42%
+source-wordcount: '700'
+ht-degree: 40%
 
 ---
 
 # Verknüpfen eines Mustersets mit einer Webseite{#linking-a-swatch-set-to-a-web-page}
 
-Nach der Veröffentlichung eines Mustersets können Sie dessen URL oder Einbettungscode auf Ihrer Website oder in Ihrer Anwendung verwenden. Danach können Sie nach Bedarf die URL bereitstellen oder den Einbettungscode einfügen, damit die Benutzer das Musterset auf der Website oder in der Anwendung anzeigen können.
+Nachdem Sie ein Musterset veröffentlicht haben, können Sie dessen zugehörige URL oder Einbettungscode auf Ihrer Website oder in Ihrer Anwendung verwenden. Danach können Sie nach Bedarf die URL bereitstellen oder den Einbettungscode einfügen, damit die Benutzer das Musterset auf der Website oder in der Anwendung anzeigen können.
 
 >[!NOTE]
 >
@@ -44,11 +44,11 @@ Nach der Veröffentlichung eines Mustersets können Sie dessen URL oder Einbettu
 
      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
-## Hinzufügen von Musterset-URLs zu Ihrer Web-Seite {#adding-swatch-set-urls-to-your-web-page}
+## Hinzufügen von Musterset-URLs zu Ihrer Webseite {#adding-swatch-set-urls-to-your-web-page}
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines Mustersets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers in das Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers in das Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines Musterset-Viewers {#copying-the-embed-code-of-a-swatch-set-viewer}
 

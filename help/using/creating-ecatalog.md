@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 56%
+source-wordcount: '969'
+ht-degree: 51%
 
 ---
 
@@ -25,11 +25,11 @@ Zum Erstellen eines E-Katalogs müssen die Seiten geordnet, das Seitenlayout aus
 
 ## Erstellen eines eCatalog {#create}
 
-Sie können Bilddateien und PDF-Dateien in Ihren E-Katalog aufnehmen.
+Sie können Bilddateien und PDF-Dateien in Ihren eCatalog aufnehmen.
 
 Wenn Sie einen E-Katalog erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
 
-| Option „Nach dem Speichern veröffentlichen“ vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Option &quot;Nach dem Speichern veröffentlichen&quot;vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -69,7 +69,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein nicht veröffentlichtes Set bearbeiten, wird die **[!UICONTROL Nach dem Speichern veröffentlichen]** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
-| Set bereits veröffentlicht? | Option „Nach dem Speichern veröffentlichen“ vor dem Speichern Ihrer Bearbeitungen ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | Option &quot;Nach dem Speichern veröffentlichen&quot;vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -87,14 +87,14 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Löschen eines eCatalog {#deleting-an-ecatalog}
 
-Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
+Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder &quot;untergeordneten Elemente&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie ihren vorhandenen Status veröffentlicht oder unveröffentlicht bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 **So löschen Sie einen E-Katalog:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht einen oder mehrere E-Kataloge aus.
-1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
+1. Wechseln Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
 
 ## Anpassen des Inhaltsverzeichnisses {#customizing-the-table-of-contents-toc}
 
@@ -104,7 +104,7 @@ Sie können ein angepasstes Inhaltsverzeichnis für den E-Katalog erstellen: ent
 
 >[!NOTE]
 >
->So stellen Sie die standardmäßigen Seitentitel im **[!UICONTROL Bestellseiten]** Registerkarte, wählen Sie **[!UICONTROL Inhaltsbezeichnungen]** und wählen Sie **[!UICONTROL Standardangaben wiederherstellen (alle)]**.
+>So stellen Sie die standardmäßigen Seitentitel im **[!UICONTROL Bestellseiten]** Registerkarte auswählen **[!UICONTROL Inhaltsbezeichnungen]** und wählen Sie **[!UICONTROL Standardangaben wiederherstellen (alle)]**.
 
 ### Manuelles Eingeben von Seitennamen {#manually-entering-page-names}
 
@@ -114,7 +114,7 @@ Um Seitennamen einzeln von Hand einzugeben, rufen Sie im Anzeigebereich „E-Kat
 
 Das Importieren von Seitennamen wird für einen E-Katalog mit sehr vielen Seiten empfohlen. Sie haben die Möglichkeit, die Namen aus einer tabulatorgetrennten Datei oder einer XML-Datei zu importieren.
 
-Die Bezeichnung des Inhaltsverzeichnisses wird im Feld &quot;Benutzerdaten&quot;eines Bildes gespeichert. diese Daten als Liste von `name=<value>` ` pairs separated by two question marks “??” `. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnisfeld mit dem Namen `tocEN` festzulegen, setzen Sie im Feld „Benutzerdaten“ des Bilds folgenden Wert:
+Der Titel des Inhaltsverzeichnisses wird im Feld Benutzerdaten eines Bildes gespeichert. Formatieren Sie diese Daten als Liste von `name=<value>` ` pairs separated by two question marks "??" `. So legen Sie beispielsweise eine Beschriftung für ein TOC-Feld fest, das `tocEN`festlegen, setzen Sie die Benutzerdaten des Bildes auf:
 
 `tocEN=&lt;EN_page_label>`
 

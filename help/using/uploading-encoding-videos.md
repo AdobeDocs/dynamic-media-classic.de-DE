@@ -11,10 +11,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3962'
-ht-degree: 52%
+source-wordcount: '3951'
+ht-degree: 49%
 
 ---
 
@@ -170,7 +170,7 @@ In der folgenden Tabelle sind die Formelergebnisse und die zugehörigen gebräuc
 | 1,78 | 16:9 |
 | 0,56 | 9:16 |
 
-Ein Video mit einer Breite von 1440 x 1080 hat beispielsweise ein Seitenverhältnis von 1440/1080 oder 1,33. In diesem Fall wählen Sie eine Videokodierungsvorgabe mit einem Seitenverhältnis von 4:3 aus, um die Videodatei zu kodieren.
+Beispiel: Ein Video mit einer Breite von 1440 × 1080 hat ein Seitenverhältnis von 1440/1080 oder 1,33. In diesem Fall wählen Sie eine Videokodierungsvorgabe mit einem Seitenverhältnis von 4:3 aus, um die Videodatei zu kodieren.
 
 ### Datenrate {#data-rate}
 
@@ -193,16 +193,16 @@ In dieser Tabelle sind die Datenraten typischer Verbindungsgeschwindigkeiten auf
 
 ### Auflösung {#resolution}
 
-*Auflösung* beschreibt die Höhe und Breite einer Videodatei in Pixel. Die meisten Quell-Videodateien werden mit einer hohen Auflösung (z. B. 1920 x 1080) gespeichert. Für Streaming-Zwecke wird die Quell-Videodatei auf eine kleinere Auflösung komprimiert (640 x 480 oder kleiner).
+*Auflösung* beschreibt die Höhe und Breite einer Videodatei in Pixel. Die meisten Quellvideos werden mit hoher Auflösung gespeichert (z. B. 1920 × 1080). Zu Streaming-Zwecken werden Quellvideos in eine kleinere Auflösung komprimiert (640 × 480 oder kleiner).
 
-Auflösung und Datenrate sind zwei eng miteinander verknüpfte Faktoren, die die Videoqualität bestimmen. Um stets die gleiche Videoqualität aufrechtzuerhalten, muss bei einer Erhöhung der Pixelanzahl in einer Videodatei (d. h. bei einer höheren Auflösung) auch eine entsprechend höhere Datenrate verwendet werden. Nehmen Sie beispielsweise die Anzahl der Pixel pro Bild in einer Videodatei mit einer Auflösung von 320 x 240 und einer anderen mit einer Auflösung von 640 x 480:
+Auflösung und Datenrate sind zwei eng miteinander verknüpfte Faktoren, die die Videoqualität bestimmen. Um stets die gleiche Videoqualität aufrechtzuerhalten, muss bei einer Erhöhung der Pixelanzahl in einer Videodatei (d. h. bei einer höheren Auflösung) auch eine entsprechend höhere Datenrate verwendet werden. Betrachten Sie beispielsweise die Anzahl der Pixel pro Frame in einer Videodatei mit der Auflösung 320 × 240 und der Auflösung 640 × 480:
 
 | Auflösung | Pixel pro Bild |
 | --- | --- |
-| 320 x 240 | 76.800 |
-| 640 x 480 | 307.200 |
+| 320 × 240 | 76.800 |
+| 640 × 480 | 307.200 |
 
-Die Datei mit der Auflösung 640 x 480 hat viermal mehr Pixel pro Bild. Um für diese beiden Beispielauflösungen die gleiche Datenrate zu erzielen, wenden Sie auf die Datei mit einer Auflösung von 640 x 480 die vierfache Komprimierung an, was jedoch die Qualität des Videos beeinträchtigt. Daher ergibt eine Video-Datenrate von 250 Kbit/s eine hochwertige Anzeige bei einer Auflösung von 320 x 240, jedoch nicht bei einer Auflösung von 640 x 480.
+Die Datei 640 × 480 hat viermal mehr Pixel pro Frame. Um dieselbe Datenrate für diese beiden Beispielauflösungen zu erzielen, wenden Sie die vierfache Komprimierung auf die Datei 640 × 480 an, wodurch die Qualität des Videos reduziert werden kann. Daher erzeugt eine Videodatenrate von 250 kBit/s eine hochwertige Wiedergabe mit einer Auflösung von 320 × 240, jedoch nicht mit einer Auflösung von 640 × 480.
 
 >[!NOTE]
 >
@@ -238,14 +238,14 @@ Um dies zu berechnen, dividieren Sie die ursprüngliche Breite durch die kodiert
 
 Wenn das resultierende Verhältnis eine Ganzzahl ist, bedeutet dies, dass das Video optimal skaliert ist. Wenn das resultierende Verhältnis keine Ganzzahl ist, beeinträchtigt dies die Videoqualität, weil verbleibende Pixelartefakte auf dem Bildschirm sichtbar sind. Dies wird insbesondere dann deutlich, wenn das Video Text enthält.
 
-Ein Beispiel: Angenommen das Quellvideo hat die Maße 1920 x 1080. In der folgenden Tabelle werden die optimalen Kodierungseinstellungen für drei kodierte Videos aufgeführt.
+Angenommen, Ihr Quellvideo hat das Format 1920 × 1080. In der folgenden Tabelle werden die optimalen Kodierungseinstellungen für drei kodierte Videos aufgeführt.
 
-| Videotyp | Breite x Höhe | Breitenverhältnis | Höhenverhältnis |
+| Videotyp | Breite × Höhe | Breitenverhältnis | Höhenverhältnis |
 | --- | --- | --- | --- |
-| Quelle | 1920 x 1080 | 1 | 1 |
-| Kodiert | 960 x 540 | 2 | 2 |
-| Kodiert | 640 x 360 | 3 | 3 |
-| Kodiert | 480 x 270 | 4 | 4 |
+| Quelle | 1920 × 1080 | 1 | 1 |
+| Kodiert | 960 × 540 | 2 | 2 |
+| Kodiert | 640 × 360 | 3 | 3 |
+| Kodiert | 480 × 270 | 4 | 4 |
 
 ### Kodiertes Videodateiformat {#encoded-video-file-format}
 

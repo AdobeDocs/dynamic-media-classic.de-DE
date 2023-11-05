@@ -12,9 +12,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1005'
 ht-degree: 25%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 PSD (Photoshop Document Files) wird in Adobe Dynamic Media Classic meist zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie aus der Datei automatisch eine Adobe Dynamic Media Classic-Vorlage erstellen (wählen Sie im Bildschirm &quot;Hochladen&quot;die Option Vorlage erstellen aus).
 
-Adobe Dynamic Media Classic erstellt mehrere Bilder aus einer PSD-Datei mit Ebenen, wenn Sie die Datei zum Erstellen einer Vorlage verwenden. erstellt es für jede Ebene ein Bild.
+Adobe Dynamic Media Classic erstellt mehrere Bilder aus einer PSD-Datei mit Ebenen, wenn Sie die Datei zum Erstellen einer Vorlage verwenden. Es wird für jede Ebene ein Bild erstellt.
 
 ## Optionen für das Hochladen von PSD-Dateien {#psd-upload-options}
 
@@ -33,13 +33,13 @@ Die Optionen zum Hochladen von PSD-Dateien finden Sie unter &quot;Photoshop-Opti
 
 Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
-* **Optionen zum Zuschneiden** - Untergebracht unter **[!UICONTROL Optionen zum Zuschneiden]**. Auswählen **[!UICONTROL Zuschneiden]** automatisch den Leerraum von den Kanten einer PSD-Datei abschneiden; select **[!UICONTROL Manuell]** zum Zuschneiden der Seiten der PSD-Datei:
+* **Optionen zum Zuschneiden** - Untergebracht unter **[!UICONTROL Optionen zum Zuschneiden]**. Auswählen **[!UICONTROL Zuschneiden]** um den Leerraum automatisch von den Kanten einer PSD-Datei zu entfernen, wählen Sie **[!UICONTROL Manuell]** zum Zuschneiden der Seiten der PSD-Datei:
 
    * **[!UICONTROL Zuschneiden]** - Wählen Sie die **[!UICONTROL Entfernen basierend auf]** und wählen Sie **[!UICONTROL Farbe]** oder **[!UICONTROL Transparenz]**.
 
-  Wenn Sie die **[!UICONTROL Farbe]** Wählen Sie das Menü Ecke aus und wählen Sie die Ecke des PSD mit der Farbe aus, die am besten für die gewünschte Leerraum-Farbe steht.
+  Wenn Sie die **[!UICONTROL Farbe]** Wählen Sie das Menü Ecke aus und wählen Sie die Ecke des PSD mit der Farbe aus, die am besten der zu beschneidenden Leerraum-Farbe entspricht.
 
-  Ziehen Sie den Regler, um eine Toleranz von 0 bis 1 anzugeben. Wenn Sie beim Beschneiden basierend auf Farbe den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke der PSD-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Um das Beschneiden auf der Grundlage der Transparenz vorzunehmen, geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
+  Ziehen Sie den Regler, um eine Toleranz von 0 bis 1 anzugeben. Wenn Sie beim Beschneiden basierend auf Farbe den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke der PSD-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Wenn Sie das Zuschneiden auf der Grundlage der Transparenz durchführen möchten, geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher bei 1 liegen, ermöglichen mehr Transparenz.
 
    * **[!UICONTROL Manuell]** - Geben Sie die Anzahl der Pixel ein, die von einer beliebigen Seite oder jeder Seite des Bildes abgeschnitten werden sollen. Wie viel vom Bild abgeschnitten wird, hängt von der ppi-Einstellung (Pixel pro Zoll) in der Bilddatei ab. Wenn das Bild beispielsweise 150 ppi aufweist und Sie in die Textfelder oben, rechts, unten und links den Wert 75 eingeben, sind es 0,5 Zoll. von jeder Bildseite abgeschnitten wird.
 
@@ -61,7 +61,7 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
    * **[!UICONTROL Ebenen auf Hintergrundgröße ausdehnen]** - Vergrößert die Größe der gerippten Bildebenen auf die Größe der Hintergrundebene.
 
-   * **[!UICONTROL Ebenenbenennung]** - Ebenen in der PSD-Datei werden als separate Bilder hochgeladen. Um diese Bilder in Adobe Dynamic Media Classic zu benennen, wählen Sie eine der folgenden Optionen:
+   * **[!UICONTROL Ebenennamen]** - Ebenen in der PSD-Datei werden als separate Bilder hochgeladen. Um diese Bilder in Adobe Dynamic Media Classic zu benennen, wählen Sie eine der folgenden Optionen:
 
       * **[!UICONTROL Ebenenname]** - Benennt die Bilder nach ihren Ebenennamen in der PSD-Datei. Wenn eine Ebene der PSD-Originaldatei beispielsweise „Preisschild“ heißt, wird auch das zugehörige Bild „Preisschild“ genannt. Wenn es sich bei den Ebenennamen in der PSD-Datei jedoch um standardmäßige Photoshop-Ebenennamen handelt (Hintergrund, Ebene 1, Ebene 2 usw.), werden die Bilder nach ihren Ebenennummern in der PSD-Datei benannt. <!-- not their default layer names -->
 

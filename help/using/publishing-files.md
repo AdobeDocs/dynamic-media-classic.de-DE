@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 45%
+source-wordcount: '1732'
+ht-degree: 37%
 
 ---
 
@@ -31,7 +31,7 @@ Weitere Informationen finden Sie unter [Sofortige PDF zur Veröffentlichung](/he
 
 Sie haben zum Markieren von Assets zur Veröffentlichung die folgenden Möglichkeiten:
 
-* **[!UICONTROL Nach dem Hochladen veröffentlichen]** - Wählen Sie auf der Seite &quot;Hochladen&quot;unten die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. Die Standardeinstellung ist „ausgewählt“.
+* **[!UICONTROL Nach dem Hochladen veröffentlichen]** - Wählen Sie auf der Seite Hochladen unten die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. Die Standardeinstellung ist „ausgewählt“.
 
 * **[!UICONTROL Nach dem Hochladen veröffentlichen]** - Wählen Sie im Dialogfeld &quot;Auftragsoptionen&quot;die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. Die Standardeinstellung ist „ausgewählt“.
 
@@ -55,14 +55,14 @@ Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, di
 1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.
 1. Wählen Sie im Dialogfeld „Veröffentlichen“ aus, ob Sie einen einmaligen oder einen wiederkehrenden Auftrag veröffentlichen möchten.
 
-   Siehe [Erstellen eines einmaligen Veröffentlichungsauftrags](publishing-files.md#creating_a_one_time_publish_job) und [Erstellen eines wiederkehrenden Veröffentlichungsauftrags](publishing-files.md#creating_a_recurring_publish_job).
+   Siehe [Erstellen eines einmaligen Veröffentlichungsauftrags](publishing-files.md#creating_a_one_time_publish_job) und [Wiederkehrenden Veröffentlichungsauftrag erstellen](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Geben Sie einen Auftragsnamen ein.
 1. Blenden Sie optional die erweiterten Optionen ein und legen Sie die gewünschten Einstellungen fest. 
 
    Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options).
 
-1. Auswählen **[!UICONTROL Veröffentlichung übermitteln]**.
+1. Auswählen **[!UICONTROL Veröffentlichen senden]**.
 
 Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &quot;Aufträge&quot;nach. Sie können Veröffentlichungsaufträge auf dieser Seite überprüfen.
 
@@ -74,9 +74,9 @@ Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &
 
 Erstellen Sie einen einmaligen Veröffentlichungsauftrag, indem Sie die **[!UICONTROL Einmalig]** auf der Seite Veröffentlichen .
 
-Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite &quot;Veröffentlichen&quot;die Option **[!UICONTROL Einmalig]**, wählen Sie **[!UICONTROL Für später einplanen]** Dropdown-Liste. Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
+Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Einmalig]**, wählen Sie **[!UICONTROL Für später einplanen]** aus der Dropdown-Liste. Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
 
-### Erstellen eines wiederkehrenden Veröffentlichungsauftrags {#creating-a-recurring-publish-job}
+### Wiederkehrenden Veröffentlichungsauftrag erstellen {#creating-a-recurring-publish-job}
 
 Erstellen eines wiederkehrenden Veröffentlichungsauftrags durch Auswahl von **[!UICONTROL Wiederkehrend]** auf der Seite &quot;Veröffentlichen&quot;.
 
@@ -102,19 +102,19 @@ Sie können auf der Seite „Veröffentlichen“ erweiterte Optionen anzeigen un
 
 Siehe [Upload- oder Veröffentlichungsauftrag als Trigger verwenden](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).
 
-## Abbrechen eines Veröffentlichungsauftrags {#canceling-a-publish-job}
+## Veröffentlichungsauftrag abbrechen {#canceling-a-publish-job}
 
 Sie können einen laufenden Veröffentlichungsauftrag abbrechen. Als Administrator können Sie einen in Verarbeitung befindlichen Veröffentlichungsauftrag auch über die Seite „Aufträge“ für das Unternehmen stornieren.
 
-Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Aufträge&quot;und wählen Sie **[!UICONTROL Abbrechen]**. Auf der Registerkarte „Geplant“ der Seite „Aufträge“ können Sie einen Auftrag anhalten und wiederaufnehmen, indem Sie in der Spalte „Aktiv“ des Auftrags das Kontrollkästchen markieren bzw. dessen Markierung aufheben.
+Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Aufträge&quot;und wählen Sie **[!UICONTROL Abbrechen]**. Auf der Registerkarte &quot;Geplant&quot;der Seite &quot;Aufträge&quot;können Sie einen Auftrag anhalten oder fortsetzen, indem Sie in der Spalte &quot;Aktiv&quot;des Auftrags das Kontrollkästchen deaktivieren oder aktivieren.
 
 >[!NOTE]
 >
->Wenn Sie einen Veröffentlichungsauftrag storniert haben, ändert sich dessen Status zu „Wird angehalten“, bis ein Punkt erreicht wird, an dem ein sicherer Abbruch möglich ist. Bis zum Anhalten eines Veröffentlichungsauftrags kann es einige Zeit dauern, wenn gerade Daten aus der Datenbank abgerufen werden.
+>Nachdem Sie einen Veröffentlichungsauftrag abgebrochen haben, erhält er den Status &quot;Anhalten&quot;, bis der Auftrag einen Punkt erreicht hat, an dem er sicher anhalten kann. Bis zum Anhalten eines Veröffentlichungsauftrags kann es einige Zeit dauern, wenn gerade Daten aus der Datenbank abgerufen werden.
 
-## Manuelles Veröffentlichen von Assets {#manually-publishing-assets}
+## Assets manuell veröffentlichen {#manually-publishing-assets}
 
-Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Beim Veröffentlichen eines Sets, z. B. eines Bildsatzes oder adaptiven Videosets, werden das Set (das übergeordnete Element) und alle Mitglieder (die untergeordneten Elemente) innerhalb des Sets veröffentlicht.
+Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Wenn Sie Sets veröffentlichen, z. B. ein Bildset oder ein adaptives Videoset, werden das Set (oder &quot;übergeordnetes Element&quot;) und alle Mitglieder (oder &quot;untergeordnete Elemente&quot;) innerhalb dieses Sets veröffentlicht.
 
 Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues, rundes Symbol mit einem Schrägstrich (Status &quot;Nicht veröffentlicht&quot;) links neben dem Asset-Namen angezeigt. Nach dem Veröffentlichen eines Assets ändert sich das Symbol in ein grünes Kreissymbol mit einem weißen Häkchen (Status „veröffentlicht“).
 
@@ -124,15 +124,15 @@ Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Assets aus.
 
-     Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]**.
+     Wechseln Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]**.
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht das graue, runde Symbol mit einem Schrägstrich links neben dem Asset-Namen aus.
 
-## Manuelles Rückgängigmachen der Veröffentlichung von Assets {#manually-unpublishing-assets}
+## Veröffentlichung von Assets manuell rückgängig machen {#manually-unpublishing-assets}
 
-Sie können die Veröffentlichung einzelner Assets manuell rückgängig machen. Beim Rückgängigmachen der Veröffentlichung eines Sets, z. B. eines Mustersets oder eines E-Katalogs, erhält das Set (das übergeordnete Element) den Status „unveröffentlicht“. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
+Sie können die Veröffentlichung einzelner Assets manuell rückgängig machen. Wenn Sie die Veröffentlichung von Sets, z. B. eines Mustersets oder eines E-Katalogs, rückgängig machen, erhält das Set (oder &quot;übergeordnetes&quot;) selbst den Status &quot;unveröffentlicht&quot;. Die Mitglieder (oder &quot;untergeordneten Elemente&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie ihren vorhandenen Status veröffentlicht oder unveröffentlicht bei.
 
-Veröffentlichte Elemente werden in der Benutzeroberfläche mit einem grünen Kreissymbol mit einem weißen Häkchen gekennzeichnet (Status „veröffentlicht“), das links neben dem Namen des Assets angezeigt wird. Nachdem die Veröffentlichung eines Assets rückgängig gemacht wurde, wird das Symbol grau mit einem Schrägstrich (Status &quot;Nicht veröffentlicht&quot;) dargestellt.
+Veröffentlichte Assets werden in der Benutzeroberfläche durch ein rundes, grünes Symbol mit einem weißen Häkchen in der Mitte (Veröffentlichungsstatus) links neben dem Asset-Namen gekennzeichnet. Nachdem die Veröffentlichung eines Assets rückgängig gemacht wurde, wird das Symbol grau mit einem Schrägstrich (Status &quot;Nicht veröffentlicht&quot;) dargestellt.
 
 **So machen Sie die Veröffentlichung eines Assets manuell rückgängig:**
 
@@ -140,7 +140,7 @@ Veröffentlichte Elemente werden in der Benutzeroberfläche mit einem grünen Kr
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere veröffentlichte Assets aus.
 
-     Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
+     Wechseln Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht das runde grüne Häkchensymbol links neben dem Asset-Namen aus.
 

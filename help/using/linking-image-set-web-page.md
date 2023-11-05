@@ -1,27 +1,25 @@
 ---
 title: Verknüpfen eines Bildsets mit einer Webseite
 description: Erfahren Sie, wie Sie ein Bildset mit einer Web-Seite in Adobe Dynamic Media Classic verknüpfen.
-uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 42%
+source-wordcount: '692'
+ht-degree: 38%
 
 ---
 
 # Verknüpfen eines Bildsets mit einer Webseite{#linking-an-image-set-to-a-web-page}
 
-Nach der Veröffentlichung eines Bildsatzes können Sie dessen URL oder Einbettungscode auf Ihrer Website oder in Ihrer Anwendung verwenden. Danach können Sie nach Bedarf die URL bereitstellen oder den Einbettungscode einfügen, damit die Benutzer den Bildsatz auf der Website oder in der Anwendung anzeigen können.
+Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige URL oder den zugehörigen Einbettungscode für die Verwendung auf Ihrer Website oder in Ihrer Anwendung kopieren. Danach können Sie nach Bedarf die URL bereitstellen oder den Einbettungscode einfügen, damit die Benutzer den Bildsatz auf der Website oder in der Anwendung anzeigen können.
 
 >[!NOTE]
 >
@@ -50,7 +48,7 @@ Nach der Veröffentlichung eines Bildsatzes können Sie dessen URL oder Einbettu
 
 Die am häufigsten verwendete Möglichkeit zum Implementieren eines Bildsatzes ist es, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Wenn auf den Link geklickt wird, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML5-Zoom-Viewer in das Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML5-Zoom-Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines Bildset-Viewers {#copying-the-embed-code-of-an-image-set-viewer}
 

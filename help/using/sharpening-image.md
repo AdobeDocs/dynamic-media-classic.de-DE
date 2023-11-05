@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2274'
-ht-degree: 39%
+source-wordcount: '2267'
+ht-degree: 38%
 
 ---
 
@@ -60,7 +60,7 @@ Die folgende Tabelle zeigt die Scharfzeichnungsoptionen des Image-Servers.
 | Name | URL-Protokoll | Werte | Beispiel |
 | --- | --- | --- | --- |
 | Einfaches Scharfzeichnen | `op_sharpen` | `0` oder `1` | `op_sharpen=1` |
-| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind häufig sichtbar.<br>`bicub`: Wählt bikubische Interpolation aus. CPU-intensiver als bilin, erzielt aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, die sowohl eine höhere als auch eine niedrigere Auflösung verwendet, falls verfügbar. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
+| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind häufig sichtbar.<br>`bicub`: Wählt bikubische Interpolation aus. CPU-intensiver als `bilin`, erzielt aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, die sowohl eine höhere als auch eine niedrigere Auflösung verwendet, falls verfügbar. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
 | Unschärfemaske | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: Filterfestigkeitsfaktor (real 0...5)<br><br>`radius`: Filterkernel-Radius in Pixel (real 0...250) <br><br>`threshold`: Filterschwellenwert (int 0...255)<br><br>`monochrome`: setzt auf `0` zur Unschärfemaske jeder Farbkomponente einzeln festlegen, auf `1` zur Bildhelligkeit (Intensität) der Unschärfemaske | `op_usm=1,1,10,0` |
 
 Wählen Sie die **[!UICONTROL Scharfzeichnen]** und wählen Sie eine Option:
@@ -79,7 +79,7 @@ Wählen Sie diese Optionen aus, damit Sie die Scharfzeichnung mit der Unschärfe
 
 Der beste Radiuswert hängt von der Größe des Bilds ab. Bei einem geringeren Wert werden nur die Kantenpixel scharfgezeichnet, während bei einem hohen Wert ein breiterer Pixelbereich scharfgezeichnet wird.
 
-Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein Bild mit 2000 x 2000 Pixel und ein Bild mit 500 x 500 Pixel zu erhalten, können Sie einen Radius von zwei Pixel auf dem Bild mit 2000 x 2000 Pixel festlegen. einen Radiuswert von einem Pixel auf dem 500 x 500-Pixelbild (bzw. einen größeren Wert für ein Bild mit mehr Pixeln) festlegen. 
+Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein 2000 × 2000 Pixelbild und ein 500 × 500 Pixelbild zu erhalten, können Sie einen Radius-Wert von zwei Pixel auf dem 2000 × 2000 Pixelbild festlegen. Legen Sie dann einen Radius-Wert von einem Pixel auf dem Bild mit 500 × 500 Pixel fest (ein größerer Wert für ein Bild mit mehr Pixel).
 
 * **Schwellenwert** - Bestimmt den Kontrastbereich, der bei Anwendung des Filters &quot;Unschärfemaske&quot;ignoriert werden soll. Diese Option legt also fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und scharfgezeichnet werden.
 
@@ -99,7 +99,7 @@ Wählen Sie die **[!UICONTROL Resampling]** und wählen Sie eine Option. Mit die
 
 * **[!UICONTROL Bikubisch]** - Erhöht die CPU-Auslastung auf dem Image-Server, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten.
 
-* **[!UICONTROL Scharfzeichnen2]** - Erzeugt etwas schärfere Ergebnisse als **[!UICONTROL Bikubisch]**, aber bei noch höheren CPU-Kosten auf dem Image-Server.
+* **[!UICONTROL `Sharpen2`]** - Erzeugt etwas schärfere Ergebnisse als **[!UICONTROL Bikubisch]**, aber bei noch höheren CPU-Kosten auf dem Image-Server.
 
 * **[!UICONTROL Trilinear]** - Verwendet sowohl höhere als auch niedrigere Auflösungen, sofern verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem darstellt. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
 
@@ -128,7 +128,7 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 Wenn Sie keine Bildvorgabe verwenden oder spezifische Image-Server-Scharfzeichnungsprotokolle mit dem URL-String übergeben, wird das Bild beim Downsampling nicht scharfgezeichnet. Tritt diese fehlende Scharfzeichnung jedoch auf, können Sie die standardmäßigen Scharfzeichnungswerte festlegen und dann hat jedes Bild immer eine gewisse Scharfzeichnung.
 
-Um die standardmäßigen Scharfzeichnungsoptionen Ihres Unternehmens festzulegen, gehen Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]**. Wenn Sie den standardmäßigen Resamplingmodus auf **[!UICONTROL Scharf2]**, wird das Bild beim Downsampling immer scharfgezeichnet.
+Um die standardmäßigen Scharfzeichnungsoptionen Ihres Unternehmens festzulegen, gehen Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]**. Wenn Sie den standardmäßigen Resamplingmodus auf **[!UICONTROL `Sharp2`]**, wird das Bild beim Downsampling immer scharfgezeichnet.
 
 **Hinzufügen von Scharfzeichnung zu Viewer-Vorgaben**
 

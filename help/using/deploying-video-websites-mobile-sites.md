@@ -1,21 +1,19 @@
 ---
 title: Bereitstellen von Videos auf Websites und mobilen Sites
 description: Erfahren Sie, wie Sie Videos von Adobe Dynamic Media Classic auf Ihren Websites und mobilen Sites bereitstellen.
-uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 34%
+source-wordcount: '1708'
+ht-degree: 33%
 
 ---
 
@@ -43,12 +41,12 @@ Nach der Veröffentlichung von Videos aktiviert Adobe Dynamic Media Classic die 
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um Videos automatisch und sofort beim Hochladen zu veröffentlichen, wählen Sie auf der Seite &quot;Hochladen&quot;die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
+   * Um Videos automatisch und sofort beim Hochladen zu veröffentlichen, wählen Sie auf der Seite Hochladen die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
    * Um Videos manuell nach dem Hochladen zu veröffentlichen, wählen Sie im Durchsuchenbedienfeld die Videos aus und klicken Sie dann in der Symbolleiste für globale Navigation auf **Veröffentlichen**.
 
 ## Verknüpfen einer Video-URL mit einer mobilen Site oder Website {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Nach dem Veröffentlichen eines Videos können Sie dessen URL abrufen, um sie auf Ihrer Website, mobilen Site oder in Ihrer Anwendung zu verwenden. Verwenden Sie die Video-URL, wenn Videos in einem Popup-Menü oder einem modalen Fenster auf die Webseite angezeigt werden sollen.
+Wenn Sie ein Video veröffentlichen, können Sie die zugehörige URL abrufen, um sie auf Ihrer Website, mobilen Site oder in Ihrer Desktop-Applikation zu verwenden. Verwenden Sie die Video-URL, wenn Videos in einem Popup-Menü oder einem modalen Fenster auf die Webseite angezeigt werden sollen.
 
 Wenn ein Kunde den Link auswählt, werden sein Gerät, die Bandbreite und die Bildschirmgröße automatisch erkannt. Das entsprechende Video wird zur Wiedergabe in einem vordefinierten Viewer für Desktop-PCs oder mit dem systemeigenen Videoplayer für Smartphones und Tablets des Mobilgeräts angezeigt. 
 
@@ -119,7 +117,7 @@ Wenn Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sond
 </video>
 ```
 
-* Ersetzen `"S7 video thumbnail URL"` mit der Miniatur-URL des Videos, der dem Miniaturbild des Videos entspricht, das einem Benutzer vor der Wiedergabe des Videos angezeigt wird.
+* Ersetzen `"S7 video thumbnail URL"` mit der Miniatur-URL des Videos, die das Miniaturbild des Videos darstellt, das ein Benutzer vor der Wiedergabe des Videos sieht.
 
   Siehe [Abrufen von URLs für Videominiaturen](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
@@ -179,7 +177,7 @@ Führen Sie zum Erstellen von URLs für Videominiaturen einen Veröffentlichungs
 
 Siehe [Video veröffentlichen](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Nach der Veröffentlichung können Sie Videominiatur-URLs in der Detailansicht im URL-Bedienfeld sowie im Code-einbetten-Bedienfeld abrufen. Auswählen **[!UICONTROL URL kopieren]** rechts neben der Videominiatur, damit Sie die URL kopieren können.
+Nach der Veröffentlichung können Sie Videominiatur-URLs in der Detailansicht im URL-Bedienfeld sowie im Code-einbetten-Bedienfeld abrufen. Auswählen **[!UICONTROL URL kopieren]** rechts neben der Videominiatur, damit Sie die zugehörige URL kopieren können.
 
 ### Ändern von Standbildern in Video-Viewern {#modifying-poster-frames-in-video-viewers}
 

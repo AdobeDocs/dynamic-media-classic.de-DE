@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ Auf den Seiten &quot;Anwendungseinstellungen&quot;können Sie allgemeine Einstel
 
 >[!NOTE]
 >
->Nur Adobe Dynamic Media Classic-Administratoren können die Einstellungen auf den Seiten in der Anwendungskonfiguration ändern.
+>Nur Adobe Dynamic Media Classic-Administratoren können die Einstellungen in der Anwendungskonfiguration ändern.
 
 ## Allgemeine Einstellungen {#general-settings}
 
@@ -131,13 +131,13 @@ Siehe auch [Standardmäßige Upload-Auftragsoptionen](https://s7d5.scene7.com/s7
 
 * **[!UICONTROL Standardmäßige Upload-Optionen]** - Öffnet das Dialogfeld &quot;Upload-Auftragsoptionen&quot;, in dem Sie standardmäßige Upload-Optionen festlegen können. Informationen zu diesen Optionen finden Sie unter [Upload-Optionen](/help/using/uploading-files.md#upload_options).
 
-### Imagemap-Editor, an Anwendung
+### Image Map Editor (to Application)
 
 * **[!UICONTROL Standard-HREF für die Bildzuordnung]** - Definiert die Standard-URL, die für die HREF-Spalte im Bild-Mapping verwendet wird. Diese URL ist die Standard-URL, die beim Erstellen von Imagemaps angezeigt wird.
 
 * **[!UICONTROL Standardvorlage für die Bildzuordnung]** - Definiert das standardmäßige JavaScript für die HREF-Vorlage im Bild-Mapping. Sie können hier benutzerdefinierten Code festlegen, der immer dann ausgeführt wird, wenn Sie eine Imagemap auswählen.
 
-### Andere Einstellungen, an Anwendung
+### Andere Einstellungen (in Anwendung)
 
 * **[!UICONTROL Löschvorgang kann Warnhinweise bereinigen]** - Assets im Papierkorb werden innerhalb von sieben Tagen automatisch entfernt. Wählen Sie &quot;E-Mails senden, bevor die Papierkorbselemente automatisch gelöscht werden&quot;aus, wenn Sie möchten, dass Benachrichtigungen an Unternehmensadministratoren gesendet werden, wenn Assets, die sich im Papierkorb befinden, vier Tage vor dem endgültigen Löschen entfernt sind. Siehe [Ordner &quot;Papierkorb&quot;verwalten](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Bikubisch]** - Erhöht die CPU-Auslastung auf dem Image-Server, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten.
 
-* **[!UICONTROL Scharf2]** - Kann etwas schärfere Ergebnisse erzielen als die bikubische Option, aber bei noch höheren CPU-Kosten auf dem Image-Server.
+* **[!UICONTROL `Sharp 2`]** - Kann geringfügig schärfere Ergebnisse als die bikubische Methode liefern, verursacht jedoch auch eine noch höhere CPU-Auslastung auf dem Image-Server.
 
 * **[!UICONTROL Trilinear]** - Verwendet sowohl höhere als auch niedrigere Auflösungen, sofern verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem darstellt. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
 
@@ -308,7 +308,7 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie rechts unten auf der Seite &
      >
      >Um Videos auf iPads bereitzustellen, können Sie eine Kodierungsvorgabe für Mobilgeräte oder eine Kodierungsvorgabe für Tablets auswählen. Tablet-Vorgaben weisen gewöhnlich eine höhere Auflösung und Qualität auf und sind für den iPad mit seinem größeren Display und der hohen Verbindungsgeschwindigkeit optimiert. Damit Videodateien, die mit einer Tablet-Vorgabe kodiert wurden, richtig wiedergegeben werden können, muss die mobile Site bzw. Anwendung über einen Code zur Geräteerkennung verfügen. Dieser Code sorgt dafür, dass, abhängig vom erkannten Wiedergabegerät, das entsprechende Videomaterial für iPhone oder iPad bereitgestellt wird. Durch die Auswahl einer Mobil-Vorgabe für die Wiedergabe von Videodateien auf dem iPad wird der Workflow vereinfacht. Das liegt daran, dass Sie für iPhones und iPads dieselbe Videodatei verwenden können. Allerdings wird dabei die Qualität des Videomaterials an das iPhone mit seiner geringeren Auflösung angepasst.
 
-      * Wählen Sie unter der Gruppe „Kodierungsvorgaben“ in der Dropdown-Liste „Kodierungsvorgaben sortieren“ entweder „Name“ oder „Größe“, um die Vorgaben nach Name oder Auflösung zu sortieren.
+      * Wählen Sie unter der Gruppe Kodierungsvorgaben in der Dropdown-Liste Kodierungsvorgaben sortieren die Option Name oder Größe aus, um die Vorgaben nach Name oder Auflösung zu sortieren.
       * Wählen Sie eine Kodierungsvorgabe basierend auf der Auflösung und Bandbreite aus, mit der Sie das Video wiedergeben möchten.
       * Sie können Adaptive Videokodierung und mindestens eine Kodierungsvorgabe pro Video auswählen. Beispielsweise können Sie eine Datei beim Hochladen gleichzeitig für Desktop und mobile Geräte kodieren.
 
@@ -340,9 +340,9 @@ Eine Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, u
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Auto x360, 800 kBit/s | _Mobile_Autox360p_800K | 800 | Autox360 | Gleich Quelle | 64 | Für Mobilgeräte (iPhone, iPad, Android™) |
-| 2 | Auto x 480, 1400 kBit/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Gleich Quelle | 96 | Für Tablets (iPad, Android™) |
-| 3 | Auto x 720, 2600 kBit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Gleich Quelle | 128 | Für Desktop |
+| 1 | Auto × 360.800 kBit/s | _Mobile_Auto×360p_800K | 800 | Auto×360 | Gleich Quelle | 64 | Für Mobilgeräte (iPhone, iPad, Android™) |
+| 2 | Auto × 480.1400 kBit/s | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | Gleich Quelle | 96 | Für Tablets (iPad, Android™) |
+| 3 | Auto × 720.2600 kBit/s | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Gleich Quelle | 128 | Für Desktop |
 
 ### Vorgaben für die adaptive Videokodierung (16:9 oder 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Alle standardmäßigen CSS-Dateien mit Viewer-Vorgaben in Adobe Dynamic Media Cl
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diese relativen Bildpfade auflösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. Wenn Sie beispielsweise den relativen Pfad oben auf einen expliziten Pfad aktualisieren, könnte er wie folgt aussehen, wobei `https://s7d1.scene7.com` ist der direkte Pfad zu Ihrem Bildserver: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diese relativen Bildpfade auflösen, indem Sie einen expliziten Pfad zum Image-Server in Ihrer eigenen Umgebung verwenden. Wenn Sie beispielsweise den relativen Pfad oben auf einen expliziten Pfad aktualisiert haben, könnte er wie folgt aussehen, wobei `https://s7d1.scene7.com` ist der direkte Pfad zu Ihrem Bildserver: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **So exportieren Sie eine HTML5-Viewer-Vorgabe:**
 
@@ -926,7 +926,7 @@ Sie können entweder die Formularfeldmethode verwenden, um eine Stapelsatzvorgab
 
 Siehe auch [Erstellen einer Stapelsatzvorgabe für die automatische Erstellung eines 2D-Rotationssets](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-Siehe auch [2D-Rotationssets](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [2D-Rotationsset](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) Schulungsvideo.
 
 **So erstellen Sie eine Stapelsatzvorgabe:**
 

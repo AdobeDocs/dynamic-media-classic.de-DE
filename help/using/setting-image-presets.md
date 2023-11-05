@@ -12,16 +12,16 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 50%
+source-wordcount: '654'
+ht-degree: 44%
 
 ---
 
 # Einrichten von Bildvorgaben{#setting-up-image-presets}
 
-Eine Bildvorgabe ähnelt einem Makro – es handelt sich um eine vordefinierte, mit gemeinsamem Namen gespeicherte Sammlung von Befehlen zur Größeneinstellung und Formatierung. Um zu verstehen, wie Bildvorgaben funktionieren, nehmen wir an, dass auf Ihrer Website jedes Produktbild in zwei verschiedenen Größen angezeigt werden muss: 500 x 500 Pixel und 150 x 150 Pixel. Sie erstellen dann zwei Bildvorgaben, eine mit der Bezeichnung „Vergrößerung“ zum Anzeigen von Bildern mit 500 x 500 Pixeln, eine mit der Bezeichnung „Miniaturansicht“ zum Anzeigen von Bildern mit 150 x 150 Pixeln. Um Bilder in den Größen &quot;Vergrößern&quot;und &quot;Miniaturansicht&quot;bereitzustellen, sucht ein Dynamic Media-Bildserver nach der Definition der Bildvorgabe &quot;Vergrößern&quot;und der Bildvorgabe &quot;Miniaturansicht&quot;. Dann erstellt der Server dynamisch je ein Bild in der Größe und mit den Formatierungsangaben, die in den beiden Bildvorgaben gespeichert sind.
+Eine Bildvorgabe ähnelt einem Makro – es handelt sich um eine vordefinierte, mit gemeinsamem Namen gespeicherte Sammlung von Befehlen zur Größeneinstellung und Formatierung. Um zu verstehen, wie Bildvorgaben funktionieren, nehmen wir an, dass auf Ihrer Website jedes Produktbild in zwei verschiedenen Größen angezeigt werden muss: 500 × 500 Pixel und 150 × 150 Pixel. Sie erstellen zwei Bildvorgaben, eine mit der Bezeichnung &quot;Vergrößern&quot;, um Bilder mit einer Auflösung von 500 x 500 Pixel anzuzeigen, und eine mit der Bezeichnung &quot;Miniatur&quot;, um Bilder mit einer Größe von 150 × 150 Pixel anzuzeigen. Um Bilder in den Größen &quot;Vergrößern&quot;und &quot;Miniaturansicht&quot;bereitzustellen, sucht ein Dynamic Media-Bildserver nach der Definition der Bildvorgabe &quot;Vergrößern&quot;und der Bildvorgabe &quot;Miniaturansicht&quot;. Dann erstellt der Server dynamisch je ein Bild in der Größe und mit den Formatierungsangaben, die in den beiden Bildvorgaben gespeichert sind.
 
 Adobe Dynamic Media Classic enthält mehrere &quot;Best Practice&quot;-Bildvorgaben, die Sie bereits zur Verwendung eingerichtet haben. Administratoren können auch Bildvorgaben erstellen. Sie können eine Bildvorgabe komplett neu erstellen oder eine vorhandene Bildvorgabe abwandeln und unter neuem Namen speichern.
 
@@ -40,7 +40,7 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 1. Führen Sie einen der folgenden Schritte aus:
 
    * **Erstellen einer Bildvorgabe** - Auswählen **[!UICONTROL Hinzufügen]**.
-   * **Bearbeiten von Bildvorgaben** - Navigieren Sie zu der Bildvorgabe, die der gewünschten am ähnlichsten ist, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
+   * **Bearbeiten einer Bildvorgabe** - Navigieren Sie zu der Bildvorgabe, die der gewünschten am ähnlichsten ist, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
 
 1. Geben Sie einen Namen für die Bildvorgabe ein.
 1. Geben Sie die Breite und Höhe in Pixeln ein. Diese Werte bestimmen die Größe, in der Bilder bereitgestellt werden.
@@ -48,9 +48,9 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 
    Adobe Dynamic Media Classic empfiehlt die folgenden Best Practice-Optionen, um zu beginnen:
 
-   * **[!UICONTROL Format]** - Wählen Sie JPEG oder ein anderes Format, das Ihren Anforderungen entspricht. Das Bildformat JPEG wird von allen Webbrowsern unterstützt; es bietet Ausgewogenheit in Bezug auf geringe Dateigröße einerseits und hohe Bildqualität andererseits. Das JPEG-Format ist allerdings mit einer verlustbehafteten Komprimierung verbunden; bei zu hoch eingestellter Komprimierung können unerwünschte Bildartefakte entstehen. Aus diesem Grund empfiehlt Adobe Dynamic Media Classic, die Komprimierungsqualität (auf dem Regler) auf 75 festzulegen. Mit dieser Einstellung erreichen Sie eine angemessene Bildqualität bei ausreichend kleiner Dateigröße.
+   * **[!UICONTROL Format]** - Wählen Sie JPEG oder ein anderes Format, das Ihren Anforderungen entspricht. Das Bildformat JPEG wird von allen Webbrowsern unterstützt; es bietet Ausgewogenheit in Bezug auf geringe Dateigröße einerseits und hohe Bildqualität andererseits. JPEG-Bilder verwenden jedoch ein verlustbehaftetes Komprimierungsschema, das unerwünschte Bildartefakte hervorrufen kann, wenn die Komprimierungseinstellung zu niedrig ist. Aus diesem Grund empfiehlt Adobe Dynamic Media Classic, die Komprimierungsqualität (auf dem Regler) auf 75 festzulegen. Mit dieser Einstellung erreichen Sie eine angemessene Bildqualität bei ausreichend kleiner Dateigröße.
 
-   * **[!UICONTROL Scharfzeichnen]** - Wählen Sie Scharfzeichnen nicht aus (dieser Scharfzeichnungsfilter bietet weniger Kontrolle als **[!UICONTROL Unschärfemaske]** -Einstellungen).
+   * **[!UICONTROL Scharfzeichnen]** - Scharfzeichnen nicht auswählen (dieser Scharfzeichnungsfilter bietet weniger Kontrolle als **[!UICONTROL Unschärfemaske]** -Einstellungen).
 
    * **[!UICONTROL Beispielmodus]** - Auswählen **[!UICONTROL Bikubisch]**.
 
@@ -58,14 +58,14 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 
    | Vorgabetyp | Größe | Unschärfem.: Betrag | Unschärfem.: Radius | Unschärfem.: Schwelle |
    | --- | --- | --- | --- | --- |
-   | Cross-Selling (besonders kleine Miniaturansicht) | 75 x 75 | 1,5 | 0,8 | 5 |
-   | Miniaturansicht | 150 x 150 | 1,1 | 1 | 5 |
-   | Hauptansicht | 350 x 350 | 1 | 1 | 6 |
-   | Vergrößerung | 500 x 500 | 1,2 | 1,2 | 5 |
+   | Cross-Selling (besonders kleine Miniaturansicht) | 75 × 75 | 1,5 | 0,8 | 5 |
+   | Miniaturansicht | 150 × 150 | 1,1 | 1 | 5 |
+   | Hauptansicht | 350 × 350 | 1 | 1 | 6 |
+   | Vergrößerung | 500 × 500 | 1,2 | 1,2 | 5 |
 
 1. Auswählen **[!UICONTROL Speichern]**.
 
-Die hier aufgeführten Adobe Dynamic Media Classic-Best Practice-Optionen zum Erstellen von Bildvorgaben sind allgemeine Empfehlungen. Scharfzeichnen ist sehr subjektiv. Diese &quot;Best Practice&quot;-Einstellungen basierten auf einem Primärbild von 2000 x 2000. Die Einstellungen für größere oder kleinere Primärdateien können unterschiedlich sein. Wenn Sie die Einstellungen für die Unschärfemaske anpassen möchten, empfiehlt Adobe Dynamic Media Classic die folgenden Bereiche:
+Die hier aufgeführten Adobe Dynamic Media Classic-Best Practice-Optionen zum Erstellen von Bildvorgaben sind allgemeine Empfehlungen. Die Scharfzeichnung ist äußerst subjektiv. Diese &quot;Best Practice&quot;-Einstellungen basieren auf einem Primärbild von 2000 × 2000. Die Einstellungen für größere oder kleinere Primärdateien können unterschiedlich sein. Wenn Sie die Einstellungen für die Unschärfemaske anpassen möchten, empfiehlt Adobe Dynamic Media Classic die folgenden Bereiche:
 
 * **[!UICONTROL Betrag]** - zwischen 0,8 und 1,5.
 

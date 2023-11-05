@@ -1,20 +1,18 @@
 ---
 title: Bilder zuschneiden
 description: Erfahren Sie, wie Sie ein Bild in Adobe Dynamic Media Classic zuschneiden.
-uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '549'
 ht-degree: 35%
 
 ---
@@ -27,7 +25,7 @@ Sie haben die Möglichkeit, durch Beschneiden den weißen Bereich um das Bild he
 
 >[!NOTE]
 >
->Nach dem Zuschneiden können Sie **[!UICONTROL Speichern unter]** und speichern Sie eine zugeschnittene Version des Bildes unter einem anderen Namen. Wählen Sie im Fenster Speichern unter die Option **[!UICONTROL Als neuen Übergeordnete speichern]** , um eine zweite Kopie des Bildes zu speichern. Auswählen **[!UICONTROL Als zusätzliche Ansicht des Übergeordneten speichern]** sodass Sie das Original und die zugeschnittene Version unter einem anderen Namen speichern können. Auswählen **[!UICONTROL Original ersetzen]** , um die Originaldatei zu löschen, von der Sie das Bild beschnitten haben. Geben Sie dann einen Namen für das Bild ein und wählen Sie **[!UICONTROL Einsenden]**.
+>Nach dem Zuschneiden können Sie **[!UICONTROL Speichern unter]** und speichern Sie eine zugeschnittene Version des Bildes unter einem anderen Namen. Wählen Sie im Fenster Speichern unter die Option **[!UICONTROL Als neuen Master speichern]** , um eine zweite Kopie des Bildes zu speichern. Auswählen **[!UICONTROL Als zusätzliche Ansicht des Master speichern]** sodass Sie das Original und die zugeschnittene Version unter einem anderen Namen speichern können. Auswählen **[!UICONTROL Original ersetzen]** , um die Originaldatei zu löschen, von der Sie das Bild beschnitten haben. Geben Sie dann einen Namen für das Bild ein und wählen Sie **[!UICONTROL Einsenden]**.
 
 ## Beschneiden zum Entfernen des weißen Bereichs am Bildrand {#crop-to-remove-white-space-around-an-image}
 
@@ -36,7 +34,7 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 1. Um ein Bild zuzuschneiden, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchenbedienfeld in der Detailansicht an und wählen Sie die **[!UICONTROL Zuschneiden]** Schaltfläche.
 1. Führen Sie auf der Seite &quot;Beschneidungseditor&quot;einen der folgenden Schritte aus:
 
-   * Um Farbpixel zu beschneiden, gehen Sie zu **[!UICONTROL Zuschneiden]** > **[!UICONTROL Farbe]**. Im **[!UICONTROL Auto-Zuschneiden nach Farbe]** auswählen, wählen Sie das **[!UICONTROL Ecke]** und wählen Sie eine Ecke mit der Hintergrundfarbe aus, die Sie entfernen möchten. Geben Sie dann **[!UICONTROL Toleranz]** Einstellung von 0 bis 1. Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Auswählen **[!UICONTROL Zuschneiden]**.
+   * Um Farbpixel zu beschneiden, gehen Sie zu **[!UICONTROL Zuschneiden]** > **[!UICONTROL Farbe]**. Im **[!UICONTROL Auto-Zuschneiden nach Farbe]** auswählen, wählen Sie das **[!UICONTROL Ecke]** und wählen Sie eine Ecke mit der Hintergrundfarbe aus, die Sie entfernen möchten. Geben Sie dann ein **[!UICONTROL Toleranz]** Einstellung von 0 bis 1. Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Auswählen **[!UICONTROL Zuschneiden]**.
    * Um transparente Pixel zu beschneiden, gehen Sie zu **[!UICONTROL Zuschneiden]** > **[!UICONTROL Transparent]**. Im **[!UICONTROL Automatisch nach Transparenz zuschneiden]** eingeben, geben Sie eine Toleranzeinstellung von 0 bis 1 ein. Bei der Einstellung 0 werden Pixel nur dann abgeschnitten, wenn sie transparent sind. Werte, die näher an 1 liegen, lassen eine größere Transparenzabweichung zu. Auswählen **[!UICONTROL Zuschneiden]**.
 
 1. Auswählen **[!UICONTROL Speichern]**.
@@ -66,4 +64,4 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 >
 >* [Optionen für die Bildbearbeitung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload)
 >* [Leerraum aus einer PDF-Datei beschneiden](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Beschneiden von Seiten auf PDF-Seiten](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Beschneiden von den Seiten der PDF-Seiten](pdfs.md#cropping_from_the_sides_of_pdf_pages)

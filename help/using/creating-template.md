@@ -12,9 +12,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3468'
 ht-degree: 44%
 
 ---
@@ -87,7 +87,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 **So löschen Sie eine Vorlage:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht eine oder mehrere Vorlagen aus.
-1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
+1. Wechseln Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
 
 ## Bildschirm &quot;Vorlage&quot; {#understanding-the-template-screen}
 
@@ -101,7 +101,7 @@ Verwenden Sie diese Tools auf dem Bildschirm &quot;Vorlage&quot;, um Vorlagen zu
 
 * **[!UICONTROL Vorschau]** - Öffnet den Vorschaubildschirm und zeigt die Vorlage in einem Zoom-Viewer an. Sie sehen dann, wie die Vorlage auf der Website bzw. in der Anwendung aussehen wird.
 
-* **[!UICONTROL Parameterzusammenfassung]** Öffnet den Bildschirm Parameterzusammenfassung . Darin werden die Namen aller Ebenen in der Vorlage sowie für jede Ebene die Namen der aktivierten Parameter angezeigt.
+* **[!UICONTROL Parameterzusammenfassung]** Öffnet den Bildschirm &quot;Parameterzusammenfassung&quot;. Darin werden die Namen aller Ebenen in der Vorlage sowie für jede Ebene die Namen der aktivierten Parameter angezeigt.
 
 * **[!UICONTROL Texteditor v4.3 und Texteditor v4.2]** - Sie können den neuesten Texteditor mit den meisten Funktionen, den Texteditor v4.3 oder den vorherigen Texteditor, Text Editor v4.2, verwenden. Beim Erstellen von Vorlagen ist standardmäßig der Texteditor v4.3 ausgewählt. Beim Bearbeiten älterer Vorlagen ist Texteditor Version 4.2 standardmäßig ausgewählt. Texteditor Version 4.3 unterstützt derzeit keine Umbrüche. Verwenden Sie daher Texteditor Version 4.2, wenn Sie ältere Vorlagen bearbeiten, die Umbrüche verwenden, um die Funktionsfähigkeit der Vorlage beizubehalten. Wenn Ihre ältere Vorlage keine Wortumbrüche verwendet, können Sie den Texteditor v4.3 auswählen, um die zahlreichen neuen Funktionen zu nutzen. So können Sie beispielsweise Ränder erhöhen, Ränder reduzieren, Text in allen Kapiteln einstellen und Text an Textgröße kopieren.
 
@@ -111,7 +111,7 @@ Verwenden Sie diese Tools auf dem Bildschirm &quot;Vorlage&quot;, um Vorlagen zu
 
 * **[!UICONTROL Designer und Entwickler]** - Wählen Sie die Option aus, die Ihre Rolle am besten beschreibt.
 
-* **[!UICONTROL Arbeitsfläche]** - Definiert den gesamten verfügbaren Bereich in Pixel zur Definition Ihrer Vorlage. Die Standardgröße beträgt 300 x 300 Pixel. Ebenen werden auf der Arbeitsfläche platziert.
+* **[!UICONTROL Arbeitsfläche]** - Definiert den gesamten verfügbaren Bereich in Pixel zur Definition Ihrer Vorlage. Die Standardgröße beträgt 300 × 300 Pixel. Ebenen werden auf der Arbeitsfläche platziert.
 
 * **[!UICONTROL Ebenenliste]** - Listet den Namen der Ebenen in der Vorlage auf. Um eine Ebene auszuwählen, markieren Sie deren Namen in der Liste „Ebenen“. Die Liste „Ebenen“ enthält Werkzeuge, mit denen Ebenen mit Effekten versehen, gelöscht, umsortiert und parametrisiert werden können. Siehe [Arbeiten mit Ebenen](#working-with-layers).
 
@@ -164,7 +164,7 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
    * **[!UICONTROL Zeilenabstand]** - Geben Sie einen numerischen Wert ein oder wählen Sie einen aus, um den der Abstand zwischen Zeilen angepasst werden soll.
 
-   * **[!UICONTROL Grundlinienversatz]** - Geben Sie einen numerischen Wert ein oder wählen Sie einen numerischen Wert aus, um den ein ausgewähltes Zeichen relativ zur Grundlinie des umgebenden Texts nach oben oder unten verschoben werden soll. Diese Option ist insbesondere hilfreich, wenn Sie Brüche von Hand eingeben oder die Position von eingebundenen Grafiken anpassen.
+   * **[!UICONTROL Grundlinienversatz]** - Geben Sie einen numerischen Wert ein oder wählen Sie einen numerischen Wert aus, um den ein ausgewähltes Zeichen relativ zur Grundlinie des umgebenden Textes nach oben oder unten verschoben werden soll. Diese Option ist insbesondere hilfreich, wenn Sie Brüche von Hand eingeben oder die Position von eingebundenen Grafiken anpassen.
 
 >[!NOTE]
 >
@@ -176,9 +176,9 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 1. Wählen Sie den Absatz aus, den Sie formatieren möchten.
 1. Geben Sie eine der folgenden Formatierungsoptionen an und wählen Sie dann **[!UICONTROL Anwenden]**.
 
-   * **[!UICONTROL Ausrichtung]** - Wählen Sie diese Option aus, um den Ausrichtungstyp anzugeben: ausrichten, zentriert, rechts ausrichten oder ausrichten.
+   * **[!UICONTROL Ausrichtung]** - Wählen Sie diese Option aus, um den Ausrichtungstyp anzugeben: links ausrichten, zentriert ausrichten, rechts ausrichten oder ausrichten.
 
-   * **[!UICONTROL Absatzende-Ausrichtung]** - Wählen Sie diese Option aus, um die Art der Ausrichtung für die letzte Zeile im Absatz anzugeben: letzte Zeile wird links ausgerichtet; letzte Zeile zentriert; und die letzte Zeile wird rechts ausgerichtet.
+   * **[!UICONTROL Absatzende-Ausrichtung]** - Wählen Sie diese Option aus, um die Art der Ausrichtung für die letzte Zeile im Absatz festzulegen: Letzte Zeile wird linksbündig, letzte Zeile zentriert und letzte Zeile rechts ausgerichtet.
 
    * **[!UICONTROL Zeilenabstand]** - Geben Sie einen numerischen Wert ein oder wählen Sie ihn aus, um den Abstand zwischen allen Zeilen im Absatz anzupassen.
 
@@ -209,7 +209,7 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
    * **[!UICONTROL Keine Umbruch]** - Richtet den Text nicht um, wenn das Textfeld horizontal zu klein ist, und schneidet stattdessen einen Teil des Textes ab.
 
-   * **[!UICONTROL Breit gefächerte Umbrüche]** - Umfasst Text, um in ein Textfeld zu passen, ohne dass Wörter umbrochen werden.
+   * **[!UICONTROL Breit geflossen]** - Umfasst Text, um in ein Textfeld zu passen, ohne Wörter zu umbrechen.
 
    * **[!UICONTROL Position]** - Gibt die Position des Textfelds auf der Arbeitsfläche an.
 
@@ -225,7 +225,7 @@ Die im Texteditor auf der Registerkarte „Quelle“ angegebenen Informationen d
 
    Die Änderungen bleiben erhalten, auch wenn Sie zwischen der Vorschau- und der Quell-Ansicht wechseln.
 
-1. Auswählen **[!UICONTROL Anwenden]** um die Änderungen zu rendern.
+1. Auswählen **[!UICONTROL Anwenden]** , um die Änderungen zu rendern.
 
 ## Arbeiten mit Ebenen {#working-with-layers}
 
@@ -272,7 +272,7 @@ Sie können nicht nur die Größe einer Ebene ändern, sondern auch deren Umrand
 
 **Ausblenden einer Ebene oder eines Ebeneneffekts:**
 
-Sie können eine Ebene oder einen Ebeneneffekt ausblenden, indem Sie das Augensymbol neben einem Ebenennamen oder Effektnamen auswählen. Ausgeblendete Ebenen werden nicht in Vorschauen oder in der Ausgabe angezeigt. Die Ebeneninformationen werden jedoch nicht aus der URL gelöscht. Stattdessen `hide=1` wird der URL hinzugefügt, um zu beachten, dass die Ebene ausgeblendet ist. Beispiel:
+Sie können eine Ebene oder einen Ebeneneffekt ausblenden, indem Sie das Augensymbol neben einem Ebenennamen oder Effektnamen auswählen. Ausgeblendete Ebenen werden nicht in Vorschauen oder in der Ausgabe angezeigt. Die Ebeneninformationen werden jedoch nicht aus der URL gelöscht. stattdessen `hide=1` wird der URL hinzugefügt, um zu beachten, dass die Ebene ausgeblendet ist. Beispiel:
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 
@@ -286,7 +286,7 @@ Um die Hintergrundfarbe, Deckkraft und den Übergangsmodus für eine Ebene oder 
 
 * **Hintergrundfarbe** - Auswählen **[!UICONTROL Hintergrundfarbe]** und wählen Sie ein Farbmuster aus, um die Farbe der aufgefüllten Bereiche zu ändern.
 
-* **Deckkraft** - Ziehen Sie den Schieberegler Deckkraft , um jede Ebene durchsichtig zu machen, sodass ein Teil des zugrunde liegenden Bildes sichtbar wird. Die Einstellung von 100 % ist deckend. 0 ist transparent.
+* **Deckkraft** - Ziehen Sie den Schieberegler Deckkraft , um jede Ebene durchsichtig zu machen, sodass ein Teil des zugrunde liegenden Bildes sichtbar wird. Die Einstellung von 100 % ist deckend, 0 ist transparent.
 
 * **Füllmethode** - Wählen Sie eine Option, um einen der in Photoshop verfügbaren Mischmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“. Diese Optionen können nur auf Ebenen, nicht jedoch auf die Arbeitsfläche angewendet werden.
 
@@ -333,7 +333,7 @@ Um einen Schatten- oder Schein-Effekt anzupassen, markieren Sie dessen Namen in 
 
 ## Ebenen maskieren {#masking-layers}
 
-Über die Schaltfläche „Maske“ in der Liste „Ebenen“ können Sie angeben, wie die Maske oder der Alpha-Kanal einer Ebene verwendet werden soll. Mithilfe der Schaltfläche „Maske“ können Sie den Effekt einer Hintergrundebene auf eine bestimmte Ebene oder die gesamte übergeordnete Ebene in der Vorlage anwenden. Wählen Sie in der Liste &quot;Ebenen&quot;eine Ebene aus und wählen Sie **[!UICONTROL Maskieren]** um diese Status zu durchlaufen:
+Über die Schaltfläche „Maske“ in der Liste „Ebenen“ können Sie angeben, wie die Maske oder der Alpha-Kanal einer Ebene verwendet werden soll. Mithilfe der Schaltfläche „Maske“ können Sie den Effekt einer Hintergrundebene auf eine bestimmte Ebene oder die gesamte übergeordnete Ebene in der Vorlage anwenden. Wählen Sie in der Liste &quot;Ebenen&quot;eine Ebene aus und klicken Sie auf **[!UICONTROL Maskieren]** um diese Status zu durchlaufen:
 
 * Der Hintergrund der Ebene ist deckend.
 * Der Inhalt der Ebene erscheint invertiert und der Hintergrund der Ebene ist schwarz gefüllt.

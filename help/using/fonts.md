@@ -12,10 +12,10 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 28%
+source-wordcount: '426'
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,7 @@ Nachdem eine Schriftartdatei hochgeladen wurde, können Sie die Adobe Dynamic Me
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt das Hochladen aller Schriftstile (fett, kursiv, fett/kursiv und normal), wenn Sie Schriftarten in Vorlagenschichten verwenden möchten. Adobe Dynamic Media Classic benötigt diese Schriftstile, um Anforderungen zu verarbeiten. Es ist außerdem zu empfehlen, alle PostScript-/Adobe-Type 1-Dateien, die einer Schriftart zugeordnet sind, hochzuladen, weil einige dieser Schriftarten detaillierte Kerning-Daten enthalten.
+>Adobe Dynamic Media Classic empfiehlt das Hochladen aller Schriftstile (fett, kursiv, fett/kursiv und normal), wenn Sie Schriftarten in Vorlagenschichten verwenden möchten. Adobe Dynamic Media Classic benötigt diese Schriftstile, um Anforderungen zu verarbeiten. Alle hochladen `PostScript/Adobe Type1` -Dateien, die mit einer Schriftart verknüpft sind, werden ebenfalls empfohlen, da einige dieser Schriftarten detaillierte Kerning-Informationen enthalten.
 
 ## Hochladen von Schriftartdateien {#uploading-font-files}
 
@@ -63,7 +63,7 @@ Wählen Sie im Durchsuchenbedienfeld in der Detailansicht die Schriftartdatei au
 
    * **[!UICONTROL TTF]** - TrueType-Schriftartdateien, die für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
 
-   * **[!UICONTROL AFM]** - Adobe PostScript-Schriftartdateien, die Informationen zu Adobe Font Metrics enthalten und für die Bildbereitstellung verwendet werden.
+   * **[!UICONTROL AFM]** - Adobe PostScript-Schriftartdateien, die Informationen zu Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
 
    * **[!UICONTROL PFM]** - Adobe PostScript-Schriftartendateien, die Informationen zu binären Schriftartmetriken enthalten.
 

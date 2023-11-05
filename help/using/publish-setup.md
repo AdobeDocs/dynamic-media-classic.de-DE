@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 42%
+source-wordcount: '2408'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ Die Einstellungen der Seite &quot;Veröffentlichungseinstellungen&quot;bestimmen
 
 Administratoren können die Standardeinstellungen auf den Seiten Image-Server, Image-Renderer und Vignette ändern, um Standardeinstellungen für die Bereitstellung von Assets von Servern festzulegen.
 
-Navigieren Sie zu den Seiten Veröffentlichungseinstellungen , um **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]**.
+Um die Seiten der Veröffentlichungseinstellungen zu öffnen, navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]**.
 
 >[!NOTE]
 >
@@ -38,9 +38,9 @@ Auf der Image-Server-Seite werden Standardeinstellungen für die Bereitstellung 
 
 * **[!UICONTROL Anforderungsattribute]** - Mit diesen Einstellungen werden Einschränkungen für Bilder festgelegt, die vom Server bereitgestellt werden können. Beispiel: die *maximum* **[!UICONTROL Maximale Antwortbildgröße]** is **[!UICONTROL Breite]** 5000 und **[!UICONTROL Höhe]** 5000.
 
-* **[!UICONTROL Standardmäßige Anforderungsattribute]** - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
+* **[!UICONTROL Standardattribute für Anfragen]** - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
 
-* **[!UICONTROL Allgemeine Attribute für Miniaturansichten]** - Diese Einstellungen beziehen sich auf die standardmäßige Darstellung und Ausrichtung von Miniaturbildern.
+* **[!UICONTROL Allgemeine Attribute für Miniaturen]** - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild und die Ausrichtung von Miniaturbildern.
 
 * **[!UICONTROL Standardeinstellungen für Katalogfelder]** - Diese Einstellungen beziehen sich auf die Auflösung und den Standardtyp für Miniaturansichten von Bildern.
 
@@ -63,7 +63,7 @@ Auf der Image-Server-Seite werden Standardeinstellungen für die Bereitstellung 
 >
 >Wenn Sie Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, z. B. das Feld &quot;Locale Map&quot;, [Verwenden Sie die -Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) In Ihrem Support-Fall fordern Sie Hilfe bei der Einrichtung an.
 
-Eine gängige Möglichkeit zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise sind die Unterschiede für einige Teile der gesamten Medien. Das Beheben solcher Unterschiede durch Kopieren aller Assets für jedes Land und Überschreiben nur der Unterschiede ist ein enormer Aufwand und steht im Widerspruch zur einzigen Metapher für primäre Assets. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Adobe Dynamic Media Classic verwendet einen grundlegenden Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
+Eine gängige Möglichkeit zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise sind die Unterschiede für einige Teile der gesamten Medien. Das Beheben solcher Unterschiede durch Kopieren aller Assets für jedes Land und Überschreiben nur der Unterschiede ist ein enormer Aufwand und steht im Widerspruch zur Metapher der einzelnen primären Assets. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Adobe Dynamic Media Classic verwendet einen grundlegenden Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
 
 #### So werden Assets lokalisiert
 
@@ -71,13 +71,13 @@ Das Gebietsschema für eine IS-Anfrage (Image Serving) wird mit dem folgenden IS
 
 `locale=`
 
-Dieser Befehl akzeptiert eine Zeichenfolge mit der Gebietsschema-ID (locId), bei der die Groß- und Kleinschreibung nicht berücksichtigt werden muss. Bei der Gebietsschema-ID handelt es sich im Allgemeinen um eine Zeichenfolge mit 2-6 Zeichen, die aus Buchstaben und „_“ besteht.
+Dieser Befehl akzeptiert eine Zeichenfolge mit der Gebietsschema-ID (locId), bei der die Groß- und Kleinschreibung nicht berücksichtigt werden muss. Die Gebietsschema-ID ist normalerweise eine 2-6-stellige Zeichenfolge, die aus Buchstaben und &quot;_&quot;besteht.
 
 IS unterstützt beliebige druckbare ASCII-Zeichenfolgen. Die `locale=` -Befehl hat einen globalen Gültigkeitsbereich, d. h., er wird auf die gesamte Anforderung angewendet, einschließlich aller verschachtelten IS- und IR-Anforderungen, referenzierten Vorlagen und Bildebenen. Mehrere Gebietsschemas pro Abfrage, wie ein verschiedenes Gebietsschema für jede Ebene, werden nicht unterstützt. Es ist jedoch denkbar, explizite Überschreibvorgänge in verschachtelten Abfragen zuzulassen.
 
 Wenn `locale=` nicht angegeben ist, `attribute::DefaultLocale` wird an die Übersetzungs-Engines übergeben. Eingeschränkte Eingabevalidierung wird auf die `locale=` -Wert. Empty `locale=` -Werte erlaubt sind. weil `locale=` einen globalen Anwendungsbereich hat, `attribute::DefaultLocale` wird vom Hauptkatalog für die gesamte Anfrage bereitgestellt.
 
-Vorteile der Verwendung von `locale=` und `attribute::DefaultLocale` umfassen Folgendes:
+Vorteile der Verwendung von `locale=` und `attribute::DefaultLocale` Folgendes einschließen:
 
 * Freigeben von Inhalten für mehrere Gebietsschemas.
 * Zugriff auf Gebietsschema-spezifische Inhalte mit generischen IDs.
@@ -109,11 +109,11 @@ Bei der Lokalisierung fügt eine Image-Server-URL die `locale=` -Parameter auf d
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Nach Erhalt des HTTP-Aufrufs durch den Image-Server muss die `locale=` wird durch die `localeMap` -Feld gefunden in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]** > **[!UICONTROL Lokalisierungsunterstützung]** hinzugefügt.
+Nach Erhalt des HTTP-Aufrufs durch den Image-Server muss die `locale=` wird durch die `localeMap` -Feld in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]** > **[!UICONTROL Lokalisierungsunterstützung]** hinzugefügt.
 
 Das Feld „Gebietsschemakarte“ enthält eine Liste mit Einträgen, die durch einen senkrechten Strich (|) getrennt sind.
 
-Jeder Eintrag besteht aus einer durch Kommas getrennten Liste von Werten. Der erste Wert ist der Suchwert, der von der `locale=` Parameter. Die verbleibenden Werte sind Suffix-/Ersatzwerte, die dann versucht werden, bis zu einem vorhandenen Bild zu gelangen.
+Jeder Eintrag besteht aus einer durch Kommas getrennten Liste von Werten. Der erste Wert ist der Suchwert, der vom `locale=` -Parameter. Die verbleibenden Werte sind Suffix-/Ersatzwerte, die dann versucht werden, bis zu einem vorhandenen Bild zu gelangen.
 
 Ob ein Suffixwert oder ein Ersetzungswert angewendet wird, hängt von der Einstellung „Globales Gebietsschema“ in der Gruppe **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]** > **[!UICONTROL Lokalisierungsunterstützung]** ab.
 
@@ -125,7 +125,7 @@ Ob ein Suffixwert oder ein Ersetzungswert angewendet wird, hängt von der Einste
 
 | URL | localeMap-IDs | Ergebnis |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Der erste entsprechende Wert _DE wird dem Asset als Suffix angehängt image_DE und er wird auf dem Image-Server gesucht. Wenn er auf dem Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert „“ als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Der erste entsprechende Wert _DE wird dem Asset als Suffix angehängt image_DE und er wird auf dem Image-Server gesucht. Wenn er auf dem Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert &quot;&quot;als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
 
 **Beispiel für eine Ersetzung:**
 
@@ -135,11 +135,11 @@ Ob ein Suffixwert oder ein Ersetzungswert angewendet wird, hängt von der Einste
 
 Wenn in der URL kein Gebietsschema definiert ist, verwendet der Image-Server DefaultLocale, sofern definiert, und wendet es auf die URL an.
 
-Wenn ein unbekannter oder leerer Gebietsschema-Parameter mit `locale=`, dann `localeMap` wird auf den leeren Wert &quot;Beginnt mit&quot; gescannt. Es ist wichtig, dass ein standardmäßiges Gebietsschema für unbekannte Gebietsschemata angewendet wird.
+Wenn ein unbekannter oder leerer Gebietsschema-Parameter mit `locale=`, dann die `localeMap` wird auf den leeren Wert &quot;Beginnt mit&quot; gescannt. Es ist wichtig, dass ein standardmäßiges Gebietsschema für unbekannte Gebietsschemata angewendet wird.
 
 #### Über defaultImage
 
-Der Image-Server versucht nacheinander, die Optionen für das angeforderte Gebietsschema zu verwenden. Wenn keine Übereinstimmung gefunden wird, werden die Gebietsschemaoptionen auf defaultImage angewendet und die entsprechende Version wird zurückgegeben. Daher muss entweder jedes Gebietsschema eine Option für das Bild ohne Lokalisierung enthalten oder die lokalisierten defaultImage-Versionen werden in Adobe Dynamic Media Classic verfügbar gemacht.
+Der Image-Server versucht nacheinander, die Optionen für das angeforderte Gebietsschema zu verwenden. Wenn keine Übereinstimmung gefunden wird, werden die Sprachoptionen auf defaultImage angewendet und die entsprechende Version wird zurückgegeben. Daher muss entweder jedes Gebietsschema eine Option für das Bild ohne Lokalisierung enthalten oder die lokalisierten defaultImage-Versionen werden in Adobe Dynamic Media Classic verfügbar gemacht.
 
 #### Szenarios für die Suche nach der localeMap
 
@@ -147,7 +147,7 @@ Angenommen, Sie möchten die folgenden Gebietsschemas unterstützen:
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-Sie ordnen diese Gebietsschemas den Suffixe zu. `_E`, `_G`und `_F`, für Englisch, Deutsch und Französisch. Bei allen Beispielen lautet die generische Eingabebild-ID `myImg`.
+Sie ordnen diese Gebietsschemas den Suffixe zu. `_E`, `_G`, und `_F`, für Englisch, Deutsch und Französisch. Bei allen Beispielen lautet die generische Eingabebild-ID `myImg`.
 
 ##### Standardverhalten bei der Suche nach der localeMap
 
@@ -216,7 +216,7 @@ Beim ersten Beispiel als Grundlage könnten Bilder für alle Sprachen die Suffix
 
 * Die Lokalisierung ist auf ID-basierte Asset-Abrufe beschränkt und kann nicht für pfadbasierte Asset-Abrufe verwendet werden. Wenn also Videos mit einem Gebietsschema abgerufen werden sollen, müssen sie als Unternehmens-/Asset-ID abgerufen werden, nicht über den vollständigen Pfad zum Video. Sie können rtmp nicht mit Lokalisierung verwenden, da diese Methode nur für pfadbasierte Videoaufrufe verwendet werden kann.
 * Sie können kein gemischtes Medienset verwenden, das ein einzelnes Video enthält, wenn localeMap aktiv ist. Andernfalls schlägt der Abruf der Set-Inhalte fehl. Um dieses Problem zu umgehen, können Sie einem adaptiven Videoset ein einzelnes Video hinzufügen. Fügen Sie das adaptive Videoset anschließend einem gemischten Medienset hinzu.
-* Bestimmte Abfragen sind nicht lokalisiert. Dies gilt beispielsweise für die Abfrage der Inhalte eines adaptiven Videosets. Wenn Sie also adaptive Videosets mit Lokalisierung verwenden möchten, platzieren Sie das adaptive Videoset in einem gemischten Medienset. Rufen Sie dann das Set in einen Viewer für gemischte Medien auf, mit dem `locale=` Parameter.
+* Bestimmte Abfragen sind nicht lokalisiert. Dies gilt beispielsweise für die Abfrage der Inhalte eines adaptiven Videosets. Wenn Sie also adaptive Videosets mit Lokalisierung verwenden möchten, platzieren Sie das adaptive Videoset in einem gemischten Medienset. Rufen Sie dann das Set in einen Viewer für gemischte Medien auf, mit dem `locale=` -Parameter.
 
 ## Bild-Renderer {#image-renderer}
 

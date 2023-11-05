@@ -1,27 +1,25 @@
 ---
 title: Verknüpfen eines gemischten Mediensets mit einer Website
 description: Erfahren Sie, wie Sie ein gemischtes Medienset mit einer Web-Seite in Adobe Dynamic Media Classic verknüpfen.
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 50%
+source-wordcount: '653'
+ht-degree: 47%
 
 ---
 
 # Verknüpfen eines gemischten Mediensets mit einer Website{#linking-a-mixed-media-set-to-a-web-page}
 
-Nach der Veröffentlichung eines gemischten Mediensets können Sie dessen URL abrufen, um sie auf Ihrer Website oder in Ihrer Anwendung zu verwenden. Danach können Sie die URL nach Bedarf verwenden, damit die Benutzer das gemischten Medienset auf der Website oder in der Anwendung anzeigen können.
+Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie dessen zugehörige URL abrufen, um sie auf Ihrer Website oder in Ihrer Anwendung zu verwenden. Danach können Sie die URL nach Bedarf verwenden, damit die Benutzer das gemischten Medienset auf der Website oder in der Anwendung anzeigen können.
 
 ## Abrufen einer gemischten Medienset-URL {#obtain-a-mixed-media-set-url}
 

@@ -2,29 +2,29 @@
 cloud: Experience Cloud
 product: adobe dynamic media classic
 audience: end-user
-user-guide-title: Adobe Dynamic Media Classic-Handbuch
-breadcrumb-title: Dynamic Media Classic-Handbuch
+user-guide-title: Adobe Dynamic Media Classic-Anleitung
+breadcrumb-title: Dynamic Media Classic-Anleitung
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic
 index: y
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 25%
 
 ---
 
 
-# Adobe Dynamic Media Classic-Handbuch {#using}
+# Adobe Dynamic Media Classic-Anleitung {#using}
 
 + Upgrade von Dynamic Media Classic auf Dynamic Media {#upgrade}
    + [Warum auf Dynamic Media aktualisieren?](upgrade.md)
    + [Aktualisierte FAQs](upgrade-faq.md)
    + [Vergleich der Funktionsliste](upgrade-feature-comparison.md)
    + [Checkliste zur Upgrade-Bereitschaft](upgrade-readiness.md)
-+ [Adobe Dynamic Media Classic-Handbuch](home.md)
++ [Adobe Dynamic Media Classic-Anleitung](home.md)
 + [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NEUES Adobe Dynamic Media Classic-Anmeldeerlebnis jetzt verfügbar](new-ui-2020.md)
-+ [Adobe Dynamic Media-Newsletter-Archiv nach Experience League](dynamic-media-newsletter.md)
++ [NEU Adobe Dynamic Media Classic-Anmeldung jetzt verfügbar](new-ui-2020.md)
++ [Adobe Dynamic Media-Newsletterarchiv durch Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic Desktop App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
    + [Informationen zur Adobe Dynamic Media Classic-Hilfe](introduction.md)
@@ -87,7 +87,7 @@ ht-degree: 25%
    + [Hochladen von Primärbildern](uploading-master-images.md)
    + [Primärbilder veröffentlichen](publishing-master-images.md)
    + [Einrichten von Bildvorgaben](setting-image-presets.md)
-   + [Verknüpfen von URLs mit einer Webanwendung](linking-urls-web-application.md)
+   + [Verknüpfen von URLs mit einer Web-Anwendung](linking-urls-web-application.md)
 + Zoom {#zoom}
    + [Kurzanleitung: Zoom](quick-start-zoom.md)
    + [Hochladen von Zoombildern](uploading-zoom-images.md)
@@ -153,7 +153,7 @@ ht-degree: 25%
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
 + Adobe Analytics-Instrumentenkit {#analytics-kit}
-   + [Schnellstart: Integrieren von Adobe Dynamic Media Classic mit Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [Schnellstart: Integration von Adobe Dynamic Media Classic in Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Anmelden bei Adobe Analytics](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
    + [Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit](instrumenting-viewer-using-analytics-instrumentation.md)

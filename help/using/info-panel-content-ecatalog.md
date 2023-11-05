@@ -1,21 +1,19 @@
 ---
 title: Verwalten von Inhalten im Informationsbereich in E-Katalogen
 description: Erfahren Sie, wie Sie den Inhalt des Infofelds in E-Katalogen in Adobe Dynamic Media Classic verwalten.
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -41,7 +39,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 >Siehe [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Doppelklicken Sie auf Ihren eCatalog, damit er in der Detailansicht geöffnet wird.
-1. Wählen Sie die **[!UICONTROL InfoPanel-Einrichtung]** Bereich.
+1. Wählen Sie die **[!UICONTROL InfoPanel-Einrichtung]** Bedienfeld.
 1. Wählen Sie eine Antwortvorlage aus:
 
    * Wählen Sie eine Vorgabe aus dem Menü „Antwortvorlage“ aus. Der XML-Code für den Vorlagenentwurf wird im Feld „Benutzervorlage“ angezeigt.
@@ -51,7 +49,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 1. Geben Sie die Anzahl der Stunden bis zum Zwischenspeichern der Daten in das Feld „Antwort-TTL“ ein:
 
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
-   * Geben Sie eine höhere Zahl ein, falls die Daten relativ stabil sind und nicht so häufig aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
+   * Legen Sie eine höhere Zahl fest, wenn die Daten relativ stabil sind und nicht häufig täglich aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
 
 1. Auswählen **[!UICONTROL Veröffentlichen]**.
 
@@ -68,7 +66,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 ### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort in E-Kataloge {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Doppelklicken Sie auf den eCatalog, damit er in der Detailansicht geöffnet wird.
-1. Wählen Sie die **[!UICONTROL InfoPanel Datafeed]** Bereich.
+1. Wählen Sie die **[!UICONTROL InfoPanel Datafeed]** Bedienfeld.
 1. Geben Sie die URL für die CSV-Datei in das Feld „Speicherort der extern gehosteten CSV-Datei (HTTP)“ ein. Sie können diese URL in das Feld kopieren oder sie direkt eintippen.
 1. (Optional) Geben Sie einen Zeitpunkt für die Aktualisierung des Inhalts mithilfe der Menüs Aktualisierung planen an und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
 1. (Optional) Wählen Sie **[!UICONTROL Update jetzt ausführen]** , um den Inhalt sofort zu aktualisieren.
@@ -86,7 +84,7 @@ Last Modified Date:
  -->
 
 1. Doppelklicken Sie auf den eCatalog, damit er in der Detailansicht geöffnet wird.
-1. Wählen Sie die **[!UICONTROL InfoPanel-Einrichtung]** Bereich.
+1. Wählen Sie die **[!UICONTROL InfoPanel-Einrichtung]** Bedienfeld.
 1. Auswählen **[!UICONTROL S7Info-Inhalt hochladen]**.
 1. Auswählen **[!UICONTROL Durchsuchen]**, wählen Sie die TXT-, CSV- oder SSV-Datei mit Tabulatorzeichen aus und wählen Sie **[!UICONTROL Öffnen]**.
 1. Auswählen **[!UICONTROL Hochladen]**.

@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 72%
+source-wordcount: '255'
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder 
 
 Die folgenden Einschränkungen gelten, wenn Sie Bild-Assets exportieren:
 
-* Die Breite x Höhe muss kleiner als oder gleich 100 MB pro Bild sein. Beispielsweise kann das Bild nicht 10K x 10K oder eine Seitenverhältnisvariation darunter wie z. B. 8K x 12K überschreiten.
+* Die Breite × Höhe muss kleiner oder gleich 100 MB pro Bild sein. Beispielsweise darf das Bild nicht größer sein als 10 K × 10 K oder eine Seitenvariante darunter, z. B. 8 K × 12 K.
 * Pro Exportauftrag gibt es eine maximale Dateigröße von 1 GB.
 * Sie können maximal 500 Assets pro Exportauftrag haben.
 
