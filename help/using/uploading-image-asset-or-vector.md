@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -96,7 +96,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upl
 
 Sie können nun ein Bild-Asset hochladen.
 
-Siehe [Hochladen eines Bild-Assets](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Siehe [Bild-Asset hochladen](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## Hochladen eines Rasterbild-Assets {#uploading-an-image-asset}
 
@@ -134,13 +134,13 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Beschränkung für die Dateigröße.
 * Eine Liste mit den Erweiterungen für Dateinamen.
 * Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
-* Gibt an, ob Hintergrund aussparen verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
+* Ob Hintergrund aussparen verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
 Siehe Hintergrund aussparen in [Bildoptimierungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Den Namen der hochzuladenden Datei.
 
 Sie können den mit dem obigen Formular verknüpften HTML-Quellcode anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie **[!UICONTROL Seitenquelle anzeigen]**. Der Code enthält die URL-Anfragezeichenfolge und die POST-Methode, die ausgeführt werden, wenn der Benutzer auf **[!UICONTROL „Absenden“]** klickt.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie **[!UICONTROL Seitenquelle anzeigen]**. Der Code zeigt die entsprechende URL-Abfragezeichenfolge und die POST-Methode an, die ausgeführt werden, wenn der Benutzer **[!UICONTROL Einsenden]**.
 
 Um die XML-Antwort in Internet Explorer anzuzeigen, navigieren Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Quelle]**. Um die XML-Antwort in Firefox anzuzeigen, navigieren Sie zu **[!UICONTROL Instrumente]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Web Developer Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 

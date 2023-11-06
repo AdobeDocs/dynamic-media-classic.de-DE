@@ -12,16 +12,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '713'
 ht-degree: 16%
 
 ---
 
 # Grundlagen der Navigation{#navigation-basics}
 
-Der Adobe Dynamic Media Classic-Bildschirm umfasst drei Hauptbereiche: Globale Navigationsleiste, Asset-Bibliothek, Registerkarte &quot;Asset-Filter&quot;, Bedienfeld &quot;Durchsuchen/Erstellen&quot;und Warenkorb (nur Media Portal).
+Der Adobe Dynamic Media Classic-Bildschirm umfasst drei Hauptbereiche: Symbolleiste für globale Navigation, Asset-Bibliothek, Registerkarte für Asset-Filter, Bedienfeld für Durchsuchen/Build-Bedienfeld und Warenkorb (nur Media Portal).
 
 ![Navigationsprinzipien](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *Wichtigste Bereiche der Adobe Dynamic Media Classic*
@@ -37,7 +37,7 @@ Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigeber
 
 * **[!UICONTROL Build]** - Wählen Sie eine Build-Aufgabe aus dem Menü aus. Nach der Auswahl wird das Erstellenbedienfeld geöffnet, damit Sie einen Asset-Typ erstellen können.
 
-* **[!UICONTROL Veröffentlichen]** - Öffnet den Bildschirm &quot;Veröffentlichen&quot;, damit Sie Rich-Media-Assets auf Adobe Dynamic Media-Bildservern und der übrigen Adobe Dynamic Media Classic SAAS-Infrastruktur veröffentlichen können.
+* **[!UICONTROL Veröffentlichen]** - Öffnet den Bildschirm &quot;Veröffentlichen&quot;, damit Sie Rich-Media-Assets auf Adobe Dynamic Media-Image-Servern und der übrigen Adobe Dynamic Media Classic SAAS-Infrastruktur veröffentlichen können.
 
 * **[!UICONTROL Aufträge]** - Öffnet den Bildschirm &quot;Aufträge&quot;, damit Sie Datensätze zu Upload- und Veröffentlichungsaufträgen überprüfen können.
 
@@ -63,13 +63,13 @@ Am oberen Rand des Bedienfelds &quot;Asset-Bibliothek&quot;befinden sich Befehle
 
 >[!NOTE]
 >
->Sie können **[!UICONTROL Asset-Bibliothek]** Steuerelemente zum Öffnen oder Schließen der Asset-Bibliothek und mehr Platz für die Arbeit auf dem Bildschirm. Wählen Sie die **[!UICONTROL Erweitern]**/**[!UICONTROL Reduzieren]** steuern, um das Bedienfeld zu erweitern oder zu schließen. Diese Steuerelemente befinden sich auf der linken Seite des Bedienfelds.
+>Sie können **[!UICONTROL Asset-Bibliothek]** Steuerelemente zum Öffnen oder Schließen der Asset-Bibliothek und mehr Platz für die Arbeit auf dem Bildschirm. Wählen Sie die **[!UICONTROL Erweitern]**/**[!UICONTROL Reduzieren]** steuern, um das Bedienfeld zu erweitern oder zu schließen. Diese Steuerelemente befinden sich links im Bedienfeld.
 
 ## Durchsuchen-/Erstellenbedienfeld {#browse-panel-build-panel}
 
 Im Durchsuchen-/Erstellenbedienfeld werden die meisten Arbeitsvorgänge ausgeführt. Die in diesem Bedienfeld verfügbaren Funktionen hängen davon ab, ob Sie sich im Modus Durchsuchen oder Erstellen befinden.
 
-* **[!UICONTROL Durchsuchen-Modus]** - Um die Inhalte eines Ordners im Durchsuchenbedienfeld anzuzeigen und zu bearbeiten, wählen Sie einen Ordner in der Asset-Bibliothek aus. Dieses Bedienfeld bietet die **[!UICONTROL Datei]**, **[!UICONTROL Vorschau]**, **[!UICONTROL Alle auswählen]**, **[!UICONTROL Keine auswählen]** und **[!UICONTROL Sortieren]** Menüs zum Arbeiten mit Assets. Sie können Assets auch auf unterschiedliche Weise anzeigen, indem Sie den Schieberegler verschieben oder auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Auswählen **[!UICONTROL Detailansicht]** oder durch Doppelklicken auf ein Asset wird das Asset in der Detailansicht geöffnet, in der Sie Asset-abhängige Dateivorgänge ausführen können.
+* **[!UICONTROL Durchsuchen-Modus]** - Um die Inhalte eines Ordners im Durchsuchenbedienfeld anzuzeigen und zu bearbeiten, wählen Sie einen Ordner in der Asset-Bibliothek aus. Dieses Bedienfeld bietet die **[!UICONTROL Datei]**, **[!UICONTROL Vorschau]**, **[!UICONTROL Alle auswählen]**, **[!UICONTROL Keine auswählen]**, und **[!UICONTROL Sortieren]** Menüs zum Arbeiten mit Assets. Sie können Assets auch auf unterschiedliche Weise anzeigen, indem Sie den Schieberegler verschieben oder auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Auswählen **[!UICONTROL Detailansicht]** oder durch Doppelklicken auf ein Asset wird das Asset in der Detailansicht geöffnet, in der Sie Asset-abhängige Dateivorgänge ausführen können.
 
 * **[!UICONTROL Build-Modus]** - Auswählen **[!UICONTROL Build]** und wählen Sie dann eine Option, damit Sie mit der Erstellung eines E-Katalogs, Bildsets, Rotationssets oder eines von mehreren verfügbaren Elementen im Menü &quot;Erstellen&quot;beginnen können. Die Seite &quot;Erstellen&quot;wird geöffnet. Sie können sowohl vor als auch nach dem Aktivieren des Erstellen-Modus die Assets auswählen, mit denen Sie arbeiten möchten.
 

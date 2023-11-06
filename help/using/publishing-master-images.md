@@ -12,7 +12,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -25,13 +25,13 @@ Beim Veröffentlichen Ihrer Bilddateien werden diese auf Dynamic Media-Image-Ser
 
 ## Markieren von Primärbildern für die Veröffentlichung {#marking-master-images-for-publish}
 
-Primäre Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können die Primärbilder zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf **[!UICONTROL Zur Veröffentlichung markieren]** Symbol. Sie können Bilder auch beim Hochladen in Adobe Dynamic Media Classic zur Veröffentlichung markieren.
+Primäre Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können die Primärbilder zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld die Option **[!UICONTROL Zur Veröffentlichung markieren]** Symbol. Sie können Bilder auch für die Veröffentlichung markieren, wenn Sie sie in Adobe Dynamic Media Classic hochladen.
 
 ## Primärbilder veröffentlichen {#publishing-your-master-images}
 
-1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**. Wählen Sie im Dialogfeld Veröffentlichen eine Wenn-Option (**[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**), und geben Sie optional einen Namen für den Veröffentlichungsauftrag ein.
+1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**. Wählen Sie im Dialogfeld &quot;Veröffentlichen&quot;eine Wenn-Option (**[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**), und geben Sie optional einen Namen für den Veröffentlichungsauftrag ein.
 
-1. Auswählen **[!UICONTROL Veröffentlichung übermitteln]**.
+1. Auswählen **[!UICONTROL Veröffentlichen senden]**.
 
 >[!NOTE]
 >

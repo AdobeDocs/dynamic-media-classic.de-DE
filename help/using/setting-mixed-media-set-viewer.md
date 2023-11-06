@@ -12,10 +12,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 44%
+ht-degree: 40%
 
 ---
 
@@ -60,7 +60,7 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 
    * **Link** - Auswählen **[!UICONTROL Live]**. Geben Sie im Feld Link Button Label den Namen ein, der im Viewer für die Schaltfläche Link angezeigt werden soll. Wählen Sie bei Bedarf **[!UICONTROL Durchsuchen]** , um eine benutzerdefinierte Skin für die Schaltfläche zu suchen und auszuwählen.
 
-   * **Besuch** - Auswählen **[!UICONTROL Live]**. Geben Sie im Feld &quot;Beschriftung für Besuchsschaltflächen&quot;den Namen ein, der im Viewer für die Schaltfläche &quot;Besuch&quot;angezeigt werden soll. Geben Sie im Feld „URL besuchen“ die URL der Webseite an, die durch Klicken auf die Verknüpfung geöffnet werden soll.
+   * **Besuch** - Auswählen **[!UICONTROL Live]**. Geben Sie im Feld &quot;Beschriftung für Besuchsschaltflächen&quot;den Namen ein, der im Viewer für die Schaltfläche &quot;Besuch&quot;angezeigt werden soll. Geben Sie im Feld &quot;URL besuchen&quot;die URL zu der Website ein, die bei Auswahl des Links geöffnet werden soll.
 
 1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, wählen Sie das Symbol &quot;Info-Tipp&quot;neben der Option aus.
 

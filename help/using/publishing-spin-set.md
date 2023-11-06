@@ -12,7 +12,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -25,11 +25,11 @@ Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic M
 
 ## Markieren eines Rotationssets zur Veröffentlichung {#marking-a-spin-set-for-publish}
 
-Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld auf die **[!UICONTROL Zur Veröffentlichung markieren]** rechts neben dem Namen. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
+Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld die Option **[!UICONTROL Zur Veröffentlichung markieren]** Symbol links neben dem Namen. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
 
 ## Veröffentlichen des Rotationssets {#publishing-the-spin-set}
 
-Um ein Rotationsset auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**. Wählen Sie dann **[!UICONTROL Wann]** -Option. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Auswählen **[!UICONTROL Veröffentlichung übermitteln]**.
+Um ein Rotationsset auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**. Wählen Sie anschließend eine **[!UICONTROL Wann]** -Option. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Auswählen **[!UICONTROL Veröffentlichen senden]**.
 
 >[!MORELIKETHIS]
 >

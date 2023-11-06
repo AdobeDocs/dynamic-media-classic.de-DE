@@ -12,7 +12,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 15%
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 # Bilder bearbeiten{#editing-images}
 
-Adobe Dynamic Media Classic bietet viele Tools zum Erstellen von Rich-Media-Effekten. Diese Tools sind verfügbar, indem Sie auf das Rollover klicken **[!UICONTROL Bearbeiten]** und im Durchsuchenbedienfeld in der Detailansicht. Sie können die folgenden Bildbearbeitungsaufgaben in Adobe Dynamic Media Classic ausführen:
+Adobe Dynamic Media Classic bietet viele Tools zum Erstellen von Rich-Media-Effekten. Diese Tools sind verfügbar, indem Sie das Rollover auswählen **[!UICONTROL Bearbeiten]** und im Durchsuchenbedienfeld in der Detailansicht. Sie können die folgenden Bildbearbeitungsaufgaben in Adobe Dynamic Media Classic ausführen:
 
 * **Erstellen von Imagemaps** - Um eine Imagemap zu erstellen, wählen Sie den Befehl Bild oder **[!UICONTROL Imagemap]** Schaltfläche. Eine Imagemap ist ein Hotspot auf einem Bild oder einer E-Katalog-Seite oder ein Bild in einem Rotationsset, mit dessen Hilfe ein Bedienfeld mit Rollover-Text angezeigt werden kann. Benutzer können beispielsweise eine Imagemap auswählen, um eine neue Webseite zu starten. Siehe [Erstellen von Imagemaps](/help/using/creating-image-maps.md).
 

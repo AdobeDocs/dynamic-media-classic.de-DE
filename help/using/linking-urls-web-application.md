@@ -1,5 +1,5 @@
 ---
-title: Verknüpfen von URLs mit einer Webanwendung
+title: Verknüpfen von URLs mit einer Web-Anwendung
 description: Erfahren Sie, wie Sie URLs von Adobe Dynamic Media Classic aus mit Ihrer Web-Anwendung verknüpfen.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
@@ -12,14 +12,14 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 37%
 
 ---
 
-# Verknüpfen von URLs mit einer Webanwendung{#linking-urls-to-your-web-application}
+# Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
 
 Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf den Dynamic Media Image Server-Inhalt zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf Dynamic Media-Bildservern auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
 
@@ -38,19 +38,19 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
 
 1. (Optional) Wählen Sie in der Liste &quot;Bildvorgabe&quot;in der Dropdown-Liste URL-Kodierung für URL-Kopiegenerierung die URL-Kodierung aus, die Sie beim Kopieren auf die URL des Bild-Assets anwenden möchten.
 1. Wählen Sie im Fenster Bildvorgabeliste oben rechts im Vorschaufenster die Option **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp.
-1. Wählen Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste die Option **[!UICONTROL Schließen]** , um zum Bildschirm &quot;Assets&quot;zurückzukehren.
+1. Wählen Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste die Option **[!UICONTROL Schließen]** , um zum Bildschirm Assets zurückzukehren.
 
 ### Abrufen einer Bildvorgabe-URL aus dem Durchsuchenbedienfeld {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Navigieren Sie in der Asset-Bibliothek auf der linken Seite zu den Asset-Ordnern, die das Bild-Asset enthalten, das Sie in der Vorschau anzeigen möchten.
-1. Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
-1. Wählen Sie über dem Fenster &quot;Assets&quot;rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**.
+1. Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
+1. Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**.
 1. Auswählen **[!UICONTROL URLs]** im Bereich auf der rechten Bildschirmseite, damit Sie die Liste der Bildvorgaben erweitern können.
 1. Auswählen **[!UICONTROL URL kopieren]** neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten.
 

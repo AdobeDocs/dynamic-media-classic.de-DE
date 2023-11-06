@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie dessen z
 
 ## Hinzufügen von URLs für gemischte Mediensets zur Website {#add-mixed-media-set-urls-to-your-web-page}
 
-Die gängigste Methode zur Bereitstellung eines gemischten Mediensets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das gemischte Medienset in einem gemischtes Medienset-Viewer-Fenster angezeigt wird.
+Die gängigste Methode zur Bereitstellung eines gemischten Mediensets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das gemischte Medienset im Viewer für gemischte Mediensets angezeigt wird.
 
 ## Kopieren des Einbettungscodes eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

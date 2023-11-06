@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Nicht an diesen Verhaltenskodex angepasst. Oder um Mitwirkende für andere Verha
 
 ## Anwendungsbereich
 
-Dieser Verhaltenskodex gilt sowohl innerhalb von Projektbereichen als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder die Community repräsentiert. Beispiele für die Repräsentation eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Posten über ein offizielles Social-Media-Konto oder das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann von den Projektbetreuern weiter definiert und geklärt werden.
+Dieser Verhaltenskodex gilt sowohl innerhalb von Projektbereichen als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder die Community repräsentiert. Beispiele für die Repräsentation eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse, die Veröffentlichung über ein offizielles Social-Media-Konto oder die Tätigkeit als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann von den Projektbetreuern weiter definiert und geklärt werden.
 
 ## Durchsetzung
 

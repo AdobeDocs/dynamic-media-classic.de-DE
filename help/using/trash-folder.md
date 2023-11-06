@@ -12,7 +12,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 31%
@@ -21,7 +21,7 @@ ht-degree: 31%
 
 # Ordner &quot;Papierkorb&quot;verwalten{#managing-the-trash-folder}
 
-Elemente, die Sie aus Adobe Dynamic Media Classic löschen, werden in den Ordner Papierkorb verschoben. Die gelöschten bleiben sieben Tage in diesem Ordner, bis sie wiederhergestellt oder dauerhaft gelöscht werden. Sie können gelöschte Elemente untersuchen, indem Sie auf **[!UICONTROL Papierkorb]** -Symbol unten in der Asset-Bibliothek und Anzeigen von Elementen auf der Ordnerseite &quot;Papierkorb&quot;.
+Elemente, die Sie aus Adobe Dynamic Media Classic löschen, werden in den Ordner &quot;Papierkorb&quot;verschoben. Die gelöschten bleiben sieben Tage in diesem Ordner, bis sie wiederhergestellt oder dauerhaft gelöscht werden. Sie können gelöschte Elemente untersuchen, indem Sie die **[!UICONTROL Papierkorb]** -Symbol unten in der Asset-Bibliothek und Anzeigen von Elementen auf der Ordnerseite &quot;Papierkorb&quot;.
 
 Alle Benutzer können Elemente aus dem Ordner „Papierkorb“ wiederherstellen, sie also wieder in die Ordner übertragen, aus denen sie gelöscht wurden. Alle Benutzer haben außerdem die Möglichkeit, den Ordner „Papierkorb“ zu leeren, also den gesamten Inhalt daraus zu löschen.
 
@@ -39,7 +39,7 @@ Wenn Sie ein Element aus einem Ordner löschen, wird es im Ordner „Papierkorb�
 * Das Element kann nicht veröffentlicht werden. Selbst wenn das Element zur Veröffentlichung markiert war, als sie es gelöscht haben, wird es nicht veröffentlicht.
 * Das Element verbleibt im Ordner &quot;Papierkorb&quot;, bis es wiederhergestellt wird, sieben Tage vergangen ist oder jemand die Option **[!UICONTROL Löschen des Papierkorbs]** Befehl. Nach Ablauf von sieben Tagen wird das Element durch einen automatischen Datenbereinigungsvorgang endgültig gelöscht.
 
-## Wiederherstellen von Assets aus dem Ordner &quot;Papierkorb&quot; {#restoring-assets-from-the-trash-folder}
+## Wiederherstellen von Assets aus dem Ordner Papierkorb {#restoring-assets-from-the-trash-folder}
 
 Es ist nicht erforderlich, dass die Person, die ein Asset gelöscht hat, es wiederherstellt. Jeder kann Assets aus dem Ordner &quot;Papierkorb&quot;wiederherstellen. Wiederhergestellte Assets werden in den Ordnern platziert, aus denen sie zuvor gelöscht wurden. Wenn diese Ordner nicht mehr vorhanden sind, erstellt Adobe Dynamic Media Classic sie neu und die wiederhergestellten Assets werden in den neu erstellten Ordnern abgelegt.
 
@@ -55,7 +55,7 @@ Wenn Sie Assets aus dem Ordner „Papierkorb“ löschen, werden sie endgültig 
 
 Um Assets dauerhaft aus dem Ordner &quot;Papierkorb&quot;zu löschen, wählen Sie die **[!UICONTROL Papierkorb]** Symbol. Führen Sie auf der Ordnerseite Papierkorb einen der folgenden Schritte aus:
 
-* **Löschen einzelner Assets** - Wählen Sie die Assets aus, die Sie dauerhaft löschen möchten, und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Aus Müll löschen]**.
+* **Löschen einzelner Assets** - Wählen Sie die Assets aus, die Sie dauerhaft löschen möchten, und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Aus Papierkorb leeren]**.
 
 * **Löschen aller Assets** - Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Leerer Papierkorb]**.
 

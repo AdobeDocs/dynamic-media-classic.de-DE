@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 34%
+source-wordcount: '1562'
+ht-degree: 33%
 
 ---
 
@@ -31,7 +31,7 @@ Je nach den Einstellungen, die Sie für Ihren E-Katalog auswählen, können Sie 
 * Suchen Sie im Katalog nach einem oder mehreren Keywords. Die Suchergebnisse werden als Liste von Miniaturansichten in einem Suchbereich auf der linken Seite des Katalogs angezeigt. Jede klickbare Miniaturansicht stellt einen Katalogbereich dar, in dem der markierte Suchbegriff gefunden wurde.
 
 * Geben Sie den Katalog über soziale Medien frei. Laden Sie den Katalog herunter, um ihn offline anzuzeigen. Aktivieren Sie Favoriten, um Elemente zu markieren, zu denen Sie zurückkehren möchten, oder drucken Sie den Katalog.
-* Navigieren Sie im Katalog mithilfe des Inhaltsverzeichnisses oder der Seitenrasteransicht, der Seite vorwärts oder rückwärts durch Klicken auf den mittleren Rand einer Seite.
+* Navigieren Sie im Katalog mithilfe des Inhaltsverzeichnisses oder der Seitenrasteransicht, der Seite vorwärts oder rückwärts, indem Sie den mittleren Rand einer Seite auswählen.
 * Heranzoomen, Herauszoomen und Schwenken, um bestimmte Elemente auf einer Seite genau zu betrachten
 * Bewegen Sie den Mauszeiger über einen Seitenbereich (eine so genannte Imagemap), damit Sie ein Popup-Fenster mit Informationen zu einem Element sehen können.
 * Wählen Sie einen Seitenbereich aus, damit eine neue Webseite mit weiteren Informationen zu einem Element geöffnet wird.
@@ -62,7 +62,7 @@ Diese Kurzanleitung für die Erstellung eines E-Katalogs hilft Ihnen, sich schne
 
 Normalerweise werden Adobe PDF-Dateien als Grundlage für einen E-Katalog verwendet. Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Adobe Dynamic Media Classic erkennt diese Bilder und konvertiert sie mithilfe eines standardmäßigen CMYK-Farbprofils. Sie müssen jedoch ein benutzerdefiniertes Farbprofil hochladen und verwenden.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um mit dem Hochladen von PDF-Dateien oder -Bildern für Ihren eCatalog zu beginnen. Sie können die Dateien entweder vom Desktop oder per FTP hochladen. FTP ist zu empfehlen, wenn Sie viele Dateien oder Dateien, die größer als 100 MB sind, hochladen möchten.
+Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um mit dem Hochladen von PDF-Dateien oder -Bildern für Ihren eCatalog zu beginnen. Sie können Dateien von Ihrem Desktop oder via FTP hochladen. FTP wird empfohlen, wenn Sie viele Dateien oder Dateien hochladen, die größer als 100 MB sind.
 
 Im Anzeigebereich „Hochladen“ finden Sie im Bereich „PDF-Optionen“ Einstellungen für das Hochladen von PDF-Dateien mit der angemessenen Auflösung und dem richtigen Farbraum. Eine Auflösung von 150 Pixel pro Zoll wird empfohlen. Wenn unmittelbar nach dem Hochladen einer PDF-Datei automatisch ein E-Katalog erstellt werden soll, wählen Sie die Option „E-Katalog automatisch erstellen“. 
 
@@ -76,7 +76,7 @@ Auf der eCatalog-Seite finden Sie auf der **[!UICONTROL Bestellseiten]** Wählen
 
 Um Seiten hinzuzufügen, wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten PDF-Dateien oder Bilddateien aus dem Ordner in den Anzeigebereich „Seiten ordnen“. Anstelle der standardmäßigen Seitenzahlen können Sie benutzerdefinierte Seitennamen angeben oder viele Seitennamen importieren.
 
-Auswählen **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren eCatalog ein, wählen Sie einen Ordner in Adobe Dynamic Media Classic aus, um ihn zu speichern, und wählen Sie **[!UICONTROL Speichern]**. Jedes Mal, wenn Sie die Seitenreihenfolge ändern oder den E-Katalog bearbeiten, speichern Sie Ihre Änderungen, indem Sie auf **[!UICONTROL Speichern]**.
+Auswählen **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren eCatalog ein, wählen Sie einen Ordner in Adobe Dynamic Media Classic aus, um ihn zu speichern, und wählen Sie **[!UICONTROL Speichern]**. Jedes Mal, wenn Sie die Seitenreihenfolge ändern oder den E-Katalog bearbeiten, speichern Sie Ihre Änderungen, indem Sie **[!UICONTROL Speichern]**.
 
 Siehe [Erstellen eines eCatalog](creating-ecatalog.md).
 

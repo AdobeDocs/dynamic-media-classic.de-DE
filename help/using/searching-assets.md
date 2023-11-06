@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 19%
+source-wordcount: '1510'
+ht-degree: 17%
 
 ---
 
@@ -37,21 +37,21 @@ Um beim Durchsuchen nur Dateien eines bestimmten Typs anzuzeigen, wählen Sie in
 
 ## Sortieren von Dateien im Bedienfeld &quot;Durchsuchen&quot; {#sorting-files-in-the-browse-panel}
 
-Um den Inhalt eines Ordners oder die Suchergebnisse zu sortieren, die im Durchsuchenbedienfeld auf der rechten Seite angezeigt werden, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Sortieren]** und wählen Sie dann eine Option aus. Die Optionen sind **[!UICONTROL Name]**, **[!UICONTROL Größe (KB)]**, **[!UICONTROL Typ]**, **[!UICONTROL Erstellungsdatum]** und **[!UICONTROL Zuletzt geändert]**.
+Um den Inhalt eines Ordners oder die Suchergebnisse zu sortieren, die im Durchsuchenbedienfeld auf der rechten Seite angezeigt werden, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Sortieren]** und wählen Sie dann eine Option aus. Die Optionen sind **[!UICONTROL Name]**, **[!UICONTROL Größe (KB)]**, **[!UICONTROL Typ]**, **[!UICONTROL Erstellungsdatum]**, und **[!UICONTROL Zuletzt geändert]**.
 
 Sie können auch **[!UICONTROL Aufsteigend]** oder **[!UICONTROL Absteigend]** , um Assets nach den von Ihnen ausgewählten Kriterien in auf- oder absteigender Reihenfolge zu sortieren.
 
-Klicken Sie in der Listenansicht zum Sortieren auf einen Spaltennamen.
+In der Listenansicht können Sie durch Auswahl eines Spaltennamens sortieren.
 
 ## Durchführen einer einfachen Suche {#conducting-a-simple-search}
 
 Verwenden Sie das Suchfeld in der Asset-Bibliothek, damit Sie einfache Suchen durchführen können. Sie können Elemente anhand ihres Namens suchen oder anhand von Metadaten, die ein bestimmtes Schlüsselwort enthalten.
 
-1. In der Asset-Bibliothek in der **[!UICONTROL Ordner]** -Bedienfeld, wählen Sie den Ordner aus, der in einem bestimmten Ordner und dessen Unterordnern durchsucht werden soll.
+1. In der Asset-Bibliothek in der **[!UICONTROL Ordner]** -Bedienfeld den Ordner auswählen, der in einem bestimmten Ordner und dessen Unterordnern durchsucht werden soll.
 1. Wählen Sie links neben dem Suchfeld in der Asset-Bibliothek die Option **[!UICONTROL Lupe]** -Symbol, um die Dropdownliste zu öffnen.
-1. Wählen Sie in der Dropdownliste eine Option aus, die beschreibt, wie eng oder breit die Suche sein soll. Sie können **[!UICONTROL In allen Dateien und Ordnern]**, **[!UICONTROL Innerhalb des ausgewählten Ordners]** oder **[!UICONTROL In ausgewählten Ordnern und Unterordnern]**.
+1. Wählen Sie in der Dropdownliste eine Option aus, die beschreibt, wie eng oder breit die Suche sein soll. Sie können **[!UICONTROL In allen Dateien und Ordnern]**, **[!UICONTROL Im ausgewählten Ordner]** oder **[!UICONTROL In ausgewählten Ordnern und Unterordnern]**.
 1. Geben Sie im Feld Suchen einen Suchbegriff ein.
-1. Wählen Sie rechts neben dem Feld Suchen die Option **[!UICONTROL Los]** oder drücken Sie **[!UICONTROL Eingabe]**.
+1. Wählen Sie rechts neben dem Feld Suchen die Option **[!UICONTROL Los]** oder drücken **[!UICONTROL Eingabe]**.
 
    Die Suchergebnisse werden im Durchsuchenbedienfeld auf der rechten Seite angezeigt.
 
@@ -61,13 +61,13 @@ Verwenden Sie das Suchfeld in der Asset-Bibliothek, damit Sie einfache Suchen du
 
 ## Durchführen einer erweiterten Suche {#conducting-an-advanced-search}
 
-Wählen Sie in der Asset-Bibliothek direkt unter dem Suchfeld die Option **[!UICONTROL Erweiterte Suche]** , um mithilfe vieler Kriterien zu suchen, einschließlich Werten in Metadatenfeldern.
+Wählen Sie in der Asset-Bibliothek direkt unter dem Suchfeld die Option **[!UICONTROL Erweiterte Suche]** , um mithilfe vieler Kriterien zu suchen, einschließlich der Werte in Metadatenfeldern.
 
 Geben Sie eines der folgenden Kriterien in Ihrer erweiterten Suche an:
 
 * **Nach Asset-Typ filtern** - Schränken Sie die Suche nur auf einen Asset-Typ ein, indem Sie im Menü einen Asset-Typ auswählen.
 
-* **Dateien und Ordner** - Wählen Sie aus, wo Sie suchen möchten: **[!UICONTROL In allen Dateien und Ordnern]**, **[!UICONTROL Innerhalb des ausgewählten Ordners]** oder **[!UICONTROL In ausgewählten Ordnern und Unterordnern]**.
+* **Dateien und Ordner** - Wählen Sie aus, wo Sie suchen möchten: **[!UICONTROL In allen Dateien und Ordnern]**, **[!UICONTROL Im ausgewählten Ordner]** oder **[!UICONTROL In ausgewählten Ordnern und Unterordnern]**.
 
 * **Alle Veröffentlichungsstatus** - Suchen Sie nach Dateien, die für die Veröffentlichung markiert sind, nicht für die Veröffentlichung markiert sind, oder nach allen Dateien.
 
@@ -89,7 +89,7 @@ Auswählen **[!UICONTROL Löschen]** , wenn Sie die Suchkriterien löschen und e
 
 ## Filtern von Assets mit Metadaten {#filter-assets-using-metadata}
 
-Sie filtern Assets über die Registerkarte „Filter“ der Asset-Bibliothek. Metadatenwerte dienen dabei als Filterkriterien. Nachdem Sie ein Metadatenfeld ausgewählt haben, nach dem Sie filtern möchten, werden auf der Registerkarte Filter alle Metadatenwerte aufgelistet, die in das ausgewählte Feld eingegeben wurden. Außerdem wird die Anzahl der Assets aufgelistet, denen jeder Wert zugewiesen wurde. Beispiel: In einem Filtervorgang für **[!UICONTROL Ersteller]** Metadatenfeld, das **[!UICONTROL Filter]** enthält alle Namen, die im **[!UICONTROL Ersteller]** Metadatenfeld für verschiedene Assets. Außerdem wird für jeden Namen die Anzahl der Assets aufgelistet, denen der Name zugewiesen wurde. Anschließend wählen Sie einen Metadatenwert aus, um alle Assets anzuzeigen, denen dieser Wert zugewiesen wurde. Im Beispiel wählen Sie die `Prairie Cat` Metadatenwert zum Anzeigen aller Assets, in denen der Name `Prairie Cat` wurde in der Variablen **[!UICONTROL Ersteller]** Metadatenfeld. Sie können auch mehr als ein Metadatenfeld als Filterkriterium heranziehen.
+Sie filtern Assets über die Registerkarte „Filter“ der Asset-Bibliothek. Metadatenwerte dienen dabei als Filterkriterien. Nachdem Sie ein Metadatenfeld ausgewählt haben, nach dem Sie filtern möchten, werden auf der Registerkarte Filter alle Metadatenwerte aufgelistet, die in das ausgewählte Feld eingegeben wurden. Außerdem wird die Anzahl der Assets aufgelistet, denen jeder Wert zugewiesen wurde. Beispiel: In einem Filtervorgang für **[!UICONTROL Ersteller]** Metadatenfeld, das **[!UICONTROL Filter]** enthält alle Namen, die im **[!UICONTROL Ersteller]** Metadatenfeld für verschiedene Assets. Außerdem wird für jeden Namen die Anzahl der Assets aufgelistet, denen der Name zugewiesen wurde. Anschließend wählen Sie einen Metadatenwert aus, um alle Assets anzuzeigen, denen dieser Wert zugewiesen wurde. Im Beispiel wählen Sie die `Prairie Cat` Metadatenwert zum Anzeigen aller Assets, in denen der Name `Prairie Cat` wurde in der **[!UICONTROL Ersteller]** Metadatenfeld. Sie können auch mehr als ein Metadatenfeld als Filterkriterium heranziehen.
 
 Sie können Filtervorgänge speichern, um sie mehrmals auszuführen.
 
@@ -125,7 +125,7 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 
    * **Entfernen von Metadatenfeldern** - Auswählen **[!UICONTROL Diese Leiste entfernen]** im Filtermenü.
 
-   Wenn Sie ein Metadatenfeld auswählen, werden im zugehörigen Bereich die folgenden Elemente aufgelistet:
+   Wenn Sie ein Metadatenfeld auswählen, werden im zugehörigen Bedienfeld die folgenden Elemente aufgelistet:
 
    * alle in das Feld eingegebenen Metadatenwerte.
    * für jeden Metadatenwert die Anzahl der Assets mit diesem Wert.
@@ -133,7 +133,7 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 1. Wiederholen Sie Schritt 2 so oft wie nötig, um alle Metadatenfelder in Bedienfeldern anzuzeigen, die Sie für den Filtervorgang verwenden möchten.
 1. Wählen Sie in jedem Bedienfeld einen Metadatenwert aus, nach dem gefiltert werden soll. Sie können nicht mehr als einen Metadatenwert in jedem Bedienfeld auswählen.
 
-   Assets, die mit allen ausgewählten Werten übereinstimmen, werden im Bedienfeld Durchsuchen angezeigt.
+   Assets, die mit allen ausgewählten Werten übereinstimmen, werden im Bedienfeld &quot;Durchsuchen&quot;angezeigt.
 
    >[!NOTE]
    >
@@ -153,7 +153,7 @@ Befolgen Sie diese Anweisungen auf der Registerkarte &quot;Filter&quot;, damit S
 
 ## Verwenden des Metadaten-Servers {#using-the-metadata-server}
 
-Beim Metadatenserver handelt es sich um eine öffentliche API, die Sie verwenden können, um Assets anhand von Metadaten mithilfe von HTTP-Anfragen zu suchen.
+Der Metadaten-Server ist eine öffentliche API, mit der Sie über HTTP-Anfragen nach Assets anhand von Metadaten suchen können.
 
 Navigieren Sie zum Konfigurieren des Metadaten-Servers zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Metadaten-Server]**.
 
@@ -163,7 +163,7 @@ Auf der Seite &quot;Veröffentlichung zum Metadaten-Server&quot;können Sie die 
 
 * **[!UICONTROL XMP]** - Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, bietet jedoch die aktuellste XMP.
 
-* **[!UICONTROL Schlüsselwörter]** - Veröffentlicht Ihre Suchbegriffe für die Verwendung in Suchvorgängen auf dem Metadaten-Server.
+* **[!UICONTROL Schlüsselwörter]** - Veröffentlicht Ihre Suchbegriffe für Suchvorgänge auf dem Metadaten-Server.
 
 * **[!UICONTROL Veröffentlichungsfelder für Metadaten-Server]** - Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. Mit dieser Option können Sie festlegen, wie viele Informationen über Ihre Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
 

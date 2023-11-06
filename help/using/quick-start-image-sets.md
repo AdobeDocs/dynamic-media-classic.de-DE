@@ -12,24 +12,24 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
 # Kurzanleitung: Bildsätze{#quick-start-image-sets}
 
-Adobe Dynamic Media Classic-Bildsets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Bildsatz-Viewer können die Benutzer verschiedene Ansichten eines Elements anzeigen, indem sie auf eine Miniaturansicht klicken. Mit Bildsets können Sie alternative hochauflösende Ansichten eines Elements darstellen.
+Adobe Dynamic Media Classic-Bildsets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Bildset-Viewer können Benutzer unterschiedliche Ansichten eines Elements anzeigen, indem sie ein Miniaturbild auswählen. Mit Bildsets können Sie alternative hochauflösende Ansichten eines Elements darstellen.
 
 Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Sie haben die Möglichkeit, geführte Zoomziele und Imagemaps im Bildsatz zu erstellen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
 
 Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
 
-Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen um:
+Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen voraus:
 
-| Begrenzungstyp | Optimale Vorgehensweise | Begrenzung auferlegt |
+| Begrenzungstyp | Optimale Vorgehensweise | Erzwungene Beschränkung |
 | --- | --- | --- |
 | Anzahl der doppelten Assets pro Satz | Keine Duplikate | 20 |
 | Maximale Anzahl an Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
@@ -58,7 +58,7 @@ Siehe auch [Zoomziele und Imagemaps in Bildsets einschließen](/help/using/inclu
 
 ## 3. Bereiten Sie bei Bedarf Bildset-Viewer-Vorgaben vor.
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden des Zoom-Viewers: **[!UICONTROL Benutzerdefiniert]** > **[!UICONTROL Bilder]** oder **[!UICONTROL Bildsets]**/**[!UICONTROL Mehrere Ansichten]** Vorgaben, um Ihre Bildsets anzuzeigen.
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden des Zoom-Viewers: **[!UICONTROL Benutzerdefiniert]** > **[!UICONTROL Bilder]** oder **[!UICONTROL Bildsets]**/**[!UICONTROL Mehrere Ansichten]** Vorgaben zum Anzeigen von Bildsets.
 
 Sie können Viewer-Vorgaben aus dem Anzeigebereich „Anwendungseinstellungen“ hinzufügen oder bearbeiten. 
 
@@ -78,7 +78,7 @@ Beim Veröffentlichen eines Bildsets wird es auf Adobe Dynamic Media Classic-Ser
 >
 >Dieser Schritt ist nicht erforderlich, wenn Sie beim Erstellen und Speichern des Bildsatzes die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** (Standard) ausgewählt haben.
 
-Auswählen **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Veröffentlichung übermitteln]**.
+Auswählen **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
 

@@ -11,10 +11,10 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 31%
+source-wordcount: '3934'
+ht-degree: 30%
 
 ---
 
@@ -138,7 +138,7 @@ Normalerweise kann ein Asset-Dateiname mit der Artikelnummer, Produkt-SKU oder e
 
 Organisieren und strukturieren Sie Ordner und Unterordner für Ihre Inhalte in Adobe Dynamic Media Classic, bevor Sie Ihre Inhalte in das System hochladen. Eine solche Vorausplanung hat die folgenden zwei wichtigen Vorteile:
 
-* Wenn Sie Ihre Inhalte über FTP in Adobe Dynamic Media Classic hochladen, können Sie das System anweisen, Ihre Ordnerstruktur während des Uploads zu replizieren. Auf diese Weise werden Ihre Inhalte in denselben Ordnern und Unterordnern wie auf Ihrem Computer oder im Netzwerk in Adobe Dynamic Media Classic organisiert. (Um Ihre Ordnerstruktur in Adobe Dynamic Media Classic zu replizieren, wählen Sie beim Hochladen von Assets via FTP die Option Unterordner einschließen .)
+* Wenn Sie Ihre Inhalte über FTP in Adobe Dynamic Media Classic hochladen, können Sie das System anweisen, Ihre Ordnerstruktur während des Uploads zu replizieren. Auf diese Weise werden Ihre Inhalte in denselben Ordnern und Unterordnern wie auf Ihrem Computer oder im Netzwerk in Adobe Dynamic Media Classic organisiert. (Um Ihre Ordnerstruktur in Adobe Dynamic Media Classic zu replizieren, wählen Sie beim Hochladen von Assets über FTP die Option Unterordner einschließen aus.)
 * Es ist sehr viel schwieriger, Ordner nach dem Hochladen der Dateien innerhalb des Systems neu zu organisieren, als vorab eine sorgfältig vorbereitete Ordnerstruktur zu erstellen.
 
 Der Ansatz und die Struktur der Ordnerbenennung, die Sie zum Speichern Ihrer Inhalte in der Adobe Dynamic Media Classic wählen, hängt von den Anforderungen Ihres Unternehmens ab. Es folgen einige Beispiele für Ordnerstrukturen:
@@ -153,7 +153,7 @@ Der Ansatz und die Struktur der Ordnerbenennung, die Sie zum Speichern Ihrer Inh
 
 ## Über das Hochladen von Dateien {#uploading-your-files}
 
-Sie können einzelne Dateien vom Desktop oder Ordner über FTP hochladen. Wenn Sie mehr als 100 MB Dateien hochladen oder ganze Ordner und Unterordner hochladen möchten, wählen Sie die **ÜBER FTP** Registerkarte.
+Sie können einzelne Dateien vom Desktop hochladen oder Ordner über FTP hochladen. Wenn Sie mehr als 100 MB Dateien hochladen oder ganze Ordner und Unterordner hochladen möchten, wählen Sie die **ÜBER FTP** Registerkarte.
 
 Adobe Dynamic Media Classic sendet Ihnen eine E-Mail-Nachricht, um zu bestätigen, wann Ihr Upload-Auftrag beginnt und endet, und Sie über etwaige Probleme zu informieren.
 
@@ -193,7 +193,7 @@ Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_file
 Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option ist auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar.
 1. (Optional) Wählen Sie unten auf der Seite &quot;Hochladen&quot;die Option **[!UICONTROL In einem beliebigen Ordner Assets mit ident. Namen unabhängig von Erweiterung überschreiben]** , wenn Sie möchten, dass die hochgeladenen Dateien vorhandene Dateien mit denselben Namen ersetzen. Diese Option ist auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar.
 Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Anwendung hochladen]** > **[!UICONTROL Bilder überschreiben]**.
-1. Optional. Nur verfügbar, wenn Sie auf die **[!UICONTROL ÜBER FTP]** Registerkarte. Wählen Sie unten auf der Seite Hochladen die Option **[!UICONTROL Komprimieren von ZIP- oder TAR-Dateien beim Hochladen]** wenn Sie automatisch alle Dateien aus Ihrer hochgeladenen ZIP- oder TAR-Datei extrahieren möchten. Diese Option ist auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar.
+1. Optional; nur verfügbar, wenn Sie die **[!UICONTROL ÜBER FTP]** Registerkarte. Wählen Sie unten auf der Seite Hochladen die Option **[!UICONTROL Komprimieren von ZIP- oder TAR-Dateien beim Hochladen]** wenn Sie automatisch alle Dateien aus Ihrer hochgeladenen ZIP- oder TAR-Datei extrahieren möchten. Diese Option ist auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar.
 1. Wählen Sie rechts unten auf der Seite &quot;Hochladen&quot;die Option **[!UICONTROL Auftragsoptionen]** und geben Sie dann die gewünschten Optionen an.
 
    Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).

@@ -12,10 +12,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ Mit einem Rotationsset wird simuliert, wie man ein reales Objekt dreht, um es vo
 
 ![Bilder für ein Rotationsset.](/help/using/assets/spin_set.png)
 
-Rotationssets akzeptieren auch Imagemaps. Eine Imagemap ist ein Bereich auf einem Bild in einem Rotationsset, mit dessen Hilfe ein Rollover-Bedienfeld mit Text angezeigt werden kann. Wenn der Benutzer auf eine Imagemap klickt, wird eine bestimmte Aktion ausgelöst. Beispielsweise kann eine Website aufgerufen werden, auf der der Benutzer mehr über ein Produkt erfährt. Um auf eine Imagemap in einem Rotationsset zu verweisen, wird um die Imagemap selbst herum ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
+Rotationssets akzeptieren auch Imagemaps. Eine Imagemap ist ein Bereich auf einem Bild in einem Rotationsset, mit dessen Hilfe ein Rollover-Bedienfeld mit Text angezeigt werden kann. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise kann eine Website aufgerufen werden, auf der der Benutzer mehr über ein Produkt erfährt. Um auf eine Imagemap in einem Rotationsset zu verweisen, wird um die Imagemap selbst herum ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
 
 Siehe [Erstellen von Imagemaps](creating-image-maps.md).
 

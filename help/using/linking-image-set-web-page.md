@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 38%
+source-wordcount: '694'
+ht-degree: 35%
 
 ---
 
@@ -46,7 +46,7 @@ Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige UR
 
 ## Hinzufügen von Bildsatz-URLs zur Website {#adding-image-set-urls-to-your-web-page}
 
-Die am häufigsten verwendete Möglichkeit zum Implementieren eines Bildsatzes ist es, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Wenn auf den Link geklickt wird, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
+Die gängigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
 Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML5-Zoom-Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

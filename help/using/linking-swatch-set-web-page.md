@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 40%
+source-wordcount: '702'
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ Nachdem Sie ein Musterset veröffentlicht haben, können Sie dessen zugehörige 
 
 ## Hinzufügen von Musterset-URLs zu Ihrer Webseite {#adding-swatch-set-urls-to-your-web-page}
 
-Die am häufigsten verwendete Möglichkeit zum Implementieren eines Mustersets besteht darin, eine Verknüpfung in Form eines Navigationssymbols auf einer Website zu platzieren. Beim Klicken auf die Verknüpfung wird eine dynamische Seite (ASP oder JSP) aufgerufen, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
+Die gängigste Methode zum Bereitstellen von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
 Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers in das Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

@@ -12,16 +12,16 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # Kurzanleitung: Mustersets{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classic-Mustersets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Musterset-Viewer können Benutzer ein Element anzeigen, das in anderen Farben, Materialien, Texturen, Ausführungen oder Stoffen gerendert wurde, indem sie einfach auf eine Miniaturansicht klicken.
+Adobe Dynamic Media Classic-Mustersets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Musterset-Viewer können Benutzer ein Element sehen, das in einer anderen Farbe, einem anderen Material, einer anderen Textur, einem anderen Design oder einem anderen Stoff gerendert wird, indem sie lediglich eine Miniaturansicht auswählen.
 
 Diese Kurzanleitung für Mustersets soll Ihnen einen schnellen Einstieg in die Arbeit mit Musterset-Techniken in Adobe Dynamic Media Classic ermöglichen.
 
@@ -41,7 +41,7 @@ Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe D
 
 Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
-## 4. Anzeigen einer Vorschau für ein Musterset
+## 4. Vorschau eines Mustersets anzeigen
 
 Wählen Sie das Musterset im Durchsuchenbedienfeld aus und wählen Sie dann **[!UICONTROL Vorschau]**. Ihr Musterset wird auf dieser Seite angezeigt. Wählen Sie die Miniaturansichten und Mustersymbole aus, damit Sie das Musterset im ausgewählten Viewer untersuchen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
 
@@ -51,7 +51,7 @@ Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 Beim Veröffentlichen eines Mustersets wird es auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
-Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Veröffentlichung übermitteln]**.
+Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
 
