@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 32%
+source-wordcount: '719'
+ht-degree: 31%
 
 ---
 
@@ -28,9 +28,9 @@ Untertitel bieten zudem eine größere Barrierefreiheit, indem optional zuschalt
 
 So konfigurieren Sie den Beschriftungseffekt und bearbeiten das Untertitelmenü selbst, einschließlich des Menütextes für einen der folgenden Viewer:
 
-* `Universal_HTML5_Video` Betrachter
-* `Universal_HTML5_MixedMedia_dark` Betrachter
-* `Universal_HTML5_MixedMedia_light` Betrachter
+* `Universal_HTML5_Video` Viewer
+* `Universal_HTML5_MixedMedia_dark` Viewer
+* `Universal_HTML5_MixedMedia_light` Viewer
 
 Siehe [Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
@@ -46,7 +46,7 @@ Siehe [Bereitstellen von statischen (Nicht-Bild-)Inhalten](https://experiencelea
 
    | Viewer-Typ | Untertiteldatei |
    |--- |--- |
-   | HTML5 | Wenn Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Untertiteldatei dem WebVTT-Standard (Web Video Text Tracks) folgt. Die Erweiterung der Untertiteldatei lautet .vtt. Weitere Informationen zum WebVTT-Untertitelstandard<br><br>[Siehe WebVTT](https://w3c.github.io/webvtt/): Das Webvideo-Text-Tracking-Format. <br><br>Es gibt sowohl kostenlose als auch kostenbasierte Tools und Dienste, mit denen Sie Untertiteldateien außerhalb von Adobe Dynamic Media Classic erstellen können. Um beispielsweise eine einfache Videountertiteldatei ohne Stile zu erstellen, können Sie das folgende kostenlose Online-Tool zur Erstellung und Bearbeitung von Untertiteln verwenden: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Die besten Ergebnisse erzielen Sie mit dem Tool in Internet Explorer 9 oder höher, Google Chrome oder Safari. <br><br>Im Tool im <b>URL der Videodatei eingeben</b> ein, fügen Sie die URL Ihrer Videodatei ein und wählen Sie <b>Laden</b>. <br><br>Wenn Sie beispielsweise eine Adobe Dynamic Media Classic-URL für Ihre Videodatei verwenden, doppelklicken Sie auf ein einzelnes Video-Asset (kein adaptives Videoset oder Primäres Video), um es in der Detailansicht zu öffnen. Erweitern Sie im rechten Bereich der Detailansicht URLs und Code einbetten. Wählen Sie dann unter der Gruppe Mobile rechts neben Mobile (Progressiv) die Option <b>URL kopieren</b>. Durch diesen Prozess erhalten Sie die URL zur Videodatei selbst, die Sie dann in die <b>URL der Videodatei eingeben</b> -Feld. Internet Explorer, Chrome oder Safari können das Video dann nativ wiedergeben. Folgen Sie jetzt auf der Website den Anweisungen auf dem Bildschirm, um Ihre WebVTT-Datei zu erstellen und zu speichern. Wenn Sie fertig sind, kopieren Sie den Inhalt der Untertiteldatei und fügen Sie ihn in einen Texteditor ein. Speichern Sie ihn dann mit der VTT-Dateinamenerweiterung. <br><br><b>Hinweis:</b> Für die globale Unterstützung von Videobeschriftungen in anderen Sprachen als Englisch erfordert der WebVTT-Standard, dass Sie separate .vtt-Dateien und Aufrufe für jede Sprache erstellen, die Sie unterstützen möchten. <br><br>Im Allgemeinen sollte der Name der Untertitel-VTT-Datei denselben Namen haben wie die Videodatei und über den Dateinamenanhang captions verfügen. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen. |
+   | HTML5 | Wenn Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Untertiteldatei dem WebVTT-Standard (Web Video Text Tracks) folgt. Die Erweiterung der Untertiteldatei lautet .vtt. Weitere Informationen zum WebVTT-Untertitelstandard<br><br>[Siehe WebVTT](https://w3c.github.io/webvtt/): Das Webvideo-Text-Tracking-Format. <br><br>Es gibt viele Websites, die sowohl kostenlose als auch gebührenbasierte Tools und Dienste anbieten, die Sie verwenden können, um WebVTT-Untertiteldateien außerhalb von Adobe Dynamic Media Classic zu erstellen. <br><br>Befolgen Sie die Anweisungen auf dem Bildschirm von einer Website, um Ihre WebVTT-Datei zu erstellen und zu speichern. Wenn Sie fertig sind, kopieren Sie den Inhalt der Untertiteldatei und fügen Sie ihn in einen Texteditor ein. Speichern Sie ihn dann mit der VTT-Dateinamenerweiterung. <br><br><b>Hinweis:</b> Für die globale Unterstützung von Videobeschriftungen in anderen Sprachen als Englisch erfordert der WebVTT-Standard, dass Sie separate .vtt-Dateien und Aufrufe für jede Sprache erstellen, die Sie unterstützen möchten. <br><br>Im Allgemeinen soll die VTT-Untertiteldatei denselben Namen haben wie die Videodatei und mit Untertiteln versehen werden. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen. |
 
 1. Laden Sie in Adobe Dynamic Media Classic Ihre XML-Untertiteldatei WebVTT, DFXP oder SMPTE hoch.
 
