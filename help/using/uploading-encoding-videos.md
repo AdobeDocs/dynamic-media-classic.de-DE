@@ -1,20 +1,18 @@
 ---
 title: Hochladen und Kodieren von Videos
 description: Erfahren Sie, wie Sie Videos in Adobe Dynamic Media Classic hochladen und kodieren.
-uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3951'
-ht-degree: 49%
+source-wordcount: '3986'
+ht-degree: 46%
 
 ---
 
@@ -52,7 +50,7 @@ Siehe [Arbeiten mit Videominiaturen](deploying-video-websites-mobile-sites.md#wo
 
 Führen Sie einen der folgenden Schritte aus.
 
-*Ihre Videos wurden bereits kodiert*
+*Wenn Ihre Videos bereits kodiert wurden*
 
 1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]**.
 1. Wählen Sie auf der Seite Hochladen die Option **[!UICONTROL Vom Desktop aus]** Registerkarte.
@@ -77,12 +75,12 @@ Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#
 1. Stellen Sie auf der Seite Hochladen sicher, dass **[!UICONTROL Nach dem Hochladen veröffentlichen]** aktiviert ist.
 1. Wählen Sie auf der Seite Hochladen in der rechten unteren Ecke die Option **[!UICONTROL Upload starten]**.
 
-*Wenn Sie eine bereits hochgeladene Videodatei neu kodieren möchten*
+*Wenn Sie eine zuvor hochgeladene Videodatei erneut kodieren möchten*
 
 1. Navigieren Sie in Adobe Dynamic Media Classic im Bedienfeld Durchsuchen zum Video und wählen Sie es aus.
 1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Neuverarbeitung]**.
 1. Erweitern Sie im Dialogfeld Assets erneut verarbeiten den **[!UICONTROL eVideooptionen]**, führen Sie dann einen der folgenden Schritte aus:
-   * Wie empfehlen, die folgende Methode zu verwenden. Wählen Sie **Adaptive Video**.
+   * Es empfiehlt sich, die folgende Methode zu verwenden. Auswählen **Adaptives Video**.
 Siehe [Adaptive Video (Standard)](application-setup.md#adaptive-video-default).
    * Optional. Wenn Sie einzelne Kodierungseinstellungen verwenden möchten, erweitern Sie **[!UICONTROL Einzelne Kodierungsvorgaben]**und wählen Sie dann die Kodierungsoptionen für Desktop, Mobilgerät und Tablet aus.
 Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
@@ -174,7 +172,7 @@ Beispiel: Ein Video mit einer Breite von 1440 × 1080 hat ein Seitenverhältnis 
 
 ### Datenrate {#data-rate}
 
-Die *Datenrate* (auch als *Bitrate* bezeichnet) ist die Menge an Daten, die kodiert werden, um eine Videowiedergabe mit einer Dauer von einer Sekunde zu erzeugen. Die Datenrate wird in Kilobit pro Sekunde (Kbit/s) gemessen.
+Die *Datenrate* (auch als *Bitrate*) ist die Datenmenge, die kodiert wird, um eine Sekunde Videowiedergabe zu bilden. Die Datenrate wird in Kilobit pro Sekunde (Kbit/s) gemessen.
 
 >[!NOTE]
 >
@@ -188,7 +186,7 @@ In dieser Tabelle sind die Datenraten typischer Verbindungsgeschwindigkeiten auf
 | --- | --- |
 | 256 | Einwählverbindung. |
 | 800 | Typische Mobilverbindung. Für diese Verbindung sollten Sie für eine wahre 3G-Erfahrung eine Datenrate zwischen 400 und maximal 800 Kbit/s veranschlagen. |
-| 2000 | Typische Breitband-Desktop-Verbindung. Für diese Verbindung sollten Sie eine Datenrate zwischen 800 und 2000 kBit/s anvisieren, wobei die meisten Ziele im Durchschnitt zwischen 1200 und 1500 kBit/s aufweisen. |
+| 2000 | Typische Breitband-Desktop-Verbindung. Für diese Verbindung sollten Sie eine Datenrate zwischen 800 und 2000 Kbit/s veranschlagen, wobei die meisten Datenraten zwischen 1200 und 1500 Kbit/s liegen. |
 | 5000 | Typische Hochgeschwindigkeits-Breitbandverbindung. Eine Kodierung in diesem oberen Bereich wird nicht empfohlen, da eine Videoübertragung in dieser Geschwindigkeit für die meisten Kunden nicht verfügbar ist. |
 
 ### Auflösung {#resolution}
@@ -355,8 +353,8 @@ Adobe Dynamic Media Classic hat Höchstgrenzen für die Zieldatenrate, die Aufl�
    | Beschreibung | Beschreiben Sie die Video-Vorgabe. Was Sie eingeben, wird als QuickInfo angezeigt, wenn Sie den Mauszeiger im Dialogfeld &quot;Upload-Auftragsoptionen&quot;über den Namen der Vorgabe bewegen, in dem Benutzer Optionen zum Transkodieren auswählen. |
    | Wiedergabegerät | Wählen Sie das Gerät aus, auf dem das Video wiedergegeben werden soll. Die Optionen sind Computer (Desktops), Mobil (iPhone, iPad, Android™) oder Tablet (nur iPad). Über diese Einstellung wird automatisch der geeignete Video- und Audio-Codec für die Kodierung festgelegt. |
    | Zieldatenrate | Geben Sie die durchschnittliche Verbindungsgeschwindigkeit des Endbenutzers in Kilobit pro Sekunde ein. Sie können die Datenrate eingeben oder zur Eingabe den Regler ziehen. Für die Verbindungsgeschwindigkeit werden typische Geschwindigkeiten für Breitband-, DSL-, mobile und DFÜ-Verbindungen aufgelistet. Diese Einstellung legt automatisch die kombinierte Video- und Audiodatenrate fest. Anders ausgedrückt, die Datenmenge, die kodiert wird, um eine einzige Sekunde für die Videowiedergabe zu generieren. Je höher die Datenrate, desto besser ist die Qualität des resultierenden Videos. Ist die Datenrate jedoch zu hoch, kommt es zu erheblich größeren Dateien und dadurch zu einer Beeinträchtigung der Wiedergabe bei geringeren Bandbreiten. Es empfiehlt sich, einen Kompromiss zwischen hohen und niedrigen Datenraten einzugehen. Die Videos sollten in möglichst hoher Qualität wiedergegeben werden, ohne jedoch Benutzer mit langsameren Verbindungen zu benachteiligen. |
-   | Seitenverhältnis | Das Seitenverhältnis ist das Verhältnis von Breite und Höhe des Videos. Die ersten beiden Seitenverhältnisse in der Liste werden häufig verwendet, um Video horizontal anzuzeigen:<ul><li> 4:3: Wird für nahezu alle TV-Übertragungen in Standardauflösung verwendet.</li><li>16:9 - wird für fast alle Breitbildinhalte und Filme im High-Definition-Fernsehen (HDTV) verwendet.</li><li>Automatische Skalierung - (Standard) Eine einzelne Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, um Videos für die Bereitstellung auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten (Verhältnis von Breite zu Höhe).</li><li>Benutzerdefiniert: Verwenden Sie diese Einstellung, wenn Sie ein eigenes Videoformat festlegen möchten.</li><li>Das ausgewählte Seitenverhältnis bestimmt die Breite und Höhe für die Auflösungsgröße. Der Breiten- und Höhenwert wird automatisch auf das richtige Seitenverhältnis skaliert.</li></ul> |
-   | Auflösung | Die Größe der Auflösung, ausgedrückt durch die Anzahl der Pixel breit durch die Anzahl der Pixel hoch, bestimmt die Größe. Geben Sie einen Wert für die Breite und Höhe in Pixeln ein oder ziehen Sie zur Eingabe den Regler. Für die Auflösung werden typische Werte aufgelistet. Die Werte für Breite und Höhe entsprechen automatisch dem ausgewählten Seitenverhältnis. Wenn Sie zum Beispiel als Seitenverhältnis „4:3“ festlegen und als Breite „400“ eingeben, wird für die Höhe automatisch „300“ eingegeben. Wenn Sie für das Seitenverhältnis die Einstellung Autom. Skalierung festgelegt haben, wird für die Breite der Auflösungsgröße automatisch der Wert Auto festgelegt. Auswählen **[!UICONTROL Vorschau]** damit Sie ein Browser-Fenster öffnen und dort Ihre Lösungsoptionen anzeigen können. |
+   | Seitenverhältnis | Das Seitenverhältnis ist das Verhältnis von Breite und Höhe des Videos. Die ersten beiden Seitenverhältnisse in der Liste werden häufig verwendet, um Video horizontal anzuzeigen:<ul><li> 4:3: Wird für nahezu alle TV-Übertragungen in Standardauflösung verwendet.</li><li>16:9 - wird für fast alle Breitbildinhalte und Filme im High-Definition-Fernsehen (HDTV) verwendet.</li><li>Automatische Skalierung - (Standard) Eine einzelne Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, um Videos für die Bereitstellung auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten (Verhältnis von Breite zu Höhe).</li><li>Benutzerdefiniert: Verwenden Sie diese Einstellung, wenn Sie ein eigenes Videoformat festlegen möchten.</li><li>Das ausgewählte Seitenverhältnis bestimmt die Breite und Höhe für die Auflösungsgröße. Die Breite und der Höhenwert werden automatisch auf das richtige Seitenverhältnis skaliert.</li></ul> |
+   | Auflösung | Die Größe der Auflösung, ausgedrückt durch die Anzahl der Pixel breit durch die Anzahl der Pixel hoch, bestimmt die Größe. Geben Sie eine Breite und eine Höhe in Pixel ein oder ziehen Sie den Schieberegler, um diese Werte einzugeben. Für die Auflösung werden typische Werte aufgelistet. Die Werte für Breite und Höhe entsprechen automatisch dem ausgewählten Seitenverhältnis. Wenn Sie beispielsweise als Seitenverhältnis &quot;4:3&quot;und als Breite &quot;400&quot;eingeben, wird für die Höhe automatisch &quot;300&quot;eingegeben. Wenn Sie für die Einstellung &quot;Seitenverhältnis&quot;die Option &quot;Automatische Skalierung&quot;ausgewählt haben, wird der Breitenwert für die Auflösungsgröße automatisch auf &quot;Auto&quot;gesetzt. Auswählen **[!UICONTROL Vorschau]** damit Sie ein Browser-Fenster öffnen und dort Ihre Lösungsoptionen anzeigen können. |
    | Kodierungsdateisuffix | Geben Sie ein Suffix ein. Dieses Suffix wird dem Namen der Videodatei nach erfolgter Kodierung angehängt. Der Name darf Bindestriche und Unterstriche enthalten, jedoch keine Leerzeichen oder Sonderzeichen. |
    | Andere Einstellungen | Adobe Dynamic Media Classic ermittelt alle anderen Kodierungseinstellungen automatisch gemäß den Best Practice-Kodierungsrichtlinien. |
 

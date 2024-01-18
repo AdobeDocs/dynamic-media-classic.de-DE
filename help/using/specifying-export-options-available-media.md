@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 49%
+source-wordcount: '385'
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ Siehe auch [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-as
 1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Bildvorgaben]**.
 1. Legen Sie im Fenster „Bildvorgaben“ die folgenden Optionen nach Bedarf fest:
 
-   * **Benutzerdefinierte Konversion aktivieren** - Wenn diese Option aktiviert ist, können Benutzer andere Optionen aus der **[!UICONTROL Größe]** Dropdown-Liste im Fenster &quot;Ausgewählte Assets exportieren&quot;. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter wählen und die gewünschte Breite und Höhe festlegen. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
+   * **Benutzerdefinierte Konversion aktivieren** - Wenn diese Option aktiviert ist, können Benutzer andere Optionen aus der **[!UICONTROL Größe]** Dropdown-Liste im Fenster &quot;Ausgewählte Assets exportieren&quot;. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter auswählen und dann die gewünschte Breite und Höhe angeben. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
 
      Wann **[!UICONTROL Pixel]** werden aus dem **[!UICONTROL Größe]** Dropdown-Liste, die resultierende Bildbreite × -höhe darf 100 Millionen Pixel nicht überschreiten. Diese Größe entspricht 10.000 × 10.000 Pixel für ein quadratisches Bild oder etwa 8.000 × 12.000 Pixel für ein Seitenverhältnis von 2 x 3. Diese Größenbeschränkung gilt nicht, wenn Sie Originalbilder exportieren.
 
@@ -45,4 +45,4 @@ Siehe auch [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-as
 >[!MORELIKETHIS]
 >
 >* [Bildvorgaben](application-setup.md#image_presets)
->* [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Bildvorgabe-Zugriffsberechtigungen für eine Gruppe auswählen](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

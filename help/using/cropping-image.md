@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ Sie haben die Möglichkeit, durch Beschneiden den weißen Bereich um das Bild he
 
 >[!NOTE]
 >
->Nach dem Zuschneiden können Sie **[!UICONTROL Speichern unter]** und speichern Sie eine zugeschnittene Version des Bildes unter einem anderen Namen. Wählen Sie im Fenster Speichern unter die Option **[!UICONTROL Als neuen Master speichern]** , um eine zweite Kopie des Bildes zu speichern. Auswählen **[!UICONTROL Als zusätzliche Ansicht des Master speichern]** sodass Sie das Original und die zugeschnittene Version unter einem anderen Namen speichern können. Auswählen **[!UICONTROL Original ersetzen]** , um die Originaldatei zu löschen, von der Sie das Bild beschnitten haben. Geben Sie dann einen Namen für das Bild ein und wählen Sie **[!UICONTROL Einsenden]**.
+>Nach dem Zuschneiden können Sie **[!UICONTROL Speichern unter]** und speichern Sie eine zugeschnittene Version des Bildes unter einem anderen Namen. Wählen Sie im Fenster Speichern unter die Option **[!UICONTROL Als neuen Primäre speichern]** , um eine zweite Kopie des Bildes zu speichern. Auswählen **[!UICONTROL Als zusätzliche Ansicht des Primären speichern]** sodass Sie das Original und die zugeschnittene Version unter einem anderen Namen speichern können. Auswählen **[!UICONTROL Original ersetzen]** , um die Originaldatei zu löschen, von der Sie das Bild beschnitten haben. Geben Sie dann einen Namen für das Bild ein und wählen Sie **[!UICONTROL Einsenden]**.
 
 ## Beschneiden zum Entfernen des weißen Bereichs am Bildrand {#crop-to-remove-white-space-around-an-image}
 

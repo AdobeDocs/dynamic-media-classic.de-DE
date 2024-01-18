@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 65%
+source-wordcount: '1008'
+ht-degree: 55%
 
 ---
 
@@ -46,7 +46,7 @@ Das Upload-Token besteht aus einer alphanumerischen Zeichenfolge, die nur für e
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-Standardmäßig läuft das Upload-Token 5 Minuten (300 Sekunden) nach dem Abrufen ab. Wenn Sie mehr Zeit benötigen, schließen Sie den Parameter `expires` und die gewünschte Zeit in Sekunden in die URL ein. So wird bei der folgenden URL für ein Beispielbild ein Upload-Token abgerufen, das 1800 Sekunden gültig ist:
+Standardmäßig läuft das Upload-Token 5 Minuten (300 Sekunden) nach dem Abrufen ab. Um mehr Zeit anzufordern, schließen Sie `expires` in der URL und die benötigte Zeit in Sekunden. So wird bei der folgenden URL für ein Beispielbild ein Upload-Token abgerufen, das 1800 Sekunden gültig ist:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -80,7 +80,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upl
 | URL-Parameter | Erforderlich oder optional | Wert |
 | --- | --- | --- |
 | op | Erforderlich | get_uploadtoken |
-| shared_secret | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen, das den Upload ausführt. |
+| shared_secret | Erforderlich | Der gemeinsam genutzte geheime Schlüssel für das Unternehmen, das den Upload durchführt. |
 | expires | Optional | Anzahl der Sekunden, die das Upload-Token gültig ist. Der Standardwert ist 300 Sekunden, wenn nicht spezifiziert. |
 
 **Beispiel-Rasterbild-URL:**
@@ -118,7 +118,7 @@ Sie können auch andere optionale Werte als URL-Anfragezeichenfolgen senden, wie
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Die `file_limit` gibt die maximale Dateigröße in Byte an. Der Parameter `file_exts` gibt die für das Hochladen zulässigen Erweiterungen des Dateinamens an. Diese beiden Werte sind optional.
+Die `file_limit` gibt die maximale Dateigröße in Byte an. Die `file_exts` gibt die Dateinamenerweiterungen an, die hochgeladen werden dürfen. Diese beiden Werte sind optional.
 
 In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei der von Ihnen gesendeten Anforderung um eine Untergruppe der globalen Beschränkungen handelt, wird diese berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
@@ -129,14 +129,14 @@ In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und
 
 Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formular wird der Benutzer aufgefordert, die folgenden Informationen einzugeben:
 
-* Einen Unternehmensnamen.
+* Ein Unternehmensname.
 * Ein Upload-Token.
-* Eine Beschränkung für die Dateigröße.
-* Eine Liste mit den Erweiterungen für Dateinamen.
+* Eine Dateigrößenbeschränkung.
+* Eine Liste der Dateinamenerweiterungen.
 * Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
 * Ob Hintergrund aussparen verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
 Siehe Hintergrund aussparen in [Bildoptimierungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
-* Den Namen der hochzuladenden Datei.
+* Der Name der hochzuladenden Datei.
 
 Sie können den mit dem obigen Formular verknüpften HTML-Quellcode anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
@@ -170,7 +170,7 @@ Hier eine Beispielantwort für einen erfolgreiche Upload:
 >
 >Das hochgeladene Asset (JPG, GIF usw.) wird ins PTIFF-Format umgewandelt und mit der Antwort wird eine direkte Verknüpfung zu diesem PTIFF-Asset gesendet.
 
-Das Asset kann wie jede andere Image-Server-Ressource gehandhabt werden; Sie können auch Verarbeitungsanfragen darauf anwenden. Mit der folgenden URL wird beispielsweise ein Asset in der angegebenen Breite und Höhe angefordert.
+Das Asset kann wie jede andere Image-Server-Ressource gehandhabt werden; Sie können auch Verarbeitungsanfragen darauf anwenden. Beispielsweise fordert die folgende URL ein Asset an, das bis zur angegebenen Breite und Höhe gestreckt ist.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -185,8 +185,8 @@ Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formular
 | `company_name` | Erforderlich | Name des hochladenden Unternehmens. |
 | `file_limit` | Optional | Maximale Dateigröße (in Byte) für das Asset. |
 | `file_exts` | Optional | Liste der zulässigen Erweiterungen für die Bild-Asset-Datei. |
-| `preserve_colorprofile` | Optional | Behält eingebettete Farbprofile bei der Konvertierung der hochgeladenen Datei in das PTIFF-Format bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
-| `preserve_filename` | Optional | Behält den Dateinamen des hochgeladenen Assets bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“.. |
+| `preserve_colorprofile` | Optional | Behält eingebettete Farbprofile bei der Konvertierung der hochgeladenen Datei in das PTIFF-Format bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“. |
+| `preserve_filename` | Optional | Behält den Dateinamen des hochgeladenen Assets bei. Mögliche Werte sind „true“ oder „false“. Der Standardwert ist „false“. |
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ POST
 
 ### Abrufen von Asset-Metadaten für Bilder {#getting-asset-metadata-for-images}
 
-Mit `image_info` können Sie Metadaten für ein hochgeladenes Asset abrufen, wie im nachfolgenden Beispiel gezeigt:
+Sie können `image_info` , um Metadaten für ein hochgeladenes Asset abzurufen, wie im folgenden Beispiel gezeigt:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

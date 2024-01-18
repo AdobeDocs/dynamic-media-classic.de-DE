@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '869'
+ht-degree: 55%
 
 ---
 
@@ -24,8 +24,8 @@ Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darü
 Sie können die Einrichtung und die Daten des InfoPanel mit den folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
 * Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der E-Katalog automatisch veröffentlicht werden soll.
-* Im Bedienfeld &quot;InfoPanel-Datenfluss&quot;können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des InfoPanel angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
-* Über das Dialogfeld „Metadaten importieren“ (Zugriff über die Ansicht „Imagemap-Seiten“) können Sie eine tabulatorgetrennte TXT-Datei mit den Informationen zum Rollover-Text importieren. Sie können diese TXT-Option oder das Datafeed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
+* Im Bereich InfoPanel-Daten-Feed können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des InfoPanel angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
+* Über das Dialogfeld „Metadaten importieren“ (Zugriff über die Ansicht „Imagemap-Seiten“) können Sie eine tabulatorgetrennte TXT-Datei mit den Informationen zum Rollover-Text importieren. Sie können diese TXT-Option oder das Daten-Feed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
 * In der Ansicht „Imagemap-Seiten“ steht eine Option zur Verfügung, mit der Sie eine Vorschau des XML-Codes für die einzelnen Imagemaps aufrufen können.
 
 ## Einrichten einer Antwortvorlage für E-Kataloge {#set-up-a-response-template-for-ecatalogs}
@@ -66,7 +66,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 ### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort in E-Kataloge {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Doppelklicken Sie auf den eCatalog, damit er in der Detailansicht geöffnet wird.
-1. Wählen Sie die **[!UICONTROL InfoPanel Datafeed]** Bedienfeld.
+1. Wählen Sie die **[!UICONTROL InfoPanel-Daten-Feed]** Bedienfeld.
 1. Geben Sie die URL für die CSV-Datei in das Feld „Speicherort der extern gehosteten CSV-Datei (HTTP)“ ein. Sie können diese URL in das Feld kopieren oder sie direkt eintippen.
 1. (Optional) Geben Sie einen Zeitpunkt für die Aktualisierung des Inhalts mithilfe der Menüs Aktualisierung planen an und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
 1. (Optional) Wählen Sie **[!UICONTROL Update jetzt ausführen]** , um den Inhalt sofort zu aktualisieren.

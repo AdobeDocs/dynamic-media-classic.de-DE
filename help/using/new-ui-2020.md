@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ Die zugrunde liegenden APIs für Adobe Dynamic Media Classic wurden nicht geänd
 +++
 
 +++**_Erfordert dieses neue Desktop-Programm-Erlebnis Migrationen oder Änderungen an Integrationen von Drittanbietern?_**
-Nein. Adobe Dynamic Media Classic-Kunden müssen keine Drittanbieterintegrationen migrieren oder ändern, um das neue Desktop-Programm verwenden zu können.
+Anzahl Adobe Dynamic Media Classic-Kunden müssen keine Drittanbieterintegrationen migrieren oder ändern, um das neue Desktop-Programm verwenden zu können.
 +++
 
 +++**_Hat diese Änderung Auswirkungen auf meine Automatisierungsskripte?_**
-Nein. Automatisierungsskripte sind davon nicht betroffen. Das neue Desktop-Programm funktioniert und verhält sich auf eine Weise, die dem browserbasierten Erlebnis ähnlich ist, mit dem Sie bereits vertraut sind.
+Anzahl Automatisierungsskripte sind davon nicht betroffen. Das neue Desktop-Programm funktioniert und verhält sich auf eine Weise, die dem browserbasierten Erlebnis ähnlich ist, mit dem Sie bereits vertraut sind.
 +++
 
 +++**_Funktioniert das neue Adobe Dynamic Media Classic-Desktop-Programm auf Mac- und PC-Computern?_**
@@ -99,7 +99,7 @@ Adobe Dynamic Media Classic ist eine leistungsstarke, funktionsreiche Lösung zu
 * [Adobe Dynamic Media Newsletter-Archive](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
 +++**_Ich möchte mehr über das Upgrade auf Adobe Dynamic Media mit Adobe Experience Manager Assets erfahren. Wo finde ich weitere Informationen?_**
 Weitere Informationen zu den Vorteilen der Aktualisierung auf die nächste Generation von Rich-Media-Authoring, -Veröffentlichung und dynamischer Bereitstellung finden Sie unter [Adobe Dynamic Media-Portal für die Aktualisierung](/help/using/upgrade.md).

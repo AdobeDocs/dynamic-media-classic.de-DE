@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '11288'
-ht-degree: 38%
+source-wordcount: '10991'
+ht-degree: 37%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic lässt zwei Dateien mit demselben Namen nicht zu. Di
 
 Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (oder ersetzt) haben, gibt die Option Überschreiben an, wie Adobe Dynamic Media Classic die Bilder ersetzt. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Adobe Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
 
-Verwenden Sie diese Option, wenn Bilder, die Sie hochgeladen haben, sich in irgendeiner Weise geändert haben (Bild wurde geändert), der Verweis auf das Bild jedoch unverändert bleibt. Das Überschreiben ist außerdem beim Hochladen und Extrahieren von Adobe® PDF-Dateien nützlich. So passen Sie die Funktionsweise von Adobe Dynamic Media Classic an *rippen* Passen Sie im Dialogfeld &quot;Hochladen&quot;die ICC-Farbprofiloptionen an und laden Sie sie mithilfe der Funktion &quot;Überschreiben&quot;erneut hoch.
+Verwenden Sie diese Option, wenn Bilder, die Sie hochgeladen haben, sich in irgendeiner Weise geändert haben (Bild wurde geändert), der Verweis auf das Bild jedoch unverändert bleibt. Das Überschreiben ist auch beim Hochladen und Rippen von Adobe®-PDF hilfreich. So passen Sie die Funktionsweise von Adobe Dynamic Media Classic an *rippen* Passen Sie im Dialogfeld &quot;Hochladen&quot;die ICC-Farbprofiloptionen an und laden Sie sie mithilfe der Funktion &quot;Überschreiben&quot;erneut hoch.
 
 Die Adobe Dynamic Media Classic IDs, die für den Zugriff auf Bilder von den Produktionsservern verwendet werden, werden von den Bilddateinamen abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl beim Ersetzen vorhandener Dateien als auch für die Adobe Dynamic Media Classic-IDs, die für den Zugriff auf das Bild verwendet werden. Achten Sie darauf, dass Dateinamen Groß- und Kleinbuchstaben vor dem Hochladen in Adobe Dynamic Media Classic verwenden, um zu verhindern, dass sich Adobe Dynamic Media Classic-IDs nur für dasselbe Bild unterscheiden.
 
@@ -161,7 +161,7 @@ Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benu
 
 Um den Bildschirm &quot;Bildvorgabe&quot;zu öffnen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Bildvorgaben]**.
 
-Siehe [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Siehe [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### Erstellen und Bearbeiten von Bildvorgaben {#creating-and-editing-image-presets}
 
@@ -193,7 +193,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
    * GIF-Farbquantisierungsoptionen
 
-      * **[!UICONTROL Typ]** - Wählen Sie Adaptiv (Standard), Web oder Macintosh aus. Wenn Sie **[!UICONTROL GIF mit Alpha]**, ist die Option &quot;Macintosh&quot;nicht verfügbar.
+      * **[!UICONTROL Typ]** - Wählen Sie Adaptiv (Standard), Web oder Mac aus. Wenn Sie **[!UICONTROL GIF mit Alpha]**, ist die Option Mac nicht verfügbar.
 
       * **[!UICONTROL Dither]** - Wählen Sie Diffus oder Aus.
 
@@ -203,7 +203,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
    * JPEG-Optionen
 
-      * **[!UICONTROL Qualität]** - Steuert die JPEG-Komprimierungsstufe. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala ist 1-100.
+      * **[!UICONTROL Qualität]** - Steuert die JPEG-Komprimierungsstufe. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala reicht von 1 bis 100.
 
       * **[!UICONTROL JPG Chrominanz-Downsampling aktivieren]** - Da das Auge weniger empfindlich gegenüber hochfrequenten Farbinformationen als gegenüber hochfrequenter Luminanz ist, teilen JPEG-Bilder die Bildinformationen in Luminanz und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass sich dies auf die wahrgenommene Qualität auswirkt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
@@ -223,7 +223,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Bikubisch]** - Erhöht die CPU-Auslastung auf dem Image-Server, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten.
 
-* **[!UICONTROL `Sharp 2`]** - Kann geringfügig schärfere Ergebnisse als die bikubische Methode liefern, verursacht jedoch auch eine noch höhere CPU-Auslastung auf dem Image-Server.
+* **[!UICONTROL `Sharp 2`]** - Kann etwas schärfere Ergebnisse erzielen als die bikubische Option, aber bei noch höheren CPU-Kosten auf dem Image-Server.
 
 * **[!UICONTROL Trilinear]** - Verwendet sowohl höhere als auch niedrigere Auflösungen, sofern verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem darstellt. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
 
@@ -272,7 +272,7 @@ Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading
 
 Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
 
-**So aktivieren und deaktivieren Sie adaptive Video-Vorgaben:**
+**So aktivieren oder deaktivieren Sie adaptive Videovorgaben:**
 
 1. Navigieren Sie oben rechts in Adobe Dynamic Media Classic zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Videovorgaben]** > **[!UICONTROL Adaptive Videovorgaben]**.
 1. Wenn Sie eine Vorgabe aus der Liste „eVideo-Optionen“ im Dialogfeld „Upload-Auftragsoptionen“ entfernen möchten, deaktivieren Sie auf der Seite „Adaptive Video-Vorgaben“ das Kontrollkästchen neben dem Vorgabenamen.
@@ -336,7 +336,7 @@ Die folgende Tabelle enthält empfohlene Verfahren zur Auswahl von Video-Vorgabe
 
 Eine Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, um Videos zur Wiedergabe auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden (Standardeinstellung und Best Practice), werden auf eine feste Höhe festgelegt, während die Breite automatisch skaliert wird, um das Seitenverhältnis des Videos beizubehalten.
 
-**Adaptive Video (Standard)**
+**Adaptives Video (Standard)**
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -350,7 +350,7 @@ Diese Vorgaben für die adaptive Videokodierung bestehen aus einer Serie einzeln
 
 Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodierungsvorgabeoptionen](application-setup.md#about_encoding_preset_options).
 
-**Vorgaben für die adaptive Videokodierung (16:9 oder 4: 3)**
+**Vorgaben für die adaptive Videoverschlüsselung (16:9 oder 4:3)**
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -371,7 +371,7 @@ Vorgaben für die Videokodierung für MP4 und OGV auf Desktopcomputern.
 
 Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodierungsvorgabeoptionen](application-setup.md#about_encoding_preset_options).
 
-**H264 Main 3.2 - Audio AAC, Dateierweiterung MP4**
+**H264 Main 3.2 - Audio AAC, MP4-Dateierweiterung**
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -384,18 +384,18 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 | 7 | 4:3, 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
 | 8 | 4:3, 1280 x 960 (2000 Kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
-**OGG Theora Vorbis - Dateierweiterung OGV**
+**OGG Theora Vorbis - OGV-Dateierweiterung**
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480 x 270 (400 Kbit/s), OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Gleich Quelle | 64 | Niedrige Auflösung, Widescreen |
-| 2 | 16:9, 640 x 360 (800 Kbit/s), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
-| 3 | 16:9, 800 x 450 (1200 Kbit/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
-| 4 | 16:9, 1280 x 720 (2000 Kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
-| 5 | 4:3, 320 x 240 (400 Kbit/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
-| 6 | 4:3, 480 x 360 (800 Kbit/s), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
-| 7 | 4:3, 640 x 480 (1200 Kbit/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
-| 8 | 4:3, 1280 x 960 (2000 Kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
+| 2 | 16:9, 640 x 360 (800 kBit/s), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
+| 3 | 16:9, 800 x 450 (1200 kBit/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
+| 4 | 16:9, 1280 x 720 (2000 kBit/s), OGG | 3,0 Mbit/s | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
+| 5 | 4:3, 320 x 240 (400 kBit/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
+| 6 | 4:3, 480 x 360 (800 kBit/s), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
+| 7 | 4:3, 640 x 480 (1200 kBit/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
+| 8 | 4:3, 1280x960 (2000 kBit/s), OGG | 3,0 Mbit/s | _OGG_1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
 ### Vorgaben für die Videokodierung für Mobilgeräte {#mobile-video-encoding-presets}
 
@@ -403,7 +403,7 @@ Gleich wie Bildrate der Quelle. Vorgaben für die Videokodierung für Mobilgerä
 
 Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodierungsvorgabeoptionen](application-setup.md#about_encoding_preset_options).
 
-**H264 Baseline 2.1 - Audio AAC, Dateierweiterung MP4**
+**H264 Baseline 2.1 - Audio AAC, MP4-Dateierweiterung**
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videobitrate (Kbit/s) | Pixel Breite/Höhe | Einzelbilder pro Sekunde (fps) | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -426,7 +426,7 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoomverhalten, die Farbschemata, Ränder und Schriftarten ändern.
 
-Verwenden Sie als Best Practice Adobe Dynamic Media Classic HTML5 Video-Viewer. Dank der für die HTML5 Video Viewer verwendeten Vorgaben handelt es sich um robuste Video-Player.
+Verwenden Sie als Best Practice Adobe Dynamic Media Classic HTML5 Video-Viewer. Die in HTML5 Video-Viewern verwendeten Vorgaben sind robuste Video-Player.
 
 Indem Sie Folgendes in einen einzelnen Player kombinieren:
 
@@ -499,7 +499,7 @@ Siehe [Versionshinweise zu Adobe Viewer](https://experienceleague.adobe.com/docs
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™-Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Bildsatz-Viewer |  |  |  |  |  |  |
+| Bildset-Viewer |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -513,7 +513,7 @@ Siehe [Versionshinweise zu Adobe Viewer](https://experienceleague.adobe.com/docs
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™-Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| E-Katalog-Viewer |  |  |  |  |  |  |
+| eCatalog-Viewer |  |  |  |  |  |  |
 | Universal_HTML5_eCatalog_Adv(Enthält Unterstützung für Social Media und Katalogsuche.) | HTML5 | X | X | X | X | X |
 | Universal_HTML5_eCatalog(Enthält Unterstützung für Social Media und Katalogsuche.) | HTML5 | X | X | X | X | X |
 
@@ -532,7 +532,7 @@ Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.2
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™-Smartphone | Android™ Tablet | BlackBerry® Smartphone | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video(Enthält Unterstützung für Untertitel.) Siehe [Optimale Vorgehensweise: Verwenden des universellen HTML5-Video-Viewers.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(Enthält Unterstützung für Untertitel.) Siehe [Best Practice: Verwenden des universellen HTML5-Video-Viewers.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(Enthält Unterstützung für Untertitel und Social Media.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™-Smartphone | Android™ Tablet |
@@ -547,7 +547,7 @@ In der folgenden Tabelle sind die Mobile-Viewer-Gesten aufgeführt, die auf iOS-
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™-Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Bildsatz-Viewer |  |  |  |  |  |  |
+| Bildset-Viewer |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -973,9 +973,9 @@ Mit diesen Informationen kann Ihr Stapelsatztyp-Rezept wie folgt erstellt werden
 
 ![Stapelsatzrezeptbild](assets/se_batch_set_recipe.png)
 
-Die Gruppierung für den Teil des gemeinsamen Asset-Namens des Rotationssets wird dem Feld Übereinstimmung hinzugefügt (wie hervorgehoben). Der variable Teil des Assetnamens, der die Zeile und die Spalte enthält, wird den Feldern Zeile bzw. Spalte hinzugefügt.
+Die Gruppierung für den Teil des gemeinsamen Asset-Namens des Rotationssets wird dem Feld Übereinstimmung hinzugefügt (wie hervorgehoben). Der variable Teil des Asset-Namens, der die Zeile und Spalte enthält, wird den Feldern Zeile bzw. Spalte hinzugefügt.
 
-Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den Namen des 2D-Rotationsset-Rezepts, der unter **[!UICONTROL Stapelsatzvorlagen]** im Dialogfeld Upload-Auftragsoptionen aufgeführt wird.
+Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den Namen des 2D-Rotationssets-Rezepts, das unter **[!UICONTROL Stapelsatzvorgaben]** im Dialogfeld &quot;Upload-Auftragsoptionen&quot;.
 
 **So erstellen Sie eine Stapelsatzvorgabe für die automatische Erstellung eines 2D-Rotationssets:**
 

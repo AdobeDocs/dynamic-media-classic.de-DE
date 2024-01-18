@@ -12,10 +12,10 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 28%
+source-wordcount: '1620'
+ht-degree: 24%
 
 ---
 
@@ -43,7 +43,7 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 * **[!UICONTROL Ingesamt]** - Die Anzahl der übertragenen Dateien.
 
-* **[!UICONTROL W (Warnungen)]** - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiel: `.DS_store` -Dateien (Macintosh) und Thumbs.db-Dateien (Windows®) enthalten Informationen darüber, wie Bilddateien für Benutzer angezeigt werden. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+* **[!UICONTROL W (Warnungen)]** - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiel: `.DS_store` -Dateien (Mac) und Thumbs.db-Dateien (Windows®) enthalten Informationen zur Anzeige von Bilddateien für Benutzer. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
 * **[!UICONTROL E (Fehler)]** - Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
@@ -123,7 +123,7 @@ Diese Tabelle enthält Informationen zu den Zeitabschnitten, den jeweils zuläss
 | Minuten | 0-59 |  | `, - * /` |
 | Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | `, - * /` |
 | Tag des Monats | 1-31 | Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C` |
-| Monat | 1-12 oder Jan, Feb, Mar, Apr, Mai, Jun, Jul, Aug, Sep, Sep, Okt, November, Dez. | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `, - * /` |
+| Monat | 1 bis 12 oder Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `, - * /` |
 | Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C #` |
 | Jahr (optional) | Leer oder 1970-2099 |  | `, - * /` |
 
@@ -143,16 +143,16 @@ In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mi
 
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:
 
-* `0 0 12 * * ?` : Jeden Tag am Mittag
-* `0 15 10 ? * *` : 10:15 morgens an jedem Tag
-* `0 0/5 14 * * ?`: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag
-* `0 0/5 14,18 * * ?` : Alle 5 Minuten zwischen 14:00 und 14:55 Uhr an jedem Tag und alle 5 Minuten zwischen 18:00 und 18:55 Uhr an jedem Tag
-* `0 10,44 14 ? 3` : Mi um 14:10 Uhr sowie 14:44 Uhr jeden Mittwoch im März
+* `0 0 12 * * ?` : Jeden Tag
+* `0 15 10 ? * *` : 10:15 Uhr jeden Tages
+* `0 0/5 14 * * ?`: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr täglich
+* `0 0/5 14,18 * * ?` : Jeden Tag alle 5 Minuten zwischen 14:00 und 14:55 Uhr und täglich zwischen 18:00 und 18:55 Uhr
+* `0 10,44 14 ? 3` : Wir wünschen jeden Mittwoch im März um 14:10 Uhr und 14:44 Uhr
 * `0 15 10 ? *` : Montag bis Freitag um 10:15 Uhr jeden Wochentag
-* `0 15 10 20 * ?` : Um 10:15 Uhr am 20. Tag jedes Monats
-* `0 15 10 L * ?` : Um 10:15 Uhr am letzten Tag jedes Monats
-* `0 15 10 ? * 6L` : Um 10:15 Uhr am letzten Freitag jedes Monats
-* `0 15 10 * * 6#3` : Um 10:15 Uhr am dritten Freitag jedes Monats
+* `0 15 10 20 * ?` : Um 10:15 Uhr am 20. Tag jedes Monats
+* `0 15 10 L * ?` : Um 10:15 Uhr am letzten Tag jedes Monats
+* `0 15 10 ? * 6L` : Um 10:15 Uhr am letzten Freitag jedes Monats
+* `0 15 10 * * 6#3` : Um 10:15 Uhr am dritten Freitag jedes Monats
 
 ## Upload- oder Veröffentlichungsauftrag als Trigger verwenden {#using-an-upload-or-publish-job-as-a-trigger}
 

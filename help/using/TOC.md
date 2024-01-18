@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic-Anleitung
 breadcrumb-title: Dynamic Media Classic-Anleitung
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 25%
+source-wordcount: '795'
+ht-degree: 20%
 
 ---
 
@@ -55,12 +55,12 @@ ht-degree: 25%
    + [Media Portal-Benutzerrollen](media-portal-user-roles.md)
    + [Erstellen und Verwalten von Media Portal-Gruppen](creating-media-portal-groups.md)
    + [Hinzufügen und Verwalten von Media Portal-Benutzern](adding-media-portal-users.md)
-   + [Verwalten von FTP-Konten](ftp-accounts.md)
+   + [FTP-Konten verwalten](ftp-accounts.md)
    + [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md)
    + [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-presets.md)
    + [Effizientere Nutzung von Metadaten](making-efficient-metadata.md)
-   + [Anpassen des Media Portal-Bildschirms](customizing-media-portal-screen.md)
-+ Hochladen und Veröffentlichen von Elementen {#upload-publish}
+   + [Anpassen des Bildschirms &quot;Media Portal&quot;](customizing-media-portal-screen.md)
++ Assets hochladen und veröffentlichen {#upload-publish}
    + [Informationen zum Hochladen und Veröffentlichen von Assets](about-asset-upload-publish.md)
    + [Hochladen von Dateien](uploading-files.md)
    + [Veröffentlichen von Dateien](publishing-files.md)
@@ -82,7 +82,7 @@ ht-degree: 25%
    + [Drucken von Assets](printing-assets.md)
    + [Ordner &quot;Papierkorb&quot;verwalten](trash-folder.md)
    + [Organisieren Ihrer Arbeit mit Projekten](organizing-projects.md)
-+ Bildgrößenänderung {#image-sizing}
++ Bildgröße {#image-sizing}
    + [Kurzanleitung: Bildgrößenänderung](quick-start-image-sizing.md)
    + [Hochladen von Primärbildern](uploading-master-images.md)
    + [Primärbilder veröffentlichen](publishing-master-images.md)
@@ -106,7 +106,7 @@ ht-degree: 25%
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
    + [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md)
    + [E-Katalog mit einer Webseite verknüpfen](linking-ecatalog-web-page.md)
-+ Bildsätze {#image-sets}
++ Bildsets {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
    + [Vorbereiten von Bildset-Assets für das Hochladen](preparing-image-set-assets-upload.md)
    + [Erstellen eines Bildsatzes](creating-image-set.md)
@@ -154,7 +154,7 @@ ht-degree: 25%
    + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
 + Adobe Analytics-Instrumentenkit {#analytics-kit}
    + [Schnellstart: Integration von Adobe Dynamic Media Classic in Adobe Analytics](quick-start-integrating-dmc-analytics.md)
-   + [Anmelden bei Adobe Analytics](log-analytics.md)
+   + [Bei Adobe Analytics anmelden](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
    + [Instrumentieren eines Viewers mit dem Adobe Analytics-Instrumentierungskit](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Adobe Analytics-Tracking deaktivieren](disabling-analytics-tracking.md)

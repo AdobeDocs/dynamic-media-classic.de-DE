@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1970'
 ht-degree: 33%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 33%
 
 Die Bildschirme &quot;Administrationseinstellungen&quot;dienen der Verwaltung von Adobe Dynamic Media Classic-Benutzern. Verwenden Sie diese Bildschirme, um Benutzern die Arbeit in Adobe Dynamic Media Classic zu ermöglichen und per E-Mail mit Benutzern zu kommunizieren.
 
-1. Um auf die Optionen für die Administrationseinstellungen zuzugreifen, navigieren Sie zu **Einrichtung** > **Persönliche Einstellungen** > **Administrationseinstellungen**.
+1. Die Optionen für die Administrationseinstellungen finden Sie unter **Einrichtung** > **Persönliche Einstellungen** > **Administrationseinstellungen**.
 
 ## Benutzerverwaltung {#user-administration}
 
@@ -36,13 +36,13 @@ Adobe Dynamic Media Classic unterstützt mehrere Benutzerrollen. Diese Rollen k�
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic-Benutzer** Zugang zu Unternehmen haben, denen sie zugewiesen wurden; keine Verwaltungsaufgaben wahrnehmen können.
+**Adobe Dynamic Media Classic-Benutzer** Kann auf Unternehmen zugreifen, denen er zugewiesen wurde; kann keine Verwaltungsaufgaben ausführen.
 
 **Adobe Dynamic Media Classic-Unternehmensadministrator** Können nur ihre eigenen Unternehmen anzeigen und verwalten. Ein Unternehmensadministrator kann außerdem alle Verwaltungsfunktionen ausführen, einschließlich des Hinzufügens von Administratoren und Benutzern. Ein Unternehmensadministrator kann einen Benutzer zu den DMC-Unternehmensadministratorkonten hinzufügen. (Dies ist die Standard-Benutzerrolle.)
 
 Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classic dem Benutzer eine Begrüßungs-E-Mail. Die Nachricht enthält ein Kennwort und die Adobe Dynamic Media Classic-URL.
 
-### Benutzer oder Administrator hinzufügen {#adding-a-user-or-administrator}
+### Hinzufügen eines Benutzers oder Administrators {#adding-a-user-or-administrator}
 
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
 1. Auswählen **[!UICONTROL Hinzufügen]**.
@@ -50,17 +50,17 @@ Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classi
 
    >[!NOTE]
    >
-   >Das Apostroph-Zeichen (`‘`) ist in E-Mail-Adressen nicht zulässig.
+   >Das Apostroph-Zeichen (`'`) ist in E-Mail-Adressen nicht zulässig.
 
 1. Um dem Benutzer eine Rolle zuzuweisen, wählen Sie die Option Rolle aus.
 
    Siehe [Benutzerrollen und -berechtigungen in Adobe Dynamic Media Classic](administration-setup.md#user_administration).
 
 1. Um einem Unternehmen einen Benutzer hinzuzufügen, wählen Sie einen Unternehmensnamen aus.
-1. Wenn Sie den Benutzer zu einer Gruppe hinzufügen möchten (wenn Sie einen Media Portal-Benutzer oder -Mitarbeiter hinzufügen), wählen Sie **[!UICONTROL Nächste]** und fügen Sie den Benutzer hinzu.
+1. Wenn Sie den Benutzer zu einer Gruppe hinzufügen möchten (wenn Sie einen Media Portal-Benutzer oder -Mitarbeiter hinzufügen), wählen Sie **[!UICONTROL Nächste]** und den Benutzer hinzufügen.
 1. Auswählen **[!UICONTROL Speichern]** , um die Benutzereinrichtung abzuschließen.
 
-   Nach dem Speichern werden Sie gefragt, ob Sie einem anderen Unternehmen einen Benutzer hinzufügen möchten. Auswählen **[!UICONTROL Hinzufügen]** , wenn Sie den Benutzer einem Unternehmen hinzufügen möchten.
+   Nach dem Speichern werden Sie gefragt, ob Sie einem anderen Unternehmen einen Benutzer hinzufügen möchten. Auswählen **[!UICONTROL Hinzufügen]** , wenn Sie den Benutzer zu einem Unternehmen hinzufügen möchten.
 
    Allen neuen Benutzern wird ein zufällig generiertes Kennwort zugewiesen. Benutzer müssen Kennwörter bei der ersten Anmeldung bei der Adobe Dynamic Media Classic-Desktop-Applikation ändern.
 
@@ -68,7 +68,7 @@ Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classi
 
    Wenn der Benutzer die Begrüßungs-E-Mail nicht erhält, bitten Sie ihn, zur Adobe Dynamic Media Classic-Anmeldeseite (https://s7sps1.scene7.com) zu wechseln und wählen Sie **[!UICONTROL Kennwort vergessen]**. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der Benutzer auch diese E-Mail nicht erhält und sie nicht in seinem Spam-Ordner ist, wenden Sie sich an den technischen Support.
 
-   Wenn Sie neue Media Portal-Benutzer hinzufügen, können Sie auch zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**, wählen Sie **[!UICONTROL Hochladen der Benutzerliste]** und wählen Sie eine CSV-Datei aus, die maximal 500 Benutzer enthält.
+   Beim Hinzufügen neuer Media Portal-Benutzer können Sie auch zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**, wählen Sie **[!UICONTROL Hochladen der Benutzerliste]** und wählen Sie eine CSV-Datei aus, die maximal 500 Benutzer enthält.
 
 ### Löschen eines Benutzers {#deleting-a-user}
 
@@ -107,7 +107,7 @@ Sie können die folgenden Methoden zum Filtern von Benutzerlisten verwenden:
 
 * **Nach Benutzerrolle filtern** - Wählen Sie die **[!UICONTROL Nach Benutzerrolle]** und wählen Sie eine Option, um die Liste auf Benutzer oder Administratoren verschiedener Typen zu beschränken.
 
-* **Nach Feldname filtern** - Auswählen **[!UICONTROL Filtern nach Feld aktivieren]**. Wählen Sie dann die **[!UICONTROL Nach Feldname]** , wählen Sie eine Spalte zum Filtern der Liste, wählen Sie das Menü &quot;Zeichen filtern&quot;und wählen Sie einen Brief aus. Die Liste wird anhand des ausgewählten Briefs nach einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Filtern nach Feld aktivieren]** -Option.
+* **Nach Feldname filtern** - Auswählen **[!UICONTROL Filtern nach Feld aktivieren]**. Wählen Sie dann die **[!UICONTROL Nach Feldname]** , wählen Sie eine Spalte zum Filtern der Liste, wählen Sie das Menü Zeichen filtern und wählen Sie einen Brief aus. Die Liste wird anhand des ausgewählten Briefs nach einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Filtern nach Feld aktivieren]** -Option.
 
 * **Ausfiltern ungültiger Benutzer** - Auswahl aufheben **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
 
@@ -140,12 +140,12 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
 ## Bandbreite und Speicher {#bandwidth-storage}
 
-Adobe Dynamic Media Classic-Administratoren können für die von ihnen verwalteten Unternehmen Bandbreite, Speicherplatz und andere Berichtstypen generieren. Diese Berichte sind auf der Seite Bandbreite und Speicher verfügbar.
+Adobe Dynamic Media Classic-Administratoren können für die von ihnen verwalteten Unternehmen Bandbreite, Speicherplatz und andere Berichtstypen generieren. Diese Berichte sind auf der Seite &quot;Bandbreite und Speicher&quot;verfügbar.
 
 Um diese Seite zu öffnen, navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]**. Erweitern **[!UICONTROL Administrationseinstellungen]** und wählen Sie **[!UICONTROL Bandbreite und Speicher]**.
 
@@ -194,7 +194,7 @@ So generieren Sie einen Bericht zur Bandbreite, zum Speicher, zu Bildinhalt, zur
 
 Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert haben, können Sie Optionen zum Anzeigen der Informationen auswählen. Sie können festlegen, wie die Informationen dargestellt werden, die Informationen in einem Diagramm oder Datenraster anzeigen und einen Zeitraum für das Erfassen von Informationen bestimmen. In der Datenansicht können Sie die Informationen auch sortieren und in Spalten anordnen.
 
-* **Daten in einem Diagramm oder Datenraster anzeigen** - Auswählen **[!UICONTROL Diagrammansicht]** Anzeige der Daten in einer Grafik; select **[!UICONTROL Datenansicht]** , um Daten in einem Datenraster anzuzeigen.
+* **Daten in einem Diagramm oder Datenraster anzeigen** - Auswählen **[!UICONTROL Diagrammansicht]** um Daten in einer Grafik anzuzeigen, wählen Sie **[!UICONTROL Datenansicht]** , um Daten in einem Datenraster anzuzeigen.
 
 * **Berichtpräsentationstyp auswählen** - Wählen Sie im Menü Berichtstyp die Option **[!UICONTROL Zusammenfassung]**, **[!UICONTROL Täglich]** oder **[!UICONTROL Monatlich]** um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
 
@@ -204,7 +204,7 @@ Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert 
 
 * **Benutzerdefinierter Zeitraum** - Wählen Sie im Menü Vordefinierter Bericht die Option **[!UICONTROL Benutzerdefiniert]**. Wählen Sie dann ein Datum für die **[!UICONTROL Startmonat]** (oder **[!UICONTROL Startdatum]**) und ein Datum im Menü Anzahl der Monate (oder Anzahl oder Tage). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
 
-* **Sortieren von Daten (nur Datenansicht)** - Um die Informationen einer Spalte zu sortieren, wählen Sie die Überschrift der Spalte aus. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
+* **Sortieren von Daten (nur Datenansicht)** - Zum Sortieren von Informationen über eine Spalte wählen Sie die Überschrift der Spalte aus. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
 
 * **Spalten neu anordnen (nur Datenansicht)** - Um eine Spalte an eine andere Position im Datenraster zu verschieben, ziehen Sie die Überschrift.
 
@@ -230,7 +230,7 @@ Adobe Dynamic Media Classic-Administratoren können Bildfehlerberichte generiere
    * Um den Link zum tatsächlichen Bild zu kopieren, wählen Sie **[!UICONTROL URL kopieren]**. Sie können diesen Link in ein Browserfenster kopieren, um das Bild aufzurufen und den Fehler zu prüfen.
    * Um den Link auf die Referrer-Webseite zu kopieren, wählen Sie **[!UICONTROL Referrer Copy URL]**.
 
-Die angezeigten Fehler betreffen das Unternehmen, bei dem Sie derzeit angemeldet sind. Jeder Fehler enthält die folgenden Informationen:
+Die angezeigten Fehler beziehen sich auf das Unternehmen, bei dem Sie derzeit angemeldet sind. Jeder Fehler enthält die folgenden Informationen:
 
 * **Bild-ID** - Kennung für das fehlerhafte Bild.
 

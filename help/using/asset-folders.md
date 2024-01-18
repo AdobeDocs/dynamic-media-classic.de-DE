@@ -12,7 +12,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 39%
@@ -55,7 +55,7 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen** - Wählen Sie die **[!UICONTROL Ordner löschen]** Schaltfläche . Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen** - Wählen Sie die **[!UICONTROL Ordner löschen]** Schaltfläche. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
 * **Umbenennen** - Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 

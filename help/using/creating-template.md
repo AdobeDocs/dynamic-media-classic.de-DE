@@ -12,10 +12,10 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3468'
-ht-degree: 44%
+source-wordcount: '3420'
+ht-degree: 41%
 
 ---
 
@@ -50,7 +50,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 
    * **Vom Bildschirm &quot;Vorlage&quot;aus starten** - Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. 
 
-1. Geben Sie im Dialogfeld „Größe der Arbeitsfläche eingeben“ Werte für die Breite und Höhe der Vorlage ein.
+1. Geben Sie im Dialogfeld &quot;Enter Canvas Size&quot;die Breite und Höhe der Vorlage ein.
 1. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die PSD-Datei bzw. die Bilder, die Sie für die Vorlage verwenden möchten, in den Anzeigebereich „Vorlage“.
 1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**.
@@ -65,7 +65,7 @@ Unabhängig davon, ob Sie einen veröffentlichten Satz oder einen nicht veröffe
 | Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Veröffentlichungsstatus bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -80,7 +80,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Eine Vorlage löschen {#deleting-a-template}
 
-Wenn Sie einen Vorlagensatz löschen, wird der Satz in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
+Wenn Sie einen Vorlagensatz löschen, wird der Satz in den Papierkorb verschoben. Die Mitglieder (oder &quot;untergeordneten Elemente&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie ihren vorhandenen Status veröffentlicht oder unveröffentlicht bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
@@ -103,7 +103,7 @@ Verwenden Sie diese Tools auf dem Bildschirm &quot;Vorlage&quot;, um Vorlagen zu
 
 * **[!UICONTROL Parameterzusammenfassung]** Öffnet den Bildschirm &quot;Parameterzusammenfassung&quot;. Darin werden die Namen aller Ebenen in der Vorlage sowie für jede Ebene die Namen der aktivierten Parameter angezeigt.
 
-* **[!UICONTROL Texteditor v4.3 und Texteditor v4.2]** - Sie können den neuesten Texteditor mit den meisten Funktionen, den Texteditor v4.3 oder den vorherigen Texteditor, Text Editor v4.2, verwenden. Beim Erstellen von Vorlagen ist standardmäßig der Texteditor v4.3 ausgewählt. Beim Bearbeiten älterer Vorlagen ist Texteditor Version 4.2 standardmäßig ausgewählt. Texteditor Version 4.3 unterstützt derzeit keine Umbrüche. Verwenden Sie daher Texteditor Version 4.2, wenn Sie ältere Vorlagen bearbeiten, die Umbrüche verwenden, um die Funktionsfähigkeit der Vorlage beizubehalten. Wenn Ihre ältere Vorlage keine Wortumbrüche verwendet, können Sie den Texteditor v4.3 auswählen, um die zahlreichen neuen Funktionen zu nutzen. So können Sie beispielsweise Ränder erhöhen, Ränder reduzieren, Text in allen Kapiteln einstellen und Text an Textgröße kopieren.
+* **[!UICONTROL Texteditor v4.3 und Texteditor v4.2]** - Sie können den neuesten Texteditor mit den meisten Funktionen, den Texteditor v4.3 oder den vorherigen Texteditor, Text Editor v4.2, verwenden. Beim Erstellen von Vorlagen ist standardmäßig der Texteditor v4.3 ausgewählt. Beim Bearbeiten älterer Vorlagen ist Texteditor Version 4.2 standardmäßig ausgewählt. Texteditor Version 4.3 unterstützt derzeit keine Zeilenumbrüche. Verwenden Sie daher beim Bearbeiten älterer Vorlagen, die Umbrüche verwenden, den Texteditor Version 4.2, um die Wiedergabetreue vollständig beizubehalten. Wenn Ihre ältere Vorlage keine Wortumbrüche verwendet, können Sie den Texteditor v4.3 auswählen, um die zahlreichen neuen Funktionen zu nutzen. So können Sie beispielsweise Ränder erhöhen, Ränder reduzieren, Text in allen Kapiteln einstellen und Text an Textgröße kopieren.
 
   >[!NOTE]
   >
@@ -164,7 +164,7 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
    * **[!UICONTROL Zeilenabstand]** - Geben Sie einen numerischen Wert ein oder wählen Sie einen aus, um den der Abstand zwischen Zeilen angepasst werden soll.
 
-   * **[!UICONTROL Grundlinienversatz]** - Geben Sie einen numerischen Wert ein oder wählen Sie einen numerischen Wert aus, um den ein ausgewähltes Zeichen relativ zur Grundlinie des umgebenden Textes nach oben oder unten verschoben werden soll. Diese Option ist insbesondere hilfreich, wenn Sie Brüche von Hand eingeben oder die Position von eingebundenen Grafiken anpassen.
+   * **[!UICONTROL Grundlinienversatz]** - Geben Sie einen numerischen Wert ein oder wählen Sie einen numerischen Wert aus, um den ein ausgewähltes Zeichen relativ zur Grundlinie des umgebenden Textes nach oben oder unten verschoben werden soll. Diese Option ist besonders nützlich, wenn Sie Bruchteile manuell festlegen oder die Position von Inline-Grafiken anpassen.
 
 >[!NOTE]
 >
@@ -248,7 +248,7 @@ Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie k�
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der exakten Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie im Anzeigebereich „Vorschau für Vorlagen“ im Menü „Vorgabe anwenden“ die Bildvorgabe auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einrichten von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der exakten Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie sie im Menü &quot;Vorgabe anwenden&quot;auf dem Bildschirm &quot;Vorlagenvorschau&quot;auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einrichten von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
 
 * **Ändern der Größe einer Ebene** - Um die Größe einer Ebene oder der Arbeitsfläche zu ändern, wählen Sie die Ebene oder die Arbeitsfläche in der Liste Ebenen aus und verwenden Sie eine der folgenden Methoden:
 

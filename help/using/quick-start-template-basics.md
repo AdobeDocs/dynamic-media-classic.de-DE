@@ -1,5 +1,5 @@
 ---
-title: "Kurzanleitung: Vorlagen aus Grundelementen"
+title: "Schnellstart: Vorlagengrundlagen"
 description: Eine Einführung und ein Schnellstart zu den Vorlagengrundlagen , mit denen Sie schnell in Adobe Dynamic Media Classic arbeiten können.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 20%
+source-wordcount: '804'
+ht-degree: 21%
 
 ---
 
@@ -43,7 +43,7 @@ Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL
 
 ## 2. Erstellen einer Vorlage
 
-Um eine Vorlage aus einer PSD-Datei zu erstellen, wählen Sie **[!UICONTROL Vorlage erstellen]** wenn Sie die Datei hochladen. Um eine Vorlage aus Bildern zu erstellen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**, geben Sie eine Breite- und Höhenmessung für die Arbeitsfläche ein. Wählen Sie rechts oben auf der Seite eine der folgenden Optionen aus: **[!UICONTROL Designer]** oder **[!UICONTROL Entwickler]** und ziehen Sie Bilder auf die Seite &quot;Vorlage&quot;. Sie können auch Bilder auswählen *before* Sie gehen zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**. Die Seite &quot;Vorlage&quot;bietet Tools für:
+Um eine Vorlage aus einer PSD-Datei zu erstellen, wählen Sie **[!UICONTROL Vorlage erstellen]** wenn Sie die Datei hochladen. Um eine Vorlage aus Bildern zu erstellen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**, geben Sie eine Breite und eine Höhenmessung für die Arbeitsfläche ein. Wählen Sie rechts oben auf der Seite eine der folgenden Optionen aus: **[!UICONTROL Designer]** oder **[!UICONTROL Entwickler]** und ziehen Sie Bilder auf die Seite &quot;Vorlage&quot;. Sie können auch Bilder auswählen *before* Sie gehen zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**. Die Seite &quot;Vorlage&quot;bietet Tools für:
 
 * Bildebenen hinzufügen. Um eine Ebene hinzuzufügen, ziehen Sie ein Bild auf die Seite Vorlage .
 * Textebenen hinzufügen. Wählen Sie die **[!UICONTROL Textwerkzeug]** Symbol. Ziehen Sie den Mauszeiger, um ein Feld für die Textebene zu erstellen. Formatieren Sie dann den Text mit Tools auf der Textseite.

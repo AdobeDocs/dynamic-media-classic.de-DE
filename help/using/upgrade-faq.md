@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Ja, [!DNL Dynamic Media] nutzt Adobes robuste Bereitstellung auf der obersten Eb
 
 * Top-Rich-Media-Anbieter für Internet-Einzelhandel 1000, neun Jahre in Folge.
 * 24/7/265 Unterstützung, 99,95% SLAs.
-* Bewährte Infrastruktur, die weltweit über 800 Kunden versorgt, 3,5 PB Traffic pro Monat und mehr als 500 Millionen Assets in der Verwaltung, 60% Wachstum im Traffic-Jahresvergleich.
+* Bewährte Infrastruktur, die weltweit mehr als 800 Kunden versorgt, 3,5 Petabytes Traffic pro Monat und mehr als 500 Millionen Assets in der Verwaltung, 60% Wachstum im Traffic Jahr über Jahr.
 
 +++
 
@@ -97,23 +97,23 @@ Wenden Sie sich an Ihren Kundenbetreuer für Adobe, um Informationen zu den Prei
 +++
 
 +++**Gibt es Ausfallzeiten, die mit dem Upgrade-Prozess verbunden sind?**
-Nein. [!DNL Dynamic Media Classic] funktioniert während des Aktualisierungsprozesses weiterhin unterbrechungsfrei. Nachdem das Upgrade abgeschlossen und der Inhalt validiert wurde, arbeiten alle Benutzer ausschließlich innerhalb der [!DNL Dynamic Media] Komponente von [!DNL Experience Manager] Assets.
+Anzahl [!DNL Dynamic Media Classic] funktioniert während des Aktualisierungsprozesses weiterhin unterbrechungsfrei. Nachdem das Upgrade abgeschlossen und der Inhalt validiert wurde, arbeiten alle Benutzer ausschließlich innerhalb der [!DNL Dynamic Media] Komponente von [!DNL Experience Manager] Assets.
 
 +++
 
 +++**Sind alle Schritte in der Checkliste für die Upgrade-Bereitschaft erforderlich?**
-Nein. Die [Checkliste zur Bereitschaft](/help/using/upgrade-readiness.md) enthält erforderliche und optionale Best-Practice-Schritte.
+Anzahl Die [Checkliste zur Bereitschaft](/help/using/upgrade-readiness.md) enthält erforderliche und optionale Best-Practice-Schritte.
 
 +++
 
 +++**Muss ich ein Upgrade durchführen?**
-Nein. Adobe wird weiterhin vollständig unterstützt und gewartet [!DNL Dynamic Media Classic] (von Kunden angeforderte Fehlerbehebungen, Sicherheitskorrekturen, Plattformskalierbarkeit und Zuverlässigkeit) jetzt und in die Zukunft.
+Anzahl Adobe wird weiterhin vollständig unterstützt und gewartet [!DNL Dynamic Media Classic] (von Kunden angeforderte Fehlerbehebungen, Sicherheitskorrekturen, Plattformskalierbarkeit und Zuverlässigkeit) jetzt und in die Zukunft.
 
 Sie können ein Upgrade durchführen, wenn Sie bereit sind, die neuen Funktionen von [!DNL Dynamic Media].
 
 +++
 
-+++**Kann ich weiterhin [!DNL Dynamic Media Classic] (ehemals Adobe Scene7), nachdem ich auf [!DNL Dynamic Media]?**
++++**Kann ich [!DNL Dynamic Media Classic] (ehemals Adobe Scene7), nachdem ich auf [!DNL Dynamic Media]?**
 Nach dem Upgrade auf [!DNL Dynamic Media]sollten Sie Dynamic Media nur für Bildbearbeitung und Videos verwenden. Sie können weiterhin [!DNL Dynamic Media Classic] nur für Funktionen, die noch nicht in [!DNL Dynamic Media] darunter:
 
 * Visueller Konfigurator (Bildautor, Bild-Rendering).
@@ -133,17 +133,17 @@ Ja. Sie können die [!DNL Dynamic Media Classic] (ehemals Adobe Scene7) Publishi
 +++
 
 +++**Muss ich meine Produktions-URLs aktualisieren?**
-Nein. Adobe verwendet weiterhin die [!DNL Dynamic Media Classic] Publishing- und Bereitstellungsinfrastruktur unverändert im [!DNL Dynamic Media] -Lösung. Der Vorteil dieses Ansatzes besteht darin, dass Sie keine Produktions-URLs auf Ihren Webseiten ändern müssen, um das Risiko und den Aufwand für die Migration auf [!DNL Dynamic Media].
+Anzahl Adobe verwendet weiterhin die [!DNL Dynamic Media Classic] Publishing- und Bereitstellungsinfrastruktur unverändert im [!DNL Dynamic Media] -Lösung. Der Vorteil dieses Ansatzes besteht darin, dass Sie keine Produktions-URLs auf Ihren Webseiten ändern müssen, um das Risiko und den Aufwand für die Migration auf [!DNL Dynamic Media].
 
 +++
 
 +++**Muss ich API-Integrationen und andere Automatisierungsskripte neu schreiben?**
-Nein. Adobe verwendet weiterhin die [!DNL Dynamic Media Classic] Publishing- und Bereitstellungsinfrastruktur unverändert im [!DNL Dynamic Media] -Lösung. Darüber hinaus werden alle Assets nach repliziert [!DNL Dynamic Media Classic]. Der Vorteil dieses Ansatzes besteht darin, dass Sie keine API-basierten Integrationen oder Automatisierungsskripte neu schreiben müssen, wodurch Risiken und Aufwand für die Migration auf [!DNL Dynamic Media].
+Anzahl Adobe verwendet weiterhin die [!DNL Dynamic Media Classic] Publishing- und Bereitstellungsinfrastruktur unverändert im [!DNL Dynamic Media] -Lösung. Darüber hinaus werden alle Assets nach repliziert [!DNL Dynamic Media Classic]. Der Vorteil dieses Ansatzes besteht darin, dass Sie keine API-basierten Integrationen oder Automatisierungsskripte neu schreiben müssen, wodurch Risiken und Aufwand für die Migration auf [!DNL Dynamic Media].
 
 +++
 
 +++**Muss ich Änderungen vornehmen oder meine benutzerdefinierten Viewer neu entwickeln?**
-Nein. Adobe verwendet weiterhin die [!DNL Dynamic Media Classic] Publishing- und Bereitstellungsinfrastruktur unverändert im [!DNL Dynamic Media] -Lösung. Der Vorteil dieses Ansatzes besteht darin, dass Sie Ihre benutzerdefinierten Viewer weiterhin verwenden können, sodass Risiken und Aufwand bei der Migration auf [!DNL Dynamic Media].
+Anzahl Adobe verwendet weiterhin die [!DNL Dynamic Media Classic] Publishing- und Bereitstellungsinfrastruktur unverändert im [!DNL Dynamic Media] -Lösung. Der Vorteil dieses Ansatzes besteht darin, dass Sie Ihre benutzerdefinierten Viewer weiterhin verwenden können, sodass Risiken und Aufwand bei der Migration auf [!DNL Dynamic Media].
 +++
 
 +++**Wie migriere ich meine Einstellungen (wie Bildvorgaben, Videokodierungen) in [!DNL Dynamic Media]?**
@@ -230,7 +230,7 @@ Siehe auch [Funktionsvergleich](/help/using/upgrade-feature-comparison.md) Seite
 ## Beratungsdienste
 
 +++**Kann ich den Upgrade-Prozess selbst durchführen?**
-Nein. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter und AGS, um Ihr Upgrade zu planen.
+Anzahl Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter und AGS, um Ihr Upgrade zu planen.
 
 +++
 

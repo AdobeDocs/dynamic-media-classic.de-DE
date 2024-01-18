@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '721'
+ht-degree: 56%
 
 ---
 
@@ -61,7 +61,7 @@ Siehe [FTP-Konten verwalten](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
->Diese FTP-Konten können nur von Media Portal-Administratoren verwaltete werden. Außerdem können nur Benutzer mit der Rolle „Media Portal-Mitarbeiter-Benutzer“ oder „Media Portal-Mitarbeiter“ Dateien hochladen.
+>Nur Media Portal-Administratoren können diese FTP-Konten verwalten. Außerdem können nur Benutzer mit der Rolle „Media Portal-Mitarbeiter-Benutzer“ oder „Media Portal-Mitarbeiter“ Dateien hochladen.
 
 Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -73,7 +73,7 @@ Siehe [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar s
 
 ## 6. Erstellen von Bildvorgaben
 
-Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen, mit denen Größe, Qualität, Format, Auflösung und andere Darstellungsaspekte für ein Bild beim Exportieren festgelegt werden. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden. 
+Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen, die die Größe, Bildqualität, Format, Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden. 
 
 Siehe [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
@@ -87,4 +87,4 @@ Siehe [Effizientes Arbeiten mit Metadaten](making-efficient-metadata.md#making_m
 
 Mit den Stileinstellungen von Media Portal können Sie die Media Portal-Seite mit Ihrem Firmenlogo und Ihren Farben versehen. Verwenden Sie die Stileinstellungen, um Ihr Unternehmensbranding in Media Portal zu platzieren.
 
-Siehe [Anpassen der Media Portal-Seite](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+Siehe [Anpassen der Seite &quot;Media Portal&quot;](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

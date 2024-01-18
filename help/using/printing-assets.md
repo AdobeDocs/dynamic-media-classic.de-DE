@@ -12,7 +12,7 @@ role: User
 exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 25%
@@ -22,5 +22,5 @@ ht-degree: 25%
 # Drucken von Assets{#printing-assets}
 
 1. Wählen Sie im Durchsuchenbedienfeld die zu druckenden Assets aus.
-1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Drucken]** oder drücken Sie `Ctrl+P` (Windows®) oder `Command+P` (Macintosh).
+1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Drucken]** oder drücken `Ctrl+P` (Windows®) oder `Command+P` (Mac).
 1. Wählen Sie im Dialogfeld &quot;Drucken&quot;aus, wie viele Kopien gedruckt werden sollen, und klicken Sie dann auf **[!UICONTROL Drucken]**.

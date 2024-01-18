@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 25%
+source-wordcount: '1015'
+ht-degree: 23%
 
 ---
 
@@ -45,7 +45,7 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
 * **Farbprofiloptionen** - Untergebracht unter **[!UICONTROL Farbprofiloptionen]**.
 
-   * **[!UICONTROL Beibehalten der Standardfarbe]**
+   * **[!UICONTROL Beibehaltung der Standardfarbe]**
 
    * **[!UICONTROL Originalfarbraum beibehalten]** - Behält den ursprünglichen Farbraum des Bildes bei.
 
@@ -53,7 +53,7 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
 * **Photoshop-Optionen**
 
-   * **[!UICONTROL Ebenen beibehalten]** - Rippt die Ebenen im PSD (falls vorhanden) in einzelne Assets. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Sie können sie anzeigen, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei.
+   * **[!UICONTROL Ebenen beibehalten]** - Rippt die Ebenen im PSD (falls vorhanden) in einzelne Assets. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Sie können sie anzeigen, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei .
 
    * **[!UICONTROL Vorlage erstellen]** - Erstellt eine Vorlage aus den Ebenen in der PSD-Datei.
 

@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2198'
 ht-degree: 38%
 
 ---
@@ -45,7 +45,7 @@ Siehe [Best Practices für das Scharfzeichnen von Bildern in Adobe Dynamic Media
 
 Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
 
-**So zeichnen Sie ein Bild scharf:**
+**So scharfzeichnen Sie ein Bild:**
 
 Um ein Bild scharfzuzeichnen, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** Schaltfläche und wählen Sie **[!UICONTROL Scharfzeichnen]** oder öffnen Sie es im Durchsuchenbedienfeld in der Detailansicht und wählen Sie dann **[!UICONTROL Scharfzeichnen]**. Die Seite mit dem Scharfzeichnungseditor wird mit Scharfzeichnungsbefehlen geöffnet. Wählen Sie Befehle aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -60,7 +60,7 @@ Die folgende Tabelle zeigt die Scharfzeichnungsoptionen des Image-Servers.
 | Name | URL-Protokoll | Werte | Beispiel |
 | --- | --- | --- | --- |
 | Einfaches Scharfzeichnen | `op_sharpen` | `0` oder `1` | `op_sharpen=1` |
-| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind häufig sichtbar.<br>`bicub`: Wählt bikubische Interpolation aus. CPU-intensiver als `bilin`, erzielt aber schärfere Bilder mit weniger bemerkbaren Aliasing-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, die sowohl eine höhere als auch eine niedrigere Auflösung verwendet, falls verfügbar. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
+| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind häufig sichtbar.<br>`bicub`: Wählt bikubische Interpolation aus. CPU-intensiver als `bilin`, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Kann etwas schärfere Ergebnisse als bikubisch bei höheren CPU-Kosten erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, die sowohl höhere als auch niedrigere Auflösungen verwendet, sofern verfügbar. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
 | Unschärfemaske | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: Filterfestigkeitsfaktor (real 0...5)<br><br>`radius`: Filterkernel-Radius in Pixel (real 0...250) <br><br>`threshold`: Filterschwellenwert (int 0...255)<br><br>`monochrome`: setzt auf `0` zur Unschärfemaske jeder Farbkomponente einzeln festlegen, auf `1` zur Bildhelligkeit (Intensität) der Unschärfemaske | `op_usm=1,1,10,0` |
 
 Wählen Sie die **[!UICONTROL Scharfzeichnen]** und wählen Sie eine Option:
@@ -120,7 +120,7 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 * **JPG-Qualität** - Wählen Sie diese Option aus, wenn Sie die Komprimierungsstufen und das Chrominanz-Downsampling steuern möchten.
 
-* **Regler** - Bestimmt die JPG-Komprimierungsstufe. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala ist 1-100.
+* **Regler** - Bestimmt die JPG-Komprimierungsstufe. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala reicht von 1 bis 100.
 
 * **JPG Chrominanz-Downsampling aktivieren** - Da das Auge weniger empfindlich gegenüber hochfrequenten Farbinformationen als gegenüber hochfrequenter Luminanz ist, teilen JPEG-Bilder die Bildinformationen in Luminanz und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass sich dies auf die wahrgenommene Qualität auswirkt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
@@ -128,7 +128,7 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 Wenn Sie keine Bildvorgabe verwenden oder spezifische Image-Server-Scharfzeichnungsprotokolle mit dem URL-String übergeben, wird das Bild beim Downsampling nicht scharfgezeichnet. Tritt diese fehlende Scharfzeichnung jedoch auf, können Sie die standardmäßigen Scharfzeichnungswerte festlegen und dann hat jedes Bild immer eine gewisse Scharfzeichnung.
 
-Um die standardmäßigen Scharfzeichnungsoptionen Ihres Unternehmens festzulegen, gehen Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]**. Wenn Sie den standardmäßigen Resamplingmodus auf **[!UICONTROL `Sharp2`]**, wird das Bild beim Downsampling immer scharfgezeichnet.
+Um die standardmäßigen Scharfzeichnungsoptionen Ihres Unternehmens festzulegen, gehen Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]**. Wenn Sie den standardmäßigen Resamplingmodus auf **`Sharp2`**, wird das Bild beim Downsampling immer scharfgezeichnet.
 
 **Hinzufügen von Scharfzeichnung zu Viewer-Vorgaben**
 
@@ -140,7 +140,7 @@ Siehe [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html
 
 Die Modifiziereroption befindet sich im Bereich „Core-Einstellungen“ aller E-Katalog-, Rotations- und benutzerdefinierter Zoom-Viewer-Vorgaben. Wenn Sie die URL-Scharfzeichnungsbefehle zum Feld „Modifizierer“ hinzufügen, fügen Sie bei jedem Aufruf des Viewers mit der jeweiligen Viewer-Vorgabe Scharfzeichnung hinzu.
 
-Um die Viewer-Vorgabe aufzurufen, verwenden Sie die `config=` auf der Viewer-URL. Hier ist ein Beispiel für das Aufrufen eines Bildsatzes (Schuhe) mit einer Viewer-Vorgabe (`FantasticoZoom2022`):
+Um die Viewer-Vorgabe aufzurufen, verwenden Sie die `config=` auf der Viewer-URL. Im Folgenden finden Sie ein Beispiel für den Aufruf eines Bildsets (Schuhe) mit einer Viewer-Vorgabe (`FantasticoZoom2022`):
 
 `https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=S7train/FantasticoZoom2022`
 

@@ -12,16 +12,16 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 48%
 
 ---
 
 # Exportieren von Assets aus Adobe Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Sie können die in Adobe Dynamic Media Classic bearbeiteten Assets auf einem lokalen Netzlaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
+Sie können die in Adobe Dynamic Media Classic bearbeiteten Assets auf einem lokalen Netzwerklaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
 
 Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Außerdem sind maximal 500 Assets pro Exportauftrag zulässig.
 
@@ -36,11 +36,11 @@ Adobe Dynamic Media Classic speichert die Exportvorgänge im Bildschirm &quot;Au
 
    * **[!UICONTROL Konversion]** - Konvertieren Sie die Asset-Datei oder das Originalbild.
 
-   * **[!UICONTROL Größe]** - Sie können eine Standardgröße auswählen. Sie können auch **[!UICONTROL Sonstiges]** von **[!UICONTROL Größe]** in der Dropdown-Liste die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
+   * **[!UICONTROL Größe]** - Sie können eine Standardgröße auswählen. Sie können auch **[!UICONTROL Sonstiges]** aus dem **[!UICONTROL Größe]** in der Dropdown-Liste die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
 
      Siehe auch [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Format]** - Wählen Sie ein Bildformat.
+   * **[!UICONTROL Format]** - Wählen Sie ein Bildformat aus.
 
    * **[!UICONTROL Farbe]** - Wählen Sie RGB, CMYK oder Grau.
 
@@ -67,7 +67,7 @@ Die nachfolgenden Asset-Typen können nicht exportiert werden. Alle anderen gene
 * Multibitrate-Sets
 * E-Kataloge
 
-Vorlagen können außerdem nicht als Ausgangsdatei exportiert werden.
+Darüber hinaus können Vorlagen nicht als &quot;Originaldatei&quot;exportiert werden.
 
 Sie können die Konvertierungsoptionen beim Export folgender Asset-Typen verwenden:
 

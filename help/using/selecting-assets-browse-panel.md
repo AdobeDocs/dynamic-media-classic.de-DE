@@ -12,7 +12,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%
@@ -25,7 +25,7 @@ Wählen Sie ein Asset im Durchsuchenbedienfeld aus, damit Sie es bearbeiten kön
 
 * **Ein einzelnes Asset** - Wählen Sie das Asset aus (durch Doppelklicken wird das Asset in der Detailansicht geöffnet).
 
-* **Mehrere Assets** - Klicken Sie bei gedrückter Strg- (Windows®) bzw. Befehlstaste (Macintosh) auf Assets, um Assets an verschiedenen Stellen im Durchsuchenbedienfeld auszuwählen. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
+* **Mehrere Assets** - Klicken Sie bei gedrückter Strg- (Windows®) bzw. Befehlstaste (Mac) auf Assets, um Assets an verschiedenen Stellen im Durchsuchenbedienfeld auszuwählen. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
 
 * **Alle Assets im Bedienfeld &quot;Durchsuchen&quot;** - Gehen Sie zu **[!UICONTROL Auswählen]** > **[!UICONTROL Alle]**.
 

@@ -12,10 +12,10 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 52%
+source-wordcount: '569'
+ht-degree: 43%
 
 ---
 
@@ -29,13 +29,13 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
 1. Wählen Sie die Rollover-Schaltfläche &quot;Bearbeiten&quot;des Bildes aus und wählen Sie &quot;Anpassen&quot;oder doppelklicken Sie im Durchsuchenbedienfeld auf das Bild, damit es in der Detailansicht geöffnet wird.
 1. Wählen Sie eine Größe und eine Bildvorgabe aus (unten in der Ansicht).
-1. Mithilfe der Befehle auf der rechten Seite des Fensters „Anpassungseditor“ können Sie Anpassungen an dem Bild vornehmen:
+1. Verwenden Sie die Befehle auf der rechten Seite des `Adjust Editor` -Fenster, damit Sie das Bild anpassen können:
 
    * Mit der Option „Spiegeln“ können Sie ein Bild horizontal bzw. vertikal spiegeln.
    * Mit dem Drehen-Regler können Sie das Bild drehen. Sie können das Bild auch drehen, indem Sie im Feld „Drehen“ entsprechende Werte eingeben. Bei positiven Werten wird es im Uhrzeigersinn, bei negativen Werten gegen den Uhrzeigersinn gedreht.
    * Mit dem Schieberegler „Weichzeichnen“ bzw. dem gleichnamigen Feld wird das Bild weichgezeichnet. Je höher der Wert, desto stärker wird das Bild weichgezeichnet.
    * Mithilfe der Optionen „Kontrast“, „Helligkeit“, „Sättigung“, „Farbton“ und „Farbbalance“ können Sie die Farbe und Helligkeit anpassen. Diese Effekte sind kumulativ. Beispielsweise werden Änderungen an den Einstellungen „Magenta“/„Grün“ zu den Änderungen an der Einstellung „Farbton“ hinzugefügt und summiert.
-   * Mit der Option „Färben“ können Sie ein Bild färben und gleichzeitig dessen Einstellungen für Tiefen und Lichter beibehalten. Auch die Änderungen an den Einstellungen für „Färben“ sind kumulativ. Wählen Sie im Menü Helligkeit die Option **[!UICONTROL Keine Ausgleichszahlung]** sodass Sie die automatische Helligkeitskompensation deaktivieren. Setzen Sie den Kontrastwert auf 0, wenn Sie den Kontrastbereich des Originalbilds beibehalten möchten, oder geben Sie andernfalls einen Kontrastbereich mit einem Wert größer als 0 an. Mit dem Wert 100 erzielen Sie den maximalen Kontrast. Typische Werte liegen zwischen 30 und 70.
+   * Verwenden Sie die `Colorize` Optionen zum Einfärben eines Bildes unter Beibehaltung von Schatten und Highlights. Auch die Änderungen an den Einstellungen für „Färben“ sind kumulativ. Wählen Sie im Menü Helligkeit die Option **[!UICONTROL Keine Ausgleichszahlung]** sodass Sie die automatische Helligkeitskompensation deaktivieren. Setzen Sie den Kontrastwert auf 0, wenn Sie den Kontrastbereich des Originalbilds beibehalten möchten, oder geben Sie andernfalls einen Kontrastbereich mit einem Wert größer als 0 an. Mit dem Wert 100 erzielen Sie den maximalen Kontrast. Normalerweise liegen die Werte zwischen 30 und 70.
 
 1. Wenn Sie das Anpassen des Bildes beendet haben, führen Sie einen der folgenden Schritte aus:
 
@@ -47,25 +47,25 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
    * Um das Bild als neues Primärbild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
 
-     Wählen Sie in der Dropdownliste **[!UICONTROL Als neue Masterversion speichern]**.
+     Wählen Sie in der Dropdown-Liste **[!UICONTROL Als neue primäre Instanz speichern]**.
 Im **[!UICONTROL Ordnername]** Listenfeld den Ordner auswählen, in dem das neue Primärbild gespeichert werden soll.
 Auswählen **[!UICONTROL Speichern]**.
 
    * So speichern Sie das Bild als eine andere Ansicht des Primärbilds. können Sie einen Alias erstellen. Auswählen **[!UICONTROL Speichern unter]**.
 
-     Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als weitere Ansicht des Master speichern]**.
+     Aus der Dropdownliste im **[!UICONTROL Speichern unter]** Dialogfeld auswählen **[!UICONTROL Als weitere Ansicht der primären Instanz speichern]**.
 Im **[!UICONTROL Ordnername]** Listenfeld den Ordner auswählen, in dem das neue Primärbild gespeichert werden soll.
 Auswählen **[!UICONTROL Speichern]**.
 
 ## Erstellen eines Alias für ein Bild {#creating-an-alias-for-an-image}
 
-Wenn Sie ein Bild angepasst haben, können Sie es als eine andere Ansicht des Primärbilds speichern. Hierfür können Sie mit der Funktion **[!UICONTROL Als zusätzliche Ansicht des Masterbilds speichern]** einen Alias des Bildes erstellen.
+Wenn Sie ein Bild angepasst haben, können Sie es als eine andere Ansicht des Primärbilds speichern. Dazu können Sie mithilfe der **[!UICONTROL Als zusätzliche Ansicht der primären Instanz speichern]** Funktion.
 
 **So erstellen Sie einen Alias für ein Bild:**
 
 1. In der Rasteransicht oder Listenansicht im **[!UICONTROL Bearbeiten]** Dropdown-Liste neben einem Bild, für das Sie einen Alias erstellen möchten, wählen Sie **[!UICONTROL Anpassen]**.
 1. Wählen Sie in der rechten unteren Ecke der Seite die Option **[!UICONTROL Speichern unter]**.
-1. Im **[!UICONTROL Speichern unter]** in der Dropdown-Liste wählen Sie **[!UICONTROL Als zusätzliche Ansicht des Master speichern]**.
+1. Aus der Dropdownliste im **[!UICONTROL Speichern unter]** Dialogfeld auswählen **[!UICONTROL Als zusätzliche Ansicht der primären Instanz speichern]**.
 1. Wählen Sie im Listenfeld **[!UICONTROL Ordnername]** den Ordner, in dem Sie das Aliasbild speichern möchten.
 1. Geben Sie im Feld **[!UICONTROL Dateiname]** den Namen ein, den Sie für den Alias verwenden möchten.
 1. Auswählen **[!UICONTROL Speichern]**.

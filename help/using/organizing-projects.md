@@ -12,10 +12,10 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 31%
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 31%
 
 Projekte bieten Ihnen eine zusätzliche Möglichkeit, Assets unabhängig von den Ordnern zu verwalten, in denen die Assets enthalten sind. Ein Asset kann nur in einem einzigen Ordner abgelegt werden, lässt sich jedoch zu Organisationszwecken in mehrere Projektordner kopieren.
 
-Nachdem Sie einen Projektordner erstellt haben, können Sie Assets darin ablegen. Assets in einem Projekt verweisen jedoch tatsächlich auf den Ordner der Asset-Bibliothek, in dem die Assets gespeichert sind. Sie können ein Asset in mehreren Projekten ablegen. Beispielsweise wäre es möglich, das Bild einer Bluse sowohl im Projektordner „Blusen“ als auch im Projektordner „Herbstsammlung“ zu platzieren.
+Nachdem Sie einen Projektordner erstellt haben, können Sie Assets darin ablegen. Assets in einem Projekt verweisen jedoch tatsächlich auf den Ordner der Asset-Bibliothek, in dem die Assets gespeichert sind. Sie können ein Asset in mehreren Projekten ablegen. Beispielsweise kann ein Bild einer Bluse sowohl in den Projektordnern &quot;Blasen&quot;als auch &quot;Herbstsammlung&quot;abgelegt werden.
 
 Sie können ein Projekt erstellen, wenn Sie Dateien hochladen oder Projekte in der Asset-Bibliothek erstellen.
 
@@ -33,7 +33,7 @@ Sie können ein Projekt erstellen, wenn Sie Dateien hochladen oder Projekte in d
 
 >[!NOTE]
 >
->Sie können Assets nur dann in Projekten verwalten, wenn Ihr Administrator entsprechende Einstellungen festgelegt hat. Wenn Sie unten in der Asset-Bibliothek keinen Abschnitt mit Projektordnern sehen, steht Ihnen diese Möglichkeit zum Verwalten von Assets nicht zur Verfügung. Siehe [Allgemeine Programmeinstellungen](application-setup.md#general-settings).
+>Sie können Assets nur dann in Projekten verwalten, wenn Ihr Administrator entsprechende Einstellungen festgelegt hat. Wenn unten in der Asset-Bibliothek kein Abschnitt &quot;Projektordner&quot;angezeigt wird, steht Ihnen diese Methode zum Organisieren von Assets nicht zur Verfügung. Siehe [Allgemeine Programmeinstellungen](application-setup.md#general-settings).
 
 ## Erstellen eines Projektordners {#creating-a-project-folder}
 
@@ -51,9 +51,9 @@ Sie können einen Projektordner erstellen, der in der Asset-Bibliothek beginnt o
 
 Führen Sie einen der folgenden Schritte aus, um einen Projektordner anzuzeigen, zu löschen und umzubenennen:
 
-* **Durchsuchen von Inhalten** - Wählen Sie den Namen des Ordners in der Asset-Bibliothek aus. Die im Ordner enthaltenen Assets werden im Durchsuchenbedienfeld angezeigt.
+* **Inhalt durchsuchen** - Wählen Sie den Namen des Ordners in der Asset-Bibliothek aus. Die im Ordner enthaltenen Assets werden im Durchsuchenbedienfeld angezeigt.
 
-* **Löschen von Projektordnern** - Wählen Sie den Ordner Projekt aus und klicken Sie auf **[!UICONTROL Projekt löschen]**. Beim Löschen von Assets aus einem Projektordner werden diese nicht aus Adobe Dynamic Media Classic gelöscht. Die Assets verbleiben in den ursprünglichen Ordnern, in denen sie gespeichert sind.
+* **Löschen von Projektordnern** - Wählen Sie den Ordner Projekt aus und klicken Sie auf **[!UICONTROL Projekt löschen]**. Beim Löschen von Assets aus einem Projektordner werden diese nicht aus Adobe Dynamic Media Classic gelöscht. Die Assets verbleiben in den Originalordnern, in denen sie gespeichert sind.
 
 * **Umbenennen von Projektordnern** - Doppelklicken Sie im Asset-Bedienfeld auf den Namen des Ordners und geben Sie einen neuen Namen ein.
 
@@ -61,6 +61,6 @@ Führen Sie einen der folgenden Schritte aus, um einen Projektordner anzuzeigen,
 
 Sie können Bilder zu einem Projektordner hinzufügen, indem Sie ihn im Durchsuchenbedienfeld aufrufen oder Dateien in Adobe Dynamic Media Classic hochladen:
 
-* **Über das Bedienfeld &quot;Durchsuchen&quot;** - Wählen Sie die Assets aus und ziehen Sie sie in einen Projektordner. Sie können auch **[!UICONTROL Datei]** > **[!UICONTROL Zum Projekt hinzufügen]**. Wählen Sie im Dialogfeld &quot;Projekt auswählen&quot;den Namen des Projektordners aus und wählen Sie dann **[!UICONTROL Einsenden]**.
+* **Über das Bedienfeld &quot;Durchsuchen&quot;**, wählen Sie die Assets aus und ziehen Sie sie in einen Projektordner. Sie können auch **[!UICONTROL Datei]** > **[!UICONTROL Zum Projekt hinzufügen]**. Wählen Sie im Dialogfeld &quot;Projekt auswählen&quot;den Namen des Projektordners aus und wählen Sie dann **[!UICONTROL Einsenden]**.
 
 * **Beim Hochladen von Dateien** - Wählen Sie auf der Seite Hochladen die Option **[!UICONTROL Auftragsoptionen]**. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Projekte]** und wählen Sie dann einen Projektnamen aus.

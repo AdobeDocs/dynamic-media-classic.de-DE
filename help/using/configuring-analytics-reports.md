@@ -12,10 +12,10 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 27%
+source-wordcount: '1234'
+ht-degree: 17%
 
 ---
 
@@ -29,13 +29,13 @@ Neben der Zuordnung von Viewer-Ereignissen zu Variablen bietet der Bildschirm &q
 >
 >Wenn Sie die Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, stellen Sie sicher, dass Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen speichern und dann erneut veröffentlichen.
 
-Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
+Siehe [Bei Adobe Analytics anmelden](log-analytics.md#log_in_to_adobe_analytics).
 
 Siehe [Konfigurationsinformationen veröffentlichen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 ## Zuweisen von Adobe Analytics-Variablen zu Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
-Verknüpfen Sie im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;Viewer-Ereignisse mit Adobe Analytics-Variablen und Adobe Dynamic Media Classic-Variablen. Wählen Sie für jedes Viewer-Ereignis eine Adobe Analytics-Variable und eine Adobe Dynamic Media Classic-Variable aus. Anweisungen zum Öffnen des Anzeigebereichs „Adobe Analytics-Konfiguration“ finden Sie unter [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
+Verknüpfen Sie im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;Viewer-Ereignisse mit Adobe Analytics-Variablen und Adobe Dynamic Media Classic-Variablen. Wählen Sie für jedes Viewer-Ereignis eine Adobe Analytics-Variable und eine Adobe Dynamic Media Classic-Variable aus. Anweisungen zum Öffnen des Bildschirms &quot;Adobe Analytics-Konfiguration&quot;finden Sie unter [Bei Adobe Analytics anmelden](log-analytics.md#log_in_to_adobe_analytics).
 
 **So weisen Sie Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen Adobe Analytics-Variablen zu:**
 
@@ -55,7 +55,7 @@ Verknüpfen Sie im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;Viewer-Er
    Nachdem Sie **[!UICONTROL Speichern]**, werden das Viewer-Ereignis, die zugehörige Adobe Analytics-Variable und die Adobe Dynamic Media Classic-Variable im Bildschirm &quot;Adobe Analytics-Konfiguration&quot;aufgeführt.
 
 1. Wählen Sie in der rechten unteren Ecke die Option **[!UICONTROL Schließen]**.
-1. Navigieren Sie zu **[!UICONTROL Veröffentlichen]** > **[!UICONTROL Veröffentlichung übermitteln]** , um eine Image Serving-Veröffentlichung auszuführen.
+1. Navigieren Sie zu **[!UICONTROL Veröffentlichen]** > **[!UICONTROL Veröffentlichen senden]** , um eine Image Serving-Veröffentlichung auszuführen.
 
    Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf den Adobe Dynamic Media Classic-Servern verfügbar sind.
 
@@ -68,16 +68,16 @@ In der folgenden Tabelle werden Viewer-Ereignisse beschrieben, die Sie dem Bilds
 | Viewer-Ereignis | Unterstützung und Viewer für die HTML5 Viewer-Plattform | Beschreibung |
 | --- | --- | --- |
 | LOAD | **X** (E-Katalog, Flyout, Rotationsset, Video, Zoom) | Wenn ein Benutzer einen Viewer startet |
-| PAGE | **X** (E-Katalog) | Wenn ein Benutzer in E-Katalogen eine Seite umblättert; in zielgerichteten Zoom-Viewern, wenn ein Benutzer ein anderes Ziel oder ein Farbmuster auswählt. |
-| SWAP | **X** (E-Katalog, Flyout, Rotationsset, Video, Zoom) | Wenn ein Benutzer eine andere Miniaturansicht auswählt, um ein anderes Bild anzuzeigen. |
-| ITEM | **X** (E-Katalog) | Wenn ein Benutzer in Viewern, die Imagemaps unterstützen, in denen Rollover definiert sind, mit der Maus auf eine Imagemap zeigt, um den Rollover-Text zu lesen |
-| HREF | **X** (E-Katalog) | In Viewern, die Imagemaps unterstützen, wenn ein Benutzer eine URL in einer Imagemap auswählt. |
+| PAGE | **X**  (eCatalog) | Wenn ein Benutzer in E-Katalogen eine Seite umdreht, in zielgerichteten Zoom-Viewern ein anderes Ziel oder ein Farbmuster auswählt. |
+| SWAP | **X**  (eCatalog, Flyout, Rotationsset, Video, Zoom) | Wenn ein Benutzer eine andere Miniaturansicht auswählt, um ein anderes Bild anzuzeigen. |
+| ITEM | **X**  (eCatalog) | Wenn ein Benutzer in Viewern, die Imagemaps unterstützen, in denen Rollover definiert sind, mit der Maus auf eine Imagemap zeigt, um den Rollover-Text zu lesen |
+| HREF | **X**  (eCatalog) | In Viewern, die Imagemaps unterstützen, wenn ein Benutzer eine URL in einer Imagemap auswählt. |
 | TARGET | | Wenn ein Benutzer in zielgerichteten Zoom-Viewern ein Zoomziel auswählt, um einen Teil eines Bildes zu vergrößern. |
 | SEARCH | | Wenn ein Benutzer in E-Katalogen eine Wortsuche durchführt |
-| PLAY | **X** (Video) | Wenn ein Benutzer in Video-Viewern Play auswählt, um mit der Wiedergabe eines Videos zu beginnen.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
-| PAUSE | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Anhalten]** um ein Video einzufrieren.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
-| STOP | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Anhalten]** , um die Wiedergabe eines Videos zu beenden.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
-| MILESTONE | **X**  (Video) | In Video-Viewern werden Meilensteinereignisse generiert, wenn der Benutzer jeweils 0, 25, 50, 75 oder 100 Prozent des Videos gesehen hat.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Video-Player erzeugt Verfolgungsdaten für die Anzeige in Adobe Analytics-Berichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
+| PLAY | **X**  (Video) | Wenn ein Benutzer in Video-Viewern Play auswählt, um mit der Wiedergabe eines Videos zu beginnen.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Videoplayer generiert Tracking-Daten zur Anzeige in Adobe Analytics-Videoberichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
+| PAUSE | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Anhalten]** um ein Video einzufrieren.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Videoplayer generiert Tracking-Daten zur Anzeige in Adobe Analytics-Videoberichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
+| STOP | **X** (Video) | Wenn ein Benutzer in Video-Viewern **[!UICONTROL Anhalten]** , um die Wiedergabe eines Videos zu beenden.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Videoplayer generiert Tracking-Daten zur Anzeige in Adobe Analytics-Videoberichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
+| MILESTONE | **X**  (Video) | In Video-Viewern werden Meilensteinereignisse generiert, wenn der Benutzer jeweils 0, 25, 50, 75 oder 100 Prozent des Videos gesehen hat.<br><br>**Hinweis:** Wenn Sie Heartbeat-basierte Videoberichte von Adobe Analytics verwenden, müssen Sie diesem Viewer-Ereignis keine Variablen zuordnen, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5 Video- und MixedMedia-Viewern. Der Videoplayer generiert Tracking-Daten zur Anzeige in Adobe Analytics-Videoberichten. Siehe [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md). |
 | SWATCH | **X** (Flyout, Zoom) | Dieses Viewer-Ereignis wird dem SEITEN-Viewer-Ereignis in Adobe Dynamic Media Classic zugeordnet. |
 | ZOOM | **X** (E-Katalog, Rotationsset, Zoom) | Wird nicht von Adobe Analytics verfolgt. |
 | PAN | **X** (E-Katalog, Rotationsset, Zoom) | Wird nicht von Adobe Analytics verfolgt. |
@@ -85,7 +85,7 @@ In der folgenden Tabelle werden Viewer-Ereignisse beschrieben, die Sie dem Bilds
 
 ### Adobe Dynamic Media Classic-Variablen {#scene-variables}
 
-Wählen Sie für jedes Viewer-Ereignis auf dem Bildschirm &quot;Adobe Analytics-Konfiguration&quot;eine Adobe Analytics-Variable und eine *Adobe Dynamic Media Classic-Variable*. Adobe Dynamic Media Classic-Variablen stellen Daten dar, die Sie für einen Bericht abrufen können. Zum Beispiel listet die Variable `searchTerm` Schlüsselwörter auf, die in E-Katalog-Suchvorgängen verwendet wurden.
+Wählen Sie für jedes Viewer-Ereignis auf dem Bildschirm &quot;Adobe Analytics-Konfiguration&quot;eine Adobe Analytics-Variable und eine *Adobe Dynamic Media Classic-Variable*. Adobe Dynamic Media Classic-Variablen stellen Daten dar, die Sie für einen Bericht abrufen können. Beispiel: die `searchTerm` enthält Suchbegriffe, die in E-Katalog-Suchvorgängen verwendet werden.
 
 In der folgenden Tabelle werden Adobe Dynamic Media Classic-Variablen beschrieben:
 
@@ -95,15 +95,15 @@ In der folgenden Tabelle werden Adobe Dynamic Media Classic-Variablen beschriebe
 | viewerId | Eine beliebige Zahl, die den verschiedenen Viewertypen zugeordnet wird. |
 | pageLabel | Die Seite, die von einem Viewer in E-Katalogen angezeigt wird. |
 | label | Der Beschriftungswert (eine Zeichenfolge). |
-| frame | Die Seite oder Seitenreferenz in einem Bildsatz. |
+| frame | Die Seiten- oder Seitenreferenz in einem Bildset. |
 | rollover_keyRaw | Der gesamte HREF-Wert, nicht nur ein verarbeiteter Teil. |
 | rollover_keyProc | Die ID eines Elements, auf das in einer Imagemap verwiesen wird (gültig für Href- und Elementereignisse). |
 | searchTerm | Ein Begriff, der bei der Suche in E-Katalogen verwendet wird. |
-| timeStamp | In Video-Viewern ausgewählte Befehle zum Abspielen, Abbrechen und Anhalten. |
+| timeStamp | In Video-Viewern ausgewählte Optionen &quot;Abspielen&quot;, &quot;Beenden&quot;und &quot;Pause&quot;. |
 | progress | Der abgeschlossene Prozentsatz eines Meilensteinereignisses. |
 | targetId | Der ID-Wert (eine Zahl). |
 
-## Aktivieren, Bearbeiten und Löschen von Viewer-Ereignissen {#activating-editing-and-deleting-viewer-events}
+## Viewer-Ereignisse aktivieren, bearbeiten und löschen {#activating-editing-and-deleting-viewer-events}
 
 Im Anzeigebereich „Adobe Analytics-Konfiguration“ können Sie Viewer-Ereignisse aktivieren, bearbeiten und löschen:
 

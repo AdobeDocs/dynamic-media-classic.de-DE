@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -67,9 +67,9 @@ Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-De
 ## Fehlerbehebungen in Version 20.21.2 {#minor-release}
 
 * Bekannte Einschränkung in Version 20.21.1: die **[!UICONTROL Server]** auf der Dropdown-Liste auf dem Anmeldebildschirm war leer.
-* In **[!UICONTROL Upload-Auftragsoptionen]**, Standardwert für die Ebenenbenennung unter **[!UICONTROL Photoshop-Optionen]**, ist jetzt **[!UICONTROL Photoshop und Ebenenname]**. Die Ebenen der PSD-Datei werden als getrennte Bilder hochgeladen.
+* In **[!UICONTROL Upload-Auftragsoptionen]**, Standardwert für die Ebenenbenennung unter **[!UICONTROL Photoshop-Optionen]**, ist jetzt **[!UICONTROL Photoshop und Ebenenname]**. Ebenen in der PSD-Datei werden als separate Bilder hochgeladen.
    * Der frühere Standardwert von **[!UICONTROL Ebenenname]**, die Bilder nach ihrem Ebenennamen oder ihrer Ebenennummer in der PSD-Datei benannt. Die Ebenennummer wurde verwendet, wenn die Ebenennamen in der PSD-Datei standardmäßige Photoshop-Ebenennamen waren.
-   * Die neue Standardeinstellung von **[!UICONTROL Photoshop und Ebenenname]** bezeichnet die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Nummern der Ebenen werden verwendet, wenn es sich bei den Namen der Ebenen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt.
+   * Die neue Standardeinstellung von **[!UICONTROL Photoshop und Ebenenname]** bezeichnet die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Ebenennummer wird verwendet, wenn die Ebenennamen in der PSD-Datei standardmäßige Photoshop-Ebenennamen sind.
    * Da Ebenenbilder in Adobe Dynamic Media Classic jetzt eindeutige Namen haben, werden keine Änderungen an bestehenden PSD oder Vorlagen vorgenommen (die in den Originaldateien gemeinsame Ebenennamen haben).
 * Beschädigte Miniaturen von Assets.
 
@@ -88,7 +88,7 @@ Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-De
 
 ## Herunterladen und Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter macOS oder Windows® {#installation-dmc-app}
 
-Verwandte Themen:
+Siehe auch:
 
 * [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms auf Mac](#install-silent-mac-dmc-app)
 * [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Verwandte Themen:
 
 ## Herunterladen und *stumm* Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms auf macOS {#install-silent-mac-dmc-app}
 
-Verwandte Themen:
+Siehe auch:
 
 * [Herunterladen und Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Mac oder Windows](#installation-dmc-app)
 * [Herunterladen und unbeaufsichtigte Installation des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Zum Herunterladen und *stumm* Installieren Sie die neueste Version des Adobe Dyn
 
 Der von Ihnen verwendete Befehl ist für eine einfache, unbeaufsichtigte MSI-Installation. Das Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm ist jedoch ein InstallScript-MSI-Installationsprogramm, das mit InstallShield erstellt wurde. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine unbeaufsichtigte Installation verwendet, wie unter [Laufende Installationen im Ruhezustand](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-Verwandte Themen:
+Siehe auch:
 
 * [Herunterladen und Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Mac oder Windows](#installation-dmc-app)
 

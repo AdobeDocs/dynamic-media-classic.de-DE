@@ -1,20 +1,18 @@
 ---
 title: Verwalten des Infofeldinhalts in Bildsets
 description: Erfahren Sie, wie Sie den Inhalt des Infofelds in Bildsets in Adobe Dynamic Media Classic verwalten.
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 51%
 
 ---
@@ -26,7 +24,7 @@ Zusätzlich zur Verwendung von Imagemap-Text für Ihre Rollover in Bildsätzen k
 Sie können die Einrichtung und die Daten des InfoPanel mit den folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
 * Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der Bildsatz automatisch veröffentlicht werden soll.
-* Im Bedienfeld &quot;InfoPanel-Datenfluss&quot;können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des Infofelds angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
+* Im Bereich &quot;InfoPanel-Daten-Feed&quot;können Sie eine CSV-Datei mit dem Text angeben, der im Rollover-Text des Infofelds angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
 * Mit dem Dialogfeld „Metadaten importieren“ können Sie eine tabulatorgetrennte TXT-Datei importieren, die die Rollover-Textdaten enthält. Sie können diese TXT-Option oder das InfoPanel-Daten-Feed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
 
 ## Einrichten einer Antwortvorlage für Bildsets {#set-up-a-response-template-for-image-sets}
@@ -68,7 +66,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 ### Importieren von CSV-Inhalten in Bildsets von einem extern gehosteten Speicherort {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Doppelklicken Sie auf das Bildset, damit es in der Detailansicht geöffnet wird.
-1. Auswählen **[!UICONTROL InfoPanel Datafeed]**.
+1. Auswählen **[!UICONTROL InfoPanel-Daten-Feed]**.
 1. Geben Sie in das Textfeld der extern gehosteten CSV-Datei (HTTP) die URL der CSV-Datei ein.
 1. (Optional) Geben Sie in den Feldern Planung aktualisieren einen Zeitpunkt für die Inhaltsaktualisierung an und wählen Sie dann **[!UICONTROL Hinzufügen]**.
 

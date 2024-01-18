@@ -12,10 +12,10 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 21%
+source-wordcount: '618'
+ht-degree: 20%
 
 ---
 
@@ -56,7 +56,7 @@ Um ein Asset genau zu untersuchen, eine Vorschau anzuzeigen oder zu bearbeiten, 
 
 ## Abrufen von Informationen in der Detailansicht {#getting-information-in-detail-view}
 
-Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Sie zeigt diese Informationen zu einem Element an: den Ordner, in dem das Element gespeichert ist, den Dateinamen, das Datum, an dem es in Adobe Dynamic Media Classic hochgeladen wurde, und den Veröffentlichungsverlauf. Sie können Metadaten auch anzeigen und bearbeiten sowie Suchbegriffe für ein Asset in der Detailansicht hinzufügen.
+Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Es werden diese Informationen zu einem Element angezeigt: der Ordner, in dem es gespeichert ist, der Dateiname, das Datum, an dem das Element in Adobe Dynamic Media Classic hochgeladen wurde, und der Veröffentlichungsverlauf. Sie können Metadaten auch anzeigen und bearbeiten sowie Suchbegriffe für ein Asset in der Detailansicht hinzufügen.
 
 Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst aktiv, wenn Sie das Asset veröffentlichen. Für Bilder bietet die Detailansicht auch eine Liste der erstellten und abgeleiteten Assets und Metadaten, z. B. Zoomziele und Bildsets.
 
@@ -66,13 +66,13 @@ Die Detailansicht bietet Tools zum Arbeiten mit dem von Ihnen geöffneten Asset.
 
 * **Elemente zur Veröffentlichung** - Wählen Sie die **[!UICONTROL Veröffentlichen]** auf der linken Seite des Namens oder navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
-* **Umbenennen des Assets** - Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
+* **Asset umbenennen** - Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
 * **Bearbeiten und Hinzufügen von Metadaten** - Wählen Sie das Metadatenbedienfeld aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/using/viewing-adding-exporting-metadata.md).
 
 * **Suchbegriffe bearbeiten und hinzufügen** - Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Löschen des Assets** - Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
+* **Asset löschen** - Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
 
 Für einzelne Dateien - z. B. Bilder, Bildsets und Schriftarten - können Sie den Veröffentlichungs- und Bearbeitungsverlauf anzeigen und Auftragsdetails in der Detailansicht überprüfen.
 
@@ -80,9 +80,9 @@ Diese Tabelle zeigt, welche anderen Optionen bei verschiedenen Asset-Typen in de
 
 | Asset-Typ | Bearbeiten/Anpassen | Vorschau |
 | --- | --- | --- |
-| Bilder | Imagemaps hinzufügen<br>Zoomziele hinzufügen<br>Zuschneiden<br>Scharfzeichnen<br>Angepasste Ansichten erstellen | Ja; Zoom und Bildvorgaben |
-| Kabinett- und Fensterbilder | Nein | Miniaturansicht |
-| E-Kataloge | Bearbeiten | Ja<br>Das Infofeld ist ebenfalls verfügbar |
+| Bilder | Hinzufügen von Imagemaps<br>Zoomziele hinzufügen<br>Zuschneiden<br>Scharfzeichnen<br>Angepasste Ansichten erstellen | Ja; Zoom und Bildvorgaben |
+| Möbel- und Fensterbehangbilder | Nein | Miniaturansicht |
+| E-Kataloge | Bearbeiten | Ja<br>Das Infofeld ist ebenfalls verfügbar. |
 | Schriftarten | Informationen zur Schriftart bearbeiten | Nein |
 | FXG-Dateien | Bearbeiten | Ja |
 | ICC-Profile | Profilinformationen bearbeiten | Nein |
@@ -97,7 +97,7 @@ Diese Tabelle zeigt, welche anderen Optionen bei verschiedenen Asset-Typen in de
 | Videos | Nein | Ja |
 | Vignetten und gerenderte Vignetten | Nein | Bild wird angezeigt<br>Sie können den Inhalt und die Struktur der renderbaren Elemente der Vignette im XML-Format anzeigen |
 | XML-Dateien | Nein | Inhalt wird gezeigt |
-| Zip-Dateien | Nein | Inhalt wird nicht gezeigt |
+| Zip-Dateien | Nein | Inhalt wird nicht angezeigt |
 
 >[!MORELIKETHIS]
 >
