@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,9 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 ## Best Practices und erzwungene Einschränkungen von Dynamic Media für Asset-Typen {#best-practice-enforced-limits}
 
-Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung hochladen, empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen um:
+Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung hochladen, empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen voraus:
 
-| Asset - Limit-Typ | Optimale Vorgehensweise | Begrenzung auferlegt |
+| Asset - Limit-Typ | Optimale Vorgehensweise | Erzwungene Beschränkung |
 | --- | --- | --- |
 | **Bild** - Anzahl der smarten Zuschnitte pro Bild | 5 | 100 |
 | **Alle Sets** - Anzahl doppelter Assets pro Satz | Keine Duplikate | 20 |
@@ -56,27 +56,29 @@ Adobe Dynamic Media unterstützt die folgenden Webbrowser- und Betriebssystemkom
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-<!-- ## End of support for Transport Layer Security 1.0 and 1.1 {#tls}
+## Ende der Unterstützung für Secure Socket Layer 2.0 und 3.0 und Transport Layer Security 1.0 und 1.1 {#tls}
 
-CQDOC-19433 (original ticket)
-and CQDOC-19792 (removed as per this ticket December 5, 2022)
+<!-- CQDOC-19433 (original ticket)
+and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-Effective September 30, 2022, Adobe Dynamic Media will end support for the following:
+Ab dem 30. April 2024 beendet Adobe Dynamic Media die Unterstützung für Folgendes:
 
-* TLS (Transport Layer Security) 1.0 and 1.1
-* The following weak ciphers in TLS 1.2:
-  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
-  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
-  * `TLS_RSA_WITH_AES_256_GCM_SHA384`
-  * `TLS_RSA_WITH_AES_256_CBC_SHA256`
-  * `TLS_RSA_WITH_AES_256_CBC_SHA`
-  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
-  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
-  * `TLS_RSA_WITH_AES_128_GCM_SHA256`
-  * `TLS_RSA_WITH_AES_128_CBC_SHA256`
-  * `TLS_RSA_WITH_AES_128_CBC_SHA`
-  * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
-  * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
-  * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
-  * `TLS_RSA_WITH_SDES_EDE_CBC_SHA` -->
+* SSL (Secure Socket Layer) 2.0
+* SSL 3.0
+* TLS (Transport Layer Security) 1.0 und 1.1
+* Die folgenden schwachen Chiffren in TLS 1.2:
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
+   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
 
