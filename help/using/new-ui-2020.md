@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Manche Unternehmen lassen Sie Software und Apps nicht ohne Genehmigung auf Ihr S
 +++
 
 +++**_Können mehrere Instanzen des neuen Desktop-Programms gleichzeitig geöffnet sein?_**
-Nein, die AIR-Technologie, auf der das neue Adobe Dynamic Media Classic-Desktop-Programm basiert, verhindert, dass Benutzer mehrere Instanzen des Programms gleichzeitig öffnen.
+Anzahl Die AIR-Technologie, auf der das neue Adobe Dynamic Media Classic-Desktop-Programm basiert, verhindert, dass Benutzer mehrere Instanzen des Programms gleichzeitig öffnen.
 +++
 
 +++**_Gibt es Einschränkungen hinsichtlich der Anzahl der Dateien, die über einen lokalen Computer in Adobe Dynamic Media Classic hochgeladen werden können?_**
@@ -80,7 +80,7 @@ Bei Verwendung des neuen Adobe Dynamic Media Classic-Desktop-Programms unter Win
 +++
 
 +++**_Benötigt das neue Adobe Dynamic Media Classic-Desktop-Programm eine neue SKU? Sind Lizenzkosten verbunden?_**
-Für die Verwendung des neuen Adobe Dynamic Media Classic-Desktop-Programms ist keine SKU oder Lizenzänderung erforderlich.
+Nein zu beiden Fragen. Für die Verwendung des neuen Adobe Dynamic Media Classic-Desktop-Programms ist keine SKU oder Lizenzänderung erforderlich.
 +++
 
 +++**_Wie werden Upgrades zum Adobe Dynamic Media Classic-Desktop-Programm aktiviert?_**

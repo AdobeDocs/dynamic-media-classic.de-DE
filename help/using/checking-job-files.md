@@ -12,7 +12,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 24%
@@ -131,7 +131,7 @@ Diese Tabelle enthält Informationen zu den Zeitabschnitten, den jeweils zuläss
 In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mit Nutzungshinweisen aufgeführt:
 
 | Platzhalterzeichen | Name | Beschreibung |
-|--- |--- |--- |
+| --- | --- | --- |
 | `*` | Sternchen | Alle Werte (beispielsweise &quot;jede Minute&quot;). |
 | `?` | Fragezeichen | Kein bestimmter Wert (z. B. &quot;beliebige Minute innerhalb der angegebenen Stunde&quot;). |
 | `,` | Komma | Andere Werte (beispielsweise &quot;Montag und Mittwoch&quot;). |
@@ -139,7 +139,7 @@ In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mi
 | `/` | Schrägstrich | Erhöhungen (z. B. &quot;alle 15 Minuten&quot;). |
 | `L` | Großes L | Letzter &quot;Tag des Monats&quot;oder &quot;Tag der Woche&quot;(nur für diese Felder verfügbar). Wenn der Monat beispielsweise der Januar ist, wird der Auftrag mit dem Wert L für das Feld &quot;Tag des Monats&quot;für den 31. Januar geplant. Für das Feld &quot;Wochentag&quot;können Sie dieses Zeichen allein eingeben, um den Auftrag am Samstag zu planen. Sie können ihn mit einer Zahl verwenden (z. B. `6L`), um den letzten Freitag des Monats anzugeben. Geben Sie `L` mit den Platzhaltern Komma oder Bindestrich. |
 | `#` | Zeichen für „Nr.“ | Nter Wochentag des Monats (nur für das Feld &quot;Wochentag&quot;verfügbar). Beispiel: `6#3` im Feld &quot;Wochentag&quot;den dritten Freitag des Monats. Die `6` bedeutet &quot;Freitag&quot;(der sechste Tag der Woche) und `3` gibt das dritte Vorkommen im Monat an. |
-| `C` | Großes K | Erster Kalender &quot;Tag des Monats&quot;oder &quot;Tag der Woche&quot;(nur für diese Felder verfügbar). Beispielsweise kann der Wert `1C` Für &quot;Tag des Monats&quot;wird der erste Tag im Kalender geplant, der am oder nach dem fünften Tag eintritt. Geben Sie für das Feld &quot;Wochentag&quot;Folgendes an: `1C` plant den ersten Tag im Kalender, der am oder nach Sonntag eintritt |
+| `C` | Großes K | Erster Kalender &quot;Tag des Monats&quot;oder &quot;Tag der Woche&quot;(nur für diese Felder verfügbar). Beispielsweise kann der Wert `1C` Für &quot;Tag des Monats&quot;wird der erste Tag im Kalender geplant, der am oder nach dem fünften Tag eintritt. Geben Sie für das Feld &quot;Wochentag&quot;Folgendes an: `1C` plant den ersten Tag im Kalender, der am oder nach Sonntag stattfindet. |
 
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:
 

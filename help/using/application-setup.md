@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '10991'
 ht-degree: 37%
@@ -613,7 +613,7 @@ Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer
      
    * **Bearbeiten** - Wählen Sie eine vorhandene Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Geben Sie im Bildschirm &quot;Viewer konfigurieren&quot;im Feld Vorgabenname den Vorgabennamen ein oder bearbeiten Sie ihn.
+1. Geben Sie auf der Seite &quot;Viewer konfigurieren&quot;im Feld Vorgabenname den Vorgabennamen ein oder bearbeiten Sie ihn.
 1. Legen Sie die weiteren gewünschten Optionen fest.
 
    >[!NOTE]

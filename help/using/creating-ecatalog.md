@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 51%
+source-wordcount: '975'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ Wenn Sie einen E-Katalog erstellen, wirkt sich die Option **[!UICONTROL Nach dem
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
-**So erstellen Sie einen E-Katalog:**
+**So erstellen Sie einen eCatalog:**
 
 1. Wählen Sie zu Beginn der Erstellung eines E-Katalogs eine der folgenden Vorgehensweisen:
 
@@ -72,13 +72,13 @@ Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein nicht veröffentlic
 | Set bereits veröffentlicht? | Option &quot;Nach dem Speichern veröffentlichen&quot;vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Veröffentlichungsstatus bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
-**So bearbeiten Sie einen E-Katalog:**
+**So bearbeiten Sie einen eCatalog:**
 
 1. Rollover des E-Katalogs auswählen **[!UICONTROL Bearbeiten]** Schaltfläche.
 1. Nehmen Sie die erforderlichen Änderungen vor.
@@ -91,7 +91,7 @@ Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitgli
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
-**So löschen Sie einen E-Katalog:**
+**So löschen Sie einen eCatalog:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht einen oder mehrere E-Kataloge aus.
 1. Wechseln Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
@@ -100,7 +100,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 Adobe Dynamic Media Classic stellt in Ihrem E-Katalog auf der Registerkarte &quot;Seiten bestellen&quot;des E-Katalog-Bildschirms die standardmäßigen Seitenzahlen bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Cover&quot;anstelle von &quot;Page 0-1&quot;lauten.
 
-Sie können ein angepasstes Inhaltsverzeichnis für den E-Katalog erstellen: entweder manuell oder durch das Importieren der Seitennamen aus einer CSV- (nur Mac) oder XML-Datei.
+Sie können ein benutzerdefiniertes Inhaltsverzeichnis (TOC) für Ihren eCatalog manuell erstellen oder die Seitennamen aus einer CSV- (nur Mac) oder XML-Datei importieren.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Um das Feld &quot;Benutzerdaten&quot;in eine tabulatorgetrennte Datei zu importi
 | --- | --- |
 | `<image_IPS_ID>` | `tocEN=<EN_page_label>??tocFR=<FR_page_label>` |
 
-Um das Feld „Benutzerdaten“ in eine XML-Datei zu importieren, fügen Sie das Attribut `vc_userdata` ein:
+Um das Feld &quot;Benutzerdaten&quot;in eine XML-Datei zu importieren, fügen Sie das Attribut hinzu `vc_userdata`:
 
 ```as3
 <ips> 

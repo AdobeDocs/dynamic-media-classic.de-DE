@@ -11,10 +11,10 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 34%
+source-wordcount: '488'
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ Mit E-Katalog-Viewer-Vorgaben werden Stil, Verhalten und Aussehen von E-Katalog-
 
 Um eine Vorgabe zu erstellen, können Sie von Grund auf neu beginnen oder mit einer von Adobe Dynamic Media Classic bereitgestellten E-Katalog-Viewer-Vorgabe beginnen und sie unter einem neuen Namen speichern. Sie können eigene E-Katalog-Viewer-Vorgaben erstellen, um Druckwerbematerial in den Farben Ihres Unternehmens zu präsentieren.
 
-E-Katalog-Viewer-Vorgaben bieten zahlreiche Einstellungen für das Umblättern der Seiten, für Zoomfunktionen, Suchfunktionen und die Auswahl von Skins. Wie diese Steuerelemente aussehen und wie der Viewer angezeigt wird, hängt von Ihrer Wahl der E-Katalog-Viewer-Vorgaben ab.
+eCatalog-Viewer-Vorgaben bieten viele Einstellungen zum Navigieren von Seite zu Seite, zum Zoomen, Suchen und Auswählen von &quot;Skins&quot;. Wie diese Steuerelemente aussehen und wie der Viewer angezeigt wird, hängt von Ihrer Wahl der E-Katalog-Viewer-Vorgaben ab.
 
 Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe erstellen können (Sie müssen Administrator sein):
 
@@ -35,10 +35,10 @@ Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe 
 
    * **Bearbeiten einer eCatalog-Viewer-Vorgabe** - Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und wählen Sie **[!UICONTROL Bearbeiten]**. Auswählen **[!UICONTROL Speichern unter]** nach Abschluss der Erstellung der Vorgabe.
 
-1. Geben Sie im Anzeigebereich „Viewer konfigurieren“ einen Namen für die E-Katalog-Viewer-Vorgabe ein.
-1. Legen Sie im Anzeigebereich „Viewer konfigurieren“ die Optionen fest.
+1. Geben Sie auf der Seite &quot;Viewer konfigurieren&quot;einen Namen für Ihre E-Katalog-Viewer-Vorgabe ein.
+1. Legen Sie auf der Seite &quot;Viewer konfigurieren&quot;die gewünschten Optionen fest.
 
-   wählen Sie die **[!UICONTROL Info-Tipp]** neben der Option, wenn Sie die Beschreibung lesen möchten.
+   wählen Sie **[!UICONTROL Info-Tipp]** neben der Option, wenn Sie die Beschreibung lesen möchten.
 
    Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.
 

@@ -12,10 +12,10 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 67%
+ht-degree: 58%
 
 ---
 
@@ -40,7 +40,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Wählen Sie zuerst die Bilder aus** - Wählen Sie im Durchsuchenbedienfeld die Bilder aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Mustersets]**.
+   * **Auswählen der Bilder zuerst** - Wählen Sie im Durchsuchenbedienfeld die Bilder aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Mustersets]**.
 
    * **Starten Sie über den Bildschirm &quot;Musterset&quot;** - Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Mustersets]**. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
 
@@ -58,10 +58,10 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 Unabhängig davon, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wird die **[!UICONTROL Nach dem Speichern veröffentlichen]** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
 | Set bereits veröffentlicht? | **[!UICONTROL Veröffentlichen nach]** Speicheroption ausgewählt, bevor Sie Ihre Bearbeitung speichern? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
-|--- |--- |--- |--- |
-| Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
-| Nein | Ja | Veröffentlicht | Veröffentlicht |
+|--- | --- | --- | --- |
+| Ja | Ja | Veröffentlicht | Veröffentlicht. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Veröffentlichungsstatus bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
+| Nein | Ja | Veröffentlicht | Veröffentlicht. |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
@@ -71,7 +71,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Navigieren Sie in der Rasteransicht zu einem Musterset und wählen Sie unter dem Bild die Option **[!UICONTROL Bearbeiten]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um ein Bild hinzuzufügen (veröffentlicht oder unveröffentlicht), ziehen Sie es aus einem Ordner in „Assets hinzufügen“ auf die Seite **[!UICONTROL Ansichten]** des Mustersets.
+   * Um ein Bild hinzuzufügen (veröffentlicht oder unveröffentlicht), ziehen Sie es aus einem Ordner in &quot;Assets hinzufügen&quot;auf das Musterset. **[!UICONTROL Ansichten]** Seite.
    * Um ein Bild zu entfernen, wählen Sie es aus und klicken Sie auf **[!UICONTROL Löschen]** in der Symbolleiste.
    * Um die Bilder neu anzuordnen, ziehen Sie ein Bild in eine neue Position.
 
@@ -80,11 +80,11 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Löschen eines Mustersets {#deleting-a-swatch-set}
 
-Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
+Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder &quot;untergeordneten Elemente&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie ihren vorhandenen Status veröffentlicht oder unveröffentlicht bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 **So löschen Sie ein Musterset:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht mindestens ein Musterset aus.
-1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
+1. Wechseln Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.

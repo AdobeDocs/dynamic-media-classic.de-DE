@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3877'
 ht-degree: 27%
 
 ---
@@ -123,7 +123,7 @@ Stellen Sie sicher, dass alle Benutzer in Ihrem Unternehmen die folgenden Regeln
 * Asset-IDs sollten keine Leerzeichen enthalten (z. B. nicht „Schwarze Jacke.tif“ oder „Blaue Jacke.jpg“). Adobe Dynamic Media Classic ASCII-kodiert leere Leerzeichen in Asset-Namen, wenn es Asset-Namen verwendet, um URL-Zeichenfolgen zu erstellen. Diese ASCII-Codierung beeinträchtigt jedoch die Lesbarkeit der URLs.
 * Sprachspezifische Zeichen sind in Dateinamen zulässig. Allerdings dürfen Dateinamen die folgenden Zeichen nicht enthalten:
 
-  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
 
   Wenn ein Dateiname eines oder mehrere der oben aufgeführten Zeichen enthält, werden die Zeichen beim Hochladen aus dem Dateinamen entfernt.
 

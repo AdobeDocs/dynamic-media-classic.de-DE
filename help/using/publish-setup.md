@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 41%
+source-wordcount: '2389'
+ht-degree: 34%
 
 ---
 
@@ -65,7 +65,7 @@ Auf der Image-Server-Seite werden Standardeinstellungen für die Bereitstellung 
 
 Eine gängige Möglichkeit zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise sind die Unterschiede für einige Teile der gesamten Medien. Das Beheben solcher Unterschiede durch Kopieren aller Assets für jedes Land und Überschreiben nur der Unterschiede ist ein enormer Aufwand und steht im Widerspruch zur Metapher der einzelnen primären Assets. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Adobe Dynamic Media Classic verwendet einen grundlegenden Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
 
-#### So werden Assets lokalisiert
+#### Wie Assets lokalisiert werden
 
 Das Gebietsschema für eine IS-Anfrage (Image Serving) wird mit dem folgenden IS/IR-Befehl (Image Rendering) identifiziert:
 
@@ -89,11 +89,11 @@ Vorteile der Verwendung von `locale=` und `attribute::DefaultLocale` Folgendes e
 * Unterstützung für statische Inhalte wie Videos und Skins wird hinzugefügt, wenn RFC IS-63 implementiert ist.
 * Das Standard-Gebietsschema kann konfiguriert werden.
 
-#### Anwendungsszenarios
+#### Anwendungsszenarien
 
 | Anwendung | Szenario |
 | --- | --- |
-| Viewer-Lokalisierung | Nachdem statische Inhaltskataloge implementiert wurden, wird die Lokalisierung ausschließlich mit dem Parameter locale= gesteuert, der an alle durchgeführten IS-Abfragen angehängt wird. Konfigurationsdatensätze, Skins, Splashscreens usw. können über Gebietsschema-spezifische Varianten verfügen. Der korrekte Inhalt wird über IS bereitgestellt, ohne dass der Viewer wissen muss, welche Inhalte lokalisiert sind und wie die entsprechenden IDs lauten. |
+| Viewer-Lokalisierung | Nachdem statische Inhaltskataloge implementiert wurden, wird die Lokalisierung vollständig mit dem Parameter locale= gesteuert, der an alle IS-Anfragen angehängt wird. Konfigurationsdatensätze, Skins, Splashscreens usw. können über Gebietsschema-spezifische Varianten verfügen. Der korrekte Inhalt wird über IS bereitgestellt, ohne dass der Viewer wissen muss, welche Inhalte lokalisiert sind und wie die entsprechenden IDs lauten. |
 | Bilder und Videos | Internationale Konzerne verwenden häufig eine Mischung aus generischen und Gebietsschema-spezifischen Inhalten. Mit diesem Mechanismus kann ein Verweis auf ein Bild oder Video generisch sein. Und IS stellt die Gebietsschema-spezifischen Inhalte bereit, sofern diese vorhanden sind. |
 | Bildsets und Mediensets | Das gesamte Bildset kann für einige Gebietsschemata unterschiedlich sein, z. B. wenn ein E-Katalog unterschiedlich ist, wobei die Übersetzung von einem generischen zu einem gebietsschemaspezifischen Bildset vom Viewer verarbeitet wird. In der Regel können einzelne IDs in einem generischen Satz auf lokalisierte Inhalte verweisen. Beispielsweise können die meisten Fotos eines Geräts in allen Sprachen identisch sein, mit Ausnahme des Fotos des Control Panels. IS übersetzt automatisch IDs, sodass keine Gebietsschema-spezifischen Bildsets erstellt werden müssen. |
 
@@ -121,17 +121,17 @@ Ob ein Suffixwert oder ein Ersetzungswert angewendet wird, hängt von der Einste
 >
 >Die Einstellung &quot;Globales Gebietsschema&quot;ist nur möglich, wenn Sie sie über die API festlegen, nicht über die Adobe Dynamic Media Classic-Benutzeroberfläche.
 
-**Beispiel für ein Suffix:**
+**Suffix-Beispiel:**
 
 | URL | localeMap-IDs | Ergebnis |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Der erste entsprechende Wert _DE wird dem Asset als Suffix angehängt image_DE und er wird auf dem Image-Server gesucht. Wenn er auf dem Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert &quot;&quot;als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Der erste entsprechende Wert _DE wird dem Asset image_DE als Suffix hinzugefügt und es wird versucht, ihn auf dem Image-Server zu finden. Wenn er auf dem Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert &quot;&quot;als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
 
-**Beispiel für eine Ersetzung:**
+**Ersatzbeispiel:**
 
 | URL | `GlobalLocale` und `localeMap` IDs | Ergebnis |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Im Ersetzungsbeispiel oben ist GlobalLocale auf main eingestellt. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Die Unterzeichenfolge GlobalLocale wird gefunden und durch den ersten entsprechenden Wert ersetzt. `de` im `localeMap`: `image-de-01`. Wenn er auf dem Image-Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert ersetzt, was zu `image-main-01` führt. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Im obigen Ersatzbeispiel wird GlobalLocale auf &quot;main&quot;festgelegt. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Die Unterzeichenfolge GlobalLocale wird gefunden und durch den ersten entsprechenden Wert ersetzt. `de` im `localeMap`: `image-de-01`. Wenn er auf dem Image-Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert ersetzt, was zu `image-main-01`. |
 
 Wenn in der URL kein Gebietsschema definiert ist, verwendet der Image-Server DefaultLocale, sofern definiert, und wendet es auf die URL an.
 
@@ -141,15 +141,15 @@ Wenn ein unbekannter oder leerer Gebietsschema-Parameter mit `locale=`, dann die
 
 Der Image-Server versucht nacheinander, die Optionen für das angeforderte Gebietsschema zu verwenden. Wenn keine Übereinstimmung gefunden wird, werden die Sprachoptionen auf defaultImage angewendet und die entsprechende Version wird zurückgegeben. Daher muss entweder jedes Gebietsschema eine Option für das Bild ohne Lokalisierung enthalten oder die lokalisierten defaultImage-Versionen werden in Adobe Dynamic Media Classic verfügbar gemacht.
 
-#### Szenarios für die Suche nach der localeMap
+#### Szenarien für die Suche nach der localeMap
 
 Angenommen, Sie möchten die folgenden Gebietsschemas unterstützen:
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-Sie ordnen diese Gebietsschemas den Suffixe zu. `_E`, `_G`, und `_F`, für Englisch, Deutsch und Französisch. Bei allen Beispielen lautet die generische Eingabebild-ID `myImg`.
+Sie ordnen diese Gebietsschemas den Suffixe zu. `_E`, `_G`, und `_F`, für Englisch, Deutsch und Französisch. Für alle Beispiele lautet die generische Eingabe-Bild-ID: `myImg`.
 
-##### Standardverhalten bei der Suche nach der localeMap
+##### Standardverhalten zum Auffinden der localeMap
 
 Die Gebietsschema-IDs werden den entsprechenden Suffixen zugeordnet. Wenn keine Gebietsschema-spezifische ID im Katalog gefunden wird, wird die generische ID verwendet. Beachten Sie die leeren locSuffix-Werte, die der generischen ID zugeordnet sind.
 
@@ -157,12 +157,12 @@ Die Gebietsschema-IDs werden den entsprechenden Suffixen zugeordnet. Wenn keine 
 
 | locale= | Zu durchsuchende Ausgabe-IDs |
 | --- | --- |
-| en,en_us, en_uk | myImg_E,myImg |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
+| en, en_us, en_uk | myImg_E, myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
 | Alle anderen | - |
 
-##### Suchen der localeMap bei unbekanntem Gebietsschema
+##### Suchen der localeMap, wenn das Gebietsschema unbekannt ist
 
 Sie können unbekannte Gebietsschemas bestimmten IDs oder generischen IDs zuordnen. Beispielsweise können Sie den englischen IDs unbekannte Gebietsschemata zuordnen oder, falls diese nicht vorhanden sind, den generischen IDs.
 
@@ -170,9 +170,9 @@ Sie können unbekannte Gebietsschemas bestimmten IDs oder generischen IDs zuordn
 
 | locale= | Zu durchsuchende Ausgabe-IDs |
 | --- | --- |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
-| Alle anderen | myImg_E,myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
+| Alle anderen | myImg_E, myImg |
 
 Sie können auch ein dediziertes locSuffix, z. B. &quot;U&quot;, nur für unbekannte Gebietsschemata haben und das Standardbild erzwingen, wenn nicht `_U` vorhanden ist, wie im Folgenden gezeigt:
 
@@ -212,7 +212,7 @@ Beim ersten Beispiel als Grundlage könnten Bilder für alle Sprachen die Suffix
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | Alle anderen | myImg_1, myImg_2, myImg_3 |
 
-##### Wichtige Überlegungen bei der Implementierung von Lokalisierungsunterstützung
+##### Wichtige Überlegungen bei der Implementierung der Lokalisierungsunterstützung
 
 * Die Lokalisierung ist auf ID-basierte Asset-Abrufe beschränkt und kann nicht für pfadbasierte Asset-Abrufe verwendet werden. Wenn also Videos mit einem Gebietsschema abgerufen werden sollen, müssen sie als Unternehmens-/Asset-ID abgerufen werden, nicht über den vollständigen Pfad zum Video. Sie können rtmp nicht mit Lokalisierung verwenden, da diese Methode nur für pfadbasierte Videoaufrufe verwendet werden kann.
 * Sie können kein gemischtes Medienset verwenden, das ein einzelnes Video enthält, wenn localeMap aktiv ist. Andernfalls schlägt der Abruf der Set-Inhalte fehl. Um dieses Problem zu umgehen, können Sie einem adaptiven Videoset ein einzelnes Video hinzufügen. Fügen Sie das adaptive Videoset anschließend einem gemischten Medienset hinzu.
