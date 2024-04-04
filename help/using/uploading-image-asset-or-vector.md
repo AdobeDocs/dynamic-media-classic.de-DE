@@ -1,6 +1,6 @@
 ---
 title: Hochladen eines Rasterbild-Assets
-description: Erfahren Sie, wie Sie ein Rasterbild-Asset in Adobe Dynamic Media Classic hochladen
+description: Erfahren Sie, wie Sie ein Rasterbild-Asset in Adobe Dynamic Media Classic hochladen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 55%
+source-wordcount: '1010'
+ht-degree: 53%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Die `file_limit` gibt die maximale Dateigröße in Byte an. Die `file_exts` gibt die Dateinamenerweiterungen an, die hochgeladen werden dürfen. Diese beiden Werte sind optional.
 
-In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei der von Ihnen gesendeten Anforderung um eine Untergruppe der globalen Beschränkungen handelt, wird diese berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
+In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei dem, was Sie in der Anfrage gesendet haben, um eine Untergruppe der globalen Beschränkungen handelt, wird dies berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
 | Globale Beschränkung | Wert |
 | --- | --- |
@@ -140,7 +140,7 @@ Siehe Hintergrund aussparen in [Bildoptimierungsoptionen beim Hochladen](image-e
 
 Sie können den mit dem obigen Formular verknüpften HTML-Quellcode anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie **[!UICONTROL Seitenquelle anzeigen]**. Der Code zeigt die entsprechende URL-Abfragezeichenfolge und die POST-Methode an, die ausgeführt werden, wenn der Benutzer **[!UICONTROL Einsenden]**.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie **[!UICONTROL Seitenquelle anzeigen]**. Der Code zeigt die entsprechende URL-Abfragezeichenfolge und die POST-Methode an, die ausgeführt wird, wenn der Benutzer **[!UICONTROL Einsenden]**.
 
 Um die XML-Antwort in Internet Explorer anzuzeigen, navigieren Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Quelle]**. Um die XML-Antwort in Firefox anzuzeigen, navigieren Sie zu **[!UICONTROL Instrumente]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Web Developer Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
@@ -237,7 +237,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Infor
 | URL-Parameter | Erforderlich oder optional | Wert |
 | --- | --- | --- |
 | `op` | Erforderlich | image_info |
-| `shared_secret` | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
+| `shared_secret` | Erforderlich | Der Schlüssel, der für das Unternehmen gemeinsam geheim gehalten wird. |
 | `image_name` | Erforderlich | Name des Bildes. |
 
 **Beispiel-URL:**

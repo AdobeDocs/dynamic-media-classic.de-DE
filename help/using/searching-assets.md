@@ -1,21 +1,19 @@
 ---
 title: Suchen nach Dynamic Media Classic-Assets
 description: Erfahren Sie, wie Sie Assets in Adobe Dynamic Media Classic suchen.
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -79,7 +77,7 @@ Geben Sie eines der folgenden Kriterien in Ihrer erweiterten Suche an:
    1. Wählen Sie die **[!UICONTROL Feld hinzufügen]** und wählen Sie einen Feldnamen aus.
    1. Wählen Sie eine **[!UICONTROL Enthält]** Option: **[!UICONTROL Enthält]**, **[!UICONTROL Enthält nicht]**, **[!UICONTROL Beginnt mit]**, **[!UICONTROL Endet in]** oder **[!UICONTROL Gleich]**.
    1. Wählen Sie bei numerischen Feldern einen Wert oder geben Sie einen Datumsbereich ein.
-   1. (Optional) Wiederholen Sie die Schritte 1 bis 4, um weitere Suchfelder zu erstellen.
+   1. (Optional) Wiederholen Sie Schritte 1-4, um weitere Suchfelder zu erstellen.
 
 Wählen Sie die **[!UICONTROL Suchfeld entfernen]** -Symbol (Kreis mit &quot;X&quot;innen), sodass das Suchfeld gelöscht wird.
 
@@ -89,7 +87,7 @@ Auswählen **[!UICONTROL Löschen]** , wenn Sie die Suchkriterien löschen und e
 
 ## Filtern von Assets mit Metadaten {#filter-assets-using-metadata}
 
-Sie filtern Assets über die Registerkarte „Filter“ der Asset-Bibliothek. Metadatenwerte dienen dabei als Filterkriterien. Nachdem Sie ein Metadatenfeld ausgewählt haben, nach dem Sie filtern möchten, werden auf der Registerkarte Filter alle Metadatenwerte aufgelistet, die in das ausgewählte Feld eingegeben wurden. Außerdem wird die Anzahl der Assets aufgelistet, denen jeder Wert zugewiesen wurde. Beispiel: In einem Filtervorgang für **[!UICONTROL Ersteller]** Metadatenfeld, das **[!UICONTROL Filter]** enthält alle Namen, die im **[!UICONTROL Ersteller]** Metadatenfeld für verschiedene Assets. Außerdem wird für jeden Namen die Anzahl der Assets aufgelistet, denen der Name zugewiesen wurde. Anschließend wählen Sie einen Metadatenwert aus, um alle Assets anzuzeigen, denen dieser Wert zugewiesen wurde. Im Beispiel wählen Sie die `Prairie Cat` Metadatenwert zum Anzeigen aller Assets, in denen der Name `Prairie Cat` wurde in der **[!UICONTROL Ersteller]** Metadatenfeld. Sie können auch mehr als ein Metadatenfeld als Filterkriterium heranziehen.
+Sie filtern Assets über die Registerkarte „Filter“ der Asset-Bibliothek. Metadatenwerte dienen dabei als Filterkriterien. Nachdem Sie ein Metadatenfeld ausgewählt haben, nach dem gefiltert werden soll, werden auf der Registerkarte Filter alle Metadatenwerte aufgelistet, die in das ausgewählte Feld eingegeben wurden. Außerdem wird die Anzahl der Assets aufgelistet, denen jeder Wert zugewiesen wurde. Beispiel: In einem Filtervorgang für **[!UICONTROL Ersteller]** Metadatenfeld, das **[!UICONTROL Filter]** enthält alle Namen, die im **[!UICONTROL Ersteller]** Metadatenfeld für verschiedene Assets. Außerdem wird für jeden Namen die Anzahl der Assets aufgelistet, denen der Name zugewiesen wurde. Anschließend wählen Sie einen Metadatenwert aus, um alle Assets anzuzeigen, denen dieser Wert zugewiesen wurde. Im Beispiel wählen Sie die `Prairie Cat` Metadatenwert zum Anzeigen aller Assets, in denen der Name `Prairie Cat` wurde in der **[!UICONTROL Ersteller]** Metadatenfeld. Sie können auch mehr als ein Metadatenfeld als Filterkriterium heranziehen.
 
 Sie können Filtervorgänge speichern, um sie mehrmals auszuführen.
 
@@ -171,5 +169,5 @@ Auswählen **[!UICONTROL Jetzt veröffentlichen]** , um den Auftrag zu starten. 
 
 >[!MORELIKETHIS]
 >
->* [Grundlagen der Navigation](navigation-basics.md#navigation_basics)
+>* [Navigationsprinzipien](navigation-basics.md#navigation_basics)
 >* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

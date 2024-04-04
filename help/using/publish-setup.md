@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ Ob ein Suffixwert oder ein Ersetzungswert angewendet wird, hängt von der Einste
 
 **Suffix-Beispiel:**
 
-| URL | localeMap-IDs | Ergebnis |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Der erste entsprechende Wert _DE wird dem Asset image_DE als Suffix hinzugefügt und es wird versucht, ihn auf dem Image-Server zu finden. Wenn er auf dem Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert &quot;&quot;als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
+| URL | localeMap-IDs | Ergebnis | Anmerkungen |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | Beachten Sie, dass kein GlobalLocale definiert ist. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Der erste entsprechende Wert _DE wird dem Asset image_DE als Suffix hinzugefügt und es wird versucht, ihn auf dem Image-Server zu finden. Wenn sie auf dem Server gefunden wird, wird sie zurückgegeben. Andernfalls wird der zweite Wert &quot;&quot;als Suffix verwendet, wodurch das Bild selbst zurückgegeben wird. |
 
 **Ersatzbeispiel:**
 
-| URL | `GlobalLocale` und `localeMap` IDs | Ergebnis |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | Im obigen Ersatzbeispiel wird GlobalLocale auf &quot;main&quot;festgelegt. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Die Unterzeichenfolge GlobalLocale wird gefunden und durch den ersten entsprechenden Wert ersetzt. `de` im `localeMap`: `image-de-01`. Wenn er auf dem Image-Server gefunden wird, wird er zurückgegeben. Andernfalls wird der zweite Wert ersetzt, was zu `image-main-01`. |
+| URL | `GlobalLocale` und `localeMap` IDs | Ergebnis | Anmerkungen |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | Im obigen Ersatzbeispiel wird GlobalLocale auf &quot;main&quot;festgelegt. Der Gebietsschemaparameter de_DE wird mit dem ersten Eintrag in der `localeMap`. Die Unterzeichenfolge GlobalLocale wird gefunden und durch den ersten entsprechenden Wert ersetzt. `de` im `localeMap`: `image-de-01`. Wenn sie auf dem Image-Server gefunden wird, wird sie zurückgegeben. Andernfalls wird der zweite Wert ersetzt, was zu `image-main-01`. |
 
 Wenn in der URL kein Gebietsschema definiert ist, verwendet der Image-Server DefaultLocale, sofern definiert, und wendet es auf die URL an.
 

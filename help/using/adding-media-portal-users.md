@@ -1,21 +1,19 @@
 ---
 title: Hinzufügen und Verwalten von Media Portal-Benutzern
 description: Erfahren Sie, wie Sie Media Portal-Benutzer in Adobe Dynamic Media Classic hinzufügen und verwalten.
-uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 58%
+source-wordcount: '1010'
+ht-degree: 54%
 
 ---
 
@@ -37,13 +35,13 @@ Media Portal-Benutzer, -Mitarbeiter und -Mitarbeiter-Benutzer erhalten eine E-Ma
 
 >[!NOTE]
 >
->Benutzer von Media Portal, die Kennwörter ändern dürfen, können dies durch Auswahl von **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]** und das Ändern von Passwörtern auf dem Bildschirm &quot;Persönliche Einstellungen&quot;.
+>Benutzer von Media Portal, die Kennwörter ändern dürfen, können dies durch Auswahl von **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]** und das Ändern von Passwörtern auf dem Bildschirm Persönliche Einstellungen .
 
 ## Hinzufügen eines Media Portal-Benutzers {#adding-a-media-portal-user}
 
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
-1. Wählen Sie auf der Seite &quot;Benutzerverwaltung&quot;die Option **Hinzufügen**.
-1. Geben Sie im Dialogfeld &quot;Benutzer hinzufügen&quot;im Bedienfeld &quot;Benutzerinformationen&quot;den Vornamen, Nachnamen und die E-Mail-Adresse des Benutzers ein und wählen Sie dann **[!UICONTROL Nächste]**.
+1. Wählen Sie auf der Seite Benutzerverwaltung die Option **Hinzufügen**.
+1. Im **[!UICONTROL `Add User`]** im Dialogfeld &quot;Benutzerinformationen&quot;den Vornamen, Nachnamen und die E-Mail-Adresse des Benutzers eingeben und dann **[!UICONTROL Nächste]**.
 1. Wählen Sie im Bedienfeld „Unternehmen/Rolle“ aus der Dropdown-Liste „Unternehmen“ ein oder mehrere Unternehmen für den Benutzer aus.
 1. Wählen Sie in der Liste &quot;Rolle&quot;eine Media Portal-Rolle aus und klicken Sie auf **[!UICONTROL Nächste]**.
 
@@ -67,7 +65,7 @@ Um viele Benutzer gleichzeitig hinzuzufügen, können Sie eine Benutzerliste hoc
 
 Erstellen Sie die Benutzerliste mit den Benutzerdaten als CSV-Datei (kommagetrennte Werte). Nach dem Hochladen der Liste werden die Benutzer in der Liste dem Konto automatisch mit ihren angegebenen Gruppenzuweisungen hinzugefügt. Jeder Benutzer erhält eine Begrüßungs-E-Mail mit einer Verknüpfung zum Media Portal und einem temporären Kennwort.
 
-### Erstellen der CSV-Datei {#creating-the-csv-file}
+### Erstellen der CSV-Datei {#create-the-csv-file}
 
 Erstellen Sie eine CSV-Datei (dateiname.csv), die dem folgenden Format entspricht. In der ersten Zeile der Datei müssen die in dieser Tabelle aufgelisteten Spaltenüberschriften enthalten sein. Die Sortierung der Spalten ist unerheblich. Alle Spalten sind erforderlich.
 
@@ -84,7 +82,7 @@ Die folgende Beispieltabelle zeigt, wie eine CSV-Datei aussehen muss:
 
 | Vorname | Nachname | E-Mail an Freunde senden | Kennwort | Benutzerrolle | Gruppen |
 |--- |--- |--- |--- |--- |--- |
-| Prairie | Kat | `prairiek@company.com` | willkommen | Media Portal-Administrator | PortalCo/IT,PortalCo/Admin |
+| Prairie | Kat | `prairiek@company.com` | willkommen | Media Portal-Administrator | PortalCo/IT, PortalCo/Admin |
 | Rick | Brough | `rickb@myco.com` | willkommen | Media Portal-Benutzer | PortalCo/MktgGroup, PortalCo/test |
 
 ### Hochladen der CSV-Datei {#uploading-the-csv-file}
@@ -93,11 +91,11 @@ Die folgende Beispieltabelle zeigt, wie eine CSV-Datei aussehen muss:
 1. Auswählen **[!UICONTROL Hochladen der Benutzerliste]**.
 1. Wählen Sie im Dialogfeld &quot;Select File to Upload&quot;die CSV-Datei aus und wählen Sie dann **[!UICONTROL Öffnen]**.
 
-Alle Benutzer in der Liste werden automatisch den angegebenen Gruppen hinzugefügt. Jeder Benutzer erhält eine Begrüßungs-E-Mail.
+Jeder Benutzer in der Liste wird automatisch zu den angegebenen Gruppen hinzugefügt. Jeder Benutzer erhält eine Begrüßungs-E-Mail.
 
 >[!NOTE]
 >
->Wenn die CSV-Datei nicht ordnungsgemäß formatiert war, wird die folgende Fehlermeldung angezeigt: „Bei der Verarbeitung der hochgeladenen CSV-Datei ist ein Fehler aufgetreten. Überprüfen Sie den Inhalt der Datei auf gültige Daten.“ Wenn die CSV-Datei einen vorhandenen IP- oder IPS-Benutzer enthält, wird dieser nicht der Benutzerliste hinzugefügt.
+>Wenn die CSV-Datei nicht korrekt formatiert wurde, wird die folgende Fehlermeldung angezeigt: &quot;Bei der Verarbeitung der hochgeladenen CSV-Datei ist ein Fehler aufgetreten. Prüfen Sie den Dateiinhalt auf gültige Daten.&quot; Wenn die CSV-Datei einen vorhandenen IP- oder IPS-Benutzer enthält, wird dieser nicht der Benutzerliste hinzugefügt.
 
 ## Generieren einer auswählbaren Media Portal-Benutzerliste {#generating-a-selectable-list-of-media-portal-users}
 
@@ -115,7 +113,7 @@ Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter
 1. Wählen Sie im Bildschirm &quot;Benutzerverwaltungseinstellungen&quot;die Option **[!UICONTROL E-Mail-Einstellungen]**.
 1. Nehmen Sie im Dialogfeld „E-Mail-Einstellungen“ folgende Einstellungen vor:
 
-   * **[!UICONTROL E-Mail senden]** - Deaktivieren Sie diese Option, wenn Sie neue Benutzer nicht per E-Mail darüber informieren möchten, dass Sie sie angemeldet haben.
+   * **[!UICONTROL E-Mail senden]** - Deaktivieren Sie diese Option, um neue Benutzer per E-Mail darüber zu informieren, dass Sie sie angemeldet haben.
 
    * **[!UICONTROL Standardkennwort]** - Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit Adobe Dynamic Media Classic zufällige Kennwörter generiert. Benutzer werden aufgefordert, bei der ersten Anmeldung Kennwörter zu ändern.
 
@@ -125,7 +123,7 @@ Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter
 
 Über den Anzeigebereich „Benutzerverwaltung“ können Sie außerdem folgende Aufgaben ausführen:
 
-* **[!UICONTROL Benutzerliste filtern und sortieren]** - Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu finden.
+* **[!UICONTROL Filtern und Sortieren der Benutzerliste]** - Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu finden.
 
 * **[!UICONTROL Benutzer löschen]** - Entfernen Sie einen Benutzer aus der Liste.
 

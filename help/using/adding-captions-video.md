@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 31%
+source-wordcount: '716'
+ht-degree: 27%
 
 ---
 
-# Hinzufügen von Untertiteln zu Videos {#adding-captions-to-video}
+# Hinzufügen von Untertiteln zu Videos {#add-captions-to-video}
 
 Sie können die Relevanz Ihrer Videos global ausdehnen, indem Sie einzelnen Videos oder adaptive Video-Sets Untertitel hinzufügen. Wenn Sie Untertitel hinzufügen, müssen Sie die Audiodaten nicht synchronisieren oder Muttersprachler damit beauftragen, die Audiodateien neu in einer anderen Sprache aufzuzeichnen. Das Video wird in der Sprache, in der es aufgenommen wurde, wiedergegeben. Fremdsprachliche Untertitel werden angezeigt, sodass auch Nutzer anderer Sprachen den Audioteil noch verstehen können.
 
@@ -38,7 +38,7 @@ Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md
 
 Adobe Dynamic Media Classic kann Untertiteldateien in das JSON-Format (JavaScript Object Notation) konvertieren. Diese Konvertierung bedeutet, dass Sie den JSON-Text eine eine Webseite verborgen, aber als vollständiges Transkript des Video einfügen können. Suchmaschinen können dann den Inhalt durchsuchen und indizieren, um die Videos leichter auffindbar zu machen und Kunden mehr Details über den Videoinhalt zu geben.
 
-Siehe [Bereitstellen von statischen (Nicht-Bild-)Inhalten](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) im *Hilfe zur Adobe Image Serving-API* Weitere Informationen zur Verwendung der JSON-Funktion in einer URL.
+Siehe [Bereitstellen von statischen (Nicht-Bild-)Inhalten](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) im *Hilfe zur Adobe Image Serving-API* Weitere Informationen zur Verwendung der JSON-Funktion in einer URL.
 
 **So fügen Sie einem Video Untertitel hinzu:**
 
@@ -52,7 +52,7 @@ Siehe [Bereitstellen von statischen (Nicht-Bild-)Inhalten](https://experiencelea
 
    Siehe [Dateien hochladen](uploading-files.md#uploading_files).
 
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der die Videodatei enthält, die Sie der hochgeladenen Untertiteldatei zuordnen möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der die Videodatei enthält, die mit der hochgeladenen Untertiteldatei verknüpft werden soll.
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und wählen Sie dann unter dem Miniaturbild des Assets die Option **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 1. Suchen Sie in der Tabelle &quot;Viewer-Liste&quot;den HTML5-Viewer mit dem Namen **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** oder **Universal_HTML5_MixedMedia_light**, führen Sie dann einen der folgenden Schritte aus:
 

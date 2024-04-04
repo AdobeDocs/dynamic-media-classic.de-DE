@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichen von Dateien
-description: "Erfahren Sie, wie Sie Ihre Assets auf Dynamic Media-Image-Servern veröffentlichen. Sie können Assets einmalig veröffentlichen oder dafür sorgen, dass Adobe Dynamic Media Classic Assets regelmäßig veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen."
+description: Erfahren Sie, wie Sie Ihre Assets auf Dynamic Media-Image-Servern veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 36%
+source-wordcount: '1672'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Sie veröffentlichen Ihre Assets auf Dynamic Media-Image-Servern. Sie können Assets einmalig veröffentlichen oder dafür sorgen, dass Adobe Dynamic Media Classic Assets regelmäßig veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
-Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, dass eine veröffentlichte URL oder ein Einbettungscode für das Bild oder Video verfügbar ist, um in jede Anwendung integriert zu werden, die ein gehostetes Asset akzeptiert. Das veröffentlichte Asset wird dann über das HTTP/2-Protokoll bereitgestellt. Diese Bereitstellungsmethode verbessert die Kommunikation von Browsern und Servern, sodass die Antwort- und Ladezeiten aller Adobe Dynamic Media Classic-Assets verbessert werden. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalt über HTTP/2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, dass eine veröffentlichte URL oder ein Einbettungscode für das Bild oder Video verfügbar ist, um in jede Anwendung integriert zu werden, die ein gehostetes Asset akzeptiert. Das veröffentlichte Asset wird dann über das HTTP/2-Protokoll bereitgestellt. Diese Bereitstellungsmethode verbessert die Kommunikation von Browsern und Servern, sodass die Antwort- und Ladezeiten aller Adobe Dynamic Media Classic-Assets verbessert werden. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalt über HTTP/2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Nach dem Hochladen veröffentlichen {#publish-after-uploading}
 
@@ -29,13 +29,13 @@ Assets befinden sich entweder in einem veröffentlichten oder unveröffentlichte
 
 Weitere Informationen finden Sie unter [Sofortige PDF zur Veröffentlichung](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-Sie haben zum Markieren von Assets zur Veröffentlichung die folgenden Möglichkeiten:
+Verwenden Sie die folgenden Verfahren, um Assets zur Veröffentlichung zu markieren:
 
 * **[!UICONTROL Nach dem Hochladen veröffentlichen]** - Wählen Sie auf der Seite Hochladen unten die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. Die Standardeinstellung ist „ausgewählt“.
 
 * **[!UICONTROL Nach dem Hochladen veröffentlichen]** - Wählen Sie im Dialogfeld &quot;Auftragsoptionen&quot;die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. Die Standardeinstellung ist „ausgewählt“.
 
-Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wenn ihre Stammelemente zur Veröffentlichung markiert werden. In der folgenden Tabelle sind die Arten von abgeleiteten Assets aufgeführt, die automatisch zur Veröffentlichung markiert werden.
+Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wenn ihre Stammelemente zur Veröffentlichung markiert werden. In dieser Tabelle werden untergeordnete Assets aufgeführt, die automatisch zur Veröffentlichung markiert werden.
 
 | Übergeordnetes Element (Gruppe) | Untergeordnete Elemente (Mitglieder) |
 | --- | --- |
@@ -44,7 +44,7 @@ Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wen
 | Rotationssets | Die Bilder in einem Satz. |
 | Vorlagen | Vorlagendateien, Seiten und Bilder. |
 
-Abgeleitete Bilder werden zur Veröffentlichung markiert, wenn die zugehörigen Stammbilder veröffentlicht werden. Abgeleitete Bilder sind beispielsweise Bilder, die Sie mit Bildbearbeitungsoptionen angepasst haben. Sie können diese abgeleiteten Bilder in der Detailansicht unter &quot;Built &amp; Derivatives&quot;anzeigen.
+Abgeleitete Bilder werden auch automatisch zur Veröffentlichung markiert, wenn ihre übergeordneten Bilder veröffentlicht werden. Abgeleitete Bilder sind beispielsweise Bilder, die Sie mit Bildbearbeitungsoptionen angepasst haben. Sie können diese abgeleiteten Bilder in der Detailansicht unter &quot;Built &amp; Derivatives&quot;anzeigen.
 
 ## Veröffentlichungsauftrag erstellen {#creating-a-publish-job}
 
@@ -53,7 +53,7 @@ Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, di
 **So erstellen Sie einen Veröffentlichungsauftrag:**
 
 1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.
-1. Wählen Sie im Dialogfeld „Veröffentlichen“ aus, ob Sie einen einmaligen oder einen wiederkehrenden Auftrag veröffentlichen möchten.
+1. Wählen Sie im Dialogfeld &quot;Veröffentlichen&quot;aus, ob Sie einen einmaligen oder einen wiederkehrenden Veröffentlichungsauftrag erhalten möchten.
 
    Siehe [Erstellen eines einmaligen Veröffentlichungsauftrags](publishing-files.md#creating_a_one_time_publish_job) und [Wiederkehrenden Veröffentlichungsauftrag erstellen](publishing-files.md#creating_a_recurring_publish_job).
 
@@ -68,17 +68,17 @@ Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite &
 
 >[!NOTE]
 >
->Assets, die Sie erneut veröffentlichen (Sie haben sie bereits veröffentlicht), werden aufgrund des Web-Caching-Mechanismus im Inhaltsbereitstellungsnetzwerk (Content Delivery Network, CDN) nicht sofort auf Ihrer Website angezeigt. Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
+>Assets, die Sie erneut veröffentlicht haben (Sie haben sie bereits veröffentlicht), werden aufgrund des Web-Caching-Mechanismus im Inhaltsbereitstellungsnetzwerk (Content Delivery Network, CDN) nicht sofort auf Ihrer Website angezeigt. Siehe [Erneut veröffentlichte Assets und CDN-Verzögerungen](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Erstellen eines einmaligen Veröffentlichungsauftrags {#creating-a-one-time-publish-job}
 
-Erstellen Sie einen einmaligen Veröffentlichungsauftrag, indem Sie die **[!UICONTROL Einmalig]** auf der Seite Veröffentlichen .
+Erstellen Sie einen einmaligen Veröffentlichungsauftrag, indem Sie die **[!UICONTROL Einmalig]** auf der Seite &quot;Publishing&quot;.
 
-Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Einmalig]**, wählen Sie **[!UICONTROL Für später einplanen]** aus der Dropdown-Liste. Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
+Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie auf der Seite &quot;Veröffentlichung&quot;die Option **[!UICONTROL Einmalig]**. Wählen Sie aus der Dropdownliste **[!UICONTROL Für später einplanen]**. Verwenden Sie den Kalender und den Zeitregler, um einen Tag und eine Uhrzeit für die Ausführung des Veröffentlichungsauftrags auszuwählen.
 
 ### Wiederkehrenden Veröffentlichungsauftrag erstellen {#creating-a-recurring-publish-job}
 
-Erstellen eines wiederkehrenden Veröffentlichungsauftrags durch Auswahl von **[!UICONTROL Wiederkehrend]** auf der Seite &quot;Veröffentlichen&quot;.
+Erstellen eines wiederkehrenden Veröffentlichungsauftrags durch Auswahl von **[!UICONTROL Wiederkehrend]** auf der Seite &quot;Publishing&quot;.
 
 Wählen Sie anschließend die Option Wiederholen aus. **[!UICONTROL Täglich]**, **[!UICONTROL Wöchentlich]**, **[!UICONTROL Monatlich]** oder **[!UICONTROL Benutzerdefiniert]** und geben Sie an, wann der Veröffentlichungsauftrag wiederholt werden soll. Adobe Dynamic Media Classic bietet Kalendertools zur Planung des wiederkehrenden Veröffentlichungsauftrags. Sie können **[!UICONTROL Benutzerdefiniert]** und geben Sie eine Regel in das Textfeld Regel ein, um ein benutzerdefiniertes Auftragsintervall zu beschreiben.
 
@@ -90,13 +90,13 @@ Siehe [Benutzerdefiniertes Upload- oder Veröffentlichungsauftragszeitintervall 
 
 ### Erweiterte Veröffentlichungsoptionen {#advanced-publish-options}
 
-Sie können auf der Seite „Veröffentlichen“ erweiterte Optionen anzeigen und damit Einstellungen für einen Veröffentlichungsauftrag festlegen:
+Sie können die erweiterten Optionen auf der Seite &quot;Publishing&quot;anzeigen und die folgenden Optionen zum Verarbeiten eines Veröffentlichungsauftrags auswählen:
 
 * **[!UICONTROL Veröffentlichen in]** - Wenn Sie Assets nur auf einem bestimmten Server veröffentlichen möchten, wählen Sie einen Servertyp aus.
 
 * **[!UICONTROL Veröffentlichen]** - Standardmäßig veröffentlicht Adobe Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch **[!UICONTROL Vollständige Veröffentlichung]** , um auch Assets zu veröffentlichen, die seit der letzten Veröffentlichung aktualisiert oder geändert wurden. Auswählen **[!UICONTROL Vollständig mit Suchdaten]** Wenn Sie einen E-Katalog veröffentlichen und möchten, dass die Leser ihn mit einem Schlüsselwort durchsuchen können.
 
-* **[!UICONTROL Auftrag ausführen als]** - Wählen Sie einen Benutzernamen aus der Liste aus. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch Wählen eines Namens verbinden Sie einen Veröffentlichungsauftrag mit einem Benutzer.
+* **[!UICONTROL Auftrag ausführen als]** - Wählen Sie einen Benutzernamen aus der Liste aus. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch die Auswahl eines Namens verknüpfen Sie einen Veröffentlichungsauftrag mit einem Benutzer.
 
 **[!UICONTROL HTTP-Benachrichtigung]** - Geben Sie eine URL zum Trigger nachfolgender Veröffentlichungsaufträge ein.
 
@@ -110,7 +110,7 @@ Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite &quot;Auftr�
 
 >[!NOTE]
 >
->Nachdem Sie einen Veröffentlichungsauftrag abgebrochen haben, erhält er den Status &quot;Anhalten&quot;, bis der Auftrag einen Punkt erreicht hat, an dem er sicher anhalten kann. Bis zum Anhalten eines Veröffentlichungsauftrags kann es einige Zeit dauern, wenn gerade Daten aus der Datenbank abgerufen werden.
+>Nachdem Sie einen Veröffentlichungsauftrag abgebrochen haben, erhält er den Status &quot;Anhalten&quot;, bis der Auftrag einen Punkt erreicht hat, an dem er sicher anhalten kann. Das Beenden eines Veröffentlichungsauftrags kann einige Zeit in Anspruch nehmen, wenn der Auftrag gerade Daten aus der Datenbank abruft.
 
 ## Assets manuell veröffentlichen {#manually-publishing-assets}
 

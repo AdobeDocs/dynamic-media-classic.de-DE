@@ -1,26 +1,24 @@
 ---
 title: Informationen zur Festplattenauslastung abrufen
 description: Erfahren Sie, wie Sie Informationen zur Festplattenauslastung in Adobe Dynamic Media Classic abrufen.
-uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 77%
+source-wordcount: '91'
+ht-degree: 42%
 
 ---
 
-# Informationen zur Festplattenauslastung abrufen {#getting-disk-usage-information}
+# Informationen zur Festplattenauslastung abrufen {#get-disk-usage-information}
 
-Mit dem Parameter `disk_info` können Sie Informationen zur Speichernutzung eines Unternehmens abrufen, wie im folgenden Beispiel gezeigt:
+Sie können die `disk_info` -Parameter zum Abrufen von Informationen zur Festplattenspeichernutzung eines Unternehmens, wie im folgenden Beispiel gezeigt:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -49,7 +47,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Speic
 | URL-Parameter | Erforderlich/optional | Wert |
 | --- | --- | --- |
 | op | Erforderlich | disk_info |
-| shared_secret | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen |
+| shared_secret | Erforderlich | Der Schlüssel, der für das Unternehmen ein gemeinsames Geheimnis darstellt. |
 
 Der folgende Beispiel-Code ruft Speichernutzungsinformationen für das Unternehmen „000Company“ ab:
 

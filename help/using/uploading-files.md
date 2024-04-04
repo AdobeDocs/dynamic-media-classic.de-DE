@@ -1,19 +1,17 @@
 ---
 title: Hochladen von Dateien
 description: Erfahren Sie, wie Sie Dateien in Adobe Dynamic Media Classic hochladen.
-uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3869'
 ht-degree: 27%
 
 ---
@@ -166,8 +164,8 @@ Mit dem Adobe Dynamic Media Classic Desktop-Programm können Sie Dateien und Ord
 1. Wählen Sie in der Adobe Dynamic Media Classic Desktop-Applikation in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]**.
 1. Wählen Sie auf der Seite Hochladen die **[!UICONTROL Vom Desktop aus]** Registerkarte.
 1. Auf der linken Seite der Seite &quot;Hochladen&quot;im **[!UICONTROL Select Files for Upload]** Bereich, auswählen **[!UICONTROL Durchsuchen]** , um die Dateien oder Ordner auszuwählen, die Sie hochladen möchten, und wählen Sie **[!UICONTROL Öffnen]**.
-1. Auf der rechten Seite der Seite &quot;Hochladen&quot;im **Ordnerziel auswählen** navigieren Sie zu einem Zielordner, in dem die hochgeladenen Dateien oder Ordner hinzugefügt werden sollen.
-1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Textfeld Auftragsname den neuen Namen des Upload-Auftrags ein. Oder Sie können einfach den standardmäßigen, systemgenerierten Namen verwenden, den Adobe Dynamic Media Classic bereitstellt. Der Auftrag und andere Upload- und Veröffentlichungsaufträge werden auf der Seite &quot;Aufträge&quot;aufgezeichnet, auf der Sie den Status von Aufträgen überprüfen können. Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
+1. Auf der rechten Seite der Seite &quot;Hochladen&quot;im ausgewählten **Ordnerziel** navigieren Sie zu einem Zielordner, in dem die hochgeladenen Dateien oder Ordner hinzugefügt werden sollen.
+1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Textfeld &quot;Auftragsname&quot;den neuen Namen des Upload-Auftrags ein. Oder Sie können einfach den standardmäßigen, systemgenerierten Namen verwenden, den Adobe Dynamic Media Classic bereitstellt. Upload- und Veröffentlichungsaufträge werden auf der Seite &quot;Aufträge&quot;aufgezeichnet, auf der Sie den Status von Aufträgen überprüfen können. Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
 1. (Optional) Wählen Sie unten auf der Seite &quot;Hochladen&quot;die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]** , wenn Sie die hochgeladenen Assets automatisch veröffentlichen möchten.
 Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option ist auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar.
 1. (Optional) Wählen Sie unten auf der Seite &quot;Hochladen&quot;die Option **[!UICONTROL In einem beliebigen Ordner Assets mit ident. Namen unabhängig von Erweiterung überschreiben]** , wenn Sie möchten, dass die hochgeladenen Dateien vorhandene Dateien mit denselben Namen ersetzen. Diese Option ist auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar.
@@ -186,8 +184,8 @@ Um den Upload-Fortschritt anzuzeigen, wählen Sie **[!UICONTROL Aufträge]** in 
 1. Wählen Sie in Adobe Dynamic Media Classic in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]**.
 1. Wählen Sie auf der Seite Hochladen die **[!UICONTROL ÜBER FTP]** Registerkarte.
 1. Auf der linken Seite der Seite &quot;Hochladen&quot;im **[!UICONTROL FTP-Ordner zum Hochladen auswählen]** wählen Sie einen FTP-Ordner aus, aus dem Sie Dateien hochladen möchten.
-1. Auf der rechten Seite der Seite &quot;Hochladen&quot;im **[!UICONTROL Adobe Dynamic Media-Ordnerziel auswählen]** einen Zielordner in Adobe Dynamic Media Classic auswählen.
-1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Textfeld Auftragsname den neuen Namen des Upload-Auftrags ein. Oder Sie können einfach den standardmäßigen, systemgenerierten Namen verwenden, den Adobe Dynamic Media Classic bereitstellt. Der Auftrag und andere Upload- und Veröffentlichungsaufträge werden auf der Seite &quot;Aufträge&quot;aufgezeichnet, auf der Sie den Status von Aufträgen überprüfen können.
+1. Auf der rechten Seite der Seite &quot;Hochladen&quot;im ausgewählten **[!UICONTROL Adobe Dynamic Media-Ordnerziel]** einen Zielordner in Adobe Dynamic Media Classic auswählen.
+1. (Optional) Geben Sie unten auf der Seite &quot;Hochladen&quot;im Textfeld &quot;Auftragsname&quot;den neuen Namen des Upload-Auftrags ein. Oder Sie können einfach den standardmäßigen, systemgenerierten Namen verwenden, den Adobe Dynamic Media Classic bereitstellt. Upload- und Veröffentlichungsaufträge werden auf der Seite &quot;Aufträge&quot;aufgezeichnet, auf der Sie den Status von Aufträgen überprüfen können.
 Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
 1. (Optional) Wählen Sie unten auf der Seite &quot;Hochladen&quot;die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]** , wenn Sie die hochgeladenen Assets automatisch veröffentlichen möchten.
 Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option ist auch im Dialogfeld &quot;Auftragsoptionen&quot;verfügbar.
@@ -248,7 +246,7 @@ Auf Transparenz basierendes Zuschneiden: Geben Sie 0 an, damit Pixel nur dann ab
 * **Farbprofiloptionen** - Wählen Sie eine Farbkonvertierung, wenn Sie optimierte Dateien erstellen, die für die dynamische Adobe Dynamic Media Classic-Bereitstellung verwendet werden:
 
    * **[!UICONTROL Beibehaltung der Standardfarbe]** - Behält die Quellbildfarben bei, wenn die Bilder Farbrauminformationen enthalten. Es wird keine Farbkonvertierung vorgenommen. Heutzutage ist in fast allen Bildern das entsprechende Farbprofil eingebettet. Wenn jedoch ein CMYK-Quellbild kein eingebettetes Farbprofil enthält, werden die Farben in den sRGB-Farbraum (standardmäßiges Rot Grün Blau) umgewandelt. sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
-   * **[!UICONTROL Originalfarbraum beibehalten]** - Behält die Originalfarben ohne Farbkonvertierung beim Erfassen in Adobe Dynamic Media Classic bei. Bei Bildern ohne eingebettetes Farbprofil erfolgt die erforderliche Farbkonvertierung zur Verarbeitung von Bildanforderungen mithilfe der Standardfarbprofile, die in den Veröffentlichungseinstellungen konfiguriert sind. Diese Farbprofile stimmen nicht immer mit der Farbe in den mit dieser Option erstellten Dateien überein. Deshalb empfehlen wir, die Option „Beibehaltung der Standardfarbe“ zu verwenden.
+   * **[!UICONTROL Originalfarbraum beibehalten]** - Behält die Originalfarben ohne Farbkonvertierung beim Erfassen in Adobe Dynamic Media Classic bei. Bei Bildern ohne eingebettetes Farbprofil erfolgt die erforderliche Farbkonvertierung zur Verarbeitung von Bildanforderungen mithilfe der Standardfarbprofile, die in den Veröffentlichungseinstellungen konfiguriert sind. Diese Farbprofile stimmen nicht immer mit den Farben in den mit dieser Option erstellten Dateien überein. Deshalb empfehlen wir, die Option „Beibehaltung der Standardfarbe“ zu verwenden.
    * **[!UICONTROL Benutzerdefiniert von]** > **[!UICONTROL nach]** - Öffnet die Menüs, damit Sie eine **[!UICONTROL Konvertieren von]** und **[!UICONTROL Konvertieren in]** Farbraum. Diese erweiterte Option überschreibt alle Farbinformationen, die in die Quelldatei eingebettet sind. Wählen Sie diese Option nur, wenn alle Bilder, die Sie senden, falsche oder fehlende Farbprofildaten enthalten.
 
 * **Bildbearbeitungsoptionen** - Sie können die Schnittmasken &lt;> in Bildern beibehalten und ein Farbprofil auswählen.
@@ -269,8 +267,9 @@ Siehe [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-
 * **EVIDEO-Optionen** - Sie können eine Videodatei transkodieren, indem Sie eine Videovorgabe auswählen.
 Siehe [Arbeiten mit Videokodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Zusätzliche Metadaten** - Geben Sie Schlüsselwörter ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter mit Kommata. Schlüsselwörter erleichtern die Suche nach Assets.
-Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search). Siehe auch [Hochladen von Suchbegriffen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) Schulungsvideo.
+* **Weitere Metadaten** - Geben Sie Schlüsselwörter ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter mit Kommata. Schlüsselwörter erleichtern die Suche nach Assets.
+Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
+Siehe auch [Hochladen von Suchbegriffen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) Schulungsvideo.
 
 * **Stapelsatzvorgaben** - Wenn Sie ein Bildset, Rotationsset oder Musterset aus den hochgeladenen Dateien erstellen möchten, wählen Sie die **[!UICONTROL Aktiv]** -Spalte für die Vorgabe, die Sie verwenden möchten. Sie können mehrere Vorgaben auswählen. Sie erstellen die Vorgaben auf der Seite &quot;Anwendungseinstellungen&quot;/&quot;Stapelsatzvorgaben&quot;.
 Siehe [Stapelsatzvorgaben](application-setup.md#batch_set_presets).
@@ -308,4 +307,4 @@ Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adress
 >
 >* [Arbeiten mit Asset-Ordnern](asset-folders.md#working_with_asset_folders)
 >* [Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Upload- oder Veröffentlichungsauftrag als Trigger verwenden](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [Upload- oder Veröffentlichungsaufträge als Trigger verwenden](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)

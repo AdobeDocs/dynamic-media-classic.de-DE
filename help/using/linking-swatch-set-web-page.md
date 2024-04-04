@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 33%
+source-wordcount: '683'
+ht-degree: 31%
 
 ---
 
@@ -46,9 +46,9 @@ Nachdem Sie ein Musterset veröffentlicht haben, können Sie dessen zugehörige 
 
 ## Hinzufügen von Musterset-URLs zu Ihrer Webseite {#adding-swatch-set-urls-to-your-web-page}
 
-Die gängigste Methode zum Bereitstellen von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
+Die gängigste Methode zum Bereitstellen von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Der Zoom-Link öffnet ein Popup-Fenster, das die eigentliche Zoom-Funktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers in das Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers in das Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines Musterset-Viewers {#copying-the-embed-code-of-a-swatch-set-viewer}
 

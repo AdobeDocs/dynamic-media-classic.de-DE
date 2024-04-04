@@ -1,6 +1,6 @@
 ---
 title: Bei und von Adobe Dynamic Media Classic anmelden
-description: Erfahren Sie mehr über die Anmeldung bei und die Abmeldung von Adobe Dynamic Media Classic und die Verbindung zu einem Produktionsumgebungs-Server in Nordamerika (NA) oder Europa, dem Nahen Osten, Afrika (EMEA) oder dem asiatisch-pazifischen Raum (APAC).
+description: Erfahren Sie mehr über die Anmeldung bei und die Abmeldung von Adobe Dynamic Media Classic und die Verbindung zu einem Produktionsumgebungs-Server in Nordamerika (NA) oder Europa, dem Nahen Osten, Afrika (EMEA) oder dem Asien-Pazifik (APAC).
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Bei Adobe Dynamic Media Classic anmelden {#dmc-sign-in}
+# Bei Adobe Dynamic Media Classic anmelden {#dmc-signin}
 
 Stellen Sie vor der Verwendung des Adobe Dynamic Media Classic-Desktop-Programms Folgendes sicher:
 
@@ -31,7 +31,7 @@ Stellen Sie vor der Verwendung des Adobe Dynamic Media Classic-Desktop-Programms
 
    ![Adobe Dynamic Media Classic-Anmeldung](/help/using/assets/dmclassic-login1.png)
 
-1. Im **[!UICONTROL Benutzername]** geben Sie Ihre E-Mail-Adresse ein.
+1. Im **[!UICONTROL Benutzername]** geben Sie Ihre E-Mail Adresse ein.
 1. Im **[!UICONTROL Passwort]** ein, geben Sie das Kennwort ein.
 1. Im **[!UICONTROL Server]** aus, wählen Sie einen Server aus.
 Verwenden Sie die folgende Zuordnung, um die Produktionsumgebung auszuwählen, die Sie verwenden möchten.

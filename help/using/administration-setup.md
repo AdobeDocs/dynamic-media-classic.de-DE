@@ -1,19 +1,17 @@
 ---
 title: Administrationseinrichtung
 description: Erfahren Sie, wie Sie den Verwaltungsbereich von Adobe Dynamic Media Classic einrichten.
-uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1971'
 ht-degree: 33%
 
 ---
@@ -66,11 +64,11 @@ Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classi
 
    Die von Ihnen hinzugefügten neuen Benutzer erhalten eine Begrüßungs-E-Mail. Die E-Mail enthält ein temporäres Kennwort und erläutert, wie Sie sich bei Adobe Dynamic Media Classic anmelden.
 
-   Wenn der Benutzer die Begrüßungs-E-Mail nicht erhält, bitten Sie ihn, zur Adobe Dynamic Media Classic-Anmeldeseite (https://s7sps1.scene7.com) zu wechseln und wählen Sie **[!UICONTROL Kennwort vergessen]**. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der Benutzer auch diese E-Mail nicht erhält und sie nicht in seinem Spam-Ordner ist, wenden Sie sich an den technischen Support.
+   Wenn der Benutzer die Begrüßungs-E-Mail nicht erhält, bitten Sie ihn, zur Adobe Dynamic Media Classic-Anmeldeseite zu wechseln (https://s7sps1.scene7.com) und wählen Sie **[!UICONTROL Kennwort vergessen]**. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der Benutzer auch diese E-Mail nicht erhält und sie nicht in seinem Spam-Ordner ist, wenden Sie sich an den technischen Support.
 
    Beim Hinzufügen neuer Media Portal-Benutzer können Sie auch zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**, wählen Sie **[!UICONTROL Hochladen der Benutzerliste]** und wählen Sie eine CSV-Datei aus, die maximal 500 Benutzer enthält.
 
-### Löschen eines Benutzers {#deleting-a-user}
+### Löschen eines Benutzers {#delet-a-user}
 
 Sie können Benutzer aus Adobe Dynamic Media Classic löschen, indem Sie sie ungültig machen. Ungültige Benutzer werden aus dem System und sämtlichen Konten entfernt.
 

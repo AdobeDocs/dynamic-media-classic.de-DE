@@ -1,21 +1,19 @@
 ---
 title: Angebotssatz erstellen
 description: Erfahren Sie, wie Sie ein Angebotsset in Adobe Dynamic Media Classic erstellen.
-uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
-discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 35%
+source-wordcount: '1227'
+ht-degree: 33%
 
 ---
 
@@ -27,7 +25,7 @@ Sie können die folgenden Angebotsset-Typen erstellen:
 * Parametrisierte Vorlage
 * Bild
 
-Wählen Sie für Vorlagen **[!UICONTROL Hinzufügen und Vorschau]** und legen Sie dann die von Ihnen gewählten Parameter fest. Die anderen Angebotssatz-Typen enthalten keine Parameter, können aber dennoch angepasst werden, indem Sie **[!UICONTROL Vorschau]** und die verfügbaren Vorgaben ändern.
+Wählen Sie für Vorlagen **[!UICONTROL Hinzufügen und Vorschau]** und legen Sie dann die von Ihnen gewählten Parameter fest. Andere Angebotssatztypen enthalten keine Parameter, können aber dennoch angepasst werden, indem Sie **[!UICONTROL Vorschau]** und die verfügbaren Vorgaben ändern.
 
 Adobe Dynamic Media Classic bietet Tools zum Bearbeiten und Erstellen von Angebotssets.
 
@@ -75,7 +73,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    Auf der Seite &quot;Test&amp;Target-Angebotsset&quot;werden die von Ihnen erstellten Angebote aufgelistet.
 
 1. Wiederholen Sie die Schritte 3 bis 5, um weitere Angebote für das Set zu erstellen.
-1. Stellen Sie beim Beenden in der Nähe der rechten unteren Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen*]** ausgewählt ist (Standard).
+1. Stellen Sie beim Beenden in der rechten unteren Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen*]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Schließen]**, geben Sie einen Namen für das Angebotsset ein und wählen Sie **[!UICONTROL Speichern]**.
 
 Bevor Sie die Seite &quot;Test&amp;Target-Angebotsset&quot;schließen, pushen Sie das Angebotsset auf Adobe Target Standard/Premium. Siehe [Angebotssets an Test&amp;Target pushen](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
@@ -104,21 +102,21 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    * Wählen Sie eine Vorlage aus, um Ansicht und Größe des Bildes oder Videos zu verändern.
    * Um die ausgewählte Vorgabe auf alle Angebote im Angebotsset anzuwenden, wählen Sie die **[!UICONTROL Voreinstellungen für alle auswählen]** aktivieren.
 
-   Auswählen **[!UICONTROL Speichern]** , um Ihre Änderungen am Bild- oder Videoangebot zu speichern. Wählen Sie anschließend **[!UICONTROL Schließen]** , um zur Seite &quot;Test&amp;Target-Angebotsset&quot;zurückzukehren.
+   Auswählen **[!UICONTROL Speichern]** , um Ihre Änderungen am Bild- oder Videoangebot zu speichern. Wählen Sie anschließend **[!UICONTROL Schließen]** , um zur Seite Test&amp;Target-Angebotsset zurückzukehren.
 
 1. Nachdem Sie die Angebote für das Angebotsset erstellt und Bildvorgaben für verschiedene Bilder ausgewählt haben, stellen Sie sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]** und geben Sie einen Namen für das Angebotsset ein und wählen Sie **[!UICONTROL Speichern]**.
 
 Bevor Sie die Seite &quot;Test&amp;Target-Angebotsset&quot;schließen, pushen Sie das Angebotsset auf Adobe Target Standard/Premium. Siehe [Angebotssets an Test&amp;Target pushen](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Bearbeiten eines Angebotssatzes {#editing-an-offer-set}
+## Bearbeiten eines Angebotssets {#editing-an-offer-set}
 
 Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein nicht veröffentlichtes Set bearbeiten, wird die **[!UICONTROL Nach dem Speichern veröffentlichen]** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
 | Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Veröffentlichungsstatus bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -141,16 +139,16 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Stellen Sie nach Abschluss der Bearbeitung in der Nähe der rechten unteren Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und wählen Sie dann **[!UICONTROL Speichern]**.
 
-## Angebotsset löschen {#deleting-an-offer-set}
+## Angebotsset löschen {#delet-an-offer-set}
 
-Wenn Sie ein Angebotsset löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (bzw. die untergeordneten Elemente) innerhalb des Sets sind davon jedoch nicht betroffen; sie behalten ihren jeweiligen Status „veröffentlicht“ oder „unveröffentlicht“ bei.
+Wenn Sie ein Angebotsset löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder &quot;untergeordneten Elemente&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie ihren vorhandenen Status veröffentlicht oder unveröffentlicht bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 **So löschen Sie ein Angebotsset:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht mindestens ein Angebotsset aus.
-1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **Löschen**.
+1. Wechseln Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **Löschen**.
 
 >[!MORELIKETHIS]
 >

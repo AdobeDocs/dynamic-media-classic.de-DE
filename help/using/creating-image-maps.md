@@ -1,27 +1,25 @@
 ---
 title: Imagemaps erstellen
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Imagemaps erstellen.
-uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 48%
+source-wordcount: '2434'
+ht-degree: 41%
 
 ---
 
 # Imagemaps erstellen {#creating-image-maps}
 
-Eine Imagemap ist ein Bereich auf einem Bild oder einer E-Katalog-Seite oder ein Bild in einem Rotationsset, mit dessen Hilfe ein Bedienfeld mit Rollover-Text angezeigt werden kann. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise kann eine Website aufgerufen werden, auf der der Benutzer mehr über ein Produkt erfährt. Um eine Imagemap wird ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
+Eine Imagemap ist ein Bereich auf einem Bild, einer eCatalog-Seite oder ein Bild in einem Rotationsset, der ein Rollover-Bedienfeld mit Text anzeigt. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise kann eine Website aufgerufen werden, auf der der Benutzer mehr über ein Produkt erfährt. Um eine Imagemap wird ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
 
 Neben der Möglichkeit, in Adobe Dynamic Media Classic Imagemaps zu erstellen, können Sie beim Erstellen eines Katalogs in Adobe Acrobat oder Adobe InDesign auch Imagemaps erstellen.
 
@@ -44,13 +42,13 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
    * Wenn Sie in der Raster- oder Listenansicht mit einem Rotationsset arbeiten, wählen Sie **[!UICONTROL Bearbeiten]**. Oder öffnen Sie es in der Detailansicht und wählen Sie **[!UICONTROL Bearbeiten]**. Wählen Sie ein Bild-Asset aus und wählen Sie dann **[!UICONTROL Imagemap]**.
    * Wenn Sie mit einem eCatalog arbeiten, wählen Sie in der Rasteransicht, Listenansicht und Detailansicht die Option **[!UICONTROL Bearbeiten]**. Wählen Sie die **[!UICONTROL Seiten zuordnen]** Registerkarte.
 
-   ![Imagemap-Bild](assets/ma_image_map.png)
+   ![Bild-Karte](assets/ma_image_map.png)
 
 1. Sie können eine rechteckige oder polygonale Imagemap zeichnen:
 
    * **Rechteckige Karte** - Wählen Sie das Rechteck-Bildzuordnungstool aus und ziehen Sie es auf die Seite, um das Rechteck zu erstellen. Um einen Punkt zu einer rechteckigen Karte hinzuzufügen (und sie so in eine Polygon-Karte zu ändern), drücken Sie die Strg-Taste, platzieren Sie das Einfügewerkzeug an der gewünschten Position und wählen Sie aus.
 
-   * **Polygonale Karte** - Wählen Sie das Werkzeug Polygon-Imagemap aus und wählen Sie Punkte auf dem Bereich des Bildes aus, das Sie umschließen möchten. Verwenden Sie den Regler für die Dichte des Polygons, um die Punktdichte im Polygon zu ändern. Die ursprüngliche Dichte wird wiederhergestellt, wenn Sie andere Maps auswählen. Wenn ein Punkt im Polygon hinzugefügt, gelöscht oder verschoben wird, wird die ursprüngliche Dichte verworfen und der Regler auf den Maximalwert zurückgesetzt.
+   * **Polygonale Landkarte** - Wählen Sie das Werkzeug Polygon-Imagemap aus und wählen Sie Punkte auf dem Bereich des Bildes aus, das Sie umschließen möchten. Verwenden Sie den Regler für die Dichte des Polygons, um die Punktdichte im Polygon zu ändern. Die ursprüngliche Dichte wird wiederhergestellt, wenn Sie andere Maps auswählen. Wenn ein Punkt im Polygon hinzugefügt, gelöscht oder verschoben wird, wird die ursprüngliche Dichte verworfen und der Regler auf den Maximalwert zurückgesetzt.
 
 1. Geben Sie optional in der Imagemap-Liste einen Namen für die Imagemap ein. Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen zu.
 
@@ -58,7 +56,7 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 
 1. Wenn Sie möchten, dass Benutzer beim Auswählen der Imagemap eine neue Webseite öffnen, geben Sie die URL in die Liste &quot;Imagemap&quot;ein.
 
-   Siehe [Eingeben von JavaScript und URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Siehe [JavaScript und URLs eingeben](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. Wenn Rollover-Text angezeigt werden soll, sobald die Benutzer den Mauszeiger über die Imagemap bewegen, geben Sie den Text in der Imagemap-Liste ein. Wählen Sie in der Liste &quot;Imagemap&quot;die **[!UICONTROL Anzeigen]** Menü und wählen Sie **[!UICONTROL Rollover-Text]**. Geben Sie dann den Text ein, den die Benutzer auf dem Bildschirm sehen sollen. Sie können den Text in einem Textverarbeitungsprogramm schreiben und in das Feld „Rollover-Text“ kopieren.
 
@@ -76,7 +74,7 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 
 ### Position, Form und Größe von Imagemaps anpassen {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Um die Position, Form und Größe einer Imagemap zu ändern, klicken Sie auf „Imagemap“ . Wählen Sie anschließend die **[!UICONTROL Schwenken]** und befolgen Sie diese Anweisungen:
+Um die Position, Form und Größe einer Imagemap zu ändern, wählen Sie die Schaltfläche &quot;Imagemap&quot;aus. Wählen Sie anschließend die **[!UICONTROL Schwenken]** und befolgen Sie diese Anweisungen:
 
 * **Position ändern** - Bewegen Sie den Mauszeiger nahe, jedoch nicht über den Rahmen der Imagemap. Wenn der Mauszeiger als Vierfachpfeil dargestellt wird, ziehen Sie die Imagemap an eine andere Position.
 
@@ -101,10 +99,10 @@ Anstatt auf jeder Seite Imagemap-Daten einzugeben, können Sie auch die Daten f�
 **So importieren Sie Imagemap-Daten:**
 
 1. Gehen Sie zur Seite „Imagemap-Editor“ (für Bilder oder Bilder in Rotationssets) oder zur Registerkarte „Imagemap-Seiten“ im Bearbeitungsbildschirm für E-Kataloge.
-1. Auswählen **[!UICONTROL Importieren von Metadaten]**.
+1. Auswählen **[!UICONTROL Metadaten importieren]**.
 1. Wählen Sie im Dialogfeld Metadaten hochladen die Option Bild oder Imagemap aus, um die Metadaten vom gewünschten Asset-Eigenschaftstyp hochzuladen.
-1. Wählen Sie In der Dropdown-Liste „Datei erstellen“ die Datei aus, die Sie erstellen möchten.
-1. (Optional) Wählen Sie **[!UICONTROL Erzeugen]** , um die resultierenden Daten basierend auf dem zu erstellenden Dateityp in der Vorschau anzuzeigen. Auswählen **[!UICONTROL Schließen]** , um zum Dialogfeld &quot;Metadaten hochladen&quot;zurückzukehren.
+1. Im `Generate File` wählen Sie aus der Dropdown-Liste den Dateityp aus, den Sie erstellen möchten.
+1. (Optional) Wählen Sie **[!UICONTROL Erzeugen]** , um die resultierenden Daten basierend auf dem zu erstellenden Dateityp in der Vorschau anzuzeigen. Auswählen **[!UICONTROL Schließen]** , um zum Dialogfeld Metadaten hochladen zurückzukehren.
 1. Navigieren Sie zu der Datei, die Sie hochladen möchten. Geben Sie im Textfeld „Dateiname“ den Namen der erstellten Datei an.
 1. (Optional) Geben Sie im Feld „Auftragsname“ einen Namen für den Auftrag „Metadaten hochladen“ ein.
 1. Auswählen **[!UICONTROL Hochladen]**.
@@ -126,7 +124,7 @@ Das Kopieren von Imagemaps in einem E-Katalog ist zum Beispiel eine praktische M
 
 1. Auswählen **[!UICONTROL Auswählen]**.
 
-## Verwenden Sie eine Vorlage, um JavaScript und URLs einzugeben. {#using-a-template-to-enter-javascript-and-urls}
+## Verwenden Sie eine Vorlage, um JavaScript und URLs einzugeben {#using-a-template-to-enter-javascript-and-urls}
 
 Sie können eine URL-Vorlage (auch Href-Vorlage genannt) definieren, um das Eingeben von Imagemap-URLs einfacher und effizienter zu machen. Es ist sinnvoll, eine URL-Vorlage zu definieren, wenn die meisten Ihrer Imagemap-URLs ein gemeinsames festes Format haben. Wenn Sie den gleich bleibenden Teil der URL als Vorlage definieren, brauchen Sie diesen Teil beim Erstellen einer neuen Imagemap-URL nicht jedes Mal erneut einzugeben. Eine URL-Vorlage kann auch JavaScript-Befehle, Pfadnamen und Parameter enthalten. Standardmäßig enthält die URL-Vorlage einen proprietären Adobe Dynamic Media Classic-JavaScript-Handler namens `loadProduct` das das Bild in einem neuen Fenster öffnet.
 
@@ -136,21 +134,21 @@ Sie können eine URL-Vorlage (auch Href-Vorlage genannt) definieren, um das Eing
 
 ### URL-Vorlagen {#about-url-templates}
 
-Eine URL-Vorlage funktioniert so, dass der Inhalt der Spalte „URL“ in der Imagemap-Liste durch ein doppeltes Dollarzeichen (‘$$’) in der Vorlage ersetzt wird: 
+Die URL-Vorlage ersetzt den Inhalt der URL-Spalte in der Imagemap-Liste durch die doppelten Dollarzeichen (&#39;$$&#39;) in der Vorlage:
 
 ```as3
-Javascript:loadProduct(‘$$’);void(0);
+Javascript:loadProduct('$$');void(0);
 ```
 
 Sie platzieren alle Werte, die sich nicht zwischen Imagemaps ändern, in der URL-Vorlage. Fügen Sie anschließend nur die Werte hinzu, die sich in der Spalte „URL“ der Imagemap-Liste ändern. Beispiel:
 
-* URL-Vorlage - `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* URL-Vorlage - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * URL-Wert - `product.htm`
-* Tatsächliche URL generiert - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* Tatsächliche URL generiert - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Standardmäßig enthält die URL-Vorlage einen proprietären Adobe Dynamic Media Classic-JavaScript-Handler namens `loadProduct` öffnet ein neues Fenster mit dem URL-Ziel. Sie können jedoch beliebigen JavaScript-Code verwenden, um diesen JavaScript-Handler zu ersetzen, oder einen der folgenden Adobe Dynamic Media Classic-Handler verwenden:
 
-* `loadProductCW` - Zeigt das URL-Ziel an, das in der Spalte „URL“ des aktuellen Fensters angegeben ist. Dieser Handler ist hauptsächlich für E-Kataloge vorgesehen, die in eine Seite innerhalb einer Website integriert sind.
+* `loadProductCW` - Zeigt das in der Spalte URL des aktuellen Fensters angegebene URL-Ziel an. Dieser Handler ist hauptsächlich für E-Kataloge vorgesehen, die in eine Seite innerhalb einer Website integriert sind.
 
 * `loadProductPW` - Zeigt das in der Spalte URL des übergeordneten Fensters angegebene URL-Ziel an (die Seite, die die aktuelle Seite geöffnet hat). Das aktuelle Fenster bleibt geöffnet, während im übergeordneten Fenster das URL-Ziel angezeigt wird.
 
@@ -176,11 +174,11 @@ Auf der Seite „Map-Editor“ (bei Bildern und Rotationssets) bzw. der Register
 
 Sie können die **[!UICONTROL Anzeigen]** Menü und wählen **[!UICONTROL Andere Aktionen]** auf andere Trigger-Aktionen als Rollover-Text- und Webseitenstarts. Wenn der Benutzer den Mauszeiger über eine Imagemap bewegt, kann die Aktion ausgelöst werden. Diese Aktionen sind Attribute, die mithilfe der HTML-Spezifikationen des W3C (World Wide Web Consortium) für clientseitige Imagemaps definiert werden. Diese umfassen Folgende:
 
-* **`accesskey`** - Löst eine Aktion aus, wenn der Benutzer eine bestimmte Taste der Tastatur drückt.
+* **`accesskey`** - Trigger einer Aktion, wenn der Benutzer eine bestimmte Taste auf der Tastatur drückt.
 
 * **`onfocus`** - Trigger eines Ereignisses, wenn die Imagemap den Fokus erhält - durch Cursor, Tab oder Drücken einer Zugriffstaste. Sie können beispielsweise eine Website aufrufen, wenn die Imagemap den Fokus erhält, und sie wieder schließen, wenn die Imagemap den Fokus wieder verliert.
 
-* **`onblur`** - Löst ein Ereignis aus, wenn die Imagemap den Fokus verliert, entweder durch Betätigung des Cursors oder des Tabulators.
+* **`onblur`** - Trigger eines Ereignisses, wenn die Imagemap den Fokus verliert, entweder durch den Cursor oder durch Tab.
 
 **So definieren Sie weitere Aktionen für Imagemaps:**
 
@@ -219,16 +217,16 @@ Weitere Informationen finden Sie in der Hilfe zu Adobe InDesign oder in der Adob
 ### So erstellen Sie Imagemaps in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
 1. Navigieren Sie in Adobe Acrobat zu **[!UICONTROL Instrumente]** > **[!UICONTROL Erweiterte Bearbeitung]** > **[!UICONTROL Link-Tool]**.
-1. Erstellen Sie die Imagemap durch Ziehen.
+1. Ziehen Sie, um die Imagemap zu erstellen.
 1. Wählen Sie im Feld Link erstellen die Option **[!UICONTROL Benutzerspezifischer Link]** und wählen Sie **[!UICONTROL Nächste]**.
 
 >[!NOTE]
 >
 >Sie müssen keine Darstellungsoptionen in Adobe Acrobat festlegen. Sie können das Erscheinungsbild in Adobe Dynamic Media Classic festlegen.
 
-1. Wählen Sie im Feld &quot;Link Properties&quot;die Option **[!UICONTROL Aktionen]**.
+1. Wählen Sie im Feld Link Properties die Option **[!UICONTROL Aktionen]**.
 1. Auswählen **[!UICONTROL Weblink öffnen]** Wählen Sie im Menü Aktion auswählen die Option **[!UICONTROL Hinzufügen]**.
 1. Geben Sie die Produkt-ID für die Imagemap in das Feld &quot;URL bearbeiten&quot;ein und wählen Sie **[!UICONTROL OK]**. (Adobe Dynamic Media Classic füllt die URL mit der URL-Vorlage für die Imagemap ab.)
 1. Wiederholen Sie Schritt 1 bis 7 für alle Imagemaps, die Sie erstellen möchten.
 1. Speichern Sie die Datei.
-1. Laden Sie die PDF in Adobe Dynamic Media Classic hoch und wählen Sie unter &quot;PDF-Optionen&quot;die Option Links extrahieren aus.
+1. Laden Sie die PDF in Adobe Dynamic Media Classic hoch und wählen Sie unter PDF-Optionen die Option Links extrahieren aus.

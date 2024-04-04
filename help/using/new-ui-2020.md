@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic Desktop App
-description: Adobe Dynamic Media Classic-Benutzer können jetzt die Benutzeroberfläche vollständig aktualisieren. Das Erlebnis bietet eine aktualisierte Anmeldung mit Links zu wertvollen Ressourcen. Diese Aktualisierung beruht nicht mehr auf der Adobe-Flash-Technologie im Browser.
+description: Adobe Dynamic Media Classic-Benutzer können jetzt die Benutzeroberfläche vollständig aktualisieren.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Siehe [Adobe Dynamic Media Classic-Desktop-Programm](/help/using/dynamic-media-c
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Wie funktioniert das neue Desktop-Programm?_**
-Nachdem Sie das Desktop-Programm heruntergeladen, installiert und gestartet haben, wird Ihnen eine aktualisierte Anmeldung angezeigt. Wenn Sie Ihren bestehenden Benutzernamen und Ihr Passwort eingeben und den entsprechenden Server entsprechend Ihrer Region auswählen, können Sie sich bei Adobe Dynamic Media Classic anmelden. Das Gesamterlebnis entspricht der gewohnten Webbrowser-Version, die Sie verwendet haben. Über das -Desktop-Programm können Sie auf die Produktions- und Staging-Umgebungen von Adobe Dynamic Media Classic zugreifen. Sie können auch auf Media Portal zugreifen, wenn Sie für diese Funktion autorisiert sind.
+Nach dem Herunterladen, Installieren und Starten des Desktop-Programms wird Ihnen eine aktualisierte Anmeldung angezeigt. Wenn Sie Ihren bestehenden Benutzernamen und Ihr Passwort eingeben und den entsprechenden Server entsprechend Ihrer Region auswählen, können Sie sich bei Adobe Dynamic Media Classic anmelden. Das Gesamterlebnis entspricht der gewohnten Webbrowser-Version, die Sie verwendet haben. Über das -Desktop-Programm können Sie auf die Produktions- und Staging-Umgebungen von Adobe Dynamic Media Classic zugreifen. Sie können auch auf Media Portal zugreifen, wenn Sie für diese Funktion autorisiert sind.
 
 >[!IMPORTANT]
 >
@@ -94,9 +94,9 @@ Wenden Sie sich an den Adobe-Support, wenn bei der Verwendung der App Probleme a
 +++**_Ich möchte sicherstellen, dass ich meine Rich-Media-Strategie optimiert. Wie kann ich noch mehr über Adobe Dynamic Media Classic erfahren?_**
 Adobe Dynamic Media Classic ist eine leistungsstarke, funktionsreiche Lösung zur Verbesserung Ihrer Rich-Media-Strategien. Um sicherzustellen, dass Sie alle Funktionen nutzen, sollten Sie diese praktischen Ressourcen nutzen:
 
-* [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe von Blog-Beiträgen](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Dynamic Media Newsletter-Archive](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Adobe Dynamic Media Newsletter-Archive](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Diese neue App ist jetzt für Windows® und macOS verfügbar.
 >
 >Adobe empfiehlt, das neue Adobe Dynamic Media Classic-Desktop-Programm bis zum 1. Oktober 2020 zu installieren. Dadurch wird sichergestellt, dass Sie einen reibungslosen Übergang haben, bevor Adobe Flash Player am 31. Dezember 2020 eingestellt wird. Nach diesem Datum können Sie sich nicht mehr bei der Browserversion der Adobe Dynamic Media Classic-Benutzeroberfläche anmelden, die im Produkt als Adobe Dynamic Media Classic bezeichnet wird.
 
-Siehe FAQs für die [Die neue Adobe Dynamic Media Classic-Anmeldung ist jetzt verfügbar.](/help/using/new-ui-2020.md)
+Siehe FAQs für die [Die Anmeldung bei Adobe Dynamic Media Classic ist jetzt verfügbar.](/help/using/new-ui-2020.md)
 
 ## Systemanforderungen für das Adobe Dynamic Media Classic-Desktop-Programm {#system-requirements-dmc-app}
 
@@ -46,7 +46,7 @@ Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-De
 
 ## Fehlerbehebungen in der neuesten Version (20.22.1) {#release-jan2022}
 
-* Bildbearbeitung **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
+* Wenn Sie ein Bild bearbeiten, wird die **[!UICONTROL Speichern]** -Schaltflächen funktionierten nicht.
 * Im Set-Editor wird die **[!UICONTROL Schließen]**, **[!UICONTROL Speichern]**, und **[!UICONTROL Speichern unter]** -Schaltflächen werden nach dem Scrollen von Assets im **[!UICONTROL Hinzufügen von Assets]** Bedienfeld.
 * **[!UICONTROL Play]** -Schaltfläche in der Videodetailansicht nicht funktionierte.
 * Nicht eingeben `d` und `e` in **[!UICONTROL Benutzername]** und **[!UICONTROL Passwort]** Felder beim Ausführen von macOS Monterey.
@@ -233,7 +233,7 @@ Zum Herunterladen und *stumm* Installieren Sie die neueste Version des Adobe Dyn
 
 ## Video-exemplarische Vorgehensweise zur Verwendung der Adobe Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
-Sehen Sie sich eine [Video-exemplarische Vorgehensweise zur Verwendung der Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Länge: 2 Minuten, 36 Sekunden).
+Sehen Sie sich eine [Video-exemplarische Vorgehensweise zur Verwendung der Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten, 36 Sekunden).
 
 ## Löschen des Bild-Cache und des Asset-Cache auf Ihrem Computer mithilfe des Desktop-Programms {#clear-cache}
 

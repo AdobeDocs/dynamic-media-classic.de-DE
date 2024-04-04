@@ -1,6 +1,6 @@
 ---
 title: Anwendungseinstellungen
-description: Erfahren Sie, wie Sie den Anwendungsbereich von Adobe Dynamic Media Classic einrichten und konfigurieren. Im Bereich "Anwendung"können Sie allgemeine Einstellungen eingeben, Bild-, Viewer- und Videokodierungsvorgaben erstellen, Standard-Viewer und -Metadaten definieren, Veröffentlichungseinstellungen und SEO-Einstellungen für Videos festlegen. Sie können den Bereich auch verwenden, um Stapelsatzvorgaben einzurichten, um die Erstellung von 2D-Rotationssets zu automatisieren.
+description: Erfahren Sie, wie Sie den Anwendungsbereich von Adobe Dynamic Media Classic einrichten und konfigurieren.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10991'
-ht-degree: 37%
+source-wordcount: '10947'
+ht-degree: 36%
 
 ---
 
@@ -49,7 +49,7 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 * **[!UICONTROL Servername für progressives Video]** - Die URL zu Ihrer [!DNL Adobe Dynamic Media Classic] progressiver Video-Server. Dieser Server liefert Progressive Video über das HTTP-Protokoll.
 
-* **[!UICONTROL Anzeigen der URL für nicht veröffentlichte Assets]** - Wählen Sie diese Option aus, wenn Sie möchten [!DNL Adobe Dynamic Media Classic] um eine URL anzuzeigen, wenn ein Asset in der Vorschau angezeigt wird, unabhängig davon, ob es veröffentlicht wurde oder nicht. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
+* **[!UICONTROL Anzeigen der URL für nicht veröffentlichte Assets]** - Wählen Sie diese Option aus, falls gewünscht. [!DNL Adobe Dynamic Media Classic] um eine URL anzuzeigen, wenn ein Asset in der Vorschau angezeigt wird, unabhängig davon, ob es veröffentlicht wurde oder nicht. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic lässt zwei Dateien mit demselben Namen nicht zu. Di
 
 Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (oder ersetzt) haben, gibt die Option Überschreiben an, wie Adobe Dynamic Media Classic die Bilder ersetzt. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Adobe Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
 
-Verwenden Sie diese Option, wenn Bilder, die Sie hochgeladen haben, sich in irgendeiner Weise geändert haben (Bild wurde geändert), der Verweis auf das Bild jedoch unverändert bleibt. Das Überschreiben ist auch beim Hochladen und Rippen von Adobe®-PDF hilfreich. So passen Sie die Funktionsweise von Adobe Dynamic Media Classic an *rippen* Passen Sie im Dialogfeld &quot;Hochladen&quot;die ICC-Farbprofiloptionen an und laden Sie sie mithilfe der Funktion &quot;Überschreiben&quot;erneut hoch.
+Verwenden Sie diese Option, wenn Bilder, die Sie hochgeladen haben, sich in irgendeiner Weise geändert haben (Bild wurde geändert), der Verweis auf das Bild jedoch unverändert bleibt. Das Überschreiben ist auch beim Hochladen und Rippen von Adobe®-PDF hilfreich. So passen Sie die Funktionsweise von Adobe Dynamic Media Classic an *rippen* Passen Sie im Dialogfeld &quot;Hochladen&quot;die ICC-Farbprofiloptionen an und laden Sie sie mithilfe der Überschreibungsfunktion erneut hoch.
 
 Die Adobe Dynamic Media Classic IDs, die für den Zugriff auf Bilder von den Produktionsservern verwendet werden, werden von den Bilddateinamen abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl beim Ersetzen vorhandener Dateien als auch für die Adobe Dynamic Media Classic-IDs, die für den Zugriff auf das Bild verwendet werden. Achten Sie darauf, dass Dateinamen Groß- und Kleinbuchstaben vor dem Hochladen in Adobe Dynamic Media Classic verwenden, um zu verhindern, dass sich Adobe Dynamic Media Classic-IDs nur für dasselbe Bild unterscheiden.
 
@@ -161,7 +161,7 @@ Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benu
 
 Um den Bildschirm &quot;Bildvorgabe&quot;zu öffnen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Bildvorgaben]**.
 
-Siehe [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+Siehe [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Erstellen und Bearbeiten von Bildvorgaben {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Indem Sie Folgendes in einen einzelnen Player kombinieren:
 
 Sie erweitern die Reichweite Ihrer Rich-Media-Inhalte auf Desktop-, Tablet- und Mobilbenutzer und sorgen für ein optimiertes Videoerlebnis.
 
-Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) im Adobe Viewer-Referenzhandbuch.
+Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe Viewer-Referenzhandbuch.
 
 Siehe [Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Siehe auch [Beispiele für Adobe Viewer-Referenzbibliothek](https://landing.adob
 
 Verschiedene Webseiten haben unterschiedliche Anforderungen. Manchmal möchten Sie eine Webseite, die einen Link bereitstellt, der den HTML5-Viewer in einem separaten Browserfenster öffnet. In anderen Fällen muss der HTML5-Viewer direkt auf der Hosting-Seite eingebettet werden. Im letzteren Fall weist die Webseite wahrscheinlich ein statisches Layout auf. Oder sie ist &quot;responsiv&quot;und wird auf verschiedenen Geräten oder für verschiedene Browser-Fenstergrößen unterschiedlich angezeigt. Um diese Anforderungen zu erfüllen, unterstützen die HTML5-Viewer, die mit Adobe Dynamic Media Classic geliefert werden, sowohl statische Webseiten als auch responsive Webseiten.
 
-Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Über die Bibliothek responsiver Bilder](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Verwenden der responsiven Bildbibliothek](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api), und [Befehlsreferenz - Befehlsattribute](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Über die Bibliothek responsiver Bilder](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der responsiven Bildbibliothek](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api), und [Befehlsreferenz - Befehlsattribute](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Viewer-Vorgabentypen {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Siehe auch [Beispiele für Adobe Viewer-Referenzbibliothek](https://landing.adob
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Viewer-Versionshinweisen. 
 
-Siehe [Versionshinweise zu Adobe Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+Siehe [Versionshinweise zu Adobe Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™-Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -732,7 +732,7 @@ Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 1. Wählen Sie im Dialogfeld Einbettungscode die Option **[!UICONTROL In Zwischenablage kopieren]**.
 1. Auswählen **[!UICONTROL Schließen]**.
 
-## Standard-Viewer konfigurieren {#configuring-default-viewers}
+## Standard-Viewer konfigurieren {#configure-default-viewers}
 
 Sie können &quot;Standard-Viewer&quot;verwenden, um den Standard-Viewer zu konfigurieren, der mit einem Asset verknüpft ist, wenn Sie die Vorschau in Adobe Dynamic Media Classic verwenden. Die Standardvorschau kann für die folgenden Asset-Typen festgelegt werden:
 
@@ -914,7 +914,7 @@ Die Einrichtung einer Standardbenennungskonvention ist nicht erforderlich, um di
 
 Alternativ können Sie „Code anzeigen“ ohne verfügbare Formularfelder verwenden. In dieser Ansicht erstellen Sie Ihre Definitionen von Benennungskonventionen vollständig mit regulären Ausdrücken.
 
-Zwei Elemente sind zur Definition verfügbar: Treffer und Grundname. Anhand dieser Felder können Sie alle Elemente einer Benennungsregel definieren und denjenigen Teil der Regel identifizieren, mit dem Sie den Satz benennen, der diese Elemente enthält. Die individuelle Benennungskonvention eines Unternehmens könnte eine oder mehrere Definitionszeilen für jedes dieser Elemente verwenden. Sie können für Ihre spezifische Definition so viele Zeilen wie erforderlich verwenden und sie zu eindeutigen Elementen gruppieren, beispielsweise Elementen für Hauptbild, Farbe, alternative Ansicht und Muster.
+Zwei Elemente sind zur Definition verfügbar: Treffer und Grundname. Diese Felder sind alle Elemente, die Sie für eine Benennungskonvention definiert haben, und identifizieren den Teil der Konvention, der zum Benennen des Satzes verwendet wird, in dem sie enthalten sind. Die individuelle Benennungskonvention eines Unternehmens könnte eine oder mehrere Definitionszeilen für jedes dieser Elemente verwenden. Sie können für Ihre spezifische Definition so viele Zeilen wie erforderlich verwenden und sie zu eindeutigen Elementen gruppieren, beispielsweise Elementen für Hauptbild, Farbe, alternative Ansicht und Muster.
 
 ### Erstellen einer Stapelsatzvorgabe {#creating-a-batch-set-preset}
 

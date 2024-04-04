@@ -1,6 +1,6 @@
 ---
 title: "Schnellstart: Integration von Adobe Dynamic Media Classic und Adobe Analytics"
-description: Eine Einführung und ein Schnellstart zur Integration von Adobe Dynamic Media Classic und Adobe Analytics, damit Sie schnell arbeiten können.
+description: Eine Einführung und ein Schnellstart zur Integration von Adobe Dynamic Media Classic und Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 26%
+source-wordcount: '682'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Nach der Integration von Adobe Analytics mit Adobe Dynamic Media Classic können
 
 Mit Adobe Analytics-Berichten können Sie sich einen detaillierten Überblick über die Aktivitäten von Kunden auf Ihrer Website verschaffen. Sie können bestimmen, welche Produktpräsentationen zu Konversion führen und die kein Kundeninteresse wecken.
 
-Siehe auch [Videomessung in Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Siehe auch [Videomessung in Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Siehe [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-report
 
 ## 3. Veröffentlichen Sie Ihre Adobe Dynamic Media Classic-Viewer
 
-Veröffentlichen Sie Ihre Adobe Dynamic Media Classic-Viewer, damit die Viewer (mit Code zur Verfolgung der Benutzeraktivität in Adobe Analytics-Berichten) auf Adobe Dynamic Media Classic-Servern geladen werden. Nach der Veröffentlichung sind diese Informationen in den Viewern enthalten und können für die Adobe Analytics-Analyse verwendet werden. 
+Veröffentlichen Sie Ihre Adobe Dynamic Media Classic-Viewer, damit die Viewer (mit Code zur Verfolgung der Benutzeraktivität in Adobe Analytics-Berichten) auf Adobe Dynamic Media Classic-Servern geladen werden. Nach der Veröffentlichung sind diese Informationen in Viewern enthalten und können von Adobe Analytics für die Analyse verwendet werden.
 
 Siehe [Konfigurationsinformationen veröffentlichen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

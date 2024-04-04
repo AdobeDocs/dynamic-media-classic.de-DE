@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 33%
+source-wordcount: '1702'
+ht-degree: 30%
 
 ---
 
@@ -33,11 +33,11 @@ Es gibt zwei verschiedene Methoden zum Veröffentlichen von Videos:
 
 * **Videos beim Hochladen automatisch und sofort veröffentlichen** - Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic automatisch Videos veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
 
-* **Videos nach dem Hochladen manuell veröffentlichen** - Wenn Sie Videos nach dem Hochladen nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
+* **Video nach dem Hochladen manuell veröffentlichen** - Wenn Sie Videos nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
 
 Nach der Veröffentlichung von Videos aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen für Ihre HTML-Seite oder Ihren Anwendungscode.
 
-**So Veröffentlichen Sie Video:**
+**So veröffentlichen Sie Video:**
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -79,7 +79,7 @@ Verwenden Sie die Funktion zum Einbetten von Code, wenn Sie das auf Ihrer Websit
 
 Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**So betten Sie den Video-Viewer in einer Webseite ein:**
+**So betten Sie den Video-Viewer auf einer Web-Seite ein:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Video]** oder **[!UICONTROL Adaptives Videoset]**.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Video bzw. das adaptive Videoset enthält, dessen Einbettungscode Sie kopieren möchten.
@@ -133,7 +133,7 @@ Wenn Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sond
 
 Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Dynamic Media Classic-Video-Viewers verwenden, erhalten Sie die direkte Video-URL, die für HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
 
-**So stellen Sie ein Video mit einem Video-Player eines Drittanbieters bereit:**
+**So stellen Sie Videos mit einem Video-Player eines Drittanbieters bereit:**
 
 1. Navigieren Sie in Adobe Dynamic Media Classic auf der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
 1. Abhängig vom URL-Typ, die Sie verwenden möchten, führen Sie einen der folgenden Schritte aus:
@@ -187,7 +187,7 @@ Sie können auch Bildmodifikatoren auf das Standbild anwenden. Sie können das S
 
 Siehe [Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Siehe [Image Serving Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
+Siehe [Image Serving Guide](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Sie können auch Videominiaturen bearbeiten, indem Sie Modifikatoren an die Videominiatur-URLs anhängen.
 

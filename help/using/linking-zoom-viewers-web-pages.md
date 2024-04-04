@@ -10,9 +10,9 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 34%
 
 ---
@@ -43,11 +43,11 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
-## Hinzufügen von Zoom-Viewer-URLs zu Ihrer Web-Seite {#adding-zoom-viewer-urls-to-your-web-page}
+## Hinzufügen von Zoom-Viewer-URLs zu Ihrer Webseite {#adding-zoom-viewer-urls-to-your-web-page}
 
 In der Regel zoomen Besucher Bilder auf einer Website, indem sie zunächst ein Zoom-Symbol auswählen (häufig zeigt das Symbol das Bild einer Lupe an). Über diese Symbolschaltfläche wird eine dynamische Website (ASP oder JSP) aufgerufen und das Bild in einem Popup-Fenster angezeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML 5 Basic Zoom Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML 5 Basic Zoom Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren der Einbettungskopie eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 

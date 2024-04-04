@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 35%
+source-wordcount: '675'
+ht-degree: 33%
 
 ---
 
@@ -46,15 +46,15 @@ Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige UR
 
 ## Hinzufügen von Bildsatz-URLs zur Website {#adding-image-set-urls-to-your-web-page}
 
-Die gängigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
+Die gängigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Der Zoom-Link öffnet ein Popup-Fenster, das die eigentliche Zoom-Funktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML5-Zoom-Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML5-Zoom-Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines Bildset-Viewers {#copying-the-embed-code-of-an-image-set-viewer}
 
 Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausgewählten Bildsatz überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**So kopieren Sie Einbettungscode eines Bildsatz-Viewers:**
+**So kopieren Sie den Einbettungscode eines Bildset-Viewers:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Bildset]**.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den Bildsatz enthält, dessen Einbettungscode Sie kopieren möchten.

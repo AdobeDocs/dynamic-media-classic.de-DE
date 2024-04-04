@@ -1,20 +1,18 @@
 ---
 title: Überprüfen von Auftragsdateien
 description: Erfahren Sie, wie Sie Auftragsdateien in Adobe Dynamic Media Classic überprüfen.
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1619'
 ht-degree: 24%
 
 ---
@@ -89,7 +87,7 @@ Wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Auftr�
 
 >[!NOTE]
 >
->Sie können die Auftragsliste auf der Seite **[!UICONTROL Geplant]** mit dem **[!UICONTROL Auftragstyp]** und **[!UICONTROL Anzeigen]** Menüs. Wählen Sie einen Auftragstyp aus, damit Sie die Liste auf Veröffentlichungsaufträge eines bestimmten Typs eingrenzen können. Wählen Sie eine **[!UICONTROL Anzeigen]** -Option, wenn Sie von Ihnen erstellte Aufträge oder Aufträge anzeigen möchten, die von jedem in Ihrem Unternehmen erstellt wurden.
+>Sie können die Auftragsliste auf der Seite **[!UICONTROL Geplant]** mit dem **[!UICONTROL Auftragstyp]** und **[!UICONTROL Anzeigen]** Menüs. Wählen Sie einen Auftragstyp aus, damit Sie die Liste auf Veröffentlichungsaufträge eines bestimmten Typs eingrenzen können. Wählen Sie eine **[!UICONTROL Anzeigen]** -Option, damit Sie von Ihnen erstellte Aufträge oder Aufträge anzeigen können, die von jedem in Ihrem Unternehmen erstellt wurden.
 
 ### Bearbeiten, Löschen, Anhalten und Fortsetzen wiederkehrender Aufträge {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
