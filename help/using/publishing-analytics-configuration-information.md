@@ -1,21 +1,19 @@
 ---
 title: Adobe Analytics-Konfigurationsinformationen veröffentlichen
 description: Erfahren Sie, wie Sie Adobe Analytics-Konfigurationsinformationen aus Adobe Dynamic Media Classic veröffentlichen.
-uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 21%
+source-wordcount: '151'
+ht-degree: 19%
 
 ---
 
@@ -34,4 +32,4 @@ Siehe [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-report
 **So veröffentlichen Sie Konfigurationsinformationen:**
 
 1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.
-1. Wählen Sie im Dialogfeld Veröffentlichen die Option **[!UICONTROL Veröffentlichung übermitteln]**.
+1. Im **[!UICONTROL `Publish`]** Dialogfeld auswählen **[!UICONTROL Veröffentlichen senden]**.

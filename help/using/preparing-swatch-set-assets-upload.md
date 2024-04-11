@@ -1,20 +1,18 @@
 ---
 title: Vorbereiten von Musterset-Assets für das Hochladen
 description: Erfahren Sie, wie Sie Musterset-Assets für den Upload in Adobe Dynamic Media Classic vorbereiten.
-uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 61%
 
 ---
@@ -34,4 +32,4 @@ Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Dateien hoch
 
 >[!MORELIKETHIS]
 >
->* [Arbeiten mit Vignetten-, Fensterabdeckungs- und Kabinendateien](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Arbeiten mit Vignetten, Fensterverkleidungen und Kabinendateien](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

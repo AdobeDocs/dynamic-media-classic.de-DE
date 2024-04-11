@@ -1,26 +1,24 @@
 ---
 title: Löschen eines hochgeladenen Rasterbild-Assets
 description: Erfahren Sie, wie Sie ein hochgeladenes Asset in Adobe Dynamic Media Classic löschen.
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 52%
+source-wordcount: '136'
+ht-degree: 33%
 
 ---
 
 # Löschen eines hochgeladenen Assets{#deleting-an-uploaded-asset}
 
-Verwenden Sie den Parameter `delete` in folgendem Format, um ein Asset zu löschen:
+Sie können die `delete` Parameter in diesem Format zum Löschen eines Assets:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -49,8 +47,8 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines As
 | URL-Parameter | Erforderlich/optional | Wert |
 | --- | --- | --- |
 | `op` | Erforderlich | löschen |
-| `shared_secret` | Erforderlich | Der gemeinsame geheime Schlüssel für das Unternehmen. |
-| `image_name` | Erforderlich | Name des Assets, das gelöscht werden soll. |
+| `shared_secret` | Erforderlich | Der Schlüssel, der für das Unternehmen ein gemeinsames Geheimnis darstellt. |
+| `image_name` | Erforderlich | Name des zu löschenden Assets. |
 
 <!-- <li>For Vector:fxg_name</li> -->
 

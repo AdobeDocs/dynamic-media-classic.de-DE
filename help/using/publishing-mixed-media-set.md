@@ -1,21 +1,19 @@
 ---
 title: Veröffentlichen eines gemischten Mediensets
 description: Erfahren Sie, wie Sie ein gemischtes Medienset aus Adobe Dynamic Media Classic veröffentlichen.
-uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 31%
+source-wordcount: '261'
+ht-degree: 17%
 
 ---
 
@@ -25,7 +23,7 @@ Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu ve
 
 >[!NOTE]
 >
->Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Und Sie verwenden **Image-Server** , um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
+>Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Verwendung **Video-Server** um die tatsächlichen Videos zu veröffentlichen, die Sie zur Veröffentlichung markiert haben. Und Sie verwenden **Image-Server** , um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
 
 Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf dem Bildschirm &quot;Aufträge&quot;.
 
@@ -50,15 +48,15 @@ Last Modified Date:
 
 1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.
 1. Legen Sie die gewünschten Planungsoptionen fest.
-1. (Optional) Geben Sie im Feld **[!UICONTROL Auftragsname]** einen Namen für den Veröffentlichungsauftrag ein.
+1. (Optional) Im **[!UICONTROL Auftragsname]** ein, geben Sie einen Namen für den Veröffentlichungsauftrag ein.
 1. Wählen Sie in den **[!UICONTROL erweiterten Optionen]** in der Dropdown-Liste **[!UICONTROL Veröffentl. auf:]** die Option **[!UICONTROL Video-Server]** aus.
 
    Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) für weitere Optionen, die Sie festlegen können.
 
-1. Auswählen **[!UICONTROL Veröffentlichung übermitteln]**.
+1. Auswählen **[!UICONTROL Veröffentlichen senden]**.
 1. Wiederholen Sie die obigen Schritte 2 bis 4.
 1. Wählen Sie in den **[!UICONTROL erweiterten Optionen]** in der Dropdown-Liste **[!UICONTROL Veröffentl. auf:]** die Option **[!UICONTROL Image-Server]** aus.
 
    Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) für weitere Optionen, die Sie festlegen können.
 
-1. Auswählen **[!UICONTROL Veröffentlichung übermitteln]**.
+1. Auswählen **[!UICONTROL Veröffentlichen senden]**.

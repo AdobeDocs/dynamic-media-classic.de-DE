@@ -1,19 +1,17 @@
 ---
 title: E-Katalog-Viewer-Vorgaben einrichten
 description: Erfahren Sie, wie Sie eCatalog-Viewer-Vorgaben in Adobe Dynamic Media Classic einrichten.
-uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 25%
 
 ---
@@ -35,8 +33,8 @@ Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe 
 
    * **Bearbeiten einer eCatalog-Viewer-Vorgabe** - Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und wählen Sie **[!UICONTROL Bearbeiten]**. Auswählen **[!UICONTROL Speichern unter]** nach Abschluss der Erstellung der Vorgabe.
 
-1. Geben Sie auf der Seite &quot;Viewer konfigurieren&quot;einen Namen für Ihre E-Katalog-Viewer-Vorgabe ein.
-1. Legen Sie auf der Seite &quot;Viewer konfigurieren&quot;die gewünschten Optionen fest.
+1. Im `Configure Viewer` -Seite einen Namen für Ihre E-Katalog-Viewer-Vorgabe eingeben.
+1. Im `Configure Viewer` -Seite, legen Sie die gewünschten Optionen fest.
 
    wählen Sie **[!UICONTROL Info-Tipp]** neben der Option, wenn Sie die Beschreibung lesen möchten.
 
@@ -57,7 +55,7 @@ Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe 
 >Um diese Antwortvorlage anstelle der im eCatalog selbst definierten Vorlage zu verwenden, fügen Sie `fmt=1` an das Ende der URL des Informationsservers. Beispiel: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Auswählen **[!UICONTROL Speichern]**.
-1. Auswählen **[!UICONTROL Standard]** Wenn Sie möchten, dass die von Ihnen erstellte E-Katalog-Viewer-Vorgabe die zum Anzeigen von E-Katalogen auf Ihrer Web-Seite verwendete ist.
+1. Auswählen **[!UICONTROL Standard]** sodass die von Ihnen erstellte E-Katalog-Viewer-Vorgabe die zum Anzeigen von E-Katalogen auf Ihrer Web-Seite verwendete ist.
 
 Um eine E-Katalog-Viewer-Vorgabe zu löschen, wählen Sie sie im Bildschirm &quot;Viewer-Vorgaben&quot;aus und wählen Sie **[!UICONTROL Löschen]**.
 

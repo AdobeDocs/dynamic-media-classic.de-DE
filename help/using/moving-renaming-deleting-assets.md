@@ -1,21 +1,19 @@
 ---
 title: Verschieben, Umbenennen und Löschen von Assets
 description: Erfahren Sie, wie Sie Assets in Adobe Dynamic Media Classic verschieben, umbenennen und löschen können.
-uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 31%
+source-wordcount: '619'
+ht-degree: 28%
 
 ---
 
@@ -38,20 +36,20 @@ Sie können Assets über das Durchsuchenbedienfeld in andere Ordner verschieben.
 
 1. Wählen Sie im Durchsuchenbedienfeld das Asset aus und führen Sie dann einen der folgenden Schritte durch:
 
-   * Wählen Sie den Namen aus, geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL Eingabe]** oder wählen Sie weg vom Namen aus.
-   * Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Umbenennen]**. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie die Eingabetaste **[!UICONTROL Eingabe]**. Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen Adobe Dynamic Media Classic-Assets eingeben.
+   * Wählen Sie den Namen aus, geben Sie einen neuen Namen ein und drücken Sie die **[!UICONTROL Eingabe]** oder wählen Sie weg vom Namen aus.
+   * Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Umbenennen]**. Der Name des Assets wird hervorgehoben. Geben Sie einen neuen Namen ein und drücken Sie **[!UICONTROL Eingabe]**. Vergewissern Sie sich, dass Sie nicht den Namen eines vorhandenen Adobe Dynamic Media Classic-Assets eingeben.
 
 ## Löschen von Assets {#delete-assets}
 
 Sie können ausgewählte Assets im Durchsuchenbedienfeld löschen und ganze Ordner löschen. Gelöschte Assets und Ordner werden in den Ordner „Papierkorb“ verschoben und nach sieben Tagen endgültig gelöscht.
 
-Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelöscht. Beim Löschen eines Bildes, für das Sie Zoomziele erstellt haben, werden beispielsweise auch die Zoomziele gelöscht.
+Wenn Sie ein Asset gelöscht haben, werden auch alle daraus abgeleiteten Assets gelöscht. Beim Löschen eines Bildes, für das Sie Zoomziele erstellt haben, werden beispielsweise auch die Zoomziele gelöscht.
 
 Zoomziele, Bildattribute und Verlaufseinträge werden endgültig gelöscht, wenn Sie die zugehörigen Assets löschen. Die Elemente werden nicht zusammen mit den Assets in den Ordner „Papierkorb“ verschoben, sie können daher auch nicht wiederhergestellt werden.
 
 >[!IMPORTANT]
 >
->Die Massenlöschung ist ein intensiver Vorgang. Stellen Sie sicher, dass Sie Massenlöschungen sequenziell anstatt als gleichzeitige, schwere Löschvorgänge ausführen. Adobe empfiehlt, die Löschvorgänge auf 5000 oder weniger Asset-Löschungen pro Stunde zu beschränken. Jede Zahl, die größer als 5.000 pro Stunde ist, kann zu einer Ratenbegrenzung führen.
+>Die Massenlöschung ist ein intensiver Vorgang. Stellen Sie sicher, dass Sie Massenlöschungen sequenziell anstatt als gleichzeitige, schwere Löschvorgänge ausführen. Adobe empfiehlt, Löschvorgänge auf 5000 oder weniger Asset-Löschungen pro Stunde zu beschränken. Jede Zahl, die größer als 5.000 pro Stunde ist, kann zu einer Ratenbegrenzung führen.
 
 **So löschen Sie Assets:**
 
@@ -73,7 +71,7 @@ Erstellen Sie die Liste der Adobe Dynamic Media Classic IDs und speichern Sie si
 Wenn Sie mit dem Erstellen der Liste fertig sind, führen Sie die folgenden Schritte aus, um die Assets zu löschen:
 
 1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Asset-Liste löschen]**.
-1. Suchen Sie im Dialogfeld &quot;Asset-Liste löschen&quot;den Pfad zur Textdatei mit der Liste der Assets, die Sie löschen möchten, oder geben Sie ihn ein.
+1. Im **[!UICONTROL Liste gelöschter Assets]** , durchsuchen oder geben Sie den Pfad zur Textdatei mit der Liste der Assets ein, die Sie löschen möchten.
 1. Auswählen **[!UICONTROL Löschen]**.
 
 Wenn Sie Assets mit einer Textdatei löschen und keine Adobe Dynamic Media Classic-ID auf der Liste steht, wird die Meldung &quot;Diese Einträge in Ihrer Liste können nicht überprüft werden:&quot;angezeigt. Die Liste der Einträge wird ebenfalls angezeigt. Adobe Dynamic Media Classic generiert jedoch keinen Fehler auf der Auftragsseite.
@@ -81,5 +79,5 @@ Wenn Sie Assets mit einer Textdatei löschen und keine Adobe Dynamic Media Class
 >[!MORELIKETHIS]
 >
 >* [Auswählen von Assets im Bedienfeld &quot;Durchsuchen&quot;](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Vorbereiten der Assets und Ordner auf das Hochladen](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [Wiederherstellen von Assets aus dem Ordner &quot;Papierkorb&quot;](trash-folder.md#restoring_assets_from_the_trash_folder)
+>* [Vorbereiten von Assets und Ordnern auf das Hochladen](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [Wiederherstellen von Assets aus dem Ordner Papierkorb](trash-folder.md#restoring_assets_from_the_trash_folder)

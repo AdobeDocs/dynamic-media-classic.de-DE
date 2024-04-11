@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 17%
+source-wordcount: '454'
+ht-degree: 18%
 
 ---
 
@@ -35,8 +35,8 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
    * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;in der Dropdown-Liste &quot;Viewer&quot;die Option **[!UICONTROL Musterset-Viewer]**, wählen Sie **[!UICONTROL Hinzufügen]**.
    * Um eine vorhandene Viewer-Vorgabe für Mustersets zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Geben Sie auf der Seite &quot;Viewer konfigurieren&quot;im Textfeld Vorgabenname einen Namen für die Viewer-Vorgabe für das Musterset ein.
-1. Wählen Sie auf der Seite Viewer konfigurieren Optionen aus.
+1. Im `Configure Viewer` Geben Sie im Textfeld &quot;Vorgabenname&quot;einen Namen für die Viewer-Vorgabe &quot;Musterset&quot;ein.
+1. Wählen Sie Optionen auf der `Configure Viewer` Seite.
 
    Um eine Beschreibung einer Option anzuzeigen, wählen Sie die **[!UICONTROL Info-Tipp]** rechts neben der Option.
 
@@ -56,7 +56,7 @@ Mit der Vorschau können Sie sehen, wie ein Asset in einem bestimmten Viewer-Typ
    * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Rasteransicht]** Symbol. Wählen Sie im Asset-Fenster in einem Asset-Miniaturfenster die Option **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).
    * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Detailansicht]** Symbol. Wählen Sie in derselben Symbolleiste die Option **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).
 
-1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die Sie beim Kopieren auf die URL des Assets anwenden möchten.
+1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren auf die URL des Assets angewendet werden soll.
 1. Um eine Vorschau des Assets im ausgewählten Viewer anzuzeigen, wählen Sie einen Viewer-Link aus.
 
    Wenn Sie einen bestimmten Viewer-Link auswählen, wird die zugehörige URL automatisch in die Zwischenablage kopiert.

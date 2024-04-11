@@ -10,16 +10,16 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
 # Verwalten des Infofeldinhalts in Bildsets{#managing-info-panel-content-in-image-sets}
 
-Zusätzlich zur Verwendung von Imagemap-Text für Ihre Rollover in Bildsätzen können Sie zum Hinzufügen größerer Mengen von Rollover-Text, einschließlich Links, ein Infofeld verwenden. Sie können das Infofeld auch mithilfe von zeitlich begrenztem Caching und geplanten Inhaltsaktualisierungen verwalten.
+Zusätzlich zur Verwendung von Imagemap-Text für Ihre Rollover in Bildsätzen können Sie zum Hinzufügen größerer Mengen von Rollover-Text, einschließlich Links, ein Infofeld verwenden. Sie können das InfoPanel auch verwalten, indem Sie die Zeitzwischenspeicherung verwenden und Inhaltsaktualisierungen planen.
 
 Sie können die Einrichtung und die Daten des InfoPanel mit den folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
@@ -46,7 +46,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
    * Geben Sie eine höhere Zahl ein, falls die Daten relativ stabil sind und nicht so häufig aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
 
-1. Auswählen **[!UICONTROL Hochladen]** , um Informationsbereichsinhalte basierend auf den rollover_key -Werten in s7info hochzuladen.
+1. Auswählen **[!UICONTROL Hochladen]** , um Informationsbereichsinhalte basierend auf dem Wert rollover_key in s7info hochzuladen.
 1. Navigieren Sie im Dialogfeld &quot;S7Info Upload&quot;zu der Datei, die Sie verwenden möchten, und wählen Sie **[!UICONTROL Hochladen]**.
 
    Unterstützte Dateiformate sind TAB-getrennte Dateien mit UTF-16-Kodierung und CSV-Dateien mit ASCII-Kodierung. Bei CSV-Dateien müssen Nicht-ASCII-Zeichen HTML-kodiert sein.
@@ -55,7 +55,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 
 ## Importieren des Quellinhalts für das Info-Bedienfeld in Bildsets {#import-source-content-for-the-info-panel-in-image-sets}
 
-Sie können für den Quelltext eines Infofelds für einen Bildsatz eine CSV-Datei (kommagetrennte Werte) mit ASCII-Kodierung (Nicht-ASCII-Zeichen müssen HTML-kodiert sein) oder eine tabulatorgetrennte Datei verwenden. Tabulatorgetrennte Dateien müssen die UTF-16-Kodierung (Unicode) verwenden. Verschiedene Dateitypen werden mithilfe unterschiedlicher Methoden importiert.
+Sie können eine CSV-Datei (kommagetrennter Wert) mit ASCII-Kodierung (Nicht-ASCII-Zeichen müssen HTML-kodiert sein) oder eine tabulatorgetrennte Datei für den Quelltext eines Informationbereichs für ein Bildset verwenden. Tabulatorgetrennte Dateien müssen die UTF-16-Kodierung (Unicode) verwenden. Verschiedene Dateitypen werden mithilfe unterschiedlicher Methoden importiert.
 
 Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 
@@ -68,7 +68,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 1. Doppelklicken Sie auf das Bildset, damit es in der Detailansicht geöffnet wird.
 1. Auswählen **[!UICONTROL InfoPanel-Daten-Feed]**.
 1. Geben Sie in das Textfeld der extern gehosteten CSV-Datei (HTTP) die URL der CSV-Datei ein.
-1. (Optional) Geben Sie in den Feldern Planung aktualisieren einen Zeitpunkt für die Inhaltsaktualisierung an und wählen Sie dann **[!UICONTROL Hinzufügen]**.
+1. (Optional) Geben Sie im Feld Planung aktualisieren einen Zeitpunkt für die Inhaltsaktualisierung an und wählen Sie dann **[!UICONTROL Hinzufügen]**.
 
    Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Textfeld „Zeiten aktualisieren“ angegeben. Um eine geplante Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
 

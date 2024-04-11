@@ -1,20 +1,18 @@
 ---
 title: Arbeiten mit Asset-Ordnern
 description: Erfahren Sie, wie Sie mit Asset-Ordnern in Adobe Dynamic Media Classic arbeiten.
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '449'
 ht-degree: 39%
 
 ---
@@ -41,10 +39,10 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 >
 >Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auf der linken Seite. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.
 
-## Ordner erstellen {#creating-folders}
+## Ordner erstellen
 
 1. Wählen Sie in der Asset-Bibliothek den Ordner aus, in dem Sie einen Unterordner erstellen möchten.
-1. Wählen Sie die **[!UICONTROL Ordner hinzufügen]** Schaltfläche. Dieses Symbol befindet sich oben in der Ordnerliste.
+1. Wählen Sie die **[!UICONTROL `Add Folder`]** Schaltfläche. Dieses Symbol befindet sich oben in der Ordnerliste.
 1. Geben Sie in das Feld neben dem Ordnersymbol einen beschreibenden Namen für Ihren neuen Ordner bzw. Unterordner ein.
 
    >[!NOTE]
@@ -55,7 +53,7 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen** - Wählen Sie die **[!UICONTROL Ordner löschen]** Schaltfläche. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen** - Wählen Sie die **[!UICONTROL `Remove Folder`]** Schaltfläche. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
 * **Umbenennen** - Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 

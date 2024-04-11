@@ -1,20 +1,18 @@
 ---
 title: Arbeiten in der Detailansicht
 description: Erfahren Sie, wie Sie in der Detailansicht in Adobe Dynamic Media Classic arbeiten.
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 20%
 
 ---
@@ -56,15 +54,15 @@ Um ein Asset genau zu untersuchen, eine Vorschau anzuzeigen oder zu bearbeiten, 
 
 ## Abrufen von Informationen in der Detailansicht {#getting-information-in-detail-view}
 
-Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Es werden diese Informationen zu einem Element angezeigt: der Ordner, in dem es gespeichert ist, der Dateiname, das Datum, an dem das Element in Adobe Dynamic Media Classic hochgeladen wurde, und der Veröffentlichungsverlauf. Sie können Metadaten auch anzeigen und bearbeiten sowie Suchbegriffe für ein Asset in der Detailansicht hinzufügen.
+Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Diese Informationen werden zu einem Element angezeigt: dem Ordner, in dem es gespeichert ist, dem Dateinamen, dem Datum, an dem das Element in Adobe Dynamic Media Classic hochgeladen wurde, und dem Veröffentlichungsverlauf. Sie können Metadaten auch anzeigen und bearbeiten sowie Suchbegriffe für ein Asset in der Detailansicht hinzufügen.
 
-Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst aktiv, wenn Sie das Asset veröffentlichen. Für Bilder bietet die Detailansicht auch eine Liste der erstellten und abgeleiteten Assets und Metadaten, z. B. Zoomziele und Bildsets.
+Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst aktiv, wenn Sie das Asset veröffentlichen. Für Bilder bietet die Detailansicht auch eine Liste erstellter und abgeleiteter Assets und Metadaten, z. B. Zoomziele und Bildsets.
 
 ## Arbeiten mit Assets in der Detailansicht {#working-with-assets-in-detail-view}
 
 Die Detailansicht bietet Tools zum Arbeiten mit dem von Ihnen geöffneten Asset. Welche Tools verfügbar sind, hängt vom Typ des Assets ab, mit dem Sie arbeiten. Die Detailansicht bietet jedoch immer die folgenden Funktionen:
 
-* **Elemente zur Veröffentlichung** - Wählen Sie die **[!UICONTROL Veröffentlichen]** auf der linken Seite des Namens oder navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
+* **Elemente zur Veröffentlichung** - Wählen Sie die **[!UICONTROL `Publish`]** auf der linken Seite des Namens oder navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
 * **Asset umbenennen** - Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 

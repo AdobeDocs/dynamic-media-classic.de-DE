@@ -1,21 +1,19 @@
 ---
 title: Anzeigen von Bildsets
 description: Erfahren Sie, wie Sie Bildsets in Adobe Dynamic Media Classic anzeigen können.
-uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 27%
+source-wordcount: '489'
+ht-degree: 22%
 
 ---
 
@@ -32,12 +30,12 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Erstellen oder bearbeiten Sie eine Viewer-Vorgabe auf der Seite &quot;Viewer-Vorgaben&quot;, indem Sie einen der folgenden Schritte ausführen:
 
-   * **Erstellen** - Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;in der Dropdown-Liste &quot;Viewer&quot;die Option **[!UICONTROL Zoom-Viewer]** und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können auch eine Zoom-Viewer-Vorgabe erstellen, indem Sie von einer vorhandenen Vorgabe ausgehen. Zeigen Sie den Namen der Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Geben Sie auf der Seite &quot;Viewer konfigurieren&quot;einen neuen Namen für die Vorgabe ein.
+   * **Erstellen** - Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;in der Dropdown-Liste &quot;Viewer&quot;die Option **[!UICONTROL Zoom-Viewer]** und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können auch eine Zoom-Viewer-Vorgabe erstellen, indem Sie von einer vorhandenen Vorgabe ausgehen. Zeigen Sie den Namen der Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Im `Configure Viewer` Seite, geben Sie einen neuen Namen für die Vorgabe ein.
 
    * **Bearbeiten** - Zeigen Sie den Namen einer Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Geben Sie auf der Seite &quot;Viewer konfigurieren&quot;im Textfeld Vorgabenname einen Namen für die Viewer-Vorgabe für das Musterset ein.
-1. Wählen Sie auf der Seite &quot;Viewer konfigurieren&quot;Optionen aus.
+1. Im `Configure Viewer` Geben Sie im Textfeld &quot;Vorgabenname&quot;einen Namen für die Viewer-Vorgabe &quot;Musterset&quot;ein.
+1. Wählen Sie Optionen im `Configure Viewer` Seite.
 
    Um eine Beschreibung einer Option anzuzeigen, wählen Sie die **[!UICONTROL Info-Tipp]** rechts neben der Option.
 
@@ -53,17 +51,17 @@ Mit der Vorschau können Sie sehen, wie ein Asset in einem bestimmten Viewer-Typ
 1. Durchsuchen Sie auf der linken Seite der Asset-Bibliothek die Asset-Ordner, um den Bildsatz auszuwählen, den Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus
 
-   * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Listenansicht]** Symbol. Bewegen Sie im Asset-Fenster den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).
+   * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Listenansicht]** Symbol. Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).
    * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Rasteransicht]** Symbol. Wählen Sie im Asset-Fenster in einem Asset-Miniaturfenster die Option **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).
    * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Detailansicht]** Symbol. Wählen Sie in derselben Symbolleiste die Option **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).
 
-1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren der Asset-URL auf diese angewendet werden soll.
+1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste am unteren Rand die URL-Kodierung aus, die beim Kopieren auf die URL des Assets angewendet werden soll.
 1. Um eine Vorschau des Assets im ausgewählten Viewer anzuzeigen, wählen Sie einen Viewer-Link aus.
 
    Wenn Sie einen bestimmten Viewer-Link auswählen, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
 
 1. Um zur Seite &quot;Vorschau&quot;zurückzukehren, schließen Sie den angezeigten Viewer.
-1. Klicken **[!UICONTROL Schließen]** , um zur Seite &quot;Assets&quot;zurückzukehren.
+1. Klicks **[!UICONTROL Schließen]** , um zur Seite Assets zurückzukehren.
 
 >[!MORELIKETHIS]
 >
