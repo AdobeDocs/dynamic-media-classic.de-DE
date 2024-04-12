@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 33%
+source-wordcount: '1470'
+ht-degree: 32%
 
 ---
 
 # Schnellstart: E-Kataloge{#quick-start-ecatalogs}
 
-Ein E-Katalog ist eine digitale Webversion von Druckwerbematerial, z. B. von Katalogen, Broschüren, Handzetteln, Produkthandbüchern oder Werberundschreiben. Ein E-Katalog wird auf einer Website in einem E-Katalog-Viewer angezeigt. Dieser Viewer simuliert denselben Leseeindruck wie beim Betrachten von Druckwerbematerial.
+Ein E-Katalog ist eine digitale Webversion von Druckwerbematerial, z. B. von Katalogen, Broschüren, Handzetteln, Produkthandbüchern oder Werberundschreiben. Ein E-Katalog wird auf einer Website in einem E-Katalog-Viewer angezeigt. Dieser Viewer simuliert die Erfahrung beim Lesen gedruckter Materialien.
 
 Siehe auch die folgenden Schulungsvideos:
 
@@ -64,7 +64,7 @@ Normalerweise werden Adobe PDF-Dateien als Grundlage für einen E-Katalog verwe
 
 Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um mit dem Hochladen von PDF-Dateien oder -Bildern für Ihren eCatalog zu beginnen. Sie können Dateien von Ihrem Desktop oder via FTP hochladen. FTP wird empfohlen, wenn Sie viele Dateien oder Dateien hochladen, die größer als 100 MB sind.
 
-Im Anzeigebereich „Hochladen“ finden Sie im Bereich „PDF-Optionen“ Einstellungen für das Hochladen von PDF-Dateien mit der angemessenen Auflösung und dem richtigen Farbraum. Eine Auflösung von 150 Pixel pro Zoll wird empfohlen. Wenn unmittelbar nach dem Hochladen einer PDF-Datei automatisch ein E-Katalog erstellt werden soll, wählen Sie die Option „E-Katalog automatisch erstellen“. 
+Im Anzeigebereich „Hochladen“ finden Sie im Bereich „PDF-Optionen“ Einstellungen für das Hochladen von PDF-Dateien mit der angemessenen Auflösung und dem richtigen Farbraum. Eine Auflösung von 150 Pixel pro Zoll wird empfohlen. Sie können die Option **[!UICONTROL eCatalog automatisch generieren]** , um beim Hochladen einer PDF-Datei einen eCatalog zu erstellen.
 
 Siehe [PDF-Dateien hochladen](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -84,7 +84,7 @@ Siehe [Erstellen eines eCatalog](creating-ecatalog.md).
 
 Imagemaps fügen eCatalog-Seiten einen weiteren Aspekt hinzu. Eine Imagemap ist ein Seitenbereich, mit dessen Hilfe weitere Informationen zu einem Element angezeigt werden können. Wenn Betrachter der Website den Mauszeiger über eine Imagemap bewegen, wird eine Beschreibung des Elements angezeigt. Durch Klicken auf eine Imagemap wird ein externer Verweis aktiviert, mit dem eine neue Website mit weiteren Informationen zu einem Element geöffnet wird.
 
-Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Gehen Sie dann zu **[!UICONTROL Seiten zuordnen]** auf dem eCatalog-Bildschirm angezeigt werden, und rahmen Sie die Karte mit dem Rechteck-Bild-Map-Tool oder dem Polygon-Imagemap-Tool. Durch Ziehen der Ränder mit dem Schwenken-Werkzeug  können Sie die Position und Größe von Imagemaps nachträglich ändern.
+Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Gehen Sie dann zu **[!UICONTROL Seiten zuordnen]** auf dem eCatalog-Bildschirm angezeigt werden, und rahmen Sie die Karte mit dem Rechteck-Bild-Map-Tool oder dem Polygon-Imagemap-Tool. Sie können die Position und Größe von Imagemaps anpassen, indem Sie mit dem Werkzeug Schwenken Kartenränder ziehen.
 
 Geben Sie nach dem Frame der Imagemap die URL-Adresse ein, die Sie verwenden möchten, wenn Sie die Imagemap auswählen. Sie können auch den Rollover-Text eingeben, der beim Bewegen des Mauszeigers über die Imagemap angezeigt werden soll. 
 
@@ -118,7 +118,7 @@ Siehe [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-e
 
 Durch das Veröffentlichen Ihres E-Katalogs und der zugehörigen PDF wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
 
-Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

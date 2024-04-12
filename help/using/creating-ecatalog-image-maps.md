@@ -1,21 +1,19 @@
 ---
 title: Erstellen von eCatalog-Imagemaps
 description: Erfahren Sie, wie Sie eCatalog-Imagemaps in Adobe Dynamic Media Classic erstellen.
-uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 40%
+source-wordcount: '1491'
+ht-degree: 36%
 
 ---
 
@@ -34,16 +32,16 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 
    * **Rechteckige Karte** - Wählen Sie das Rechteck-Bildzuordnungstool aus und ziehen Sie es auf die Seite, um das Rechteck zu erstellen.
 
-   * **Polygonale Karte** - Wählen Sie das Tool Polygon Image Map aus und wählen Sie dann so oft wie nötig den Bildbereich aus. Wie Sie auswählen, zeichnet Adobe Dynamic Media Classic die Ränder der Imagemap.
+   * **Polygonale Landkarte** - Wählen Sie das Tool Polygon Image Map aus und wählen Sie dann so oft wie nötig den Bildbereich aus. Wie Sie auswählen, zeichnet Adobe Dynamic Media Classic die Ränder der Imagemap.
 
      Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Imagemap-Liste zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der eCatalog-Seite an, auf der Sie arbeiten.
 
 1. (Optional) In der Liste &quot;Imagemap&quot;in der [!UICONTROL Name] können Sie einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
 1. Sie können Viewer eine neue Webseite öffnen lassen, wenn sie die Imagemap auswählen. Geben Sie im Imagemap-Liste-Bedienfeld in der Spalte „URL“ die URL der Webseite ein.
 
-   Um die Eingabe von URLs (Href-Vorlagen) zu vereinfachen, wählen Sie **[!UICONTROL Bearbeiten]** und geben Sie eine Vorlage ein.
+   Um die Eingabe von URLs (Href-Vorlagen) zu erleichtern, wählen Sie **[!UICONTROL Bearbeiten]** und geben Sie eine Vorlage ein.
 
-Siehe [Verwenden Sie eine Vorlage, um JavaScript und URLs einzugeben.](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+Siehe [Verwenden Sie eine Vorlage, um JavaScript und URLs einzugeben](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Optional) Wählen Sie in der Dropdownliste Anzeigen die Option **[!UICONTROL Rollover-Text]** und geben Sie dann den Text ein, den Benutzern auf dem Bildschirm angezeigt werden sollen, wenn sie ihre Zeiger über die Imagemap bewegen.
 1. (Optional) Wählen Sie in der Dropdownliste Anzeigen die Option **[!UICONTROL Andere Aktionen]** und geben Sie ein Attribut ein, um eine Weichzeichnung oder Fokusaktion Trigger, wenn Benutzer ihre Zeiger über eine Imagemap bewegen.
@@ -53,21 +51,21 @@ Siehe [Verwenden Sie eine Vorlage, um JavaScript und URLs einzugeben.](creating-
 1. Auswählen **[!UICONTROL Speichern]**.
 1. (Optional) Wählen Sie **[!UICONTROL Vorschau]** , um den eCatalog mit der standardmäßigen eCatalog-Viewer-Vorgabe anzuzeigen.
 
-Um eine Imagemap zu löschen, wählen Sie deren Namen in der Liste &quot;Imagemap&quot;aus und klicken Sie auf **[!UICONTROL Löschen]**. Um eine Imagemap vorübergehend auf einer Seite zu deaktivieren, ohne sie jedoch zu löschen, deaktivieren Sie im Imagemap-Liste-Bedienfeld die Option „Ein“ der jeweiligen Imagemap.
+Um eine Imagemap zu löschen, wählen Sie deren Namen in der Liste &quot;Imagemap&quot;aus und klicken Sie auf **[!UICONTROL Löschen]**. Um eine Imagemap vorübergehend auf einer Seite zu deaktivieren, ohne die Imagemap zu löschen, deaktivieren Sie im Bereich &quot;Imagemap-Liste&quot;die Option &quot;Ein&quot;der Imagemap.
 
 ## Rich Media in einen eCatalog einbetten {#embedding-rich-media-in-an-ecatalog}
 
-Mit der Rich-Media-Option des E-Katalogs können Sie Videos im MP4-Format oder Rotationssets zu Imagemaps hinzufügen, die Sie in einen E-Katalog eingefügt haben. Wenn ein Benutzer den Bereich &quot;Imagemap&quot;im eCatalog auswählt, wird das zugehörige Rotationsset oder Video angezeigt. Diese Funktion ist besonders hilfreich, wenn Sie möchten, dass die Kunden einen Artikel in Aktion oder einen Artikel aus unterschiedlichen Blickwinkeln und Perspektiven sehen können.
+Sie können die Rich-Media-Option des eCatalog verwenden, um Videos im MP4-Format oder Rotationssets zu Imagemaps hinzuzufügen, die Sie einem E-Katalog hinzugefügt haben. Wenn ein Benutzer den Bereich &quot;Imagemap&quot;im eCatalog auswählt, wird das zugehörige Rotationsset oder Video angezeigt. Diese Funktion ist besonders hilfreich, wenn Sie möchten, dass die Kunden einen Artikel in Aktion oder einen Artikel aus unterschiedlichen Blickwinkeln und Perspektiven sehen können.
 
 Sie können optional auch QuickInfo-Text anzeigen, wenn Kunden ihre Zeiger über Ihre Imagemap bewegen, damit sie wissen, was sie auswählen.
 
-**So betten Sie Rich-Media-Daten in einen E-Katalog ein:**
+**So betten Sie Rich Media in einen eCatalog ein:**
 
 1. Zeichnen Sie eine E-Katalog-Imagemap. 
 
    Siehe [Zeichnen von eCatalog-Imagemaps](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
-1. Wählen Sie in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Rich Media]**.
+1. Wählen Sie in der Dropdownliste Anzeigen die Option **[!UICONTROL Rich Media]**.
 1. Navigieren Sie im Bedienfeld „Assets hinzufügen“ links zu einem Ordner, der das Rotationsset oder Video-Asset (MP4-Format) enthält, das Sie einbetten möchten.
 1. Ziehen Sie das Asset auf die Imagemap.
 1. (Optional) Im Listenbereich &quot;Imagemap&quot;unter **[!UICONTROL QuickInfo]** Spaltenüberschrift den Text eingeben, den Betrachtern angezeigt werden sollen, wenn sie den Mauszeiger über die Imagemap bewegen.
@@ -114,7 +112,7 @@ Um den Bildschirm &quot;Map Summary&quot;anzuzeigen, wählen Sie auf der Registe
    Im Anzeigebereich mit der Imagemap-Zusammenfassung wird die Anzahl der im E-Katalog enthaltenen Imagemaps, URLs, Rollover-Textbeschreibungen und anderen Aktionen angezeigt.
 
 1. Wenn Rollover-Schlüsselfehler auftreten, wählen Sie den Fehler im **[!UICONTROL Rollover_key-Fehler]** in der Spalte, um zu sehen, was sich im Arbeitsblatt ändern muss, um den Fehler zu korrigieren. Sie können den Text dieser Meldung kopieren und direkt in Ihre Tabelle einfügen.
-1. Auswählen **[!UICONTROL Vorschau]** damit Sie eine Seite im E-Katalog-Viewer untersuchen können; Wählen Sie das X aus, um den Zusammenfassungsbildschirm zu schließen und zum Bildschirm &quot;Zuordnungsseiten&quot;zurückzukehren, oder wählen Sie **[!UICONTROL Schließen]** , um zu &quot;Durchsuchen&quot;zurückzukehren.
+1. Auswählen **[!UICONTROL Vorschau]** Sie können eine Seite im E-Katalog-Viewer untersuchen. Wählen Sie das X aus, um den Zusammenfassungsbildschirm zu schließen und zum Bildschirm &quot;Zuordnungsseiten&quot;zurückzukehren, oder wählen Sie **[!UICONTROL Schließen]** , um zu &quot;Durchsuchen&quot;zurückzukehren.
 
 ### Importieren von Imagemap-Daten {#import-image-map-data}
 
@@ -141,7 +139,7 @@ Sie können alle Imagemaps in einem E-Katalog in einen anderen E-Katalog kopiere
 
 Gehen Sie wie folgt vor, um alle Imagemaps in einem eCatalog in einen anderen eCatalog zu kopieren:
 
-1. Wählen Sie den E-Katalog mit den zu kopierenden Imagemaps aus und wählen Sie den Rollover des E-Katalogs aus **[!UICONTROL Bearbeiten]** Schaltfläche.
+1. Wählen Sie den E-Katalog mit den zu kopierenden Imagemaps aus und wählen Sie den Rollover des E-Katalogs aus. **[!UICONTROL Bearbeiten]** Schaltfläche.
 1. Wählen Sie auf der Registerkarte Seiten sortieren die Option **[!UICONTROL Maps kopieren]**.
 1. Wählen Sie im Dialogfeld &quot;Select Asset&quot;den E-Katalog aus, in den Sie die Imagemaps kopieren möchten, und klicken Sie dann auf **[!UICONTROL Auswählen]**.
 

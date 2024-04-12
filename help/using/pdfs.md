@@ -1,21 +1,19 @@
 ---
 title: Arbeiten mit PDF
 description: Erfahren Sie, wie Sie mit PDF in Adobe Dynamic Media Classic arbeiten.
-uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 36%
+source-wordcount: '723'
+ht-degree: 28%
 
 ---
 
@@ -23,9 +21,9 @@ ht-degree: 36%
 
 PDF-Dateien (Portable Document Format) werden in Adobe Dynamic Media Classic meist zum Erstellen von E-Katalogen verwendet. Wenn Sie eine PDF-Datei hochladen, rastert Adobe Dynamic Media Classic die Seiten standardmäßig, sodass die Seiten zum Erstellen von Rich-Media-Daten verwendet werden können.
 
-Wenn Sie eine PDF zur Seitenextraktion hochladen, erzwingt Adobe die folgende Einschränkung:
+Wenn Sie eine PDF für die Seitenextraktion hochladen, erzwingt Adobe die folgende Einschränkung:
 
-| Begrenzungstyp | Begrenzung auferlegt | Änderung der Beschränkung am 31. Dezember 2022 |
+| Begrenzungstyp | Erzwungene Beschränkung | Änderung der Beschränkung am 31. Dezember 2022 |
 | --- | --- | --- |
 | Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll | 5000 (für neue Uploads) | 100 (für alle PDF) |
 
@@ -33,7 +31,7 @@ Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
 
 ## Optionen für das Hochladen von PDF-Dateien {#pdf-upload-options}
 
-Eine PDF-Datei, die Sie hochladen, können Sie auf verschiedene Weisen formatieren. Sie können Seiten beschneiden, Suchbegriffe extrahieren, eine ppi-Auflösung (Pixel pro Zoll) eingeben und einen Farbraum auswählen. PDF-Dateien enthalten oft einen Beschnittrand, Schnittmarken, Passermarken und sonstige Druckmarken. Sie können diese Marken beim Hochladen der PDF-Datei an den Kanten der Seiten abschneiden.
+Eine PDF-Datei, die Sie hochladen, können Sie auf verschiedene Weisen formatieren. Sie können Seiten beschneiden, Suchbegriffe extrahieren, eine ppi-Auflösung (Pixel pro Zoll) eingeben und einen Farbraum auswählen. PDF-Dateien enthalten oft einen Schnitt-, Zuschnitt-, Registrierungs- und andere Druckermarkierungen. Sie können diese Marken beim Hochladen der PDF-Datei an den Kanten der Seiten abschneiden.
 
 Die Optionen zum Hochladen von PDF-Dateien finden Sie auf der Seite Hochladen unter PDF-Optionen.
 
@@ -51,7 +49,7 @@ Die Optionen zum Hochladen von PDF-Dateien finden Sie auf der Seite Hochladen un
 
 Legt die Auflösungseinstellung fest. Mit dieser Einstellung wird bestimmt, wie viele Pixel pro Zoll in der PDF-Datei angezeigt werden. Der Standardwert ist 150.
 
-### Farbraum optionen
+### Optionen für Farbraum
 
 Wählen Sie im Menü „Farbraum“ einen Farbraum für die PDF-Datei aus. Die meisten PDF-Dateien enthalten sowohl RGB- als auch CMYK-Farbbilder. Der RGB-Farbraum eignet sich besonders gut, um die Datei online anzuzeigen.
 
@@ -65,7 +63,7 @@ Wählen Sie im Menü „Farbraum“ einen Farbraum für die PDF-Datei aus. Die m
 
 ### Farbprofiloptionen
 
-* **[!UICONTROL In sRGB konvertieren]** - Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
+* **[!UICONTROL In sRGB konvertieren]** - Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf einer Webseite.
 
 * **[!UICONTROL Originalfarbraum beibehalten]** - Behält den ursprünglichen Farbraum bei.
 
@@ -80,7 +78,7 @@ Siehe auch [ICC-Profile](/help/using/icc-profiles.md#icc_profiles).
 
    * **[!UICONTROL Entfernen basierend auf]** - Wählen Sie anhand von Farbe oder Transparenz aus, ob Zuschnitte vorgenommen werden sollen:
 
-      * **[!UICONTROL Farbe]** - Wählen Sie die Option Farbe aus. Wählen Sie dann die **[!UICONTROL Ecke]** und wählen Sie die Ecke des PDF mit der Farbe aus, die am besten der zu beschneidenden Leerraumfarbe entspricht.
+      * **[!UICONTROL Farbe]** - Wählen Sie die Option Farbe aus. Wählen Sie dann die **[!UICONTROL Ecke]** und wählen Sie die Ecke des PDF mit der Farbe aus, die am besten der zu beschneidenden Leerraum-Farbe entspricht.
 
       * **[!UICONTROL Transparenz]** - Wählen Sie die Option Transparenz aus.
 
@@ -88,13 +86,13 @@ Siehe auch [ICC-Profile](/help/using/icc-profiles.md#icc_profiles).
 
    * **[!UICONTROL Beschneiden anhand der Farbe]** - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Ecke des PDF ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-   * **[!UICONTROL Auf Transparenz basierende Beschneidung]** - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, erlauben mehr Transparenz.
+   * **[!UICONTROL Auf Transparenz basierende Beschneidung]** - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, ermöglichen mehr Transparenz.
 
-## Beschneiden von Seiten auf PDF-Seiten {#cropping-from-the-sides-of-pdf-pages}
+## Beschneiden von den Seiten der PDF-Seiten {#cropping-from-the-sides-of-pdf-pages}
 
-Sie können die Druckmarken an den Kanten der Seiten in einer PDF-Datei beim Hochladen manuell entfernen.
+Sie können die Druckmarkierungen beim Hochladen manuell von den Seiten in einer PDF-Datei entfernen.
 
-1. Wählen Sie im Menü Beschneiden die Option **[!UICONTROL Manuell]**.
+1. Wählen Sie im Menü Zuschneiden die Option **[!UICONTROL Manuell]**.
 1. Geben Sie in die Textfelder „Oben“, „Rechts“, „Unten“ und „Links“ Pixelwerte für den Bereich ein, der am jeweiligen Bildrand abgeschnitten werden soll.
 
-Wie viel von der Seite tatsächlich abgeschnitten wird, hängt davon ab, welchen Wert Sie für die Auflösungseinstellung „Pixel/Zoll“ der PDF-Datei eingeben. Angenommen, Sie geben 150 (Standard) als Einstellung &quot;Auflösung PX/Zoll&quot;ein. Anschließend schneiden Sie 75 Pixel von den Seiten ab. In diesem Fall 0,5 Zoll. zugeschnitten ist. Bei 150 Pixel pro Zoll entsprechen 75 Pixel einem halben Zoll.
+Wie viel von der Seite tatsächlich abgeschnitten wird, hängt davon ab, welchen Wert Sie für die Auflösungseinstellung „Pixel/Zoll“ der PDF-Datei eingeben. Angenommen, Sie geben 150 (Standard) als Einstellung &quot;Auflösung PX/Zoll&quot;ein. Anschließend beschneiden Sie die Seiten um 75 Pixel. In diesem Fall 0,5 Zoll. zugeschnitten ist. Bei 150 Pixel pro Zoll entsprechen 75 Pixel einem halben Zoll.

@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 33%
+source-wordcount: '1437'
+ht-degree: 30%
 
 ---
 
@@ -60,7 +60,7 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
   Das adaptive Video-Streaming wird auf verschiedenen iOS-Plattformen unterstützt.
 
-  Siehe neueste Unterstützung im Abschnitt . [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Siehe neueste Unterstützung im Abschnitt . [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -98,11 +98,11 @@ Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden 
 * **Hochladen vorkodierter Videos** - Wenn Ihre Videos bereits außerhalb von Adobe Dynamic Media Classic kodiert wurden, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um MP4-Videodateien direkt zu Adobe Dynamic Media Classic zu durchsuchen und hochzuladen. Gehen Sie dann zu **[!UICONTROL Build]** > **[!UICONTROL Adaptive Videosets]**. Navigieren Sie zu Ihren Videodateien. Ziehen Sie die gewünschten Videodateien per Drag-and-Drop in die Tabelle Adaptives Videoset und speichern Sie das Set.
 * **Hochladen von Primärvideos** - Wenn Ihre Videos nicht kodiert sind, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um die Primärvideoquelldateien (nicht MP4) hochzuladen. Adobe Dynamic Media Classic kodiert sie in MP4-Dateien für Sie. Im **[!UICONTROL Upload-Auftragsoptionen]** Dialogfeld, unter **[!UICONTROL eVideooptionen]** auswählen **[!UICONTROL Adaptives Video]**.
 
-  Mit dieser bevorzugten Option können Sie ein adaptives Videoset erstellen, das automatisch die korrekte Kodierungsvorgabe (16:9 oder 4:3) entsprechend den Abmessungen des hochgeladenen Videos anpasst. Wenn Sie Ihren Upload-Auftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videoeinstellungen im richtigen Seitenverhältnis kodiert.
+  Mit dieser bevorzugten Option können Sie adaptive Videosets erstellen, die automatisch die richtige Kodierungsvorgabe auf das Video anwenden, unabhängig davon, ob es sich um 16:9 oder 4:3 handelt, um sie mit den Dimensionen des hochgeladenen Videos abzugleichen. Wenn Sie Ihren Upload-Auftrag senden, wird automatisch ein adaptives Videoset erstellt, das drei Videoeinstellungen im richtigen Seitenverhältnis kodiert.
 
   Oder im selben **[!UICONTROL Auftragsoptionen]** Dialogfeld, unter **[!UICONTROL eVideooptionen]**, erweitern **[!UICONTROL Einzelne Kodierungsvorgaben]**. Auswählen einzelner Videokodierungsvorgaben, aus denen Sie möchten **Desktop**, **Mobil (iPhone, iPad, Android™)**, und **Tablet (iPad, Android™)** sodass Sie die MP4-Dateien erstellen.
 
-* Alternativ können Sie ein Primärvideo mithilfe der **[!UICONTROL Neuverarbeitung]** Funktion. Die neu kodierten Videos werden dem vorhandenen adaptiven Videoset hinzugefügt.
+* Alternativ können Sie ein Primärvideo mithilfe der **[!UICONTROL Wiederaufbereitung]** Funktion. Die neu kodierten Videos werden dem vorhandenen adaptiven Videoset hinzugefügt.
 
 Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 

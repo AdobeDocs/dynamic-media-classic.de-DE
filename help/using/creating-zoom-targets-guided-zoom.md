@@ -1,21 +1,19 @@
 ---
 title: Zoomziele für geführten Zoom erstellen
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Zoomziele für geführtes Zoomen erstellen.
-uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 41%
+source-wordcount: '730'
+ht-degree: 42%
 
 ---
 

@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 55%
+source-wordcount: '871'
+ht-degree: 53%
 
 ---
 
 # Verwalten von Inhalten im Informationsbereich in E-Katalogen{#managing-info-panel-content-in-ecatalogs}
 
-Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darüber hinaus besteht jedoch auch die Möglichkeit, anhand eines Infofelds größere Mengen von Rollover-Text, einschließlich Links, hinzuzufügen. Zur Verwaltung des Infofelds können Sie zeitlich begrenztes Caching und geplante Inhaltsaktualisierungen verwenden.
+Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darüber hinaus besteht jedoch auch die Möglichkeit, anhand eines Infofelds größere Mengen von Rollover-Text, einschließlich Links, hinzuzufügen. Sie können das InfoPanel auch verwalten, indem Sie zeitgesteuerte Zwischenspeicherung verwenden und Inhaltsaktualisierungen planen.
 
 Sie können die Einrichtung und die Daten des InfoPanel mit den folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
@@ -68,7 +68,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 1. Doppelklicken Sie auf den eCatalog, damit er in der Detailansicht geöffnet wird.
 1. Wählen Sie die **[!UICONTROL InfoPanel-Daten-Feed]** Bedienfeld.
 1. Geben Sie die URL für die CSV-Datei in das Feld „Speicherort der extern gehosteten CSV-Datei (HTTP)“ ein. Sie können diese URL in das Feld kopieren oder sie direkt eintippen.
-1. (Optional) Geben Sie einen Zeitpunkt für die Aktualisierung des Inhalts mithilfe der Menüs Aktualisierung planen an und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
+1. (Optional) Geben Sie einen Zeitpunkt für die Inhaltsaktualisierung über das Menü Zeitplanaktualisierung an und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
 1. (Optional) Wählen Sie **[!UICONTROL Update jetzt ausführen]** , um den Inhalt sofort zu aktualisieren.
 
 ### Importieren einer tabulatorgetrennten oder CSV-Datei {#import-a-tab-delimited-or-csv-file}

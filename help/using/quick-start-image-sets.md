@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 14%
@@ -78,7 +78,7 @@ Beim Veröffentlichen eines Bildsets wird es auf Adobe Dynamic Media Classic-Ser
 >
 >Dieser Schritt ist bei Auswahl von nicht erforderlich. **[!UICONTROL Nach dem Speichern veröffentlichen]** (Standard) zum Zeitpunkt der Erstellung und Speicherung des Bildsets.
 
-Auswählen **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite Veröffentlichen die Option **[!UICONTROL Veröffentlichen senden]**.
+Auswählen **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
 

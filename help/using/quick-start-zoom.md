@@ -1,21 +1,19 @@
 ---
-title: "Kurzanleitung: Zoom"
+title: "Schnellstart: Zoom"
 description: Eine Einführung und ein Schnellstart zum Zoomen, um Ihnen den schnellen Einstieg zu ermöglichen.
-uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 25%
+source-wordcount: '844'
+ht-degree: 28%
 
 ---
 
@@ -25,7 +23,7 @@ Mit Zoom können Sie interaktiv hochauflösende Details in Bildern anzeigen. Sie
 
 Adobe Dynamic Media Classic bietet auch geführtes Zoomen - ein Mittel, um die wichtigen Funktionen eines Bildes hervorzuheben. Wenn Sie die Aufmerksamkeit der Betrachter beispielsweise auf ein Logo lenken möchten, können Sie ein Zoomziel für das Logo erstellen. Wenn Benutzer dieses Zoomziel auswählen, zoomen sie auf das Logo.
 
-Alle Zoombilder werden aus einzelnen Primärbildern, Grafiken und datenbankgesteuerten Attributen erstellt und bereitgestellt. Durch die Zoomfunktion von Adobe Dynamic Media Classic werden Zeit und Kosten für die Produktion und Bereitstellung von Bildern erheblich reduziert. Mit Zoom-Viewern können Sie Bilder ein- und auszoomen. Der Zoom-Viewer verfügt über Schaltflächen, mit denen Sie zoomen und schwenken können. Sie können auch das Schwenken durchführen, indem Sie auf den Bildschirm ziehen. Mithilfe von Zoom-Viewer-Vorgaben können Sie den Zoom-Viewer für das Zoomen von Bildern konfigurieren.
+Alle Zoombilder werden aus einzelnen Primärbildern, Grafiken und datenbankgesteuerten Attributen erstellt und bereitgestellt. Durch die Zoomfunktion von Adobe Dynamic Media Classic werden Zeit und Kosten für die Produktion und Bereitstellung von Bildern erheblich reduziert. Mit Zoom-Viewern können Sie Bilder ein- und auszoomen. Der Zoom-Viewer verfügt über Schaltflächen zum Zoomen und Schwenken. Sie können auch das Schwenken durch Ziehen auf den Bildschirm aktivieren. Mithilfe von Zoom-Viewer-Vorgaben können Sie den Zoom-Viewer für das Zoomen von Bildern konfigurieren.
 
 Siehe [Zoomziel: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/559_Zoom%20Target%20Tool_converted%20renamed_Dynamic%20Imaging-AVS) und [Zoom: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/560_Zoom_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideos.
 
@@ -45,9 +43,9 @@ Um ein Zoomziel zu erstellen, wählen Sie **[!UICONTROL Bearbeiten]** und &quot;
 
 ## 3. Einrichten von Zoom-Viewer-Vorgaben
 
-Mithilfe von Zoom-Viewer-Vorgaben wird der Stil und das Verhalten von Zoom-Viewern festgelegt. Sie können Zoom-Viewer-Vorgaben einrichten, wenn Sie Administrator sind. Adobe Dynamic Media Classic enthält auch standardmäßige Zoom-Viewer-Vorgaben vom Typ &quot;Best Practice&quot;.
+Mithilfe von Zoom-Viewer-Vorgaben wird der Stil und das Verhalten von Zoom-Viewern festgelegt. Sie können Zoom-Viewer-Vorgaben einrichten, wenn Sie Administrator sind. Adobe Dynamic Media Classic verfügt auch über standardmäßige Zoom-Viewer-Vorgaben (Best Practice).
 
-Um eine Zoom-Viewer-Vorgabe zu erstellen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**. Wählen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die Option **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform und einen Zoom-Viewer aus und klicken Sie auf **[!UICONTROL Hinzufügen]**. Wählen Sie dann Optionen auf der Seite Viewer konfigurieren aus.
+Um eine Zoom-Viewer-Vorgabe zu erstellen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**. Wählen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die Option **[!UICONTROL Hinzufügen]**, wählen Sie eine Plattform und einen Zoom-Viewer aus und klicken Sie auf **[!UICONTROL Hinzufügen]**. Wählen Sie dann Optionen auf der `Configure Viewer` Seite.
 
 Adobe Dynamic Media Classic-Angebote **[!UICONTROL Zoom-Viewer-Vorgabe]** -Optionen, mit denen Sie den Schaltflächenstil und das Gesamterscheinungsbild des Viewers auswählen können. Sie können auch die Zoomeinstellungen für Ihre Website anpassen. Siehe [Einrichten von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
@@ -55,7 +53,7 @@ Adobe Dynamic Media Classic-Angebote **[!UICONTROL Zoom-Viewer-Vorgabe]** -Optio
 
 Um vorab zu sehen, wie die gezoomten Bilder aussehen werden, können Sie eine Vorschau der Bilder in einem Zoom-Viewer anzeigen.
 
-Um verschiedene Zoom-Viewer-Vorgaben zu untersuchen und wie sie das Zoom-Erlebnis darstellen, wählen Sie ein Bild im Durchsuchenbedienfeld aus und wählen Sie **[!UICONTROL Vorschau]**. Navigieren Sie zu **[!UICONTROL Vorgaben]** > **[!UICONTROL Zoom]** und wählen Sie dann eine Vorgabe mit den Zoommenüs aus.
+Um verschiedene Zoom-Viewer-Vorgaben zu untersuchen und wie sie das Zoom-Erlebnis darstellen, wählen Sie ein Bild im Durchsuchenbedienfeld aus und wählen Sie **[!UICONTROL Vorschau]**. Navigieren Sie zu **[!UICONTROL Vorgaben]** > **[!UICONTROL Zoom]** und wählen Sie dann eine Vorgabe im Menü Zoom aus.
 
 Die Zoomschaltflächen werden angezeigt. Sie können sehen, wie die Zoombilder auf der Website dargestellt werden. Wählen Sie die Zoom-Schaltflächen (und Zoomziele) aus, damit Sie die Einstellungen der ausgewählten Zoom-Viewer-Vorgabe testen können. Siehe [Vorschau von Bildern mit unterschiedlichen Zoom-Viewern](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
@@ -63,7 +61,7 @@ Die Zoomschaltflächen werden angezeigt. Sie können sehen, wie die Zoombilder a
 
 Beim Veröffentlichen Ihrer Zoombilder werden diese auf Dynamic Media-Bildservern platziert, damit sie auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic URL-Zeichenfolgen. Diese URL-Zeichenfolgen rufen Zoombilder von Dynamic Media-Bildservern auf Ihre Website oder Anwendung auf.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**. Wählen Sie im Dialogfeld Veröffentlichen die Option **[!UICONTROL Veröffentlichung übermitteln]**. Siehe [Veröffentlichen von Zoombildern](publishing-zoom-images.md#publishing_zoom_images).
+Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**. Wählen Sie im Dialogfeld &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**. Siehe [Veröffentlichen von Zoombildern](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Verknüpfen Sie Zoom-Viewer mit Ihrer Web-Seite
 

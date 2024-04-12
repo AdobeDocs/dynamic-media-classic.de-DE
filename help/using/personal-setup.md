@@ -1,27 +1,25 @@
 ---
 title: Persönliche Einstellungen
 description: Alle Benutzer können die Einstellungen im Bildschirm "Persönliche Einstellungen"von Adobe Dynamic Media Classic ändern.
-uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 25%
+source-wordcount: '827'
+ht-degree: 23%
 
 ---
 
 # Persönliche Einstellungen {#personal-setup}
 
-Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von allen Benutzern geändert werden. Um den Bildschirm &quot;Persönliche Einstellungen&quot;zu öffnen, navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]**.
+Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von allen Benutzern geändert werden. Navigieren Sie zum Öffnen des Bildschirms Persönliche Einstellungen zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]**.
 
 >[!NOTE]
 >
@@ -35,8 +33,8 @@ Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewi
 
 ## Desktop
 
-* **Bild-Cache löschen** - Entfernt alle im Adobe Dynamic Media zwischengespeicherten Bilddateien aus Ihrem Computer.
-* **Asset-Cache löschen** - Entfernt alle Adoben, in denen Dynamic Media Asset-Dateien von Ihrem Computer zwischenspeichert.
+* **Bild-Cache löschen** - Entfernt alle zwischengespeicherten Adobe Dynamic Media-Bilddateien von Ihrem Computer.
+* **Asset-Cache löschen** - Entfernt alle Adobe Dynamic Media-Caches von Asset-Dateien von Ihrem Computer.
 
 Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm löschen, sondern auch den Cache direkt aus dem Dateisystem löschen. Navigieren Sie je nach Betriebssystem zu Folgendem:
 
@@ -66,9 +64,9 @@ Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm lösche
 
 |If you are running|Do this|
 |--- |--- |
-|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, select CC-2014 > mac64.</li><li>Select libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator’s package contents folder, right-select on the Adobe illustrator CC 2014 icon and select Show Package Contents from context menu).</li><li>Return to the same libraries folder, select `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
-|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
-|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, select CC-2014 > mac64.</li><li>Select libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator's package contents folder, right-select on the Adobe illustrator CC 2014 icon and select Show Package Contents from context menu).</li><li>Return to the same libraries folder, select `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
 The plug-in is now available for you to use in Adobe Illustrator. -->
 
@@ -79,7 +77,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Standardmäßige Sortierreihenfolge für Durchsuchen]** - Bestimmt die Reihenfolge, in der Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
 * **[!UICONTROL Standardspeicherort für Durchsuchen]** - Hiermit können Sie den Durchsuchspeicherort auf den Standardwert, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und ihn identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
 * **[!UICONTROL Standardmäßige Durchsuchen-Ansicht]** - Bestimmt, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie beim ersten Öffnen des Bedienfelds &quot;Durchsuchen&quot;sehen.
-* **[!UICONTROL Startbildschirm]** - Bestimmt, ob Begrüßungsbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
+* **[!UICONTROL Splash Screen Display]** - Bestimmt, ob Begrüßungsbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
 * **[!UICONTROL ToolTips anzeigen]** - Bestimmt, ob QuickInfos angezeigt werden, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationslinks bewegen. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
 * **[!UICONTROL Hintergrund der Tafel]** - Zeigt hinter Bildern eine Checkerboard-Ebene an, sodass Sie die transparenten Bereiche eines Bildes mit einem Alphakanal leicht sehen können.
 * **[!UICONTROL Dateigröße anzeigen]** - Zeigt die Dateigröße eines Assets beim Durchsuchen an.
@@ -93,7 +91,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL Einfacher Suchtyp]** - Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die vollständige Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als **[!UICONTROL Enthält]**. Jede der Optionen setzt die in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Programmeinstellungen]** durch den Administrator.
 * **[!UICONTROL Befehls-Feedback anzeigen]** - Aktivieren Sie diese Option, um die Anzeige von Befehlsanforderungen an den Server zu aktivieren. Deaktivieren Sie diese Option, um sie zu deaktivieren.
-* **[!UICONTROL Dialogfeld beim Export anzeigen]** - Wählen Sie diese Option, um während eines Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie weiterhin zur Seite &quot;Aufträge&quot;wechseln, um die Ergebnisse Ihres Exports abzurufen.
+* **[!UICONTROL Dialogfeld beim Export anzeigen]** - Wählen Sie diese Option, um während eines Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie weiterhin zur Seite &quot;Aufträge&quot;navigieren, um die Ergebnisse Ihres Exports abzurufen.
 
 ## E-Mail an Freunde senden
 
@@ -115,4 +113,4 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
    * mindestens eine Zahl enthalten.
    * mindestens eines der folgenden Sonderzeichen enthalten: `# $ & - _ : { }`
 * **[!UICONTROL Kennwort erneut eingeben]** - Geben Sie das neue Kennwort erneut ein, um zu bestätigen, dass Sie es korrekt eingeben.
-* **[!UICONTROL Passwortablauf]** - Bestimmt, ob Ihr Kennwort als Sicherheitsmaßnahme nach 72 Tagen abläuft. Wenn Sie „Ja“ wählen, werden Sie nach 72 Tagen aufgefordert, ein neues Kennwort zu erstellen.
+* **[!UICONTROL Passwortablauf]** - Bestimmt, ob Ihr Kennwort als Sicherheitsmaßnahme nach 72 Tagen abläuft. Wenn Sie &quot;Ja&quot;ausgewählt haben, werden Sie nach 72 Tagen aufgefordert, ein Kennwort zu erstellen.

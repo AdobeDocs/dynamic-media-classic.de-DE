@@ -1,20 +1,18 @@
 ---
 title: Über benutzergenerierte Inhalte in Adobe Dynamic Media Classic
 description: Eine Einführung in benutzergenerierte Inhalte.
-uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
-discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 33%
 
 ---
 
@@ -38,7 +36,7 @@ Sie erhalten einen gemeinsamen geheimen Schlüssel, bevor Sie Assets hochladen. 
 
 Wenn Sie einen gemeinsamen geheimen Schlüssel und ein Upload-Token erhalten haben, können Sie die folgenden Vorgänge für benutzergenerierte Inhalte ausführen:
 
-* Hochladen eines Assets.
+* Laden Sie ein Asset hoch.
 * Abrufen von Asset-Metadaten für Bilder
 * Löschen eines hochgeladenen Assets. 
 * Erhalten Sie Informationen zur Festplattenspeicherplatznutzung eines Unternehmens.

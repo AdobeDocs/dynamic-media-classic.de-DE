@@ -10,10 +10,10 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ Beim Veröffentlichen werden der E-Katalog und die PDF auf Dynamic Media-Image-S
 
    Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld &quot;Publishing&quot;die Option **[!UICONTROL Erweitert]**. Aus dem **[!UICONTROL Veröffentlichen]** Dropdown-Menü auswählen **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
 
-1. Klicken Sie auf **[!UICONTROL Veröffentlichung]**.
+1. Auswählen **[!UICONTROL Veröffentlichen senden]**.
 
 >[!MORELIKETHIS]
 >

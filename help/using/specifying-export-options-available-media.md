@@ -1,20 +1,18 @@
 ---
 title: Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen
 description: Erfahren Sie, wie Sie Exportoptionen angeben, die für Media Portal-Benutzer in Adobe Dynamic Media Classic verfügbar sind.
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 41%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -38,7 +36,7 @@ Siehe auch [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-as
 
      Wann **[!UICONTROL Pixel]** werden aus dem **[!UICONTROL Größe]** Dropdown-Liste, die resultierende Bildbreite × -höhe darf 100 Millionen Pixel nicht überschreiten. Diese Größe entspricht 10.000 × 10.000 Pixel für ein quadratisches Bild oder etwa 8.000 × 12.000 Pixel für ein Seitenverhältnis von 2 x 3. Diese Größenbeschränkung gilt nicht, wenn Sie Originalbilder exportieren.
 
-     Wenn diese Option deaktiviert ist, können Benutzer nur Dateien herunterladen, ohne sie dabei neu zu formatieren.
+     Deaktivieren Sie diese Option, damit Benutzer Dateien herunterladen können, ohne sie beim Herunterladen neu zu formatieren.
 
    * **Export Original aktivieren** - Ermöglicht den Export von ursprünglichen Primärbildern. Im **[!UICONTROL Ausgewählte Assets exportieren]** Bedienfeld, können Benutzer die **[!UICONTROL Konversion]** Dropdown-Menü und wählen Sie **[!UICONTROL Original exportieren]** um die Originaldateien zu exportieren. Deaktivieren Sie diese Option, wenn Sie Benutzer zwingen möchten, eine Bildvorgabe auszuwählen oder beim Exportieren von Bildern Konvertierungsoptionen auszuwählen.
 

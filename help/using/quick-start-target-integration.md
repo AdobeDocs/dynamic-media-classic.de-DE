@@ -1,21 +1,19 @@
 ---
 title: "Schnellstart: Integration von Adobe Target Standard/Premium"
 description: Eine Einführung in Adobe Target Standard/Premium und ein Schnellstart für den schnellen Einstieg in die Adobe Target Standard/Premium-Integrationstechniken in Adobe Dynamic Media Classic.
-uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
-discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 7%
+source-wordcount: '511'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +23,7 @@ Adobe Target Standard/Premium überlässt Marketing-Experten direkt die Kontroll
 
 Mit Adobe Dynamic Media Classic können Sie Angebote und Angebotssets für Adobe Target Standard-/Premium-Kampagnen erstellen. Sie können beispielsweise ein Angebotsset mit drei Varianten desselben Rich-Media-Assets erstellen. Dann können Sie Adobe Target Standard/Premium festlegen, welches Asset eine bessere Konversionssteigerung bietet. Sie können Angebote und Angebotssets aus einer einfachen Vorlage oder aus einzelnen Bildern erstellen. Nachdem das Angebotsset in Adobe Target Standard/Premium gepusht oder gespeichert wurde, wo die Angebote Mboxes und Erlebnissen zugeordnet sind, kann Adobe Target Standard/Premium Kampagnen ausführen. Diese Kampagnen bestimmen, welche Variante einer Website bei Clickthroughs und Konversion wahrscheinlich die beste Leistung erzielt.
 
-Verwenden Sie Adobe Target Standard-/Premium-HTML-Angebote, um die Anpassung von dynamischen Adobe Dynamic Media Classic-Inhalten zu verbessern. Siehe [Produktdokumentation zu Adobe Target Standard/Premium](https://experienceleague.adobe.com/docs/target.html) für weitere Informationen.
+Verwenden Sie Adobe Target Standard-/Premium-HTML-Angebote, um die Anpassung von dynamischen Adobe Dynamic Media Classic-Inhalten zu verbessern. Siehe [Produktdokumentation zu Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target) für weitere Informationen.
 
 >[!NOTE]
 >
@@ -39,7 +37,7 @@ Adobe Dynamic Media Classic benötigt Ihre Adobe Target Standard-/Premium-URL zu
 
 ## 2. Erstellen Sie das Angebotsset.
 
-Verwenden Sie eine parametrisierte Vorlage oder Bilder, um ein Angebotsset zu erstellen. Sie erstellen HTML-Angebotssets auf der Seite &quot;Test&amp;Target-Angebotsset&quot;. Um diese Seite zu öffnen, wählen Sie die Vorlage oder die Bilder aus und navigieren Sie dann in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**.
+Verwenden Sie eine parametrisierte Vorlage oder Bilder, um ein Angebotsset zu erstellen. Sie erstellen HTML-Angebotssets auf der Seite Test&amp;Target-Angebotsset . Um diese Seite zu öffnen, wählen Sie die Vorlage oder die Bilder aus und navigieren Sie dann in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**.
 
 Um ein Angebot mit einer Vorlage zu erstellen, wählen Sie **[!UICONTROL Hinzufügen und Vorschau]**. Ändern Sie auf der Seite Hinzufügen und Vorschau die Parameterwerte.
 
@@ -49,6 +47,6 @@ Speichern Sie das Angebotsset, nachdem Sie es erstellt haben.
 
 Siehe [Angebotssatz erstellen](creating-offer-set.md#creating_an_offer_set).
 
-## 3. Angebotssatz auf Adobe Target Standard/Premium pushen
+## 3. Angebotssatz in Adobe Target Standard/Premium verschieben
 
-Wählen Sie auf der Seite Test&amp;Target-Angebotsset die Option **[!UICONTROL Push-Angebote]** und geben Sie Ihre Anmeldedaten im Dialogfeld &quot;Test&amp;Target-Anmeldung&quot;ein. Siehe [Angebotssets an Adobe Target Standard/Premium senden](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Wählen Sie auf der Seite &quot;Test&amp;Target-Angebotsset&quot;die Option **[!UICONTROL Push-Angebote]** und geben Sie Ihre Anmeldedaten im Dialogfeld &quot;Test&amp;Target-Anmeldung&quot;ein. Siehe [Angebotssets an Adobe Target Standard/Premium senden](pushing-offer-sets-target.md#pushing_offer_sets_to_target).

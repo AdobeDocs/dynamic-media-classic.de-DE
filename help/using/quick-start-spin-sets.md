@@ -1,21 +1,19 @@
 ---
-title: "Kurzanleitung: Rotationssets"
+title: "Schnellstart: Rotationssets"
 description: Eine Einführung und ein Schnellstart für das Rotationsset, damit Sie in Adobe Dynamic Media Classic schnell arbeiten können.
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 25%
 
 ---
 
@@ -43,7 +41,7 @@ Diese Kurzanleitung für Rotationssets soll Sie in Adobe Dynamic Media Classic s
 
 ## 1. Erstellen und Hochladen der Bilder
 
-Sie benötigen mindestens 8 bis 12 Aufnahmen eines Elements für ein eindimensionales Rotationsset und 16 bis 24 Aufnahmen für ein zweidimensionales Rotationsset. Die Aufnahmen müssen in regelmäßigen Abständen gemacht werden, um den Eindruck von Rotation und Spiegelung zu erwecken. Wenn ein eindimensionales Rotationsset beispielsweise 12 Aufnahmen enthält, drehen Sie das Element für jeden Schuss um 30° (360/12).
+Sie benötigen mindestens 8 bis 12 Aufnahmen eines Objekts für eindimensionale und 16 bis 24 Aufnahmen für zweidimensionale Rotationssets. Die Aufnahmen müssen in regelmäßigen Abständen gemacht werden, um den Eindruck von Rotation und Spiegelung zu erwecken. Wenn ein eindimensionales Rotationsset beispielsweise 12 Aufnahmen enthält, drehen Sie das Element für jeden Schuss um 30° (360/12).
 
 Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um Rotations-Bilder von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochzuladen.
 
@@ -65,7 +63,7 @@ Siehe [Bearbeiten eines Rotationssets](creating-spin-set.md#editing-a-spin-set).
 
 Administratoren können Rotationsset-Viewer-Vorgaben erstellen. Mit einer solchen Vorgabe wird das Aussehen eines Rotationsset-Viewers festgelegt. Um eine neue Rotationsset-Viewer-Vorgabe einzurichten, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 
-Wählen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die Option **[!UICONTROL Hinzufügen]**, wählen Sie **[!UICONTROL Rotationsset-Viewer]** aus der Dropdownliste aus und wählen Sie dann **[!UICONTROL Hinzufügen]**. Wählen Sie auf der Seite &quot;Viewer konfigurieren&quot;Optionen aus und klicken Sie auf **[!UICONTROL Speichern]**.
+Wählen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die Option **[!UICONTROL Hinzufügen]**, wählen Sie **[!UICONTROL Rotationsset-Viewer]** aus der Dropdownliste aus und wählen Sie dann **[!UICONTROL Hinzufügen]**. Wählen Sie Optionen im `Configure Viewer` Seite und wählen Sie **[!UICONTROL Speichern]**.
 
 Siehe [Einrichten von Rotationsset-Viewer-Vorgaben](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ Siehe [Vorschau eines Rotationssets](previewing-spin-set.md#previewing-a-spin-se
 
 Beim Veröffentlichen eines Rotationssets wird es auf Adobe Dynamic Media Classic-Servern platziert, damit es dynamisch auf Ihre Website oder Anwendung übertragen werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, mit der das Rotationsset von den Dynamic Media-Bildservern auf Ihre Website oder Anwendung aufgerufen wird.
 
-Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld neben dem Namen angezeigt. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]** , um eine Veröffentlichung zu initiieren. Wählen Sie im Bildschirm &quot;Veröffentlichen&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld neben dem Namen angezeigt. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]** , um eine Veröffentlichung zu initiieren. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a-spin-set).
 

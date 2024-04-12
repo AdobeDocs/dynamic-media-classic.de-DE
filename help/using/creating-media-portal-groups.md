@@ -1,21 +1,19 @@
 ---
 title: Erstellen und Verwalten von Media Portal-Gruppen
 description: Erfahren Sie, wie Sie Media Portal-Gruppen in Adobe Dynamic Media Classic erstellen und verwalten.
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
@@ -27,7 +25,7 @@ Mithilfe von *Gruppen* können Sie die Media Portal-Benutzer leichter verwalten.
 
 Wenn Sie Gruppen erstellen, können Sie Zugriffsrechte auf unterschiedlichen Ebenen gewähren. Für jede Gruppe weisen Sie Lese-, Schreib- und Löschberechtigungen für unterschiedliche Ordner und Assets in den Ordnern zu. Außerdem legen Sie fest, welche Bildvorgaben der Gruppe zur Verfügung stehen. Anschließend weisen Sie Benutzer den Gruppen zu. Ein Benutzer kann Mitglied mehrerer Gruppen sein. Durch das Gruppenkonzept können Sie flexibel Zugriffsrechte für einen Teil des Gesamtinhalts zuweisen.
 
-Wenn Sie einem Asset oder Ordner keine Gruppenberechtigungen gewähren, erbt dieses Asset oder Ordner die Berechtigungen, die Sie seinem übergeordneten Ordner (dem Ordner darüber in der Ordnerhierarchie) zugewiesen haben. Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte für sämtliche darin enthaltenen Ordner übernommen.
+Wenn Sie einem Asset oder Ordner ausdrücklich keine Gruppenberechtigung erteilen, erbt dieses Asset oder Ordner die Berechtigungen, die Sie seinem übergeordneten Ordner (dem Ordner darüber in der Ordnerhierarchie) zugewiesen haben. Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte für sämtliche darin enthaltenen Ordner übernommen.
 
 >[!NOTE]
 >
@@ -75,9 +73,9 @@ Wenn Sie einem Asset oder Ordner keine Gruppenberechtigungen gewähren, erbt die
 
 >[!NOTE]
 >
->Zugriffsrechte werden eingerichtet, wenn Sie ein Kästchen aktivieren. Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte auch den darin enthaltenen Ordner und Dateien zugewiesen. Sie können jedoch auch abweichende Rechte für einzelne Unterordner und Asset-Dateien festlegen.
+>Zugriffsrechte werden eingerichtet, wenn Sie ein Kästchen aktivieren. Wenn Sie einem Ordner Berechtigungen zugewiesen haben, erhalten dessen Unterordner und alle darin enthaltenen Dateien dieselben Berechtigungen wie der übergeordnete Ordner. Sie können jedoch auch abweichende Rechte für einzelne Unterordner und Asset-Dateien festlegen.
 
-## Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe {#choosing-image-preset-access-permissions-for-a-group}
+## Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe
 
 Wählen Sie Bildvorgabezugriffsberechtigungen für eine Gruppe, wenn Sie festlegen möchten, welche Bildvorgaben den Gruppenmitgliedern beim Exportieren von Assets mit dem Media Portal zur Verfügung stehen sollen.
 

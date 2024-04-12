@@ -1,20 +1,18 @@
 ---
 title: Grundlagen der Navigation
 description: Erfahren Sie mehr über das Navigieren in der Benutzeroberfläche von Adobe Dynamic Media Classic.
-uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '656'
 ht-degree: 16%
 
 ---
@@ -33,11 +31,11 @@ Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigeber
 
 * **[!UICONTROL Unternehmen auswählen]** - Wählen Sie aus dem Menü das Unternehmen aus, auf das Sie zugreifen möchten. Diese Schaltfläche ist nicht verfügbar, wenn Sie mit einem Unternehmen arbeiten.
 
-* **[!UICONTROL Hochladen]** - Öffnet den Bildschirm Hochladen , damit Sie Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochladen können. Die Dateien können entweder vom Desktop oder per FTP hochgeladen werden. Siehe [Dateien hochladen](/help/using/uploading-files.md).
+* **[!UICONTROL Hochladen]** - Öffnet den Bildschirm Hochladen , damit Sie Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochladen können. Sie können Dateien von Ihrem Desktop oder über FTP hochladen. Siehe [Dateien hochladen](/help/using/uploading-files.md).
 
 * **[!UICONTROL Build]** - Wählen Sie eine Build-Aufgabe aus dem Menü aus. Nach der Auswahl wird das Erstellenbedienfeld geöffnet, damit Sie einen Asset-Typ erstellen können.
 
-* **[!UICONTROL Veröffentlichen]** - Öffnet den Bildschirm &quot;Veröffentlichen&quot;, damit Sie Rich-Media-Assets auf Adobe Dynamic Media-Image-Servern und der übrigen Adobe Dynamic Media Classic SAAS-Infrastruktur veröffentlichen können.
+* **[!UICONTROL Veröffentlichen]** - Öffnet den Veröffentlichungsbildschirm, über den Sie Rich-Media-Assets auf Adobe Dynamic Media-Image-Servern und in der übrigen SAAS-Infrastruktur von Adobe Dynamic Media Classic veröffentlichen können.
 
 * **[!UICONTROL Aufträge]** - Öffnet den Bildschirm &quot;Aufträge&quot;, damit Sie Datensätze zu Upload- und Veröffentlichungsaufträgen überprüfen können.
 
@@ -59,7 +57,7 @@ Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigeber
 
 In der Asset-Bibliothek können Sie die Assets organisieren, mit denen Sie arbeiten. Zur Organisation der Assets in der Asset-Bibliothek können Sie Ordner und Unterordner erstellen.
 
-Am oberen Rand des Bedienfelds &quot;Asset-Bibliothek&quot;befinden sich Befehle zum Suchen von Assets. Sie können nach Assets suchen und filtern, um bestimmte Assets zu finden. Wählen Sie die **[!UICONTROL Papierkorb]** Symbol unten in der Asset-Bibliothek, wenn Sie gelöschte Assets untersuchen möchten.
+Am oberen Rand des Bedienfelds &quot;Asset-Bibliothek&quot;befinden sich Befehle zum Suchen von Assets. Sie können nach Assets suchen und filtern, um bestimmte Assets zu finden. Um die gelöschten Assets zu untersuchen, wählen Sie die **[!UICONTROL Papierkorb]** Symbol unten in der Asset-Bibliothek.
 
 >[!NOTE]
 >

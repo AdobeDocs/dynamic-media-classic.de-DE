@@ -1,18 +1,16 @@
 ---
 title: Bilder anpassen
 description: Erfahren Sie, wie Sie ein Bild in Adobe Dynamic Media Classic anpassen.
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 43%
@@ -59,13 +57,13 @@ Auswählen **[!UICONTROL Speichern]**.
 
 ## Erstellen eines Alias für ein Bild {#creating-an-alias-for-an-image}
 
-Wenn Sie ein Bild angepasst haben, können Sie es als eine andere Ansicht des Primärbilds speichern. Dazu können Sie mithilfe der **[!UICONTROL Als zusätzliche Ansicht der primären Instanz speichern]** Funktion.
+Wenn Sie ein Bild angepasst haben, können Sie es als eine andere Ansicht des Primärbilds speichern. Dazu können Sie mithilfe der **[!UICONTROL Als weitere Ansicht der primären Instanz speichern]** Funktion.
 
 **So erstellen Sie einen Alias für ein Bild:**
 
 1. In der Rasteransicht oder Listenansicht im **[!UICONTROL Bearbeiten]** Dropdown-Liste neben einem Bild, für das Sie einen Alias erstellen möchten, wählen Sie **[!UICONTROL Anpassen]**.
 1. Wählen Sie in der rechten unteren Ecke der Seite die Option **[!UICONTROL Speichern unter]**.
-1. Aus der Dropdownliste im **[!UICONTROL Speichern unter]** Dialogfeld auswählen **[!UICONTROL Als zusätzliche Ansicht der primären Instanz speichern]**.
+1. Aus der Dropdownliste im **[!UICONTROL Speichern unter]** Dialogfeld auswählen **[!UICONTROL Als weitere Ansicht der primären Instanz speichern]**.
 1. Wählen Sie im Listenfeld **[!UICONTROL Ordnername]** den Ordner, in dem Sie das Aliasbild speichern möchten.
 1. Geben Sie im Feld **[!UICONTROL Dateiname]** den Namen ein, den Sie für den Alias verwenden möchten.
 1. Auswählen **[!UICONTROL Speichern]**.

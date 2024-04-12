@@ -1,27 +1,25 @@
 ---
 title: "Schnellstart: gemischtes Medienset"
 description: Eine Einführung und ein Schnellstart zu gemischten Mediensets, die Ihnen dabei helfen, in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
-uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 34%
+source-wordcount: '656'
+ht-degree: 33%
 
 ---
 
 # Kurzanleitung: Gemischte Mediensets{#quick-start-mixed-media-sets}
 
-Gemischte Mediensets von bieten Benutzern eine integrierte Anzeigeerfahrung. Gemischte Mediensets können Bilder, Bildsätze, Mustersets, Rotationssets und Videos beinhalten. Benutzer können verschiedene Registerkarten im Viewer für gemischte Medien auswählen, um die Elemente in den verschiedenen Viewern anzuzeigen. Falls keine Registerkarten angegeben werden, werden alle Assets gemeinsam in der Musterzeile angezeigt.
+Gemischte Mediensets bieten Benutzern ein integriertes Anzeigeerlebnis. Gemischte Mediensets können Bilder, Bildsätze, Mustersets, Rotationssets und Videos beinhalten. Benutzer können verschiedene Registerkarten im Viewer für gemischte Medien auswählen, um die Elemente in den verschiedenen Viewern anzuzeigen. Falls keine Registerkarten angegeben werden, werden alle Assets gemeinsam in der Musterzeile angezeigt.
 
 Die Viewer-Vorgaben für gemischte Mediensets enthalten Community-Optionen, mit denen Endbenutzer Code einbetten, URLs kopieren und Verknüpfungen zur Haupt-Website erstellen können. Über diese Optionen können Benutzer Produktinformationen auf ihren eigenen Websites oder Social-Networking-Sites zur Verfügung stellen.
 
@@ -39,11 +37,11 @@ Siehe [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
 Sie können Bilder, Bildsätze, Mustersets, Rotationssets und Videos zu Ihrem gemischten Medienset hinzufügen. Bereiten Sie die Mediensets vor, bevor Sie sie zum gemischten Medienset hinzufügen.
 
-Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set)und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
+Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set), und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Erstellen eines gemischten Mediensets
 
-Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Gemischte Mediensets]**. Ziehen Sie die Bilder, Mustersets, Bildsets und Videos auf die Seite &quot;Gemischtes Medienset&quot;. Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“. 
+Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Gemischte Mediensets]**. Ziehen Sie die Bilder, Mustersets, Bildsets und Videos auf die Seite Gemischtes Medienset . Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“. 
 
 Siehe [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
@@ -59,7 +57,7 @@ Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer
 
 ## 5. Vorschau eines gemischten Mediensets
 
-Wählen Sie die **[!UICONTROL Vorschau]** Schaltfläche. Sie können die Miniaturansichten und Mustersymbole auswählen, um das gemischte Medienset im Viewer für gemischte Mediensets zu untersuchen. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen. 
+Wählen Sie das gemischte Medienset aus **[!UICONTROL Vorschau]** Schaltfläche. Sie können die Miniaturansichten und Mustersymbole auswählen, um das gemischte Medienset im Viewer für gemischte Mediensets zu untersuchen. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen. 
 
 Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
@@ -67,7 +65,7 @@ Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 Beim Veröffentlichen eines gemischten Mediensets wird dieses auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
-Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Sie verwenden den **Video-Server**, um die eigentlichen Videos zu veröffentlichen, die Sie für die Veröffentlichung markiert haben. Und Sie verwenden **Image-Server** , um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
+Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Verwendung **Video-Server** um die tatsächlichen Videos zu veröffentlichen, die Sie zur Veröffentlichung markiert haben. Und Sie verwenden **Image-Server** , um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
 
 Siehe [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 

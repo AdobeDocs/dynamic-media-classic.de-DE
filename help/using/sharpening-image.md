@@ -1,21 +1,19 @@
 ---
 title: Bilder scharfzeichnen
 description: Erfahren Sie, wie Sie ein Bild in Adobe Dynamic Media Classic scharfzeichnen.
-uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 38%
+source-wordcount: '2199'
+ht-degree: 35%
 
 ---
 
@@ -99,7 +97,7 @@ Wählen Sie die **[!UICONTROL Resampling]** und wählen Sie eine Option. Mit die
 
 * **[!UICONTROL Bikubisch]** - Erhöht die CPU-Auslastung auf dem Image-Server, liefert jedoch schärfere Bilder mit weniger deutlichen Aliasing-Artefakten.
 
-* **[!UICONTROL `Sharpen2`]** - Erzeugt etwas schärfere Ergebnisse als **[!UICONTROL Bikubisch]**, aber bei noch höheren CPU-Kosten auf dem Image-Server.
+* **[!UICONTROL `Sharpen 2`]** - Erzeugt etwas schärfere Ergebnisse als **[!UICONTROL Bikubisch]**, aber bei noch höheren CPU-Kosten auf dem Image-Server.
 
 * **[!UICONTROL Trilinear]** - Verwendet sowohl höhere als auch niedrigere Auflösungen, sofern verfügbar; wird nur empfohlen, wenn das Aliasing ein Problem darstellt. Bei dieser Methode wird die JPEG-Dateigröße durch Reduzierung der Hochfrequenzdaten verringert.
 
@@ -126,13 +124,13 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 **Festlegen unternehmensweiter Scharfzeichnungsoptionen**
 
-Wenn Sie keine Bildvorgabe verwenden oder spezifische Image-Server-Scharfzeichnungsprotokolle mit dem URL-String übergeben, wird das Bild beim Downsampling nicht scharfgezeichnet. Tritt diese fehlende Scharfzeichnung jedoch auf, können Sie die standardmäßigen Scharfzeichnungswerte festlegen und dann hat jedes Bild immer eine gewisse Scharfzeichnung.
+Wenn Sie keine Bildvorgabe verwendet haben oder bestimmte Image Server-Scharfzeichnungsprotokolle entlang der URL-Zeichenfolge übergeben haben, wird das Bild beim Downsampling nicht scharfgezeichnet. Tritt diese fehlende Scharfzeichnung jedoch auf, können Sie Standardwerte für die Scharfzeichnung festlegen, um sicherzustellen, dass jedes Bild immer eine gewisse Scharfzeichnung aufweist.
 
 Um die standardmäßigen Scharfzeichnungsoptionen Ihres Unternehmens festzulegen, gehen Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]**. Wenn Sie den standardmäßigen Resamplingmodus auf **`Sharp2`**, wird das Bild beim Downsampling immer scharfgezeichnet.
 
 **Hinzufügen von Scharfzeichnung zu Viewer-Vorgaben**
 
-Wenn Sie der Vorgabe keine Scharfzeichnungs-Bildmodifizierer hinzufügen, kann das kleine, anfänglich geladene Bild verschwommen aussehen, weil ein Downsampling durchgeführt wurde, um es in das Viewer-Fenster einzupassen, ohne scharfgezeichnet zu werden.
+Wenn Sie der Vorgabe keine Scharfzeichnungsbildmodifikatoren hinzugefügt haben, kann das kleine anfängliche Ladebild weich aussehen, da es heruntergesampelt wird, um es in das Viewer-Fenster zu passen, ohne scharfgezeichnet zu werden.
 
 Mit Viewer-Vorgaben (wie Bildvorgaben) können Sie viele Optionen an einem Ort zentralisieren, einschließlich der Auswahl der Haut- und Viewer-Optionen (z. B. durch Eingabe einer Drucken-Schaltfläche oder Steuerung der Geschwindigkeit der Zoom-Animation). Viewer-Vorgaben befinden sich im selben Abschnitt wie Bildvorgaben unter **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Viewer-Vorgaben]**.
 

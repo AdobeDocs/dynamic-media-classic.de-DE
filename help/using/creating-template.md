@@ -1,25 +1,23 @@
 ---
 title: Erstellen von Vorlagen
 description: Erfahren Sie, wie Sie eine Vorlage in Adobe Dynamic Media Classic erstellen.
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3420'
+source-wordcount: '3418'
 ht-degree: 41%
 
 ---
 
-# Erstellen von Vorlagen {#creating-a-template}
+# Erstellen von Vorlagen
 
 Um eine Vorlage zu erstellen, navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. Auf dieser Seite können Sie Bild- und Textebenen hinzufügen. Darüber hinaus können Sie sowohl die Anordnung als auch die Größe und Position von Ebenen ändern sowie Schatten- und Schein-Effekte auf Bilder und Text anwenden.
 
@@ -78,7 +76,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und wählen Sie dann **[!UICONTROL Speichern]**.
 
-## Eine Vorlage löschen {#deleting-a-template}
+## Eine Vorlage löschen
 
 Wenn Sie einen Vorlagensatz löschen, wird der Satz in den Papierkorb verschoben. Die Mitglieder (oder &quot;untergeordneten Elemente&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie ihren vorhandenen Status veröffentlicht oder unveröffentlicht bei.
 
@@ -278,7 +276,7 @@ Sie können eine Ebene oder einen Ebeneneffekt ausblenden, indem Sie das Augensy
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### Hintergrundfarbe, Deckkraft und Mischmodus bestimmen {#determining-the-background-color-opacity-and-blend-mode}
+### Hintergrundfarbe, Deckkraft und Mischmodus bestimmen
 
 Um die Hintergrundfarbe, Deckkraft und den Übergangsmodus für eine Ebene oder die Arbeitsfläche auszuwählen, markieren Sie die Ebene oder Arbeitsfläche und führen Sie eine der folgenden Vorgehensweisen aus:
 
@@ -299,7 +297,7 @@ Nachdem Sie einen Schatten- oder Schein-Effekt angewendet haben, können Sie des
 ### Anwenden eines Schatten- oder Schein-Effekts auf eine Ebene {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Markieren Sie eine Ebene in der Liste „Ebenen“.
-1. Wählen Sie im Menü „Effekt hinzufügen“ eine der folgenden Optionen:
+1. Wählen Sie die **[!UICONTROL `Add Effect`]** und wählen Sie eine Option:
 
    * **[!UICONTROL Schlagschatten]** - Wendet einen Schatten auf die untere und rechte Seite der Ebene an.
 

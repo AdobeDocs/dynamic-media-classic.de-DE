@@ -5,15 +5,14 @@ contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -48,9 +47,9 @@ Integrieren Sie zunächst Dynamic Media Classic in Adobe Analytics OAuth. Die OA
 
    ![API hinzufügen](assets/analytics-oauth2.png)
 
-1. Im **[!UICONTROL API konfigurieren]** Seite, auswählen **[!UICONTROL BENUTZERAUTHENTIFIZIERUNG OAuth]**.
+1. Im **[!UICONTROL `Configure API`]** Seite, auswählen **[!UICONTROL BENUTZERAUTHENTIFIZIERUNG OAuth]**.
 1. Wählen Sie rechts unten auf der Seite die Option **[!UICONTROL Nächste]**.
-1. Im **[!UICONTROL API konfigurieren]** Seite, auswählen **[!UICONTROL OAUTH 2.0 Web]**.
+1. Im **[!UICONTROL `Configure API`]** Seite, auswählen **[!UICONTROL OAUTH 2.0 Web]**.
 1. Im **[!UICONTROL Standard-Umleitungs-URI]** Geben Sie den folgenden Pfad genau wie folgt ein:
 
    `https://exploreadobe.com/dynamic-media-upgrade/`

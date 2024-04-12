@@ -1,21 +1,19 @@
 ---
 title: Einrichten von Zoom-Viewer-Vorgaben
 description: Erfahren Sie, wie Sie Zoom-Viewer-Vorgaben in Adobe Dynamic Media Classic einrichten.
-uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 47%
+source-wordcount: '629'
+ht-degree: 48%
 
 ---
 
@@ -29,9 +27,9 @@ Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenk
 
 Adobe Dynamic Media Classic bietet die folgenden Zoom-Viewer-Vorgaben:
 
-* **Zoom-Viewer: Allgemein** - Bietet einen einfachen Zoom des Originalbilds.
+* **Zoom-Viewer: Einfach** - Bietet einen einfachen Zoom des Originalbilds.
 
-* **Zoom-Viewer: Fly-out** - Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
+* **Zoom-Viewer: Fly-out** - Zeigt ein zweites Bild des vergrößerten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
 
 Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer geladen werden müssen. Die Größe des Flyout-Bildes berechnet sich aus der Größe des Hauptbildes (Anzeigebreite und -höhe) und dem Zoomfaktor. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
 
@@ -61,7 +59,7 @@ Adobe Dynamic Media Classic empfiehlt die folgenden Parameter für Flyout-Zoom-V
    Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.
 
 1. Auswählen **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter]**.
-1. Überprüfen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die von Ihnen erstellte Zoom-Viewer-Vorgabe oder Geführte Zoom-Viewer-Vorgabe. Wenn es angepasst werden muss, wählen Sie **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen auf der Seite &quot;Viewer konfigurieren&quot;und wählen Sie dann **[!UICONTROL Speichern]**.
+1. Überprüfen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die von Ihnen erstellte Zoom-Viewer-Vorgabe oder Geführte Zoom-Viewer-Vorgabe. Wenn es angepasst werden muss, wählen Sie **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen für `Configure Viewer` und wählen Sie **[!UICONTROL Speichern]**.
 
 Informationen zum Verwalten von Viewer-Vorgaben im Anzeigebereich „Viewer-Vorgaben“ finden Sie unter [Viewer-Vorgaben](application-setup.md#viewer_presets).
 

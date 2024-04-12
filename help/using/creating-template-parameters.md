@@ -1,21 +1,19 @@
 ---
 title: Erstellen von Vorlagenparametern
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Vorlagenparameter erstellen.
-uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 54%
+source-wordcount: '792'
+ht-degree: 47%
 
 ---
 
@@ -35,23 +33,23 @@ Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoVie
 
 Führen Sie für jede Ebene in der Vorlage folgende Schritte zum Erstellen von Vorlagenparametern aus:
 
-1. Klicken Sie in der Liste „Ebenen“ neben dem Namen der Ebene, für die Sie Parameter erstellen möchten, auf „Parameter“ . Der Anzeigebereich „Parameter“ wird geöffnet. Darin werden die Namen aller Parameter in der Ebene, deren Werte und deren Typ aufgelistet.
-1. Wählen Sie neben dem Namen der einzelnen Parameter, die Sie in das Vorlagenbild aufnehmen möchten, die Option Ein aus.
+1. Wählen Sie in der Liste &quot;Ebenen&quot;die Schaltfläche Parameter neben dem Namen der Ebene aus, für die Sie Parameter erstellen möchten. Der Anzeigebereich „Parameter“ wird geöffnet. Er listet den Namen der einzelnen Parameter auf der Ebene, deren Wert und den Typ auf.
+1. Wählen Sie die Option Ein neben dem Namen der einzelnen Parameter, die Sie in das Vorlagenbild aufnehmen möchten.
 1. Auswählen **[!UICONTROL Schließen]** , um den Bildschirm Parameter zu verlassen.
 
 >[!NOTE]
 >
 >Im Anzeigebereich „Parameter“ können Sie Parameter umbenennen. Durch das Umbenennen ist ein Parameter leichter in der URL-Zeichenfolge zu erkennen und kann einfacher als Datenbankwert verwendet werden. Um einen Parameter umzubenennen, wählen Sie dessen **[!UICONTROL on]** , wählen Sie den Namen aus und geben Sie einen neuen Namen in das Feld &quot;Name&quot;ein.
 
-Um eine Liste der Parameter anzuzeigen, die Sie für die Vorlage erstellt haben, wählen Sie im Bildschirm &quot;Vorlage&quot;die Schaltfläche Parameterzusammenfassung aus. Der Anzeigebereich „Parameterzusammenfassung“ wird angezeigt. Darin werden die Namen aller Ebenen und, falls Sie für eine Ebene Parameter erstellt haben, die Namen und Werte der Parameter aufgelistet.
+Um eine Liste der Parameter anzuzeigen, die Sie für Ihre Vorlage erstellt haben, wählen Sie im Bildschirm &quot;Vorlage&quot;die Schaltfläche Parameterzusammenfassung aus. Im Bildschirm &quot;Parameterzusammenfassung&quot;wird der Name jeder Ebene aufgelistet. Wenn Sie Parameter für eine Ebene erstellt haben, werden die Parameternamen und -werte aufgeführt.
 
 ## Dynamische Textparameter erstellen {#creating-dynamic-text-parameters}
 
 Bei Textebenen können Sie die Textzeichenfolge auch zu einem dynamischen Feld machen, das mit einem Datenbankwert verknüpft ist. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie im Anzeigebereich „Vorlage“ neben dem Namen der Textebene, für die Sie dynamische Textparameter erstellen möchten, auf „Parameter“ . Die Seite Parameter wird geöffnet.
+1. Wählen Sie im Bildschirm &quot;Vorlage&quot;die Schaltfläche Parameter neben dem Namen der Textebene aus, für die Sie dynamische Textparameter erstellen möchten. Die Seite Parameter wird geöffnet.
 1. Wählen Sie die **[!UICONTROL on]** neben dem Namen des Textattributs (textAttr).
-1. Wählen Sie die **[!UICONTROL Text]** im Bildschirm Parameter angezeigt.
+1. Wählen Sie die **[!UICONTROL Text]** im Bildschirm &quot;Parameter&quot;angezeigt.
 1. Auswählen **[!UICONTROL Parameter hinzufügen]**. Der standardmäßige Parametername wird angezeigt. Sie können diesen Namen ersetzen, indem Sie ihn markieren und dann überschreiben. Die aktuelle Textzeichenfolge wird der neue Name des Parameters.
 1. Auswählen **[!UICONTROL Schließen]** , um die Seite Parameter zu schließen.
 
