@@ -1,18 +1,16 @@
 ---
 title: Effizientere Nutzung von Metadaten
 description: Erfahren Sie, wie Sie Metadaten in Adobe Dynamic Media Classic effizienter nutzen können.
-uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 feature: Dynamic Media Classic,Collaboration,Metadata,Asset Management
 role: Admin,User
 exl-id: e6a5af61-37be-4152-9ea3-8868f054783c
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 57%

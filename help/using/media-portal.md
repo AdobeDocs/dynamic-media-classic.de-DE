@@ -1,27 +1,25 @@
 ---
 title: Media Portal
 description: Erfahren Sie mehr über Media Portal in Adobe Dynamic Media Classic.
-uuid: df34c360-c91a-48d4-886b-2f9178d220fb
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
 feature: Dynamic Media Classic,Asset Management
 role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 5%
+source-wordcount: '119'
+ht-degree: 13%
 
 ---
 
 # Media Portal{#media-portal}
 
-Adobe Medien Portal bietet Unternehmen die Möglichkeit, problemlos genehmigte Assets zu erwerben, zu kontrollieren und an externe Partner und Kanäle sowie interne Benutzer zu verteilen. Die browserbasierte Self-Service-Umgebung bietet Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, die einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bieten.
+Adobe Medium Portal bietet Unternehmen die Möglichkeit, problemlos genehmigte Assets zu erwerben, zu kontrollieren und an externe Partner und Kanäle sowie interne Benutzer zu verteilen. Die browserbasierte Self-Service-Umgebung bietet Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, die einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bieten.
 
 Weitere Informationen zu Media Portal, einschließlich Systemanforderungen, finden Sie unter [Verwenden von Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
 

@@ -1,21 +1,19 @@
 ---
 title: Verknüpfen einer Vorlage mit einer Website
 description: Erfahren Sie, wie Sie eine Vorlage mit einer Webseite in Adobe Dynamic Media Classic verknüpfen.
-uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -34,7 +32,7 @@ Um URL-Zeichenfolgen in Ihren Webseiten und Anwendungen zu platzieren, kopieren 
 Sie können die mit einer Bildvorgabe generierte Zeichenfolge einer Vorlagen-URL im Anzeigebereich „Vorschau für Vorlagen“ abrufen. Sie können die URL in die Zwischenablage kopieren und dann nach Bedarf einfügen. Gehen Sie wie folgt vor, um eine mit einer Bildvorgabe generierte Vorlagen-URL-Zeichenfolge von der Seite &quot;Vorlagenvorschau&quot;abzurufen:
 
 1. Rollover der Vorlage auswählen **[!UICONTROL Vorschau]** Schaltfläche oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Vorschau]**.
-1. Wählen Sie in den Menüs der Vorgabe die Bildvorgabe, mit der Sie das Vorlagenbild übertragen möchten. Auf der Seite Vorschau wird angezeigt, wie die Vorlage aussieht, wenn sie vom Server bereitgestellt wird.
+1. Wählen Sie in den Menüs der Vorgabe die Bildvorgabe aus, mit der Sie das Vorlagenbild bereitstellen möchten. Auf der Seite Vorschau wird angezeigt, wie die Vorlage aussieht, wenn sie vom Server bereitgestellt wird.
 1. Auswählen **[!UICONTROL URL kopieren]** sodass Sie die URL in die Zwischenablage kopieren können.
 
 ## Vorlagen-URLs zu Ihrer Webseite hinzufügen {#adding-template-urls-to-your-web-page}

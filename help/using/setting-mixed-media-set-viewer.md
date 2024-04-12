@@ -1,27 +1,25 @@
 ---
 title: Einrichten einer Viewer-Vorgabe für gemischte Mediensets
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic eine Viewer-Vorgabe für gemischte Mediensets einrichten.
-uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 40%
+source-wordcount: '614'
+ht-degree: 36%
 
 ---
 
 # Einrichten einer Viewer-Vorgabe für gemischte Mediensets{#setting-up-a-mixed-media-set-viewer-preset}
 
-Viewer-Vorgaben für gemischte Mediensets bestimmen den Stil, das Verhalten und das Aussehen Ihres Hauptviewers. Sie geben beim Konfigurieren einer Vorgabe an, welche anderen Viewer innerhalb eines gemischten Medienset-Viewers angezeigt werden sollen. Wenn Ihr gemischtes Medienset z. B. einen Bildsatz enthält, geben Sie für den gemischten Medienset-Viewer eine Viewer-Vorgabe für Bildsätze an.
+Viewer-Vorgaben für gemischte Mediensets bestimmen den Stil, das Verhalten und das Aussehen Ihres Hauptviewers. Sie geben beim Konfigurieren einer Vorgabe an, welche anderen Viewer innerhalb eines gemischten Medienset-Viewers angezeigt werden sollen. Wenn Sie beispielsweise ein Bildset in das gemischte Medienset aufgenommen haben, geben Sie eine Bildset-Viewer-Vorgabe für den Viewer für das gemischte Medienset an.
 
 Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Viewer hinzufügen. Die Funktion „Einbetten“ fügt eine Verknüpfung zum Viewer hinzu, über die Benutzer den Code für die Anzeige des Viewers auf einer externen Seite (wie z. B. einem Blog, einer Website oder einer Social-Networking-Site) kopieren können. Mit der Funktion „Verknüpfen“ wird dem Viewer die URL zur Verfügung gestellt, mit der Benutzer eine Verknüpfung zum Viewer erstellen können. Mit der Funktion „Zur Website“ können Sie eine Verknüpfung zu einer bestimmten Website einfügen.
 

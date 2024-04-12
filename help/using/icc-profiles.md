@@ -1,21 +1,19 @@
 ---
 title: ICC-Profile (International Color Consortium)
 description: Erfahren Sie mehr über ICC-Profile in Adobe Dynamic Media Classic.
-uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
-discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 54%
+ht-degree: 50%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 54%
 
 In einem ICC-Profil (International Color Consortium) wird beschrieben, wie Bilddateien korrekt von einem Farbraum in einen anderen konvertiert werden. Mithilfe von ICC-Profilen werden die Bilder in korrekten Farben angezeigt. Um beispielsweise Bilder, die zum Drucken vorgesehen sind, korrekt auf einem Computerbildschirm anzuzeigen, können Sie ein ICC-Profil auswählen. Das Profil konvertiert die Bilder in einen anderen Farbraum und gewährleistet, dass die Farben auf dem Bildschirm korrekt angezeigt werden.
 
-In Adobe Dynamic Media Classic können Sie beim Hochladen der Bilder ein ICC-Profil auswählen, um Bilder in einen anderen Farbraum zu konvertieren. Alle standardmäßigen Photoshop ICC-Profile sind standardmäßig in Adobe Dynamic Media Classic verfügbar. Um die Namen von Farbprofilen im Anzeigebereich „Hochladen“ anzuzeigen, wählen Sie im Menü „Farbprofil“ die Option „Benutzerdefinierte Einstellung von > in“ und wählen Sie anschließend in den Menüs „Konvertieren von“ und „Konvertieren in“ die entsprechenden ICC-Profilnamen aus.
+In Adobe Dynamic Media Classic können Sie beim Hochladen der Bilder ein ICC-Profil auswählen, um Bilder in einen anderen Farbraum zu konvertieren. Alle standardmäßigen Photoshop ICC-Profile sind standardmäßig in Adobe Dynamic Media Classic verfügbar. Um die Namen von Farbprofilen im Anzeigebereich „Hochladen“ anzuzeigen, wählen Sie im Menü „Farbprofil“ Wählen Sie dann Benutzerdefiniert von > In und wählen Sie einen ICC-Profilnamen in den Menüs Konvertiert von und Konvertiert in .
 
 Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 
@@ -35,7 +33,7 @@ ICC-Profile werden genau so wie andere Dateien hochgeladen. Sie können ICC-Prof
 
 Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
 
-## Prüfen eines ICC-Profils {#examining-an-icc-profile}
+## ICC-Profil prüfen {#examining-an-icc-profile}
 
 Um ein ICC-Profil zu untersuchen, wählen Sie es im Durchsuchenbedienfeld aus und zeigen Sie es in der Detailansicht an. Die Detailansicht enthält diese Informationen zu ICC-Profilen:
 
