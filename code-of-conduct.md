@@ -1,5 +1,5 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Um eine offene und einladende Umgebung zu fördern, verpflichten sich Mitarbeite
 
 Beispiele für Verhaltensweisen, die zur Schaffung einer positiven Umgebung beitragen, sind:
 
-* Verwenden einer einladenden und inklusiven Sprache
+* Freundliche und inklusive Sprache
 * Respektvoller Umgang mit unterschiedlichen Sichtweisen und Erfahrungen
 * Würdevolle Akzeptanz konstruktiver Kritik
 * Konzentration auf das, was für die Community am besten ist
@@ -54,7 +54,8 @@ Nicht an diesen Verhaltenskodex angepasst. Oder um Mitwirkende für andere Verha
 
 ## Anwendungsbereich
 
-Dieser Verhaltenskodex gilt sowohl innerhalb von Projektbereichen als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder die Community repräsentiert. Beispiele für die Repräsentation eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse oder die Veröffentlichung über ein offizielles Social-Media-Konto. Es umfasst auch das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann von den Projektbetreuern weiter definiert und geklärt werden.
+Dieser Verhaltenskodex gilt sowohl innerhalb von Projektbereichen als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder die Community repräsentiert.
+Beispiele für die Repräsentation eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse oder die Veröffentlichung über ein offizielles Social-Media-Konto. Es umfasst auch das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Projektverantwortliche können die Darstellung eines Projekts weiter definieren und präzisieren.
 
 ## Durchsetzung
 

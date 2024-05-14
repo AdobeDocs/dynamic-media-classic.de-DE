@@ -1,28 +1,28 @@
 ---
 title: Hilfe zu Adobe Dynamic Media Classic
-description: Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem für das Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Dienste auf allen Geräten und Bildschirmen.
+description: Adobe Dynamic Media Classic ist das führende medienübergreifende On-Demand-Veröffentlichungssystem. Sie können dynamische Rich-Inhalte hochladen, verwalten, erweitern und auf allen Geräten und Bildschirmen veröffentlichen.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 16%
+source-wordcount: '281'
+ht-degree: 15%
 
 ---
 
 # Hilfe zu Adobe Dynamic Media Classic {#scene7-overview}
 
-Willkommen bei Adobe Dynamic Media Classic, dem führenden medienübergreifenden On-Demand-Veröffentlichungssystem für das Hochladen, Verwalten, Erweitern und Veröffentlichen dynamischer Rich-Content-Dienste auf allen Geräten und Bildschirmen. Adobe Dynamic Media Classic-Lösungen umfassen Folgendes:
+Adobe Dynamic Media Classic ist das führende medienübergreifende On-Demand-Veröffentlichungssystem. Sie können dynamische Rich-Inhalte hochladen, verwalten, erweitern und auf allen Geräten und Bildschirmen veröffentlichen. Adobe Dynamic Media Classic-Lösungen umfassen Folgendes:
 
 * Dynamic Imaging: Echtzeitbearbeitung, Formatierung und Größenanpassung, interaktiver Zoom und Schwenken; Farbe `swatching` und Textur `swatching`; 360-Grad-Rotation; Bildvorlagen; Multimedia-Viewer.
 * E-Kataloge: Erstellen, Hotspot-Verknüpfen, suchfähig, veröffentlichen und liefern dynamisch bereitgestellte Online-Kataloge in konfigurierbaren Viewern.
 * Media Portal: Self-Service-Umgebung, die Portalnutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets bereitstellt, mit denen sie Assets hochladen, durchsuchen, suchen, in der Vorschau anzeigen und exportieren können.
 * eVideo: Laden Sie endgültige Videos in jedem Format hoch, verwalten, bearbeiten, erstellen Sie Hotspots und Videovorlagen, veröffentlichen Sie sie und streamen Sie sie in konfigurierbare Video-Viewer.
-* Visuelle Konfiguratoren: Technologie zum Rendern in Echtzeit, um Personalisierungs- und Anpassungseffekte, wie Echtzeitrendering von Farbstrukturen, Oberflächen, Mustern, Monogrammen und Gravuren in Produktbildern oder Szenen, online visuell konfigurieren zu können.
+* Visuelle Konfiguratoren: Echtzeit-Rendering-Technologie, um eine visuelle Online-Konfiguration für Personalisierungs- und Anpassungseffekte zu ermöglichen. Effekte wie Echtzeit-Darstellung von Farben, Texturen, Oberflächen, Mustern, Monogrammen und Gravuren in Produktbildern oder Szenen.
 * Gezielte E-Mails und Druckkampagnen: Für zielgerichtete, personalisierte visuelle E-Mail-Kampagnen, die mit Kundenprofilen, Produkten und Kanaldatenbanken verknüpft sind.
 
 Siehe auch die folgenden Schulungsvideos:
@@ -39,7 +39,7 @@ Siehe auch die folgenden Schulungsvideos:
 * [Schnellstart: Bildgröße](/help/using/quick-start-image-sizing.md)
 * [Schnellstart: Integration der Adobe Dynamic Media Classic-Analyse](/help/using/quick-start-integrating-dmc-analytics.md)
 * [Schnellstart: Media Portal](/help/using/quick-start-media-portal-administration.md)
-* [Schnellstart: Gemischte Mediensets](/help/using/quick-start-mixed-media-sets.md)
+* [Kurzanleitung: Gemischte Mediensets](/help/using/quick-start-mixed-media-sets.md)
 * [Kurzanleitung: Rotationssets](/help/using/quick-start-spin-sets.md)
 * [Kurzanleitung: Mustersets](/help/using/quick-start-swatch-sets.md)
 * [Schnellstart: Integration von Target Standard/Premium](/help/using/quick-start-target-integration.md)

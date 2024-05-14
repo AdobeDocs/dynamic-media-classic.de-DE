@@ -10,18 +10,18 @@ role: Data Engineer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 8%
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
 # Schnellstart: Integration von Adobe Target Standard/Premium{#quick-start-target-integration}
 
-Adobe Target Standard/Premium überlässt Marketing-Experten direkt die Kontrolle, um schnell und kontinuierlich mehrere A/B- und Multivarianztests durchzuführen, die Effektivität zu messen und die Relevanz von Online-Inhalten durch Segmentierung, Targeting und Automated Personalization zu steigern.
+Adobe Target Standard/Premium überlässt die Kontrolle direkt den Marketing-Experten. Dies kann dazu beitragen, schnell und kontinuierlich mehrere A/B- und Multivarianztests durchzuführen und die Effektivität zu messen. Außerdem kann es die Relevanz von Online-Inhalten durch Segmentierung, Targeting und Automated Personalization steigern.
 
-Mit Adobe Dynamic Media Classic können Sie Angebote und Angebotssets für Adobe Target Standard-/Premium-Kampagnen erstellen. Sie können beispielsweise ein Angebotsset mit drei Varianten desselben Rich-Media-Assets erstellen. Dann können Sie Adobe Target Standard/Premium festlegen, welches Asset eine bessere Konversionssteigerung bietet. Sie können Angebote und Angebotssets aus einer einfachen Vorlage oder aus einzelnen Bildern erstellen. Nachdem das Angebotsset in Adobe Target Standard/Premium gepusht oder gespeichert wurde, wo die Angebote Mboxes und Erlebnissen zugeordnet sind, kann Adobe Target Standard/Premium Kampagnen ausführen. Diese Kampagnen bestimmen, welche Variante einer Website bei Clickthroughs und Konversion wahrscheinlich die beste Leistung erzielt.
+Mit Adobe Dynamic Media Classic können Sie Angebote und Angebotssets für Adobe Target Standard-/Premium-Kampagnen erstellen. Sie können beispielsweise ein Angebotsset mit drei Varianten desselben Rich-Media-Assets erstellen. Dann können Sie über Adobe Target Standard oder Premium verfügen, um zu ermitteln, welches Asset eine bessere Konversionssteigerung bietet. Sie können Angebote und Angebotssets aus einer einfachen Vorlage oder aus einzelnen Bildern erstellen. Nachdem das Angebotsset in Adobe Target Standard/Premium gepusht oder gespeichert wurde, wo die Angebote Mboxes und Erlebnissen zugeordnet sind, kann Adobe Target Standard/Premium Kampagnen ausführen. Diese Kampagnen bestimmen, welche Variante einer Website bei Clickthroughs und Konversion wahrscheinlich die beste Leistung erzielt.
 
 Verwenden Sie Adobe Target Standard-/Premium-HTML-Angebote, um die Anpassung von dynamischen Adobe Dynamic Media Classic-Inhalten zu verbessern. Siehe [Produktdokumentation zu Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target) für weitere Informationen.
 
@@ -29,21 +29,21 @@ Verwenden Sie Adobe Target Standard-/Premium-HTML-Angebote, um die Anpassung von
 >
 >Für die Verwendung von Adobe Target Standard/Premium mit Adobe Dynamic Media Classic ist ein gültiges Adobe Target Standard-/Premium-Konto erforderlich.
 
-Diese Kurzanleitung soll Ihnen einen schnellen Einstieg in die Arbeit mit Adobe Target Standard-/Premium-HTML-Angeboten ermöglichen. Führen Sie die Schritte 1 bis 3 aus. Nach jedem Schritt gibt es einen Querverweis zu einer Themenüberschrift, in der Sie weitere Informationen finden können.
+Diese Kurzanleitung soll Ihnen den schnellen Einstieg in die Verwendung von Adobe Target Standard-/Premium-HTML-Angebotssets erleichtern. Führen Sie die Schritte 1 bis 3 aus. Nach jedem Schritt gibt es einen Querverweis zu einer Themenüberschrift, in der Sie weitere Informationen finden können.
 
 ## 1. Geben Sie Ihre Adobe Target Standard-/Premium-URL auf der Seite &quot;Allgemeine Programmeinstellungen&quot;ein.
 
 Adobe Dynamic Media Classic benötigt Ihre Adobe Target Standard-/Premium-URL zur Integration in Adobe Target Standard/Premium. Kopieren Sie den Teil Ihrer Adobe Target Standard-/Premium-URL bis einschließlich `.com`und geben Sie ihn in die Adobe Dynamic Media Classic ein **[!UICONTROL Allgemeine Programmeinstellungen]** in der **[!UICONTROL Server]** Gruppe, **[!UICONTROL Test&amp;Target-Server-Name]** Textfeld. Siehe [Integrieren von Adobe Dynamic Media Classic mit Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
-## 2. Erstellen Sie das Angebotsset.
+## 2. Erstellen Sie das Angebotsset
 
-Verwenden Sie eine parametrisierte Vorlage oder Bilder, um ein Angebotsset zu erstellen. Sie erstellen HTML-Angebotssets auf der Seite Test&amp;Target-Angebotsset . Um diese Seite zu öffnen, wählen Sie die Vorlage oder die Bilder aus und navigieren Sie dann in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**.
+Verwenden Sie eine parametrisierte Vorlage oder Bilder, um ein Angebotsset zu erstellen. Sie können HTML-Angebotssets auf der Seite &quot;Test&amp;Target-Angebotsset&quot;erstellen. Um diese Seite zu öffnen, wählen Sie die Vorlage oder die Bilder aus und navigieren Sie dann in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**.
 
 Um ein Angebot mit einer Vorlage zu erstellen, wählen Sie **[!UICONTROL Hinzufügen und Vorschau]**. Ändern Sie auf der Seite Hinzufügen und Vorschau die Parameterwerte.
 
-Um ein Angebot mit Bildern zu erstellen, ziehen Sie Bilder auf die Seite Test&amp;Target-Angebotsset . Auswählen **[!UICONTROL Vorschau]** und wählen Sie eine Bildvorgabe für ein Bild oder alle Bilder im Angebotsset aus.
+Um ein Angebot mit Bildern zu erstellen, ziehen Sie die Bilder auf die Seite Test&amp;Target-Angebotsset . Auswählen **[!UICONTROL Vorschau]** und wählen Sie eine Bildvorgabe für ein Bild oder alle Bilder im Angebotsset aus.
 
-Speichern Sie das Angebotsset, nachdem Sie es erstellt haben. 
+Speichern Sie das Angebotsset, nachdem Sie es erstellt haben.
 
 Siehe [Angebotssatz erstellen](creating-offer-set.md#creating_an_offer_set).
 

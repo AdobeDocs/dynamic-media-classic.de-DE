@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 53%
+source-wordcount: '877'
+ht-degree: 40%
 
 ---
 
@@ -23,14 +23,14 @@ Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darü
 
 Sie können die Einrichtung und die Daten des InfoPanel mit den folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
-* Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der E-Katalog automatisch veröffentlicht werden soll.
-* Im Bereich InfoPanel-Daten-Feed können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des InfoPanel angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
-* Über das Dialogfeld „Metadaten importieren“ (Zugriff über die Ansicht „Imagemap-Seiten“) können Sie eine tabulatorgetrennte TXT-Datei mit den Informationen zum Rollover-Text importieren. Sie können diese TXT-Option oder das Daten-Feed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
-* In der Ansicht „Imagemap-Seiten“ steht eine Option zur Verfügung, mit der Sie eine Vorschau des XML-Codes für die einzelnen Imagemaps aufrufen können.
+* Im Bereich &quot;InfoPanel-Einrichtung&quot;können Sie die Vorlage für die Anzeige des Infofeldtexts, eine Standardantwort für Fehler und die Anzahl der Stunden angeben, in denen die Informationen zwischengespeichert werden. Zusätzlich können Sie festlegen, ob der E-Katalog automatisch veröffentlicht werden soll.
+* Im Feed-Bedienfeld &quot;InfoPanel-Daten&quot;können Sie eine CSV-Datei angeben, die den Text enthält, der im Rollover-Text des InfoPanel angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
+* Im Dialogfeld Metadaten importieren (Zugriff über die Ansicht &quot;Zuordnungsseiten&quot;) können Sie eine tabulatorgetrennte TXT-Datei importieren, die die Rollover-Textinformationen enthält. Sie können diese TXT-Option oder das Daten-Feed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
+* Die Ansicht &quot;Zuordnungsseiten&quot;bietet eine Option zur Vorschau der XML-Datei, die für bestimmte Imagemaps angezeigt wird.
 
 ## Einrichten einer Antwortvorlage für E-Kataloge {#set-up-a-response-template-for-ecatalogs}
 
-Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text in einem Infofeld auswählen. Diese vorgegebenen Antwortvorlagen bestimmen, wie Ihre Informationen im Infofeld dargestellt werden: Anzahl der Spalten und Zeilen, Schriftbild, Größe, Schriftart usw. Sie können eine vorgegebene Antwortvorlage auswählen oder eine eigene erstellen.
+Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text in einem Infofeld auswählen. Diese vorgegebenen Antwortvorlagen bestimmen, wie Ihre Informationen im Infofeld dargestellt werden: Anzahl der Spalten und Zeilen, Schriftbild, Größe, Schriftart usw. Sie können eine vordefinierte Antwortvorlage auswählen oder eine eigene erstellen.
 
 >[!NOTE]
 >
@@ -55,13 +55,13 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 
 ## Importieren von Quellinhalten für das Info-Bedienfeld in E-Katalogen {#import-source-content-for-the-info-panel-in-ecatalogs}
 
-Sie können eine kommagetrennte (CSV) oder tabulatorgetrennte (TXT) Datei für den Quelltext des Infofelds für einen E-Katalog verwenden. Tabulatorgetrennte Dateien müssen die UTF16-Kodierung (Unicode) verwenden. Verschiedene Dateitypen werden mithilfe unterschiedlicher Methoden importiert.
+Sie können eine kommagetrennte (CSV) oder tabulatorgetrennte (TXT) Datei für den Quelltext des Infofelds für einen E-Katalog verwenden. Tabulatorgetrennte Dateien müssen die UTF16-Kodierung (Unicode) verwenden. Sie können die verschiedenen Dateitypen mit verschiedenen Methoden importieren.
 
 Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 
 * Stellen Sie sicher, dass die tabulator- und kommagetrennten Daten so viele Spalten enthalten, wie für die Rollover-Vorlage benötigt werden.
-* Stellen Sie sicher, dass das erste Element bzw. die erste Datenspalte der Rollover-Bezeichner ist (verknüpft mit dem rollover_key-Wert aus der URL der Imagemap).
-* Stellen Sie sicher, dass jedes tabulatorgetrennte oder kommagetrennte Element nach der Kennung das Element ist, das in der Antwortvorlage ersetzt werden soll. Die erste Spalte wird also in $1$, die zweite in $2$ usw. ersetzt.
+* Stellen Sie sicher, dass das erste Element oder die erste Datenspalte die Rollover-ID ist (die mit dem Wert rollover_key aus den Imagemap-URLs verknüpft ist).
+* Stellen Sie sicher, dass jedes tabulatorgetrennte oder kommagetrennte Element nach dem Bezeichner das Element ist, das in der Antwortvorlage ersetzt werden soll. Die erste Spalte wird also in $1$, die zweite in $2$ usw. ersetzt.
 
 ### Importieren von CSV-Inhalten aus einem extern gehosteten Speicherort in E-Kataloge {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
@@ -69,7 +69,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 1. Wählen Sie die **[!UICONTROL InfoPanel-Daten-Feed]** Bedienfeld.
 1. Geben Sie die URL für die CSV-Datei in das Feld „Speicherort der extern gehosteten CSV-Datei (HTTP)“ ein. Sie können diese URL in das Feld kopieren oder sie direkt eintippen.
 1. (Optional) Geben Sie einen Zeitpunkt für die Inhaltsaktualisierung über das Menü Zeitplanaktualisierung an und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Feld „Zeiten aktualisieren“ angegeben. (Um eine Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
-1. (Optional) Wählen Sie **[!UICONTROL Update jetzt ausführen]** , um den Inhalt sofort zu aktualisieren.
+1. (Optional) Wählen Sie **[!UICONTROL Update jetzt ausführen]** sodass Sie den Inhalt sofort aktualisieren können.
 
 ### Importieren einer tabulatorgetrennten oder CSV-Datei {#import-a-tab-delimited-or-csv-file}
 
@@ -97,6 +97,6 @@ Im Anzeigebereich „Imagemap-Seiten“ können Sie einfach und schnell den Info
 
 1. Rollover des Katalogs auswählen **[!UICONTROL Bearbeiten]** Schaltfläche.
 1. Auswählen **[!UICONTROL Seiten zuordnen]**.
-1. Wählen Sie oben in der Tabelle auf der rechten Bildschirmseite die Option **[!UICONTROL Infobereich]** über das Menü Anzeigen .
+1. Wählen Sie oben in der Tabelle rechts auf dem Bildschirm die Option **[!UICONTROL Infobereich]** über das Menü Anzeigen .
 
    Der Rollover-Text wird neben jeder Imagemap mit Infofeld-Text angezeigt.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ## Philosophie der Adobe Dynamic Media Classic-Dokumentation
 
-Adobe weiß, dass Adobe Dynamic Media Classic-Benutzer in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu schaffen, die sie von ihren Wettbewerbern abheben. Daher ist es wichtig, dass bei der Bereitstellung erweiterter neuer Tools durch Adobe diese Tools durch eine genaue und klare Dokumentation ergänzt werden. Auf diese Weise kann der Kunde sofort seine Adobe Dynamic Media Classic-Investition nutzen und den ROI maximieren.
+Adobe weiß, dass Adobe Dynamic Media Classic-Benutzer in extrem wettbewerbsorientierten Umgebungen arbeiten, um digitale Erlebnisse zu schaffen, die sie von ihren Wettbewerbern abheben. Daher ist es wichtig, dass diese Tools bei der Bereitstellung erweiterter neuer Tools durch eine genaue und klare Dokumentation ergänzt werden. Auf diese Weise kann der Kunde sofort seine Adobe Dynamic Media Classic-Investition nutzen und den ROI maximieren.
 
-Ziel der Dokumentation ist es, den Benutzern so bald wie möglich aktuelle Dokumentationen zur Verfügung zu stellen. Daher priorisiert Adobe die genaue, nutzbare Dokumentation und bemüht sich, sie laufend zu aktualisieren und zu verbessern.
+Ziel der Dokumentation ist es, den Benutzern so bald wie möglich aktuelle Dokumentationen zur Verfügung zu stellen. Daher priorisiert Adobe die genaue, nutzbare Dokumentation und aktualisiert und verbessert sie kontinuierlich.
 
 ## Dokumentationsbeiträge
 
@@ -19,21 +19,21 @@ Um die Dokumentation kontinuierlich zu verbessern, kann die gesamte Community vo
 
 ## Dokumentationsstandards
 
-Während Adobe seine Dokumentation begrüßt, sollte jeder Beitrag zur Dokumentation in Form einer Pull-Anforderung oder eines Problems mit Beiträgen zu Adobes Beitrags und Dokumentationsstandards entsprechen.
+Während Adobe Beiträge zu seiner Dokumentation begrüßt, sollte jeder Beitrag zur Dokumentation in einer Pull-Anfrage oder einem Problem mit Adobe-Beiträgen und Dokumentationsstandards übereinstimmen.
 
 Beiträge, die diesen Standards nicht entsprechen, können abgelehnt werden.
 
-### Adobe dokumentiert Standardanwendungsfälle.
+### Standardanwendungsfälle sind Adobe-Dokumente
 
 Die Dokumentation umfasst Standard-Anwendungsfälle. Anwendungsfälle, die über den Umfang der Standardinstallation und -nutzung des Produkts hinausgehen, sind nicht Teil der Dokumentation.
 
-### Adobe dokumentiert im Allgemeinen keine Fehler oder ihre Umgehungslösungen.
+### Adobe dokumentiert im Allgemeinen keine Fehler oder ihre Problemumgehungen
 
 Die Dokumentation umfasst Standard-Anwendungsfälle. Aus diesem Grund werden Fehler, durch Fehler verursachte Effekte und Problemumgehungen für Fehler nicht dokumentiert.
 
-Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit möglichen Lösungen aufgelistet werden können, die vom Produktmanagement genehmigt wurden.
+Ausnahmen gelten für die Versionshinweise, in denen bekannte Probleme mit möglichen Lösungen aufgelistet werden können, die vom Produktmanagement genehmigt werden.
 
-### Dokumentationsbeiträge dienen nicht zur Beantwortung technischer Fragen.
+### Dokumentationsbeiträge dienen nicht zur Beantwortung technischer Fragen
 
 Alle Ideen, die Sie möglicherweise zur Verbesserung der Dokumentation haben, sind als Beiträge willkommen. Kommentare, Probleme und Pull-Anforderungen sind jedoch für *Beiträge* nur. Sie sollen Ihre Fragen zur Verwendung von Adobe Dynamic Media Classic, zur Implementierung Ihres Projekts oder zur Lösung technischer Probleme nicht beantworten.
 
@@ -41,11 +41,11 @@ Fragen zur Verwendung von Adobe Dynamic Media Classic oder zu technischen Fehler
 
 ***Dokumentationsbeiträge sind kein Ersatz für die Adobe-Kundenunterstützung*** und Beiträge, die Antworten auf Supportfragen suchen, werden abgelehnt.
 
-### Die Beiträge müssen deutlich auf die betroffenen Dokumentationsseiten verweisen.
+### Beiträge müssen deutlich auf die betroffenen Dokumentationsseiten verweisen
 
 Wenn Sie ein Problem erstellen, um Verbesserungen an der Dokumentation vorzuschlagen, müssen Sie Links zu den betroffenen Seiten einfügen. Wenn Sie ein Problem mit der **Diese Seite bearbeiten** auf einer Dokumentationsseite erstellen, wird das Problem automatisch mit einem Link zur Seite erstellt.
 
-Dies gilt nicht für Pull-Anforderungen, da Pull-Anforderungen auf die betroffenen Seiten verweisen.
+Dieser Workflow gilt nicht für Pull-Anforderungen, da Pull-Anforderungen auf die betroffenen Seiten verweisen.
 
 ## Dokumentationsrichtlinien
 

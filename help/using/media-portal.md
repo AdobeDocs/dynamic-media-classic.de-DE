@@ -10,18 +10,18 @@ role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 13%
+source-wordcount: '112'
+ht-degree: 14%
 
 ---
 
 # Media Portal{#media-portal}
 
-Adobe Medium Portal bietet Unternehmen die Möglichkeit, problemlos genehmigte Assets zu erwerben, zu kontrollieren und an externe Partner und Kanäle sowie interne Benutzer zu verteilen. Die browserbasierte Self-Service-Umgebung bietet Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, die einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bieten.
+Mithilfe von Adobe Medium Portal können Unternehmen genehmigte Assets erwerben, kontrollieren und an externe Partner, Kanäle und interne Benutzer verteilen. Die browserbasierte Self-Service-Umgebung bietet Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, die einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bieten.
 
-Weitere Informationen zu Media Portal, einschließlich Systemanforderungen, finden Sie unter [Verwenden von Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
+Weitere Informationen zu Media Portal, einschließlich Systemanforderungen, finden Sie unter [Verwenden von Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
 
 Informationen zur Verwaltung von Media Portal finden Sie unter [Kurzanleitung: Media Portal-Administration](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
 

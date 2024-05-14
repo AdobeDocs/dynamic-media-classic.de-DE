@@ -10,16 +10,16 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 20%
 
 ---
 
 # Arbeiten in der Detailansicht{#working-in-detail-view}
 
-Sie können mit einem Asset arbeiten und es darüber erfahren, indem Sie es in der Detailansicht öffnen. In der Detailansicht werden die Asset-Größe, Attribute, Derivate und Metadaten angezeigt. Sie sehen auch, ob und wann das Asset veröffentlicht wurde und können die URL der veröffentlichten Assets abrufen. Bei manchen Asset-Typen können Sie auch eine Vorschau in verschiedenen Größen anzeigen, Details heranzoomen oder herauszoomen, die Schärfe verändern, die Darstellung beschneiden und andere Formatierungsvorgänge ausführen.
+Sie können mit einem Asset arbeiten und es darüber erfahren, indem Sie es in der Detailansicht öffnen. In der Detailansicht werden die Asset-Größe, Attribute, Derivate und Metadaten angezeigt. Sie können auch sehen, ob und wann das Asset veröffentlicht wurde und Sie die URL der veröffentlichten Assets abrufen können. Bei manchen Asset-Typen können Sie auch eine Vorschau in verschiedenen Größen anzeigen, Details heranzoomen oder herauszoomen, die Schärfe verändern, die Darstellung beschneiden und andere Formatierungsvorgänge ausführen.
 
 <!-- 
 
@@ -40,17 +40,17 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## Öffnen eines Assets in der Detailansicht {#open-an-asset-in-detail-view}
 
-Um ein Asset genau zu untersuchen, eine Vorschau anzuzeigen oder zu bearbeiten, können Sie es in der Detailansicht anzeigen.
+Sie können ein Asset in der Detailansicht anzeigen, damit Sie es genau untersuchen, in einer Vorschau anzeigen oder daran arbeiten können.
 
 1. Führen Sie im Durchsuchenbedienfeld einen der folgenden Schritte aus:
 
-   * Wählen Sie das Asset aus. Wählen Sie rechts oben in Adobe Dynamic Media Classic die Option **[!UICONTROL Detailansicht]** Symbol .
+   * Wählen Sie das Asset aus. Wählen Sie rechts oben in Adobe Dynamic Media Classic die Option **[!UICONTROL Detailansicht]** Symbol.
    * Doppelklicken Sie auf das gewünschte Asset.
    * Wählen Sie das Asset aus und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
->Sie können in der Detailansicht von Asset zu Asset im selben Ordner navigieren, indem Sie **[!UICONTROL Vorheriges Asset]** oder **[!UICONTROL Nächstes Asset]**. Diese Schaltflächen befinden sich oben rechts in der Detailansicht.
+>Sie können in der Detailansicht zwischen Assets im selben Ordner wechseln. Klicken Sie einfach auf **[!UICONTROL Vorheriges Asset]** oder **[!UICONTROL Nächstes Asset]**. Diese Schaltflächen befinden sich oben rechts in der Detailansicht.
 
 ## Abrufen von Informationen in der Detailansicht {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst
 
 Die Detailansicht bietet Tools zum Arbeiten mit dem von Ihnen geöffneten Asset. Welche Tools verfügbar sind, hängt vom Typ des Assets ab, mit dem Sie arbeiten. Die Detailansicht bietet jedoch immer die folgenden Funktionen:
 
-* **Elemente zur Veröffentlichung** - Wählen Sie die **[!UICONTROL `Publish`]** auf der linken Seite des Namens oder navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
+* **Elemente zur Veröffentlichung**: Wählen Sie die **[!UICONTROL `Publish`]** auf der linken Seite des Namens oder navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
-* **Asset umbenennen** - Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
+* **Asset umbenennen**: Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
-* **Bearbeiten und Hinzufügen von Metadaten** - Wählen Sie das Metadatenbedienfeld aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/using/viewing-adding-exporting-metadata.md).
+* **Bearbeiten und Hinzufügen von Metadaten**: Wählen Sie das Metadatenbedienfeld aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von Metadaten](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Suchbegriffe bearbeiten und hinzufügen** - Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/using/viewing-adding-exporting-metadata.md).
+* **Suchbegriffe bearbeiten und hinzufügen**: Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Asset löschen** - Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
+* **Asset löschen**: Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
 
 Für einzelne Dateien - z. B. Bilder, Bildsets und Schriftarten - können Sie den Veröffentlichungs- und Bearbeitungsverlauf anzeigen und Auftragsdetails in der Detailansicht überprüfen.
 
@@ -93,7 +93,7 @@ Diese Tabelle zeigt, welche anderen Optionen bei verschiedenen Asset-Typen in de
 | SVG-Dateien | Nein | Nein |
 | Vorlagen | Bearbeiten | Ja |
 | Videos | Nein | Ja |
-| Vignetten und gerenderte Vignetten | Nein | Bild wird angezeigt<br>Sie können den Inhalt und die Struktur der renderbaren Elemente der Vignette im XML-Format anzeigen |
+| Vignetten und gerenderte Vignetten | Nein | Das Bild wird angezeigt<br>Sie können den Inhalt und die Struktur der renderbaren Elemente der Vignette im XML-Format anzeigen |
 | XML-Dateien | Nein | Inhalt wird gezeigt |
 | Zip-Dateien | Nein | Inhalt wird nicht angezeigt |
 

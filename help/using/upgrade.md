@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Die neue [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] basiert auf den
 
 ## Die wichtigsten Vorteile und Funktionen von [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] ist die natürliche Evolution von [!DNL Dynamic Media Classic] und bietet Tools für die Bearbeitung, Veröffentlichung und Bereitstellung von Rich-Media-Inhalten, einschließlich erstklassiger Bereitstellung mit einer innovativen, benutzerorientierten Benutzeroberfläche, die moderne reale Workflows unterstützt.
+[!DNL Dynamic Media] ist die natürliche Evolution von [!DNL Dynamic Media Classic]. Es bietet Tools für die Bearbeitung, Veröffentlichung und Bereitstellung von Rich-Media-Daten. Es beinhaltet auch erstklassige Bereitstellung mit einer innovativen, benutzerzentrierten Benutzeroberfläche, die moderne reale Workflows unterstützt.
 
 * Nahtloses, einheitliches Erlebnis und Integration mit [!DNL Adobe Experience Manager]: Konfigurieren und übermitteln Sie Rich-Content dynamisch von einem Store, einer Quelle
 * Neue marketerorientierte Benutzererfahrung für einfaches Authoring und Bereitstellen von Rich-Media-Inhalten
@@ -46,13 +46,13 @@ Die neue [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] basiert auf den
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Accelerated Content Creation and Delivery | ・ Zusammenarbeit und gemeinsame Dateisynchronisierung mit [!DNL Adobe Creative Cloud] Anwendungen.<br>・ erfüllt alle erforderlichen Kriterien für das Dynamic Asset Management: Erstellen, Zusammenarbeiten, Verwalten und Bereitstellen aller Assets in einer Anwendung, einer Benutzeroberfläche und einem Netzwerk.<br>・ Digital Asset Management auf Unternehmensebene mit robuster Metadatenunterstützung, intelligenter Suche, Lightbox und Sammlungen, Versionskontrolle und sicherer Asset-Freigabe für Anbieter, Partner und Franchisen<br>・ Prüfungs- und Genehmigungs-Workflows für prozessinterne Assets. |
+| Accelerated Content Creation and Delivery | ・ Zusammenarbeit und gemeinsame Dateisynchronisierung mit [!DNL Adobe Creative Cloud] Anwendungen.<br>・ erfüllt alle erforderlichen Kriterien des Dynamic Asset Management: Erstellen, Zusammenarbeiten, Verwalten und Bereitstellen aller Assets in einer Anwendung, einer Benutzeroberfläche und einem Netzwerk.<br>・ Digital Asset Management auf Unternehmensebene mit robuster Metadatenunterstützung, intelligenter Suche, Lightbox und Sammlungen, Versionskontrolle und sicherer Asset-Freigabe für Anbieter, Partner und Franchisen<br>・ Prüfungs- und Genehmigungs-Workflows für prozessinterne Assets. |
 | Einfache Elemente der Benutzeroberfläche für interaktive Erlebnisse | ・ Erstellen Sie Erlebnisse einfach mit nicht-technischen Echtzeit-Buildern.<br>・ Shop-fähige/interaktive Medien, kombinieren Sie Kampagnen-Assets mit Produktinformationen.<br>・ Steigerung der Kundenzufriedenheit und Förderung der Konversion. |
 | End-to-End-Inclusive-Workflow | ・ Bereitstellen optimierter Rich-Media-Daten für alle Touchpoints, einschließlich der vollständigen [!DNL Adobe Experience Cloud] Lösungen.<br>・ Integration mit [!DNL Adobe Experience Cloud] für erweiterte Asset-Analysen, Targeting und Asset-Wiederverwendung über Marketing-Touchpoints hinweg. Einige dieser Touchpoints umfassen [!DNL Adobe Campaign] für E-Mails, [!DNL Adobe Social] für soziale Kanäle und [!DNL Adobe Experience Manager] Sites für responsive Web- und mobile Apps. |
 
 ## Warum Adobe?
 
-* Größter positiver Mauszeiger im Digital Asset Forrester WAVE-Bericht.
+* Die größte positive Bewegung im Bericht zu digitalen Assets Forrester WAVE.
 * Leistungsstarke Funktion im Bericht zur Online-Videoplattform von 2016.
 * Top-Rich-Media-Anbieter für Internet-Einzelhandel 1000, neun Jahre in Folge.
 * 24/7/265 Unterstützung, 99,95% SLAs, Adobe Professional Services.

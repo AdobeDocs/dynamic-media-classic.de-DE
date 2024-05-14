@@ -10,22 +10,22 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 45%
+source-wordcount: '777'
+ht-degree: 34%
 
 ---
 
 # Verwalten des Infofeldinhalts in Bildsets{#managing-info-panel-content-in-image-sets}
 
-Zusätzlich zur Verwendung von Imagemap-Text für Ihre Rollover in Bildsätzen können Sie zum Hinzufügen größerer Mengen von Rollover-Text, einschließlich Links, ein Infofeld verwenden. Sie können das InfoPanel auch verwalten, indem Sie die Zeitzwischenspeicherung verwenden und Inhaltsaktualisierungen planen.
+Sie können nicht nur Imagemap-Text für Ihre Rollover in Bildsets verwenden, sondern auch ein Info-Bedienfeld, um größere Mengen von Rollover-Text, einschließlich Links, hinzuzufügen. Sie können das InfoPanel auch verwalten, indem Sie die Zeitzwischenspeicherung verwenden und Inhaltsaktualisierungen planen.
 
 Sie können die Einrichtung und die Daten des InfoPanel mit den folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
-* Im Bedienbereich „Infofeld-Einrichtung“ können Sie Folgendes angeben: die Vorlage, die für die Anzeige des Infofeldtexts verwendet werden soll, eine Standardantwort bei Fehlern sowie die Dauer (in Stunden), die diese Informationen zwischengespeichert werden sollen. Zusätzlich können Sie festlegen, ob der Bildsatz automatisch veröffentlicht werden soll.
-* Im Bereich &quot;InfoPanel-Daten-Feed&quot;können Sie eine CSV-Datei mit dem Text angeben, der im Rollover-Text des Infofelds angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
-* Mit dem Dialogfeld „Metadaten importieren“ können Sie eine tabulatorgetrennte TXT-Datei importieren, die die Rollover-Textdaten enthält. Sie können diese TXT-Option oder das InfoPanel-Daten-Feed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
+* Im Bereich &quot;Infobereich-Einrichtung&quot;können Sie die Vorlage für die Anzeige des Infofeldtexts, eine Standardantwort für Fehler und die Anzahl der Stunden angeben, in denen die Informationen zwischengespeichert werden. Zusätzlich können Sie festlegen, ob der Bildsatz automatisch veröffentlicht werden soll.
+* Im Bereich Daten-Feed für das Infofeld können Sie eine CSV-Datei mit dem Text angeben, der im Rollover-Text des Infofelds angezeigt werden soll, und Zeitpläne für die Aktualisierung der Informationen festlegen.
+* Im Dialogfeld Metadaten importieren können Sie eine tabulatorgetrennte TXT-Datei importieren, die die Rollover-Textinformationen enthält. Sie können diese TXT-Option oder das InfoPanel-Daten-Feed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
 
 ## Einrichten einer Antwortvorlage für Bildsets {#set-up-a-response-template-for-image-sets}
 
@@ -46,7 +46,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
    * Geben Sie eine höhere Zahl ein, falls die Daten relativ stabil sind und nicht so häufig aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
 
-1. Auswählen **[!UICONTROL Hochladen]** , um Informationsbereichsinhalte basierend auf dem Wert rollover_key in s7info hochzuladen.
+1. Auswählen **[!UICONTROL Hochladen]** , um den Inhalt des Infofelds basierend auf dem Wert rollover_key in s7info hochzuladen.
 1. Navigieren Sie im Dialogfeld &quot;S7Info Upload&quot;zu der Datei, die Sie verwenden möchten, und wählen Sie **[!UICONTROL Hochladen]**.
 
    Unterstützte Dateiformate sind TAB-getrennte Dateien mit UTF-16-Kodierung und CSV-Dateien mit ASCII-Kodierung. Bei CSV-Dateien müssen Nicht-ASCII-Zeichen HTML-kodiert sein.
@@ -55,7 +55,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 
 ## Importieren des Quellinhalts für das Info-Bedienfeld in Bildsets {#import-source-content-for-the-info-panel-in-image-sets}
 
-Sie können eine CSV-Datei (kommagetrennter Wert) mit ASCII-Kodierung (Nicht-ASCII-Zeichen müssen HTML-kodiert sein) oder eine tabulatorgetrennte Datei für den Quelltext eines Informationbereichs für ein Bildset verwenden. Tabulatorgetrennte Dateien müssen die UTF-16-Kodierung (Unicode) verwenden. Verschiedene Dateitypen werden mithilfe unterschiedlicher Methoden importiert.
+Sie können eine CSV-Datei (kommagetrennter Wert) mit ASCII-Kodierung (Nicht-ASCII-Zeichen müssen HTML-kodiert sein) oder eine tabulatorgetrennte Datei für den Quelltext eines Informationssystems für ein Bildset verwenden. Tabulatorgetrennte Dateien müssen die UTF-16-Kodierung (Unicode) verwenden. Sie können die verschiedenen Dateitypen mit verschiedenen Methoden importieren.
 
 Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 
@@ -72,4 +72,4 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 
    Sie können mehrere Zeitpunkte für die Aktualisierung auswählen. Jede Aktualisierungszeit wird im Textfeld „Zeiten aktualisieren“ angegeben. Um eine geplante Zeit zu entfernen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
-1. (Optional) Wählen Sie **[!UICONTROL Update ausführen]** , um den Inhalt sofort zu aktualisieren.
+1. (Optional) Wählen Sie **[!UICONTROL Update ausführen]** sodass Sie den Inhalt sofort aktualisieren können.

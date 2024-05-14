@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 40%
+source-wordcount: '2225'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 Sie können spezifische Informationen zu den Dateien speichern, mit denen Sie in Adobe Dynamic Media Classic arbeiten. Diese Informationen werden *Metadaten*. Sie können Metadaten in Adobe Dynamic Media Classic zum Organisieren, Suchen, Filtern und Sortieren Ihrer Assets verwenden.
 
-Metadaten werden in der Detailansicht zusammen mit Adobe Dynamic Media Classic-generierten Informationen wie dem Erstellungsdatum der Datei, dem Veröffentlichungsdatum und Schlüsselwörtern angezeigt. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie dann das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
+Metadaten werden in der Detailansicht angezeigt. Sie wird zusammen mit Adobe Dynamic Media Classic-generierten Informationen angezeigt. Beispielsweise das Erstellungsdatum der Datei, das Veröffentlichungsdatum und Schlüsselwörter. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie dann das Metadatenbedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
 
 Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Adobe Dynamic Media Classic sie automatisch mit der Datei hoch. Sie können Metadaten in Quell-Assets in Adobe Photoshop, InDesign, Illustrator und andere Anwendungen einbetten. Adobe Dynamic Media Classic erkennt diese Metadaten. Sie können auch einzelnen Dateien Metadaten im Metadatenbedienfeld in der Detailansicht hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
 
@@ -49,7 +49,7 @@ Siehe [Metadaten-Ansichten](application-setup.md#metadata_views) für Informatio
    * Wählen Sie die Metadatenansicht aus, um festzustellen, welche Metadatenfelder im Bedienfeld angezeigt werden.
    * Wählen Sie einen Vorgabewert und dann **[!UICONTROL Anwenden]** , um Metadatenfelder mit voreingestellten Werten zu füllen. Diese Vorgabewerte werden von Unternehmensadministratoren erstellt.
 
-1. Geben Sie Werte in das Metadatenbedienfeld ein.
+1. Geben Sie die Werte im Metadatenbedienfeld ein.
 
 >[!NOTE]
 >
@@ -97,15 +97,15 @@ Weitere Informationen zu standardisierten Eigenschaften finden Sie unter [Adobe 
 
 Beachten Sie Folgendes, wenn verschiedene Metadaten-Typen für den Import identifiziert werden:
 
-* Benutzerdefinierte Felder werden anhand ihres Namens identifiziert, der in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Benutzerdefinierte Felder]**. Verwenden Sie die `Generate file` -Funktion, um eine Liste aller definierten UDFs im richtigen Importformat zu erhalten.
+* Die Namen von benutzerdefinierten Feldern werden wie in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Benutzerdefinierte Felder]**. Verwenden Sie die `Generate file` -Funktion, um eine Liste aller definierten UDFs im richtigen Importformat zu erhalten.
 * Bei den XMP-Metadaten-Eigenschaften muss das entsprechende XMP-Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das XMP-Präfix finden Sie unter **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Metadatenschema]** Editor. Die technischen Namen finden Sie in der Dokumentation zum jeweiligen XMP-Schema. XMP Eigenschaftsnamen werden nicht im `Generate file` Funktion.
-* Bei den Metadaten-Eigenschaften muss das entsprechende Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das Präfix und die Eigenschaftsnamen werden im Metadaten-Schema-Editor definiert. Namen von Metadatenschema-Eigenschaften werden nicht im `Generate file` Funktion.
+* Bei den Metadaten-Eigenschaften muss das entsprechende Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das Präfix und die Eigenschaftsnamen werden im Metadatenschema-Editor definiert. Namen von Metadatenschema-Eigenschaften werden nicht im `Generate file` Funktion.
 
 Beispiel: Die XMP-Eigenschaft für Suchbegriffe ist das XMP Schema &quot;Dublin Core&quot;mit dem Präfix `dc` und `subject` ist der technische XMP. Das Präfix und der technische XMP werden in der `dc:subject` vollständiger Eigenschaftsname. Im XML-Metadaten-Importformat: `dc.subject` muss der Eigenschaftsname sein. Im tabulatorgetrennten Importformat muss es sich um die Spaltenüberschrift handeln.
 
 ### Importieren von Schlüsselwörtern
 
-Schlüsselwörter können als kommagetrennte Liste importiert werden. Wenn ein Komma in einem der einzelnen Werte erscheint, muss es durch einen umgekehrten Schrägstrich (\) maskiert werden. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden.
+Schlüsselwörter können als kommagetrennte Liste importiert werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, maskieren Sie es mit einem umgekehrten Schrägstrich (\). Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden.
 
 Beispielsweise eine Metadaten-Importdatei, die den Wert enthält `Hello\, World!,back\\slash,foo` für `dc:subject` legt drei XMP Schlüsselwörter für das Asset fest: `Hello, World!,` `back\slash,` und `foo`.
 
@@ -127,11 +127,11 @@ Das Präfix muss in der entsprechenden Spaltenüberschrift im Importfeld hinzuge
 
 ## Importieren von Metadaten (über FTP) {#import-metadata-via-ftp}
 
-Sie können Metadaten für mehrere Dateien importieren, indem Sie die Metadaten in eine tabulatorgetrennte oder XML-Datei eingeben und **[!UICONTROL Verarbeiten von Metadatendateien]** auf der Seite &quot;Upload-Auftragsoptionen&quot;(Registerkarte &quot;Über FTP&quot;).
+Sie können Metadaten für mehrere Dateien importieren. Sie geben die Metadaten in einer tabulatorgetrennten oder XML-Datei ein. Wählen Sie anschließend **[!UICONTROL Verarbeiten von Metadatendateien]** auf der Seite &quot;Upload-Auftragsoptionen&quot;(Registerkarte &quot;Über FTP&quot;).
 
 Stellen Sie sicher, dass die Daten in der tabulatorgetrennten Datei oder in der XML-Datei im korrekten Format vorliegen. Geben Sie in die erste Zeile das ID-Feld, gefolgt von den Namen der Metadaten-Felder ein, die geändert werden sollen. Geben Sie in die nächsten Zeilen jeweils einen Asset-ID-Namen gefolgt von den Metadaten-Werten ein. Felder, die nicht in der tabulatorgetrennten Datei oder in der XML-Datei enthalten sind, werden nicht geändert.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]**. Um die Metadaten zu importieren, wählen Sie auf der Seite Hochladen die **[!UICONTROL Über FTP]** Registerkarte und wählen Sie **[!UICONTROL Auftragsoptionen]**. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Auftrag]**, wählen Sie **[!UICONTROL Verarbeiten von Metadatendateien]** aktivieren.
+Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]**. Um die Metadaten zu importieren, wählen Sie auf der Seite Hochladen die **[!UICONTROL Über FTP]** Registerkarte und wählen Sie **[!UICONTROL Auftragsoptionen]**. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Auftrag]** und wählen Sie dann die **[!UICONTROL Verarbeiten von Metadatendateien]** aktivieren.
 
 ## Stapel-Umbenennung von IDs mit Metadaten {#batch-rename-ids-using-metadata}
 
@@ -183,11 +183,11 @@ Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdef
 >
 >Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Adobe Dynamic Media Classic- und Metadaten-Server-Funktionen sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, werden die Metadaten durch die Erstellung des entsprechenden Schemas in Adobe Dynamic Media Classic und auf dem Metadatenserver verwendet.
 
-Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefiniertes Unternehmensschema in Adobe Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
+Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefiniertes Unternehmensschema in Adobe Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Präfix, ein Namespace und eine Liste von Eigenschaften definieren ein Schema.
 
 * **[!UICONTROL Name]** - UI-Name für das Schema. Wird verwendet, um die Eigenschaften in den Metadaten-Ansichten und bei der erweiterten Suche zu identifizieren. Vergleichbar mit XMP-Abschnitten wie Basic, IPTC, PDF.
 
-* **[!UICONTROL Präfix]** - Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Adobe Dynamic Media Classic-Benutzeroberfläche sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Mit dem Präfix werden Metadatenfelder in Metadaten-Suchabfragen auf dem Metadaten-Server oder -Import eindeutig identifiziert.
+* **[!UICONTROL Präfix]** - Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Mit dem Präfix werden Metadatenfelder in Metadaten-Suchabfragen auf dem Metadaten-Server oder -Import eindeutig identifiziert.
 
 * **[!UICONTROL Namespace]** - Technische eindeutige Kennung für das Schema, normalerweise eine URL im Formular `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namespace ist in der Adobe Dynamic Media Classic-Benutzeroberfläche nicht sichtbar, wird jedoch zum Speichern von Metadaten im XMP-Block verwendet.
 
@@ -203,10 +203,10 @@ Eigenschaften beschreiben die Metadaten, die mit diesem Schema im XMP-Block gesp
 | --- | --- |
 | ID | Technischer Identifikator für diese Eigenschaft. Die ID ist nicht in der Adobe Dynamic Media Classic-Benutzeroberfläche sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Die ID wird verwendet, um Suchanfragen auf dem Metadaten-Server zu erstellen. Die ID weist einige Einschränkungen auf, z. B.: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Nach der Erstellung kann die ID nicht mehr geändert werden. |
 | Beschriftung | Name dieser Eigenschaft in der Benutzeroberfläche. |
-| Struktur | Legt die Art der Eigenschaft zusammen mit dem Datentyp fest. Eine Struktur kann sein:<ul><li>Einfacher Typ: Einzelwert des Datentyps</li><li>Sequenz: eine Liste von Werten desselben Datentyps</li><li>Offene Auswahl: Wählen Sie ein Element aus einer zuvor festgelegten Liste von Werten aus oder geben Sie einen beliebigen Text ein. Kann nur vom Datentyp „Zeichenfolge“ oder „Integer“ sein.</li><li>Geschlossene Auswahl: Wählen Sie ein Element aus einer zuvor festgelegten Liste von Werten aus (ein Popup- oder ein Kombinationsfeld).</li></ul> |
+| Struktur | Legt die Art der Eigenschaft zusammen mit dem Datentyp fest. Eine Struktur kann sein:<ul><li>Einfacher Typ: Einzelwert des Datentyps</li><li>Sequenz: eine Liste von Werten desselben Datentyps</li><li>Auswahl öffnen: Wählen Sie ein Element aus einer Liste vordefinierter Werte aus oder geben Sie Text ein. Sie kann nur vom Datentyp String oder Integer sein</li><li>Geschlossene Auswahl: Wählen Sie ein Element aus einer zuvor festgelegten Liste von Werten aus (ein Popup- oder ein Kombinationsfeld).</li></ul> |
 | Datentyp | Wählen Sie aus den verfügbaren Typen aus: <ul><li>Zeichenfolge</li><li>Integer</li><li>Float</li><li>Ja/Nein (Boolescher Wert)</li><li>Datum</li></ul> |
 
-Wenn die Eigenschaft als Struktur eine offene oder geschlossene Auswahl verwendet, müssen Sie mindestens einen Auswahlwert zur Verfügung stellen. Eine offene Auswahl kann geändert werden. Eine geschlossene Auswahl kann nicht geändert werden. Alle Auswahlwerte haben den Datentyp der Eigenschaft.
+Wenn die Eigenschaft die Struktur &quot;Open Choice&quot;oder &quot;Closed Choice&quot;aufweist, müssen Sie mindestens einen Auswahlwert angeben. Eine offene Auswahl kann geändert werden. Eine geschlossene Auswahl kann nicht geändert werden. Alle Auswahlwerte haben den Datentyp der Eigenschaft .
 
 | Eigenschaft | Beschreibung |
 | --- | --- |

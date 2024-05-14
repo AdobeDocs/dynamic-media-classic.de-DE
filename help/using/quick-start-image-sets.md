@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -60,7 +60,7 @@ Siehe auch [Zoomziele und Imagemaps in Bildsets einschließen](/help/using/inclu
 
 Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden des Zoom-Viewers: **[!UICONTROL Benutzerdefiniert]** > **[!UICONTROL Bilder]** oder **[!UICONTROL Bildsets]**/**[!UICONTROL Mehrere Ansichten]** Vorgaben zum Anzeigen von Bildsets.
 
-Sie können Viewer-Vorgaben aus dem Anzeigebereich „Anwendungseinstellungen“ hinzufügen oder bearbeiten. 
+Sie können Viewer-Vorgaben über den Bildschirm &quot;Anwendungseinstellungen&quot;hinzufügen oder bearbeiten.
 
 Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic erstellt URL-Aufrufe für Bildsets und aktiviert diese nach der Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 
-Wählen Sie das Bildset aus und klicken Sie auf **[!UICONTROL Vorschau]**. Wählen Sie jetzt eine Bildset-Viewer-Vorgabe aus und wählen Sie **[!UICONTROL URL kopieren]**.
+Wählen Sie das Bildset aus und klicken Sie auf **[!UICONTROL Vorschau]**. Wählen Sie jetzt eine Bildset-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL URL kopieren]** Schaltfläche.
 
-Siehe [Verknüpfen eines Bildsets mit einer Webseite](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Siehe [Verknüpfen des Bildsets mit einer Webseite](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
