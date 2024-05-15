@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 56%
+source-wordcount: '725'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ Die folgende Kurzanleitung soll Ihnen einen schnellen Einstieg in die Media Port
 
 ## 1. Verstehen der Media Portal-Benutzerrollen
 
-Es gibt drei Rollen für Media Portal-Benutzer: Benutzer, Mitarbeiter und Mitarbeiter-Benutzer. Jede Rolle kann bestimmte Aufgaben ausführen. Zum Beispiel kann ein Mitarbeiter Dateien und Ordner umbenennen und löschen, was einem Benutzer dagegen nicht erlaubt ist. Machen Sie sich mit den unterschiedlichen Rollen vertraut, damit Sie beim Hinzufügen von Benutzern deren Verantwortlichkeiten verstehen. 
+Media Portal-Benutzer haben drei Rollen: Benutzer, Beitragende und Mitwirkende. Jede Rolle kann bestimmte Aufgaben ausführen. Zum Beispiel kann ein Mitarbeiter Dateien und Ordner umbenennen und löschen, was einem Benutzer dagegen nicht erlaubt ist. Machen Sie sich mit den unterschiedlichen Rollen vertraut, damit Sie beim Hinzufügen von Benutzern deren Verantwortlichkeiten verstehen. 
 
 Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -47,13 +47,13 @@ Siehe [Erstellen und Verwalten von Media Portal-Gruppen](creating-media-portal-g
 
 ## 3. Hinzufügen von Benutzern
 
-Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine Rolle zu (Benutzer, Mitarbeiter oder Mitarbeiter-Benutzer). Sie weisen den Benutzer außerdem einer oder mehreren Gruppen zu. Um das Hinzufügen von Benutzern zu beschleunigen, können Sie eine Benutzerliste in einer CSV-Datei hochladen. Neue Benutzer erhalten eine Begrüßungs-E-Mail und Anweisungen für die Anmeldung bei Media Portal. 
+Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine Rolle zu (Benutzer, Mitarbeiter oder Mitarbeiter-Benutzer). Sie können den Benutzer auch einer oder mehreren Gruppen zuweisen. Um das Hinzufügen von Benutzern zu beschleunigen, können Sie eine Benutzerliste in einer CSV-Datei hochladen. Neue Benutzer erhalten eine Begrüßungs-E-Mail und Anweisungen für die Anmeldung bei Media Portal. 
 
 Siehe [Hinzufügen und Verwalten von Media Portal-Benutzern](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Verwalten von FTP-Konten
 
-Sie können über separate FTP-Konten verfügen, die mit Media Portal verknüpft sind und einem bestimmten Ordner in Ihrem Adobe Dynamic Media Classic-Konto zugeordnet sind. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
+Sie können über separate FTP-Konten verfügen, die mit Media Portal verknüpft sind. Sie können einem bestimmten Ordner in Ihrem Adobe Dynamic Media Classic-Konto zugeordnet werden. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
 
 Siehe [FTP-Konten verwalten](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Siehe [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar s
 
 ## 6. Erstellen von Bildvorgaben
 
-Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen, die die Größe, Bildqualität, Format, Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden. 
+Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Mit diesen Einstellungen können Größe, Bildqualität, Format, Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren geändert werden. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden. 
 
 Siehe [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Erstellen von Metadaten-Vorgaben und benutzerdefinierten Metadatenfeldern
 
-Metadaten beschreiben und identifizieren Dateien, sodass Assets einfacher gefunden und organisiert werden können. Um sicherzustellen, dass Metadaten ordnungsgemäß eingegeben und erforderliche Metadatenfelder ausgefüllt werden, können Sie Metadaten-Vorgaben erstellen. Eine Metadaten-Vorgabe ist ein vordefinierter Satz von Metadaten-Einträgen. Sie können auch Metadatenfelder erstellen, die Dateien, mit denen Sie arbeiten, eindeutig beschreiben. 
+Metadaten beschreiben und identifizieren eine Datei. Sie wird zum Suchen und Organisieren von Assets verwendet. Sie können Metadatenvorgaben erstellen, um sicherzustellen, dass Metadaten richtig eingegeben und alle Metadatenfelder, die Daten erfordern, ausgefüllt werden. Eine Metadaten-Vorgabe ist ein vordefinierter Satz von Metadaten-Einträgen. Sie können auch Metadatenfelder erstellen, die Dateien, mit denen Sie arbeiten, eindeutig beschreiben. 
 
 Siehe [Effizientes Arbeiten mit Metadaten](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 

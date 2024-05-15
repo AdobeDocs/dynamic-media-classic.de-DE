@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # Anzeigen von Bildsets{#viewing-image-sets}
 
-Sie können Ihre Bildsätze unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Für Bildsätze verwenden Sie eine benutzerdefinierte Viewer-Vorgabe für Zoom-Viewer.
+Sie können Ihre Bildsätze unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Sie können einen Zoom-Viewer verwenden: eine benutzerdefinierte Viewer-Vorgabe für Bildsets.
 
 Adobe Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
 
@@ -34,7 +34,7 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 
    * **Bearbeiten** - Zeigen Sie den Namen einer Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Im `Configure Viewer` Geben Sie im Textfeld &quot;Vorgabenname&quot;einen Namen für die Viewer-Vorgabe &quot;Musterset&quot;ein.
+1. Im `Configure Viewer` Geben Sie im Textfeld &quot;Vorgabenname&quot;einen Namen für die Viewer-Vorgabe für das Musterset ein.
 1. Wählen Sie Optionen im `Configure Viewer` Seite.
 
    Um eine Beschreibung einer Option anzuzeigen, wählen Sie die **[!UICONTROL Info-Tipp]** rechts neben der Option.
@@ -49,7 +49,7 @@ Mit der Vorschau können Sie sehen, wie ein Asset in einem bestimmten Viewer-Typ
 
 1. Im Bedienfeld &quot;Asset-Bibliothek&quot;auf der linken Seite finden Sie im **[!UICONTROL Anzeigen]** Dropdown-Liste auswählen **[!UICONTROL Bildset]**.
 1. Durchsuchen Sie auf der linken Seite der Asset-Bibliothek die Asset-Ordner, um den Bildsatz auszuwählen, den Sie in der Vorschau anzeigen möchten.
-1. Führen Sie einen der folgenden Schritte aus
+1. Führen Sie einen der folgenden Schritte aus:
 
    * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Listenansicht]** Symbol. Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).
    * Wählen Sie rechts oben im Adobe Dynamic Media Classic-Fenster die Option **[!UICONTROL Rasteransicht]** Symbol. Wählen Sie im Asset-Fenster in einem Asset-Miniaturfenster die Option **[!UICONTROL Vorschau]** (nicht die Dropdownliste Vorschau ).

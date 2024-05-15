@@ -10,9 +10,9 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '482'
 ht-degree: 22%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 Projekte bieten Ihnen eine zusätzliche Möglichkeit, Assets unabhängig von den Ordnern zu verwalten, in denen die Assets enthalten sind. Ein Asset kann nur in einem einzigen Ordner abgelegt werden, lässt sich jedoch zu Organisationszwecken in mehrere Projektordner kopieren.
 
-Nachdem Sie einen Projektordner erstellt haben, können Sie Assets darin ablegen. Assets in einem Projekt verweisen jedoch tatsächlich auf den Ordner der Asset-Bibliothek, in dem die Assets gespeichert sind. Sie können ein Asset in mehreren Projekten ablegen. Beispielsweise kann ein Bild einer Bluse sowohl in den Projektordnern &quot;Blasen&quot;als auch &quot;Herbstsammlung&quot;abgelegt werden.
+Nachdem Sie einen Projektordner erstellt haben, können Sie Assets darin ablegen. Assets in einem Projekt zeigen tatsächlich auf den Ordner der Asset-Bibliothek, in dem die Assets gespeichert sind. Sie können ein Asset in mehreren Projekten ablegen. Beispielsweise kann ein Bild einer Bluse sowohl in den Projektordnern &quot;Blasen&quot;als auch &quot;Herbstsammlung&quot;abgelegt werden.
 
 Sie können ein Projekt erstellen, wenn Sie Dateien hochladen oder Projekte in der Asset-Bibliothek erstellen.
 

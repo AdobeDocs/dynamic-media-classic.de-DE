@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 48%
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic speichert die Exportvorgänge im Bildschirm &quot;Au
 
    * **[!UICONTROL Auftragsname]** - Sie können dem Export einen Auftragsnamen zuweisen.
 
-   * **[!UICONTROL E-Mail senden an]** - Geben Sie optional eine E-Mail-Adresse ein, wenn Sie die Assets per E-Mail versenden möchten. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
+   * **[!UICONTROL E-Mail senden an]** - Optional. Geben Sie eine E-Mail-Adresse ein, wenn Sie die Assets per E-Mail versenden möchten. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
 
 1. Auswählen **[!UICONTROL Export]**.
 
@@ -77,5 +77,5 @@ Sie können die Konvertierungsoptionen beim Export folgender Asset-Typen verwend
 
 Wird eine große Menge verschiedener Asset-Typen für den Export ausgewählt, ergibt sich folgendes Verhalten:
 
-* Alle Asset-Typen, die nicht exportiert werden können, werden vor dem Übermitteln des Auftrags aus der Liste entfernt.
-* Wurde eine Konvertierung angefordert, werden alle konvertierbaren Typen konvertiert und die übrigen Typen als Ausgangsdateien exportiert.
+* Alle Asset-Typen, die nicht exportiert werden können, werden vor der Auftragseinsendung aus der Liste entfernt
+* Wenn eine Konvertierung angefordert wird, werden alle konvertierbaren Typen und alle anderen Typen als Original exportiert

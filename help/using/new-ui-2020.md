@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Siehe [Adobe Dynamic Media Classic-Desktop-Programm](/help/using/dynamic-media-c
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Wie funktioniert das neue Desktop-Programm?_**
-Nach dem Herunterladen, Installieren und Starten des Desktop-Programms wird Ihnen eine aktualisierte Anmeldung angezeigt. Wenn Sie Ihren bestehenden Benutzernamen und Ihr Passwort eingeben und den entsprechenden Server entsprechend Ihrer Region auswählen, können Sie sich bei Adobe Dynamic Media Classic anmelden. Das Gesamterlebnis entspricht der gewohnten Webbrowser-Version, die Sie verwendet haben. Über das -Desktop-Programm können Sie auf die Produktions- und Staging-Umgebungen von Adobe Dynamic Media Classic zugreifen. Sie können auch auf Media Portal zugreifen, wenn Sie für diese Funktion autorisiert sind.
+Nach dem Herunterladen, Installieren und Starten des Desktop-Programms wird Ihnen eine aktualisierte Anmeldung angezeigt. Wenn Sie Ihren bestehenden Benutzernamen und Ihr Passwort eingeben und den entsprechenden Server entsprechend Ihrer Region auswählen, können Sie sich bei Adobe Dynamic Media Classic anmelden. Das Gesamterlebnis entspricht der üblichen Webbrowser-Version, die Sie verwendet haben. Über das -Desktop-Programm können Sie auf die Produktions- und Staging-Umgebungen von Adobe Dynamic Media Classic zugreifen. Sie können auch auf Media Portal zugreifen, wenn Sie für diese Funktion autorisiert sind.
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ Nein zu beiden Fragen. Für die Verwendung des neuen Adobe Dynamic Media Classic
 +++
 
 +++**_Wie werden Upgrades zum Adobe Dynamic Media Classic-Desktop-Programm aktiviert?_**
-Nach der Veröffentlichung des Adobe Dynamic Media Classic-Desktop-Programms am 30. Juni 2020 müssen Kunden, die eine neue Version veröffentlichen, die neue Version herunterladen und wie gewohnt installieren (ersetzen Sie die vorhandene App in **[!UICONTROL Anwendungen]**). Sie werden über Ihr Adobe Account-Team und einen In-App-Benachrichtigungsmechanismus zur Aktualisierung über die neue Version benachrichtigt, die die Benutzer über eine Aktualisierung informiert.
+Nach der Veröffentlichung des Adobe Dynamic Media Classic-Desktop-Programms am 30. Juni 2020 müssen Kunden die neue Version herunterladen und installieren (ersetzen Sie die vorhandene App in **[!UICONTROL Anwendungen]**). Sie werden über Ihr Adobe Account-Team und einen In-App-Benachrichtigungsmechanismus zur Aktualisierung über die neue Version benachrichtigt, die die Benutzer über eine Aktualisierung informiert.
 +++
 
 +++**_Wie erhalte ich Hilfe bei Problemen mit dem Adobe Dynamic Media Classic-Desktop-Programm?_**
@@ -107,7 +107,7 @@ Weitere Informationen zu den Vorteilen der Aktualisierung auf die nächste Gener
 
 >[!MORELIKETHIS]
 >
->* [Anmelden bei und Abmelden vom Adobe Dynamic Media Classic-Desktop-Programm](/help/using/signing-out.md)
+>* [Anmelden bei und Abmelden von der Adobe Dynamic Media Classic-Desktop-Applikation](/help/using/signing-out.md)
 >* [Herunterladen und Installieren des Adobe Dynamic Media Classic-Desktop-Programms](/help/using/dynamic-media-classic-desktop-app.md)
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

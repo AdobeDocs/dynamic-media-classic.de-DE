@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 17%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
 # Adobe Dynamic Media Classic-Programmübersicht{#adobe-scene-platform-overview}
 
-Adobe Dynamic Media Classic ist eine integrierte Rich-Media-Management-, Publishing- und Serving-Umgebung. Rich-Media-Daten können für alle Marketing- und Vertriebskanäle verwendet werden, einschließlich Internet, Druckmaterial, E-Mail-Kampagnen, Web-Portale, Desktop-Computer und sonstige Geräte.
+Adobe Dynamic Media Classic ist eine integrierte Rich-Media-Management-, Publishing- und Serving-Umgebung. Rich-Media können für alle Marketing- und Verkaufskanäle bereitgestellt werden. Zu diesen Kanälen gehören Web, Druckmaterial, E-Mail-Kampagnen, Web-Portale, Desktops und Geräte.
 
 Siehe auch [Plattformübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) Schulungsvideo.
 
@@ -41,7 +41,7 @@ Die wichtigsten Schritte des Adobe Dynamic Media Classic-Workflows sind:
 
 Adobe Dynamic Media Classic unterscheidet sich grundlegend von anderen Systemen, da Sie mit Adobe Dynamic Media Classic Medien dynamisch aus einzelnen primären Assets und URL-Aufrufen bereitstellen können.
 
-Die mit Adobe Dynamic Media Classic generierten URL-Zeichenfolgen enthalten Anweisungen, die dem Server mitteilen, wie das Asset bei der Bereitstellung angezeigt werden soll. Beispielsweise kann dasselbe Primärbild in unterschiedlichen Größen, Formaten, Gewichtungen, Farben und Zoom-Ansichten bereitgestellt werden. Beim Erstellen und Veröffentlichen von Medien-Assets mit Adobe Dynamic Media Classic konfigurieren Sie die Effekte visuell. Erstellen Sie dabei die URL-Aufrufe, die dem Server korrekt mitteilen, wie das primäre Asset für Anwendungen bereitgestellt werden soll.
+Die mit Adobe Dynamic Media Classic generierten URL-Zeichenfolgen enthalten Anweisungen, die dem Server mitteilen, wie das Asset bei der Bereitstellung angezeigt werden soll. Beispielsweise kann dasselbe Primärbild in unterschiedlichen Größen, Formaten, Gewichtungen, Farben und Zoom-Ansichten bereitgestellt werden. Beim Erstellen und Veröffentlichen von Medien-Assets mit Adobe Dynamic Media Classic können Sie die Effekte visuell konfigurieren. Erstellen Sie dabei die URL-Aufrufe, die dem Server korrekt mitteilen, wie das primäre Asset für Anwendungen bereitgestellt werden soll.
 
 ![Adobe Dynamic Media Classic kann dasselbe Primärbild für verschiedene Medien in unterschiedlichen Größen und Formaten bereitstellen.](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic stellt sicher, dass unabhängig von Größe und Bandbreite für jeden Bildschirm konsistente, qualitativ hochwertige Erlebnisse bereitgestellt werden.*

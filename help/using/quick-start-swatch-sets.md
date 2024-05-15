@@ -10,9 +10,9 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 17%
 
 ---
@@ -57,4 +57,4 @@ Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic erstellt URL-Aufrufe für Mustersets und aktiviert diese nach der Veröffentlichung. Sie können diese URLs von der Seite &quot;Vorschau&quot;kopieren.
 
-Markieren Sie dazu das Musterset und klicken Sie auf „Vorschau“. Die Vorschauseite wird geöffnet. Wählen Sie anschließend eine Musterset-Viewer-Vorgabe aus und klicken Sie auf „URL kopieren“. Siehe [Verknüpfen eines Mustersets mit einer Webseite](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Markieren Sie dazu das Musterset und klicken Sie auf „Vorschau“. Die Vorschauseite wird geöffnet. Wählen Sie anschließend eine Musterset-Viewer-Vorgabe aus und klicken Sie auf „URL kopieren“. Siehe [Verknüpfen von Mustersets mit Webseiten](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

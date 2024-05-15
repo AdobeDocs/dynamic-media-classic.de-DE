@@ -10,10 +10,10 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 28%
+source-wordcount: '726'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ Die Optionen zum Hochladen von PDF-Dateien finden Sie auf der Seite Hochladen un
 
 **[!UICONTROL Rastern]** - (Standard) Rippt die Seiten in der PDF-Datei und konvertiert Vektorgrafiken in Bitmap-Bilder. Wählen Sie diese Option, um einen eCatalog zu erstellen.
 
-**[!UICONTROL Suchbegriffe extrahieren]** - Extrahiert Wörter aus der PDF-Datei, damit die Datei in einem E-Katalog-Viewer nach Schlüsselwörtern durchsucht werden kann.
+**[!UICONTROL Suchbegriffe extrahieren]** - Extrahiert Wörter aus der PDF-Datei, damit die Stichwörter in der Datei in einem E-Katalog-Viewer durchsucht werden können.
 
 **[!UICONTROL Links extrahieren]** - Extrahiert Links aus den PDF-Dateien und konvertiert sie in Imagemaps, die in einem E-Katalog-Viewer verwendet werden.
 
@@ -73,7 +73,9 @@ Siehe auch [ICC-Profile](/help/using/icc-profiles.md#icc_profiles).
 
 ## Leerraum aus einer PDF-Datei beschneiden {#cropping-white-space-from-a-pdf-file}
 
-1. Um beim Hochladen einer PDF-Datei Pixel in weißen Flächen automatisch abzuschneiden, wählen Sie im Menü „Beschneiden“ die Option „Beschneiden“.
+Sie können während des Uploads von einer PDF-Datei automatisch weiße Leerraum-Pixel beschneiden.
+
+1. Wählen Sie das Menü Zuschneiden und dann Zuschneiden aus.
 1. Legen Sie die folgenden Optionen fest:
 
    * **[!UICONTROL Entfernen basierend auf]** - Wählen Sie anhand von Farbe oder Transparenz aus, ob Zuschnitte vorgenommen werden sollen:
@@ -95,4 +97,4 @@ Sie können die Druckmarkierungen beim Hochladen manuell von den Seiten in einer
 1. Wählen Sie im Menü Zuschneiden die Option **[!UICONTROL Manuell]**.
 1. Geben Sie in die Textfelder „Oben“, „Rechts“, „Unten“ und „Links“ Pixelwerte für den Bereich ein, der am jeweiligen Bildrand abgeschnitten werden soll.
 
-Wie viel von der Seite tatsächlich abgeschnitten wird, hängt davon ab, welchen Wert Sie für die Auflösungseinstellung „Pixel/Zoll“ der PDF-Datei eingeben. Angenommen, Sie geben 150 (Standard) als Einstellung &quot;Auflösung PX/Zoll&quot;ein. Anschließend beschneiden Sie die Seiten um 75 Pixel. In diesem Fall 0,5 Zoll. zugeschnitten ist. Bei 150 Pixel pro Zoll entsprechen 75 Pixel einem halben Zoll.
+Wie viel von der Seite tatsächlich abgeschnitten wird, hängt davon ab, welchen Wert Sie für die Auflösungseinstellung „Pixel/Zoll“ der PDF-Datei eingeben. Angenommen, Sie geben 150 (Standard) als Einstellung &quot;Auflösung PX/Zoll&quot;ein. Anschließend beschneiden Sie die Seiten um 75 Pixel. In diesem Fall sind es 0,5 Zoll. zugeschnitten ist. Bei 150 Pixel pro Zoll entsprechen 75 Pixel einem halben Zoll.

@@ -1,5 +1,5 @@
 ---
-title: Zoomziele für geführten Zoom erstellen
+title: Erstellen von Zoomzielen für geführten Zoom
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic Zoomziele für geführtes Zoomen erstellen.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,38 +10,38 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 42%
+source-wordcount: '731'
+ht-degree: 32%
 
 ---
 
-# Zoomziele für geführten Zoom erstellen{#creating-zoom-targets-for-guided-zoom}
+# Erstellen von Zoomzielen für geführten Zoom{#creating-zoom-targets-for-guided-zoom}
 
 Anhand von Zoomzielen wird die Aufmerksamkeit der Betrachter auf bestimmte Bildausschnitte gelenkt. Neben dem Freiformzoomen können Viewer eine Miniaturansicht des Zoomziels auswählen und auf den Teil des Bildes zoomen, auf den sie sich konzentrieren sollen. Zoomziele bieten Ihnen die Möglichkeit, besonders attraktive oder interessante Bildausschnitte hervorzuheben.
 
-![Zoomziele für geführten Zoom erstellen](/help/using/assets/zo_guided_zoom.png)
+![Erstellen von Zoomzielen für geführten Zoom](/help/using/assets/zo_guided_zoom.png)
 
-## Zoomziele {#about-zoom-targets}
+## Über Zoomziele {#about-zoom-targets}
 
-Der maximale Zoomprozentsatz für Zoomziele ist 100 %. Der minimale Zoomprozentsatz variiert in Abhängigkeit von einer Kombination aus Viewer-Größe und Bildgröße, wie in folgender Tabelle dargestellt:
+Der maximale Zoom-Prozentsatz von Zoomzielen beträgt 100 Prozent. Der minimale Zoomprozentsatz variiert in Abhängigkeit von einer Kombination aus Viewer-Größe und Bildgröße, wie in folgender Tabelle dargestellt:
 
 | Bildgröße | Viewer-Größe | Zoomprozentsatz |
 | --- | --- | --- |
 | Groß | Kleiner | Kleinerer Minimalwert |
 | Klein | Größer | Größerer Minimalwert |
 
-Sie können die Größe des Zoom-Viewers an die auf der Website verwendete Größe anpassen. Um diese Einstellung dauerhaft zu ändern, können Sie im Anzeigebereich „Einstellungen“ die Viewer-Größe entsprechend ändern (sofern Sie ein Administrator sind). Siehe [Einrichten von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Sie können die Größe des Zoom-Viewers an die auf der Website verwendete Größe anpassen. Sie können diese Einstellung dauerhaft ändern, indem Sie die Viewer-Größe auf dem Bildschirm &quot;Einrichtung&quot;ändern (falls Sie Administrator sind). Siehe [Einrichten von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## Zoomziele erstellen und bearbeiten {#creating-and-editing-zoom-targets}
+## Erstellen und Bearbeiten von Zoomzielen {#creating-and-editing-zoom-targets}
 
-Im Zoomziel-Editor erstellen und bearbeiten Sie Zoomziele. Um diesen Editor zu öffnen, wählen Sie ein Bild und führen Sie einen der folgenden Schritte aus:
+Erstellen und bearbeiten Sie Zoomziele im Zoomziel-Editor. Um diesen Editor zu öffnen, wählen Sie ein Bild und führen Sie einen der folgenden Schritte aus:
 
 * Rollover auswählen **[!UICONTROL Bearbeiten]** und wählen Sie &quot;Zoomziele&quot;.
 * Zeigen Sie das Bild im Durchsuchenbedienfeld in **[!UICONTROL Detailansicht]**, wählen Sie **[!UICONTROL Zoomziele]**.
 
-Wählen Sie im Bildschirm &quot;Zoomziel-Editor&quot;die Option **[!UICONTROL Ziel auswählen]** Schaltfläche (Pfeil), um ein Ziel auszuwählen, bevor es seine Größe oder Position ändert. Um ein Zoomziel für das Bild zu erstellen, wählen Sie **[!UICONTROL Zielgruppen hinzufügen]** (Rechteck). Auf der Seite &quot;Zoom-Ziel-Editor&quot;finden Sie außerdem Tools zum Löschen, Kopieren und Benennen von Zoomzielen.
+Wählen Sie im Bildschirm &quot;Zoomziel-Editor&quot;die **[!UICONTROL Ziel auswählen]** Schaltfläche (Pfeil), um ein Ziel auszuwählen, bevor es seine Größe oder Position ändert. Um ein Zoomziel für das Bild zu erstellen, wählen Sie **[!UICONTROL Zielgruppen hinzufügen]** (Rechteck). Auf der Seite &quot;Zoom-Ziel-Editor&quot;finden Sie außerdem Tools zum Löschen, Kopieren und Benennen von Zoom-Zielen.
 
 ### Zoomziel erstellen {#creating-a-zoom-target}
 
@@ -70,7 +70,7 @@ Um ein Zoomziel zu erstellen, öffnen Sie die Seite &quot;Zoomziel-Editor&quot;u
 
 >[!NOTE]
 >
->Um zu sehen, wie die Zoomziele in einem Zoom-Viewer aussehen, wählen Sie die **[!UICONTROL Vorschau]** im Zoomziel-Editor und wählen Sie im Vorschaubildschirm einen Zoom-Viewer aus. Weitere Informationen zu diesem Bildschirm finden Sie unter [Vorschau von Bildern mit unterschiedlichen Zoom-Viewern](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>Um zu sehen, wie Ihre Zoomziele in einem Zoom-Viewer aussehen, wählen Sie die **[!UICONTROL Vorschau]** im Zoomziel-Editor angezeigt. Wählen Sie dann im Vorschaubildschirm einen Zoom-Viewer aus. Weitere Informationen zu diesem Bildschirm finden Sie unter [Vorschau von Bildern mit unterschiedlichen Zoom-Viewern](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### Zoomziele bearbeiten {#editing-zoom-targets}
 
@@ -86,8 +86,8 @@ Verwenden Sie zum Bearbeiten von Zoomzielen die folgenden Verfahren auf der Seit
 
 ### Zoomziele kopieren {#copying-zoom-targets}
 
-Sie können Zoomziele von einem Bild zu einem anderen kopieren. Kopieren Sie Ziele, wenn zwei Bilder ähnlichen Inhalt haben und ihre Zoomziele zu den gleichen Orten gehören. Gehen Sie wie folgt vor, um Zoomziele in ein anderes Bild zu kopieren:
+Sie können Zoomziele von einem Bild in ein anderes kopieren. Kopieren Sie Ziele, wenn zwei Bilder ähnliche Inhalte aufweisen und ihre Zoom-Ziele an denselben Orten liegen. Gehen Sie wie folgt vor, um Zoomziele in ein anderes Bild zu kopieren:
 
-1. Öffnen Sie das Bild mit den Zoomzielen, die Sie kopieren möchten, im Zoomziel-Editor.
+1. Öffnen Sie das Bild mit Zoomzielen, die Sie kopieren möchten, im Zoomziel-Editor.
 1. Auswählen **[!UICONTROL Zielgruppen kopieren nach]**.
 1. Wählen Sie im Dialogfeld Bilder auswählen ein Bild aus und wählen Sie **[!UICONTROL Auswählen]**.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach
 
 ### Pull-Anforderung erstellen {#create-a-pull-request}
 
-Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, die dann von einem Mitglied des Dokumentationsteams zur Aufnahme geprüft werden. Um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen, wählen Sie **[!UICONTROL Diese Seite bearbeiten]** oben rechts im Navigationsfenster auf einer beliebigen Seite.
+Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen und ein Mitglied des Dokumentationsteams überprüft sie zur Aufnahme. Um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen, wählen Sie **[!UICONTROL Diese Seite bearbeiten]** oben rechts im Navigationsfenster auf einer beliebigen Seite.
 
-Bei allen Pull-Anfragen muss eine signierte [Lizenzvereinbarung für Mitwirkende oder CLA](https://opensource.adobe.com/cla.html). Dieser Workflow ermöglicht es der Adobe, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. Sie senden nur einmal eine Adobe-CLA. Wenn Sie also bereits eine übermittelt haben, werden Sie festgelegt.
+Unterschrieben [Lizenzvereinbarung für Mitwirkende oder CLA](https://opensource.adobe.com/cla.html) muss allen Pull-Anfragen beiliegen. Dieser Workflow ermöglicht es der Adobe, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. Sie können eine Adobe-CLA nur einmal senden. Wenn Sie also bereits eine übermittelt haben, werden Sie festgelegt.
 
 ### Schnellvideo-Einführung
 

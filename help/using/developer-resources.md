@@ -9,7 +9,7 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 20%
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 # Entwicklerressourcen {#developer-resources}
 
-Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie Image Production System beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die die Rich Media-Daten von Adobe Dynamic Media Classic für eine Website oder eine benutzerdefinierte Anwendung weiter anpassen und verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit dem Dynamic Media Classic-Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
+Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie Image Production System beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die weitere Anpassungen vornehmen und Adobe Dynamic Media Classic Rich Media für eine Website oder eine benutzerdefinierte Anwendung verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit dem Dynamic Media Classic-Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
 
 Siehe auch [Dynamic Media-Entwicklungsressourcen](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 

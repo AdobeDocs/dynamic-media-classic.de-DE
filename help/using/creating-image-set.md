@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines Bildsatzes
-description: Erfahren Sie, wie Sie ein Bildset in Adobe Dynamic Media Classic erstellen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic ein Bildset erstellen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '672'
 ht-degree: 46%
 
 ---
@@ -25,7 +25,7 @@ Um einen Bildsatz mit mehreren Ansichten zu erstellen, benötigen Sie Bilder, di
 
 Wenn Sie ein Set erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
 
-| **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| **[!UICONTROL `Publish after save`]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -39,7 +39,7 @@ Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und s
 | Anzahl der doppelten Assets pro Satz | Keine Duplikate | 20 ‡ |
 | Maximale Anzahl an Bildern pro Set | 5 - 10 Bilder pro Set | 1000 |
 
-‡ Best Practice ist, keine doppelten Assets in einem Satz zu haben. Die Beschränkung beträgt 20 Duplikate für ein einzelnes Asset. Wenn Sie ein weiteres Duplikat für dieses Asset innerhalb dieses Satzes hinzufügen, gibt die Anfrage entweder einen Fehler aus oder ignoriert das Duplikat.
+‡ Best Practice ist, keine doppelten Assets in einem Satz zu haben. Die Beschränkung beträgt 20 Duplikate für ein einzelnes Asset. Wenn Sie innerhalb des Sets ein weiteres Duplikat für dieses Asset hinzufügen, gibt die Anforderung entweder einen Fehler aus oder ignoriert das Duplikat.
 
 Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
 
 Unabhängig davon, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wird die **[!UICONTROL Nach dem Speichern veröffentlichen]** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
-| Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL `Publish after save`]** vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Veröffentlichungsstatus bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |

@@ -9,10 +9,10 @@ role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 37%
+source-wordcount: '169'
+ht-degree: 27%
 
 ---
 
@@ -20,6 +20,6 @@ ht-degree: 37%
 
 Adobe Dynamic Media Classic bietet die Asset-Bibliothek zum Verwalten von Assets. Die Asset-Bibliothek enthält die Ordner, in denen Sie Ihre Asset-Dateien speichern. Wenn Sie in der Asset-Bibliothek einen Ordner auswählen, wird im Durchsuchenbedienfeld der Inhalt dieses Ordners angezeigt. Sie können Elemente im Durchsuchenbedienfeld in der Raster-, Listen- oder Detailansicht anzeigen. Wenn Sie sich auf ein einzelnes Asset konzentrieren möchten, doppelklicken Sie im Durchsuchenbedienfeld darauf, um es in der Detailansicht anzuzeigen.
 
-Mit den Werkzeugen im Durchsuchenbedienfeld können Sie Assets anzeigen, auswählen, suchen, als Vorschau betrachten, verschieben, umbenennen und löschen. Von Ihnen gelöschte Assets werden im Ordner „Papierkorb“ abgelegt; Sie können Assets bei Bedarf aus diesem Ordner zurückholen (wiederherstellen).
+Das Bedienfeld &quot;Durchsuchen&quot;bietet Tools zum Anzeigen, Auswählen und Suchen. Das Bedienfeld bietet außerdem die Vorschau, das Verschieben, Umbenennen und Löschen von Assets. Von Ihnen gelöschte Assets werden im Ordner „Papierkorb“ abgelegt; Sie können Assets bei Bedarf aus diesem Ordner zurückholen (wiederherstellen).
 
 Wenn Sie ein Asset untersuchen oder bearbeiten möchten, öffnen Sie es in der Detailansicht. Sie können Metadaten in der Detailansicht aufzeichnen, um die Suche und Verwendung eines Assets zu vereinfachen.

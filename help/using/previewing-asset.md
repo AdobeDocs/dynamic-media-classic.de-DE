@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 19%
+source-wordcount: '1008'
+ht-degree: 17%
 
 ---
 
@@ -43,7 +43,7 @@ Siehe auch [Beispiele für Adobe Viewer-Referenzbibliothek](https://landing.adob
 
 ## Vorschau eines Assets basierend auf dem Viewer-Plattformtyp {#previewing-an-asset-based-on-viewer-platform-type}
 
-Mit der Viewer-Liste können Sie in der Vorschau testen, wie ein Asset in einer bestimmten Viewer-Plattform wie HTML5 angezeigt wird. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar.
+Mit der Viewer-Liste können Sie eine Vorschau des Assets auf einer bestimmten Viewer-Plattform wie HTML5 anzeigen. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar.
 
 Sie können auch die Viewer-Liste verwenden, um die URL eines Viewers zu kopieren oder den Viewer-Code zum Einbetten in Ihre Webseiten anzuzeigen und zu kopieren.
 
@@ -63,7 +63,7 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster &quot;Viewer-Liste&
 
    Schließen Sie die angezeigte Vorschau.
 
-1. (Optional) Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Dropdown-Liste URL-Kodierung für URL-Generierung kopieren unten die URL-Kodierung aus, die beim Kopieren auf die URL des Assets angewendet werden soll.
+1. (Optional) Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Dropdown-Liste URL-Kodierung für URL-Generierung kopieren unten die URL-Kodierung aus. Diese Kodierung wird beim Kopieren auf die URL des Assets angewendet.
 1. (Optional) Führen Sie dann einen der folgenden Schritte aus:
 
    * Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]** für einen ausgewählten Viewer und Plattformtyp.
@@ -82,7 +82,7 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster &quot;Viewer-Liste&
 
 Sie können eine Vorschau eines Bild-Asset auf Grundlage seiner Bildvorgabe aufrufen, um zu sehen, wie das Bild aussieht, wenn es dynamisch in verschiedenen Größen für Ihre Website oder Anwendung bereitgestellt wird.
 
-Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen, die die Größe, Bildqualität, Format, Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern.
+Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen ändern die Größe, Bildqualität, Format, Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren.
 
 Siehe [Einrichten von Bildvorgaben](setting-image-presets.md#setting_up_image_presets).
 
@@ -98,7 +98,8 @@ Siehe [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-preset
    * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
 
 1. Wählen Sie im Fenster „Bildvorgabeliste“ in der Tabelle den Namen einer Vorgabe aus, deren Bild-Asset Sie inline im rechten Fensterbereich in der Vorschau anzeigen möchten.
-1. (Optional) Im Fenster Bildvorgabenliste können Sie im **[!UICONTROL URL-Kodierung für die Generierung der URL kopieren]** Wählen Sie unten in der Dropdown-Liste die URL-Kodierung aus, die beim Kopieren auf die URL des Bild-Assets angewendet werden soll.
+1. (Optional) Im Fenster Bildvorgabenliste können Sie im **[!UICONTROL URL-Kodierung für die Generierung der URL kopieren]** Dropdownliste unten.
+1. Wählen Sie die URL-Kodierung aus, die beim Kopieren auf die URL des Bild-Assets angewendet werden soll.
 1. (Optional) Wählen Sie im Fenster Bildvorgabeliste oben rechts im Vorschaufenster die Option **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp.
 
    Wenn Sie **[!UICONTROL URL kopieren]**, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
