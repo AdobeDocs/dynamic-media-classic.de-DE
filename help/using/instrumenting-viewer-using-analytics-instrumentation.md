@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 20%
+source-wordcount: '306'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 Mit dem Adobe Analytics Instrumentation Kit können Sie einen HTML5-Viewer in Adobe Analytics integrieren.
 
-Wenn Sie eine der vordefinierten Adobe Dynamic Media Classic HTML5-Viewer-Vorgaben verwenden, enthalten diese bereits den gesamten Implementierungscode zum Senden von Daten an Adobe Analytics. Sie benötigen keine weitere Instrumentierung.
+Wenn Sie eine der vordefinierten Adobe Dynamic Media Classic HTML5-Viewer-Vorgaben verwenden, enthalten diese bereits den gesamten Implementierungscode zum Senden von Daten an Adobe Analytics. Sie müssen keine weitere Instrumentierung hinzufügen.
 
 ## Einrichten von Adobe Analytics-Tracking über Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -31,7 +31,7 @@ Fügen Sie für alle HTML5-Viewer das folgende JavaScript zum HTML-Container hin
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Wo `Adobe Dynamic Media Classic Company ID` auf den Adobe Dynamic Media Classic-Unternehmensnamen festgelegt ist. und `&preset` ist optional, es sei denn, der Vorgabenname des Unternehmens ist nicht `companypreset`. In solchen Fällen kann es `companypreset-1, companypreset-2`usw. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen für die Unternehmensvorgabe zu bestimmen, wählen Sie **[!UICONTROL URL kopieren]**, und sehen Sie sich dann die `preset=`-Parameter, um den Unternehmensvorgabennamen zu finden.
+Wo `Adobe Dynamic Media Classic Company ID` auf den Adobe Dynamic Media Classic-Unternehmensnamen festgelegt ist. und `&preset` ist optional. Wenn der Vorgabenname des Unternehmens nicht `companypreset`festgelegt ist, ist dies nicht optional. In solchen Fällen kann es `companypreset-1, companypreset-2`usw. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen für die Unternehmensvorgabe zu bestimmen, wählen Sie **[!UICONTROL URL kopieren]**, und sehen Sie sich dann die `preset=`-Parameter, um den Unternehmensvorgabennamen zu finden.
 
 Fügen Sie nun eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Trackingcode sendet.
 
@@ -41,7 +41,7 @@ Fügen Sie die `s7ComponentEvent()` -Funktion auf die Container-HTML (oder JSP, 
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-Beim Funktionsnamen wird zwischen Groß- und Kleinschreibung unterschieden. Der einzige Parameter, der an `s7componentEvent`erforderlich ist der letzte: `eventData`. Wo `s7track()` ist in s_code.jsp definiert, die oben enthalten ist. und `s7track` verarbeitet das gesamte Tracking pro Ereignis. (Wenn Sie an Adobe Analytics übermittelte Daten weiter anpassen müssen, sollten Sie dies an dieser Stelle tun.)
+Beim Funktionsnamen wird zwischen Groß- und Kleinschreibung unterschieden. Der einzige Parameter, der an `s7componentEvent`erforderlich ist der letzte: `eventData`. Wo `s7track()` ist in s_code.jsp definiert, die oben enthalten ist. und `s7track` verarbeitet das gesamte Tracking pro Ereignis. (In diesem Bereich können Sie die an Adobe Analytics übermittelten Daten weiter anpassen.)
 
 ## HREF- und ITEM-Ereignisse aktivieren {#enabling-href-and-item-events}
 

@@ -10,9 +10,9 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '667'
 ht-degree: 37%
 
 ---
@@ -65,11 +65,11 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 
 Die hier aufgeführten Adobe Dynamic Media Classic-Best Practice-Optionen zum Erstellen von Bildvorgaben sind allgemeine Empfehlungen. Die Scharfzeichnung ist äußerst subjektiv. Diese &quot;Best Practice&quot;-Einstellungen basieren auf einem Primärbild von 2000 × 2000. Die Einstellungen für größere oder kleinere Primärdateien können unterschiedlich sein. Wenn Sie die Einstellungen für die Unschärfemaske anpassen möchten, empfiehlt Adobe Dynamic Media Classic die folgenden Bereiche:
 
-* **[!UICONTROL Betrag]** - zwischen 0,8 und 1,5.
+* **[!UICONTROL Betrag]** - Zwischen `.8` und `1.5`.
 
-* **[!UICONTROL Radius]** - zwischen 0,6 und 2.
+* **[!UICONTROL Radius]** - Zwischen `.6` und `2`.
 
-* **[!UICONTROL Schwellenwert]** - von 1 bis 6.
+* **[!UICONTROL Schwellenwert]** - Von `1` bis `6`.
 
 Um eine Bildvorgabe zu löschen, wählen Sie sie auf dem Bildschirm &quot;Bildvorgaben&quot;aus und wählen Sie dann **[!UICONTROL Löschen]**.
 

@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '281'
 ht-degree: 26%
 
 ---
 
 # Freigeben von Asset-Änderungen für Kollegen in Echtzeit{#sharing-asset-changes-with-peers-in-real-time}
 
-Wenn mehrere Kopien von Adobe Dynamic Media Classic auf mehreren Computern im selben Unternehmen ausgeführt werden, werden die folgenden Aktionen von jedem Adobe Dynamic Media Classic-Client in Echtzeit mit allen Peer-Clients aktualisiert:
+Angenommen, Sie verfügen über mehrere Kopien von Adobe Dynamic Media Classic, die auf Computern im selben Unternehmen ausgeführt werden. In einem solchen Szenario werden die folgenden Aktionen eines Dynamic Media Classic-Clients in Echtzeit mit allen Peer-Clients aktualisiert:
 
 * Bearbeiten eines Assets (Builder, Bildeditor usw.)
 * Umbenennung eines Assets
@@ -32,6 +32,6 @@ Nachdem eine Änderung im ursprünglichen Client vorgenommen wurde, werden alle 
 
 Als Sie sich angemeldet haben, wurden Sie aufgefordert, Peer-Aktualisierungen zuzulassen oder abzulehnen. Sie können festlegen, dass Ihre Auswahl gespeichert wird, sodass Sie die Eingabe nur einmal vornehmen müssen. Um Ihre Auswahl zu löschen, löschen Sie die jeweilige Site in den globalen Einstellungen aus dem Anzeigebereich „Peer-Netzwerk“.
 
-Wenn Sie ein Asset bearbeitet haben, das von einem Kollegen geändert wurde, werden Sie aufgefordert, die Änderung in den Builder oder Editor aufzunehmen. Wenn Sie **[!UICONTROL Ja]**, verwirft der Builder oder Editor alle Änderungen am Asset und importiert das aktualisierte Asset. Wenn Sie **[!UICONTROL Nein]**, bleibt das Asset im Builder oder Editor unverändert und alle Änderungen, die Sie vorgenommen haben, bleiben in dieser Sitzung bestehen.
+Wenn Sie ein Asset bearbeitet haben, das von einem Gleichrangigen geändert wurde, werden Sie aufgefordert, die Änderung in den Builder oder Editor aufzunehmen. Wenn Sie **[!UICONTROL Ja]**, verwirft der Builder oder Editor alle Änderungen am Asset und importiert das aktualisierte Asset. Wenn Sie **[!UICONTROL Nein]**, bleibt das Asset im Builder oder Editor unverändert und alle Änderungen, die Sie vorgenommen haben, bleiben in dieser Sitzung bestehen.
 
 Beim Speichern des Assets wurden Sie benachrichtigt, dass eine neuere Version vorhanden ist, und Sie wurden gefragt, ob Sie das Asset mit Ihren Änderungen überschreiben möchten.

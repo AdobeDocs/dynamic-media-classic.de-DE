@@ -10,10 +10,10 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 45%
+source-wordcount: '1604'
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,8 @@ Siehe auch [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/en/
 >
 >Lernen Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung mithilfe von Dynamic Media kennen [_Momentaufnahme_](https://snapshot.scene7.com/).
 >
-> Snapshot ist ein visuelles Demonstrationswerkzeug, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, um die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell zu beobachten, und optimieren Sie die intelligente Bildbearbeitung für Folgendes:
+> Snapshot ist ein visuelles Demonstrationswerkzeug, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, damit Sie die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell beobachten können und Optimierungen für die intelligente Bildbearbeitung für Folgendes durchführen können:
+>
 >* Dateigröße (mit WebP- und AVIF-Bereitstellung)
 >* Netzwerkbandbreite
 >* DSGVO (Gerätepixelverhältnis)
@@ -69,7 +70,7 @@ Mit Adobe Dynamic Media Classic können Sie Bilder bei der Aufnahme, bei der Ber
 
 Es gibt zwei Methoden zum Scharfzeichnen von Bildern, die Sie verwenden können:
 
-* Einfache Scharfzeichnung ( `&op_sharpen`) - Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wendet die einfache Scharfzeichnung die einfache Scharfzeichnung auf die endgültige Ansicht des Bildes nach der dynamischen Skalierung an. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Die Best Practice ist, `&op_sharpen` sofern nicht erforderlich.
+* Einfache Scharfzeichnung ( `&op_sharpen`) - Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wendet die einfache Scharfzeichnung die einfache Scharfzeichnung auf die endgültige Ansicht des Bildes nach der dynamischen Skalierung an. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Die Best Practice besteht darin, die Verwendung von `&op_sharpen` sofern nicht erforderlich.
 * Unschärfemaske ( `&op_USM`) - Die Unschärfemaske ist ein branchenüblicher Filter für die Scharfzeichnung. Wir empfehlen, beim Scharfzeichnen von Bilder mit der Unschärfemaske die folgenden Richtlinien zu beachten. Mit der Unschärfemaske können Sie die folgenden drei Parameter steuern:
 
    * `&op_sharpen=amount,radius,threshold`
@@ -81,7 +82,7 @@ Es gibt zwei Methoden zum Scharfzeichnen von Bildern, die Sie verwenden können:
 
       * `threshold` (0-255, Empfindlichkeit der Wirkung.)
 
-        Dieser Parameter legt fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und vom Filter scharfgezeichnet werden. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Beispiel: Bei einem Schwellenwert von 12 werden leichte Variationen der Hauttonhelligkeit ignoriert, um kein Rauschen hinzuzufügen, aber dennoch wird kontrastreichen Bereichen (z. B. wo Wimpern auf die Haut treffen) ein Kantenkontrast hinzugefügt.
+        Dieser Parameter legt fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und vom Filter scharfgezeichnet werden. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um kein &quot;Rauschen&quot;zu erzeugen, trotzdem wird kontrastreichen Bereichen Kantenkontrast hinzugefügt, z. B. wo Wimpern auf die Haut treffen.
 
         Weitere Informationen zum Festlegen dieser drei Parameter, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
@@ -98,10 +99,10 @@ Erhöhen Sie diesen Wert stufenweise von 1,75 bis 4. Wenn das Ergebnis des Schar
 
 Lassen Sie die Parametereinstellung „Monochrom“ auf 0.
 
-## Empfohlene Verfahren für die JPEG-Komprimierung (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## Best Practices für die JPEG-Komprimierung (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Dieser Parameter steuert die Qualität der JPG-Kodierung. Ein höherer Wert bedeutet eine höhere Bildqualität, jedoch auch eine größere Datei; entsprechend bedeutet ein niedrigerer Wert eine geringere Bildqualität, aber eine kleinere Dateigröße. Der Bereich für diesen Parameter ist 0 bis 100.
-* Setzen Sie den Wert zur Optimierung der Qualität nicht auf 100. Der Unterschied zwischen einer Einstellung von 90 oder 95 und 100 ist fast nicht mehr wahrnehmbar, aber der Wert 100 vergrößert die Bilddatei unnötig. Um die Qualität zu optimieren, aber zu vermeiden, dass Bilddateien zu groß werden, legen Sie daher die `qlt=` auf 90 oder 95.
+* Setzen Sie den Wert zur Optimierung der Qualität nicht auf 100. Der Unterschied zwischen einer Einstellung von 90 oder 95 und 100 ist fast unwahrnehmbar. Dennoch erhöht 100 unnötigerweise die Größe der Bilddatei. Um die Qualität zu optimieren, aber zu vermeiden, dass Bilddateien zu groß werden, legen Sie daher die `qlt=` auf 90 oder 95.
 * Um eine kleine Bilddateigröße zu optimieren, aber die Bildqualität auf einem akzeptablen Niveau zu halten, legen Sie die `qlt=` auf 80. Werte unter 70 bis 75 führen zu einer deutlichen Verschlechterung der Bildqualität.
 * Als Best Practice wird empfohlen, in der Mitte zu bleiben, indem Sie die `qlt=` auf 85 zu setzen, um in der Mitte zu bleiben.
 * Verwenden der Chroma-Markierung in `qlt=`
@@ -116,17 +117,17 @@ Verwenden Sie als Best Practice für die JPG-Komprimierung `&qlt=85,0`.
 Der Parameter `jpegSize` ist nützlich, wenn Sie sicherstellen möchten, dass ein Bild eine bestimmte Größe für die Bereitstellung auf Geräten mit begrenztem Speicher nicht überschreitet.
 
 * Dieser Parameter wird in Kilobyte festgelegt ( `jpegSize=<size_in_kilobytes>`). Er legt die maximal zulässige Größe für Bildbereitstellung fest.
-* `&jpegSize=` interagiert mit dem JPG-Komprimierungsparameter `&qlt=`. Wenn die JPG-Antwort mit dem angegebenen JPG-Komprimierungsparameter ( `&qlt=`) überschreitet nicht den Wert `jpegSize` -Wert, wird das Bild mit `&qlt=` wie definiert. Andernfalls `&qlt=` wird schrittweise reduziert, bis das Bild der maximal zulässigen Größe entspricht oder bis das System bestimmt, dass es nicht passt, und einen Fehler zurückgibt.
+* `&jpegSize=` interagiert mit dem JPG-Komprimierungsparameter `&qlt=`. Wenn die JPG-Antwort mit dem angegebenen JPG-Komprimierungsparameter ( `&qlt=`) überschreitet nicht den Wert `jpegSize` -Wert, wird das Bild mit `&qlt=` wie definiert. Andernfalls `&qlt=` wird schrittweise reduziert, bis das Bild der maximal zulässigen Größe entspricht. Oder, bis das System feststellt, dass die Anpassung nicht möglich ist, und einen Fehler zurückgibt.
 
 Als Best Practice gilt Folgendes: `&jpegSize=` und fügen Sie den Parameter hinzu `&qlt=` wenn Sie JPG-Bilder an Geräte mit begrenztem Speicher bereitstellen.
 
 ## Zusammenfassung der empfohlenen Verfahren {#best-practices-summary}
 
-Um eine hohe Bildqualität bei einer kleinen Dateigröße zu erreichen, sollten Sie mit der folgenden Parameterkombination beginnen:
+Um eine hohe Bildqualität und eine kleine Dateigröße zu erreichen, empfiehlt es sich, mit der folgenden Kombination von Parametern zu beginnen:
 
 `fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0`
 
-Diese Einstellungskombination führt in den meisten Situationen zu hervorragenden Ergebnissen.
+Diese Kombination von Einstellungen liefert unter den meisten Umständen hervorragende Ergebnisse.
 
 Wenn eine weitere Optimierung für das Bild erforderlich ist, passen die Parameter für das Scharfzeichnen (Unschärfemaske) schrittweise an, indem Sie den Radiuswert auf 0,2 oder 0,3 einstellen. Anschließend können Sie den Betrag schrittweise von 1,75 bis maximal 4 erhöhen (entspricht einer Einstellung von 400 % in Photoshop). Prüfen Sie, ob das gewünschte Ergebnis erzielt wurde.
 
