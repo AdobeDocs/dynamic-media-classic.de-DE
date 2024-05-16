@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 24%
+source-wordcount: '676'
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige UR
 ## Kopieren einer Bildset-URL {#copying-an-image-set-url}
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Bildset]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den Bildsatz enthält, dessen Einbettungscode Sie kopieren möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der das Bildset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Auswählen **[!UICONTROL Rasteransicht]**. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Wählen Sie im Bereich URLs und Einbettungscode auf der rechten Seite die Option **[!UICONTROL URL kopieren]** rechts neben dem gewünschten Viewer.
@@ -48,7 +48,7 @@ Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige UR
 
 Die gängigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Webseite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Der Zoom-Link öffnet ein Popup-Fenster, das die eigentliche Zoom-Funktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML5-Zoom-Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie im Abschnitt [Einbetten von HTML5-Zoom-Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines Bildset-Viewers {#copying-the-embed-code-of-an-image-set-viewer}
 
@@ -57,7 +57,7 @@ Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausge
 **So kopieren Sie den Einbettungscode eines Bildset-Viewers:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Bildset]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den Bildsatz enthält, dessen Einbettungscode Sie kopieren möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der das Bildset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Auswählen **[!UICONTROL Rasteransicht]**. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Wählen Sie im Bereich &quot;URLs&quot;auf der rechten Seite **[!UICONTROL Einbettungscode]**.

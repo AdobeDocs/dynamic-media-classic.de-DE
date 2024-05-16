@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ Websites, mobile Sites und Desktop-Applikationen greifen mithilfe von URL-Zeiche
 
 >[!NOTE]
 >
->Diese URL bzw. der Einbettungscode wird erst dann aktiv, wenn Sie das Asset veröffentlichen.
+>Die URL oder der Einbettungscode ist erst aktiv, wenn Sie das Asset veröffentlichen.
 
 ## Veröffentlichen von Videos {#publishing-video}
 
@@ -82,7 +82,7 @@ Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](dep
 **So betten Sie den Video-Viewer auf einer Webseite ein:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Video]** oder **[!UICONTROL Adaptives Videoset]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Video bzw. das adaptive Videoset enthält, dessen Einbettungscode Sie kopieren möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der das Video oder das adaptive Videoset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Auswählen **[!UICONTROL Rasteransicht]** oder **[!UICONTROL Listenansicht]**. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf eine Videominiatur, um sie in der Detailansicht zu öffnen. Wählen Sie im Bereich &quot;URLs&quot;und &quot;Einbettungscode&quot;auf der rechten Seite unter &quot;HTTP Streaming&quot;die Option **[!UICONTROL Einbettungscode]** rechts neben dem gewünschten Viewer. Als Best Practice wird empfohlen, **[!UICONTROL Einbettungscode]** , das mit der `Universal_HTML5_Video` Viewer.
@@ -107,7 +107,7 @@ Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](dep
 
 ### Implementieren von Einbettungscode für die Verwendung von HTML5-Video mit MP4-Video-Assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Wenn Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sondern stattdessen den nativen HTML5 verwenden möchten `<video>` -Tag mit MP4-Video-Assets verwenden, können Sie das folgende Einbettungscode-Beispiel verwenden:
+Wenn Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sondern stattdessen den nativen HTML5 verwenden möchten `<video>` -Tag mit MP4-Video-Assets erstellen, können Sie das folgende Einbettungscode-Beispiel verwenden:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 

@@ -10,10 +10,10 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 17%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Last Modified Date:
 1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.
 1. Legen Sie die gewünschten Planungsoptionen fest.
 1. (Optional) Im **[!UICONTROL Auftragsname]** ein, geben Sie einen Namen für den Veröffentlichungsauftrag ein.
-1. Wählen Sie in den **[!UICONTROL erweiterten Optionen]** in der Dropdown-Liste **[!UICONTROL Veröffentl. auf:]** die Option **[!UICONTROL Video-Server]** aus.
+1. Im **[!UICONTROL Erweitert]** -Optionen in der **[!UICONTROL Veröffentlichen in]** Dropdown-Liste auswählen **[!UICONTROL Video-Server]**.
 
    Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) für weitere Optionen, die Sie festlegen können.
 

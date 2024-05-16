@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 ## Eine eCatalog-URL kopieren {#copying-an-ecatalog-url}
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Katalog]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den E-Katalog enthält, dessen Einbettungscode Sie kopieren möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der den eCatalog enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Auswählen **[!UICONTROL Rasteransicht]**. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Wählen Sie im Bereich URLs und Einbettungscode auf der rechten Seite die Option **[!UICONTROL URL kopieren]** rechts neben dem gewünschten Viewer.
@@ -57,7 +57,7 @@ Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausge
 **So kopieren Sie den Einbettungscode eines eCatalog-Viewers:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Katalog]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der den E-Katalog enthält, dessen Einbettungscode Sie kopieren möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der den eCatalog enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Auswählen **[!UICONTROL Rasteransicht]**. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Wählen Sie im Bereich &quot;URLs&quot;auf der rechten Seite **[!UICONTROL Einbettungscode]**.

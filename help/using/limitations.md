@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 ## Best Practices und erzwungene Einschränkungen von Dynamic Media für Asset-Typen {#best-practice-enforced-limits}
 
-Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung hochladen, empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen voraus:
+Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung hochladen, empfiehlt Adobe die folgenden Best Practices. Adobe erzwingt außerdem die folgenden Einschränkungen:
 
 | Asset: Limit type | Optimale Vorgehensweise | Erzwungene Beschränkung |
 | --- | --- | --- |

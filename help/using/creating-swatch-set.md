@@ -10,10 +10,10 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 58%
+source-wordcount: '715'
+ht-degree: 49%
 
 ---
 
@@ -25,7 +25,7 @@ Beispielsweise können Sie Bilder von Schirmmützen präsentieren, wobei die Sch
 
 ## Erstellen eines Mustersets {#create}
 
-Wenn Sie ein Set erstellen, wirkt sich die Option **Nach dem Speichern veröffentlichen** wie folgt auf das Set und die Set-Mitglieder aus:
+Wenn Sie ein Set erstellen, wird die **Nach dem Speichern veröffentlichen** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
 | **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    Vergewissern Sie sich, dass die Musterdateien für Farben, Muster oder Ausführungen, die Sie in die Platzhalter ziehen, tatsächlich den Farben, Mustern oder Ausführungen des zugehörigen Bilds entsprechen.
 
 1. Um die Reihenfolge der Bilder in Ihrem Musterset zu ändern, ziehen Sie die Bilder zu neuen Positionen.
-1. Stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
+1. Stellen Sie in der rechten unteren Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern Ihres Farbmuster-Mustersets aus, geben Sie einen Namen für das Set ein und wählen Sie **[!UICONTROL Einsenden]**.
 1. Um das Musterset im Musterset-Viewer anzuzeigen, wählen Sie **[!UICONTROL Vorschau]** auf dem Bildschirm &quot;Musterset&quot;angezeigt. Sie können Musterminiaturansichten im Musterset-Viewer auswählen, um zu sehen, wie sie sich verhalten.
 
@@ -55,7 +55,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 Unabhängig davon, ob Sie ein veröffentlichtes oder unveröffentlichtes Set bearbeiten, wird die **[!UICONTROL Nach dem Speichern veröffentlichen]** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
-| Set bereits veröffentlicht? | **[!UICONTROL Veröffentlichen nach]** Speicheroption ausgewählt, bevor Sie Ihre Bearbeitung speichern? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** Speicheroption ausgewählt, bevor Sie Ihre Bearbeitung speichern? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 |--- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht. |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Veröffentlichungsstatus bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -73,7 +73,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    * Um ein Bild zu entfernen, wählen Sie es aus und klicken Sie auf **[!UICONTROL Löschen]** in der Symbolleiste.
    * Um die Bilder neu anzuordnen, ziehen Sie ein Bild in eine neue Position.
 
-1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
+1. Wenn Sie mit der Bearbeitung des Sets fertig sind, stellen Sie sicher, dass Sie in der rechten unteren Ecke der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und wählen Sie dann **[!UICONTROL Speichern]**.
 
 ## Löschen eines Mustersets

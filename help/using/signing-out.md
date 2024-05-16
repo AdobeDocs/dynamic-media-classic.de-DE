@@ -1,6 +1,6 @@
 ---
 title: Bei und von Adobe Dynamic Media Classic anmelden
-description: Erfahren Sie mehr über die Anmeldung bei und die Abmeldung von Adobe Dynamic Media Classic und die Verbindung zu einem Produktionsumgebungs-Server in Nordamerika (NA) oder Europa, dem Nahen Osten, Afrika (EMEA) oder dem Asien-Pazifik (APAC).
+description: Erfahren Sie mehr über die Anmeldung bei und die Abmeldung von Adobe Dynamic Media Classic. Erfahren Sie auch, wie Sie eine Verbindung zu einem Produktionsserver in Nordamerika (NA) oder Europa, dem Nahen Osten, Afrika (EMEA) oder dem asiatisch-pazifischen Raum (APAC) herstellen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '221'
 ht-degree: 7%
 
 ---

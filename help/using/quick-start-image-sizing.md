@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 7%
+source-wordcount: '873'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 7%
 
 Bildgröße bezieht sich auf die Fähigkeit von Adobe Dynamic Media Classic, mehrere abgeleitete Bilder basierend auf einem einzigen hochauflösenden Bild zu erstellen. Anstatt für Ihre Website oder Anwendung mehrere Bilder - z. B. eine Miniaturansicht und ein vergrößertes Bild - manuell zu erstellen, geben Sie ein einziges primäres Bild an. Adobe Dynamic Media Classic generiert alle geänderten Bilder auf die gleiche Weise wie Sie sie anfordern. Die Möglichkeit, Bilder dynamisch aus einem einzigen primären Bild bereitzustellen, bietet viele Vorteile:
 
-* Sie müssen nicht manuell verschiedene Bildversionen in unterschiedlichen Größen erstellen. Sie stellen ein Primärbild für Adobe Dynamic Media Classic bereit und Adobe Dynamic Media Classic generiert aus dem Primärbild verschiedene Varianten.
-* Sie können die Größe eines Bildtyps schnell auf Ihrer gesamten Website oder in Ihrer Anwendung ändern. Um beispielsweise alle Miniaturansichten zu ändern, können Sie die Bildvorgabe &quot;Miniaturansicht&quot;ändern. Eine Bildvorgabe - sie ähnelt einem Makro - ist eine Sammlung von Größen- und Formatierungsattributen. Sie können die Bildvorgabe &quot;Miniaturansicht&quot;ändern, um die Größe aller Miniaturansichten auf Ihrer Website oder in Ihrer Anwendung zu ändern.
+* Das manuelle Erstellen mehrerer Kopien des Bildes in unterschiedlichen Größen ist nicht erforderlich. Sie stellen ein Primärbild für Adobe Dynamic Media Classic bereit und Adobe Dynamic Media Classic generiert aus dem Primärbild verschiedene Varianten.
+* Sie können die Größe eines Bildtyps schnell auf Ihrer gesamten Website oder in Ihrer Anwendung ändern. Um beispielsweise alle Miniaturansichten zu ändern, können Sie die Bildvorgabe &quot;Miniaturansicht&quot;ändern. Eine Bildvorgabe ähnelt einem Makro, ist eine Sammlung von Größen- und Formatierungsattributen. Sie können die Bildvorgabe &quot;Miniaturansicht&quot;ändern, um die Größe aller Miniaturansichten auf Ihrer Website oder in Ihrer Anwendung zu ändern.
 * Sie müssen die Primärdateien und alle verschiedenen Derivate in keinem Ihrer Inhalts- oder Asset-Management-Systeme intern oder extern verwalten.
 
 ![Sie können mehrere abgeleitete Bilder mit unterschiedlicher Größe aus derselben hochauflösenden Primärdatei erstellen.](/help/using/assets/is_derivative_sizes_popup.png)
@@ -39,7 +39,7 @@ Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL
 
 ## 2. Einrichten von Bildvorgaben
 
-Ähnlich wie bei einem Makro sind in einer Bildvorgabe vordefinierte Größen- und Formatierungsbefehle unter einem gemeinsamen Namen gespeichert. Eine Bildvorgabe legt die Größe und Formatierung fest, mit der Bilder von Dynamic Media-Bildservern bereitgestellt werden. Sie können Bildvorgaben selbst einrichten, wenn Sie den Status &quot;Unternehmensadministrator&quot;haben. Adobe Dynamic Media Classic enthält auch standardmäßige Bildvorgaben, die Sie verwenden können, um Bilder dynamisch bereitzustellen.
+Ähnlich wie bei einem Makro sind in einer Bildvorgabe vordefinierte Größen- und Formatierungsbefehle unter einem gemeinsamen Namen gespeichert. Eine Bildvorgabe legt die Größe und Formatierung fest, mit der Bilder von Dynamic Media-Bildservern bereitgestellt werden. Sie können Bildvorgaben selbst einrichten, wenn Sie den Status &quot;Unternehmensadministrator&quot;haben. Sie können Bilder dynamisch mit den standardmäßigen Bildvorgaben bereitstellen, die bereits im Lieferumfang von Adobe Dynamic Media Classic enthalten sind.
 
 Um eine Bildvorgabe zu erstellen (falls Sie Administrator sind), navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Bildvorgaben]**. Wählen Sie anschließend **[!UICONTROL Hinzufügen]** , um eine Bildvorgabe zu erstellen, oder wählen Sie **[!UICONTROL Bearbeiten]** , um eine vorhandene Bildvorgabe zu ändern.
 
@@ -66,6 +66,6 @@ Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL
 
 ## 5. Verknüpfen von URLs mit einer Webanwendung
 
-Adobe Dynamic Media Classic erstellt URL-Zeichenfolgen für die Bildberechnung. Wenn Sie Bilder auf Dynamic Media-Bildservern veröffentlichen, werden die URLs aktiv. Sie können diese URL-Zeichenfolgen aus dem Durchsuchenbedienfeld (in der Detailansicht) oder dem Vorschaubildschirm kopieren. Nachdem Sie die URL-Zeichenfolgen kopiert haben, können Sie sie auf Ihrer Website und in Ihren Anwendungen verwenden. Die URL für die Bildskalierung ersetzt den Verweis auf einen statischen Bildnamen im Webseitencode. Die URL verweist auf einen primären Bildnamen, der durch Ihre Datenbank ersetzt wird, damit jedes neue Bild angezeigt wird.
+Adobe Dynamic Media Classic erstellt URL-Zeichenfolgen für die Bildberechnung. Wenn Sie Bilder auf Dynamic Media-Bildservern veröffentlichen, werden die URLs aktiv. Sie können diese URL-Zeichenfolgen aus dem Durchsuchenbedienfeld (in der Detailansicht) oder dem Vorschaubildschirm kopieren. Nachdem Sie die URL-Zeichenfolgen kopiert haben, können Sie sie auf Ihrer Website und in Ihren Anwendungen verwenden. Die URL für die Bildgröße ersetzt den Verweis auf einen statischen Bildnamen im Webseitencode. Die URL verweist auf einen primären Bildnamen, den die Datenbank für jedes neue anzuzeigende Bild ersetzt.
 
 Mit Bildvorgaben generierte URL-Zeichenfolgen enthalten den Namen einer Bildvorgabe. Dieser Name ist in Dollarzeichen (`$`). Beispiel: `$thumbnail$` kann die Bildvorgabe sein, mit der Primärbilder in der Größe der Miniaturansichten angezeigt werden. Siehe [Verknüpfen von URLs mit einer Webanwendung](linking-urls-web-application.md#linking_urls_to_your_web_application).

@@ -10,10 +10,10 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 44%
+source-wordcount: '964'
+ht-degree: 38%
 
 ---
 
@@ -39,7 +39,7 @@ Im Allgemeinen gilt: Je mehr Bilder Sie in einem Rotationsset haben, desto besse
 
 Die Reihenfolge, in der das Rotationsset in Adobe Dynamic Media Classic erstellt oder erstellt wird, ist wichtig. Je nachdem, wie Sie die Assets anordnen, wenn Sie Bilder per Drag-and-Drop in das Raster auf der Seite &quot;Rotationsset&quot;ziehen, dreht sich das Rotationsset in eine bestimmte Richtung. Daher wird das Asset in der visuell angezeigten Reihenfolge angezeigt, wenn ein Benutzer seinen Mauszeiger bewegt oder seinen Finger von links nach rechts bewegt.
 
-Wenn Sie ein Set erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** wie folgt auf das Set und die Set-Mitglieder aus:
+Wenn Sie ein Set erstellen, wird die **[!UICONTROL Nach dem Speichern veröffentlichen]** -Option wirkt sich auf die Set- und Set-Mitglieder wie folgt aus:
 
 | **[!UICONTROL Nach dem Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
@@ -69,7 +69,7 @@ Nach dem Speichern eines Rotationssets können Sie seine Anzeige im Standard-Vie
 
 1. Auswählen **[!UICONTROL OK]**.
 1. Ziehen Sie Bilder auf das Raster im Anzeigebereich „Rotationsset“.
-1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite die Option **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
+1. Wenn Sie fertig sind, stellen Sie in der Nähe der rechten unteren Ecke der Seite sicher, dass **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**.
 1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem das Rotationsset gespeichert werden soll. Geben Sie in das Feld „Dateiname“ den Namen des Rotationssets ein.
 1. Auswählen **[!UICONTROL Speichern]**.
@@ -100,7 +100,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 
    * **Zeilen und Zellen hinzufügen**: Geben Sie in die Felder Zeilen und Zellen eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
 
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
+1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass Sie in der rechten unteren Ecke der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und wählen Sie dann **[!UICONTROL Speichern]**.
 
 ## Löschen eines Rotationssets

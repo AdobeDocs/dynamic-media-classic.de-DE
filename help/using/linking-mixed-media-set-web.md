@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 22%
 
 ---
 
@@ -24,7 +24,7 @@ Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie dessen z
 ## Abrufen einer gemischten Medienset-URL {#obtain-a-mixed-media-set-url}
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Medienset]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Medienset enthält, dessen Einbettungscode Sie kopieren möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der das Medienset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Wählen Sie im Bereich URLs und Einbettungscode auf der rechten Seite die Option **[!UICONTROL URL kopieren]** rechts neben dem gewünschten Viewer.
@@ -48,10 +48,10 @@ Die gängigste Methode zur Bereitstellung eines gemischten Mediensets besteht da
 
 Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers auf Ihren Webseiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**Kopieren des Einbettungscodes eines Viewers für gemischte Mediensets:**
+**So kopieren Sie den Einbettungscode eines Viewers für gemischte Mediensets:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL gemischtes Medienset]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das gemischte Medienset enthält, dessen Einbettungscode Sie kopieren möchten.
+1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der das gemischte Medienset enthält, dessen Einbettungscode Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Wählen Sie im Bereich URLs und Einbettungscode auf der rechten Seite die Option **[!UICONTROL Einbettungscode]** rechts neben dem gewünschten Viewer.

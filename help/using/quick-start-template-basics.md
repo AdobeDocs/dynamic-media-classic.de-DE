@@ -10,9 +10,9 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ Vorlagengrundlagen werden dynamisch erstellt und adressierbare Bilddateien mit m
 
 Eine Vorlage kann eine beliebige Anzahl von Bildebenen und Textebenen enthalten. Sie können eine statische Datei mit Ebenen, z. B. eine PSD-Datei mit mehreren Ebenen, in eine Vorlage konvertieren und in Adobe Dynamic Media Classic Vorlagen erstellen. Sie können Textebenen in Vorlagen mit Schriftarten erstellen, die Sie in Adobe Dynamic Media Classic hochgeladen haben. Nachdem Sie einer Vorlage Text hinzugefügt haben, können Sie ihn formatieren, indem Sie die Ausrichtung, Schriftart, Schriftgröße und Farbe ändern.
 
-Auf der Seite Parameter können Sie beliebige Aspekte einer Vorlage in adressierbare Parameter konvertieren. Auf diese Weise können Sie ändern, welches Bild mit Ebenen verwendet werden soll oder welchen Textwert Sie in Ihrer Vorlage verwenden möchten. Parameter werden mit der URL-Zeichenfolge übergeben, sodass Sie jeden Parameter ändern können, um das vom Image-Server generierte Antwortbild dynamisch anzupassen.
+Auf der Seite Parameter können Sie beliebige Aspekte einer Vorlage in adressierbare Parameter konvertieren. Auf diese Weise können Sie ändern, welches Bild mit Ebenen verwendet werden soll oder welchen Textwert Sie in Ihrer Vorlage verwenden möchten. Parameter werden mit der URL-Zeichenfolge übergeben, sodass Sie jeden Parameter ändern können, damit Sie das vom Image-Server generierte Antwortbild dynamisch anpassen können.
 
 Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
 
@@ -33,7 +33,7 @@ Diese Kurzanleitung soll Sie schnell mit den Vorlagengrundlagen vertraut machen.
 
 Laden Sie zunächst die PSD-Datei oder die Bilddatei für Ihre Vorlage hoch. Adobe Dynamic Media Classic unterstützt neben dem PSD viele Bilddateiformate. Für Vorlagen werden jedoch verlustfreie TIFF- und PNG-Bilder empfohlen, da sie Transparenz ermöglichen.
 
-Wenn Sie eine PSD-Datei zum Erstellen Ihrer Vorlage verwenden, wählen Sie **[!UICONTROL Vorlage erstellen]** auf **[!UICONTROL Upload-Auftragsoptionen]** Dialogfeld beim Hochladen der PSD-Datei. Wählen Sie auch eine **[!UICONTROL Ebenennamen]** -Option, damit Adobe Dynamic Media Classic weiß, wie PSD-Ebenen benannt werden, wenn sie in Adobe Dynamic Media Classic hochgeladen werden.
+Wenn Sie eine PSD-Datei zum Erstellen Ihrer Vorlage verwenden, wählen Sie **[!UICONTROL Vorlage erstellen]** im **[!UICONTROL Upload-Auftragsoptionen]** Dialogfeld beim Hochladen der PSD-Datei. Wählen Sie auch eine **[!UICONTROL Ebenennamen]** -Option, damit Adobe Dynamic Media Classic weiß, wie PSD-Ebenen benannt werden, wenn sie in Adobe Dynamic Media Classic hochgeladen werden.
 
 Wenn Sie Bilddateien verwenden, können Sie die Bilder beschneiden und beim Hochladen eine Maske aus Beschneidungspfaden in den Bildern erstellen.
 
@@ -69,4 +69,4 @@ Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und
 
 Dynamic Media Classic erstellt URLs für Vorlagen und aktiviert die URLs, wenn Sie Vorlagen auf Dynamic Media-Image-Servern veröffentlichen. Sie können diese URL-Zeichenfolgen von der Seite &quot;Vorlagenvorschau&quot;kopieren.
 
-Wählen Sie Ihre Vorlage im Durchsuchenbedienfeld aus und wählen Sie dann **[!UICONTROL Vorschau]** , um die Seite Vorlagenvorschau zu öffnen. Wählen Sie eine Bildvorgabe für die Bereitstellung Ihrer Vorlage und dann **[!UICONTROL URL kopieren]**. Nachdem Sie die URL von der Seite &quot;Vorschau&quot;kopiert haben, können Sie sie auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Webseite](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Wählen Sie Ihre Vorlage im Durchsuchenbedienfeld aus und wählen Sie dann **[!UICONTROL Vorschau]** , um die Seite Vorlagenvorschau zu öffnen. Wählen Sie eine Bildvorgabe für die Bereitstellung Ihrer Vorlage aus und klicken Sie auf die Schaltfläche **[!UICONTROL URL kopieren]** Schaltfläche. Nachdem Sie die URL von der Seite &quot;Vorschau&quot;kopiert haben, können Sie sie auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Webseite](linking-template-web-page.md#linking_a_template_to_a_web_page).

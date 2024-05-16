@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -76,7 +76,7 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
    * Viewer für gemischte Medien, die Video- und Bildinhalte kombinieren
 
 * Konfigurieren von Video-Playern für individuelle Branding-Anforderungen
-* Integrieren von Videos in Websites, mobile Sites oder mobile Anwendungen über eine einfache URL oder einen eingebetteten Code.
+* Integrieren von Videos in Websites, mobile Sites oder mobile Anwendungen mit einer einfachen URL oder Einbettungscode.
 
 Sehen Sie sich die folgenden Schulungsvideos an:
 * [MP4-Videoübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -146,7 +146,7 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
 * Zeigen Sie das eingebettete Video auf der Webseite an. Verwenden Sie in diesem Fall die **[!UICONTROL Einbettungscode]** Funktion.
 
-  Um den Einbettungscode für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Navigieren Sie zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungscode]** auf das Recht `Universal_HTML5_Video`. Das Bearbeiten des Codes ist nicht zulässig.
+  Um den Einbettungscode für ein Video abzurufen, wählen Sie in der Raster- oder Listenansicht das Video im Durchsuchenbedienfeld aus. Navigieren Sie zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungscode]** auf das Recht `Universal_HTML5_Video`. Das Bearbeiten des Codes ist nicht zulässig.
 
   Auswählen **[!UICONTROL Schließen]** und fügen Sie den Einbettungscode in eine oder mehrere Ihrer Webseiten ein.
 

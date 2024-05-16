@@ -10,10 +10,10 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 35%
+ht-degree: 31%
 
 ---
 
@@ -50,7 +50,7 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 1. Platzieren Sie im Fenster &quot;Beschneidungs-Editor&quot;den Teil des Bildes, den Sie nicht zuschneiden möchten, in das Zuschnittsfeld. Was auch immer innerhalb des Felds angezeigt wird, bleibt nach der Auswahl **[!UICONTROL Speichern]** und schneiden Sie das Bild ab.
 1. Führen Sie zum Anpassen des zu beschneidenden Bereichs einen der folgenden Schritte aus:
 
-   * Ziehen Sie eine Seite oder Ecke des Rahmens. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, dabei jedoch das Seitenverhältnis (die Form) des zu beschneidenden Bereichs beizubehalten.
+   * Ziehen Sie eine Seite oder Ecke des Rahmens. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, wobei Sie jedoch das Seitenverhältnis (die Form) des Zuschnittrahmens beibehalten.
    * Geben Sie in den Feldern unter „Größe“ die gewünschten Pixelmaße an.
    * Verschieben Sie den Rahmen. Bewegen Sie den Zeiger in das Innere des Feldes. Wenn der Mauszeiger als Vierfachpfeil dargestellt wird, ziehen Sie den Rahmen an die gewünschte Position.
 

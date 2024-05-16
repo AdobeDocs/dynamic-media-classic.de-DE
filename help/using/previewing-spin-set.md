@@ -10,16 +10,16 @@ role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 36%
+source-wordcount: '256'
+ht-degree: 28%
 
 ---
 
 # Vorschau eines Rotationssets{#previewing-a-spin-set}
 
-Mit der Viewer-Liste können Sie in der Vorschau testen, wie ein Asset in einer bestimmten Viewer-Plattform, wie HTML5 angezeigt wird. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar. 
+Mit der Viewer-Liste können Sie eine Vorschau eines Assets auf einer bestimmten Viewer-Plattform wie HTML5 anzeigen. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar. 
 
 Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_viewers).
 
