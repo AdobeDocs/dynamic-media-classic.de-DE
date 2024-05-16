@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '10944'
+source-wordcount: '10945'
 ht-degree: 29%
 
 ---
@@ -49,7 +49,7 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 * **[!UICONTROL Servername für progressives Video]**: Die URL zu Ihrer [!DNL Adobe Dynamic Media Classic] progressiver Video-Server. Dieser Server stellt progressive Videos mithilfe des HTTP-Protokolls bereit.
 
-* **[!UICONTROL Anzeigen der URL für nicht veröffentlichte Assets]**: Wählen Sie diese Option aus, falls gewünscht. [!DNL Adobe Dynamic Media Classic] um eine URL anzuzeigen, wenn ein Asset in der Vorschau angezeigt wird, unabhängig davon, ob es veröffentlicht wurde oder nicht. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
+* **[!UICONTROL Anzeigen der URL für nicht veröffentlichte Assets]**: Wählen Sie diese Option aus, wenn Sie möchten [!DNL Adobe Dynamic Media Classic] , um eine URL anzuzeigen, wenn Sie ein Asset in der Vorschau anzeigen, ob es veröffentlicht wurde oder nicht. Falls das Asset noch nicht veröffentlicht wurde, funktioniert die URL nicht. Sie können jedoch die URL für Planungs- oder organisatorische Zwecke verwenden.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -83,7 +83,7 @@ Siehe auch [Testen des Secure Testing-Dienstes](testing-assets-making-them-publi
 
 * **[!UICONTROL Beispiel-eVideo-Inhalt anzeigen]**: Aktivieren oder deaktivieren Sie die Anzeige des eVideo-Beispielinhalts.
 
-* **[!UICONTROL Generierten Inhalt anzeigen]**: Zeigt in Ordnern Inhalte an, die aus einem Asset generiert wurden. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Adobe Dynamic Media Classic für jede Seite im ursprünglichen PDF ein Bild. Wenn die Option Erzeugten Inhalt anzeigen ausgewählt ist, wird jedes beim Hochladen der ursprünglichen PDF generierte Bild angezeigt. Es erscheint zusammen mit der PDF in dem Ordner, in den die PDF hochgeladen wurde.
+* **[!UICONTROL Generierten Inhalt anzeigen]**: In Ordnern werden die von einem Asset generierten Inhalte angezeigt. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Adobe Dynamic Media Classic für jede Seite im ursprünglichen PDF ein Bild. Wenn die Option Erzeugten Inhalt anzeigen ausgewählt ist, wird jedes beim Hochladen der ursprünglichen PDF generierte Bild angezeigt. Es erscheint zusammen mit der PDF in dem Ordner, in den die PDF hochgeladen wurde.
 
 * **[!UICONTROL Kodierte Videos anzeigen]**: Standardmäßig deaktiviert (deaktiviert).
 
@@ -117,11 +117,11 @@ Siehe auch [Optionen für Upload-Aufträge](https://s7d5.scene7.com/s7viewers/ht
 
 * **[!UICONTROL Bilder überschreiben]**: Adobe Dynamic Media Classic lässt nicht zu, dass zwei Dateien denselben Namen haben. Die Adobe Dynamic Media Classic ID jedes Elements (der Bildname abzüglich der Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Doppelte Bilder werden mit &quot;-1&quot;umbenannt (beispielsweise wird &quot;chair.tif&quot;in &quot;chair-1.tif&quot;umbenannt). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). Siehe [Verwenden Sie die Option Bilder überschreiben .](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Im aktuellen Ordner Bilder mit demselben Namen und derselben Erweiterung überschreiben]**: Diese Option ist die strengste Ersetzungsregel. Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden und dieselbe Dateierweiterung haben wie das Originalbild. Wenn diese Voraussetzungen nicht erfüllt sind, wird ein Duplikat erstellt.
+   * **[!UICONTROL Im aktuellen Ordner Bilder mit demselben Namen oder derselben Erweiterung überschreiben]**: Diese Option ist die strengste Ersetzungsregel. Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden und dieselbe Dateierweiterung haben wie das Originalbild. Wenn diese Voraussetzungen nicht erfüllt sind, wird ein Duplikat erstellt.
 
    * **[!UICONTROL Im aktuellen Ordner Assets mit ident. Namen unabhängig von Erweiterung überschreiben]**: Erfordert das Hochladen des Ersatzbilds in denselben Ordner wie das Originalbild, die Dateinamenerweiterung kann jedoch vom Original abweichen. Beispiel: „Sessel.tif“ ersetzt die Datei „Sessel.jpg“.
 
-   * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen/Erweiterung überschreiben]**: Erfordert, dass das Ersatzbild dieselbe Dateinamenerweiterung wie das Originalbild hat (z. B. muss chair.jpg die Datei &quot;chair.jpg&quot;ersetzen, nicht jedoch die Datei &quot;chair.tif&quot;). Sie können das Ersatzbild jedoch in einen anderen Ordner hochladen als den, in dem sich das Original befindet. Das hochgeladene Bild bleibt dann im neuen Ordner; die Datei befindet sich also nicht mehr am ursprünglichen Speicherort.
+   * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen oder Erweiterung überschreiben]**: Erfordert, dass das Ersatzbild dieselbe Dateierweiterung wie das Originalbild hat. Beispielsweise muss &quot;chair.jpg&quot;&quot;chair.jpg&quot;ersetzen, nicht &quot;chair.tif&quot;). Sie können das Ersatzbild jedoch in einen anderen Ordner hochladen als den, in dem sich das Original befindet. Das hochgeladene Bild bleibt dann im neuen Ordner; die Datei befindet sich also nicht mehr am ursprünglichen Speicherort.
 
    * **[!UICONTROL In einem beliebigen Ordner Assets mit ident. Namen unabhängig von Erweiterung überschreiben]**: Diese Option ist die am wenigsten einschränkende Ersetzungsregel. Sie können ein Ersatzbild in einen anderen Ordner hochladen als den, in dem sich das Originalbild befindet, und eine Datei mit einer anderen Dateierweiterung verwenden, um die Originaldatei zu ersetzen. Wenn sich die Originaldatei in einem anderen Ordner befindet, bleibt das Ersatzbild in dem neuen Ordner, in den es hochgeladen wurde.
 

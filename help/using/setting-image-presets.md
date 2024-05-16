@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Bei Bildern, deren Größe bei der dynamischen Bereitstellung von einem Server v
 
 ## Erstellen einer Bildvorgabe {#creating-an-image-preset}
 
-Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu erstellen. Sie können Bildvorgaben erstellen oder mit einer von Adobe Dynamic Media Classic bereitgestellten standardmäßigen Bildvorgabe beginnen, sie bearbeiten und mit einem neuen Namen speichern.
+Wenn Sie ein Unternehmensadministrator sind, können Sie eigene Bildvorgaben erstellen. Sie können Bildvorgaben erstellen oder mit einer von Adobe Dynamic Media Classic bereitgestellten standardmäßigen Bildvorgabe beginnen, sie bearbeiten und mit einem neuen Namen speichern.
 
 **So erstellen Sie eine Bildvorgabe:**
 

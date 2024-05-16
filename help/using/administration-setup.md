@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1974'
 ht-degree: 32%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 # Administrationseinstellungen{#administration-setup}
 
-Die Bildschirme &quot;Administrationseinstellungen&quot;dienen der Verwaltung von Adobe Dynamic Media Classic-Benutzern. Verwenden Sie diese Bildschirme, um Benutzern die Arbeit in Adobe Dynamic Media Classic zu ermöglichen und per E-Mail mit Benutzern zu kommunizieren.
+Die Bildschirme &quot;Administrationseinstellungen&quot;dienen der Verwaltung von Adobe Dynamic Media Classic-Benutzern. Verwenden Sie diese Bildschirme, um Benutzern die Arbeit in Adobe Dynamic Media Classic zu ermöglichen und per E-Mail mit anderen Benutzern zu kommunizieren.
 
 1. Die Optionen für die Administrationseinstellungen finden Sie unter **Einrichtung** > **Persönliche Einstellungen** > **Administrationseinstellungen**.
 
@@ -28,7 +28,7 @@ Die Bildschirme &quot;Administrationseinstellungen&quot;dienen der Verwaltung vo
 
 Allen Adobe Dynamic Media Classic-Benutzern wird eine Rolle zugewiesen, die ihre Berechtigungen und Zugriffsrechte für Funktionen in Adobe Dynamic Media Classic bestimmt. Administratoren legen die verschiedenen Rollen und Verantwortungsbereiche für die Unternehmen fest, denen sie zugewiesen sind.
 
-In der Regel konfiguriert Adobe Dynamic Media Classic den ersten Satz von Unternehmen und weist einen Unternehmensadministrator zu. Der Unternehmensadministrator richtet dann Adobe Dynamic Media Classic-Benutzer ein und verwaltet sie.
+In der Regel konfiguriert Adobe Dynamic Media Classic die erste Gruppe von Unternehmen und weist einen Unternehmensadministrator zu. Der Unternehmensadministrator richtet dann Adobe Dynamic Media Classic-Benutzer ein und verwaltet sie.
 
 Adobe Dynamic Media Classic unterstützt mehrere Benutzerrollen. Diese Rollen können auf Unternehmen zugreifen, die für die Adobe Dynamic Media Classic eingerichtet sind:
 
@@ -109,7 +109,7 @@ Sie können die folgenden Methoden zum Filtern von Benutzerlisten verwenden:
 
 * **Ausfiltern ungültiger Benutzer**: Auswahl aufheben **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
 
-* **Nach Spaltenüberschrift sortieren**: Wählen Sie eine Überschrift aus, um alle Benutzer nach Status, alphabetisch nach Vorname, Nachname, E-Mail-Adresse, Benutzerrolle oder nach gültigem/ungültigem Status zu sortieren.
+* **Nach Spaltenüberschrift sortieren**: Wählen Sie eine Überschrift aus, um alle Benutzer nach Status, alphabetisch nach Vorname, Nachname oder E-Mail-Adresse zu sortieren. Oder sortieren Sie nach Benutzerrolle oder nach dem gültigen/ungültigen Status.
 
 Wenn Sie mit sehr vielen Benutzern arbeiten, können Sie im Menü „Max. Listengr.“ eine Zahl eingeben, um die Länge der Liste zu beschränken.
 
@@ -154,7 +154,7 @@ In der folgenden Tabelle werden die Berichte beschrieben, die Sie auf der Seite 
 | Bericht | Information | Verwendung |
 |:--- |:--- |:--- |
 | Bandbreite | Bandbreitennutzung nach Unternehmen | Verfolgen Sie die Bandbreitennutzung nach Unternehmen über bestimmte Zeitspannen, um Datenverkehrsmuster zu ermitteln. |
-| Speicher | Speicherverwendung | Verfolgen Sie die hochgeladene Datenmenge nach Unternehmen. |
+| Speicher | Speicherverwendung | Verfolgen Sie die Menge der vom Unternehmen hochgeladenen Daten. |
 | Bildinhalt | Die Anzahl der Bildanfragen nach Typ | Verfolgen Sie die Anzahl der Anfragen nach und das Volumen für verschiedene Bildtypen. |
 | Domäne | Die Anzahl der URL-Anfragen nach Domäne | Verfolgen Sie die Bildernutzung auf der Basis der Domäne der Bildanfragen eines bestimmten Unternehmens. (Adobe Dynamic Media Classic kann mehr als eine Domäne pro Konto bereitstellen. Weitere Informationen erhalten Sie vom technischen Support.) |
 | Video-Streaming | Bandbreitennutzung für Streaming-Videos | Verfolgen Sie die Nutzung von Streaming-Videos nach Unternehmen über bestimmte Zeitspannen, um Datenverkehrsmuster zu ermitteln. |
@@ -202,7 +202,7 @@ Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert 
 
 * **Benutzerdefinierter Zeitraum**: Wählen Sie im Menü Vordefinierter Bericht die Option **[!UICONTROL Benutzerdefiniert]**. Wählen Sie dann ein Datum für die **[!UICONTROL Startmonat]** (oder **[!UICONTROL Startdatum]**) und ein Datum im Menü Anzahl der Monate (oder Anzahl oder Tage). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
 
-* **Sortieren von Daten (nur Datenansicht)**: Wählen Sie die Überschrift der Spalte aus, um die Informationen einer Spalte zu sortieren. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
+* **Sortieren von Daten (nur Datenansicht)**: Sortiert Informationen in einer Spalte. Wählen Sie die Überschrift der Spalte aus. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
 
 * **Spalten neu anordnen (nur Datenansicht)**: Um eine Spalte an eine andere Position im Datenraster zu verschieben, ziehen Sie die Überschrift.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 23%
+source-wordcount: '803'
+ht-degree: 21%
 
 ---
 
@@ -49,13 +49,13 @@ Siehe [Richtlinien für das Aufnehmen von Rotationsset-Bildern](creating-spin-se
 
 ## 2. Erstellen eines Rotationssets
 
-Um ein Rotationsset zu erstellen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Rotationssets]**. Wählen Sie im Dialogfeld &quot;Größe des Rotationssets&quot;aus, wie viele Zeilen und Zellen Sie benötigen, und wählen Sie **[!UICONTROL OK]**. Ziehen Sie dann Bilder in das Raster auf der Seite Rotationsset .
+Um ein Rotationsset zu erstellen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Rotationssets]**. Wählen Sie im Dialogfeld &quot;Größe des Rotationssets&quot;aus, wie viele Zeilen und Zellen Sie benötigen, und wählen Sie **[!UICONTROL OK]**. Ziehen Sie dann die Bilder in das Raster auf der Seite Rotationsset .
 
 Siehe [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Bearbeiten von Rotationssets
 
-Um ein Rotationsset zu bearbeiten, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**. Wählen Sie ein Rotationsset aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Fügen Sie Bilder hinzu, löschen Sie sie und ändern Sie ihre Position. Sie können die Position der Zeilen in zweidimensionalen Rotationssets ändern. 
+Um ein Rotationsset zu bearbeiten, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**. Wählen Sie ein Rotationsset aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Fügen Sie Bilder hinzu, löschen Sie sie und ändern Sie ihre Position. Sie können die Position der Zeilen in zweidimensionalen Rotationssets ändern.
 
 Siehe [Bearbeiten eines Rotationssets](creating-spin-set.md#editing-a-spin-set).
 
@@ -85,6 +85,6 @@ Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a
 
 Adobe Dynamic Media Classic erstellt URL-Callout-Zeichenfolgen für Rotationssets und aktiviert sie nach der Veröffentlichung. Sie können diese URLs von der Seite &quot;Vorschau&quot;kopieren.
 
-Wählen Sie das Rotationsset aus und klicken Sie auf **[!UICONTROL Vorschau]**. Wählen Sie eine Rotationsset-Viewer-Vorgabe aus. Wählen Sie anschließend **[!UICONTROL URL kopieren]**.
+Wählen Sie das Rotationsset aus und klicken Sie auf **[!UICONTROL Vorschau]**. Wählen Sie eine Rotationsset-Viewer-Vorgabe aus. Wählen Sie dann die **[!UICONTROL URL kopieren]**.
 
 Siehe [Verknüpfen eines Rotationssets mit einer Webseite](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).

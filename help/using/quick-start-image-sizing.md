@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL
 
 ## 2. Einrichten von Bildvorgaben
 
-Ähnlich wie bei einem Makro sind in einer Bildvorgabe vordefinierte Größen- und Formatierungsbefehle unter einem gemeinsamen Namen gespeichert. Eine Bildvorgabe legt die Größe und Formatierung fest, mit der Bilder von Dynamic Media-Bildservern bereitgestellt werden. Wenn Sie den Status eines Unternehmensadministrators haben, können Sie Bildvorgaben selbst anlegen. Adobe Dynamic Media Classic enthält auch standardmäßige Bildvorgaben, die Sie verwenden können, um Bilder dynamisch bereitzustellen.
+Ähnlich wie bei einem Makro sind in einer Bildvorgabe vordefinierte Größen- und Formatierungsbefehle unter einem gemeinsamen Namen gespeichert. Eine Bildvorgabe legt die Größe und Formatierung fest, mit der Bilder von Dynamic Media-Bildservern bereitgestellt werden. Sie können Bildvorgaben selbst einrichten, wenn Sie den Status &quot;Unternehmensadministrator&quot;haben. Adobe Dynamic Media Classic enthält auch standardmäßige Bildvorgaben, die Sie verwenden können, um Bilder dynamisch bereitzustellen.
 
 Um eine Bildvorgabe zu erstellen (falls Sie Administrator sind), navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Bildvorgaben]**. Wählen Sie anschließend **[!UICONTROL Hinzufügen]** , um eine Bildvorgabe zu erstellen, oder wählen Sie **[!UICONTROL Bearbeiten]** , um eine vorhandene Bildvorgabe zu ändern.
 

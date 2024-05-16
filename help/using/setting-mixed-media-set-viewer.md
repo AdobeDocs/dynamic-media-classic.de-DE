@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 27%
+source-wordcount: '613'
+ht-degree: 22%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie auf der Seite &quot;Viewer-Vorgaben&quot;einen der folgenden Schritte aus:
 
-   * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform aus und wählen Sie **[!UICONTROL Viewer für gemischte Mediensets]**, wählen Sie **[!UICONTROL Hinzufügen]**.
+   * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld Viewer-Vorgabe hinzufügen eine Plattform aus. Klicken Sie anschließend auf **[!UICONTROL Viewer für gemischte Mediensets]** > **[!UICONTROL Hinzufügen]**.
    * Um eine Viewer-Vorgabe für gemischte Mediensets zu bearbeiten, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Geben Sie auf der Seite &quot;Konfigurations-Viewer&quot;im Feld &quot;Vorgabenname&quot;einen Namen für die Viewer-Vorgabe für gemischte Mediensets ein.
@@ -35,8 +35,8 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 
    Wenn Sie beispielsweise ein Musterset zu Ihrem gemischten Medienset hinzufügen, geben Sie `Swatch Set A`.
 
-1. Wählen Sie im Menü „Viewer“ den Asset-Typ aus, den Sie anzeigen möchten (z. B. „Mustersets“).
-1. Wählen Sie im Menü „Vorgabe“ eine Vorgabe für den gewählten Asset-Typ aus.
+1. Wählen Sie im Menü &quot;Viewer&quot;den Typ des anzuzeigenden Assets aus, z. B. Mustersets.
+1. Wählen Sie im Menü &quot;Vorgabe&quot;eine Vorgabe für den ausgewählten Asset-Typ aus.
 
    Wenn Sie beispielsweise ein Musterset hinzufügen, wählen Sie **[!UICONTROL SwatchSet1-Colors]**.
 
@@ -48,7 +48,7 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 1. Gehen Sie wie folgt vor, um die Vorgabenliste zu bearbeiten:
 
    * Um eine Vorgabe aus der Liste zu löschen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
-   * Um Vorgaben in der Liste neu anzuordnen, wählen Sie eine Vorgabe aus und wählen Sie das blaue **[!UICONTROL up]** oder **[!UICONTROL Nach]** nach.
+   * Um Vorgaben in der Liste neu anzuordnen, wählen Sie eine Vorgabe aus und wählen Sie dann das blaue **[!UICONTROL up]** oder **[!UICONTROL Nach]** nach.
 
 1. Um Community-Funktionen zum Viewer hinzuzufügen (Einbetten, Verknüpfen oder Zur Website), wählen Sie die Optionen für die folgenden Punkte aus:
 

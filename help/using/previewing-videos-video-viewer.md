@@ -10,9 +10,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '777'
 ht-degree: 21%
 
 ---
@@ -27,7 +27,7 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 1. Wählen Sie links im Bedienfeld &quot;Asset-Bibliothek&quot;in der Dropdown-Liste &quot;Anzeigen&quot;die Option **[!UICONTROL Video]** (einkodierte Videos) oder **[!UICONTROL Adaptives Videoset]**. Wenn die Kodierungsvorgabe für adaptive Videos verwendet wird, führt dies zu einer Reihe von Videos mit mehreren Bitraten.
 1. Navigieren Sie im linken Bedienfeld „Asset-Bibliothek“ zu den Asset-Ordnern, um das Video auszuwählen, von dem Sie eine Vorschau anzeigen möchten.
-1. Führen Sie einen der folgenden Schritte aus
+1. Führen Sie einen der folgenden Schritte aus:
 
    * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]**.
    * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Asset-Fenster in einem Asset-Miniaturfenster die Option **[!UICONTROL Vorschau]**.
@@ -41,7 +41,7 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic bietet eine praktische Methode zur Vorschau von MP4-Videos auf dem Desktop. Verwenden Sie diese Methode, um eine Vorschau von mobilen Inhalten auf dem Desktop anzuzeigen, ohne sie auf einem mobilen Gerät testen zu müssen. Beachten Sie jedoch, dass in der Desktop-Vorschau nicht realistisch angezeigt wird, wie die Wiedergabe auf dem Mobilgerät aussieht. Um eine Vorschau des Videos auf einem Mobilgerät anzuzeigen, gehen Sie zum Bildschirm &quot;Vorschau&quot;und wählen Sie **[!UICONTROL URL kopieren]** und geben Sie diese URL im Webbrowser eines Mobilgeräts ein. Weitere Informationen finden Sie unter [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic bietet eine praktische Methode zur Vorschau von MP4-Videos auf dem Desktop. Verwenden Sie diese Methode, um eine Vorschau von mobilen Inhalten auf dem Desktop anzuzeigen, ohne sie auf einem mobilen Gerät testen zu müssen. Beachten Sie jedoch, dass in der Desktop-Vorschau nicht realistisch angezeigt wird, wie die Wiedergabe auf dem Mobilgerät aussieht. Um eine Vorschau des Videos auf einem Mobilgerät anzuzeigen, gehen Sie zum Bildschirm &quot;Vorschau&quot;. Klicks **[!UICONTROL URL kopieren]** und geben Sie diese URL im Webbrowser eines Mobilgeräts ein. Weitere Informationen finden Sie unter [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Arbeiten mit Video-Viewer-Vorgaben {#working-with-video-viewer-presets}
 
@@ -55,7 +55,7 @@ Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.h
 
 ### Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben {#adding-or-editing-a-video-viewer-preset}
 
-Unter „Viewer-Vorgaben“ werden die verschiedenen Viewer-Typen und ihre Voreinstellungen angezeigt. Sie können auch Ihre eigenen benutzerdefinierten Viewer-Vorgaben hinzufügen und bearbeiten oder vorhandene Viewer-Vorgaben bearbeiten, die mit Adobe Dynamic Media Classic bereitgestellt werden.
+Unter „Viewer-Vorgaben“ werden die verschiedenen Viewer-Typen und ihre Voreinstellungen angezeigt. Sie können auch Ihre eigenen benutzerdefinierten Viewer-Vorgaben hinzufügen und bearbeiten oder vorhandene Viewer-Vorgaben bearbeiten, die in Adobe Dynamic Media Classic integriert sind.
 
 In Viewer-Vorgaben können Sie Viewer-Vorgaben aktivieren, filtern, sortieren und in der Vorschau anzeigen.
 
@@ -67,7 +67,7 @@ Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.h
 
 1. Navigieren Sie oben rechts in Adobe Dynamic Media Classic zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 
-   Um nur Vorgaben für Video-Viewer anzuzeigen, wählen Sie Video-Viewer aus der Dropdown-Liste &quot;Viewer&quot;in der Symbolleiste direkt über der Tabelle aus.
+   Sie können festlegen, dass nur Vorgaben für Video-Viewer angezeigt werden. Wählen Sie in der Symbolleiste direkt über der Tabelle die Option Video-Viewer aus der Dropdown-Liste &quot;Viewer&quot;aus.
 
 1. Hinzufügen oder Bearbeiten einer Viewer-Vorgabe zum Anzeigen eines Videos:
 

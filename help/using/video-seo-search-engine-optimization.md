@@ -1,6 +1,6 @@
 ---
 title: Video SEO
-description: Erfahren Sie, wie Sie SEO-Einstellungen für Videos in Adobe Dynamic Media Classic konfigurieren.
+description: Erfahren Sie, wie Sie Video SEO-Einstellungen in Adobe Dynamic Media Classic konfigurieren.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 30%
+source-wordcount: '1022'
+ht-degree: 27%
 
 ---
 
 # Video SEO{#video-seo-search-engine-optimization}
 
-Die Suchmaschinenoptimierung (SEO) ist ein Vorgang, der die Erhöhung der Zugriffe auf eine Website über Suchmaschinen zum Ziel hat. Suchmaschinen zeigen beim Sammeln von Informationen zu textbasierten Inhalten ausgezeichnete Leistung. Bei Videoinhalten können sie jedoch nur dann zufriedenstellende Informationen aufweisen, wenn diese direkt in die Suchmaschine eingespeist werden.
+Die Suchmaschinenoptimierung (SEO) ist ein Vorgang, der die Erhöhung der Zugriffe auf eine Website über Suchmaschinen zum Ziel hat. Suchmaschinen eignen sich zwar hervorragend für die Erfassung von Informationen über textbasierte Inhalte, können jedoch keine Informationen über Videos abrufen. Diese Informationen sind ihnen vorzulegen.
 
 Mit Adobe Dynamic Media Classic Video SEO können Sie Videometadaten anwenden, um Suchmaschinen Beschreibungen Ihrer Videos bereitzustellen. Mit Adobe Dynamic Media Classic können Sie Video-Sitemaps und mRSS-Feeds erstellen. Diese XML-Standarddateien werden zum Senden von Videoinformationen an Suchmaschinen verwendet:
 
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic erstellt Berichte über Video-Sitemaps und mRSS-Feed
 
 ## Video SEO-Einstellungen auswählen
 
-Wählen Sie Video SEO-Einstellungen für Video-Sitemaps und mRSS-Feeds im **[!UICONTROL Optimierungseinstellungen für Video-Suchmaschinen]** Seite. Um diese Seite zu öffnen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Einstellungen]**.
+Wählen Sie Video SEO-Einstellungen für Video-Sitemaps und mRSS-Feeds auf der **[!UICONTROL Optimierungseinstellungen für Video-Suchmaschinen]** Seite. Um diese Seite zu öffnen, navigieren Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Einstellungen]**.
 
 Im **[!UICONTROL Allgemeine Einstellung]** können Sie festlegen, ob Sie Video-Sitemaps, mRSS-Feeds oder beides generieren möchten. Im **[!UICONTROL Generierungseinstellungen]** -Bereich, ordnen Sie Metadatenfelder Eingabefeldern zu.
 
@@ -65,7 +65,7 @@ Im **[!UICONTROL Generierungsmodus]** Dropdownliste einen Berichtsmodus auswähl
 
 Im **[!UICONTROL Automatischer/manueller Modus]** in der Dropdown-Liste auswählen, ob automatisch oder manuell generiert werden soll:
 
-* **Automatischer Modus**: Adobe Dynamic Media Classic generiert täglich automatisch eine Video-Sitemap, einen Media RSS (mRSS)-Feed oder beides. Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** -Option, um die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung zu markieren.
+* **Automatischer Modus**: Adobe Dynamic Media Classic generiert täglich automatisch eine Video-Sitemap, einen Media RSS (mRSS)-Feed oder beides. Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** -Option, damit Sie die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung markieren können.
 
    * **Zur Veröffentlichung markieren** Markiert die erstellte XML-Datei zur Veröffentlichung.
 
@@ -79,7 +79,7 @@ Im **[!UICONTROL Automatischer/manueller Modus]** in der Dropdown-Liste auswähl
 
 ### Auswählen von Erstellungseinstellungen {#choosing-generation-settings}
 
-Im Bereich &quot;Erstellungseinstellungen&quot;werden Eingabefelder für die Video-Sitemap, den mRSS-Feed oder beides sowie im Metadatenbedienfeld die Namen der Metadatenfelder aufgelistet. Verwenden Sie den Bereich „Allgemeine Einstellungen“, um Eingabefelder und Metadatenfelder zu verknüpfen. Dadurch teilen Sie Adobe Dynamic Media Classic mit, wo Metadaten für die Video-Sitemap und/oder den mRSS-Feed abgerufen werden sollen.
+Im Bereich &quot;Erstellungseinstellungen&quot;werden Eingabefelder für die Video-Sitemap, den mRSS-Feed oder beides aufgelistet. Im Metadatenbedienfeld werden die Namen der Metadatenfelder aufgelistet. Verwenden Sie den Bereich „Allgemeine Einstellungen“, um Eingabefelder und Metadatenfelder zu verknüpfen. Dadurch teilen Sie Adobe Dynamic Media Classic mit, wo Metadaten für die Video-Sitemap und/oder den mRSS-Feed abgerufen werden sollen.
 
 1. Wählen Sie im Menü „Metadaten-Ansichten“ eine Metadaten-Ansicht. Nachdem Sie eine Ansicht ausgewählt haben, werden die Namen der Metadatenfelder im Metadatenbedienfeld angezeigt.
 Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).

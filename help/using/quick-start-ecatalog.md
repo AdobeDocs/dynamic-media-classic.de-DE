@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -92,7 +92,7 @@ Siehe [Erstellen von eCatalog-Imagemaps](creating-ecatalog-image-maps.md#creatin
 
 Siehe [Verwenden von Imagemaps zum Einbetten von Rich Media in einen E-Katalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-Der Imagemap-Text kann mithilfe der Infofeldeinstellungen im Anzeigebereich „E-Katalog“ eingestellt und verwaltet werden. 
+Sie können den Text der Imagemap mithilfe der Einstellungen für das Infofeld im E-Katalog-Bildschirm einrichten und verwalten.
 
 Siehe [Verwalten von Inhalten im Informationsbereich in E-Katalogen](/help/using/info-panel-content-ecatalog.md).
 

@@ -7,10 +7,10 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Aktualisierungen ab 7. Ma
 * [Handbuch: Best Practices für Scharfzeichnen von Bildern](/help/using/assets/s7_sharpening_images.pdf)
 * [Anleitung: Wie Adobe Dynamic Media Classic SEO unterstützt](/help/using/assets/s7_seo.pdf): Suchmaschinen aktivieren heute die Suche nach Websites und Bildern. Adobe Dynamic Media Classic unterstützt Bemühungen, Bilder suchmaschinenfreundlich zu gestalten, damit mehr Traffic auf die Website des Adobe Dynamic Media Classic-Benutzers geleitet wird. In diesem Handbuch zum PDF erhalten Sie Hintergrundinformationen und Empfehlungen zur Implementierung, um dies zu erreichen.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [Webinar: Best Practices für die Bereitstellung interaktiver Erlebnisse mit Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): Erfahren Sie, wie Sie Inhalte in und aus Adobe Dynamic Media Classic abrufen und Bildvorgaben für optimale Leistung und Erlebnisse einrichten können. Außerdem erfahren Sie mehr zu Viewer-Vorgaben und Caching-Konfigurationen.
+* [Webinar: Best Practices für die Bereitstellung interaktiver Erlebnisse mit Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): Erfahren Sie, wie Sie Inhalte in und aus Adobe Dynamic Media Classic abrufen und Bildvorgaben für optimale Leistung und Erlebnisse einrichten können. Außerdem erfahren Sie mehr über Viewer-Vorgaben und Caching-Konfigurationen.
 * [Webinar: Maximieren des Asset-ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Lernen Sie die Best Practices der Branche kennen, um Rich-Media-Daten über Ihre Sites und Apps hinweg bereitzustellen. In diesem Webinar zeigt Ihnen Adobe anhand von Beispielen und Demonstrationen, wie Sie Videos geräteübergreifend effizient bereitstellen können. Erfahren Sie, wie Sie in Ihren Marketing-Kampagnen dynamische Kreativinhalte bereitstellen können. Oder erhöhen Sie die Konversion, indem Sie Bilder, Stilhandbücher oder Lookbook mit Shopping-Funktion versehen.
 * [Webinar: Lebenszyklus der Inhaltsbereitstellung beschleunigen](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): Einführung und Demonstration von Adobe Experience Manager Assets: On Demand, der Plattform der nächsten Generation für Rich-Media-Management und -Bereitstellung. Erfahren Sie, wie Sie Assets gemeinsam nutzen und zwischen Kreativ- und Marketing-Teams freigeben können, um Asset-Überprüfungsprozesse zu optimieren. Lernen Sie Best Practices kennen, damit Sie Asset-Metadaten effizient verwalten können. Auf diese Weise können Assets leicht gefunden, verwendet, wiederverwendet und freigegeben werden. Erfahren Sie auch, wie Sie interaktive kanalübergreifende Rich-Media-Erlebnisse bereitstellen.
 * [Webinar: Design for Mobile Optimization](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Mithilfe von Adobe Dynamic Media Classic können Sie effizient zielgerichtete Rich-Media-Daten für alle Geräte bereitstellen. Erfahren Sie, wie Sie Erlebnisse für Bildbearbeitung und Videoanzeige entwerfen und bereitstellen, die in mobilen Apps und responsiven Sites effektiv sind.

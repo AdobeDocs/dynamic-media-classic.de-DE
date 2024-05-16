@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 14%
 
 ---
@@ -39,6 +39,6 @@ Geben Sie beim Melden von Problemen an das Team des technischen Supports bitte d
 * Adobe Dynamic Media Classic-Unternehmensname.
 * Name, Telefonnummer und E-Mail-Adresse.
 * Adobe Dynamic Media Classic-Anwendung, -Plattform und -Version.
-* Problembeschreibung und die Schritte, die zum Reproduzieren des Problems erforderlich sind.
+* Beschreibung des Problems und der Schritte, die zur Reproduktion des Problems erforderlich sind.
 * Fehlermeldung, falls vorhanden.
 * Browsertyp und -version, falls zutreffend.

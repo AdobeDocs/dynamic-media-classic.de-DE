@@ -10,16 +10,16 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 18%
+source-wordcount: '456'
+ht-degree: 15%
 
 ---
 
 # Anzeigen von Mustersets{#viewing-swatch-sets}
 
-Sie können Ihre Mustersets unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Für Mustersets verwenden Sie eine benutzerdefinierte Viewer-Vorgabe für Zoom-Viewer.
+Sie können Ihre Mustersets unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Sie können einen Zoom-Viewer verwenden: eine benutzerdefinierte Viewer-Vorgabe für Mustersets.
 
 Adobe Dynamic Media Classic enthält standardmäßige Viewer-Vorgaben. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
 
