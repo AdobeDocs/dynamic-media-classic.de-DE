@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic Desktop App - jetzt verfügbar {#new-ui-2020}
+# Adobe Dynamic Media Classic Desktop App: jetzt verfügbar {#new-ui-2020}
 
 Siehe [Adobe Dynamic Media Classic-Desktop-Programm](/help/using/dynamic-media-classic-desktop-app.md) , um die Systemanforderungen zu überprüfen, laden Sie die neue App herunter, installieren Sie sie und melden Sie sich dann bei ihr an.
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic-Benutzer haben jetzt Zugriff auf eine neue Anmeldung
 ## Häufig gestellte Fragen
 
 +++**_Wenn Browser die Unterstützung von Adobe-Flash am 31. Dezember 2020 einstellen, wird dies Auswirkungen auf Adobe Dynamic Media Classic (früher Scene7) haben?_**
-Adobe Flash Player war ein Webbrowser-Plug-in, das es Webbrowsern ermöglichte, auf Adobe Flash Platform entwickelte Inhalte zu verwenden. Die Web-Benutzeroberfläche von Adobe Dynamic Media Classic (derzeit mit der Bezeichnung [!DNL Scene7 Publishing System] oder [!DNL SPS] im Produkt) die Adobe-Flash Player erforderlich. Wenn die Adobe-Flash am 31. Dezember 2020 eingestellt wird, können sich Adobe Dynamic Media Classic-Kunden nicht mehr bei der Web-Benutzeroberfläche anmelden. Aufgrund dieser Änderung hat Adobe Kunden ein Desktop-Programm bereitgestellt, das das Browsererlebnis ersetzt.
+Adobe Flash Player war ein Webbrowser-Plug-in, das es Webbrowsern ermöglichte, auf Adobe Flash Platform entwickelte Inhalte zu verwenden. Die Web-Benutzeroberfläche von Adobe Dynamic Media Classic (derzeit mit der Bezeichnung [!DNL Scene7 Publishing System] oder [!DNL SPS] im Produkt) die Adobe-Flash Player erforderlich. Wenn die Adobe-Flash am 31. Dezember 2020 eingestellt wird, können sich Adobe Dynamic Media Classic-Kunden nicht mehr bei der Webbenutzeroberfläche anmelden. Aufgrund dieser Änderung hat Adobe Kunden ein Desktop-Programm bereitgestellt, das das Browsererlebnis ersetzt.
 +++
 
 +++**_Wie greife ich auf das neue Desktop-Programm zu?_**
@@ -110,4 +110,4 @@ Weitere Informationen zu den Vorteilen der Aktualisierung auf die nächste Gener
 >* [Anmelden bei und Abmelden von der Adobe Dynamic Media Classic-Desktop-Applikation](/help/using/signing-out.md)
 >* [Herunterladen und Installieren des Adobe Dynamic Media Classic-Desktop-Programms](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

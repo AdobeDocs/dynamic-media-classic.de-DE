@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 54%
@@ -113,24 +113,24 @@ Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter
 1. Wählen Sie im Bildschirm &quot;Benutzerverwaltungseinstellungen&quot;die Option **[!UICONTROL E-Mail-Einstellungen]**.
 1. Nehmen Sie im Dialogfeld „E-Mail-Einstellungen“ folgende Einstellungen vor:
 
-   * **[!UICONTROL E-Mail senden]** - Deaktivieren Sie diese Option, um neue Benutzer per E-Mail darüber zu informieren, dass Sie sie angemeldet haben.
+   * **[!UICONTROL E-Mail senden]**: Deaktivieren Sie diese Option, um neue Benutzer per E-Mail darüber zu informieren, dass Sie sie angemeldet haben.
 
-   * **[!UICONTROL Standardkennwort]** - Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit Adobe Dynamic Media Classic zufällige Kennwörter generiert. Benutzer werden aufgefordert, bei der ersten Anmeldung Kennwörter zu ändern.
+   * **[!UICONTROL Standardkennwort]**: Geben Sie ein temporäres Kennwort für neue Benutzer ein oder lassen Sie das Feld leer, damit Adobe Dynamic Media Classic zufällige Kennwörter generiert. Benutzer werden aufgefordert, bei der ersten Anmeldung Kennwörter zu ändern.
 
-   * **[!UICONTROL Ersatz-URL]** - Geben Sie eine URL ein, die sich von der Standardeinstellung unterscheidet, wenn Ihre Benutzer über eine andere URL auf Adobe Dynamic Media Classic zugreifen.
+   * **[!UICONTROL Ersatz-URL]**: Geben Sie eine URL ein, die sich von der Standardeinstellung unterscheidet, wenn Ihre Benutzer über eine andere URL auf Adobe Dynamic Media Classic zugreifen.
 
 ## Andere Aufgaben zur Benutzerverwaltung {#other-user-management-tasks}
 
 Über den Anzeigebereich „Benutzerverwaltung“ können Sie außerdem folgende Aufgaben ausführen:
 
-* **[!UICONTROL Filtern und Sortieren der Benutzerliste]** - Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu finden.
+* **[!UICONTROL Filtern und Sortieren der Benutzerliste]**: Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu finden.
 
-* **[!UICONTROL Benutzer löschen]** - Entfernen Sie einen Benutzer aus der Liste.
+* **[!UICONTROL Benutzer löschen]**: Entfernt einen Benutzer aus der Liste.
 
-* **[!UICONTROL Benutzer aktivieren und deaktivieren]** - Benutzer daran hindern, auf Ordner zuzugreifen.
+* **[!UICONTROL Benutzer aktivieren und deaktivieren]**: Verhindern Sie einen Benutzer am Zugriff auf Ordner.
 
-* **[!UICONTROL Bearbeiten von Benutzerinformationen]** - Geben Sie aktuelle Informationen zu einem Benutzer ein.
+* **[!UICONTROL Bearbeiten von Benutzerinformationen]**: Geben Sie aktuelle Informationen zu einem Benutzer ein.
 
-* **[!UICONTROL Benutzerdefinierte Felder erstellen]** - Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, damit Sie Assets in der Adobe Dynamic Media Classic organisieren können. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
+* **[!UICONTROL Benutzerdefinierte Felder erstellen]**: Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, damit Sie Assets in der Adobe Dynamic Media Classic organisieren können. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
 
 Siehe [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).

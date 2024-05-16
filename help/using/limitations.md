@@ -10,7 +10,7 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -30,13 +30,13 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung hochladen, empfiehlt Adobe die folgenden Best Practices und setzt die folgenden Einschränkungen voraus:
 
-| Asset - Limit-Typ | Optimale Vorgehensweise | Erzwungene Beschränkung |
+| Asset: Limit type | Optimale Vorgehensweise | Erzwungene Beschränkung |
 | --- | --- | --- |
-| **Bild** - Anzahl der smarten Zuschnitte pro Bild | 5 | 100 |
-| **Alle Sets** - Anzahl doppelter Assets pro Satz | Keine Duplikate | 20 ‡ |
-| **Alle Sets** - Maximale Anzahl von Assets pro Satz | 5 - 10 Bilder pro Set | 1000 |
-| **Rotationsset** - Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
-| **PDF** - Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 100 (für alle PDF) |
+| **Bild**: Anzahl der smarten Zuschnitte pro Bild | 5 | 100 |
+| **Alle Sets**: Anzahl der doppelten Assets pro Satz | Keine Duplikate | 20 ‡ |
+| **Alle Sets**: Maximale Anzahl von Assets pro Satz | 5 - 10 Bilder pro Set | 1000 |
+| **Rotationsset**: Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
+| **PDF**: Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 100 (für alle PDF) |
 
 ‡ Best Practice ist, keine doppelten Assets in einem Satz zu haben. Die Beschränkung beträgt 20 Duplikate für ein einzelnes Asset. Wenn Sie ein weiteres Duplikat für dieses Asset innerhalb dieses Satzes hinzufügen, gibt die Anfrage entweder einen Fehler aus oder ignoriert das Duplikat.
 

@@ -1,6 +1,6 @@
 ---
-title: Verknüpfen von URLs mit einer Web-Anwendung
-description: Erfahren Sie, wie Sie URLs von Adobe Dynamic Media Classic aus mit Ihrer Web-Anwendung verknüpfen.
+title: Verknüpfen von URLs mit einer Webanwendung
+description: Erfahren Sie, wie Sie URLs über Adobe Dynamic Media Classic mit Ihrer Webanwendung verknüpfen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
-# Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
+# Verknüpfen von URLs mit einer Webanwendung{#linking-urls-to-your-web-application}
 
-Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf den Dynamic Media Image Server-Inhalt zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf Dynamic Media-Bildservern auf die Bildvorgabe verweist. Sie können die URLs zum Test kopieren und in einen Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf den Dynamic Media Image Server-Inhalt zu. Nachdem Sie ein Bild veröffentlicht haben, aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf Dynamic Media-Bildservern auf die Bildvorgabe verweist. Sie können diese URLs zum Testen in einen Webbrowser einfügen.
 
 Um diese URL-Zeichenfolgen in Ihre Webseiten und Anwendungen zu platzieren, kopieren Sie sie aus Adobe Dynamic Media Classic. Um eine mit einer Bildvorgabe generierte URL-Zeichenfolge abzurufen, gehen Sie zum Bildschirm &quot;Vorschau&quot;oder zum Durchsuchenbedienfeld (in der Detailansicht).
 
@@ -80,7 +80,7 @@ Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. Wenn ein Dyn
 
 ## Dynamische Bilder zu Ihrer Webseite hinzufügen {#adding-dynamic-images-to-your-web-page}
 
-Um Ihrer Web-Seite dynamische Bilder hinzuzufügen, muss die `<IMG>` -Tag in Ihrem HTML-Web-Seiten-Code wird in der Regel mithilfe der Adobe Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anforderung an Dynamic Media-Image-Server zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
+Um Ihrer Webseite dynamische Bilder hinzuzufügen, muss die `<IMG>` -Tag in Ihrem HTML-Webseitencode wird in der Regel mithilfe der Adobe Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anforderung an Dynamic Media-Bildserver zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
 
 Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise dies:
 

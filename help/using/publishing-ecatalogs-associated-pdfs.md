@@ -10,16 +10,16 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 20%
+ht-degree: 13%
 
 ---
 
 # Veröffentlichen von E-Katalogen und zugehörigen PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-Beim Veröffentlichen werden der E-Katalog und die PDF auf Dynamic Media-Image-Servern platziert, damit sie Ihrer Website oder Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. die Sie anschließend in den HTML-Code der Website einfügen können.
+Beim Veröffentlichen werden der E-Katalog und die PDF auf Dynamic Media-Image-Servern platziert, damit sie Ihrer Website oder Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. Sie können diese URL-Zeichenfolge in Ihren HTML-Webseitencode einfügen.
 
 >[!NOTE]
 >

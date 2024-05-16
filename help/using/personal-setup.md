@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 23%
@@ -33,8 +33,8 @@ Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewi
 
 ## Desktop
 
-* **Bild-Cache löschen** - Entfernt alle zwischengespeicherten Adobe Dynamic Media-Bilddateien von Ihrem Computer.
-* **Asset-Cache löschen** - Entfernt alle Adobe Dynamic Media-Caches von Asset-Dateien von Ihrem Computer.
+* **Bild-Cache löschen**: Entfernt alle im Adobe Dynamic Media-Cache gespeicherten Bilddateien von Ihrem Computer.
+* **Asset-Cache löschen**: Entfernt alle Adobe Dynamic Media-Caches von Asset-Dateien von Ihrem Computer.
 
 Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm löschen, sondern auch den Cache direkt aus dem Dateisystem löschen. Navigieren Sie je nach Betriebssystem zu Folgendem:
 
@@ -72,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Browser
 
-* **[!UICONTROL Größe der Miniaturansichten]** - Bestimmt die Standardgröße von Miniaturbildern in der Rasteransicht im Durchsuchenbedienfeld.
-* **[!UICONTROL Standardansicht der Asset-Bibliothek]** - Bestimmt, ob die Assets in der Asset-Bibliothek für Buildsets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
-* **[!UICONTROL Standardmäßige Sortierreihenfolge für Durchsuchen]** - Bestimmt die Reihenfolge, in der Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
-* **[!UICONTROL Standardspeicherort für Durchsuchen]** - Hiermit können Sie den Durchsuchspeicherort auf den Standardwert, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und ihn identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
-* **[!UICONTROL Standardmäßige Durchsuchen-Ansicht]** - Bestimmt, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie beim ersten Öffnen des Bedienfelds &quot;Durchsuchen&quot;sehen.
-* **[!UICONTROL Splash Screen Display]** - Bestimmt, ob Begrüßungsbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
-* **[!UICONTROL ToolTips anzeigen]** - Bestimmt, ob QuickInfos angezeigt werden, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationslinks bewegen. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
-* **[!UICONTROL Hintergrund der Tafel]** - Zeigt hinter Bildern eine Checkerboard-Ebene an, sodass Sie die transparenten Bereiche eines Bildes mit einem Alphakanal leicht sehen können.
-* **[!UICONTROL Dateigröße anzeigen]** - Zeigt die Dateigröße eines Assets beim Durchsuchen an.
-* **[!UICONTROL Einschließen von UDFs in die Suche]** - Um die Systemleistung für die meisten von Ihnen ausgeführten Metadatensuchen zu verbessern, deaktivieren Sie (Standard).
+* **[!UICONTROL Größe der Miniaturansichten]**: Legt die Standardgröße von Miniaturbildern in der Rasteransicht im Durchsuchenbedienfeld fest.
+* **[!UICONTROL Standardansicht der Asset-Bibliothek]**: Bestimmt, ob die Assets in der Asset-Bibliothek für Buildsets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
+* **[!UICONTROL Standardmäßige Sortierreihenfolge für Durchsuchen]**: Bestimmt die Reihenfolge, in der Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
+* **[!UICONTROL Standardspeicherort für Durchsuchen]**: Hiermit können Sie den Durchsuchspeicherort auf den Standardwert, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und ihn identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
+* **[!UICONTROL Standardmäßige Durchsuchen-Ansicht]**: Bestimmt, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie beim ersten Öffnen des Bedienfelds &quot;Durchsuchen&quot;sehen.
+* **[!UICONTROL Splash Screen Display]**: Bestimmt, ob Begrüßungsbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
+* **[!UICONTROL ToolTips anzeigen]**: Bestimmt, ob QuickInfos angezeigt werden, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationslinks bewegen. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
+* **[!UICONTROL Hintergrund der Tafel]**: Zeigt hinter Bildern eine Schachbrettebene an, mit der Sie die transparenten Bereiche eines Bildes mit einem Alphakanal leicht sehen können.
+* **[!UICONTROL Dateigröße anzeigen]**: Zeigt die Dateigröße eines Assets beim Durchsuchen an.
+* **[!UICONTROL Einschließen von UDFs in die Suche]**: Um die Systemleistung für die meisten von Ihnen ausgeführten Metadatensuchen zu verbessern, deaktivieren Sie (Standard).
 
   Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ bietet Ihnen die erweiterte Suche eine zielgerichtetere und schnellere Suche als bei der Verwendung benutzerdefinierter Felder.
 
@@ -89,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
   Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Einfacher Suchtyp]** - Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die vollständige Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als **[!UICONTROL Enthält]**. Jede der Optionen setzt die in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Programmeinstellungen]** durch den Administrator.
-* **[!UICONTROL Befehls-Feedback anzeigen]** - Aktivieren Sie diese Option, um die Anzeige von Befehlsanforderungen an den Server zu aktivieren. Deaktivieren Sie diese Option, um sie zu deaktivieren.
-* **[!UICONTROL Dialogfeld beim Export anzeigen]** - Wählen Sie diese Option, um während eines Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie weiterhin zur Seite &quot;Aufträge&quot;navigieren, um die Ergebnisse Ihres Exports abzurufen.
+* **[!UICONTROL Einfacher Suchtyp]**: Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die vollständige Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als **[!UICONTROL Enthält]**. Jede der Optionen setzt die in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Programmeinstellungen]** durch den Administrator.
+* **[!UICONTROL Befehls-Feedback anzeigen]**: Wählen Sie diese Option aus, um die Anzeige von Befehlsanforderungen an den Server zu aktivieren. Deaktivieren Sie diese Option, um sie zu deaktivieren.
+* **[!UICONTROL Dialogfeld beim Export anzeigen]**: Wählen Sie diese Option, um während eines Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie weiterhin zur Seite &quot;Aufträge&quot;navigieren, um die Ergebnisse Ihres Exports abzurufen.
 
 ## E-Mail an Freunde senden
 
-* **[!UICONTROL E-Mail-Optionen]** - Wählen Sie aus, wie Adobe Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
-* **[!UICONTROL E-Mail-Umfang]** - Bestimmt, ob Sie die gesamte Auftrags-E-Mail für Ihr Unternehmen erhalten oder nur E-Mails zu Upload- und Veröffentlichungsaufträgen erhalten, die Sie initiieren.
-* **[!UICONTROL E-Mail-Typen]** - Bestimmt, ob Sie informiert werden, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
+* **[!UICONTROL E-Mail-Optionen]**: Wählen Sie aus, wie Adobe Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
+* **[!UICONTROL E-Mail-Umfang]**: Bestimmt, ob Sie die gesamte Auftrags-E-Mail für Ihr Unternehmen erhalten oder nur E-Mails zu Upload- und Veröffentlichungsaufträgen erhalten, die Sie initiieren.
+* **[!UICONTROL E-Mail-Typen]**: Bestimmt, ob Sie informiert werden, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
 
 ## Sprache
 
-* **[!UICONTROL Bevorzugte Sprache]** - Bestimmt die Sprache, die Sie für die Benutzeroberfläche verwenden möchten.
+* **[!UICONTROL Bevorzugte Sprache]**: Bestimmt die Sprache, die Sie für die Benutzeroberfläche verwenden möchten.
 
 ## Kennwort
 
-* **[!UICONTROL Aktuelles Passwort]** - Geben Sie das Passwort Ihres aktuellen Passworts ein.
-* **[!UICONTROL Neues Kennwort]** - Geben Sie ein neues gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
+* **[!UICONTROL Aktuelles Passwort]**: Geben Sie das Passwort Ihres aktuellen Passworts ein.
+* **[!UICONTROL Neues Kennwort]**: Geben Sie ein neues gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
    * Zwischen 8 und 25 Zeichen lang sein.
    * mindestens einen Kleinbuchstaben enthalten.
    * mindestens einen Großbuchstaben enthalten.
    * mindestens eine Zahl enthalten.
-   * mindestens eines der folgenden Sonderzeichen enthalten: `# $ & - _ : { }`
-* **[!UICONTROL Kennwort erneut eingeben]** - Geben Sie das neue Kennwort erneut ein, um zu bestätigen, dass Sie es korrekt eingeben.
-* **[!UICONTROL Passwortablauf]** - Bestimmt, ob Ihr Kennwort als Sicherheitsmaßnahme nach 72 Tagen abläuft. Wenn Sie &quot;Ja&quot;ausgewählt haben, werden Sie nach 72 Tagen aufgefordert, ein Kennwort zu erstellen.
+   * mindestens eines der folgenden Sonderzeichen enthalten: `# $ &: _ : { }`
+* **[!UICONTROL Kennwort erneut eingeben]**: Geben Sie das neue Kennwort erneut ein, um zu bestätigen, dass Sie es korrekt eingegeben haben.
+* **[!UICONTROL Passwortablauf]**: Bestimmt, ob Ihr Kennwort als Sicherheitsmaßnahme nach 72 Tagen abläuft. Wenn Sie &quot;Ja&quot;ausgewählt haben, werden Sie nach 72 Tagen aufgefordert, ein Kennwort zu erstellen.

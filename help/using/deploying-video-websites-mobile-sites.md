@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -31,9 +31,9 @@ Durch das Veröffentlichen eines Videos können Adobe Dynamic Media Classic-Serv
 
 Es gibt zwei verschiedene Methoden zum Veröffentlichen von Videos:
 
-* **Videos beim Hochladen automatisch und sofort veröffentlichen** - Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic automatisch Videos veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
+* **Videos beim Hochladen automatisch und sofort veröffentlichen**: Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic automatisch Videos veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
 
-* **Video nach dem Hochladen manuell veröffentlichen** - Wenn Sie Videos nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
+* **Video nach dem Hochladen manuell veröffentlichen**: Wenn Sie Videos nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
 
 Nach der Veröffentlichung von Videos aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen für Ihre HTML-Seite oder Ihren Anwendungscode.
 
@@ -46,11 +46,11 @@ Nach der Veröffentlichung von Videos aktiviert Adobe Dynamic Media Classic die 
 
 ## Verknüpfen einer Video-URL mit einer mobilen Site oder Website {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Wenn Sie ein Video veröffentlichen, können Sie die zugehörige URL abrufen, um sie auf Ihrer Website, mobilen Site oder in Ihrer Desktop-Applikation zu verwenden. Verwenden Sie die Video-URL, wenn Videos in einem Popup-Menü oder einem modalen Fenster auf die Webseite angezeigt werden sollen.
+Wenn Sie ein Video veröffentlichen, können Sie die zugehörige URL abrufen, um sie auf Ihrer Website, mobilen Site oder in Ihrer Desktop-Applikation zu verwenden. Verwenden Sie die Video-URL, wenn Sie Videos in einem Popup- oder modalen Fenster auf der Webseite anzeigen möchten.
 
 Wenn ein Kunde den Link auswählt, werden sein Gerät, die Bandbreite und die Bildschirmgröße automatisch erkannt. Das entsprechende Video wird zur Wiedergabe in einem vordefinierten Viewer für Desktop-PCs oder mit dem systemeigenen Videoplayer für Smartphones und Tablets des Mobilgeräts angezeigt. 
 
-Siehe auch [Einbetten des Video-Viewers auf einer Web-Seite](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
+Siehe auch [Einbetten des Video-Viewers auf einer Webseite](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
 **So verknüpfen Sie eine Video-URL mit einer mobilen Site oder Website:**
 
@@ -73,13 +73,13 @@ Siehe auch [Einbetten des Video-Viewers auf einer Web-Seite](deploying-video-web
 
 1. Fügen Sie die HTML5 Video-URL auf Ihrer Website und Ihrer mobilen Site ein.
 
-## Einbetten des Video-Viewers auf einer Web-Seite {#embedding-the-video-viewer-on-a-web-page}
+## Einbetten des Video-Viewers auf einer Webseite {#embedding-the-video-viewer-on-a-web-page}
 
-Verwenden Sie die Funktion zum Einbetten von Code, wenn Sie das auf Ihrer Website eingebettete Video wiedergeben möchten. Sie können den Einbettungscode auch in die Zwischenablage kopieren, um ihn von dort in Webseiten einfügen zu können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Verwenden Sie die Funktion Einbettungscode , wenn Sie das auf der Webseite eingebettete Video wiedergeben möchten. Kopieren Sie den Einbettungscode in die Zwischenablage, damit Sie ihn in Ihre Webseiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**So betten Sie den Video-Viewer auf einer Web-Seite ein:**
+**So betten Sie den Video-Viewer auf einer Webseite ein:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Video]** oder **[!UICONTROL Adaptives Videoset]**.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Video bzw. das adaptive Videoset enthält, dessen Einbettungscode Sie kopieren möchten.

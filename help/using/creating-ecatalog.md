@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 44%
@@ -38,9 +38,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Wählen Sie zu Beginn der Erstellung eines E-Katalogs eine der folgenden Vorgehensweisen:
 
-   * **Wählen Sie zuerst die Dateien aus** - Wählen Sie im Durchsuchen-Bedienfeld Dateien aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**.
+   * **Wählen Sie zuerst die Dateien aus**: Wählen Sie im Durchsuchenbedienfeld Dateien aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**.
 
-   * **Vom eCatalog-Bildschirm starten** - Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
+   * **Vom eCatalog-Bildschirm starten**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Optional können Sie das Layout einzelner Seiten oder Seitenaufteilungen ändern, indem Sie sie auswählen und dann **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Benutzerdefiniert]** Schaltfläche. Im **[!UICONTROL Ändern des eCatalog-Layouts]** auswählen, wählen Sie das **[!UICONTROL Ausgewählte Spreads]** Optionen und wählen Sie **[!UICONTROL OK]**.
 1. Ordnen Sie die Seiten mit einem der folgenden Verfahren nach Bedarf neu an:
 
-   * **Ziehen** - Ziehen Sie eine Seite oder einen Seitenstrich an eine neue Position. Die vertikale Leiste zeigt an, wohin die Seite verschoben wird.
+   * **Ziehen**: Ziehen Sie eine Seite oder einen Seitenstrich an eine neue Position. Die vertikale Leiste zeigt an, wohin die Seite verschoben wird.
 
-   * **Schaltfläche &quot;Verschieben nach&quot;** - Wählen Sie eine Seite oder einen Seitenversatz aus. **[!UICONTROL Verschieben nach]** und wählen Sie die Seite im Menü aus, die Ihre Seite vor der Seite erscheinen soll.
+   * **Schaltfläche &quot;Verschieben nach&quot;**: Wählen Sie eine Seite oder einen Seitenstrich aus, wählen Sie **[!UICONTROL Verschieben nach]** und wählen Sie die Seite im Menü aus, die Ihre Seite vor der Seite erscheinen soll.
 
-   * **Sequenz #** - Geben Sie in der Listenansicht Seitenzahlen in die Felder der Sequenz-Nr. ein.
+   * **Sequenz #**: Geben Sie in der Listenansicht Seitenzahlen in die Felder der Sequenz-Nr. ein.
 
 1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**.

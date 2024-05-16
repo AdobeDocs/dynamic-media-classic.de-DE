@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -30,30 +30,30 @@ Adobe Dynamic Media Classic speichert die Exportvorgänge im Bildschirm &quot;Au
 1. Wählen Sie die Assets aus, die Sie exportieren möchten, und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Export]**.
 1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **[!UICONTROL „Bildoptionen“]** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):
 
-   * **[!UICONTROL Vorgaben]** - Wählen Sie optional eine Bildvorgabe aus, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
+   * **[!UICONTROL Vorgaben]**: Wählen Sie optional eine Bildvorgabe aus, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
 
-   * **[!UICONTROL Konversion]** - Konvertieren Sie die Asset-Datei oder das Originalbild.
+   * **[!UICONTROL Konversion]**: Konvertieren Sie die Asset-Datei oder das Originalbild.
 
-   * **[!UICONTROL Größe]** - Sie können eine Standardgröße auswählen. Sie können auch **[!UICONTROL Sonstiges]** aus dem **[!UICONTROL Größe]** in der Dropdown-Liste die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
+   * **[!UICONTROL Größe]**: Sie können eine Standardgröße auswählen. Sie können auch **[!UICONTROL Sonstiges]** aus dem **[!UICONTROL Größe]** in der Dropdown-Liste die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
 
      Siehe auch [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Format]** - Wählen Sie ein Bildformat aus.
+   * **[!UICONTROL Format]**: Wählen Sie ein Bildformat aus.
 
-   * **[!UICONTROL Farbe]** - Wählen Sie RGB, CMYK oder Grau.
+   * **[!UICONTROL Farbe]**: Wählen Sie RGB, CMYK oder Grau aus.
 
-   * **[!UICONTROL Auflösung]** - Wählen Sie 72 ppi, 150 ppi oder 300 ppi.
+   * **[!UICONTROL Auflösung]**: Wählen Sie 72 ppi, 150 ppi oder 300 ppi.
 
-   * **[!UICONTROL Auftragsname]** - Sie können dem Export einen Auftragsnamen zuweisen.
+   * **[!UICONTROL Auftragsname]**: Sie können dem Export einen Auftragsnamen zuweisen.
 
-   * **[!UICONTROL E-Mail senden an]** - Optional. Geben Sie eine E-Mail-Adresse ein, wenn Sie die Assets per E-Mail versenden möchten. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
+   * **[!UICONTROL E-Mail senden an]**: Optional. Geben Sie eine E-Mail-Adresse ein, wenn Sie die Assets per E-Mail versenden möchten. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
 
 1. Auswählen **[!UICONTROL Export]**.
 
 Drei grundlegende Exportaktionen werden unterstützt:
 
 * Ausgangsdatei: Exportieren Sie die Ausgangsdatei des Assets.
-* Mit Vorlage konvertieren: Verwenden Sie eine Bildvorlage zur Asset-Formatierung.
+* Mit Voreinstellung konvertieren (verwenden Sie eine Bildvorgabe, um das Asset zu formatieren)
 * Ohne Vorlage konvertieren: Geben Sie Bildmodifikatoren im Exportdialogfeld an.
 
 Die nachfolgenden Asset-Typen können nicht exportiert werden. Alle anderen generieren einen Export.

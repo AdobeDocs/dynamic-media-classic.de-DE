@@ -10,10 +10,10 @@ role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +27,8 @@ Weitere Informationen zum Hochladen von Bildern finden Sie unter [Dateien hochla
 
 Bereiten Sie Ihre primären Bilddateien vor dem Hochladen in Adobe Dynamic Media Classic vor:
 
-* **Bildgröße** - Erstellen Sie die Bilder mit der größten Größe, die Sie voraussichtlich verwenden werden. Die typischen Bildgrößen liegen zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoom-Funktion verwenden möchten, empfiehlt Adobe Dynamic Media Classic die Verwendung von Bildern mit einer längsten Bildgröße von mindestens 2000 Pixel, um optimale Zoomdetails zu erzielen. Adobe Dynamic Media Classic kann Bilder mit einer Auflösung von jeweils bis zu 25 Megapixeln rendern. Sie können beispielsweise ein Bild mit 5000 × 5000 MP oder eine beliebige andere Größenkombination mit bis zu 25 MP verwenden.
+* **Bildgröße**: Erstellen Sie die Bilder mit der größten Größe, die Sie voraussichtlich verwenden werden. Die typischen Bildgrößen liegen zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoom-Funktion verwenden möchten, empfiehlt Adobe Dynamic Media Classic die Verwendung von Bildern mit einer längsten Bildgröße von mindestens 2000 Pixel, um optimale Zoomdetails zu erzielen. Adobe Dynamic Media Classic kann Bilder mit einer Auflösung von jeweils bis zu 25 Megapixeln rendern. Sie können beispielsweise ein Bild mit 5000 × 5000 MP oder eine beliebige andere Größenkombination mit bis zu 25 MP verwenden.
 
-* **Dateiformate** - Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate wie TIFF, BMP, JPEG, PSD, GIF und EPS. Verlustfreie Bildformate – TIFF und PNG – werden empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die höchsten Qualitätseinstellungen.
+* **Dateiformate**: Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate. Zu diesen Formaten gehören TIFF, BMP, JPEG, PSD, GIF und EPS. Es werden verlustfreie Bildformate - TIFF und PNG-Dateien empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die höchsten Qualitätseinstellungen.
 
-* **Farbraum** - RGB ist der Farbraum für Web-Bildpräsentationen; häufig zum Drucken verwendete CMYK-Bilder werden beim Hochladen automatisch in RGB konvertiert. Es wird empfohlen, CMYK-Bilder hochzuladen, die über ein eingebettetes ICC-Farbprofil (International Color Consortium) für die Konvertierung in RGB verfügen. Siehe auch [ICC-Profile (International Color Consortium)](/help/using/icc-profiles.md).
+* **Farbraum**: RGB ist der Farbraum für Web-Bildpräsentationen; häufig zum Drucken verwendete CMYK-Bilder werden beim Hochladen automatisch in RGB konvertiert. Es wird empfohlen, CMYK-Bilder hochzuladen, die über ein eingebettetes ICC-Farbprofil (International Color Consortium) für die Konvertierung in RGB verfügen. Siehe auch [ICC-Profile (International Color Consortium)](/help/using/icc-profiles.md).

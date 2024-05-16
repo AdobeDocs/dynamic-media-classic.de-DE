@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 46%
@@ -47,9 +47,9 @@ Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Auswählen der Bilder zuerst** - Wählen Sie im Durchsuchen-Bedienfeld die Bilder aus, die Sie für das Bildset verwenden möchten, und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Bildsets]**.
+   * **Auswählen der Bilder zuerst**: Wählen Sie im Durchsuchenbedienfeld die Bilder aus, die Sie für das Bildset verwenden möchten, und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Bildsets]**.
 
-   * **Starten Sie über den Bildschirm &quot;Bildset&quot;** - Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Bildsets]**. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
+   * **Starten Sie über den Bildschirm &quot;Bildset&quot;**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Bildsets]**. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
 
 1. Um die Reihenfolge der Bilder zu ändern, ziehen Sie die Bilder an die gewünschten Positionen.
 1. Stellen Sie sicher, dass rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).

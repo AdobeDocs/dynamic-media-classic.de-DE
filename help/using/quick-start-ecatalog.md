@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 32%
+ht-degree: 26%
 
 ---
 
 # Schnellstart: E-Kataloge{#quick-start-ecatalogs}
 
-Ein E-Katalog ist eine digitale Webversion von Druckwerbematerial, z. B. von Katalogen, Broschüren, Handzetteln, Produkthandbüchern oder Werberundschreiben. Ein E-Katalog wird auf einer Website in einem E-Katalog-Viewer angezeigt. Dieser Viewer simuliert die Erfahrung beim Lesen gedruckter Materialien.
+Ein eCatalog ist eine digitale, Web-Version des Druckmaterials - z. B. ein Katalog, eine Broschüre, ein Flyer, ein Produkthandbuch oder ein Werbezirkus. Ein E-Katalog wird in einem E-Katalog-Viewer auf einer Website angezeigt. Dieser Viewer simuliert die Erfahrung beim Lesen gedruckter Materialien.
 
 Siehe auch die folgenden Schulungsvideos:
 
@@ -36,7 +36,7 @@ Je nach den Einstellungen, die Sie für Ihren E-Katalog auswählen, können Sie 
 * Bewegen Sie den Mauszeiger über einen Seitenbereich (eine so genannte Imagemap), damit Sie ein Popup-Fenster mit Informationen zu einem Element sehen können.
 * Wählen Sie einen Seitenbereich aus, damit eine neue Webseite mit weiteren Informationen zu einem Element geöffnet wird.
 * Schreiben und Anbringen eines Klebezettels als Lesezeichen an einer bestimmten E-Katalogseite
-* Tippen Sie auf Imagemap-Symbole, wenn Sie zugehörige Web-Seiten oder kontextbezogene Informationsbedienfelder starten möchten.
+* Tippen Sie auf Imagemap-Symbole, wenn Sie zugehörige Webseiten oder kontextbezogene Informationsbedienfelder starten möchten.
 * Verwenden von Gesten zur Interaktion, einschließlich der Zangenbewegung zum Zoomen und der Wischbewegung zum Umblättern von Seiten.
 * Durchsuchen der Elemente nach bestimmten Schlüsselwörtern
 
@@ -48,7 +48,7 @@ Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in de
 
 >[!NOTE]
 >
->Wenn Sie Benutzer im Modus Dynamic Media - Scene7 sind und E-Kataloge verwenden möchten, bearbeiten Sie die `pdfbrochure` -Wert in CRXDE Lite. Gehen Sie dazu in Adobe Experience Manager zu **[!UICONTROL Instrumente]** > **[!UICONTROL Allgemein]** > **[!UICONTROL CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Wenn Sie Dynamic Media-Benutzer im Scene7-Modus sind und E-Kataloge verwenden möchten, bearbeiten Sie die `pdfbrochure` -Wert in CRXDE Lite. Gehen Sie dazu in Adobe Experience Manager zu **[!UICONTROL Instrumente]** > **[!UICONTROL Allgemein]** > **[!UICONTROL CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >Im unteren rechten Bereich im **[!UICONTROL Eigenschaften]** auswählen, wählen Sie die `jobParam` Zeile. Legen Sie den Wert für `pdfbrochure` von `false` nach `true`. Wie in `pdfbrochure=true`
 >
@@ -82,7 +82,7 @@ Siehe [Erstellen eines eCatalog](creating-ecatalog.md).
 
 ## 3. Erstellen von Imagemaps
 
-Imagemaps fügen eCatalog-Seiten einen weiteren Aspekt hinzu. Eine Imagemap ist ein Seitenbereich, mit dessen Hilfe weitere Informationen zu einem Element angezeigt werden können. Wenn Betrachter der Website den Mauszeiger über eine Imagemap bewegen, wird eine Beschreibung des Elements angezeigt. Durch Klicken auf eine Imagemap wird ein externer Verweis aktiviert, mit dem eine neue Website mit weiteren Informationen zu einem Element geöffnet wird.
+Imagemaps fügen eCatalog-Seiten einen weiteren Aspekt hinzu. Eine Imagemap ist ein Seitenbereich, mit dessen Hilfe weitere Informationen zu einem Element angezeigt werden können. Wenn Betrachter der Website den Mauszeiger über eine Imagemap bewegen, wird eine Beschreibung des Elements angezeigt. Durch Klicken auf eine Imagemap wird eine externe Referenz aktiviert, die eine neue Webseite öffnet, auf der Sie mehr über ein Element erfahren können.
 
 Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Gehen Sie dann zu **[!UICONTROL Seiten zuordnen]** auf dem eCatalog-Bildschirm angezeigt werden, und rahmen Sie die Karte mit dem Rechteck-Bild-Map-Tool oder dem Polygon-Imagemap-Tool. Sie können die Position und Größe von Imagemaps anpassen, indem Sie mit dem Werkzeug Schwenken Kartenränder ziehen.
 
@@ -116,7 +116,7 @@ Siehe [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-e
 
 ## 6. Veröffentlichen Sie den eCatalog und die zugehörigen PDF
 
-Durch das Veröffentlichen Ihres E-Katalogs und der zugehörigen PDF wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
+Durch das Veröffentlichen Ihres E-Katalogs und des zugehörigen PDF wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
 
 Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
@@ -124,8 +124,8 @@ Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalo
 
 ## 7. Verknüpfen eines E-Katalogs mit einer Webseite
 
-Adobe Dynamic Media Classic aktiviert die URL-Aufrufzeichenfolge, die zum Anzeigen des E-Katalogs beim Veröffentlichen auf Dynamic Media-Image-Servern erforderlich ist. Sie können diese URL-Zeichenfolge aus dem Vorschaubildschirm und dem Durchsuchenbedienfeld (in der Detailansicht) kopieren, indem Sie im Bedienfeld URLs auswählen. Nach dem Kopieren ist die URL-Zeichenfolge für Ihre Websites und Anwendungen verfügbar.
+Adobe Dynamic Media Classic aktiviert die URL-Aufrufzeichenfolge, die zum Anzeigen des E-Katalogs beim Veröffentlichen auf Dynamic Media-Image-Servern erforderlich ist. Sie können diese URL-Zeichenfolge aus dem Vorschaubildschirm und dem Durchsuchenbedienfeld (in der Detailansicht) kopieren, indem Sie im Bedienfeld URLs auswählen. Nachdem Sie die URL-Zeichenfolge kopiert haben, ist sie für Ihre Websites und Anwendungen verfügbar.
 
-Platzieren Sie die Verknüpfung zum E-Katalog an geeigneter Stelle auf Ihrer Website (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). Wenn Benutzer den Link auswählen, wird der E-Katalog-Viewer angezeigt und Benutzer können Ihren E-Katalog durchsuchen.
+Arbeiten Sie mit Ihrem IT-Team zusammen, um den Link zum eCatalog an der entsprechenden Stelle auf Ihrer Webseite zu platzieren. Wenn Benutzer den Link auswählen, wird der E-Katalog-Viewer angezeigt und Benutzer können Ihren E-Katalog durchsuchen.
 
-Siehe [E-Katalog mit einer Webseite verknüpfen](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
+Siehe [Verknüpfen eines eCatalog mit einer Webseite](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).

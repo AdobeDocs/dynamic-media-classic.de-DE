@@ -10,7 +10,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 24%
@@ -33,25 +33,25 @@ Auswählen **[!UICONTROL Aufträge]** in der Symbolleiste für globale Navigatio
 
 Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträge nach folgenden Kategorien angezeigt:
 
-* **[!UICONTROL Auftragstyp]** - Ein Symbol zeigt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
+* **[!UICONTROL Auftragstyp]**: Ein Symbol zeigt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
 
-* **[!UICONTROL Auftragsname]** - Der Name des Auftrags. Der Name enthält den vom Benutzer eingegebenen Teil des Namens sowie Datum und Uhrzeit.
+* **[!UICONTROL Auftragsname]**: Der Name des Auftrags. Der Name enthält den vom Benutzer eingegebenen Teil des Namens sowie Datum und Uhrzeit.
 
-* **[!UICONTROL Gestartet]** - Zeitpunkt des Auftrags.
+* **[!UICONTROL Gestartet]**: Der Zeitpunkt, zu dem der Auftrag gestartet wurde.
 
-* **[!UICONTROL Ingesamt]** - Die Anzahl der übertragenen Dateien.
+* **[!UICONTROL Ingesamt]**: Die Anzahl der übertragenen Dateien.
 
-* **[!UICONTROL W (Warnungen)]** - Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiel: `.DS_store` -Dateien (Mac) und Thumbs.db-Dateien (Windows®) enthalten Informationen zur Anzeige von Bilddateien für Benutzer. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+* **[!UICONTROL W (Warnungen)]**: Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispiel: `.DS_store` -Dateien (Mac) und Thumbs.db-Dateien (Windows®) enthalten Informationen zur Anzeige von Bilddateien für Benutzer. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
-* **[!UICONTROL E (Fehler)]** - Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
+* **[!UICONTROL E (Fehler)]**: Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
-* **[!UICONTROL Dauer]** - Wie lange es dauerte, den Auftrag abzuschließen.
+* **[!UICONTROL Dauer]**: Wie lange es dauerte, den Auftrag abzuschließen.
 
-* **[!UICONTROL Status]** - Zeigt den Status des Auftrags an.
+* **[!UICONTROL Status]**: Zeigt den Status des Auftrags an.
 
-* **[!UICONTROL Ziel]** - Bei Upload-Aufträgen: der Unternehmensname und der Ordner, in den die Dateien hochgeladen wurden. Diese Kategorie gilt nicht für Aufträge zur Veröffentlichung.
+* **[!UICONTROL Ziel]**: Bei Upload-Aufträgen der Name des Unternehmens und der Ordner, in den die Dateien hochgeladen wurden. Diese Kategorie gilt nicht für Aufträge zur Veröffentlichung.
 
-* **[!UICONTROL Gesendet von]** - Listen, die die Assets hochgeladen haben.
+* **[!UICONTROL Gesendet von]**: Listen, die die Assets hochgeladen haben.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 Mit den folgenden Verfahren können Sie Aufträge sortieren oder die Ansicht der Registerkarte „Verlauf“ auf der Seite „Aufträge“ ändern:
 
-* **[!UICONTROL Sortierung]** - Wählen Sie einen Spaltennamen aus, um die Liste nach einer bestimmten Spalte zu sortieren. Durch Klicken auf den Schalter neben dem Spaltennamen können Sie zwischen auf- und absteigender Sortierfolge wechseln.
+* **[!UICONTROL Sortierung]**: Wählen Sie einen Spaltennamen aus, um die Liste nach einer bestimmten Spalte zu sortieren. Durch Klicken auf den Schalter neben dem Spaltennamen können Sie zwischen auf- und absteigender Sortierfolge wechseln.
 
-* **[!UICONTROL Datumsbereich]** - Wählen Sie die **[!UICONTROL Datumsbereich]** und wählen Sie eine Option, um die Liste der Aufträge auf das aktuelle Datum, die vorherige Woche oder den Vormonat zu begrenzen. Auswählen **[!UICONTROL Benutzerdefinierter Datumsbereich]** und geben Sie einen bestimmten Datumsbereich an.
+* **[!UICONTROL Datumsbereich]**: Wählen Sie die **[!UICONTROL Datumsbereich]** und wählen Sie eine Option, um die Liste der Aufträge auf das aktuelle Datum, die vorherige Woche oder den Vormonat zu begrenzen. Auswählen **[!UICONTROL Benutzerdefinierter Datumsbereich]** und geben Sie einen bestimmten Datumsbereich an.
 
-* **[!UICONTROL Auftragstyp]** - Wählen Sie die **[!UICONTROL Auftragstyp]** Menü und wählen **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Hochladen]** , um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge zu beschränken. Auswählen **[!UICONTROL Alle]** um beide Arten von Aufträgen anzuzeigen.
+* **[!UICONTROL Auftragstyp]**: Wählen Sie die **[!UICONTROL Auftragstyp]** Menü und wählen **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Hochladen]** , um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge zu beschränken. Auswählen **[!UICONTROL Alle]** um beide Arten von Aufträgen anzuzeigen.
 
-* **[!UICONTROL Anzeigen]** - Gehen Sie zu **[!UICONTROL Anzeigen]** > **[!UICONTROL Meine Aufträge]** oder **[!UICONTROL Anzeigen]** > **[!UICONTROL Alle Aufträge]** , um die Liste auf Aufträge, die Sie bestellt haben, oder Aufträge zu beschränken, die von Personen in Ihrem Unternehmen bestellt wurden.
+* **[!UICONTROL Anzeigen]**: Gehen Sie zu **[!UICONTROL Anzeigen]** > **[!UICONTROL Meine Aufträge]** oder **[!UICONTROL Anzeigen]** > **[!UICONTROL Alle Aufträge]** , um die Liste auf Aufträge, die Sie bestellt haben, oder Aufträge zu beschränken, die von Personen in Ihrem Unternehmen bestellt wurden.
 
 ## Anzeigen, Kopieren oder Drucken eines Berichts &quot;Auftragsdetails&quot; {#viewing-copying-or-printing-a-job-details-report}
 
@@ -93,13 +93,13 @@ Wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Auftr�
 
 Wählen Sie auf der Seite &quot;Aufträge&quot;einen wiederkehrenden Auftrag aus und befolgen Sie die folgenden Anweisungen, wenn Sie ihn bearbeiten oder löschen möchten:
 
-* **Wiederkehrenden Auftrag bearbeiten** - Wählen Sie die **[!UICONTROL Bearbeiten]** und geben Sie im Dialogfeld &quot;Geplanten Auftrag bearbeiten&quot;Planungsinformationen ein. Wenn Sie möchten, dass der Auftrag in einem Intervall Ihrer Wahl wiederholt wird, gehen Sie zu **[!UICONTROL Wiederholen]** > **[!UICONTROL Benutzerdefiniert]**.
+* **Wiederkehrenden Auftrag bearbeiten**: Wählen Sie die **[!UICONTROL Bearbeiten]** und geben Sie im Dialogfeld &quot;Geplanten Auftrag bearbeiten&quot;Planungsinformationen ein. Wenn Sie möchten, dass der Auftrag in einem Intervall Ihrer Wahl wiederholt wird, gehen Sie zu **[!UICONTROL Wiederholen]** > **[!UICONTROL Benutzerdefiniert]**.
 
 Siehe [Benutzerdefiniertes Upload- oder Veröffentlichungsauftragszeitintervall erstellen](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-* **Löschen eines wiederkehrenden Auftrags** - Wählen Sie die **[!UICONTROL Löschen]** Schaltfläche.
+* **Löschen eines wiederkehrenden Auftrags**: Wählen Sie die **[!UICONTROL Löschen]** Schaltfläche.
 
-* **Anhalten (und Wiederaufnehmen) eines wiederkehrenden Auftrags** - Deaktivieren Sie in der Spalte Aktiv das Kontrollkästchen zum Anhalten eines Vorgangs. Aktivieren Sie das Kontrollkästchen, um einen angehaltenen Auftrag wieder aufzunehmen.
+* **Anhalten (und Wiederaufnehmen) eines wiederkehrenden Auftrags**: Deaktivieren Sie in der Spalte Aktiv das Kontrollkästchen zum Anhalten eines Vorgangs. Aktivieren Sie das Kontrollkästchen, um einen angehaltenen Auftrag wieder aufzunehmen.
 
 ### Benutzerdefiniertes Upload- oder Veröffentlichungsauftragszeitintervall erstellen {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -117,13 +117,13 @@ Diese Tabelle enthält Informationen zu den Zeitabschnitten, den jeweils zuläss
 
 | Zeitabschnitte | Zulässige Werte | Kommentare | Unterstützte Platzhalter |
 |--- |--- |--- |--- |
-| Sekunden | 0-59 |  | `, - * /` |
-| Minuten | 0-59 |  | `, - * /` |
-| Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | `, - * /` |
-| Tag des Monats | 1-31 | Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C` |
-| Monat | 1 bis 12 oder Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `, - * /` |
-| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `, - * / ? L C #` |
-| Jahr (optional) | Leer oder 1970-2099 |  | `, - * /` |
+| Sekunden | 0-59 |  | `,: * /` |
+| Minuten | 0-59 |  | `,: * /` |
+| Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | `,: * /` |
+| Tag des Monats | 1-31 | Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `,: * / ? L C` |
+| Monat | 1 bis 12 oder Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `,: * /` |
+| Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. Es ist nicht möglich, einen numerischen Wert sowohl für &quot;Tag des Monats&quot;als auch für &quot;Tag der Woche&quot;anzugeben. Eines dieser Felder muss eine `?` Platzhalterzeichen. | `,: * / ? L C #` |
+| Jahr (optional) | Leer oder 1970-2099 |  | `,: * /` |
 
 
 In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mit Nutzungshinweisen aufgeführt:

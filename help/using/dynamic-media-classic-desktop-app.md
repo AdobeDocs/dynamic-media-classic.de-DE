@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic-Desktop-Programm - jetzt verfügbar
-description: Erfahren Sie mehr über das Adobe Dynamic Media Classic-Desktop-Programm.
+title: Adobe Dynamic Media Classic-Desktop
+description: Erfahren Sie mehr über das jetzt verfügbare Adobe Dynamic Media Classic-Desktop-Programm.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: afc347201b13c3b91ec5e1bd3ac5304442772f8d
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Die Aktualisierungsbenachrichtigung innerhalb der Adobe Dynamic Media Classic-De
 
 ## Nur in der neuesten Version (20.22.2) von macOS behoben {#release-feb2022}
 
-* macOS Monterey - Datei-Upload-Seite wird bei nachfolgenden Uploads nicht mehr angezeigt. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
+* macOS Monterey: Datei-Upload-Seite wird bei nachfolgenden Uploads gefroren. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## Fehlerbehebungen in der neuesten Version (20.22.1) {#release-jan2022}
 
@@ -99,21 +99,21 @@ Siehe auch:
 
    * Die neueste Version ist unter folgender Adresse verfügbar:
 
-      * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+      * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * Die vorherige Version ist unter folgender Adresse verfügbar:
 
-      * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+      * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+      * [Windows® (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
-<!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
-<!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. Führen Sie je nach heruntergeladenem Installationsprogramm einen der folgenden Schritte aus.
@@ -158,7 +158,7 @@ Zum Herunterladen und *still* Installieren Sie die neueste Version des Adobe Dyn
 
 1. Laden Sie das neueste Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm für macOS herunter.
 
-   * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+   * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. Stellen Sie das heruntergeladene Disk Image (.DMG) mithilfe des folgenden Befehls an einen Bereitstellungspunkt-Speicherort bereit:
 
@@ -168,7 +168,7 @@ Zum Herunterladen und *still* Installieren Sie die neueste Version des Adobe Dyn
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-   Unmount DMG - hdiutil detach <mount_point_path>
+   Unmount DMG: hdiutil detach <mount_point_path>
    ```
 
 1. Wenn Sie die Anwendung öffnen, wird die neue Adobe Dynamic Media Classic-Anmeldeseite angezeigt:
@@ -201,7 +201,7 @@ Zum Herunterladen und *still* Installieren Sie die neueste Version des Adobe Dyn
 
 1. Laden Sie das neueste Installationsprogramm für das Adobe Dynamic Media Classic-Desktop-Programm herunter.
 
-   * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * [Windows® (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
 1. Führen Sie das Installationsprogramm im Datensatzmodus mit dem folgenden Befehl aus:
 
@@ -254,7 +254,7 @@ Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm lösche
 
 ## Bekannte Einschränkungen in Adobe Dynamic Media Classic 20.21.1
 
-* Die **[!UICONTROL Server]** Die Dropdownliste ist nach dem Aktualisieren auf das Adobe Dynamic Media Classic-Desktop-Programm 20.21.1 - Szenario: Sie installieren und melden sich bei Adobe Dynamic Media Classic 20.20.1 oder 20.20.2 an und schließen dann das Programm. Dann aktualisieren Sie auf Adobe Dynamic Media Classic 20.21.1. Wenn Sie versuchen, sich anzumelden, wird die **[!UICONTROL Server]** Dropdown-Liste im **[!UICONTROL Bei Ihrem Konto anmelden]** leer ist. Um dieses Problem zu umgehen, müssen Sie [Cache manuell löschen](#clear-cache) (siehe obige Schritte).
+* Die **[!UICONTROL Server]** Die Dropdownliste ist nach dem Aktualisieren auf das Adobe Dynamic Media Classic-Desktop-Programm 20.21.1: Szenario: Sie installieren und melden sich bei Adobe Dynamic Media Classic 20.20.1 oder 20.20.2 an und schließen dann das Programm. Dann aktualisieren Sie auf Adobe Dynamic Media Classic 20.21.1. Wenn Sie versuchen, sich anzumelden, wird die **[!UICONTROL Server]** Dropdown-Liste im **[!UICONTROL Bei Ihrem Konto anmelden]** leer ist. Um dieses Problem zu umgehen, müssen Sie [Cache manuell löschen](#clear-cache) (siehe obige Schritte).
 
 ## Bekannte Einschränkungen in Adobe Dynamic Media Classic 20.20.1 (behoben in 20.20.2)
 

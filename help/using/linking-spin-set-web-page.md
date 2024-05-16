@@ -1,6 +1,6 @@
 ---
 title: Verknüpfen eines Rotationssets mit einer Webseite
-description: Erfahren Sie, wie Sie ein Rotationsset mit einer Web-Seite in Adobe Dynamic Media Classic verknüpfen.
+description: Erfahren Sie, wie Sie ein Rotationsset mit einer Webseite in Adobe Dynamic Media Classic verknüpfen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 30%
 
 ---
 
@@ -44,7 +44,7 @@ Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code
 
      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
-## Hinzufügen von Rotationsset-URLs zu Ihrer Web-Seite {#adding-spin-set-urls-to-your-web-page}
+## Hinzufügen von Rotationsset-URLs zu Ihrer Webseite {#adding-spin-set-urls-to-your-web-page}
 
 Rotationssets werden wie alle Zoom-Viewer über eine dynamische Seite (ASP oder JSP) implementiert, mit der das Rotationsset in einem Zoom-Fenster angezeigt wird. Der URL-Aufruf an die Adobe Dynamic Media Classic-Plattform folgt demselben Protokoll für den Zoom-Viewer. Der Name der Viewer-Vorgabe hängt jedoch von der Vorgabe ab, die der Administrator als standardmäßige Rotationsset-Viewer-Vorgabe definiert hat. Beispielsweise enthält das folgende Beispiel einer URL-Syntax, die nicht live ist, einen Vorgabennamen namens `viewer.jsp` und der SKU-Parameter ist jetzt der Name des Rotationssets:
 
@@ -56,7 +56,7 @@ Beachten Sie in diesem URL-Syntaxbeispiel (der Link ist nicht live) eine SKU-Num
 
 ## Kopieren des Einbettungscodes eines Rotationsset-Viewers {#copying-the-embed-code-of-a-spin-set-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte Rotationsset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte Rotationsset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers auf Ihren Webseiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 **So kopieren Sie den Einbettungscode eines Rotationsset-Viewers:**
 

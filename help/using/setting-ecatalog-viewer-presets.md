@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe 
 1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Um im Anzeigebereich „Viewer-Vorgaben“ eine E-Katalog-Viewer-Vorgabe zu erstellen, können Sie ganz neu beginnen oder eine vorhandene E-Katalog-Viewer-Vorgabe als Vorlage verwenden:
 
-   * **Erstellen einer eCatalog-Viewer-Vorgabe** - Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, wählen Sie einen E-Katalog-Viewer und dann **[!UICONTROL Hinzufügen]**.
+   * **Erstellen einer eCatalog-Viewer-Vorgabe**: Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, wählen Sie einen E-Katalog-Viewer und dann **[!UICONTROL Hinzufügen]**.
 
-   * **Bearbeiten einer eCatalog-Viewer-Vorgabe** - Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und wählen Sie **[!UICONTROL Bearbeiten]**. Auswählen **[!UICONTROL Speichern unter]** nach Abschluss der Erstellung der Vorgabe.
+   * **Bearbeiten einer eCatalog-Viewer-Vorgabe**: Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Auswählen **[!UICONTROL Speichern unter]** nach Abschluss der Erstellung der Vorgabe.
 
 1. Im `Configure Viewer` -Seite einen Namen für Ihre E-Katalog-Viewer-Vorgabe eingeben.
 1. Im `Configure Viewer` -Seite, legen Sie die gewünschten Optionen fest.
@@ -55,7 +55,7 @@ Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe 
 >Um diese Antwortvorlage anstelle der im eCatalog selbst definierten Vorlage zu verwenden, fügen Sie `fmt=1` an das Ende der URL des Informationsservers. Beispiel: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Auswählen **[!UICONTROL Speichern]**.
-1. Auswählen **[!UICONTROL Standard]** sodass die von Ihnen erstellte E-Katalog-Viewer-Vorgabe die zum Anzeigen von E-Katalogen auf Ihrer Web-Seite verwendete ist.
+1. Auswählen **[!UICONTROL Standard]** sodass die von Ihnen erstellte E-Katalog-Viewer-Vorgabe die zum Anzeigen von E-Katalogen auf Ihrer Webseite verwendete ist.
 
 Um eine E-Katalog-Viewer-Vorgabe zu löschen, wählen Sie sie im Bildschirm &quot;Viewer-Vorgaben&quot;aus und wählen Sie **[!UICONTROL Löschen]**.
 

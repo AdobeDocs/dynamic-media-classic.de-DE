@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 21%
@@ -71,15 +71,15 @@ Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.h
 
 1. Hinzufügen oder Bearbeiten einer Viewer-Vorgabe zum Anzeigen eines Videos:
 
-   * **Hinzufügen** - Auswählen **[!UICONTROL Hinzufügen]** in der Symbolleiste. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform und einen Viewer aus den entsprechenden Dropdown-Listen aus und wählen Sie dann **[!UICONTROL Hinzufügen]**.
+   * **Hinzufügen**: Auswählen **[!UICONTROL Hinzufügen]** in der Symbolleiste. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform und einen Viewer aus den entsprechenden Dropdown-Listen aus und wählen Sie dann **[!UICONTROL Hinzufügen]**.
 
    Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **Hinzufügen ausgehend von einer vorhandenen Viewer-Vorgabe** - Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]** in der Symbolleiste.
+   * **Hinzufügen ausgehend von einer vorhandenen Viewer-Vorgabe**: Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]** in der Symbolleiste.
 
    Nachdem Sie den Video-Viewer neu konfiguriert haben, wählen Sie **[!UICONTROL Speichern unter]** , um die Vorgabe unter einem anderen Namen im Textfeld Vorgabenname zu speichern.
 
-   * **Bearbeiten** - Wählen Sie eine Video-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+   * **Bearbeiten**: Wählen Sie eine Video-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Im `Configure Viewer` im Feld &quot;Vorgabenname&quot;den Vorgabennamen eingeben oder bearbeiten.
 1. Legen Sie die weiteren gewünschten Optionen fest.

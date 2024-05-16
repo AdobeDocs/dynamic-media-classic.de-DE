@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -126,10 +126,10 @@ In diesem archivierten One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen
 
   In dieser Ausgabe:
 
-   * Ressourcen und Informationen, mit denen Sie Ihre hochwertigen Assets ordnungsgemäß verwalten können, um Erlebnisse bereitzustellen, die die Rückkehr Ihrer Besucher verhindern.
+   * Ressourcen und Informationen, mit denen Sie Ihre hochwertigen Assets ordnungsgemäß verwalten können, sodass Sie Erlebnisse bereitstellen können, mit denen Ihre Besucher zurückkehren.
    * Erfahren Sie mehr über ein bevorstehendes Webinar zum Schutz Ihrer digitalen Assets.
    * Nächster Halt auf der informativen Adobe Insider Tour.
-   * Erfreuliche Funktionen bei Dynamic Media in Experience Manager Assets (Experience Manager Assets).
+   * Wenn Sie über Dynamic Media in Experience Manager Assets (Experience Manager Assets) verfügen, stehen Ihnen interessante Funktionen zur Verfügung.
    * Hinzufügen von 360-Grad-Videos und benutzerdefinierten Videominiaturen zu Ihrer Website.
    * Erfüllen `Andrew Hathaway`, Principal Solutions Consultant für Dynamic Media in Experience Manager Assets.
 
@@ -142,7 +142,7 @@ In diesem archivierten One-Stopp-Shop-Newsletter finden Sie wertvolle Ressourcen
    * Erfahren Sie mehr über die bevorstehende Adobe Insider Tour.
    * Erfahren Sie, wie Sie Ihre digitalen Assets vor Piraterie schützen können.
    * Erfahren Sie mehr über KI-gesteuertes smartes Zuschneiden für Bilder.
-   * Erfüllen `Alex Thiers`, einer der treibenden Kräfte hinter vielen der großen Features und Innovationen in Dynamic Media und Adobe Dynamic Media Classic.
+   * Erfüllen `Alex Thiers`, eine treibende Kraft für viele der großartigen Funktionen und Innovationen in Dynamic Media auf AEM und Adobe Dynamic Media Classic.
 
 * **[Mai 2019, Ausgabe 05](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 

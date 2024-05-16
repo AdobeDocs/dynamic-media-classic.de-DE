@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 30%
@@ -53,9 +53,9 @@ Wenn Sie Assets aus dem Ordner „Papierkorb“ löschen, werden sie endgültig 
 
 Um Assets dauerhaft aus dem Ordner &quot;Papierkorb&quot;zu löschen, wählen Sie die **[!UICONTROL Papierkorb]** Symbol. Führen Sie auf der Ordnerseite Papierkorb einen der folgenden Schritte aus:
 
-* **Löschen einzelner Assets** - Wählen Sie die Assets aus, die Sie dauerhaft löschen möchten, und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Aus Papierkorb leeren]**.
+* **Löschen einzelner Assets**: Wählen Sie die Assets aus, die Sie dauerhaft löschen möchten, und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Aus Papierkorb leeren]**.
 
-* **Löschen aller Assets** - Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Leerer Papierkorb]**.
+* **Löschen aller Assets**: Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Leerer Papierkorb]**.
 
 >[!MORELIKETHIS]
 >

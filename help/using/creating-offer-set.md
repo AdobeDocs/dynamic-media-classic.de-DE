@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic bietet Tools zum Bearbeiten und Erstellen von Angebo
 
 Erstellen Sie ein Angebotsset aus den folgenden Angebotsset-Typen:
 
-* **Bilder** - Sie können Bilder für ein Angebotsset zusammenstellen. Jedes Bild enthält ein anderes Angebot im Set.
+* **Bilder**: Sie können Bilder für ein Angebotsset zusammenstellen. Jedes Bild enthält ein anderes Angebot im Set.
 
-* **Bildvorlage** - Sie können Bildvorlagen in Adobe Dynamic Media Classic mit der **[!UICONTROL Build]** > Vorlagengrundlagen, Befehl. Mithilfe von Parametern können Komponenten der Vorlage (Text in Textrahmen, die verschiedenen Bilder) ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern verschiedene Varianten desselben Bildes erstellen. Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter [Vorlagenparameter erstellen](creating-template-parameters.md#creating_template_parameters).
+* **Bildvorlage**: Sie können Bildvorlagen in Adobe Dynamic Media Classic mit der **[!UICONTROL Build]** > Vorlagengrundlagen, Befehl. Mithilfe von Parametern können Komponenten der Vorlage (Text in Textrahmen, die verschiedenen Bilder) ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern verschiedene Varianten desselben Bildes erstellen. Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter [Vorlagenparameter erstellen](creating-template-parameters.md#creating_template_parameters).
 
 Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
 
-* **Video** - Sie können Videos für ein Angebotsset zusammenstellen. Jedes Video besteht dabei aus einem anderen Angebot im Set.
+* **Video**: Sie können Videos für ein Angebotsset zusammenstellen. Jedes Video besteht dabei aus einem anderen Angebot im Set.
 
 ## Angebotssatz mit parametrierter Vorlage erstellen {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -67,7 +67,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    Links auf dieser Seite sind die Parameter in der Vorlage mit ihren Werten aufgelistet.
 
-1. Ändern Sie die Parameterwerte, um das Angebot zu erstellen. Geben Sie beispielsweise anderen Text in ein Textfeld ein, ändern Sie die Größe einer Ebene, tauschen Sie ein Bild durch ein anderes aus oder wählen Sie eine andere Viewer-Vorgabe.
+1. Ändern Sie die Parameterwerte, um das Angebot zu erstellen. Geben Sie beispielsweise einen anderen Text in ein Textfeld ein, ändern Sie die Größe einer Ebene, tauschen Sie ein Bild gegen ein anderes aus oder wählen Sie eine andere Viewer-Vorgabe aus.
 1. Auswählen **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter**]** , um das Angebot als Teil des Angebotssatzes zu speichern.
 
    Auf der Seite &quot;Test&amp;Target-Angebotsset&quot;werden die von Ihnen erstellten Angebote aufgelistet.
@@ -93,9 +93,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Stellen Sie Bilder oder Videos für das Angebotsset zusammen. Starten Sie im Bildschirm &quot;Test&amp;Target-Angebotsset&quot;oder in der Raster- oder Listenansicht und verwenden Sie eine der folgenden Methoden:
 
-   * **Bildschirm &quot;Test&amp;Target-Angebotsset&quot;** - Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**. Ziehen Sie die Bilder oder Videos in den Anzeigebereich. Wenn Sie verschiedene Video- oder Bildgrößen erstellen möchten, ziehen Sie mehrere Kopien des Bildes oder Videos in den Anzeigebereich und legen Sie jede Größe einzeln fest.
+   * **Bildschirm &quot;Test&amp;Target-Angebotsset&quot;**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**. Ziehen Sie die Bilder oder Videos in den Anzeigebereich. Wenn Sie verschiedene Video- oder Bildgrößen erstellen möchten, ziehen Sie mehrere Kopien des Bildes oder Videos in den Anzeigebereich und legen Sie jede Größe einzeln fest.
 
-   * **Rasteransicht oder Listenansicht** - Wählen Sie die Bilder oder Videos aus und gehen Sie dann zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**.
+   * **Rasteransicht oder Listenansicht**: Wählen Sie die Bilder oder Videos aus und gehen Sie dann zu **[!UICONTROL Build]** > **[!UICONTROL Test&amp;Target-Angebotsset]**.
 
 1. Wählen Sie optional ein Bild oder Video aus und wählen Sie **[!UICONTROL Vorschau]**. Auf der Seite &quot;Angebote in der Vorschau&quot;können Sie die Größe und das Aussehen des ausgewählten Bildes oder Videos ändern. Sie können auch alle Bilder oder Videos im Angebotsset ändern.
 
@@ -127,10 +127,10 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Um ein Angebotsset zu bearbeiten, zeigen Sie es in der Raster- oder Listenansicht an und wählen Sie dann dessen **[!UICONTROL Bearbeiten]** Rollover-Schaltfläche.
 1. Führen Sie auf der Seite &quot;Test&amp;Target-Angebotsset&quot;einen der folgenden Schritte aus:
 
-   * **Entfernen eines Angebots** - Wählen Sie das Angebot aus und klicken Sie auf **[!UICONTROL Löschen]** , um ein Angebot aus dem Satz zu entfernen.
-   * **Hinzufügen eines Angebots** - Wie Sie ein Angebot hinzufügen, hängt vom Typ des Angebots ab, mit dem Sie arbeiten:
-      * **Vorlagen** - Auswählen **[!UICONTROL Hinzufügen und Vorschau]** und erstellen Sie auf der Seite Hinzufügen und Vorschau von Angeboten ein weiteres Angebot.
-      * **Bilder und Videos** - Ziehen Sie ein Bild oder Video auf die Seite Test&amp;Target-Angebotsset .
+   * **Entfernen eines Angebots**: Wählen Sie das Angebot aus und klicken Sie auf **[!UICONTROL Löschen]** , um ein Angebot aus dem Satz zu entfernen.
+   * **Hinzufügen eines Angebots**: Wie Sie ein Angebot hinzufügen, hängt vom Typ des Angebots ab, mit dem Sie arbeiten:
+      * **Vorlagen**: Auswählen **[!UICONTROL Hinzufügen und Vorschau]** und erstellen Sie auf der Seite Hinzufügen und Vorschau von Angeboten ein weiteres Angebot.
+      * **Bilder und Videos**: Ziehen Sie ein Bild oder Video auf die Seite Test&amp;Target-Angebotsset .
 
    >[!NOTE]
    >

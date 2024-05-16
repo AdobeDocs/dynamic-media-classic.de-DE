@@ -10,10 +10,10 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -34,17 +34,17 @@ Diese Optionen befinden sich auf der Seite &quot;Hochladen&quot;unter der **[!UI
 
 Sie können automatisch weiße Leerraum-Pixel aus einem Bild beschneiden. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Optionen zum Zuschneiden]**. Im **[!UICONTROL Zuschneiden]** Dropdown-Liste auswählen **[!UICONTROL Zuschneiden]**. Anschließend können Sie folgende Optionen wählen:
 
-* **[!UICONTROL Entfernen basierend auf]** - Wählen Sie aus dieser Dropdownliste aus, ob das Zuschneiden auf Grundlage von Farbe oder Transparenz erfolgen soll:
+* **[!UICONTROL Entfernen basierend auf]**: Wählen Sie aus dieser Dropdownliste aus, ob das Zuschneiden auf Grundlage von Farbe oder Transparenz erfolgen soll:
 
-   * **[!UICONTROL Farbe]** - Wählen Sie die **[!UICONTROL Farbe]** -Option. Dann aus dem **[!UICONTROL Ecke]** in der Dropdown-Liste die Ecke des Bildes mit der Farbe auswählen, die der Farbe des Leerraums, die Sie zuschneiden möchten, am besten entspricht.
+   * **[!UICONTROL Farbe]**: Wählen Sie die **[!UICONTROL Farbe]** -Option. Dann aus dem **[!UICONTROL Ecke]** in der Dropdown-Liste die Ecke des Bildes mit der Farbe auswählen, die der Farbe des Leerraums, die Sie zuschneiden möchten, am besten entspricht.
 
-   * **[!UICONTROL Transparenz]** - Wählen Sie die Option Transparenz aus.
+   * **[!UICONTROL Transparenz]**: Wählen Sie die Option Transparenz aus.
 
-* **[!UICONTROL Toleranz]** - Ziehen Sie den Schieberegler, um eine Toleranz zwischen 0 und 1 festzulegen:
+* **[!UICONTROL Toleranz]**: Ziehen Sie den Regler, um eine Toleranz zwischen 0 und 1 festzulegen:
 
-   * **Beschneiden anhand der Farbe** - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+   * **Beschneiden anhand der Farbe**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-   * **Auf Transparenz basierende Beschneidung** - Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, ermöglichen mehr Transparenz.
+   * **Auf Transparenz basierende Beschneidung**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, ermöglichen mehr Transparenz.
 
 ## Manuelles Zuschneiden von den Seiten der Bilder
 
@@ -54,11 +54,11 @@ Um ein Bild manuell an den Kanten zu beschneiden, wählen Sie im Menü „Beschn
 
 Um einen Farbraum für das Bild auszuwählen, wählen Sie eine Farbprofil -Option:
 
-* **[!UICONTROL In sRGB konvertieren]** - Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Websites.
+* **[!UICONTROL In sRGB konvertieren]**: Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Webseiten.
 
-* **[!UICONTROL Originalfarbraum beibehalten]** - Behält den ursprünglichen Farbraum bei.
+* **[!UICONTROL Originalfarbraum beibehalten]**: Behält den ursprünglichen Farbraum bei.
 
-* **[!UICONTROL Benutzerdefiniert von]** > **[!UICONTROL nach]** - Öffnet Menüs, damit Sie den Farbraum &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
+* **[!UICONTROL Benutzerdefiniert von]** > **[!UICONTROL nach]**: Öffnet Menüs, in denen Sie einen Farbraum vom Typ Konvertieren von und Konvertieren in auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
 
 Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
@@ -93,7 +93,7 @@ Verwenden Sie &quot;Hintergrund aussparen&quot;, damit Sie beim Hochladen automa
 | --- | --- |
 | Hintergrund aussparen | Wählen Sie diese Option aus, um die Funktion und die Optionen &quot;Hintergrund aussparen&quot;zu aktivieren bzw. zu aktivieren. |
 | Ecke | Erforderlich.<br>Die Ecke des Bildes, mit der die auszuschneidende Hintergrundfarbe definiert wird.<br>Sie können aus <b>Oben links, unten links, Oben rechts oder unten rechts</b>. |
-| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der Ecke, die Sie festlegen.<br>Sie können aus den folgenden Füllmethoden wählen:<br>・ <b>Flood Fill</b> - Macht alle Pixel transparent, die der von Ihnen angegebenen Ecke entsprechen und mit ihr verbunden sind.<br>・ <b>Pixel abgleichen</b> - macht alle übereinstimmenden Pixel transparent, unabhängig von ihrer Position auf dem Bild. |
+| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der Ecke, die Sie festlegen.<br>Sie können aus den folgenden Füllmethoden wählen:<br>・ <b>Flood Fill</b>: Macht alle Pixel transparent, die der von Ihnen angegebenen Ecke entsprechen und mit ihr verbunden sind.<br>・ <b>Pixel abgleichen</b>: Macht alle übereinstimmenden Pixel transparent, unabhängig von ihrer Position auf dem Bild. |
 | Toleranz | Optional.<br>Steuert die zulässige Abweichung der Pixelfarbe basierend auf der Ecke, die Sie festgelegt haben.<br>Verwenden Sie den Wert 0,0, um die Pixelfarben exakt abzugleichen. Oder verwenden Sie den Wert 1,0, um die größte Variante zu ermöglichen. |
 
 >[!MORELIKETHIS]

@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 18%
@@ -105,8 +105,8 @@ In der folgenden Tabelle werden Adobe Dynamic Media Classic-Variablen beschriebe
 
 Im Anzeigebereich „Adobe Analytics-Konfiguration“ können Sie Viewer-Ereignisse aktivieren, bearbeiten und löschen:
 
-* **Aktivieren** - Auswählen **[!UICONTROL Aktivieren]** aktivieren oder **[!UICONTROL Deaktivieren]** , um ein ausgewähltes Viewer-Ereignis zu deaktivieren.
+* **Aktivieren**: Auswählen **[!UICONTROL Aktivieren]** aktivieren oder **[!UICONTROL Deaktivieren]** , um ein ausgewähltes Viewer-Ereignis zu deaktivieren.
 
-* **Bearbeiten** - Wählen Sie ein Viewer-Ereignis aus und wählen Sie die **[!UICONTROL Anzeigen/Bearbeiten]** Variablengrauschaltfläche. Wählen Sie in den Dropdownlisten Adobe Dynamic Media Classic-Variable und Adobe Analytics-Variable eine andere Variable aus den jeweiligen Listen aus. Weitere Informationen finden Sie unter [Zuweisen von Adobe Analytics-Variablen zu Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Bearbeiten**: Wählen Sie ein Viewer-Ereignis aus und wählen Sie die **[!UICONTROL Anzeigen/Bearbeiten]** Variablengrauschaltfläche. Wählen Sie in den Dropdownlisten Adobe Dynamic Media Classic-Variable und Adobe Analytics-Variable eine andere Variable aus den jeweiligen Listen aus. Weitere Informationen finden Sie unter [Zuweisen von Adobe Analytics-Variablen zu Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Löschen** - Wählen Sie ein Viewer-Ereignis aus und wählen Sie die **[!UICONTROL Anzeigen/Bearbeiten]** Variablengrauschaltfläche. Auswählen **[!UICONTROL Löschen]**.
+* **Löschen**: Wählen Sie ein Viewer-Ereignis aus und wählen Sie die **[!UICONTROL Anzeigen/Bearbeiten]** Variablengrauschaltfläche. Auswählen **[!UICONTROL Löschen]**.

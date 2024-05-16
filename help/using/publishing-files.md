@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 26%
+ht-degree: 21%
 
 ---
 
@@ -94,7 +94,7 @@ Sie können die erweiterten Optionen auf der Seite &quot;Publishing&quot;anzeige
 
 * **[!UICONTROL Veröffentlichen in]**: Wenn Sie Assets nur auf einem bestimmten Server veröffentlichen möchten, wählen Sie einen Servertyp aus.
 
-* **[!UICONTROL Veröffentlichen]** - Standardmäßig veröffentlicht Adobe Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch **[!UICONTROL Vollständige Veröffentlichung]** damit Sie auch Assets veröffentlichen können, die seit der letzten Veröffentlichung aktualisiert oder geändert wurden. Auswählen **[!UICONTROL Vollständig mit Suchdaten]** Wenn Sie einen E-Katalog veröffentlichen und möchten, dass die Leser ihn mit einem Schlüsselwort durchsuchen können.
+* **[!UICONTROL Veröffentlichen]**: Standardmäßig veröffentlicht Adobe Dynamic Media Classic nur Assets, die neu sind und noch nicht veröffentlicht wurden (Option &quot;Neu seit letzter Veröffentlichung&quot;). Sie können jedoch **[!UICONTROL Vollständige Veröffentlichung]** damit Sie auch Assets veröffentlichen können, die seit der letzten Veröffentlichung aktualisiert oder geändert wurden. Auswählen **[!UICONTROL Vollständig mit Suchdaten]** Wenn Sie einen E-Katalog veröffentlichen und möchten, dass die Leser ihn mit einem Schlüsselwort durchsuchen können.
 
 * **[!UICONTROL Auftrag ausführen als]**: Wählen Sie einen Benutzernamen aus der Liste aus. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch die Auswahl eines Namens verknüpfen Sie einen Veröffentlichungsauftrag mit einem Benutzer.
 
@@ -150,13 +150,13 @@ Das letzte Datum, an dem ein Asset veröffentlicht wurde, wird in der Detailansi
 
 ## Erneut veröffentlichte Assets und CDN-Verzögerungen {#republished-assets-and-cdn-delays}
 
-Adobe Dynamic Media Classic-Assets werden im Content Delivery Network (CDN) verteilt. CDN ist ein System von vernetzten Computer-Servern, die auf transparente Weise zusammenarbeiten, um Inhalte – insbesondere umfangreiche Medieninhalte – für Endbenutzer bereitzustellen. Im CDN-System werden Web-Inhalte in Web-Caches gespeichert, die über das Internet verteilt sind (das so genannte Edge-Cache-Netzwerk). Web-Inhalte werden von den Web-Caches an Endbenutzer bereitgestellt, um schnellere Sendungen zu ermöglichen.
+Adobe Dynamic Media Classic-Assets werden im Content Delivery Network (CDN) verteilt. CDN ist ein System von vernetzten Computer-Servern, die auf transparente Weise zusammenarbeiten, um Inhalte – insbesondere umfangreiche Medieninhalte – für Endbenutzer bereitzustellen. Im CDN-System werden Webinhalte im Internet in Webcaches gespeichert (das so genannte Edge-Cache-Netzwerk). Web-Inhalte werden von den Web-Caches an Endbenutzer bereitgestellt, um schnellere Sendungen zu ermöglichen.
 
-Wenn ein Benutzer eine Webseite zum ersten Mal herunterlädt, werden die Assets an einen CDN-Web-Cache-Server bereitgestellt. Dieser Server speichert sie so, dass beim nächsten Zugriff eines Benutzers im selben Bereich auf die Webseite derselbe zwischengespeicherte Inhalt schneller bereitgestellt wird. Die Inhaltsbereitstellung erfolgt schneller, weil der Inhalt näher beim Endbenutzer aufbewahrt wird. CDN ermöglicht eine schnellere Anzeige von Websites. Die Bandbreitenanforderungen an den zentralen Server werden verringert, da die Inhalte über das Edge-Cache-Netzwerk bereitgestellt werden, nicht jedes Mal von einem zentralen Server aus.
+Wenn ein Benutzer eine Webseite zum ersten Mal herunterlädt, werden die Assets an einen CDN-Web-Cache-Server bereitgestellt. Dieser Server speichert sie so, dass beim nächsten Zugriff eines Benutzers im selben Bereich auf die Webseite derselbe zwischengespeicherte Inhalt schneller bereitgestellt wird. Die Inhaltsbereitstellung erfolgt schneller, weil der Inhalt näher beim Endbenutzer aufbewahrt wird. CDN ermöglicht eine schnellere Anzeige von Webseiten. Die Bandbreitenanforderungen an den zentralen Server werden verringert, da die Inhalte über das Edge-Cache-Netzwerk bereitgestellt werden, nicht jedes Mal von einem zentralen Server aus.
 
-Neu veröffentlichte Adobe Dynamic Media Classic-Inhalte stehen dem Endbenutzer sofort zur Verfügung und füllen das Edge-Cache-Netzwerk schnell. Neu veröffentlichte Inhalte, d. h. Bilder mit demselben Namen wie zuvor auf einem Bildserver veröffentlichte Bilder, werden jedoch bis zu zehn Stunden lang nicht im CDN aktualisiert. Endbenutzer sehen stattdessen die Daten im Web-Cache des CDN. Aus diesem Grund werden die erneut veröffentlichten Adobe Dynamic Media Classic-Assets den Endbenutzern zehn Stunden lang nicht angezeigt.
+Neu veröffentlichte Adobe Dynamic Media Classic-Inhalte stehen dem Endbenutzer sofort zur Verfügung und füllen das Edge-Cache-Netzwerk schnell. Neu veröffentlichte Inhalte, d. h. Bilder mit demselben Namen wie zuvor auf einem Image-Server veröffentlichte Bilder, werden jedoch bis zu zehn Stunden lang nicht im CDN aktualisiert. Stattdessen sehen Endbenutzer, was sich in einem Web-Cache im CDN-Netzwerk befindet. Aus diesem Grund werden die erneut veröffentlichten Adobe Dynamic Media Classic-Assets den Endbenutzern zehn Stunden lang nicht angezeigt.
 
-Wenn Sie möchten, dass neue erneut veröffentlichte Bild-Assets schneller zur Verfügung stehen als mit zehnstündiger Verzögerung, können Sie Web-Caches im CDN bereinigen. Bei der Bereinigung der Web-Caches werden alte Inhalte aus den CDN-Web-Caches entfernt und durch die zuletzt veröffentlichten Assets ersetzt.
+Wenn Sie möchten, dass Ihre neu veröffentlichten Bild-Assets schneller als mit zehnstündiger Verzögerung verfügbar sind, können Sie Web-Caches im CDN leeren. Wenn Sie diese Web-Caches leeren, werden alte Inhalte aus CDN-Web-Caches entfernt und durch die zuletzt veröffentlichten Assets ersetzt.
 
 Um den Cache zu leeren, navigieren Sie in der Leiste Globale Navigation zu **[!UICONTROL Datei]** > **[!UICONTROL Ungültiges CDN]**. Alle ausgewählten Dateien werden aus dem Cache entfernt. Wenn keine veröffentlichbare Assets vorhanden oder Sie kein Unternehmensadministrator sind, ist die CDN-Option „Entfernen“ nicht verfügbar.
 

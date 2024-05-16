@@ -10,10 +10,10 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 32%
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ Der maximale Zoom-Prozentsatz von Zoomzielen beträgt 100 Prozent. Der minimale 
 | Groß | Kleiner | Kleinerer Minimalwert |
 | Klein | Größer | Größerer Minimalwert |
 
-Sie können die Größe des Zoom-Viewers an die auf der Website verwendete Größe anpassen. Sie können diese Einstellung dauerhaft ändern, indem Sie die Viewer-Größe auf dem Bildschirm &quot;Einrichtung&quot;ändern (falls Sie Administrator sind). Siehe [Einrichten von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Sie können die Größe des Zoom-Viewers an die auf Ihrer Webseite verwendete Größe anpassen. Sie können diese Einstellung dauerhaft ändern, indem Sie die Viewer-Größe auf dem Bildschirm &quot;Einrichtung&quot;ändern (falls Sie Administrator sind). Siehe [Einrichten von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Erstellen und Bearbeiten von Zoomzielen {#creating-and-editing-zoom-targets}
 
@@ -53,9 +53,9 @@ Um ein Zoomziel zu erstellen, öffnen Sie die Seite &quot;Zoomziel-Editor&quot;u
 
 1. Auswahl **[!UICONTROL Ziel auswählen]** (Pfeil), wählen Sie dann das von Ihnen erstellte Zoomziel aus und passen Sie Größe und Position des Ziels an.
 
-   * **Größe ändern** - Bewegen Sie den Mauszeiger über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
+   * **Größe ändern**: Bewegen Sie den Mauszeiger über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
 
-   * **Position** - Bewegen Sie den Mauszeiger über das Zoomziel und ziehen Sie es an eine andere Position.
+   * **Position**: Bewegen Sie den Mauszeiger über das Zoomziel und ziehen Sie es an eine andere Position.
 
 1. Geben Sie im Feld „Name“ einen Namen für das Zoomziel ein.
 
@@ -63,7 +63,7 @@ Um ein Zoomziel zu erstellen, öffnen Sie die Seite &quot;Zoomziel-Editor&quot;u
    >
    >In das Feld „Name“ geben Sie mehr als nur einen Namen ein. Wenn Benutzer den Zeiger über das Zoomziel bewegen, sehen sie, was Sie in das Feld „Name“ eingegeben haben. Geben Sie eine kurze Beschreibung des Zoomziels in das Feld „Name“ ein, damit die Benutzer wissen, auf was sie zoomen können.
 
-1. Optional können Sie im Feld „Benutzerdaten“ entsprechende Informationen eingeben. Dieses Feld dient Website-Designern dazu, dem Zoomziel Informationen hinzuzufügen.
+1. Optional können Sie im Feld „Benutzerdaten“ entsprechende Informationen eingeben. In diesem Feld müssen Website-Designer Informationen zum Zoomziel hinzufügen.
 1. Auswählen **[!UICONTROL Speichern]**.
 
    Die Koordinaten und Zoomstärke des Zoomziels werden gespeichert. Eine Miniaturansicht Ihres Zoomziels mit dem von Ihnen eingegebenen Namen wird rechts im Anzeigebereich eingeblendet.
@@ -76,13 +76,13 @@ Um ein Zoomziel zu erstellen, öffnen Sie die Seite &quot;Zoomziel-Editor&quot;u
 
 Verwenden Sie zum Bearbeiten von Zoomzielen die folgenden Verfahren auf der Seite &quot;Zoomziel-Editor&quot;:
 
-* **Reposition** - Wählen Sie mit der Schaltfläche Ziel auswählen (Pfeil) das Ziel aus. Ziehen Sie das Ziel dann an eine andere Position.
+* **Reposition**: Wählen Sie mit der Schaltfläche Ziel auswählen (Pfeil) das Ziel aus. Ziehen Sie das Ziel dann an eine andere Position.
 
-* **Größe ändern** - Wählen Sie mit der Schaltfläche Ziel auswählen (Pfeil) das Ziel aus. Um das Ziel zu vergrößern oder zu verkleinern, bewegen Sie den Mauszeiger über eine Ecke des Zoomziels und ziehen Sie.
+* **Größe ändern**: Wählen Sie mit der Schaltfläche Ziel auswählen (Pfeil) das Ziel aus. Um das Ziel zu vergrößern oder zu verkleinern, bewegen Sie den Mauszeiger über eine Ecke des Zoomziels und ziehen Sie.
 
-* **Löschen** - Wählen Sie rechts im Bildschirm das Miniaturbild des Ziels aus. Wählen Sie anschließend **[!UICONTROL Ziel löschen]**.
+* **Löschen**: Wählen Sie rechts im Bildschirm das Miniaturbild des Ziels aus. Wählen Sie anschließend **[!UICONTROL Ziel löschen]**.
 
-* **Umbenennen** - Wählen Sie rechts im Bildschirm das Miniaturbild des Ziels aus. Geben Sie dann einen Namen in die **[!UICONTROL Name]** Textfeld und wählen Sie **[!UICONTROL Speichern]**.
+* **Umbenennen**: Wählen Sie rechts im Bildschirm das Miniaturbild des Ziels aus. Geben Sie dann einen Namen in die **[!UICONTROL Name]** Textfeld und wählen Sie **[!UICONTROL Speichern]**.
 
 ### Zoomziele kopieren {#copying-zoom-targets}
 

@@ -9,10 +9,10 @@ role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 34%
+source-wordcount: '847'
+ht-degree: 30%
 
 ---
 
@@ -35,7 +35,7 @@ Bereiten Sie Ihre PDF-Dateien vor dem Hochladen auf Adobe Dynamic Media Classic 
 * Um das Hochladen der Dateien zu vereinfachen, platzieren Sie alle Dateien im selben Ordner auf Ihrem Computer oder Netzwerk.
 * Benennen Sie die Dateien in alphanumerischer Reihenfolge gemäß der gewünschten Seitenabfolge. Eine Vorabsortierung der Seiten erleichtert nach dem Hochladen die Anordnung der Dateien in der richtigen Reihenfolge.
 * Um zu sehen, ob PDF-Seiten Zuschnittmarkierungen, Registrierungsziele oder Farbbalken enthalten, überprüfen Sie die Seiten. Diese Markierungen kennzeichnen die Stellen, an denen das Papier beim Druck abgeschnitten werden soll. Sie müssen vor der Veröffentlichung des E-Katalogs im Internet entfernt werden. Adobe Dynamic Media Classic bietet beim Hochladen von PDF-Dateien Optionen für Zuschnittmarkierungen.
-* Wenn Sie möchten, dass Betrachter Ihren E-Katalog nach Keywords durchsuchen, überprüfen Sie, ob Ihre PDF-Dateien &quot;reduziert&quot;sind. Aus reduzierten PDF-Dateien können keine Suchbegriffe extrahiert werden. Um festzustellen, ob eine PDF-Datei reduziert ist, versuchen Sie, Text darin zu markieren. Wenn Sie keinen Text auswählen können, wird die PDF reduziert und Viewer können in Ihrem eCatalog nicht nach Keywords suchen.
+* Wenn Sie möchten, dass Betrachter Ihren E-Katalog nach Keywords durchsuchen, überprüfen Sie, ob Ihre PDF-Dateien &quot;reduziert&quot;sind. Aus reduzierten PDF-Dateien können keine Suchbegriffe extrahiert werden. Um herauszufinden, ob eine PDF reduziert ist, wählen Sie den darin enthaltenen Text aus. Wenn Sie keinen Text auswählen können, wird die PDF reduziert und Viewer können in Ihrem eCatalog nicht nach Keywords suchen.
 * Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Standardmäßig kann Adobe Dynamic Media Classic diese CMYK-Bilder intelligent erkennen und mithilfe eines internen CMYK-Farbprofils konvertieren. Sie können zum Konvertieren der CMYK-Bilder auch ein benutzerdefiniertes Farbprofil verwenden. 
 
   Siehe [ICC-Profile (International Color Consortium)](icc-profiles.md#icc_profiles).
@@ -46,27 +46,27 @@ Ausführliche Informationen zu den verschiedenen Methoden zum Hochladen finden S
 
 Wählen Sie die Dateien aus, die Sie hochladen möchten, und wählen Sie diese dann aus *Best Practice* PDF-Optionen:
 
-* **Optionen zum Zuschneiden** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Optionen zum Zuschneiden]**. Wenn die PDF-Seiten Zuschnittmarkierungen, Registrierungszeichen oder andere Zeichen enthalten, wird die **[!UICONTROL Zuschneiden]** Dropdown-Liste auswählen **[!UICONTROL Manuell]**. Geben Sie die Anzahl der Pixel an, die an den Seitenkanten oben, rechts, unten und links abgeschnitten werden sollen. Zuschnittmarkierungen sind oft auf einen halben Zoll-Rand eingestellt. Angenommen, Sie wählen **[!UICONTROL 150]** (empfohlen) als Pixelpro-Zoll-Auflösung und geben Sie in die Textfelder &quot;Oben&quot;, &quot;Rechts&quot;, &quot;Unten&quot;und &quot;Links&quot;die Werte 75, 75, 75 und 75 ein. In diesem Fall schneidet er einen halben Zoll von den Rändern ab (bei 150 ppi, die Hälfte von 1 entspricht 75 Pixel).
+* **Optionen zum Zuschneiden**: Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Optionen zum Zuschneiden]**. Wenn die PDF-Seiten Zuschnittmarkierungen, Registrierungszeichen oder andere Zeichen enthalten, wird die **[!UICONTROL Zuschneiden]** Dropdown-Liste auswählen **[!UICONTROL Manuell]**. Geben Sie die Anzahl der Pixel ein, die oben, rechts, unten und links von den Seiten beschnitten werden sollen. Zuschnittmarkierungen sind oft auf einen halben Zoll-Rand eingestellt. Angenommen, Sie wählen **[!UICONTROL 150]** (empfohlen) als Pixelpro-Zoll-Auflösung. Geben Sie dann die Textfelder 75, 75, 75, 75 in die Textfelder oben, rechts, unten und links ein. In einem solchen Fall schneidet er einen halben Zoll von den Rändern ab (bei 150 ppi, die Hälfte von 1 entspricht 75 Pixel).
 
-* **Verarbeitung** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Im **[!UICONTROL Verarbeitung]** Dropdown-Liste auswählen **[!UICONTROL Rastern]**. Die PDF-Datei muss gerastert werden, damit alle Seiten und Bilder im E-Katalog angezeigt werden können.
+* **Verarbeitung**: Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Im **[!UICONTROL Verarbeitung]** Dropdown-Liste auswählen **[!UICONTROL Rastern]**. Die PDF-Datei muss gerastert werden, damit alle Seiten und Bilder im E-Katalog angezeigt werden können.
 
-* **Suchbegriffe extrahieren (optional)** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Wählen Sie in der Dropdown-Liste Extract die Option **[!UICONTROL Suchbegriffe]** , wenn Sie möchten, dass Ihre Viewer in Ihrem eCatalog nach Keywords suchen können.
+* **Suchbegriffe extrahieren (optional)**: Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Wählen Sie in der Dropdown-Liste Extract die Option **[!UICONTROL Suchbegriffe]** , wenn Sie möchten, dass Ihre Viewer in Ihrem eCatalog nach Keywords suchen können.
 
-* **E-Katalog von mehreren Seiten automatisch generieren (optional)** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Auswählen **[!UICONTROL E-Katalog von mehreren Seiten automatisch generieren PDF]** , um beim Hochladen automatisch einen E-Katalog zu erstellen. Sie können dann sofort den Anzeigebereich „E-Katalog“ aufrufen und daran arbeiten, ohne zuerst PDF-Dateien auswählen und den Befehl „Erstellen“ aktivieren zu müssen. Der E-Katalog erhält in diesem Fall denselben Namen wie die PDF-Datei.
+* **E-Katalog von mehreren Seiten automatisch generieren (optional)**: Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Klicks **[!UICONTROL E-Katalog von mehreren Seiten automatisch generieren PDF]** sodass Sie beim Hochladen automatisch einen eCatalog erstellen können. Sie können dann sofort den Anzeigebereich „E-Katalog“ aufrufen und daran arbeiten, ohne zuerst PDF-Dateien auswählen und den Befehl „Erstellen“ aktivieren zu müssen. Der E-Katalog erhält in diesem Fall denselben Namen wie die PDF-Datei.
 
-* **Auflösung** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Im **[!UICONTROL Auflösung]** Textfeld einen Wert eingeben. Adobe Dynamic Media Classic empfiehlt 150 Pixel pro Zoll.
+* **Auflösung**: Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Im **[!UICONTROL Auflösung]** Textfeld einen Wert eingeben. Adobe Dynamic Media Classic empfiehlt 150 Pixel pro Zoll.
 
-* **Farbraum** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Wählen Sie in der Dropdownliste Farbraum die Option **[!UICONTROL Automatisch erkennen]**. Normalerweise enthalten PDF-Dateien, die zum Drucken vorgesehen sind, CMYK-Bilder, während PDF-Dateien, die nur zum Anzeigen vorgesehen sind, RGB-Bilder enthalten. Wenn in einer PDF-Datei beide Farbräume verwendet wurden, können Sie einen bestimmten Farbraum auswählen, indem Sie „Immer RGB“ oder „Immer CMYK“ wählen. Zur Verwendung beider Farbräume innerhalb einer PDF-Datei kommt es, wenn Seitengrafiken im CMYK-Farbraum und Bilder im RGB-Farbraum verwendet werden. Wenn Sie ein ICC-Profil hochgeladen haben, wird dessen Name zur Auswahl im Menü „Farbraum“ angezeigt. 
+* **Farbraum**: Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL PDF-Optionen]**. Wählen Sie in der Dropdownliste Farbraum die Option **[!UICONTROL Automatisch erkennen]**. Normalerweise enthalten PDF-Dateien, die zum Drucken vorgesehen sind, CMYK-Bilder, während PDF-Dateien, die nur zum Anzeigen vorgesehen sind, RGB-Bilder enthalten. Wenn in einer PDF-Datei beide Farbräume verwendet wurden, können Sie einen bestimmten Farbraum auswählen, indem Sie „Immer RGB“ oder „Immer CMYK“ wählen. Zur Verwendung beider Farbräume innerhalb einer PDF-Datei kommt es, wenn Seitengrafiken im CMYK-Farbraum und Bilder im RGB-Farbraum verwendet werden. Wenn Sie ein ICC-Profil hochgeladen haben, wird dessen Name zur Auswahl im Menü „Farbraum“ angezeigt. 
 
   Siehe [ICC-Profile (International Color Consortium)](/help/using/icc-profiles.md).
 
-* **Farbprofiloptionen** - Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Farbprofiloptionen]** und wählen Sie dann eine Farbprofil -Option:
+* **Farbprofiloptionen**: Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Farbprofiloptionen]** und wählen Sie dann eine Farbprofil -Option:
 
-   * **Originalfarbraum beibehalten** - Behält den ursprünglichen Farbraum bei.
+   * **Originalfarbraum beibehalten**: Behält den ursprünglichen Farbraum bei.
 
-   * **Benutzerdefiniert von > zu** - Öffnet Untermenüs, damit Sie eine **[!UICONTROL Konvertieren von]** und **[!UICONTROL Konvertieren in]** Farbraum. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
+   * **Benutzerdefiniert von > zu**: Öffnet Untermenüs, in denen Sie eine **[!UICONTROL Konvertieren von]** und **[!UICONTROL Konvertieren in]** Farbraum. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
 
-<!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
+<!-- * **Convert To SRGB**: Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on Web pages. -->
 
 Siehe [ICC-Profile (International Color Consortium)](icc-profiles.md#icc_profiles).
 

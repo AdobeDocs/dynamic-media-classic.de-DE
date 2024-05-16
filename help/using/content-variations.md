@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ Erstellen Sie einen Vorlagensatz, um Variationen einer Vorlage zu verwalten. Sie
 
 Universelle URLs werden verwendet, um die auf der Seite angezeigte Vorlagenvariante in der Reihenfolge anzuzeigen, in der sie im Satz aufgeführt sind. Die erste Vorlage in der Vorlagensatz-Liste wird immer veröffentlicht.
 
-Sie können jede beliebige Bildvorgabe-URL aus der Liste verwenden. Bildvorgabe-URLs sind mit universellen URLs vergleichbar. Es kann mehr als eine Bildvorlage-URL geben.
+Sie können eine beliebige Bildvorgabe-URL aus der Liste verwenden. Bildvorgabe-URLs ähneln universellen URLs. Es kann mehr als eine Bildvorgabe-URL geben.
 
 1. Navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagensätze]**.
 1. Wählen Sie im Builder eine Vorlage aus und wählen Sie dann **[!UICONTROL Hinzufügen/Vorschau]**.

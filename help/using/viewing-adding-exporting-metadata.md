@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 36%
@@ -31,11 +31,11 @@ Weitere Informationen zu eingebetteten Metadaten finden Sie unter [Extensible Me
 
 Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailansicht und tippen Sie auf das Metadatenbedienfeld. Um einen Satz von Metadatenfeldern auszuwählen, wählen Sie eine Option im Menü Metadatenansicht . Adobe Dynamic Media Classic bietet diese Metadaten-Ansichten:
 
-* **Kompakte Ansicht** - Eine einfache Werteliste.
+* **Kompakte Ansicht**: Eine einfache Werteliste.
 
-* **IPTC** - Werte gemäß der Definition des Internationalen Rates für Presse und Telekommunikation.
+* **IPTC**: Werte gemäß der Definition des Internationalen Rates für Presse und Telekommunikation.
 
-* **XMP** - Werte, wie vom Erweiterbaren Metadatenprogramm definiert.
+* **XMP**: Werte, wie vom erweiterbaren Metadatenprogramm definiert.
 
 Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü Metadaten-Ansichten angezeigt.
 
@@ -185,13 +185,13 @@ Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdef
 
 Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefiniertes Unternehmensschema in Adobe Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Präfix, ein Namespace und eine Liste von Eigenschaften definieren ein Schema.
 
-* **[!UICONTROL Name]** - UI-Name für das Schema. Wird verwendet, um die Eigenschaften in den Metadaten-Ansichten und bei der erweiterten Suche zu identifizieren. Vergleichbar mit XMP-Abschnitten wie Basic, IPTC, PDF.
+* **[!UICONTROL Name]**: UI-Name für das Schema. Wird verwendet, um die Eigenschaften in den Metadaten-Ansichten und bei der erweiterten Suche zu identifizieren. Vergleichbar mit XMP-Abschnitten wie Basic, IPTC, PDF.
 
-* **[!UICONTROL Präfix]** - Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Mit dem Präfix werden Metadatenfelder in Metadaten-Suchabfragen auf dem Metadaten-Server oder -Import eindeutig identifiziert.
+* **[!UICONTROL Präfix]**: Technische eindeutige Kennung für das Schema. Beschränkt auf die Buchstaben a-z und A-Z. Das Präfix ist nicht in der Benutzeroberfläche von Adobe Dynamic Media Classic sichtbar, wird jedoch verwendet, wenn Metadaten für ein Asset im XMP und in der Datenbank gespeichert werden. Mit dem Präfix werden Metadatenfelder in Metadaten-Suchabfragen auf dem Metadaten-Server oder -Import eindeutig identifiziert.
 
-* **[!UICONTROL Namespace]** - Technische eindeutige Kennung für das Schema, normalerweise eine URL im Formular `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namespace ist in der Adobe Dynamic Media Classic-Benutzeroberfläche nicht sichtbar, wird jedoch zum Speichern von Metadaten im XMP-Block verwendet.
+* **[!UICONTROL Namespace]**: Technische eindeutige Kennung für das Schema, normalerweise eine URL im Formular `https://your.company.com/name/version/`. Weitere Informationen finden Sie in der Liste der Standardschemata für Beispiele. Der Namespace ist in der Adobe Dynamic Media Classic-Benutzeroberfläche nicht sichtbar, wird jedoch zum Speichern von Metadaten im XMP-Block verwendet.
 
-* **[!UICONTROL Beschreibung]** - Freiformbeschreibung des Schemas.
+* **[!UICONTROL Beschreibung]**: Freiformbeschreibung des Schemas.
 
 >[!NOTE]
 >

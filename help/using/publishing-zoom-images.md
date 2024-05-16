@@ -10,16 +10,16 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
 # Veröffentlichen von Zoombildern{#publishing-zoom-images}
 
-Beim Veröffentlichen werden Ihre Zoombilder auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen in den HTML-Code Ihrer Website einfügen.
+Beim Veröffentlichen werden die Zoombilder auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen im HTML-Code Ihrer Website platzieren.
 
 ## Markieren von Bildern zur Veröffentlichung {#marking-images-for-publish}
 

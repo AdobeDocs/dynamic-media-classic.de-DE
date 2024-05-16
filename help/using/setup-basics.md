@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -28,9 +28,9 @@ Die auf dieser Seite verfügbaren Einstellungen hängen von Ihrem Status als Ben
 
 Administratoren können Bildvorgaben und Viewer-Vorgaben auch im **[!UICONTROL Einrichtung]** Seite:
 
-* **Bildvorgaben** - Bildvorgaben sind gespeicherte Formate für die Anzeige von Primärbildern in unterschiedlichen Größen und Formaten.
+* **Bildvorgaben**: Bildvorgaben sind gespeicherte Formate für die Anzeige von Primärbildern in unterschiedlichen Größen und Formaten.
 
-* **Viewer-Vorgaben** - Viewer-Vorgaben bestimmen, wie Rich Media angezeigt wird, wenn Sie es in einem Viewer sehen.
+* **Viewer-Vorgaben**: Viewer-Vorgaben bestimmen, wie Rich Media angezeigt wird, wenn Sie es in einem Viewer sehen.
 
 >[!MORELIKETHIS]
 >

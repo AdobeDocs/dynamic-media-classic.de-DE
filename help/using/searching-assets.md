@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -63,15 +63,15 @@ Wählen Sie in der Asset-Bibliothek direkt unter dem Suchfeld die Option **[!UIC
 
 Geben Sie eines der folgenden Kriterien in Ihrer erweiterten Suche an:
 
-* **Nach Asset-Typ filtern** - Schränken Sie Ihre Suche auf einen Asset-Typ ein. Wählen Sie im Menü einen Asset-Typ aus.
+* **Nach Asset-Typ filtern**: Schränken Sie Ihre Suche auf einen Asset-Typ ein. Wählen Sie im Menü einen Asset-Typ aus.
 
-* **Dateien und Ordner** - Wählen Sie aus, wo Sie suchen möchten: **[!UICONTROL In allen Dateien und Ordnern]**, **[!UICONTROL Im ausgewählten Ordner]** oder **[!UICONTROL In ausgewählten Ordnern und Unterordnern]**.
+* **Dateien und Ordner**: Wählen Sie aus, wo Sie suchen möchten: **[!UICONTROL In allen Dateien und Ordnern]**, **[!UICONTROL Im ausgewählten Ordner]** oder **[!UICONTROL In ausgewählten Ordnern und Unterordnern]**.
 
-* **Alle Veröffentlichungsstatus** - Suchen Sie nach Dateien, die für die Veröffentlichung markiert sind, nicht für die Veröffentlichung markiert sind, oder nach allen Dateien.
+* **Alle Veröffentlichungsstatus**: Suchen Sie nach Dateien, die für die Veröffentlichung markiert sind, noch nicht für die Veröffentlichung markiert sind oder alle Dateien.
 
-* **Bedingungen** - Wenn Sie Metadatenkriterien für die Suche angeben, wählen Sie aus, ob die Suche alle Bedingungen (eine ALL-Suche) oder eine Bedingung (eine OR-Suche) erfüllen muss.
+* **Bedingungen**: Wenn Sie Metadatenkriterien für die Suche angeben, wählen Sie aus, ob die Suche alle Bedingungen (eine ALL-Suche) oder eine Bedingung (eine OR-Suche) erfüllen muss.
 
-* **Suchkriterien** - Erstellen Sie ein oder mehrere Suchfelder für die Suche nach Metadaten. So erstellen Sie Suchfelder
+* **Suchkriterien**: Erstellen Sie ein oder mehrere Suchfelder für die Suche nach Metadaten. So erstellen Sie Suchfelder
 
    1. In der erweiterten Suche unter **[!UICONTROL Suchkriterien]** und links vom **[!UICONTROL Feld hinzufügen]** ), wählen Sie das Symbol mit dem Pfeil nach unten aus, um die Dropdownliste zu öffnen. Wählen Sie eine Metadatenansicht aus. Sie können **[!UICONTROL Alle Eigenschaften mit Werten]**, **[!UICONTROL Kompakte Ansicht]**, **[!UICONTROL IPTC]**, **[!UICONTROL Veröffentlichungsfelder für Metadaten-Server]** oder **[!UICONTROL XMP]**.
    1. Wählen Sie die **[!UICONTROL Feld hinzufügen]** und wählen Sie einen Feldnamen aus.
@@ -111,7 +111,7 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 
 1. Klicks **[!UICONTROL Feld]** Befolgen Sie in einem Bedienfeld die folgenden Anweisungen, damit Sie das Filtermenü anzeigen und den Filtervorgang erstellen können:
 
-   * **Metadatenfeld auswählen** - Wählen Sie im Filtermenü den Namen des Felds aus.
+   * **Metadatenfeld auswählen**: Wählen Sie im Filtermenü den Namen des Felds aus.
 
      >[!NOTE]
      >
@@ -119,9 +119,9 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 
      Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
 
-   * **Hinzufügen von Metadatenfeldern** - Auswählen **[!UICONTROL Bedienfeld hinzufügen]**. Nachdem das Bedienfeld im Bereich &quot;Filter&quot;angezeigt wird, wählen Sie dessen **[!UICONTROL Feld]** und wählen Sie im Filtermenü den Namen eines Metadatenfelds aus.
+   * **Hinzufügen von Metadatenfeldern**: Auswählen **[!UICONTROL Bedienfeld hinzufügen]**. Nachdem das Bedienfeld im Bereich &quot;Filter&quot;angezeigt wird, wählen Sie dessen **[!UICONTROL Feld]** und wählen Sie im Filtermenü den Namen eines Metadatenfelds aus.
 
-   * **Entfernen von Metadatenfeldern** - Auswählen **[!UICONTROL Diese Leiste entfernen]** im Filtermenü.
+   * **Entfernen von Metadatenfeldern**: Auswählen **[!UICONTROL Diese Leiste entfernen]** im Filtermenü.
 
    Wenn Sie ein Metadatenfeld auswählen, werden im zugehörigen Bedienfeld die folgenden Elemente aufgelistet:
 
@@ -143,11 +143,11 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 
 Befolgen Sie diese Anweisungen auf der Registerkarte &quot;Filter&quot;, damit Sie Filtervorgänge speichern, wiederholen und löschen können:
 
-* **Filtervorgang speichern** - Gehen Sie zu **[!UICONTROL Vorgabe auswählen]** > **[!UICONTROL Aktuelle Voreinstellungen speichern]** und geben Sie dann einen Namen in die **[!UICONTROL Speichern]** Dialogfeld.
+* **Filtervorgang speichern**: Gehen Sie zu **[!UICONTROL Vorgabe auswählen]** > **[!UICONTROL Aktuelle Voreinstellungen speichern]** und geben Sie dann einen Namen in die **[!UICONTROL Speichern]** Dialogfeld.
 
-* **Wiederholen eines Filtervorgangs** - Auswählen **[!UICONTROL Vorgabe auswählen]** und wählen Sie den Namen eines Filtervorgangs im Menü aus. Im Menü sind von Ihnen gespeicherte Filtervorgänge aufgelistet.
+* **Wiederholen eines Filtervorgangs**: Auswählen **[!UICONTROL Vorgabe auswählen]** und wählen Sie den Namen eines Filtervorgangs im Menü aus. Im Menü sind von Ihnen gespeicherte Filtervorgänge aufgelistet.
 
-* **Filtervorgang aus dem Menü &quot;Vorgabe auswählen&quot;löschen** - Führen Sie den Filtervorgang aus. Gehen Sie dann zu **[!UICONTROL Vorgabe auswählen]** > **[!UICONTROL Vorgabe löschen]** auf dem Menü.
+* **Filtervorgang aus dem Menü &quot;Vorgabe auswählen&quot;löschen**: Führen Sie den Filtervorgang aus. Gehen Sie dann zu **[!UICONTROL Vorgabe auswählen]** > **[!UICONTROL Vorgabe löschen]** auf dem Menü.
 
 ## Verwenden des Metadaten-Servers {#using-the-metadata-server}
 
@@ -157,13 +157,13 @@ Navigieren Sie zum Konfigurieren des Metadaten-Servers zu **[!UICONTROL Einricht
 
 Auf der Seite &quot;Veröffentlichung zum Metadaten-Server&quot;können Sie die folgenden Optionen festlegen:
 
-* **[!UICONTROL Sofortige Veröffentlichung]** - Übermittelt automatisch alle Metadatenänderungen, sobald sie vorgenommen werden, einschließlich neuer Assets, Suchbegriffänderungen usw.
+* **[!UICONTROL Sofortige Veröffentlichung]**: Übermittelt automatisch alle Metadatenänderungen, sobald sie vorgenommen werden, einschließlich neuer Assets, Suchbegriffänderungen usw.
 
-* **[!UICONTROL XMP]** - Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, bietet jedoch die aktuellste XMP.
+* **[!UICONTROL XMP]**: Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, bietet jedoch die aktuellste XMP.
 
-* **[!UICONTROL Schlüsselwörter]** - Veröffentlicht Ihre Suchbegriffe für Suchvorgänge auf dem Metadaten-Server.
+* **[!UICONTROL Schlüsselwörter]**: Veröffentlicht Ihre Suchbegriffe zur Verwendung in Suchvorgängen auf dem Metadaten-Server.
 
-* **[!UICONTROL Veröffentlichungsfelder für Metadaten-Server]** - Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. Mit dieser Option können Sie festlegen, wie viele Informationen über Ihre Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
+* **[!UICONTROL Veröffentlichungsfelder für Metadaten-Server]**: Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. Mit dieser Option können Sie festlegen, wie viele Informationen über Ihre Assets öffentlich zugänglich sind. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
 
 Auswählen **[!UICONTROL Jetzt veröffentlichen]** , um den Auftrag zu starten. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
 

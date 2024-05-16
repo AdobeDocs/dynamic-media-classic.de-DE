@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 30%
@@ -30,7 +30,7 @@ Um die Seiten der Veröffentlichungseinstellungen zu öffnen, navigieren Sie zu 
 
 ## Image-Server {#image-server}
 
-Auf der Image-Server-Seite werden Standardeinstellungen für die Bereitstellung von Bildern von Image-Servern festgelegt. Einstellungen sind in diesen fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie auf der Image-Server-Seite selbst ).
+Auf der Seite &quot;Image-Server&quot;werden Standardeinstellungen für die Bereitstellung von Bildern von Image-Servern festgelegt. Einstellungen sind in diesen fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie auf der Image-Server-Seite selbst ).
 
 Ändern Sie diese Einstellungen nur mithilfe eines Adobe Dynamic Media Classic-Support-Mitarbeiters.
 
@@ -160,7 +160,7 @@ Die Gebietsschema-IDs werden den entsprechenden Suffixen zugeordnet. Wenn keine 
 | en, en_us, en_uk | myImg_E, myImg |
 | de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
-| Alle anderen | - |
+| Alle anderen | : |
 
 ##### Suchen der localeMap, wenn das Gebietsschema unbekannt ist
 
@@ -222,15 +222,15 @@ Beim ersten Beispiel als Grundlage könnten Bilder für alle Sprachen die Suffix
 
 Auf der Seite &quot;Bild-Renderer&quot;werden Standardeinstellungen für die Bereitstellung von Bildsets von Image-Rendering-Servern festgelegt. Einstellungen sind in diesen fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie auf der Image-Server-Seite selbst ):
 
-* **[!UICONTROL Katalogverwaltung]** - Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und die Katalogdatei interagieren. Adobe Dynamic Media Classic Render Server URL-Aufrufe werden an den Katalog gesendet, der wiederum Aufrufe zur Bereitstellung von Bildern vom Server sendet. Ändern Sie diese Einstellungen nur mithilfe eines Adobe Dynamic Media Classic-Support-Mitarbeiters.
+* **[!UICONTROL Katalogverwaltung]**: Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und die Katalogdatei interagieren. Adobe Dynamic Media Classic Render Server URL-Aufrufe werden an den Katalog gesendet, der wiederum Aufrufe zur Bereitstellung von Bildern vom Server sendet. Ändern Sie diese Einstellungen nur mithilfe eines Adobe Dynamic Media Classic-Support-Mitarbeiters.
 
-* **[!UICONTROL Sitzungsattribute]** - Mit diesen Einstellungen werden Fehlerparameter, die URL für relative Bild-URLs und die Berechtigung zur Überlappung von Objekten festgelegt.
+* **[!UICONTROL Sitzungsattribute]**: Mit diesen Einstellungen werden Fehlerparameter, die URL für relative Bild-URLs und die Berechtigung zur Überlappung von Objekten festgelegt.
 
-* **[!UICONTROL Standardmäßige Materialattribute]** - Mit diesen Einstellungen werden Standardauflösung und Scharfzeichnungseinstellungen für Bilder festgelegt.
+* **[!UICONTROL Standardmäßige Materialattribute]**: Mit diesen Einstellungen werden Standardauflösung und Scharfzeichnungseinstellungen für Bilder festgelegt.
 
-* **[!UICONTROL Reaktionsbildattribute]** - Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
+* **[!UICONTROL Reaktionsbildattribute]**: Diese Einstellungen beziehen sich auf das standardmäßige Erscheinungsbild von Bildern.
 
-* **[!UICONTROL Farbverwaltungsattribute]** - Diese Einstellungen beziehen sich auf die Standardfarbeinstellungen von Bildern.
+* **[!UICONTROL Farbverwaltungsattribute]**: Diese Einstellungen beziehen sich auf die Standardfarbeinstellungen für Bilder.
 
 ## Vignette {#vignette}
 

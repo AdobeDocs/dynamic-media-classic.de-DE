@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 17%
+ht-degree: 12%
 
 ---
 
@@ -72,7 +72,7 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster &quot;Viewer-Liste&
 
    * Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL Einbettungscode]**.
 
-     Wenn Sie **[!UICONTROL Einbettungscode]**, wird das Fenster Einbettungscode geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten einfügen können.
+     Wenn Sie **[!UICONTROL Einbettungscode]**, wird das Fenster Einbettungscode geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Ihre Webseiten einfügen können.
 
      Schließen Sie die angezeigte Vorschau.
 
@@ -80,7 +80,7 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster &quot;Viewer-Liste&
 
 ## Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe {#previewing-an-image-asset-based-on-its-image-preset}
 
-Sie können eine Vorschau eines Bild-Asset auf Grundlage seiner Bildvorgabe aufrufen, um zu sehen, wie das Bild aussieht, wenn es dynamisch in verschiedenen Größen für Ihre Website oder Anwendung bereitgestellt wird.
+Sie können eine Vorschau eines Bild-Assets auf Grundlage seiner Bildvorgabe anzeigen, um herauszufinden, wie das Bild aussieht, wenn es dynamisch auf Ihrer Website oder in der Anwendung mit unterschiedlichen Größen bereitgestellt wird.
 
 Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen ändern die Größe, Bildqualität, Format, Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren.
 

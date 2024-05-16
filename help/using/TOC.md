@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic-Anleitung
 breadcrumb-title: Dynamic Media Classic-Anleitung
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 20%
 + [NEUE Adobe Dynamic Media Classic-Anmeldung verfügbar](new-ui-2020.md)
 + [Adobe Dynamic Media-Newsletterarchiv durch Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
-   + [Adobe Dynamic Media Classic Desktop App - jetzt verfügbar](dynamic-media-classic-desktop-app.md)
+   + [Adobe Dynamic Media Classic Desktop App: jetzt verfügbar](dynamic-media-classic-desktop-app.md)
    + [Informationen zur Adobe Dynamic Media Classic-Hilfe](introduction.md)
    + [Entwicklerressourcen](developer-resources.md)
    + [Neue Funktionen](whats-new.md)
@@ -87,7 +87,7 @@ ht-degree: 20%
    + [Hochladen von Primärbildern](uploading-master-images.md)
    + [Primärbilder veröffentlichen](publishing-master-images.md)
    + [Einrichten von Bildvorgaben](setting-image-presets.md)
-   + [Verknüpfen von URLs mit einer Web-Anwendung](linking-urls-web-application.md)
+   + [Verknüpfen von URLs mit einer Webanwendung](linking-urls-web-application.md)
 + Zoom {#zoom}
    + [Kurzanleitung: Zoom](quick-start-zoom.md)
    + [Hochladen von Zoombildern](uploading-zoom-images.md)
@@ -105,7 +105,7 @@ ht-degree: 20%
    + [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md)
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
    + [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md)
-   + [E-Katalog mit einer Webseite verknüpfen](linking-ecatalog-web-page.md)
+   + [Verknüpfen eines eCatalog mit einer Webseite](linking-ecatalog-web-page.md)
 + Bildsets {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
    + [Vorbereiten von Bildset-Assets für das Hochladen](preparing-image-set-assets-upload.md)
@@ -135,7 +135,7 @@ ht-degree: 20%
    + [Erstellen von Vorlagen](creating-template.md)
    + [Erstellen von Vorlagenparametern](creating-template-parameters.md)
    + [Veröffentlichen von Vorlagen](publishing-templates.md)
-   + [Verknüpfen einer Vorlage mit einer Website](linking-template-web-page.md)
+   + [Verknüpfen einer Vorlage mit einer Webseite](linking-template-web-page.md)
    + [Inhaltsvarianten verwalten](content-variations.md)
 + Video {#video}
    + [Kurzanleitung: Video](quick-start-video.md)
@@ -151,7 +151,7 @@ ht-degree: 20%
    + [Einrichten einer Viewer-Vorgabe für gemischte Mediensets](setting-mixed-media-set-viewer.md)
    + [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md)
    + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
-   + [Verknüpfen eines gemischten Mediensets mit einer Website](linking-mixed-media-set-web.md)
+   + [Verknüpfen eines gemischten Mediensets mit einer Webseite](linking-mixed-media-set-web.md)
 + Adobe Analytics-Instrumentenkit {#analytics-kit}
    + [Schnellstart: Integration von Adobe Dynamic Media Classic in Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Bei Adobe Analytics anmelden](log-analytics.md)

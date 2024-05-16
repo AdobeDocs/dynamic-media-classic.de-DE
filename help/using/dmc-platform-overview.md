@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 12%
@@ -27,13 +27,13 @@ Siehe auch [Plattformübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoVi
 
 Die wichtigsten Schritte des Adobe Dynamic Media Classic-Workflows sind:
 
-* **Hochladen und Verwalten von Assets** - Laden Sie Ihre Medien-Assets in Adobe Dynamic Media Classic hoch. In diesem System können Sie Assets organisieren und durchsuchen sowie nach bestimmten Assets suchen. Sie können auch Metadaten auf Assets anwenden.
+* **Hochladen und Verwalten von Assets**: Laden Sie Ihre Medien-Assets in Adobe Dynamic Media Classic hoch. In diesem System können Sie Assets organisieren und durchsuchen sowie nach bestimmten Assets suchen. Sie können auch Metadaten auf Assets anwenden.
 
-* **Rich Media erstellen** - Erstellen Sie unterschiedliche Konfigurationen Ihrer Assets wie E-Kataloge, Bildsets, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen.
+* **Rich Media erstellen**: Erstellen Sie verschiedene Konfigurationen Ihrer Assets wie E-Kataloge, Bildsets, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen.
 
-* **Veröffentlichen und Verwalten** - Veröffentlichen Sie Assets im SaaS-Netzwerk von Adobe Dynamic Media Classic. Überwachen des Status von Assets beim Veröffentlichen Verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
+* **Veröffentlichen und Verwalten**: Veröffentlichen Sie Assets im Adobe Dynamic Media Classic SaaS-Netzwerk. Überwachen des Status von Assets beim Veröffentlichen Verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
 
-* **Serve** - Bereitstellen von Medien vom Adobe Dynamic Media Classic SaaS-Netzwerk zu Webseiten, Anwendungen und Mobilgeräten; die Medien sind leistungsoptimiert und werden mit CDN-Zwischenspeicherung bereitgestellt. Adobe Dynamic Media Classic stellt Ihnen eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
+* **Serve**: Stellen Sie Medien aus dem Adobe Dynamic Media Classic SaaS-Netzwerk für Webseiten, Anwendungen und Mobilgeräte bereit. Die Medien sind leistungsoptimiert und werden mit CDN-Zwischenspeicherung bereitgestellt. Adobe Dynamic Media Classic stellt Ihnen eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
 
 ![Der Adobe Dynamic Media Classic-Workflow-Prozess](/help/using/assets/gs_workflow.png)
 

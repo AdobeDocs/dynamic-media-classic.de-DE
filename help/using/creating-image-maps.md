@@ -10,23 +10,23 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
 # Imagemaps erstellen {#creating-image-maps}
 
-Eine Imagemap ist ein Bereich auf einem Bild, einer eCatalog-Seite oder ein Bild in einem Rotationsset, der ein Rollover-Bedienfeld mit Text anzeigt. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise kann eine Website aufgerufen werden, auf der der Benutzer mehr über ein Produkt erfährt. Um eine Imagemap wird ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
+Eine Imagemap ist ein Bereich auf einem Bild, einer eCatalog-Seite oder ein Bild in einem Rotationsset, der ein Rollover-Bedienfeld mit Text anzeigt. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise wird eine Webseite gestartet, damit der Benutzer mehr über ein Produkt erfahren kann. Um eine Imagemap wird ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
 
 Neben der Möglichkeit, Imagemaps in Adobe Dynamic Media Classic zu erstellen, können Sie auch Imagemaps erstellen, wenn Sie einen Katalog in Adobe Acrobat oder Adobe InDesign erstellen.
 
 Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 
 * Rollover-Text eingeben
-* JavaScript und URLs zum Starten von Websites eingeben
+* Geben Sie JavaScript und URLs zum Starten von Webseiten ein.
 * URL-Vorlagen für Imagemaps erstellen
 * Imagemaps in andere Bilder, E-Katalogseiten oder Rotationssets kopieren
 * Imagemaps in CSV- oder XML-Dateien exportieren
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 Sie platzieren alle Werte, die sich nicht zwischen Imagemaps ändern, in der URL-Vorlage. Fügen Sie anschließend nur die Werte hinzu, die sich in der Spalte „URL“ der Imagemap-Liste ändern. Beispiel:
 
-* URL-Vorlage - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* URL-Wert - `product.htm`
-* Tatsächliche URL generiert - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* URL-Vorlage: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* URL-Wert: `product.htm`
+* Tatsächliche URL generiert: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Standardmäßig enthält die URL-Vorlage einen proprietären Adobe Dynamic Media Classic-JavaScript-Handler namens `loadProduct` öffnet ein neues Fenster mit dem URL-Ziel. Sie können jedoch beliebigen JavaScript-Code verwenden, um diesen JavaScript-Handler zu ersetzen, oder einen der folgenden Adobe Dynamic Media Classic-Handler verwenden:
 
@@ -181,7 +181,7 @@ Sie können die **[!UICONTROL Anzeigen]** Menü und wählen **[!UICONTROL Andere
 
 * **`accesskey`**: Trigger einer Aktion, wenn der Benutzer eine bestimmte Taste auf der Tastatur drückt.
 
-* **`onfocus`**: Trigger eines Ereignisses, wenn die Imagemap den Fokus erhält - durch Cursor, Tab oder Drücken einer Zugriffstaste. Sie können beispielsweise eine Website aufrufen, wenn die Imagemap den Fokus erhält, und sie wieder schließen, wenn die Imagemap den Fokus wieder verliert.
+* **`onfocus`**: Trigger eines Ereignisses, wenn die Imagemap den Fokus erhält - durch Cursor, Tab oder Drücken einer Zugriffstaste. Sie können beispielsweise eine Webseite starten, wenn die Imagemap den Fokus erhält, und schließen sie, wenn die Imagemap den Fokus verliert.
 
 * **`onblur`**: Trigger eines Ereignisses, bei dem die Imagemap den Fokus verliert, entweder durch den Cursor oder durch Tab.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -27,23 +27,23 @@ Stellen Sie vor dem Hochladen von Dateien eine Ordnerstruktur und -organisation 
 
 In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie in der Asset-Bibliothek einen Ordner auswählen, wird der Ordnerinhalt im Durchsuchenbedienfeld angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
-* **Anzeigen von Unterordnern** - Wählen Sie die **[!UICONTROL Ordner erweitern]** -Symbol, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Anzeigen von Unterordnern**: Wählen Sie die **[!UICONTROL Ordner erweitern]** -Symbol, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner verschieben** - Sie können einen Ordner verschieben, indem Sie ihn ziehen und an seiner neuen Position ablegen oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]**.
+* **Ordner verschieben**: Sie können einen Ordner verschieben, indem Sie ihn per Drag-and-Drop an die neue Position ziehen oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]**.
 
-* **Ordner ausblenden** - Wählen Sie die **[!UICONTROL Ordner reduzieren]** -Symbol, wenn Sie Unterordner reduzieren möchten, um sie vor der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Ordner ausblenden**: Wählen Sie die **[!UICONTROL Ordner reduzieren]** -Symbol, wenn Sie Unterordner reduzieren möchten, um sie vor der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner öffnen** - Wählen Sie einen Ordner aus, wenn Sie seinen Inhalt im Durchsuchenbedienfeld anzeigen möchten.
+* **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn Sie seinen Inhalt im Durchsuchenbedienfeld anzeigen möchten.
 
 >[!TIP]
 >
->Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auf der linken Seite. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.
+>Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie die **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auf der linken Seite. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.
 
 ## Ordner erstellen
 
 1. Wählen Sie in der Asset-Bibliothek den Ordner aus, in dem Sie einen Unterordner erstellen möchten.
 1. Wählen Sie die **[!UICONTROL `Add Folder`]** Schaltfläche. Dieses Symbol befindet sich oben in der Ordnerliste.
-1. Geben Sie in das Feld neben dem Ordnersymbol einen beschreibenden Namen für Ihren neuen Ordner bzw. Unterordner ein.
+1. Geben Sie einen beschreibenden Namen für den neuen Ordner oder Unterordner ein. Geben Sie ihn in das Feld neben dem Ordnersymbol ein.
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen** - Wählen Sie die **[!UICONTROL `Remove Folder`]** Schaltfläche. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen**: Wählen Sie die **[!UICONTROL `Remove Folder`]** Schaltfläche. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
-* **Umbenennen** - Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
+* **Umbenennen**: Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 
 >[!NOTE]
 >

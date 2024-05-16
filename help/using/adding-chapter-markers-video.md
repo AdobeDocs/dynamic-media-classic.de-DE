@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -65,7 +65,7 @@ Siehe [WebVTT: The Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
 1. Speichern Sie die VTT-Datei in UTF8-Kodierung, damit Sie Probleme mit der Zeichendarstellung im Text des Kapiteltitels vermeiden können.
 
-   Im Allgemeinen soll die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und mit `chapters`. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen.
+   Im Allgemeinen soll die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und mit `chapters`. Auf diese Weise kann es Ihnen bei der Automatisierung der Generierung von Video-URLs mithilfe Ihres bestehenden Web Content Management-Systems helfen.
 
 1. Laden Sie in Adobe Dynamic Media Classic Ihre WebVTT-Kapiteldatei hoch.
 

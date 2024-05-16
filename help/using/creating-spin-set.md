@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -92,13 +92,13 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 1. Rollover des Rotationssets auswählen **[!UICONTROL Bearbeiten]** Schaltfläche.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Entfernen von Bildern** - Wählen Sie das Bild aus und klicken Sie auf **[!UICONTROL Löschen]**.
+   * **Entfernen von Bildern**: Wählen Sie das Bild aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
-   * **Bilder hinzufügen** - Ziehen Sie das Bild in eine Zelle.
+   * **Bilder hinzufügen**: Ziehen Sie das Bild in eine Zelle.
 
-   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)** - Wählen Sie ein Zeilenauswahlfeld (links neben der Zeile) aus und wählen Sie dann **[!UICONTROL Zeile nach unten]** oder **[!UICONTROL Zeile nach oben]**.
+   * **Neuanordnen von Zeilen (zweidimensionale Rotationssets)**: Wählen Sie ein Zeilenauswahlfeld (links neben der Zeile) und dann **[!UICONTROL Zeile nach unten]** oder **[!UICONTROL Zeile nach oben]**.
 
-   * **Zeilen und Zellen hinzufügen** - Geben Sie in die Felder Zeilen und Zellen eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
+   * **Zeilen und Zellen hinzufügen**: Geben Sie in die Felder Zeilen und Zellen eine Zahl ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
 
 1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass  rechts unten auf der Seite die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und wählen Sie dann **[!UICONTROL Speichern]**.

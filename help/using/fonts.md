@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -45,24 +45,24 @@ Sie können den ID-Namen einer Schriftart und deren Typinformationen ändern. Di
 
 Wählen Sie im Durchsuchenbedienfeld in der Detailansicht die Schriftartdatei aus, die Sie bearbeiten möchten, und wählen Sie &quot;Datei&quot;> &quot;Informationen bearbeiten&quot;. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen aus und wählen Sie dann **[!UICONTROL Einsenden]**.
 
-* **[!UICONTROL Schriftname]** - Dieser Name identifiziert die Schriftart bei der Veröffentlichung.
+* **[!UICONTROL Schriftname]**: Mit diesem Namen wird die Schriftart bei der Veröffentlichung identifiziert.
 
-* **[!UICONTROL PostScript-Name]** - Dieser Name ist der vollständige PostScript-Name für die Schriftart. Er gibt normalerweise auch die Stärke und den Schnitt der Schriftart an.
+* **[!UICONTROL PostScript-Name]**: Dieser Name ist der vollständige PostScript-Name für die Schriftart. Er gibt normalerweise auch die Stärke und den Schnitt der Schriftart an.
 
-* **[!UICONTROL RTF-Name]** - Dieser Name wird in einem Popup-Menü im RTF-Editor angezeigt, in dem Vorlagen-Textebenen erstellt werden.
+* **[!UICONTROL RTF-Name]**: Dieser Name wird in einem Popupmenü des RTF-Editors angezeigt, in dem Vorlagen-Textebenen erstellt werden.
 
-* **[!UICONTROL Schriftfamilienname]** - Dieser Name listet den Schriftnamen ohne Stil-, Gewicht- oder Schriftartanzeige auf.
+* **[!UICONTROL Schriftfamilienname]**: Dieser Name listet den Schriftnamen ohne Stil-, Gewicht- oder Schriftartanzeige auf.
 
-* **[!UICONTROL Schriftstil]** - Die Optionen sind &quot;Nur&quot;, &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Fett-Kursiv&quot;.
+* **[!UICONTROL Schriftstil]**: Die Optionen sind &quot;Nur&quot;, &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Fett-Kursiv&quot;.
 
-* **[!UICONTROL Schriftart]** - Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten mit einem anderen Namen bezeichnen, können Sie diesen eingeben.
+* **[!UICONTROL Schriftart]**: Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten mit einem anderen Namen bezeichnen, können Sie diesen eingeben.
 
-* **[!UICONTROL Schriftartabkürzung]** - Die Optionen lauten wie folgt:
+* **[!UICONTROL Schriftartabkürzung]**: Die Optionen lauten wie folgt:
 
-   * **[!UICONTROL TTF]** - TrueType-Schriftartdateien, die für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
+   * **[!UICONTROL TTF]**: TrueType-Schriftartdateien, die für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
 
-   * **[!UICONTROL AFM]** - Adobe PostScript-Schriftartdateien, die Informationen zu Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
+   * **[!UICONTROL AFM]**: Adobe PostScript-Schriftartdateien, die Informationen zu Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
 
-   * **[!UICONTROL PFM]** - Adobe PostScript-Schriftartendateien, die Informationen zu binären Schriftartmetriken enthalten.
+   * **[!UICONTROL PFM]**: Adobe PostScript-Schriftartendateien, die Informationen zu binären Schriftartmetriken enthalten.
 
-   * **[!UICONTROL PFB]** - Adobe PostScript-Schriftartdateien, die binäre Schriftartentwurfsinformationen enthalten und zum PDF/PostScript-Rendering und Image Serving verwendet werden.
+   * **[!UICONTROL PFB]**: Adobe PostScript-Schriftartdateien, die binäre Schriftartentwurfsinformationen enthalten und zum PDF/PostScript-Rendering und Image Serving verwendet werden.

@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 33%
+ht-degree: 24%
 
 ---
 
 # Verknüpfen eines Bildsets mit einer Webseite{#linking-an-image-set-to-a-web-page}
 
-Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige URL oder den zugehörigen Einbettungscode für die Verwendung auf Ihrer Website oder in Ihrer Anwendung kopieren. Danach können Sie nach Bedarf die URL bereitstellen oder den Einbettungscode einfügen, damit die Benutzer den Bildsatz auf der Website oder in der Anwendung anzeigen können.
+Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige URL oder den zugehörigen Einbettungscode für die Verwendung auf Ihrer Website oder in Ihrer Anwendung kopieren. Anschließend können Sie die URL bereitstellen oder den Einbettungscode nach Bedarf einfügen, damit Benutzer das Bildset auf Ihrer Website oder in Ihrer Anwendung anzeigen können.
 
 >[!NOTE]
 >
@@ -44,15 +44,15 @@ Nachdem Sie ein Bildset veröffentlicht haben, können Sie dessen zugehörige UR
 
      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
-## Hinzufügen von Bildsatz-URLs zur Website {#adding-image-set-urls-to-your-web-page}
+## Hinzufügen von Bildset-URLs zur Webseite {#adding-image-set-urls-to-your-web-page}
 
-Die gängigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Der Zoom-Link öffnet ein Popup-Fenster, das die eigentliche Zoom-Funktion enthält.
+Die gängigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Webseite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Der Zoom-Link öffnet ein Popup-Fenster, das die eigentliche Zoom-Funktion enthält.
 
 Weitere Informationen und Codebeispiele finden Sie unter [Einbetten von HTML5-Zoom-Viewer im Referenzhandbuch für Adobe-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines Bildset-Viewers {#copying-the-embed-code-of-an-image-set-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausgewählten Bildsatz überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausgewählten Bildsatz überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers auf Ihren Webseiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 **So kopieren Sie den Einbettungscode eines Bildset-Viewers:**
 

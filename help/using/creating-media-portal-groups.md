@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 52%
@@ -98,6 +98,6 @@ Siehe auch [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfüg
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Wählen Sie auf der Seite „Gruppenliste“ eine Gruppe aus und bearbeiten oder löschen Sie sie.
 
-   **Eine Gruppe bearbeiten** - Auswählen **[!UICONTROL Bearbeiten]** und wählen Sie dann im Dialogfeld &quot;Gruppe bearbeiten&quot;Optionen aus.
+   **Eine Gruppe bearbeiten**: Auswählen **[!UICONTROL Bearbeiten]** und wählen Sie dann im Dialogfeld &quot;Gruppe bearbeiten&quot;Optionen aus.
 
-   **Gruppe löschen** - Auswählen **[!UICONTROL Löschen]**.
+   **Gruppe löschen**: Auswählen **[!UICONTROL Löschen]**.

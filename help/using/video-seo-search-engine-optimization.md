@@ -10,7 +10,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 30%
@@ -23,9 +23,9 @@ Die Suchmaschinenoptimierung (SEO) ist ein Vorgang, der die Erhöhung der Zugrif
 
 Mit Adobe Dynamic Media Classic Video SEO können Sie Videometadaten anwenden, um Suchmaschinen Beschreibungen Ihrer Videos bereitzustellen. Mit Adobe Dynamic Media Classic können Sie Video-Sitemaps und mRSS-Feeds erstellen. Diese XML-Standarddateien werden zum Senden von Videoinformationen an Suchmaschinen verwendet:
 
-* **Video-Sitemap** - Informiert Google genau darüber, wo und was der Videoinhalt auf einer Site ist. Videos können also in Google vollständig durchsucht werden. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Weitere Informationen zu Video-Sitemaps finden Sie unter [Video-Sitemaps und Video-Sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Video-Sitemap**: Informiert Google genau darüber, wo und was sich der Videoinhalt auf einer Site befindet. Videos können also in Google vollständig durchsucht werden. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Weitere Informationen zu Video-Sitemaps finden Sie unter [Video-Sitemaps und Video-Sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **mRSS-Feed (Media Really Simple Syndication)** - Wird von Content-Herausgebern verwendet, um Mediendateien in Yahoo! Videosuche einzuspeisen. Weitere Informationen zu mRSS-Feeds finden Sie unter [Video-Sitemaps und Video-Sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **mRSS-Feed (Media Really Simple Syndication)**: Wird von Content-Herausgebern verwendet, um Mediendateien in Yahoo! zu übertragen! Videosuche einzuspeisen. Weitere Informationen zu mRSS-Feeds finden Sie unter [Video-Sitemaps und Video-Sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
@@ -55,27 +55,27 @@ Nachdem Sie die Einstellungen ausgewählt haben, wählen Sie **[!UICONTROL Speic
 
 Im **[!UICONTROL Generierungsmodus]** Dropdownliste einen Berichtsmodus auswählen:
 
-* **Video-Sitemap** - Erstellen einer Video-Sitemap.
+* **Video-Sitemap**: Erstellen Sie eine Video-Sitemap.
 
-* **RSS-Feed** - Erstellen Sie einen Media RSS (mRSS)-Feed.
+* **RSS-Feed**: Erstellen Sie einen Media RSS (mRSS)-Feed.
 
-* **Beide** - Erstellen Sie beide Typen von XML-Dateien.
+* **Beide**: Erstellen Sie beide Typen von XML-Dateien.
 
-* **Aus** - Wählen Sie diese Option, um die Generierung von Video-Sitemaps und Media RSS (mRSS)-Feeds zu beenden.
+* **Aus**: Wählen Sie diese Option, um die Generierung von Video-Sitemaps und Media RSS (mRSS)-Feeds zu beenden.
 
 Im **[!UICONTROL Automatischer/manueller Modus]** in der Dropdown-Liste auswählen, ob automatisch oder manuell generiert werden soll:
 
-* **Automatischer Modus** - Adobe Dynamic Media Classic generiert täglich automatisch eine Video-Sitemap, einen Media RSS (mRSS)-Feed oder beides. Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** -Option, um die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung zu markieren.
+* **Automatischer Modus**: Adobe Dynamic Media Classic generiert täglich automatisch eine Video-Sitemap, einen Media RSS (mRSS)-Feed oder beides. Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** -Option, um die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung zu markieren.
 
    * **Zur Veröffentlichung markieren** Markiert die erstellte XML-Datei zur Veröffentlichung.
 
-* **Manueller Modus** - Adobe Dynamic Media Classic generiert die Video-Sitemap, den Media RSS (mRSS)-Feed oder beides, wenn Sie **[!UICONTROL Erzeugen]** oder **[!UICONTROL Speichern und generieren]** im Bildschirm &quot;Einstellungen für die Videosuche&quot;. Wählen Sie außerdem aus den folgenden Optionen:
+* **Manueller Modus**: Adobe Dynamic Media Classic generiert die Video-Sitemap, den Media RSS (mRSS)-Feed oder beide, wenn Sie **[!UICONTROL Erzeugen]** oder **[!UICONTROL Speichern und generieren]** im Bildschirm &quot;Einstellungen für die Videosuche&quot;. Wählen Sie außerdem aus den folgenden Optionen:
 
-   * **Keine weiteren Einstellungen** - Markiert die erstellte XML-Datei nicht zur Veröffentlichung.
+   * **Keine weiteren Einstellungen**: Markiert die erstellte XML-Datei nicht zur Veröffentlichung.
 
-   * **Zur Veröffentlichung markieren** - Markiert die XML-Datei, die generiert wird, um sie zu veröffentlichen.
+   * **Zur Veröffentlichung markieren**: Markiert die erstellte XML-Datei zur Veröffentlichung.
 
-   * **Partielle Erstellung zulassen** - Suchmaschinen können eine XML-Datei ablehnen, wenn sie keine vollständigen Metadateninformationen für alle Videos enthält. Mit dieser Option wird die XML-Datei generiert, selbst wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
+   * **Partielle Erstellung zulassen**: Suchmaschinen können eine XML-Datei ablehnen, wenn sie keine vollständigen Metadateninformationen für alle Videos enthält. Mit dieser Option wird die XML-Datei generiert, selbst wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
 
 ### Auswählen von Erstellungseinstellungen {#choosing-generation-settings}
 

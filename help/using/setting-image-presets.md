@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 37%
+ht-degree: 34%
 
 ---
 
@@ -23,7 +23,7 @@ Eine Bildvorgabe ähnelt einem Makro – es handelt sich um eine vordefinierte,
 
 Adobe Dynamic Media Classic enthält mehrere &quot;Best Practice&quot;-Bildvorgaben, die Sie bereits zur Verwendung eingerichtet haben. Administratoren können auch Bildvorgaben erstellen. Sie können eine Bildvorgabe komplett neu erstellen oder eine vorhandene Bildvorgabe abwandeln und unter neuem Namen speichern.
 
-Bei Bildern, deren Größe bei der dynamischen Bereitstellung von einem Server verringert wird, kann es zu einem Verlust an Schärfe und Detail kommen. Aus diesem Grund enthält jede Bildvorgabe Elemente zur Formatierungssteuerung, mit denen ein Bild bei Bereitstellung in einer bestimmten Größe optimiert wird. Ihre Bilder werden dadurch scharf und klar für die Website bzw. Anwendung bereitgestellt.
+Bei Bildern, deren Größe bei der dynamischen Bereitstellung von einem Server verringert wird, kann es zu einem Verlust an Schärfe und Detail kommen. Aus diesem Grund enthält jede Bildvorgabe Elemente zur Formatierungssteuerung, mit denen ein Bild bei Bereitstellung in einer bestimmten Größe optimiert wird. Diese Steuerelemente stellen sicher, dass Ihre Bilder scharf und klar sind, wenn sie auf Ihrer Website oder in Ihrer Anwendung bereitgestellt werden.
 
 ## Erstellen einer Bildvorgabe {#creating-an-image-preset}
 
@@ -37,8 +37,8 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Erstellen einer Bildvorgabe** - Auswählen **[!UICONTROL Hinzufügen]**.
-   * **Bearbeiten einer Bildvorgabe** - Navigieren Sie zu der Bildvorgabe, die der gewünschten am ähnlichsten ist, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
+   * **Erstellen einer Bildvorgabe**: Auswählen **[!UICONTROL Hinzufügen]**.
+   * **Bearbeiten einer Bildvorgabe**: Navigieren Sie zu der Bildvorgabe, die der gewünschten am ähnlichsten ist, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
 
 1. Geben Sie einen Namen für die Bildvorgabe ein.
 1. Geben Sie die Breite und Höhe in Pixeln ein. Diese Werte bestimmen die Größe, in der Bilder bereitgestellt werden.
@@ -46,13 +46,13 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 
    Adobe Dynamic Media Classic empfiehlt die folgenden Best Practice-Optionen, um zu beginnen:
 
-   * **[!UICONTROL Format]** - Wählen Sie JPEG oder ein anderes Format, das Ihren Anforderungen entspricht. Alle Webbrowser unterstützen das JPEG-Bildformat. Es bietet einen guten Ausgleich zwischen kleinen Dateigrößen und Bildqualität. JPEG-Bilder verwenden jedoch ein verlustbehaftetes Komprimierungsschema, das unerwünschte Bildartefakte hervorrufen kann, wenn die Komprimierungseinstellung zu niedrig ist. Aus diesem Grund empfiehlt Adobe Dynamic Media Classic, die Komprimierungsqualität (auf dem Regler) auf 75 festzulegen. Mit dieser Einstellung erreichen Sie eine angemessene Bildqualität bei ausreichend kleiner Dateigröße.
+   * **[!UICONTROL Format]**: Wählen Sie JPEG oder ein anderes Format, das Ihren Anforderungen entspricht. Alle Webbrowser unterstützen das JPEG-Bildformat. Es bietet einen guten Ausgleich zwischen kleinen Dateigrößen und Bildqualität. JPEG-Bilder verwenden jedoch ein verlustbehaftetes Komprimierungsschema, das unerwünschte Bildartefakte hervorrufen kann, wenn die Komprimierungseinstellung zu niedrig ist. Aus diesem Grund empfiehlt Adobe Dynamic Media Classic, die Komprimierungsqualität (auf dem Regler) auf 75 festzulegen. Mit dieser Einstellung erreichen Sie eine angemessene Bildqualität bei ausreichend kleiner Dateigröße.
 
-   * **[!UICONTROL Scharfzeichnen]** - Scharfzeichnen nicht auswählen (dieser Scharfzeichnungsfilter bietet weniger Kontrolle als **[!UICONTROL Unschärfemaske]** -Einstellungen).
+   * **[!UICONTROL Scharfzeichnen]**: Wählen Sie Scharfzeichnen nicht aus (dieser Scharfzeichnungsfilter bietet weniger Kontrolle als **[!UICONTROL Unschärfemaske]** -Einstellungen).
 
-   * **[!UICONTROL Beispielmodus]** - Auswählen **[!UICONTROL Bikubisch]**.
+   * **[!UICONTROL Beispielmodus]**: Auswählen **[!UICONTROL Bikubisch]**.
 
-   * **[!UICONTROL Unschärfemaske]** (USM) - Geben Sie die folgenden Einstellungen ein:
+   * **[!UICONTROL Unschärfemaske]** (USM): Geben Sie die folgenden Einstellungen ein:
 
    | Vorgabetyp | Größe | Unschärfem.: Betrag | Unschärfem.: Radius | Unschärfem.: Schwelle |
    | --- | --- | --- | --- | --- |
@@ -65,11 +65,11 @@ Als Unternehmensadministrator haben Sie die Möglichkeit, eigene Bildvorgaben zu
 
 Die hier aufgeführten Adobe Dynamic Media Classic-Best Practice-Optionen zum Erstellen von Bildvorgaben sind allgemeine Empfehlungen. Die Scharfzeichnung ist äußerst subjektiv. Diese &quot;Best Practice&quot;-Einstellungen basieren auf einem Primärbild von 2000 × 2000. Die Einstellungen für größere oder kleinere Primärdateien können unterschiedlich sein. Wenn Sie die Einstellungen für die Unschärfemaske anpassen möchten, empfiehlt Adobe Dynamic Media Classic die folgenden Bereiche:
 
-* **[!UICONTROL Betrag]** - Zwischen `.8` und `1.5`.
+* **[!UICONTROL Betrag]**: Between `.8` und `1.5`.
 
-* **[!UICONTROL Radius]** - Zwischen `.6` und `2`.
+* **[!UICONTROL Radius]**: Between `.6` und `2`.
 
-* **[!UICONTROL Schwellenwert]** - Von `1` bis `6`.
+* **[!UICONTROL Schwellenwert]**: Von `1` bis `6`.
 
 Um eine Bildvorgabe zu löschen, wählen Sie sie auf dem Bildschirm &quot;Bildvorgaben&quot;aus und wählen Sie dann **[!UICONTROL Löschen]**.
 

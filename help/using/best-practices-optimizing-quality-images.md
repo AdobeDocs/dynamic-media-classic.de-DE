@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 40%
@@ -70,8 +70,8 @@ Mit Adobe Dynamic Media Classic können Sie Bilder bei der Aufnahme, bei der Ber
 
 Es gibt zwei Methoden zum Scharfzeichnen von Bildern, die Sie verwenden können:
 
-* Einfache Scharfzeichnung ( `&op_sharpen`) - Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wendet die einfache Scharfzeichnung die einfache Scharfzeichnung auf die endgültige Ansicht des Bildes nach der dynamischen Skalierung an. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Die Best Practice besteht darin, die Verwendung von `&op_sharpen` sofern nicht erforderlich.
-* Unschärfemaske ( `&op_USM`) - Die Unschärfemaske ist ein branchenüblicher Filter für die Scharfzeichnung. Wir empfehlen, beim Scharfzeichnen von Bilder mit der Unschärfemaske die folgenden Richtlinien zu beachten. Mit der Unschärfemaske können Sie die folgenden drei Parameter steuern:
+* Einfache Scharfzeichnung ( `&op_sharpen`): Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wendet die einfache Scharfzeichnung die einfache Scharfzeichnung auf die endgültige Ansicht des Bildes nach der dynamischen Skalierung an. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Die Best Practice besteht darin, die Verwendung von `&op_sharpen` sofern nicht erforderlich.
+* Unschärfemaske ( `&op_USM`): Die Unschärfemaske ist ein branchenüblicher Filter für die Scharfzeichnung. Wir empfehlen, beim Scharfzeichnen von Bilder mit der Unschärfemaske die folgenden Richtlinien zu beachten. Mit der Unschärfemaske können Sie die folgenden drei Parameter steuern:
 
    * `&op_sharpen=amount,radius,threshold`
 

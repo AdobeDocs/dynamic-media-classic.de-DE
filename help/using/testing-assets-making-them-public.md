@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,8 +26,8 @@ Mit Secure Testing können Sie eine Vorabversion (Staging) der Website mit unver
 Erstellen Sie bei Bedarf eine Staging-Umgebung, anstatt Assets aus den folgenden Gründen öffentlich verfügbar zu machen:
 
 * Vorschau der Websites vor der Veröffentlichung (Staging-Website).
-* Bereitstellen von Assets, deren Zugriff eingeschränkt sein soll, wie E-Kataloge, die Preise in einer B2B-Web-Anwendung anzeigen.
-* Verwenden von Assets hinter einer Firewall als Teil des Produktinformations-Managementsystems, der Kundenservice-Anwendung, Online-Kursen usw.
+* Bereitstellen von Assets, die eingeschränkten Zugriff erfordern, wie z. B. E-Kataloge, die Preise in einer B2B-Webanwendung anzeigen.
+* Verwenden Sie Assets hinter einer Firewall als Teil eines Produktinformationsmanagementsystems, einer Kundendienstanwendung, einer Schulungs-Site usw.
 
 >[!NOTE]
 >
@@ -43,11 +43,11 @@ Mit dem Secure Testing richtet Adobe Dynamic Media Classic einen dedizierten Ima
 
 Da der Speicherort der ursprünglichen Anforderung bestätigt werden muss, wird der Traffic des Secure Testing-Dienstes nicht über ein Inhaltsverteilungsnetzwerk wie den öffentlichen Dynamic Media Image Server-Traffic geleitet. Anforderungen an den Secure Testing-Dienst weisen im Vergleich zu den öffentlichen Dynamic Media-Bildservern eine etwas höhere Latenz auf.
 
-Unveröffentlichte Assets sind sofort über den Secure Testing-Dienst verfügbar und müssen nicht erst veröffentlicht werden. Auf diese Weise können Sie eine Vorschau ausführen, bevor Assets auf ihrem öffentlichen Bildserver veröffentlicht werden.
+Unveröffentlichte Assets sind sofort über den Secure Testing-Dienst verfügbar und müssen nicht erst veröffentlicht werden. Auf diese Weise können Sie eine Vorschau ausführen, bevor Assets auf ihrem öffentlichen Image-Server veröffentlicht werden.
 
 >[!NOTE]
 >
->Sichere Testdienste verwenden den Katalogserver, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihr Unternehmen daher für die Veröffentlichung auf Secure Testing konfiguriert ist, werden hochgeladene Assets in Adobe Dynamic Media Classic sofort in den Secure Testing Services verfügbar. Diese Funktion gilt unabhängig davon, ob die Assets beim Hochladen zur Veröffentlichung markiert sind.
+>Sichere Testdienste verwenden den Katalogserver, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihr Unternehmen für die Veröffentlichung auf Secure Testing konfiguriert ist, sind hochgeladene Assets in Adobe Dynamic Media Classic sofort in den Secure Testing Services verfügbar. Diese Funktion gilt unabhängig davon, ob die Assets beim Hochladen zur Veröffentlichung markiert sind.
 
 Secure Testing-Dienste unterstützen derzeit die folgenden Asset-Typen und -Funktionen:
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * Bilder.
 * Vignetten (Render-Server-Anforderungen).
-* Render Server-Anforderungen (unterstützt, aber explizit vom Kunden angefordert).
+* Render Server-Anforderungen (unterstützt, aber der Kunde muss dies explizit anfordern).
 * Sätze, einschließlich Bildsätzen, E-Katalog, Rendersets und Mediensets.
 * Standard-Rich-Media-Viewer von Adobe Dynamic Media Classic.
 * Adobe Dynamic Media Classic OnDemand JSP-Seiten.
@@ -88,7 +88,7 @@ Testen Sie den Secure Testing-Dienst, um sicherzustellen, dass er wie erwartet f
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### Vorbereiten des Kontos
 
@@ -133,8 +133,8 @@ Wenden Sie sich an Adobe Care , wenn der Servername fehlt oder die URLs zum Serv
 
 Sie benötigen zwei Variationen einer Website, die Links zu veröffentlichten und unveröffentlichten Assets enthält:
 
-* Öffentliche Version - Verknüpfen Sie Assets mit Ihrer herkömmlichen Adobe Dynamic Media Classic-URL-Syntax.
-* Staging-Version - Verknüpfen Sie Assets mit derselben Syntax wie mit dem Namen der Secure Testing-Site.
+* Öffentliche Version: Verknüpfen Sie Assets mit Ihrer herkömmlichen Adobe Dynamic Media Classic-URL-Syntax.
+* Staging-Version: Verknüpfen Sie Assets mit derselben Syntax, jedoch mit dem Namen der Secure Testing-Site.
 
 ### Ausführen von Tests
 

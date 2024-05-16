@@ -1,6 +1,6 @@
 ---
 title: Verknüpfen eines Mustersets mit einer Webseite
-description: Erfahren Sie, wie Sie ein Musterset mit einer Web-Seite in Adobe Dynamic Media Classic verknüpfen.
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic ein Musterset mit einer Webseite verknüpfen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 31%
+ht-degree: 24%
 
 ---
 
 # Verknüpfen eines Mustersets mit einer Webseite{#linking-a-swatch-set-to-a-web-page}
 
-Nachdem Sie ein Musterset veröffentlicht haben, können Sie dessen zugehörige URL oder Einbettungscode auf Ihrer Website oder in Ihrer Anwendung verwenden. Danach können Sie nach Bedarf die URL bereitstellen oder den Einbettungscode einfügen, damit die Benutzer das Musterset auf der Website oder in der Anwendung anzeigen können.
+Nachdem Sie ein Musterset veröffentlicht haben, können Sie dessen zugehörige URL oder Einbettungscode auf Ihrer Website oder in Ihrer Anwendung verwenden. Anschließend können Sie die URL oder den Einbettungscode nach Bedarf bereitstellen, damit Benutzer das Musterset auf Ihrer Website oder in Ihrer Anwendung anzeigen können.
 
 >[!NOTE]
 >
@@ -46,13 +46,13 @@ Nachdem Sie ein Musterset veröffentlicht haben, können Sie dessen zugehörige 
 
 ## Hinzufügen von Musterset-URLs zu Ihrer Webseite {#adding-swatch-set-urls-to-your-web-page}
 
-Die gängigste Methode zum Bereitstellen von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Der Zoom-Link öffnet ein Popup-Fenster, das die eigentliche Zoom-Funktion enthält.
+Die gängigste Methode zur Bereitstellung von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Webseite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das Musterset in einem Popup-Zoomfenster angezeigt wird. Der Zoom-Link öffnet ein Popup-Fenster, das die eigentliche Zoom-Funktion enthält.
 
 Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers in das Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines Musterset-Viewers {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte Musterset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte Musterset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers auf Ihren Webseiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 **So kopieren Sie den Einbettungscode eines Musterset-Viewers:**
 

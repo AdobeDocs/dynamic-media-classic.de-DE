@@ -1,6 +1,6 @@
 ---
-title: Verknüpfen eines gemischten Mediensets mit einer Website
-description: Erfahren Sie, wie Sie ein gemischtes Medienset mit einer Web-Seite in Adobe Dynamic Media Classic verknüpfen.
+title: Verknüpfen eines gemischten Mediensets mit einer Webseite
+description: Erfahren Sie, wie Sie ein gemischtes Medienset mit einer Webseite in Adobe Dynamic Media Classic verknüpfen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 43%
+ht-degree: 30%
 
 ---
 
-# Verknüpfen eines gemischten Mediensets mit einer Website{#linking-a-mixed-media-set-to-a-web-page}
+# Verknüpfen eines gemischten Mediensets mit einer Webseite{#linking-a-mixed-media-set-to-a-web-page}
 
-Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie dessen zugehörige URL abrufen, um sie auf Ihrer Website oder in Ihrer Anwendung zu verwenden. Danach können Sie die URL nach Bedarf verwenden, damit die Benutzer das gemischten Medienset auf der Website oder in der Anwendung anzeigen können.
+Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie dessen zugehörige URL abrufen, um sie auf Ihrer Website oder in Ihrer Anwendung zu verwenden. Anschließend können Sie die URL nach Bedarf bereitstellen, damit Benutzer das gemischte Medienset auf Ihrer Website oder in Ihrer Anwendung anzeigen können.
 
 ## Abrufen einer gemischten Medienset-URL {#obtain-a-mixed-media-set-url}
 
@@ -40,15 +40,15 @@ Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie dessen z
 
      Wählen Sie auf der Seite &quot;Viewer-Liste&quot;in der Spalte &quot;Aktionen&quot;der Tabelle die Option **[!UICONTROL URL kopieren]**.
 
-## Hinzufügen von URLs für gemischte Mediensets zur Website {#add-mixed-media-set-urls-to-your-web-page}
+## Fügen Sie Ihrer Webseite URLs für gemischte Mediensets hinzu {#add-mixed-media-set-urls-to-your-web-page}
 
-Die gängigste Methode zur Bereitstellung eines gemischten Mediensets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das gemischte Medienset im Viewer für gemischte Mediensets angezeigt wird.
+Die gängigste Methode zur Bereitstellung eines gemischten Mediensets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Webseite zu platzieren. Wenn diese Option aktiviert ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das gemischte Medienset im Viewer für gemischte Mediensets angezeigt wird.
 
 ## Kopieren des Einbettungscodes eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers auf Ihren Webseiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**So kopieren Sie den Einbettungscode eines Viewers für gemischte Mediensets:**
+**Kopieren des Einbettungscodes eines Viewers für gemischte Mediensets:**
 
 1. Wählen Sie im Bedienfeld Asset-Suche in der Dropdown-Liste Anzeigen die Option **[!UICONTROL gemischtes Medienset]**.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das gemischte Medienset enthält, dessen Einbettungscode Sie kopieren möchten.

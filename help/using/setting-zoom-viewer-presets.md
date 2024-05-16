@@ -10,7 +10,7 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 48%
@@ -27,9 +27,9 @@ Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenk
 
 Adobe Dynamic Media Classic bietet die folgenden Zoom-Viewer-Vorgaben:
 
-* **Zoom-Viewer: Einfach** - Bietet einen einfachen Zoom des Originalbilds.
+* **Zoom-Viewer: Einfach**: Bietet einen einfachen Zoom des Originalbilds.
 
-* **Zoom-Viewer: Fly-out** - Zeigt ein zweites Bild des vergrößerten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
+* **Zoom-Viewer: Fly-out**: Zeigt ein zweites Bild des vergrößerten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
 
 Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer geladen werden müssen. Die Größe des Flyout-Bildes berechnet sich aus der Größe des Hauptbildes (Anzeigebreite und -höhe) und dem Zoomfaktor. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
 
@@ -37,20 +37,20 @@ Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoom
 
 Adobe Dynamic Media Classic empfiehlt die folgenden Parameter für Flyout-Zoom-Viewer-Vorgaben:
 
-* **Vergrößerte Bildgröße** - Ungefähr 1500 x 1500 Pixel, höchstens 2000 x 2000 Pixel.
+* **Vergrößerte Bildgröße**: Ungefähr 1500 x 1500 Pixel, höchstens 2000 x 2000 Pixel.
 
-* **Bildgröße** - 100 KB oder weniger, höchstens 150 KB (komprimieren Sie die Datei, um sie unter 150 KB zu halten).
+* **Bildgröße**: 100 KB oder weniger, höchstens 150 KB (komprimieren Sie die Datei, um sie unter 150 KB zu halten).
 
-* **Zoom-Viewer: Benutzerdefiniert** - Bietet einen geführten oder nicht verwendeten Zoom mit Bildern, Bildsets mit mehreren Ansichten oder Farbmuster-Sets.
+* **Zoom-Viewer: Benutzerdefiniert**: Bietet einen geführten oder nicht verwendeten Zoom mit Bildern, Bildsets mit mehreren Ansichten oder Farbmuster-Sets.
 
 ## Erstellen und Bearbeiten von Zoom-Viewer-Vorgaben {#creating-and-editing-zoom-viewer-presets}
 
 1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Vorgabe erstellen** - Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, einen Zoom-Viewer und klicken Sie auf **[!UICONTROL Hinzufügen]**. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
+   * **Vorgabe erstellen**: Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, einen Zoom-Viewer und klicken Sie auf **[!UICONTROL Hinzufügen]**. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
 
-   * **Vorgabe bearbeiten** - Wählen Sie eine Zoom-Viewer-Vorgabe und dann **[!UICONTROL Bearbeiten]**.
+   * **Vorgabe bearbeiten**: Wählen Sie eine Zoom-Viewer-Vorgabe und dann **[!UICONTROL Bearbeiten]**.
 
 1. Wählen Sie die gewünschten Einstellungen aus.
 

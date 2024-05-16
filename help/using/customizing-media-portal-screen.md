@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 16%
@@ -23,21 +23,21 @@ Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Por
 
 Um auf die Stileinstellungen zuzugreifen, navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Stileinstellungen]**. Stellen Sie sicher, dass Sie **[!UICONTROL Speichern]** , um Ihre Einstellungen zu speichern, nachdem Sie sie vorgenommen haben. Sie können **[!UICONTROL Wiederherstellen]** , um die Standardeinstellungen wiederherzustellen. Während Sie Ihre Auswahl treffen, zeigt Ihnen das Vorschaufenster, wie sie aussehen.
 
-* **[!UICONTROL Logo]** - Auswählen **[!UICONTROL Durchsuchen]** und wählen Sie dann im Fenster Logo-Bild auswählen eine Grafik aus.
+* **[!UICONTROL Logo]**: Auswählen **[!UICONTROL Durchsuchen]** und wählen Sie dann im Fenster Logo-Bild auswählen eine Grafik aus.
 
-* **[!UICONTROL Anwendung]** - Erstellen Sie eine Farbverlaufsmischung, indem Sie Optionen in den Menüs der Hintergrundverlaufsfarben auswählen.
+* **[!UICONTROL Anwendung]**: Erstellen Sie eine Farbverlaufsmischung, indem Sie Optionen in den Menüs der Hintergrundverlaufsfarben auswählen.
 
-* **[!UICONTROL Baum]** - Wählen Sie eine Rollover-Farbe (die Farbe, die angezeigt wird, wenn Sie den Mauszeiger über ein Element bewegen) und eine Auswahlfarbe (die Farbe, die bei Auswahl eines Elements angezeigt wird).
+* **[!UICONTROL Baum]**: Wählen Sie eine Rollover-Farbe (die Farbe, die angezeigt wird, wenn Sie den Mauszeiger über ein Element bewegen) und eine Auswahlfarbe (die Farbe, die bei Auswahl eines Elements angezeigt wird).
 
-* **[!UICONTROL Akkordeon]** - Wählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und ausgewählte Farben für das Accordion aus, das rechts im Bildschirm in der Detailansicht angezeigt wird.
+* **[!UICONTROL Akkordeon]**: Wählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und ausgewählte Farben für das Accordion aus, das rechts im Bildschirm in der Detailansicht angezeigt wird.
 
-* **[!UICONTROL Accordion-Kopfzeile]** - Wählen Sie aus, ob Text in der Fettschrift der Accordion-Kopfzeile eingefügt werden soll.
+* **[!UICONTROL Accordion-Kopfzeile]**: Wählen Sie aus, ob Text in der Fettschrift der Accordion-Kopfzeile eingefügt werden soll.
 
-* **[!UICONTROL Datagrid]** - Wählen Sie Farben für die Kopfzeile in Datenrasten.
+* **[!UICONTROL Datagrid]**: Wählen Sie Farben für die Kopfzeile in Datenrasten aus.
 
-* **[!UICONTROL Warnung]** - Wählen Sie eine Hintergrundfarbe für Warnhinweisfelder aus.
+* **[!UICONTROL Warnung]**: Wählen Sie eine Hintergrundfarbe für Warnhinweisfelder aus.
 
-* **[!UICONTROL Fortschrittsleiste]** - Wählen Sie eine Farbe für die Leiste, die den Fortschritt von Uploads und Downloads anzeigt.
+* **[!UICONTROL Fortschrittsleiste]**: Wählen Sie eine Farbe für die Leiste, die den Fortschritt von Uploads und Downloads anzeigt.
 
 Damit Media Portal-Benutzer die Stileinstellungen sehen können, müssen sie anhängen `?company=(company name)` auf die URL, mit der sie auf Media Portal zugreifen. Um beispielsweise Stileinstellungen anzuzeigen, können Media Portal-Benutzer, die unter folgendem Pfad auf das Unternehmen PortalCo zugreifen:
 

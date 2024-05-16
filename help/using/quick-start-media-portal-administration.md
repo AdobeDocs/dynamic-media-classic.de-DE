@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 Mit Media Portal können Unternehmen problemlos genehmigte Assets abrufen, kontrollieren und an externe Partner und Kanäle sowie interne Benutzer eines Unternehmens verteilen. Diese browserbasierte Self-Service-Umgebung bietet Media Portal-Benutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, mit denen sie leicht auf Assets zugreifen, diese durchsuchen, suchen, in der Vorschau anzeigen und in vom Unternehmen genehmigte Formate exportieren können.
 
-Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Außerdem können Sie die Oberfläche von Media Portal an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe, Schriftgröße und Branding-Elemente wie Logos in der Media Portal-Benutzeroberfläche angeben.
+Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Darüber hinaus können Sie die Media Portal-Benutzeroberfläche an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe, Schriftgröße und Branding-Elemente wie Logos in der Media Portal-Benutzeroberfläche angeben.
 
 Sehen Sie sich die folgenden Schulungsvideos an:
 

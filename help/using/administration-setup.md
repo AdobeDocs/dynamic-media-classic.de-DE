@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1971'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -101,15 +101,15 @@ Sie können die Benutzerliste sortieren und filtern, um Benutzer zu suchen. Alle
 
 Sie können die folgenden Methoden zum Filtern von Benutzerlisten verwenden:
 
-* **Nach Gruppe filtern** - Wählen Sie die **[!UICONTROL Nach Gruppe]** und wählen Sie eine Option, um die Liste auf Benutzer in einer Gruppe zu beschränken.
+* **Nach Gruppe filtern**: Wählen Sie die **[!UICONTROL Nach Gruppe]** und wählen Sie eine Option, um die Liste auf Benutzer in einer Gruppe zu beschränken.
 
-* **Nach Benutzerrolle filtern** - Wählen Sie die **[!UICONTROL Nach Benutzerrolle]** und wählen Sie eine Option, um die Liste auf Benutzer oder Administratoren verschiedener Typen zu beschränken.
+* **Nach Benutzerrolle filtern**: Wählen Sie die **[!UICONTROL Nach Benutzerrolle]** und wählen Sie eine Option, um die Liste auf Benutzer oder Administratoren verschiedener Typen zu beschränken.
 
-* **Nach Feldname filtern** - Auswählen **[!UICONTROL Filtern nach Feld aktivieren]**. Wählen Sie dann die **[!UICONTROL Nach Feldname]** , wählen Sie eine Spalte zum Filtern der Liste, wählen Sie das Menü Zeichen filtern und wählen Sie einen Brief aus. Die Liste wird anhand des ausgewählten Briefs nach einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Filtern nach Feld aktivieren]** -Option.
+* **Nach Feldname filtern**: Auswählen **[!UICONTROL Filtern nach Feld aktivieren]**. Wählen Sie dann die **[!UICONTROL Nach Feldname]** , wählen Sie eine Spalte zum Filtern der Liste, wählen Sie das Menü Zeichen filtern und wählen Sie einen Brief aus. Die Liste wird anhand des ausgewählten Briefs nach einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Filtern nach Feld aktivieren]** -Option.
 
-* **Ausfiltern ungültiger Benutzer** - Auswahl aufheben **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
+* **Ausfiltern ungültiger Benutzer**: Auswahl aufheben **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
 
-* **Nach Spaltenüberschrift sortieren** - Wählen Sie eine Überschrift aus, um alle Benutzer nach Status, alphabetisch nach Vorname, Nachname, E-Mail-Adresse, Benutzerrolle oder nach gültigem/ungültigem Status zu sortieren.
+* **Nach Spaltenüberschrift sortieren**: Wählen Sie eine Überschrift aus, um alle Benutzer nach Status, alphabetisch nach Vorname, Nachname, E-Mail-Adresse, Benutzerrolle oder nach gültigem/ungültigem Status zu sortieren.
 
 Wenn Sie mit sehr vielen Benutzern arbeiten, können Sie im Menü „Max. Listengr.“ eine Zahl eingeben, um die Länge der Liste zu beschränken.
 
@@ -162,17 +162,17 @@ In der folgenden Tabelle werden die Berichte beschrieben, die Sie auf der Seite 
 
 Der Bericht „Bildinhalt“ enthält Informationen über Anforderungen nach den folgenden Bildtypen:
 
-* **Bildanforderung** - Bildanforderungen.
+* **Bildanforderung**: Anforderungen für Bilder.
 
-* **Miniaturanfrage** - Anforderungen für Muster oder alternative Bilder in Viewern.
+* **Miniaturanfrage**: Anforderungen für Muster oder alternative Bilder in Viewern.
 
-* **Maskenanfrage** - Anforderungen an Bilder, die Graustufenmasken zurückgeben.
+* **Maskenanfrage**: Anforderungen an Bilder, die Graustufenmasken zurückgeben.
 
-* **Viewer-Kachelanforderung** - Von einem Viewer geladene Bildanforderungen.
+* **Viewer-Kachelanforderung**: Von einem Viewer geladene Bildanforderungen.
 
-* **VNT-Objektanfrage** - Bildwiedergabeanforderungen, die ein Bild mit bestimmten Objekten in den angeforderten Vignetten zurückgeben.
+* **VNT-Objektanfrage**: Bildwiedergabeanforderungen, die ein Bild mit angegebenen Objekten in den angeforderten Vignetten zurückgeben.
 
-* **VNT Info Request** - Image Rendering-Anfragen, die Informationen zu den angeforderten Vignetten zurückgeben.
+* **VNT Info Request**: Image Rendering-Anfragen, die Informationen zu den angeforderten Vignetten zurückgeben.
 
 >[!NOTE]
 >
@@ -192,27 +192,27 @@ So generieren Sie einen Bericht zur Bandbreite, zum Speicher, zu Bildinhalt, zur
 
 Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert haben, können Sie Optionen zum Anzeigen der Informationen auswählen. Sie können festlegen, wie die Informationen dargestellt werden, die Informationen in einem Diagramm oder Datenraster anzeigen und einen Zeitraum für das Erfassen von Informationen bestimmen. In der Datenansicht können Sie die Informationen auch sortieren und in Spalten anordnen.
 
-* **Daten in einem Diagramm oder Datenraster anzeigen** - Auswählen **[!UICONTROL Diagrammansicht]** um Daten in einer Grafik anzuzeigen, wählen Sie **[!UICONTROL Datenansicht]** , um Daten in einem Datenraster anzuzeigen.
+* **Daten in einem Diagramm oder Datenraster anzeigen**: Auswählen **[!UICONTROL Diagrammansicht]** um Daten in einer Grafik anzuzeigen, wählen Sie **[!UICONTROL Datenansicht]** , um Daten in einem Datenraster anzuzeigen.
 
-* **Berichtpräsentationstyp auswählen** - Wählen Sie im Menü Berichtstyp die Option **[!UICONTROL Zusammenfassung]**, **[!UICONTROL Täglich]** oder **[!UICONTROL Monatlich]** um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
+* **Berichtpräsentationstyp auswählen**: Wählen Sie im Menü Berichtstyp die Option **[!UICONTROL Zusammenfassung]**, **[!UICONTROL Täglich]** oder **[!UICONTROL Monatlich]** um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
 
-* **Zeitraum angeben** - Wählen Sie Optionen aus, um einen Zeitraum für Ihren Bericht zu definieren, und wählen Sie dann **[!UICONTROL Aktualisieren]** nach der Definition eines Zeitraums:
+* **Zeitraum angeben**: Wählen Sie Optionen aus, um einen Zeitraum für Ihren Bericht zu definieren, und wählen Sie dann **[!UICONTROL Aktualisieren]** nach der Definition eines Zeitraums:
 
-* **Vordefinierter Zeitraum** - Wählen Sie im Menü Vordefinierter Bericht eine Option aus. Wählen Sie beispielsweise „Letzter Monat“, um die Daten des letzten Monats zu erfassen.
+* **Vordefinierter Zeitraum**: Wählen Sie im Menü Vordefinierter Bericht eine Option aus. Wählen Sie beispielsweise „Letzter Monat“, um die Daten des letzten Monats zu erfassen.
 
-* **Benutzerdefinierter Zeitraum** - Wählen Sie im Menü Vordefinierter Bericht die Option **[!UICONTROL Benutzerdefiniert]**. Wählen Sie dann ein Datum für die **[!UICONTROL Startmonat]** (oder **[!UICONTROL Startdatum]**) und ein Datum im Menü Anzahl der Monate (oder Anzahl oder Tage). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
+* **Benutzerdefinierter Zeitraum**: Wählen Sie im Menü Vordefinierter Bericht die Option **[!UICONTROL Benutzerdefiniert]**. Wählen Sie dann ein Datum für die **[!UICONTROL Startmonat]** (oder **[!UICONTROL Startdatum]**) und ein Datum im Menü Anzahl der Monate (oder Anzahl oder Tage). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
 
-* **Sortieren von Daten (nur Datenansicht)** - Zum Sortieren von Informationen über eine Spalte wählen Sie die Überschrift der Spalte aus. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
+* **Sortieren von Daten (nur Datenansicht)**: Wählen Sie die Überschrift der Spalte aus, um die Informationen einer Spalte zu sortieren. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
 
-* **Spalten neu anordnen (nur Datenansicht)** - Um eine Spalte an eine andere Position im Datenraster zu verschieben, ziehen Sie die Überschrift.
+* **Spalten neu anordnen (nur Datenansicht)**: Um eine Spalte an eine andere Position im Datenraster zu verschieben, ziehen Sie die Überschrift.
 
 ### Exportieren und Drucken von Berichten {#exporting-and-printing-reports}
 
 Nachdem Sie einen Bericht generiert haben, können Sie die Daten für die Verwendung in Tabellen und anderen Anwendungen exportieren. Sie können die Berichte auch ausdrucken.
 
-* **Berichtdaten exportieren** - Sortieren und ordnen Sie die Daten in der Datenansicht nach Bedarf an. Öffnen Sie dann die **[!UICONTROL Export]** und wählen Sie ein Format: **[!UICONTROL Tabulatorgetrennt]**, **[!UICONTROL Kommagetrennt]** oder **[!UICONTROL HTML formatiert]**. Die Daten werden in dem von Ihnen ausgewählten Format in die Zwischenablage kopiert. Jetzt können Sie die Daten in eine Tabelle oder Anwendung einfügen.
+* **Berichtdaten exportieren**: Sortieren und ordnen Sie die Daten in der Datenansicht nach Bedarf an. Öffnen Sie dann die **[!UICONTROL Export]** und wählen Sie ein Format: **[!UICONTROL Tabulatorgetrennt]**, **[!UICONTROL Kommagetrennt]** oder **[!UICONTROL HTML formatiert]**. Die Daten werden in dem von Ihnen ausgewählten Format in die Zwischenablage kopiert. Jetzt können Sie die Daten in eine Tabelle oder Anwendung einfügen.
 
-* **Bericht drucken** - Auswählen **[!UICONTROL Drucken]**, wählen Sie die gewünschten Optionen im Dialogfeld &quot;Drucken&quot;aus und klicken Sie auf **[!UICONTROL OK]**.
+* **Bericht drucken**: Auswählen **[!UICONTROL Drucken]**, wählen Sie die gewünschten Optionen im Dialogfeld &quot;Drucken&quot;aus und klicken Sie auf **[!UICONTROL OK]**.
 
 ## Bildfehler {#image-errors}
 
@@ -230,16 +230,16 @@ Adobe Dynamic Media Classic-Administratoren können Bildfehlerberichte generiere
 
 Die angezeigten Fehler beziehen sich auf das Unternehmen, bei dem Sie derzeit angemeldet sind. Jeder Fehler enthält die folgenden Informationen:
 
-* **Bild-ID** - Kennung für das fehlerhafte Bild.
+* **Bild-ID**: ID für das fehlerhafte Bild.
 
-* **Zeit** - Der Zeitraum, in dem der Fehler zum ersten Mal in den letzten 24 Stunden gemeldet wurde, als der Fehler zuletzt gemeldet wurde.
+* **Zeit**: Der Zeitbereich, in dem der Fehler zum ersten Mal in den letzten 24 Stunden gemeldet wurde, als der Fehler zuletzt gemeldet wurde.
 
-* **Count** - Die Anzahl der im Bild gemeldeten Fehler.
+* **Count**: Die Anzahl der im Bild gemeldeten Fehler.
 
-* **Reaktion** - Die spezifische Fehlermeldung. Fehler haben IDs, die mit 4xx oder 5xx beginnen.
+* **Reaktion**: Die spezifische Fehlermeldung. Fehler haben IDs, die mit 4xx oder 5xx beginnen.
 
-* **URLs** - Listet die URL zum Bild in Adobe Dynamic Media Classic auf.
+* **URLs**: Listet die URL zum Bild in Adobe Dynamic Media Classic auf.
 
-* **Referrer** - Gibt die URL für die Website an, von der die erste Anforderung stammt. Der Referrer kann jede Website sein, auf der ein Link zu dem Bild zu finden ist.
+* **Referrer**: Gibt die URL für die Website an, von der die erste Anforderung stammt. Der Referrer kann jede Website sein, die über einen Link zum Bild verfügt.
 
 Für die Spalten „URL“ und „Referrer“ gibt es die Schaltfläche „URL kopieren“, um das Testen der URLs zu vereinfachen.

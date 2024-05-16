@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 19%
@@ -30,9 +30,9 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Erstellen oder bearbeiten Sie eine Viewer-Vorgabe auf der Seite &quot;Viewer-Vorgaben&quot;, indem Sie einen der folgenden Schritte ausführen:
 
-   * **Erstellen** - Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;in der Dropdown-Liste &quot;Viewer&quot;die Option **[!UICONTROL Zoom-Viewer]** und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können auch eine Zoom-Viewer-Vorgabe erstellen, indem Sie von einer vorhandenen Vorgabe ausgehen. Zeigen Sie den Namen der Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Im `Configure Viewer` Seite, geben Sie einen neuen Namen für die Vorgabe ein.
+   * **Erstellen**: Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;in der Dropdown-Liste &quot;Viewer&quot;die Option **[!UICONTROL Zoom-Viewer]** und wählen Sie **[!UICONTROL Hinzufügen]**. Sie können auch eine Zoom-Viewer-Vorgabe erstellen, indem Sie von einer vorhandenen Vorgabe ausgehen. Zeigen Sie den Namen der Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Im `Configure Viewer` Seite, geben Sie einen neuen Namen für die Vorgabe ein.
 
-   * **Bearbeiten** - Zeigen Sie den Namen einer Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+   * **Bearbeiten**: Zeigen Sie den Namen einer Vorgabe an, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Im `Configure Viewer` Geben Sie im Textfeld &quot;Vorgabenname&quot;einen Namen für die Viewer-Vorgabe für das Musterset ein.
 1. Wählen Sie Optionen im `Configure Viewer` Seite.

@@ -9,10 +9,10 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 23%
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ Siehe [Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben](previewing-videos-
 
 Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
-Adobe Dynamic Media Classic kann Untertiteldateien in das JSON-Format (JavaScript Object Notation) konvertieren. Diese Konvertierung bedeutet, dass Sie den JSON-Text eine eine Webseite verborgen, aber als vollständiges Transkript des Video einfügen können. Suchmaschinen können dann den Inhalt durchsuchen und indizieren, um die Videos leichter auffindbar zu machen und Kunden mehr Details über den Videoinhalt zu geben.
+Adobe Dynamic Media Classic kann Untertiteldateien in das JSON-Format (JavaScript Object Notation) konvertieren. Diese Konvertierung bedeutet, dass Sie den JSON-Text als ausgeblendetes, aber vollständiges Transkript des Videos in eine Webseite einbetten können. Suchmaschinen können dann den Inhalt durchsuchen und indizieren, um die Videos leichter auffindbar zu machen und Kunden mehr Details über den Videoinhalt zu geben.
 
 Siehe [Bereitstellen von statischen (Nicht-Bild-)Inhalten](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) in finden Sie weitere Informationen zur Verwendung der JSON-Funktion in einer URL.
 
@@ -46,7 +46,7 @@ Siehe [Bereitstellen von statischen (Nicht-Bild-)Inhalten](https://experiencelea
 
    | Viewer-Typ | Untertiteldatei |
    |--- |--- |
-   | HTML5 | Wenn Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Untertiteldatei dem WebVTT-Standard (Web Video Text Tracks) folgt. Die Erweiterung der Untertiteldatei lautet `.VTT`. Weitere Informationen zum WebVTT-Untertitelstandard<br><br>[Siehe WebVTT](https://w3c.github.io/webvtt/): Das Webvideo-Text-Tracking-Format. <br><br>Es gibt viele Websites, die sowohl kostenlose als auch gebührenbasierte Tools und Dienste anbieten, die Sie zum Erstellen von WebVTT-Untertiteldateien verwenden können. <br><br>Befolgen Sie die Anweisungen auf dem Bildschirm von einer Website, um Ihre WebVTT-Datei zu erstellen und zu speichern. Wenn Sie fertig sind, kopieren Sie den Inhalt der Untertiteldatei und fügen Sie ihn in einen Texteditor ein. Speichern Sie ihn dann mit der VTT-Dateinamenerweiterung. <br><br><b>Hinweis:</b> Für die globale Unterstützung von Videobeschriftungen in anderen Sprachen als Englisch erfordert der WebVTT-Standard, dass Sie separate `.VTT` -Dateien und -Aufrufe für jede Sprache, die Sie unterstützen möchten. <br><br>Im Allgemeinen soll die VTT-Untertiteldatei denselben Namen haben wie die Videodatei und mit Untertiteln versehen werden. Dies kann Ihnen bei der Automatisierung der Generierung von Videos URLs mit Ihrem vorhandenen Web-Inhalt-Managementsystem helfen. |
+   | HTML5 | Wenn Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Untertiteldatei dem WebVTT-Standard (Web Video Text Tracks) folgt. Die Erweiterung der Untertiteldatei lautet `.VTT`. Weitere Informationen zum WebVTT-Untertitelstandard<br><br>[Siehe WebVTT](https://w3c.github.io/webvtt/): Das Webvideo-Text-Tracking-Format. <br><br>Es gibt viele Websites, die sowohl kostenlose als auch gebührenbasierte Tools und Dienste anbieten, die Sie zum Erstellen von WebVTT-Untertiteldateien verwenden können. <br><br>Befolgen Sie die Anweisungen auf dem Bildschirm von einer Website, um Ihre WebVTT-Datei zu erstellen und zu speichern. Wenn Sie fertig sind, kopieren Sie den Inhalt der Untertiteldatei und fügen Sie ihn in einen Texteditor ein. Speichern Sie ihn dann mit der VTT-Dateinamenerweiterung. <br><br><b>Hinweis:</b> Für die globale Unterstützung von Videobeschriftungen in anderen Sprachen als Englisch erfordert der WebVTT-Standard, dass Sie separate `.VTT` -Dateien und -Aufrufe für jede Sprache, die Sie unterstützen möchten. <br><br>Im Allgemeinen soll die VTT-Untertiteldatei denselben Namen haben wie die Videodatei und mit Untertiteln versehen werden. Auf diese Weise kann es Ihnen bei der Automatisierung der Generierung von Video-URLs mithilfe Ihres bestehenden Web Content Management-Systems helfen. |
 
 1. Laden Sie in Adobe Dynamic Media Classic Ihre XML-Untertiteldatei WebVTT, DFXP oder SMPTE hoch.
 

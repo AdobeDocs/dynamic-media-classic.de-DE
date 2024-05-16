@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 23%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 Gemischte Mediensets bieten Benutzern ein integriertes Anzeigeerlebnis. Gemischte Mediensets können Bilder, Bildsätze, Mustersets, Rotationssets und Videos beinhalten. Benutzer können verschiedene Registerkarten im Viewer für gemischte Medien auswählen, um die Elemente in den verschiedenen Viewern anzuzeigen. Falls keine Registerkarten angegeben werden, werden alle Assets gemeinsam in der Musterzeile angezeigt.
 
-Die Viewer-Vorgaben für gemischte Mediensets enthalten Community-Optionen, mit denen Endbenutzer Code einbetten, URLs kopieren und Verknüpfungen zur Haupt-Website erstellen können. Über diese Optionen können Benutzer Produktinformationen auf ihren eigenen Websites oder Social-Networking-Sites zur Verfügung stellen.
+Viewer-Vorgaben für gemischte Mediensets enthalten Community-Optionen, mit denen Endbenutzer Code einbetten, URLs kopieren und einen Link zur Haupt-Website erstellen können. Benutzer können diese Optionen verwenden, um Informationen über Produkte auf ihren persönlichen Websites oder Social-Networking-Sites freizugeben.
 
 Dieser Schnellstart für gemischte Mediensets wurde entwickelt, um Sie schnell mit den Techniken für gemischte Mediensets in Adobe Dynamic Media Classic vertraut zu machen.
 

@@ -10,16 +10,16 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 31%
+ht-degree: 28%
 
 ---
 
 # Erstellen von eCatalog-Imagemaps{#creating-ecatalog-image-maps}
 
-Eine Imagemap ist ein Bereich auf einer eCatalog-Seite, den Sie mit der Maus verschieben oder auswählen können, um Trigger-Aktionen verschiedener Art durchzuführen. Wenn Sie den Mauszeiger beispielsweise über eine Imagemap bewegen, wird eine Beschreibung des Rollover-Textes eines Elements angezeigt. Wenn Sie eine Imagemap auswählen, wird eine weitere Aktion eingeleitet. Beispielsweise können Sie eine Webseite öffnen, damit die Besucher der Website mehr über einen Artikel erfahren oder ihn kaufen können oder damit Sie ein Video starten können, um einen Artikel in Aktion zu sehen.
+Eine Imagemap ist ein Bereich auf einer eCatalog-Seite, den Sie mit der Maus verschieben oder auswählen können, um Trigger-Aktionen verschiedener Art durchzuführen. Wenn Sie den Mauszeiger beispielsweise über eine Imagemap bewegen, wird eine Beschreibung des Rollover-Textes eines Elements angezeigt. Wenn Sie eine Imagemap auswählen, wird eine weitere Aktion eingeleitet. Sie können beispielsweise eine Webseite öffnen, damit Betrachter mehr über ein Element erfahren oder es kaufen können, oder Sie können ein Video starten, um ein verwendetes Element anzuzeigen.
 
 ## Zeichnen von eCatalog-Imagemaps {#drawing-ecatalog-image-maps}
 
@@ -30,14 +30,14 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 1. Wählen Sie links im Anzeigebereich „Imagemap-Seiten“ die gewünschte Seite aus.
 1. Zeichnen Sie im Bereich „Imagemap“ eine rechteckige oder polygonale (vieleckige) Imagemap:
 
-   * **Rechteckige Karte** - Wählen Sie das Rechteck-Bildzuordnungstool aus und ziehen Sie es auf die Seite, um das Rechteck zu erstellen.
+   * **Rechteckige Karte**: Wählen Sie das Rechteck-Bildzuordnungstool aus und ziehen Sie es auf die Seite, um das Rechteck zu erstellen.
 
-   * **Polygonale Landkarte** - Wählen Sie das Tool Polygon Image Map aus und wählen Sie dann so oft wie nötig den Bildbereich aus. Wie Sie auswählen, zeichnet Adobe Dynamic Media Classic die Ränder der Imagemap.
+   * **Polygonale Landkarte**: Wählen Sie das Tool Polygon Image Map aus und wählen Sie dann so oft wie nötig den Bildbereich aus. Wie Sie auswählen, zeichnet Adobe Dynamic Media Classic die Ränder der Imagemap.
 
      Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Imagemap-Liste zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der eCatalog-Seite an, auf der Sie arbeiten.
 
 1. (Optional) In der Liste &quot;Imagemap&quot;in der [!UICONTROL Name] können Sie einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
-1. Sie können Viewer eine neue Webseite öffnen lassen, wenn sie die Imagemap auswählen. Geben Sie im Imagemap-Liste-Bedienfeld in der Spalte „URL“ die URL der Webseite ein.
+1. Sie können Viewer eine neue Webseite öffnen lassen, wenn sie die Imagemap auswählen. Geben Sie im Listenfeld Imagemap die URL der Webseite in die Spalte URL ein.
 
    Um die Eingabe von URLs (Href-Vorlagen) zu erleichtern, wählen Sie **[!UICONTROL Bearbeiten]** und geben Sie eine Vorlage ein.
 
@@ -75,23 +75,23 @@ Sie können optional auch QuickInfo-Text anzeigen, wenn Kunden ihre Zeiger über
 
 Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E-Katalog“ die folgenden Schritte zum Bearbeiten von Imagemaps in E-Katalogen durch:
 
-* **Position anpassen** - Wählen Sie das Schwenken-Tool aus und bewegen Sie den Mauszeiger nahe, jedoch nicht über den Rahmen der Karte. Wenn der Mauszeiger einen vierköpfigen Pfeil anzeigt, ziehen Sie die gesamte Imagemap an eine neue Position.
+* **Position anpassen**: Wählen Sie das Schwenken-Tool aus und bewegen Sie den Zeiger in die Nähe, jedoch nicht über den Rahmen der Karte. Wenn der Mauszeiger einen vierköpfigen Pfeil anzeigt, ziehen Sie die gesamte Imagemap an eine neue Position.
 
   Siehe [Position, Form und Größe von Imagemaps anpassen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Form und Größe ändern** - Um die Größe einer rechteckigen Imagemap zu ändern, wählen Sie das Schwenken-Tool aus. Bewegen Sie dann den Mauszeiger über den Rand oder eine Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie ihn. Um die Größe einer polygonalen Imagemap zu ändern, ziehen Sie einen quadratischen Auswahlziehpunkt an die gewünschte Stelle. Um einen Auswahlpunkt zu erstellen, wählen Sie den Rahmen der Imagemap aus und ziehen Sie.
+* **Form und Größe ändern**: Um die Größe einer rechteckigen Imagemap zu ändern, wählen Sie das Schwenken-Tool aus. Bewegen Sie dann den Mauszeiger über den Rand oder eine Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie ihn. Um die Größe einer polygonalen Imagemap zu ändern, ziehen Sie einen quadratischen Auswahlziehpunkt an die gewünschte Stelle. Um einen Auswahlpunkt zu erstellen, wählen Sie den Rahmen der Imagemap aus und ziehen Sie.
 
   Siehe [Position, Form und Größe von Imagemaps anpassen](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Löschen von Imagemaps** - Wählen Sie das Schwenken-Tool aus, wählen Sie die Imagemap aus, um sie auszuwählen, und klicken Sie auf **[!UICONTROL Löschen]**.
+* **Löschen von Imagemaps**: Wählen Sie das Schwenken-Tool aus, wählen Sie die gewünschte Imagemap aus und klicken Sie auf **[!UICONTROL Löschen]**.
 
   Um alle Imagemaps aus einem E-Katalog zu entfernen, wählen Sie die **[!UICONTROL Bestellseiten]** und wählen Sie **[!UICONTROL Clear Maps]**.
 
-* **Umgang mit überlappenden Imagemaps** - Ziehen Sie, um die Reihenfolge der Imagemaps in der Liste Imagemap zu ändern.
+* **Umgang mit überlappenden Imagemaps**: Ziehen Sie, um die Reihenfolge der Imagemaps in der Liste &quot;Imagemap&quot;zu ändern.
 
   Siehe [Überlagerte Imagemaps verwalten](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Kopieren von Imagemaps auf anderen Seiten** - Auswählen **[!UICONTROL Zuordnungen kopieren nach]** (Stellen Sie sicher, dass Sie sich auf der Registerkarte Seiten zuordnen befinden). Wählen Sie im Bildschirm &quot;Bilder auswählen&quot;die Seite(n) aus, auf die Sie die Imagemaps kopieren möchten, und wählen Sie **[!UICONTROL Auswählen]**.
+* **Kopieren von Imagemaps auf anderen Seiten**: Auswählen **[!UICONTROL Zuordnungen kopieren nach]** (Stellen Sie sicher, dass Sie sich auf der Registerkarte Seiten zuordnen befinden). Wählen Sie im Bildschirm &quot;Bilder auswählen&quot;die Seite(n) aus, auf die Sie die Imagemaps kopieren möchten, und wählen Sie **[!UICONTROL Auswählen]**.
 
   Siehe [Kopieren von Imagemaps in andere Bilder](creating-image-maps.md#copying_image_maps).
 

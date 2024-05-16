@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 36%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Viewer-Vorgaben für gemischte Mediensets bestimmen den Stil, das Verhalten und das Aussehen Ihres Hauptviewers. Sie geben beim Konfigurieren einer Vorgabe an, welche anderen Viewer innerhalb eines gemischten Medienset-Viewers angezeigt werden sollen. Wenn Sie beispielsweise ein Bildset in das gemischte Medienset aufgenommen haben, geben Sie eine Bildset-Viewer-Vorgabe für den Viewer für das gemischte Medienset an.
 
-Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Viewer hinzufügen. Die Funktion „Einbetten“ fügt eine Verknüpfung zum Viewer hinzu, über die Benutzer den Code für die Anzeige des Viewers auf einer externen Seite (wie z. B. einem Blog, einer Website oder einer Social-Networking-Site) kopieren können. Mit der Funktion „Verknüpfen“ wird dem Viewer die URL zur Verfügung gestellt, mit der Benutzer eine Verknüpfung zum Viewer erstellen können. Mit der Funktion „Zur Website“ können Sie eine Verknüpfung zu einer bestimmten Website einfügen.
+Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Viewer hinzufügen. Die Einbettungsfunktion fügt einen Link zum Viewer hinzu, über den Benutzer den Code kopieren können, der zum Anzeigen des Viewers auf einer externen Seite erforderlich ist (z. B. auf einer Blog-, Website- oder Social-Networking-Site). Mit der Funktion „Verknüpfen“ wird dem Viewer die URL zur Verfügung gestellt, mit der Benutzer eine Verknüpfung zum Viewer erstellen können. Die Funktion &quot;Besuch&quot;enthält einen Link zur angegebenen Website.
 
 1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie auf der Seite &quot;Viewer-Vorgaben&quot;einen der folgenden Schritte aus:
@@ -44,7 +44,7 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 
    Die neue Viewer-Vorgabe wird in der Liste angezeigt.
 
-1. Wiederholen Sie die Schritte 6–9 für alle Viewer-Vorgaben, die Sie hinzufügen möchten.
+1. Wiederholen Sie die Schritte 6: 9 für alle Viewer-Vorgaben, die Sie hinzufügen möchten.
 1. Gehen Sie wie folgt vor, um die Vorgabenliste zu bearbeiten:
 
    * Um eine Vorgabe aus der Liste zu löschen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
@@ -52,13 +52,13 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
 
 1. Um Community-Funktionen zum Viewer hinzuzufügen (Einbetten, Verknüpfen oder Zur Website), wählen Sie die Optionen für die folgenden Punkte aus:
 
-   * **Email** - Auswählen **[!UICONTROL on]** um eine E-Mail-Schaltfläche im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets die Schaltfläche E-Mail auswählen, wird eine E-Mail mit dem Link zum Set geöffnet.
+   * **Email**: Auswählen **[!UICONTROL on]** um eine E-Mail-Schaltfläche im Viewer zu aktivieren. Wenn Benutzer beim Anzeigen des Sets die Schaltfläche E-Mail auswählen, wird eine E-Mail mit dem Link zum Set geöffnet.
 
-   * **Einbetten** - Auswählen **[!UICONTROL Live]**. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. Wählen Sie bei Bedarf **[!UICONTROL Durchsuchen]** , um eine benutzerdefinierte Skin für die Schaltfläche zu suchen und auszuwählen.
+   * **Einbetten**: Auswählen **[!UICONTROL Live]**. Geben Sie im Feld „Beschriftung für Einbetten-Schaltfläche“ den Namen an, der im Viewer auf der Schaltfläche „Einbetten“ angezeigt werden soll. Wählen Sie bei Bedarf **[!UICONTROL Durchsuchen]** , um eine benutzerdefinierte Skin für die Schaltfläche zu suchen und auszuwählen.
 
-   * **Link** - Auswählen **[!UICONTROL Live]**. Geben Sie im Feld Link Button Label den Namen ein, der im Viewer für die Schaltfläche Link angezeigt werden soll. Wählen Sie bei Bedarf **[!UICONTROL Durchsuchen]** , um eine benutzerdefinierte Skin für die Schaltfläche zu suchen und auszuwählen.
+   * **Link**: Auswählen **[!UICONTROL Live]**. Geben Sie im Feld Link Button Label den Namen ein, der im Viewer für die Schaltfläche Link angezeigt werden soll. Wählen Sie bei Bedarf **[!UICONTROL Durchsuchen]** , um eine benutzerdefinierte Skin für die Schaltfläche zu suchen und auszuwählen.
 
-   * **Besuch** - Auswählen **[!UICONTROL Live]**. Geben Sie im Feld &quot;Beschriftung für Besuchsschaltflächen&quot;den Namen ein, der im Viewer für die Schaltfläche &quot;Besuch&quot;angezeigt werden soll. Geben Sie im Feld &quot;URL besuchen&quot;die URL zu der Website ein, die bei Auswahl des Links geöffnet werden soll.
+   * **Besuch**: Auswählen **[!UICONTROL Live]**. Geben Sie im Feld &quot;Beschriftung für Besuchsschaltflächen&quot;den Namen ein, der im Viewer für die Schaltfläche &quot;Besuch&quot;angezeigt werden soll. Geben Sie im Feld &quot;URL besuchen&quot;die URL der Website ein, die bei Auswahl des Links geöffnet werden soll.
 
 1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, wählen Sie das Symbol &quot;Info-Tipp&quot;neben der Option aus.
 

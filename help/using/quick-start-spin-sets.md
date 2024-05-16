@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ Mit einem Rotationsset wird simuliert, wie man ein reales Objekt dreht, um es vo
 
 ![Bilder für ein Rotationsset.](/help/using/assets/spin_set.png)
 
-Rotationssets akzeptieren auch Imagemaps. Eine Imagemap ist ein Bereich auf einem Bild in einem Rotationsset, mit dessen Hilfe ein Rollover-Bedienfeld mit Text angezeigt werden kann. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise kann eine Website aufgerufen werden, auf der der Benutzer mehr über ein Produkt erfährt. Um auf eine Imagemap in einem Rotationsset zu verweisen, wird um die Imagemap selbst herum ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
+Rotationssets akzeptieren auch Imagemaps. Eine Imagemap ist ein Bereich auf einem Bild in einem Rotationsset, mit dessen Hilfe ein Rollover-Bedienfeld mit Text angezeigt werden kann. Wenn der Benutzer eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise wird eine Webseite gestartet, damit der Benutzer mehr über ein Produkt erfahren kann. Um auf eine Imagemap in einem Rotationsset zu verweisen, wird um die Imagemap selbst herum ein Umriss angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
 
 Siehe [Erstellen von Imagemaps](creating-image-maps.md).
 
@@ -75,7 +75,7 @@ Siehe [Vorschau eines Rotationssets](previewing-spin-set.md#previewing-a-spin-se
 
 ## 6. Veröffentlichen eines Rotationssets
 
-Beim Veröffentlichen eines Rotationssets wird es auf Adobe Dynamic Media Classic-Servern platziert, damit es dynamisch auf Ihre Website oder Anwendung übertragen werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, mit der das Rotationsset von den Dynamic Media-Bildservern auf Ihre Website oder Anwendung aufgerufen wird.
+Beim Veröffentlichen eines Rotationssets wird es auf Adobe Dynamic Media Classic-Servern platziert, damit es dynamisch auf Ihrer Website oder in Ihrer Anwendung bereitgestellt werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, die das Rotationsset von Dynamic Media-Bildservern auf Ihre Website oder Anwendung aufruft.
 
 Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld neben dem Namen angezeigt. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]** , um eine Veröffentlichung zu initiieren. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 

@@ -1,6 +1,6 @@
 ---
-title: E-Katalog mit einer Webseite verknüpfen
-description: Erfahren Sie, wie Sie einen eCatalog mit einer Web-Seite in Adobe Dynamic Media Classic verknüpfen.
+title: Verknüpfen eines eCatalog mit einer Webseite
+description: Erfahren Sie, wie Sie einen eCatalog mit einer Webseite in Adobe Dynamic Media Classic verknüpfen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,14 +10,14 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 38%
+ht-degree: 30%
 
 ---
 
-# E-Katalog mit einer Webseite verknüpfen{#linking-an-ecatalog-to-a-web-page}
+# Verknüpfen eines eCatalog mit einer Webseite{#linking-an-ecatalog-to-a-web-page}
 
 Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Image Server-Inhalte, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für Ihren eCatalog in Ihre Webseiten und Anwendungen einzufügen, kopieren Sie ihn aus Adobe Dynamic Media Classic.
 
@@ -46,13 +46,13 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
 ## Hinzufügen von eCatalog-URLs zur Webseite {#adding-ecatalog-urls-to-your-web-page}
 
-Die am häufigsten verwendete Möglichkeit zum Implementieren eines E-Katalogs ist, eine Verknüpfung in Form einer Miniaturansicht der E-Katalog-Titelseite auf einer Website zu platzieren. Vergewissern Sie sich, dass der E-Katalog im Browser in einem eigenen zentrierten Popup-Fenster angezeigt wird (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). In dem Fenster darf keine Symbol- und Adressleiste angezeigt werden.
+Die gängigste Methode zur Bereitstellung eines E-Katalogs besteht darin, einen Link in Form einer E-Katalog-Titelseite für Miniaturansichten auf Ihrer Webseite zu platzieren. Vergewissern Sie sich, dass der E-Katalog im Browser in einem eigenen zentrierten Popup-Fenster angezeigt wird (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). In dem Fenster darf keine Symbol- und Adressleiste angezeigt werden.
 
 Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des E-Katalog-Viewers von HTML 5 in das Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungscodes eines eCatalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausgewählten E-Katalog überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten für die Bereitstellung des Viewers einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausgewählten E-Katalog überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers auf Ihren Webseiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 **So kopieren Sie den Einbettungscode eines eCatalog-Viewers:**
 
