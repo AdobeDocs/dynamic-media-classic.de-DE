@@ -10,10 +10,10 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: '657'
+ht-degree: 15%
 
 ---
 
@@ -63,11 +63,11 @@ Am oberen Rand des Bedienfelds &quot;Asset-Bibliothek&quot;befinden sich Befehle
 >
 >Sie können **[!UICONTROL Asset-Bibliothek]** Steuerelemente zum Öffnen oder Schließen der Asset-Bibliothek und mehr Platz für die Arbeit auf dem Bildschirm. Wählen Sie die **[!UICONTROL Erweitern]**/**[!UICONTROL Reduzieren]** steuern, um das Bedienfeld zu erweitern oder zu schließen. Diese Steuerelemente befinden sich links im Bedienfeld.
 
-## Durchsuchen-/Erstellenbedienfeld {#browse-panel-build-panel}
+## Bedienfeld durchsuchen/Bedienfeld erstellen {#browse-panel-build-panel}
 
 Im Durchsuchen-/Erstellenbedienfeld werden die meisten Arbeitsvorgänge ausgeführt. Die in diesem Bedienfeld verfügbaren Funktionen hängen davon ab, ob Sie sich im Modus Durchsuchen oder Erstellen befinden.
 
-* **[!UICONTROL Durchsuchen-Modus]**: Um die Inhalte eines Ordners im Durchsuchenbedienfeld anzuzeigen und zu bearbeiten, wählen Sie einen Ordner in der Asset-Bibliothek aus. Dieses Bedienfeld bietet die **[!UICONTROL Datei]**, **[!UICONTROL Vorschau]**, **[!UICONTROL Alle auswählen]**, **[!UICONTROL Keine auswählen]**, und **[!UICONTROL Sortieren]** Menüs zum Arbeiten mit Assets. Sie können Assets auch auf unterschiedliche Weise anzeigen, indem Sie den Schieberegler verschieben oder auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Auswählen **[!UICONTROL Detailansicht]** oder durch Doppelklicken auf ein Asset wird das Asset in der Detailansicht geöffnet, in der Sie Asset-abhängige Dateivorgänge ausführen können.
+* **[!UICONTROL Durchsuchen-Modus]**: Sie können die Inhalte eines Ordners im Bedienfeld Durchsuchen anzeigen und bearbeiten. Wählen Sie einen Ordner in der Asset-Bibliothek aus. Dieses Bedienfeld bietet die **[!UICONTROL Datei]**, **[!UICONTROL Vorschau]**, **[!UICONTROL Alle auswählen]**, **[!UICONTROL Keine auswählen]**, und **[!UICONTROL Sortieren]** Menüs zum Arbeiten mit Assets. Sie können Assets auch auf unterschiedliche Weise anzeigen, indem Sie den Schieberegler verschieben oder auswählen **[!UICONTROL Rasteransicht]**, **[!UICONTROL Listenansicht]** oder **[!UICONTROL Detailansicht]**. Auswählen **[!UICONTROL Detailansicht]** oder durch Doppelklicken auf ein Asset wird das Asset in der Detailansicht geöffnet, in der Sie Asset-abhängige Dateivorgänge ausführen können.
 
 * **[!UICONTROL Build-Modus]**: Auswählen **[!UICONTROL Build]** und wählen Sie dann eine Option, damit Sie mit der Erstellung eines E-Katalogs, Bildsets, Rotationssets oder eines von mehreren verfügbaren Elementen im Menü &quot;Erstellen&quot;beginnen können. Die Seite &quot;Erstellen&quot;wird geöffnet. Sie können sowohl vor als auch nach dem Aktivieren des Erstellen-Modus die Assets auswählen, mit denen Sie arbeiten möchten.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 17%
@@ -69,4 +69,4 @@ Um eine Vorlage zu veröffentlichen, markieren Sie sie zur Veröffentlichung und
 
 Dynamic Media Classic erstellt URLs für Vorlagen und aktiviert die URLs, wenn Sie Vorlagen auf Dynamic Media-Image-Servern veröffentlichen. Sie können diese URL-Zeichenfolgen von der Seite &quot;Vorlagenvorschau&quot;kopieren.
 
-Wählen Sie Ihre Vorlage im Durchsuchenbedienfeld aus und wählen Sie dann **[!UICONTROL Vorschau]** , um die Seite Vorlagenvorschau zu öffnen. Wählen Sie eine Bildvorgabe für die Bereitstellung Ihrer Vorlage aus und klicken Sie auf die Schaltfläche **[!UICONTROL URL kopieren]** Schaltfläche. Nachdem Sie die URL von der Seite &quot;Vorschau&quot;kopiert haben, können Sie sie auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Webseite](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Wählen Sie Ihre Vorlage im Bedienfeld &quot;Durchsuchen&quot;aus und wählen Sie dann **[!UICONTROL Vorschau]** , um die Seite Vorlagenvorschau zu öffnen. Wählen Sie eine Bildvorgabe für die Bereitstellung Ihrer Vorlage aus und klicken Sie auf die Schaltfläche **[!UICONTROL URL kopieren]** Schaltfläche. Nachdem Sie die URL von der Seite &quot;Vorschau&quot;kopiert haben, können Sie sie auf Ihrer Website oder in Ihrer Anwendung verwenden. Siehe [Verknüpfen einer Vorlage mit einer Webseite](linking-template-web-page.md#linking_a_template_to_a_web_page).

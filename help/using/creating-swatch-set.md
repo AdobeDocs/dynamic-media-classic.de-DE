@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 49%
@@ -38,7 +38,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Auswählen der Bilder zuerst**: Wählen Sie im Durchsuchenbedienfeld die Bilder aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Mustersets]**.
+   * **Auswählen der Bilder zuerst**: Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;die Bilder aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Mustersets]**.
 
    * **Starten Sie über den Bildschirm &quot;Musterset&quot;**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Mustersets]**. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder in den Bereich „Ansichten“ auf der Seite „Musterset“.
 

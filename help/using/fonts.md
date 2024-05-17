@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -43,7 +43,7 @@ Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Sc
 
 Sie können den ID-Namen einer Schriftart und deren Typinformationen ändern. Die Bearbeitung einer Schriftartdatei kann für Suchvorgänge hilfreich sein und das Auffinden von Schriftarten erleichtern.
 
-Wählen Sie im Durchsuchenbedienfeld in der Detailansicht die Schriftartdatei aus, die Sie bearbeiten möchten, und wählen Sie &quot;Datei&quot;> &quot;Informationen bearbeiten&quot;. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen aus und wählen Sie dann **[!UICONTROL Einsenden]**.
+Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;die Schriftartdatei, die Sie bearbeiten möchten, in der Detailansicht und dann &quot;Datei&quot;> &quot;Informationen bearbeiten&quot;. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen aus und wählen Sie dann **[!UICONTROL Einsenden]**.
 
 * **[!UICONTROL Schriftname]**: Mit diesem Namen wird die Schriftart bei der Veröffentlichung identifiziert.
 

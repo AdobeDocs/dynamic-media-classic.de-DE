@@ -10,7 +10,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Beim Veröffentlichen Ihrer Bilddateien werden diese auf Dynamic Media-Image-Ser
 
 ## Markieren von Primärbildern für die Veröffentlichung {#marking-master-images-for-publish}
 
-Primäre Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Primärbilder im Durchsuchenbedienfeld zur Veröffentlichung markieren, indem Sie die **[!UICONTROL Zur Veröffentlichung markieren]** Symbol. Sie können Bilder auch beim Hochladen in Adobe Dynamic Media Classic zur Veröffentlichung markieren.
+Primäre Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Primärbilder zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen die Option **[!UICONTROL Zur Veröffentlichung markieren]** Symbol. Sie können Bilder auch beim Hochladen in Adobe Dynamic Media Classic zur Veröffentlichung markieren.
 
 ## Primärbilder veröffentlichen {#publishing-your-master-images}
 

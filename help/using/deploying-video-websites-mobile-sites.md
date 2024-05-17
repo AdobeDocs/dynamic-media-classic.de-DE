@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ Durch das Veröffentlichen eines Videos können Adobe Dynamic Media Classic-Serv
 
 Es gibt zwei verschiedene Methoden zum Veröffentlichen von Videos:
 
-* **Videos beim Hochladen automatisch und sofort veröffentlichen**: Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic automatisch Videos veröffentlichen, wenn sie hochgeladen und kodiert werden. Durch das sofortige Veröffentlichen entfällt die Anforderung, Video nach dem Hochladen separat zu veröffentlichen.
+* **Videos beim Hochladen automatisch und sofort veröffentlichen**: Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic automatisch Videos veröffentlichen, wenn sie hochgeladen und kodiert werden. Diese Möglichkeit der sofortigen Veröffentlichung bedeutet, dass es nicht notwendig ist, Videos separat zu veröffentlichen.
 
 * **Video nach dem Hochladen manuell veröffentlichen**: Wenn Sie Videos nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
 
@@ -42,7 +42,7 @@ Nach der Veröffentlichung von Videos aktiviert Adobe Dynamic Media Classic die 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Um Videos automatisch und sofort beim Hochladen zu veröffentlichen, wählen Sie auf der Seite Hochladen die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]**. An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
-   * Um Videos manuell nach dem Hochladen zu veröffentlichen, wählen Sie im Durchsuchenbedienfeld die Videos aus und klicken Sie dann in der Symbolleiste für globale Navigation auf **Veröffentlichen**.
+   * Um Videos manuell nach dem Hochladen zu veröffentlichen, wählen Sie im Bedienfeld &quot;Durchsuchen&quot;die Videos aus und klicken Sie dann in der Symbolleiste für globale Navigation auf **Veröffentlichen**.
 
 ## Verknüpfen einer Video-URL mit einer mobilen Site oder Website {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -107,7 +107,7 @@ Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder Website](dep
 
 ### Implementieren von Einbettungscode für die Verwendung von HTML5-Video mit MP4-Video-Assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Wenn Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sondern stattdessen den nativen HTML5 verwenden möchten `<video>` -Tag mit MP4-Video-Assets erstellen, können Sie das folgende Einbettungscode-Beispiel verwenden:
+Möglicherweise möchten Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden. Wenn Sie stattdessen die native HTML 5 verwenden möchten `<video>` -Tag mit MP4-Video-Assets erstellen, können Sie das folgende Einbettungscode-Beispiel verwenden:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ Wenn Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden, sond
 
 ## Bereitstellen von Videos mit einem Video-Player eines Drittanbieters {#deploying-video-using-a-third-party-video-player}
 
-Wenn Sie einen Video-Player eines Drittanbieters oder einen benutzerdefinierten Video-Player anstelle eines Dynamic Media Classic-Video-Viewers verwenden, erhalten Sie die direkte Video-URL, die für HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
+Wenn Sie Video-Player von Drittanbietern oder einen benutzerdefinierten Video-Player anstelle eines Dynamic Media Classic-Video-Viewers verwenden, erhalten Sie die direkte Video-URL, die für HLS-Video-Streaming mit mehreren Bitraten oder progressiven Download funktioniert.
 
 **So stellen Sie Videos mit einem Video-Player eines Drittanbieters bereit:**
 

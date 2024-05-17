@@ -10,10 +10,10 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ Sie können einen Projektordner erstellen, der in der Asset-Bibliothek beginnt o
 
 Führen Sie einen der folgenden Schritte aus, um einen Projektordner anzuzeigen, zu löschen und umzubenennen:
 
-* **Inhalt durchsuchen**: Wählen Sie den Namen des Ordners in der Asset-Bibliothek aus. Die im Ordner enthaltenen Assets werden im Durchsuchenbedienfeld angezeigt.
+* **Inhalt durchsuchen**: Wählen Sie den Namen des Ordners in der Asset-Bibliothek aus. Die zugehörigen Assets werden im Bedienfeld &quot;Durchsuchen&quot;angezeigt.
 
 * **Löschen von Projektordnern**: Wählen Sie den Ordner Projekt aus und klicken Sie auf **[!UICONTROL Projekt löschen]**. Beim Löschen von Assets aus einem Projektordner werden diese nicht aus Adobe Dynamic Media Classic gelöscht. Die Assets verbleiben in den Originalordnern, in denen sie gespeichert sind.
 
@@ -57,8 +57,8 @@ Führen Sie einen der folgenden Schritte aus, um einen Projektordner anzuzeigen,
 
 ## Hinzufügen von Assets zu einem Projektordner {#adding-assets-to-a-project-folder}
 
-Sie können Bilder zu einem Projektordner hinzufügen, indem Sie ihn im Durchsuchenbedienfeld aufrufen oder Dateien in Adobe Dynamic Media Classic hochladen:
+Sie können Bilder zu einem Projektordner hinzufügen, indem Sie im Bedienfeld &quot;Durchsuchen&quot;beginnen oder Dateien in Adobe Dynamic Media Classic hochladen:
 
-* **Über das Bedienfeld &quot;Durchsuchen&quot;**, wählen Sie die Assets aus und ziehen Sie sie in einen Projektordner. Sie können auch **[!UICONTROL Datei]** > **[!UICONTROL Zum Projekt hinzufügen]**. Wählen Sie im Dialogfeld &quot;Projekt auswählen&quot;den Namen des Projektordners aus und wählen Sie dann **[!UICONTROL Einsenden]**.
+* **Im Bedienfeld Durchsuchen**, wählen Sie die Assets aus und ziehen Sie sie in einen Projektordner. Sie können auch **[!UICONTROL Datei]** > **[!UICONTROL Zum Projekt hinzufügen]**. Wählen Sie im Dialogfeld &quot;Projekt auswählen&quot;den Namen des Projektordners aus und wählen Sie dann **[!UICONTROL Einsenden]**.
 
 * **Beim Hochladen von Dateien**: Wählen Sie auf der Seite Hochladen die Option **[!UICONTROL Auftragsoptionen]**. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Projekte]** und wählen Sie dann einen Projektnamen aus.

@@ -10,7 +10,7 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 27%
@@ -39,7 +39,7 @@ Sie können die Größe des Zoom-Viewers an die auf Ihrer Webseite verwendete Gr
 Erstellen und bearbeiten Sie Zoomziele im Zoomziel-Editor. Um diesen Editor zu öffnen, wählen Sie ein Bild und führen Sie einen der folgenden Schritte aus:
 
 * Rollover auswählen **[!UICONTROL Bearbeiten]** und wählen Sie &quot;Zoomziele&quot;.
-* Zeigen Sie das Bild im Durchsuchenbedienfeld in **[!UICONTROL Detailansicht]**, wählen Sie **[!UICONTROL Zoomziele]**.
+* Zeigen Sie das Bild im Bedienfeld Durchsuchen in **[!UICONTROL Detailansicht]**, wählen Sie **[!UICONTROL Zoomziele]**.
 
 Wählen Sie im Bildschirm &quot;Zoomziel-Editor&quot;die **[!UICONTROL Ziel auswählen]** Schaltfläche (Pfeil), um ein Ziel auszuwählen, bevor es seine Größe oder Position ändert. Um ein Zoomziel für das Bild zu erstellen, wählen Sie **[!UICONTROL Zielgruppen hinzufügen]** (Rechteck). Auf der Seite &quot;Zoom-Ziel-Editor&quot;finden Sie außerdem Tools zum Löschen, Kopieren und Benennen von Zoom-Zielen.
 

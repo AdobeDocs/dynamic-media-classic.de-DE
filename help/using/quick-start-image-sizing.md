@@ -10,7 +10,7 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 5%
@@ -66,6 +66,6 @@ Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL
 
 ## 5. Verknüpfen von URLs mit einer Webanwendung
 
-Adobe Dynamic Media Classic erstellt URL-Zeichenfolgen für die Bildberechnung. Wenn Sie Bilder auf Dynamic Media-Bildservern veröffentlichen, werden die URLs aktiv. Sie können diese URL-Zeichenfolgen aus dem Durchsuchenbedienfeld (in der Detailansicht) oder dem Vorschaubildschirm kopieren. Nachdem Sie die URL-Zeichenfolgen kopiert haben, können Sie sie auf Ihrer Website und in Ihren Anwendungen verwenden. Die URL für die Bildgröße ersetzt den Verweis auf einen statischen Bildnamen im Webseitencode. Die URL verweist auf einen primären Bildnamen, den die Datenbank für jedes neue anzuzeigende Bild ersetzt.
+Adobe Dynamic Media Classic erstellt URL-Zeichenfolgen für die Bildberechnung. Wenn Sie Bilder auf Dynamic Media-Bildservern veröffentlichen, werden die URLs aktiv. Sie können diese URL-Zeichenfolgen aus dem Bedienfeld &quot;Durchsuchen&quot;(in der Detailansicht) oder dem Vorschaubildschirm kopieren. Nachdem Sie die URL-Zeichenfolgen kopiert haben, können Sie sie auf Ihrer Website und in Ihren Anwendungen verwenden. Die URL für die Bildgröße ersetzt den Verweis auf einen statischen Bildnamen im Webseitencode. Die URL verweist auf einen primären Bildnamen, den die Datenbank für jedes neue anzuzeigende Bild ersetzt.
 
 Mit Bildvorgaben generierte URL-Zeichenfolgen enthalten den Namen einer Bildvorgabe. Dieser Name ist in Dollarzeichen (`$`). Beispiel: `$thumbnail$` kann die Bildvorgabe sein, mit der Primärbilder in der Größe der Miniaturansichten angezeigt werden. Siehe [Verknüpfen von URLs mit einer Webanwendung](linking-urls-web-application.md#linking_urls_to_your_web_application).

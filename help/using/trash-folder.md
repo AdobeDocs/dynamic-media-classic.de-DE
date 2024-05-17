@@ -10,10 +10,10 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 30%
+source-wordcount: '560'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ Beim Löschen von Elementen aus dem Ordner &quot;Papierkorb&quot;werden Elemente
 
 >[!NOTE]
 >
->Assets, die in den Ordner Papierkorb verschoben wurden, werden weiterhin in Adobe Dynamic Media Classic registriert. Wenn Sie versuchen, eine Datei hochzuladen, die denselben Namen wie eine gelöschte Datei im Ordner &quot;Papierkorb&quot;hat, behandelt Adobe Dynamic Media Classic das Asset, das Sie hochladen möchten, als doppeltes Asset. Deshalb wird dem Asset-Namen eine Zahl angehängt.
+>Assets, die in den Ordner Papierkorb verschoben wurden, werden weiterhin in Adobe Dynamic Media Classic registriert. Angenommen, Sie versuchen, eine Datei hochzuladen, die denselben Namen wie eine gelöschte Datei im Ordner &quot;Papierkorb&quot;hat. Adobe Dynamic Media Classic behandelt das Asset, das Sie hochladen möchten, als doppeltes Asset. In diesem Fall wird eine Zahl an den Namen angehängt.
 
 ## Ordner „Papierkorb“ {#about-the-trash-folder}
 
@@ -51,9 +51,9 @@ Gehen Sie wie folgt vor, um Assets aus dem Ordner &quot;Papierkorb&quot;in den O
 
 Wenn Sie Assets aus dem Ordner „Papierkorb“ löschen, werden sie endgültig aus dem System entfernt. Nach Ablauf von sieben Tagen werden Assets automatisch aus dem Ordner „Papierkorb“ gelöscht.
 
-Um Assets dauerhaft aus dem Ordner &quot;Papierkorb&quot;zu löschen, wählen Sie die **[!UICONTROL Papierkorb]** Symbol. Führen Sie auf der Ordnerseite Papierkorb einen der folgenden Schritte aus:
+Sie können Assets dauerhaft aus dem Ordner &quot;Papierkorb&quot;löschen, indem Sie die Option **[!UICONTROL Papierkorb]** Symbol. Führen Sie auf der Ordnerseite Papierkorb einen der folgenden Schritte aus:
 
-* **Löschen einzelner Assets**: Wählen Sie die Assets aus, die Sie dauerhaft löschen möchten, und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Aus Papierkorb leeren]**.
+* **Löschen einzelner Assets**: Sie können Assets dauerhaft löschen. Wählen Sie die gewünschten Assets aus und klicken Sie auf **[!UICONTROL Datei]** > **[!UICONTROL Aus Papierkorb leeren]**.
 
 * **Löschen aller Assets**: Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Leerer Papierkorb]**.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 # Suchen nach Assets in Adobe Dynamic Media Classic{#searching-assets}
 
-Um nach Datei-Assets in Adobe Dynamic Media Classic zu suchen, können Sie Assets nach Typ anzeigen, Assets im Durchsuchenbedienfeld sortieren, eine einfache Suche durchführen, eine erweiterte Suche durchführen und nach Assets filtern.
+Um nach Datei-Assets in Adobe Dynamic Media Classic zu suchen, können Sie Assets nach Typ anzeigen, Assets im Bedienfeld &quot;Durchsuchen&quot;sortieren, eine einfache Suche durchführen, eine erweiterte Suche durchführen und nach Assets filtern.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Um beim Durchsuchen nur Dateien eines bestimmten Typs anzuzeigen, wählen Sie in
 
 ## Sortieren von Dateien im Bedienfeld &quot;Durchsuchen&quot; {#sorting-files-in-the-browse-panel}
 
-Sie können den Inhalt eines Ordners oder die Suchergebnisse sortieren, die im Durchsuchenbedienfeld auf der rechten Seite angezeigt werden. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Sortieren]** und wählen Sie dann eine Option aus. Die Optionen sind **[!UICONTROL Name]**, **[!UICONTROL Größe (KB)]**, **[!UICONTROL Typ]**, **[!UICONTROL Erstellungsdatum]**, und **[!UICONTROL Zuletzt geändert]**.
+Sie können den Inhalt eines Ordners oder die Suchergebnisse sortieren, die im Bedienfeld &quot;Durchsuchen&quot;auf der rechten Seite angezeigt werden. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Sortieren]** und wählen Sie dann eine Option aus. Die Optionen sind **[!UICONTROL Name]**, **[!UICONTROL Größe (KB)]**, **[!UICONTROL Typ]**, **[!UICONTROL Erstellungsdatum]**, und **[!UICONTROL Zuletzt geändert]**.
 
 Sie können auch **[!UICONTROL Aufsteigend]** oder **[!UICONTROL Absteigend]** , um Assets nach den von Ihnen ausgewählten Kriterien in auf- oder absteigender Reihenfolge zu sortieren.
 
@@ -51,7 +51,7 @@ Verwenden Sie das Feld Suchen in der Asset-Bibliothek, um einfache Suchen durchf
 1. Geben Sie im Feld Suchen einen Suchbegriff ein.
 1. Wählen Sie rechts neben dem Feld Suchen die Option **[!UICONTROL Los]** oder drücken **[!UICONTROL Eingabe]**.
 
-   Die Suchergebnisse werden im Durchsuchenbedienfeld auf der rechten Seite angezeigt.
+   Die Ergebnisse Ihrer Suche werden im Bedienfeld Durchsuchen auf der rechten Seite angezeigt.
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
@@ -81,7 +81,7 @@ Geben Sie eines der folgenden Kriterien in Ihrer erweiterten Suche an:
 
 Wählen Sie die **[!UICONTROL Suchfeld entfernen]** -Symbol (Kreis mit &quot;X&quot;innen), sodass das Suchfeld gelöscht wird.
 
-Wählen Sie in der rechten unteren Ecke des Bereichs Erweiterte Suche die Option **[!UICONTROL Suche]** um Ihre Suche zu starten. Die Suchergebnisse werden im Durchsuchenbedienfeld auf der rechten Seite angezeigt. Sie können eine beliebige Suchbedingung ändern und **[!UICONTROL Suche]** , um die Suche erneut auszuführen.
+Wählen Sie in der rechten unteren Ecke des Bereichs Erweiterte Suche die Option **[!UICONTROL Suche]** um Ihre Suche zu starten. Die Suchergebnisse werden im Bedienfeld Durchsuchen auf der rechten Seite angezeigt. Sie können eine beliebige Suchbedingung ändern und **[!UICONTROL Suche]** , um die Suche erneut auszuführen.
 
 Auswählen **[!UICONTROL Löschen]** , wenn Sie die Suchkriterien löschen und eine neue Suche starten möchten. Auswählen **[!UICONTROL Schließen]** wenn Sie die Suche zum Schließen des Suchbereichs abgeschlossen haben.
 
@@ -131,7 +131,7 @@ Führen Sie die folgenden Schritte aus, damit Sie nach Assets suchen können, in
 1. Wiederholen Sie Schritt 2 so oft wie nötig, um alle Metadatenfelder in Bedienfeldern anzuzeigen, die Sie für den Filtervorgang verwenden möchten.
 1. Wählen Sie in jedem Bedienfeld einen Metadatenwert aus, nach dem gefiltert werden soll. Sie können nicht mehr als einen Metadatenwert in jedem Bedienfeld auswählen.
 
-   Assets, die mit allen ausgewählten Werten übereinstimmen, werden im Durchsuchenbedienfeld angezeigt.
+   Assets, die mit allen ausgewählten Werten übereinstimmen, werden im Bedienfeld &quot;Durchsuchen&quot;angezeigt.
 
    >[!NOTE]
    >

@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -86,7 +86,7 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 
 Weitere Informationen zu standardisierten Eigenschaften finden Sie unter [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
-1. Wählen Sie im Durchsuchenbedienfeld die Bilder aus, denen Sie Metadaten aus der tabulatorgetrennten oder XML-Datei hinzufügen möchten.
+1. Wählen Sie im Bedienfeld Durchsuchen die Bilder aus, denen Sie Metadaten aus der tabulatorgetrennten Datei oder XML-Datei hinzufügen möchten.
 1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Metadaten importieren]**.
 1. Im **[!UICONTROL Hochladen von Metadaten]** Dialogfeld auswählen **[!UICONTROL Durchsuchen]**.
 1. Wählen Sie im Dialogfeld **[!UICONTROL Hochzuladende Dateien auswählen]** die tabulatorgetrennte Datei bzw. die XML-Datei mit den Metadaten aus.
@@ -135,7 +135,7 @@ Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL
 
 ## Stapel-Umbenennung von IDs mit Metadaten {#batch-rename-ids-using-metadata}
 
-Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder einer XML-Datei importiert wurden, können Sie Adobe Dynamic Media Classic-IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Es spielt keine Rolle, ob Bilder im Durchsuchenbedienfeld ausgewählt sind.
+Mithilfe von Metadaten, die aus einer tabulatorgetrennten Datei oder einer XML-Datei importiert wurden, können Sie Adobe Dynamic Media Classic-IDs umbenennen. Die importierten Metadaten werden nur auf die in der Metadatendatei selbst angegebenen Bilder angewendet. Es spielt keine Rolle, ob Bilder im Bedienfeld &quot;Durchsuchen&quot;ausgewählt sind.
 
 Um die Adobe Dynamic Media Classic ID eines Bildes umzubenennen, fügen Sie eine Spalte mit der Bezeichnung *newipsid* der tabulatorgetrennten Datei hinzugefügt oder ein Feld mit dem Namen `new_vc_objectname` zu den XML-Daten.
 

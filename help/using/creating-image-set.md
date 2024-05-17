@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 38%
@@ -47,7 +47,7 @@ Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Auswählen der Bilder zuerst**: Wählen Sie im Durchsuchenbedienfeld die Bilder aus, die Sie für das Bildset verwenden möchten, und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Bildsets]**.
+   * **Auswählen der Bilder zuerst**: Wählen Sie im Bedienfeld Durchsuchen die Bilder aus, die Sie für das Bildset verwenden möchten, navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Bildsets]**.
 
    * **Starten Sie über den Bildschirm &quot;Bildset&quot;**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Bildsets]**. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
 

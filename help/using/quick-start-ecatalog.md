@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 25%
@@ -70,7 +70,7 @@ Siehe [PDF-Dateien hochladen](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. Erstellen eines E-Katalogs
 
-Erstellen Sie den E-Katalog, indem Sie im Durchsuchenbedienfeld PDF oder Bilddateien auswählen. Auswählen **[!UICONTROL Build]**, wählen Sie **[!UICONTROL E-Kataloge]**.
+Erstellen Sie Ihren eCatalog, indem Sie im Bedienfeld Durchsuchen PDF- oder Bilddateien auswählen. Auswählen **[!UICONTROL Build]**, wählen Sie **[!UICONTROL E-Kataloge]**.
 
 Auf der eCatalog-Seite finden Sie auf der **[!UICONTROL Bestellseiten]** Wählen Sie eine Layout -Option aus: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Benutzerdefiniert]**. Sie können die Anordnung der Seiten oder Druckbögen durch Ziehen oder, insbesondere in großen E-Katalogen, durch Auswahl eines Seitennamens im Menü „Verschieben nach“ ändern.
 
@@ -108,7 +108,7 @@ Siehe [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md#
 
 Mithilfe von E-Katalog-Viewer-Vorgaben wird der Stil und das Verhalten von E-Katalog-Viewern festgelegt.
 
-Um herauszufinden, wie eCatalog-Viewer-Vorgaben Ihren E-Katalog anzeigen, wählen Sie Ihren eCatalog im Durchsuchenbedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
+Um herauszufinden, wie eCatalog-Viewer-Vorgaben Ihren E-Katalog anzeigen, wählen Sie Ihren eCatalog im Bedienfeld Durchsuchen aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
 
 Achten Sie auf Ausrichtung, Farbschema, Aussehen der Steuerelemente zum Umblättern der Seiten und Aussehen der Seiten beim Umblättern. 
 
@@ -118,7 +118,7 @@ Siehe [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-e
 
 Durch das Veröffentlichen Ihres E-Katalogs und des zugehörigen PDF wird dieser auf Dynamic Media-Bildservern platziert, damit er auf Ihrer Website und in Ihrer Anwendung bereitgestellt werden kann. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den eCatalog von Dynamic Media Image-Servern für Ihre Website oder Anwendung aufzurufen.
 
-Nachdem Sie Ihren E-Katalog und Ihren PDF zur Veröffentlichung im Durchsuchenbedienfeld markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Nachdem Sie Ihren eCatalog und Ihren PDF zur Veröffentlichung im Bedienfeld Durchsuchen markiert haben, wählen Sie in der Symbolleiste für globale Navigation die Schaltfläche Veröffentlichen aus, um eine Veröffentlichung zu starten. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

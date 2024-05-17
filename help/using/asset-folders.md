@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Stellen Sie vor dem Hochladen von Dateien eine Ordnerstruktur und -organisation 
 
 ## Anzeigen, Verschieben, Ausblenden und Öffnen von Ordnern {#displaying-moving-hiding-and-opening-folders}
 
-In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie in der Asset-Bibliothek einen Ordner auswählen, wird der Ordnerinhalt im Durchsuchenbedienfeld angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
+In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird der zugehörige Inhalt im Bedienfeld Durchsuchen angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
 * **Anzeigen von Unterordnern**: Wählen Sie die **[!UICONTROL Ordner erweitern]** -Symbol, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
@@ -33,11 +33,11 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 * **Ordner ausblenden**: Wählen Sie die **[!UICONTROL Ordner reduzieren]** -Symbol, wenn Sie Unterordner reduzieren möchten, um sie vor der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn Sie seinen Inhalt im Durchsuchenbedienfeld anzeigen möchten.
+* **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn Sie seinen Inhalt im Bedienfeld Durchsuchen anzeigen möchten.
 
 >[!TIP]
 >
->Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie die **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auf der linken Seite. Schränken Sie die Anzeige der Asset-Bibliothek ein, wenn Sie mehr Platz für die Arbeit im Durchsuchenbedienfeld benötigen.
+>Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie die **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auf der linken Seite. Reduzieren Sie das Bedienfeld &quot;Asset-Bibliothek&quot;, wenn Sie mehr Platz für die Arbeit im Bedienfeld &quot;Durchsuchen&quot;benötigen.
 
 ## Ordner erstellen
 

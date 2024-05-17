@@ -10,7 +10,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -23,7 +23,7 @@ Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic M
 
 ## Markieren eines Rotationssets zur Veröffentlichung {#marking-a-spin-set-for-publish}
 
-Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Durchsuchenbedienfeld die **[!UICONTROL Zur Veröffentlichung markieren]** Symbol links neben dem Namen. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
+Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen die Option **[!UICONTROL Zur Veröffentlichung markieren]** Symbol links neben dem Namen. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
 
 ## Veröffentlichen des Rotationssets {#publishing-the-spin-set}
 

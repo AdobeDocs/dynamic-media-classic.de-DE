@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # Erstellen eines E-Katalogs {#creating-an-ecatalog}
 
-Zum Erstellen eines E-Katalogs müssen die Seiten geordnet, das Seitenlayout ausgewählt und die Seiten durch Zeichnen von Imagemaps und Eingabe von Rollover- und Hypertext-Verknüpfungsdaten verknüpft werden. Optional können Sie das Inhaltsverzeichnis so anpassen, dass die Betrachter der Website anstelle von Seitenzahlen individuelle Seitennamen im E-Katalog-Viewer sehen.
+Das Erstellen eines E-Katalogs umfasst das Sortieren der Seiten, das Auswählen des Seitenlayouts und das Verknüpfen der Seiten durch Zeichnen von Imagemaps. Außerdem müssen Rollover- und Hypertext-Link-Daten eingegeben werden. Optional können Sie das Inhaltsverzeichnis so anpassen, dass die Betrachter der Website anstelle von Seitenzahlen individuelle Seitennamen im E-Katalog-Viewer sehen.
 
 ## Erstellen eines eCatalog {#create}
 
@@ -38,9 +38,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Wählen Sie zu Beginn der Erstellung eines E-Katalogs eine der folgenden Vorgehensweisen:
 
-   * **Wählen Sie zuerst die Dateien aus**: Wählen Sie im Durchsuchenbedienfeld Dateien aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**.
+   * **Wählen Sie zuerst die Dateien aus**: Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;Dateien aus und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**.
 
-   * **Vom eCatalog-Bildschirm starten**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten Dateien dann aus dem Ordner auf die Registerkarte „Seiten ordnen“ der Seite „E-Katalog“.
+   * **Vom eCatalog-Bildschirm starten**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL E-Kataloge]**. Wählen Sie einen Ordner in der Asset-Bibliothek aus. Ziehen Sie Dateien aus dem Ordner in die Registerkarte &quot;Seiten ordnen&quot;der eCatalog-Seite.
 
      >[!NOTE]
      >
@@ -58,7 +58,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Wenn Sie fertig sind, stellen Sie in der Nähe der rechten unteren Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Auswählen **[!UICONTROL Speichern]**.
-1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem der E-Katalog gespeichert werden soll. Geben Sie in das Feld „Dateiname“ den Namen des Rotationssets ein.
+1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem der E-Katalog gespeichert werden soll. Geben Sie im Feld Dateiname den Namen des Rotationssets ein.
 1. Auswählen **[!UICONTROL Speichern]**.
 
    Nach dem Speichern können Sie eine Vorschau des E-Katalogs anzeigen, indem Sie **[!UICONTROL Vorschau]**.
@@ -98,7 +98,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 Adobe Dynamic Media Classic stellt in Ihrem E-Katalog auf der Registerkarte &quot;Seiten bestellen&quot;des E-Katalog-Bildschirms die standardmäßigen Seitenzahlen bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Cover&quot;anstelle von &quot;Page 0-1&quot;lauten.
 
-Sie können ein benutzerdefiniertes Inhaltsverzeichnis (TOC) für Ihren eCatalog manuell erstellen oder die Seitennamen aus einer CSV- (nur Mac) oder XML-Datei importieren.
+Sie können ein benutzerdefiniertes Inhaltsverzeichnis (TOC) für Ihren eCatalog manuell erstellen. Sie können die Seitennamen auch aus einer CSV- (nur Mac) oder einer XML-Datei importieren.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Sie können ein benutzerdefiniertes Inhaltsverzeichnis (TOC) für Ihren eCatalog
 
 ### Manuelles Eingeben von Seitennamen {#manually-entering-page-names}
 
-Um Seitennamen einzeln von Hand einzugeben, rufen Sie im Anzeigebereich „E-Katalog“ die Registerkarte „Seiten ordnen“ auf. Geben Sie dann im Feld &quot;Seitenzahl&quot;einen Namen für jede Seite ein, die Sie benennen möchten.
+Geben Sie Seitennamen einzeln manuell ein, indem Sie im E-Katalog-Bildschirm auf die Registerkarte &quot;Seiten sortieren&quot;gehen. Geben Sie dann im Feld &quot;Seitenzahl&quot;einen Namen für jede Seite ein, die Sie benennen möchten.
 
 ### Importieren von Seitennamen {#importing-page-names}
 

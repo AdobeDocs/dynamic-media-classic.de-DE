@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
    * Um eine Viewer-Vorgabe für gemischte Mediensets zu bearbeiten, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Geben Sie auf der Seite &quot;Konfigurations-Viewer&quot;im Feld &quot;Vorgabenname&quot;einen Namen für die Viewer-Vorgabe für gemischte Mediensets ein.
-1. Angeben **[!UICONTROL Registerkarten]** oder **[!UICONTROL Keine Registerkarten]**. Über Registerkarten können Sie Elemente nach Typ, wie z. B. Videos, Mustersets oder Rotationsets trennen. Wenn Sie keine Registerkarten angeben, werden alle Elemente in einer Zeile unter dem Vorschaufenster angezeigt.
+1. Angeben **[!UICONTROL Registerkarten]** oder **[!UICONTROL Keine Registerkarten]**. Registerkarten trennen Elemente nach Typ, z. B. Videos, Muster und Rotationssets. Wenn Sie keine Registerkarten angeben, werden alle Elemente in einer Zeile unter dem Vorschaufenster angezeigt.
 1. Im **[!UICONTROL Name]** ein, geben Sie einen Namen für den Viewer ein, den Sie hinzufügen möchten.
 
    Wenn Sie beispielsweise ein Musterset zu Ihrem gemischten Medienset hinzufügen, geben Sie `Swatch Set A`.

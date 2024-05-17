@@ -10,7 +10,7 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 17%
@@ -41,7 +41,7 @@ Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding
 
 ## 4. Vorschau eines Mustersets anzeigen
 
-Wählen Sie das Musterset im Durchsuchenbedienfeld aus und wählen Sie dann **[!UICONTROL Vorschau]**. Ihr Musterset wird auf dieser Seite angezeigt. Wählen Sie die Miniaturansichten und Mustersymbole aus, damit Sie das Musterset im ausgewählten Viewer untersuchen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
+Wählen Sie das Musterset im Bedienfeld &quot;Durchsuchen&quot;aus und wählen Sie dann **[!UICONTROL Vorschau]**. Ihr Musterset wird auf dieser Seite angezeigt. Wählen Sie die Miniaturansichten und Mustersymbole aus, damit Sie das Musterset im ausgewählten Viewer untersuchen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
 
 Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
@@ -49,7 +49,7 @@ Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
 Beim Veröffentlichen eines Mustersets wird es auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
-Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Bedienfeld &quot;Durchsuchen&quot;links neben seinem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '3433'
 ht-degree: 36%
@@ -44,7 +44,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 
 1. Verwenden Sie eine der folgenden Methoden, um Ihre Ausgangsvorlage zu erstellen:
 
-   * **Wählen Sie zuerst die PSD oder die Bilder aus**: Wählen Sie im Durchsuchenbedienfeld die PSD-Datei(en) aus, die Sie für Ihre Vorlage verwenden möchten, und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**.
+   * **Wählen Sie zuerst die PSD oder die Bilder aus**: Wählen Sie im Bedienfeld Durchsuchen die PSD-Datei(en) aus, die Sie für Ihre Vorlage verwenden möchten, und navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**.
 
    * **Vom Bildschirm &quot;Vorlage&quot;aus starten**: Gehen Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. 
 

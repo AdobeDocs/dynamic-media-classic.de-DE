@@ -10,7 +10,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 41%
@@ -25,7 +25,7 @@ Siehe auch [Erstellen eines Alias für ein Bild](adjusting-image.md#creating_an_
 
 **So passen Sie ein Bild an:**
 
-1. Wählen Sie die Rollover-Schaltfläche &quot;Bearbeiten&quot;des Bildes aus und wählen Sie &quot;Anpassen&quot;oder doppelklicken Sie im Durchsuchenbedienfeld auf das Bild, damit es in der Detailansicht geöffnet wird.
+1. Wählen Sie die Rollover-Schaltfläche &quot;Bearbeiten&quot;des Bildes aus und wählen Sie &quot;Anpassen&quot;oder doppelklicken Sie im Bedienfeld &quot;Durchsuchen&quot;auf das Bild, damit es in der Detailansicht geöffnet wird.
 1. Wählen Sie eine Größe und eine Bildvorgabe aus (unten in der Ansicht).
 1. Verwenden Sie die Befehle auf der rechten Seite des `Adjust Editor` -Fenster, damit Sie das Bild anpassen können:
 

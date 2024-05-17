@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -116,7 +116,7 @@ Siehe [Arbeiten mit Videokodierungsvorgaben](uploading-encoding-videos.md#workin
 
 ## 2. Vorschau von Videos in einem Video-Viewer
 
-Um zu sehen, wie ein Video für Endbenutzer auf einem Desktop, Ihrer Website oder einem Mobilgerät wiedergegeben wird, wählen Sie das Video im Durchsuchenbedienfeld aus. Wählen Sie anschließend **[!UICONTROL Vorschau]**.
+Um zu sehen, wie ein Video für Endbenutzer auf einem Desktop, Ihrer Website oder einem Mobilgerät wiedergegeben wird, wählen Sie das Video im Bedienfeld Durchsuchen aus. Wählen Sie anschließend **[!UICONTROL Vorschau]**.
 
 Siehe [Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -136,7 +136,7 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
 * Zeigen Sie das Video in einem eigenen Popup- oder modalen Fenster an. Verwenden Sie in diesem Fall die **[!UICONTROL URL kopieren]** Funktion.
 
-  Um eine URL für ein Video entweder in der Raster- oder Listenansicht zu erhalten, wählen Sie das Video im Bedienfeld „Durchsuchen“ aus. Auswählen **[!UICONTROL Vorschau]** und wählen Sie **[!UICONTROL URL kopieren]** auf das Recht `Universal_HTML5_Viewer`.
+  Um die URL für ein Video abzurufen, wählen Sie sie in der Rasteransicht oder Listenansicht im Bedienfeld &quot;Durchsuchen&quot;aus. Auswählen **[!UICONTROL Vorschau]** und wählen Sie **[!UICONTROL URL kopieren]** auf das Recht `Universal_HTML5_Viewer`.
 
   Wenn Sie **[!UICONTROL URL kopieren]**, wird die URL in die Zwischenablage kopiert. Fügen Sie diesen Code in den HTML-Code Ihrer Website, mobilen Site oder Anwendung ein. 
 
@@ -146,7 +146,7 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
 * Zeigen Sie das eingebettete Video auf der Webseite an. Verwenden Sie in diesem Fall die **[!UICONTROL Einbettungscode]** Funktion.
 
-  Um den Einbettungscode für ein Video abzurufen, wählen Sie in der Raster- oder Listenansicht das Video im Durchsuchenbedienfeld aus. Navigieren Sie zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungscode]** auf das Recht `Universal_HTML5_Video`. Das Bearbeiten des Codes ist nicht zulässig.
+  Um den Einbettungscode für ein Video abzurufen, wählen Sie in der Raster- oder Listenansicht das Video im Bedienfeld Durchsuchen aus. Navigieren Sie zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungscode]** auf das Recht `Universal_HTML5_Video`. Das Bearbeiten des Codes ist nicht zulässig.
 
   Auswählen **[!UICONTROL Schließen]** und fügen Sie den Einbettungscode in eine oder mehrere Ihrer Webseiten ein.
 

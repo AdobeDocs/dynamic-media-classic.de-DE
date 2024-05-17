@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -37,9 +37,9 @@ Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL
 
 ## 2. Erstellen von Zoomzielen für geführtes Zoomen
 
-Mithilfe von Zoomzielen können Sie bestimmte Bildausschnitte hervorheben. Beispielsweise können Sie die Aufmerksamkeit auf die Bildausschnitte lenken, die das Bild einmalig oder unverwechselbar machen. Im Zoom-Viewer-Fenster werden Zoomziele als Miniaturansichten neben dem Bild angezeigt. Bei Auswahl der Miniaturansicht eines dieser Zoomziele wird automatisch der zugeordnete Bildausschnitt herangezoomt.
+Mithilfe von Zoomzielen können Sie bestimmte Bildausschnitte hervorheben. Beispielsweise können Sie die Aufmerksamkeit auf die Bildausschnitte lenken, die das Bild einmalig oder unverwechselbar machen. Im Zoom-Viewer-Fenster werden Zoomziele in Form von Miniaturbildern neben dem Bild angezeigt. Bei Auswahl der Miniaturansicht eines dieser Zoomziele wird automatisch der zugeordnete Bildausschnitt herangezoomt.
 
-Um ein Zoomziel zu erstellen, wählen Sie **[!UICONTROL Bearbeiten]** und &quot;Zoomziele&quot;auswählen oder ein Bild im Durchsuchenbedienfeld in der Detailansicht öffnen und dann **[!UICONTROL Zoomziele]**. Verwenden Sie dann die Zoom-Tools auf der Seite &quot;Zoom-Ziel-Editor&quot;, damit Sie einen Teil des Bildes als Ziel isolieren können. Siehe [Zoomziele für geführten Zoom erstellen](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+Um ein Zoomziel zu erstellen, wählen Sie **[!UICONTROL Bearbeiten]** und &quot;Zoomziele&quot;auswählen oder ein Bild im Bedienfeld &quot;Durchsuchen&quot;in der Detailansicht öffnen und dann **[!UICONTROL Zoomziele]**. Verwenden Sie dann die Zoom-Tools auf der Seite &quot;Zoom-Ziel-Editor&quot;, damit Sie einen Teil des Bildes als Ziel isolieren können. Siehe [Erstellen von Zoomzielen für geführten Zoom](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3. Einrichten von Zoom-Viewer-Vorgaben
 
@@ -53,7 +53,7 @@ Adobe Dynamic Media Classic-Angebote **[!UICONTROL Zoom-Viewer-Vorgabe]** -Optio
 
 Um vorab zu sehen, wie die gezoomten Bilder aussehen werden, können Sie eine Vorschau der Bilder in einem Zoom-Viewer anzeigen.
 
-Um verschiedene Zoom-Viewer-Vorgaben zu untersuchen und wie sie das Zoom-Erlebnis darstellen, wählen Sie ein Bild im Durchsuchenbedienfeld aus und wählen Sie **[!UICONTROL Vorschau]**. Navigieren Sie zu **[!UICONTROL Vorgaben]** > **[!UICONTROL Zoom]** und wählen Sie dann eine Vorgabe im Menü Zoom aus.
+Um verschiedene Zoom-Viewer-Vorgaben zu untersuchen und wie sie das Zoom-Erlebnis darstellen, wählen Sie ein Bild im Bedienfeld &quot;Durchsuchen&quot;aus und wählen Sie **[!UICONTROL Vorschau]**. Navigieren Sie zu **[!UICONTROL Vorgaben]** > **[!UICONTROL Zoom]** und wählen Sie dann eine Vorgabe im Menü Zoom aus.
 
 Die Zoomschaltflächen werden angezeigt. Sie können sehen, wie die Zoombilder auf Ihrer Website aussehen. Wählen Sie die Zoom-Schaltflächen (und Zoomziele) aus, damit Sie die Einstellungen der ausgewählten Zoom-Viewer-Vorgabe testen können. Siehe [Vorschau von Bildern mit unterschiedlichen Zoom-Viewern](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 

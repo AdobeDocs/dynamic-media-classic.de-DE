@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -45,7 +45,7 @@ Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.
 
 **So scharfzeichnen Sie ein Bild:**
 
-Um ein Bild scharfzuzeichnen, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** Schaltfläche und wählen Sie **[!UICONTROL Scharfzeichnen]** oder öffnen Sie es im Durchsuchenbedienfeld in der Detailansicht und wählen Sie dann **[!UICONTROL Scharfzeichnen]**. Die Seite mit dem Scharfzeichnungseditor wird mit Scharfzeichnungsbefehlen geöffnet. Wählen Sie die gewünschten Befehle aus und klicken Sie auf **[!UICONTROL Speichern]**.
+Um ein Bild scharfzuzeichnen, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** Schaltfläche und wählen Sie **[!UICONTROL Scharfzeichnen]** oder öffnen Sie es im Bedienfeld &quot;Durchsuchen&quot;in der Detailansicht und wählen Sie dann **[!UICONTROL Scharfzeichnen]**. Die Seite mit dem Scharfzeichnungseditor wird mit Scharfzeichnungsbefehlen geöffnet. Wählen Sie die gewünschten Befehle aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >

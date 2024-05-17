@@ -10,7 +10,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 7%
@@ -19,11 +19,11 @@ ht-degree: 7%
 
 # Bilder bearbeiten{#editing-images}
 
-Adobe Dynamic Media Classic bietet viele Tools zum Erstellen von Rich-Media-Effekten. Diese Tools sind verfügbar, indem Sie das Rollover auswählen **[!UICONTROL Bearbeiten]** und im Durchsuchenbedienfeld in der Detailansicht. Sie können die folgenden Bildbearbeitungsaufgaben in Adobe Dynamic Media Classic ausführen:
+Adobe Dynamic Media Classic bietet viele Tools zum Erstellen von Rich-Media-Effekten. Diese Tools sind verfügbar, indem Sie das Rollover auswählen **[!UICONTROL Bearbeiten]** und im Bedienfeld &quot;Durchsuchen&quot;in der Detailansicht. Sie können die folgenden Bildbearbeitungsaufgaben in Adobe Dynamic Media Classic ausführen:
 
 * **Erstellen von Imagemaps**: Um eine Imagemap zu erstellen, wählen Sie den Befehl Bild oder **[!UICONTROL Imagemap]** Schaltfläche. Eine Imagemap ist ein Hotspot auf einem Bild, einer eCatalog-Seite oder ein Bild in einem Rotationsset, der ein Bedienfeld mit Rollover-Text anzeigt. Benutzer können beispielsweise eine Imagemap auswählen, um eine neue Webseite zu starten. Siehe [Erstellen von Imagemaps](/help/using/creating-image-maps.md).
 
-* **Zoomziele erstellen**: Um Miniaturansichten zu erstellen, können Sie den Befehl Zoomziele oder die **[!UICONTROL Zoomziele]** Schaltfläche. Benutzer können im Zoom-Viewer eine Miniaturansicht als Ziel auswählen, um direkt auf einen bestimmten Teil eines Bildes zu zoomen. Siehe [Zoomziele für geführten Zoom erstellen](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Zoomziele erstellen**: Um Miniaturansichten zu erstellen, können Sie den Befehl Zoomziele oder die **[!UICONTROL Zoomziele]** Schaltfläche. Benutzer können im Zoom-Viewer eine Miniaturansicht als Ziel auswählen, um direkt auf einen bestimmten Teil eines Bildes zu zoomen. Siehe [Erstellen von Zoomzielen für geführten Zoom](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Zuschneiden eines Bildes**: Um ein Bild zuzuschneiden, wählen Sie den Befehl &quot;Zuschneiden&quot;oder **[!UICONTROL Zuschneiden]** Schaltfläche. Siehe [Zuschneiden eines Bildes](/help/using/cropping-image.md).
 

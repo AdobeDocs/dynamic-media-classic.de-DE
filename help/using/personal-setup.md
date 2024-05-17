@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 23%
+source-wordcount: '830'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von
 >
 >Im Bildschirm Persönliche Einstellungen wird angezeigt, welche Benutzerrolle Sie in Adobe Dynamic Media Classic haben: Unternehmensadministrator, Administrator oder Benutzer.
 
-Die persönlichen Einstellungen steuern das Standardverhalten des Durchsuchenbedienfelds, den E-Mail-Empfang und die Kennworteinstellungen. Auswahl speichern **[!UICONTROL Speichern]** nachdem Sie diese Einstellungen geändert haben.
+Die persönlichen Einstellungen steuern das Standardverhalten des Bedienfelds Durchsuchen , den E-Mail-Empfang und die Kennworteinstellungen. Auswahl speichern **[!UICONTROL Speichern]** nachdem Sie diese Einstellungen geändert haben.
 
 ## Eigene Konto-Informationen
 
@@ -72,9 +72,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Browser
 
-* **[!UICONTROL Größe der Miniaturansichten]**: Legt die Standardgröße von Miniaturbildern in der Rasteransicht im Durchsuchenbedienfeld fest.
+* **[!UICONTROL Größe der Miniaturansichten]**: Legt die Standardgröße von Miniaturbildern in der Rasteransicht im Bedienfeld &quot;Durchsuchen&quot;fest.
 * **[!UICONTROL Standardansicht der Asset-Bibliothek]**: Bestimmt, ob die Assets in der Asset-Bibliothek für Buildsets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
-* **[!UICONTROL Standardmäßige Sortierreihenfolge für Durchsuchen]**: Bestimmt die Reihenfolge, in der Assets standardmäßig im Durchsuchenbedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
+* **[!UICONTROL Standardmäßige Sortierreihenfolge für Durchsuchen]**: Bestimmt die Reihenfolge, in der Assets standardmäßig im Bedienfeld Durchsuchen angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
 * **[!UICONTROL Standardspeicherort für Durchsuchen]**: Hiermit können Sie den Durchsuchspeicherort auf den Standardwert, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und ihn identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
 * **[!UICONTROL Standardmäßige Durchsuchen-Ansicht]**: Bestimmt, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie beim ersten Öffnen des Bedienfelds &quot;Durchsuchen&quot;sehen.
 * **[!UICONTROL Splash Screen Display]**: Bestimmt, ob Begrüßungsbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
@@ -83,7 +83,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Dateigröße anzeigen]**: Zeigt die Dateigröße eines Assets beim Durchsuchen an.
 * **[!UICONTROL Einschließen von UDFs in die Suche]**: Um die Systemleistung für die meisten von Ihnen ausgeführten Metadatensuchen zu verbessern, deaktivieren Sie (Standard).
 
-  Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ bietet Ihnen die erweiterte Suche eine zielgerichtetere und schnellere Suche als bei der Verwendung benutzerdefinierter Felder.
+  Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Verwenden Sie alternativ die erweiterte Suche , um eine zielgerichtetere und schnellere Suche zu ermöglichen, als durch Einbeziehung benutzerdefinierter Felder.
 
   Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
 
@@ -107,7 +107,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL Aktuelles Passwort]**: Geben Sie das Passwort Ihres aktuellen Passworts ein.
 * **[!UICONTROL Neues Kennwort]**: Geben Sie ein neues gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
-   * Zwischen 8 und 25 Zeichen lang sein.
+   * Sie muss zwischen 8 und 25 Zeichen lang sein.
    * mindestens einen Kleinbuchstaben enthalten.
    * mindestens einen Großbuchstaben enthalten.
    * mindestens eine Zahl enthalten.

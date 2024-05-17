@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 21%
 
 ---
@@ -63,7 +63,7 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
       * **[!UICONTROL Ebenenname]**: Benennt die Bilder nach ihren Ebenennamen in der PSD-Datei. Wenn eine Ebene der PSD-Originaldatei beispielsweise „Preisschild“ heißt, wird auch das zugehörige Bild „Preisschild“ genannt. Wenn es sich bei den Ebenennamen in der PSD-Datei jedoch um standardmäßige Photoshop-Ebenennamen handelt (Hintergrund, Ebene 1, Ebene 2 usw.), werden die Bilder nach ihren Ebenennummern in der PSD-Datei benannt. <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop und Ebenennummer]**: Benennt die Bilder nach ihren Ebenennummern in der PSD-Datei, wobei die ursprünglichen Ebenennamen ignoriert werden. Die Bilder werden mit dem Photoshop-Dateinamen und einer angefügten Nummer der Ebene benannt. Beispielsweise die zweite Ebene einer Datei mit dem Namen `Spring Ad.psd` heißt `Spring Ad_2` auch wenn es in Photoshop einen nicht standardmäßigen Namen hatte.
+      * **[!UICONTROL Photoshop und Ebenennummer]**: Benennt die Bilder nach ihren Ebenennummern in der PSD-Datei und ignoriert dabei die ursprünglichen Ebenennamen. Die Bilder werden mit dem Photoshop-Dateinamen und einer angefügten Nummer der Ebene benannt. Beispielsweise die zweite Ebene einer Datei mit dem Namen `Spring Ad.psd` heißt `Spring Ad_2` auch wenn es in Photoshop einen nicht standardmäßigen Namen hatte.
 
       * **[!UICONTROL Photoshop und Ebenenname]**: Benennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Nummern der Ebenen werden verwendet, wenn es sich bei den Namen der Ebenen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt. Beispiel: eine Ebene mit dem Namen `Price Tag` in einer PSD-Datei mit dem Namen `SpringAd` heißt `Spring Ad_Price Tag`. Eine Ebene mit dem Standardnamen Ebene 2 wird als `Spring Ad_2`.
 
@@ -71,13 +71,13 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
 ## Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei {#viewing-and-editing-layers-in-a-psd-file}
 
-Wenn Sie die Option ausgewählt haben **[!UICONTROL Ebenen beibehalten]** Beim Hochladen der PSD hat Adobe Dynamic Media Classic die einzelnen Ebenen in Assets gerippt. Sie können die zu einer PSD-Datei gehörigen Asset-Ebenen anzeigen und bearbeiten, indem Sie sie im Durchsuchenbedienfeld in der Detailansicht öffnen.
+Wenn Sie die Option ausgewählt haben **[!UICONTROL Ebenen beibehalten]** Beim Hochladen der PSD hat Adobe Dynamic Media Classic die einzelnen Ebenen in Assets gerippt. Sie können die zu einer PSD-Datei gehörigen Asset-Ebenen anzeigen und bearbeiten, indem Sie sie im Bedienfeld &quot;Durchsuchen&quot;in der Detailansicht öffnen.
 
 >[!NOTE]
 >
 >Adobe Dynamic Media Classic unterstützt bis zu fünf Ebenen in einer verschachtelten Ebenengruppe.
 
-1. Doppelklicken Sie im Durchsuchenbedienfeld auf die vollständige PSD-Datei. Die Datei wird in der Detailansicht geöffnet.
+1. Doppelklicken Sie im Bedienfeld Durchsuchen auf die vollständige PSD-Datei. Die Datei wird in der Detailansicht geöffnet.
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ Wenn Sie die Option ausgewählt haben **[!UICONTROL Ebenen beibehalten]** Beim H
 1. Doppelklicken Sie auf eine Ebene und führen Sie einen der folgenden Schritte aus:
 
    * Um eine Imagemap auf der Ebene zu erstellen, wählen Sie die **[!UICONTROL Imagemap]** Symbol. (Siehe [Erstellen von Imagemaps](creating-image-maps.md#creating_image_maps).
-   * Um Zoomziele für die Ebene zu erstellen, wählen Sie die **[!UICONTROL Zoomziele]** Symbol. (Siehe [Zoomziele für geführten Zoom erstellen](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+   * Um Zoomziele auf der Ebene zu erstellen, wählen Sie die **[!UICONTROL Zoomziele]** Symbol. (Siehe [Erstellen von Zoomzielen für geführten Zoom](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
    * Um die Ebene zu beschneiden, wählen Sie die **[!UICONTROL Zuschneiden]** Symbol. (Siehe [Zuschneiden eines Bildes](cropping-image.md#cropping_an_image).
    * Um die Ebene scharfzuzeichnen, wählen Sie **[!UICONTROL Scharfzeichnen]**. (Siehe [Scharfzeichnen von Bildern](sharpening-image.md#sharpening_an_image).
    * Um die Ebene anzupassen, wählen Sie **[!UICONTROL Anpassen]**. (Siehe [Bild anpassen](adjusting-image.md#adjusting_an_image).

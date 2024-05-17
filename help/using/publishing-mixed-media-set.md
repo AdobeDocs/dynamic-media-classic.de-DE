@@ -10,7 +10,7 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 12%
@@ -43,7 +43,7 @@ Last Modified Date:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie im Durchsuchen-Bedienfeld **[!UICONTROL Zur Veröffentlichung markieren]** neben jedem Dateinamen, den Sie veröffentlichen möchten.
+   * Wählen Sie im Bedienfeld Durchsuchen die Option **[!UICONTROL Zur Veröffentlichung markieren]** neben jedem Dateinamen, den Sie veröffentlichen möchten.
    * Wählen Sie im Bildschirm &quot;Hochladen&quot;die Option **[!UICONTROL Zur Veröffentlichung markieren]** neben jedem Dateinamen, den Sie veröffentlichen möchten.
 
 1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.

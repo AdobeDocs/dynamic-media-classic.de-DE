@@ -10,9 +10,9 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ Beim Veröffentlichen werden der E-Katalog und die PDF auf Dynamic Media-Image-S
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass sich Ihr E-Katalog und Ihr PDF im selben Ordner befinden und im Durchsuchenbedienfeld oder auf der Seite mit Asset-Details zur Veröffentlichung als veröffentlicht markiert sind.
+>Stellen Sie sicher, dass sich Ihr eCatalog und Ihr PDF im selben Ordner befinden. Stellen Sie außerdem sicher, dass sie im Bedienfeld &quot;Durchsuchen&quot;oder auf der Seite &quot;Asset-Details&quot;zur Veröffentlichung markiert sind, bevor Sie sie veröffentlichen.
 
 **So veröffentlichen Sie E-Kataloge und zugehörige PDF:**
 

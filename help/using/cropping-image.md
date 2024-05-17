@@ -10,7 +10,7 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 31%
@@ -31,7 +31,7 @@ Sie haben die Möglichkeit, durch Beschneiden den weißen Bereich um das Bild he
 
 Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch Beschneiden entfernen.
 
-1. Um ein Bild zuzuschneiden, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchenbedienfeld in der Detailansicht an und wählen Sie die **[!UICONTROL Zuschneiden]** Schaltfläche.
+1. Um ein Bild zuzuschneiden, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Bedienfeld &quot;Durchsuchen&quot;in der Detailansicht an und wählen Sie die **[!UICONTROL Zuschneiden]** Schaltfläche.
 1. Führen Sie auf der Seite &quot;Beschneidungseditor&quot;einen der folgenden Schritte aus:
 
    * Um Farbpixel zu beschneiden, gehen Sie zu **[!UICONTROL Zuschneiden]** > **[!UICONTROL Farbe]**. Im **[!UICONTROL Auto-Zuschneiden nach Farbe]** auswählen, wählen Sie das **[!UICONTROL Ecke]** und wählen Sie eine Ecke mit der Hintergrundfarbe aus, die Sie entfernen möchten. Geben Sie dann ein **[!UICONTROL Toleranz]** Einstellung von 0 bis 1. Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Auswählen **[!UICONTROL Zuschneiden]**.
@@ -45,7 +45,7 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 
 ## Auswählen eines zu beschneidenden Bereichs {#select-an-area-to-crop}
 
-1. Um ein Bild zuzuschneiden, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchenbedienfeld in der Detailansicht an und wählen Sie **[!UICONTROL Zuschneiden]**.
+1. Um ein Bild zuzuschneiden, wählen Sie dessen Rollover aus **[!UICONTROL Bearbeiten]** und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Bedienfeld &quot;Durchsuchen&quot;in der Detailansicht an und wählen Sie **[!UICONTROL Zuschneiden]**.
 
 1. Platzieren Sie im Fenster &quot;Beschneidungs-Editor&quot;den Teil des Bildes, den Sie nicht zuschneiden möchten, in das Zuschnittsfeld. Was auch immer innerhalb des Felds angezeigt wird, bleibt nach der Auswahl **[!UICONTROL Speichern]** und schneiden Sie das Bild ab.
 1. Führen Sie zum Anpassen des zu beschneidenden Bereichs einen der folgenden Schritte aus:

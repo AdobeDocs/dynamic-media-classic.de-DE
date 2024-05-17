@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 20%
@@ -42,7 +42,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 Sie können ein Asset in der Detailansicht anzeigen, damit Sie es genau untersuchen, in einer Vorschau anzeigen oder daran arbeiten können.
 
-1. Führen Sie im Durchsuchenbedienfeld einen der folgenden Schritte aus:
+1. Führen Sie im Bedienfeld &quot;Durchsuchen&quot;einen der folgenden Schritte aus:
 
    * Wählen Sie das Asset aus. Wählen Sie rechts oben in Adobe Dynamic Media Classic die Option **[!UICONTROL Detailansicht]** Symbol.
    * Doppelklicken Sie auf das gewünschte Asset.
@@ -56,7 +56,7 @@ Sie können ein Asset in der Detailansicht anzeigen, damit Sie es genau untersuc
 
 Die Detailansicht enthält Informationen zu einem Asset oder einer Datei. Diese Informationen werden zu einem Element angezeigt: dem Ordner, in dem es gespeichert ist, dem Dateinamen, dem Datum, an dem das Element in Adobe Dynamic Media Classic hochgeladen wurde, und dem Veröffentlichungsverlauf. Sie können Metadaten auch anzeigen und bearbeiten sowie Suchbegriffe für ein Asset in der Detailansicht hinzufügen.
 
-Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst aktiv, wenn Sie das Asset veröffentlichen. Für Bilder bietet die Detailansicht auch eine Liste erstellter und abgeleiteter Assets und Metadaten, z. B. Zoomziele und Bildsets.
+Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst aktiv, wenn Sie das Asset veröffentlichen. Für Bilder bietet die Detailansicht auch eine Liste erstellter und abgeleiteter Assets und Metadaten wie Zoomziele und Bildsets.
 
 ## Arbeiten mit Assets in der Detailansicht {#working-with-assets-in-detail-view}
 

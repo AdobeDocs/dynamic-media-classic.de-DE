@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 53%
+source-wordcount: '1014'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsa
 
 ## Anfordern eines gemeinsamen geheimen Schlüssels {#requesting-a-shared-secret-key}
 
-Anfordern einer *shared-secret key* von [Verwenden der Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um einen gemeinsam genutzten geheimen Schlüssel.
+Anfordern einer *shared-secret key* von [Verwenden der Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Im Fall des technischen Supports fordern Sie einen gemeinsamen geheimen Schlüssel an.
 
 Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Adobe Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
@@ -81,7 +81,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upl
 | --- | --- | --- |
 | op | Erforderlich | get_uploadtoken |
 | shared_secret | Erforderlich | Der gemeinsam genutzte geheime Schlüssel für das Unternehmen, das den Upload durchführt. |
-| expires | Optional | Anzahl der Sekunden, die das Upload-Token gültig ist. Der Standardwert ist 300 Sekunden, wenn nicht spezifiziert. |
+| expires | Optional | Anzahl der Sekunden, die das Upload-Token gültig ist. Der Standardwert beträgt 300 Sekunden, falls nicht anders angegeben. |
 
 **Beispiel-Rasterbild-URL:**
 
@@ -134,7 +134,7 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Dateigrößenbeschränkung.
 * Eine Liste der Dateinamenerweiterungen.
 * Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
-* Ob Hintergrund aussparen verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
+* Gibt an, ob ein Knock-out-Hintergrund verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
 Siehe Hintergrund aussparen in [Bildoptimierungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Der Name der hochzuladenden Datei.
 
@@ -181,7 +181,7 @@ Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formular
 | URL-Parameter | Erforderlich oder optional | Wert |
 | --- | --- | --- |
 | `op` | Erforderlich | Hochladen |
-| `upload_token` | Erforderlich | Upload-Token für den gemeinsamen geheimen Schlüssel für das Unternehmen. |
+| `upload_token` | Erforderlich | Laden Sie ein Token für den gemeinsamen geheimen Schlüssel hoch, der mit dem Unternehmen verknüpft ist. |
 | `company_name` | Erforderlich | Name des hochladenden Unternehmens. |
 | `file_limit` | Optional | Maximale Dateigröße (in Byte) für das Asset. |
 | `file_exts` | Optional | Liste der zulässigen Erweiterungen für die Bild-Asset-Datei. |

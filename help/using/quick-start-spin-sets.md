@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 21%
@@ -69,7 +69,7 @@ Siehe [Einrichten von Rotationsset-Viewer-Vorgaben](setting-spin-set-viewer-pres
 
 ## 5. Vorschau eines Rotationssets
 
-Wählen Sie das Rotationsset im Durchsuchenbedienfeld aus und wählen Sie dann **[!UICONTROL Vorschau]**. Halten Sie auf der Seite Vorschau die Maustaste gedrückt und ziehen Sie den Zeiger nach links oder rechts, um das Element visuell zu &quot;drehen&quot;.
+Wählen Sie das Rotationsset im Bedienfeld &quot;Durchsuchen&quot;aus und wählen Sie dann **[!UICONTROL Vorschau]**. Halten Sie auf der Seite Vorschau die Maustaste gedrückt und ziehen Sie den Zeiger nach links oder rechts, um das Element visuell zu &quot;drehen&quot;.
 
 Siehe [Vorschau eines Rotationssets](previewing-spin-set.md#previewing-a-spin-set).
 
@@ -77,7 +77,7 @@ Siehe [Vorschau eines Rotationssets](previewing-spin-set.md#previewing-a-spin-se
 
 Beim Veröffentlichen eines Rotationssets wird es auf Adobe Dynamic Media Classic-Servern platziert, damit es dynamisch auf Ihrer Website oder in Ihrer Anwendung bereitgestellt werden kann. Außerdem wird die URL-Zeichenfolge aktiviert, die das Rotationsset von Dynamic Media-Bildservern auf Ihre Website oder Anwendung aufruft.
 
-Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld neben dem Namen angezeigt. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]** , um eine Veröffentlichung zu initiieren. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung, indem Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Bedienfeld &quot;Durchsuchen&quot;neben dem Namen. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]** , um eine Veröffentlichung zu initiieren. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a-spin-set).
 

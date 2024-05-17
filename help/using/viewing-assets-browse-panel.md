@@ -10,16 +10,16 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 12%
+ht-degree: 5%
 
 ---
 
 # Anzeigen von Assets im Bedienfeld &quot;Durchsuchen&quot;{#viewing-assets-in-the-browse-panel}
 
-Sie können die Anzeige der Assets im Durchsuchenbedienfeld verändern, indem Sie auf eine Ansicht-Schaltfläche klicken:
+Sie können die Ansicht der Assets im Bedienfeld &quot;Durchsuchen&quot;ändern, indem Sie eine Ansicht-Schaltfläche auswählen:
 
 * **Rasteransicht**: Wählen Sie rechts oben im Adobe Dynamic Media Classic-Bildschirm die **[!UICONTROL Rasteransicht]** -Symbol, um Assets in Miniaturansichten in einem Raster anzuzeigen. In der Rasteransicht können Sie den Regler Miniaturansicht ziehen, um die Größe der Miniaturansichten zu ändern.
 

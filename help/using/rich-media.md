@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 16%
 
 ---
@@ -27,13 +27,13 @@ Siehe [Kurzanleitung: E-Katalog](/help/using/quick-start-ecatalog.md).
 * **eVideo**: Stellen Sie hochwertige Videoerlebnisse für mehrere Bildschirme bereit, einschließlich Desktops, Mobilgeräten und Tablets. Verwenden Sie vordefinierte Adobe Dynamic Media Classic-Kodierungsvorgaben oder passen Sie die Kodierung an, um die Qualität und Größe des Videos zu steuern. Organisieren, Durchsuchen und Suchen von Videos mit vollständiger Metadatenunterstützung für eine effiziente Verwaltung von Video-Assets.
 Siehe [Schnellstart: Video in Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
 
-* **Imagemaps**: Dynamische Bereitstellung von Bildern in beliebiger Größe und beliebigem Format auf Ihrer Website. Anstatt manuell viele Bilder in unterschiedlichen Größen zu erstellen, verwenden Sie nur ein primäres Bild. Da Adobe Dynamic Media Classic das angeforderte Bild bereitstellt, optimiert es das Bild für qualitativ hochwertige Ergebnisse in Bezug auf Größe, Format, Gewichtung, Qualität und Scharfzeichnung.
+* **Imagemaps**: Dynamische Bereitstellung von Bildern in beliebiger Größe und beliebigem Format auf Ihrer Website. Anstatt manuell viele Bilder in unterschiedlichen Größen zu erstellen, müssen Sie nur ein primäres Bild verwenden. Da Adobe Dynamic Media Classic das angeforderte Bild bereitstellt, optimiert es das Bild für qualitativ hochwertige Ergebnisse in Bezug auf Größe, Format, Gewichtung, Qualität und Scharfzeichnung.
 Siehe [Kurzanleitung: Bildgrößenänderung](/help/using/quick-start-image-sizing.md).
 
 * **Bildsets**: Stellen Sie ein interaktives Einkaufserlebnis bereit, in dem Benutzer Produkte in mehreren Ansichten anzeigen können. Sie können Zoom, mehrere Ansichten und Farbmuster für ein integriertes Anzeigeerlebnis kombinieren.
 Siehe [Kurzanleitung: Bildsätze](/help/using/quick-start-image-sets.md).
 
-* **Gemischte Mediensets**: Stellen Sie eine Mischung aus Bildsets, Rotationssets, Mustersets, Zoomzielen, Video und Audio in einer Präsentation bereit. Sie können gemischte Mediensets mit Registerkarten einrichten, um Videomaterial von Bildern zu trennen. Sie können auch angeben, wo und wie Muster und Zoomziele angezeigt werden, und Benutzern eine vollständige Multimedia-Ansicht Ihrer Produkte oder Dienste ermöglichen.
+* **Gemischte Mediensets**: Stellen Sie eine Mischung aus Bildsets, Rotationssets, Mustersets, Zoomzielen, Video und Audio in einer Präsentation bereit. Sie können gemischte Mediensets mit Registerkarten einrichten, um Videomaterial von Bildern zu trennen. Sie können auch angeben, wo und wie Muster und Zoom-Ziele angezeigt werden, und Benutzern eine vollständige Multimedia-Ansicht Ihrer Produkte oder Dienste bieten.
 Siehe [Kurzanleitung: Gemischte Mediensets](/help/using/quick-start-mixed-media-sets.md).
 
 * **Rotationssets**: Sequenzieren Sie Bilder, um sie horizontal zu drehen. Mit Rotationssets können Besucher von Websites Produkte drehen und von verschiedenen Seiten aus anzeigen. Sie können eindimensionale und zweidimensionale Rotationssets erstellen.

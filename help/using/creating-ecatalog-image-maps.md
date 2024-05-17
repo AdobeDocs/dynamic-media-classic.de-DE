@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -66,7 +66,7 @@ Sie können optional auch QuickInfo-Text anzeigen, wenn Kunden ihre Zeiger über
    Siehe [Zeichnen von eCatalog-Imagemaps](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Wählen Sie in der Dropdownliste Anzeigen die Option **[!UICONTROL Rich Media]**.
-1. Navigieren Sie im Bedienfeld „Assets hinzufügen“ links zu einem Ordner, der das Rotationsset oder Video-Asset (MP4-Format) enthält, das Sie einbetten möchten.
+1. Navigieren Sie im Bedienfeld &quot;Assets hinzufügen&quot;auf der linken Seite zu einem Ordner, der das Rotationsset- oder Video-Asset (MP4-Format) enthält, das Sie einbetten möchten.
 1. Ziehen Sie das Asset auf die Imagemap.
 1. (Optional) Im Listenbereich &quot;Imagemap&quot;unter **[!UICONTROL QuickInfo]** Spaltenüberschrift den Text eingeben, den Betrachtern angezeigt werden sollen, wenn sie den Mauszeiger über die Imagemap bewegen.
 1. Auswählen **[!UICONTROL Speichern]**.

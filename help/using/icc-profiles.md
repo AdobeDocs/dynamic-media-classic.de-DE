@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 41%
@@ -25,7 +25,7 @@ In Adobe Dynamic Media Classic können Sie beim Hochladen der Bilder ein ICC-Pro
 
 Siehe [Bildbearbeitungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 
-Sie können nicht nur die standardmäßigen ICC-Profile verwenden, sondern auch andere ICC-Profile in Adobe Dynamic Media Classic hochladen und für die Farbraumkonvertierung verfügbar machen. Wechseln Sie im Durchsuchenbedienfeld zur Detailansicht, um die Profilklasse, den Farbraumtyp und den PCS-Typ eines ICC-Profils zu untersuchen.
+Sie können nicht nur die standardmäßigen ICC-Profile verwenden, sondern auch andere ICC-Profile in Adobe Dynamic Media Classic hochladen und für die Farbraumkonvertierung verfügbar machen. Wechseln Sie im Bedienfeld &quot;Durchsuchen&quot;zur Detailansicht, um die Profilklasse, den Farbraumtyp und den PCS-Typ eines ICC-Profils zu untersuchen.
 
 ## ICC-Profile hochladen {#uploading-icc-profiles}
 
@@ -35,7 +35,7 @@ Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
 
 ## ICC-Profil prüfen {#examining-an-icc-profile}
 
-Um ein ICC-Profil zu untersuchen, wählen Sie es im Durchsuchenbedienfeld aus und zeigen Sie es in der Detailansicht an. Die Detailansicht enthält diese Informationen zu ICC-Profilen:
+Um ein ICC-Profil zu untersuchen, wählen Sie es im Bedienfeld Durchsuchen aus und zeigen Sie es in der Detailansicht an. Die Detailansicht enthält diese Informationen zu ICC-Profilen:
 
 * **[!UICONTROL Profilklasse]**: Das ICC (International Color Consortium) definiert jede Klasse für einen Anwendungstyp. Beispielsweise betreffen Eingabeprofile Geräte wie Digitalkameras und Scanner, während Ausgabeprofile Drucker betreffen.
 

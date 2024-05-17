@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 Adobe Dynamic Media Classic-Bildsets bieten Benutzern ein integriertes Anzeigeerlebnis. Im dynamischen Bildset-Viewer können Benutzer unterschiedliche Ansichten eines Elements anzeigen, indem sie ein Miniaturbild auswählen. Mit Bildsets können Sie alternative hochauflösende Ansichten eines Elements darstellen.
 
-Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Sie haben die Möglichkeit, geführte Zoomziele und Imagemaps im Bildsatz zu erstellen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
+Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Sie können bei Bedarf &quot;Geführte Zoom-Ziele&quot;und &quot;Imagemaps&quot;in das Bildset aufnehmen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
 
 Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
 
@@ -66,7 +66,7 @@ Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding
 
 ## 4. Vorschau eines Bildsets
 
-Wählen Sie das Bildset im Durchsuchenbedienfeld aus und wählen Sie dann **[!UICONTROL Vorschau]**. Wählen Sie auf der Seite &quot;Vorschau&quot;die Miniaturansichtssymbole aus, um das Bildset im ausgewählten Viewer zu untersuchen. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
+Wählen Sie das Bildset im Bedienfeld &quot;Durchsuchen&quot;aus und wählen Sie dann **[!UICONTROL Vorschau]**. Wählen Sie auf der Seite &quot;Vorschau&quot;die Miniaturansichtssymbole aus, um das Bildset im ausgewählten Viewer zu untersuchen. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
 
 Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
 
@@ -78,7 +78,7 @@ Beim Veröffentlichen eines Bildsets wird es auf Adobe Dynamic Media Classic-Ser
 >
 >Dieser Schritt ist bei Auswahl von nicht erforderlich. **[!UICONTROL Nach dem Speichern veröffentlichen]** (Standard) zum Zeitpunkt der Erstellung und Speicherung des Bildsets.
 
-Auswählen **[!UICONTROL Zur Veröffentlichung markieren]** im Durchsuchenbedienfeld links neben dem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Auswählen **[!UICONTROL Zur Veröffentlichung markieren]** im Bedienfeld &quot;Durchsuchen&quot;links neben seinem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
 
 Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
 
