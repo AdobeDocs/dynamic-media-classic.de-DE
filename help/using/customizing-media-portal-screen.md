@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 16%
+source-wordcount: '327'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ Um auf die Stileinstellungen zuzugreifen, navigieren Sie zu **[!UICONTROL Einric
 
 * **[!UICONTROL Anwendung]**: Erstellen Sie eine Farbverlaufsmischung, indem Sie Optionen in den Menüs der Hintergrundverlaufsfarben auswählen.
 
-* **[!UICONTROL Baum]**: Wählen Sie eine Rollover-Farbe (die Farbe, die angezeigt wird, wenn Sie den Mauszeiger über ein Element bewegen) und eine Auswahlfarbe (die Farbe, die bei Auswahl eines Elements angezeigt wird).
+* **[!UICONTROL Baum]**: Wählen Sie eine Rollover-Farbe und eine Auswahlfarbe.
 
 * **[!UICONTROL Akkordeon]**: Wählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und ausgewählte Farben für das Accordion aus, das rechts im Bildschirm in der Detailansicht angezeigt wird.
 

@@ -10,16 +10,16 @@ role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 47%
+source-wordcount: '791'
+ht-degree: 45%
 
 ---
 
 # Erstellen von Vorlagenparametern{#creating-template-parameters}
 
-Durch Parameter können Sie Vorlagen mit maximaler Flexibilität verwenden, da Parameter die dynamische Anpassung eines Vorlagenbilds ermöglichen. Sie können festlegen, welche Text- und Bildebenen in das Vorlagenbild eingefügt und welche Parameter für die einzelnen Ebenen angezeigt werden sollen. Um beispielsweise die Aufmerksamkeit auf ein Produkt zu lenken, das im Angebot ist, können Sie eine Textebene &quot;Verkauf&quot;erstellen. Später können Sie diese Ebene entfernen, das übrige Vorlagenbild jedoch beibehalten, indem Sie nur den Parameter „Ausverkauf“ entfernen.
+Parameter ermöglichen die Verwendung von Vorlagen mit maximaler Flexibilität. Sie ermöglichen die dynamische Anpassung eines Vorlagenbilds. Sie können festlegen, welche Text- und Bildebenen in das Vorlagenbild eingefügt und welche Parameter für die einzelnen Ebenen angezeigt werden sollen. Um beispielsweise die Aufmerksamkeit auf ein Produkt zu lenken, das im Angebot ist, können Sie eine Textebene &quot;Verkauf&quot;erstellen. Später können Sie diese Ebene entfernen, das übrige Vorlagenbild jedoch beibehalten, indem Sie nur den Parameter „Ausverkauf“ entfernen.
 
 Beim Erstellen von Vorlagenparametern legen Sie im Endeffekt fest, welche Teile der Vorlage in einer URL-Zeichenfolge aufgerufen werden. Das Einfügen bestimmter Parameter in eine URL-Zeichenfolge bewirkt, dass die den Parametern zugeordneten Elemente angezeigt werden. Mithilfe der Parameter können Sie also dynamisch beeinflussen, wie das vom Image-Server erstellte Vorlagenbild aussehen wird, und daraus benutzerdefinierte Ergebnisse erzeugen. Auf diese Weise können Sie eine Vorlage dynamisch ändern, indem Sie einige oder alle Parameter über die URL aufrufen.
 
@@ -59,4 +59,4 @@ Um dem Parameternamen einen Datenbankwert zuzuordnen, fügen Sie folgende Zeiche
 ?$_2(parameter name)=(database value)
 ```
 
-Der Parametername wird durch Namen in einem Datenbankfeld oder Java™-Code ersetzt, der beispielsweise den aktuellen Preis eines Artikels oder einen Kundennamen angibt.
+Namen in einem Datenbankfeld oder Java™-Code ersetzen die Parameternamen. Diese Funktion zeigt beispielsweise den aktuellen Preis eines Artikels oder einen Kundennamen an.

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1008'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ Als Administrator können Sie Benutzer hinzufügen und verwalten, entscheiden, o
 
 >[!NOTE]
 >
->Bevor Sie Benutzer hinzufügen können, müssen Sie Gruppen einrichten, um die Benutzer zu verwalten. In Media Portal können Benutzer nur hinzugefügt werden, wenn sie gleichzeitig einer oder mehreren Gruppen zugewiesen werden. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Media Portal-Gruppen](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>Bevor Sie Benutzer hinzufügen können, müssen Sie Gruppen einrichten, um die Benutzer zu verwalten. Mit Media Portal können Sie einen Benutzer hinzufügen, indem Sie ihn einer oder mehreren Gruppen zuweisen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Media Portal-Gruppen](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## Verwaltung von Media Portal-Passwörtern {#handling-media-portal-passwords}
 
@@ -95,7 +95,7 @@ Jeder Benutzer in der Liste wird automatisch zu den angegebenen Gruppen hinzugef
 
 >[!NOTE]
 >
->Wenn die CSV-Datei nicht korrekt formatiert wurde, wird die folgende Fehlermeldung angezeigt: &quot;Bei der Verarbeitung der hochgeladenen CSV-Datei ist ein Fehler aufgetreten. Prüfen Sie den Dateiinhalt auf gültige Daten.&quot; Wenn die CSV-Datei einen vorhandenen IP- oder IPS-Benutzer enthält, wird dieser nicht der Benutzerliste hinzugefügt.
+>Wenn die CSV-Datei nicht korrekt formatiert wurde, wird die folgende Fehlermeldung angezeigt: &quot;Bei der Verarbeitung der hochgeladenen CSV-Datei ist ein Fehler aufgetreten. Prüfen Sie den Dateiinhalt auf gültige Daten.&quot; Wenn die CSV-Datei einen vorhandenen IP- oder IPS-Benutzer enthält, wird der Benutzer nicht zur Benutzerliste hinzugefügt.
 
 ## Generieren einer auswählbaren Media Portal-Benutzerliste {#generating-a-selectable-list-of-media-portal-users}
 

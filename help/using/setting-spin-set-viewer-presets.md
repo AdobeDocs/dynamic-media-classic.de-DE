@@ -10,7 +10,7 @@ role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 24%
@@ -29,7 +29,7 @@ Mit Rotationsset-Viewer-Vorgaben werden der Stil, das Verhalten und das Aussehen
    * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]** Wählen Sie dann im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform und dann **[!UICONTROL Rotationsset-Viewer]**.
    * Um eine vorhandene Rotationsset-Viewer-Vorgabe zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Im `Configure Viewer` Seite einen Namen in das Feld &quot;Vorgabenname&quot;für die Rotationsset-Viewer-Vorgabe ein.
+1. Im `Configure Viewer` -Seite einen Namen in das Feld &quot;Vorgabenname&quot;für die Viewer-Vorgabe für Rotationssets eingeben.
 1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, wählen Sie die **[!UICONTROL Info-Tipp]** neben der Option.
 
    Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.

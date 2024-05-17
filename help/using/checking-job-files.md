@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # Überprüfen von Auftragsdateien{#checking-job-files}
 
-Zur Überwachung von Datei-Uploads in Adobe Dynamic Media Classic und von Dateien, die Sie auf Adobe Dynamic Media Classic-Servern veröffentlichen, bietet Adobe Dynamic Media Classic die Seite &quot;Aufträge&quot;. Sie haben auf der Seite „Aufträge“ die Möglichkeit, Upload-Aufträge und Veröffentlichungsaufträge zu überprüfen, den Status von Aufträgen zu ermitteln und Veröffentlichungsaufträge zu stornieren. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
+Zur Überwachung von Datei-Uploads in Adobe Dynamic Media Classic und von Dateien, die Sie auf Adobe Dynamic Media Classic-Servern veröffentlichen, bietet Adobe Dynamic Media Classic die Seite &quot;Aufträge&quot;. Sie können Aufträge auf der Seite &quot;Aufträge&quot;überprüfen, hochladen und veröffentlichen, den Status von Aufträgen überprüfen und Veröffentlichungsaufträge von dieser Seite aus abbrechen. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
 
 Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können das Symbol auswählen, um weitere Informationen zum aktiven Auftrag anzuzeigen.
 
@@ -49,7 +49,7 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 * **[!UICONTROL Status]**: Zeigt den Status des Auftrags an.
 
-* **[!UICONTROL Ziel]**: Bei Upload-Aufträgen der Name des Unternehmens und der Ordner, in den die Dateien hochgeladen wurden. Diese Kategorie gilt nicht für Aufträge zur Veröffentlichung.
+* **[!UICONTROL Ziel]**: Bei Upload-Aufträgen ist das Ziel der Unternehmensname und der Ordner, in den die Dateien hochgeladen wurden. Diese Kategorie gilt nicht für Aufträge zur Veröffentlichung.
 
 * **[!UICONTROL Gesendet von]**: Listen, die die Assets hochgeladen haben.
 
