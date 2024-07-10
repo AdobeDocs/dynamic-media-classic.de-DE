@@ -9,10 +9,10 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
+source-git-commit: 550d44027a314dd473a428048f4274bc16b033cd
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 1%
+source-wordcount: '1057'
+ht-degree: 0%
 
 ---
 
@@ -104,147 +104,6 @@ Adobe Dynamic Media Classic ist eine leistungsstarke, funktionsreiche Lösung zu
 +++**_Ich möchte mehr über das Upgrade auf Adobe Dynamic Media mit Adobe Experience Manager Assets erfahren. Wo finde ich weitere Informationen?_**
 Weitere Informationen zu den Vorteilen der Aktualisierung auf die nächste Generation von Rich-Media-Authoring, -Veröffentlichung und dynamischer Bereitstellung finden Sie unter [Adobe Dynamic Media-Portal für die Aktualisierung](/help/using/upgrade.md).
 +++
-
-### Hinzufügen mehrerer Untertitel und Audiospuren zu Ihrem Video {#add-msma}
-
-Bevor Sie mehrere Beschriftungen und Audiospuren zu Ihrem Video hinzufügen, stellen Sie sicher, dass Sie bereits über Folgendes verfügen:
-
-* Dynamic Media ist in einer AEM-Umgebung eingerichtet.
-* A [Das Dynamic Media-Videoprofil wird auf den Ordner angewendet, in dem Ihre Videos aufgenommen werden].
-* [In Ihrem Dynamic Media-Konto sind mehrere Beschriftungen/Audiospuren und KI-generierte Beschriftungen aktiviert.].
-
-Hinzugefügte Beschriftungen werden in den Formaten WebVTT und Adobe VTT unterstützt. Hinzugefügte Audio-Track-Dateien werden mit dem MP3-Format unterstützt.
-
->[!IMPORTANT]
->
->Für hochgeladene Videos *before* Aktivierung der Unterstützung mehrerer Untertitel/Audiospuren oder von KI generierter Untertitel in Ihrem Dynamic Media-Konto, [müssen Sie sie erneut verarbeiten]. Dieser Schritt zur Neuverarbeitung stellt sicher, dass diese Videos die Funktionen für mehrere Beschriftungen/Audiospuren und KI-generierte Beschriftungen verwenden können. Nach der Neuverarbeitung funktionieren die Video-URLs weiterhin und werden wie gewohnt wiedergegeben.
-
-**So fügen Sie Ihrem Video mehrere Untertitel und Audiospuren hinzu:**
-
-1. [Hochladen des Primärvideos in einen Ordner]), dem bereits ein Videoprofil zugewiesen ist. Sie müssen das Video erst zu einem späteren Zeitpunkt in diesen Schritten veröffentlichen.
-1. Navigieren Sie zum hochgeladenen Video-Asset, dem Sie mehrere Beschriftungen und Audiospuren hinzufügen möchten.
-1. Wählen Sie im Asset-Auswahlmodus entweder in der Listenansicht oder in der Kartenansicht das Video-Asset aus.
-1. Wählen Sie in der Symbolleiste das Symbol Eigenschaften aus (ein Kreis mit einem darin enthaltenen &quot;i&quot;).
-1. Wählen Sie auf der Seite Eigenschaften des Videos die **[!UICONTROL Untertitel und Audio-Tracks]** Registerkarte.
-
-   >[!TIP]
-   >Wenn die Variable **[!UICONTROL Untertitel und Audio-Tracks]** -Tab, bedeutet dies eine von zwei Dingen:
-   >
-   >* Dem Ordner, in dem sich das ausgewählte Video befindet, wird kein Videoprofil zugewiesen. In diesem Fall siehe [Anwenden eines Videoprofils auf den Ordner]
-   >* Oder das Video muss von Dynamic Media erneut verarbeitet werden. In diesem Fall siehe [Dynamic Media-Assets in einem Ordner erneut verarbeiten].
-   >
-   >Wenn Sie eine der oben genannten Aufgaben ausgeführt haben, kehren Sie zu diesen Schritten zurück.
-
-1. Gehen Sie wie folgt vor, um einem Video mindestens eine Audiospur hinzuzufügen:
-   1. Auswählen **[!UICONTROL Hochladen von Audio-Tracks]**.
-   1. Navigieren Sie zu einer oder mehreren .mp3-Dateien, wählen Sie sie aus und öffnen Sie sie.
-   1. Für Audiospuren, die im **[!UICONTROL Audio oder Beschriftung auswählen]** Popup-Liste im Medienplayer, *must* Hinzufügen erforderlicher Details *each* die von Ihnen hinzugefügte Audio-Track-Datei. Wählen Sie das Stiftsymbol rechts neben dem Namen einer Audio-Track-Datei aus. Im **Bearbeiten von Audiospuren** Geben Sie die folgenden erforderlichen Details ein:
-
-      | Audio-Track-Metadaten | Beschreibung |
-      |--- |--- |
-      | Dateiname | Der Standarddateiname wird aus dem Originaldateinamen abgeleitet. Der Dateiname kann nur beim Hochladen geändert werden und kann später nicht mehr geändert werden. Die Zeichenanforderungen für Dateinamen entsprechen denen für AEM Assets.<br>Derselbe Dateiname kann nicht für zusätzliche Audio-Track-Dateien oder Untertiteldateien verwendet werden. |
-      | Sprache | Wählen Sie die richtige Sprache für den Audio-Track aus. |
-      | Typ | Wählen Sie den Typ des verwendeten Audiotracks aus.<br>**Original** - Der ursprünglich an das Video angehängte und als `[Original]` im Titel mit `English` Sprache, die standardmäßig ausgewählt ist. while **[!UICONTROL Titel]** und **[!UICONTROL Sprache]** kann im Abschnitt **[!UICONTROL Bearbeiten von Audiospuren]** verwendet, werden standardmäßig die ursprünglichen Werte verwendet, wenn das primäre Video erneut verarbeitet wird.<br>**Standard** - Ein zusätzlicher Audio-Track für eine andere Sprache als das Original.<br>**Audiobeschreibung** - Ein Audio-Track, der auch eine beschreibende Darstellung nichtverbaler Aktionen und Gesten im Video enthält, wodurch Inhalte für Personen mit Sehbehinderungen leichter zugänglich sind. |
-      | Beschriftung | Der Text, der im **[!UICONTROL Audio oder Beschriftung auswählen]** Popup-Liste im Medienplayer. Die Bezeichnung ist das, was ein Kunde sieht, das einem Audio-Track entspricht. Beispiel: `English [Original]`. Der Titel der an ein Video angehängten Audiodatei ist auf `[Original]` Standardmäßig. |
-
-      Sie können diese Audio-Track-Metadaten bei Bedarf später ändern oder bearbeiten. Wenn das Video veröffentlicht wird, werden diese Details in öffentlichen URLs in veröffentlichten Videos angezeigt.
-
-   1. In der Nähe der oberen rechten Ecke der Seite, im **[!UICONTROL Speichern und schließen]** Dropdown, klicken Sie auf **[!UICONTROL Speichern]**.
-   1. Führen Sie einen der folgenden Schritte aus:
-      * Wiederholen Sie diesen Vorgang für jede Audio-Track-Datei, die Sie hochladen.
-      * Fahren Sie mit dem nächsten Schritt fort, um einem Video Untertitel hinzuzufügen.
-
-1. Um einem Video eine oder mehrere Untertiteldateien hinzuzufügen, wählen Sie aus, welcher der folgenden Anwendungsfälle am besten zu Ihrem Szenario passt:
-
-   |  | Anwendungsfall |
-   | --- | --- |
-   | **Option 1** | Ich habe meine eigenen bereits vorhandenen Untertiteldateien, die in den Sprachen vorliegen, die ich verwenden möchte.<br>Siehe **Option 1** in Schritt 8 unten beschrieben. |
-   | **Option 2** | Ich möchte, dass AI meine Untertiteldateien in mehreren Sprachen generiert.<br>Siehe **Option 2** in Schritt 8 unten beschrieben. |
-   | **Option 3** | Text in einer Untertiteldatei (.vtt) muss korrigiert, neu hochgeladen werden, um die alte VTT-Datei zu ersetzen, und dann lassen Sie AI die korrigierte Datei übersetzen.<br>Siehe **Option 3** in Schritt 8 unten beschrieben. |
-
-+++**Option 1:** *Ich habe meine eigenen bereits vorhandenen Untertiteldateien, die in den Sprachen vorliegen, die ich verwenden möchte.*
-
-   1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Beschriftung erstellen]** > **[!UICONTROL Dateien hochladen]**.
-   1. Navigieren Sie zu einer oder mehreren bereits vorhandenen VTT-Dateien (Video Text Tracks), wählen Sie diese aus und öffnen Sie sie.
-   1. Damit Beschriftungen im Medienplayer angezeigt werden, müssen Sie *must* Hinzufügen der erforderlichen Details zu *each* -Untertiteldatei, die Sie hochladen. Wählen Sie das Stiftsymbol rechts neben dem Namen einer Untertiteldatei aus. Im **Beschriftung bearbeiten** Geben Sie die folgenden erforderlichen Details zur Datei ein:
-
-      | Untertitelmetadaten | Beschreibung |
-      |--- |--- |
-      | Dateiname | Der Standarddateiname wird aus dem Originaldateinamen abgeleitet. Der Dateiname kann nur beim Hochladen geändert werden und kann später nicht mehr geändert werden. Die Zeichenanforderungen für Dateinamen entsprechen denen für AEM Assets.<br>Derselbe Dateiname kann nicht für zusätzliche Untertiteldateien und Audio-Track-Dateien verwendet werden. |
-      | Sprache | Wählen Sie die Sprache der Beschriftung aus. Nach der Verarbeitung einer Untertiteldatei ist dieses Sprachfeld nicht mehr bearbeitbar (abgeblendet) |
-      | Typ | Wählen Sie den Typ der verwendeten Beschriftung aus.<br>**Untertitel** - Der Beschriftungstext, der mit dem Video angezeigt wird, das das Dialogfeld übersetzt oder transkribiert.<br>**Beschriftung** - Der Beschriftungstext enthält auch Hintergrundgeräusche, Sprachdifferenzierung und andere relevante Informationen, zusammen mit der Übersetzung oder Transkription des Dialogfelds, wodurch der Inhalt für Personen, die taub oder schwerhörig sind, leichter zugänglich ist. |
-      | Beschriftung | Der Text, der für den Namen der Beschriftung im **[!UICONTROL Audio oder Beschriftung auswählen]** Popup-Liste im Medienplayer. Die Beschriftung wird einem Kunden angezeigt, die einem Untertitel- oder Untertitel-Tracking entspricht. Beispiel: `English (CC)`. |
-
-      Sie können Beschriftungsmetadaten bei Bedarf später ändern oder bearbeiten. Wenn das Video veröffentlicht wird, werden diese Details in öffentlichen URLs in veröffentlichten Videos angezeigt.
-
-   1. In der Nähe der oberen rechten Ecke der Seite, im **[!UICONTROL Speichern und schließen]** Dropdown, klicken Sie auf **[!UICONTROL Speichern]**. Die Dateien werden hochgeladen und die Metadatenverarbeitung beginnt, wie in der **Status** -Spalte der Schnittstelle.
-
-      >[!NOTE]
-      >
-      >Je nach den Cacheeinstellungen Ihrer Instanz kann die Metadatenverarbeitung mehrere Minuten dauern, bis sie in der Vorschau und in veröffentlichten URLs angezeigt wird.
-
-   1. Wenn Sie **[!UICONTROL Speichern und schließen]** im vorherigen Schritt anstatt **[!UICONTROL Speichern]** können Sie weiterhin den Verarbeitungsstatus der hochgeladenen Dateien anzeigen. Siehe [Lebenszyklusstatus hochgeladener Untertitel- und Audio-Track-Dateien anzeigen].
-   1. Fahren Sie mit Schritt 9 fort.
-+++
-
-+++**Option 2:** *Ich möchte, dass AI meine Untertiteldateien in mehreren Sprachen generiert.*
-
-   1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Beschriftung erstellen]** > **[!UICONTROL Konvertieren von Audiospuren]**.
-   1. Im **Konvertieren von Audio-Tracks** festlegen, legen Sie die folgenden Optionen fest:
-
-      | Option | Beschreibung |
-      |--- |--- |
-      | Audiospur zum Konvertieren | Wählen Sie in der Dropdown-Liste die hochgeladene Audio-Track-Datei aus, aus der AI Untertitel generieren soll. |
-      | Output languages | Wählen Sie in der Dropdown-Liste eine oder mehrere Sprachen aus, in denen die Untertiteldatei angezeigt werden soll.<br>Um eine ausgewählte Sprache zu entfernen, klicken Sie auf **X**.<br>Während der Videowiedergabe wird die Liste der Sprachen im Medienplayer in der Reihenfolge angezeigt, in der Sie sie hier auswählen. |
-
-   1. Klicken Sie auf **[!UICONTROL Fertig]**.
-   1. In der Nähe der oberen rechten Ecke der Seite, im **[!UICONTROL Speichern und schließen]** Dropdown, klicken Sie auf **[!UICONTROL Speichern]**. Eine oder mehrere Untertiteldateien werden erstellt und die Verarbeitung beginnt, wie in der **Status** -Spalte der Schnittstelle. Siehe auch [Lebenszyklusstatus hochgeladener Untertitel- und Audio-Track-Dateien anzeigen].
-
-      >[!NOTE]
-      >
-      >Je nach den Cacheeinstellungen Ihrer Instanz kann die Metadatenverarbeitung mehrere Minuten dauern, bis sie in der Vorschau und in veröffentlichten URLs angezeigt wird.
-
-   1. (Optional) Wählen Sie das Stiftsymbol rechts neben dem Namen einer Untertiteldatei aus. Im **Beschriftung bearbeiten** können Sie die folgenden Details zur Datei bearbeiten:
-
-      | Untertitelmetadaten | Beschreibung |
-      | --- | --- |
-      | Typ | Wählen Sie den Typ der verwendeten Beschriftung aus.<br>**Untertitel** - Der Beschriftungstext, der mit dem Video angezeigt wird, das das Dialogfeld übersetzt oder transkribiert.<br>**Beschriftung** - Der Beschriftungstext enthält auch Hintergrundgeräusche, Sprachdifferenzierung und andere relevante Informationen, zusammen mit der Übersetzung oder Transkription des Dialogfelds, wodurch der Inhalt für Personen, die taub oder schwerhörig sind, leichter zugänglich ist. |
-      | Beschriftung | Der Text, der für den Namen der Beschriftung im **[!UICONTROL Audio oder Beschriftung auswählen]** Popup-Liste im Medienplayer. Die Beschriftung wird einem Kunden angezeigt, die einem Untertitel- oder Untertitel-Tracking entspricht. Beispiel: `English (CC)`. |
-
-      Sie können bei Bedarf bestimmte Beschriftungsmetadaten später ändern oder bearbeiten. Wenn das Video veröffentlicht wird, werden diese Metadatendetails in veröffentlichten Videos in öffentlichen URLs angezeigt.
-   1. Fahren Sie mit Schritt 9 fort.
-+++
-
-+++**Option 3:** *Text in einer Untertiteldatei (.vtt) muss korrigiert, neu hochgeladen werden, um die alte VTT-Datei zu ersetzen, und dann lassen Sie AI die korrigierte Datei übersetzen.*
-
-   1. Klicks **[!UICONTROL Beschriftung erstellen]** > **[!UICONTROL Übersetzen von Untertiteln]**.
-   1. Im **Beschriftung übersetzen** festlegen, legen Sie die folgenden Optionen fest:
-
-      | Option | Beschreibung |
-      |--- |--- |
-      | Zu übersetzende Beschriftung | Wählen Sie in der Dropdown-Liste eine Beschriftungsdatei aus, aus der die KI den Beschriftungstext übersetzen soll. |
-      | Output languages | Wählen Sie in der Dropdown-Liste eine oder mehrere Sprachen aus, in denen die Untertiteldatei angezeigt werden soll.<br>Um eine ausgewählte Sprache zu entfernen, klicken Sie auf **X**.<br>Während der Videowiedergabe wird die Liste der Sprachen im Medienplayer in der Reihenfolge angezeigt, in der Sie sie hier auswählen. |
-
-   1. Klicken Sie auf **[!UICONTROL Fertig]**.
-   1. In der Nähe der oberen rechten Ecke der Seite, im **[!UICONTROL Speichern und schließen]** Dropdown, klicken Sie auf **[!UICONTROL Speichern]**. Eine oder mehrere Untertiteldateien werden erstellt und die Verarbeitung beginnt, wie in der **Status** -Spalte der Schnittstelle. Siehe auch [Lebenszyklusstatus hochgeladener Untertitel- und Audio-Track-Dateien anzeigen].
-
-      >[!NOTE]
-      >
-      >Je nach den Cacheeinstellungen Ihrer Instanz kann die Metadatenverarbeitung mehrere Minuten dauern, bis sie in der Vorschau und in veröffentlichten URLs angezeigt wird.
-
-   1. (Optional) Wählen Sie das Stiftsymbol rechts neben dem Namen einer Untertiteldatei aus. Im **Beschriftung bearbeiten** können Sie die folgenden Details zur Datei bearbeiten:
-
-      | Untertitelmetadaten | Beschreibung |
-      | --- | --- |
-      | Typ | Wählen Sie den Typ der verwendeten Beschriftung aus.<br>**Untertitel** - Der Beschriftungstext, der mit dem Video angezeigt wird, das das Dialogfeld übersetzt oder transkribiert.<br>**Beschriftung** - Der Beschriftungstext enthält auch Hintergrundgeräusche, Sprachdifferenzierung und andere relevante Informationen, zusammen mit der Übersetzung oder Transkription des Dialogfelds, wodurch der Inhalt für Personen, die taub oder schwerhörig sind, leichter zugänglich ist. |
-      | Beschriftung | Der Text, der für den Namen der Beschriftung im **[!UICONTROL Audio oder Beschriftung auswählen]** Popup-Liste im Medienplayer. Die Beschriftung wird einem Kunden angezeigt, die einem Untertitel- oder Untertitel-Tracking entspricht. Beispiel: `English (CC)`. |
-
-      Sie können bei Bedarf bestimmte Beschriftungsmetadaten später ändern oder bearbeiten. Wenn das Video veröffentlicht wird, werden diese Metadatendetails in veröffentlichten Videos in öffentlichen URLs angezeigt.
-
-   1. Fahren Sie mit Schritt 9 fort.
-+++
-
-1. (Optional) Zeigen Sie eine Vorschau des Videos vor der Veröffentlichung an, um sicherzustellen, dass die Untertitel und die Audiowiedergabe erwartungsgemäß funktionieren. Siehe [Vorschau eines Videos mit mehreren Untertiteln und Audiospuren anzeigen].
 
 >[!MORELIKETHIS]
 >
