@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 1%
@@ -125,7 +125,6 @@ Hinzugefügte Beschriftungen werden in den Formaten WebVTT und Adobe VTT unterst
 1. Navigieren Sie zum hochgeladenen Video-Asset, dem Sie mehrere Beschriftungen und Audiospuren hinzufügen möchten.
 1. Wählen Sie im Asset-Auswahlmodus entweder in der Listenansicht oder in der Kartenansicht das Video-Asset aus.
 1. Wählen Sie in der Symbolleiste das Symbol Eigenschaften aus (ein Kreis mit einem darin enthaltenen &quot;i&quot;).
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. Wählen Sie auf der Seite Eigenschaften des Videos die **[!UICONTROL Untertitel und Audio-Tracks]** Registerkarte.
 
    >[!TIP]
@@ -135,8 +134,6 @@ Hinzugefügte Beschriftungen werden in den Formaten WebVTT und Adobe VTT unterst
    >* Oder das Video muss von Dynamic Media erneut verarbeitet werden. In diesem Fall siehe [Dynamic Media-Assets in einem Ordner erneut verarbeiten].
    >
    >Wenn Sie eine der oben genannten Aufgaben ausgeführt haben, kehren Sie zu diesen Schritten zurück.
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. Gehen Sie wie folgt vor, um einem Video mindestens eine Audiospur hinzuzufügen:
    1. Auswählen **[!UICONTROL Hochladen von Audio-Tracks]**.
@@ -165,7 +162,6 @@ Hinzugefügte Beschriftungen werden in den Formaten WebVTT und Adobe VTT unterst
    | **Option 2** | Ich möchte, dass AI meine Untertiteldateien in mehreren Sprachen generiert.<br>Siehe **Option 2** in Schritt 8 unten beschrieben. |
    | **Option 3** | Text in einer Untertiteldatei (.vtt) muss korrigiert, neu hochgeladen werden, um die alte VTT-Datei zu ersetzen, und dann lassen Sie AI die korrigierte Datei übersetzen.<br>Siehe **Option 3** in Schritt 8 unten beschrieben. |
 
-
 +++**Option 1:** *Ich habe meine eigenen bereits vorhandenen Untertiteldateien, die in den Sprachen vorliegen, die ich verwenden möchte.*
 
    1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Beschriftung erstellen]** > **[!UICONTROL Dateien hochladen]**.
@@ -189,7 +185,6 @@ Hinzugefügte Beschriftungen werden in den Formaten WebVTT und Adobe VTT unterst
 
    1. Wenn Sie **[!UICONTROL Speichern und schließen]** im vorherigen Schritt anstatt **[!UICONTROL Speichern]** können Sie weiterhin den Verarbeitungsstatus der hochgeladenen Dateien anzeigen. Siehe [Lebenszyklusstatus hochgeladener Untertitel- und Audio-Track-Dateien anzeigen].
    1. Fahren Sie mit Schritt 9 fort.
-
 +++
 
 +++**Option 2:** *Ich möchte, dass AI meine Untertiteldateien in mehreren Sprachen generiert.*
@@ -218,7 +213,6 @@ Hinzugefügte Beschriftungen werden in den Formaten WebVTT und Adobe VTT unterst
 
       Sie können bei Bedarf bestimmte Beschriftungsmetadaten später ändern oder bearbeiten. Wenn das Video veröffentlicht wird, werden diese Metadatendetails in veröffentlichten Videos in öffentlichen URLs angezeigt.
    1. Fahren Sie mit Schritt 9 fort.
-
 +++
 
 +++**Option 3:** *Text in einer Untertiteldatei (.vtt) muss korrigiert, neu hochgeladen werden, um die alte VTT-Datei zu ersetzen, und dann lassen Sie AI die korrigierte Datei übersetzen.*
@@ -248,7 +242,6 @@ Hinzugefügte Beschriftungen werden in den Formaten WebVTT und Adobe VTT unterst
       Sie können bei Bedarf bestimmte Beschriftungsmetadaten später ändern oder bearbeiten. Wenn das Video veröffentlicht wird, werden diese Metadatendetails in veröffentlichten Videos in öffentlichen URLs angezeigt.
 
    1. Fahren Sie mit Schritt 9 fort.
-
 +++
 
 1. (Optional) Zeigen Sie eine Vorschau des Videos vor der Veröffentlichung an, um sicherzustellen, dass die Untertitel und die Audiowiedergabe erwartungsgemäß funktionieren. Siehe [Vorschau eines Videos mit mehreren Untertiteln und Audiospuren anzeigen].
