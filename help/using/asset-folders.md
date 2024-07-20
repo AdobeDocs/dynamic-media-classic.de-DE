@@ -27,33 +27,33 @@ Stellen Sie vor dem Hochladen von Dateien eine Ordnerstruktur und -organisation 
 
 In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird der zugehörige Inhalt im Bedienfeld Durchsuchen angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
-* **Anzeigen von Unterordnern**: Wählen Sie die **[!UICONTROL Ordner erweitern]** -Symbol, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Unterordner anzeigen**: Wählen Sie das Symbol **[!UICONTROL Ordner erweitern]** aus, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner verschieben**: Sie können einen Ordner verschieben, indem Sie ihn per Drag-and-Drop an die neue Position ziehen oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]**.
+* **Ordner verschieben**: Sie können einen Ordner verschieben, indem Sie ihn an die neue Position ziehen und dort ablegen oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]** auswählen.
 
-* **Ordner ausblenden**: Wählen Sie die **[!UICONTROL Ordner reduzieren]** -Symbol, wenn Sie Unterordner reduzieren möchten, um sie vor der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Ordner ausblenden**: Wählen Sie das Symbol &quot;**[!UICONTROL Ordner ausblenden]**&quot;, wenn Sie Unterordner ausblenden möchten, um sie aus der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn Sie seinen Inhalt im Bedienfeld Durchsuchen anzeigen möchten.
+* **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn Sie seinen Inhalt im Bedienfeld &quot;Durchsuchen&quot;anzeigen möchten.
 
 >[!TIP]
 >
->Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie die **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auf der linken Seite. Reduzieren Sie das Bedienfeld &quot;Asset-Bibliothek&quot;, wenn Sie mehr Platz für die Arbeit im Bedienfeld &quot;Durchsuchen&quot;benötigen.
+>Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite das Steuerelement **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auswählen. Reduzieren Sie das Bedienfeld &quot;Asset-Bibliothek&quot;, wenn Sie mehr Platz für die Arbeit im Bedienfeld &quot;Durchsuchen&quot;benötigen.
 
 ## Ordner erstellen
 
 1. Wählen Sie in der Asset-Bibliothek den Ordner aus, in dem Sie einen Unterordner erstellen möchten.
-1. Wählen Sie die **[!UICONTROL `Add Folder`]** Schaltfläche. Dieses Symbol befindet sich oben in der Ordnerliste.
+1. Wählen Sie die Schaltfläche **[!UICONTROL `Add Folder`]** aus. Dieses Symbol befindet sich oben in der Ordnerliste.
 1. Geben Sie einen beschreibenden Namen für den neuen Ordner oder Unterordner ein. Geben Sie ihn in das Feld neben dem Ordnersymbol ein.
 
    >[!NOTE]
    >
-   >Sie können auch Ordner in Adobe Dynamic Media Classic erstellen, wenn Sie Dateien über FTP hochladen. Auswählen der **[!UICONTROL Unterordner einschließen]** -Option beim Hochladen über FTP repliziert die Ordnerstruktur auf Ihrem Computer im System. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
+   >Sie können auch Ordner in Adobe Dynamic Media Classic erstellen, wenn Sie Dateien über FTP hochladen. Wenn Sie beim Hochladen über FTP die Option **[!UICONTROL Unterordner einschließen]** auswählen, wird die Ordnerstruktur auf Ihrem Computer im System repliziert. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
 
 ## Ordner löschen und umbenennen {#deleting-and-renaming-folders}
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen**: Wählen Sie die **[!UICONTROL `Remove Folder`]** Schaltfläche. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen**: Wählen Sie die Schaltfläche **[!UICONTROL `Remove Folder`]** aus. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
 * **Umbenennen**: Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 

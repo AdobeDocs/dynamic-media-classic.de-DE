@@ -25,7 +25,7 @@ Media Portal stellt die folgenden Rollen mit jeweils unterschiedlichen Zugriffsr
 
 * **[!UICONTROL Media Portal-Benutzer]**: Hat Zugriff auf Ordner und Dateien. Benutzer können nur Dateien auflisten, eine Dateivorschau anzeigen und Dateien herunterladen. Diese Rolle ist geeignet für Kanal- oder Servicepartner, die auf Ihre vom Unternehmen genehmigten Assets zugreifen müssen.
 
-* **[!UICONTROL Media Portal-Mitarbeiter]**: Kann Dateien und Metadaten in Bereichen hochladen, in einer Vorschau anzeigen und durchsuchen, für die ein Administrator Berechtigungen erteilt hat. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
+* **[!UICONTROL Media Portal-Mitarbeiter]**: Kann Dateien und Metadaten in Bereichen, für die ein Administrator Berechtigungen erteilt hat, hochladen, in der Vorschau anzeigen und durchsuchen. Ein Mitarbeiter kann keine Dateien herunterladen. Mitarbeiter können Metadaten bearbeiten, Dateinamen ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
 * **[!UICONTROL Media Portal-Mitarbeiter-Benutzer]**: Hat Zugriff auf Ordner und Dateien. Ein Mitarbeiter-Benutzer kann Bilder und Metadaten durchsuchen, in der Vorschau anzeigen, herunterladen und hochladen. Mitarbeiter-Benutzer können die Namen von Dateien ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 

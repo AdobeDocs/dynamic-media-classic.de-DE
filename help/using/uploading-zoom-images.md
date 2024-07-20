@@ -21,7 +21,7 @@ ht-degree: 16%
 
 Zoombilder müssen eine hohe Pixelzahl aufweisen. Es ist eine hohe Anzahl von Pixeln erforderlich, damit Betrachter beim Zoomen von Bildern die Bilddetails deutlich sehen können. Stellen Sie sicher, dass die verwendeten Bilder die richtige Größe aufweisen, bevor Sie sie in Adobe Dynamic Media Classic hochladen.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um mit dem Hochladen von Bildern zu beginnen.
+Wählen Sie in der Leiste &quot;Globale Navigation&quot;die Option **[!UICONTROL Hochladen]** aus, um mit dem Hochladen von Bildern zu beginnen.
 
 Detaillierte Anweisungen zum Hochladen von Bildern finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files).
 

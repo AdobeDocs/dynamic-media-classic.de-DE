@@ -27,7 +27,7 @@ Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenk
 
 Adobe Dynamic Media Classic bietet die folgenden Zoom-Viewer-Vorgaben:
 
-* **Zoom-Viewer: Einfach**: Stellt einen einfachen Zoom des Originalbilds bereit.
+* **Zoom-Viewer: Einfach**: Bietet einen einfachen Zoom des Originalbilds.
 
 * **Zoom-Viewer: Fly-out**: Zeigt ein zweites Bild des vergrößerten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
 
@@ -41,25 +41,25 @@ Adobe Dynamic Media Classic empfiehlt die folgenden Parameter für Flyout-Zoom-V
 
 * **Bildgröße**: 100 KB oder weniger, höchstens 150 KB (komprimieren Sie die Datei, um sie unter 150 KB zu halten).
 
-* **Zoom-Viewer: Benutzerdefiniert**: Bietet einen geführten oder nicht verwendeten Zoom mit Bildern, Bildsets mit mehreren Ansichten oder Farbmuster-Sets.
+* **Zoom-Viewer: Benutzerdefiniert**: Bietet einen geführten oder nicht unterstützten Zoom mit Bildern, Bildsets mit mehreren Ansichten oder Farbmuster-Sets.
 
 ## Erstellen und Bearbeiten von Zoom-Viewer-Vorgaben {#creating-and-editing-zoom-viewer-presets}
 
-1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
+1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Vorgabe erstellen**: Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, einen Zoom-Viewer und klicken Sie auf **[!UICONTROL Hinzufügen]**. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
+   * **Vorgabe erstellen**: Wählen Sie **[!UICONTROL Hinzufügen]** aus. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, einen Zoom-Viewer und dann **[!UICONTROL Hinzufügen]** aus. Geben Sie im Feld &quot;Vorgabenname&quot;einen Namen für die Vorgabe ein.
 
-   * **Vorgabe bearbeiten**: Wählen Sie eine Zoom-Viewer-Vorgabe und dann **[!UICONTROL Bearbeiten]**.
+   * **Vorgabe bearbeiten**: Wählen Sie eine Zoom-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Wählen Sie die gewünschten Einstellungen aus.
 
-   Um eine Beschreibung einer Option anzuzeigen, wählen Sie die **[!UICONTROL Info-Tipp]** neben der Option.
+   Um eine Beschreibung einer Option anzuzeigen, wählen Sie das Symbol **[!UICONTROL Info Tipp]** neben der Option aus.
 
    Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.
 
-1. Auswählen **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter]**.
-1. Überprüfen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die von Ihnen erstellte Zoom-Viewer-Vorgabe oder Geführte Zoom-Viewer-Vorgabe. Wenn es angepasst werden muss, wählen Sie **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen für `Configure Viewer` und wählen Sie **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter]** aus.
+1. Überprüfen Sie auf der Seite &quot;Viewer-Vorgaben&quot;die von Ihnen erstellte Zoom-Viewer-Vorgabe oder Geführte Zoom-Viewer-Vorgabe. Wenn es angepasst werden muss, wählen Sie **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen auf der Seite `Configure Viewer` und wählen Sie dann **[!UICONTROL Speichern]** aus.
 
 Informationen zum Verwalten von Viewer-Vorgaben im Anzeigebereich „Viewer-Vorgaben“ finden Sie unter [Viewer-Vorgaben](application-setup.md#viewer_presets).
 

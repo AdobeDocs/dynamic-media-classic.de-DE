@@ -24,10 +24,10 @@ Unternehmen jeder Größe können den für sie richtigen technischen Support erh
 | Technischer Support | Mitgliedschaft |
 | --- | --- |
 | Max. Anz. Fälle | Unbegrenzt. |
-| Überprüfen Sie den Systemstatus des Adobe | [Systemstatus von Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Überprüfen Sie den Systemstatus des Adobe | [Adobe Dynamic Media Classic-Systemstatus](https://status.adobe.com/products/1175). |
 | Kann keine Antwort finden? | [Um Hilfe vom Support zu erhalten, öffnen Sie ein Ticket](https://experienceleague.adobe.com/?support-solution=General#support). |
-| Community-Forum | [Community-Forum von Experience Managern](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA (Service Level Agreements) | [Support-Services / Geschäftsbedingungen](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Community-Forum | [Community-Forum der Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| SLA (Service Level Agreements) | [Support-Services/Geschäftsbedingungen](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Unterstützte Benutzer | Bis zu zehn Benutzer pro Organisation können als unterstützte Benutzer benannt werden, die Fälle mit der Kundenunterstützung öffnen können. |
 | Kostenlose Live-Web-Schulungsvideos | Enthalten. |
 | Telefonunterstützung | <ul><li>USA und Kanada: 1-800-497-0335 </li><li>[Telefonnummern für andere Regionen](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |

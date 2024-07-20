@@ -36,21 +36,21 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Ordner &quot;Asset&quot;, der das Bild-Asset enthält, das in der Vorschau angezeigt werden soll.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein einzelnes Bild-Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabeliste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus. Wechseln Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
 
 1. (Optional) Wählen Sie in der Liste &quot;Bildvorgabe&quot;in der Dropdown-Liste URL-Kodierung für URL-Kopiegenerierung die URL-Kodierung aus, die beim Kopieren auf die URL des Bild-Assets angewendet werden soll.
-1. Wählen Sie im Fenster Bildvorgabeliste oben rechts im Vorschaufenster die Option **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp.
-1. Wählen Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste die Option **[!UICONTROL Schließen]** , um zum Bildschirm Assets zurückzukehren.
+1. Wählen Sie im Fenster Bildvorgabeliste oben rechts im Vorschaufenster **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp aus.
+1. Wählen Sie in der rechten unteren Ecke des Fensters Bildvorgabenliste die Option **[!UICONTROL Schließen]** aus, um zum Assets-Bildschirm zurückzukehren.
 
 ### Abrufen einer Bildvorgabe-URL aus dem Bedienfeld &quot;Durchsuchen&quot; {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Ordner Asset , der das Bild-Asset enthält, das Sie in der Vorschau anzeigen möchten.
-1. Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
-1. Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**.
-1. Auswählen **[!UICONTROL URLs]** im Bereich auf der rechten Bildschirmseite, damit Sie die Liste der Bildvorgaben erweitern können.
-1. Auswählen **[!UICONTROL URL kopieren]** neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten.
+1. Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Wählen Sie im Fenster „Asset“ ein einzelnes Bild-Asset aus.
+1. Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus.
+1. Wählen Sie im Bereich rechts auf dem Bildschirm die Option **[!UICONTROL URLs]** aus, damit Sie die Liste der Bildvorgaben erweitern können.
+1. Wählen Sie den Link **[!UICONTROL URL kopieren]** neben dem Namen der Bildvorgabe mit der URL, die Sie in die Zwischenablage kopieren möchten.
 
 ## URL-Zeichenfolgen zu Bildvorgaben {#about-image-preset-url-strings}
 
@@ -76,11 +76,11 @@ Bei einer URL-Zeichenfolge, die mit einer Bildvorgabe generiert wurde, ist statt
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. Wenn ein Dynamic Media-Bildserver auf den Bildvorgabenteil der URL trifft (die `Large` in diesem Fall) unter Verwendung der in der Bildvorgabe &quot;Groß&quot;definierten Größen- und Formatierungsanweisungen.
+Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. Wenn ein Dynamic Media-Bildserver auf den Bildvorgabenteil der URL trifft (in diesem Fall auf &quot;`Large`&quot;), wobei die Größen- und Formatierungsanweisungen verwendet werden, die in der Bildvorgabe &quot;Groß&quot;definiert sind.
 
 ## Dynamische Bilder zu Ihrer Webseite hinzufügen {#adding-dynamic-images-to-your-web-page}
 
-Wenn Sie Ihrer Webseite dynamische Bilder hinzufügen, wird die `<IMG>` -Tag in Ihrem HTML-Seiten-Code wird in der Regel mithilfe der Adobe Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anfrage an Dynamic Media-Bildserver zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
+Beim Hinzufügen dynamischer Bilder zu Ihrer Webseite wird das Tag `<IMG>` im HTML-Seiten-Code in der Regel mithilfe der Adobe Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anforderung an Dynamic Media-Image-Server zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
 
 Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise dies:
 
@@ -88,10 +88,10 @@ Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise die
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Sie verwenden jetzt die `<IMG>`-Tag, um den Verweis auf ein statisches Bild durch einen Bildvorgabenaufruf an die Adobe Dynamic Media Classic-Plattform zu ersetzen. Hier ein Beispiel:
+Sie verwenden jetzt das Tag `<IMG>`, um den Verweis auf ein statisches Bild durch einen Bildvorgabenaufruf für die Adobe Dynamic Media Classic-Plattform zu ersetzen. Hier ein Beispiel:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-In diesem Beispiel &quot;sucht&quot;ein Dynamic Media-Bildserver die Definition von `$thumbnail$` und generiert dynamisch das entsprechende Bild mit den Größenangaben und Formatierungsspezifikationen, die von der `thumbnail`Bildvorgabe. In einer URL-Zeichenfolge werden alle Elemente mit Ausnahme des Dateinamens des Produktbilds ( `backpack_trns` (in diesem Fall) für die Seitenvorlage normalerweise fest verdrahtet sind. Das einzige Element, das automatisch von Ihrem kommerziellen Server in die Seitenvorlage eingefügt wird, ist die IPS-ID bzw. der Name des Bildes.
+In diesem Beispiel &quot;sucht&quot;ein Dynamic Media-Bildserver die Definition von `$thumbnail$` und generiert dynamisch das entsprechende Bild mit den Größenangaben und Formatierungsspezifikationen, die in der `thumbnail`Bildvorgabe definiert sind. In einer URL-Zeichenfolge sind alle Elemente mit Ausnahme des Produktbild-Dateinamens ( in diesem Fall `backpack_trns` ) für die Seitenvorlage in der Regel fest verdrahtet. Das einzige Element, das automatisch von Ihrem kommerziellen Server in die Seitenvorlage eingefügt wird, ist die IPS-ID bzw. der Name des Bildes.

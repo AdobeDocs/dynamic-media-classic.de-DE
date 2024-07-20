@@ -27,18 +27,18 @@ Adobe Dynamic Media Classic speichert die Exportvorgänge im Bildschirm &quot;Au
 
 **So exportieren Sie Assets aus Adobe Dynamic Media Classic:**
 
-1. Wählen Sie die Assets aus, die Sie exportieren möchten, und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Export]**.
+1. Wählen Sie die Assets aus, die Sie exportieren möchten, und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Export]**.
 1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **[!UICONTROL „Bildoptionen“]** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):
 
    * **[!UICONTROL Vorgaben]**: Wählen Sie optional eine Bildvorgabe aus, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
 
    * **[!UICONTROL Konversion]**: Konvertieren Sie die Asset-Datei oder das Originalbild.
 
-   * **[!UICONTROL Größe]**: Sie können eine Standardgröße auswählen. Sie können auch **[!UICONTROL Sonstiges]** aus dem **[!UICONTROL Größe]** in der Dropdown-Liste die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
+   * **[!UICONTROL Größe]**: Sie können eine Standardgröße auswählen. Alternativ können Sie **[!UICONTROL Sonstige]** aus der Dropdownliste **[!UICONTROL Größe]** auswählen, die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
 
-     Siehe auch [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     Siehe auch [Festlegen der für Media Portal-Benutzer verfügbaren Exportoptionen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Format]**: Wählen Sie ein Bildformat aus.
+   * **[!UICONTROL Format]**: Wählen Sie ein Bildformat.
 
    * **[!UICONTROL Farbe]**: Wählen Sie RGB, CMYK oder Grau aus.
 
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classic speichert die Exportvorgänge im Bildschirm &quot;Au
 
    * **[!UICONTROL E-Mail senden an]**: Optional. Geben Sie eine E-Mail-Adresse ein, wenn Sie die Assets per E-Mail versenden möchten. In der E-Mail-Nachricht wird die URL aufgeführt, über die der Empfänger die Assets herunterladen kann.
 
-1. Auswählen **[!UICONTROL Export]**.
+1. Wählen Sie **[!UICONTROL Exportieren]** aus.
 
 Drei grundlegende Exportaktionen werden unterstützt:
 

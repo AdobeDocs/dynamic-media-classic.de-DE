@@ -43,7 +43,7 @@ ht-degree: 18%
    + [Grundlagen der Navigation](navigation-basics.md)
    + [Grundlagen der Einstellungen](setup-basics.md)
    + [Rich-Media](rich-media.md)
-+ Einrichten {#setup}
++ Einrichten von {#setup}
    + [Persönliche Einstellungen](personal-setup.md)
    + [Anwendungseinstellungen](application-setup.md)
    + [Veröffentlichungseinstellungen](publish-setup.md)
@@ -60,10 +60,10 @@ ht-degree: 18%
    + [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-presets.md)
    + [Effizientere Nutzung von Metadaten](making-efficient-metadata.md)
    + [Anpassen des Bildschirms &quot;Media Portal&quot;](customizing-media-portal-screen.md)
-+ Assets hochladen und veröffentlichen {#upload-publish}
++ Hochladen und Veröffentlichen von Assets {#upload-publish}
    + [Informationen zum Hochladen und Veröffentlichen von Assets](about-asset-upload-publish.md)
    + [Hochladen von Dateien](uploading-files.md)
-   + [Veröffentlichen von Dateien](publishing-files.md)
+   + [Publish-Dateien](publishing-files.md)
    + [Einschränkungen bei Dynamic Media](limitations.md)
    + [Testen Sie Assets, bevor Sie sie veröffentlichen](testing-assets-making-them-public.md)
    + [Überprüfen von Auftragsdateien](checking-job-files.md)
@@ -85,7 +85,7 @@ ht-degree: 18%
 + Bildgröße {#image-sizing}
    + [Kurzanleitung: Bildgrößenänderung](quick-start-image-sizing.md)
    + [Hochladen von Primärbildern](uploading-master-images.md)
-   + [Primärbilder veröffentlichen](publishing-master-images.md)
+   + [Primärbilder von Publish](publishing-master-images.md)
    + [Einrichten von Bildvorgaben](setting-image-presets.md)
    + [Verknüpfen von URLs mit einer Webanwendung](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -94,9 +94,9 @@ ht-degree: 18%
    + [Erstellen von Zoomzielen für geführten Zoom](creating-zoom-targets-guided-zoom.md)
    + [Einrichten von Zoom-Viewer-Vorgaben](setting-zoom-viewer-presets.md)
    + [Vorschau von Bild-Assets mit verschiedenen Zoom-Viewern](previewing-image-assets-different-zoom.md)
-   + [Veröffentlichen von Zoombildern](publishing-zoom-images.md)
+   + [Publish-Zoombilder](publishing-zoom-images.md)
    + [Verknüpfen von Zoom-Viewern mit Webseiten](linking-zoom-viewers-web-pages.md)
-+ E-Kataloge {#ecatalogs}
++ eCatalog {#ecatalogs}
    + [Schnellstart: E-Kataloge](quick-start-ecatalog.md)
    + [PDF-Dateien hochladen](uploading-pdf-files.md)
    + [Erstellen eines eCatalog](creating-ecatalog.md)
@@ -104,7 +104,7 @@ ht-degree: 18%
    + [Verwalten von Inhalten im Informationsbereich in E-Katalogen](info-panel-content-ecatalog.md)
    + [E-Katalog-Viewer-Vorgaben einrichten](setting-ecatalog-viewer-presets.md)
    + [Anzeigen einer Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Veröffentlichen von E-Katalogen und zugehörigen PDF](publishing-ecatalogs-associated-pdfs.md)
+   + [Publish-E-Kataloge und zugehörige PDF](publishing-ecatalogs-associated-pdfs.md)
    + [Verknüpfen eines eCatalog mit einer Webseite](linking-ecatalog-web-page.md)
 + Bildsets {#image-sets}
    + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
@@ -126,7 +126,7 @@ ht-degree: 18%
    + [Kurzanleitung: Rotationssets](quick-start-spin-sets.md)
    + [Erstellen eines Rotationssets](creating-spin-set.md)
    + [Vorschau eines Rotationssets](previewing-spin-set.md)
-   + [Veröffentlichen eines Rotationssets](publishing-spin-set.md)
+   + [Publish a Rotationsset](publishing-spin-set.md)
    + [Einrichten von Rotationsset-Viewer-Vorgaben](setting-spin-set-viewer-presets.md)
    + [Verknüpfen eines Rotationssets mit einer Webseite](linking-spin-set-web-page.md)
 + Vorlagengrundlagen {#template-basics}
@@ -150,9 +150,9 @@ ht-degree: 18%
    + [Kurzanleitung: Gemischte Mediensets](quick-start-mixed-media-sets.md)
    + [Einrichten einer Viewer-Vorgabe für gemischte Mediensets](setting-mixed-media-set-viewer.md)
    + [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md)
-   + [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md)
+   + [Publish a Mixed Media Set](publishing-mixed-media-set.md)
    + [Verknüpfen eines gemischten Mediensets mit einer Webseite](linking-mixed-media-set-web.md)
-+ Adobe Analytics-Instrumentenkit {#analytics-kit}
++ Adobe Analytics Instrumentation Kit {#analytics-kit}
    + [Schnellstart: Integration von Adobe Dynamic Media Classic in Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Bei Adobe Analytics anmelden](log-analytics.md)
    + [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md)
@@ -160,13 +160,13 @@ ht-degree: 18%
    + [Adobe Analytics-Tracking deaktivieren](disabling-analytics-tracking.md)
    + [Integration durch Anzeigen eines Adobe Analytics-Berichts testen](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics-Videoberichte aktivieren](enabling-analytics-video-reports.md)
-   + [Adobe Analytics-Konfigurationsinformationen veröffentlichen](publishing-analytics-configuration-information.md)
+   + [Publish Adobe Analytics-Konfigurationsinformationen](publishing-analytics-configuration-information.md)
 + Integration von Adobe Target Standard/Premium {#target-classic}
    + [Schnellstart: Integration von Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integrieren von Adobe Dynamic Media Classic mit Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Angebotssatz erstellen](creating-offer-set.md)
    + [Angebotssets an Adobe Target Standard/Premium senden](pushing-offer-sets-target.md)
-+ Benutzergenerierte Inhalte {#user-generated-content}
++ Benutzergenerierter Inhalt {#user-generated-content}
    + [Über benutzergenerierte Inhalte](about-ugc.md)
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
    + [Informationen zur Festplattenauslastung abrufen](getting-disk-usage-information.md)
@@ -183,7 +183,7 @@ ht-degree: 18%
    + [Arbeiten mit PSD-Dateien](psd-files.md)
    + [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md)
    + [Arbeiten mit Vignetten, Fensterverkleidungen und Kabinendateien](vignette-window-covering-cabinet-files.md)
-+ Unterstützungsdateien {#support-files}
++ Support-Dateien {#support-files}
    + [Schriftarten](fonts.md)
    + [XML-Dateien](xml-files.md)
    + [ICC-Profile](icc-profiles.md)

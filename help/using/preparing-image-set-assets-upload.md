@@ -29,5 +29,5 @@ Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Dateien hoch
 
 >[!MORELIKETHIS]
 >
->* [Hochladen der Dateien](uploading-files.md#uploading_your_files)
+>* [Laden Sie Ihre Dateien hoch](uploading-files.md#uploading_your_files)
 >* [Arbeiten mit Vignetten, Fensterverkleidungen und Kabinendateien](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

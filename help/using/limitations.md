@@ -34,7 +34,7 @@ Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung
 | --- | --- | --- |
 | **Bild**: Anzahl der smarten Zuschnitte pro Bild | 5 | 100 |
 | **Alle Sets**: Anzahl der doppelten Assets pro Satz | Keine Duplikate | 20 ‡ |
-| **Alle Sets**: Maximale Anzahl von Assets pro Satz | 5 - 10 Bilder pro Set | 1000 |
+| **Alle Sets**: Maximale Anzahl an Assets pro Satz | 5 - 10 Bilder pro Set | 1000 |
 | **Rotationsset**: Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
 | **PDF**: Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 100 (für alle PDF) |
 

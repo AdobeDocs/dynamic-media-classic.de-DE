@@ -20,7 +20,7 @@ ht-degree: 20%
 
 Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie Image Production System beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die weitere Anpassungen vornehmen und Adobe Dynamic Media Classic Rich Media für eine Website oder eine benutzerdefinierte Anwendung verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit dem Dynamic Media Classic-Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
 
-Siehe auch [Dynamic Media-Entwicklungsressourcen](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Siehe auch [Dynamic Media Developer Resources](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Viewer {#viewers-guide}
 

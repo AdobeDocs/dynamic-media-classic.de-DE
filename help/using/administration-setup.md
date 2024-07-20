@@ -22,7 +22,7 @@ ht-degree: 32%
 
 Die Bildschirme &quot;Administrationseinstellungen&quot;dienen der Verwaltung von Adobe Dynamic Media Classic-Benutzern. Verwenden Sie diese Bildschirme, um Benutzern die Arbeit in Adobe Dynamic Media Classic zu ermöglichen und per E-Mail mit anderen Benutzern zu kommunizieren.
 
-1. Die Optionen für die Administrationseinstellungen finden Sie unter **Einrichtung** > **Persönliche Einstellungen** > **Administrationseinstellungen**.
+1. Um auf die Optionen für Administrationseinstellungen zuzugreifen, gehen Sie zu **Einrichtung** > **Persönliche Einstellungen** > **Administrationseinstellungen**.
 
 ## Benutzerverwaltung {#user-administration}
 
@@ -34,17 +34,17 @@ Adobe Dynamic Media Classic unterstützt mehrere Benutzerrollen. Diese Rollen k�
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic-Benutzer** Kann auf Unternehmen zugreifen, denen er zugewiesen wurde; kann keine Verwaltungsaufgaben ausführen.
+**Adobe Dynamic Media Classic-Benutzer** Kann auf Unternehmen zugreifen, denen er zugewiesen wurde. Er kann keine Administratoraufgaben ausführen.
 
-**Adobe Dynamic Media Classic-Unternehmensadministrator** Können nur ihre eigenen Unternehmen anzeigen und verwalten. Ein Unternehmensadministrator kann außerdem alle Verwaltungsfunktionen ausführen, einschließlich des Hinzufügens von Administratoren und Benutzern. Ein Unternehmensadministrator kann einen Benutzer zu den DMC-Unternehmensadministratorkonten hinzufügen. (Dies ist die Standard-Benutzerrolle.)
+**Adobe Dynamic Media Classic-Unternehmensadministrator** Kann nur eigene Unternehmen anzeigen und verwalten. Ein Unternehmensadministrator kann außerdem alle Verwaltungsfunktionen ausführen, einschließlich des Hinzufügens von Administratoren und Benutzern. Ein Unternehmensadministrator kann einen Benutzer zu den DMC-Unternehmensadministratorkonten hinzufügen. (Dies ist die Standard-Benutzerrolle.)
 
 Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classic dem Benutzer eine Begrüßungs-E-Mail. Die Nachricht enthält ein Kennwort und die Adobe Dynamic Media Classic-URL.
 
 ### Hinzufügen eines Benutzers oder Administrators {#adding-a-user-or-administrator}
 
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
-1. Auswählen **[!UICONTROL Hinzufügen]**.
-1. Geben Sie den Namen und die E-Mail-Adresse des Benutzers oder Administrators ein, den/die Sie hinzufügen möchten, und wählen Sie dann **[!UICONTROL Nächste]**.
+1. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
+1. Geben Sie den Namen und die E-Mail-Adresse des Benutzers oder Administrators ein, den Sie hinzufügen möchten, und wählen Sie dann **[!UICONTROL Weiter]** aus.
 
    >[!NOTE]
    >
@@ -52,48 +52,48 @@ Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classi
 
 1. Um dem Benutzer eine Rolle zuzuweisen, wählen Sie die Option Rolle aus.
 
-   Siehe [Benutzerrollen und -berechtigungen in Adobe Dynamic Media Classic](administration-setup.md#user_administration).
+   Siehe [Benutzerrollen und -berechtigungen für Adobe Dynamic Media Classic](administration-setup.md#user_administration).
 
 1. Um einem Unternehmen einen Benutzer hinzuzufügen, wählen Sie einen Unternehmensnamen aus.
-1. Wenn Sie den Benutzer zu einer Gruppe hinzufügen möchten (wenn Sie einen Media Portal-Benutzer oder -Mitarbeiter hinzufügen), wählen Sie **[!UICONTROL Nächste]** und den Benutzer hinzufügen.
-1. Auswählen **[!UICONTROL Speichern]** , um die Benutzereinrichtung abzuschließen.
+1. Wenn Sie den Benutzer einer Gruppe hinzufügen möchten (wenn Sie einen Media Portal-Benutzer oder -Mitarbeiter hinzufügen), wählen Sie **[!UICONTROL Weiter]** aus und fügen Sie den Benutzer hinzu.
+1. Wählen Sie **[!UICONTROL Speichern]** aus, um die Benutzereinrichtung abzuschließen.
 
-   Nach dem Speichern werden Sie gefragt, ob Sie einem anderen Unternehmen einen Benutzer hinzufügen möchten. Auswählen **[!UICONTROL Hinzufügen]** , wenn Sie den Benutzer zu einem Unternehmen hinzufügen möchten.
+   Nach dem Speichern werden Sie gefragt, ob Sie einem anderen Unternehmen einen Benutzer hinzufügen möchten. Wählen Sie **[!UICONTROL Hinzufügen]** aus, wenn Sie den Benutzer einem Unternehmen hinzufügen möchten.
 
    Allen neuen Benutzern wird ein zufällig generiertes Kennwort zugewiesen. Benutzer müssen Kennwörter bei der ersten Anmeldung bei der Adobe Dynamic Media Classic-Desktop-Applikation ändern.
 
    Die von Ihnen hinzugefügten neuen Benutzer erhalten eine Begrüßungs-E-Mail. Die E-Mail enthält ein temporäres Kennwort und erläutert, wie Sie sich bei Adobe Dynamic Media Classic anmelden.
 
-   Wenn der Benutzer die Begrüßungs-E-Mail nicht erhält, bitten Sie ihn, zur Adobe Dynamic Media Classic-Anmeldeseite zu wechseln (https://s7sps1.scene7.com) und wählen Sie **[!UICONTROL Kennwort vergessen]**. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der Benutzer auch diese E-Mail nicht erhält und sie nicht in seinem Spam-Ordner ist, wenden Sie sich an den technischen Support.
+   Wenn der Benutzer die Begrüßungs-E-Mail nicht erhält, bitten Sie ihn, die Adobe Dynamic Media Classic-Anmeldeseite (https://s7sps1.scene7.com) aufzurufen und **[!UICONTROL Mein Kennwort vergessen]** auszuwählen. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der Benutzer auch diese E-Mail nicht erhält und sie nicht in seinem Spam-Ordner ist, wenden Sie sich an den technischen Support.
 
-   Beim Hinzufügen neuer Media Portal-Benutzer können Sie auch zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**, wählen Sie **[!UICONTROL Hochladen der Benutzerliste]** und wählen Sie eine CSV-Datei aus, die maximal 500 Benutzer enthält.
+   Wenn Sie neue Media Portal-Benutzer hinzufügen, können Sie auch &quot;**[!UICONTROL Setup]**&quot;> &quot;**[!UICONTROL Anwendungseinstellungen]**&quot;> &quot;**[!UICONTROL Benutzerverwaltung]**&quot;, dann &quot;**[!UICONTROL Benutzerliste hochladen]**&quot;und eine CSV-Datei mit höchstens 500 Benutzern auswählen.
 
 ### Löschen eines Benutzers {#delet-a-user}
 
 Sie können Benutzer aus Adobe Dynamic Media Classic löschen, indem Sie sie ungültig machen. Ungültige Benutzer werden aus dem System und sämtlichen Konten entfernt.
 
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
-1. Wählen Sie einen Benutzer aus der Liste aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie einen Benutzer aus der Liste und dann **[!UICONTROL Bearbeiten]** aus.
 1. Deaktivieren Sie „Gültig“.
-1. Auswählen **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ### Benutzer aktivieren oder deaktivieren {#activating-or-deactivating-users}
 
 Benutzer, die deaktiviert wurden, können nicht mehr auf das oben im Menü „Konto zum Zugreifen auswählen“ aufgelistete Konto zugreifen.
 
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
-1. Wählen Sie in der Benutzerliste die **[!UICONTROL Aktiv]** neben dem Namen des Benutzers.
+1. Aktivieren oder deaktivieren Sie in der Benutzerliste die Option **[!UICONTROL Aktiv]** neben dem Namen des Benutzers.
 
 ### Bearbeiten von Benutzerinformationen {#editing-user-information}
 
 Welche Benutzerinformationen Sie bearbeiten können, hängt von Ihrer Rolle als Administrator und der zugewiesenen Rolle der Benutzer ab, deren Angaben Sie bearbeiten möchten. Abgeblendete Optionen (nicht verfügbar) sind nicht bearbeitbar.
 
 1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Administrationseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
-1. Wählen Sie einen Benutzer aus der Liste aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Wählen Sie den Eintrag in der Tabelle aus, der das Unternehmen anzeigt, für das Sie Berechtigungen oder Zugriff ändern möchten, und wählen Sie dann **[!UICONTROL Unternehmen verwalten]**.
+1. Wählen Sie einen Benutzer aus der Liste und dann **[!UICONTROL Bearbeiten]** aus.
+1. Wählen Sie den Eintrag in der Tabelle aus, der das Unternehmen anzeigt, für das Sie Berechtigungen oder Zugriff ändern möchten, und wählen Sie dann **[!UICONTROL Unternehmen verwalten]** aus.
 1. Wählen Sie die Benutzerrolle aus.
-1. Wenn Sie die Gruppenmitgliedschaft des Benutzers ändern möchten (wenn Sie einen Media Portal-Benutzer oder -Mitarbeiter bearbeiten oder hinzufügen), wählen Sie **[!UICONTROL Nächste]** und bearbeiten Sie die Gruppenmitgliedschaft.
-1. Auswählen **[!UICONTROL Speichern]**.
+1. Wenn Sie die Gruppenmitgliedschaft des Benutzers ändern möchten (wenn Sie einen Media Portal-Benutzer oder -Mitarbeiter bearbeiten oder hinzufügen), wählen Sie **[!UICONTROL Weiter]** aus und bearbeiten Sie die Gruppenmitgliedschaft.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ### Filtern und Sortieren der Benutzerliste {#filtering-and-sorting-the-user-list}
 
@@ -101,15 +101,15 @@ Sie können die Benutzerliste sortieren und filtern, um Benutzer zu suchen. Alle
 
 Sie können die folgenden Methoden zum Filtern von Benutzerlisten verwenden:
 
-* **Nach Gruppe filtern**: Wählen Sie die **[!UICONTROL Nach Gruppe]** und wählen Sie eine Option, um die Liste auf Benutzer in einer Gruppe zu beschränken.
+* **Nach Gruppe filtern**: Wählen Sie das Menü **[!UICONTROL Nach Gruppe]** aus und wählen Sie eine Option, um die Liste auf Benutzer in einer Gruppe zu beschränken.
 
-* **Nach Benutzerrolle filtern**: Wählen Sie die **[!UICONTROL Nach Benutzerrolle]** und wählen Sie eine Option, um die Liste auf Benutzer oder Administratoren verschiedener Typen zu beschränken.
+* **Nach Benutzerrolle filtern**: Wählen Sie das Menü **[!UICONTROL Nach Benutzerrolle]** aus und wählen Sie eine Option, um die Liste auf Benutzer oder Administratoren unterschiedlicher Typen zu beschränken.
 
-* **Nach Feldname filtern**: Auswählen **[!UICONTROL Filtern nach Feld aktivieren]**. Wählen Sie dann die **[!UICONTROL Nach Feldname]** , wählen Sie eine Spalte zum Filtern der Liste, wählen Sie das Menü Zeichen filtern und wählen Sie einen Brief aus. Die Liste wird anhand des ausgewählten Briefs nach einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Filtern nach Feld aktivieren]** -Option.
+* **Filtern nach Feldname**: Wählen Sie **[!UICONTROL Filtern nach Feld aktivieren]** aus. Wählen Sie dann das Menü **[!UICONTROL Nach Feldname]** aus, wählen Sie eine Spalte zum Filtern der Liste, wählen Sie das Menü &quot;Zeichen filtern&quot;und wählen Sie einen Brief aus. Die Liste wird anhand des ausgewählten Briefs nach einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, deaktivieren Sie die Option **[!UICONTROL Filter nach Feld aktivieren]** .
 
-* **Ausfiltern ungültiger Benutzer**: Auswahl aufheben **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
+* **Ungültige Benutzer herausfiltern**: Deaktivieren Sie **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
 
-* **Nach Spaltenüberschrift sortieren**: Wählen Sie eine Überschrift aus, um alle Benutzer nach Status, alphabetisch nach Vorname, Nachname oder E-Mail-Adresse zu sortieren. Oder sortieren Sie nach Benutzerrolle oder nach dem gültigen/ungültigen Status.
+* **Sortieren nach Spaltenüberschrift**: Wählen Sie eine Überschrift aus, um alle Benutzer nach ihrem Status, alphabetisch nach Vorname, Nachname oder E-Mail-Adresse zu sortieren. Oder sortieren Sie nach Benutzerrolle oder nach dem gültigen/ungültigen Status.
 
 Wenn Sie mit sehr vielen Benutzern arbeiten, können Sie im Menü „Max. Listengr.“ eine Zahl eingeben, um die Länge der Liste zu beschränken.
 
@@ -145,7 +145,7 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
 Adobe Dynamic Media Classic-Administratoren können für die von ihnen verwalteten Unternehmen Bandbreite, Speicherplatz und andere Berichtstypen generieren. Diese Berichte sind auf der Seite &quot;Bandbreite und Speicher&quot;verfügbar.
 
-Um diese Seite zu öffnen, navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]**. Erweitern **[!UICONTROL Administrationseinstellungen]** und wählen Sie **[!UICONTROL Bandbreite und Speicher]**.
+Um diese Seite zu öffnen, gehen Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]**. Erweitern Sie **[!UICONTROL Administrationseinstellungen]** und wählen Sie dann **[!UICONTROL Bandbreite und Speicher]** aus.
 
 ### Berichtstypen {#types-of-reports}
 
@@ -166,11 +166,11 @@ Der Bericht „Bildinhalt“ enthält Informationen über Anforderungen nach den
 
 * **Miniaturanfrage**: Anforderungen für Muster oder alternative Bilder in Viewern.
 
-* **Maskenanfrage**: Anforderungen an Bilder, die Graustufenmasken zurückgeben.
+* **Maskenanforderung**: Anforderungen an Bilder, die Graustufenmasken zurückgeben.
 
-* **Viewer-Kachelanforderung**: Von einem Viewer geladene Bildanforderungen.
+* **Anforderung der Viewer-Kachel**: Von einem Viewer geladene Bildanforderungen.
 
-* **VNT-Objektanfrage**: Bildwiedergabeanforderungen, die ein Bild mit angegebenen Objekten in den angeforderten Vignetten zurückgeben.
+* **VNT Object Request**: Bildwiedergabeanforderungen, die ein Bild mit bestimmten Objekten in den angeforderten Vignetten zurückgeben.
 
 * **VNT Info Request**: Image Rendering-Anfragen, die Informationen zu den angeforderten Vignetten zurückgeben.
 
@@ -182,9 +182,9 @@ Der Bericht „Bildinhalt“ enthält Informationen über Anforderungen nach den
 
 So generieren Sie einen Bericht zur Bandbreite, zum Speicher, zu Bildinhalt, zur Domäne, zum Video-Streaming oder zu Videoinhalt:
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]**.
-1. Erweitern Sie die Administrationseinstellungen und wählen Sie dann **[!UICONTROL Bandbreite und Speicher]**.
-1. Wählen Sie eine Registerkarte aus: **[!UICONTROL Bandbreite]**, **[!UICONTROL Speicherung]**, **[!UICONTROL Bildinhalt]**, **[!UICONTROL Domäne]**, **[!UICONTROL Video-Streaming]** oder **[!UICONTROL Videoinhalt]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]**.
+1. Erweitern Sie die Administrationseinstellung und wählen Sie dann **[!UICONTROL Bandwidth &amp; Storage]** aus.
+1. Wählen Sie eine Registerkarte aus: **[!UICONTROL Bandwidth]**, **[!UICONTROL Storage]**, **[!UICONTROL Image Content]**, **[!UICONTROL Domain]**, **[!UICONTROL Video Streaming]** oder **[!UICONTROL Video Content]**.
 
    Siehe [Berichtstypen](administration-setup.md#types_of_reports).
 
@@ -192,17 +192,17 @@ So generieren Sie einen Bericht zur Bandbreite, zum Speicher, zu Bildinhalt, zur
 
 Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert haben, können Sie Optionen zum Anzeigen der Informationen auswählen. Sie können festlegen, wie die Informationen dargestellt werden, die Informationen in einem Diagramm oder Datenraster anzeigen und einen Zeitraum für das Erfassen von Informationen bestimmen. In der Datenansicht können Sie die Informationen auch sortieren und in Spalten anordnen.
 
-* **Daten in einem Diagramm oder Datenraster anzeigen**: Auswählen **[!UICONTROL Diagrammansicht]** um Daten in einer Grafik anzuzeigen, wählen Sie **[!UICONTROL Datenansicht]** , um Daten in einem Datenraster anzuzeigen.
+* **Daten in einem Diagramm oder Datenraster anzeigen**: Wählen Sie **[!UICONTROL Diagrammansicht]** aus, um Daten in einem Diagramm anzuzeigen. Wählen Sie **[!UICONTROL Datenansicht]** aus, um Daten in einem Datenraster anzuzeigen.
 
-* **Berichtpräsentationstyp auswählen**: Wählen Sie im Menü Berichtstyp die Option **[!UICONTROL Zusammenfassung]**, **[!UICONTROL Täglich]** oder **[!UICONTROL Monatlich]** um die Daten in Form einer Zusammenfassung, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
+* **Wählen Sie einen Präsentationstyp des Berichts aus**: Wählen Sie im Menü &quot;Berichtstyp&quot;die Option **[!UICONTROL Zusammenfassung]**, **[!UICONTROL Täglich]** oder **[!UICONTROL Monatlich]** aus, um die Daten in Form einer Zusammenfassung, nach Tag oder nach Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
 
-* **Zeitraum angeben**: Wählen Sie Optionen aus, um einen Zeitraum für Ihren Bericht zu definieren, und wählen Sie dann **[!UICONTROL Aktualisieren]** nach der Definition eines Zeitraums:
+* **Legen Sie einen Zeitraum fest**: Wählen Sie Optionen aus, um einen Zeitraum für Ihren Bericht zu definieren, und wählen Sie dann **[!UICONTROL Aktualisieren]** aus, nachdem Sie einen Zeitraum definiert haben:
 
 * **Vordefinierter Zeitraum**: Wählen Sie im Menü Vordefinierter Bericht eine Option aus. Wählen Sie beispielsweise „Letzter Monat“, um die Daten des letzten Monats zu erfassen.
 
-* **Benutzerdefinierter Zeitraum**: Wählen Sie im Menü Vordefinierter Bericht die Option **[!UICONTROL Benutzerdefiniert]**. Wählen Sie dann ein Datum für die **[!UICONTROL Startmonat]** (oder **[!UICONTROL Startdatum]**) und ein Datum im Menü Anzahl der Monate (oder Anzahl oder Tage). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
+* **Benutzerdefinierter Zeitraum**: Wählen Sie im Menü Vordefinierter Bericht die Option **[!UICONTROL Benutzerdefiniert]** aus. Wählen Sie dann im Menü **[!UICONTROL Startmonat]** (oder **[!UICONTROL Startdatum]**) ein Datum und im Menü Anzahl der Monate (oder Tage) ein Datum aus. Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
 
-* **Sortieren von Daten (nur Datenansicht)**: Sortiert Informationen in einer Spalte. Wählen Sie die Überschrift der Spalte aus. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
+* **Sortieren von Daten (nur Datenansicht)**: Sortieren Sie Informationen in einer Spalte. Wählen Sie die Überschrift der Spalte aus. Wählen Sie erneut aus, um in absteigender Reihenfolge zu sortieren.
 
 * **Spalten neu anordnen (nur Datenansicht)**: Um eine Spalte an eine andere Position im Datenraster zu verschieben, ziehen Sie die Überschrift.
 
@@ -210,33 +210,33 @@ Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert 
 
 Nachdem Sie einen Bericht generiert haben, können Sie die Daten für die Verwendung in Tabellen und anderen Anwendungen exportieren. Sie können die Berichte auch ausdrucken.
 
-* **Berichtdaten exportieren**: Sortieren und ordnen Sie die Daten in der Datenansicht nach Bedarf an. Öffnen Sie dann die **[!UICONTROL Export]** und wählen Sie ein Format: **[!UICONTROL Tabulatorgetrennt]**, **[!UICONTROL Kommagetrennt]** oder **[!UICONTROL HTML formatiert]**. Die Daten werden in dem von Ihnen ausgewählten Format in die Zwischenablage kopiert. Jetzt können Sie die Daten in eine Tabelle oder Anwendung einfügen.
+* **Berichtdaten exportieren**: Sortieren und ordnen Sie die Daten in der Datenansicht nach Bedarf an. Öffnen Sie dann das Menü **[!UICONTROL Exportieren]** und wählen Sie ein Format: **[!UICONTROL Tabulatorgetrennt]**, **[!UICONTROL Kommagetrennt]** oder **[!UICONTROL HTML Formatiert]**. Die Daten werden in dem von Ihnen ausgewählten Format in die Zwischenablage kopiert. Jetzt können Sie die Daten in eine Tabelle oder Anwendung einfügen.
 
-* **Bericht drucken**: Auswählen **[!UICONTROL Drucken]**, wählen Sie die gewünschten Optionen im Dialogfeld &quot;Drucken&quot;aus und klicken Sie auf **[!UICONTROL OK]**.
+* **Einen Bericht drucken**: Wählen Sie **[!UICONTROL Drucken]**, wählen Sie die gewünschten Optionen im Dialogfeld &quot;Drucken&quot;aus und klicken Sie auf **[!UICONTROL OK]**.
 
 ## Bildfehler {#image-errors}
 
 Adobe Dynamic Media Classic-Administratoren können Bildfehlerberichte generieren. Ein Bildfehlerbericht zeigt eine Liste der 20 häufigsten Bildfehler in den letzten 24 Stunden für das Unternehmen an, bei dem Sie derzeit angemeldet sind. Gehen Sie wie folgt vor, um einen Bildfehlerbericht zu generieren:
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Persönliche Einstellungen]**.
-1. Erweitern Sie die Administrationseinstellungen und wählen Sie dann **[!UICONTROL Bildfehler]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]**.
+1. Erweitern Sie die Administrationseinstellungen und wählen Sie dann **[!UICONTROL Bildfehler]** aus.
 1. (Optional) Führen Sie dann einen der folgenden Schritte aus:
 
    * Um Fehler anhand der Überschrifteninformationen zu sortieren, wählen Sie eine Überschrift aus. Standardmäßig sind die Fehler absteigend nach der Anzahl der Instanzen geordnet.
    * Bewegen Sie den Cursor über das Feld „Antwort“ eines Fehlers, um die jeweilige Fehlermeldung anzuzeigen.
    * Um den Link zum Bild oder zur Referrer-Webseite anzuzeigen, bewegen Sie den Cursor über das URL-Feld oder das Referrer-Feld.
-   * Um den Link zum tatsächlichen Bild zu kopieren, wählen Sie **[!UICONTROL URL kopieren]**. Sie können diesen Link in ein Browserfenster kopieren, um das Bild aufzurufen und den Fehler zu prüfen.
-   * Um den Link auf die Referrer-Webseite zu kopieren, wählen Sie **[!UICONTROL Referrer Copy URL]**.
+   * Um den Link zum tatsächlichen Bild zu kopieren, wählen Sie **[!UICONTROL URL kopieren URL]** aus. Sie können diesen Link in ein Browserfenster kopieren, um das Bild aufzurufen und den Fehler zu prüfen.
+   * Um den Link auf die Webseite des Referrers zu kopieren, wählen Sie **[!UICONTROL URL des Referrers kopieren]** aus.
 
 Die angezeigten Fehler beziehen sich auf das Unternehmen, bei dem Sie derzeit angemeldet sind. Jeder Fehler enthält die folgenden Informationen:
 
 * **Bild-ID**: ID für das fehlerhafte Bild.
 
-* **Zeit**: Der Zeitbereich, in dem der Fehler zum ersten Mal in den letzten 24 Stunden gemeldet wurde, als der Fehler zuletzt gemeldet wurde.
+* **Zeit**: Der Zeitraum, in dem der Fehler zum ersten Mal innerhalb der letzten 24 Stunden gemeldet wurde, als der Fehler zuletzt gemeldet wurde.
 
-* **Count**: Die Anzahl der im Bild gemeldeten Fehler.
+* **Zählung**: Die Anzahl der Fehler, die im Bild gemeldet werden.
 
-* **Reaktion**: Die spezifische Fehlermeldung. Fehler haben IDs, die mit 4xx oder 5xx beginnen.
+* **Antwort**: Die spezifische Fehlermeldung. Fehler haben IDs, die mit 4xx oder 5xx beginnen.
 
 * **URLs**: Listet die URL zum Bild in Adobe Dynamic Media Classic auf.
 

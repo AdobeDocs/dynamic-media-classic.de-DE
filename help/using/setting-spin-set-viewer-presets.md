@@ -23,22 +23,22 @@ Mit Rotationsset-Viewer-Vorgaben werden der Stil, das Verhalten und das Aussehen
 
 **So erstellen Sie eine Rotationsset-Viewer-Vorgabe:**
 
-1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
+1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]** Wählen Sie dann im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform und dann **[!UICONTROL Rotationsset-Viewer]**.
+   * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]**, dann im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;, wählen Sie eine Plattform und dann **[!UICONTROL Rotationsset-Viewer]**.
    * Um eine vorhandene Rotationsset-Viewer-Vorgabe zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Im `Configure Viewer` -Seite einen Namen in das Feld &quot;Vorgabenname&quot;für die Viewer-Vorgabe für Rotationssets eingeben.
-1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, wählen Sie die **[!UICONTROL Info-Tipp]** neben der Option.
+1. Geben Sie auf der Seite &quot;`Configure Viewer`&quot;einen Namen in das Feld &quot;Vorgabenname&quot;für die Viewer-Vorgabe für Rotationssets ein.
+1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, wählen Sie das Symbol **[!UICONTROL Info Tipp]** neben der Option aus.
 
    Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.
 
-1. Auswählen **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-Auswählen **[!UICONTROL Als Standard festlegen]** um die Viewer-Vorgabe für Rotationssets zu erstellen, haben Sie das Unternehmen als Standard für die Anzeige von Rotationssets erstellt.
+Wählen Sie **[!UICONTROL Als Standard festlegen]** aus, damit die von Ihnen erstellte Rotationsset-Viewer-Vorgabe für das Unternehmen standardmäßig für die Anzeige von Rotationssets verwendet wird.
 
-Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_viewers).
+Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_default_viewers).
 
 Um eine Rotationsset-Viewer-Vorgabe zu löschen, wählen Sie sie auf der Seite &quot;Viewer-Vorgaben&quot;aus und klicken Sie dann auf **[!UICONTROL Löschen]**.
 

@@ -28,23 +28,23 @@ Beim Hochladen von Bilddateien, einschließlich AI-, EPS- und PSD-Dateien, könn
 * Scharfzeichnen von Bildern mit Optionen für „Unschärfemaske“
 * Hintergrund aussparen
 
-Diese Optionen befinden sich auf der Seite &quot;Hochladen&quot;unter der **[!UICONTROL Bildbearbeitungsoptionen]** -Überschrift.
+Diese Optionen befinden sich auf der Seite &quot;Hochladen&quot;unter der Überschrift **[!UICONTROL Bildbearbeitungsoptionen]** .
 
 ## Leerraum aus Bildern beschneiden
 
-Sie können automatisch weiße Leerraum-Pixel aus einem Bild beschneiden. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Optionen zum Zuschneiden]**. Im **[!UICONTROL Zuschneiden]** Dropdown-Liste auswählen **[!UICONTROL Zuschneiden]**. Anschließend können Sie folgende Optionen wählen:
+Sie können automatisch weiße Leerraum-Pixel aus einem Bild beschneiden. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Optionen für das Zuschneiden]**. Wählen Sie in der Dropdownliste **[!UICONTROL Zuschneiden]** die Option **[!UICONTROL Zuschneiden]**. Anschließend können Sie folgende Optionen wählen:
 
 * **[!UICONTROL Entfernen basierend auf]**: Wählen Sie aus dieser Dropdownliste aus, ob das Zuschneiden auf Grundlage von Farbe oder Transparenz erfolgen soll:
 
-   * **[!UICONTROL Farbe]**: Wählen Sie die **[!UICONTROL Farbe]** -Option. Dann aus dem **[!UICONTROL Ecke]** in der Dropdown-Liste die Ecke des Bildes mit der Farbe auswählen, die der Farbe des Leerraums, die Sie zuschneiden möchten, am besten entspricht.
+   * **[!UICONTROL Farbe]**: Wählen Sie die Option **[!UICONTROL Farbe]** aus. Wählen Sie dann aus der Dropdownliste **[!UICONTROL Ecke]** die Ecke des Bildes mit der Farbe aus, die am besten der zu beschneidenden Leerraum-Farbe entspricht.
 
-   * **[!UICONTROL Transparenz]**: Wählen Sie die Option Transparenz aus.
+   * **[!UICONTROL Transparenz]**: Wählen Sie die Option &quot;Transparenz&quot;.
 
-* **[!UICONTROL Toleranz]**: Ziehen Sie den Regler, um eine Toleranz zwischen 0 und 1 festzulegen:
+* **[!UICONTROL Toleranz]**: Ziehen Sie den Regler, um eine Toleranz von 0 bis 1 anzugeben:
 
-   * **Beschneiden anhand der Farbe**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+   * **Beschneiden basierend auf Farbe**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-   * **Auf Transparenz basierende Beschneidung**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, ermöglichen mehr Transparenz.
+   * **Auf Transparenz basierendes Zuschneiden**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Werte, die näher an 1 liegen, ermöglichen mehr Transparenz.
 
 ## Manuelles Zuschneiden von den Seiten der Bilder
 
@@ -56,9 +56,9 @@ Um einen Farbraum für das Bild auszuwählen, wählen Sie eine Farbprofil -Optio
 
 * **[!UICONTROL In sRGB konvertieren]**: Konvertiert in sRGB (Standard Red Green Blue). sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Webseiten.
 
-* **[!UICONTROL Originalfarbraum beibehalten]**: Behält den ursprünglichen Farbraum bei.
+* **[!UICONTROL Ursprünglichen Farbraum beibehalten]**: Behält den ursprünglichen Farbraum bei.
 
-* **[!UICONTROL Benutzerdefiniert von]** > **[!UICONTROL nach]**: Öffnet Menüs, in denen Sie einen Farbraum vom Typ Konvertieren von und Konvertieren in auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
+* **[!UICONTROL Benutzerdefiniert von]** > **[!UICONTROL bis]**: Öffnet Menüs, damit Sie einen Farbraum &quot;Konvertieren von&quot;und &quot;Konvertieren in&quot;auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
 
 Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
@@ -76,14 +76,14 @@ Wählen Sie unter „Unschärfemaske &quot; die gewünschten Optionen aus. Die z
 
 | Optionen für „Unschärfemaske“ | Beschreibung |
 | --- | --- |
-| Betrag | Betrag steuert den Kontrastwert, der auf die Kantenpixel angewendet wird.<br><br>Stellen Sie sich das als Intensität des Effekts vor. Es gibt einen Unterschied zwischen den Zahlenwerten von Unschärfemaske in Dynamic Media Classic und in Adobe Photoshop. Der Hauptunterschied besteht darin, dass Photoshop einen Betrag zwischen 1 % und 500 % hat. In Adobe Dynamic Media Classic liegt der Wertebereich zwischen 0,0 und 5,0. Der Wert 5,0 in Adobe Dynamic Media Classic entspricht ungefähr 500 % in Photoshop, der Wert 0,9 entspricht 90 % usw. |
+| Betrag | Betrag steuert den Kontrastwert, der auf die Kantenpixel angewendet wird.<br><br>Stellen Sie sich dies als die Intensität des Effekts vor. Es gibt einen Unterschied zwischen den Zahlenwerten von Unschärfemaske in Dynamic Media Classic und in Adobe Photoshop. Der Hauptunterschied besteht darin, dass Photoshop einen Betrag zwischen 1 % und 500 % hat. In Adobe Dynamic Media Classic liegt der Wertebereich zwischen 0,0 und 5,0. Der Wert 5,0 in Adobe Dynamic Media Classic entspricht ungefähr 500 % in Photoshop, der Wert 0,9 entspricht 90 % usw. |
 | Radius | Diese Option steuert den Radius des Effekts. <br><br>Der Wertebereich ist 0-250. Der Effekt wird auf allen Pixeln im Bild ausgeführt und strahlt in alle Richtungen aus. Der Radius wird in Pixel angegeben. Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein Bild mit 2000 × 2000 Pixel und 500 × 500 Pixel zu erhalten, legen Sie einen Radius von zwei Pixel auf dem Bild mit 2000 × 2000 Pixel fest. Legen Sie dann einen Radius-Wert von einem Pixel auf dem Bild mit 500 × 500 Pixel fest. Ein größerer Wert wird entsprechend für ein Bild mit mehr Pixeln verwendet.  |
 | Schwelle | Gibt den Kontrastbereich an, der beim Anwenden des Filters „Unschärfemaske“ ignoriert werden soll. Dieser Effekt ist wichtig, damit bei Verwendung dieses Filters kein Bildrauschen entsteht. Der Schwellenwert verwendet einen Wert von 0 bis 255, was für die Anzahl der Helligkeitsschritte in einem Graustufenbild steht. 0=schwarz, 128=50 % grau und 255=weiß. <br><br>Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um Rauschen zu vermeiden. Gleichzeitig wird kontrastreichen Bereichen, z. B. wo Wimpern auf die Haut treffen, Kantenkontrast hinzugefügt.<br><br>Wenn Sie z. B. ein Foto von jemandes Gesicht haben, wirkt sich die Unschärfemaske auf die kontrastreichen Teile des Bildes aus. Zum Beispiel, wo Wimpern und Haut treffen, um einen offensichtlichen Kontrastbereich zu schaffen, und die glatte Haut selbst. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln. Dies wiederum erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert)<br><br>Um dieses Problem zu vermeiden, wird ein Schwellenwert eingeführt, der den Filter anweist, Pixel zu ignorieren, die den Kontrast nicht wesentlich ändern, wie glatte Haut. <br><br>Beachten Sie in der zuvor gezeigten Reißverschlussgrafik die Textur neben dem Reißverschluss. Bildrauschen wird angezeigt, da die Schwellenwerte zu niedrig sind, um das Rauschen zu unterdrücken. |
-| Monochrom | Wählen Sie diese Option, um die „Umschärfemaske“ auf die Gesamthelligkeit (Intensität) des Bildes anzuwenden.<br><br>Heben Sie die Auswahl auf, um die Unschärfemaske für jede Farbkomponente separat auszuwählen. |
+| Monochrom | Wählen Sie diese Option, um die „Umschärfemaske“ auf die Gesamthelligkeit (Intensität) des Bildes anzuwenden.<br><br>Deaktivieren Sie diese Option, um die Unschärfemaske für jede Farbkomponente separat auszuwählen. |
 
-Siehe auch [Scharfzeichnen von Bildern](sharpening-image.md#sharpening_an_image).
+Siehe auch [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image).
 
-Siehe auch [Scharfzeichnen von Bildern in Adobe Dynamic Media und auf dem Image-Server](/help/using/assets/s7_sharpening_images.pdf).
+Siehe auch [Scharfzeichnen von Bildern in Adobe Dynamic Media und auf Image-Server](/help/using/assets/s7_sharpening_images.pdf).
 
 ## Hintergrund aussparen
 
@@ -92,10 +92,10 @@ Verwenden Sie &quot;Hintergrund aussparen&quot;, damit Sie beim Hochladen automa
 | Optionen für „Hintergrund aussparen“ | Beschreibung |
 | --- | --- |
 | Hintergrund aussparen | Wählen Sie diese Option aus, um die Funktion und die Optionen &quot;Hintergrund aussparen&quot;zu aktivieren bzw. zu aktivieren. |
-| Ecke | Erforderlich.<br>Die Ecke des Bildes, mit der die auszuschneidende Hintergrundfarbe definiert wird.<br>Sie können aus <b>Oben links, unten links, Oben rechts oder unten rechts</b>. |
-| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der Ecke, die Sie festlegen.<br>Sie können aus den folgenden Füllmethoden wählen:<br>・ <b>Flood Fill</b>: Macht alle Pixel transparent, die der von Ihnen angegebenen Ecke entsprechen und mit ihr verbunden sind.<br>・ <b>Pixel abgleichen</b>: Macht alle übereinstimmenden Pixel transparent, unabhängig von ihrer Position auf dem Bild. |
+| Ecke | Erforderlich.<br>Die Ecke des Bildes, mit der die auszuschneidende Hintergrundfarbe definiert wird.<br>Sie können aus <b>Oben links, Unten links, Oben rechts oder Unten rechts</b> wählen. |
+| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der Ecke, die Sie festgelegt haben.<br>Sie können aus den folgenden Füllmethoden wählen:<br> ・ <b>Flood Fill</b>: Macht alle Pixel transparent, die der von Ihnen angegebenen Ecke entsprechen und mit ihr verbunden sind.<br> ・ <b>Pixel abgleichen</b>: Macht alle übereinstimmenden Pixel transparent, unabhängig von ihrer Position auf dem Bild. |
 | Toleranz | Optional.<br>Steuert die zulässige Abweichung der Pixelfarbe basierend auf der Ecke, die Sie festgelegt haben.<br>Verwenden Sie den Wert 0,0, um die Pixelfarben exakt abzugleichen. Oder verwenden Sie den Wert 1,0, um die größte Variante zu ermöglichen. |
 
 >[!MORELIKETHIS]
 >
->* [Zuschneiden eines Bildes](cropping-image.md#cropping_an_image)
+>* [Bild beschneiden](cropping-image.md#cropping_an_image)

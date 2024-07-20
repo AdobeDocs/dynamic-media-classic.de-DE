@@ -23,17 +23,17 @@ Sie können Adobe PostScript® (EPS)- und Adobe® Illustrator® (AI)-Dateien in 
 
 Beim Hochladen von EPS- und AI-Bilddateien stehen Ihnen verschiedene Formatierungsmöglichkeiten zur Verfügung. Sie können die Dateien rastern, sie für die Vorlagenveröffentlichung in FXG konvertieren, einen transparenten Hintergrund festlegen sowie eine Auflösung und einen Farbraum wählen. Die Optionen zum Formatieren von PostScript- und Illustrator-Dateien finden Sie im Anzeigebereich „Hochladen“ unter „PostScript-Optionen“ bzw. im Feld „Upload-Auftragsoptionen“ unter „Illustrator-Optionen“.
 
-* **[!UICONTROL Verarbeitung]**: Auswählen **[!UICONTROL Rastern]** , um die Vektorgrafiken in der Datei in das Bitmap-Format zu konvertieren.
+* **[!UICONTROL Verarbeitung]**: Wählen Sie **[!UICONTROL Rastern]** aus, um die Vektorgrafiken in der Datei in das Bitmap-Format zu konvertieren.
 
 * **[!UICONTROL Transparenten Hintergrund in gerendertem Bild beibehalten]**: Behält die Hintergrundtransparenz der Datei bei.
 
 * **[!UICONTROL Auflösung]**: Bestimmt die Auflösungseinstellung. Mit dieser Einstellung wird bestimmt, wie viele Pixel pro Zoll in der Datei angezeigt werden.
 
-* **[!UICONTROL Farbraum]**: Wählen Sie die **[!UICONTROL Farbraum]** und wählen Sie einen Farbraum aus:
+* **[!UICONTROL Farbraum]**: Wählen Sie das Menü **[!UICONTROL Farbraum]** aus und wählen Sie einen Farbraum:
 
    * **[!UICONTROL Automatisch erkennen]**: Behält den Farbraum der Datei bei.
 
-   * **[!UICONTROL Immer RGB]**: Konvertiert in den RGB-Farbraum.
+   * **[!UICONTROL Immer RGB]**: Konvertiert in den Farbraum RGB.
 
    * **[!UICONTROL Immer CMYK]**: Konvertiert in den CMYK-Farbraum.
 

@@ -29,18 +29,18 @@ Siehe auch [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-as
 
 **So legen Sie Exportoptionen fest, die für Media Portal-Benutzer verfügbar sind:**
 
-1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Bildvorgaben]**.
+1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Bildvorgaben]**.
 1. Legen Sie im Fenster „Bildvorgaben“ die folgenden Optionen nach Bedarf fest:
 
-   * **Benutzerdefinierte Konversion aktivieren**: Wenn diese Option aktiviert ist, können Benutzer andere aus der **[!UICONTROL Größe]** Dropdown-Liste im Fenster &quot;Ausgewählte Assets exportieren&quot;. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter auswählen und dann die gewünschte Breite und Höhe angeben. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
+   * **Benutzerdefinierte Konversion aktivieren**: Wenn diese Option aktiviert ist, können Benutzer aus der Dropdownliste **[!UICONTROL Größe]** im Fenster &quot;Ausgewählte Assets exportieren&quot;eine andere Option auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter auswählen und dann die gewünschte Breite und Höhe angeben. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
 
-     Wann **[!UICONTROL Pixel]** werden aus dem **[!UICONTROL Größe]** Dropdown-Liste, die resultierende Bildbreite × -höhe darf 100 Millionen Pixel nicht überschreiten. Diese Größe entspricht 10.000 × 10.000 Pixel für ein quadratisches Bild oder etwa 8.000 × 12.000 Pixel für ein Seitenverhältnis von 2 x 3. Diese Größenbeschränkung gilt nicht, wenn Sie Originalbilder exportieren.
+     Wenn **[!UICONTROL Pixel]** aus der Dropdownliste **[!UICONTROL Größe]** ausgewählt werden, darf die resultierende Bildbreite × Höhe 100 Millionen Pixel nicht überschreiten. Diese Größe entspricht 10.000 × 10.000 Pixel für ein quadratisches Bild oder etwa 8.000 × 12.000 Pixel für ein Seitenverhältnis von 2 x 3. Diese Größenbeschränkung gilt nicht, wenn Sie Originalbilder exportieren.
 
      Deaktivieren Sie diese Option, damit Benutzer Dateien herunterladen können, ohne sie beim Herunterladen neu zu formatieren.
 
-   * **Export Original aktivieren**: Ermöglicht den Export von ursprünglichen Primärbildern. Im **[!UICONTROL Ausgewählte Assets exportieren]** Bedienfeld, können Benutzer die **[!UICONTROL Konversion]** Dropdown-Menü und wählen Sie **[!UICONTROL Original exportieren]** um die Originaldateien zu exportieren. Wenn diese Option deaktiviert ist, müssen Benutzer beim Exportieren von Bildern eine Bildvorgabe auswählen oder Konvertierungsoptionen festlegen.
+   * **Original exportieren aktivieren**: Hiermit können Sie Original-Primärbilder exportieren. Im Bedienfeld **[!UICONTROL Ausgewählte Assets exportieren]** können Benutzer das Dropdown-Menü **[!UICONTROL Konversion]** öffnen und **[!UICONTROL Original exportieren]** auswählen, um Originaldateien zu exportieren. Wenn diese Option deaktiviert ist, müssen Benutzer beim Exportieren von Bildern eine Bildvorgabe auswählen oder Konvertierungsoptionen festlegen.
 
 >[!MORELIKETHIS]
 >
 >* [Bildvorgaben](application-setup.md#image_presets)
->* [Bildvorgabe-Zugriffsberechtigungen für eine Gruppe auswählen](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Wählen Sie die Bildvorgabe-Zugriffsberechtigungen für eine Gruppe aus](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

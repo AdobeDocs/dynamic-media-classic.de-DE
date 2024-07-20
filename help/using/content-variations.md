@@ -27,10 +27,10 @@ Universelle URLs werden verwendet, um die auf der Seite angezeigte Vorlagenvaria
 
 Sie können eine beliebige Bildvorgabe-URL aus der Liste verwenden. Bildvorgabe-URLs ähneln universellen URLs. Es kann mehr als eine Bildvorgabe-URL geben.
 
-1. Navigieren Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagensätze]**.
-1. Wählen Sie im Builder eine Vorlage aus und wählen Sie dann **[!UICONTROL Hinzufügen/Vorschau]**.
-1. Ändern Sie die Vorlageneigenschaften und wählen Sie **[!UICONTROL Speichern unter]** , um eine andere Version zu erstellen.
-1. Geben Sie einen Namen ein und wählen Sie dann **[!UICONTROL Speichern]**.
+1. Wechseln Sie zu **[!UICONTROL Build]** > **[!UICONTROL Vorlagensätze]**.
+1. Wählen Sie im Builder eine Vorlage und dann **[!UICONTROL Hinzufügen/Vorschau]** aus.
+1. Ändern Sie die Vorlageneigenschaften und wählen Sie **[!UICONTROL Speichern unter]** aus, um eine weitere Version zu erstellen.
+1. Geben Sie einen Namen ein und wählen Sie dann **[!UICONTROL Speichern]** aus.
 
    Sowohl das Asset als auch die Vorlage müssen veröffentlicht werden.
 

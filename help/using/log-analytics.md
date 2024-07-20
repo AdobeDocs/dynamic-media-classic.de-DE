@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Bei Adobe Analytics anmelden{#log-in-to-adobe-analytics}
 
-Stellen Sie sicher, dass Sie Mitglied der Gruppe Web Service Access in Adobe Analytics sind. Führen Sie diese Schritte aus, bevor Sie sich anmelden, um Adobe Analytics-Berichte zu konfigurieren und Adobe Analytics-Berichtsvariablen Adobe Dynamic Media Classic-Ereignissen zuzuordnen. Mitglieder dieser Gruppe können auf alle Berichte in den angegebenen Report Suites zugreifen. Verwenden Sie dazu die Experience Cloud Web Services API, unabhängig von den in der Benutzeroberfläche festgelegten Berechtigungen. Um der Gruppe ein Mitglied hinzuzufügen, navigieren Sie in Adobe Analytics zu **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** > **[!UICONTROL Gruppen bearbeiten]**.
+Stellen Sie sicher, dass Sie Mitglied der Gruppe Web Service Access in Adobe Analytics sind. Führen Sie diese Schritte aus, bevor Sie sich anmelden, um Adobe Analytics-Berichte zu konfigurieren und Adobe Analytics-Berichtsvariablen Adobe Dynamic Media Classic-Ereignissen zuzuordnen. Mitglieder dieser Gruppe können auf alle Berichte in den angegebenen Report Suites zugreifen. Verwenden Sie dazu die Experience Cloud Web Services API, unabhängig von den in der Benutzeroberfläche festgelegten Berechtigungen. Um ein Mitglied zur Gruppe hinzuzufügen, gehen Sie in Adobe Analytics zu &quot;**[!UICONTROL Admin Tools]**&quot;> &quot;**[!UICONTROL Benutzerverwaltung]**&quot;> &quot;**[!UICONTROL Gruppen bearbeiten]**&quot;.
 
 Wenn Sie sich anmelden, können Sie Ihre Experience Cloud-Organisations-ID eingeben, um die neueste Videoanalyseimplementierung zu verwenden. Wenn Sie sich gegen die Eingabe Ihrer ID entscheiden, funktioniert die Videoberichterstellung weiterhin. Dies kann jedoch dazu führen, dass die Daten nicht ordnungsgemäß mit anderen Daten für diesen Client von außerhalb von Adobe Dynamic Media Classic integriert werden.
 
@@ -31,38 +31,38 @@ Wenn Sie sich anmelden, können Sie Ihre Experience Cloud-Organisations-ID einge
 
 Integrieren Sie zunächst Dynamic Media Classic in Adobe Analytics OAuth. Die OAuth-Integration von Adobe Analytics mit Dynamic Media Classic wird in der Regel nur einmal pro Benutzer durchgeführt.
 
-1. Zugriff [Adobe Developer-Konsole](https://developer.adobe.com/console). Stellen Sie sicher, dass Ihr Konto über Administratorberechtigungen für die Organisation verfügt, für die die Integration erforderlich ist.
+1. Rufen Sie [Adobe Developer Console](https://developer.adobe.com/console) auf. Stellen Sie sicher, dass Ihr Konto über Administratorberechtigungen für die Organisation verfügt, für die die Integration erforderlich ist.
 1. Wählen Sie in der rechten oberen Ecke der Startseite aus der Dropdownliste das entsprechende Unternehmen aus. (Der folgende Screenshot dient nur zu Informationszwecken. Der tatsächlich ausgewählte Firmenname kann variieren.)
 
    ![Neues Projekt erstellen](assets/analytics-oauth1.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Am oberen Seitenrand von der **[!UICONTROL Startseite]** Registerkarte auswählen **[!UICONTROL Neues Projekt erstellen]**.
-   * Am oberen Seitenrand von der **[!UICONTROL Projekte]** Registerkarte. Wählen Sie rechts auf der Seite die Option **[!UICONTROL Neues Projekt erstellen]**.
+   * Wählen Sie oben auf der Seite auf der Registerkarte **[!UICONTROL Startseite]** die Option **[!UICONTROL Neues Projekt erstellen]**.
+   * Öffnen Sie oben auf der Seite die Registerkarte **[!UICONTROL Projekte]** . Wählen Sie rechts auf der Seite **[!UICONTROL Neues Projekt erstellen]** aus.
 
-1. Wählen Sie auf der Projektseite **[!UICONTROL API hinzufügen]**.
-1. Im **[!UICONTROL API hinzufügen]** Seite, auswählen **[!UICONTROL Adobe Analytics]**.
-1. Wählen Sie rechts unten auf der Seite die Option **[!UICONTROL Nächste]**.
+1. Wählen Sie auf der Seite des Projekts **[!UICONTROL API hinzufügen]** aus.
+1. Wählen Sie auf der Seite **[!UICONTROL API hinzufügen]** die Option **[!UICONTROL Adobe Analytics]** aus.
+1. Wählen Sie rechts unten auf der Seite **[!UICONTROL Weiter]** aus.
 
    ![API hinzufügen](assets/analytics-oauth2.png)
 
-1. Im **[!UICONTROL `Configure API`]** Seite, auswählen **[!UICONTROL BENUTZERAUTHENTIFIZIERUNG OAuth]**.
-1. Wählen Sie rechts unten auf der Seite die Option **[!UICONTROL Nächste]**.
-1. Im **[!UICONTROL `Configure API`]** Seite, auswählen **[!UICONTROL OAUTH 2.0 Web]**.
-1. Im **[!UICONTROL Standard-Umleitungs-URI]** Geben Sie den folgenden Pfad genau wie folgt ein:
+1. Wählen Sie auf der Seite **[!UICONTROL `Configure API`]** die Option **[!UICONTROL BENUTZERAUTHENTIFIZIERUNG OAuth]** aus.
+1. Wählen Sie rechts unten auf der Seite **[!UICONTROL Weiter]** aus.
+1. Wählen Sie auf der Seite **[!UICONTROL `Configure API`]** die Option **[!UICONTROL OAUTH 2.0 Web]**.
+1. Geben Sie im Textfeld **[!UICONTROL Standard-Umleitungs-URI]** den folgenden Pfad genau wie folgt ein:
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
 
-1. Im **[!UICONTROL Umleitungs-URI-Muster]** Geben Sie den folgenden Pfad genau wie folgt ein:
+1. Geben Sie im Textfeld **[!UICONTROL Umleitungs-URI-Muster]** den folgenden Pfad genau wie folgt ein:
 
    `https://exploreadobe\.com/dynamic-media-upgrade/`
 
-1. Wählen Sie in der rechten unteren Ecke der Seite die Option **[!UICONTROL Konfigurierte API speichern]**.
-1. Im Navigationsfenster auf der linken Seite der Adobe Analytics-Seite, unter **[!UICONTROL Anmeldeinformationen]** auswählen **[!UICONTROL OAuth Web]**.
-1. under **[!UICONTROL Details zu Berechtigungen]** führen Sie folgende Schritte aus:
-   * under **[!UICONTROL Client-ID]** auswählen **[!UICONTROL Kopieren]** , um den Wert zu kopieren. Sie benötigen diesen Wert für die nachfolgende Analytics-Konfiguration im Dynamic Media Classic-Desktop-Programm, die befolgt werden soll.
-   * under **[!UICONTROL Client Secret]** auswählen **[!UICONTROL Client-Geheimnis abrufen]** , um den zugehörigen Wert anzuzeigen. Auswählen **[!UICONTROL Kopieren]** , um den Wert zu kopieren. Sie benötigen diesen Wert für die nachfolgende Adobe Analytics-Konfiguration im Dynamic Media Classic-Desktop-Programm, die befolgt werden soll.
+1. Wählen Sie rechts unten auf der Seite **[!UICONTROL Konfigurierte API speichern]** aus.
+1. Wählen Sie im Navigationsfenster auf der linken Seite der Adobe Analytics-Seite unter **[!UICONTROL Anmeldedaten]** die Option **[!UICONTROL OAuth Web]**.
+1. Führen Sie unter **[!UICONTROL Berechtigungsdetails]** folgende Schritte aus:
+   * Wählen Sie unter **[!UICONTROL Client-ID]** die Option **[!UICONTROL Kopieren]** aus, um den Wert zu kopieren. Sie benötigen diesen Wert für die nachfolgende Analytics-Konfiguration im Dynamic Media Classic-Desktop-Programm, die befolgt werden soll.
+   * Wählen Sie unter **[!UICONTROL Client-Geheimnis]** die Option **[!UICONTROL Client-Geheimnis abrufen]** aus, um den zugehörigen Wert anzuzeigen. Wählen Sie **[!UICONTROL Kopieren]** aus, um den Wert zu kopieren. Sie benötigen diesen Wert für die nachfolgende Adobe Analytics-Konfiguration im Dynamic Media Classic-Desktop-Programm, die befolgt werden soll.
 
 ## Konfigurieren von Adobe Analytics in Adobe Dynamic Media Classic {#configure-analytics-in-dmc}
 
@@ -75,31 +75,31 @@ Integrieren Sie zunächst Dynamic Media Classic in Adobe Analytics OAuth. Die OA
 >* Eine neue Tracking-Variable wird in einen Bericht eingeführt und Sie möchten in der Dynamic Media Classic-Benutzeroberfläche eine bestimmte Viewer-Variable mit dieser neuen Analytics-Variablen verknüpfen.
 >
 
-1. Navigieren Sie in der rechten oberen Ecke des Adobe Dynamic Media Classic-Desktop-Programms zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]**.
-1. Im linken Bereich unter **[!UICONTROL Anwendungseinstellungen]** auswählen **[!UICONTROL Adobe Analytics]**.
-1. Im **[!UICONTROL Adobe Analytics-Konfiguration]** Seite, auswählen **[!UICONTROL Adobe Analytics-Anmeldung]**.
-1. Im **[!UICONTROL Adobe Analytics-Anmeldung]** im Dialogfeld **[!UICONTROL CLIENT-ID]** und **[!UICONTROL CLIENT SECRET]** -Feld die entsprechenden Werte ein, die Sie zuvor kopiert haben.
-1. Wählen Sie rechts unten im Dialogfeld die Option **[!UICONTROL Anmelden]** und führen Sie Ihre Anmeldung bei Adobe IMS (Identity Management Services) durch.
+1. Wechseln Sie in der rechten oberen Ecke des Adobe Dynamic Media Classic-Desktop-Programms zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]**.
+1. Wählen Sie im linken Bereich unter **[!UICONTROL Anwendungseinstellungen]** die Option **[!UICONTROL Adobe Analytics]** aus.
+1. Wählen Sie auf der Seite **[!UICONTROL Adobe Analytics-Konfiguration]** die Option **[!UICONTROL Adobe Analytics-Anmeldung]** aus.
+1. Fügen Sie im Dialogfeld **[!UICONTROL Adobe Analytics Login]** im Feld **[!UICONTROL CLIENT-ID]** und im Feld **[!UICONTROL CLIENT SECRET]** die entsprechenden Werte ein, die Sie zuvor kopiert haben.
+1. Wählen Sie in der rechten unteren Ecke des Dialogfelds **[!UICONTROL Anmelden]** aus und führen Sie die Anmeldung bei Adobe IMS (Identity Management Services) durch.
 
-   Bei erfolgreicher Anmeldung wird das Dialogfeld &quot;Adobe Analytics-Anmeldung&quot;zusammen mit dem **[!UICONTROL UNTERNEHMEN]** Dropdown-Liste, initiiert von den Unternehmen, die Ihnen zur Verfügung stehen.
+   Bei erfolgreicher Anmeldung wird das Dialogfeld &quot;Adobe Analytics-Anmeldung&quot;zusammen mit der Dropdownliste **[!UICONTROL UNTERNEHMEN]** erneut angezeigt, die von den Ihnen zur Verfügung stehenden Unternehmen initiiert wurde.
 
-1. Aus dem **[!UICONTROL UNTERNEHMEN]** aus, wählen Sie ein Unternehmen aus.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL UNTERNEHMEN]** ein Unternehmen aus.
 
-   Nach Auswahl eines Unternehmens wird die **[!UICONTROL SUITES]** Dropdown-Liste, die von den Report Suites initiiert wird, die für das ausgewählte Unternehmen verfügbar sind, wird angezeigt.
+   Nachdem Sie ein Unternehmen ausgewählt haben, wird die Dropdownliste **[!UICONTROL SUITES]** angezeigt, die von den Report Suites initiiert wurde, die für das ausgewählte Unternehmen verfügbar sind.
 
-1. Aus dem **[!UICONTROL SUITES]** eine Report Suite aus.
-
-   >[!NOTE]
-   >
-   >Standardmäßig muss der Benutzer wissen, dass beide **[!UICONTROL UNTERNEHMEN]** und **[!UICONTROL SUITES]** Dropdown-Listen sind leer. Daher muss der Benutzer einen Wert aus jeder Liste auswählen.
-
-1. Auswählen **[!UICONTROL OK]** sodass Sie die Konfiguration speichern können.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL SUITES]** eine Report Suite aus.
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL Adobe Analytics Server]** wird mit einem vorgeschlagenen Drittanbieter-Tracking-Server ausgefüllt, der Ihrem Analytics-Namespace entspricht, wenn Sie **[!UICONTROL OK]**. Wenn Sie einen anderen Tracking-Server verwenden, aktualisieren Sie ihn in diesem Feld, um Datenverlust zu vermeiden.
+   >Standardmäßig muss der Benutzer wissen, dass sowohl die Dropdownlisten **[!UICONTROL UNTERNEHMEN]** als auch die Dropdownlisten **[!UICONTROL SUITES]** leer sind. Daher muss der Benutzer einen Wert aus jeder Liste auswählen.
 
-1. Wählen Sie links unten auf der Seite &quot;Adobe Analytics-Konfiguration&quot;die Option **[!UICONTROL Speichern]** , um sicherzustellen, dass Ihre Adobe Analytics-Kontokonfiguration aktualisiert wird.
+1. Wählen Sie **[!UICONTROL OK]** aus, damit Sie die Konfiguration speichern können.
+
+   >[!NOTE]
+   >
+   >Das Feld **[!UICONTROL Adobe Analytics Server]** wird mit einem vorgeschlagenen Drittanbieter-Tracking-Server ausgefüllt, der Ihrem Analytics-Namespace entspricht, wenn Sie **[!UICONTROL OK]** auswählen. Wenn Sie einen anderen Tracking-Server verwenden, aktualisieren Sie ihn in diesem Feld, um Datenverlust zu vermeiden.
+
+1. Wählen Sie links unten auf der Seite &quot;Adobe Analytics-Konfiguration&quot;die Option **[!UICONTROL Speichern]** aus, um sicherzustellen, dass Ihre Adobe Analytics-Kontokonfiguration aktualisiert wird.
 
 >[!MORELIKETHIS]
 >

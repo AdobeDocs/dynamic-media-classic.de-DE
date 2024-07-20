@@ -27,9 +27,9 @@ Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, mit Adobe 
 
    Wenn Sie beispielsweise beliebte alternative Ansichten in einem Bildset messen möchten, zeigen Sie eine Vorschau eines Bildsets an und klicken Sie auf die verschiedenen Miniaturansichten.
 
-1. Gehen Sie innerhalb von Adobe Analytics zu **[!UICONTROL Benutzerspezifischer Traffic]** > **[!UICONTROL Benutzerspezifischer Traffic 1-10]** > [Name der Prop], indem Sie Ihren Traffic-Eigenschaftsnamen aus den Menüoptionen auswählen.
+1. Wechseln Sie innerhalb von Adobe Analytics zu &quot;**[!UICONTROL Benutzerspezifischer Traffic]**&quot;> &quot;**[!UICONTROL Benutzerspezifischer Traffic 1-10]**&quot;> &quot;[Name der Eigenschaft]&quot;und wählen Sie Ihren Traffic-Eigenschaftsnamen aus den Menüoptionen aus.
 
-   Um beispielsweise auf die **[!UICONTROL LoadAsset]** prop im Beispielkonto, ist die richtige Menüoption **[!UICONTROL Benutzerspezifischer Traffic]** > **[!UICONTROL Benutzerspezifischer Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Wenn Sie über mehr als zehn benutzerdefinierte Eigenschaften verfügen, werden Ihnen auch andere Menüoptionen angezeigt.
+   Um beispielsweise auf die Eigenschaft **[!UICONTROL LoadAsset]** im Beispielkonto zuzugreifen, ist die richtige Menüoption **[!UICONTROL Benutzerspezifischer Traffic]** > **[!UICONTROL Benutzerspezifischer Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Wenn Sie über mehr als zehn benutzerdefinierte Eigenschaften verfügen, werden Ihnen auch andere Menüoptionen angezeigt.
 
 1. Zeigen Sie das von Adobe Analytics erstellte Diagramm an. Dieses Diagramm stellt normalerweise nur die Daten einer einzelnen Metrik dar. Wenn Sie auch wissen möchten, mit welchem Asset diese Daten verknüpft sind, rufen Sie die Asset-Daten dieses Ereignisses ab. Beispielsweise ist es oft hilfreich zu wissen, welches Video nur zu 50 % angesehen wird oder welches Bild in einem Set beliebt ist.
 

@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Arbeiten mit Vignetten-, Fensterabdeckungs- und Kabinendateien{#working-with-vignette-window-covering-and-cabinet-files}
 
-Benutzer des Adobe Dynamic Media Classic Image Authoring-Tools können *use* Vignetten (VNT-Dateien), Fensterbeläge (VNW-Dateien) und Cabinets (VNC-Dateien). Diese Dateien können nicht in Adobe Dynamic Media Classic erstellt oder bearbeitet werden.
+Benutzer des Adobe Dynamic Media Classic Image Authoring-Tools können *Vignetten (VNT-Dateien), Fensterbeläge (VNW-Dateien) und Cabinets (VNC-Dateien) verwenden.* Diese Dateien können nicht in Adobe Dynamic Media Classic erstellt oder bearbeitet werden.
 
 Vignetten, Fensterbeläge und Schränke sind Bilder, die verfasst werden. Mit einem anderen Adobe Dynamic Media Classic-Programm namens Image Authoring maskieren Sie Objekte in einem Bild, damit Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Zum Beispiel sehen die Benutzer ein mit verschiedenen Stoffen bestücktes Sofa, ein Fenster mit verschiedenen Fensterbehandlungen oder einen Schrank mit verschiedenen Holzarten.
 

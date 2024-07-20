@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichen von Zoombildern
+title: Publish-Zoombilder
 description: Erfahren Sie, wie Sie Zoombilder aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,18 +17,18 @@ ht-degree: 0%
 
 ---
 
-# Veröffentlichen von Zoombildern{#publishing-zoom-images}
+# Publish-Zoombilder{#publishing-zoom-images}
 
 Beim Veröffentlichen werden die Zoombilder auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen im HTML-Code Ihrer Website platzieren.
 
 ## Markieren von Bildern zur Veröffentlichung {#marking-images-for-publish}
 
-Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen die Option **[!UICONTROL Zur Veröffentlichung markieren]** Symbol. Sie können Bilder auch beim Hochladen zur Veröffentlichung markieren.
+Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen das Symbol **[!UICONTROL Für Publish markieren]** auswählen. Sie können Bilder auch beim Hochladen zur Veröffentlichung markieren.
 
-## Veröffentlichen der Bilder {#publishing-the-images}
+## Bilder Publish {#publishing-the-images}
 
-Um Zoombilder zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]** und wählen Sie dann eine **[!UICONTROL Wann]** option (**[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**). Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Auswählen **Veröffentlichen senden**.
+Um Zoombilder zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Publish]** und dann die Option **[!UICONTROL When]** (**[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**). Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **Publish übermitteln** aus.
 
 >[!MORELIKETHIS]
 >
->* [Veröffentlichen von Dateien](publishing-files.md#publishing_files)
+>* [Publish-Dateien](publishing-files.md#publishing_files)

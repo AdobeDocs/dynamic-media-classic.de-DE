@@ -67,7 +67,7 @@ Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user
 
 Benutzer von Media Portal können beim Exportieren von Dateien die Dateien neu formatieren und die ursprünglichen primären Dateien exportieren, sofern Sie ihnen die entsprechenden Berechtigungen erteilen. Als Administrator entscheiden Sie, wie Benutzer Dateien exportieren können. 
 
-Siehe [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Siehe [Festlegen der für Media Portal-Benutzer verfügbaren Exportoptionen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Erstellen von Bildvorgaben
 
@@ -85,4 +85,4 @@ Siehe [Effizientes Arbeiten mit Metadaten](making-efficient-metadata.md#making_m
 
 Mit den Stileinstellungen von Media Portal können Sie die Media Portal-Seite mit Ihrem Firmenlogo und Ihren Farben versehen. Verwenden Sie die Stileinstellungen, um Ihr Unternehmensbranding in Media Portal zu platzieren.
 
-Siehe [Anpassen der Seite &quot;Media Portal&quot;](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+Siehe [Anpassen der Media Portal-Seite](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

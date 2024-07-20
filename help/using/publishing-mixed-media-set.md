@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichen eines gemischten Mediensets
+title: Publish a Mixed Media Set
 description: Erfahren Sie, wie Sie ein gemischtes Medienset aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 12%
 
 ---
 
-# Veröffentlichen eines gemischten Mediensets{#publishing-a-mixed-media-set}
+# Publish a Mixed Media Set{#publishing-a-mixed-media-set}
 
 Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie für die Veröffentlichung auf dem Adobe Dynamic Media Classic-Video- und Image-Server markiert haben. Adobe Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern und Optionen zum erneuten Veröffentlichen von Assets, die bereits veröffentlicht wurden.
 
 >[!NOTE]
 >
->Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Verwendung **Video-Server** um die tatsächlichen Videos zu veröffentlichen, die Sie zur Veröffentlichung markiert haben. Und Sie verwenden **Image-Server** , um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
+>Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Verwenden Sie **Video-Server** , um die tatsächlichen Videos zu veröffentlichen, die Sie zur Veröffentlichung markiert haben. Außerdem verwenden Sie **Image-Server**, um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
 
 Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf dem Bildschirm &quot;Aufträge&quot;.
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie im Bedienfeld Durchsuchen die Option **[!UICONTROL Zur Veröffentlichung markieren]** neben jedem Dateinamen, den Sie veröffentlichen möchten.
-   * Wählen Sie im Bildschirm &quot;Hochladen&quot;die Option **[!UICONTROL Zur Veröffentlichung markieren]** neben jedem Dateinamen, den Sie veröffentlichen möchten.
+   * Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;neben jedem Dateinamen, den Sie veröffentlichen möchten, die Option &quot;**[!UICONTROL Für Publish markieren]**&quot;.
+   * Wählen Sie im Bildschirm &quot;Hochladen&quot;neben jedem Dateinamen, den Sie veröffentlichen möchten, die Option &quot;**[!UICONTROL Für Publish markieren]**&quot;.
 
-1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.
+1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]** aus.
 1. Legen Sie die gewünschten Planungsoptionen fest.
-1. (Optional) Im **[!UICONTROL Auftragsname]** ein, geben Sie einen Namen für den Veröffentlichungsauftrag ein.
-1. Im **[!UICONTROL Erweitert]** -Optionen in der **[!UICONTROL Veröffentlichen in]** Dropdown-Liste auswählen **[!UICONTROL Video-Server]**.
+1. (Optional) Geben Sie im Feld **[!UICONTROL Auftragsname]** einen Namen für den Veröffentlichungsauftrag ein.
+1. Wählen Sie in den Optionen **[!UICONTROL Erweitert]** in der Dropdown-Liste **[!UICONTROL Publish bis]** die Option **[!UICONTROL Videoserver]** aus.
 
-   Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) für weitere Optionen, die Sie festlegen können.
+   Weitere Optionen, die Sie festlegen können, finden Sie unter [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) .
 
-1. Auswählen **[!UICONTROL Veröffentlichen senden]**.
+1. Wählen Sie **[!UICONTROL Publish übermitteln]** aus.
 1. Wiederholen Sie die obigen Schritte 2 bis 4.
 1. Wählen Sie in den **[!UICONTROL erweiterten Optionen]** in der Dropdown-Liste **[!UICONTROL Veröffentl. auf:]** die Option **[!UICONTROL Image-Server]** aus.
 
-   Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) für weitere Optionen, die Sie festlegen können.
+   Weitere Optionen, die Sie festlegen können, finden Sie unter [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) .
 
-1. Auswählen **[!UICONTROL Veröffentlichen senden]**.
+1. Wählen Sie **[!UICONTROL Publish übermitteln]** aus.

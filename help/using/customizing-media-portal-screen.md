@@ -21,9 +21,9 @@ ht-degree: 17%
 
 Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Portal mit eigenen Unternehmenslogos und Farben anpassen. Verwenden Sie die Stileinstellungen, um Ihr Unternehmensbranding in Media Portal zu platzieren.
 
-Um auf die Stileinstellungen zuzugreifen, navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Stileinstellungen]**. Stellen Sie sicher, dass Sie **[!UICONTROL Speichern]** , um Ihre Einstellungen zu speichern, nachdem Sie sie vorgenommen haben. Sie können **[!UICONTROL Wiederherstellen]** , um die Standardeinstellungen wiederherzustellen. Während Sie Ihre Auswahl treffen, zeigt Ihnen das Vorschaufenster, wie sie aussehen.
+Um auf die Stileinstellungen zuzugreifen, gehen Sie zu &quot;**[!UICONTROL Einrichtung]**&quot;> &quot;**[!UICONTROL Media Portal-Einrichtung]**&quot;> &quot;**[!UICONTROL Stileinstellungen]**&quot;. Stellen Sie sicher, dass Sie **[!UICONTROL Speichern]** auswählen, um Ihre Einstellungen zu speichern, nachdem Sie sie vorgenommen haben. Sie können **[!UICONTROL Wiederherstellen]** auswählen, um die Standardeinstellungen wiederherzustellen. Während Sie Ihre Auswahl treffen, zeigt Ihnen das Vorschaufenster, wie sie aussehen.
 
-* **[!UICONTROL Logo]**: Auswählen **[!UICONTROL Durchsuchen]** und wählen Sie dann im Fenster Logo-Bild auswählen eine Grafik aus.
+* **[!UICONTROL Logo]**: Wählen Sie **[!UICONTROL Durchsuchen]** und wählen Sie dann im Fenster &quot;Logo-Bild auswählen&quot;eine Grafik aus.
 
 * **[!UICONTROL Anwendung]**: Erstellen Sie eine Farbverlaufsmischung, indem Sie Optionen in den Menüs der Hintergrundverlaufsfarben auswählen.
 
@@ -33,13 +33,13 @@ Um auf die Stileinstellungen zuzugreifen, navigieren Sie zu **[!UICONTROL Einric
 
 * **[!UICONTROL Accordion-Kopfzeile]**: Wählen Sie aus, ob Text in der Fettschrift der Accordion-Kopfzeile eingefügt werden soll.
 
-* **[!UICONTROL Datagrid]**: Wählen Sie Farben für die Kopfzeile in Datenrasten aus.
+* **[!UICONTROL Datagrid]**: Wählen Sie Farben für die Kopfzeile in Datenrasten.
 
-* **[!UICONTROL Warnung]**: Wählen Sie eine Hintergrundfarbe für Warnhinweisfelder aus.
+* **[!UICONTROL Warnung]**: Wählen Sie eine Hintergrundfarbe für Warnhinweisfelder.
 
 * **[!UICONTROL Fortschrittsleiste]**: Wählen Sie eine Farbe für die Leiste, die den Fortschritt von Uploads und Downloads anzeigt.
 
-Damit Media Portal-Benutzer die Stileinstellungen sehen können, müssen sie anhängen `?company=(company name)` auf die URL, mit der sie auf Media Portal zugreifen. Um beispielsweise Stileinstellungen anzuzeigen, können Media Portal-Benutzer, die unter folgendem Pfad auf das Unternehmen PortalCo zugreifen:
+Damit Media Portal-Benutzer die Stileinstellungen sehen können, müssen sie `?company=(company name)` an die URL anhängen, mit der sie auf Media Portal zugreifen. Um beispielsweise Stileinstellungen anzuzeigen, können Media Portal-Benutzer, die unter folgendem Pfad auf das Unternehmen PortalCo zugreifen:
 
 `https://s7sps1.scene7.com/MediaPortal`
 

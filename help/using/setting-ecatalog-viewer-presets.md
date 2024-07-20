@@ -26,38 +26,38 @@ eCatalog-Viewer-Vorgaben bieten viele Einstellungen zum Navigieren von Seite zu 
 
 Führen Sie die folgenden Schritte aus, damit Sie eine E-Katalog-Viewer-Vorgabe erstellen können (Sie müssen Administrator sein):
 
-1. Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
+1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Um im Anzeigebereich „Viewer-Vorgaben“ eine E-Katalog-Viewer-Vorgabe zu erstellen, können Sie ganz neu beginnen oder eine vorhandene E-Katalog-Viewer-Vorgabe als Vorlage verwenden:
 
-   * **Erstellen einer eCatalog-Viewer-Vorgabe**: Auswählen **[!UICONTROL Hinzufügen]**. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, wählen Sie einen E-Katalog-Viewer und dann **[!UICONTROL Hinzufügen]**.
+   * **Erstellen einer eCatalog-Viewer-Vorgabe**: Wählen Sie **[!UICONTROL Hinzufügen]** aus. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform, wählen Sie einen E-Katalog-Viewer und dann **[!UICONTROL Hinzufügen]**.
 
-   * **Bearbeiten einer eCatalog-Viewer-Vorgabe**: Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Auswählen **[!UICONTROL Speichern unter]** nach Abschluss der Erstellung der Vorgabe.
+   * **Eine E-Katalog-Viewer-Vorgabe bearbeiten**: Wählen Sie eine E-Katalog-Viewer-Vorgabe aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**. Wählen Sie **[!UICONTROL Speichern unter]** aus, nachdem Sie die Vorgabe fertig erstellt haben.
 
-1. Im `Configure Viewer` -Seite einen Namen für Ihre E-Katalog-Viewer-Vorgabe eingeben.
-1. Im `Configure Viewer` -Seite, legen Sie die gewünschten Optionen fest.
+1. Geben Sie auf der Seite &quot;`Configure Viewer`&quot;einen Namen für die E-Katalog-Viewer-Vorgabe ein.
+1. Legen Sie auf der Seite `Configure Viewer` die gewünschten Optionen fest.
 
-   wählen Sie **[!UICONTROL Info-Tipp]** neben der Option, wenn Sie die Beschreibung lesen möchten.
+   Wählen Sie das Symbol **[!UICONTROL Info Tipp]** neben der Option aus, wenn Sie die Beschreibung lesen möchten.
 
    Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.
 
-1. (Optional) Im **[!UICONTROL Einstellungen des Infobereichs]**, die **[!UICONTROL URL des Informationsservers]** -Option können die folgenden speziellen Token enthalten, die der Viewer ersetzt:
+1. (Optional) In den **[!UICONTROL Einstellungen des Infobereichs]** kann die Option **[!UICONTROL URL des Informationsservers]** die folgenden speziellen Token enthalten, die der Viewer ersetzt:
 
    | Platzhalter | Ersetzt durch | Anmerkungen |
    | --- | --- | --- |
-   | `$1$` | „rollover_key“-Wert | Die Element-ID aus der `<area>` -Element der Zuordnung. |
+   | `$1$` | „rollover_key“-Wert | Die Element-ID aus dem Element `<area>` der Zuordnung. |
    | `$2$` | frame | Die Sequenznummer des momentan angezeigten Bildfelds im Bildsatz. |
    | `$3$` | Bildstamm | Das erste Pfadelement des ersten Elements, das im Bildbefehl angegeben wird (normalerweise die Katalog-ID des Katalogeintrags, der den Bildsatz bestimmt). |
 
-1. (Optional) Im **[!UICONTROL Einstellungen des Infobereichs]** in der **[!UICONTROL Antwortvorlage]** Geben Sie den Text ein, der angezeigt werden soll, wenn Adobe Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie in das Feld **[!UICONTROL Einstellungen des Infobereichs]** im Feld **[!UICONTROL Antwortvorlage]** den Text ein, der angezeigt werden soll, wenn bei Adobe Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap ein Fehler auftritt. Wenn das System beispielsweise einen Firmennamen und einen E-Katalog-Namen, jedoch keinen Rollover-Bezeichner empfängt, so wird dem Benutzer diese Meldung angezeigt.
 
 >[!NOTE]
 >
->Um diese Antwortvorlage anstelle der im eCatalog selbst definierten Vorlage zu verwenden, fügen Sie `fmt=1` an das Ende der URL des Informationsservers. Beispiel: `https://.../$3$/$4$/$1$/?FMT=1`.
+>Um diese Antwortvorlage anstelle der im eCatalog selbst definierten Vorlage zu verwenden, fügen Sie am Ende der URL des Informationsservers `fmt=1` hinzu. Beispiel: `https://.../$3$/$4$/$1$/?FMT=1`.
 
-1. Auswählen **[!UICONTROL Speichern]**.
-1. Auswählen **[!UICONTROL Standard]** sodass die von Ihnen erstellte E-Katalog-Viewer-Vorgabe die zum Anzeigen von E-Katalogen auf Ihrer Webseite verwendete ist.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
+1. Wählen Sie **[!UICONTROL Standard]** aus, damit die von Ihnen erstellte E-Katalog-Viewer-Vorgabe die zum Anzeigen von E-Katalogen auf Ihrer Webseite verwendete ist.
 
-Um eine E-Katalog-Viewer-Vorgabe zu löschen, wählen Sie sie im Bildschirm &quot;Viewer-Vorgaben&quot;aus und wählen Sie **[!UICONTROL Löschen]**.
+Um eine E-Katalog-Viewer-Vorgabe zu löschen, wählen Sie sie im Bildschirm &quot;Viewer-Vorgaben&quot;aus und wählen Sie **[!UICONTROL Löschen]** aus.
 
 >[!MORELIKETHIS]
 >

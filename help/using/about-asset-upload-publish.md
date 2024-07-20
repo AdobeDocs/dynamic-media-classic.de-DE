@@ -24,7 +24,7 @@ Ihre Arbeit in Adobe Dynamic Media Classic gliedert sich in drei grundlegende Be
 * Verwalten von Dateien, damit daraus Rich-Media-Assets aufgebaut werden können
 * Veröffentlichen Sie Ihre Asset-Dateien auf einem Dynamic Media Classic-Server, damit sie für die Bereitstellung auf Ihrer Website und in Ihrer Anwendung verfügbar sind.
 
-Wenn Sie Asset-Dateien in Adobe Dynamic Media Classic hochladen und Asset-Dateien auf Adobe Dynamic Media Classic-Servern veröffentlichen, zeichnet das System diese Dateiübertragungen auf der **[!UICONTROL Aufträge]** Seite. Sie können diese Seite aufrufen, um Ihre Hochlade- und Veröffentlichungsaktivitäten zu verfolgen.
+Wenn Sie Asset-Dateien in Adobe Dynamic Media Classic hochladen und Asset-Dateien auf Adobe Dynamic Media Classic-Servern veröffentlichen, zeichnet das System diese Dateiübertragungen auf der Seite **[!UICONTROL Aufträge]** auf. Sie können diese Seite aufrufen, um Ihre Hochlade- und Veröffentlichungsaktivitäten zu verfolgen.
 
 >[!NOTE]
 >

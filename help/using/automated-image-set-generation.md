@@ -31,13 +31,13 @@ Last Modified Date:
 
 Sie können die Bildsatzerstellung als unabhängigen Auftrag automatisieren, der nicht von einem Upload abhängig ist.
 
-**So automatisieren Sie die Erstellung von Bildsets:**
+**Automatisieren der Bildset-Erstellung:**
 
-1. Navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Satz generieren]**.
+1. Wechseln Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Satz generieren]**.
 1. Geben Sie im Dialogfeld „Erstellen eines Sets“ einen Auftragsnamen an.
 
    Standardmäßig wird dem Auftrag ein Name zugewiesen, aus dem hervorgeht, dass es sich um einen generierten Auftrag handelt und wann der Auftrag generiert wurde.
 
 1. Wählen Sie die anzuwendende Voreinstellung aus.
-1. Auswählen **[!UICONTROL Zielordner]** und geben Sie dann den Ordner an, den Sie verwenden möchten.
-1. Auswählen **[!UICONTROL Einsenden]**.
+1. Wählen Sie **[!UICONTROL Zielordner]** aus und geben Sie dann den Ordner an, den Sie verwenden möchten.
+1. Wählen Sie **[!UICONTROL Senden]** aus.

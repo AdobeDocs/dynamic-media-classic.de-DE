@@ -33,7 +33,7 @@ Nachdem eine Schriftartdatei hochgeladen wurde, können Sie die Adobe Dynamic Me
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt das Hochladen aller Schriftstile (fett, kursiv, fett/kursiv und normal), wenn Sie Schriftarten in Vorlagenschichten verwenden möchten. Adobe Dynamic Media Classic benötigt diese Schriftstile, um Anforderungen zu verarbeiten. Alle hochladen `PostScript/Adobe Type1` -Dateien, die mit einer Schriftart verknüpft sind, werden ebenfalls empfohlen, da einige dieser Schriftarten detaillierte Kerning-Informationen enthalten.
+>Adobe Dynamic Media Classic empfiehlt das Hochladen aller Schriftstile (fett, kursiv, fett/kursiv und normal), wenn Sie Schriftarten in Vorlagenschichten verwenden möchten. Adobe Dynamic Media Classic benötigt diese Schriftstile, um Anforderungen zu verarbeiten. Das Hochladen aller mit einer Schrift verknüpften `PostScript/Adobe Type1`-Dateien wird ebenfalls empfohlen, da einige dieser Schriftarten detaillierte Kerning-Informationen enthalten.
 
 ## Hochladen von Schriftartdateien {#uploading-font-files}
 
@@ -43,26 +43,26 @@ Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Sc
 
 Sie können den ID-Namen einer Schriftart und deren Typinformationen ändern. Die Bearbeitung einer Schriftartdatei kann für Suchvorgänge hilfreich sein und das Auffinden von Schriftarten erleichtern.
 
-Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;die Schriftartdatei, die Sie bearbeiten möchten, in der Detailansicht und dann &quot;Datei&quot;> &quot;Informationen bearbeiten&quot;. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen aus und wählen Sie dann **[!UICONTROL Einsenden]**.
+Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;die Schriftartdatei, die Sie bearbeiten möchten, in der Detailansicht und dann &quot;Datei&quot;> &quot;Informationen bearbeiten&quot;. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen und dann **[!UICONTROL Senden]** aus.
 
-* **[!UICONTROL Schriftname]**: Mit diesem Namen wird die Schriftart bei der Veröffentlichung identifiziert.
+* **[!UICONTROL Schriftname]**: Dieser Name gibt die Schriftart an, wenn sie veröffentlicht wird.
 
 * **[!UICONTROL PostScript-Name]**: Dieser Name ist der vollständige PostScript-Name für die Schriftart. Er gibt normalerweise auch die Stärke und den Schnitt der Schriftart an.
 
-* **[!UICONTROL RTF-Name]**: Dieser Name wird in einem Popupmenü des RTF-Editors angezeigt, in dem Vorlagen-Textebenen erstellt werden.
+* **[!UICONTROL RTF-Name]**: Dieser Name wird in einem Popup-Menü im RTF-Editor angezeigt, in dem Vorlagen-Textebenen erstellt werden.
 
 * **[!UICONTROL Schriftfamilienname]**: Dieser Name listet den Schriftnamen ohne Stil-, Gewicht- oder Schriftartanzeige auf.
 
 * **[!UICONTROL Schriftstil]**: Die Optionen sind &quot;Nur&quot;, &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Fett-Kursiv&quot;.
 
-* **[!UICONTROL Schriftart]**: Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten mit einem anderen Namen bezeichnen, können Sie diesen eingeben.
+* **[!UICONTROL Schrifttyp]**: Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten mit einem anderen Namen bezeichnen, können Sie diesen eingeben.
 
 * **[!UICONTROL Schriftartabkürzung]**: Die Optionen lauten wie folgt:
 
-   * **[!UICONTROL TTF]**: TrueType-Schriftartdateien, die für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
+   * **[!UICONTROL TTF]**: TrueType-Schriftartendateien, die für die Wiedergabe und das Image-Serving von PDF/PostScript verwendet werden.
 
-   * **[!UICONTROL AFM]**: Adobe PostScript-Schriftartdateien, die Informationen zu Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
+   * **[!UICONTROL AFM]**: Adobe PostScript-Schriftartendateien, die Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
 
-   * **[!UICONTROL PFM]**: Adobe PostScript-Schriftartendateien, die Informationen zu binären Schriftartmetriken enthalten.
+   * **[!UICONTROL PFM]**: Adobe PostScript-Schriftartendateien, die Informationen zur Schriftartenmetrik enthalten.
 
-   * **[!UICONTROL PFB]**: Adobe PostScript-Schriftartdateien, die binäre Schriftartentwurfsinformationen enthalten und zum PDF/PostScript-Rendering und Image Serving verwendet werden.
+   * **[!UICONTROL PFB]**: Adobe PostScript-Schriftartdateien, die binäre Schriftartentwurfsinformationen enthalten und zum Rendern und Bereitstellen von PDF/PostScript-Bildern verwendet werden.

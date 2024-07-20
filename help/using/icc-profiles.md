@@ -37,10 +37,10 @@ Siehe [Hochladen der Dateien](uploading-files.md#uploading_your_files).
 
 Um ein ICC-Profil zu untersuchen, wählen Sie es im Bedienfeld Durchsuchen aus und zeigen Sie es in der Detailansicht an. Die Detailansicht enthält diese Informationen zu ICC-Profilen:
 
-* **[!UICONTROL Profilklasse]**: Das ICC (International Color Consortium) definiert jede Klasse für einen Anwendungstyp. Beispielsweise betreffen Eingabeprofile Geräte wie Digitalkameras und Scanner, während Ausgabeprofile Drucker betreffen.
+* **[!UICONTROL Profilklasse]**: Das ICC (International Color Consortium) definiert jede Klasse, um einen Anwendungstyp abzudecken. Beispielsweise betreffen Eingabeprofile Geräte wie Digitalkameras und Scanner, während Ausgabeprofile Drucker betreffen.
 
-* **[!UICONTROL Farbraumtyp]**: Diese Zahl ist der vom ICC definierte &quot;Eingabe&quot;-Farbraum des Profils. Die Art des Farbraums definiert die Anzahl an Komponenten des Farbraums und deren Interpretation. Der RGB-Farbraum enthält beispielsweise drei Komponenten: Rot, Grün und Blau. Die Art des Farbraums gibt jedoch nicht die besonderen Farbcharakteristika des Farbraums an (z. B. die Chromatizität der Primärfarben).
+* **[!UICONTROL Farbraumtyp]**: Diese Zahl ist der &quot;Eingabe&quot;-Farbraum des Profils, wie vom ICC definiert. Die Art des Farbraums definiert die Anzahl an Komponenten des Farbraums und deren Interpretation. Der RGB-Farbraum enthält beispielsweise drei Komponenten: Rot, Grün und Blau. Die Art des Farbraums gibt jedoch nicht die besonderen Farbcharakteristika des Farbraums an (z. B. die Chromatizität der Primärfarben).
 
-* **[!UICONTROL PCS-Typ]**: Dieser PCS-Typ ist der &quot;Ausgabe&quot;-Farbraum des Profils - sein Profil-Verbindungsraum. Beispielsweise kann ein Farbprofil RGB in PCS konvertieren, von dem es anschließend in CMYK konvertiert wird.
+* **[!UICONTROL PCS-Typ]**: Dieser PCS-Typ ist der &quot;Ausgabe&quot;-Farbraum des Profils und sein Profil-Verbindungsraum. Beispielsweise kann ein Farbprofil RGB in PCS konvertieren, von dem es anschließend in CMYK konvertiert wird.
 
 Für Eingabe-, Anzeige- oder Ausgabeprofile, mit denen Farben oder Bilder mit Tags versehen werden können, ist der PCS-Typ entweder „XYZ“ oder „Lab“. Dieses Profil ist als der entsprechend bestimmte Farbraum gemäß der Definition der ICC-Spezifikation zu interpretieren.

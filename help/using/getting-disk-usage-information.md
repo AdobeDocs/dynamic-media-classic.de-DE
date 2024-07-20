@@ -18,7 +18,7 @@ ht-degree: 42%
 
 # Informationen zur Festplattenauslastung abrufen {#get-disk-usage-information}
 
-Sie können die `disk_info` -Parameter zum Abrufen von Informationen zur Festplattenspeichernutzung eines Unternehmens, wie im folgenden Beispiel gezeigt:
+Sie können den Parameter `disk_info` verwenden, um Informationen über die Speichernutzung eines Unternehmens abzurufen, wie im folgenden Beispiel gezeigt:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

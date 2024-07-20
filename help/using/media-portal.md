@@ -21,7 +21,7 @@ ht-degree: 14%
 
 Mithilfe von Adobe Medium Portal können Unternehmen genehmigte Assets erwerben, kontrollieren und an externe Partner, Kanäle und interne Benutzer verteilen. Die browserbasierte Self-Service-Umgebung bietet Portalbenutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets, die einfachen Zugriff auf das Hochladen, Durchsuchen, Suchen, Anzeigen und Exportieren von Assets in vom Unternehmen genehmigten Formaten bieten.
 
-Weitere Informationen zu Media Portal, einschließlich Systemanforderungen, finden Sie unter [Verwenden von Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
+Weitere Informationen zu Media Portal, einschließlich der Systemanforderungen, finden Sie unter [Verwenden von Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
 
 Informationen zur Verwaltung von Media Portal finden Sie unter [Kurzanleitung: Media Portal-Administration](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
 

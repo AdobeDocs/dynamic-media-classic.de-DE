@@ -27,7 +27,7 @@ Diese Kurzanleitung für Mustersets soll Ihnen einen schnellen Einstieg in die A
 
 Laden Sie zuerst die Bilder und Musterdateien für die Mustersets hoch.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen. Siehe [Vorbereiten von Musterset-Assets für das Hochladen](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen der Dateien](uploading-files.md#uploading-your-files).
+Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** aus, um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen. Siehe [Vorbereiten von Musterset-Assets für den Upload](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen Ihrer Dateien](uploading-files.md#uploading-your-files).
 
 ## 2. Erstellen eines Mustersets
 
@@ -41,17 +41,17 @@ Siehe [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding
 
 ## 4. Vorschau eines Mustersets anzeigen
 
-Wählen Sie das Musterset im Bedienfeld &quot;Durchsuchen&quot;aus und wählen Sie dann **[!UICONTROL Vorschau]**. Ihr Musterset wird auf dieser Seite angezeigt. Wählen Sie die Miniaturansichten und Mustersymbole aus, damit Sie das Musterset im ausgewählten Viewer untersuchen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
+Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;das Musterset und dann **[!UICONTROL Vorschau]** aus. Ihr Musterset wird auf dieser Seite angezeigt. Wählen Sie die Miniaturansichten und Mustersymbole aus, damit Sie das Musterset im ausgewählten Viewer untersuchen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
 
-Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
+Siehe [Vorschau eines Assets anzeigen](previewing-asset.md#previewing-an-asset).
 
-## 5. Veröffentlichen eines Mustersets
+## 5. Publish eines Mustersets
 
 Beim Veröffentlichen eines Mustersets wird es auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
-Wählen Sie die **[!UICONTROL Zur Veröffentlichung markieren]** im Bedienfeld &quot;Durchsuchen&quot;links neben seinem Namen. Wählen Sie anschließend **[!UICONTROL Veröffentlichen]**. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Veröffentlichen senden]**.
+Wählen Sie im Bereich &quot;Durchsuchen&quot;links neben dem Namen das Symbol &quot;**[!UICONTROL Für Publish markieren]**&quot;aus. Wählen Sie dann **[!UICONTROL Publish]** aus. Wählen Sie auf der Seite &quot;Publishing&quot;die Option **[!UICONTROL Publish übermitteln]**.
 
-Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing-files).
+Siehe [Publish-Dateien](publishing-files.md#publishing-files).
 
 ## 6. Verknüpfen eines Mustersets mit einer Webseite
 

@@ -31,13 +31,13 @@ Um URL-Zeichenfolgen in Ihren Webseiten und Anwendungen zu platzieren, kopieren 
 
 Sie können die mit einer Bildvorgabe generierte Zeichenfolge einer Vorlagen-URL im Anzeigebereich „Vorschau für Vorlagen“ abrufen. Sie können die URL in die Zwischenablage kopieren und dann nach Bedarf einfügen. Gehen Sie wie folgt vor, um eine mit einer Bildvorgabe generierte Vorlagen-URL-Zeichenfolge von der Seite &quot;Vorlagenvorschau&quot;abzurufen:
 
-1. Rollover der Vorlage auswählen **[!UICONTROL Vorschau]** Schaltfläche oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Vorschau]**.
+1. Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Vorschau]** der Vorlage aus oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Vorschau]** .
 1. Wählen Sie in den Menüs der Vorgabe die Bildvorgabe aus, mit der Sie das Vorlagenbild bereitstellen möchten. Auf der Seite Vorschau wird angezeigt, wie die Vorlage aussieht, wenn sie vom Server bereitgestellt wird.
-1. Auswählen **[!UICONTROL URL kopieren]** sodass Sie die URL in die Zwischenablage kopieren können.
+1. Wählen Sie **[!UICONTROL URL kopieren]** aus, damit Sie die URL in die Zwischenablage kopieren können.
 
 ## Vorlagen-URLs zu Ihrer Webseite hinzufügen {#adding-template-urls-to-your-web-page}
 
-Wenden Sie sich an Ihr Webseitenentwicklungsteam, um eine Vorlage zu Ihrer Webseite hinzuzufügen und die `<IMG>` -Tag in Ihrem HTML-Webseiten-Code. Verwenden Sie die Adobe Dynamic Media Classic-URL-Zeichenfolge, um eine Anforderung an Dynamic Media-Bildserver zu senden. Die Commerce-Engine oder der dynamische Webseitencode fügt das Vorlagenbild in der Größe und mit der Formatierungsspezifikation ein, die durch die Bildvorgabe definiert ist, die Sie für Ihre Vorlage auswählen.
+Wenden Sie sich an Ihr Webseitenentwicklungsteam, um Ihrer Webseite eine Vorlage hinzuzufügen und das Tag `<IMG>` im HTML-Webseitencode zu ändern. Verwenden Sie die Adobe Dynamic Media Classic-URL-Zeichenfolge, um eine Anforderung an Dynamic Media-Bildserver zu senden. Die Commerce-Engine oder der dynamische Webseitencode fügt das Vorlagenbild in der Größe und mit der Formatierungsspezifikation ein, die durch die Bildvorgabe definiert ist, die Sie für Ihre Vorlage auswählen.
 
 >[!MORELIKETHIS]
 >

@@ -32,6 +32,6 @@ Nachdem eine Änderung im ursprünglichen Client vorgenommen wurde, werden alle 
 
 Als Sie sich angemeldet haben, wurden Sie aufgefordert, Peer-Aktualisierungen zuzulassen oder abzulehnen. Sie können festlegen, dass Ihre Auswahl gespeichert wird, sodass Sie die Eingabe nur einmal vornehmen müssen. Um Ihre Auswahl zu löschen, löschen Sie die jeweilige Site in den globalen Einstellungen aus dem Anzeigebereich „Peer-Netzwerk“.
 
-Wenn Sie ein Asset bearbeitet haben, das von einem Gleichrangigen geändert wurde, werden Sie aufgefordert, die Änderung in den Builder oder Editor aufzunehmen. Wenn Sie **[!UICONTROL Ja]**, verwirft der Builder oder Editor alle Änderungen am Asset und importiert das aktualisierte Asset. Wenn Sie **[!UICONTROL Nein]**, bleibt das Asset im Builder oder Editor unverändert und alle Änderungen, die Sie vorgenommen haben, bleiben in dieser Sitzung bestehen.
+Wenn Sie ein Asset bearbeitet haben, das von einem Gleichrangigen geändert wurde, werden Sie aufgefordert, die Änderung in den Builder oder Editor aufzunehmen. Wenn Sie **[!UICONTROL Ja]** auswählen, verwirft der Builder oder Editor alle Änderungen am Asset und importiert das aktualisierte Asset. Wenn Sie &quot;**[!UICONTROL Nein]**&quot;auswählen, bleibt das Asset im Builder oder Editor unverändert, und alle Änderungen, die Sie vorgenommen haben, bleiben in dieser Sitzung bestehen.
 
 Beim Speichern des Assets wurden Sie benachrichtigt, dass eine neuere Version vorhanden ist, und Sie wurden gefragt, ob Sie das Asset mit Ihren Änderungen überschreiben möchten.

@@ -33,29 +33,29 @@ Wenn Sie einem Asset oder Ordner ausdrücklich keine Gruppenberechtigung erteile
 
 ## Hinzufügen einer Gruppe {#adding-a-group}
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
-1. Auswählen **[!UICONTROL Hinzufügen]**.
-1. Geben Sie im Dialogfeld Gruppe hinzufügen im Feld Gruppenname einen Namen für die Gruppe ein und wählen Sie dann **[!UICONTROL Gruppe hinzufügen]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
+1. Geben Sie im Dialogfeld &quot;Gruppe hinzufügen&quot;im Feld &quot;Gruppenname&quot;einen Namen für die Gruppe ein und wählen Sie dann **[!UICONTROL Gruppe hinzufügen]** aus.
 1. Bei Bedarf können Sie die Kontrollkästchen neben den Namen von Benutzern aktivieren, um diese Benutzer der neuen Gruppe hinzuzufügen.
-1. Wenn Sie jetzt Zugriffsberechtigungen festlegen möchten, wählen Sie die **[!UICONTROL Asset-Zugriffsberechtigungen]** und geben Sie die gewünschten Optionen an.
+1. Wenn Sie jetzt Zugriffsberechtigungen festlegen möchten, wählen Sie die Registerkarte **[!UICONTROL Asset-Zugriffsberechtigungen]** aus und geben Sie dann die gewünschten Optionen an.
 
    Siehe [Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Sie können auswählen, welche Bildvorgaben für die Gruppe verfügbar sind. Klicken Sie einfach auf **[!UICONTROL Zugriffsberechtigungen für Bildvorgaben]** und wählen Sie Bildvorgaben aus, die die Gruppe verwenden kann.
+1. Sie können auswählen, welche Bildvorgaben für die Gruppe verfügbar sind. Klicken Sie einfach auf die Registerkarte **[!UICONTROL Zugriffsberechtigungen für Bildvorgaben]** und wählen Sie Bildvorgaben aus, die die Gruppe verwenden kann.
 
    Siehe [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
-1. Auswählen **[!UICONTROL Schließen]**.
+1. Wählen Sie **[!UICONTROL Close]** aus.
 
 ## Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe {#establishing-asset-access-permissions-for-a-group}
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:
 
-   * Um eine Gruppe hinzuzufügen und Berechtigungen festzulegen, wählen Sie **[!UICONTROL Hinzufügen]**. Geben Sie im Dialogfeld Gruppe hinzufügen einen Namen für die Gruppe ein und wählen Sie **[!UICONTROL Gruppe hinzufügen]** und fügen Sie Benutzer zur Gruppe hinzu.
+   * Um eine Gruppe hinzuzufügen und Berechtigungen festzulegen, wählen Sie **[!UICONTROL Hinzufügen]** aus. Geben Sie im Dialogfeld &quot;Gruppe hinzufügen&quot;einen Namen für die Gruppe ein, wählen Sie **[!UICONTROL Gruppe hinzufügen]** aus und fügen Sie der Gruppe Benutzer hinzu.
    * Um die Berechtigungen einer Gruppe zu bearbeiten, wählen Sie die Gruppe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die **[!UICONTROL Asset-Zugriffsberechtigungen]** Registerkarte. Über die Kontrollkästchen auf der rechten Seite der Registerkarte können Sie Rechte zum Lesen, Schreiben und Löschen für Ordner und Assets festlegen. Im linken Fensterbereich können Sie Ordner und Unterordner erweitern und minimieren.
+1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die Registerkarte **[!UICONTROL Asset-Zugriffsberechtigungen]** aus. Über die Kontrollkästchen auf der rechten Seite der Registerkarte können Sie Rechte zum Lesen, Schreiben und Löschen für Ordner und Assets festlegen. Im linken Fensterbereich können Sie Ordner und Unterordner erweitern und minimieren.
 1. Um Ordnern oder einzelnen Assets Rechte zuzuweisen, wählen Sie den Ordner im linken Fensterbereich aus. Der Inhalt des Ordners wird im rechten Fensterbereich angezeigt. Weisen Sie dann der Gruppe Berechtigungen zu, indem Sie die Felder für die entsprechenden Dateien auswählen. Oder wählen Sie die Ordner im rechten Bereich aus.
 
    In dieser Tabelle werden verschiedenen Aufgaben Berechtigungen zum Lesen, Schreiben und Löschen zugewiesen.
@@ -69,7 +69,7 @@ Wenn Sie einem Asset oder Ordner ausdrücklich keine Gruppenberechtigung erteile
    | Dateien umbenennen | | X | |
    | Dateien löschen | | | X |
 
-1. Auswählen **[!UICONTROL Schließen]**.
+1. Wählen Sie **[!UICONTROL Close]** aus.
 
 >[!NOTE]
 >
@@ -79,25 +79,25 @@ Wenn Sie einem Asset oder Ordner ausdrücklich keine Gruppenberechtigung erteile
 
 Wählen Sie Bildvorgabezugriffsberechtigungen für eine Gruppe, wenn Sie festlegen möchten, welche Bildvorgaben den Gruppenmitgliedern beim Exportieren von Assets mit dem Media Portal zur Verfügung stehen sollen.
 
-Siehe auch [Festlegen von Exportoptionen, die für Media Portal-Benutzer verfügbar sind](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Siehe auch [Festlegen der für Media Portal-Benutzer verfügbaren Exportoptionen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-**So wählen Sie Zugriffsberechtigungen für Bildvorgabe für eine Gruppe aus:**
+**So wählen Sie Bildvorgabe-Zugriffsberechtigungen für eine Gruppe aus:**
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Führen Sie auf der Seite „Gruppen“ einen der folgenden Schritte aus:
 
-   * Um eine Gruppe hinzuzufügen und anzugeben, welche Bildvorgaben ihr zur Verfügung stehen, wählen Sie **[!UICONTROL Hinzufügen]**. Geben Sie im Dialogfeld Gruppe hinzufügen einen Namen für die Gruppe ein und wählen Sie **[!UICONTROL Gruppe hinzufügen]** und fügen Sie Benutzer zur Gruppe hinzu.
-   * Um die Bildvorgabenoptionen einer Gruppe zu bearbeiten, wählen Sie die Gruppe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+   * Um eine Gruppe hinzuzufügen und anzugeben, welche Bildvorgaben verfügbar sind, wählen Sie **[!UICONTROL Hinzufügen]** aus. Geben Sie im Dialogfeld &quot;Gruppe hinzufügen&quot;einen Namen für die Gruppe ein, wählen Sie **[!UICONTROL Gruppe hinzufügen]** aus und fügen Sie der Gruppe Benutzer hinzu.
+   * Um die Bildvorgabenoptionen einer Gruppe zu bearbeiten, wählen Sie die Gruppe und dann **[!UICONTROL Bearbeiten]** aus.
 
-1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die **[!UICONTROL Zugriffsberechtigungen für Bildvorgaben]** Registerkarte.
+1. Wählen Sie im Dialogfeld &quot;Gruppe hinzufügen&quot;oder &quot;Gruppe bearbeiten&quot;die Registerkarte **[!UICONTROL Zugriffsberechtigungen für Bildvorgaben]** aus.
 1. Um festzulegen, welche Vorgaben für Media Portal-Benutzer beim Exportieren von Assets verfügbar sind, wählen Sie Bildvorgaben aus oder deaktivieren Sie sie.
-1. Auswählen **[!UICONTROL Schließen]**.
+1. Wählen Sie **[!UICONTROL Close]** aus.
 
 ## Bearbeiten und Löschen von Gruppen {#edit-and-delete-groups}
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Media Portal-Einrichtung]** > **[!UICONTROL Gruppen]**.
 1. Wählen Sie auf der Seite „Gruppenliste“ eine Gruppe aus und bearbeiten oder löschen Sie sie.
 
-   **Eine Gruppe bearbeiten**: Auswählen **[!UICONTROL Bearbeiten]** und wählen Sie dann die Optionen im Dialogfeld Gruppe bearbeiten aus.
+   **Eine Gruppe bearbeiten**: Wählen Sie **[!UICONTROL Bearbeiten]** und wählen Sie dann die Optionen im Dialogfeld &quot;Gruppe bearbeiten&quot;aus.
 
-   **Gruppe löschen**: Auswählen **[!UICONTROL Löschen]**.
+   **Eine Gruppe löschen**: Wählen Sie **[!UICONTROL Löschen]** aus.

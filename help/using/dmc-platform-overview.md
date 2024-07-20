@@ -21,19 +21,19 @@ ht-degree: 12%
 
 Adobe Dynamic Media Classic ist eine integrierte Rich-Media-Management-, Publishing- und Serving-Umgebung. Rich-Media können für alle Marketing- und Verkaufskanäle bereitgestellt werden. Zu diesen Kanälen gehören Web, Druckmaterial, E-Mail-Kampagnen, Web-Portale, Desktops und Geräte.
 
-Siehe auch [Plattformübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) Schulungsvideo.
+Siehe auch Schulungsvideo [Plattformübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) .
 
 ## Workflows {#workflow-process}
 
 Die wichtigsten Schritte des Adobe Dynamic Media Classic-Workflows sind:
 
-* **Hochladen und Verwalten von Assets**: Laden Sie Ihre Medien-Assets in Adobe Dynamic Media Classic hoch. In diesem System können Sie Assets organisieren und durchsuchen sowie nach bestimmten Assets suchen. Sie können auch Metadaten auf Assets anwenden.
+* **Hochladen und Verwalten Ihrer Assets**: Laden Sie Ihre Medien-Assets in Adobe Dynamic Media Classic hoch. In diesem System können Sie Assets organisieren und durchsuchen sowie nach bestimmten Assets suchen. Sie können auch Metadaten auf Assets anwenden.
 
-* **Rich Media erstellen**: Erstellen Sie verschiedene Konfigurationen Ihrer Assets wie E-Kataloge, Bildsets, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen.
+* **Rich-Media erstellen**: Erstellen Sie verschiedene Konfigurationen Ihrer Assets wie E-Kataloge, Bildsets, Rotationssets, Mustersets, gemischte Mediensets, einfache Vorlagen und FXG-Vorlagen.
 
-* **Veröffentlichen und Verwalten**: Veröffentlichen Sie Assets im Adobe Dynamic Media Classic SaaS-Netzwerk. Überwachen des Status von Assets beim Veröffentlichen Verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
+* **Publish und Verwalten von**: Publish-Assets im Adobe Dynamic Media Classic SaaS-Netzwerk. Überwachen des Status von Assets beim Veröffentlichen Verwalten Sie Benutzerrechte und verwalten Sie die Sicherheit.
 
-* **Serve**: Stellen Sie Medien aus dem Adobe Dynamic Media Classic SaaS-Netzwerk für Webseiten, Anwendungen und Mobilgeräte bereit. Die Medien sind leistungsoptimiert und werden mit CDN-Zwischenspeicherung bereitgestellt. Adobe Dynamic Media Classic stellt Ihnen eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
+* **Serve**: Übermitteln Sie Medien vom Adobe Dynamic Media Classic SaaS-Netzwerk an Webseiten, Anwendungen und Mobilgeräte. Die Medien sind leistungsoptimiert und werden mit CDN-Zwischenspeicherung bereitgestellt. Adobe Dynamic Media Classic stellt Ihnen eine URL für jedes Asset bereit. Sobald Sie das Asset veröffentlichen, wird die URL aktiv.
 
 ![Der Adobe Dynamic Media Classic-Workflow-Prozess](/help/using/assets/gs_workflow.png)
 
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic unterscheidet sich grundlegend von anderen Systemen,
 Die mit Adobe Dynamic Media Classic generierten URL-Zeichenfolgen enthalten Anweisungen, die dem Server mitteilen, wie das Asset bei der Bereitstellung angezeigt werden soll. Beispielsweise kann dasselbe Primärbild in unterschiedlichen Größen, Formaten, Gewichtungen, Farben und Zoom-Ansichten bereitgestellt werden. Beim Erstellen und Veröffentlichen von Medien-Assets mit Adobe Dynamic Media Classic können Sie die Effekte visuell konfigurieren. Erstellen Sie dabei die URL-Aufrufe, die dem Server korrekt mitteilen, wie das primäre Asset für Anwendungen bereitgestellt werden soll.
 
 ![Adobe Dynamic Media Classic kann dasselbe Primärbild für verschiedene Medien in unterschiedlichen Größen und Formaten bereitstellen.](/help/using/assets/gs_dynamic_publishing.png)
-*Adobe Dynamic Media Classic stellt sicher, dass unabhängig von Größe und Bandbreite für jeden Bildschirm konsistente, qualitativ hochwertige Erlebnisse bereitgestellt werden.*
+*Adobe Dynamic Media Classic stellt sicher, dass konsistente, hochwertige Erlebnisse unabhängig von Größe und Bandbreite für jeden Bildschirm bereitgestellt werden.*
 
 ## Inhalts-Caching {#content-caching}
 

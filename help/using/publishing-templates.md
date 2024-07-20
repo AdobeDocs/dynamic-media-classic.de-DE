@@ -27,13 +27,13 @@ Durch das Veröffentlichen Ihrer Vorlage wird sie auf Dynamic Media-Image-Server
 
 ## Markieren von Vorlagen zur Veröffentlichung {#marking-templates-for-publish}
 
-Vorlagen und alle zugehörigen Supportdateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Servern platziert werden können. Sie können diese Elemente zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen die **[!UICONTROL Zur Veröffentlichung markieren]** Symbol.
+Vorlagen und alle zugehörigen Supportdateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Servern platziert werden können. Sie können diese Elemente zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen das Symbol **[!UICONTROL Für Publish markieren]** auswählen.
 
-## Vorlage veröffentlichen {#publishing-your-template}
+## Publish-Vorlage {#publishing-your-template}
 
-Um Vorlagen auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]** und wählen Sie dann eine **[!UICONTROL Wann]** -Option. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Auswählen **[!UICONTROL Veröffentlichen senden]**.
+Um Vorlagen auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Publish]** und dann die Option **[!UICONTROL When]** aus. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **[!UICONTROL Publish übermitteln]** aus.
 
 >[!MORELIKETHIS]
 >
 >* [Markieren von Assets zur Veröffentlichung](publishing-files.md#publish_after_uploading)
->* [Veröffentlichungsauftrag erstellen](publishing-files.md#creating_a_publish_job)
+>* [Erstellen eines Veröffentlichungsauftrags](publishing-files.md#creating_a_publish_job)

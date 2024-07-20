@@ -25,23 +25,23 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#addi
 
 **So zeigen Sie eine Videovorschau in einem Video-Viewer an:**
 
-1. Wählen Sie links im Bedienfeld &quot;Asset-Bibliothek&quot;in der Dropdown-Liste &quot;Anzeigen&quot;die Option **[!UICONTROL Video]** (einkodierte Videos) oder **[!UICONTROL Adaptives Videoset]**. Wenn die Kodierungsvorgabe für adaptive Videos verwendet wird, führt dies zu einer Reihe von Videos mit mehreren Bitraten.
+1. Wählen Sie im Bedienfeld &quot;Asset-Bibliothek&quot;auf der linken Seite in der Dropdown-Liste &quot;Anzeigen&quot;die Option **[!UICONTROL Video]** (einzelne kodierte Videos) oder **[!UICONTROL Adaptives Videoset]** aus. Wenn die Kodierungsvorgabe für adaptive Videos verwendet wird, führt dies zu einer Reihe von Videos mit mehreren Bitraten.
 1. Navigieren Sie im linken Bedienfeld „Asset-Bibliothek“ zu den Asset-Ordnern, um das Video auszuwählen, von dem Sie eine Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wählen Sie im Asset-Fenster in einem Asset-Miniaturfenster die Option **[!UICONTROL Vorschau]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Wählen Sie in derselben Symbolleiste die Option **[!UICONTROL Vorschau]**.
-   * Wählen Sie im Assets-Fenster ein Asset aus. Navigieren Sie in der Symbolleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Vorschau]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Bewegen Sie im Fenster &quot;Asset&quot;den Mauszeiger über ein Asset und wählen Sie dann **[!UICONTROL Vorschau]** aus.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;in einem Asset-Miniaturfenster **[!UICONTROL Vorschau]** aus.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus. Wählen Sie in derselben Symbolleiste **[!UICONTROL Vorschau]** aus.
+   * Wählen Sie im Assets-Fenster ein Asset aus. Wechseln Sie in der Symbolleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Vorschau]**.
 
 1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste unten die URL-Kodierung aus, die beim Kopieren auf die URL des Assets angewendet werden soll.
-1. Wählen Sie die **[!UICONTROL Vorschau]** verknüpfen, damit Sie das Asset im ausgewählten Viewer überprüfen können.
+1. Wählen Sie den Link **[!UICONTROL Vorschau]** aus, damit Sie das Asset im ausgewählten Viewer überprüfen können.
 1. Schließen Sie den angezeigten Viewer.
-1. Auswählen **[!UICONTROL Schließen]** , um zum Bildschirm Assets zurückzukehren.
+1. Wählen Sie **[!UICONTROL Schließen]** aus, um zum Assets-Bildschirm zurückzukehren.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic bietet eine praktische Methode zur Vorschau von MP4-Videos auf dem Desktop. Verwenden Sie diese Methode, um eine Vorschau von mobilen Inhalten auf dem Desktop anzuzeigen, ohne sie auf einem mobilen Gerät testen zu müssen. Beachten Sie jedoch, dass in der Desktop-Vorschau nicht realistisch angezeigt wird, wie die Wiedergabe auf dem Mobilgerät aussieht. Um eine Vorschau des Videos auf einem Mobilgerät anzuzeigen, gehen Sie zum Bildschirm &quot;Vorschau&quot;. Klicks **[!UICONTROL URL kopieren]** und geben Sie diese URL im Webbrowser eines Mobilgeräts ein. Weitere Informationen finden Sie unter [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic bietet eine praktische Methode zur Vorschau von MP4-Videos auf dem Desktop. Verwenden Sie diese Methode, um eine Vorschau von mobilen Inhalten auf dem Desktop anzuzeigen, ohne sie auf einem mobilen Gerät testen zu müssen. Beachten Sie jedoch, dass in der Desktop-Vorschau nicht realistisch angezeigt wird, wie die Wiedergabe auf dem Mobilgerät aussieht. Um eine Vorschau des Videos auf einem Mobilgerät anzuzeigen, gehen Sie zum Bildschirm &quot;Vorschau&quot;. Klicken Sie auf **[!UICONTROL URL kopieren]** und geben Sie diese URL im Webbrowser eines Mobilgeräts ein. Weitere Informationen finden Sie unter [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Arbeiten mit Video-Viewer-Vorgaben {#working-with-video-viewer-presets}
 
@@ -49,9 +49,9 @@ Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Vi
 
 Adobe Dynamic Media Classic enthält viele vordefinierte Viewer-Vorgaben für die Wiedergabe von Videos. Wenn Sie Administrator sind, können Sie benutzerdefinierte Viewer-Vorgaben erstellen. Es gibt mehr als 12 verschiedene Einstellungen zum Konfigurieren des Video-Viewers. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
 
-Siehe [Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Siehe [Anzeigen einer Videovorschau in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch Schulungsvideo zu [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) .
 
 ### Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben {#adding-or-editing-a-video-viewer-preset}
 
@@ -61,35 +61,35 @@ In Viewer-Vorgaben können Sie Viewer-Vorgaben aktivieren, filtern, sortieren un
 
 Siehe [Viewer-Vorgaben](application-setup.md#viewer_presets).
 
-Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch Schulungsvideo zu [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) .
 
 **So fügen Sie eine Video-Viewer-Vorgabe hinzu oder bearbeiten sie:**
 
-1. Navigieren Sie oben rechts in Adobe Dynamic Media Classic zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
+1. Navigieren Sie in der rechten oberen Ecke von Adobe Dynamic Media Classic zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
 
    Sie können festlegen, dass nur Vorgaben für Video-Viewer angezeigt werden. Wählen Sie in der Symbolleiste direkt über der Tabelle die Option Video-Viewer aus der Dropdown-Liste &quot;Viewer&quot;aus.
 
 1. Hinzufügen oder Bearbeiten einer Viewer-Vorgabe zum Anzeigen eines Videos:
 
-   * **Hinzufügen**: Auswählen **[!UICONTROL Hinzufügen]** in der Symbolleiste. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform und einen Viewer aus den entsprechenden Dropdown-Listen aus und wählen Sie dann **[!UICONTROL Hinzufügen]**.
+   * **Hinzufügen**: Wählen Sie **[!UICONTROL Hinzufügen]** in der Symbolleiste aus. Wählen Sie im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;eine Plattform und einen Viewer aus den entsprechenden Dropdown-Listen und wählen Sie dann **[!UICONTROL Hinzufügen]** aus.
 
    Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **Hinzufügen ausgehend von einer vorhandenen Viewer-Vorgabe**: Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]** in der Symbolleiste.
+   * **Hinzufügen, indem Sie mit einer vorhandenen Viewer-Vorgabe beginnen**: Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie dann in der Symbolleiste auf **[!UICONTROL Bearbeiten]** .
 
-   Nachdem Sie den Video-Viewer neu konfiguriert haben, wählen Sie **[!UICONTROL Speichern unter]** , um die Vorgabe unter einem anderen Namen im Textfeld Vorgabenname zu speichern.
+   Nachdem Sie den Video-Viewer neu konfiguriert haben, wählen Sie &quot;**[!UICONTROL Speichern unter]**&quot;, um die Vorgabe unter einem anderen Namen im Textfeld &quot;Vorgabenname&quot;zu speichern.
 
-   * **Bearbeiten**: Wählen Sie eine Video-Viewer-Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+   * **Bearbeiten**: Wählen Sie eine Video-Viewer-Vorgabe und dann **[!UICONTROL Bearbeiten]** aus.
 
-1. Im `Configure Viewer` im Feld &quot;Vorgabenname&quot;den Vorgabennamen eingeben oder bearbeiten.
+1. Geben Sie auf der Seite &quot;`Configure Viewer`&quot;im Feld &quot;Vorgabenname&quot;den Vorgabenamen ein oder bearbeiten Sie ihn.
 1. Legen Sie die weiteren gewünschten Optionen fest.
 
    Um eine Beschreibung einer Option anzuzeigen, wählen Sie das zugehörige Infotipp-Symbol aus.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Auswählen **[!UICONTROL Speichern unter]** wenn Sie eine Viewer-Vorgabe hinzugefügt haben, indem Sie mit einer vorhandenen Vorgabe beginnen.
-   * Auswählen **[!UICONTROL Speichern]** wenn Sie eine Viewer-Vorgabe hinzugefügt oder bearbeitet haben.
+   * Wählen Sie &quot;**[!UICONTROL Speichern unter]**&quot;, wenn Sie eine Viewer-Vorgabe hinzugefügt haben, indem Sie mit einer vorhandenen Vorgabe beginnen.
+   * Wählen Sie **[!UICONTROL Speichern]** aus, wenn Sie eine Viewer-Vorgabe hinzugefügt oder bearbeitet haben.
 
 >[!MORELIKETHIS]
 >

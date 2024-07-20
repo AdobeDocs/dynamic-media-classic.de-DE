@@ -29,12 +29,12 @@ Vorlagen können basierend auf Adobe Photoshop-PSD- oder Bilddateien erstellt w
 
 Detaillierte Anweisungen zum Hochladen von Dateien finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files). Folgendes ist beim Hochladen von Vorlagendateien zu beachten:
 
-* Wenn Sie eine PSD-Datei hochladen, können Sie daraus eine Vorlage erstellen. Adobe Dynamic Media Classic erstellt für jede Ebene im PSD ein eigenes Bild. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Photoshop-Optionen]** und wählen Sie **[!UICONTROL Ebenen beibehalten]** und **[!UICONTROL Vorlage erstellen]**. Wählen Sie dann eine Option aus dem **[!UICONTROL Ebenennamen]** Dropdown-Liste für die Benennung der Bilder, die Adobe Dynamic Media Classic aus den Ebenen im PSD erstellt.
+* Wenn Sie eine PSD-Datei hochladen, können Sie daraus eine Vorlage erstellen. Adobe Dynamic Media Classic erstellt für jede Ebene im PSD ein eigenes Bild. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Photoshop-Optionen]** und dann **[!UICONTROL Ebenen beibehalten]** und **[!UICONTROL Vorlage erstellen]**. Wählen Sie dann eine Option aus der Dropdownliste **[!UICONTROL Ebenennamen]** aus, um die Bilder zu benennen, die Adobe Dynamic Media Classic aus Ebenen im PSD erstellt.
 Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
->* [Hochladen der Dateien](uploading-files.md#uploading_your_files)
+>* [Laden Sie Ihre Dateien hoch](uploading-files.md#uploading_your_files)
 >* [Arbeiten mit PSD-Dateien](psd-files.md#working_with_psd_files)

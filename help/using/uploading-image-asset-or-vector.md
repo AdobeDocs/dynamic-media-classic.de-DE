@@ -30,7 +30,7 @@ Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsa
 
 ## Anfordern eines gemeinsamen geheimen Schlüssels {#requesting-a-shared-secret-key}
 
-Anfordern einer *shared-secret key* von [Verwenden der Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Im Fall des technischen Supports fordern Sie einen gemeinsamen geheimen Schlüssel an.
+Fordern Sie einen *gemeinsamen geheimen Schlüssel* von [ an, indem Sie die Admin Console verwenden, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Fordern Sie im Fall des technischen Supports einen gemeinsam genutzten geheimen Schlüssel an.
 
 Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Adobe Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
@@ -41,12 +41,12 @@ Das *Upload-Token* stellt sicher, dass niemand denselben gemeinsamen geheimen Sc
 Das Upload-Token besteht aus einer alphanumerischen Zeichenfolge, die nur für eine begrenzte Zeitspanne gültig ist. Verwenden Sie die folgenden URLs und ersetzen Sie den gemeinsam genutzten geheimen Schlüssel, damit Sie das Upload-Token abrufen können.
 
 * Rasterbild
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In diesem Beispiel lautet der gemeinsame geheime Schlüssel `fece4b21-87ee-47fc-9b99-2e29b78b602`
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`In diesem Beispiel lautet der Schlüssel für den gemeinsamen geheimen Schlüssel `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-Standardmäßig läuft das Upload-Token 5 Minuten (300 Sekunden) nach dem Abrufen ab. Um mehr Zeit anzufordern, schließen Sie `expires` in der URL und die benötigte Zeit in Sekunden. So wird bei der folgenden URL für ein Beispielbild ein Upload-Token abgerufen, das 1800 Sekunden gültig ist:
+Standardmäßig läuft das Upload-Token 5 Minuten (300 Sekunden) nach dem Abrufen ab. Um mehr Zeit anzufordern, fügen Sie `expires` in die URL ein und geben Sie die benötigte Zeit in Sekunden an. So wird bei der folgenden URL für ein Beispielbild ein Upload-Token abgerufen, das 1800 Sekunden gültig ist:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -96,7 +96,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen eines Upl
 
 Sie können nun ein Bild-Asset hochladen.
 
-Siehe [Bild-Asset hochladen](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Siehe [Hochladen eines Bild-Assets](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## Hochladen eines Rasterbild-Assets {#uploading-an-image-asset}
 
@@ -106,9 +106,9 @@ Wenn Sie ein Upload-Token abgerufen haben, das für eine bestimmte Zeitspanne g�
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Die `upload_token` und `company_name` -Felder erforderlich sind.
+Die Felder `upload_token` und `company_name` sind erforderlich.
 
-Siehe [Upload-Token abrufen](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Siehe [Abrufen des Upload-Tokens](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Siehe [Abrufen eines gemeinsamen geheimen Schlüssels](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
@@ -118,7 +118,7 @@ Sie können auch andere optionale Werte als URL-Anfragezeichenfolgen senden, wie
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Die `file_limit` gibt die maximale Dateigröße in Byte an. Die `file_exts` gibt die Dateinamenerweiterungen an, die hochgeladen werden dürfen. Diese beiden Werte sind optional.
+Der Parameter `file_limit` gibt die maximale Dateigröße in Byte an. Der Parameter `file_exts` gibt die Dateinamenerweiterungen an, die hochgeladen werden dürfen. Diese beiden Werte sind optional.
 
 In der Anwendung sind globale Beschränkungen für die maximale Dateigröße und zulässigen Dateierweiterungen festgelegt. Wenn es sich bei dem, was Sie in der Anfrage gesendet haben, um eine Untergruppe der globalen Beschränkungen handelt, wird dies berücksichtigt. Die globalen Beschränkungen lauten wie folgt:
 
@@ -135,14 +135,14 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Liste der Dateinamenerweiterungen.
 * Gibt an, ob das Farbprofil und der Dateiname des Assets beibehalten werden sollen.
 * Gibt an, ob ein Knock-out-Hintergrund verwendet werden soll. Wenn Sie &quot;Hintergrund aussparen&quot;aktivieren, legen Sie die Methode &quot;Ecke&quot;, &quot;Toleranz&quot;und &quot;Füllung&quot;fest.
-Siehe Hintergrund aussparen in [Bildoptimierungsoptionen beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
+Siehe &quot;Hintergrund aussparen&quot;in den [Optionen zur Feinabstimmung des Bildes beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Der Name der hochzuladenden Datei.
 
-Sie können den mit dem obigen Formular verknüpften HTML-Quellcode anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Sie können den mit dem obigen Formular verknüpften HTML-Quellcode anzeigen, indem Sie [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) auswählen
 
-Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie **[!UICONTROL Seitenquelle anzeigen]**. Der Code zeigt die entsprechende URL-Abfragezeichenfolge und die POST-Methode an, die ausgeführt wird, wenn der Benutzer **[!UICONTROL Einsenden]**.
+Klicken Sie in Firefox mit der rechten Maustaste in das Browserfenster und wählen Sie dann **[!UICONTROL Seite Source anzeigen]** aus. Der Code zeigt die entsprechende URL-Abfragezeichenfolge und die POST an, die ausgeführt wird, wenn der Benutzer **[!UICONTROL Senden]** auswählt.
 
-Um die XML-Antwort in Internet Explorer anzuzeigen, navigieren Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Quelle]**. Um die XML-Antwort in Firefox anzuzeigen, navigieren Sie zu **[!UICONTROL Instrumente]** > **[!UICONTROL Browser-Tools]** > **[!UICONTROL Web Developer Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort in Internet Explorer anzuzeigen, gehen Sie zu **[!UICONTROL Ansicht]** > **[!UICONTROL Source]**. Um die XML-Antwort in Firefox anzuzeigen, gehen Sie zu &quot;**[!UICONTROL Tools]**&quot;> &quot;**[!UICONTROL Browser-Tools]**&quot;> &quot;**[!UICONTROL Web Developer Tools]**&quot;. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -202,7 +202,7 @@ POST
 
 ### Abrufen von Asset-Metadaten für Bilder {#getting-asset-metadata-for-images}
 
-Sie können `image_info` , um Metadaten für ein hochgeladenes Asset abzurufen, wie im folgenden Beispiel gezeigt:
+Sie können `image_info` verwenden, um Metadaten für ein hochgeladenes Asset abzurufen, wie im folgenden Beispiel gezeigt:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

@@ -25,7 +25,7 @@ Sie können die Wiedergabe und Navigation Ihrer Videos in langen Formularen vere
 >
 >Der verwendete Video-Player muss die Verwendung von Kapitelmarken unterstützen. 
 
-Siehe [Hinzufügen oder Bearbeiten von Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) , wenn Sie die Cue-Point für die Kapitelnavigation und den Popup-Text für Kapiteltitel für `Universal_HTML5_Video` Viewer (HTML5).
+Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) , wenn Sie die Kapitelnavigation-Cue-Punkte und den Kapiteltitel-Popup-Text für den `Universal_HTML5_Video`-Viewer (HTML5) konfigurieren möchten.
 
 Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -49,42 +49,42 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Im obigen Beispiel `Chapter 1` ist der Cue-Point-Bezeichner und ist optional. Die Cue-Point-Zeit `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels in 00 an.:00:Format 000. Die letzten drei Ziffern geben die Millisekunden an und können auf „000“ belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die tatsächliche Beschreibung des Kapitelinhalts. Die Cue-Point-ID, die Cue-Point-Zeit und der Kapiteltitel werden im Video-Player in einem Popup-Fenster angezeigt, wenn der Mauszeiger über einen visuellen Cue-Point in der Timeline des Videos bewegt wird.
+Im obigen Beispiel ist `Chapter 1` der Cue-Point-Bezeichner und optional. Die Cue-Point-Zeit von `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels im Format 00:00:000 an. Die letzten drei Ziffern geben die Millisekunden an und können auf „000“ belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die tatsächliche Beschreibung des Kapitelinhalts. Die Cue-Point-ID, die Cue-Point-Zeit und der Kapiteltitel werden im Video-Player in einem Popup-Fenster angezeigt, wenn der Mauszeiger über einen visuellen Cue-Point in der Timeline des Videos bewegt wird.
 
-Da Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Kapiteldatei dem WebVTT (Web Video Text Tracks)-Standard folgt. Die Erweiterung des Kapiteldateinamens lautet `.VTT`. Weitere Informationen zum WebVTT-Untertitelstandard
+Da Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Kapiteldatei dem WebVTT (Web Video Text Tracks)-Standard folgt. Die Erweiterung des Kapiteldateinamens ist `.VTT`. Weitere Informationen zum WebVTT-Untertitelstandard
 
 Siehe [WebVTT: The Web Video Text Tracks Format](https://w3c.github.io/webvtt/).
 
-**So fügen Sie Kapitelmarken zu einem Video hinzu:**
+**Hinzufügen von Kapitelmarken zu einem Video:**
 
 1. Erstellen Sie Ihre Videokapiteldatei mit einem einfachen Texteditor außerhalb von Adobe Dynamic Media Classic.
 
    >[!NOTE]
    >
-   >Für die globale Unterstützung von Videokapiteln in anderen Sprachen als Englisch erfordert der WebVTT-Standard, dass Sie separate `.VTT` -Dateien und -Aufrufe für jede Sprache, die Sie unterstützen möchten.
+   >Für die globale Unterstützung von Videokapiteln in anderen Sprachen als Englisch erfordert der WebVTT-Standard, dass Sie separate `.VTT`-Dateien und -Aufrufe für jede Sprache erstellen, die Sie unterstützen möchten.
 
 1. Speichern Sie die VTT-Datei in UTF8-Kodierung, damit Sie Probleme mit der Zeichendarstellung im Text des Kapiteltitels vermeiden können.
 
-   Im Allgemeinen soll die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und mit `chapters`. Auf diese Weise kann es Ihnen bei der Automatisierung der Generierung von Video-URLs mithilfe Ihres bestehenden Web Content Management-Systems helfen.
+   Im Allgemeinen soll die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei und mit `chapters` angehängt werden. Auf diese Weise kann es Ihnen bei der Automatisierung der Generierung von Video-URLs mithilfe Ihres bestehenden Web Content Management-Systems helfen.
 
 1. Laden Sie in Adobe Dynamic Media Classic Ihre WebVTT-Kapiteldatei hoch.
 
    Siehe [Dateien hochladen](uploading-files.md#uploading_files).
 
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zum Asset-Ordner, der die Videodatei enthält, die mit der hochgeladenen Kapiteldatei verknüpft werden soll.
-1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und wählen Sie dann unter dem Miniaturbild des Assets die Option **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset aus und klicken Sie dann unter dem Miniaturbild des Assets auf **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 1. Suchen Sie in der Tabelle „Viewer-Liste“ den HTML5-Viewer mit dem Namen **Universal_HTML5_Video** und führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie für ein Popup-Video-Viewer-Erlebnis **[!UICONTROL URL kopieren]** rechts vom Namen.
+   * Wählen Sie für ein Popup-Video-Viewer-Erlebnis **[!UICONTROL URL kopieren]** rechts neben dem Namen aus.
 
      Hängen Sie die kopierte URL des Videos mit der folgenden Syntax an, damit Sie sie mit der kopierten URL Ihrer Untertiteldatei verknüpfen können:
 
      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Für ein eingebettetes Video-Viewer-Erlebnis wählen Sie **[!UICONTROL Einbettungscode]** rechts vom Namen.
+   * Wählen Sie für ein eingebettetes Video-Viewer-Erlebnis **[!UICONTROL Einbettungscode]** rechts neben dem Namen aus.
 
-     Wählen Sie im Dialogfeld Einbettungscode die Option **[!UICONTROL In Zwischenablage kopieren]**.
+     Wählen Sie im Dialogfeld &quot;Einbettungscode&quot;die Option **[!UICONTROL In Zwischenablage kopieren]**.
 
-     Für die HTML 5 `Universal_HTML5_Video` -Viewer den kopierten Einbettungscode wie folgt anhängen:
+     Für den HTML5 `Universal_HTML5_Video`-Viewer hängen Sie den kopierten Einbettungscode wie folgt an:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

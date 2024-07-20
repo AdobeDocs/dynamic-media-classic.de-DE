@@ -32,7 +32,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
  -->
 
 ![Detailansicht](/help/using/assets/image_0.img.png)
-*Detailansicht mit dem Bedienfeld &quot;Asset-Bibliothek&quot;auf der linken Seite ausgeblendet.*
+*Detailansicht mit dem Bedienfeld &quot;Asset-Bibliothek&quot;, das links von der Ansicht ausgeblendet ist.*
 
 >[!NOTE]
 >
@@ -44,9 +44,9 @@ Sie können ein Asset in der Detailansicht anzeigen, damit Sie es genau untersuc
 
 1. Führen Sie im Bedienfeld &quot;Durchsuchen&quot;einen der folgenden Schritte aus:
 
-   * Wählen Sie das Asset aus. Wählen Sie rechts oben in Adobe Dynamic Media Classic die Option **[!UICONTROL Detailansicht]** Symbol.
+   * Wählen Sie das Asset aus. Wählen Sie rechts oben in Adobe Dynamic Media Classic das Symbol **[!UICONTROL Detailansicht]** aus.
    * Doppelklicken Sie auf das gewünschte Asset.
-   * Wählen Sie das Asset aus und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Details]**.
+   * Wählen Sie das Asset aus und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst
 
 Die Detailansicht bietet Tools zum Arbeiten mit dem von Ihnen geöffneten Asset. Welche Tools verfügbar sind, hängt vom Typ des Assets ab, mit dem Sie arbeiten. Die Detailansicht bietet jedoch immer die folgenden Funktionen:
 
-* **Elemente zur Veröffentlichung**: Wählen Sie die **[!UICONTROL `Publish`]** auf der linken Seite des Namens oder navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
+* **Elemente für die Veröffentlichung**: Wählen Sie das Symbol **[!UICONTROL `Publish`]** links neben dem Namen oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Publish]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
 * **Asset umbenennen**: Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
@@ -70,7 +70,7 @@ Die Detailansicht bietet Tools zum Arbeiten mit dem von Ihnen geöffneten Asset.
 
 * **Suchbegriffe bearbeiten und hinzufügen**: Wählen Sie Suchbegriffe aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Asset löschen**: Gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
+* **Löschen Sie das Asset**: Wechseln Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
 
 Für einzelne Dateien - z. B. Bilder, Bildsets und Schriftarten - können Sie den Veröffentlichungs- und Bearbeitungsverlauf anzeigen und Auftragsdetails in der Detailansicht überprüfen.
 
@@ -78,9 +78,9 @@ Diese Tabelle zeigt, welche anderen Optionen bei verschiedenen Asset-Typen in de
 
 | Asset-Typ | Bearbeiten/Anpassen | Vorschau |
 | --- | --- | --- |
-| Bilder | Hinzufügen von Imagemaps<br>Zoomziele hinzufügen<br>Zuschneiden<br>Scharfzeichnen<br>Angepasste Ansichten erstellen | Ja; Zoom und Bildvorgaben |
+| Bilder | Hinzufügen von Imagemaps<br>Hinzufügen von Zoomzielen<br>Zuschneiden<br>Scharfzeichnen<br>Erstellen angepasster Ansichten | Ja; Zoom und Bildvorgaben |
 | Möbel- und Fensterbehangbilder | Nein | Miniaturansicht |
-| E-Kataloge | Bearbeiten | Ja<br>Das Infofeld ist ebenfalls verfügbar. |
+| E-Kataloge | Bearbeiten | Ja<br>Das Infofeld ist ebenfalls verfügbar |
 | Schriftarten | Informationen zur Schriftart bearbeiten | Nein |
 | FXG-Dateien | Bearbeiten | Ja |
 | ICC-Profile | Profilinformationen bearbeiten | Nein |
@@ -93,10 +93,10 @@ Diese Tabelle zeigt, welche anderen Optionen bei verschiedenen Asset-Typen in de
 | SVG-Dateien | Nein | Nein |
 | Vorlagen | Bearbeiten | Ja |
 | Videos | Nein | Ja |
-| Vignetten und gerenderte Vignetten | Nein | Das Bild wird angezeigt<br>Sie können den Inhalt und die Struktur der renderbaren Elemente der Vignette im XML-Format anzeigen |
+| Vignetten und gerenderte Vignetten | Nein | Das Bild wird angezeigt<br>Sie können Inhalt und Struktur der renderbaren Elemente der Vignette im XML-Format anzeigen |
 | XML-Dateien | Nein | Inhalt wird gezeigt |
 | Zip-Dateien | Nein | Inhalt wird nicht angezeigt |
 
 >[!MORELIKETHIS]
 >
->* [Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [ Anzeigen, Hinzufügen und Exportieren von Metadaten](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

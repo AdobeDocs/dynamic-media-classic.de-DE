@@ -37,7 +37,7 @@ Erstellen Sie bei Bedarf eine Staging-Umgebung, anstatt Assets aus den folgenden
 
 Die meisten Unternehmen haben eine Firewall für den Internetzugriff. Der Zugriff auf das Internet ist damit auf bestimmten Routen möglich und normalerweise auf bestimmte öffentliche IP-Adressen beschränkt.
 
-Über Ihr Unternehmensnetzwerk können Sie Ihre öffentliche IP-Adresse mithilfe von Websites wie [https://www.whatismyip.com](https://www.whatismyip.com/) oder fordern Sie diese Informationen von Ihrem IT-Unternehmen an.
+Über Ihr Unternehmensnetzwerk können Sie Ihre öffentliche IP-Adresse mithilfe von Websites wie [https://www.whatismyip.com](https://www.whatismyip.com/) ermitteln oder diese Informationen von Ihrer IT-Organisation anfordern.
 
 Mit dem Secure Testing richtet Adobe Dynamic Media Classic einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit jeder Anforderung bei diesem Server wird die Original-IP-Adresse überprüft. Wenn die eingehende Anfrage nicht in der Liste genehmigter IP-Adressen enthalten ist, wird eine Fehlerantwort zurückgegeben. Der Adobe Dynamic Media Classic-Unternehmensadministrator konfiguriert die Liste genehmigter IP-Adressen für die sichere Testumgebung seines Unternehmens.
 
@@ -103,28 +103,28 @@ Last Modified Date:
  -->
 
 1. Wenden Sie sich an die Adobe-Kundenunterstützung und fordern Sie sie auf, sichere Tests für Ihr Konto zu aktivieren.
-1. Navigieren Sie in Adobe Dynamic Media Classic auf der Symbolleiste für globale Navigation zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]**.
-1. Auf der Seite &quot;Veröffentlichung zum Image-Server&quot;im **[!UICONTROL `Publish Context`]** Dropdown-Liste auswählen **[!UICONTROL Image-Serving testen]**.
-1. Wählen Sie für den Client-Adressfilter die Option **[!UICONTROL Hinzufügen]**.
+1. Navigieren Sie in Adobe Dynamic Media Classic auf der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Publish-Einrichtung]** > **[!UICONTROL Image-Server]**.
+1. Wählen Sie auf der Image-Server-Publish-Seite in der Dropdownliste **[!UICONTROL `Publish Context`]** die Option **[!UICONTROL Image-Serving testen]**.
+1. Wählen Sie für den Client-Adressfilter **[!UICONTROL Hinzufügen]** aus.
 1. Aktivieren Sie das Kontrollkästchen, damit die Adresse aktiviert ist, und geben Sie dann eine IP-Adresse und eine Netzmaske in die entsprechenden Textfelder ein.
 
    >[!NOTE]
    >
-   >Wenn Sie eine einzelne IP-Adresse und Netzmaske hinzufügen, kann diese Adresse Asset-Aufrufe durchführen. Andere von Ihnen hinzugefügte IP-Adressen und Netzmasken dürfen jedoch keine Asset-Aufrufe durchführen. Deaktivieren Sie daher das Kontrollkästchen im obigen Schritt, um die Möglichkeit zu deaktivieren, eine IP-Adresse und eine Netzmaske anzugeben. So effektiv erlaubt es *all* IP-Adressen, um Asset-Aufrufe durchzuführen, und sie werden alle angezeigt.
+   >Wenn Sie eine einzelne IP-Adresse und Netzmaske hinzufügen, kann diese Adresse Asset-Aufrufe durchführen. Andere von Ihnen hinzugefügte IP-Adressen und Netzmasken dürfen jedoch keine Asset-Aufrufe durchführen. Deaktivieren Sie daher das Kontrollkästchen im obigen Schritt, um die Möglichkeit zu deaktivieren, eine IP-Adresse und eine Netzmaske anzugeben. Auf diese Weise können *alle* IP-Adressen Asset-Aufrufe durchführen, und alle werden angezeigt.
 
 1. Führen Sie einen der folgenden Schritte aus:
    * Wiederholen Sie die beiden vorherigen Schritte, wenn Sie weitere IP-Adressen hinzufügen müssen.
    * Fahren Sie mit dem nächsten Schritt fort.
-1. Wählen Sie links unten auf der Seite &quot;Veröffentlichung zum Image-Server&quot;die Option **[!UICONTROL Speichern]**
+1. Wählen Sie links unten auf der Image Server Publish-Seite **[!UICONTROL Speichern]** aus.
 1. Laden Sie die gewünschten Bilder in Ihr Adobe Dynamic Media Classic-Konto hoch.
 
    Siehe [Dateien hochladen](uploading-files.md#uploading_files).
 
 1. Vergewissern Sie sich, dass einige der Bilder zur Veröffentlichung markiert sind, andere nicht markiert sind, und senden Sie dann den Veröffentlichungsauftrag.
 
-   Siehe [Veröffentlichen von Dateien](publishing-files.md#publishing_files).
+   Siehe [Publish-Dateien](publishing-files.md#publishing_files).
 
-1. Bestimmen Sie den Namen Ihres Secure Testing-Dienstes, indem Sie **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]**.
+1. Bestimmen Sie den Namen Ihres Secure Testing-Dienstes, indem Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** navigieren.
 1. Suchen Sie auf der Seite „Allgemeine Programmeinstellungen“ in der Gruppe „Server“ den Namen rechts neben **[!UICONTROL Servername für den Testveröffentlichungskontext]**.
 
 Wenden Sie sich an Adobe Care , wenn der Servername fehlt oder die URLs zum Server nicht funktionieren.

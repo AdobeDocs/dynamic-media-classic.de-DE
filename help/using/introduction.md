@@ -18,7 +18,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic ist das führende medienübergreifende On-Demand-Veröffentlichungssystem. Sie können dynamische Rich-Inhalte hochladen, verwalten, erweitern und auf allen Geräten und Bildschirmen veröffentlichen. Adobe Dynamic Media Classic-Lösungen umfassen Folgendes:
 
-* Dynamic Imaging: Echtzeitbearbeitung, Formatierung und Größenanpassung, interaktiver Zoom und Schwenken; Farbe `swatching` und Textur `swatching`; 360-Grad-Rotation; Bildvorlagen; Multimedia-Viewer.
+* Dynamic Imaging: Echtzeit-Bearbeitung, Formatierung und Größenanpassung, interaktiver Zoom und Schwenken, Farbe `swatching` und Textur `swatching`; 360-Grad-Rotation; Bildvorlagen; Multimedia-Viewer.
 * E-Kataloge: Erstellen, Hotspot-Verknüpfen, suchfähig, veröffentlichen und liefern dynamisch bereitgestellte Online-Kataloge in konfigurierbaren Viewern.
 * Media Portal: Self-Service-Umgebung, die Portalnutzern administratorgesteuerte &quot;Ansichten&quot;in Adobe Dynamic Media Classic-Assets bereitstellt, mit denen sie Assets hochladen, durchsuchen, suchen, in der Vorschau anzeigen und exportieren können.
 * eVideo: Laden Sie endgültige Videos in jedem Format hoch, verwalten, bearbeiten, erstellen Sie Hotspots und Videovorlagen, veröffentlichen Sie sie und streamen Sie sie in konfigurierbare Video-Viewer.

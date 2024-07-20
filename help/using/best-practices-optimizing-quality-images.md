@@ -27,7 +27,7 @@ Siehe auch [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/en/
 
 >[!TIP]
 >
->Lernen Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung mithilfe von Dynamic Media kennen [_Momentaufnahme_](https://snapshot.scene7.com/).
+>Probieren Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung aus und entdecken Sie sie mit Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
 > Snapshot ist ein visuelles Demonstrationswerkzeug, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, damit Sie die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell beobachten können und Optimierungen für die intelligente Bildbearbeitung für Folgendes durchführen können:
 >
@@ -35,34 +35,34 @@ Siehe auch [Intelligente Bildbearbeitung](https://experienceleague.adobe.com/en/
 >* Netzwerkbandbreite
 >* DSGVO (Gerätepixelverhältnis)
 >
->Um zu erfahren, wie einfach es ist, Snapshot zu verwenden, spielen Sie die [Schulungsvideo zu Momentaufnahmen](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
+>Um zu erfahren, wie einfach es ist, Snapshot zu verwenden, spielen Sie das [Snapshot-Schulungsvideo](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
 
 
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Das JPG- oder das PNG-Format ist die beste Wahl, um Bilder in akzeptabler Qualität und handlicher Größe und Dateigröße bereitzustellen.
-* Wenn in der URL kein Formatbefehl angegeben ist, wird beim Dynamic Media Image Serving standardmäßig JPG für die Bereitstellung verwendet.
+* Wenn in der URL kein Formatbefehl angegeben ist, wird Dynamic Media Image Serving standardmäßig zur Bereitstellung auf JPG.
 * JPG-Dateien werden in einem Verhältnis von 10:1 komprimiert und produzieren so in der Regel kleinere Bilddateigrößen. PNG komprimiert im Verhältnis von etwa 2:1, es sei denn, Bilder enthalten manchmal einen leeren Hintergrund. Dennoch lässt sich sagen, dass PNG-Dateien grundsätzlich größer sind als JPG-Dateien.
 * JPG verwendet eine verlustbehaftete Komprimierung. Dies bedeutet, dass Bildelemente (Pixel) bei der Komprimierung verworfen werden. Im Gegensatz dazu verwendet PNG eine verlustfreie Komprimierung.
 * JPG komprimiert Fotografien häufig mit einer höheren Genauigkeit als künstliche Bilder mit scharfen Kanten und hohem Kontrast.
 * Wenn die Bilder transparente Anteile enthalten, sollte das PNG-Format verwendet werden, da JPG keine Transparenz unterstützt.
 
-Als Best Practice für das Bildformat wird empfohlen, mit der gängigsten Einstellung zu beginnen `&fmt=JPG`.
+Als Best Practice für das Bildformat wird empfohlen, mit der gängigsten Einstellung `&fmt=JPG` zu beginnen.
 
 ## Empfohlene Verfahren für die Bildgröße {#best-practices-for-image-size}
 
 Die dynamische Reduzierung der Bildgröße ist eine der häufigsten Aufgaben, die Dynamic Media Image Serving durchführt. Sie umfasst die Angabe der Größe und, optional, welcher Modus zur Verringerung der Abtastrate (Downsampling) zum Herunterskalieren verwendet werden soll.
 
-* Für die Bildskalierung ist der beste und einfachste Ansatz die Verwendung von `&wid=<value>` und `&hei=<value>` oder einfach `&hei=<value>`. Diese Parameter legen die Bildbreite automatisch in der Übereinstimmung mit dem Seitenverhältnis fest.
-* `&resMode=<value>` steuert den Algorithmus für das Downsampling. Beginnen mit `&resMode=sharp2`. Dieser Wert bietet die beste Bildqualität. Bei Verwendung des Downsampling-Werts `=bilin` schneller ist, führt dies oft zum Aliasing von Artefakten.
+* Für die Bildgröße ist der beste und einfachste Ansatz die Verwendung von `&wid=<value>` und `&hei=<value>` oder einfach nur `&hei=<value>`. Diese Parameter legen die Bildbreite automatisch in der Übereinstimmung mit dem Seitenverhältnis fest.
+* `&resMode=<value>` steuert den Algorithmus für das Downsampling. Beginnen Sie mit `&resMode=sharp2`. Dieser Wert bietet die beste Bildqualität. Der Downsampling-Wert `=bilin` ist zwar schneller, führt aber oft zum Aliasing von Artefakten.
 
-Verwenden Sie als Best Practice für die Bildskalierung `&wid=<value>&hei=<value>&resMode=sharp2` oder `&hei=<value>&resMode=sharp2`
+Verwenden Sie als Best Practice für die Bildgröße `&wid=<value>&hei=<value>&resMode=sharp2` oder `&hei=<value>&resMode=sharp2`
 
 ## Empfohlene Verfahren für das Scharfzeichnen von Bildern {#best-practices-for-image-sharpening}
 
 Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bildern für Ihre Website. Hier werden auch die meisten Fehler begangen. Nehmen Sie sich die Zeit, um mehr über die Funktionsweise von Scharfzeichnen und Unschärfemaske in Adobe Dynamic Media Classic zu erfahren, indem Sie auf die folgenden hilfreichen Ressourcen verweisen:
 
-Whitepaper zu Best Practices [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image Server](/help/using/assets/s7_sharpening_images.pdf).
+Whitepaper zu Best Practices [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und Image-Server](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -70,23 +70,23 @@ Mit Adobe Dynamic Media Classic können Sie Bilder bei der Aufnahme, bei der Ber
 
 Es gibt zwei Methoden zum Scharfzeichnen von Bildern, die Sie verwenden können:
 
-* Einfache Scharfzeichnung ( `&op_sharpen`): Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wendet die einfache Scharfzeichnung die einfache Scharfzeichnung auf die endgültige Ansicht des Bildes nach der dynamischen Skalierung an. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Die Best Practice besteht darin, die Verwendung von `&op_sharpen` sofern nicht erforderlich.
-* Unschärfemaske ( `&op_USM`): Die Unschärfemaske ist ein branchenüblicher Filter für die Scharfzeichnung. Wir empfehlen, beim Scharfzeichnen von Bilder mit der Unschärfemaske die folgenden Richtlinien zu beachten. Mit der Unschärfemaske können Sie die folgenden drei Parameter steuern:
+* Einfache Scharfzeichnung ( `&op_sharpen`): Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wendet die einfache Scharfzeichnung die einfache Scharfzeichnung auf die endgültige Ansicht des Bildes nach der dynamischen Skalierung an. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Es empfiehlt sich, die Verwendung von `&op_sharpen` zu vermeiden, sofern dies nicht erforderlich ist.
+* Unschärfemaske ( `&op_USM`): Die Unschärfemaske ist ein Filter nach Industriestandard für die Scharfzeichnung. Wir empfehlen, beim Scharfzeichnen von Bilder mit der Unschärfemaske die folgenden Richtlinien zu beachten. Mit der Unschärfemaske können Sie die folgenden drei Parameter steuern:
 
    * `&op_sharpen=amount,radius,threshold`
 
-      * `amount` (0-5, Stärke des Effekts.)
+      * `amount` (0-5, Stärke des Effekts)
       * `radius` (0-250, Breite der &quot;Scharfzeichnungslinien&quot;um das scharfgezeichnete Objekt, gemessen in Pixel.)
 
-        Beachten Sie, dass die Parameter `radius` und `amount` arbeiten gegeneinander. Reduzieren `radius` kann durch eine `amount`. `Radius` ermöglicht eine genauere Kontrolle, da mit einem niedrigeren Wert nur die Kantenpixel scharfgezeichnet werden, während mit einem höheren Wert mehr Pixel scharfgezeichnet werden.
+        Beachten Sie, dass die Parameter `radius` und `amount` gegeneinander arbeiten. Eine Reduzierung von `radius` kann durch eine Erhöhung von `amount` kompensiert werden. Mit `Radius` können Sie präziser steuern, da mit einem niedrigeren Wert nur die Kantenpixel scharfgezeichnet werden, während mit einem höheren Wert mehr Pixel scharfgezeichnet werden.
 
-      * `threshold` (0-255, Empfindlichkeit der Wirkung.)
+      * `threshold` (0-255, Empfindlichkeit der Wirkung)
 
         Dieser Parameter legt fest, wie stark sich die scharfgezeichneten Pixel von dem sie umgebenden Bereich unterscheiden müssen, damit sie als Kantenpixel erkannt und vom Filter scharfgezeichnet werden. Der Schwellenwert hilft dabei, das übermäßige Scharfzeichnen von Bereichen mit ähnlichen Farben zu vermeiden, z. B. bei Hauttönen. Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um kein &quot;Rauschen&quot;zu erzeugen, trotzdem wird kontrastreichen Bereichen Kantenkontrast hinzugefügt, z. B. wo Wimpern auf die Haut treffen.
 
-        Weitere Informationen zum Festlegen dieser drei Parameter, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image Server](/help/using/assets/s7_sharpening_images.pdf).
+        Weitere Informationen dazu, wie Sie diese drei Parameter festlegen, einschließlich Best Practices für die Verwendung mit dem Filter, finden Sie unter [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image-Server](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Mit Adobe Dynamic Media Classic können Sie auch einen vierten Parameter steuern: monochrome ( `0,1`). Dieser Parameter bestimmt mithilfe des Werts, ob die Unschärfemaske auf jede Farbkomponente separat angewendet wird. `0` oder der Bildhelligkeit/-intensität unter Verwendung des Werts `1`.
+      * Mit Adobe Dynamic Media Classic können Sie auch einen vierten Parameter steuern: monochrome ( `0,1`). Dieser Parameter bestimmt, ob die Unschärfemaske auf jede Farbkomponente separat mit dem Wert `0` oder auf die Bildhelligkeit/-intensität mit dem Wert `1` angewendet wird.
 
 Wir empfehlen, mit dem Parameter „Radius“ der Unschärfemaske zu beginnen. Sie können beispielsweise mit den folgenden Radius-Einstellungen beginnen:
 
@@ -102,24 +102,24 @@ Lassen Sie die Parametereinstellung „Monochrom“ auf 0.
 ## Best Practices für die JPEG-Komprimierung (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Dieser Parameter steuert die Qualität der JPG-Kodierung. Ein höherer Wert bedeutet eine höhere Bildqualität, jedoch auch eine größere Datei; entsprechend bedeutet ein niedrigerer Wert eine geringere Bildqualität, aber eine kleinere Dateigröße. Der Bereich für diesen Parameter ist 0 bis 100.
-* Setzen Sie den Wert zur Optimierung der Qualität nicht auf 100. Der Unterschied zwischen einer Einstellung von 90 oder 95 und 100 ist fast unwahrnehmbar. Dennoch erhöht 100 unnötigerweise die Größe der Bilddatei. Um die Qualität zu optimieren, aber zu vermeiden, dass Bilddateien zu groß werden, legen Sie daher die `qlt=` auf 90 oder 95.
-* Um eine kleine Bilddateigröße zu optimieren, aber die Bildqualität auf einem akzeptablen Niveau zu halten, legen Sie die `qlt=` auf 80. Werte unter 70 bis 75 führen zu einer deutlichen Verschlechterung der Bildqualität.
-* Als Best Practice wird empfohlen, in der Mitte zu bleiben, indem Sie die `qlt=` auf 85 zu setzen, um in der Mitte zu bleiben.
-* Verwenden der Chroma-Markierung in `qlt=`
+* Setzen Sie den Wert zur Optimierung der Qualität nicht auf 100. Der Unterschied zwischen einer Einstellung von 90 oder 95 und 100 ist fast unwahrnehmbar. Dennoch erhöht 100 unnötigerweise die Größe der Bilddatei. Um die Qualität zu optimieren, aber zu vermeiden, dass Bilddateien zu groß werden, setzen Sie daher den `qlt=` -Wert auf 90 oder 95.
+* Um eine kleine Bilddateigröße zu optimieren, aber die Bildqualität auf einem akzeptablen Niveau zu halten, setzen Sie den `qlt=` -Wert auf 80. Werte unter 70 bis 75 führen zu einer deutlichen Verschlechterung der Bildqualität.
+* Als Best Practice wird empfohlen, den `qlt=` -Wert auf 85 festzulegen, damit er in der Mitte bleibt.
+* Verwenden des Chroma-Flag in `qlt=`
 
-   * Die `qlt=` verfügt über eine zweite Einstellung, mit der Sie das RGB-Chromatizitäts-Downsampling aktivieren können, indem Sie den Normalwert verwenden `,0` (Standard) oder deaktivieren Sie sie mit dem Wert `,1`.
-   * Um dies zu vereinfachen, starten Sie mit ausgeschaltetem RGB-Chromatizitäts-Downsampling ( `,1`). Diese Einstellung führt in der Regel zu einer besseren Bildqualität, insbesondere bei künstlichen Bilder mit vielen scharfen Kanten und hohem Kontrast.
+   * Der Parameter `qlt=` verfügt über eine zweite Einstellung, mit der Sie das RGB Chromatizitäts-Downsampling mit dem Normalwert `,0` aktivieren (Standard) oder mit dem Wert `,1` deaktivieren können.
+   * Um dies zu vereinfachen, starten Sie mit ausgeschaltetem RGB Chromatizitäts-Downsampling ( `,1`). Diese Einstellung führt in der Regel zu einer besseren Bildqualität, insbesondere bei künstlichen Bilder mit vielen scharfen Kanten und hohem Kontrast.
 
-Verwenden Sie als Best Practice für die JPG-Komprimierung `&qlt=85,0`.
+Verwenden Sie als Best Practice für JPG-Komprimierung `&qlt=85,0`.
 
 ## Empfohlene Verfahren für die JPEG-Größenanpassung (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 Der Parameter `jpegSize` ist nützlich, wenn Sie sicherstellen möchten, dass ein Bild eine bestimmte Größe für die Bereitstellung auf Geräten mit begrenztem Speicher nicht überschreitet.
 
-* Dieser Parameter wird in Kilobyte festgelegt ( `jpegSize=<size_in_kilobytes>`). Er legt die maximal zulässige Größe für Bildbereitstellung fest.
-* `&jpegSize=` interagiert mit dem JPG-Komprimierungsparameter `&qlt=`. Wenn die JPG-Antwort mit dem angegebenen JPG-Komprimierungsparameter ( `&qlt=`) überschreitet nicht den Wert `jpegSize` -Wert, wird das Bild mit `&qlt=` wie definiert. Andernfalls `&qlt=` wird schrittweise reduziert, bis das Bild der maximal zulässigen Größe entspricht. Oder, bis das System feststellt, dass die Anpassung nicht möglich ist, und einen Fehler zurückgibt.
+* Dieser Parameter wird in Kilobyte ( `jpegSize=<size_in_kilobytes>`) festgelegt. Er legt die maximal zulässige Größe für Bildbereitstellung fest.
+* `&jpegSize=` interagiert mit dem JPG-Komprimierungsparameter `&qlt=`. Wenn die JPG-Antwort mit dem angegebenen JPG-Komprimierungsparameter ( `&qlt=`) den `jpegSize` -Wert nicht überschreitet, wird das Bild mit dem definierten Wert `&qlt=` zurückgegeben. Andernfalls wird `&qlt=` schrittweise reduziert, bis das Bild der maximal zulässigen Größe entspricht. Oder, bis das System feststellt, dass die Anpassung nicht möglich ist, und einen Fehler zurückgibt.
 
-Als Best Practice gilt Folgendes: `&jpegSize=` und fügen Sie den Parameter hinzu `&qlt=` wenn Sie JPG-Bilder an Geräte mit begrenztem Speicher bereitstellen.
+Legen Sie als Best Practice `&jpegSize=` fest und fügen Sie den Parameter `&qlt=` hinzu, wenn Sie JPG Bilder an Geräte mit begrenztem Speicher bereitstellen.
 
 ## Zusammenfassung der empfohlenen Verfahren {#best-practices-summary}
 
@@ -136,5 +136,5 @@ Wenn die gewünschten Ergebnisse für das Scharfzeichnen noch nicht erreicht wur
 Beim Experimentieren sind die folgenden allgemeinen Vorschläge zur Optimierung Ihres Workflows hilfreich:
 
 * Testen Sie verschiedene Parameter in Echtzeit, entweder direkt über eine URL oder mithilfe der Bildanpassungsfunktion von Adobe Dynamic Media Classic. Letztere bietet eine Echtzeitvorschau für Anpassungsvorgänge.
-* Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. Eine Bildvorgabe besteht im Wesentlichen aus URL-Befehlsmakros mit benutzerdefinierten Vorgabenamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabenname in einem URL-Pfad ruft diese Vorgaben auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
+* Denken Sie daran, dass Sie Dynamic Media Image Serving-Befehle zu einer Bildvorgabe gruppieren können. Eine Bildvorgabe ist im Wesentlichen URL-Befehlsmakros mit benutzerdefinierten Vorgabenamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabenname in einem URL-Pfad ruft diese Vorgaben auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
 * Adobe Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zum Optimieren der Bildqualität, z. B. das Anwenden von Bildschärfe bei der Aufnahme. Für erweiterte Anwendungsfälle, in denen eine weitere Optimierung und Optimierung der gerenderten Ergebnisse eine Option ist, kann Adobe Professional Services Ihnen mit benutzerdefinierten Einblicken und Best Practices helfen.

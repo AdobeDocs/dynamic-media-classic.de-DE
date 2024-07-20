@@ -21,9 +21,9 @@ ht-degree: 28%
 
 Mit der Viewer-Liste können Sie eine Vorschau eines Assets auf einer bestimmten Viewer-Plattform wie HTML5 anzeigen. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar. 
 
-Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_viewers).
+Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_default_viewers).
 
-Siehe [Asset-Vorschau](previewing-asset.md#previewing_an_asset).
+Siehe [Vorschau eines Assets anzeigen](previewing-asset.md#previewing_an_asset).
 
 **So zeigen Sie die Vorschau eines Rotationssets an:**
 
@@ -31,13 +31,13 @@ Siehe [Asset-Vorschau](previewing-asset.md#previewing_an_asset).
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Rotationsset enthält, das Sie mit einem Viewer in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Navigieren Sie im Asset-Fenster unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Listenansicht]**. Wählen Sie im Fenster &quot;Asset&quot;ein Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-   * Wählen Sie über dem Fenster &quot;Assets&quot;auf der rechten Seite der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Navigieren Sie im Asset-Fenster unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus. Wechseln Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
 1. Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Tabelle einen Viewer-Link aus, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
 1. Schließen Sie den angezeigten Viewer.
-1. Wählen Sie in der rechten unteren Ecke des Fensters &quot;Viewer-Liste&quot;die Option **[!UICONTROL Schließen]** , um zum Bildschirm Assets zurückzukehren.
+1. Wählen Sie rechts unten im Fenster &quot;Viewer-Liste&quot;die Option **[!UICONTROL Schließen]** aus, um zum Assets-Bildschirm zurückzukehren.
 
 >[!MORELIKETHIS]
 >

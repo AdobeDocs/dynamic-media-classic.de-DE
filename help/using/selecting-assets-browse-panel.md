@@ -23,8 +23,8 @@ Wählen Sie ein Asset im Bedienfeld &quot;Durchsuchen&quot;aus, damit Sie es bea
 
 * **Ein einzelnes Asset**: Wählen Sie das Asset aus (durch Doppelklicken wird das Asset in der Detailansicht geöffnet).
 
-* **Mehrere Assets**: Klicken Sie bei gedrückter Strg- (Windows®) bzw. Befehlstaste (Mac) auf Assets, um Assets an verschiedenen Stellen im Bedienfeld &quot;Durchsuchen&quot;auszuwählen. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
+* **Mehrere Assets**: Strg+Klicken (Windows®) oder Befehlstaste+Klicken (Mac) zum Auswählen von Assets an verschiedenen Stellen im Bedienfeld &quot;Durchsuchen&quot;. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
 
-* **Alle Assets im Bedienfeld &quot;Durchsuchen&quot;**: Gehen Sie zu **[!UICONTROL Auswählen]** > **[!UICONTROL Alle]**.
+* **Alle Assets im Bedienfeld &quot;Durchsuchen&quot;**: Wechseln Sie zu **[!UICONTROL Select]** > **[!UICONTROL All]**.
 
-* **Keine Assets**: Gehen Sie zu **[!UICONTROL Auswählen]** > **[!UICONTROL Keines]**.
+* **Kein Asset**: Gehen Sie zu **[!UICONTROL Select]** > **[!UICONTROL None]**.

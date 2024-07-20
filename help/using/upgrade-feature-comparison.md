@@ -1,6 +1,6 @@
 ---
 title: Funktionsvergleich
-description: Tabelle mit Funktionsvergleichen [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets und [!DNL Adobe Dynamic Media Classic] Desktop-Applikation.
+description: Tabelle mit Funktionsvergleichen zwischen [!DNL Dynamic Media] in  [!DNL Adobe Experience Manager] Assets und [!DNL Adobe Dynamic Media Classic] Desktop-Programm.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Funktionsvergleich
 
-Eine Tabelle zum Funktionsvergleich zwischen [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets und [!DNL Adobe Dynamic Media Classic] Desktop-Applikation. Ein &quot;✓&quot;bedeutet, dass die Funktion in oder mit der Software verfügbar ist; ein &quot;-&quot;bedeutet, dass dies nicht der Fall ist.
+Eine Tabelle zum Funktionsvergleich zwischen [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Assets und der [!DNL Adobe Dynamic Media Classic] Desktop-Applikation. Ein &quot;✓&quot;bedeutet, dass die Funktion in oder mit der Software verfügbar ist; ein &quot;-&quot;bedeutet, dass dies nicht der Fall ist.
 
 | Funktion | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Classic] |
 | :--- | :---: | :---: |
@@ -35,16 +35,16 @@ Eine Tabelle zum Funktionsvergleich zwischen [!DNL Dynamic Media] in [!DNL Adobe
 | Sichere Vorschau | ✓ | ✓ |
 | Sets (Bild, Rotation, gemischte Medien) | ✓<br>*Keine Multiachsen-Rotation* | ✓ |
 | Intelligente Bildbearbeitung | ✓ | ✓ |
-| Bereitstellung statischer Inhalte<br>(PDF, GIT usw.) | ✓ | ✓ |
+| Statische Inhaltsbereitstellung<br> (PDF, GIT usw.) | ✓ | ✓ |
 | Videobereitstellung (adaptiv) | ✓ | ✓ |
 | Videokodierung | ✓ | ✓ |
 | Zugänglichkeit des Viewers | ✓ | ✓ |
 | Viewer-Integration mit Analytics | ✓ | ✓ |
 | 1:1-Vorlagen | ✓<br>*Personalisiertes Medienbundle* | ✓ |
-| Visual Configurator<br>(Produktpersonalisierung) | ✓<br>*Personalisiertes Medienbundle* | ✓ |
+| Visual Configurator<br> (Produktpersonalisierung) | ✓<br>*Personalisiertes Medienbundle* | ✓ |
 | 3D: Experience Manager Sites<br>WCM-Komponente | ✓ | : |
 | 3D: Interaktiver Experience Viewer | ✓ | : |
-| 3D: Veröffentlichen von AR/VR- und 3D-Hauptdateien | ✓ | : |
+| 3D: Publish AR/VR und 3D-Hauptdateien | ✓ | : |
 | Karussells | ✓ | : |
 | Shop-fähige/interaktive Medien: Bilder | ✓ | : |
 | Shoppable/Interactive Media: Video | ✓ | : |

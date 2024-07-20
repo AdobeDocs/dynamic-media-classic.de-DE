@@ -25,15 +25,15 @@ Stellen Sie vor der Verwendung des Adobe Dynamic Media Classic-Desktop-Programms
 
 * **Benutzername**: Sie verwenden Ihre E-Mail-Adresse als Ihren Anmeldenamen.
 
-* **Passwort**: Sie erhalten Ihr temporäres Kennwort in einer Begrüßungs-E-Mail von Adobe Dynamic Media Classic oder Ihrem Adobe Dynamic Media Classic-Administrator. Bei der ersten Anmeldung werden Sie dazu aufgefordert, dieses temporäre Kennwort zu ändern.
+* **Kennwort**: Sie erhalten Ihr temporäres Kennwort in einer &quot;Begrüßungs&quot;-E-Mail von Adobe Dynamic Media Classic oder Ihrem Adobe Dynamic Media Classic-Administrator. Bei der ersten Anmeldung werden Sie dazu aufgefordert, dieses temporäre Kennwort zu ändern.
 
 1. Öffnen Sie das Adobe Dynamic Media Classic-Desktop-Programm.
 
    ![Adobe Dynamic Media Classic-Anmeldung](/help/using/assets/dmclassic-login1.png)
 
-1. Im **[!UICONTROL Benutzername]** geben Sie Ihre E-Mail Adresse ein.
-1. Im **[!UICONTROL Passwort]** ein, geben Sie das Kennwort ein.
-1. Im **[!UICONTROL Server]** aus, wählen Sie einen Server aus.
+1. Geben Sie im Feld **[!UICONTROL Benutzername]** Ihre E-Mail-Adresse ein.
+1. Geben Sie im Feld **[!UICONTROL Kennwort]** das Kennwort ein.
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Server]** einen Server aus.
 Verwenden Sie die folgende Zuordnung, um die Produktionsumgebung auszuwählen, die Sie verwenden möchten.
 
    | Browser-URL | Server-Name des Desktop-Programms |
@@ -42,11 +42,11 @@ Verwenden Sie die folgende Zuordnung, um die Produktionsumgebung auszuwählen, d
    | https://s7sps3.scene7.com/ | Produktion von EMEA (Europa, Naher Osten und Afrika) |
    | https://s7sps5.scene7.com/ | APAC-Produktion (Asien-Pazifik) |
 
-1. Auswählen **[!UICONTROL Anmelden]**.
+1. Wählen Sie **[!UICONTROL Anmelden]** aus.
 
 ## Abmelden von Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. Wählen Sie in der rechten oberen Ecke des Adobe Dynamic Media Classic-Desktop-Programms die Option **[!UICONTROL Abmelden]** und wählen Sie **[!UICONTROL Abmelden]** erneut.
+1. Wählen Sie oben rechts in der Adobe Dynamic Media Classic-Desktop-Applikation **[!UICONTROL Abmelden]** und dann erneut **[!UICONTROL Abmelden]** aus.
 
 >[!MORELIKETHIS]
 >

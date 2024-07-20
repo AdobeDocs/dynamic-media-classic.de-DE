@@ -31,5 +31,5 @@ Um das bestmögliche Erlebnis mit dem Adobe Dynamic Media Classic-Desktop-Progra
 
 >[!MORELIKETHIS]
 >
->* [Einschränkungen bei Dynamic Media](/help/using/limitations.md)
+>* [Dynamic Media-Einschränkungen](/help/using/limitations.md)
 

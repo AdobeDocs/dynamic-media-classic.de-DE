@@ -25,7 +25,7 @@ Dynamic Media Classic bietet Schulungen in Form von Videoschulungen, Workshops, 
 
 Adobe Training Services bietet umfassende und benutzerspezifische Präsenzschulungen für Ihr Unternehmen. Die Schulung kann in Form regionaler Schulungskurse, webbasierter Sitzungen oder benutzerdefinierter Onsite-Workshops durchgeführt werden. Regionale Kurse können von allen Kunden in Anspruch genommen werden. Sie werden regelmäßig an verschiedenen Orten in Nordamerika und EMEA angeboten. Benutzerdefinierte Sitzungen können speziell auf bestimmte Gruppen abgestimmt werden, etwa auf Anwender mit unterschiedlichem Kenntnisstand (von Einsteigern bis hin zu Fortgeschrittenen), Endbenutzer, Administratoren oder IT-Mitarbeiter. 
 
-Siehe [Adobe-Schulungsdienste](https://learning.adobe.com/)
+Siehe [Adobe Training Services](https://learning.adobe.com/) .
 
 ## Demos
 

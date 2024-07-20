@@ -31,14 +31,14 @@ Wenn Sie ein Unternehmensadministrator sind, können Sie eigene Bildvorgaben ers
 
 **So erstellen Sie eine Bildvorgabe:**
 
-1. Navigieren Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Bildvorgaben]**.
+1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Bildvorgaben]**.
 
    Hier können Sie den Namen einer Bildvorgabe auswählen, um die Vorschau einer vorhandenen Bildvorgabe einzublenden. Sobald Sie den Namen einer Bildvorgabe auswählen, ändern sich Größe und Aussehen des Beispielbilds im Vorschaufenster.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Erstellen einer Bildvorgabe**: Auswählen **[!UICONTROL Hinzufügen]**.
-   * **Bearbeiten einer Bildvorgabe**: Navigieren Sie zu der Bildvorgabe, die der gewünschten am ähnlichsten ist, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
+   * **Erstellen einer Bildvorgabe**: Wählen Sie **[!UICONTROL Hinzufügen]** aus.
+   * **Eine Bildvorgabe bearbeiten**: Durchsuchen Sie die Bildvorgabe, die der Bildvorgabe am ehesten entspricht, die Sie erstellen möchten, und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
 1. Geben Sie einen Namen für die Bildvorgabe ein.
 1. Geben Sie die Breite und Höhe in Pixeln ein. Diese Werte bestimmen die Größe, in der Bilder bereitgestellt werden.
@@ -48,9 +48,9 @@ Wenn Sie ein Unternehmensadministrator sind, können Sie eigene Bildvorgaben ers
 
    * **[!UICONTROL Format]**: Wählen Sie JPEG oder ein anderes Format, das Ihren Anforderungen entspricht. Alle Webbrowser unterstützen das JPEG-Bildformat. Es bietet einen guten Ausgleich zwischen kleinen Dateigrößen und Bildqualität. JPEG-Bilder verwenden jedoch ein verlustbehaftetes Komprimierungsschema, das unerwünschte Bildartefakte hervorrufen kann, wenn die Komprimierungseinstellung zu niedrig ist. Aus diesem Grund empfiehlt Adobe Dynamic Media Classic, die Komprimierungsqualität (auf dem Regler) auf 75 festzulegen. Mit dieser Einstellung erreichen Sie eine angemessene Bildqualität bei ausreichend kleiner Dateigröße.
 
-   * **[!UICONTROL Scharfzeichnen]**: Wählen Sie Scharfzeichnen nicht aus (dieser Scharfzeichnungsfilter bietet weniger Kontrolle als **[!UICONTROL Unschärfemaske]** -Einstellungen).
+   * **[!UICONTROL Scharfzeichnen]**: Wählen Sie &quot;Scharfzeichnen&quot;nicht aus (dieser Scharfzeichnungsfilter bietet weniger Kontrolle als die Einstellungen für **[!UICONTROL Unschärfemaske]**).
 
-   * **[!UICONTROL Beispielmodus]**: Auswählen **[!UICONTROL Bikubisch]**.
+   * **[!UICONTROL Resample Mode]**: Wählen Sie **[!UICONTROL Bikubisch]**.
 
    * **[!UICONTROL Unschärfemaske]** (USM): Geben Sie die folgenden Einstellungen ein:
 
@@ -61,20 +61,20 @@ Wenn Sie ein Unternehmensadministrator sind, können Sie eigene Bildvorgaben ers
    | Hauptansicht | 350 × 350 | 1 | 1 | 6 |
    | Vergrößerung | 500 × 500 | 1,2 | 1,2 | 5 |
 
-1. Auswählen **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 Die hier aufgeführten Adobe Dynamic Media Classic-Best Practice-Optionen zum Erstellen von Bildvorgaben sind allgemeine Empfehlungen. Die Scharfzeichnung ist äußerst subjektiv. Diese &quot;Best Practice&quot;-Einstellungen basieren auf einem Primärbild von 2000 × 2000. Die Einstellungen für größere oder kleinere Primärdateien können unterschiedlich sein. Wenn Sie die Einstellungen für die Unschärfemaske anpassen möchten, empfiehlt Adobe Dynamic Media Classic die folgenden Bereiche:
 
-* **[!UICONTROL Betrag]**: Between `.8` und `1.5`.
+* **[!UICONTROL Betrag]**: Zwischen `.8` und `1.5`.
 
-* **[!UICONTROL Radius]**: Between `.6` und `2`.
+* **[!UICONTROL Radius]**: Zwischen `.6` und `2`.
 
 * **[!UICONTROL Schwellenwert]**: Von `1` bis `6`.
 
-Um eine Bildvorgabe zu löschen, wählen Sie sie auf dem Bildschirm &quot;Bildvorgaben&quot;aus und wählen Sie dann **[!UICONTROL Löschen]**.
+Um eine Bildvorgabe zu löschen, wählen Sie sie auf dem Bildschirm &quot;Bildvorgaben&quot;aus und wählen Sie dann **[!UICONTROL Löschen]** aus.
 
 >[!MORELIKETHIS]
 >
 >* [Erstellen und Bearbeiten von Bildvorgaben](application-setup.md#creating_and_editing_image_presets)
 >* [Optionen für Bildvorgaben](application-setup.md#image_preset_options)
->* [Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+>* [Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe anzeigen](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)

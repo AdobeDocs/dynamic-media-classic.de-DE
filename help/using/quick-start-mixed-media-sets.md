@@ -29,7 +29,7 @@ Dieser Schnellstart für gemischte Mediensets wurde entwickelt, um Sie schnell m
 
 Laden Sie zunächst die Bilder, Musterdateien und Videos für Ihre gemischten Mediensets hoch. Da Benutzer Bilder im Viewer für gemischte Mediensets einzoomen können, achten Sie bei der Auswahl von Bildern auf diese Möglichkeit. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2000 Pixel hat.
 
-Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** , um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen.
+Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Hochladen]** aus, um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen.
 
 Siehe [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
@@ -37,11 +37,11 @@ Siehe [Hochladen der Dateien](uploading-files.md#uploading-your-files).
 
 Sie können Ihrem gemischten Medienset Bilder, Bildsets, Mustersets, Rotationssets und Videos hinzufügen. Bereiten Sie die Mediensets vor, bevor Sie sie zum gemischten Medienset hinzufügen.
 
-Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set), und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
+Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines Mustersets](creating-swatch-set.md#creating-a-swatch-set) und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Erstellen eines gemischten Mediensets
 
-Wechseln Sie in der Symbolleiste für globale Navigation zu **[!UICONTROL Build]** > **[!UICONTROL Gemischte Mediensets]**. Ziehen Sie die Bilder, Mustersets, Bildsets und Videos auf die Seite Gemischtes Medienset . Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“. 
+Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Build]** > **[!UICONTROL Gemischte Mediensets]**. Ziehen Sie die Bilder, Mustersets, Bildsets und Videos auf die Seite Gemischtes Medienset . Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“. 
 
 Siehe [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
@@ -53,24 +53,24 @@ Fügen Sie beim Einrichten einer Viewer-Vorgabe für gemischte Mediensets die Vi
 
 Siehe [Einrichten einer Viewer-Vorgabe für gemischte Mediensets](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) und [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
-Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch Schulungsvideo zu [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) .
 
 ## 5. Vorschau eines gemischten Mediensets
 
-Wählen Sie das gemischte Medienset aus **[!UICONTROL Vorschau]** Schaltfläche. Sie können die Miniaturansichten und Mustersymbole auswählen, um das gemischte Medienset im Viewer für gemischte Mediensets zu untersuchen. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen. 
+Wählen Sie die Schaltfläche **[!UICONTROL Vorschau]** des gemischten Mediensets aus. Sie können die Miniaturansichten und Mustersymbole auswählen, um das gemischte Medienset im Viewer für gemischte Mediensets zu untersuchen. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen. 
 
-Siehe [Asset-Vorschau](previewing-asset.md#previewing-an-asset).
+Siehe [Vorschau eines Assets anzeigen](previewing-asset.md#previewing-an-asset).
 
-## 6. Veröffentlichen eines gemischten Mediensets
+## 6. Publish-Sets für gemischte Medien
 
 Beim Veröffentlichen eines gemischten Mediensets wird dieses auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
-Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Verwendung **Video-Server** um die tatsächlichen Videos zu veröffentlichen, die Sie zur Veröffentlichung markiert haben. Und Sie verwenden **Image-Server** , um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
+Gemischte Mediensets müssen sowohl auf dem **Video-Server** als auch auf dem **Image-Server** veröffentlicht werden. Verwenden Sie **Video-Server** , um die tatsächlichen Videos zu veröffentlichen, die Sie zur Veröffentlichung markiert haben. Außerdem verwenden Sie **Image-Server**, um verwandte Assets wie die Videominiaturen zu veröffentlichen und Informationen für adaptive Videosets festzulegen.
 
-Siehe [Veröffentlichen eines gemischten Mediensets](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+Siehe [Publish eines gemischten Mediensets](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
 ## 7. Verknüpfen eines gemischten Mediensets mit einer Webseite
 
 Adobe Dynamic Media Classic aktiviert URL-Aufrufe für gemischte Mediensets, nachdem Sie sie veröffentlicht haben. Sie können diese URLs von der Seite &quot;Vorschau&quot;kopieren.
 
-Wählen Sie das gemischte Medienset aus und klicken Sie auf **[!UICONTROL Vorschau]**. Wählen Sie auf der Seite &quot;Vorschau&quot;eine Viewer-Vorgabe für gemischte Mediensets aus und wählen Sie dann die **[!UICONTROL URL kopieren]**. Siehe [Verknüpfen von gemischten Mediensets mit Webseiten](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Wählen Sie das gemischte Medienset und dann **[!UICONTROL Vorschau]** aus. Wählen Sie auf der Seite &quot;Vorschau&quot;eine Viewer-Vorgabe für gemischte Mediensets und dann **[!UICONTROL URL kopieren]** aus. Siehe [Verknüpfen von gemischten Mediensets mit Webseiten](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

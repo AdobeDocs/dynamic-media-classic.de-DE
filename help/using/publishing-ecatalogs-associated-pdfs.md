@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichen von E-Katalogen und zugehörigen PDF
+title: Publish-E-Kataloge und zugehörige PDF
 description: Erfahren Sie, wie Sie E-Kataloge und zugehörige PDF aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 ---
 
-# Veröffentlichen von E-Katalogen und zugehörigen PDF{#publishing-ecatalogs-and-associated-pdfs}
+# Publish-E-Kataloge und zugehörige PDF{#publishing-ecatalogs-and-associated-pdfs}
 
 Beim Veröffentlichen werden der E-Katalog und die PDF auf Dynamic Media-Image-Servern platziert, damit sie Ihrer Website oder Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. Sie können diese URL-Zeichenfolge in Ihren HTML-Webseitencode einfügen.
 
@@ -27,14 +27,14 @@ Beim Veröffentlichen werden der E-Katalog und die PDF auf Dynamic Media-Image-S
 
 **So veröffentlichen Sie E-Kataloge und zugehörige PDF:**
 
-1. Wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Veröffentlichen]**.
-1. Wählen Sie im Bildschirm &quot;Publishing&quot;die Option **[!UICONTROL Einmalig]** oder wählen Sie **[!UICONTROL Wiederkehrend]**.
+1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]** aus.
+1. Wählen Sie im Bildschirm &quot;Veröffentlichung&quot;die Option **[!UICONTROL Einmalig]** oder wählen Sie **[!UICONTROL Wiederkehrend]** aus.
 1. (Optional) Geben Sie im Feld &quot;Auftragsname&quot;einen Namen für den Veröffentlichungsauftrag ein, behalten Sie jedoch den vordefinierten Datums- und Uhrzeittext bei.
 
-   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld &quot;Publishing&quot;die Option **[!UICONTROL Erweitert]**. Aus dem **[!UICONTROL Veröffentlichen]** Dropdown-Menü auswählen **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
+   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld &quot;Publishing&quot;die Option **[!UICONTROL Erweitert]** aus. Wählen Sie aus dem Dropdownmenü **[!UICONTROL Publish]** die Option **[!UICONTROL Vollständig mit Suchdaten]** aus. Diese Option ist standardmäßig aktiviert.
 
-1. Auswählen **[!UICONTROL Veröffentlichen senden]**.
+1. Wählen Sie **[!UICONTROL Publish übermitteln]** aus.
 
 >[!MORELIKETHIS]
 >
->* [Veröffentlichen von Dateien](publishing-files.md)
+>* [Publish-Dateien](publishing-files.md)
