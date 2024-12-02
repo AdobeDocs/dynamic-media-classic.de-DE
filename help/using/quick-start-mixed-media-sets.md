@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: gemischtes Medienset"
+title: 'Schnellstart: gemischtes Medienset'
 description: Eine Einführung und ein Schnellstart zu gemischten Mediensets, die Ihnen dabei helfen, in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
 contentOwner: Rick Brough
 content-type: reference

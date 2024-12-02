@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: E-Kataloge"
+title: 'Schnellstart: E-Kataloge'
 description: Eine Einführung in und ein Schnellstart für E-Kataloge, die Ihnen helfen, in Adobe Dynamic Media Classic schnell mit E-Katalog-Techniken umzugehen.
 contentOwner: Rick Brough
 content-type: reference

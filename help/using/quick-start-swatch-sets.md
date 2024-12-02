@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: Mustersets"
+title: 'Kurzanleitung: Mustersets'
 description: Eine Einführung und ein Schnellstart zum Musterset, damit Sie in Adobe Dynamic Media Classic schnell arbeiten können.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 

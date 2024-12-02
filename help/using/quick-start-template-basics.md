@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: Vorlagengrundlagen"
+title: 'Kurzanleitung: Vorlagen aus Grundelementen'
 description: Eine Einführung und ein Schnellstart zu den Vorlagengrundlagen , mit denen Sie schnell in Adobe Dynamic Media Classic arbeiten können.
 contentOwner: Rick Brough
 content-type: reference

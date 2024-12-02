@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: Bildgröße"
+title: 'Kurzanleitung: Bildgrößenänderung'
 description: Eine Einführung und ein Schnellstart zur Bildgröße, damit Sie in Adobe Dynamic Media Classic schnell mit den Bildgrößetechniken arbeiten können.
 contentOwner: Rick Brough
 content-type: reference

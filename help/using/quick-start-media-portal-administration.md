@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: Media Portal"
+title: 'Schnellstart: Media Portal'
 description: Eine Einführung in Media Portal und ein Schnellstart für Media Portal, die Ihnen helfen, die Media Portal-Techniken und -Administration in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
 contentOwner: Rick Brough
 content-type: reference

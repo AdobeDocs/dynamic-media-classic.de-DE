@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: Bildsets"
+title: 'Kurzanleitung: Bildsätze'
 description: Eine Einführung und ein Schnellstart zu Bildsets , die Ihnen helfen, die Bildset-Techniken in Adobe Dynamic Media Classic schnell einzurichten und auszuführen.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 

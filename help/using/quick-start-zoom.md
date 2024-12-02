@@ -1,5 +1,5 @@
 ---
-title: "Schnellstart: Zoom"
+title: 'Kurzanleitung: Zoom'
 description: Eine Einführung und ein Schnellstart zum Zoomen, um Ihnen den schnellen Einstieg zu ermöglichen.
 contentOwner: Rick Brough
 content-type: reference
