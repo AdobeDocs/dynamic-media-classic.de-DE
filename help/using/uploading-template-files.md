@@ -19,22 +19,22 @@ ht-degree: 32%
 
 # Hochladen von Vorlagendateien{#uploading-template-files}
 
-Laden Sie die für Ihre Vorlage benötigten Dateien in Adobe Dynamic Media Classic hoch, bevor Sie mit der Erstellung der Vorlage beginnen. Sie können Vorlagen aus einer Adobe® Photoshop®-PSD oder einer Bilddatei erstellen. Die Verwendung von TIFF- und PNG-Bildern wird empfohlen, da sie auch Transparenz zulassen.
+Laden Sie die Dateien, die Sie für Ihre Vorlage benötigen, in Adobe Dynamic Media Classic hoch, bevor Sie mit der Erstellung der Vorlage beginnen. Sie können Vorlagen von einer Adobe® Photoshop®-PSD oder einer Bilddatei erstellen. Die Verwendung von TIFF- und PNG-Bildern wird empfohlen, da sie auch Transparenz zulassen.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt die Verwendung transparenter TIFF- oder PSD-Bilder in Ihren Vorlagen in der exakten Größe, in der sie auf Ihrer Website angezeigt werden sollen. Wenn Sie die Vorlage veröffentlichen, rufen Sie das Bild mit einer Bildvorgabe auf, die ebenfalls dieselbe Größe hat. Durch Einhaltung der korrekten Abmessungen muss die Größe der Vorlage nicht angepasst werden (es ist also kein Resampling erforderlich).
+>Adobe Dynamic Media Classic empfiehlt, in Ihren Vorlagen transparente TIFF- oder PSD-Bilder in der exakten Größe zu verwenden, in der Sie sie auf Ihrer Website anzeigen möchten. Wenn Sie die Vorlage veröffentlichen, rufen Sie das Bild mit einer Bildvorgabe auf, die ebenfalls dieselbe Größe hat. Durch Einhaltung der korrekten Abmessungen muss die Größe der Vorlage nicht angepasst werden (es ist also kein Resampling erforderlich).
 
 Vorlagen können basierend auf Adobe Photoshop-PSD- oder Bilddateien erstellt werden. 
 
 Detaillierte Anweisungen zum Hochladen von Dateien finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files). Folgendes ist beim Hochladen von Vorlagendateien zu beachten:
 
-* Wenn Sie eine PSD-Datei hochladen, können Sie daraus eine Vorlage erstellen. Adobe Dynamic Media Classic erstellt für jede Ebene im PSD ein eigenes Bild. Wählen Sie im Dialogfeld &quot;Upload-Auftragsoptionen&quot;die Option **[!UICONTROL Photoshop-Optionen]** und dann **[!UICONTROL Ebenen beibehalten]** und **[!UICONTROL Vorlage erstellen]**. Wählen Sie dann eine Option aus der Dropdownliste **[!UICONTROL Ebenennamen]** aus, um die Bilder zu benennen, die Adobe Dynamic Media Classic aus Ebenen im PSD erstellt.
+* Wenn Sie eine PSD-Datei hochladen, können Sie daraus eine Vorlage erstellen. Adobe Dynamic Media Classic erstellt für jede Ebene im PSD ein eigenes Bild. Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL Photoshop-]** und wählen Sie **[!UICONTROL Ebenen beibehalten]** und **[!UICONTROL Vorlage erstellen]**. Wählen Sie dann eine Option aus der **[!UICONTROL Ebenenbenennung]** Dropdown-Liste, um die Bilder zu benennen, die Adobe Dynamic Media Classic aus Ebenen auf der PSD erstellt.
 Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
->* [Laden Sie Ihre Dateien hoch](uploading-files.md#uploading_your_files)
+>* [Dateien hochladen](uploading-files.md#uploading_your_files)
 >* [Arbeiten mit PSD-Dateien](psd-files.md#working_with_psd_files)

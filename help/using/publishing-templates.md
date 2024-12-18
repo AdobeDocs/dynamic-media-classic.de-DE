@@ -19,21 +19,21 @@ ht-degree: 11%
 
 # Veröffentlichen von Vorlagen{#publishing-templates}
 
-Durch das Veröffentlichen Ihrer Vorlage wird sie auf Dynamic Media-Image-Servern platziert, auf denen sie für Ihre Website und Anwendung verfügbar ist. Während des Veröffentlichungsvorgangs aktiviert Adobe Dynamic Media Classic die URLs, die Sie für Ihre Website und Anwendung benötigen.
+Durch das Veröffentlichen der Vorlage wird sie auf Dynamic Media-Bildservern abgelegt, wo sie für Ihre Website und Ihr Programm verfügbar ist. Während des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URLs, die Sie für Ihre Website und Ihr Programm benötigen.
 
 >[!NOTE]
 >
->Um eine Vorlage zu verwenden, veröffentlichen Sie den gesamten Inhalt, der bei ihrer Erstellung verwendet wurde, einschließlich der Schriftarten und Bilder. Wenn Sie nicht alle erforderlichen Dateien einschließen, wird beim Veröffentlichen eine Fehlermeldung angezeigt.
+>Um eine Vorlage zu verwenden, veröffentlichen Sie den gesamten Inhalt, der bei ihrer Erstellung verwendet wurde, einschließlich der Schriftarten und Bilder. Wenn Sie nicht alle erforderlichen Dateien einbeziehen, wird bei der Veröffentlichung eine Fehlermeldung angezeigt.
 
-## Markieren von Vorlagen zur Veröffentlichung {#marking-templates-for-publish}
+## Markieren von Vorlagen für die Veröffentlichung {#marking-templates-for-publish}
 
-Vorlagen und alle zugehörigen Supportdateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Servern platziert werden können. Sie können diese Elemente zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen das Symbol **[!UICONTROL Für Publish markieren]** auswählen.
+Vorlagen und alle zugehörigen Support-Dateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Servern platziert werden können. Sie können diese Elemente im Durchsuchen-Bedienfeld zur Veröffentlichung markieren, indem Sie das Symbol **[!UICONTROL Für Publish markieren]** auswählen.
 
-## Publish-Vorlage {#publishing-your-template}
+## Publish - Vorlage {#publishing-your-template}
 
-Um Vorlagen auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Publish]** und dann die Option **[!UICONTROL When]** aus. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **[!UICONTROL Publish übermitteln]** aus.
+Um Vorlagen auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]** und dann eine **[!UICONTROL Wenn]**-Option aus. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **[!UICONTROL Publish senden]** aus.
 
 >[!MORELIKETHIS]
 >
->* [Markieren von Assets zur Veröffentlichung](publishing-files.md#publish_after_uploading)
->* [Erstellen eines Veröffentlichungsauftrags](publishing-files.md#creating_a_publish_job)
+>* [Markieren von Assets für die Veröffentlichung](publishing-files.md#publish_after_uploading)
+>* [Veröffentlichungsauftrag erstellen](publishing-files.md#creating_a_publish_job)

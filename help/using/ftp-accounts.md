@@ -19,28 +19,28 @@ ht-degree: 52%
 
 # FTP-Konten verwalten{#managing-ftp-accounts}
 
-FTP-Konten können nur von Media Portal-Administratoren verwaltet werden. Darüber hinaus können nur Benutzer mit der Rolle &quot;*Media Portal-Mitarbeiter-Benutzer*&quot;oder &quot;*Media Portal-Mitarbeiter*&quot;digitale Assets hochladen.
+FTP-Konten können nur von Media Portal-Administratoren verwaltet werden. Darüber hinaus können nur Benutzer mit der Rolle *Medienportal-Mitwirkender-Benutzer* oder *Medienportal-Mitwirkender* digitale Assets hochladen.
 
 Denken Sie daran, dass Sie bestehende Media Portal-Benutzer über die Seite „Benutzerverwaltung“ in den Administrationseinstellungen aktivieren bzw. deaktivieren können.
 
-Siehe [Benutzer aktivieren oder deaktivieren](administration-setup.md#activating_or_deactivating_users).
+Siehe [Aktivieren oder Deaktivieren von ](administration-setup.md#activating_or_deactivating_users).
 
-1. Wechseln Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP-Konten]**.
+1. Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Medienportal]** > **[!UICONTROL FTP-Konten]**.
 1. Wählen Sie auf der Seite „FTP-Konto hinzufügen“ in der Dropdown-Liste „Benutzername für FTP-Konten“ einen Benutzer aus.
 
-   Wenn ein Benutzer nicht aufgeführt ist, müssen Sie ihn über die Administrationseinstellung als Media Portal-Administrator, Media Portal-Mitarbeiter-Benutzer oder Media Portal-Mitarbeiter hinzufügen. Nachdem Sie den Benutzer mit der entsprechenden Rolle hinzugefügt haben, ist der Benutzername in der Dropdown-Liste verfügbar.
+   Wenn ein Benutzer nicht aufgeführt ist, müssen Sie ihn über die Verwaltungseinrichtung als Medienportal-Administrator, als Medienportal-Mitwirkender-Benutzer oder als Medienportal-Mitwirkender hinzufügen. Nachdem Sie den Benutzer mit der entsprechenden Rolle hinzugefügt haben, ist der Benutzername in der Dropdown-Liste verfügbar.
 
-   Siehe [Hinzufügen eines Media Portal-Benutzers](adding-media-portal-users.md#adding_a_media_portal_user).
+   Siehe [Hinzufügen eines Medienportalbenutzers](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. Geben Sie in den Feldern „Kennwort“ und „Bestätigen“ das Kennwort für das FTP-Konto ein.
-1. Wählen Sie **[!UICONTROL Speichern]** aus, um das Konto der Tabelle &quot;Vorhandene Konten&quot;hinzuzufügen.
+1. Wählen Sie **[!UICONTROL Speichern]**, um das Konto zur Tabelle Vorhandene Konten hinzuzufügen.
 
    Um Medien-Assets hochzuladen, benötigen Sie den Benutzernamen für das FTP-Konto, der in der Tabelle „Vorhandene Konten“ aufgelistet ist, sowie das Kennwort, das dem Konto zugewiesen ist.
 
    Siehe [Dateien hochladen](uploading-files.md#uploading_files).
 
-## Vorhandenes FTP-Konto löschen {#deleting-an-existing-ftp-account}
+## Löschen eines vorhandenen FTP-Kontos {#deleting-an-existing-ftp-account}
 
-1. Wechseln Sie zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP-Konten]**.
+1. Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Medienportal]** > **[!UICONTROL FTP-Konten]**.
 1. Wählen Sie auf der Seite „FTP-Konto hinzufügen“ in der Tabelle „Vorhandene Konten“ das FTP-Konto aus, das Sie entfernen möchten.
 1. Wählen Sie **[!UICONTROL Löschen]** aus.

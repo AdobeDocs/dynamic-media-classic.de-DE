@@ -1,6 +1,6 @@
 ---
-title: Arbeiten mit Vignetten, Fensterverkleidungen und Kabinendateien
-description: Erfahren Sie, wie Sie mit Vignetten, Fensterbelägen und Kabinendateien in Adobe Dynamic Media Classic arbeiten.
+title: Arbeiten mit Vignetten, Fensterabdeckungen und Schrankdateien
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic mit Vignetten, Fensterabdeckungen und Schrankdateien arbeiten.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ---
 
-# Arbeiten mit Vignetten-, Fensterabdeckungs- und Kabinendateien{#working-with-vignette-window-covering-and-cabinet-files}
+# Arbeiten mit Vignette, Fensterabdeckung und Schrankdateien{#working-with-vignette-window-covering-and-cabinet-files}
 
-Benutzer des Adobe Dynamic Media Classic Image Authoring-Tools können *Vignetten (VNT-Dateien), Fensterbeläge (VNW-Dateien) und Cabinets (VNC-Dateien) verwenden.* Diese Dateien können nicht in Adobe Dynamic Media Classic erstellt oder bearbeitet werden.
+Benutzende des Adobe Dynamic Media Classic-Tools zur Bildbearbeitung können *verwenden)* (VNT-Dateien), Fensterabdeckungen (VNW-Dateien) und Schränke (VNC-Dateien). Diese Dateien können in Adobe Dynamic Media Classic nicht erstellt oder bearbeitet werden.
 
-Vignetten, Fensterbeläge und Schränke sind Bilder, die verfasst werden. Mit einem anderen Adobe Dynamic Media Classic-Programm namens Image Authoring maskieren Sie Objekte in einem Bild, damit Benutzer dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Zum Beispiel sehen die Benutzer ein mit verschiedenen Stoffen bestücktes Sofa, ein Fenster mit verschiedenen Fensterbehandlungen oder einen Schrank mit verschiedenen Holzarten.
+Vignetten, Fensterabdeckungen und Schränke sind Bilder, die erstellt werden. Mit einem anderen Adobe Dynamic Media Classic-Programm namens „Bildbearbeitung“ können Sie Objekte in einem Bild maskieren, damit Benutzende dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Die Benutzer sehen beispielsweise eine Couch, die mit verschiedenen Stoffen gepolstert ist, ein Fenster, das mit verschiedenen Fensterbehandlungen verziert ist, oder einen Schrank, der mit verschiedenen Holzarten ausgestattet ist.
 
-Laden Sie Vignetten, Fensterbeläge und Schränke wie jede andere Datei hoch.
+Laden Sie Vignetten, Fensterabdeckungen und Schränke wie jede andere Datei hoch.
 
 >[!MORELIKETHIS]
 >

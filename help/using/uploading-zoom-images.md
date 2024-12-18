@@ -1,6 +1,6 @@
 ---
-title: Hochladen von Zoombildern
-description: Erfahren Sie, wie Sie Zoombilder in Adobe Dynamic Media Classic hochladen.
+title: Hochladen von Zoom-Bildern
+description: Erfahren Sie, wie Sie Zoom-Bilder in Adobe Dynamic Media Classic hochladen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,23 +17,23 @@ ht-degree: 16%
 
 ---
 
-# Hochladen von Zoombildern{#uploading-zoom-images}
+# Hochladen von Zoom-Bildern{#uploading-zoom-images}
 
-Zoombilder müssen eine hohe Pixelzahl aufweisen. Es ist eine hohe Anzahl von Pixeln erforderlich, damit Betrachter beim Zoomen von Bildern die Bilddetails deutlich sehen können. Stellen Sie sicher, dass die verwendeten Bilder die richtige Größe aufweisen, bevor Sie sie in Adobe Dynamic Media Classic hochladen.
+Zoombilder müssen eine hohe Pixelzahl aufweisen. Eine hohe Anzahl von Pixeln ist erforderlich, damit Betrachter beim Zoomen von Bildern Bilddetails deutlich sehen können. Stellen Sie sicher, dass die verwendeten Bilder die richtige Größe aufweisen, bevor Sie sie auf Adobe Dynamic Media Classic hochladen.
 
-Wählen Sie in der Leiste &quot;Globale Navigation&quot;die Option **[!UICONTROL Hochladen]** aus, um mit dem Hochladen von Bildern zu beginnen.
+Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Hochladen]** aus, um mit dem Hochladen von Bildern zu beginnen.
 
 Detaillierte Anweisungen zum Hochladen von Bildern finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files).
 
 **Bereiten Sie Ihre Bilder für das Zoomen vor:**
 
-Um die Zoom-Funktionen von Adobe Dynamic Media Classic optimal zu nutzen, bereiten Sie die Zoom-Bilddateien vor dem Hochladen vor:
+Um die Funktionen von Adobe Dynamic Media Classic Zoom optimal nutzen zu können, sollten Sie Ihre Zoom-Bilddateien vorbereiten, bevor Sie sie hochladen:
 
-* **Bildgröße**: Adobe Dynamic Media Classic empfiehlt die Verwendung von Bilddateien, die mindestens 2000 Pixel an der längsten Seite aufweisen. Dadurch wird gewährleistet, dass Bilddetails auch nach dem Zoomen noch deutlich zu erkennen sind.
+* **Bildgröße**: Adobe Dynamic Media Classic empfiehlt die Verwendung von Bilddateien mit mindestens 2.000 Pixel in der längsten Größe. Dadurch wird gewährleistet, dass Bilddetails auch nach dem Zoomen noch deutlich zu erkennen sind.
 
-* **Dateiformate**: Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate. Zu den Formaten gehören TIFF, BMP, JPEG, PSD, GIF und EPS. Es werden verlustfreie Bildformate - TIFF und PNG-Dateien empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die höchsten Qualitätseinstellungen.
+* **Dateiformate**: Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate. Die Formate umfassen TIFF, BMP, JPEG, PSD, GIF und EPS. Es werden verlustfreie Bildformate wie TIFF und PNG empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die Einstellungen in höchster Qualität.
 
-* **Farbraum**: RGB ist der Farbraum für Webbildpräsentationen; CMYK-Bilder werden beim Hochladen automatisch in RGB konvertiert. Es empfiehlt sich, CMYK-Bilder hochzuladen, die ein eingebettetes ICC-Farbprofil für die Konvertierung in RGB enthalten. Siehe auch ICC-Profile.
+* **Farbraum**: RGB ist der Farbraum für Webbildpräsentationen. CMYK-Bilder werden beim Hochladen automatisch in RGB konvertiert. Es empfiehlt sich, CMYK-Bilder hochzuladen, die ein eingebettetes ICC-Farbprofil für die Konvertierung in RGB enthalten. Siehe auch ICC-Profile.
 
 >[!MORELIKETHIS]
 >

@@ -1,5 +1,5 @@
 ---
-title: Hochladen von Primärbildern
+title: Primäre Bilder hochladen
 description: Erfahren Sie, wie Sie Primärbilder in Adobe Dynamic Media Classic hochladen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,18 +17,18 @@ ht-degree: 0%
 
 ---
 
-# Hochladen von Primärbildern{#uploading-master-images}
+# Primäre Bilder hochladen{#uploading-master-images}
 
-Stellen Sie vor dem Hochladen von Bildern in Adobe Dynamic Media Classic sicher, dass sie die höchste Größe und das beste Format aufweisen. Adobe Dynamic Media Classic empfiehlt das Hochladen hochwertiger Bilder mit einer ausreichenden Pixelanzahl (von 1500 bis 2000 Pixel in der langen Größe). Diese Größenanpassung ermöglicht jede erforderliche Dynamic Imaging.
+Stellen Sie vor dem Hochladen von Bildern in Adobe Dynamic Media Classic sicher, dass sie die höchste Qualität in Größe und Format aufweisen. Adobe Dynamic Media Classic empfiehlt, hochwertige Bilder mit einer ausreichenden Pixelanzahl (zwischen 1.500 und 2.000 Pixel in der langen Größe) hochzuladen. Diese Größenanpassung ermöglicht jede erforderliche Dynamic Imaging.
 
 Weitere Informationen zum Hochladen von Bildern finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files).
 
-**Vorbereiten der Primärbilder für den Upload:**
+**Vorbereiten der primären Bilder für den Upload:**
 
-Bereiten Sie Ihre primären Bilddateien vor dem Hochladen in Adobe Dynamic Media Classic vor:
+Bereiten Sie Ihre Primärbilddateien vor dem Hochladen in Adobe Dynamic Media Classic vor:
 
-* **Bildgröße**: Erstellen Sie die Bilder mit der größten Größe, die Sie voraussichtlich verwenden. Die typischen Bildgrößen liegen zwischen 1500 und 2500 Pixel an der längsten Seite. Wenn Sie die Zoom-Funktion verwenden möchten, empfiehlt Adobe Dynamic Media Classic die Verwendung von Bildern mit einer längsten Bildgröße von mindestens 2000 Pixel, um optimale Zoomdetails zu erzielen. Adobe Dynamic Media Classic kann Bilder mit einer Auflösung von jeweils bis zu 25 Megapixeln rendern. Sie können beispielsweise ein Bild mit 5000 × 5000 MP oder eine beliebige andere Größenkombination mit bis zu 25 MP verwenden.
+* **Bildgröße**: Erstellen Sie die größten Bilder, die Sie verwenden möchten. Typische Bildgrößen liegen zwischen 1500 und 2500 Pixel in der längsten Größe. Wenn Sie die Zoom-Funktion verwenden möchten, empfiehlt Adobe Dynamic Media Classic die Verwendung von Bildern mit einer längsten Größe von mindestens 2.000 Pixel, um optimale Zoom-Details zu erzielen. Adobe Dynamic Media Classic kann Bilder mit einer Auflösung von jeweils bis zu 25 Megapixel rendern. Sie können beispielsweise ein Bild mit 5000 × 5000 MP oder eine beliebige andere Größenkombination mit bis zu 25 MP verwenden.
 
-* **Dateiformate**: Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate. Zu diesen Formaten gehören TIFF, BMP, JPEG, PSD, GIF und EPS. Es werden verlustfreie Bildformate - TIFF und PNG-Dateien empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die höchsten Qualitätseinstellungen.
+* **Dateiformate**: Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate. Zu diesen Formaten gehören TIFF, BMP, JPEG, PSD, GIF und EPS. Es werden verlustfreie Bildformate wie TIFF und PNG empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die Einstellungen in höchster Qualität.
 
-* **Farbraum**: RGB ist der Farbraum für Webbilddarstellungen. CMYK-Bilder, die häufig zum Drucken verwendet werden, werden beim Hochladen automatisch in RGB konvertiert. Es wird empfohlen, CMYK-Bilder hochzuladen, die über ein eingebettetes ICC-Farbprofil (International Color Consortium) für die Konvertierung in RGB verfügen. Siehe auch [ICC-Profile (International Color Consortium)](/help/using/icc-profiles.md).
+* **Farbraum**: RGB ist der Farbraum für Webbildpräsentationen. Für den Druck häufig verwendete CMYK-Bilder werden beim Hochladen automatisch in RGB konvertiert. Es wird empfohlen, CMYK-Bilder mit eingebettetem ICC-Farbprofil (International Color Consortium) für die Konvertierung auf RGB hochzuladen. Siehe auch [ICC (International Color Consortium)-Profile](/help/using/icc-profiles.md).

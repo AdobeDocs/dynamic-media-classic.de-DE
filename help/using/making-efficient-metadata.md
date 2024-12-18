@@ -19,9 +19,9 @@ ht-degree: 57%
 
 # Effizientere Nutzung von Metadaten{#making-more-efficient-use-of-metadata}
 
-Alle Dateien in Adobe Dynamic Media Classic enthalten Metadaten. Metadaten beschreiben und identifizieren Dateien, sodass Assets einfacher gefunden und organisiert werden können. Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und prüfen Sie das Metadatenbedienfeld. Die Metadatenfelder in diesem Bedienfeld enthalten deskriptive Informationen über das Asset.
+Alle Dateien in Adobe Dynamic Media Classic enthalten Metadaten. Metadaten beschreiben und identifizieren Dateien, sodass Assets einfacher gefunden und organisiert werden können. Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und prüfen Sie das Metadaten-Bedienfeld. Die Metadatenfelder in diesem Bedienfeld enthalten deskriptive Informationen über das Asset.
 
-Metadaten sind nur dann nützlich für das Suchen und Organisieren von Assets, wenn die Metadatenfelder ordnungsgemäß ausgefüllt wurden. Um sicherzustellen, dass Metadaten ordnungsgemäß festgelegt und alle erforderlichen Metadatenfelder ausgefüllt werden, können Sie Metadaten-Vorgaben erstellen. Eine *Metadaten-Vorgabe* ist ein vordefinierter Satz von Metadaten-Einträgen. Anstatt Metadaten selbst einzugeben, können Benutzer in der Detailansicht eine Metadatenvorgabe auswählen, um Metadatenfelder mit vordefinierten Informationen zu füllen.
+Metadaten sind nur dann nützlich für das Suchen und Organisieren von Assets, wenn die Metadatenfelder ordnungsgemäß ausgefüllt wurden. Um sicherzustellen, dass Metadaten ordnungsgemäß festgelegt und alle erforderlichen Metadatenfelder ausgefüllt werden, können Sie Metadaten-Vorgaben erstellen. Eine *Metadaten-Vorgabe* ist ein vordefinierter Satz von Metadaten-Einträgen. Anstatt die Metadaten selbst einzugeben, können Benutzende in der Detailansicht eine Metadatenvorgabe auswählen, um Metadatenfelder mit vordefinierten Informationen auszufüllen.
 
 Hinweise zum Erstellen von Metadaten-Vorgaben finden Sie unter [Metadaten-Vorgaben](application-setup.md#metadata_presets).
 

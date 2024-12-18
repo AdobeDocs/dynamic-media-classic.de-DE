@@ -19,9 +19,9 @@ ht-degree: 3%
 
 # Adobe Analytics-Tracking deaktivieren{#disabling-adobe-analytics-tracking}
 
-**So deaktivieren Sie die Adobe Analytics-Verfolgung:**
+**So deaktivieren Sie das Adobe Analytics-Tracking:**
 
-1. Deaktivieren Sie alle Ereignisse auf der Seite &quot;Adobe Analytics-Konfiguration&quot;in Adobe Dynamic Media Classic.
+1. Deaktivieren Sie alle Ereignisse auf der Seite Adobe Analytics-Konfiguration in Adobe Dynamic Media Classic.
 1. Speichern und veröffentlichen Sie.
 
-Durch diese Schritte wird die Unterstützung für Adobe Dynamic Media Classic und für URLs deaktiviert, die über die Funktion **[!UICONTROL CopyURL]** abgerufen wurden. Wenn Sie benutzerdefiniertes Tracking implementieren, deaktivieren Sie das Adobe Analytics-Tracking wie auf der Konfigurationsseite eingerichtet, um Konflikte mit der benutzerdefinierten Implementierung zu vermeiden.
+Mit diesen Schritten wird die Unterstützung für Adobe Dynamic Media Classic und für URLs, die über die Funktion **[!UICONTROL CopyURL]** abgerufen wurden, deaktiviert. Wenn Sie benutzerdefiniertes Tracking implementieren, deaktivieren Sie das Adobe Analytics-Tracking, wie auf der Konfigurationsseite eingerichtet, um Konflikte mit der benutzerdefinierten Implementierung zu vermeiden.

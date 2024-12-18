@@ -1,6 +1,6 @@
 ---
-title: Anzeigen von Assets im Bedienfeld "Durchsuchen"
-description: Erfahren Sie, wie Sie mit dem Bedienfeld "Durchsuchen"Assets in Adobe Dynamic Media Classic anzeigen können.
+title: Anzeigen von Assets im Durchsuchen-Panel
+description: Erfahren Sie, wie Sie mit dem Durchsuchen-Bedienfeld Assets in Adobe Dynamic Media Classic anzeigen können.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,16 +17,16 @@ ht-degree: 5%
 
 ---
 
-# Anzeigen von Assets im Bedienfeld &quot;Durchsuchen&quot;{#viewing-assets-in-the-browse-panel}
+# Anzeigen von Assets im Durchsuchen-Panel{#viewing-assets-in-the-browse-panel}
 
-Sie können die Ansicht der Assets im Bedienfeld &quot;Durchsuchen&quot;ändern, indem Sie eine Ansicht-Schaltfläche auswählen:
+Sie können die Ansicht der Assets im Durchsuchen-Panel ändern, indem Sie auf die Schaltfläche Ansicht klicken:
 
-* **Rasteransicht**: Wählen Sie rechts oben auf dem Adobe Dynamic Media Classic-Bildschirm das Symbol **[!UICONTROL Rasteransicht]** aus, um Assets in Miniaturansichten in einem Raster anzuzeigen. In der Rasteransicht können Sie den Regler Miniaturansicht ziehen, um die Größe der Miniaturansichten zu ändern.
+* **Rasteransicht**: Klicken Sie oben rechts im Adobe Dynamic Media Classic-Bildschirm auf das Symbol **[!UICONTROL Rasteransicht]**, um Assets in einem Miniaturbildformular in einem Raster anzuzeigen. In der Rasteransicht können Sie den Miniaturbildregler ziehen, um die Größe der Miniaturbilder zu ändern.
 
-* **Listenansicht**: Wählen Sie in der rechten oberen Ecke des Adobe Dynamic Media Classic-Bildschirms das Symbol **[!UICONTROL Listenansicht]** aus, um Assets in einer Liste anzuzeigen. In der Liste sind für jedes Asset der Name und Typ, das Erstellungsdatum sowie das Datum der letzten Änderung angegeben. Je nach Asset-Typ, mit dem Sie arbeiten, erhalten Sie auch weitere Informationen. Sie können beispielsweise die Abmessungen und die Dateigröße eines Bildes anzeigen.
+* **Listenansicht**: Klicken Sie oben rechts im Adobe Dynamic Media Classic-Bildschirm auf das Symbol **[!UICONTROL Listenansicht]**, um Assets in einer Liste anzuzeigen. In der Liste sind für jedes Asset der Name und Typ, das Erstellungsdatum sowie das Datum der letzten Änderung angegeben. Je nach Typ des Assets, mit dem Sie arbeiten, erhalten Sie auch weitere Informationen. Sie können beispielsweise die Abmessungen und die Dateigröße eines Bildes anzeigen.
 
-* **Detailansicht**: Wählen Sie ein Asset aus. Wählen Sie rechts oben im Adobe Dynamic Media Classic-Bildschirm das Symbol **[!UICONTROL Detailansicht]** aus, um das Asset in der Detailansicht zu untersuchen. Sie können auch auf ein Asset doppelklicken oder es auswählen und zu **[!UICONTROL Datei]** > **[!UICONTROL Details]** navigieren, um es in der Detailansicht anzuzeigen. Wenn Ihr Administrator die Voreinstellung &quot;URL anzeigen&quot;festgelegt hat, werden URLs für alle Assets in der Detailansicht angezeigt. Die URLs sind jedoch erst aktiv, nachdem das Asset veröffentlicht wurde.
+* **Detailansicht**: Asset auswählen. Klicken Sie oben rechts im Adobe Dynamic Media Classic-Bildschirm auf das Symbol **[!UICONTROL Detailansicht]**, um das Asset in der Detailansicht zu untersuchen. Sie können auch auf ein Asset doppelklicken oder es auswählen und zu **[!UICONTROL Datei]** > **[!UICONTROL Details]** gehen, um es in der Detailansicht anzuzeigen. Wenn Ihr Administrator die Einstellung „URL anzeigen“ festgelegt hat, werden URLs für alle Assets in der Detailansicht angezeigt. Die URLs sind jedoch erst aktiv, nachdem das Asset veröffentlicht wurde.
 
 >[!TIP]
 >
->Sie können eine Standardansicht für das Bedienfeld &quot;Durchsuchen&quot;auswählen und dafür sorgen, dass das Bedienfeld Ihren Spezifikationen entspricht. Siehe [Persönliche Einstellungen](personal-setup.md#personal_setup).*
+>Sie können eine Standardansicht für das Durchsuchen-Bedienfeld auswählen und das Bedienfeld nach Ihren Spezifikationen gestalten. Siehe [Persönliches Setup](personal-setup.md#personal_setup).*

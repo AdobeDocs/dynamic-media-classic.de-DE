@@ -1,5 +1,5 @@
 ---
-title: Testen Sie Assets, bevor Sie sie veröffentlichen
+title: Testen von Assets vor der Veröffentlichung
 description: Erfahren Sie, wie Sie Assets in Adobe Dynamic Media Classic testen können, bevor Sie sie veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,39 +17,39 @@ ht-degree: 19%
 
 ---
 
-# Testen Sie Assets, bevor Sie sie veröffentlichen {#testing-assets-before-making-them-public}
+# Testen von Assets vor der Veröffentlichung {#testing-assets-before-making-them-public}
 
-Mit Secure Testing können Sie eine sichere Testumgebung definieren und eine robuste B2B-Lösung erstellen, die auf einem konfigurierbaren Satz von IP-Adressen und -Bereichen basiert. Mit dieser Funktion können Sie Ihre Adobe Dynamic Media Classic-Implementierungen mit der Architektur Ihres Content-Management- und Business-Systems abgleichen.
+Mit Secure Testing können Sie eine sichere Testumgebung definieren und eine robuste B2B-Lösung erstellen, die auf einem konfigurierbaren Satz von IP-Adressen und -Bereichen basiert. Mit dieser Funktion können Sie Ihre Adobe Dynamic Media Classic-Bereitstellungen mit der Architektur Ihres Content-Management- und Geschäftssystems abgleichen.
 
 Mit Secure Testing können Sie eine Vorabversion (Staging) der Website mit unveröffentlichtem Inhalt in der Vorschau anzeigen.
 
-Erstellen Sie bei Bedarf eine Staging-Umgebung, anstatt Assets aus den folgenden Gründen öffentlich verfügbar zu machen:
+Aus den folgenden Gründen sollten Sie bei Bedarf eine Staging-Umgebung erstellen, anstatt Assets öffentlich verfügbar zu machen:
 
 * Vorschau der Websites vor der Veröffentlichung (Staging-Website).
-* Bereitstellen von Assets, die eingeschränkten Zugriff erfordern, wie z. B. E-Kataloge, die Preise in einer B2B-Webanwendung anzeigen.
-* Verwenden Sie Assets hinter einer Firewall als Teil eines Produktinformationsmanagementsystems, einer Kundendienstanwendung, einer Schulungs-Site usw.
+* Bereitstellen von Assets, die eingeschränkten Zugriff erfordern, wie z. B. E-Kataloge, die Preise in einer B2B-Web-Anwendung anzeigen.
+* Verwenden von Assets hinter einer Firewall als Teil eines Produktinformations-Management-Systems, einer Kundendienstanwendung, einer Schulungs-Website usw.
 
 >[!NOTE]
 >
->Secure Testing hat keine Auswirkungen auf den Zugriff auf Adobe Dynamic Media Classic. Die Adobe Dynamic Media Classic-Sicherheit bleibt konsistent und erfordert die üblichen Anmeldeinformationen für den Zugriff auf Adobe Dynamic Media Classic und zugehörige Webdienste.
+>Secure Testing hat keine Auswirkungen auf den Zugriff auf Adobe Dynamic Media Classic. Die Adobe Dynamic Media Classic-Sicherheit bleibt konsistent und erfordert die üblichen Anmeldeinformationen für den Zugriff auf Adobe Dynamic Media Classic und zugehörige Web-Services.
 
 ## Funktionsweise von Secure Testing {#how-secure-testing-works}
 
 Die meisten Unternehmen haben eine Firewall für den Internetzugriff. Der Zugriff auf das Internet ist damit auf bestimmten Routen möglich und normalerweise auf bestimmte öffentliche IP-Adressen beschränkt.
 
-Über Ihr Unternehmensnetzwerk können Sie Ihre öffentliche IP-Adresse mithilfe von Websites wie [https://www.whatismyip.com](https://www.whatismyip.com/) ermitteln oder diese Informationen von Ihrer IT-Organisation anfordern.
+Über Ihr Unternehmensnetzwerk können Sie mithilfe von Websites wie [https://www.whatismyip.com](https://www.whatismyip.com/) Ihre öffentliche IP-Adresse ermitteln oder diese Informationen bei Ihrer IT-Organisation anfordern.
 
-Mit dem Secure Testing richtet Adobe Dynamic Media Classic einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit jeder Anforderung bei diesem Server wird die Original-IP-Adresse überprüft. Wenn die eingehende Anfrage nicht in der Liste genehmigter IP-Adressen enthalten ist, wird eine Fehlerantwort zurückgegeben. Der Adobe Dynamic Media Classic-Unternehmensadministrator konfiguriert die Liste genehmigter IP-Adressen für die sichere Testumgebung seines Unternehmens.
+Mit Secure Testing richtet Adobe Dynamic Media Classic einen dedizierten Image-Server für Staging-Umgebungen oder interne Anwendungen ein. Mit jeder Anforderung bei diesem Server wird die Original-IP-Adresse überprüft. Wenn die eingehende Anfrage nicht in der Liste genehmigter IP-Adressen enthalten ist, wird eine Fehlerantwort zurückgegeben. Der Adobe Dynamic Media Classic-Unternehmensadministrator konfiguriert die Liste genehmigter IP-Adressen für die Secure Testing-Umgebung seines Unternehmens.
 
-Da der Speicherort der ursprünglichen Anforderung bestätigt werden muss, wird der Traffic des Secure Testing-Dienstes nicht über ein Inhaltsverteilungsnetzwerk wie den öffentlichen Dynamic Media Image Server-Traffic geleitet. Anforderungen an den Secure Testing-Dienst weisen im Vergleich zu den öffentlichen Dynamic Media-Bildservern eine etwas höhere Latenz auf.
+Da der Speicherort der ursprünglichen Anfrage bestätigt werden muss, wird der Traffic des Secure Testing-Services nicht über ein Inhaltsverteilungsnetzwerk geleitet, wie der öffentliche Traffic des Dynamic Media-Bildservers. Anfragen an den Secure Testing-Service weisen eine etwas höhere Latenz auf als die öffentlichen Dynamic Media-Bildserver.
 
-Unveröffentlichte Assets sind sofort über den Secure Testing-Dienst verfügbar und müssen nicht erst veröffentlicht werden. Auf diese Weise können Sie eine Vorschau ausführen, bevor Assets auf ihrem öffentlichen Image-Server veröffentlicht werden.
+Unveröffentlichte Assets sind sofort über den Secure Testing-Dienst verfügbar und müssen nicht erst veröffentlicht werden. Auf diese Weise können Sie eine Vorschau ausführen, bevor Assets auf ihrem öffentlichen Bild-Server veröffentlicht werden.
 
 >[!NOTE]
 >
->Sichere Testdienste verwenden den Katalogserver, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihr Unternehmen für die Veröffentlichung auf Secure Testing konfiguriert ist, sind hochgeladene Assets in Adobe Dynamic Media Classic sofort in den Secure Testing Services verfügbar. Diese Funktion gilt unabhängig davon, ob die Assets beim Hochladen zur Veröffentlichung markiert sind.
+>Secure Testing-Services verwenden den Katalog-Server, der mit einem internen Veröffentlichungskontext konfiguriert ist. Wenn Ihr Unternehmen für die Veröffentlichung in Secure Testing konfiguriert ist, sind daher hochgeladene Assets in Adobe Dynamic Media Classic sofort in den Secure Testing-Services verfügbar. Diese Funktionalität gilt unabhängig davon, ob die Assets beim Hochladen zur Veröffentlichung markiert sind.
 
-Secure Testing-Dienste unterstützen derzeit die folgenden Asset-Typen und -Funktionen:
+Secure Testing-Services unterstützen derzeit die folgenden Asset-Typen und -Funktionen:
 
 <!-- 
 
@@ -63,9 +63,9 @@ Last Modified Date:
 
 * Bilder.
 * Vignetten (Render-Server-Anforderungen).
-* Render Server-Anforderungen (unterstützt, aber der Kunde muss dies explizit anfordern).
+* Rendering-Server-Anfragen (werden unterstützt, müssen aber vom Kunden explizit angefordert werden).
 * Sätze, einschließlich Bildsätzen, E-Katalog, Rendersets und Mediensets.
-* Standard-Rich-Media-Viewer von Adobe Dynamic Media Classic.
+* Standard-Adobe Dynamic Media Classic-Rich-Media-Viewer.
 * Adobe Dynamic Media Classic OnDemand JSP-Seiten.
 * Statische Inhalte wie PDF-Dateien und progressiv bereitgestellte Videos.
 * HTTP-Videostreaming.
@@ -73,18 +73,18 @@ Last Modified Date:
 
 Die folgenden Asset-Typen und -Funktionen werden derzeit nicht unterstützt:
 
-* Adobe Dynamic Media Classic Info- oder eCatalog-Suche
+* Adobe Dynamic Media Classic-Info- oder E-Katalog-Suche
 * RTMP-Videostreaming
 * Web-to-Print
-* UGC-Dienste (benutzergenerierte Inhalte)
+* UGC-Services (benutzergenerierte Inhalte)
 
 >[!IMPORTANT]
 >
->Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endete am 30. September 2021.
 
-## Testen des Secure Testing-Dienstes {#testing-the-secure-testing-service}
+## Testen des Secure Testing-Service {#testing-the-secure-testing-service}
 
-Testen Sie den Secure Testing-Dienst, um sicherzustellen, dass er wie erwartet funktioniert.
+Testen Sie den Secure Testing-Service, damit Sie sicherstellen können, dass er erwartungsgemäß funktioniert.
 
 <!-- >[!NOTE]
 >
@@ -102,39 +102,39 @@ Last Modified Date:
 
  -->
 
-1. Wenden Sie sich an die Adobe-Kundenunterstützung und fordern Sie sie auf, sichere Tests für Ihr Konto zu aktivieren.
-1. Navigieren Sie in Adobe Dynamic Media Classic auf der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Publish-Einrichtung]** > **[!UICONTROL Image-Server]**.
-1. Wählen Sie auf der Image-Server-Publish-Seite in der Dropdownliste **[!UICONTROL `Publish Context`]** die Option **[!UICONTROL Image-Serving testen]**.
-1. Wählen Sie für den Client-Adressfilter **[!UICONTROL Hinzufügen]** aus.
-1. Aktivieren Sie das Kontrollkästchen, damit die Adresse aktiviert ist, und geben Sie dann eine IP-Adresse und eine Netzmaske in die entsprechenden Textfelder ein.
+1. Wenden Sie sich an die Kundenunterstützung von Adobe und bitten Sie sie, Secure Testing für Ihr Konto zu aktivieren.
+1. Wechseln Sie in Adobe Dynamic Media Classic in der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Publish-Setup]** > **[!UICONTROL Image-Server]**.
+1. Wählen Sie auf der Seite Image-Server-Publish in der Dropdown-Liste **[!UICONTROL `Publish Context`]** die Option **[!UICONTROL Image-Serving testen]** aus.
+1. Wählen Sie für den Client-Adressfilter die Option **[!UICONTROL Hinzufügen]**.
+1. Aktivieren Sie das Kontrollkästchen, sodass die Adresse aktiviert ist, und geben Sie dann eine IP-Adresse und eine Netzmaske in die entsprechenden Textfelder ein.
 
    >[!NOTE]
    >
-   >Wenn Sie eine einzelne IP-Adresse und Netzmaske hinzufügen, kann diese Adresse Asset-Aufrufe durchführen. Andere von Ihnen hinzugefügte IP-Adressen und Netzmasken dürfen jedoch keine Asset-Aufrufe durchführen. Deaktivieren Sie daher das Kontrollkästchen im obigen Schritt, um die Möglichkeit zu deaktivieren, eine IP-Adresse und eine Netzmaske anzugeben. Auf diese Weise können *alle* IP-Adressen Asset-Aufrufe durchführen, und alle werden angezeigt.
+   >Wenn Sie eine einzelne IP-Adresse und Netzmaske hinzufügen, kann diese Adresse Asset-Aufrufe durchführen. Andere IP-Adressen und Netzmasken, die Sie hinzufügen, dürfen jedoch keine Asset-Aufrufe ausführen. Deaktivieren Sie daher ggf. das Kontrollkästchen im obigen Schritt, um die Möglichkeit zur Angabe einer IP-Adresse und einer Netzmaske zu deaktivieren. Dadurch können *alle* IP-Adressen Asset-Aufrufe durchführen, und sie werden alle angezeigt.
 
 1. Führen Sie einen der folgenden Schritte aus:
-   * Wiederholen Sie die beiden vorherigen Schritte, wenn Sie weitere IP-Adressen hinzufügen müssen.
+   * Wiederholen Sie die vorherigen beiden Schritte, wenn Sie weitere IP-Adressen hinzufügen müssen.
    * Fahren Sie mit dem nächsten Schritt fort.
-1. Wählen Sie links unten auf der Image Server Publish-Seite **[!UICONTROL Speichern]** aus.
+1. Klicken Sie unten links auf der Seite „Image-Server-Publish&quot; auf **[!UICONTROL Speichern]**
 1. Laden Sie die gewünschten Bilder in Ihr Adobe Dynamic Media Classic-Konto hoch.
 
    Siehe [Dateien hochladen](uploading-files.md#uploading_files).
 
-1. Vergewissern Sie sich, dass einige der Bilder zur Veröffentlichung markiert sind, andere nicht markiert sind, und senden Sie dann den Veröffentlichungsauftrag.
+1. Stellen Sie sicher, dass einige der Bilder zur Veröffentlichung markiert und andere nicht markiert sind, und senden Sie dann den Veröffentlichungsauftrag.
 
-   Siehe [Publish-Dateien](publishing-files.md#publishing_files).
+   Siehe [Publish-](publishing-files.md#publishing_files).
 
-1. Bestimmen Sie den Namen Ihres Secure Testing-Dienstes, indem Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** navigieren.
+1. Bestimmen Sie den Namen Ihres Secure Testing-Services, indem Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** wechseln.
 1. Suchen Sie auf der Seite „Allgemeine Programmeinstellungen“ in der Gruppe „Server“ den Namen rechts neben **[!UICONTROL Servername für den Testveröffentlichungskontext]**.
 
-Wenden Sie sich an Adobe Care , wenn der Servername fehlt oder die URLs zum Server nicht funktionieren.
+Wenden Sie sich an den Adobe-Support, wenn der Servername fehlt oder die URLs zum Server nicht funktionieren.
 
 ### Vorbereiten von Website-Variationen
 
 Sie benötigen zwei Variationen einer Website, die Links zu veröffentlichten und unveröffentlichten Assets enthält:
 
-* Öffentliche Version: Verknüpfen Sie Assets mit Ihrer herkömmlichen Adobe Dynamic Media Classic-URL-Syntax.
-* Staging-Version: Verknüpfen Sie Assets mit derselben Syntax, jedoch mit dem Namen der Secure Testing-Site.
+* Öffentliche Version: Verknüpfen Sie Assets mithilfe Ihrer herkömmlichen Adobe Dynamic Media Classic-URL-Syntax.
+* Staging-Version: Verknüpfen Sie Assets mithilfe derselben Syntax, aber mit dem Namen der Secure Testing-Site.
 
 ### Ausführen von Tests
 
@@ -142,12 +142,12 @@ Führen Sie die folgenden Tests aus:
 
 1. Überprüfen Sie, ob Assets in Ihrem Unternehmensnetzwerk angezeigt werden.
 
-   Innerhalb des Unternehmensnetzwerks, das durch den zuvor definierten IP-Adressbereich identifiziert wurde, zeigt die Staging-Version der Website alle Bilder an, unabhängig davon, ob sie zur Veröffentlichung markiert wurden oder nicht. Daher können Sie Tests durchführen, ohne Bilder versehentlich vor der Genehmigung der Vorschau oder dem Produktstart verfügbar zu machen.
+   Innerhalb des Unternehmensnetzwerks, das durch den zuvor definierten IP-Adressbereich identifiziert wird, zeigt die Staging-Version der Website alle Bilder an, unabhängig davon, ob sie zur Veröffentlichung markiert sind oder nicht. Daher können Sie Tests durchführen, ohne Bilder versehentlich vor der Genehmigung der Vorschau oder dem Produktstart verfügbar zu machen.
 
-   Vergewissern Sie sich, dass die öffentliche Version Ihrer Site veröffentlichte Assets anzeigt, wie es zuvor mit Adobe Dynamic Media Classic der Fall war.
+   Vergewissern Sie sich, dass die öffentliche Version Ihrer Site veröffentlichte Assets anzeigt, wie Sie es bereits von Adobe Dynamic Media Classic gewohnt sind.
 
-1. Stellen Sie außerhalb Ihres Unternehmensnetzwerks sicher, dass nicht veröffentlichte Assets (d. h. nicht zur Veröffentlichung markiert) vor dem Zugriff durch Dritte geschützt sind.
+1. Stellen Sie von außerhalb Ihres Unternehmensnetzwerks sicher, dass nicht veröffentlichte (d. h. nicht zur Veröffentlichung markierte) Assets vor dem Zugriff Dritter geschützt sind.
 
-   Greifen Sie von außerhalb auf Ihr Netzwerk zu (z. B. von Ihrem privaten Computer oder über eine 3G-Verbindung) und überprüfen Sie dann, ob in der öffentlichen Version der Site alle veröffentlichten Assets, jedoch keine unveröffentlichten Inhalte angezeigt werden.
+   Greifen Sie von außerhalb auf Ihr Netzwerk zu (z. B. von Ihrem privaten Computer oder über eine 3G-Verbindung) und überprüfen Sie, ob in der öffentlichen Version der Site alle veröffentlichten Assets, aber keine unveröffentlichten Inhalte angezeigt werden.
 
    Die Staging-Version darf kein Asset anzeigen, weil Sie mit einer nicht zugelassenen IP-Adresse auf den Secure Testing-Dienst zugreifen.

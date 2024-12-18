@@ -1,6 +1,6 @@
 ---
 title: Einschränkungen bei Dynamic Media
-description: Erfahren Sie mehr über die Best Practices und erzwungenen Einschränkungen beim Erstellen eines Bildsets oder eines Rotationssets oder beim Hochladen einer PDF. Erfahren Sie auch mehr über nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media.
+description: Erfahren Sie mehr über die Best Practices und Einschränkungen beim Erstellen eines Bildsets oder Rotationssets oder beim Hochladen einer PDF. Erfahren Sie außerdem mehr über nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,28 +17,28 @@ ht-degree: 1%
 
 ---
 
-# Dynamic Media-Einschränkungen
+# Einschränkungen bei Dynamic Media
 
-Die folgenden Abschnitte beschreiben Einschränkungen in Dynamic Media.
+In den folgenden Abschnitten werden Einschränkungen in Dynamic Media beschrieben.
 
 Dieses Thema enthält die folgenden Abschnitte:
 
-* [Best Practices und erzwungene Einschränkungen von Dynamic Media für Asset-Typen](#best-practice-enforced-limits)
+* [Best Practices und Einschränkungen durch Dynamic Media bei Asset-Typen](#best-practice-enforced-limits)
 * [Nicht unterstützte Webbrowser- und Betriebssystemkombinationen für Dynamic Media](#unsupported-browser-os)
 
-## Best Practices und erzwungene Einschränkungen von Dynamic Media für Asset-Typen {#best-practice-enforced-limits}
+## Best Practices und Einschränkungen durch Dynamic Media bei Asset-Typen {#best-practice-enforced-limits}
 
-Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung hochladen, empfiehlt Adobe die folgenden Best Practices. Adobe erzwingt außerdem die folgenden Einschränkungen:
+Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextraktion hochladen, empfiehlt Adobe die folgenden Best Practices. Adobe erzwingt außerdem die folgenden Beschränkungen:
 
-| Asset: Limit type | Optimale Vorgehensweise | Erzwungene Beschränkung |
+| Asset: Art des Limits | Optimale Vorgehensweise | Limit |
 | --- | --- | --- |
-| **Bild**: Anzahl der smarten Zuschnitte pro Bild | 5 | 100 |
-| **Alle Sets**: Anzahl der doppelten Assets pro Satz | Keine Duplikate | 20 ‡ |
-| **Alle Sets**: Maximale Anzahl an Assets pro Satz | 5 - 10 Bilder pro Set | 1000 |
-| **Rotationsset**: Maximale Anzahl von Zeilen/Spalten pro 2D-Satz | 12-18 Bilder pro Set | 1000 |
-| **PDF**: Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden soll |  | 100 (für alle PDF) |
+| **image**: Anzahl der smarten Zuschnitte pro Bild | 5 | 100 |
+| **Alle Sets**: Anzahl der doppelten Assets pro Set | Keine Duplikate | 20 ‡ |
+| **Alle Sets**: Maximale Anzahl von Assets pro Set | 5-10 Bilder pro Set | 1000 |
+| **Rotationsset**: Maximale Anzahl von Zeilen/Spalten pro 2D-Set | 12-18 Bilder pro Set | 1000 |
+| **PDF**: Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden sollen |  | 100 (für alle PDF) |
 
-‡ Best Practice ist, keine doppelten Assets in einem Satz zu haben. Die Beschränkung beträgt 20 Duplikate für ein einzelnes Asset. Wenn Sie ein weiteres Duplikat für dieses Asset innerhalb dieses Satzes hinzufügen, gibt die Anfrage entweder einen Fehler aus oder ignoriert das Duplikat.
+‡ Best Practice ist es, keine doppelten Assets in einem Satz zu haben. Für ein einzelnes Asset sind maximal 20 Duplikate zulässig. Wenn Sie innerhalb dieses Sets ein weiteres Duplikat für dieses Asset hinzufügen, gibt die Anfrage entweder einen Fehler aus oder ignoriert das Duplikat.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
@@ -46,15 +46,15 @@ Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextrahierung
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media unterstützt die folgenden Webbrowser- und Betriebssystemkombinationen nicht.
+Adobe Dynamic Media unterstützt nicht die folgenden Kombinationen aus Webbrowser und Betriebssystem.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
 * Internet Explorer 11 + Windows Phone 8.1
-* Aktualisierung von Internet Explorer 11 und Windows Phone 8.1
+* Internet Explorer 11 + Windows Phone 8.1 Update
 * Safari 6 + iOS 6.0.1
 * Safari 7 + iOS 7.1
-* Safari 7 + OS X 10.9 - Mavericks
+* Safari 7 + OS X 10.9 Mavericks
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
@@ -63,7 +63,7 @@ Adobe Dynamic Media unterstützt die folgenden Webbrowser- und Betriebssystemkom
 <!-- CQDOC-19433 (original ticket)
 and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-Ab dem 30. April 2024 beendet Adobe Dynamic Media die Unterstützung für Folgendes:
+Ab dem 30. April 2024 stellt Adobe Dynamic Media die Unterstützung für Folgendes ein:
 
 * SSL (Secure Socket Layer) 2.0
 * SSL 3.0

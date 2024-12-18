@@ -1,6 +1,6 @@
 ---
-title: Einschließen von Zoom-Zielen und Imagemaps in Bildsets
-description: Erfahren Sie, wie Sie Zoomziele und Imagemaps in Bildsets in Adobe Dynamic Media Classic einbeziehen.
+title: Einbeziehung von Zoom-Zielen und Imagemaps in Bildsets
+description: Erfahren Sie, wie Sie Zoom-Ziele und Imagemaps in Bildsets in Adobe Dynamic Media Classic einbeziehen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# Zoomziele und Imagemaps in Bildsets einschließen{#including-zoom-targets-and-image-maps-in-image-sets}
+# Zoom-Ziele und Imagemaps in Bildsets einschließen{#including-zoom-targets-and-image-maps-in-image-sets}
 
-Wenn Sie Zoomziele und Imagemaps für die Bilder in Ihrem Bildset definieren, werden diese Ziele und Karten im Bildset-Viewer angezeigt. Benutzer können beispielsweise eine Imagemap im Bildset-Viewer auswählen und auf Ihrer Website eine neue Seite mit Informationen zu einem Element öffnen. Benutzer können eine Zielminiaturansicht im Bildset-Viewer auswählen und automatisch auf einen Teil eines Bildes zoomen.
+Wenn Sie Zoom-Ziele und Imagemaps für die Bilder im Bildset definieren, werden diese Ziele und Karten im Bildset-Viewer angezeigt. Benutzerinnen und Benutzer können beispielsweise im Bildset-Viewer eine Imagemap auswählen und eine neue Seite auf Ihrer Website mit Informationen zu einem Element öffnen. Benutzer können im Bildset-Viewer ein Miniaturbild auswählen und automatisch auf einen Teil eines Bildes zoomen.
 
-Wenn Sie Benutzern Zoomziele und Imagemaps zur Verfügung stellen möchten, erstellen Sie Zoomziele und Imagemaps für die Bilder in Ihrem Bildset. Dies können Sie mit den Werkzeugen für Imagemaps oder Zoomziele im Bildset-Bildschirm oder im Durchsuchenbedienfeld (in der Detailansicht) tun.
+Wenn Sie Zoom-Ziele und Imagemaps für Benutzer verfügbar machen möchten, erstellen Sie Zoom-Ziele und Imagemaps für die Bilder in Ihrem Bildset. Verwenden Sie dazu die Tools Imagemaps oder Zoom-Ziele im Bildschirm Bildset oder im Durchsuchen-Bedienfeld (in der Detailansicht).
 
 >[!MORELIKETHIS]
 >
->* [Erstellen von Zoomzielen für geführten Zoom](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+>* [Erstellen von Zoom-Zielen für geführtes Zoomen](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
 >* [Erstellen von Imagemaps](creating-image-maps.md#creating_image_maps)

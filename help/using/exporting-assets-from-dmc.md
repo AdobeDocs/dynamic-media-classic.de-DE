@@ -19,28 +19,28 @@ ht-degree: 38%
 
 # Exportieren von Assets aus Adobe Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Sie können die in Adobe Dynamic Media Classic bearbeiteten Assets auf einem lokalen Netzwerklaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
+Sie können die in Adobe Dynamic Media Classic bearbeiteten Assets auf einem lokalen Netzlaufwerk speichern. Exportierte Assets werden zum Herunterladen oder Senden per E-Mail in einer ZIP-Datei zusammengestellt.
 
-Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Außerdem sind maximal 500 Assets pro Exportauftrag zulässig.
+Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Außerdem sind maximal 500 Assets pro Exportvorgang zulässig.
 
-Adobe Dynamic Media Classic speichert die Exportvorgänge im Bildschirm &quot;Aufträge&quot;.
+Adobe Dynamic Media Classic zeichnet die Exportaufträge im Bildschirm „Aufträge“ auf.
 
 **So exportieren Sie Assets aus Adobe Dynamic Media Classic:**
 
-1. Wählen Sie die Assets aus, die Sie exportieren möchten, und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Export]**.
+1. Wählen Sie die Assets aus, die Sie exportieren möchten, und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Exportieren]**.
 1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **[!UICONTROL „Bildoptionen“]** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):
 
    * **[!UICONTROL Vorgaben]**: Wählen Sie optional eine Bildvorgabe aus, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
 
-   * **[!UICONTROL Konversion]**: Konvertieren Sie die Asset-Datei oder das Originalbild.
+   * **[!UICONTROL Konversion]**: Konvertiert die Asset-Datei oder das Originalbild.
 
-   * **[!UICONTROL Größe]**: Sie können eine Standardgröße auswählen. Alternativ können Sie **[!UICONTROL Sonstige]** aus der Dropdownliste **[!UICONTROL Größe]** auswählen, die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
+   * **[!UICONTROL Größe]**: Sie können eine Standardgröße auswählen. Sie können auch **[!UICONTROL Sonstige]** aus der Dropdown-Liste **[!UICONTROL Größe]** auswählen, die gewünschte Maßeinheit auswählen und dann die Breite und Höhe angeben.
 
-     Siehe auch [Festlegen der für Media Portal-Benutzer verfügbaren Exportoptionen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     Siehe auch [Angeben der für Media Portal-Benutzer verfügbaren Exportoptionen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Format]**: Wählen Sie ein Bildformat.
+   * **[!UICONTROL Format]**: Wählen Sie ein Bildformat aus.
 
-   * **[!UICONTROL Farbe]**: Wählen Sie RGB, CMYK oder Grau aus.
+   * **[!UICONTROL Color]**: Wählen Sie RGB, CMYK oder Grau aus.
 
    * **[!UICONTROL Auflösung]**: Wählen Sie 72 ppi, 150 ppi oder 300 ppi.
 
@@ -53,7 +53,7 @@ Adobe Dynamic Media Classic speichert die Exportvorgänge im Bildschirm &quot;Au
 Drei grundlegende Exportaktionen werden unterstützt:
 
 * Ausgangsdatei: Exportieren Sie die Ausgangsdatei des Assets.
-* Mit Voreinstellung konvertieren (verwenden Sie eine Bildvorgabe, um das Asset zu formatieren)
+* Mit Vorgabe konvertieren (Verwenden einer Bildvorgabe zum Formatieren des Assets)
 * Ohne Vorlage konvertieren: Geben Sie Bildmodifikatoren im Exportdialogfeld an.
 
 Die nachfolgenden Asset-Typen können nicht exportiert werden. Alle anderen generieren einen Export.
@@ -65,7 +65,7 @@ Die nachfolgenden Asset-Typen können nicht exportiert werden. Alle anderen gene
 * Multibitrate-Sets
 * E-Kataloge
 
-Darüber hinaus können Vorlagen nicht als &quot;Originaldatei&quot;exportiert werden.
+Außerdem können Vorlagen nicht als „Originaldatei“ exportiert werden.
 
 Sie können die Konvertierungsoptionen beim Export folgender Asset-Typen verwenden:
 
@@ -77,5 +77,5 @@ Sie können die Konvertierungsoptionen beim Export folgender Asset-Typen verwend
 
 Wird eine große Menge verschiedener Asset-Typen für den Export ausgewählt, ergibt sich folgendes Verhalten:
 
-* Alle Asset-Typen, die nicht exportiert werden können, werden vor der Auftragseinsendung aus der Liste entfernt
-* Wenn eine Konvertierung angefordert wird, werden alle konvertierbaren Typen und alle anderen Typen als Original exportiert
+* Alle Asset-Typen, die nicht exportiert werden können, werden vor der Übermittlung aus der Liste entfernt
+* Wenn eine Konvertierung angefordert wird, werden alle Typen, die konvertiert werden können, konvertiert, und alle anderen werden als Original exportiert

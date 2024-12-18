@@ -1,6 +1,6 @@
 ---
 title: XML-Dateien
-description: Websites, die ein XML-basiertes System zum Verwalten von Bildern und Bildinformationen verwenden, können XML-Dateien in Adobe Dynamic Media Classic hochladen. Weitere Informationen zu XML-Dateien.
+description: Websites, die ein XML-basiertes System zur Verwaltung von Bildern und Bildinformationen verwenden, können XML-Dateien in Adobe Dynamic Media Classic hochladen. Weitere Informationen zu XML-Dateien.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,4 +18,4 @@ ht-degree: 17%
 
 # XML-Dateien {#xml-files}
 
-Websites, die ein XML-basiertes System zum Verwalten von Bildern und Bildinformationen verwenden, können XML-Dateien in Adobe Dynamic Media Classic hochladen. Sie können eine dieser Dateien als vorverarbeitende Regelsatzdatei für das Image Serving festlegen. Diese Datei strukturiert das standardmäßige Image Serving-Protokollformat entsprechend der Arbeitslogik Ihres Servers um. Auf dem Bildschirm &quot;Einrichtung&quot;können Sie eine XML-Datei angeben, die als Dateipfad für Regelsatzdefinitionen dienen soll. Die Pfadeinstellung befindet sich im Anzeigebereich „Veröffentlichung zum Image-Server“ unter „Katalogverwaltung“. Siehe [Image-Server](publish-setup.md#image_server).
+Websites, die ein XML-basiertes System zur Verwaltung von Bildern und Bildinformationen verwenden, können XML-Dateien in Adobe Dynamic Media Classic hochladen. Sie können eine dieser Dateien als Regelsatzdatei zur Vorverarbeitung für die Bildbereitstellung festlegen. Diese Datei strukturiert das standardmäßige Image-Serving-Protokollformat entsprechend der Arbeitslogik Ihres Servers um. Im Bildschirm Setup können Sie eine XML-Datei angeben, die als Dateipfad für die Regelsatzdefinitionen dienen soll. Die Pfadeinstellung befindet sich im Anzeigebereich „Veröffentlichung zum Image-Server“ unter „Katalogverwaltung“. Siehe [Image-Server](publish-setup.md#image_server).

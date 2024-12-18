@@ -18,17 +18,17 @@ ht-degree: 24%
 
 # Informationen zum Hochladen und Veröffentlichen von Assets {#about-uploading-and-publishing-assets}
 
-Ihre Arbeit in Adobe Dynamic Media Classic gliedert sich in drei grundlegende Bereiche:
+Ihre Arbeit in Adobe Dynamic Media Classic umfasst drei grundlegende Bereiche:
 
 * Hochladen von Datei-Assets in Adobe Dynamic Media Classic.
 * Verwalten von Dateien, damit daraus Rich-Media-Assets aufgebaut werden können
-* Veröffentlichen Sie Ihre Asset-Dateien auf einem Dynamic Media Classic-Server, damit sie für die Bereitstellung auf Ihrer Website und in Ihrer Anwendung verfügbar sind.
+* Veröffentlichen Sie Ihre Asset-Dateien auf einem Dynamic Media Classic-Server, damit sie für die Bereitstellung auf Ihrer Website und in Ihrem Programm verfügbar sind.
 
 Wenn Sie Asset-Dateien in Adobe Dynamic Media Classic hochladen und Asset-Dateien auf Adobe Dynamic Media Classic-Servern veröffentlichen, zeichnet das System diese Dateiübertragungen auf der Seite **[!UICONTROL Aufträge]** auf. Sie können diese Seite aufrufen, um Ihre Hochlade- und Veröffentlichungsaktivitäten zu verfolgen.
 
 >[!NOTE]
 >
->Beim Hochladen einer Datei generiert Adobe Dynamic Media Classic die URL für die Datei. Die URL wird erst aktiv, wenn Sie die Datei veröffentlichen.
+>Wenn Sie eine Datei hochladen, generiert Adobe Dynamic Media Classic die URL für die Datei. Die URL wird erst aktiv, wenn Sie die Datei veröffentlichen.
 
 <!-- >[!NOTE]
 >

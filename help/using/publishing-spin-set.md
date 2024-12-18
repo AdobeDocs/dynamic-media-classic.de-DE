@@ -1,6 +1,6 @@
 ---
-title: Publish a Rotationsset
-description: Erfahren Sie, wie Sie ein Rotationsset aus Adobe Dynamic Media Classic veröffentlichen.
+title: Publish - ein Rotationsset
+description: Erfahren Sie, wie Sie ein Rotationsset in Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,17 +17,17 @@ ht-degree: 10%
 
 ---
 
-# Publish a Rotationsset{#publishing-a-spin-set}
+# Publish - ein Rotationsset{#publishing-a-spin-set}
 
-Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic Media-Bildservern platziert, wo sie für Ihre Website oder Anwendung verfügbar sind. Darüber hinaus aktiviert Adobe Dynamic Media Classic während des Veröffentlichungsvorgangs die URL-Zeichenfolgen für Rotationssets, die Sie für Ihre Website oder Anwendung benötigen.
+Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic Media-Bildservern platziert, wo sie für Ihre Website oder Ihr Programm verfügbar sind. Darüber hinaus aktiviert Adobe Dynamic Media Classic während des Veröffentlichungsprozesses die URL-Zeichenfolgen, die Sie für Ihre Website oder Ihr Programm benötigen.
 
-## Markieren eines Rotationssets zur Veröffentlichung {#marking-a-spin-set-for-publish}
+## Markieren eines Rotationssets für die Veröffentlichung {#marking-a-spin-set-for-publish}
 
-Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können das Rotationsset zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen das Symbol **[!UICONTROL Für Publish markieren]** links neben dem Namen auswählen. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
+Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Publish Sie können Ihr Rotationsset zur Veröffentlichung im Durchsuchen-Bedienfeld markieren, indem Sie auf der linken Seite des Namens **[!UICONTROL Für]** markieren auswählen. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
 
-## Publish das Rotationsset {#publishing-the-spin-set}
+## Publish - das Rotationsset {#publishing-the-spin-set}
 
-Um ein Rotationsset auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]** aus. Wählen Sie dann die Option **[!UICONTROL When]** aus. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **[!UICONTROL Publish übermitteln]** aus.
+Um ein Rotationsset auf Dynamic Media-Bildservern zu veröffentlichen, wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]** aus. Wählen Sie dann die Option **[!UICONTROL Wenn]** aus. Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **[!UICONTROL Publish senden]** aus.
 
 >[!MORELIKETHIS]
 >

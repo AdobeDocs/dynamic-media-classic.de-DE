@@ -1,6 +1,6 @@
 ---
 title: Persönliche Einstellungen
-description: Alle Benutzer können die Einstellungen im Bildschirm "Persönliche Einstellungen"von Adobe Dynamic Media Classic ändern.
+description: Alle Benutzer können die Einstellungen auf dem Bildschirm „Personal Setup“ von Adobe Dynamic Media Classic ändern.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,13 +19,13 @@ ht-degree: 19%
 
 # Persönliche Einstellungen {#personal-setup}
 
-Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von allen Benutzern geändert werden. Um den Bildschirm &quot;Persönliche Einstellungen&quot;zu öffnen, gehen Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Persönliche Einstellungen]**.
+Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von allen Benutzern geändert werden. Um den Bildschirm Persönliches Setup zu öffnen, gehen Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Persönliches Setup]**.
 
 >[!NOTE]
 >
->Im Bildschirm Persönliche Einstellungen wird angezeigt, welche Benutzerrolle Sie in Adobe Dynamic Media Classic haben: Unternehmensadministrator, Administrator oder Benutzer.
+>Im Bildschirm Persönliche Einrichtung wird angezeigt, welche Benutzerrolle Sie in Adobe Dynamic Media Classic haben: Unternehmensadministrator, Administrator oder Benutzer.
 
-Die persönlichen Einstellungen steuern das Standardverhalten des Bedienfelds Durchsuchen , den E-Mail-Empfang und die Kennworteinstellungen. Denken Sie daran, **[!UICONTROL Speichern]** auszuwählen, nachdem Sie diese Einstellungen geändert haben.
+Die Einstellungen Persönliche Einrichtung steuern das Standardverhalten des Durchsuchen-Panels, den Empfang von E-Mails und die Passworteinstellungen. Denken Sie daran **[!UICONTROL nach]** Änderung dieser Einstellungen auf „Speichern“ zu klicken.
 
 ## Eigene Konto-Informationen
 
@@ -33,20 +33,20 @@ Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewi
 
 ## Desktop
 
-* **Bild-Cache löschen**: Entfernt alle Adobe Dynamic Media-zwischengespeicherten Bilddateien von Ihrem Computer.
-* **Asset-Cache löschen**: Entfernt alle Adobe Dynamic Media-Caches von Asset-Dateien von Ihrem Computer.
+* **Clear Image Cache**: Entfernt alle in Adobe Dynamic Media zwischengespeicherten Bilddateien vom Computer.
+* **Asset-Cache löschen**: Entfernt alle Adobe Dynamic Media-Cache-Asset-Dateien von Ihrem Computer.
 
-Sie können den Bild- und Asset-Cache nicht nur mit dem Desktop-Programm löschen, sondern auch den Cache direkt aus dem Dateisystem löschen. Navigieren Sie je nach Betriebssystem zu Folgendem:
+Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms können Sie den Cache auch manuell direkt aus dem Dateisystem löschen. Gehen Sie je nach Betriebssystem wie folgt vor:
 
 * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
 * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Creative Suite Extension
 
-**So installieren Sie die Adobe Dynamic Media Creative Suite Extension:**
+**So installieren Sie die Creative Suite-Erweiterung Adobe Dynamic Media:**
 
-1. Navigieren Sie in Adobe Dynamic Media Classic in der Symbolleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Persönliche Einstellungen]** und wählen Sie unter &quot;Creative Suite Extension&quot;die Option **[!UICONTROL Jetzt herunterladen]** aus, um die Datei `s7csxs.zxp` herunterzuladen.
-1. Wählen Sie die Links **[!UICONTROL Installation]** und **[!UICONTROL Systemanforderungen]** aus, um weitere Informationen zur Erweiterung zu erhalten.
+1. Gehen Sie in Adobe Dynamic Media Classic in der Symbolleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** und klicken Sie unter Creative Suite Extension auf **[!UICONTROL Jetzt herunterladen]**, um die `s7csxs.zxp` herunterzuladen.
+1. Wählen Sie die **[!UICONTROL Installation]** und **[!UICONTROL Systemanforderungen]** aus, um weitere Informationen zur Erweiterung zu erhalten.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -72,45 +72,45 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Browser
 
-* **[!UICONTROL Größe der Miniaturansichten]**: Legt die Standardgröße der Miniaturansichten in der Rasteransicht im Durchsuchenbedienfeld fest.
-* **[!UICONTROL Standard-Asset-Bibliotheksansicht]**: Bestimmt, ob die Assets in der Asset-Bibliothek für Build-Sets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
-* **[!UICONTROL Standardmäßige Sortierreihenfolge für Durchsuchen]**: Bestimmt die Reihenfolge, in der Assets standardmäßig im Bedienfeld Durchsuchen angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
-* **[!UICONTROL Standardmäßiger Durchsuchspeicherort]**: Hier können Sie den Durchsuchspeicherort auf den Standard-, den zuletzt durchsuchten Ordner oder einen bestimmten Speicherort festlegen, zu dem Sie navigieren und ihn identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
-* **[!UICONTROL Standard-Durchsuchen-Ansicht]**: Bestimmt, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie beim ersten Öffnen des Durchsuchenbedienfelds sehen.
-* **[!UICONTROL Splash Screen Display]**: Bestimmt, ob Begrüßungsbildschirme einschließlich des Begrüßungsbildschirms angezeigt werden.
-* **[!UICONTROL QuickInfos anzeigen]**: Legt fest, ob QuickInfos angezeigt werden, wenn Sie den Mauszeiger über Schaltflächen, Menüs und Navigationslinks bewegen. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
-* **[!UICONTROL Schachbretthintergrund]**: Zeigt hinter Bildern eine Schachbrettebene an, mit der Sie die transparenten Bereiche eines Bildes mit einem Alphakanal leicht sehen können.
+* **[!UICONTROL Größe der Miniaturen]**: Legt die Standardgröße der Miniaturen in der Rasteransicht im Durchsuchen-Panel fest.
+* **[!UICONTROL Standardansicht der Asset]** Bibliothek: Bestimmt, ob die Assets in der Asset-Bibliothek für Build-Sets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
+* **[!UICONTROL Standard-Durchsuchen-Sortierreihenfolge]**: Bestimmt die Reihenfolge, in der Assets standardmäßig im Durchsuchen-Bedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
+* **[!UICONTROL Standardspeicherort durchsuchen]**: Hiermit können Sie den Durchsuchen-Speicherort auf den Standardwert, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und den Sie identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
+* **[!UICONTROL Standardansicht durchsuchen]**: Legt fest, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie sehen, wenn Sie das Bedienfeld zum ersten Mal öffnen.
+* **[!UICONTROL Begrüßungsbildschirm]**: Legt fest, ob Begrüßungsbildschirme angezeigt werden, einschließlich des Begrüßungsbildschirms.
+* **[!UICONTROL QuickInfos anzeigen]**: Legt fest, ob QuickInfos angezeigt werden, wenn der Mauszeiger über Schaltflächen, Menüs und Navigations-Links bewegt wird. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
+* **[!UICONTROL Schachbretthintergrund]**: Zeigt eine Schachbrettschicht hinter Bildern an, sodass Sie die transparenten Bereiche eines Bildes mit einem Alphakanal leicht sehen können.
 * **[!UICONTROL Dateigröße anzeigen]**: Zeigt die Dateigröße eines Assets beim Durchsuchen an.
-* **[!UICONTROL Schließen Sie UDFs in die Suche ein]**: Um die Systemleistung für die meisten von Ihnen ausgeführten Metadaten-Suchen zu verbessern, deaktivieren Sie (Standard).
+* **[!UICONTROL UDFs in Suche einbeziehen]**: Deaktivieren Sie diese Option (Standard), um die Systemleistung für die meisten von Ihnen ausgeführten Metadatensuchen zu verbessern.
 
-  Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Verwenden Sie alternativ die erweiterte Suche , um eine zielgerichtetere und schnellere Suche zu ermöglichen, als durch Einbeziehung benutzerdefinierter Felder.
+  Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ können Sie die erweiterte Suche verwenden, um eine zielgerichtetere und schnellere Suche zu ermöglichen, als wenn Sie benutzerdefinierte Felder einbeziehen.
 
   Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
 
   Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Einfacher Suchtyp]**: Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die gesamte Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller zurück als **[!UICONTROL Enthält]**. Jede der Optionen setzt die Standardeinstellung außer Kraft, die der Administrator in **[!UICONTROL Einrichtung]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Anwendungseinstellungen]** festgelegt hat.
-* **[!UICONTROL Befehls-Feedback anzeigen]**: Wählen Sie diese Option aus, um die Anzeige von Befehlsanforderungen an den Server zu aktivieren. Deaktivieren Sie diese Option, um sie zu deaktivieren.
-* **[!UICONTROL Dialogfeld beim Export anzeigen]**: Wählen Sie diese Option, um ein Popup-Dialogfeld während eines Exports anzuzeigen. Wenn Sie diese Option deaktivieren (deaktivieren), können Sie weiterhin zur Seite &quot;Aufträge&quot;navigieren, um die Ergebnisse Ihres Exports abzurufen.
+* **[!UICONTROL Standardsuchtyp]**: Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die vollständige Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller als **[!UICONTROL Enthält]** zurück. Jede dieser Optionen überschreibt die Standardeinstellung, die vom Administrator unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Anwendungseinstellungen]** festgelegt wurde.
+* **[!UICONTROL Befehlsfeedback anzeigen]**: Wählen Sie diese Option, um die Anzeige von Befehlsanforderungen an den Server einzuschalten, oder deaktivieren Sie diese Option, um sie zu deaktivieren.
+* **[!UICONTROL Dialogfeld beim Exportieren anzeigen]** Wählen Sie diese Option aus, um während eines Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren, können Sie dennoch zur Seite Vorgänge gehen, um die Ergebnisse Ihres Exports abzurufen.
 
 ## E-Mail an Freunde senden
 
-* **[!UICONTROL E-Mail-Optionen]**: Wählen Sie aus, wie Adobe Dynamic Media Classic Sie per E-Mail informieren soll, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
-* **[!UICONTROL E-Mail-Umfang]**: Bestimmt, ob Sie die gesamte Auftrags-E-Mail für Ihr Unternehmen oder nur E-Mails zu Upload- und Veröffentlichungsaufträgen erhalten, die Sie initiieren.
-* **[!UICONTROL E-Mail-Typen]**: Bestimmt, ob Sie informiert werden, wenn Upload-Aufträge und Veröffentlichungsaufträge abgeschlossen sind.
+* **[!UICONTROL E-Mail-Optionen]**: Wählen Sie aus, wie Adobe Dynamic Media Classic Sie per E-Mail über den Abschluss von Upload- und Veröffentlichungsaufträgen informieren soll. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
+* **[!UICONTROL E-Mail-Umfang]**: Bestimmt, ob Sie alle E-Mail-Vorgangs-E-Mails für Ihr Unternehmen erhalten oder nur E-Mails zu von Ihnen initiierten Upload- und Veröffentlichungsvorgängen.
+* **[!UICONTROL E-Mail-Typen]**: Legt fest, ob Sie informiert werden, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind.
 
 ## Sprache
 
-* **[!UICONTROL Bevorzugte Sprache]**: Bestimmt die Sprache, die Sie für die Benutzeroberfläche verwenden möchten.
+* **[!UICONTROL Bevorzugte Sprache]**: Legt die Sprache fest, die für die Benutzeroberfläche verwendet werden soll.
 
 ## Kennwort
 
-* **[!UICONTROL Aktuelles Kennwort]**: Geben Sie das Kennwort für Ihr aktuelles Kennwort ein.
-* **[!UICONTROL Neues Kennwort]**: Geben Sie ein neues gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
-   * Sie muss zwischen 8 und 25 Zeichen lang sein.
-   * mindestens einen Kleinbuchstaben enthalten.
-   * mindestens einen Großbuchstaben enthalten.
-   * mindestens eine Zahl enthalten.
-   * mindestens eines der folgenden Sonderzeichen enthalten: `# $ &: _ : { }`
+* **[!UICONTROL Aktuelles Kennwort]**: Geben Sie das Kennwort für das aktuelle Kennwort ein.
+* **[!UICONTROL Neues Kennwort]**: Geben Sie ein neues, gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
+   * Er muss zwischen 8 und 25 Zeichen lang sein.
+   * enthält mindestens einen Kleinbuchstaben.
+   * Enthält mindestens einen Großbuchstaben.
+   * enthält mindestens eine Zahl.
+   * Mindestens eines der folgenden Sonderzeichen enthalten: `# $ &: _ : { }`
 * **[!UICONTROL Kennwort erneut eingeben]**: Geben Sie das neue Kennwort erneut ein, um zu bestätigen, dass Sie es korrekt eingeben.
-* **[!UICONTROL Passwortablauf]**: Bestimmt, ob Ihr Passwort als Sicherheitsmaßnahme nach 72 Tagen abläuft. Wenn Sie &quot;Ja&quot;ausgewählt haben, werden Sie nach 72 Tagen aufgefordert, ein Kennwort zu erstellen.
+* **[!UICONTROL Kennwortablauf]**: Legt als Sicherheitsmaßnahme fest, ob Ihr Kennwort nach 72 Tagen abläuft. Wenn Sie Ja ausgewählt haben, werden Sie nach 72 Tagen aufgefordert, ein Kennwort zu erstellen.

@@ -1,6 +1,6 @@
 ---
-title: Auswählen von Assets im Bedienfeld "Durchsuchen"
-description: Erfahren Sie, wie Sie Assets im Bedienfeld "Durchsuchen"von Adobe Dynamic Media Classic auswählen.
+title: Auswählen von Assets im Durchsuchen-Panel
+description: Erfahren Sie, wie Sie Assets im Durchsuchen-Panel von Adobe Dynamic Media Classic auswählen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,14 +17,14 @@ ht-degree: 18%
 
 ---
 
-# Auswählen von Assets im Bedienfeld &quot;Durchsuchen&quot;{#selecting-assets-in-the-browse-panel}
+# Auswählen von Assets im Durchsuchen-Panel{#selecting-assets-in-the-browse-panel}
 
-Wählen Sie ein Asset im Bedienfeld &quot;Durchsuchen&quot;aus, damit Sie es bearbeiten können. Sie haben zum Auswählen von Assets die folgenden Möglichkeiten:
+Wählen Sie ein Asset im Durchsuchen-Bedienfeld aus, um es verwenden zu können. Sie haben zum Auswählen von Assets die folgenden Möglichkeiten:
 
 * **Ein einzelnes Asset**: Wählen Sie das Asset aus (durch Doppelklicken wird das Asset in der Detailansicht geöffnet).
 
-* **Mehrere Assets**: Strg+Klicken (Windows®) oder Befehlstaste+Klicken (Mac) zum Auswählen von Assets an verschiedenen Stellen im Bedienfeld &quot;Durchsuchen&quot;. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
+* **Mehrere Assets**: Strg+Klicken (Windows®) bzw. Befehl+Klicken (Mac), um Assets an verschiedenen Stellen im Durchsuchen-Panel auszuwählen. Wenn Sie mehrere nebeneinander angezeigte Assets auswählen möchten, klicken Sie auf das erste gewünschte Asset und dann bei gedrückter Umschalttaste auf das letzte gewünschte Asset.
 
-* **Alle Assets im Bedienfeld &quot;Durchsuchen&quot;**: Wechseln Sie zu **[!UICONTROL Select]** > **[!UICONTROL All]**.
+* **Alle Assets im Durchsuchen**: Navigieren Sie zu **[!UICONTROL Auswählen]** > **[!UICONTROL Alle]**.
 
-* **Kein Asset**: Gehen Sie zu **[!UICONTROL Select]** > **[!UICONTROL None]**.
+* **Keine Assets**: Navigieren Sie zu **[!UICONTROL Auswählen]** > **[!UICONTROL Keine]**.

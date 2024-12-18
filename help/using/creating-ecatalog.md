@@ -1,6 +1,6 @@
 ---
-title: Erstellen eines eCatalog
-description: Erfahren Sie, wie Sie einen eCatalog in Adobe Dynamic Media Classic erstellen.
+title: E-Katalog erstellen
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic einen E-Katalog erstellen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,114 +19,114 @@ ht-degree: 30%
 
 # Erstellen eines E-Katalogs {#creating-an-ecatalog}
 
-Das Erstellen eines E-Katalogs umfasst das Sortieren der Seiten, das Auswählen des Seitenlayouts und das Verknüpfen der Seiten durch Zeichnen von Imagemaps. Außerdem müssen Rollover- und Hypertext-Link-Daten eingegeben werden. Optional können Sie das Inhaltsverzeichnis so anpassen, dass die Betrachter der Website anstelle von Seitenzahlen individuelle Seitennamen im E-Katalog-Viewer sehen.
+Das Erstellen eines E-Katalogs umfasst das Sortieren der Seiten, das Auswählen des Seiten-Layouts und das Verknüpfen der Seiten durch Zeichnen von Imagemaps. Außerdem ist die Eingabe von Rollover- und Hypertext-Linkdaten erforderlich. Optional können Sie das Inhaltsverzeichnis so anpassen, dass die Betrachter der Website anstelle von Seitenzahlen individuelle Seitennamen im E-Katalog-Viewer sehen.
 
-## Erstellen eines eCatalog {#create}
+## E-Katalog erstellen {#create}
 
-Sie können Bilddateien und PDF-Dateien in Ihren eCatalog aufnehmen.
+Sie können Bilddateien und PDF-Dateien in Ihren E-Katalog aufnehmen.
 
-Wenn Sie einen E-Katalog erstellen, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** wie folgt auf das Set und die Set-Mitglieder aus:
+Beim Erstellen eines E-Katalogs wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| Vor dem Speichern die Option &quot;Publish nach dem Speichern&quot;ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Vor dem Speichern die Option &quot;Publish nach dem Speichern“ ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
-**So erstellen Sie einen eCatalog:**
+**So erstellen Sie einen E-Katalog:**
 
 1. Wählen Sie zu Beginn der Erstellung eines E-Katalogs eine der folgenden Vorgehensweisen:
 
-   * **Wählen Sie zuerst die Dateien aus**: Wählen Sie im Bedienfeld &quot;Durchsuchen&quot;die Dateien aus und gehen Sie dann zu &quot;**[!UICONTROL Build]**&quot;> &quot;**[!UICONTROL eCatalog]**&quot;.
+   * **Zuerst die Dateien auswählen**: Wählen Sie im Durchsuchen-Bereich die Option Dateien aus und navigieren Sie dann zu **[!UICONTROL Erstellen]** > **[!UICONTROL eCatalogs]**.
 
-   * **Vom E-Katalog-Bildschirm starten**: Wechseln Sie zu &quot;**[!UICONTROL Build]**&quot;> &quot;**[!UICONTROL eCatalog]**&quot;. Wählen Sie einen Ordner in der Asset-Bibliothek aus. Ziehen Sie Dateien aus dem Ordner in die Registerkarte &quot;Seiten ordnen&quot;der eCatalog-Seite.
+   * **Vom E-Katalog-Bildschirm starten**: Gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL E-Kataloge]**. Wählen Sie einen Ordner in der Asset-Bibliothek aus. Ziehen Sie Dateien aus dem Ordner auf die Registerkarte Seiten sortieren der Seite eCatalog .
 
      >[!NOTE]
      >
      >Um die Elemente in der Asset-Bibliothek als Liste der Namen anzuzeigen statt als Miniaturansichten, wählen Sie unter „Persönliche Einstellungen“ als Standardansicht für die Asset-Bibliothek die Option „Name“ aus.
 
-1. Wählen Sie ein Gesamtlayout für den E-Katalog aus. Wählen Sie **[!UICONTROL 1 Aufwärts]** für einzelne Seiten, **[!UICONTROL 2 Aufwärts]** für doppelseitige Druckbögen oder **[!UICONTROL Benutzerdefiniert]** für Seitenaufteilungen mit mehr als zwei Seiten. Wählen Sie im Dialogfeld **[!UICONTROL E-Katalog-Layout ändern]** die Optionen **[!UICONTROL Alle Druckbögen]** und dann **[!UICONTROL OK]** aus.
-1. Optional können Sie das Layout einzelner Seiten oder Seitenaufteilungen ändern, indem Sie sie auswählen und dann die Schaltfläche **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Custom]** auswählen. Wählen Sie im Dialogfeld **[!UICONTROL E-Katalog-Layout ändern]** die Optionen **[!UICONTROL Ausgewählte Druckbögen]** und danach **[!UICONTROL OK]** aus.
+1. Wählen Sie ein Gesamtlayout für den E-Katalog aus. Wählen Sie **[!UICONTROL 1 oben]** für einzelne Seiten, **[!UICONTROL 2 oben]** für doppelseitige Spreads oder **[!UICONTROL Benutzerdefiniert]** für Seitenspreads mit mehr als zwei Seiten aus. Wählen **[!UICONTROL Dialogfeld E-Katalog-Layout ändern]** die Optionen **[!UICONTROL Alle Spreads]** aus und klicken Sie auf **[!UICONTROL OK]**.
+1. Optional können Sie das Layout einzelner Seiten oder Seiten-Spreads ändern, indem Sie sie auswählen und dann die Schaltfläche **[!UICONTROL 1 Nach oben]**, **[!UICONTROL 2 Nach oben]** oder **[!UICONTROL Benutzerdefiniert]** auswählen. Wählen **[!UICONTROL Dialogfeld E-Katalog-Layout ändern]** die Optionen **[!UICONTROL Ausgewählte Spreads]** aus und klicken Sie auf **[!UICONTROL OK]**.
 1. Ordnen Sie die Seiten mit einem der folgenden Verfahren nach Bedarf neu an:
 
-   * **Ziehen**: Ziehen Sie eine Seite oder einen Seitenstrich an eine neue Position. Die vertikale Leiste zeigt an, wohin die Seite verschoben wird.
+   * **Ziehen**: Ziehen Sie eine Seite oder einen Seitenbereich an eine neue Position. Die vertikale Leiste zeigt an, wohin die Seite verschoben wird.
 
-   * **Schaltfläche &quot;Verschieben nach&quot;**: Wählen Sie eine Seite oder einen Seitenstrich aus, klicken Sie auf **[!UICONTROL Verschieben nach]** und wählen Sie die Seite im Menü aus, vor der die Seite angezeigt werden soll.
+   * **Schaltfläche „Verschieben nach**: Wählen Sie eine Seite oder Seitenübersicht aus, wählen Sie **[!UICONTROL Verschieben nach]** und wählen Sie im Menü die Seite aus, vor der Ihre Seite angezeigt werden soll.
 
-   * **Sequenz #**: Geben Sie in der Listenansicht Seitenzahlen in die Felder der Sequenz # ein.
+   * **Sequenz Nr.**: Geben Sie in der Listenansicht die Seitenzahlen in die Felder der Sequenz Nr. ein.
 
-1. Wenn Sie fertig sind, stellen Sie sicher, dass rechts unten auf der Seite **[!UICONTROL Publish nach einem Speichern]** ausgewählt ist (Standard).
+1. Wenn Sie fertig sind, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem der E-Katalog gespeichert werden soll. Geben Sie im Feld Dateiname den Namen des Rotationssets ein.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-   Nachdem Sie den E-Katalog gespeichert haben, können Sie eine Vorschau des E-Katalogs anzeigen, indem Sie **[!UICONTROL Vorschau]** auswählen.
+   Sie können Ihren E-Katalog nach dem Speichern in der Vorschau anzeigen, indem Sie **[!UICONTROL Vorschau]** auswählen.
 
-## Bearbeiten eines E-Katalogs {#editing-an-ecatalog}
+## E-Katalog bearbeiten {#editing-an-ecatalog}
 
-Unabhängig davon, ob Sie einen veröffentlichten oder einen nicht veröffentlichten Satz bearbeiten, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** wie folgt auf das Set und die Setmitglieder aus:
+Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| Set bereits veröffentlicht? | Option &quot;Publish nach dem Speichern&quot;vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | Vor dem Speichern der Bearbeitung die Option &quot;Publish nach dem Speichern“ ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren Veröffentlichungsstatus bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
-**So bearbeiten Sie einen eCatalog:**
+**So bearbeiten Sie einen E-Katalog:**
 
 1. Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des E-Katalogs aus.
 1. Nehmen Sie die erforderlichen Änderungen vor.
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass rechts unten auf der Seite **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
-1. Wählen Sie &quot;**[!UICONTROL Speichern]**&quot;, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und wählen Sie dann &quot;**[!UICONTROL Speichern]**&quot;.
+1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-## Löschen eines eCatalog
+## E-Katalog löschen
 
-Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder &quot;untergeordneten Elemente&quot;) in diesem Satz sind jedoch nicht betroffen. Stattdessen behalten sie ihren vorhandenen Status veröffentlicht oder unveröffentlicht bei.
+Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
-**So löschen Sie einen eCatalog:**
+**So löschen Sie einen E-Katalog:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht einen oder mehrere E-Kataloge aus.
-1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
+1. Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.
 
 ## Anpassen des Inhaltsverzeichnisses {#customizing-the-table-of-contents-toc}
 
-Adobe Dynamic Media Classic stellt in Ihrem E-Katalog auf der Registerkarte &quot;Seiten bestellen&quot;des E-Katalog-Bildschirms die standardmäßigen Seitenzahlen bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann die Titelseite &quot;Cover&quot;anstelle von &quot;Page 0-1&quot;lauten.
+Adobe Dynamic Media Classic stellt die Standardseitennummern in Ihrem E-Katalog auf der Registerkarte Bestellseiten des E-Katalog-Bildschirms bereit. Um benutzerdefinierte Seitennamen zu verwenden, können Sie die Seitenbeschriftungen ändern, aus denen das Inhaltsverzeichnis erstellt wird. Eine Umbenennung der Vorder- und Rückseite wird empfohlen. Beispielsweise kann auf der Titelseite „Titelseite“ anstelle von „Seite 0-1“ stehen.
 
-Sie können ein benutzerdefiniertes Inhaltsverzeichnis (TOC) für Ihren eCatalog manuell erstellen. Sie können die Seitennamen auch aus einer CSV- (nur Mac) oder einer XML-Datei importieren.
+Sie können für Ihren E-Katalog manuell ein benutzerdefiniertes Inhaltsverzeichnis erstellen. Sie können die Seitennamen auch aus einer CSV- (nur Mac) oder XML-Datei importieren.
 
 >[!NOTE]
 >
->Um die standardmäßigen Seitentitel wiederherzustellen, wählen Sie auf der Registerkarte **[!UICONTROL Seiten sortieren]** die Option **[!UICONTROL TOC-Beschriftungen]** und klicken Sie dann auf **[!UICONTROL Standardangaben wiederherstellen (Alle)]**.
+>Um die Standardseitentitel wiederherzustellen, wählen Sie auf der Registerkarte **[!UICONTROL Bestellseiten]** die Option **[!UICONTROL Inhaltsverzeichnisbeschriftungen]** und dann **[!UICONTROL Standardeinstellungen wiederherstellen (Alle)]**.
 
 ### Manuelles Eingeben von Seitennamen {#manually-entering-page-names}
 
-Geben Sie Seitennamen einzeln manuell ein, indem Sie im E-Katalog-Bildschirm auf die Registerkarte &quot;Seiten sortieren&quot;gehen. Geben Sie dann im Feld &quot;Seitenzahl&quot;einen Namen für jede Seite ein, die Sie benennen möchten.
+Geben Sie die Seitennamen einzeln manuell ein, indem Sie auf der Registerkarte Bestellseiten des Bildschirms E-Katalog zu navigieren. Geben Sie dann im Feld Seitennummer einen Namen für jede Seite ein, die Sie benennen möchten.
 
-### Importieren von Seitennamen {#importing-page-names}
+### Seitennamen importieren {#importing-page-names}
 
 Das Importieren von Seitennamen wird für einen E-Katalog mit sehr vielen Seiten empfohlen. Sie haben die Möglichkeit, die Namen aus einer tabulatorgetrennten Datei oder einer XML-Datei zu importieren.
 
-Die Beschriftung des Inhaltsverzeichnisses wird im Feld &quot;Benutzerdaten&quot;eines Bildes gespeichert. Formatieren Sie diese Daten als Liste von `name=<value>` ` pairs separated by two question marks "??" `. Um beispielsweise eine Beschriftung für ein TOC-Feld mit dem Namen `tocEN` festzulegen, setzen Sie die Benutzerdaten des Bildes auf:
+Das Inhaltsverzeichnis wird im Benutzerdatenfeld eines Bildes gespeichert. Formatieren Sie diese Daten als Liste `name=<value>` ` pairs separated by two question marks "??" `. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnisfeld festzulegen, das `tocEN` heißt, legen Sie für die Benutzerdaten des Bildes Folgendes fest:
 
 `tocEN=&lt;EN_page_label>`
 
-So legen Sie separate Beschriftungen für TOC-Felder mit den Namen `tocEN` und `tocFR` fest:
+So legen Sie separate Beschriftungen für Inhaltsverzeichnisfelder mit den Namen `tocEN` und `tocFR` fest:
 
 `tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>`
 
-Um das Feld &quot;Benutzerdaten&quot;in eine tabulatorgetrennte Datei zu importieren, fügen Sie die Benutzerdaten des Felds ein:
+Um das Benutzerdatenfeld in eine durch Tabulatoren getrennte Datei zu importieren, fügen Sie das Benutzerdatenfeld ein:
 
 | IPSID | Benutzerdaten |
 | --- | --- |
 | `<image_IPS_ID>` | `tocEN=<EN_page_label>??tocFR=<FR_page_label>` |
 
-Um das Feld &quot;Benutzerdaten&quot;in eine XML-Datei zu importieren, fügen Sie das Attribut `vc_userdata` hinzu:
+Um das Benutzerdatenfeld in eine XML-Datei zu importieren, fügen Sie das `vc_userdata` ein:
 
 ```as3
 <ips> 
@@ -134,4 +134,4 @@ Um das Feld &quot;Benutzerdaten&quot;in eine XML-Datei zu importieren, fügen Si
 </ips>
 ```
 
-Um Seitennamen aus einer tabulatorgetrennten oder XML-Datei zu importieren, wählen Sie die Schaltfläche **[!UICONTROL TOC-Beschriftungen]** und danach **[!UICONTROL Importieren]** aus. Wählen Sie im Dialogfeld &quot;Metadaten hochladen&quot;die Option **[!UICONTROL Durchsuchen]** und importieren Sie dann die CSV-Datei (nur Mac) oder die XML-Datei, die jeder Seite einen Seitennamen zuordnet.
+Um Seitennamen aus einer tabulatorgetrennten oder XML-Datei zu importieren, klicken Sie auf die Schaltfläche **[!UICONTROL Inhaltsverzeichnisbeschriftungen]** und wählen Sie **[!UICONTROL Importieren]**. Wählen Sie im Dialogfeld Metadaten hochladen die Option **[!UICONTROL Durchsuchen]** aus und importieren Sie dann die CSV-Datei (nur Mac) oder XML-Datei, die jede Seite mit einem Seitennamen verknüpft.

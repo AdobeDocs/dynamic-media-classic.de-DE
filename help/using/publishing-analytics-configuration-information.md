@@ -19,17 +19,17 @@ ht-degree: 19%
 
 # Publish Adobe Analytics-Konfigurationsinformationen{#publishing-adobe-analytics-configuration-information}
 
-Publish Sie Ihre Adobe Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an Adobe Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf den Adobe Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
+Publish unterstützt die Adobe Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an Adobe Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf Adobe Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
 
 >[!NOTE]
 >
->Wenn Sie die Adobe Analytics-Berichtseinstellungen in Adobe Analytics ändern, stellen Sie sicher, dass Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen speichern und dann erneut veröffentlichen.
+>Wenn Sie Adobe Analytics-Berichteinstellungen in Adobe Analytics ändern, müssen Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen erneut speichern und dann erneut veröffentlichen.
 
 Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Siehe [Konfigurieren von Adobe Analytics-Berichten](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
+Siehe [Konfigurieren von Adobe Analytics-](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
 **So veröffentlichen Sie Konfigurationsinformationen:**
 
-1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]** aus.
-1. Wählen Sie im Dialogfeld **[!UICONTROL `Publish`]** die Option **[!UICONTROL Publish übermitteln]**.
+1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]**.
+1. Wählen Sie im Dialogfeld **[!UICONTROL `Publish`]** die Option **[!UICONTROL Publish senden]**.

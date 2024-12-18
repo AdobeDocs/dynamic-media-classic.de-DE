@@ -1,6 +1,6 @@
 ---
-title: Vorschau eines Rotationssets
-description: Erfahren Sie, wie Sie eine Vorschau eines Rotationssets in Adobe Dynamic Media Classic anzeigen.
+title: Anzeigen einer Vorschau für ein Rotationsset
+description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic eine Vorschau eines Rotationssets anzeigen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,27 +17,27 @@ ht-degree: 28%
 
 ---
 
-# Vorschau eines Rotationssets{#previewing-a-spin-set}
+# Anzeigen einer Vorschau für ein Rotationsset{#previewing-a-spin-set}
 
-Mit der Viewer-Liste können Sie eine Vorschau eines Assets auf einer bestimmten Viewer-Plattform wie HTML5 anzeigen. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar. 
+Sie können die Viewer-Liste verwenden, um eine Vorschau anzuzeigen, wie ein Asset auf einer bestimmten Viewer-Plattform wie HTML5 angezeigt wird. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen in der Viewer-Lise verfügbar. 
 
-Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_default_viewers).
+Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_viewers).
 
-Siehe [Vorschau eines Assets anzeigen](previewing-asset.md#previewing_an_asset).
+Siehe [Vorschau eines Assets](previewing-asset.md#previewing_an_asset).
 
-**So zeigen Sie die Vorschau eines Rotationssets an:**
+**So zeigen Sie eine Vorschau eines Rotationssets an:**
 
 1. Wählen Sie auf der linken Seite der Asset-Bibliothek in der Dropdown-Liste „Anzeigen“ den Asset-Typ „Rotationsset“ aus.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Rotationsset enthält, das Sie mit einem Viewer in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Rasteransicht]** aus. Navigieren Sie im Asset-Fenster unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster &quot;Asset&quot;ein Asset aus und navigieren Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Detailansicht]** aus. Wechseln Sie in derselben Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wechseln Sie im Asset-Fenster unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster „Asset“ ein Asset aus und gehen Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
+   * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Wechseln Sie in der Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-1. Wählen Sie im Fenster &quot;Viewer-Liste&quot;in der Tabelle einen Viewer-Link aus, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
+1. Wählen Sie im Viewer-Listenfenster in der Tabelle einen Viewer-Link aus, um das Asset im ausgewählten Viewer in der Vorschau anzuzeigen.
 1. Schließen Sie den angezeigten Viewer.
-1. Wählen Sie rechts unten im Fenster &quot;Viewer-Liste&quot;die Option **[!UICONTROL Schließen]** aus, um zum Assets-Bildschirm zurückzukehren.
+1. Wählen Sie in der rechten unteren Ecke des Fensters Viewer-Liste die Option **[!UICONTROL Schließen]** aus, um zum Assets-Bildschirm zurückzukehren.
 
 >[!MORELIKETHIS]
 >

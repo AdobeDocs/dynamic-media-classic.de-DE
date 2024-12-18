@@ -1,5 +1,5 @@
 ---
-title: Quelle und kodierte Videos exportieren
+title: Exportieren von Quellvideos und kodierten Videos
 description: Erfahren Sie, wie Sie Quellvideos und kodierte Videos in Adobe Dynamic Media Classic exportieren.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ---
 
-# Quelle und kodierte Videos exportieren{#exporting-source-and-encoded-videos}
+# Exportieren von Quellvideos und kodierten Videos{#exporting-source-and-encoded-videos}
 
-Im Bedienfeld &quot;Durchsuchen&quot;werden Quellvideos mit der Bezeichnung *Primäres Video* versehen. Kodierte Videos haben die Bezeichnung *Video*. Sie können Primärvideos und -videos exportieren. Um Videodateien zu exportieren, wählen Sie sie im Bedienfeld Durchsuchen aus und gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Export]**.
+Im Durchsuchen-Bedienfeld werden Quellvideos mit der Bezeichnung *Primäres Video* versehen. Kodierte Videos sind mit &quot;*&quot;*. Sie können primäre Videos und Videos exportieren. Um Videodateien zu exportieren, wählen Sie sie im Durchsuchen-Panel aus und navigieren Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Exportieren]**.
 
 Siehe [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 

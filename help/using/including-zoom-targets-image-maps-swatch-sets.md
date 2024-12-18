@@ -1,6 +1,6 @@
 ---
-title: Zoomziele und Imagemaps in Mustersets einschließen
-description: Erfahren Sie, wie Sie Zoomziele und Imagemaps in Mustersets in Adobe Dynamic Media Classic einbeziehen.
+title: Zoom-Ziele und Imagemaps in Mustersets einschließen
+description: Erfahren Sie, wie Sie Zoom-Ziele und Imagemaps in Mustersets in Adobe Dynamic Media Classic einbeziehen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# Zoomziele und Imagemaps in Mustersets einschließen{#including-zoom-targets-and-image-maps-in-swatch-sets}
+# Zoom-Ziele und Imagemaps in Mustersets einschließen{#including-zoom-targets-and-image-maps-in-swatch-sets}
 
-Wenn Sie Zoomziele und Imagemaps für die Bilder in Ihrem Musterset definieren, werden diese Ziele und Karten im Musterset-Viewer angezeigt. Benutzer können beispielsweise eine Imagemap im Musterset-Viewer auswählen und auf Ihrer Website eine neue Seite mit Informationen zu einem Element öffnen. Benutzer können im Musterset-Viewer eine Zielminiaturansicht auswählen und automatisch auf einen Teil eines Bildes zoomen.
+Wenn Sie Zoom-Ziele und Imagemaps für die Bilder im Farbfeldset definieren, werden diese Ziele und Karten im Farbfeldset-Viewer angezeigt. Benutzerinnen und Benutzer können beispielsweise eine Imagemap im Musterset-Viewer auswählen und eine neue Seite auf Ihrer Website mit Informationen zu einem Element öffnen. Benutzerinnen und Benutzer können im Musterset-Viewer ein Zielminiaturbild auswählen und automatisch auf einen Teil eines Bildes zoomen.
 
-Wenn Sie Benutzern Zoomziele und Imagemaps zur Verfügung stellen möchten, erstellen Sie Zoomziele und Imagemaps für die Bilder in Ihrem Musterset. Dies können Sie mit den Werkzeugen für Imagemaps oder Zoomziele im Bildschirm &quot;Musterset&quot;oder im Durchsuchenbedienfeld (in der Detailansicht) tun.
+Wenn Sie Zoom-Ziele und Imagemaps für Benutzerinnen und Benutzer verfügbar machen möchten, erstellen Sie Zoom-Ziele und Imagemaps für die Bilder in Ihrem Musterset. Verwenden Sie dazu die Tools Imagemaps oder Zoom-Ziele im Bildschirm Musterset oder im Durchsuchen-Bedienfeld (in der Detailansicht).
 
 >[!MORELIKETHIS]
 >
->* [Erstellen von Zoomzielen für geführten Zoom](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
+>* [Erstellen von Zoom-Zielen für geführtes Zoomen](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
 >* [Erstellen von Imagemaps](creating-image-maps.md#creating_image_maps)

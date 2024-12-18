@@ -18,7 +18,7 @@ ht-degree: 33%
 
 # Über benutzergenerierte Inhalte in Adobe Dynamic Media Classic {#about-user-generated-content}
 
-Die Verwendung von benutzergenerierten Inhalten besteht darin, Assets in ein dediziertes Adobe Dynamic Media Classic-Speicher-Repository hochzuladen und zugehörige Vorgänge auszuführen.
+Die Verwendung von benutzergenerierten Inhalten (UGC) besteht aus dem Hochladen von Assets in ein dediziertes Adobe Dynamic Media Classic-Speicher-Repository und dem Ausführen zugehöriger Vorgänge.
 
 UGC unterstützt Rasterbilddateiformate BMP, GIF, JPG, PNG, PSD, TIFF.
 
@@ -30,13 +30,13 @@ UGC unterstützt Rasterbilddateiformate BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!NOTE]
 >
->Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endete am 30. September 2021.
 
 Sie erhalten einen gemeinsamen geheimen Schlüssel, bevor Sie Assets hochladen. Verwenden Sie diesen Schlüssel, um ein Upload-Token abzurufen. Sie senden das Upload-Token, wenn Sie Assets hochladen und andere Aufgaben für benutzergenerierte Inhalte ausführen.
 
 Wenn Sie einen gemeinsamen geheimen Schlüssel und ein Upload-Token erhalten haben, können Sie die folgenden Vorgänge für benutzergenerierte Inhalte ausführen:
 
-* Laden Sie ein Asset hoch.
+* Asset hochladen.
 * Abrufen von Asset-Metadaten für Bilder
 * Löschen eines hochgeladenen Assets. 
-* Erhalten Sie Informationen zur Festplattenspeicherplatznutzung eines Unternehmens.
+* Erhalten Sie Informationen über die Speicherplatznutzung eines Unternehmens.

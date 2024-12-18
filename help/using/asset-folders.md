@@ -19,44 +19,44 @@ ht-degree: 27%
 
 # Arbeiten mit Asset-Ordnern{#working-with-asset-folders}
 
-Datei-Assets in Adobe Dynamic Media Classic werden in Ordnern aufbewahrt. In der Asset-Bibliothek werden diese Ordner in alphabetischer Reihenfolge aufgeführt. Bevor Sie Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochladen, müssen Sie einen Ordner zum Speichern der Dateien benennen. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
+Datei-Assets in der Adobe Dynamic Media Classic werden in Ordnern aufbewahrt. In der Asset-Bibliothek werden diese Ordner in alphabetischer Reihenfolge aufgeführt. Vor dem Hochladen von Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic werden Sie aufgefordert, einen Ordner zum Speichern der Dateien zu benennen. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
 
-Stellen Sie vor dem Hochladen von Dateien eine Ordnerstruktur und -organisation zum Speichern Ihrer Dateien in Adobe Dynamic Media Classic her.
+Stellen Sie sicher, dass Sie eine Ordnerstruktur und eine Organisation zum Speichern Ihrer Dateien auf Adobe Dynamic Media Classic eingerichtet haben, bevor Sie Dateien hochladen.
 
-## Anzeigen, Verschieben, Ausblenden und Öffnen von Ordnern {#displaying-moving-hiding-and-opening-folders}
+## Ordner anzeigen, verschieben, ausblenden und öffnen {#displaying-moving-hiding-and-opening-folders}
 
-In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird der zugehörige Inhalt im Bedienfeld Durchsuchen angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
+In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird sein Inhalt im Durchsuchen-Bedienfeld angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
 * **Unterordner anzeigen**: Wählen Sie das Symbol **[!UICONTROL Ordner erweitern]** aus, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner verschieben**: Sie können einen Ordner verschieben, indem Sie ihn an die neue Position ziehen und dort ablegen oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]** auswählen.
+* **Ordner verschieben**: Sie können einen Ordner verschieben, indem Sie ihn an den neuen Speicherort ziehen und dort ablegen, oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]**.
 
-* **Ordner ausblenden**: Wählen Sie das Symbol &quot;**[!UICONTROL Ordner ausblenden]**&quot;, wenn Sie Unterordner ausblenden möchten, um sie aus der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Ordner ausblenden**: Wählen Sie das Symbol **[!UICONTROL Ordner ausblenden]** aus, wenn Sie Unterordner ausblenden möchten. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn Sie seinen Inhalt im Bedienfeld &quot;Durchsuchen&quot;anzeigen möchten.
+* **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn sein Inhalt im Durchsuchen-Panel angezeigt werden soll.
 
 >[!TIP]
 >
->Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite das Steuerelement **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auswählen. Reduzieren Sie das Bedienfeld &quot;Asset-Bibliothek&quot;, wenn Sie mehr Platz für die Arbeit im Bedienfeld &quot;Durchsuchen&quot;benötigen.
+>Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite das Steuerelement **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auswählen. Reduzieren Sie das Bedienfeld „Asset-Bibliothek“, wenn Sie mehr Platz für die Arbeit im Durchsuchen-Bedienfeld benötigen.
 
 ## Ordner erstellen
 
 1. Wählen Sie in der Asset-Bibliothek den Ordner aus, in dem Sie einen Unterordner erstellen möchten.
-1. Wählen Sie die Schaltfläche **[!UICONTROL `Add Folder`]** aus. Dieses Symbol befindet sich oben in der Ordnerliste.
-1. Geben Sie einen beschreibenden Namen für den neuen Ordner oder Unterordner ein. Geben Sie ihn in das Feld neben dem Ordnersymbol ein.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL `Add Folder`]** . Dieses Symbol befindet sich oben in der Ordnerliste.
+1. Geben Sie einen beschreibenden Namen für den neuen Ordner oder Unterordner ein. Geben Sie sie in das Feld neben dem Ordnersymbol ein.
 
    >[!NOTE]
    >
-   >Sie können auch Ordner in Adobe Dynamic Media Classic erstellen, wenn Sie Dateien über FTP hochladen. Wenn Sie beim Hochladen über FTP die Option **[!UICONTROL Unterordner einschließen]** auswählen, wird die Ordnerstruktur auf Ihrem Computer im System repliziert. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
+   >Sie können in Adobe Dynamic Media Classic auch Ordner erstellen, wenn Sie Dateien über FTP hochladen. Wenn Sie die Option **[!UICONTROL Unterordner einbeziehen]** über FTP hochladen, wird die Ordnerstruktur auf Ihrem Computer im System repliziert. Dateien und Unterordner auf Ihrem Computer bzw. in Ihrem Netzwerk werden in der Asset-Bibliothek nachgebildet; die von Ihnen hochgeladenen Assets werden in den entsprechenden Ordnern platziert.
 
 ## Ordner löschen und umbenennen {#deleting-and-renaming-folders}
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen**: Wählen Sie die Schaltfläche **[!UICONTROL `Remove Folder`]** aus. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen**: Wählen Sie die Schaltfläche &quot;**[!UICONTROL `Remove Folder`]**&quot;. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
 * **Umbenennen**: Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 
 >[!NOTE]
 >
->Sie können keine Ordner oder Assets kopieren, da dadurch in Adobe Dynamic Media Classic doppelte Ordner und Assets erstellt werden und Duplikate nicht zulässig sind.
+>Sie können keine Ordner oder Assets kopieren, da dies zu doppelten Ordnern und Assets in Adobe Dynamic Media Classic führen würde. Duplikate sind nicht zulässig.

@@ -1,6 +1,6 @@
 ---
-title: Häufig verwendete Lernressourcen
-description: Links zu Webinaren, Schulungsvideos, Newslettern, Best Practices-Informationen und Entwicklerressourcen für Adobe Dynamic Media Classic.
+title: Beliebte Lernressourcen
+description: Links zu Webinaren, Schulungsvideos, Newslettern, Informationen zu Best Practices und Entwicklerressourcen für Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
@@ -14,34 +14,34 @@ ht-degree: 2%
 
 ---
 
-# Häufig verwendete Ressourcen{#popular-resources}
+# Beliebte Ressourcen{#popular-resources}
 
 ## Technische Dokumentation zu Adobe Dynamic Media Classic
 
 * [Versionshinweise](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [Benutzerhandbuch](introduction.md)
 
-## Adobe Dynamic Media Classic-Entwicklungsressourcen
+## Adobe Dynamic Media Classic-Entwicklerressourcen
 
-* [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
-* [Beispiele für Viewer-Bibliotheken](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [Image Serving and Image Rendering API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Adobe-Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Viewer-Bibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+* [Image Serving- und Image Rendering-API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classic-Newsletter, Tutorials und Webinare
 
-* [Archiv mit Adobe Dynamic Media Classic-Newslettern](/help/using/dynamic-media-newsletter.md)
+* [Archiv der Adobe Dynamic Media Classic-Newsletter](/help/using/dynamic-media-newsletter.md)
 * [Best Practices für das Scharfzeichnen von Bildern](/help/using/assets/s7_sharpening_images.pdf)
-* [Maximieren Sie Ihren Asset-ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Lernen Sie die branchenüblichen Best Practices für die Bereitstellung von Rich Media auf Ihren Sites und mobilen Apps kennen. In diesem Webinar zeigen Ihnen Beispiele und Demonstrationen, wie Sie Videos geräteübergreifend effizient bereitstellen können. Es zeigt Ihnen, wie Sie dynamische Kreativinhalte in Ihren Marketing-Kampagnen bereitstellen können. Erhöhen Sie außerdem die Konversion, indem Sie Bilder, Stilhandbücher oder Lookbook mit Shopping-Funktion erstellen.
-* [Lebenszyklus der Inhaltsbereitstellung beschleunigen](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): Dieses Webinar bietet Ihnen eine Einführung und Demonstration von Adobe Experience Manager Assets: On-Demand, dem Programm der nächsten Generation für Rich-Media-Management und -Bereitstellung. Erfahren Sie, wie Sie Assets gemeinsam nutzen und zwischen Kreativ- und Marketing-Teams freigeben können, um Asset-Überprüfungsprozesse zu optimieren. Lernen Sie Best Practices für die effiziente Verwaltung von Asset-Metadaten kennen, damit Assets leicht zu finden, zu verwenden, wiederzuverwenden und freizugeben sind. Erfahren Sie, wie Sie interaktive kanalübergreifende Rich-Media-Erlebnisse bereitstellen.
-* [Design for Mobile Optimization](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Verwenden von Adobe Dynamic Media Classic für die effiziente Bereitstellung zielgerichteter Rich-Media-Inhalte auf allen Geräten. In diesem Webinar erfahren Sie, wie Sie Erlebnisse für Bildbearbeitung und Videoanzeige entwerfen und bereitstellen, die in mobilen Apps und responsiven Sites effektiv sind.
-* [So unterstützt Adobe Dynamic Media Classic SEO](/help/using/assets/s7_seo.pdf): Suchmaschinen ermöglichen heute die Suche nach Websites und Bildern. Adobe Dynamic Media Classic unterstützt Bemühungen, Bilder suchmaschinenfreundlicher zu gestalten, damit mehr Traffic auf die Website des Adobe Dynamic Media Classic-Benutzers geleitet wird. Diese PDF gibt Ihnen den Hintergrund und die Implementierungsleitfäden, um dies zu erreichen.
-* [Verwenden Sie Adobe Dynamic Media Classic, um die Urlaubskonvertierung zu maximieren](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): In diesem Webinar erfahren Sie, wie Sie automatisierte Workflows einrichten, um Inhalte aus überwachten Ordnern abzurufen und Rotationssets und Videos automatisch zu erstellen. Außerdem erfahren Sie, wie Sie Änderungen schnell verwalten und Bilder aktualisieren können.
-* [Best Practices zur Bereitstellung interaktiver Erlebnisse mit Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): In diesem Webinar erfahren Sie, wie Sie Inhalte in und aus Adobe Dynamic Media Classic abrufen. Erfahren Sie, wie Sie Bildvorgaben für optimale Leistung und Erlebnisse einrichten. Außerdem erfahren Sie mehr über Viewer-Vorgaben und Caching-Konfigurationen.
-* [Best Practices für responsives Design](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): In diesem Webinar erhalten Sie praktische Tipps zur Verbesserung Ihrer Mobilgerätestrategie. Sie lernen echte Beispiele interaktiver Designs kennen. Erstellen Sie ein primäres Asset, das auf mehreren Geräten verwendet werden kann. Steigern Sie die Leistung von Mobilgeräten, indem Sie die Auflösung von Bildern dynamisch ändern. Oder richten Sie Bilder für Hoch- oder Querformatanzeigen aus. Erfahren Sie außerdem, wie Sie Bilder dynamisch zuschneiden, skalieren oder ihre Größe ändern.
+* [Maximieren des Asset-ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Lernen Sie die Best Practices der Branche für die Bereitstellung von Rich-Media auf Ihren Sites und in Mobile Apps kennen. In diesem Webinar zeigen Ihnen Beispiele und Demonstrationen, wie Sie Videos effizient auf allen Geräten bereitstellen können. Es zeigt Ihnen, wie Sie dynamische kreative Inhalte in Ihren Marketing-Kampagnen bereitstellen können. Erhöhen Sie die Konversionsrate, indem Sie Bilder, Stilhandbücher oder Lookbooks mit Shopping-Funktion gestalten.
+* [Beschleunigen der Bereitstellung von Inhalten](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): In diesem Webinar erhalten Sie eine Einführung in Adobe Experience Manager Assets: On Demand, das Programm der nächsten Generation für Rich-Media-Management und -Bereitstellung. Erfahren Sie, wie Sie Assets gemeinsam von Kreativ- und Marketing-Teams nutzen können, um Asset-Prüfprozesse zu optimieren. Erfahren Sie mehr über Best Practices für die effiziente Verwaltung von Asset-Metadaten, um das Auffinden, Verwenden, Wiederverwenden und Freigeben von Assets zu vereinfachen. Erfahren Sie, wie Sie interaktive kanalübergreifende Rich-Media-Erlebnisse bereitstellen.
+* [Design für die Optimierung von Mobilgeräten](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Verwenden von Adobe Dynamic Media Classic für die effiziente Bereitstellung gezielter Rich-Media-Inhalte für alle Geräte. In diesem Webinar erfahren Sie, wie Sie Bild- und Videoerlebnisse entwerfen und bereitstellen, die über Mobile Apps und responsive Sites hinweg wirksam sind.
+* [So unterstützt Adobe Dynamic Media Classic SEO](/help/using/assets/s7_seo.pdf): Suchmaschinen ermöglichen heute die Suche nach Websites und Bildern. Adobe Dynamic Media Classic unterstützt Bemühungen, Bilder suchmaschinenfreundlicher zu gestalten, damit mehr Traffic auf die Website von Adobe Dynamic Media Classic-Benutzenden geleitet wird. Auf dieser PDF finden Sie die Hintergrundinformationen und Implementierungshinweise, die dies ermöglichen.
+* [Verwenden von Adobe Dynamic Media Classic zur Maximierung der Urlaubskonvertierung](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): In diesem Webinar erfahren Sie, wie Sie automatisierte Workflows einrichten, um Inhalte aus überwachten Ordnern abzurufen und automatisch Rotationssets und Videos zu erstellen. Außerdem erfahren Sie, wie Sie Änderungen schnell verwalten und Bilder aktualisieren können.
+* [Best Practices zur Bereitstellung interaktiver Erlebnisse mit Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): In diesem Webinar erfahren Sie, wie Sie Inhalte in und aus Adobe Dynamic Media Classic einfügen können. Erfahren Sie, wie Sie Bildvorgaben einrichten, um eine optimale Leistung und ein optimales Erlebnis zu erzielen. Außerdem erfahren Sie mehr über Viewer-Vorgaben und Caching-Konfigurationen.
+* [Best Practices für responsives Design](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): In diesem Webinar erhalten Sie praktische Tipps zur Verbesserung Ihrer Strategie für Mobilgeräte. Sie lernen echte Beispiele interaktiver Designs kennen. Erstellen Sie ein primäres Asset, das auf mehreren Geräten verwendet werden kann. Steigern Sie die Leistung auf Mobilgeräten durch dynamische Änderung der Bildauflösung. Oder orientieren Sie Bilder für Hoch- oder Querformat-Displays. Erfahren Sie außerdem, wie Sie Bilder dynamisch zuschneiden, skalieren oder in der Größe ändern.
 
 ## Adobe Dynamic Media Classic-Schulung
 
-Rufen Sie [hier](https://training.adobe.com/training/courses.html#product=adobe-scene7) auf, um die derzeit verfügbaren Schulungskurse anzuzeigen.
+Unter [hier](https://training.adobe.com/training/courses.html#product=adobe-scene7) finden Sie die Schulungen, die derzeit verfügbar sind.
 [Adobe Dynamic Media Classic-Schulungsvideos](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
-Sehen Sie sich alle für [Adobe Dynamic Media Classic](home.md) verfügbaren beliebten Ressourcen an.
+Hier finden Sie alle beliebten Ressourcen, die für [Adobe Dynamic Media Classic verfügbar ](home.md).

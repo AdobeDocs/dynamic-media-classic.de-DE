@@ -18,7 +18,7 @@ ht-degree: 33%
 
 # Löschen eines hochgeladenen Assets{#deleting-an-uploaded-asset}
 
-Sie können den Parameter `delete` in diesem Format verwenden, um ein Asset zu löschen:
+Sie können den `delete`-Parameter in diesem Format verwenden, um ein Asset zu löschen:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -47,7 +47,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines As
 | URL-Parameter | Erforderlich/optional | Wert |
 | --- | --- | --- |
 | `op` | Erforderlich | löschen |
-| `shared_secret` | Erforderlich | Der Schlüssel, der für das Unternehmen ein gemeinsames Geheimnis darstellt. |
+| `shared_secret` | Erforderlich | Der Schlüssel, der ein gemeinsam genutztes Geheimnis für das Unternehmen ist. |
 | `image_name` | Erforderlich | Name des zu löschenden Assets. |
 
 <!-- <li>For Vector:fxg_name</li> -->
@@ -58,7 +58,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines As
 
 >[!NOTE]
 >
->Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic wurde am 30. September 2021 eingestellt.
+>Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endete am 30. September 2021.
 
 **Beispielbild-URL:**
 

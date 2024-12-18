@@ -18,8 +18,8 @@ ht-degree: 17%
 
 # Verwalten von Assets in Adobe Dynamic Media Classic {#about-managing-assets}
 
-Adobe Dynamic Media Classic bietet die Asset-Bibliothek zum Verwalten von Assets. Die Asset-Bibliothek enthält die Ordner, in denen Sie Ihre Asset-Dateien speichern. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird der Inhalt des Ordners im Bedienfeld Durchsuchen angezeigt. Sie können Elemente im Bedienfeld &quot;Durchsuchen&quot;in der Raster-, Listen- oder Detailansicht anzeigen. Wenn Sie sich auf ein einzelnes Asset konzentrieren möchten, doppelklicken Sie im Bedienfeld &quot;Durchsuchen&quot;darauf, um es in der Detailansicht anzuzeigen.
+Adobe Dynamic Media Classic bietet die Asset-Bibliothek zum Verwalten von Assets. Die Asset-Bibliothek enthält die Ordner, in denen Sie Ihre Asset-Dateien speichern. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird der Inhalt des Ordners im Durchsuchen-Bedienfeld angezeigt. Sie können Elemente im Durchsuchen-Bereich in der Raster-, Listen- oder Detailansicht anzeigen. Wenn Sie den Fokus auf ein einzelnes Asset legen möchten, doppelklicken Sie im Durchsuchen-Bedienfeld darauf, um es in der Detailansicht anzuzeigen.
 
-Das Bedienfeld &quot;Durchsuchen&quot;bietet Tools zum Anzeigen, Auswählen und Suchen. Das Bedienfeld bietet außerdem die Vorschau, das Verschieben, Umbenennen und Löschen von Assets. Von Ihnen gelöschte Assets werden im Ordner „Papierkorb“ abgelegt; Sie können Assets bei Bedarf aus diesem Ordner zurückholen (wiederherstellen).
+Das Durchsuchen-Panel bietet Tools zum Anzeigen, Auswählen und Suchen. Das Bedienfeld bietet außerdem die Möglichkeit, Assets in der Vorschau anzuzeigen, zu verschieben, umzubenennen und zu löschen. Von Ihnen gelöschte Assets werden im Ordner „Papierkorb“ abgelegt; Sie können Assets bei Bedarf aus diesem Ordner zurückholen (wiederherstellen).
 
-Wenn Sie ein Asset untersuchen oder bearbeiten möchten, öffnen Sie es in der Detailansicht. Sie können Metadaten in der Detailansicht aufzeichnen, um die Suche und Verwendung eines Assets zu vereinfachen.
+Wenn Sie ein Asset untersuchen oder mit ihm arbeiten möchten, öffnen Sie es in der Detailansicht. Sie können Metadaten in der Detailansicht aufzeichnen, um das Auffinden und Arbeiten mit einem Asset zu vereinfachen.

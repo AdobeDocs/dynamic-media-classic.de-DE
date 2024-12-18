@@ -1,6 +1,6 @@
 ---
-title: Anpassen des Bildschirms "Media Portal"
-description: Erfahren Sie, wie Sie den Media Portal-Bildschirm in Adobe Dynamic Media Classic anpassen.
+title: Anpassen des Bildschirms „Medienportal“
+description: Erfahren Sie, wie Sie den Bildschirm „Medienportal“ in Adobe Dynamic Media Classic anpassen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,29 +17,29 @@ ht-degree: 17%
 
 ---
 
-# Anpassen des Bildschirms &quot;Media Portal&quot;{#customizing-the-media-portal-screen}
+# Anpassen des Bildschirms „Medienportal“{#customizing-the-media-portal-screen}
 
-Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Portal mit eigenen Unternehmenslogos und Farben anpassen. Verwenden Sie die Stileinstellungen, um Ihr Unternehmensbranding in Media Portal zu platzieren.
+Mit den Media Portal-Stileinstellungen können Sie die Oberfläche von Media Portal mit eigenen Unternehmenslogos und Farben anpassen. Verwenden Sie die Stileinstellungen, um das Branding Ihres Unternehmens in Media Portal einzufügen.
 
-Um auf die Stileinstellungen zuzugreifen, gehen Sie zu &quot;**[!UICONTROL Einrichtung]**&quot;> &quot;**[!UICONTROL Media Portal-Einrichtung]**&quot;> &quot;**[!UICONTROL Stileinstellungen]**&quot;. Stellen Sie sicher, dass Sie **[!UICONTROL Speichern]** auswählen, um Ihre Einstellungen zu speichern, nachdem Sie sie vorgenommen haben. Sie können **[!UICONTROL Wiederherstellen]** auswählen, um die Standardeinstellungen wiederherzustellen. Während Sie Ihre Auswahl treffen, zeigt Ihnen das Vorschaufenster, wie sie aussehen.
+Um auf die Stileinstellungen zuzugreifen, gehen Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Medienportal-]** > **[!UICONTROL Stileinstellungen]**. Wählen Sie unbedingt **[!UICONTROL Speichern]**, um Ihre Einstellungen zu speichern. Sie können auf **[!UICONTROL Wiederherstellen]** klicken, um die Standardeinstellungen wiederherzustellen. Bei der Auswahl zeigt das Bedienfeld Vorschau an, wie sie angezeigt werden.
 
-* **[!UICONTROL Logo]**: Wählen Sie **[!UICONTROL Durchsuchen]** und wählen Sie dann im Fenster &quot;Logo-Bild auswählen&quot;eine Grafik aus.
+* **[!UICONTROL Logo]**: Klicken Sie auf **[!UICONTROL Durchsuchen]** und wählen Sie dann im Fenster Logo-Bild auswählen eine Grafik aus.
 
-* **[!UICONTROL Anwendung]**: Erstellen Sie eine Farbverlaufsmischung, indem Sie Optionen in den Menüs der Hintergrundverlaufsfarben auswählen.
+* **[!UICONTROL Anwendung]**: Erstellen Sie eine Farbverlaufsmischung, indem Sie in den Menüs der Hintergrundfarbverläufe eine Auswahl treffen.
 
-* **[!UICONTROL Baum]**: Wählen Sie eine Rollover-Farbe und eine Auswahlfarbe.
+* **[!UICONTROL Baum]**: Wählen Sie eine Rollover- und Auswahlfarbe aus.
 
-* **[!UICONTROL Akkordeon]**: Wählen Sie Hintergrundfarben, einen Randstil sowie Rollover- und ausgewählte Farben für das Accordion aus, das rechts im Bildschirm in der Detailansicht angezeigt wird.
+* **[!UICONTROL Akkordeon]**: Wählen Sie Hintergrundfarben, einen Rahmenstil und Rollover und ausgewählte Farben für das Akkordeon aus, das auf der rechten Seite des Bildschirms in der Detailansicht angezeigt wird.
 
-* **[!UICONTROL Accordion-Kopfzeile]**: Wählen Sie aus, ob Text in der Fettschrift der Accordion-Kopfzeile eingefügt werden soll.
+* **[!UICONTROL Akkordeon-Kopfzeile]**: Wählen Sie aus, ob Text in der Fett-Kopfzeile des Akkordeons eingefügt werden soll.
 
-* **[!UICONTROL Datagrid]**: Wählen Sie Farben für die Kopfzeile in Datenrasten.
+* **[!UICONTROL DataGrid]**: Wählen Sie Farben für die Kopfzeile in Datenrastern.
 
-* **[!UICONTROL Warnung]**: Wählen Sie eine Hintergrundfarbe für Warnhinweisfelder.
+* **[!UICONTROL Warnhinweis]**: Wählen Sie eine Hintergrundfarbe für die Meldungsfelder für Warnhinweise aus.
 
 * **[!UICONTROL Fortschrittsleiste]**: Wählen Sie eine Farbe für die Leiste, die den Fortschritt von Uploads und Downloads anzeigt.
 
-Damit Media Portal-Benutzer die Stileinstellungen sehen können, müssen sie `?company=(company name)` an die URL anhängen, mit der sie auf Media Portal zugreifen. Um beispielsweise Stileinstellungen anzuzeigen, können Media Portal-Benutzer, die unter folgendem Pfad auf das Unternehmen PortalCo zugreifen:
+Damit Medienportal-Benutzer die von Ihnen ausgewählten Stileinstellungen sehen können, müssen sie `?company=(company name)` an die URL anhängen, mit der sie auf das Medienportal zugreifen. Um beispielsweise die Stileinstellungen anzuzeigen, können Medienportal-Benutzer, die auf das PortalCo-Unternehmen zugreifen, Folgendes aufrufen:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -47,7 +47,7 @@ Verwenden Sie stattdessen die folgende URL:
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 
-Wenn Sie den Unternehmensnamen in die URL aufnehmen, kann Media Portal erkennen, auf welches Unternehmen ein Benutzer zugreifen möchte, und die Stileinstellungen des Unternehmens entsprechend anwenden.
+Durch die Aufnahme des Firmennamens in die URL kann Media Portal erkennen, auf welches Unternehmen ein Benutzer zugreifen möchte, und die Stileinstellungen des Unternehmens entsprechend anwenden.
 
 Erfahren Sie mehr darüber, wie Sie Media Portal-Benutzern über URL-Änderungen informieren und eine Begrüßungs-E-Mail einrichten, damit neue Benutzer die richtige Media Portal-URL erhalten.
 

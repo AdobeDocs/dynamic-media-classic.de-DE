@@ -19,19 +19,19 @@ ht-degree: 48%
 
 # Erstellen und Aktivieren von Bildvorgaben{#creating-and-enabling-image-presets}
 
-Wenn Benutzer Bildassets aus Media Portal exportieren, können sie im Dialogfeld „Ausgewählte Assets exportieren“ eine Bildvorgabe auswählen. Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Mit diesen Einstellungen können Größe, Bildqualität, Format, Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren geändert werden.
+Wenn Benutzer Bildassets aus Media Portal exportieren, können sie im Dialogfeld „Ausgewählte Assets exportieren“ eine Bildvorgabe auswählen. Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen können die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern.
 
-Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Bildvorgaben formatieren Bilder gemäß den Spezifikationen Ihres Unternehmens neu, wenn Benutzer Bilder aus der Adobe Dynamic Media Classic exportieren. Benutzer müssen Bilder also nicht selbst neu formatieren, sondern können sie entsprechend den präzisen Einstellungen einer Bildvorgabe exportieren.
+Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Bildvorgaben formatieren Bilder entsprechend den Spezifikationen Ihres Unternehmens, wenn Benutzende Bilder aus Adobe Dynamic Media Classic exportieren. Benutzer müssen Bilder also nicht selbst neu formatieren, sondern können sie entsprechend den präzisen Einstellungen einer Bildvorgabe exportieren.
 
 Die folgenden Einschränkungen gelten, wenn Sie Bild-Assets exportieren:
 
-* Die Breite × Höhe muss kleiner oder gleich 100 MB pro Bild sein. Beispielsweise darf das Bild nicht größer sein als 10 K × 10 K oder eine Seitenvariante darunter, z. B. 8 K × 12 K.
-* Pro Exportauftrag gibt es eine maximale Dateigröße von 1 GB.
+* Die Breite × Höhe muss kleiner oder gleich 100 MB pro Bild sein. Das Bild darf beispielsweise 10 K × 10 K nicht überschreiten, und es sind auch keine Bildunterschiede wie 8 K × 12 K zulässig.
+* Pro Exportvorgang ist maximal 1-GB Gesamtdateigröße vorhanden.
 * Sie können maximal 500 Assets pro Exportauftrag haben.
 
 >[!NOTE]
 >
->Diese Einschränkungen gelten nur für den Export von abgeleiteten Bild-Assets, nicht für den Export von Primärdateien.
+>Diese Einschränkungen gelten nur für den Export abgeleiteter Bild-Assets, nicht für den Export von Primärdateien.
 
 Hinweise zum Erstellen von Bildvorgaben finden Sie unter [Bildvorgaben](application-setup.md#image_presets).
 

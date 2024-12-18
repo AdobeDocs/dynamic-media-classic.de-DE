@@ -18,9 +18,9 @@ ht-degree: 20%
 
 # Entwicklerressourcen {#developer-resources}
 
-Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie Image Production System beschreiben die HTTP-Protokolle für diese Servermodule. Website-Entwickler, die weitere Anpassungen vornehmen und Adobe Dynamic Media Classic Rich Media für eine Website oder eine benutzerdefinierte Anwendung verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit dem Dynamic Media Classic-Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
+Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie das Image Production System beschreiben die HTTP-Protokolle für diese Server-Module. Website-Entwickler, die Adobe Dynamic Media Classic Rich Media für eine Website oder ein benutzerdefiniertes Programm weiter anpassen und verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit der Dynamic Media Classic Desktop-App, den allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
 
-Siehe auch [Dynamic Media Developer Resources](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Siehe auch [Dynamic Media-Entwicklerressourcen](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Viewer {#viewers-guide}
 
@@ -29,13 +29,13 @@ Siehe auch [Dynamic Media Developer Resources](https://experienceleague.adobe.co
 | Viewer-Referenzhandbuch und Versionshinweise | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
 | Beispiele für die Viewer-Bibliothek | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
-## Image Serving/Image Rendering (IS/IR)-API {#is-ir-api-guide}
+## Image Serving-/Image Rendering-(IS/IR)-API {#is-ir-api-guide}
 
 | Dokument | Webadresse |
 | --- | --- |
 | API-Referenzhandbuch | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
-## Image Production System (IPS)-API {#ips-api-guide}
+## API des Image Production System (IPS) {#ips-api-guide}
 
 | Dokument | Webadresse |
 | --- | --- |

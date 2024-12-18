@@ -1,6 +1,6 @@
 ---
-title: Publish-Zoombilder
-description: Erfahren Sie, wie Sie Zoombilder aus Adobe Dynamic Media Classic veröffentlichen.
+title: Publish Zoom-Bilder
+description: Erfahren Sie, wie Sie Zoom-Bilder aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ---
 
-# Publish-Zoombilder{#publishing-zoom-images}
+# Publish Zoom-Bilder{#publishing-zoom-images}
 
-Beim Veröffentlichen werden die Zoombilder auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website und Anwendung zur Verfügung gestellt werden können. Im Zuge der Veröffentlichung aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen im HTML-Code Ihrer Website platzieren.
+Beim Veröffentlichen werden Ihre Zoom-Bilder auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website und Ihr Programm verfügbar gemacht werden können. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen. Sie können diese URL-Zeichenfolgen in den HTML-Code Ihrer Website einfügen.
 
-## Markieren von Bildern zur Veröffentlichung {#marking-images-for-publish}
+## Bilder zur Veröffentlichung markieren {#marking-images-for-publish}
 
-Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung markieren, indem Sie im Bedienfeld Durchsuchen das Symbol **[!UICONTROL Für Publish markieren]** auswählen. Sie können Bilder auch beim Hochladen zur Veröffentlichung markieren.
+Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Image-Server kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung im Durchsuchen-Panel markieren, indem Sie das Symbol **[!UICONTROL Für Publish markieren]** auswählen. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie hochladen.
 
-## Bilder Publish {#publishing-the-images}
+## Bilder in Publish {#publishing-the-images}
 
-Um Zoombilder zu veröffentlichen, wählen Sie in der Symbolleiste für globale Navigation die Option **[!UICONTROL Publish]** und dann die Option **[!UICONTROL When]** (**[!UICONTROL Einmalig]** oder **[!UICONTROL Wiederkehrend]**). Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **Publish übermitteln** aus.
+Um Zoom-Bilder zu veröffentlichen, klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Publish]** und wählen Sie dann eine **[!UICONTROL Wenn]**-Option (**[!UICONTROL Einmal]** oder **[!UICONTROL Wiederkehrend]**). Sie können optional einen Namen für den Veröffentlichungsauftrag eingeben. Wählen Sie **Publish senden** aus.
 
 >[!MORELIKETHIS]
 >

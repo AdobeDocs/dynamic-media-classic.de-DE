@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Rotationsset-Viewer-Vorgaben
-description: Erfahren Sie, wie Sie Rotationsset-Viewer-Vorgaben in Adobe Dynamic Media Classic einrichten.
+title: Einrichten von Viewer-Vorgaben für Rotationssets
+description: Erfahren Sie, wie Sie Viewer-Vorgaben für Rotationssets in Adobe Dynamic Media Classic einrichten.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,30 +17,30 @@ ht-degree: 24%
 
 ---
 
-# Einrichten von Rotationsset-Viewer-Vorgaben{#setting-up-spin-set-viewer-presets}
+# Einrichten von Viewer-Vorgaben für Rotationssets{#setting-up-spin-set-viewer-presets}
 
-Mit Rotationsset-Viewer-Vorgaben werden der Stil, das Verhalten und das Aussehen von Viewern bestimmt. Adobe Dynamic Media Classic enthält standardmäßige Rotationsset-Viewer-Vorgaben. Als Administrator können Sie auch eigene Rotationsset-Viewer-Vorgaben erstellen. Sie können eine Rotationsset-Viewer-Vorgabe mit verschiedenen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren.
+Mit Rotationsset-Viewer-Vorgaben werden der Stil, das Verhalten und das Aussehen von Viewern bestimmt. Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für Rotationssets. Als Administrator können Sie auch eigene Rotationsset-Viewer-Vorgaben erstellen. Sie können eine Rotationsset-Viewer-Vorgabe mit verschiedenen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren.
 
-**So erstellen Sie eine Rotationsset-Viewer-Vorgabe:**
+**So erstellen Sie eine Viewer-Vorgabe für Rotationssets:**
 
-1. Wechseln Sie in der Leiste &quot;Globale Navigation&quot;zu **[!UICONTROL Einrichtung]** > **[!UICONTROL Viewer-Vorgaben]**.
+1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]**, dann im Dialogfeld &quot;Viewer-Vorgabe hinzufügen&quot;, wählen Sie eine Plattform und dann **[!UICONTROL Rotationsset-Viewer]**.
-   * Um eine vorhandene Rotationsset-Viewer-Vorgabe zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+   * Um eine Vorgabe zu erstellen, klicken Sie auf **[!UICONTROL Hinzufügen]** und wählen Sie dann im Dialogfeld Viewer-Vorgabe hinzufügen eine Plattform und anschließend **[!UICONTROL Rotationsset-Viewer]** aus.
+   * Um eine vorhandene Viewer-Vorgabe für Rotationssets zu bearbeiten, wählen Sie die Vorgabe aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
-1. Geben Sie auf der Seite &quot;`Configure Viewer`&quot;einen Namen in das Feld &quot;Vorgabenname&quot;für die Viewer-Vorgabe für Rotationssets ein.
-1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, wählen Sie das Symbol **[!UICONTROL Info Tipp]** neben der Option aus.
+1. Geben Sie auf der Seite `Configure Viewer` im Feld Vorgabenname einen Namen für die Viewer-Vorgabe für das Rotationsset ein.
+1. Wählen Sie die weiteren gewünschten Optionen aus. Um eine Beschreibung einer Option anzuzeigen, klicken Sie auf das Symbol **[!UICONTROL Info-]**) neben der Option.
 
-   Auf der Seite Vorschau wird der Viewer angezeigt, wenn Sie Einstellungen aktualisieren und ändern.
+   Auf der Seite Vorschau wird der Viewer angezeigt, während Sie die Einstellungen aktualisieren und ändern.
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-Wählen Sie **[!UICONTROL Als Standard festlegen]** aus, damit die von Ihnen erstellte Rotationsset-Viewer-Vorgabe für das Unternehmen standardmäßig für die Anzeige von Rotationssets verwendet wird.
+Wählen Sie **[!UICONTROL Als Standard festlegen]**, damit die Viewer-Vorgabe für Rotationssets, die Sie erstellt haben, zum Unternehmensstandard für die Anzeige von Rotationssets wird.
 
-Siehe [Konfigurieren von Standard-Viewern](application-setup.md#configuring_default_viewers).
+Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_viewers).
 
-Um eine Rotationsset-Viewer-Vorgabe zu löschen, wählen Sie sie auf der Seite &quot;Viewer-Vorgaben&quot;aus und klicken Sie dann auf **[!UICONTROL Löschen]**.
+Um eine Viewer-Vorgabe für ein Rotationsset zu löschen, wählen Sie sie auf der Seite „Viewer-Vorgaben“ aus und klicken Sie dann auf **[!UICONTROL Löschen]**.
 
 >[!MORELIKETHIS]
 >

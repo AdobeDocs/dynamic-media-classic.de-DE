@@ -1,6 +1,6 @@
 ---
 title: Systemanforderungen für das Adobe Dynamic Media Classic-Desktop-Programm
-description: Erfahren Sie mehr über die Systemanforderungen für das beste Erlebnis mit Adobe Dynamic Media Classic.
+description: Erfahren Sie mehr über die Systemanforderungen für ein optimales Benutzererlebnis mit Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,17 +19,17 @@ ht-degree: 10%
 
 # Systemanforderungen für das Adobe Dynamic Media Classic-Desktop-Programm {#system-requirements}
 
-Um das bestmögliche Erlebnis mit dem Adobe Dynamic Media Classic-Desktop-Programm zu erzielen, stellen Sie sicher, dass Ihr System die folgenden Systemanforderungen und -vorschläge erfüllt:
+Um mit der Adobe Dynamic Media Classic Desktop-Anwendung optimale Ergebnisse zu erzielen, sollten Sie sicherstellen, dass Ihr System die folgenden Systemanforderungen und Empfehlungen erfüllt:
 
-* Microsoft® Windows® 7 oder höher oder macOS X 10.10 oder neuer Mac Intel® Prozessor erforderlich.
-* 3 GB RAM oder höher erforderlich (4 GB oder höher empfohlen).
+* Microsoft® Windows® 7 oder neuer oder macOS X 10.10 oder neuer Intel® Mac-Prozessor erforderlich.
+* 3 GB RAM oder mehr erforderlich (4 GB oder mehr empfohlen).
 * Farbmonitor.
-* Eine Videokarte, die True Color mit einer Auflösung von 1280 x 1024 oder höher unterstützt.
-* Java-aktivierter Browser.
+* Eine Grafikkarte, die True Color mit einer Auflösung von 1280 x 1024 oder höher unterstützt.
+* Java-fähiger Browser.
 * Unterstützte Browser unter Windows: Internet Explorer 9.0 oder höher, Firefox 23 oder höher.
 * Von Mac unterstützte Browser: Safari 6.0 oder höher, Firefox™ 23 oder höher.
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media-Einschränkungen](/help/using/limitations.md)
+>* [Einschränkungen bei Dynamic Media](/help/using/limitations.md)
 

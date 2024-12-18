@@ -1,6 +1,6 @@
 ---
-title: Informationen zur Festplattenauslastung abrufen
-description: Erfahren Sie, wie Sie Informationen zur Festplattenauslastung in Adobe Dynamic Media Classic abrufen.
+title: Abrufen von Informationen zur Festplattenauslastung
+description: Erfahren Sie, wie Sie Informationen zur Festplattenauslastung in Adobe Dynamic Media Classic erhalten.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -16,9 +16,9 @@ ht-degree: 42%
 
 ---
 
-# Informationen zur Festplattenauslastung abrufen {#get-disk-usage-information}
+# Abrufen von Informationen zur Festplattenauslastung {#get-disk-usage-information}
 
-Sie können den Parameter `disk_info` verwenden, um Informationen über die Speichernutzung eines Unternehmens abzurufen, wie im folgenden Beispiel gezeigt:
+Sie können den `disk_info`-Parameter verwenden, um Informationen über die Speicherplatznutzung eines Unternehmens abzurufen, wie im folgenden Beispiel gezeigt:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -47,7 +47,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Speic
 | URL-Parameter | Erforderlich/optional | Wert |
 | --- | --- | --- |
 | op | Erforderlich | disk_info |
-| shared_secret | Erforderlich | Der Schlüssel, der für das Unternehmen ein gemeinsames Geheimnis darstellt. |
+| shared_secret | Erforderlich | Der Schlüssel, der für das Unternehmen ein gemeinsam genutztes Geheimnis ist |
 
 Der folgende Beispiel-Code ruft Speichernutzungsinformationen für das Unternehmen „000Company“ ab:
 
