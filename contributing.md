@@ -5,57 +5,57 @@ source-wordcount: '492'
 ht-degree: 0%
 
 ---
-# Beiträge zur Dokumentation zu Adobe Dynamic Media Classic
+# Dokumentation zu Contribute zu Adobe Dynamic Media Classic
 
-Vielen Dank, dass Sie sich entschieden haben, zur Adobe Dynamic Media Classic-Dokumentation beizutragen! Adobe begrüßt Inhaltsbeiträge der gesamten Leser-Community und anderer Mitarbeiter der Adobe.
+Vielen Dank, dass Sie zur Dokumentation zu Adobe Dynamic Media Classic beitragen möchten! Adobe begrüßt Inhaltsbeiträge von der gesamten Leser-Community und von anderen Adobe-Mitarbeitern.
 
-In dieser Datei wird beschrieben, wie Sie Beiträge beisteuern können, und es werden die Richtlinien angezeigt, die bei der Beitragsleistung befolgt werden müssen.
+In dieser Datei wird beschrieben, wie Sie einen Beitrag leisten können, und es werden die Richtlinien für Ihre Beiträge aufgeführt.
 
-## Adobe Open Source-Verhaltenskodex
+## Adobe Open Source Verhaltenskodex
 
-Dieses Projekt hat die [Adobe Open Source-Verhaltenskodex](code-of-conduct.md). Mit Ihrer Teilnahme an der Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt hat den [Adobe Open Source-Verhaltenskodex](code-of-conduct.md) angenommen. Mit Ihrer Teilnahme an der Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Leitlinien für Beiträge
+## Richtlinien für Beiträge
 
-Adobe begrüßt zwar alle Beiträge zur Verbesserung der Dokumentation, vergewissern Sie sich jedoch, dass der Beitrag nach Möglichkeit bestimmten Richtlinien und Standards entspricht. Überprüfen Sie die [Richtlinien für Beiträge zur Adobe Dynamic Media Classic-Dokumentation](guidelines.md) für weitere Informationen.
+Während Adobe alle Beiträge zur Verbesserung der Dokumentation begrüßt, stellen Sie sicher, dass Ihre Beiträge nach Möglichkeit bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden [ in den Richtlinien für Beiträge zur Dokumentation ](guidelines.md) Adobe Dynamic Media Classic .
 
-## Beiträge
+## So können Sie einen Beitrag leisten
 
-Adobe möchte es so einfach wie möglich machen, Ihre Beiträge einzureichen. Sie können auf zwei Arten beitragen:
+Adobe möchte es Ihnen so leicht wie möglich machen, Ihre Beiträge einzureichen. Es gibt zwei Möglichkeiten, einen Beitrag zu leisten:
 
-* [Problem erstellen](#create-an-issue)
-* [Pull-Anforderung erstellen](#create-a-pull-request)
+* [Anfrage erstellen](#create-an-issue)
+* [Erstellen einer Pull-Anfrage](#create-a-pull-request)
 
-Welche Methode Sie auswählen, hängt davon ab, wie bequem Sie die Dokumentation in GitHub selbst bearbeiten.
+Welche Methode Sie wählen, hängt davon ab, wie komfortabel Sie die Dokumentation in GitHub selbst bearbeiten.
 
 >[!NOTE]
 >
->Die Beiträge, die Sie einreichen, werden vom [Adobe Nutzungsbedingungen.](https://www.adobe.com/legal/terms.html)
+>Beiträge, die Sie einreichen, werden durch die [Adobe-Nutzungsbedingungen abgedeckt.](https://www.adobe.com/legal/terms.html)
 
-### Problem erstellen {#create-an-issue}
+### Anfrage erstellen {#create-an-issue}
 
-Haben Sie einen Vorschlag, eine Beobachtung über die aktuellen Dokumente oder eine Frage, wie etwas beschrieben wird? Erstellen Sie dann ein Problem. Probleme eignen sich auch hervorragend, wenn Sie etwas beizutragen haben, sich aber nicht wohl fühlen, die Dokumente zu bearbeiten oder selbst eine Pull-Anforderung zu stellen.
+Haben Sie einen Vorschlag, eine Beobachtung zu den aktuellen Dokumenten oder fragen Sie sich, wie etwas beschrieben wird? Erstellen Sie dann ein Problem. Probleme sind auch dann hervorragend, wenn Sie etwas beitragen möchten, sich jedoch nicht wohl dabei fühlen, die Dokumente zu bearbeiten oder selbst eine Pull-Anfrage zu stellen.
 
-Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach beschreiben, damit ein Dokumentationsteam sie überprüfen kann. Um ein Problem zu erstellen, wählen Sie **[!UICONTROL Problem protokollieren]** oben im rechten Navigationsbereich auf einer beliebigen Seite.
+Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach beschreiben, damit ein Mitglied des Dokumentations-Teams sie überprüfen kann. Um ein Problem zu erstellen **[!UICONTROL wählen Sie oben]** rechten Navigationsbereich auf einer beliebigen Seite die Option „Problem protokollieren“ aus.
 
-### Pull-Anforderung erstellen {#create-a-pull-request}
+### Erstellen einer Pull-Anfrage {#create-a-pull-request}
 
-Wenn Sie ein Problem sehen und genau wissen, wie Sie es beheben können, sollten Sie eine Pull-Anforderung erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen und ein Mitglied des Dokumentationsteams überprüft sie zur Aufnahme. Um Ihre vorgeschlagenen Änderungen vorzunehmen und die Pull-Anforderung zu erstellen, wählen Sie **[!UICONTROL Diese Seite bearbeiten]** oben rechts im Navigationsfenster auf einer beliebigen Seite.
+Wenn Sie ein Problem sehen und genau wissen, wie es behoben werden kann, sollten Sie eine Pull-Anfrage erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, und ein Mitglied des Dokumentations-Teams prüft sie, um sie aufzunehmen. Um die vorgeschlagenen Änderungen vorzunehmen und die Pull-Anfrage zu erstellen **[!UICONTROL wählen Sie &quot;]** bearbeiten“ oben rechts im Navigationsbereich auf einer beliebigen Seite aus.
 
-Unterschrieben [Lizenzvereinbarung für Mitwirkende oder CLA](https://opensource.adobe.com/cla.html) muss allen Pull-Anfragen beiliegen. Dieser Workflow ermöglicht es der Adobe, Ihre Beiträge im Rahmen des Projekts neu zu verteilen. Sie können eine Adobe-CLA nur einmal senden. Wenn Sie also bereits eine übermittelt haben, werden Sie festgelegt.
+Allen Pull[Anforderungen muss eine unterzeichnete Lizenzvereinbarung für Mitwirkende oder ](https://opensource.adobe.com/cla.html) beigelegt sein. Dieser Workflow gibt Adobe die Berechtigung, Ihre Beiträge im Rahmen des Projekts zu verteilen. Sie können eine Adobe-Lizenzvereinbarung nur einmal senden. Wenn Sie also bereits eine gesendet haben, sind Sie festgelegt.
 
-### Schnellvideo-Einführung
+### Schnelle Videoeinführung
 
-Sehen Sie sich das folgende Video an, um einen schnellen Überblick darüber zu erhalten, wie Probleme erstellt und Anforderungen abgerufen werden.
+Sehen Sie sich das folgende Video an, um einen schnellen Überblick darüber zu erhalten, wie Sie Probleme erstellen und Anfragen abrufen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27069)
 
 ### Beiträge von Adobe-Mitarbeitern
 
-Wenn Sie Adobe-Mitarbeiter sind und einen Beitrag einreichen möchten, verwenden Sie die `AdobeDocs` im Git-Repository des Unternehmens.
+Wenn Sie Adobe-Mitarbeiter sind und einen Beitrag leisten, verwenden Sie die `AdobeDocs` im Unternehmens-Git.
 
-Adobe begrüßt jeden Beitrag. Beiträge werden überprüft, wenn sie im öffentlichen Repository vorgenommen werden. Pull-Anforderungen von Adobe-Mitarbeitern sind jedoch einfacher zu verarbeiten und werden schneller im Unternehmens-Repository genehmigt. Stellen Sie sicher, dass geschützte Informationen nur im Repository des Unternehmens diskutiert werden.
+Adobe begrüßt jeden Beitrag. Beiträge werden geprüft, ob sie im öffentlichen Repository erfolgen. Pull-Anforderungen von Adobe-Mitarbeitenden sind jedoch einfacher zu verarbeiten und werden im Unternehmens-Repository schneller genehmigt. Stellen Sie sicher, dass proprietäre Informationen nur im Unternehmens-Repository behandelt werden.
 
 ## Weitere Informationen
 
-Siehe [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) Weitere Informationen zur Verwendung der GitHub-Authoring-Plattform.
+Weitere Informationen zur Verwendung der GitHub-Autorenplattform ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) Sie im [Handbuch für Mitwirkende an Adobe-Dokumenten.
