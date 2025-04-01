@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
 workflow-type: tm+mt
-source-wordcount: '3868'
+source-wordcount: '3858'
 ht-degree: 25%
 
 ---
@@ -53,9 +53,7 @@ Die Upload-Unterstützung von ZIP- und TAR-Archiven umfasst ein Kontrollkästche
 
 ### Nicht unterstützte Bildformate in Dynamic Media {#unsupported-image-formats-dynamic-media}
 
-Dynamic Media In der folgenden Liste werden die Untertypen von Rasterbilddateiformaten beschrieben, die in *nicht* werden.
-
-Siehe auch [Erkennung nicht unterstützter Dateiformate für Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+Die folgende Liste beschreibt die Untertypen von Rasterbilddateiformaten, die in Dynamic Media *nicht* unterstützt werden.
 
 * PNG-Dateien mit einer IDAT-Blockgröße größer als 100 MB.
 * PSB-Dateien.
@@ -72,7 +70,7 @@ Um mit dem Adobe Dynamic Media Classic-Programm optimale Ergebnisse zu erzielen,
 | --- | --- |
 | Audio | Zu den Eingabeformaten von Audio-Assets gehören AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3. Sie können Audio-Daten in die folgenden Formate transcodieren: MP3, AAC und HE-AAC. |
 | Bilder (für Bildgrößenänderungen, Zoom, Bildsätze, Rotationssets) | Die längste Bildgröße muss mindestens 2.000 Pixel betragen. Typische Bildgrößen liegen zwischen 1.500 und 2.500 Pixel in der längsten Größe. Verlustfreie Bildformate, z. B. TIFF und PNG, sind zu empfehlen. Bei Verwendung eines JPEG-Bildes sollten Sie die höchste Qualitätseinstellung wählen. Animierte GIF-Dateien werden wie andere statische Inhalte verarbeitet. |
-| E-Kataloge | Verwenden Sie hochauflösende PDF-Dateien, die in Adobe Acrobat erstellt wurden, oder eine Adobe-Creative Suite-Anwendung, die als „druckbereit“ gespeichert wurde. PDF enthalten alle benötigten Schriftarten, Bilder, Masken. Alle referenzierten grafischen Elemente sind enthalten, entweder als Einzelseiten, doppelseitige Doppelseiten oder in einem mehrseitigen Format. Sortieren Sie die Seiten, indem Sie die Dateien in alphanumerischer Reihenfolge benennen. Platzieren Sie alle PDF-Dateien für einen E-Katalog in einem einzigen Ordner, um das Hochladen zu vereinfachen. Beim Hochladen können Sie Schnittoptionen auswählen, um die Zuschneidebereiche, einschließlich Schnittmarken, Passermarken oder Farbkontrollstreifen, aus den PDF-Dateien zu entfernen. Da die meisten druckbereiten PDF-Dateien im CMYK-Farbraum gespeichert werden, ist es wichtig, das für die PDF-Dateien verwendete ICC-Farbprofil für CMYK zu ermitteln und abzurufen. |
+| E-Kataloge | Verwenden Sie hochauflösende PDF-Dateien, die in Adobe Acrobat oder einer Adobe Creative Suite-Anwendung erstellt wurden und als „druckbereit“ gespeichert wurden. PDFs enthalten alle benötigten Schriftarten, Bilder, Masken. Alle referenzierten grafischen Elemente sind enthalten, entweder als Einzelseiten, doppelseitige Doppelseiten oder in einem mehrseitigen Format. Sortieren Sie die Seiten, indem Sie die Dateien in alphanumerischer Reihenfolge benennen. Platzieren Sie alle PDF-Dateien für einen E-Katalog in einem einzigen Ordner, um das Hochladen zu vereinfachen. Beim Hochladen können Sie Schnittoptionen auswählen, um die Zuschneidebereiche, einschließlich Schnittmarken, Passermarken oder Farbkontrollstreifen, aus den PDF-Dateien zu entfernen. Da die meisten druckbereiten PDF-Dateien im CMYK-Farbraum gespeichert werden, ist es wichtig, das für die PDF-Dateien verwendete ICC-Farbprofil für CMYK zu ermitteln und abzurufen. |
 | Vorlagen | Bild- oder Layoutentwürfe mit Ebenen können Text, Bilder und Ebenen enthalten. Bildebenen, Textzeichenfolgen und Ebenenattribute wie Farbe und Größe können parametrisiert werden, sodass variable Daten angepasst werden können. Die Anforderungen für in Vorlagen verwendete Bilder sind dieselben wie für andere Bilder. Bereiten Sie Grafiken in Photoshop oder einem anderen Bildbearbeitungsprogramm vor. Speichern Sie jede Grafik einzeln als reduzierte, transparente Datei im TIFF- oder PNG-Format. Stellen Sie sicher, dass die Bildauflösung für den beabsichtigten Verwendungszweck geeignet ist. Bilder für den Druck sind 300 ppi. |
 | Videos | Adobe Dynamic Media Classic unterstützt Videodateien im OGV- und MP4-Format. Dateien können beim Hochladen in das MP4-Format transkodiert werden. Siehe [Unterstützte Asset-Dateiformate](#supported-static-file-formats). |
 | Schriftarten | Hochgeladene TrueType-, `Type1`- (nur Windows®), OpenType®-Schriftarten und FotoFonts. |
@@ -84,16 +82,16 @@ Um mit dem Adobe Dynamic Media Classic-Programm optimale Ergebnisse zu erzielen,
 | FXG-Dateien | Auflösungsunabhängige Grafikformatdateien, mit deren Hilfe Sie anpassbare Vorlagen für die Ausgabe auf Druckern, im Web, als E-Mail, auf einem Desktop und auf anderen Geräten erstellen können. |
 | SVG-Dateien | Skalierbare Vektorgrafikdateien, die vom Image-Serving-Server gerendert werden können. |
 | XML-Dateien | Dateien, die Vorverarbeitungsregeln zum Verändern der Pfad- und Abfrageabschnitte von Anforderungen festlegen. |
-| Cascading Stylesheet-Dateien | Hochladen von CSS-Skins zur Anpassung von HTML5-Viewern. |
+| Cascading Stylesheet-Dateien | Hochladen von CSS-Skins zur Anpassung der HTML5-Viewer. |
 | JavaScript-Dateien | JavaScript-Dateien werden für die Viewer-Instrumentierung zum Speichern von Kontoinformationen verwendet. Adobe Security empfiehlt diesen Asset-Typ nur für Client-Konten, die über eine separate Domain für die Bereitstellung verfügen (um Cross-Site-Scripting zu vermeiden). |
 
 >[!NOTE]
 >
->Wenn Sie Bilddateien und PDF-Dateien in Adobe Dynamic Media Classic hochladen, konvertiert das System diese Quelldateien in P-TIFF-Dateien (Pyramid TIFF). Bei diesen P-TIFF-Dateien handelt es sich um die Dateien, die später auf Dynamic Media Image Servers veröffentlicht werden. Adobe Dynamic Media Classic verwendet das Pyramid TIFF-Dateiformat, da es verschiedene Zoomverhältnisse enthält, die ein schnelles Zoomen ermöglichen, wenn Sie es mit einem Adobe Dynamic Media Classic-Zoom-Viewer anzeigen.
+>Wenn Sie Bilddateien und PDFs in Adobe Dynamic Media Classic hochladen, konvertiert das System diese Quelldateien in P-TIFF-Dateien (Pyramid TIFF). Diese P-TIFFs sind die Dateien, die später auf Dynamic Media-Bildservern veröffentlicht werden. Adobe Dynamic Media Classic verwendet das Pyramid TIFF-Dateiformat, da es verschiedene Zoomverhältnisse enthält, die ein schnelles Zoomen ermöglichen, wenn Sie es mit einem Adobe Dynamic Media Classic-Zoom-Viewer anzeigen.
 
 ### Unterstützte statische Dateiformate {#supported-static-file-formats}
 
-Adobe Dynamic Media Classic unterstützt mehrere statische Dateiformate. Statischer Inhalt ist jedes Asset, das unverändert veröffentlicht wird, z. B. CSS, PDF, SVG und XML.
+Adobe Dynamic Media Classic unterstützt mehrere statische Dateiformate. Statische Inhalte sind alle Assets, die im Istzustand veröffentlicht werden, z. B. CSS, PDF, SVG und XML.
 
 Die folgenden Dateitypen können veröffentlicht werden:
 
@@ -102,7 +100,7 @@ Die folgenden Dateitypen können veröffentlicht werden:
 * CSS
 * JavaScript (wenn das Unternehmen mit einer eigenen Domäne konfiguriert wurde)
 * Primäres Video
-* PDF (wenn PDF nach dem Hochladen zur Veröffentlichung markiert ist, um die Bereitstellung aller PDF für bestehende E-Katalog-/PDF-Workflows zu vermeiden)
+* PDF (wenn PDF nach dem Hochladen zur Veröffentlichung markiert ist, um die Bereitstellung aller PDFs für bestehenden E-Katalog/PDF-Workflow zu vermeiden)
 * PrX-Video
 * SVG
 * XML
@@ -166,7 +164,7 @@ Mit dem Adobe Dynamic Media Classic-Desktop-Programm können Sie Dateien und Ord
 1. Wählen Sie links auf der Seite Hochladen im Bereich **[!UICONTROL Dateien zum Hochladen auswählen]** die Option **[!UICONTROL Durchsuchen]** aus, um die Dateien oder Ordner auszuwählen, die Sie hochladen möchten, und klicken Sie dann auf **[!UICONTROL Öffnen]**.
 1. Navigieren Sie rechts auf der Seite Hochladen im ausgewählten Bereich **Ordnerziel** zu einem Zielordner, zu dem Sie die hochgeladenen Dateien oder Ordner hinzufügen möchten.
 1. (Optional) Geben Sie unten auf der Seite Hochladen im Textfeld Auftragsname den neuen Namen des Upload-Auftrags ein. Sie können auch einfach den von Adobe Dynamic Media Classic bereitgestellten systemgenerierten Standardnamen verwenden. Upload- und Veröffentlichungsaufträge werden auf der Seite „Aufträge“ aufgezeichnet, wo Sie den Status der Aufträge prüfen können. Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
-1. (Optional) Wählen Sie unten auf der Seite „Hochladen“ die Option **[!UICONTROL Publish nach dem Hochladen aus]** damit Sie die hochgeladenen Assets automatisch veröffentlichen können.
+1. (Optional) Klicken Sie unten auf der Seite „Hochladen“ auf **[!UICONTROL Nach dem Hochladen veröffentlichen]** damit Sie die hochgeladenen Assets automatisch veröffentlichen können.
 Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 1. (Optional) Wählen Sie unten auf der Seite Hochladen die Option **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]** aus, wenn die hochgeladenen Dateien vorhandene Dateien durch ident. Namen ersetzen sollen. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Anwendung hochladen]** > **[!UICONTROL Bilder überschreiben]** unterschiedlich sein.
@@ -184,10 +182,10 @@ Um den Fortschritt des Uploads anzuzeigen, wählen Sie **[!UICONTROL Vorgänge]*
 1. Wählen Sie in Adobe Dynamic Media Classic in der Symbolleiste für globale Navigation **[!UICONTROL Hochladen]** aus.
 1. Wählen Sie auf der Seite Hochladen die Registerkarte **[!UICONTROL VIA FTP]** aus.
 1. Wählen Sie links auf der Seite Hochladen im Bereich **[!UICONTROL FTP-Ordner für Upload auswählen]** einen FTP-Ordner aus, aus dem Dateien hochgeladen werden sollen.
-1. Wählen Sie rechts auf der Seite Hochladen im Bereich Ausgewähltes **[!UICONTROL Adobe-Dynamic Media-]** einen Zielordner in Adobe Dynamic Media Classic aus.
+1. Wählen Sie rechts auf der Seite Hochladen im Bereich **[!UICONTROL Ziel für Adobe Dynamic Media-Ordner]** einen Zielordner in Adobe Dynamic Media Classic aus.
 1. (Optional) Geben Sie unten auf der Seite Hochladen im Textfeld Auftragsname den neuen Namen des Upload-Auftrags ein. Sie können auch einfach den von Adobe Dynamic Media Classic bereitgestellten systemgenerierten Standardnamen verwenden. Upload- und Veröffentlichungsaufträge werden auf der Seite „Aufträge“ aufgezeichnet, wo Sie den Status der Aufträge prüfen können.
 Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
-1. (Optional) Wählen Sie unten auf der Seite „Hochladen“ die Option **[!UICONTROL Publish nach dem Hochladen aus]** damit Sie die hochgeladenen Assets automatisch veröffentlichen können.
+1. (Optional) Klicken Sie unten auf der Seite „Hochladen“ auf **[!UICONTROL Nach dem Hochladen veröffentlichen]** damit Sie die hochgeladenen Assets automatisch veröffentlichen können.
 Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 1. (Optional) Wählen Sie unten auf der Seite Hochladen die Option **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]** aus, wenn die hochgeladenen Dateien vorhandene Dateien durch ident. Namen ersetzen sollen. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Programm hochladen]** > **[!UICONTROL Bilder überschreiben]** unterschiedlich sein.
@@ -221,7 +219,7 @@ Beim Hochladen von Dateien können Sie im Dialogfeld Upload-Auftragsoptionen aus
          * **[!UICONTROL Monatlich]** Wählen Sie einen bestimmten Tag des Monats oder Wochentags aus, einschließlich der Startzeit, an der der Auftrag ausgeführt werden soll.
          * **[!UICONTROL Benutzerdefiniert]**: Passen Sie das Zeitintervall für Upload- oder Veröffentlichungsaufträge an Ihre eigenen Spezifikationen an. Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Uploads oder Veröffentlichungsaufträge](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL Publish nach dem Hochladen]**: Verfügbar, wenn Sie entweder die Registerkarte **[!UICONTROL VOM DESKTOP]** oder die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben. Wählen Sie diese Option aus, damit Sie die hochgeladenen Assets automatisch veröffentlichen können. Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung.
+   * **[!UICONTROL Nach Hochladen veröffentlichen]**: Verfügbar, wenn Sie entweder die Registerkarte **[!UICONTROL VON DESKTOP]** oder die Registerkarte **[!UICONTROL ÜBER FTP]** ausgewählt haben. Wählen Sie diese Option aus, damit Sie die hochgeladenen Assets automatisch veröffentlichen können. Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung.
 
    * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]** Verfügbar, wenn **[!UICONTROL die Registerkarte VOM DESKTOP]** oder **[!UICONTROL VIA FTP]** ausgewählt haben. Aktivieren Sie diese Option, wenn die hochgeladenen Dateien vorhandene gleichnamige Dateien ersetzen sollen. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung. Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Programm hochladen]** > **[!UICONTROL Bilder überschreiben]** unterschiedlich sein.
 
