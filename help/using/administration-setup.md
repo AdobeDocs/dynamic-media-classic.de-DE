@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: fc2138cc9fd08cb4ce7466724af03f0901edebf3
+source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 29%
@@ -153,9 +153,9 @@ In der folgenden Tabelle werden Berichte beschrieben, die Sie auf der Seite „B
 
 | Bericht | Information | Verwendung |
 | --- | --- | --- |
-| Bandbreite | | <!-- CQDOC-22504 --> **WICHTIG**: Die Registerkarte Bandbreite wird nicht mehr unterstützt. Obwohl es weiterhin in der Benutzeroberfläche angezeigt wird, sind Bandbreitendaten nicht verfügbar und alle Werte werden als `0` angezeigt. |
+| Bandbreite | | **WICHTIG**: Die Registerkarte Bandbreite wird nicht mehr unterstützt. Obwohl es weiterhin in der Benutzeroberfläche angezeigt wird, sind Bandbreitendaten nicht verfügbar und alle Werte werden als `0` angezeigt. |
 | Speicher | Speicherverwendung | Verfolgen Sie die Menge der vom Unternehmen hochgeladenen Daten. |
-| Bildinhalt | Zeigt die Gesamtzahl der Treffer und das Volumen der Bildbereitstellung aufgeschlüsselt nach Anfragetyp und Untertyp an. | Verfolgen Sie die Anzahl der Anfragen und das Volumen für verschiedene Bildtypen, einschließlich Metriken aus Nicht-Video-Assets. <!-- CQDOC-22504 --> |
+| Bildinhalt | Zeigt die Gesamtzahl der Treffer und das Volumen der Bildbereitstellung aufgeschlüsselt nach Anfragetyp und Untertyp an. | Verfolgen Sie die Anzahl der Anfragen und das Volumen für verschiedene Bildtypen, einschließlich Metriken aus Nicht-Video-Assets. |
 | Domäne | Die Anzahl der URL-Anfragen nach Domäne | Verfolgen Sie die Bildernutzung auf der Basis der Domäne der Bildanfragen eines bestimmten Unternehmens. (Adobe Dynamic Media Classic kann mehr als eine Domain pro Konto bereitstellen. Weitere Informationen erhalten Sie vom technischen Support.) |
 | Video-Streaming | Bandbreitennutzung für Streaming-Videos | Verfolgen Sie die Nutzung von Streaming-Videos nach Unternehmen über bestimmte Zeitspannen, um Datenverkehrsmuster zu ermitteln. |
 | Videoinhalt | Wiedergabezeit verschiedener Videos | Ermitteln Sie, welche Videos am häufigsten und am wenigsten häufig abgerufen werden. |
