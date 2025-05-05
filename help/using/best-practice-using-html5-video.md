@@ -31,7 +31,7 @@ Durch die Kombination der folgenden Fähigkeiten zu einem einzelnen Player:
 
 Sie erweitern die Reichweite Ihrer Rich-Media-Inhalte auf Desktop- und Mobile-Benutzer. Außerdem sorgen Sie für ein optimiertes Videoerlebnis.
 
-Siehe auch [Über HTML5-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe-Viewer-Referenzhandbuch.
+Siehe auch [Über HTML5-Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe-Viewer-Referenzhandbuch.
 
 Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) Schulungsvideo.
 

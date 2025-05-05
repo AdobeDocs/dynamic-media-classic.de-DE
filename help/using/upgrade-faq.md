@@ -251,7 +251,7 @@ Kunden sind in erster Linie für das Änderungsmanagement verantwortlich, einsch
 ## Support und Training
 
 +++**Wie erhalte ich Unterstützung?**
-24/7/365 Kundenunterstützung ist verfügbar. [Kontaktieren Sie den technischen Support](https://experienceleague.adobe.com/?support-solution=General#support).
+24/7/365 Kundenunterstützung ist verfügbar. [Kontaktieren Sie den technischen Support](https://experienceleague.adobe.com/de?support-solution=General#support).
 
 Tel.: 1-800-898-9743 (USA) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japan)
 

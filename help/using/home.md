@@ -26,7 +26,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates zum 7. Mai 2020.
 
 ## Dynamic Media-Entwicklerressourcen
 
-* [Landingpage für Dynamic Media-Entwicklerressourcen](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): Enthält:
+* [Landingpage für Dynamic Media-Entwicklerressourcen](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources): Enthält:
    * Viewer-Referenzhandbuch
    * Image Serving-/Image Rendering-API
    * Image Production System-API
@@ -36,7 +36,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates zum 7. Mai 2020.
 ## Adobe Dynamic Media Classic-Benutzerressourcen
 
 * [Dynamic Media Monthly Newsletter](dynamic-media-newsletter.md)
-* [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/de/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Handbuch: Handbuch mit Best Practices für das Scharfzeichnen von Bildern](/help/using/assets/s7_sharpening_images.pdf)
 * [Anleitung: So unterstützt Adobe Dynamic Media Classic SEO](/help/using/assets/s7_seo.pdf): Suchmaschinen ermöglichen heute die Suche nach Websites und Bildern. Adobe Dynamic Media Classic unterstützt Bemühungen, Bilder suchmaschinenfreundlich zu gestalten, damit mehr Traffic auf die Website von Adobe Dynamic Media Classic-Benutzenden geleitet wird. Dieses Handbuch in PDF enthält den Hintergrund und Implementierungsempfehlungen, um dies zu erreichen.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

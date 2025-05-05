@@ -233,7 +233,7 @@ Siehe auch:
 
 ## Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms {#dmc-app-video-walk-through}
 
-Sehen Sie sich [ Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
+Sehen Sie sich [ Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms ](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
 
 ## Löschen des Bild- und Asset-Cache auf dem Computer mithilfe des Desktop-Programms {#clear-cache}
 

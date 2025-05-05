@@ -53,7 +53,7 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
   Wenn Sie beispielsweise eine multinationale Marke sind mit Vertrieb in verschiedenen Ländern, können Sie sicherstellen, dass jedes Land seinen eigenen Gebietsschema-spezifischen Viewer hat. Für diese Funktion geben Sie eine Zeichenfolge für Gebietsschemakarten an. Anschließend bearbeiten Sie den QuickInfo-Text in der Viewer-Vorgabe. Fügen Sie einfach die übersetzten Textzeichenfolgen für die gewünschte Sprache hinzu.
 
   >[!NOTE]
-  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console , um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
+  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console , um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
 
   Weitere Informationen zum Einrichten von **[!UICONTROL Lokalisierungsunterstützung]** finden Sie unter [Betrachtungen beim Planen der Asset-Lokalisierung](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +61,7 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
 
 >[!NOTE]
 >
->Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [ Sie mithilfe der -Admin Console einen Support-Fall erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
+>Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [ Sie mithilfe der -Admin Console einen Support-Fall erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
 
 Eine gängige Methode zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise bestehen die Unterschiede bei einigen Teilen des gesamten Mediums. Solche Unterschiede zu beheben, indem alle Vermögenswerte für jedes der Länder kopiert und nur die Unterschiede überschrieben werden, ist eine enorme Anstrengung und widerspricht der einzigen Metapher der primären Vermögenswerte. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Adobe Dynamic Media Classic verwendet einen einfachen Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
 

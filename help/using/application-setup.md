@@ -161,7 +161,7 @@ Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benu
 
 Wechseln Sie zum Öffnen des Bildschirms Bildvorgabe in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Bildvorgaben]**.
 
-Siehe [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Siehe [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Erstellen und Bearbeiten von Bildvorgaben {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Durch die Kombination von Folgendem in einen einzelnen Player:
 
 Sie erweitern die Reichweite Ihrer Rich-Media-Inhalte auf Desktop-, Tablet- und mobile Benutzer und stellen ein optimiertes Videoerlebnis sicher.
 
-Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe-Viewer-Referenzhandbuch.
+Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe-Viewer-Referenzhandbuch.
 
 Siehe Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben[&#128279;](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com
 
 Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite, die einen Link bereitstellt, der den HTML5-Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es notwendig, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall weist die Web-Seite wahrscheinlich ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die in Adobe Dynamic Media Classic enthaltenen HTML5-Viewer sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
 
-Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver ](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Viewer-Vorgabentypen {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Versionshinweisen zu Viewern .
 
-Siehe [Adobe Viewer-Referenz - Versionshinweise](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Siehe [Adobe Viewer-Referenz - Versionshinweise](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
