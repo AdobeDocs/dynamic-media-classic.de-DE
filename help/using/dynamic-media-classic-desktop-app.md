@@ -271,11 +271,11 @@ Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms kö
 
 ## Tipps und Tricks
 
-**_Ich kann das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic nicht sehen._**<br>Tippen Sie in Adobe Dynamic Media Classic auf**[!UICONTROL Setup > Persönliches Setup ]**. Stellen Sie im Browser-Bereich sicher**[!UICONTROL dass „MediaPortal-Funktionen ]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf**[!UICONTROL Speichern > Schließen ]**.
+**_Ich kann das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic nicht sehen._**<br>Tippen Sie in Adobe Dynamic Media Classic auf&#x200B;**[!UICONTROL Setup > Persönliches Setup &#x200B;]**. Stellen Sie im Browser-Bereich sicher&#x200B;**[!UICONTROL dass „MediaPortal-Funktionen &#x200B;]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf&#x200B;**[!UICONTROL Speichern > Schließen &#x200B;]**.
 
-**_Publish-Status (grüne Anzeige) eines Assets wird nicht korrekt dargestellt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung führt Adobe ein**[!UICONTROL Aktualisieren ]**-Symbol in der Symbolleiste rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**ein. Tippen Sie auf das**[!UICONTROL Aktualisieren ]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
+**_Publish-Status (grüne Anzeige) eines Assets wird nicht korrekt dargestellt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung führt Adobe ein&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol in der Symbolleiste rechts neben der Schaltfläche&#x200B;**[!UICONTROL Keine auswählen &#x200B;]**&#x200B;ein. Tippen Sie auf das&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
 
 ![Aktualisierungssymbol](/help/using/assets/refresh-icon1.png)
 *Aktualisierungssymbol*
 
-**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben ]**. Stellen Sie sicher**[!UICONTROL dass die entsprechende Stapelsatzvorgabe ]**ist. Klicken Sie**[!UICONTROL Speichern und Upload starten ]**.
+**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf&#x200B;**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben &#x200B;]**. Stellen Sie sicher&#x200B;**[!UICONTROL dass die entsprechende Stapelsatzvorgabe &#x200B;]**&#x200B;ist. Klicken Sie&#x200B;**[!UICONTROL Speichern und Upload starten &#x200B;]**.

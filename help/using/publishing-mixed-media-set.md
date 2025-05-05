@@ -49,7 +49,7 @@ Last Modified Date:
 1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]**.
 1. Legen Sie die gewünschten Planungsoptionen fest.
 1. (Optional) Geben Sie im Feld **[!UICONTROL Auftragsname]** einen Namen für den Veröffentlichungsauftrag ein.
-1. Wählen Sie in **[!UICONTROL Erweiterten]** Optionen in der Dropdown-Liste **[!UICONTROL Publish]** To} die Option **[!UICONTROL Videoserver]** aus.
+1. Wählen Sie in **[!UICONTROL Erweiterten]** Optionen in der Dropdown-Liste **[!UICONTROL Publish]** To&rbrace; die Option **[!UICONTROL Videoserver]** aus.
 
    Unter [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) finden Sie weitere Optionen, die Sie festlegen können.
 

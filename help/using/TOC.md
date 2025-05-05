@@ -82,7 +82,7 @@ ht-degree: 18%
    + [Drucken von Assets](printing-assets.md)
    + [Papierkorb-Ordner verwalten](trash-folder.md)
    + [Organisieren der Arbeit mit Projekten](organizing-projects.md)
-+ {#image-sizing} der Bildgröße
++ der Bildgröße{#image-sizing}
    + [Kurzanleitung: Bildgrößenänderung](quick-start-image-sizing.md)
    + [Primäre Bilder hochladen](uploading-master-images.md)
    + [Primärbilder von Publish](publishing-master-images.md)
@@ -115,21 +115,21 @@ ht-degree: 18%
    + [Anzeigen von Bildsets](viewing-image-sets.md)
    + [Automatisieren der Erstellung von Bildsets](automated-image-set-generation.md)
    + [Verknüpfen von Bildsets mit Web-Seiten](linking-image-set-web-page.md)
-+ {#swatch-sets} für Mustersätze
++ für Mustersätze{#swatch-sets}
    + [Kurzanleitung: Mustersets](quick-start-swatch-sets.md)
    + [Zoom-Ziele und Imagemaps in Mustersets einschließen](including-zoom-targets-image-maps-swatch-sets.md)
    + [Vorbereiten von Musterset-Assets auf den Upload](preparing-swatch-set-assets-upload.md)
    + [Erstellen eines Mustersets](creating-swatch-set.md)
    + [Anzeigen von Mustersets](viewing-swatch-sets.md)
    + [Verknüpfen von Mustersets mit Web-Seiten](linking-swatch-set-web-page.md)
-+ {#spin-sets} von Rotationssets
++ von Rotationssets{#spin-sets}
    + [Kurzanleitung: Rotationssets](quick-start-spin-sets.md)
    + [Erstellen eines Rotationssets](creating-spin-set.md)
    + [Anzeigen einer Vorschau für ein Rotationsset](previewing-spin-set.md)
    + [Publish - ein Rotationsset](publishing-spin-set.md)
    + [Einrichten von Viewer-Vorgaben für Rotationssets](setting-spin-set-viewer-presets.md)
    + [Verknüpfen von Rotationssets mit Web-Seiten](linking-spin-set-web-page.md)
-+ {#template-basics} zu Vorlagengrundlagen
++ zu Vorlagengrundlagen{#template-basics}
    + [Kurzanleitung: Vorlagen aus Grundelementen](quick-start-template-basics.md)
    + [Hochladen von Vorlagendateien](uploading-template-files.md)
    + [Erstellen von Vorlagen](creating-template.md)
@@ -166,7 +166,7 @@ ht-degree: 18%
    + [Integrieren von Adobe Dynamic Media Classic mit Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Erstellen von Angebotssets](creating-offer-set.md)
    + [Angebotssets auf Adobe Target Standard/Premium pushen](pushing-offer-sets-target.md)
-+ {#user-generated-content} benutzergenerierter Inhalte
++ benutzergenerierter Inhalte{#user-generated-content}
    + [Über benutzergenerierte Inhalte](about-ugc.md)
    + [Löschen eines hochgeladenen Assets](deleting-uploaded-asset.md)
    + [Abrufen von Informationen zur Festplattenauslastung](getting-disk-usage-information.md)

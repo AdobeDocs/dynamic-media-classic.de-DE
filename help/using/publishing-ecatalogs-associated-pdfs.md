@@ -31,7 +31,7 @@ Beim Veröffentlichen werden Ihr E-Katalog und PDF auf Dynamic Media-Image-Serve
 1. Wählen Sie auf dem Bildschirm „Veröffentlichen **[!UICONTROL „Einmalig]** oder &quot;**[!UICONTROL &quot;]**.
 1. (Optional) Geben Sie im Feld Auftragsname einen Namen für den Veröffentlichungsauftrag ein, behalten Sie jedoch den vordefinierten Text für Datum und Uhrzeit bei.
 
-   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Erweitert]** aus. Wählen Sie im Dropdown-]****[!UICONTROL  Publish die Option **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
+   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Erweitert]** aus. Wählen Sie im Dropdown-**&#x200B;** Publish die Option **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
 
 1. Wählen Sie **[!UICONTROL Publish senden]** aus.
 

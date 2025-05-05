@@ -36,7 +36,7 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 
      Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Liste „Imagemap“ zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der E-Katalog-Seite an, auf der Sie arbeiten.
 
-1. (Optional) In der Liste „Imagemap“ können [!UICONTROL  in der Spalte ] einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
+1. (Optional) In der Liste „Imagemap“ können [!UICONTROL &#x200B; in der Spalte &#x200B;] einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
 1. Viewer können eine neue Web-Seite öffnen, wenn sie auf die Imagemap klicken. Geben Sie im Listenfeld „Imagemap“ die URL der Web-Seite in die Spalte URL ein.
 
    Um das Eingeben von URLs (href-Vorlagen) zu vereinfachen, wählen Sie **[!UICONTROL Bearbeiten]** und geben Sie eine Vorlage ein.
