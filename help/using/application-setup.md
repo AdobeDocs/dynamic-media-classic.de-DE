@@ -582,7 +582,7 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
   
 * **Viewer-Vorgabeliste filtern**: Verwenden Sie diese Tools, um die Liste zu filtern:
 
-      * Öffnen Sie die Dropdown**Liste „Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
+      * Öffnen Sie die Dropdown&#x200B;**Liste „Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
      * Öffnen Sie die **Viewer**-Dropdown-Liste und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]** aus, um alle Viewer anzuzeigen.
   
 * **Sortiervorgaben**: Wählen Sie eine Spaltenüberschrift aus (**[!UICONTROL Aktiv]**, **[!UICONTROL Typ]**, **[!UICONTROL Vorgabe]** oder **[!UICONTROL Plattform]**), um die Liste in einer Spalte zu sortieren. Wählen Sie ein zweites Mal eine Spaltenüberschrift aus, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren.

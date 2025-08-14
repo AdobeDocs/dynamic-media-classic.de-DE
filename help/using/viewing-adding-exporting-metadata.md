@@ -73,7 +73,7 @@ Wenn Sie während dieser Sitzung Keywords zu anderen Dateien hinzugefügt oder K
 >[!NOTE]
 >
 >Sie können Schlüsselwörter zu Dateien hinzufügen, während Sie sie in Adobe Dynamic Media Classic hochladen. Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL Weitere Metadaten]** und geben Sie Schlüsselwörter ein.
->>Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
+>&#x200B;>Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
 ## Importieren von Metadaten {#import-metadata}
 
@@ -82,7 +82,7 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 >[!NOTE]
 >
 >Sie können eine Vorlage für die Eingabe von Metadaten erstellen, damit sie ordnungsgemäß in Adobe Dynamic Media Classic importiert werden können. Nachdem Sie die Vorlage erstellt haben, können Sie sie zur Eingabe der Metadaten verwenden.
->>Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>&#x200B;>Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Weitere Informationen über standardisierte Eigenschaften finden Sie im [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
