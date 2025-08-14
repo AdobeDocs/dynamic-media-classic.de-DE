@@ -19,7 +19,7 @@ ht-degree: 17%
 
 # Verknüpfen einer Vorlage mit einer Web-Seite{#linking-a-template-to-a-web-page}
 
-Ihre Websites und Programme greifen über URL-Zeichenfolgen auf Dynamic Media-Bildserver-Inhalte zu. Nachdem Sie eine Vorlage veröffentlicht haben, aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf die Vorlage auf Dynamic Media-Bildservern verweist. Sie können diese URL zum Testen in einen Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf Dynamic Media Image Server-Inhalte zu. Nach dem Veröffentlichen einer Vorlage aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf die Vorlage auf Dynamic Media-Bildservern verweist. Sie können diese URL zum Testen in einen Webbrowser einfügen.
 
 Um URL-Zeichenfolgen in Ihren Web-Seiten und Anwendungen zu platzieren, kopieren Sie sie aus Adobe Dynamic Media Classic. Um eine mit einer Bildvorgabe generierte Vorlagen-URL-Zeichenfolge abzurufen, gehen Sie zum Bildschirm „Vorschau“ oder zum Durchsuchen-Panel (in der Detailansicht). Wählen Sie anschließend eine Bildvorgabe aus und klicken Sie auf „URL kopieren“.
 
@@ -37,7 +37,7 @@ Sie können die mit einer Bildvorgabe generierte Zeichenfolge einer Vorlagen-URL
 
 ## Hinzufügen von Vorlagen-URLs zu einer Web-Seite {#adding-template-urls-to-your-web-page}
 
-Um Ihrer Web-Seite eine Vorlage hinzuzufügen, wenden Sie sich an Ihr Web-Seiten-Entwicklungs-Team, um das `<IMG>`-Tag in Ihrem HTML-Web-Seiten-Code zu ändern. Verwenden Sie die Adobe Dynamic Media Classic-URL-Zeichenfolge, um eine Anfrage an Dynamic Media-Bildserver zu senden. Die Commerce-Engine oder der dynamische Web-Seiten-Code fügt das Vorlagenbild in der Größe und mit der Formatierungsspezifikation ein, die in der Bildvorgabe definiert sind, die Sie für Ihre Vorlage auswählen.
+Um Ihrer Web-Seite eine Vorlage hinzuzufügen, wenden Sie sich an Ihr Web-Seiten-Entwicklungs-Team, um das `<IMG>`-Tag in Ihrem HTML-Web-Seiten-Code zu ändern. Verwenden Sie die Adobe Dynamic Media Classic-URL-Zeichenfolge, um eine Anfrage an Dynamic Media-Bildserver zu stellen. Die Commerce-Engine oder der dynamische Web-Seiten-Code fügt das Vorlagenbild in der Größe und mit der Formatierungsspezifikation ein, die in der Bildvorgabe definiert sind, die Sie für Ihre Vorlage auswählen.
 
 >[!MORELIKETHIS]
 >

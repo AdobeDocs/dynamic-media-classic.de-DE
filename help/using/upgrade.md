@@ -19,7 +19,7 @@ Adobe hat [!DNL Dynamic Media] mit Ihnen im Hinterkopf erstellt.
 
 Die neue [!DNL Dynamic Media] auf [!DNL Adobe Experience Manager] baut auf den Funktionen auf, die Sie von [!DNL Dynamic Media Classic] (ehemals Scene7) erwarten. Dadurch erhält Ihr Unternehmen neue und verbesserte Tools, um bessere, ansprechendere Erlebnisse zu erstellen.
 
-[!DNL Dynamic Media] aktualisiert die Inhaltserstellung mithilfe von visuellen Buildern in Echtzeit. Auf einem bewährten, vertrauenswürdigen und skalierbaren Adobe-Bereitstellungsnetzwerk sitzend und in Kombination mit der intuitiven [!DNL Adobe Experience Manager]-Benutzeroberfläche bietet [!DNL Dynamic Media] die Möglichkeit, ansprechende Erlebnisse auf nächster Ebene zu erstellen, zu iterieren und bereitzustellen.
+[!DNL Dynamic Media] aktualisiert die Inhaltserstellung mithilfe von visuellen Buildern in Echtzeit. Das bewährte, vertrauenswürdige und skalierbare Bereitstellungsnetzwerk von Adobe bietet in Kombination mit der intuitiven [!DNL Adobe Experience Manager]-Benutzeroberfläche [!DNL Dynamic Media] Funktionen zum Erstellen, Durchlaufen und Bereitstellen ansprechender Erlebnisse auf nächster Ebene.
 
 | Was Sie mit [!DNL Dynamic Media] erhalten | Beschreibung |
 | --- | --- |

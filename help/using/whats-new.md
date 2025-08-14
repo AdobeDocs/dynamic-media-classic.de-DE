@@ -19,4 +19,4 @@ ht-degree: 0%
 
 # Neue Funktionen {#what-s-new}
 
-Die neuesten Versionsinformationen zu Adobe Dynamic Media Classic, einschließlich neuer Funktionen, Verbesserungen und Fehlerbehebungen, finden Sie in den [Versionshinweisen zu Adobe Dynamic Media Classic](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
+Die neuesten Versionsinformationen zu Adobe Dynamic Media Classic, einschließlich neuer Funktionen, Verbesserungen und Fehlerbehebungen, finden Sie in den [Versionshinweisen zu Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).

@@ -51,11 +51,11 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 
    Unterstützte Dateiformate sind TAB-getrennte Dateien mit UTF-16-Kodierung und CSV-Dateien mit ASCII-Kodierung. Bei CSV-Dateien müssen Nicht-ASCII-Zeichen HTML-kodiert sein.
 
-1. Wählen Sie im Bedienfeld „InfoPanel-Setup“ **[!UICONTROL Publish]**.
+1. Wählen Sie im Bedienfeld „InfoPanel-Setup“ die Option **[!UICONTROL Veröffentlichen]** aus.
 
 ## Importieren von Quellinhalten für das Infobedienfeld in Bildsets {#import-source-content-for-the-info-panel-in-image-sets}
 
-Sie können eine CSV-Datei (kommagetrennte Wertedatei) mit ASCII-Codierung (Nicht-ASCII-Zeichen müssen HTML-codiert sein) oder eine durch Tabulatoren getrennte Datei für den Quelltext eines Info-Bedienfelds für ein Bildset verwenden. Tabulatorgetrennte Dateien müssen die UTF-16-Kodierung (Unicode) verwenden. Sie können die verschiedenen Dateitypen mit verschiedenen Methoden importieren.
+Sie können eine CSV-Datei (kommagetrennte Wertedatei) mit ASCII-Codierung (Nicht-ASCII-Zeichen müssen in HTML codiert sein) oder eine durch Tabulatoren getrennte Datei für den Quelltext eines Info-Bedienfelds für ein Bildset verwenden. Tabulatorgetrennte Dateien müssen die UTF-16-Kodierung (Unicode) verwenden. Sie können die verschiedenen Dateitypen mit verschiedenen Methoden importieren.
 
 Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 

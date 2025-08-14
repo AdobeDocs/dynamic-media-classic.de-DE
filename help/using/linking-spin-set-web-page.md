@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Verknüpfen von Rotationssets mit Web-Seiten{#linking-a-spin-set-to-a-web-page}
 
-Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code auf Dynamic Media-Bildserver-Inhalte zu, einschließlich Rotationssets. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den Einbettungs-Code für Ihr Rotationsset auf Ihren Web-Seiten und Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
+Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code auf Dynamic Media Image Server-Inhalte, einschließlich Rotationssets, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den Einbettungs-Code für Ihr Rotationsset auf Ihren Web-Seiten und Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

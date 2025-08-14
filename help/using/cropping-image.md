@@ -63,5 +63,5 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 >[!MORELIKETHIS]
 >
 >* [Optionen für die Bildbearbeitung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Beschneiden Sie Leerzeichen von einer PDF-Datei](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Beschneiden Sie die PDF-Seiten seitlich](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Beschneiden von Leerzeichen aus einer PDF-Datei](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Beschneiden der Seiten von PDF-Seiten](pdfs.md#cropping_from_the_sides_of_pdf_pages)

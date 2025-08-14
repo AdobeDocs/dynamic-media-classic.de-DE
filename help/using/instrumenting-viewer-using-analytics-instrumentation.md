@@ -25,7 +25,7 @@ Wenn Sie eine der vordefinierten Adobe Dynamic Media Classic HTML5-Viewer-Vorgab
 
 ## Einrichten des Adobe Analytics-Trackings über Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-Fügen Sie für alle HTML5-Viewer die folgende JavaScript zum HTML-Container hinzu, normalerweise im Element &lt;head>:
+Fügen Sie für alle HTML5-Viewer die folgende JavaScript zum HTML-Container hinzu, normalerweise im &lt;head>-Element:
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
@@ -35,7 +35,7 @@ Dabei ist `Adobe Dynamic Media Classic Company ID` auf den Adobe Dynamic Media C
 
 Fügen Sie nun eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Trackingcode sendet.
 
-Fügen Sie die `s7ComponentEvent()` zur Container-HTML hinzu (oder JSP, ASPX oder ein anderes):
+Fügen Sie die `s7ComponentEvent()` zum Container HTML (oder JSP, ASPX oder einem anderen) hinzu:
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }

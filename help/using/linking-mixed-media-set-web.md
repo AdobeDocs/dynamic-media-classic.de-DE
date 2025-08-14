@@ -75,4 +75,4 @@ Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausge
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Veröffentlichen](publishing-files.md#publishing_files)

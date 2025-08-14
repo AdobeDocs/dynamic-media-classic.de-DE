@@ -31,5 +31,5 @@ Um mit der Adobe Dynamic Media Classic Desktop-Anwendung optimale Ergebnisse zu 
 
 >[!MORELIKETHIS]
 >
->* [Einschränkungen bei Dynamic Media](/help/using/limitations.md)
+>* [Grenzwerte für Dynamic Media](/help/using/limitations.md)
 

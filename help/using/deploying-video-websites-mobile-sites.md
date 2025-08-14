@@ -31,9 +31,9 @@ Das Veröffentlichen eines Videos ermöglicht es Adobe Dynamic Media Classic-Ser
 
 Es gibt zwei verschiedene Methoden zum Veröffentlichen von Videos:
 
-* **Publish-Videos automatisch und sofort beim Hochladen**: Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic Videos automatisch veröffentlichen, wenn sie hochgeladen und kodiert werden. Diese Fähigkeit zur sofortigen Veröffentlichung bedeutet, dass es nicht notwendig ist, Videos separat zu veröffentlichen.
+* **Videos beim Hochladen automatisch und sofort veröffentlichen**: Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic Videos automatisch veröffentlichen, wenn sie hochgeladen und kodiert werden. Diese Fähigkeit zur sofortigen Veröffentlichung bedeutet, dass es nicht notwendig ist, Videos separat zu veröffentlichen.
 
-* **Publish-Videos nach dem Hochladen manuell**: Wenn Sie Videos nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
+* **Video nach dem Hochladen manuell veröffentlichen**: Wenn Sie Videos nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
 
 Nach dem Veröffentlichen von Videos aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolgen für Ihre HTML-Seite oder Ihren Programm-Code.
 
@@ -41,8 +41,8 @@ Nach dem Veröffentlichen von Videos aktiviert Adobe Dynamic Media Classic die U
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um Videos beim Hochladen automatisch und sofort zu veröffentlichen, wählen Sie auf der Seite „Hochladen“ nach dem Hochladen **[!UICONTROL Publish]**. An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
-   * Um Videos nach dem Hochladen manuell zu veröffentlichen, wählen Sie im Durchsuchen-Panel die Videos aus und wählen Sie dann in der globalen Navigationsleiste **Publish**.
+   * Um Videos beim Hochladen automatisch und sofort zu veröffentlichen, wählen Sie auf der Seite „Hochladen“ die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]** aus. An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
+   * Um Videos nach dem Hochladen manuell zu veröffentlichen, wählen Sie im Durchsuchen-Panel die Videos aus und klicken Sie dann in der Symbolleiste für die globale Navigation auf **Veröffentlichen**.
 
 ## Verknüpfen einer Video-URL mit einer mobilen Site oder einer Website {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -107,7 +107,7 @@ Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder einer Websit
 
 ### Implementieren von Einbettungs-Code für die Verwendung von HTML5-Videos mit MP4-Video-Assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Sie möchten den Adobe Dynamic Media Classic HTML5-Videoplayer möglicherweise nicht verwenden. Wenn Sie stattdessen das native HTML5-`<video>`-Tag mit MP4-Video-Assets verwenden möchten, können Sie das folgende Einbettungs-Code-Beispiel verwenden:
+Möglicherweise möchten Sie den Adobe Dynamic Media Classic HTML5-Videoplayer nicht verwenden. Wenn Sie stattdessen das native HTML5-`<video>`-Tag mit MP4-Video-Assets verwenden möchten, können Sie das folgende Einbettungs-Code-Beispiel verwenden:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -175,7 +175,7 @@ Adobe Dynamic Media Classic generiert beim Hochladen automatisch Videominiaturan
 
 Führen Sie zum Erstellen von URLs für Videominiaturen einen Veröffentlichungsvorgang durch.
 
-Siehe [Publish-Video](deploying-video-websites-mobile-sites.md#publishing_video).
+Siehe [Video veröffentlichen](deploying-video-websites-mobile-sites.md#publishing_video).
 
 Nach der Veröffentlichung können Sie Videominiatur-URLs in der Detailansicht im URL-Bedienfeld sowie im Code-einbetten-Bedienfeld abrufen. Wählen Sie **[!UICONTROL URL kopieren]** rechts neben der Videominiatur aus, damit Sie die zugehörige URL kopieren können.
 
@@ -187,10 +187,10 @@ Sie können auch Bildmodifikatoren auf das Standbild anwenden. Sie können das S
 
 Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Siehe [Image Serving Guide](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Siehe [Image Serving Guide](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Sie können auch Videominiaturen bearbeiten, indem Sie Modifikatoren an die Videominiatur-URLs anhängen.
 
 >[!MORELIKETHIS]
 >
->* [Publish-Dateien](publishing-files.md#publishing_files)
+>* [Dateien veröffentlichen](publishing-files.md#publishing_files)

@@ -23,7 +23,7 @@ Um einen Bildsatz mit mehreren Ansichten zu erstellen, benötigen Sie Bilder, di
 
 ## Erstellen eines Bildsatzes {#create}
 
-Wenn Sie einen Satz erstellen, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Satzes und des Satzes wie folgt aus:
+Wenn Sie einen Satz erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Satzes und des Satzes wie folgt aus:
 
 | **[!UICONTROL `Publish after a save`]** Option vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Wenn Sie einen Satz erstellen, wirkt sich die Option **[!UICONTROL Publish nach 
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
-Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgenden Beschränkungen:
+Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgenden Einschränkungen:
 
 | Art des Limits | Optimale Vorgehensweise | Limit |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und e
 
 ‡ Best Practice ist es, keine doppelten Assets in einem Satz zu haben. Für ein einzelnes Asset sind maximal 20 Duplikate zulässig. Wenn Sie innerhalb des Sets ein weiteres Duplikat für dieses Asset hinzufügen, gibt die Anfrage entweder einen Fehler aus oder ignoriert das Duplikat.
 
-Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
+Siehe auch [Grenzwerte für Dynamic Media](/help/using/limitations.md).
 
 **So erstellen Sie ein Bildset:**
 
@@ -52,13 +52,13 @@ Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
    * **Im Bildschirm für Bildsets starten**: Gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Bildsets]**. Der Anzeigebereich „Bildsatz“ wird geöffnet. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die Bilder, die Sie für den Bildsatz verwenden möchten, in den Anzeigebereich „Bildsatz“.
 
 1. Um die Reihenfolge der Bilder zu ändern, ziehen Sie die Bilder an die gewünschten Positionen.
-1. Stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern in der rechten unteren Ecke]** Standard) ausgewählt ist.
+1. Stellen Sie sicher, dass in der rechten unteren Ecke der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Klicken Sie **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern des Bildsets aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 1. Um das Bildset im Bildset-Viewer anzuzeigen, wählen Sie **[!UICONTROL Bildschirm Bildset]** Vorschau“ aus. Sie können im Bildset-Viewer Miniaturansichten auswählen, um ihr Verhalten zu überprüfen.
 
 ## Bearbeiten eines Bildsatzes {#editing-an-image-set}
 
-Unabhängig davon, ob Sie ein veröffentlichtes oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Publish nach einem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Unabhängig davon, ob Sie ein veröffentlichtes oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
 | Set bereits veröffentlicht? | **[!UICONTROL `Publish after a save`]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
@@ -78,7 +78,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    * Um ein Bild zu entfernen, wählen Sie es aus und klicken Sie in der Symbolleiste **[!UICONTROL Löschen]**.
    * Um die Bilder neu anzuordnen, ziehen Sie ein Bild in eine neue Position.
 
-1. Wenn Sie die Bearbeitung des Sets abgeschlossen haben, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Wenn Sie mit der Bearbeitung des Sets fertig sind, stellen Sie sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner für Ihr Set aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 ## Löschen von Bildsets

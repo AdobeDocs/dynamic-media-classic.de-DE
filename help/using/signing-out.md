@@ -33,7 +33,7 @@ Achten Sie vor der Verwendung des Adobe Dynamic Media Classic-Desktop-Programms 
 
 1. Geben Sie **[!UICONTROL Feld „Benutzername]** Ihre E-Mail-Adresse ein.
 1. Geben Sie **[!UICONTROL Feld]** das Kennwort ein.
-1. Wählen Sie in **[!UICONTROL Dropdown]**&#x200B;Liste Server einen Server aus.
+1. Wählen Sie in **[!UICONTROL Dropdown]**Liste Server einen Server aus.
 Verwenden Sie die folgende Zuordnung, um die Produktionsumgebung auszuwählen, die Sie verwenden möchten.
 
    | Browser-URL | Name des Desktop-Programm-Servers |

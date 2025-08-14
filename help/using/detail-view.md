@@ -62,7 +62,7 @@ Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst
 
 Die Detailansicht bietet Tools zum Arbeiten mit dem geöffneten Asset. Welche Tools verfügbar sind, hängt vom verwendeten Asset-Typ ab. Die Detailansicht bietet jedoch immer die folgenden Funktionen:
 
-* **Elemente für die Veröffentlichung**: Wählen Sie das **[!UICONTROL `Publish`]** links neben dem Namen aus oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Publish]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung aufheben]**.
+* **Elemente für die Veröffentlichung**: Wählen Sie das **[!UICONTROL `Publish`]** links neben dem Namen aus oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
 * **Asset umbenennen**: Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 

@@ -1,5 +1,5 @@
 ---
-title: Primärbilder von Publish
+title: Veröffentlichen primärer Bilder
 description: Erfahren Sie, wie Sie Primärbilder aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,19 +17,19 @@ ht-degree: 6%
 
 ---
 
-# Primärbilder von Publish{#publishing-master-images}
+# Veröffentlichen primärer Bilder{#publishing-master-images}
 
 Beim Veröffentlichen Ihrer Bilddateien werden diese auf Dynamic Media-Bildservern veröffentlicht, wo sie für Ihre Website und Ihr Programm verfügbar sind. Darüber hinaus aktiviert Adobe Dynamic Media Classic während des Veröffentlichungsprozesses die URL-Zeichenfolgen, die Sie für Ihre Website und Ihr Programm benötigen.
 
 ## Primäre Bilder zur Veröffentlichung markieren {#marking-master-images-for-publish}
 
-Primäre Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Primärbilder zur Veröffentlichung im Durchsuchen-Panel markieren, indem Sie das Symbol **[!UICONTROL Für Publish markieren]** auswählen. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie in Adobe Dynamic Media Classic hochladen.
+Primäre Bilder müssen für die Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre primären Bilder zur Veröffentlichung im Durchsuchen-Panel markieren, indem Sie das Symbol **[!UICONTROL Für Veröffentlichung markieren]** auswählen. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie in Adobe Dynamic Media Classic hochladen.
 
-## Primäre Publish-Bilder {#publishing-your-master-images}
+## Veröffentlichen der primären Bilder {#publishing-your-master-images}
 
-1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]**. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option Wenn (**[!UICONTROL Einmal]** oder **[!UICONTROL Wiederkehrend]** und geben Sie optional einen Namen für den Veröffentlichungsauftrag ein
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Veröffentlichen]** aus. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option Wenn (**[!UICONTROL Einmal]** oder **[!UICONTROL Wiederkehrend]** und geben Sie optional einen Namen für den Veröffentlichungsauftrag ein
 
-1. Wählen Sie **[!UICONTROL Publish senden]** aus.
+1. Wählen **[!UICONTROL Senden/Veröffentlichen]** aus.
 
 >[!NOTE]
 >
@@ -37,4 +37,4 @@ Primäre Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dyn
 
 >[!MORELIKETHIS]
 >
->* [Publish-Dateien](publishing-files.md#publishing_files)
+>* [Dateien veröffentlichen](publishing-files.md#publishing_files)

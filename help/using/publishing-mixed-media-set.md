@@ -1,5 +1,5 @@
 ---
-title: Publish - ein gemischtes Medienset
+title: Veröffentlichen eines gemischten Mediensets
 description: Erfahren Sie, wie Sie ein gemischtes Medienset in Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ---
 
-# Publish - ein gemischtes Medienset{#publishing-a-mixed-media-set}
+# Veröffentlichen eines gemischten Mediensets{#publishing-a-mixed-media-set}
 
 Erstellen Sie einen Veröffentlichungsauftrag, um ein gemischtes Medienset zu veröffentlichen, das Sie zur Veröffentlichung auf dem Adobe Dynamic Media Classic-Videoserver und Bildserver markiert haben. Adobe Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern sowie Optionen für die erneute Veröffentlichung von bereits veröffentlichten Assets.
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie im Durchsuchen-Bedienfeld **[!UICONTROL Für Publish markieren]** neben jedem Dateinamen aus, den Sie veröffentlichen möchten.
-   * Wählen Sie im Bildschirm Hochladen **[!UICONTROL Für Publish markieren]** neben jedem Dateinamen aus, den Sie veröffentlichen möchten.
+   * Wählen Sie im Durchsuchen-Bedienfeld **[!UICONTROL Zur Veröffentlichung markieren]** neben jedem Dateinamen aus, den Sie veröffentlichen möchten.
+   * Wählen Sie im Bildschirm Hochladen neben **[!UICONTROL Dateinamen, den Sie veröffentlichen möchten]** die Option „Zur Veröffentlichung markieren“ aus.
 
-1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Veröffentlichen]** aus.
 1. Legen Sie die gewünschten Planungsoptionen fest.
 1. (Optional) Geben Sie im Feld **[!UICONTROL Auftragsname]** einen Namen für den Veröffentlichungsauftrag ein.
-1. Wählen Sie in **[!UICONTROL Erweiterten]** Optionen in der Dropdown-Liste **[!UICONTROL Publish]** To&rbrace; die Option **[!UICONTROL Videoserver]** aus.
+1. Wählen **[!UICONTROL in den]** in der Dropdown-Liste **[!UICONTROL Veröffentlichen in]** die Option **[!UICONTROL Videoserver]**.
 
    Unter [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) finden Sie weitere Optionen, die Sie festlegen können.
 
-1. Wählen Sie **[!UICONTROL Publish senden]** aus.
+1. Wählen **[!UICONTROL Senden/Veröffentlichen]** aus.
 1. Wiederholen Sie obige Schritte 2-4.
 1. Wählen Sie in den **[!UICONTROL erweiterten Optionen]** in der Dropdown-Liste **[!UICONTROL Veröffentl. auf:]** die Option **[!UICONTROL Image-Server]** aus.
 
    Unter [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options) finden Sie weitere Optionen, die Sie festlegen können.
 
-1. Wählen Sie **[!UICONTROL Publish senden]** aus.
+1. Wählen **[!UICONTROL Senden/Veröffentlichen]** aus.

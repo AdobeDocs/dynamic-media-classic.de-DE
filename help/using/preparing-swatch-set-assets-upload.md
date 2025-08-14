@@ -26,7 +26,7 @@ Wenn Sie ein Musterset mit Farbfeldern erstellen möchten, benötigen Sie Vignet
 * Je eine Aufnahme der Jacke in Schwarz, Braun und Grün.
 * Je ein schwarzes, braunes und grünes Farbfeld.
 
-Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreies TIFF-, PNG- und EPS-Bilder.
+Da die Benutzer die Bilder in einem Musterset heranzoomen können, ist sicherzustellen, dass die längste Seite der Bilder mindestens 2000 Pixel aufweist. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder.
 
 Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files).
 

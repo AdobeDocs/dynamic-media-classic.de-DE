@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3989'
+source-wordcount: '3981'
 ht-degree: 40%
 
 ---
@@ -56,7 +56,7 @@ Führen Sie einen der folgenden Schritte aus.
 1. Wählen Sie auf der Seite Hochladen die Registerkarte **[!UICONTROL Von Desktop]** aus.
 1. Wählen Sie auf der Seite Hochladen im Bedienfeld **[!UICONTROL Dateien zum Hochladen auswählen]** die Option **[!UICONTROL Durchsuchen]**, navigieren Sie zu einer MP4-Videodatei und klicken Sie dann auf **[!UICONTROL Öffnen]**.
 1. Wählen Sie im Bedienfeld **[!UICONTROL Ordnerziel]** einen Ordner für die hochgeladene Datei aus.
-1. Stellen Sie auf der Seite „Hochladen“ sicher, dass **[!UICONTROL Publish After Upload]** aktiviert ist.
+1. Stellen Sie auf der Seite Hochladen sicher, dass **[!UICONTROL Nach Hochladen veröffentlichen]** aktiviert ist.
 1. Wählen Sie **[!UICONTROL Upload starten]** aus.
 
 *Wenn Sie Ihre Videos mit Adobe Dynamic Media Classic kodieren möchten*
@@ -72,7 +72,7 @@ Führen Sie einen der folgenden Schritte aus.
    * Optional. Wenn Sie individuelle Kodierungseinstellungen verwenden möchten, erweitern Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** und wählen Sie dann die gewünschten Kodierungsoptionen für Desktop, Mobilgerät und Tablet aus.
 Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
 1. Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL Speichern]**.
-1. Stellen Sie auf der Seite „Hochladen“ sicher, dass **[!UICONTROL Publish After Upload]** aktiviert ist.
+1. Stellen Sie auf der Seite Hochladen sicher, dass **[!UICONTROL Nach Hochladen veröffentlichen]** aktiviert ist.
 1. Wählen Sie auf der Seite „Hochladen“ in der rechten unteren Ecke **[!UICONTROL Upload starten]**.
 
 *Wenn Sie eine zuvor hochgeladene Videodatei erneut kodieren möchten*
@@ -129,7 +129,7 @@ Im Folgenden finden Sie Best Practice-Tipps für die Kodierung von Quellvideodat
 For advice about video encoding, see the following:
 
 * Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_de). -->
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). -->
 
 ### Quell-Videodateien {#source-video-files}
 
@@ -139,9 +139,9 @@ Die folgende Tabelle beschreibt die empfohlenen Werte für Größe, Seitenverhä
 
 | Größe | Seitenverhältnis | Minimale Bitrate |
 | --- | --- | --- |
-| 1024 X 768 | 4:3 | 4500 Kbit/s sind für die meisten Videos ausreichend. |
-| 1280 X 720 | 16:9 | 3000: 6000 kBit/s, je nach Bewegungsdauer im Video. |
-| 1920 X 1080 | 16:9 | 6000: 8000 kBit/s, je nach Bewegungsdauer im Video. |
+| 1024 X 768 | 4 :3 | 4500 Kbit/s sind für die meisten Videos ausreichend. |
+| 1280 X 720 | 16 :9 | 3000: 6000 kBit/s, je nach Bewegungsdauer im Video. |
+| 1920 X 1080 | 16 :9 | 6000: 8000 kBit/s, je nach Bewegungsdauer im Video. |
 
 ### Abrufen der Metadaten einer Datei {#obtaining-a-file-s-metadata}
 
@@ -163,10 +163,10 @@ In der folgenden Tabelle sind die Formelergebnisse und die zugehörigen gebräuc
 
 | Formelergebnis | Seitenverhältnis |
 | --- | --- |
-| 1,33 | 4:3 |
-| 0,75 | 3:4 |
-| 1,78 | 16:9 |
-| 0,56 | 9:16 |
+| 1,33 | 4 :3 |
+| 0,75 | 3 :4 |
+| 1,78 | 16 :9 |
+| 0,56 | 9 :16 |
 
 Beispielsweise hat ein Video mit einer Breite × Höhe von 1.440 und einem Seitenverhältnis von 1.440 zu 1.080 bzw. 1,33. In diesem Fall wählen Sie eine Videokodierungsvorgabe mit einem Seitenverhältnis von 4:3 aus, um die Videodatei zu kodieren.
 
@@ -354,7 +354,7 @@ Adobe Dynamic Media Classic hat Höchstwerte für die Zieldatenrate, Auflösungs
    | Wiedergabegerät | Wählen Sie das Gerät aus, auf dem das Video wiedergegeben werden soll. Die Optionen sind Computer (Desktops), Mobil (iPhone, iPad, Android™) oder Tablet (nur iPad). Diese Einstellung bestimmt automatisch den entsprechenden Video- und Audio-Codec, der bei der Kodierung verwendet wird. |
    | Zieldatenrate | Geben Sie die durchschnittliche Verbindungsgeschwindigkeit des Endbenutzers in Kilobit pro Sekunde ein. Sie können die Datenrate eingeben oder zur Eingabe den Regler ziehen. Für die Verbindungsgeschwindigkeit werden typische Geschwindigkeiten für Breitband-, DSL-, mobile und DFÜ-Verbindungen aufgelistet. Diese Einstellung legt automatisch die kombinierte Video- und Audiodatenrate fest. Anders ausgedrückt, die Datenmenge, die kodiert wird, um eine einzige Sekunde für die Videowiedergabe zu generieren. Je höher die Datenrate, desto besser ist die Qualität des resultierenden Videos. Ist die Datenrate jedoch zu hoch, kommt es zu erheblich größeren Dateien und dadurch zu einer Beeinträchtigung der Wiedergabe bei geringeren Bandbreiten. Es empfiehlt sich, einen Kompromiss zwischen hohen und niedrigen Datenraten einzugehen. Versuchen Sie, ein qualitativ hochwertiges Wiedergabeerlebnis zu schaffen, ohne sich über Benutzer mit engen Bandbreiten zu ärgern. |
    | Seitenverhältnis | Das Seitenverhältnis ist das Verhältnis zwischen Breite und Höhe des Videos. Die ersten beiden Seitenverhältnisse in der Liste werden häufig verwendet, um Video horizontal anzuzeigen:<ul><li> 4:3: Wird für fast alle Standard Definition TV-Broadcast-Inhalte verwendet.</li><li>16:9: Wird für fast alle Widescreen-Inhalte und Filme auf High-Definition-Fernsehen (HDTV) verwendet.</li><li>Automatische Skalierung: (Standard) Eine Vorgabe für die einzelne Kodierung, die mit jedem Seitenverhältnis verwendet werden kann, um Videos für die Bereitstellung auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten (Verhältnis Breite zu Höhe).</li><li>Benutzerdefiniert: Wird verwendet, wenn Sie eine nicht standardmäßige Videogröße definieren möchten.</li><li>Das Seitenverhältnis, das Sie auswählen, bestimmt die Breite und Höhe für die Auflösungsgröße. Die Breite und Höhe werden automatisch auf das richtige Seitenverhältnis skaliert.</li></ul> |
-   | Auflösung | Die Auflösungsgröße, ausgedrückt als Anzahl der Pixel durch die Anzahl der Pixel hoch, bestimmt die Größe. Geben Sie eine Breite und einen Höhenwert in Pixel ein oder ziehen Sie den Regler, um diese Werte einzugeben. Für die Auflösung werden typische Werte aufgelistet. Der Wert für die Breite und die Höhe werden automatisch an das ausgewählte Seitenverhältnis angepasst. Wenn Sie beispielsweise als Seitenverhältnis 4:3 auswählen und als Breite 400 eingeben, wird automatisch 300 für die Höhe eingegeben. Wenn Sie für die Einstellung „Seitenverhältnis“ die Option „Automatisch skalieren“ ausgewählt haben, wird der Wert für „Breite“ für die Auflösungsgröße automatisch auf „Automatisch“ festgelegt. Wählen Sie **[!UICONTROL Vorschau]** aus, um ein Browser-Fenster zu öffnen und Ihre Auflösungsoptionen dort anzuzeigen. |
+   | Auflösung | Die Auflösungsgröße, ausgedrückt als Anzahl der Pixel durch die Anzahl der Pixel hoch, bestimmt die Größe. Geben Sie eine Breite und einen Höhenwert in Pixel ein oder ziehen Sie den Regler, um diese Werte einzugeben. Für die Auflösung werden typische Werte aufgelistet. Der Wert für die Breite und die Höhe werden automatisch an das ausgewählte Seitenverhältnis angepasst. Wenn Sie beispielsweise 4:3 als Seitenverhältnis auswählen und 400 für die Breite eingeben, wird automatisch 300 für die Höhe eingegeben. Wenn Sie für die Einstellung „Seitenverhältnis“ die Option „Automatisch skalieren“ ausgewählt haben, wird der Wert für „Breite“ für die Auflösungsgröße automatisch auf „Automatisch“ festgelegt. Wählen Sie **[!UICONTROL Vorschau]** aus, um ein Browser-Fenster zu öffnen und Ihre Auflösungsoptionen dort anzuzeigen. |
    | Kodierungsdateisuffix | Geben Sie ein Suffix ein. Dieses Suffix wird dem Namen der Videodatei nach erfolgter Kodierung angehängt. Der Name darf Bindestriche und Unterstriche enthalten, jedoch keine Leerzeichen oder Sonderzeichen. |
    | Andere Einstellungen | Adobe Dynamic Media Classic bestimmt alle anderen Kodierungseinstellungen automatisch gemäß den Richtlinien für die Best-Practice-Kodierung. |
 
@@ -378,4 +378,4 @@ Administratoren können benutzerdefinierte Video-Vorgaben löschen. Videovorgabe
 >* [Schnellstart: Video in Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
 >* [Videos hochladen und kodieren](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Arbeiten mit Video-Viewer-Vorgaben](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo
+>* [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo

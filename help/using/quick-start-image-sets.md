@@ -23,9 +23,9 @@ Adobe Dynamic Media Classic-Bildsets bieten Benutzenden ein integriertes Anzeige
 
 Der Bildsatz-Viewer bietet auch Zoomfunktionen zur genauen Betrachtung der Bilder. Wenn Sie möchten, können Sie geführte Zoom-Ziele und Imagemaps zu einem Teil Ihres Bildsets machen. Durch Bildsätze wird das Betrachten der Bilder stimmiger und individueller.
 
-Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
+Siehe [Bild- und Rotationssets: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
 
-Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgenden Beschränkungen:
+Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgenden Einschränkungen:
 
 | Art des Limits | Optimale Vorgehensweise | Limit |
 | --- | --- | --- |
@@ -34,19 +34,19 @@ Beim Erstellen eines Bildsets empfiehlt Adobe die folgenden Best Practices und e
 
 ‡ Best Practice ist es, keine doppelten Assets in einem Satz zu haben. Für ein einzelnes Asset sind maximal 20 Duplikate zulässig. Wenn Sie innerhalb dieses Sets ein weiteres Duplikat für dieses Asset hinzufügen, gibt die Anfrage entweder einen Fehler aus oder ignoriert das Duplikat.
 
-Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
+Siehe auch [Grenzwerte für Dynamic Media](/help/using/limitations.md).
 
 Die folgenden Schnellstarts zu Bildsets helfen Ihnen bei der schnellen Einrichtung und Ausführung von Bildset-Verfahren in Adobe Dynamic Media Classic.
 
-## 1. Laden Sie die primären Bilder für mehrere Ansichten und Farbfelder hoch
+## &#x200B;1. Laden Sie die primären Bilder für mehrere Ansichten und Farbfelder hoch
 
-Laden Sie zuerst die Bilder für die Bildsätze hoch. Da Benutzer Bilder im Bildset-Viewer einzoomen können, sollten Sie diese Funktion bei der Auswahl von Bildern berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2.000 Pixel hat. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreies TIFF-, PNG- und EPS-Bilder.
+Laden Sie zuerst die Bilder für die Bildsätze hoch. Da Benutzer Bilder im Bildset-Viewer einzoomen können, sollten Sie diese Funktion bei der Auswahl von Bildern berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2.000 Pixel hat. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder.
 
 Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen.
 
 Siehe [Vorbereiten von Bildset-Assets auf den Upload](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) und [Hochladen von Dateien](uploading-files.md#uploading-your-files).
 
-## 2. Erstellen eines Bildsets
+## &#x200B;2. Erstellen eines Bildsets
 
 In Bildsets wählen Benutzerinnen und Benutzer Miniaturansichten im Bildset-Viewer aus, um ein Bild aus einer anderen Seite oder einem anderen Winkel anzuzeigen.
 
@@ -56,7 +56,7 @@ Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set).
 
 Siehe auch [Zoom-Ziele und Imagemaps in Bildsets einbeziehen](/help/using/including-zoom-targets-image-maps-image-sets.md)
 
-## 3. Bereiten Sie Viewer-Vorgaben für Bildsets nach Bedarf vor
+## &#x200B;3. Bereiten Sie Viewer-Vorgaben für Bildsets nach Bedarf vor
 
 Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: **[!UICONTROL Benutzerdefiniert]** > **[!UICONTROL Bilder]** oder **[!UICONTROL Bildsets]**/**[!UICONTROL Mehrere Ansichten]**, um Ihre Bildsets anzuzeigen.
 
@@ -64,25 +64,25 @@ Sie können Viewer-Vorgaben über den Bildschirm „Anwendungseinstellungen“ h
 
 Siehe [Erstellen und Bearbeiten von Viewer-](application-setup.md#adding-and-editing-viewer-presets).
 
-## 4. Vorschau eines Bildsets
+## &#x200B;4. Vorschau eines Bildsets
 
 Wählen Sie das Bildset im Durchsuchen-Bedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Klicken Sie auf der Seite Vorschau auf die Miniaturansichtssymbole, um das Bildset im ausgewählten Viewer zu überprüfen. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
 
 Siehe [Vorschau eines Assets](previewing-asset.md#previewing-an-asset).
 
-## 5. Publish - ein Bildset
+## &#x200B;5. Veröffentlichen eines Bildsets
 
 Beim Veröffentlichen eines Bildsets wird es auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 
 >[!NOTE]
 >
->Dieser Schritt ist nicht erforderlich, wenn Sie **[!UICONTROL Publish nach dem Speichern ausgewählt haben]** (Standard), als Sie das Bildset erstellt und gespeichert haben.
+>Dieser Schritt ist nicht erforderlich, wenn Sie **[!UICONTROL Nach dem Speichern veröffentlichen]** (Standard) zum Zeitpunkt der Erstellung und Speicherung des Bildsets ausgewählt haben.
 
-Wählen **[!UICONTROL Symbol „Für Publish]**&quot; links neben seinem Namen im Durchsuchen-Bedienfeld aus. Wählen Sie dann **[!UICONTROL Publish]** aus. Klicken Sie auf der Seite „Veröffentlichen“ auf **[!UICONTROL Publish senden]**.
+Wählen Sie **[!UICONTROL Symbol]** Zur Veröffentlichung markieren“ links neben seinem Namen im Durchsuchen-Bedienfeld aus. Wählen Sie dann **[!UICONTROL Veröffentlichen]** aus. Klicken Sie auf der Seite „Veröffentlichen“ auf **[!UICONTROL Veröffentlichung starten]**.
 
-Siehe [Publish-](publishing-files.md#publishing-files).
+Siehe [Dateien veröffentlichen](publishing-files.md#publishing-files).
 
-## 6. Verknüpfen eines Bildsets mit einer Website
+## &#x200B;6. Verknüpfen eines Bildsets mit einer Website
 
 Adobe Dynamic Media Classic erstellt URL-Aufrufe für Bildsets und aktiviert diese nach deren Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 

@@ -1,5 +1,5 @@
 ---
-title: Publish Adobe Analytics-Konfigurationsinformationen
+title: Veröffentlichen von Adobe Analytics-Konfigurationsinformationen
 description: Erfahren Sie, wie Sie Adobe Analytics-Konfigurationsinformationen aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 ---
 
-# Publish Adobe Analytics-Konfigurationsinformationen{#publishing-adobe-analytics-configuration-information}
+# Veröffentlichen von Adobe Analytics-Konfigurationsinformationen{#publishing-adobe-analytics-configuration-information}
 
-Publish unterstützt die Adobe Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an Adobe Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf Adobe Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
+Veröffentlichen Sie die Adobe Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an die Adobe Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf Adobe Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
 
 >[!NOTE]
 >
@@ -31,5 +31,5 @@ Siehe [Konfigurieren von Adobe Analytics-](configuring-analytics-reports.md#conf
 
 **So veröffentlichen Sie Konfigurationsinformationen:**
 
-1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]**.
-1. Wählen Sie im Dialogfeld **[!UICONTROL `Publish`]** die Option **[!UICONTROL Publish senden]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Veröffentlichen]** aus.
+1. Wählen Sie im Dialogfeld **[!UICONTROL `Publish`]** die Option **[!UICONTROL Senden und veröffentlichen]**.

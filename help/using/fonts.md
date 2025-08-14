@@ -59,10 +59,10 @@ Wählen Sie im Durchsuchen-Panel die Schriftartdatei aus, die Sie in der Detaila
 
 * **[!UICONTROL Schriftartabkürzung]**: Folgende Optionen stehen zur Verfügung:
 
-   * **[!UICONTROL TTF]**: TrueType-Schriftartdateien für das PDF/PostScript-Rendering und die Bildbereitstellung.
+   * **[!UICONTROL TTF]**: TrueType-Schriftartdateien, die für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
 
-   * **[!UICONTROL AFM]**: Adobe PostScript-Schriftartdateien, die Informationen zu Adobe-Schriftartmetriken enthalten und für die Bildbereitstellung verwendet werden.
+   * **[!UICONTROL AFM]**: Adobe PostScript-Schriftarten-Dateien, die Informationen zu Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
 
    * **[!UICONTROL PFM]**: Adobe PostScript-Schriftarten-Dateien, die Informationen zur Metrik der binären Schriftarten enthalten.
 
-   * **[!UICONTROL PFB]**: Adobe PostScript-Schriftdateien, die binäre Schriftkonturinformationen enthalten und für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
+   * **[!UICONTROL PFB]**: Adobe PostScript-Schriftarten-Dateien, die binäre Schriftkonturinformationen enthalten und für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.

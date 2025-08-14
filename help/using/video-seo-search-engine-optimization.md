@@ -23,9 +23,9 @@ Die Suchmaschinenoptimierung (SEO) ist ein Vorgang, der die Erhöhung der Zugrif
 
 Mit Adobe Dynamic Media Classic Video SEO können Sie Videometadaten anwenden, um Suchmaschinen Beschreibungen Ihrer Videos bereitzustellen. Mit Adobe Dynamic Media Classic können Sie Video-Sitemaps und RSS-Feeds erstellen. Diese Standard-XML-Dateien werden zum Senden von Videoinformationen an Suchmaschinen verwendet:
 
-* **Video-Sitemap**: Informiert Google genau darüber, wo und was der Videoinhalt auf einer Site ist. Videos können also in Google vollständig durchsucht werden. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Informationen zu Video-Sitemaps finden Sie unter [Video-Sitemaps und Video-Sitemap-Alternativen](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Video-Sitemap**: Informiert Google genau darüber, wo und was der Videoinhalt auf einer Site ist. Videos können also in Google vollständig durchsucht werden. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Informationen zu Video-Sitemaps finden Sie unter [Video-Sitemaps und Video-Sitemap-Alternativen](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
-* **mRSS (Media Really Simple Syndication)-Feed**: Wird von Content-Herausgebern verwendet, um Mediendateien in Yahoo einzuspeisen! Videosuche einzuspeisen. Informationen zu mRSS-Feeds finden Sie unter [Video-Sitemaps und Video-Sitemap-Alternativen](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **mRSS (Media Really Simple Syndication)-Feed**: Wird von Content-Herausgebern verwendet, um Mediendateien in Yahoo einzuspeisen! Videosuche einzuspeisen. Informationen zu mRSS-Feeds finden Sie unter [Video-Sitemaps und Video-Sitemap-Alternativen](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
 >[!NOTE]
 >
@@ -65,15 +65,15 @@ Wählen Sie in **[!UICONTROL Dropdown]** Liste „Erzeugungsmodus“ einen Beric
 
 Wählen Sie in **[!UICONTROL Dropdown-Liste]** Automatischer/Manueller Modus“ aus, ob automatisch oder manuell generiert werden soll:
 
-* **Automatikmodus**: Adobe Dynamic Media Classic generiert jeden Tag automatisch eine Video-Sitemap, einen Medien-RSS-Feed oder beides. Wählen Sie die Option **[!UICONTROL Für Publish markieren]** aus, damit Sie die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung markieren können.
+* **Automatikmodus**: Adobe Dynamic Media Classic generiert jeden Tag automatisch eine Video-Sitemap, einen Medien-RSS-Feed oder beides. Wählen Sie die Option **[!UICONTROL Zur Veröffentlichung markieren]** aus, damit Sie die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung markieren können.
 
-   * **Für Publish markieren** Markiert für die Veröffentlichung der generierten XML-Datei.
+   * **Zur Veröffentlichung markieren** Markiert die generierte XML-Datei zur Veröffentlichung.
 
 * **Manueller Modus**: Adobe Dynamic Media Classic generiert die Video-Sitemap, den Medien-RSS-Feed (mRSS) oder beides, wenn Sie **[!UICONTROL Generieren]** oder **[!UICONTROL Speichern und]**) im Bildschirm „Einstellungen für die Suchoptimierung“ auswählen. Wählen Sie außerdem aus den folgenden Optionen:
 
    * **Keine weiteren Einstellungen**: Markiert die generierte XML-Datei nicht zur Veröffentlichung.
 
-   * **Für Publish markieren**: Markiert die generierte XML-Datei zur Veröffentlichung.
+   * **Zur Veröffentlichung markieren**: Markiert die generierte XML-Datei zur Veröffentlichung.
 
    * **Teilweise Generierung zulassen**: Suchmaschinen können eine XML-Datei ablehnen, wenn sie nicht vollständige Metadateninformationen für alle Videos enthält. Diese Option generiert die XML-Datei auch dann, wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
 
@@ -98,7 +98,7 @@ Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
->Publish erstellt die Video-Sitemap oder den mRSS-Feed, bevor Sie sie an Suchmaschinen senden können. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien bei Bedarf zur Veröffentlichung und wählen Sie **[!UICONTROL Publish]** aus.
+>Veröffentlichen Sie die Video-Sitemap oder den RSS-Feed, bevor Sie sie an Suchmaschinen senden können. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien bei Bedarf zur Veröffentlichung und wählen Sie **[!UICONTROL Veröffentlichen]** aus.
 
 ## Video-Sitemap und RSS-Feed-Dateien an eine Suchmaschine senden {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 

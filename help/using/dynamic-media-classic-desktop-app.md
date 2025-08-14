@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Jetzt verfügbar: Adobe Dynamic Media Classic Desktop App {#dynamic-media-classic-desktop-app}
 
-Adobe Dynamic Media Classic-Benutzer haben jetzt Zugriff auf ein neues Desktop-Programm, das nicht mehr auf die Adobe-Flash-Technologie im Browser angewiesen ist.
+Adobe Dynamic Media Classic-Benutzer haben jetzt Zugriff auf ein neues Desktop-Programm, das nicht mehr auf die Adobe Flash-Technologie im Browser angewiesen ist.
 
 Diese neue App ist jetzt für Windows® und macOS verfügbar.
 
 >[!IMPORTANT]
 >
->Adobe empfiehlt, das neue Adobe Dynamic Media Classic-Desktop-Programm bis zum 1. Oktober 2020 zu installieren. Dadurch wird ein reibungsloser Übergang gewährleistet, bevor das Adobe-Flash Player am 31. Dezember 2020 eingestellt wird. Nach diesem Datum können Sie sich nicht mehr bei der Browser-Version der Adobe Dynamic Media Classic-Benutzeroberfläche anmelden, die im Produkt als Adobe Dynamic Media Classic gekennzeichnet ist.
+>Adobe empfiehlt, das neue Adobe Dynamic Media Classic-Desktop-Programm bis zum 1. Oktober 2020 zu installieren. Dadurch wird ein reibungsloser Übergang gewährleistet, bevor der Adobe Flash Player am 31. Dezember 2020 eingestellt wird. Nach diesem Datum können Sie sich nicht mehr bei der Browser-Version der Adobe Dynamic Media Classic-Benutzeroberfläche anmelden, die im Produkt als Adobe Dynamic Media Classic gekennzeichnet ist.
 
 Siehe die häufig gestellten Fragen zu [Neue Adobe Dynamic Media Classic-Anmeldung jetzt verfügbar.](/help/using/new-ui-2020.md)
 
@@ -69,7 +69,7 @@ Eine Upgrade-Benachrichtigung innerhalb des Adobe Dynamic Media Classic-Desktop-
 * Bekannte Einschränkung in 20.21.1: Die **[!UICONTROL Server]**-Dropdown-Liste auf dem Anmeldebildschirm war leer.
 * In **[!UICONTROL Upload-Auftragsoptionen]** ist der standardmäßige Ebenenname-Wert unter **[!UICONTROL Photoshop-Optionen]** jetzt **[!UICONTROL Photoshop und Ebenenname]**. Ebenen in der PSD-Datei werden als separate Bilder hochgeladen.
    * Der frühere Standardwert **[!UICONTROL Ebenenname]**, der die Bilder nach ihrem Ebenennamen oder ihrer Ebenennummer in der PSD-Datei benannte. Die Ebenennummer wurde verwendet, wenn die Ebenennamen in der PSD-Datei standardmäßige Photoshop-Ebenennamen waren.
-   * Der neue Standardwert **[!UICONTROL Photoshop und Ebenenname]** benennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Ebenennummer wird verwendet, wenn es sich bei den Ebenennamen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt.
+   * Der neue Standard **[!UICONTROL Photoshop und Ebenenname]** benennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Ebenennummer wird verwendet, wenn es sich bei den Ebenennamen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt.
    * Da Ebenenbilder in Adobe Dynamic Media Classic jetzt eindeutige Namen haben, werden keine Aktualisierungen an bestehenden PSD oder Vorlagen vorgenommen (die Ebenennamen in den Original-PSD-Dateien freigegeben haben).
 * Beschädigte Miniaturen von Assets.
 
@@ -233,14 +233,14 @@ Siehe auch:
 
 ## Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms {#dmc-app-video-walk-through}
 
-Sehen Sie sich [ Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms ](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
+Sehen Sie sich [ Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
 
 ## Löschen des Bild- und Asset-Cache auf dem Computer mithilfe des Desktop-Programms {#clear-cache}
 
 1. Tippen Sie im Adobe Dynamic Media Classic-Desktop-Programm rechts oben auf **[!UICONTROL Setup]** > **[!UICONTROL Persönliches Setup]**.
 1. Führen Sie auf **[!UICONTROL Seite]** Persönliches Setup“ unter der Überschrift **[!UICONTROL Desktop]** einen der folgenden Schritte aus:
    * Um alle in Adobe Dynamic Media zwischengespeicherten Bilddateien von Ihrem Computer zu entfernen, tippen Sie auf **[!UICONTROL Bildcache löschen]** und dann auf **[!UICONTROL OK]**.
-   * Um alle im Adobe Dynamic Media zwischengespeicherten Asset-Dateien vom Computer zu entfernen, tippen Sie auf **[!UICONTROL Asset-Cache löschen]** und dann auf **[!UICONTROL OK]**.
+   * Um alle in Adobe Dynamic Media zwischengespeicherten Asset-Dateien von Ihrem Computer zu entfernen, tippen Sie auf **[!UICONTROL Asset-Cache löschen]** und dann auf **[!UICONTROL OK]**.
 1. Tippen Sie unten rechts auf der Seite auf **[!UICONTROL Schließen]**.
 
 ### Manuelles Löschen des Bild- und Asset-Cache
@@ -271,11 +271,11 @@ Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms kö
 
 ## Tipps und Tricks
 
-**_Ich kann das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic nicht sehen._**<br>Tippen Sie in Adobe Dynamic Media Classic auf&#x200B;**[!UICONTROL Setup > Persönliches Setup &#x200B;]**. Stellen Sie im Browser-Bereich sicher&#x200B;**[!UICONTROL dass „MediaPortal-Funktionen &#x200B;]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf&#x200B;**[!UICONTROL Speichern > Schließen &#x200B;]**.
+**_Ich kann das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic nicht sehen._**<br>Tippen Sie in Adobe Dynamic Media Classic auf**[!UICONTROL Setup > Persönliches Setup ]**. Stellen Sie im Browser-Bereich sicher**[!UICONTROL dass „MediaPortal-Funktionen ]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf**[!UICONTROL Speichern > Schließen ]**.
 
-**_Publish-Status (grüne Anzeige) eines Assets wird nicht korrekt dargestellt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung führt Adobe ein&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol in der Symbolleiste rechts neben der Schaltfläche&#x200B;**[!UICONTROL Keine auswählen &#x200B;]**&#x200B;ein. Tippen Sie auf das&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
+**_Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung hat Adobe ein**[!UICONTROL Aktualisieren ]**-Symbol in der Symbolleiste rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**eingeführt. Tippen Sie auf das**[!UICONTROL Aktualisieren ]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
 
 ![Aktualisierungssymbol](/help/using/assets/refresh-icon1.png)
 *Aktualisierungssymbol*
 
-**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf&#x200B;**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben &#x200B;]**. Stellen Sie sicher&#x200B;**[!UICONTROL dass die entsprechende Stapelsatzvorgabe &#x200B;]**&#x200B;ist. Klicken Sie&#x200B;**[!UICONTROL Speichern und Upload starten &#x200B;]**.
+**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben ]**. Stellen Sie sicher**[!UICONTROL dass die entsprechende Stapelsatzvorgabe ]**ist. Klicken Sie**[!UICONTROL Speichern und Upload starten ]**.

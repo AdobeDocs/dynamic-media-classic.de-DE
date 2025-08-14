@@ -38,7 +38,7 @@ Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md
 
 Adobe Dynamic Media Classic kann Untertiteldateien in das JSON-Format (JavaScript Object Notation) konvertieren. Diese Konversion bedeutet, dass Sie den JSON-Text als verborgenes, aber vollständiges Transkript des Videos in eine Web-Seite einbetten können. Suchmaschinen können dann den Inhalt durchsuchen und indizieren, damit die Videos leichter auffindbar sind und Kunden weitere Details zum Videoinhalt erhalten.
 
-Weitere [ zur Verwendung der JSON-Funktion in einer URL ](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) Sie unter „Statische Inhalte (keine Bilder) bereitstellen“ in .
+Weitere [ zur Verwendung der JSON-Funktion in einer URL ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) Sie unter „Statische Inhalte (keine Bilder) bereitstellen“ in .
 
 **So fügen Sie einem Video Untertitel hinzu:**
 
@@ -54,7 +54,7 @@ Weitere [ zur Verwendung der JSON-Funktion in einer URL ](https://experienceleag
 
 1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zum Asset-Ordner, der die Videodatei enthält, die mit der hochgeladenen Untertiteldatei verknüpft werden soll.
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset und dann unter dem Miniaturbild des Assets die Option **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-1. Suchen Sie in der Viewer-Listentabelle den HTML5-Viewer mit den Namen **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** oder **Universal_HTML5_MixedMedia_light** und führen Sie einen der folgenden Schritte aus:
+1. Suchen Sie in der Viewer-Listentabelle den HTML5-Viewer mit dem Namen **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** oder **Universal_HTML5_MixedMedia_light** und führen Sie einen der folgenden Schritte aus:
 
    * Um das Video in einem Popup-Fenster anzuzeigen, wählen **[!UICONTROL ganz rechts neben dem Namen]** URL kopieren“ aus.
 
@@ -68,7 +68,7 @@ Weitere [ zur Verwendung der JSON-Funktion in einer URL ](https://experienceleag
 
      Wählen Sie im Dialogfeld „Einbettungs-Code“ die Option **[!UICONTROL In Zwischenablage kopieren]**.
 
-     Hängen Sie bei HTML5-`Universal_HTML5_Video`-, -`Universal_HTML5_MixedMedia_dark`- oder -`Universal_HTML5_MixedMedia_light`-Viewern den kopierten Einbettungs-Code wie folgt an:
+     Hängen Sie für die HTML5 `Universal_HTML5_Video`-, `Universal_HTML5_MixedMedia_dark`- oder `Universal_HTML5_MixedMedia_light`-Viewer den kopierten Einbettungs-Code wie folgt an:
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 

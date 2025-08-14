@@ -1,6 +1,6 @@
 ---
-title: Publish-E-Kataloge und zugehörige PDF
-description: Erfahren Sie, wie Sie E-Kataloge und zugehörige PDF aus Adobe Dynamic Media Classic veröffentlichen.
+title: Veröffentlichen von E-Katalogen und zugehörigen PDFs
+description: Erfahren Sie, wie Sie E-Kataloge und zugehörige PDFs aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,24 +17,24 @@ ht-degree: 13%
 
 ---
 
-# Publish-E-Kataloge und zugehörige PDF{#publishing-ecatalogs-and-associated-pdfs}
+# Veröffentlichen von E-Katalogen und zugehörigen PDFs{#publishing-ecatalogs-and-associated-pdfs}
 
-Beim Veröffentlichen werden Ihr E-Katalog und PDF auf Dynamic Media-Image-Servern abgelegt, damit sie für Ihre Website oder Ihr Programm verfügbar sind. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. Sie können diese URL-Zeichenfolge in Ihren HTML-Webseitencode einfügen.
+Beim Veröffentlichen werden Ihr E-Katalog und PDF auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website oder Anwendung verfügbar gemacht werden können. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. Sie können diese URL-Zeichenfolge in Ihren HTML-Webseiten-Code einfügen.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass sich Ihr E-Katalog und Ihre PDF im selben Ordner befinden. Vergewissern Sie sich außerdem, dass sie im Durchsuchen-Panel oder auf der Asset-Detailseite zur Veröffentlichung markiert sind, bevor Sie sie veröffentlichen.
+>Stellen Sie sicher, dass sich Ihr E-Katalog und PDF im selben Ordner befinden. Vergewissern Sie sich außerdem, dass sie im Durchsuchen-Panel oder auf der Asset-Detailseite zur Veröffentlichung markiert sind, bevor Sie sie veröffentlichen.
 
-**Veröffentlichen von E-Katalogen und zugehörigen PDF**
+**Veröffentlichen von E-Katalogen und zugehörigen PDFs:**
 
-1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Veröffentlichen]** aus.
 1. Wählen Sie auf dem Bildschirm „Veröffentlichen **[!UICONTROL „Einmalig]** oder &quot;**[!UICONTROL &quot;]**.
 1. (Optional) Geben Sie im Feld Auftragsname einen Namen für den Veröffentlichungsauftrag ein, behalten Sie jedoch den vordefinierten Text für Datum und Uhrzeit bei.
 
-   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Erweitert]** aus. Wählen Sie im Dropdown-**&#x200B;** Publish die Option **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
+   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Erweitert]** aus. Wählen Sie im Dropdown **[!UICONTROL Menü]** Veröffentlichen“ die Option **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
 
-1. Wählen Sie **[!UICONTROL Publish senden]** aus.
+1. Wählen **[!UICONTROL Senden/Veröffentlichen]** aus.
 
 >[!MORELIKETHIS]
 >
->* [Publish-Dateien](publishing-files.md)
+>* [Dateien veröffentlichen](publishing-files.md)

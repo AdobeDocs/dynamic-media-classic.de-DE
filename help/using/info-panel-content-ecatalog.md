@@ -51,7 +51,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
    * Legen Sie eine höhere Anzahl fest, wenn die Daten relativ stabil sind und nicht häufig über den Tag aktualisiert werden müssen. Der Standardwert lautet zehn Stunden.
 
-1. **[!UICONTROL Publish]**.
+1. Wählen Sie **[!UICONTROL Veröffentlichen]** aus.
 
 ## Importieren von Quellinhalten für das Infobedienfeld in E-Kataloge {#import-source-content-for-the-info-panel-in-ecatalogs}
 

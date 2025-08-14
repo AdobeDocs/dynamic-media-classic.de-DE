@@ -48,7 +48,7 @@ Nach dem Veröffentlichen eines Mustersets können Sie die zugehörige URL oder 
 
 Die häufigste Methode zur Bereitstellung von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird über den Link eine dynamische Seite (ASP oder JSP) gestartet, die das Farbfeldset in einem Popup-Zoomfenster anzeigt. Mit dem Link Zoom wird ein Popup-Fenster geöffnet, das die tatsächliche Zoom-Funktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers im Adobe-Viewer-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers“ im Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungs-Codes eines Musterset-Viewers {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -81,4 +81,4 @@ Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausge
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Veröffentlichen](publishing-files.md#publishing_files)

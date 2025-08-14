@@ -47,7 +47,7 @@ Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten
 
 In der Regel zoomen Besucher Bilder auf einer Website, indem sie zunächst ein Zoom-Symbol auswählen (oft zeigt das Symbol das Bild einer Lupe). Wenn Sie dieses Symbol auswählen, wird eine dynamische Web-Seite (ASP oder JSP) gestartet, die das Bild in einem Popup-Fenster anzeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Standard-Zoom-Viewers im Adobe-Viewer-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5 Basic Zoom Viewers im Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren der Einbettungskopie eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 

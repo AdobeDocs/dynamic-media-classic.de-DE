@@ -1,5 +1,5 @@
 ---
-title: Publish-Dateien
+title: Dateien veröffentlichen
 description: Erfahren Sie, wie Sie Ihre Assets auf Dynamic Media-Bildservern veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# Publish-Dateien{#publishing-files}
+# Dateien veröffentlichen{#publishing-files}
 
 Sie veröffentlichen Ihre Assets auf Dynamic Media-Bildservern. Sie können Assets einmalig veröffentlichen oder veranlassen, dass Adobe Dynamic Media Classic Assets wiederholt veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
-Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern und ermöglicht schnellere Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern und ermöglicht schnellere Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Nach dem Hochladen veröffentlichen {#publish-after-uploading}
 
 Assets befinden sich entweder in einem veröffentlichten oder unveröffentlichten Status. Standardmäßig werden alle Assets, die Sie in Adobe Dynamic Media Classic hochladen, automatisch zur Veröffentlichung markiert.
 
-Weitere Informationen finden Sie auf der [Instant Publish Notification PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
+Weitere Informationen finden Sie unter [Sofortige Veröffentlichung - PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
 Verwenden Sie diese Verfahren, um Assets zur Veröffentlichung zu markieren:
 
-* **[!UICONTROL Publish nach dem Hochladen]**: Wählen Sie auf der Seite „Hochladen“ unten **[!UICONTROL Publish nach dem Hochladen]** aus. Die Standardeinstellung ist „ausgewählt“.
+* **[!UICONTROL Nach dem Hochladen veröffentlichen]**: Wählen Sie auf der Seite „Hochladen“ unten **[!UICONTROL Nach dem Hochladen veröffentlichen]** aus. Die Standardeinstellung ist „ausgewählt“.
 
-* **[!UICONTROL Publish nach dem Hochladen]**: Wählen Sie im Dialogfeld „Auftragsoptionen“ die Option **[!UICONTROL Publish nach dem Hochladen]**. Die Standardeinstellung ist „ausgewählt“.
+* **[!UICONTROL Nach Hochladen veröffentlichen]**: Wählen Sie im Dialogfeld Auftragsoptionen die Option **[!UICONTROL Nach Hochladen veröffentlichen]** aus. Die Standardeinstellung ist „ausgewählt“.
 
 Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wenn ihre Stammelemente zur Veröffentlichung markiert werden. In dieser Tabelle werden untergeordnete Assets aufgelistet, die automatisch zur Veröffentlichung markiert sind.
 
@@ -52,7 +52,7 @@ Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, di
 
 **So erstellen Sie einen Veröffentlichungsauftrag:**
 
-1. Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]**.
+1. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Veröffentlichen]** aus.
 1. Wählen Sie im Dialogfeld „Veröffentlichen“ aus, ob Sie einen einmaligen oder einen wiederkehrenden Veröffentlichungsauftrag wünschen.
 
    Siehe [Erstellen eines einmaligen Veröffentlichungsauftrags](publishing-files.md#creating_a_one_time_publish_job) und [Erstellen eines wiederkehrenden Veröffentlichungsauftrags](publishing-files.md#creating_a_recurring_publish_job).
@@ -62,7 +62,7 @@ Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, di
 
    Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options).
 
-1. Wählen Sie **[!UICONTROL Publish senden]** aus.
+1. Wählen **[!UICONTROL Senden/Veröffentlichen]** aus.
 
 Adobe Dynamic Media Classic verfolgt Veröffentlichungsaufträge auf der Seite „Aufträge“. Sie können Veröffentlichungsaufträge auf dieser Seite überprüfen.
 
@@ -92,9 +92,9 @@ Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Uploads oder Ver�
 
 Sie können die erweiterten Optionen auf der Seite „Veröffentlichen“ anzeigen und die folgenden Optionen für die Verarbeitung eines Veröffentlichungsauftrags auswählen:
 
-* **[!UICONTROL Publish an]**: Wählen Sie einen Servertyp aus, um Assets nur auf einem bestimmten Server zu veröffentlichen.
+* **[!UICONTROL Veröffentlichen in]**: Um Assets nur auf einem bestimmten Server zu veröffentlichen, wählen Sie einen Server-Typ aus.
 
-* **[!UICONTROL Publish]**: Standardmäßig veröffentlicht Adobe Dynamic Media Classic nur Assets, die neu sind und zuvor noch nicht veröffentlicht wurden (die Option Neu seit letzter Publish). Sie können jedoch **[!UICONTROL Vollständige Publish]** auswählen, damit Sie auch Assets veröffentlichen können, die seit der letzten Veröffentlichung aktualisiert oder geändert wurden. Wählen Sie **[!UICONTROL Vollständig mit Suchdaten]**, wenn Sie einen E-Katalog veröffentlichen und möchten, dass die Leser ihn nach Keyword durchsuchen können.
+* **[!UICONTROL Veröffentlichen]**: Standardmäßig veröffentlicht Adobe Dynamic Media Classic nur Assets, die neu sind und zuvor noch nicht veröffentlicht wurden (die Option Neu seit der letzten Veröffentlichung). Sie können jedoch auf **[!UICONTROL Vollständige Veröffentlichung]** klicken, um auch Assets zu veröffentlichen, die seit ihrer letzten Veröffentlichung aktualisiert oder geändert wurden. Wählen Sie **[!UICONTROL Vollständig mit Suchdaten]**, wenn Sie einen E-Katalog veröffentlichen und möchten, dass die Leser ihn nach Keyword durchsuchen können.
 
 * **[!UICONTROL Auftrag ausführen als]**: Wählen Sie einen Benutzernamen aus der Liste aus. Auf der Seite „Aufträge“ können Aufträge nach Benutzername sortiert werden. Durch die Auswahl eines Namens verknüpfen Sie einen Veröffentlichungsauftrag mit einem Benutzer.
 
@@ -112,7 +112,7 @@ Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite „Aufträge
 >
 >Nachdem Sie einen Veröffentlichungsauftrag abgebrochen haben, ändert sich sein Status in „Wird gestoppt“, bis der Auftrag einen Punkt erreicht hat, an dem er sicher gestoppt werden kann. Das Anhalten eines Veröffentlichungsauftrags kann einige Zeit in Anspruch nehmen, wenn der Auftrag gerade Daten aus der Datenbank abruft.
 
-## Publish-Assets manuell {#manually-publishing-assets}
+## Manuelles Veröffentlichen von Assets {#manually-publishing-assets}
 
 Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Beim Veröffentlichen von Sets, z. B. eines Bildsets oder eines adaptiven Videosets, werden das Set (oder „übergeordnete“ Elemente) und alle Mitglieder (oder „untergeordneten“ Elemente„) innerhalb dieses Sets veröffentlicht.
 
@@ -124,7 +124,7 @@ Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Assets aus.
 
-     Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Publish]**.
+     Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]**.
 
    * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht das graue, runde Symbol mit einem Schrägstrich links neben dem Asset-Namen aus.
 

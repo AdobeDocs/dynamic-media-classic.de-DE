@@ -45,7 +45,7 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 
 ## Anzeigen einer Vorschau des Bildsets Assets in einem Viewer {#previewing-image-set-assets-in-a-viewer}
 
-Mithilfe der Vorschau können Sie prüfen, wie ein Asset in einem bestimmten Viewer-Typ (z. B. HTML5) angezeigt wird. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen für die Vorschau verfügbar.
+Sie können die Vorschau verwenden, um zu sehen, wie ein Asset in einem bestimmten Viewer-Typ wie HTML5 angezeigt wird. Je nach dem Asset-Typ und dem jeweiligen für die Vorschau ausgewählten Viewer sind möglicherweise nicht alle Plattformen für die Vorschau verfügbar.
 
 1. Wählen Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite in der Dropdown **[!UICONTROL Liste &quot;]**&quot; die Option **[!UICONTROL Bildset]**.
 1. Durchsuchen Sie auf der linken Seite der Asset-Bibliothek die Asset-Ordner, um den Bildsatz auszuwählen, den Sie in der Vorschau anzeigen möchten.

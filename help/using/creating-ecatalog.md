@@ -23,11 +23,11 @@ Das Erstellen eines E-Katalogs umfasst das Sortieren der Seiten, das Auswählen 
 
 ## E-Katalog erstellen {#create}
 
-Sie können Bilddateien und PDF-Dateien in Ihren E-Katalog aufnehmen.
+Sie können in Ihren E-Katalog Bilddateien und PDF-Dateien aufnehmen.
 
-Beim Erstellen eines E-Katalogs wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Wenn Sie einen E-Katalog erstellen **[!UICONTROL wirkt sich die Option „Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| Vor dem Speichern die Option &quot;Publish nach dem Speichern“ ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Vor dem Speichern die Option „Nach dem Speichern veröffentlichen“ ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -56,7 +56,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    * **Sequenz Nr.**: Geben Sie in der Listenansicht die Seitenzahlen in die Felder der Sequenz Nr. ein.
 
-1. Wenn Sie fertig sind, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Wenn Sie fertig sind, stellen Sie sicher, dass unten rechts auf der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem der E-Katalog gespeichert werden soll. Geben Sie im Feld Dateiname den Namen des Rotationssets ein.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
@@ -65,9 +65,9 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## E-Katalog bearbeiten {#editing-an-ecatalog}
 
-Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| Set bereits veröffentlicht? | Vor dem Speichern der Bearbeitung die Option &quot;Publish nach dem Speichern“ ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | Vor dem Speichern der Bearbeitung die Option „Nach dem Speichern veröffentlichen“ ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -80,7 +80,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des E-Katalogs aus.
 1. Nehmen Sie die erforderlichen Änderungen vor.
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Stellen Sie nach Abschluss der Bearbeitung in der unteren rechten Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 ## E-Katalog löschen

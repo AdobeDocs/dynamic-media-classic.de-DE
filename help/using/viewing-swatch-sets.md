@@ -44,7 +44,7 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 
 ## Anzeigen der Vorschau von Farbfeldsätzen in einem Viewer {#previewing-swatch-sets-in-a-viewer}
 
-Mithilfe der Vorschau können Sie prüfen, wie ein Asset in einem bestimmten Viewer-Typ (z. B. HTML5) angezeigt wird. Je nach Asset-Typ und zugehörigem Viewer, den Sie für die Vorschau ausgewählt haben, sind in der Vorschau nicht alle Viewer-Plattformen verfügbar.
+Sie können die Vorschau verwenden, um zu sehen, wie ein Asset in einem bestimmten Viewer-Typ wie HTML5 angezeigt wird. Je nach Asset-Typ und zugehörigem Viewer, den Sie für die Vorschau ausgewählt haben, sind in der Vorschau nicht alle Viewer-Plattformen verfügbar.
 
 1. Wählen Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite in der Dropdown-Liste **[!UICONTROL Anzeigen]** einen Asset-Typ aus, der auf einem Musterset basiert, z. B **[!UICONTROL „Musterset]**.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Musterset enthält, das Sie mit einem Viewer in der Vorschau anzeigen möchten.

@@ -21,7 +21,7 @@ ht-degree: 36%
 
 Um eine Vorlage zu erstellen, gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. Auf dieser Seite können Sie Bild- und Textebenen hinzufügen. Darüber hinaus können Sie sowohl die Anordnung als auch die Größe und Position von Ebenen ändern sowie Schatten- und Schein-Effekte auf Bilder und Text anwenden.
 
-Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
+Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoVie
 
 ## Erstellen der ersten Vorlage {#creating-the-initial-template}
 
-Wenn Sie einen Vorlagensatz erstellen, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Wenn Sie einen Vorlagensatz erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| **[!UICONTROL Publish nach einem Speichern]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| **[!UICONTROL Nach Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -44,13 +44,13 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 
 1. Verwenden Sie eine der folgenden Methoden, um Ihre Ausgangsvorlage zu erstellen:
 
-   * **Zuerst die PSD oder die Bilder auswählen**: Im Durchsuchen-Panel wählen Sie die PSD-Datei oder die Bilder aus, die Sie für Ihre Vorlage benötigen. Gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**.
+   * **Zuerst die PSD oder die Bilder auswählen**: Wählen Sie im Durchsuchen-Panel die PSD-Datei(en) aus, die Sie für Ihre Vorlage verwenden möchten, und navigieren Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**.
 
    * **Vom Vorlagenbildschirm starten**: Gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. 
 
 1. Geben Sie im Dialogfeld Arbeitsflächengröße eingeben die Breite und die Höhenmaße für Ihre Vorlage ein.
 1. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die PSD-Datei bzw. die Bilder, die Sie für die Vorlage verwenden möchten, in den Anzeigebereich „Vorlage“.
-1. Wenn Sie fertig sind, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Wenn Sie fertig sind, stellen Sie sicher, dass unten rechts auf der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Wählen Sie einen Ordner zum Speichern Ihrer Vorlage aus, geben Sie einen Namen für die Vorlage ein und wählen Sie **[!UICONTROL Senden]**.
 
@@ -58,9 +58,9 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 
 ## Bearbeiten von Vorlagensätzen {#editing-a-template-set}
 
-Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Vorlagensatz bearbeiten, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Vorlagensatz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| Set bereits veröffentlicht? | **[!UICONTROL Publish nach einer Speicherung]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -73,7 +73,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Navigieren Sie in der Rasteransicht zu einem Vorlagensatz und wählen Sie dann unter dem Bild **[!UICONTROL Bearbeiten]** aus.
 1. Ändern Sie die Vorlage nach Bedarf.
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Stellen Sie nach Abschluss der Bearbeitung in der unteren rechten Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 ## Löschen einer Vorlage
@@ -290,7 +290,7 @@ Um die Hintergrundfarbe, Deckkraft und den Übergangsmodus für eine Ebene oder 
 
 ## Schatten- und Glüheffekte auf Ebenen verwenden {#using-shadow-and-glow-effects-on-layers}
 
-Sie können einen Schatten- oder Schein-Effekt auf eine Ebene anwenden. Der Schatten oder das Leuchten gilt für den Umfang der Ebene und erstreckt sich nach innen oder außen, je nach der gewählten Schatten- oder Leucht-Option. Wenn Ihre Vorlage von einer PSD-Datei mit Schatten- und Leuchteffekten stammt, können Sie diese Effekte in Adobe Dynamic Media Classic anpassen.
+Sie können einen Schatten- oder Schein-Effekt auf eine Ebene anwenden. Der Schatten oder das Leuchten gilt für den Umfang der Ebene und erstreckt sich nach innen oder außen, je nach der gewählten Schatten- oder Leucht-Option. Wenn Ihre Vorlage von einer PSD-Datei mit Shadow- und Glow-Effekten stammt, können Sie diese Effekte in Adobe Dynamic Media Classic anpassen.
 
 Nachdem Sie einen Schatten- oder Schein-Effekt angewendet haben, können Sie dessen Größe, Farbe, Deckkraft und Position im Bereich „Ebeneneigenschaften“ des Anzeigebereichs „Vorlage“ anpassen.
 

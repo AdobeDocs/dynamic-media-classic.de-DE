@@ -40,7 +40,7 @@ Adobe Dynamic Media Classic zeichnet die Exportaufträge im Bildschirm „Auftr�
 
    * **[!UICONTROL Format]**: Wählen Sie ein Bildformat aus.
 
-   * **[!UICONTROL Color]**: Wählen Sie RGB, CMYK oder Grau aus.
+   * **[!UICONTROL Farbe]**: Wählen Sie &quot;RGB&quot;, „CMYK“ oder „Grau“.
 
    * **[!UICONTROL Auflösung]**: Wählen Sie 72 ppi, 150 ppi oder 300 ppi.
 

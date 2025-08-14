@@ -33,7 +33,7 @@ Beim Hochladen von EPS- und AI-Bilddateien stehen Ihnen verschiedene Formatierun
 
    * **[!UICONTROL Automatisch erkennen]**: Behält den Farbraum der Datei bei.
 
-   * **[!UICONTROL Force As RGB]**: Konvertiert in den RGB-Farbraum.
+   * **[!UICONTROL Force as RGB]**: Konvertiert in den RGB-Farbraum.
 
    * **[!UICONTROL Immer CMYK]**: Konvertiert in den CMYK-Farbraum.
 

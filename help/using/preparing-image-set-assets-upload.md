@@ -23,7 +23,7 @@ Stellen Sie vor dem Hochladen der Bilder, die Sie für Bildsets in Adobe Dynamic
 
 Um einen Bildsatz mit mehreren Ansichten zu erstellen, benötigen Sie Bilder, die ein Element aus unterschiedlichen Perspektiven zeigen oder verschiedene Aspekte eines Elements darstellen. Das Ziel dabei ist, die wichtigen Merkmale eines Elements so hervorzuheben, dass die Betrachter eine umfassende Vorstellung davon erhalten, wie es aussieht und was es leistet.
 
-Da die Benutzer die Bilder in einem Bildsatz heranzoomen können, vergewissern Sie sich, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreies TIFF-, PNG- und EPS-Bilder.
+Da die Benutzer die Bilder in einem Bildsatz heranzoomen können, vergewissern Sie sich, dass die längste Seite der Bilder mindestens 2000 Pixel hat. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder.
 
 Detaillierte Anweisungen zum Hochladen von Assets finden Sie unter [Dateien hochladen](uploading-files.md#uploading_files).
 

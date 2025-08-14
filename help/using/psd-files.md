@@ -21,7 +21,7 @@ ht-degree: 21%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)**: Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on Web pages. -->
 
-PSD (Photoshop-Dokumentdateien) werden in Adobe Dynamic Media Classic am häufigsten zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie daraus automatisch eine Adobe Dynamic Media Classic-Vorlage erstellen (wählen Sie auf dem Upload-Bildschirm die Option Vorlage erstellen aus).
+PSD (Photoshop-Dokumentdateien) werden meistens in Adobe Dynamic Media Classic zum Erstellen von Vorlagen verwendet. Wenn Sie eine PSD-Datei hochladen, können Sie daraus automatisch eine Adobe Dynamic Media Classic-Vorlage erstellen (wählen Sie auf dem Upload-Bildschirm die Option Vorlage erstellen aus).
 
 Adobe Dynamic Media Classic erstellt mehrere Bilder aus einer PSD-Datei mit Ebenen, wenn Sie die Datei zum Erstellen einer Vorlage verwenden. Für jede Ebene wird ein Bild erstellt.
 
@@ -31,11 +31,11 @@ Optionen zum Hochladen von PSD-Dateien befinden sich unter Photoshop-Optionen im
 
 Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
-* **Beschneidungsoptionen**: unter **[!UICONTROL Beschneidungsoptionen]**. Wählen Sie **[!UICONTROL Zuschneiden]** aus, um automatisch Leerraum an den Rändern einer PSD-Datei zuzuschneiden. Wählen Sie **[!UICONTROL Manuell]**, um die PSD-Datei seitlich zuzuschneiden:
+* **Beschneidungsoptionen**: unter **[!UICONTROL Beschneidungsoptionen]**. Wählen Sie **[!UICONTROL Zuschneiden]** aus, um automatisch Leerraum an den Rändern einer PSD-Datei zuzuschneiden. Wählen Sie **[!UICONTROL Manuell]** aus, um die Seiten der PSD-Datei zuzuschneiden:
 
    * **[!UICONTROL Zuschneiden]**: Wählen Sie das Menü **[!UICONTROL Beschneiden basierend auf]** und wählen Sie **[!UICONTROL Farbe]** oder **[!UICONTROL Transparenz]**.
 
-  Wenn Sie die Option **[!UICONTROL Color]** wählen, wählen Sie im Menü „Corner“ (Ecke) die Ecke der PSD mit der Farbe aus, die am besten der Leerraumfarbe entspricht, die Sie beschneiden möchten.
+  Wenn Sie die Option **[!UICONTROL Farbe]** auswählen, wählen Sie im Menü „Ecke“ die PSD-Ecke mit der Farbe aus, die am besten der Leerraumfarbe entspricht, die Sie beschneiden möchten.
 
   Ziehen Sie den Schieberegler, um eine Toleranz von 0 bis 1 festzulegen. Wenn Sie beim Beschneiden basierend auf Farbe den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Ecke der PSD-Datei ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Um Pixel auf Grundlage der Transparenz zuzuschneiden, geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Zahlen, die näher an 1 liegen, ermöglichen mehr Transparenz.
 
@@ -51,7 +51,7 @@ Beim Hochladen von PSD-Dateien sind folgende Optionen verfügbar:
 
 * **Photoshop-Optionen**
 
-   * **[!UICONTROL Ebenen beibehalten]**: Teilt die Ebenen auf der PSD in einzelne Assets auf. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Sie können sie anzeigen, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei.
+   * **[!UICONTROL Ebenen beibehalten]**: Teilt die Ebenen im PSD (falls vorhanden) in einzelne Assets auf. Die Asset-Ebenen bleiben mit der PSD-Datei verknüpft. Sie können sie anzeigen, indem Sie die PSD-Datei in der Detailansicht öffnen und das Ebenenbedienfeld auswählen. Siehe Anzeigen und Bearbeiten von Ebenen in einer PSD-Datei.
 
    * **[!UICONTROL Vorlage erstellen]**: Erstellt eine Vorlage aus den Ebenen in der PSD-Datei.
 

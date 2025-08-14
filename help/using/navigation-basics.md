@@ -35,7 +35,7 @@ Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigeber
 
 * **[!UICONTROL Erstellen]**: Wählen Sie im Menü eine Build-Aufgabe aus. Nach der Auswahl wird das Erstellenbedienfeld geöffnet, damit Sie einen Asset-Typ erstellen können.
 
-* **[!UICONTROL Publish]**: Öffnet den Bildschirm „Veröffentlichen“, damit Sie Rich-Media-Assets auf Adobe-Dynamic Media-Bildservern und dem Rest der Adobe Dynamic Media Classic-SAAS-Infrastruktur veröffentlichen können.
+* **[!UICONTROL Veröffentlichen]**: Öffnet den Bildschirm „Veröffentlichen“, damit Sie Rich-Media-Assets auf Adobe Dynamic Media-Bildservern und dem Rest der Adobe Dynamic Media Classic-SAAS-Infrastruktur veröffentlichen können.
 
 * **[!UICONTROL Aufträge]**: Öffnet den Bildschirm „Aufträge“, in dem Sie Datensätze von Upload- und Veröffentlichungsaufträgen untersuchen können.
 
@@ -71,7 +71,7 @@ Im Durchsuchen-/Erstellenbedienfeld werden die meisten Arbeitsvorgänge ausgefü
 
 * **[!UICONTROL Build-Modus]**: Wählen Sie **[!UICONTROL Erstellen]** und wählen Sie dann eine Option, mit der Sie mit dem Erstellen eines E-Katalogs, Bildsets, Rotationssets oder eines von mehreren anderen verfügbaren Elementen im Menü Erstellen beginnen können. Die Seite Erstellen wird geöffnet. Sie können sowohl vor als auch nach dem Aktivieren des Erstellen-Modus die Assets auswählen, mit denen Sie arbeiten möchten.
 
-Siehe auch [Navigationsgrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) Schulungsvideo.
+Siehe auch [Navigationsgrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) Schulungsvideo.
 
 >[!MORELIKETHIS]
 >

@@ -39,22 +39,22 @@ Im Allgemeinen gilt: Je mehr Bilder Sie in einem Rotationsset haben, desto besse
 
 Die Reihenfolge, in der das Rotationsset in Adobe Dynamic Media Classic erstellt oder verfasst wird, ist wichtig. Je nachdem, wie Sie die Assets anordnen, wenn Sie Bilder per Drag-and-Drop in das Raster auf der Seite mit dem Rotationsset ziehen, dreht sich das Rotationsset in eine bestimmte Richtung. Daher wird das Asset in der Reihenfolge, in der es im Builder visuell angezeigt wird, so gedreht, wie es gedreht wird, wenn ein Benutzer den Mauszeiger oder seinen Finger von links nach rechts bewegt.
 
-Wenn Sie einen Satz erstellen, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Satzes und des Satzes wie folgt aus:
+Wenn Sie einen Satz erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Satzes und des Satzes wie folgt aus:
 
-| **[!UICONTROL Publish nach einem Speichern]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| **[!UICONTROL Nach Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-publishing-assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually-unpublishing-assets).
 
-Beim Erstellen eines Rotationssets empfiehlt Adobe die folgende Best Practice und erzwingt die folgende Beschränkung:
+Beim Erstellen eines Rotationssets empfiehlt Adobe die folgenden Best Practices und erzwingt die folgende Beschränkung:
 
 | Art des Rotationssets-Limits | Optimale Vorgehensweise | Limit |
 | --- | --- | --- |
 | Maximale Anzahl von Zeilen/Spalten pro 2D-Set | 12-18 Bilder pro Set | 1000 |
 
-Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
+Siehe auch [Grenzwerte für Dynamic Media](/help/using/limitations.md).
 
 Nach dem Speichern eines Rotationssets können Sie seine Anzeige im Standard-Viewer mithilfe der Vorschau auf der Seite „Erstellen: Rotationsset“ testen.
 
@@ -69,16 +69,16 @@ Nach dem Speichern eines Rotationssets können Sie seine Anzeige im Standard-Vie
 
 1. Klicken Sie **[!UICONTROL OK]**.
 1. Ziehen Sie Bilder auf das Raster im Anzeigebereich „Rotationsset“.
-1. Wenn Sie fertig sind, stellen Sie sicher, dass **Publish nach dem Speichern** ausgewählt ist (Standard).
+1. Wenn Sie fertig sind, stellen Sie sicher, dass unten rechts auf der Seite **Nach dem Speichern veröffentlichen** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Wählen Sie im Dialogfeld Speichern einen Ordner zum Speichern des Rotationssets aus. Geben Sie im Feld Dateiname den Namen des Rotationssets ein.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ## Bearbeiten eines Rotationssets {#editing-a-spin-set}
 
-Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| Set bereits veröffentlicht? | **[!UICONTROL Publish nach einer Speicherung]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -100,7 +100,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 
    * **Zeilen und Zellen hinzufügen**: Geben Sie eine Zahl in die Felder „Zeilen“ und „Zellen“ ein, um die Anzahl der Zeilen und die Anzahl der Zellen in jeder Zeile zu bestimmen.
 
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Stellen Sie nach Abschluss der Bearbeitung in der unteren rechten Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 ## Löschen eines Rotationssets

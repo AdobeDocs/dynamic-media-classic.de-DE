@@ -41,15 +41,15 @@ Erstellen Sie ein Angebotsset aus den folgenden Arten von Angebotssets:
 
 * **Bildvorlage**: Sie können Bildvorlagen in Adobe Dynamic Media Classic mit dem Befehl **[!UICONTROL Erstellen]** > Vorlagengrundlagen parametrisieren. Durch Parameter können Komponenten der Vorlage, der Text in Textrahmen und die verschiedenen Bilder ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern Varianten desselben Bildes in Ihrem Angebotsset erstellen. Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter [Erstellen von Vorlagenparametern](creating-template-parameters.md#creating_template_parameters).
 
-Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
+Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
 
 * **Video**: Sie können Videos für ein Angebotsset zusammenstellen. Jedes Video besteht dabei aus einem anderen Angebot im Set.
 
 ## Erstellen eines Angebotssets mit einer parametrisierten Vorlage {#creating-an-offer-set-with-a-parameterized-template}
 
-Wenn Sie ein Angebotsset erstellen, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf das Set und die Set-Mitglieder wie folgt aus:
+Wenn Sie ein Angebotsset erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf das Set und die Set-Mitglieder wie folgt aus:
 
-| **[!UICONTROL Publish nach einem Speichern]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| **[!UICONTROL Nach Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -73,16 +73,16 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    Auf der Seite „Test&amp;Target-Angebotsset“ werden die von Ihnen erstellten Angebote aufgelistet.
 
 1. Wiederholen Sie die Schritte 3 bis 5, um weitere Angebote für das Set zu erstellen.
-1. Wenn Sie die Assets ausgewählt haben, vergewissern Sie sich unten rechts auf der Seite, dass **[!UICONTROL Publish nach dem Speichern*]** ausgewählt ist (Standard).
+1. Stellen Sie nach Abschluss des Vorgangs in der unteren rechten Ecke der Seite sicher, dass **[!UICONTROL Veröffentlichen nach dem Speichern*]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Schließen]**, geben Sie einen Namen für das Angebotsset ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
 Bevor Sie die Seite „Test&amp;Target-Angebotssatz“ schließen, übertragen Sie das Angebotssatz auf Adobe Target Standard/Premium. Siehe [Pushen von Angebotssätzen an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Erstellen eines Angebotssets mit Bildern oder Videos {#creating-an-offer-set-with-images-or-videos}
 
-Wenn Sie ein Angebotsset erstellen, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf das Set und die Set-Mitglieder wie folgt aus:
+Wenn Sie ein Angebotsset erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf das Set und die Set-Mitglieder wie folgt aus:
 
-| **[!UICONTROL Publish nach einem Speichern]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| **[!UICONTROL Nach Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
 | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Unveröffentlicht | Mitglieder behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -104,16 +104,16 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    Klicken Sie **[!UICONTROL Speichern]**, um Ihre Änderungen am Bild- oder Videoangebot zu speichern. Wählen Sie anschließend **[!UICONTROL Schließen]**, um zur Seite „Test&amp;Target-Angebotssatz“ zurückzukehren.
 
-1. Nachdem Sie die Erstellung der Angebote für das Angebotsset abgeschlossen und Bildvorgaben für verschiedene Bilder ausgewählt haben, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Nachdem Sie die Erstellung der Angebote für das Angebotsset abgeschlossen und Bildvorgaben für verschiedene Bilder ausgewählt haben, stellen Sie sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]**, geben Sie einen Namen für das Angebotsset ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
 Pushen Sie vor dem Schließen der Seite „Test&amp;Target-Angebotssatz“ das Angebotssatz auf Adobe Target Standard/Premium. Siehe [Pushen von Angebotssätzen an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Bearbeiten von Angebotssets {#editing-an-offer-set}
 
-Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Publish nach dem Speichern]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Set bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
 
-| Set bereits veröffentlicht? | **[!UICONTROL Publish nach einer Speicherung]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
+| Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
 | Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
@@ -136,7 +136,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
    >
    >Ein mit einer Kampagne verknüpftes Angebotsset kann nicht gelöscht werden. Um einen mit einer Kampagne verknüpften Angebotssatz zu löschen, melden Sie sich bei Adobe Target Standard/Premium an und entfernen Sie zuerst die Kampagnenverknüpfungen. Selbst nach dem Aufheben der Verknüpfung mit einer Kampagne kann das Asset nur aus Adobe Dynamic Media Classic gelöscht werden, wodurch eine Anmeldung bei Adobe Target Standard/Premium erforderlich ist, nicht jedoch aus Adobe Target Standard/Premium.
 
-1. Wenn Sie die Bearbeitung abgeschlossen haben, stellen Sie sicher, dass **[!UICONTROL Publish nach dem Speichern]** ausgewählt ist (Standard).
+1. Stellen Sie nach Abschluss der Bearbeitung in der unteren rechten Ecke der Seite sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Speicherordner aus, geben Sie einen Namen für das Set ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 ## Löschen von Angebotssets {#delet-an-offer-set}

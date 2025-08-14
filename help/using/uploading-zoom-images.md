@@ -31,9 +31,9 @@ Um die Funktionen von Adobe Dynamic Media Classic Zoom optimal nutzen zu können
 
 * **Bildgröße**: Adobe Dynamic Media Classic empfiehlt die Verwendung von Bilddateien mit mindestens 2.000 Pixel in der längsten Größe. Dadurch wird gewährleistet, dass Bilddetails auch nach dem Zoomen noch deutlich zu erkennen sind.
 
-* **Dateiformate**: Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate. Die Formate umfassen TIFF, BMP, JPEG, PSD, GIF und EPS. Es werden verlustfreie Bildformate wie TIFF und PNG empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die Einstellungen in höchster Qualität.
+* **Dateiformate**: Adobe Dynamic Media Classic unterstützt alle standardmäßigen Bilddateiformate. Die Formate umfassen TIFF, BMP, JPEG, PSD, GIF und EPS. Verlustfreie Bildformate - TIFF und PNG - werden empfohlen. Wenn Sie ein JPEG-Bild verwenden, verwenden Sie die hochwertigsten Einstellungen.
 
-* **Farbraum**: RGB ist der Farbraum für Webbildpräsentationen. CMYK-Bilder werden beim Hochladen automatisch in RGB konvertiert. Es empfiehlt sich, CMYK-Bilder hochzuladen, die ein eingebettetes ICC-Farbprofil für die Konvertierung in RGB enthalten. Siehe auch ICC-Profile.
+* **Farbraum**: RGB ist der Farbraum für Web-Bildpräsentationen. CMYK-Bilder werden beim Hochladen automatisch in RGB konvertiert. Es empfiehlt sich, CMYK-Bilder hochzuladen, die ein eingebettetes ICC-Farbprofil für die Konvertierung in RGB enthalten. Siehe auch ICC-Profile.
 
 >[!MORELIKETHIS]
 >

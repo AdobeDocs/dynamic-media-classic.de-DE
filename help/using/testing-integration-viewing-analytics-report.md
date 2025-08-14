@@ -37,4 +37,4 @@ Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, mit Adobe 
 >
 >Alle Adobe Dynamic Media Classic-Viewer-Daten werden in Custom Traffic-Berichten oder Custom Conversion-Berichten von Adobe Analytics angezeigt und gemeldet.
 
-Weitere Informationen finden Sie unter [Analytics-Tutorials](https://experienceleague.adobe.com/de/docs/analytics-learn/tutorials/overview).
+Weitere Informationen finden Sie unter [Analytics-Tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).

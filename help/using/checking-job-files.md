@@ -12,7 +12,7 @@ topic: Administration, Content Management
 level: Intermediate
 source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 23%
 
 ---
@@ -33,7 +33,7 @@ Wählen Sie **[!UICONTROL Aufträge]** in der Symbolleiste für globale Navigati
 
 Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträge nach folgenden Kategorien angezeigt:
 
-* **[!UICONTROL Auftragstyp]**: Ein Symbol gibt den Auftragstyp an: Hochladen und Publish sind die häufigsten Auftragstypen.
+* **[!UICONTROL Auftragstyp]**: Ein Symbol gibt den Auftragstyp an: Hochladen und Veröffentlichen sind die häufigsten Auftragstypen.
 
 * **[!UICONTROL Vorgangsname]**: Der Name des Vorgangs. Der Name enthält den vom Benutzer eingegebenen Teil des Namens sowie das Datum und die Uhrzeit.
 
@@ -65,7 +65,7 @@ Mit den folgenden Verfahren können Sie Aufträge sortieren oder die Ansicht der
 
 * **[!UICONTROL Datumsbereich]**: Wählen Sie das Menü **[!UICONTROL Datumsbereich]** und wählen Sie eine Option aus, um die Liste der Aufträge auf das aktuelle Datum, die vorherige Woche oder den vorherigen Monat einzugrenzen. Wählen Sie **[!UICONTROL Benutzerdefinierter Datumsbereich]** aus und geben Sie dann einen bestimmten Datumsbereich ein.
 
-* **[!UICONTROL Vorgangstyp]**: Wählen Sie das Menü **[!UICONTROL Vorgangstyp]** und wählen Sie **[!UICONTROL Publish]** oder **[!UICONTROL Hochladen]**, um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge einzugrenzen. Wählen Sie **[!UICONTROL Alle]** aus, um beide Vorgangstypen anzuzeigen.
+* **[!UICONTROL Vorgangstyp]**: Wählen Sie das Menü **[!UICONTROL Vorgangstyp]** und wählen Sie **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Hochladen]**, um die Liste auf Veröffentlichungsaufträge oder Upload-Aufträge einzugrenzen. Wählen Sie **[!UICONTROL Alle]** aus, um beide Vorgangstypen anzuzeigen.
 
 * **[!UICONTROL Anzeigen]**: Wechseln Sie zu **[!UICONTROL Anzeigen]** > **[!UICONTROL Meine Aufträge]** oder **[!UICONTROL Anzeigen]** > **[!UICONTROL Alle Aufträge]**, um die Liste auf von Ihnen bestellte Aufträge oder Aufträge einzugrenzen, die von Personen in Ihrem Unternehmen bestellt wurden.
 
@@ -81,7 +81,7 @@ Sie können diese Informationen in die Zwischenablage kopieren.
 
 ## Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge {#handling-recurring-upload-and-publish-jobs}
 
-Wiederkehrende Upload- und Veröffentlichungsaufträge, die Sie auf den Seiten „Hochladen“ und &quot;Publish&quot; erstellen, werden auf der Registerkarte „Geplant“ der Seite „Aufträge“ aufgeführt. Sie können wiederkehrende Aufträge auf der Registerkarte „Geplant“ bearbeiten und löschen.
+Wiederkehrende Upload- und Veröffentlichungsaufträge, die Sie auf den Seiten „Hochladen“ und „Veröffentlichen“ erstellen, werden auf der Seite „Aufträge“ auf der Registerkarte „Geplant“ aufgeführt. Sie können wiederkehrende Aufträge auf der Registerkarte „Geplant“ bearbeiten und löschen.
 
 Wählen Sie in der globalen Navigationsleiste die Schaltfläche Aufträge und auf der Seite Aufträge die Registerkarte **[!UICONTROL Geplant]** aus, damit Sie wiederkehrende Aufträge bearbeiten und löschen können.
 
@@ -103,13 +103,13 @@ Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Uploads oder Ver�
 
 ### Erstellen eines benutzerdefinierten Zeitintervalls für Upload- oder Veröffentlichungsaufträge {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Um ein benutzerdefiniertes Zeitintervall für einen Upload (über FTP) oder einen Veröffentlichungsauftrag zu erstellen, gehen Sie auf der Seite „Hochladen“ oder &quot;Publish&quot; zu **[!UICONTROL Wiederholen]** > **[!UICONTROL Benutzerdefiniert]**. Geben Sie dann Zahlen und Platzhalter in das Feld Regel ein, um das Zeitintervall für das Wiederholen der Upload- oder Veröffentlichungsaufträge zu beschreiben.
+Um ein benutzerdefiniertes Zeitintervall für einen Upload (über FTP) oder einen Veröffentlichungsauftrag zu erstellen, gehen Sie auf der Seite „Hochladen“ oder „Veröffentlichen“ zu **[!UICONTROL Wiederholen]** > **[!UICONTROL Benutzerdefiniert]**. Geben Sie dann Zahlen und Platzhalter in das Feld Regel ein, um das Zeitintervall für das Wiederholen der Upload- oder Veröffentlichungsaufträge zu beschreiben.
 
 Dies ist die Syntax zum Beschreiben benutzerdefinierter Zeitintervalle für Upload-Aufträge bzw. Veröffentlichungsaufträge im Feld „Regel“:
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Beispielsweise plant `0 15 10 * * ?` einen Auftrag jeden Tag um 10:15 Uhr.
+Beispielsweise plant `0 15 10 * * ?` einen Auftrag jeden Tag um 10:1500 Uhr.
 
 In den folgenden Tabellen und in der Liste unten ist dargestellt, wie sich ein Zeitintervall in das Feld „Regel“ eingeben lässt.
 
@@ -142,18 +142,18 @@ In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mi
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:
 
 * `0 0 12 * * ?` : Mittag jeden Tag
-* `0 15 10 ? * *` : 10:15 Uhr jeden Tag
-* `0 0/5 14 * * ?`: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr jeden Tag
-* `0 0/5 14,18 * * ?` : Alle 5 Minuten zwischen 14:00 und 14:55 Uhr jeden Tag und alle 5 Minuten zwischen 18:00 und 18:55 Uhr jeden Tag
-* `0 10,44 14 ? 3` : Mittwoch, 14.10 Uhr, 14.44 Uhr, im März
-* `0 15 10 ? *` : Mo-Fr jeden Wochentag um 10:15 Uhr
-* `0 15 10 20 * ?` : jeden 20. Tag des Monats um 10:15 Uhr
-* `0 15 10 L * ?` : Am letzten Tag jedes Monats um 10:15 Uhr
-* `0 15 10 ? * 6L` : Am letzten Freitag jedes Monats um 10:15 Uhr
-* `0 15 10 * * 6#3` : Am dritten Freitag jedes Monats um 10:15 Uhr
+* `0 15 10 ? * *` : :15 Uhr morgens
+* `0 0/5 14 * * ?`: Alle 5 Minuten zwischen :00 und :55 Uhr jeden Tag
+* `0 0/5 14,18 * * ?` : Alle 5 Minuten zwischen :00 und :55 Uhr jeden Tag und alle 5 Minuten zwischen :00 und :55 Uhr jeden Tag
+* `0 10,44 14 ? 3` : Mittwoch im :10 um 14 :44 14 Uhr
+* `0 15 10 ? *` : Mo-Fr um 10:15 Uhr jeden Wochentag
+* `0 15 10 20 * ?` : :15 Uhr am 20. jedes Monats
+* `0 15 10 L * ?` : :15 Uhr am letzten Tag jedes Monats
+* `0 15 10 ? * 6L` : :15 Uhr am letzten Freitag jedes Monats
+* `0 15 10 * * 6#3` : :15 Uhr am dritten Freitag jedes Monats
 
 ## Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger {#using-an-upload-or-publish-job-as-a-trigger}
 
 Wenn Sie Assets per FTP hochladen oder einen Veröffentlichungsauftrag ausführen, können Sie einen weiteren Auftrag planen, der nach Abschluss des Uploads beginnt. (Wenn der Start anderer Aufträge für diesen Zeitpunkt geplant ist, wird der hier geplante Auftrag in die Warteschlange gestellt.) Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adresse, damit der Code an diesem Speicherort ausgelöst werden kann. Der nachfolgende Upload-Auftrag erhält denselben Namen wie der aktuelle Upload-Auftrag, jedoch mit dem Präfix „_Pub“.
 
-Um einen Upload- oder Veröffentlichungsauftrag zu einem anderen Trigger zu machen, wählen Sie **[!UICONTROL Erweitert]** auf der Seite „Hochladen“ oder &quot;Publish&quot; aus. Geben Sie dann die URL in das Textfeld „HTTP-Benachrichtigung“ ein.
+Um einen Upload- oder Veröffentlichungsauftrag zu einem anderen Trigger zu machen, wählen Sie **[!UICONTROL Erweitert]** auf der Seite „Hochladen“ oder „Veröffentlichen“ aus. Geben Sie dann die URL in das Textfeld „HTTP-Benachrichtigung“ ein.

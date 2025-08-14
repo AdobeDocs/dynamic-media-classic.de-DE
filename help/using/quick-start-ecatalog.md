@@ -23,8 +23,8 @@ Ein eCatalog ist eine digitale Web-Version von Druckmaterial, z. B. ein Katalog,
 
 Siehe auch die folgenden Schulungsvideos:
 
-* [Schnellstart 1: E-Kataloge](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [Schnellstart 2: E-Kataloge](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [Schnellstart 1: E-Kataloge](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [Schnellstart 2: E-Kataloge](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 Je nach den Einstellungen, die Sie für Ihren E-Katalog auswählen, bietet der Viewer folgende Möglichkeiten:
 
@@ -48,29 +48,29 @@ Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in de
 
 >[!NOTE]
 >
->Wenn Sie Dynamic Media: Scene7-Modus verwenden und eCatalogs verwenden möchten, bearbeiten Sie den `pdfbrochure` in CRXDE Lite. Navigieren Sie dazu in Adobe Experience Manager zu **[!UICONTROL Tools]** > **[!UICONTROL Allgemein]** > **[!UICONTROL CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Wenn Sie Benutzende des Dynamic Media: Scene7-Modus sind und E-Kataloge verwenden möchten, bearbeiten Sie den `pdfbrochure` in CRXDE Lite. Navigieren Sie dazu in Adobe Experience Manager zu **[!UICONTROL Tools]** > **[!UICONTROL Allgemein]** > **[!UICONTROL CRXDE Lite]**. Navigieren Sie in der Navigationsstruktur des linken Bedienfelds zu `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >Wählen Sie im unteren rechten Bereich auf der Registerkarte **[!UICONTROL Eigenschaften]** die Zeile `jobParam` aus. Legen Sie den Wert für `pdfbrochure` von `false` auf `true` fest. Wie in `pdfbrochure=true`
 >
->Klicken Sie oben links auf der Seite CRXDE Lite auf **[!UICONTROL Alle speichern]**.
+>Klicken Sie oben links auf der Seite &quot;CRXDE Lite&quot; auf **[!UICONTROL Alle speichern]**.
 >
 >Sie können jetzt E-Kataloge in Adobe Dynamic Media Classic erstellen.
 
 Diese Kurzanleitung für die Erstellung eines E-Katalogs hilft Ihnen, sich schnell mit den E-Katalogfunktionen vertraut zu machen. Führen Sie die Schritte 1 bis 7 aus. Nach jedem Schritt finden Sie einen Querverweis auf eine Themenüberschrift, unter der Sie weitere Informationen finden.
 
-## 1. Hochladen der PDF-Dateien
+## &#x200B;1. PDF-Dateien hochladen
 
 Normalerweise werden Adobe PDF-Dateien als Grundlage für einen E-Katalog verwendet. Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Adobe Dynamic Media Classic erkennt diese Bilder und konvertiert sie mithilfe eines standardmäßigen CMYK-Farbprofils. Sie müssen jedoch ein benutzerdefiniertes Farbprofil hochladen und verwenden.
 
-Wählen Sie in der globalen Navigationsleiste die Option **[!UICONTROL Hochladen]**, um mit dem Hochladen von PDF-Dateien oder Bildern für Ihren E-Katalog zu beginnen. Sie können Dateien über Ihren Desktop oder FTP hochladen. FTP wird empfohlen, wenn Sie viele Dateien oder Dateien mit mehr als 100 MB hochladen.
+Wählen Sie in der globalen Navigationsleiste die Option **[!UICONTROL Hochladen]**, um PDF-Dateien oder Bilder für Ihren E-Katalog hochzuladen. Sie können Dateien über Ihren Desktop oder FTP hochladen. FTP wird empfohlen, wenn Sie viele Dateien oder Dateien mit mehr als 100 MB hochladen.
 
 Im Anzeigebereich „Hochladen“ finden Sie im Bereich „PDF-Optionen“ Einstellungen für das Hochladen von PDF-Dateien mit der angemessenen Auflösung und dem richtigen Farbraum. Eine Auflösung von 150 Pixel pro Zoll wird empfohlen. Sie können die Option **[!UICONTROL E-Katalog automatisch erstellen]** auswählen, um beim Hochladen einer PDF-Datei einen E-Katalog zu erstellen.
 
 Siehe [Hochladen der PDF-](uploading-pdf-files.md#uploading_the_pdf_files).
 
-## 2. E-Katalog erstellen
+## &#x200B;2. E-Katalog erstellen
 
-Erstellen Sie Ihren E-Katalog, indem Sie im Durchsuchen-Panel PDF- oder Bilddateien auswählen. Wählen Sie **[!UICONTROL Erstellen]** und dann **[!UICONTROL E-Kataloge]** aus.
+Erstellen Sie Ihren E-Katalog, indem Sie im Durchsuchen-Panel PDF oder Bilddateien auswählen. Wählen Sie **[!UICONTROL Erstellen]** und dann **[!UICONTROL E-Kataloge]** aus.
 
 Wählen Sie auf der Seite „E **[!UICONTROL Katalog“ auf der Registerkarte]** Bestellseiten“ eine Layout-Option aus: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Custom]**. Sie können die Anordnung der Seiten oder Druckbögen durch Ziehen oder, insbesondere in großen E-Katalogen, durch Auswahl eines Seitennamens im Menü „Verschieben nach“ ändern.
 
@@ -80,7 +80,7 @@ Wählen Sie **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren E-Katal
 
 Siehe [Erstellen eines E-](creating-ecatalog.md).
 
-## 3. Erstellen von Imagemaps
+## &#x200B;3. Erstellen von Imagemaps
 
 Imagemaps fügen E-Katalog-Seiten einen weiteren Aspekt hinzu. Eine Imagemap ist ein Seitenbereich, mit dessen Hilfe weitere Informationen zu einem Element angezeigt werden können. Wenn Betrachter der Website den Mauszeiger über eine Imagemap bewegen, wird eine Beschreibung des Elements angezeigt. Durch Klicken auf eine Imagemap wird ein externer Verweis aktiviert, der eine neue Webseite öffnet, auf der Sie mehr über ein Element erfahren können.
 
@@ -96,7 +96,7 @@ Sie können den Imagemap-Text mithilfe der Einstellungen des Infobereichs im E-K
 
 Siehe [Inhalt des Infobereichs in E-Katalogen verwalten](/help/using/info-panel-content-ecatalog.md).
 
-## 4. Einrichten von E-Katalog-Viewer-Vorgaben
+## &#x200B;4. Einrichten von E-Katalog-Viewer-Vorgaben
 
 Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können die Konturfarbe ändern und ein neues „Design“ auswählen, um Ihren E-Katalog mit einem Branding zu versehen. Adobe Dynamic Media Classic verfügt über mehrere „Best Practice“-E-Katalog-Viewer-Vorgaben. Sie können eine dieser Vorgaben zum Anzeigen Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
@@ -104,7 +104,7 @@ Um eine Viewer-Vorgabe für E-Kataloge zu erstellen, klicken Sie in der globalen
 
 Siehe [Einrichten von E-Katalog-Viewer-Vorgaben](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
-## 5. Vorschau von E-Katalogen im E-Katalog-Viewer
+## &#x200B;5. Vorschau von E-Katalogen im E-Katalog-Viewer
 
 Mithilfe von E-Katalog-Viewer-Vorgaben wird der Stil und das Verhalten von E-Katalog-Viewern festgelegt.
 
@@ -114,15 +114,15 @@ Achten Sie auf Ausrichtung, Farbschema, Aussehen der Steuerelemente zum Umblätt
 
 Siehe [Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-## 6. Publish-E-Katalog und zugehörige PDF
+## &#x200B;6. Veröffentlichen von E-Katalogen und zugehörigen PDFs
 
-Durch das Veröffentlichen des E-Katalogs und der zugehörigen PDF wird er auf den Dynamic Media-Bildservern abgelegt, sodass er auf Ihrer Website und in Ihrem Programm bereitgestellt werden kann. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den E-Katalog von Dynamic Media-Bildservern an Ihre Website oder Anwendung aufzurufen.
+Durch das Veröffentlichen des E-Katalogs und der zugehörigen PDF wird er auf Dynamic Media-Bildservern platziert, sodass er auf Ihrer Website und in Ihrem Programm bereitgestellt werden kann. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den E-Katalog von Dynamic Media-Bildservern an Ihre Website oder Anwendung aufzurufen.
 
-Nachdem Sie Ihren E-Katalog und Ihre PDF zur Veröffentlichung im Durchsuchen-Panel markiert haben, klicken Sie in der globalen Navigationsleiste auf die Schaltfläche Publish , um eine Veröffentlichung zu starten. Klicken Sie auf der Seite „Veröffentlichen“ auf **[!UICONTROL Publish senden]**.
+Nachdem Sie Ihren E-Katalog und PDF im Durchsuchen-Panel zur Veröffentlichung markiert haben, klicken Sie in der globalen Navigationsleiste auf die Schaltfläche Veröffentlichen , um eine Veröffentlichung zu starten. Klicken Sie auf der Seite „Veröffentlichen“ auf **[!UICONTROL Veröffentlichung starten]**.
 
-Siehe [Publish-E-Kataloge und zugehörige PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
+Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF-](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-## 7. Verknüpfen eines E-Katalogs mit einer Web-Seite
+## &#x200B;7. Verknüpfen eines E-Katalogs mit einer Web-Seite
 
 Adobe Dynamic Media Classic aktiviert die URL-Legendenzeichenfolge, die für die Anzeige Ihres E-Katalogs erforderlich ist, wenn Sie ihn auf Dynamic Media-Bildservern veröffentlichen. Sie können diese URL-Zeichenfolge aus dem Bildschirm Vorschau und dem Durchsuchen-Panel (in der Detailansicht) kopieren, indem Sie URLs im Panel auswählen. Nachdem Sie die URL-Zeichenfolge kopiert haben, ist sie für Ihre Websites und Programme verfügbar.
 

@@ -12,8 +12,8 @@ topic: Content Management
 level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 23%
+source-wordcount: '1441'
+ht-degree: 24%
 
 ---
 
@@ -33,7 +33,7 @@ Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für d
    1. Der Player wählt den höchsten Bandbreitenstrom aus, der kleiner oder gleich der geschätzten Bandbreite ist.
    1. Player berücksichtigt nur 80 % der verfügbaren Bandbreite. Wenn er jedoch nach oben wechselt, ist er mit nur 70 % konservativer, um Überschätzungen zu vermeiden und sofort zurückzuwechseln.
 
-Technische Informationen finden Sie in der Algorithmuslogik unter [&#128279;](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)0&rbrace;https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp&quot;.
+Technische Informationen finden Sie in der Algorithmuslogik unter [0}https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp&quot;.](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)
 
 Für die Verwaltung von Einzelvideos und adaptiven Videosets unterstützt Adobe Dynamic Media Classic Folgendes:
 
@@ -41,7 +41,7 @@ Für die Verwaltung von Einzelvideos und adaptiven Videosets unterstützt Adobe 
 
 Siehe [Aktivieren oder Deaktivieren von adaptiven Videovorgaben](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
 
 Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
@@ -60,7 +60,7 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
   Adaptives Video-Streaming wird auf verschiedenen iOS-Plattformen unterstützt.
 
-  Die neueste Unterstützung finden Sie im [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
+  Die neueste Unterstützung finden Sie im [Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -79,26 +79,26 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 * Integrieren Sie Videos mit einer einfachen URL oder mit Einbettungs-Code in Ihre Website, mobile Site oder mobile Anwendung.
 
 Siehe die folgenden Schulungsvideos:
-* [MP4-Videoübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+* [MP4-Videoübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [MP4-Videovorschau](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [MP4-Videovorschau](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [MP4-Video-Upload](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [MP4-Video-Upload](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [Streaming - Übersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [Streaming - Übersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Schnellstart**
 
 Die folgende schrittweise Workflow-Beschreibung soll Ihnen den schnellen Einstieg in adaptive Videosets in Adobe Dynamic Media Classic erleichtern. Nach jedem Schritt finden Sie einen Querverweis auf eine Themenüberschrift, unter der Sie weitere Informationen finden.
 
-## 1. Videos hochladen und kodieren
+## &#x200B;1. Videos hochladen und kodieren
 
 Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden Szenarien hoch:
 
 * **Vorkodierte Videos hochladen**: Wenn Ihre Videos bereits extern in Adobe Dynamic Media Classic kodiert wurden, wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Hochladen]** aus. Durchsuchen Sie MP4-Videodateien und laden Sie sie direkt in Adobe Dynamic Media Classic hoch. Navigieren Sie dann zu **[!UICONTROL Erstellen]** > **[!UICONTROL Adaptive Videosets]**. Navigieren Sie zu Ihren Videodateien. Ziehen Sie die gewünschten Videodateien per Drag-and-Drop in die Tabelle Adaptives Videoset und speichern Sie dann das Set.
 * **Primärvideos hochladen**: Wenn Ihre Videos nicht kodiert sind, wählen Sie in der Symbolleiste für die globale Navigation die Option **[!UICONTROL Hochladen]** aus, um primäre Videoquelldateien (keine MP4) hochzuladen. Adobe Dynamic Media Classic kodiert sie für Sie in MP4-Dateien. Wählen **[!UICONTROL Dialogfeld Upload-Auftragsoptionen]** unter **[!UICONTROL EVideo-Optionen]** die Option **[!UICONTROL Adaptives Video]**.
 
-  Mit dieser bevorzugten Option können Sie adaptive Videosets erstellen. Die richtige Kodierungsvorgabe wird automatisch auf das Video angewendet (16:9 oder 4:3), damit sie den Abmessungen des hochgeladenen Videos entspricht. Wenn Sie Ihren Upload-Auftrag übermitteln, wird automatisch ein adaptives Videoset erstellt, das drei Videocodierungseinstellungen im richtigen Seitenverhältnis enthält.
+  Mit dieser bevorzugten Option können Sie adaptive Videosets erstellen. Die richtige Kodierungsvorgabe wird automatisch auf das Video angewendet (16 :9 4 :3), um die Abmessungen des hochgeladenen Videos zu berücksichtigen. Wenn Sie Ihren Upload-Auftrag übermitteln, wird automatisch ein adaptives Videoset erstellt, das drei Videocodierungseinstellungen im richtigen Seitenverhältnis enthält.
 
   Oder erweitern Sie im selben **[!UICONTROL Auftragsoptionen]**-Dialogfeld unter **[!UICONTROL EVideo-Optionen]** die Option **[!UICONTROL Einzelne Kodierungsvorgaben]**. Wählen Sie die gewünschten individuellen Videokodierungsvorgaben aus. Sie können **Desktop**, **Mobile (iPhone, iPad, Android™)** und **Tablet (iPad, Android™)** auswählen, um die MP4-Dateien zu erstellen.
 
@@ -110,11 +110,11 @@ Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading
 
 Adobe Dynamic Media Classic bietet zahlreiche vordefinierte Videokodierungsvorgaben. Diese vordefinierten Vorgaben entsprechen den gängigsten Videokodierungseinstellungen, die heute verwendet werden, und sind für die Wiedergabe auf Zielseiten optimiert.
 
-Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;**&#x200B;**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;****&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
 Siehe [Arbeiten mit Videocodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-## 2. Vorschau von Videos in einem Video-Viewer
+## &#x200B;2. Vorschau von Videos in einem Video-Viewer
 
 Um zu sehen, wie ein Video für Endbenutzende auf einem Desktop, einer Website oder einem Mobilgerät wiedergegeben wird, wählen Sie das Video im Durchsuchen-Panel aus. Wählen Sie dann **[!UICONTROL Vorschau]** aus.
 
@@ -128,9 +128,9 @@ Anpassung von Viewer-Vorgaben: Adobe Dynamic Media Classic bietet vordefinierte 
 
 Siehe [Arbeiten mit Video-Viewer-](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
 
-## 3. Bereitstellen von Videos auf Ihren Websites und mobilen Sites
+## &#x200B;3. Bereitstellen von Videos auf Ihren Websites und mobilen Sites
 
 Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integrieren:
 

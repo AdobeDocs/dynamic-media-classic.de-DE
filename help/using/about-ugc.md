@@ -24,7 +24,7 @@ UGC unterstützt Rasterbilddateiformate BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
 >
->Ab dem 1. Mai 2023 stehen UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
+>Ab dem 1. Mai 2023 stehen UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads zur Verwendung zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 

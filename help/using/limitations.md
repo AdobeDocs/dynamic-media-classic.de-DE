@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ---
 
-# Einschränkungen bei Dynamic Media
+# Grenzwerte für Dynamic Media
 
 In den folgenden Abschnitten werden Einschränkungen in Dynamic Media beschrieben.
 
@@ -28,7 +28,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 ## Best Practices und Einschränkungen durch Dynamic Media bei Asset-Typen {#best-practice-enforced-limits}
 
-Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextraktion hochladen, empfiehlt Adobe die folgenden Best Practices. Adobe erzwingt außerdem die folgenden Beschränkungen:
+Wenn Sie ein Rotationsset oder Bildset erstellen oder PDFs zur Seitenextraktion hochladen, empfiehlt Adobe die folgenden Best Practices. Adobe setzt außerdem die folgenden Beschränkungen durch:
 
 | Asset: Art des Limits | Optimale Vorgehensweise | Limit |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Wenn Sie ein Rotationsset oder Bildset erstellen oder PDF zur Seitenextraktion h
 | **Alle Sets**: Anzahl der doppelten Assets pro Set | Keine Duplikate | 20 ‡ |
 | **Alle Sets**: Maximale Anzahl von Assets pro Set | 5-10 Bilder pro Set | 1000 |
 | **Rotationsset**: Maximale Anzahl von Zeilen/Spalten pro 2D-Set | 12-18 Bilder pro Set | 1000 |
-| **PDF**: Maximale Seitenzahl für eine PDF, die für die Extraktion berücksichtigt werden sollen |  | 100 (für alle PDF) |
+| **PDF**: Maximale Seitenzahl für eine PDF, damit eine Extraktion durchgeführt werden kann |  | 100 (für alle PDFs) |
 
 ‡ Best Practice ist es, keine doppelten Assets in einem Satz zu haben. Für ein einzelnes Asset sind maximal 20 Duplikate zulässig. Wenn Sie innerhalb dieses Sets ein weiteres Duplikat für dieses Asset hinzufügen, gibt die Anfrage entweder einen Fehler aus oder ignoriert das Duplikat.
 

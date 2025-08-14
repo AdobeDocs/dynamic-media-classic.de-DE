@@ -12,8 +12,8 @@ topic: Content Management
 level: Intermediate
 source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 40%
+source-wordcount: '1602'
+ht-degree: 39%
 
 ---
 
@@ -23,26 +23,26 @@ Die Optimierung der Bildqualität kann viel Zeit in Anspruch nehmen. Viele Fakto
 
 Adobe Dynamic Media Classic umfasst mehr als 100 Bildbereitstellungsbefehle zum Optimieren und Optimieren von Bildern und zum Rendern von Ergebnissen. Die folgenden Richtlinien sollen Ihnen dabei helfen, den Vorgang zu optimieren und die gewünschten Ergebnisse schnell mit nur einigen wichtigen Befehle und empfohlenen Verfahren zu erzielen.
 
-Siehe auch [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Siehe auch [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
 >Probieren Sie die Vorteile von Dynamic Media-Bildmodifikatoren und der intelligenten Bildbearbeitung mithilfe von Dynamic Media ([_)_](https://snapshot.scene7.com/).
 >
-> „Momentaufnahme“ ist ein visuelles Demonstrationswerkzeug, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, damit Sie die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell beobachten können, und optimieren Sie die intelligente Bildbearbeitung auf Folgendes:
+> „Momentaufnahme“ ist ein visuelles Demonstrations-Tool, das die Leistungsfähigkeit von Dynamic Media für eine optimierte und dynamische Bildbereitstellung veranschaulicht. Experimentieren Sie mit Testbildern oder Dynamic Media-URLs, damit Sie die Ausgabe verschiedener Dynamic Media-Bildmodifikatoren visuell beobachten können, und optimieren Sie die intelligente Bildbearbeitung auf Folgendes:
 >
 >* Dateigröße (mit WebP- und AVIF-Bereitstellung)
 >* Netzwerkbandbreite
 >* DPR (Device Pixel Ratio)
 >
->Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
+>Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
 
 
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * Das JPG- oder das PNG-Format ist die beste Wahl, um Bilder in akzeptabler Qualität und handlicher Größe und Dateigröße bereitzustellen.
-* Wenn in der URL kein Formatbefehl angegeben wird, wird für die Bereitstellung standardmäßig JPG für Dynamic Media Image Serving verwendet.
-* JPG-Dateien werden in einem Verhältnis von 10:1 komprimiert und produzieren so in der Regel kleinere Bilddateigrößen. PNG wird mit einem Verhältnis von etwa 2:1 komprimiert, außer manchmal, wenn Bilder einen leeren Hintergrund enthalten. Dennoch lässt sich sagen, dass PNG-Dateien grundsätzlich größer sind als JPG-Dateien.
+* Wenn in der URL kein Formatbefehl angegeben ist, wird für die Bereitstellung standardmäßig JPG verwendet.
+* JPG komprimiert mit einem Verhältnis von 10:1 und erzeugt normalerweise kleinere Bilddateigrößen. PNG komprimiert mit einem Verhältnis von etwa 2:1, außer manchmal, wenn Bilder einen leeren Hintergrund enthalten. Dennoch lässt sich sagen, dass PNG-Dateien grundsätzlich größer sind als JPG-Dateien.
 * JPG verwendet eine verlustbehaftete Komprimierung. Dies bedeutet, dass Bildelemente (Pixel) bei der Komprimierung verworfen werden. Im Gegensatz dazu verwendet PNG eine verlustfreie Komprimierung.
 * JPG komprimiert Fotografien häufig mit einer höheren Genauigkeit als künstliche Bilder mit scharfen Kanten und hohem Kontrast.
 * Wenn die Bilder transparente Anteile enthalten, sollte das PNG-Format verwendet werden, da JPG keine Transparenz unterstützt.
@@ -107,19 +107,19 @@ Lassen Sie die Parametereinstellung „Monochrom“ auf 0.
 * Um in der Mitte zu bleiben, empfiehlt es sich, den `qlt=` auf 85 festzulegen, damit die Mitte beibehalten wird.
 * Verwenden der Chroma-Markierung in `qlt=`
 
-   * Der `qlt=` Parameter verfügt über eine zweite Einstellung, mit der Sie das RGB-Chromatizitäts-Downsampling mit der `,0` Normalwert (Standard) aktivieren oder mit der `,1` Wert ausschalten können.
-   * Um die Sache zu vereinfachen, starten Sie mit RGB-Chromatizitäts-Downsampling ausgeschaltet ( `,1`). Diese Einstellung führt in der Regel zu einer besseren Bildqualität, insbesondere bei künstlichen Bilder mit vielen scharfen Kanten und hohem Kontrast.
+   * Der Parameter &quot;`qlt=`&quot; verfügt über eine zweite Einstellung, mit der Sie die Neuberechnung der RGB-Chromatizität mit der `,0` „Normalwert“ (Standard) aktivieren oder mit der `,1` Wert deaktivieren können.
+   * Um die Sache möglichst unkompliziert zu gestalten, sollten Sie zunächst das Downsampling der RGB-Chromatizität deaktivieren ( `,1`). Diese Einstellung führt in der Regel zu einer besseren Bildqualität, insbesondere bei künstlichen Bilder mit vielen scharfen Kanten und hohem Kontrast.
 
-Als Best Practice für die JPG-Komprimierung verwenden Sie `&qlt=85,0`.
+Als Best Practice für die Komprimierung von JPG `&qlt=85,0`.
 
 ## Empfohlene Verfahren für die JPEG-Größenanpassung (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 Der Parameter `jpegSize` ist nützlich, wenn Sie garantieren möchten, dass ein Bild eine bestimmte Größe für die Bereitstellung an Geräten mit begrenztem Speicher nicht überschreitet.
 
 * Dieser Parameter wird in Kilobyte ( `jpegSize=<size_in_kilobytes>`) festgelegt. Er legt die maximal zulässige Größe für Bildbereitstellung fest.
-* `&jpegSize=` interagiert mit dem JPG-Komprimierungsparameter `&qlt=`. Wenn die JPG-Antwort mit dem angegebenen JPG-Komprimierungsparameter (`&qlt=`) den `jpegSize` nicht überschreitet, wird das Bild mit dem definierten `&qlt=` zurückgegeben. Andernfalls wird die `&qlt=` schrittweise verringert, bis das Bild in die maximal zulässige Größe passt. Oder, bis das System feststellt, dass es nicht passt und einen Fehler zurückgibt.
+* `&jpegSize=` interagiert mit dem JPG-Komprimierungsparameter `&qlt=`. Wenn die JPG-Antwort mit dem angegebenen JPG-Komprimierungsparameter (`&qlt=`) den `jpegSize` Wert nicht überschreitet, wird das Bild mit dem definierten `&qlt=` zurückgegeben. Andernfalls wird die `&qlt=` schrittweise verringert, bis das Bild in die maximal zulässige Größe passt. Oder, bis das System feststellt, dass es nicht passt und einen Fehler zurückgibt.
 
-Als Best Practice empfiehlt es sich, `&jpegSize=` festzulegen und den `&qlt=` hinzuzufügen, wenn Sie JPG-Images an Geräte mit begrenztem Speicher bereitstellen.
+Als Best Practice empfiehlt es sich, `&jpegSize=` festzulegen und den `&qlt=` hinzuzufügen, wenn Sie JPG-Bilder an Geräte mit begrenztem Speicher bereitstellen.
 
 ## Zusammenfassung der empfohlenen Verfahren {#best-practices-summary}
 
@@ -137,4 +137,4 @@ Beim Experimentieren sind die folgenden allgemeinen Vorschläge hilfreich, um Ih
 
 * Testen Sie verschiedene Parameter in Echtzeit, entweder direkt über eine URL oder mithilfe der Bildanpassungsfunktion von Adobe Dynamic Media Classic. Letztere bietet Echtzeitvorschauen für Anpassungsvorgänge.
 * Als Best Practice empfiehlt es sich, Dynamic Media-Bildbereitstellungsbefehle in einer Bildvorgabe zu gruppieren. Bei einer Bildvorgabe handelt es sich im Grunde um URL-Befehlsmakros mit benutzerdefinierten Vorgabennamen wie `$thumb_low$` und `&product_high$`. Der benutzerdefinierte Vorgabenname in einem URL-Pfad ruft diese Vorgaben auf. Diese Funktionen helfen Ihnen dabei, die Befehls- und Qualitätseinstellungen für verschiedene Verwendungsmuster der Bildern auf Ihrer Website zu verwalten und verkürzen die Gesamtlänge der URLs.
-* Adobe Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zur Optimierung der Bildqualität, wie das Scharfzeichnen von Bildern bei der Aufnahme. Für erweiterte Anwendungsfälle, bei denen eine weitere Optimierung der gerenderten Ergebnisse eine Option ist, kann Adobe Professional Services Ihnen mit benutzerdefinierten Einblicken und Best Practices helfen.
+* Adobe Dynamic Media Classic bietet außerdem erweiterte Möglichkeiten zur Optimierung der Bildqualität, wie das Scharfzeichnen von Bildern bei der Aufnahme. Für erweiterte Anwendungsfälle, bei denen eine weitere Optimierung der gerenderten Ergebnisse eine Option ist, kann Adobe Professional Services Ihnen mit benutzerdefinierten insight- und Best Practices helfen.

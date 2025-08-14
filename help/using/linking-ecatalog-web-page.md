@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # Verknüpfen eines E-Katalogs mit einer Web-Seite{#linking-an-ecatalog-to-a-web-page}
 
-Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code auf Dynamic Media-Bildserver-Inhalte zu, einschließlich E-Katalogen. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für Ihren E-Katalog auf Ihren Webseiten und in Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
+Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code auf Dynamic Media Image Server-Inhalte, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für Ihren E-Katalog auf Ihren Webseiten und in Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten
 
 Die häufigste Methode zur Bereitstellung eines E-Katalogs besteht darin, auf Ihrer Web-Seite einen Link in Form einer E-Katalog-Miniaturansichtsseite zu platzieren. Vergewissern Sie sich, dass der E-Katalog im Browser in einem eigenen zentrierten Popup-Fenster angezeigt wird (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). In dem Fenster darf keine Symbol- und Adressleiste angezeigt werden.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Embed HTML5 eCatalog Viewer im Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5 eCatalog Viewers im Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopieren des Einbettungs-Codes eines E-Katalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
 

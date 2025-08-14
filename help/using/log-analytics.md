@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Anmelden bei Adobe Analytics{#log-in-to-adobe-analytics}
 
-Vergewissern Sie sich, dass Sie Mitglied der Zugriffsgruppe für Webdienste in Adobe Analytics sind. Tun Sie dies, bevor Sie sich anmelden, um Adobe Analytics-Berichte zu konfigurieren und Adobe Analytics-Berichtsvariablen mit Adobe Dynamic Media Classic-Ereignissen abzugleichen. Mitglieder dieser Gruppe können auf alle Berichte in den angegebenen Report Suites zugreifen. Verwenden Sie dazu die Web Services-API der Experience Cloud, unabhängig von den in der Benutzeroberfläche festgelegten Berechtigungen. Um ein Mitglied zur Gruppe hinzuzufügen, gehen Sie in Adobe Analytics zu **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Gruppen bearbeiten]**.
+Vergewissern Sie sich, dass Sie Mitglied der Zugriffsgruppe für Webdienste in Adobe Analytics sind. Tun Sie dies, bevor Sie sich anmelden, um Adobe Analytics-Berichte zu konfigurieren und Adobe Analytics-Berichtsvariablen mit Adobe Dynamic Media Classic-Ereignissen abzugleichen. Mitglieder dieser Gruppe können auf alle Berichte in den angegebenen Report Suites zugreifen. Verwenden Sie dazu die Web Services-API von Experience Cloud, unabhängig von den in der Benutzeroberfläche festgelegten Berechtigungen. Um ein Mitglied zur Gruppe hinzuzufügen, gehen Sie in Adobe Analytics zu **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Gruppen bearbeiten]**.
 
 Bei der Anmeldung haben Sie die Möglichkeit, Ihre Experience Cloud-Organisations-ID einzugeben, um die neueste Videoanalyseimplementierung zu verwenden. Wenn Sie Ihre ID nicht eingeben möchten, funktioniert die Videoberichte weiterhin. Es kann jedoch dazu führen, dass die Daten nicht korrekt mit anderen Daten für diesen Client von außerhalb von Adobe Dynamic Media Classic integriert werden.
 
@@ -77,7 +77,7 @@ Integrieren Sie zunächst Dynamic Media Classic mit Adobe Analytics OAuth. Die A
 
 1. Navigieren Sie oben rechts im Adobe Dynamic Media Classic-Desktop-Programm zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]**.
 1. Wählen Sie im linken Bedienfeld unter **[!UICONTROL Anwendungseinstellungen]** die Option **[!UICONTROL Adobe Analytics]**.
-1. Wählen Sie auf der Seite **[!UICONTROL Adobe Analytics]** Konfiguration&rbrace; **[!UICONTROL Adobe Analytics-Anmeldung]** aus.
+1. Wählen Sie auf der Seite **[!UICONTROL Adobe Analytics]** Konfiguration} **[!UICONTROL Adobe Analytics-Anmeldung]** aus.
 1. Fügen Sie im Dialogfeld **[!UICONTROL Adobe Analytics]** im Feld **[!UICONTROL CLIENT-ID]** und im Feld **[!UICONTROL CLIENT-GEHEIMNIS]** die entsprechenden Werte ein, die Sie zuvor kopiert haben.
 1. Wählen Sie unten rechts im Dialogfeld die Option **[!UICONTROL Anmelden]** aus und melden Sie sich bei Adobe IMS (Identity Management Services) an.
 

@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichungseinstellungen
-description: Mit den Publish-Setup-Einstellungen können Sie festlegen, wie Assets standardmäßig von Adobe Dynamic Media Classic-Servern an Websites oder Programme bereitgestellt werden.
+description: Mit den Veröffentlichungseinstellungen können Sie festlegen, wie Assets standardmäßig von Adobe Dynamic Media Classic-Servern an Websites oder Programme bereitgestellt werden.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,15 +18,15 @@ ht-degree: 30%
 
 # Veröffentlichungseinstellungen {#publish-setup}
 
-Die Einstellungen der Publish-Setup-Seite bestimmen, wie Assets standardmäßig von Adobe Dynamic Media Classic-Servern an Websites oder Programme bereitgestellt werden. Wenn keine Einstellung festgelegt ist, stellt der Adobe Dynamic Media Classic-Server ein Asset gemäß einer Standardeinstellung auf der Publish-Setup-Seite bereit. Beispielsweise liefert eine Anforderung zum Bereitstellen eines Bildes, das kein Auflösungsattribut enthält, ein Bild mit der Einstellung „Standardobjektauflösung“ auf der Seite „Bild-Server“.
+Die Einstellungen der Seite „Veröffentlichungseinstellungen“ bestimmen, wie Assets standardmäßig von Adobe Dynamic Media Classic-Servern an Websites oder Programme bereitgestellt werden. Wenn keine Einstellung festgelegt ist, stellt der Adobe Dynamic Media Classic-Server ein Asset gemäß einer Standardeinstellung auf der Seite „Veröffentlichungseinstellungen“ bereit. Beispielsweise liefert eine Anforderung zum Bereitstellen eines Bildes, das kein Auflösungsattribut enthält, ein Bild mit der Einstellung „Standardobjektauflösung“ auf der Seite „Bild-Server“.
 
 Admins können die Standardeinstellungen auf den Seiten „Image-Server“, „Image-Renderer“ und „Vignette“ ändern, um Standardeinstellungen für die Bereitstellung von Assets von Servern festzulegen.
 
-Zum Öffnen der Seiten von Publish Setup navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Publish Setup]**.
+Um die Seiten der Veröffentlichungseinstellungen zu öffnen, gehen Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]**.
 
 >[!NOTE]
 >
->Die Publish-Setup-Seiten sind für erfahrene Website-Entwickler und -Programmierer vorgesehen. Adobe Dynamic Media Classic geht davon aus, dass Benutzende, die Einstellungen auf diesen Seiten ändern, mit Adobe Dynamic Media Classic, HTTP-Protokollstandards und -Konventionen und grundlegender Bildverarbeitungstechnologie vertraut sind.
+>Die Veröffentlichungseinstellungen sind für erfahrene Website-Entwickler und -Programmierer vorgesehen. Adobe Dynamic Media Classic geht davon aus, dass Benutzende, die Einstellungen auf diesen Seiten ändern, mit Adobe Dynamic Media Classic, HTTP-Protokollstandards und -Konventionen und grundlegender Bildverarbeitungstechnologie vertraut sind.
 
 ## Image-Server {#image-server}
 
@@ -34,7 +34,7 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
 
 Ändern Sie diese Einstellungen nur mithilfe eines Adobe Dynamic Media Classic-Support-Mitarbeiters.
 
-* **[!UICONTROL Katalogverwaltung]**: Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und der Katalog interagieren. Im Gegensatz zu den meisten Webservern werden Dynamic Media-Bildserver-URL-Aufrufe an eine Manifest- oder Katalogdatei und nicht an eine eigentliche Bilddatei gesendet. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste aller auf dem Bildserver veröffentlichten Inhalte. Sie enthält auch den Pfad zu den einzelnen Bildern. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
+* **[!UICONTROL Katalogverwaltung]**: Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und der Katalog interagieren. Im Gegensatz zu den meisten Webservern werden URL-Aufrufe des Dynamic Media-Bildservers an eine Manifest- oder Katalogdatei und nicht an eine eigentliche Bilddatei gesendet. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste aller auf dem Bildserver veröffentlichten Inhalte. Sie enthält auch den Pfad zu den einzelnen Bildern. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
 
 * **[!UICONTROL Anfrage-Attribute]**: Mit diesen Einstellungen werden Einschränkungen für die Bilder festgelegt, die über den Server bereitgestellt werden können. Die maximale Größe *max* für **[!UICONTROL Antwortbild]** beträgt beispielsweise **[!UICONTROL Breite]** 5000 und **[!UICONTROL Höhe]** 5000.
 
@@ -53,7 +53,7 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
   Wenn Sie beispielsweise eine multinationale Marke sind mit Vertrieb in verschiedenen Ländern, können Sie sicherstellen, dass jedes Land seinen eigenen Gebietsschema-spezifischen Viewer hat. Für diese Funktion geben Sie eine Zeichenfolge für Gebietsschemakarten an. Anschließend bearbeiten Sie den QuickInfo-Text in der Viewer-Vorgabe. Fügen Sie einfach die übersetzten Textzeichenfolgen für die gewünschte Sprache hinzu.
 
   >[!NOTE]
-  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console , um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
+  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
 
   Weitere Informationen zum Einrichten von **[!UICONTROL Lokalisierungsunterstützung]** finden Sie unter [Betrachtungen beim Planen der Asset-Lokalisierung](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +61,7 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
 
 >[!NOTE]
 >
->Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [ Sie mithilfe der -Admin Console einen Support-Fall erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
+>Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
 
 Eine gängige Methode zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise bestehen die Unterschiede bei einigen Teilen des gesamten Mediums. Solche Unterschiede zu beheben, indem alle Vermögenswerte für jedes der Länder kopiert und nur die Unterschiede überschrieben werden, ist eine enorme Anstrengung und widerspricht der einzigen Metapher der primären Vermögenswerte. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Adobe Dynamic Media Classic verwendet einen einfachen Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
 
@@ -109,7 +109,7 @@ Bei der Lokalisierung fügt eine Bild-Server-URL den `locale=`-Parameter zum Pfa
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Nach Erhalt des HTTP-Aufrufs durch den Bild-Server wird der `locale=` durch das `localeMap` geparst, das in der Gruppe **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Publish-Setup]** > **[!UICONTROL Bild-Server]** > **[!UICONTROL Lokalisierungsunterstützung]** ist.
+Nach Erhalt des HTTP-Aufrufs durch den Bild-Server wird der `locale=`-Parameter durch das `localeMap`-Feld geparst, das sich in **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinrichtung]** > **[!UICONTROL Veröffentlichungseinrichtung]** > **[!UICONTROL Bild-Server]** > **[!UICONTROL Lokalisierungsunterstützung]** befindet.
 
 Das Feld „Gebietsschemakarte“ enthält eine Liste mit Einträgen, die durch einen senkrechten Strich (|) getrennt sind.
 

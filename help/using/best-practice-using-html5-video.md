@@ -1,6 +1,6 @@
 ---
-title: Best Practice für die Verwendung des HTML5-Video-Viewers
-description: Erfahren Sie mehr über Best Practices für die Verwendung des HTML5-Video-Viewers.
+title: Best Practices für die Verwendung des HTML5-Video-Viewers
+description: Erfahren Sie mehr über die Best Practices für die Verwendung des HTML5-Video-Viewers.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,11 +17,11 @@ ht-degree: 9%
 
 ---
 
-# Best Practices für den HTML5-Video-Viewer{#best-practice-using-the-html-video-viewer}
+# Best Practices für die Verwendung des HTML5 Video Viewers{#best-practice-using-the-html-video-viewer}
 
 Die Adobe Dynamic Media Classic HTML5-Video-Viewer-Vorgaben sind robuste Video-Player. Beim Design des Players können Sie alle Funktionen des Video-Players mit standardmäßigen Web-Entwicklungs-Tools erstellen. Sie können beispielsweise die Schaltflächen, die Steuerelemente und den benutzerdefinierten Standbildhintergrund mithilfe von HTML5 und CSS gestalten, um Ihren Kunden ein benutzerdefiniertes Erscheinungsbild zu bieten.
 
-Auf der Wiedergabeseite des Viewers wird die Videofähigkeit des Browsers automatisch erkannt. Anschließend werden die Videos mit HLS (HTTP Live Streaming), auch als adaptives Video-Streaming bezeichnet, bereitgestellt. Oder, wenn diese Bereitstellungsmethode nicht vorhanden ist, wird stattdessen HTML5 Progressive verwendet.
+Auf der Wiedergabeseite des Viewers wird die Videofähigkeit des Browsers automatisch erkannt. Anschließend werden die Videos mit HLS (HTTP Live Streaming), auch als adaptives Video-Streaming bezeichnet, bereitgestellt. Wenn diese Bereitstellungsmethode nicht vorhanden ist, wird stattdessen HTML5 Progressive verwendet.
 
 Durch die Kombination der folgenden Fähigkeiten zu einem einzelnen Player:
 
@@ -31,9 +31,9 @@ Durch die Kombination der folgenden Fähigkeiten zu einem einzelnen Player:
 
 Sie erweitern die Reichweite Ihrer Rich-Media-Inhalte auf Desktop- und Mobile-Benutzer. Außerdem sorgen Sie für ein optimiertes Videoerlebnis.
 
-Siehe auch [Über HTML5-Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe-Viewer-Referenzhandbuch.
+Siehe auch [Über HTML5-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe Viewers-Referenzhandbuch.
 
-Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) Schulungsvideo.
 
 ## Wiedergabe von Videos auf Desktop-Computern und Mobilgeräten mit dem Adobe Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 

@@ -29,7 +29,7 @@ Neben der Verknüpfung von Viewer-Ereignissen mit Variablen bietet der Adobe Ana
 
 Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Siehe [Publish-Konfigurationsinformationen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Siehe [Konfigurationsinformationen veröffentlichen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 ## Zuweisen von Adobe Analytics-Variablen zu Adobe Dynamic Media Classic-Viewer-Ereignissen und -Variablen {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
@@ -53,7 +53,7 @@ Verwenden Sie den Adobe Analytics-Konfigurationsbildschirm, um Viewer-Ereignisse
    Nachdem Sie **[!UICONTROL Speichern]** ausgewählt haben, werden das Viewer-Ereignis, die zugehörige Adobe Analytics-Variable und die zugehörige Adobe Dynamic Media Classic-Variable im Adobe Analytics-Konfigurationsbildschirm aufgeführt.
 
 1. Klicken Sie in der rechten unteren Ecke auf **[!UICONTROL Schließen]**.
-1. Wechseln Sie zu **[!UICONTROL Publish]** > **[!UICONTROL Publish übermitteln]**, um eine Image-Serving-Veröffentlichung auszuführen.
+1. Gehen Sie zu **[!UICONTROL Veröffentlichen]** > **[!UICONTROL Veröffentlichen senden]**, um eine Image-Serving-Veröffentlichung auszuführen.
 
    Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf Adobe Dynamic Media Classic-Servern verfügbar sind.
 

@@ -217,7 +217,7 @@ Weitere Informationen finden Sie in der Hilfe zu Adobe InDesign oder in der Hilf
 1. Wiederholen Sie Schritt 2 bis 6 für alle Imagemaps, die Sie erstellen möchten.
 1. Exportieren Sie die Datei als PDF.
 1. Laden Sie die PDF in Adobe Dynamic Media Classic hoch.
-1. Wählen Sie unter **[!UICONTROL PDF]** Optionen die Option **[!UICONTROL Links extrahieren]** aus.
+1. Wählen Sie in **[!UICONTROL PDF]** Optionen die Option **[!UICONTROL Links extrahieren]** aus.
 
 ### So erstellen Sie Imagemaps in Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 

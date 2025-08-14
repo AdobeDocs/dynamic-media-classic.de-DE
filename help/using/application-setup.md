@@ -12,7 +12,7 @@ topic: Administration
 level: Intermediate
 source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '10945'
+source-wordcount: '10899'
 ht-degree: 29%
 
 ---
@@ -83,7 +83,7 @@ Siehe auch [Testen des Secure Testing-](testing-assets-making-them-public.md#tes
 
 * **[!UICONTROL E-Video-Beispielinhalt anzeigen]**: Aktivieren oder Deaktivieren der Anzeige von E-Video-Beispielinhalten.
 
-* **[!UICONTROL Erzeugten Inhalt anzeigen]**: In Ordnern werden aus einem Asset generierte Inhalte angezeigt. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Adobe Dynamic Media Classic für jede Seite der Original-PDF ein Bild. Wenn Generierter Inhalt anzeigen ausgewählt ist, wird jedes beim Hochladen der Original-PDF generierte Bild angezeigt. Sie wird zusammen mit der PDF in dem Ordner angezeigt, in den die PDF hochgeladen wurde.
+* **[!UICONTROL Erzeugten Inhalt anzeigen]**: In Ordnern werden aus einem Asset generierte Inhalte angezeigt. Wenn beispielsweise eine PDF-Datei beim Hochladen gerastert wird, erstellt Adobe Dynamic Media Classic für jede Seite im Original-PDF ein Bild. Wenn Generierte Inhalte anzeigen ausgewählt ist, wird jedes beim Hochladen des Original-PDF generierte Bild angezeigt. Sie wird zusammen mit der PDF in dem Ordner angezeigt, in den die PDF hochgeladen wurde.
 
 * **[!UICONTROL Kodierte Videos anzeigen]**: Standardmäßig deaktiviert.
 
@@ -113,7 +113,7 @@ Siehe auch [Testen des Secure Testing-](testing-assets-making-them-public.md#tes
 
 ### Zur Anwendung hochladen
 
-Siehe auch [Optionen für Upload-Aufträge](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) Schulungsvideo.
+Siehe auch [Optionen für Upload-Aufträge](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) Schulungsvideo.
 
 * **[!UICONTROL Bilder überschreiben]**: Adobe Dynamic Media Classic lässt zwei Dateien mit denselben Namen nicht zu. Die Adobe Dynamic Media Classic-ID jedes Elements (der Bildname abzüglich der Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Doppelte Bilder werden mit &quot;-1“ umbenannt (beispielsweise wird chair.tif in chair-1.tif umbenannt). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). Siehe [Verwenden der Option „Bilder überschreiben](#using-the-overwrite-images-option).
 
@@ -125,7 +125,7 @@ Siehe auch [Optionen für Upload-Aufträge](https://s7d5.scene7.com/s7viewers/ht
 
    * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]**: Diese Option stellt die am wenigsten einschränkende Ersetzungsregel dar. Sie können ein Ersatzbild in einen anderen Ordner hochladen als den, in dem sich das Originalbild befindet, und eine Datei mit einer anderen Dateierweiterung verwenden, um die Originaldatei zu ersetzen. Wenn sich die Originaldatei in einem anderen Ordner befindet, bleibt das Ersatzbild in dem neuen Ordner, in den es hochgeladen wurde.
 
-* **[!UICONTROL Publish beibehalten]**: Gibt an, ob ein in Adobe Dynamic Media Classic hochgeladenes Ersatzbild die Einstellung „Bereit für Publish&quot; des Bildes beibehalten soll, das es ersetzt. Oder die Einstellung wird beim Hochladen angegeben.
+* **[!UICONTROL Veröffentlichung beibehalten]**: Gibt an, ob ein in Adobe Dynamic Media Classic hochgeladenes Ersatzbild die Einstellung „Veröffentlichungsbereit“ des Bildes beibehalten soll, das ersetzt wird. Oder die Einstellung wird beim Hochladen angegeben.
 
 * **[!UICONTROL Standardfarbprofile]**: Gibt die Farbprofile an, die als Teil der Standardfarbprofiloptionen beim Hinzufügen von CMYK-Bildern angewendet werden.
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic lässt zwei Dateien mit denselben Namen nicht zu. Di
 
 Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (oder ersetzt) haben, gibt die ausgewählte Option Überschreiben an, wie Adobe Dynamic Media Classic die Bilder ersetzt. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Adobe Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
 
-Verwenden Sie diese Option, wenn die hochgeladenen Bilder in irgendeiner Weise geändert wurden (das Bild wurde geändert), der Verweis auf das Bild jedoch gleich bleibt. Überschreiben ist auch beim Hochladen und Rippen von Adobe®-PDF hilfreich. Sie können anpassen, wie Adobe Dynamic Media Classic *Bild*. Sie können auch die ICC-Farbprofiloptionen im Dialogfeld Hochladen anpassen und mit der Überschreibungsfunktion erneut hochladen.
+Verwenden Sie diese Option, wenn die hochgeladenen Bilder in irgendeiner Weise geändert wurden (das Bild wurde geändert), der Verweis auf das Bild jedoch gleich bleibt. Überschreiben ist auch beim Hochladen und Rippen von Adobe®-PDFs hilfreich. Sie können anpassen, wie Adobe Dynamic Media Classic *Bild*. Sie können auch die ICC-Farbprofiloptionen im Dialogfeld Hochladen anpassen und mit der Überschreibungsfunktion erneut hochladen.
 
 Die Adobe Dynamic Media Classic-IDs, die für den Zugriff auf Bilder von den Produktions-Servern verwendet werden, werden von den Bilddateinamen abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl für die Ersetzung vorhandener Dateien als auch für die Adobe Dynamic Media Classic-IDs, die für den Zugriff auf das Bild verwendet werden. Die Verwendung von Dateinamen mit Groß- und Kleinbuchstaben ist vor dem Hochladen in Adobe Dynamic Media Classic korrekt, um zu vermeiden, dass Adobe Dynamic Media Classic-IDs nur für dasselbe Bild in unterschiedlicher Groß-/Kleinschreibung verwendet werden.
 
@@ -161,7 +161,7 @@ Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benu
 
 Wechseln Sie zum Öffnen des Bildschirms Bildvorgabe in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Bildvorgaben]**.
 
-Siehe [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Siehe [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Erstellen und Bearbeiten von Bildvorgaben {#creating-and-editing-image-presets}
 
@@ -189,11 +189,11 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Breite und Höhe]**: Geben Sie die Größe, mit der das Bild bereitgestellt wird, in Pixeln an.
 
-* **[!UICONTROL Format]**: Wählen Sie im Menü ein Format aus. Wenn Sie das GIF-, JPEG-, PDF- oder TIFF-Format auswählen, erhalten Sie weitere Optionen:
+* **[!UICONTROL Format]**: Wählen Sie im Menü ein Format aus. Wenn Sie das GIF-, JPEG-, PDF- oder TIFF-Format auswählen, werden weitere Optionen angezeigt:
 
    * GIF-Farbquantisierungsoptionen
 
-      * **[!UICONTROL Typ]**: Wählen Sie „Adaptiv“ (Standard), „Web“ oder &quot;Mac&quot;. Wenn Sie **[!UICONTROL GIF mit Alpha]** auswählen, ist die Mac-Option nicht verfügbar.
+      * **[!UICONTROL Typ]**: Wählen Sie „Adaptiv“ (Standard), „Web“ oder &quot;Mac&quot;. Wenn Sie **[!UICONTROL GIF mit Alpha]** auswählen, ist die Option &quot;Mac&quot; nicht verfügbar.
 
       * **[!UICONTROL Dithering]**: Wählen Sie Diffus oder Aus.
 
@@ -205,7 +205,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
       * **[!UICONTROL Qualität]**: Steuert den JPEG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala reicht von 1 bis 100.
 
-      * **[!UICONTROL JPG-Chrominanz-Neuberechnung aktivieren]**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
+      * **[!UICONTROL JPG-Neuberechnung der Chrominanz aktivieren]**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
    * PDF- und TIFF-Optionen
 
@@ -215,7 +215,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Scharfzeichnen]**: Wählen Sie die Option Einfaches Scharfzeichnen aktivieren aus, um einen einfachen Scharfzeichnungsfilter auf das Bild anzuwenden, nachdem die Skalierung abgeschlossen wurde. Wenn ein Bild in einer anderen Größe verschwommen angezeigt wird, kann dieser Effekt durch Scharfzeichnen kompensiert werden.
 
-  Weitere Informationen zum Scharfzeichnen, zum Resample-Modus und zur Unschärfemaske finden Sie unter [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image). Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
+  Weitere Informationen zum Scharfzeichnen, zum Resample-Modus und zur Unschärfemaske finden Sie unter [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image). Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
 
 * **[!UICONTROL Resampling-Modus]**: Wählen Sie eine Option für den Resampling-Modus aus. Mit diesen Optionen wird ein Bild beim Downsampling scharfgezeichnet:
 
@@ -245,7 +245,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Rendering Intent]**: Wählen Sie eine Option aus, wenn Sie den standardmäßigen Rendering-Intent des Farbprofils überschreiben möchten. Verwenden Sie diese Option, wenn eines der standardmäßigen ICC-Profile der Zielfarbraum einer Farbkonvertierung ist. Oder dieses Profil charakterisiert das Ausgabegerät (Drucker oder Monitor), und der angegebene Rendering-Intent ist für dieses Profil gültig.
 
-* **[!UICONTROL Einbettungsprofil]**: Wählen Sie diese Option aus, damit beim Öffnen dieses Bildes auf Adobe® Photoshop® dieses Profil verwendet wird.
+* **[!UICONTROL Einbettungsprofil]**: Wählen Sie diese Option aus, damit dieses Profil verwendet wird, wenn Sie dieses Bild in Adobe® Photoshop® öffnen.
 
 * **[!UICONTROL Druckauflösung]**: Wählen Sie eine Auflösung für das Drucken dieses Bildes aus. Der Standardwert lautet 72 Pixel.
 
@@ -264,13 +264,13 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 ## Aktivieren oder Deaktivieren von adaptiven Videovorgaben {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic bietet Vorgaben für adaptive Videokodierung. Hierbei handelt es sich um eine primäre Liste von Vorgaben, die sowohl 16:9-Adaptive Videovorgaben als auch 4:3-Adaptive Videovorgaben in einer Gruppe kombiniert. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert. 
+Adobe Dynamic Media Classic bietet Vorgaben für adaptive Videokodierung. Hierbei handelt es sich um eine primäre Liste von Vorgaben, die 16:9 adaptive Videovorgaben und 4:3 adaptive Videovorgaben in einer Gruppe kombiniert. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert. 
 
 Standardmäßig sind nur „adaptive Video“-Kodierungsvorgaben aktiviert (aktiviert oder aktiviert). Sie können sie bei Bedarf deaktivieren. Deaktivierte adaptive Video-Vorgaben stehen im eVideo-Abschnitt des Dialogfelds „Upload-Auftragsoptionen“ nicht zur Auswahl. 
 
 Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
 
 **So aktivieren oder deaktivieren Sie adaptive Videovorgaben:**
 
@@ -288,9 +288,9 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie in der rechten unteren Ecke 
 
 * Wählen Sie aus den folgenden Vorgaben für adaptive Videokodierung oder Einzelkodierung aus:
 
-   * **[!UICONTROL 16:9 Adaptives Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 16:9 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
+   * **[!UICONTROL 16:9 Adaptive Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 16 :9 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-   * **[!UICONTROL 4:3 Adaptives Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 4:3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
+   * **[!UICONTROL 4:3 Adaptives Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 4 :3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
    * **[!UICONTROL Adaptives Video]**: Eine Vorgabe für die einzelne Kodierung, die mit jedem Seitenverhältnis verwendet werden kann, um Videos für die Bereitstellung auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten.
 
@@ -298,9 +298,9 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie in der rechten unteren Ecke 
 
      Siehe [Hinzufügen oder Bearbeiten einer Videocodierungsvorgabe](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl Videos mit einem Seitenverhältnis von 16:9 als auch von 4:3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
+   * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl :9- als auch :3-Videos für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-     Siehe [Vorgaben für die Videokodierung (16:9 oder 16:9: 3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Siehe [Adaptive Videokodierung (16:9 oder 4:3) ](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Einzelne Kodierungsvorgaben]**
 
@@ -344,13 +344,13 @@ Eine Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, u
 | 2 | Auto × 480, 1400 kBit/s | _tablet_auto×480p_1400K | 1400 | Auto×480 | Gleich Quelle | 96 | Für Tablets (iPad, Android™) |
 | 3 | Automatische × 720, 2600 kBit/s | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Gleich Quelle | 128 | Für Desktop |
 
-### Adaptive Videokodierungsvorgaben (16:9 oder 4:3) {#adaptive-video-encoding-or-video-presets}
+### Adaptive Videokodierungs-(16:9 oder 4:3)-Vorgaben {#adaptive-video-encoding-or-video-presets}
 
-Diese Vorgaben für adaptive Videokodierung kombinieren eine Reihe individueller Kodierungsvorgaben, die automatisch auf Grundlage des Seitenverhältnisses des hochgeladenen Videos ausgewählt werden. Wenn Sie beispielsweise ein 4:3-Video hochladen, wird es automatisch mit allen fünf 4:3-Vorgaben kodiert, die sich in der Liste der primären Vorgaben in der Option **Adaptive Videokodierung (16:9 oder 4:3)**.
+Diese Vorgaben für adaptive Videokodierung kombinieren eine Reihe individueller Kodierungsvorgaben, die automatisch auf Grundlage des Seitenverhältnisses des hochgeladenen Videos ausgewählt werden. Wenn Sie beispielsweise ein 4:3-Video hochladen, wird es automatisch mit allen fünf 4:3-Vorgaben kodiert, die in der Liste der primären Vorgaben in der Option **Adaptive Videokodierung (16:9 oder 4:3)**.
 
 Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodierungsvorgabeoptionen](application-setup.md#about_encoding_preset_options).
 
-**Vorgaben für adaptive Videokodierung (16:9 oder 4:3)**
+**Vorgaben für adaptive Videokodierung (16:9 oder 4 :3)**
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | fps | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -375,13 +375,13 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | fps | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480 x 270 (400 Kbit/s) | 500 | _480x270_400K | 400 | 480 x 270 | Gleich Quelle | 64 | Niedrige Auflösung, Widescreen |
-| 2 | 16:9, 640 x 360 (800 Kbit/s) | 900 | _640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
-| 3 | 16:9, 800 x 450 (1200 Kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
-| 4 | 16:9, 1280 x 720 (2000 Kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
+| 1 | 16:9 480 x 270 (400 Kbit/s) | 500 | _480x270_400K | 400 | 480 x 270 | Gleich Quelle | 64 | Niedrige Auflösung, Widescreen |
+| 2 | 16:9 640 x 360 (800 kBit/s) | 900 | _640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
+| 3 | 16:9 800 x 450 (1200 Kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
+| 4 | 16:9 1280 x 720 (2000 Kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
 | 5 | 4:3, 320 x 240 (400 Kbit/s) | 500 | _320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
-| 6 | 4:3, 480 x 360 (800 Kbit/s) | 900 | _480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
-| 7 | 4:3, 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
+| 6 | 4:3, 480 x 360 (800 kBit/s) | 900 | _480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
+| 7 | 4 :3 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
 | 8 | 4:3, 1280 x 960 (2000 Kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
 **OGG Theora Vorbis: Dateiendung OGV**
@@ -407,22 +407,22 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videobitrate (Kbit/s) | Pixel Breite/Höhe | fps | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512 x 288, Mobil (400 Kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
-| 2 | 16:9, 512 x 288, Mobil (600 Kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
-| 3 | 16:9, 512 x 288, Mobil (800 Kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
+| 1 | 16:9, 512 x 288, Mobil (400 kBit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
+| 2 | 16:9, 512 x 288, Mobil (600 kBit/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
+| 3 | 16:9, 512 x 288, Mobil (800 kBit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
 | 4 | 16:9, 512 x 288, Mobil (1000 Kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1000 | 512 x 288 | Gleich Quelle | 80 | Hohe Auflösung, Wi-Fi |
 | 5 | 16:9, 512 x 288, Mobil (1200 Kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1200 | 512 x 288 | Gleich Quelle | 96 | Hohe Auflösung, Wi-Fi |
-| 6 | 4:3, 384 x 288, Mobil (400 Kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
-| 7 | 4:3, 384 x 288, Mobil (600 Kbit/s) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
-| 8 | 4:3, 448 x 336, Mobil (800 Kbit/s) | 900 | _Mobile_448x336_800K | 800 | 448 x 336 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
-| 9 | 4:3, 448 x 336, Mobil (1000 Kbit/s) | 1,2 Mbit/s | _Mobile_448x336_1000K | 1000 | 448 x 336 | Gleich Quelle | 80 | Hohe Auflösung, Wi-Fi |
-| 10 | 4:3, 448 x 336, Mobil (1200 Kbit/s) | 1,5 Mbit/s | _Mobile_448x336_1200K | 1200 | 448 x 336 | Gleich Quelle | 96 | Hohe Auflösung, Wi-Fi |
+| 6 | 4:3, 384 x 288, Mobil (400 kBit/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
+| 7 | 4:3, 384 x 288, Mobil (600 kBit/s) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
+| 8 | 4:3, 448 x 336, Mobil (800 kBit/s) | 900 | _Mobile_448x336_800K | 800 | 448 x 336 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
+| 9 | 4:3, 448 x 336, mobil (1000 Kbit/s) | 1,2 Mbit/s | _Mobile_448x336_1000K | 1000 | 448 x 336 | Gleich Quelle | 80 | Hohe Auflösung, Wi-Fi |
+| 10 | 4:3, 448 x 336, mobil (1200 Kbit/s) | 1,5 Mbit/s | _Mobile_448x336_1200K | 1200 | 448 x 336 | Gleich Quelle | 96 | Hohe Auflösung, Wi-Fi |
 
 ## Viewer-Vorgaben {#viewer-presets}
 
 >[!NOTE]
 >
->**Hinweis zum Ende der Nutzungsdauer von Flash Viewers**: Zum 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell den Support für die Flash-Viewer-Plattform beendet.
+>**Hinweis zum Ende der Nutzungsdauer von Flash-Viewern**: Am 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform beendet.
 
 Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoomverhalten, die Farbschemata, Ränder und Schriftarten ändern.
 
@@ -436,21 +436,21 @@ Durch die Kombination von Folgendem in einen einzelnen Player:
 
 Sie erweitern die Reichweite Ihrer Rich-Media-Inhalte auf Desktop-, Tablet- und mobile Benutzer und stellen ein optimiertes Videoerlebnis sicher.
 
-Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe-Viewer-Referenzhandbuch.
+Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe Viewers-Referenzhandbuch.
 
-Siehe Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben[&#128279;](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Siehe Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben[.](application-setup.md#scene7_viewer_preset_compatibility_matrix)
 
 Siehe [Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
 Abhängig vom Viewer können Sie Community-Funktionen hinzufügen. Zu den Community-Funktionen zählen die Schaltflächen „Einbetten“, „E-Mail an Freunde senden“, „Verknüpfen“ und „Zur Website“. Mit diesen Schaltflächen können Benutzer, die die Viewer verwenden, den Viewer für andere freigeben oder die Adobe Dynamic Media Classic-Website öffnen.
 
-Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Viewer-Unterstützung für Web-Seiten mit responsivem Design {#viewer-support-for-responsive-designed-web-pages}
 
-Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite, die einen Link bereitstellt, der den HTML5-Viewer in einem separaten Browserfenster öffnet. In anderen Fällen ist es notwendig, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall weist die Web-Seite wahrscheinlich ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die in Adobe Dynamic Media Classic enthaltenen HTML5-Viewer sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
+Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite mit einem Link, über den der HTML5-Viewer in einem separaten Browserfenster geöffnet wird. In anderen Fällen ist es erforderlich, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall weist die Web-Seite wahrscheinlich ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die HTML5-Viewer, die mit Adobe Dynamic Media Classic geliefert werden, sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
 
-Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver ](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Viewer-Vorgabentypen {#viewer-preset-types}
 
@@ -486,15 +486,15 @@ Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoom
 
 ### Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben {#scene-viewer-preset-compatibility-matrix}
 
-**Hinweis zum Ende der Nutzungsdauer von Flash Viewers**: Zum 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell den Support für die Flash-Viewer-Plattform beendet.
+**Hinweis zum Ende der Nutzungsdauer von Flash-Viewern**: Am 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform beendet.
 
 In der folgenden Tabelle sind die derzeit verfügbaren Adobe Dynamic Media Classic-Viewer-Vorgaben aufgeführt. Die Tabelle gibt auch die Kompatibilität des Viewers mit Desktop- und Mobilgeräten sowie die für jeden Viewer verwendete Technologie an.
 
-Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Versionshinweisen zu Viewern .
 
-Siehe [Adobe Viewer-Referenz - Versionshinweise](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
+Siehe [Adobe Viewers-Referenz - Versionshinweise](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -523,7 +523,7 @@ Siehe [Adobe Viewer-Referenz - Versionshinweise](https://experienceleague.adobe.
 |--- |--- |--- |--- |--- |--- |--- |
 | E-Katalog-Viewer |  |  |  |  |  |  |
 | Universal_HTML5_eCatalog_Adv(Unterstützt Social Media und die Katalogsuche.) | HTML5 | X | X | X | X | X |
-| Universal_HTML5_eCatalog(Enthält Unterstützung für Social Media und Katalogsuche.) | HTML5 | X | X | X | X | X |
+| Universal_HTML5_eCatalog(Unterstützt Social Media und die Katalogsuche.) | HTML5 | X | X | X | X | X |
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -576,13 +576,13 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
   
 * **Vorgabe löschen**: Wählen Sie eine Vorgabe aus und klicken Sie dann auf **[!UICONTROL Löschen]**.
 
-* **Export a preset**: Wählen Sie eine HTML5-Viewer-Vorgabe aus. Klicken Sie anschließend auf **[!UICONTROL Exportieren]**, um das Viewer-Design herunterzuladen und als Grundlage zum Erstellen und Hinzufügen einer weiteren Viewer-Vorgabe zu verwenden.
+* **Eine Vorgabe exportieren**: Wählen Sie eine HTML5-Viewer-Vorgabe aus. Klicken Sie anschließend auf **[!UICONTROL Exportieren]**, um das Viewer-Design herunterzuladen und als Grundlage zum Erstellen und Hinzufügen einer weiteren Viewer-Vorgabe zu verwenden.
 
       Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#export_an_html5_viewer_preset).
   
 * **Viewer-Vorgabeliste filtern**: Verwenden Sie diese Tools, um die Liste zu filtern:
 
-      * Öffnen Sie die Dropdown&#x200B;**Liste „Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
+      * Öffnen Sie die Dropdown**Liste „Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
      * Öffnen Sie die **Viewer**-Dropdown-Liste und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]** aus, um alle Viewer anzuzeigen.
   
 * **Sortiervorgaben**: Wählen Sie eine Spaltenüberschrift aus (**[!UICONTROL Aktiv]**, **[!UICONTROL Typ]**, **[!UICONTROL Vorgabe]** oder **[!UICONTROL Plattform]**), um die Liste in einer Spalte zu sortieren. Wählen Sie ein zweites Mal eine Spaltenüberschrift aus, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren.
@@ -599,9 +599,9 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
 
 Neben dem Hinzufügen von Viewer-Vorgaben mit **[!UICONTROL Hinzufügen]** in der Benutzeroberfläche können Sie auch **[!UICONTROL Exportieren]** zum Hinzufügen einer Viewer-Vorgabe verwenden. Sie exportieren einfach eine vorhandene HTML5-Viewer-Vorgabe und verwenden diese dann als Grundlage für die neue Vorgabe.
 
-Siehe [HTML5-Viewer-Vorgabe exportieren](application-setup.md#exporting_an_html5_viewer_preset).
+Siehe [Export von HTML5-Viewer-](application-setup.md#exporting_an_html5_viewer_preset).
 
-Siehe auch [Video ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
+Siehe auch [Video ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
 
 **So fügen Sie Viewer-Vorgaben hinzu und bearbeiten sie:**
 
@@ -637,7 +637,7 @@ Siehe auch [Video ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?vid
 
 ### Exportieren einer HTML5-Viewer-Vorgabe {#exporting-an-html-viewer-preset}
 
-Sie können eine vorhandene HTML5-Viewer-Vorgabe exportieren, um sie als Grundlage für die Erstellung einer HTML5-Viewer-Vorgabe zu verwenden. Diese Exportoption ist nützlich, da Sie den Viewer auf diese Weise nicht komplett neu erstellen müssen. Stattdessen exportieren Sie eine Vorgabe mit Einstellungen, die Ihren Anforderungen in etwa entsprechen, und verwenden diese dann als Ausgangspunkt für Ihre Design-Anpassungen.
+Sie können eine vorhandene HTML5-Viewer-Vorgabe exportieren und als Grundlage für die Erstellung einer HTML5-Viewer-Vorgabe verwenden. Diese Exportoption ist nützlich, da Sie den Viewer auf diese Weise nicht komplett neu erstellen müssen. Stattdessen exportieren Sie eine Vorgabe mit Einstellungen, die Ihren Anforderungen in etwa entsprechen, und verwenden diese dann als Ausgangspunkt für Ihre Design-Anpassungen.
 
 Alle standardmäßigen vorkonfigurierten CSS-Viewer-Vorgabedateien in Adobe Dynamic Media Classic verwenden relative Bildbereitstellungspfade, die auf Assets in `Scene7SharedAssets` verweisen. Im Folgenden finden Sie beispielsweise einen relativen Pfad zu einem Bild-Asset in einer CSS-Datei mit Viewer-Vorgabe für .
 
@@ -670,9 +670,9 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Siehe [Dateien hochladen](uploading-files.md#uploading_files).
 
-1. Publish übermittelt die CSS-Datei an den Dynamic Media-Bildserver.
+1. Veröffentlichen Sie die CSS-Datei auf dem Dynamic Media-Bildserver.
 
-   Siehe [Publish-](publishing-files.md#publishing_files).
+   Siehe [Dateien veröffentlichen](publishing-files.md#publishing_files).
 
 1. Fügen Sie die neue Viewer-Vorgabe wie gewohnt hinzu. Wählen Sie die hochgeladene CSS-Datei des Viewers aus.
 
@@ -905,7 +905,7 @@ Alle aktiven Stapelsatzvorgaben für ein Unternehmen werden im Dialogfeld Upload
 
 Der Unternehmensadministrator erstellt eine Standardnamenskonvention, die in jedem Rezept für Stapelsatzvorgaben verwendet wird. Die in der Definition der Stapelsatzvorgabe ausgewählte Standardnamenskonvention kann alles sein, was Ihr Unternehmen für die Batch-Generierung von Sätzen für alle Websites benötigt. Eine Stapelsatzvorgabe wird erstellt, um die von Ihnen definierte Standardnamenskonvention zu verwenden. Sie können beliebig viele Stapelsatzvorgaben mit alternativen, benutzerdefinierten Benennungskonventionen erstellen, die für einen bestimmten Satz von Inhalten erforderlich sind, wenn eine Ausnahme von der im Unternehmen definierten Standardbenennung besteht.
 
-Die Einrichtung einer Standardnamenskonvention ist nicht erforderlich, um die Funktionalität der Stapelsatzvorgaben zu verwenden. Als Best Practice für das Adobe wird jedoch empfohlen, eine Standardnamenskonvention zu verwenden, um so viele Elemente Ihrer Namenskonvention zu definieren, wie Sie in einem Satz gruppieren möchten. Dies hilft, die Erstellung von Stapelsätzen zu optimieren.
+Die Einrichtung einer Standardnamenskonvention ist nicht erforderlich, um die Funktionalität der Stapelsatzvorgaben zu verwenden. Adobe empfiehlt jedoch, eine Standardnamenskonvention zu verwenden, um so viele Elemente Ihrer Namenskonvention zu definieren, wie Sie in einem Satz gruppieren möchten. Dies hilft, die Erstellung von Stapelsätzen zu optimieren.
 
 1. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Stapelsatzvorgaben]** > **[!UICONTROL Standardbenennung]**.
 1. Wählen Sie **[!UICONTROL Formular anzeigen]** oder **[!UICONTROL Code anzeigen]**, um die gewünschte Ansicht festzulegen, und geben Sie Informationen zu den einzelnen Elementen ein.
@@ -934,7 +934,7 @@ Sie können entweder die Formularfeldmethode verwenden, um eine Stapelsatzvorgab
 
 Siehe auch [Erstellen einer Stapelsatzvorgabe für die automatische Erstellung eines 2D-Rotationssets](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-Siehe auch [2D-Rotationsset](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [2D-Rotationsset](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) Schulungsvideo.
 
 **So erstellen Sie eine Stapelsatzvorgabe:**
 

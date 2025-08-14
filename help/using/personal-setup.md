@@ -34,7 +34,7 @@ Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewi
 ## Desktop
 
 * **Clear Image Cache**: Entfernt alle in Adobe Dynamic Media zwischengespeicherten Bilddateien vom Computer.
-* **Asset-Cache löschen**: Entfernt alle Adobe Dynamic Media-Cache-Asset-Dateien von Ihrem Computer.
+* **Asset-Cache löschen**: Entfernt alle Adobe Dynamic Media-Caches für Asset-Dateien von Ihrem Computer.
 
 Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms können Sie den Cache auch manuell direkt aus dem Dateisystem löschen. Gehen Sie je nach Betriebssystem wie folgt vor:
 
@@ -43,9 +43,9 @@ Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms kö
 
 ## Creative Suite Extension
 
-**So installieren Sie die Creative Suite-Erweiterung Adobe Dynamic Media:**
+**So installieren Sie die Erweiterung Adobe Dynamic Media Creative Suite:**
 
-1. Gehen Sie in Adobe Dynamic Media Classic in der Symbolleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** und klicken Sie unter Creative Suite Extension auf **[!UICONTROL Jetzt herunterladen]**, um die `s7csxs.zxp` herunterzuladen.
+1. Wechseln Sie in Adobe Dynamic Media Classic in der Symbolleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Persönliches Setup]** und klicken Sie unter Creative Suite-Erweiterung auf **[!UICONTROL Jetzt herunterladen]**, um die `s7csxs.zxp`-Datei herunterzuladen.
 1. Wählen Sie die **[!UICONTROL Installation]** und **[!UICONTROL Systemanforderungen]** aus, um weitere Informationen zur Erweiterung zu erhalten.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.

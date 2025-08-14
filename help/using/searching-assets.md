@@ -73,7 +73,7 @@ Geben Sie bei Ihrer erweiterten Suche eines der folgenden Kriterien an:
 
 * **Suchkriterien**: Erstellen Sie ein oder mehrere Suchfelder für die Suche nach Metadaten. So erstellen Sie Suchfelder
 
-   1. Klicken Sie in der erweiterten Suche unter **[!UICONTROL Suchkriterien]** und links neben dem Menü **[!UICONTROL Feld hinzufügen]** auf das Pfeil-nach-unten-Symbol, um die Dropdown-Liste zu öffnen. Wählen Sie eine Metadatenansicht. Sie können zwischen **[!UICONTROL Alle Eigenschaften mit Werten]**, **[!UICONTROL Kompaktansicht]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadatenserver-Publish-Feldern]** oder **[!UICONTROL XMP]** wählen.
+   1. Klicken Sie in der erweiterten Suche unter **[!UICONTROL Suchkriterien]** und links neben dem Menü **[!UICONTROL Feld hinzufügen]** auf das Pfeil-nach-unten-Symbol, um die Dropdown-Liste zu öffnen. Wählen Sie eine Metadatenansicht. Sie können zwischen **[!UICONTROL Alle Eigenschaften mit Werten]**, **[!UICONTROL Kompaktansicht]**, **[!UICONTROL IPTC]**, **[!UICONTROL Veröffentlichungsfelder des Metadatenservers]** oder **[!UICONTROL XMP]** wählen.
    1. Wählen Sie das **[!UICONTROL Feld hinzufügen]** Dropdown-Menü aus und wählen Sie einen Feldnamen aus.
    1. Wählen Sie eine **[!UICONTROL Enthält]** Option: **[!UICONTROL Enthält]**, **[!UICONTROL Enthält nicht]**, **[!UICONTROL Beginnt mit]**, **[!UICONTROL Endet mit]** oder **[!UICONTROL Gleich]**.
    1. Wählen Sie bei numerischen Feldern einen Wert oder geben Sie einen Datumsbereich ein.
@@ -153,19 +153,19 @@ Befolgen Sie die folgenden Anweisungen auf der Registerkarte Filter , damit Sie 
 
 Der Metadaten-Server ist eine öffentliche API, mit der Sie über HTTP-Anfragen anhand von Metadaten nach Assets suchen können.
 
-Informationen zum Konfigurieren des Metadatenservers finden Sie unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Publish-]** > **[!UICONTROL Metadatenserver]**.
+Wechseln Sie zum Konfigurieren des Metadaten-Servers zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Metadaten-Server]**.
 
-Auf der Seite Metadaten-Server-Publish können Sie die folgenden Optionen festlegen:
+Auf der Seite „Veröffentlichung zum Metadaten-Server“ können Sie die folgenden Optionen festlegen:
 
-* **[!UICONTROL Instant Publish]**: Überträgt automatisch alle Metadatenänderungen, wenn sie vorgenommen werden, einschließlich neuer Assets, Keyword-Änderungen usw.
+* **[!UICONTROL Sofortige Veröffentlichung]**: Überträgt automatisch alle Metadatenänderungen, wenn sie vorgenommen werden, einschließlich neuer Assets, Schlüsselwortänderungen usw.
 
-* **[!UICONTROL XMP-Paket]**: Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, bietet aber die aktuellste XMP.
+* **[!UICONTROL XMP-]**: Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, bietet jedoch die aktuellste XMP.
 
 * **[!UICONTROL Keywords]**: Veröffentlicht Ihre Keywords auf dem Metadaten-Server zur Verwendung in Suchvorgängen.
 
-* **[!UICONTROL Metadatenserver-Publish-Felder]**: Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. Mit dieser Option können Sie festlegen, wie viele Informationen über Ihre Assets der Öffentlichkeit zur Verfügung stehen. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
+* **[!UICONTROL Veröffentlichungsfelder des Metadaten-Servers]**: Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. Mit dieser Option können Sie festlegen, wie viele Informationen über Ihre Assets der Öffentlichkeit zur Verfügung stehen. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
 
-Wählen Sie **[!UICONTROL Publish Now]**, um den Vorgang zu starten. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
+Wählen **[!UICONTROL Jetzt veröffentlichen]**, um den Auftrag zu starten. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
 
 >[!MORELIKETHIS]
 >

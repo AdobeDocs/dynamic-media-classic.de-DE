@@ -18,24 +18,24 @@ ht-degree: 30%
 
 # PDF-Dateien hochladen{#uploading-the-pdf-files}
 
-Normalerweise sind Adobe PDF-Dateien die Quelle für einen E-Katalog. Diese Dateien enthalten alle Bildinformationen, Schriftarten und Vektorgrafiken. Sie können einen E-Katalog jedoch auch auf Grundlage von Bildern erstellen. Nachdem Sie Ihre PDF-Dateien für den Upload vorbereitet haben, klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Hochladen]**, um mit dem Hochladen der PDF zu beginnen.
+Normalerweise sind Adobe PDF-Dateien die Quelle für einen E-Katalog. Diese Dateien enthalten alle Bildinformationen, Schriftarten und Vektorgrafiken. Sie können einen E-Katalog jedoch auch auf Grundlage von Bildern erstellen. Nachdem Sie Ihre PDF-Dateien für das Hochladen vorbereitet haben, wählen Sie in der globalen Navigationsleiste die Option **[!UICONTROL Hochladen]** aus, um mit dem Hochladen der PDF-Dateien zu beginnen.
 
-Beim Hochladen einer PDF zur Seitenextraktion erzwingt Adobe die folgende Begrenzung:
+Wenn Sie eine PDF zur Seitenextraktion hochladen, setzt Adobe die folgende Beschränkung durch:
 
-| PDF-Limit-Typ | Limit | Änderung des Grenzwerts am 31. Dezember 2022 |
+| PDF-Limittyp | Limit | Änderung des Grenzwerts am 31. Dezember 2022 |
 | --- | --- | --- |
-| Maximale Seitenzahl einer PDF, die für die Extraktion berücksichtigt werden soll | 5.000 (für neue Uploads) | 100 (für alle PDF) |
+| Maximale Seitenzahl einer PDF, damit eine Extraktion durchgeführt werden kann | 5.000 (für neue Uploads) | 100 (für alle PDFs) |
 
-Siehe auch [Einschränkungen bei Dynamic Media](/help/using/limitations.md).
+Siehe auch [Grenzwerte für Dynamic Media](/help/using/limitations.md).
 
 ## Vorbereiten der PDF-Dateien
 
-Bereiten Sie Ihre PDF-Dateien vor dem Hochladen auf Adobe Dynamic Media Classic vor:
+Bereiten Sie Ihre PDF-Dateien vor dem Hochladen in Adobe Dynamic Media Classic vor:
 
 * Um das Hochladen der Dateien zu vereinfachen, platzieren Sie alle Dateien im selben Ordner auf Ihrem Computer oder Netzwerk.
 * Benennen Sie die Dateien in alphanumerischer Reihenfolge gemäß der gewünschten Seitenabfolge. Eine Vorabsortierung der Seiten erleichtert nach dem Hochladen die Anordnung der Dateien in der richtigen Reihenfolge.
-* Überprüfen Sie die PDF-Seiten, um festzustellen, ob die Seiten Zuschnittmarken, Registrierungsziele oder Farbbalken enthalten. Diese Markierungen kennzeichnen die Stellen, an denen das Papier beim Druck abgeschnitten werden soll. Sie müssen vor der Veröffentlichung des E-Katalogs im Internet entfernt werden. Adobe Dynamic Media Classic bietet Optionen zum Zuschneiden von Markierungen beim Hochladen von PDF-Dateien.
-* Wenn Sie möchten, dass Betrachter Ihren E-Katalog nach Keyword durchsuchen, finden Sie heraus, ob Ihre PDF-Dateien „reduziert“ sind. Aus reduzierten PDF-Dateien können keine Suchbegriffe extrahiert werden. Um herauszufinden, ob eine PDF reduziert ist, wählen Sie den Text darin aus. Wenn Sie keinen Text auswählen können, wird die PDF reduziert, und Viewer können nicht nach Keyword in Ihrem E-Katalog suchen.
+* Überprüfen Sie die Seiten, um festzustellen, ob PDF-Seiten Zuschnittmarken, Registrierungsziele oder Farbbalken enthalten. Diese Markierungen kennzeichnen die Stellen, an denen das Papier beim Druck abgeschnitten werden soll. Sie müssen vor der Veröffentlichung des E-Katalogs im Internet entfernt werden. Adobe Dynamic Media Classic bietet Optionen zum Zuschneiden von Markierungen beim Hochladen von PDF-Dateien.
+* Wenn Sie möchten, dass Betrachter Ihren E-Katalog nach Keyword durchsuchen, finden Sie heraus, ob Ihre PDF-Dateien „reduziert“ sind. Aus reduzierten PDF-Dateien können keine Suchbegriffe extrahiert werden. Um herauszufinden, ob eine PDF reduziert ist, versuchen Sie, den darin enthaltenen Text auszuwählen. Wenn Sie keinen Text auswählen können, ist die PDF reduziert und Viewer können nicht nach Keyword in Ihrem E-Katalog suchen.
 * Da PDF-Dateien speziell zum Drucken vorgesehen sind, enthalten sie normalerweise CMYK-Bilder. Standardmäßig kann Adobe Dynamic Media Classic diese CMYK-Bilder intelligent erkennen und mithilfe eines internen CMYK-Farbprofils konvertieren. Sie können zum Konvertieren der CMYK-Bilder auch ein benutzerdefiniertes Farbprofil verwenden. 
 
   Siehe [ICC (International Color Consortium)-Profile](icc-profiles.md#icc_profiles).
@@ -50,9 +50,9 @@ Wählen Sie die Dateien aus, die Sie hochladen möchten, und wählen Sie dann di
 
 * **Verarbeitung**: Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option **[!UICONTROL PDF-Optionen]**. Wählen Sie in **[!UICONTROL Dropdown]** Liste „Verarbeitung“ die Option **[!UICONTROL Rastern]**. Die PDF-Datei muss gerastert werden, damit alle Seiten und Bilder im E-Katalog angezeigt werden können.
 
-* **Suchbegriffe extrahieren (optional)**: Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option **[!UICONTROL PDF-Optionen]**. Wählen Sie in der Dropdown-Liste Extrahieren die Option **[!UICONTROL Suchbegriffe]**, wenn Sie möchten, dass Ihre Betrachter in der Lage sein sollen, in Ihrem E-Katalog nach einem Schlüsselwort zu suchen.
+* **Suchbegriffe extrahieren (optional)**: Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL PDF-Optionen]**. Wählen Sie in der Dropdown-Liste Extrahieren die Option **[!UICONTROL Suchbegriffe]**, wenn Sie möchten, dass Ihre Betrachter in der Lage sein sollen, in Ihrem E-Katalog nach einem Schlüsselwort zu suchen.
 
-* **E-Katalog von mehrseitigem PDF automatisch generieren (optional)**: Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option **[!UICONTROL PDF-Optionen]**. Klicken Sie auf **[!UICONTROL E-Katalog von mehrseitigem PDF automatisch erstellen]** damit Sie beim Hochladen automatisch einen E-Katalog erstellen können. Sie können dann sofort den Anzeigebereich „E-Katalog“ aufrufen und daran arbeiten, ohne zuerst PDF-Dateien auswählen und den Befehl „Erstellen“ aktivieren zu müssen. Der E-Katalog erhält in diesem Fall denselben Namen wie die PDF-Datei.
+* **E-Katalog automatisch aus mehrseitigem PDF generieren (optional)**: Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option **[!UICONTROL PDF-Optionen]**. PDF Klicken Sie auf **[!UICONTROL E-Katalog von mehreren Seiten aus automatisch erstellen]** damit Sie beim Hochladen automatisch einen E-Katalog erstellen können. Sie können dann sofort den Anzeigebereich „E-Katalog“ aufrufen und daran arbeiten, ohne zuerst PDF-Dateien auswählen und den Befehl „Erstellen“ aktivieren zu müssen. Der E-Katalog erhält in diesem Fall denselben Namen wie die PDF-Datei.
 
 * **Lösung**: Wählen Sie im Dialogfeld „Upload-Auftragsoptionen“ die Option **[!UICONTROL PDF-Optionen]**. Geben **[!UICONTROL im Textfeld]** Auflösung“ einen Wert ein. Adobe Dynamic Media Classic empfiehlt 150 Pixel pro Zoll.
 

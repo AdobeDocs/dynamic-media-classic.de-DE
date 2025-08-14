@@ -73,7 +73,7 @@ Wenn Sie während dieser Sitzung Keywords zu anderen Dateien hinzugefügt oder K
 >[!NOTE]
 >
 >Sie können Schlüsselwörter zu Dateien hinzufügen, während Sie sie in Adobe Dynamic Media Classic hochladen. Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL Weitere Metadaten]** und geben Sie Schlüsselwörter ein.
->Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
+>>Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
 ## Importieren von Metadaten {#import-metadata}
 
@@ -82,7 +82,7 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 >[!NOTE]
 >
 >Sie können eine Vorlage für die Eingabe von Metadaten erstellen, damit sie ordnungsgemäß in Adobe Dynamic Media Classic importiert werden können. Nachdem Sie die Vorlage erstellt haben, können Sie sie zur Eingabe der Metadaten verwenden.
->Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>>Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Weitere Informationen über standardisierte Eigenschaften finden Sie im [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
@@ -107,7 +107,7 @@ Beispiel: Die XMP-Eigenschaft für Schlüsselwörter ist das XMP-Schema „Dubli
 
 Keywords können als kommagetrennte Liste importiert werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, führen Sie eine Escape-Operation mit einem umgekehrten Schrägstrich (\) durch. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden.
 
-Beispielsweise legt eine Metadaten-Importdatei, die den für `dc:subject` `Hello\, World!,back\\slash,foo` Wert enthält, drei XMP-Schlüsselwörter für das Asset fest: `Hello, World!,` `back\slash,` und `foo`.
+Beispielsweise legt eine Metadaten-Importdatei, die den für `Hello\, World!,back\\slash,foo` `dc:subject` Wert enthält, drei XMP-Schlüsselwörter für das Asset fest: `Hello, World!,` `back\slash,` und `foo`.
 
 ### Importieren von XMP- und Metadaten-Schema-XMP-Dateien
 
@@ -121,7 +121,7 @@ Beispiel:
 </ips>
 ```
 
-### Durch Tabulatoren getrennte Dateien &quot;XMP- und Metadatenschema-Metadaten importieren“
+### Durch Tabulatoren getrennte Dateien mit XMP- und Metadatenschema-Metadaten importieren
 
 Das Präfix muss in der entsprechenden Spaltenüberschrift im Importfeld hinzugefügt werden.
 

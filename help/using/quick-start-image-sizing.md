@@ -27,17 +27,17 @@ Bildgröße bezieht sich auf die Fähigkeit von Adobe Dynamic Media Classic, meh
 
 ![Sie können mehrere abgeleitete Bilder mit unterschiedlicher Größe aus derselben primären Datei mit hoher Auflösung erstellen.](/help/using/assets/is_derivative_sizes_popup.png)
 
-Siehe [Bildgröße: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
+Siehe [Bildgröße: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
 
 Die folgende Kurzanleitung zur Bildgröße soll Ihnen den schnellen Einstieg in die Bildgröße in Adobe Dynamic Media Classic erleichtern. Führen Sie die Schritte 1 bis 5 aus. Nach jedem Schritt gibt es einen Querverweis, in dem Sie weitere Informationen finden können, falls Sie sie benötigen.
 
-## 1. Hochladen der primären Bilder
+## &#x200B;1. Hochladen der primären Bilder
 
 Laden Sie zunächst Ihre Primärbilder in Adobe Dynamic Media Classic hoch. Hinsichtlich der Größe empfiehlt Adobe Dynamic Media Classic die Verwendung von Bildern, die die größte Größe aufweisen, die Sie auf Ihrer Website oder in Ihrem Programm erwarten. Wenn Sie beispielsweise möchten, dass Betrachter Bilder zoomen, laden Sie Bilder mit einer Größe von mindestens 2.000 Pixel hoch. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreie TIFF- und PNG-Bilder.
 
 Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen. Siehe [Hochladen primärer Bilder](uploading-master-images.md#uploading_master_images).
 
-## 2. Einrichten von Bildvorgaben
+## &#x200B;2. Einrichten von Bildvorgaben
 
 Ähnlich wie bei einem Makro sind in einer Bildvorgabe vordefinierte Größen- und Formatierungsbefehle unter einem gemeinsamen Namen gespeichert. Eine Bildvorgabe legt die Größe und Formatierung fest, mit der Bilder von Dynamic Media-Bildservern bereitgestellt werden. Sie können Bildvorgaben selbst einrichten, wenn Sie den Status „Unternehmensadministrator“ haben. Sie können Bilder dynamisch mit den bereits in Adobe Dynamic Media Classic bereitgestellten Standardbildvorgaben bereitstellen.
 
@@ -45,7 +45,7 @@ Wenn Sie eine Bildvorgabe erstellen möchten (wenn Sie Administrator sind), klic
 
 Die erstellte Bildvorgabe wird dem Menü Bildvorgabe auf der Seite Vorschau hinzugefügt. Sie können Ihre neue Bildvorgabe verwenden, um Bilder auf Ihren Websites und in Anwendungen dynamisch anzuzeigen. Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
 
-## 3. Vorschau von Bildvorgaben
+## &#x200B;3. Vorschau von Bildvorgaben
 
 Der nächste Schritt besteht im Anzeigen einer Vorschau der Bildvorgaben, die Ihr Administrator für die unterschiedlichen vorgegebenen Größen eingestellt hat. 
 
@@ -55,16 +55,16 @@ Experimentieren Sie mit verschiedenen Bildvorgaben. Erfahren Sie, wie das Bild a
 
 Siehe [Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset).
 
-## 4. Publish - Primärbilder
+## &#x200B;4. Veröffentlichen der primären Bilder
 
 Die Veröffentlichung Ihrer primären Bilddateien dient zwei wichtigen Zwecken:
 
-* Veröffentlichen der Primärbilder auf Dynamic Media-Bildservern, damit Bilder dynamisch für Ihre Website und Ihr Programm bereitgestellt werden können.
-* Durch das Veröffentlichen werden die URL-Zeichenfolgen zum Aufrufen von Bildern von Dynamic Media-Bildservern an Ihre Website oder Anwendung aktiviert. Nach der Veröffentlichung können Sie die von Adobe Dynamic Media Classic generierten URLs kopieren und an die gewünschte Stelle in Ihrer Website oder Anwendung einfügen.
+* Veröffentlichen Sie Ihre primären Bilder auf Dynamic Media-Bildservern, damit Bilder dynamisch für Ihre Website und Ihr Programm bereitgestellt werden können.
+* Beim Veröffentlichen werden die URL-Zeichenfolgen zum Aufrufen von Bildern von Dynamic Media-Bildservern an Ihre Website oder Anwendung aktiviert. Nach der Veröffentlichung können Sie die von Adobe Dynamic Media Classic generierten URLs kopieren und an die gewünschte Stelle in Ihrer Website oder Anwendung einfügen.
 
-Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Publish]** aus, um einen Veröffentlichungsauftrag zu starten. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Publish senden]**. Siehe [Primärbilder von Publish](publishing-master-images.md#publishing_master_images).
+Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Veröffentlichen]** aus, um einen Veröffentlichungsauftrag zu starten. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Veröffentlichen starten]**. Siehe [Veröffentlichen primärer Bilder](publishing-master-images.md#publishing_master_images).
 
-## 5. Verknüpfen von URLs mit einer Web-Anwendung
+## &#x200B;5. Verknüpfen von URLs mit einer Web-Anwendung
 
 Adobe Dynamic Media Classic erstellt URL-Legendenzeichenfolgen für Bilder. Wenn Sie Bilder auf Dynamic Media-Bildservern veröffentlichen, werden die URLs aktiv. Sie können diese URL-Zeichenfolgen aus dem Durchsuchen-Panel (in der Detailansicht) oder dem Bildschirm Vorschau kopieren. Nachdem Sie die URL-Zeichenfolgen kopiert haben, können Sie sie auf Ihrer Website und in Programmen verwenden. Die URL für die Bildgröße ersetzt den Verweis auf einen statischen Bildnamen in Ihrem Web-Seiten-Code. Die URL verweist auf einen primären Bildnamen, den die Datenbank für jedes neue anzuzeigende Bild ersetzt.
 

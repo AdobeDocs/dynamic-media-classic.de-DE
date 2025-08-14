@@ -83,7 +83,7 @@ Wählen Sie unter „Unschärfemaske &quot; die gewünschten Optionen aus. Die z
 
 Siehe auch [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image).
 
-Siehe auch [Scharfzeichnen von Bildern auf Adobe Dynamic Media und Image Server](/help/using/assets/s7_sharpening_images.pdf).
+Siehe auch [Scharfzeichnen von Bildern in Adobe Dynamic Media und Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
 ## Hintergrund aussparen
 
@@ -93,7 +93,7 @@ Verwenden Sie den Knock-out-Hintergrund, damit Sie den Hintergrund eines Bildes 
 | --- | --- |
 | Hintergrund aussparen | Wählen Sie aus, um die Knock-out-Hintergrundfunktion und die Optionen zu aktivieren oder zu aktivieren. |
 | Ecke | Erforderlich.<br>Die Bildecke, die zum Definieren der Hintergrundfarbe für den K.-o.-Effekt verwendet wird.<br>Sie können zwischen <b>oben links, unten links, oben rechts oder unten rechts</b> wählen. |
-| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der festgelegten Eckposition aus.<br>Sie können aus den folgenden Füllmethoden auswählen:<br>・ <b>Flood Fill</b>: Aktiviert die Transparenz aller Pixel, die der angegebenen Ecke entsprechen und mit dieser verbunden sind.<br>・ <b>Match Pixel</b>: Macht alle übereinstimmenden Pixel transparent, unabhängig von ihrer Position auf dem Bild. |
+| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der festgelegten Eckposition aus.<br>Sie können aus den folgenden Füllmethoden auswählen:<br>・ <b>Flutfüllung</b>: Aktiviert die Transparenz aller Pixel, die der angegebenen Ecke entsprechen und mit dieser verbunden sind.<br>・ <b>Match Pixel</b>: Macht alle übereinstimmenden Pixel transparent, unabhängig von ihrer Position auf dem Bild. |
 | Toleranz | Optional.<br>Steuert den zulässigen Grad der Variation beim Farbabgleich in Pixel basierend auf der von Ihnen festgelegten Eckposition.<br>Verwenden Sie einen Wert von 0,0, um Pixelfarben genau zuzuordnen. Verwenden Sie alternativ einen Wert von 1,0, um die größte Variation zu ermöglichen. |
 
 >[!MORELIKETHIS]

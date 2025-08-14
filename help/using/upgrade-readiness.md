@@ -8,7 +8,7 @@ topic: Administration, Migration
 level: Intermediate
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ Verwenden Sie die folgende Checkliste, um ein Upgrade von [!DNL Dynamic Media Cl
 
 |  | Aufgabe | Beschreibung |
 | :--- | :--- | --- |
-| **Phase 1: Lizenzierung** | Vertrag ausführen | Basierend auf Traffic und Speicherplatz arbeitet das Adobe-Account-Team mit Ihnen zusammen, um von der [!DNL Dynamic Media Classic] Lizenz zur Verlängerung der [!DNL Dynamic Media] Lizenz zu wechseln. |
-| **Phase 2: Vorbereitung** | Validieren der Funktionsnutzung | Vergewissern Sie sich, dass die in [!DNL Dynamic Media Classic] verwendeten Funktionen in [!DNL Dynamic Media] verfügbar sind. Siehe Seite [Funktionsvergleich](/help/using/upgrade-feature-comparison.md). Zu den wichtigsten Funktionen, die in [!DNL Dynamic Media] noch nicht verfügbar sind, gehören: <br>・ Visual Configurator (Image Author, Image Render).<br>・ Bildvorlagen (1:1-Vorlage).<br>・ E-Kataloge.<br>Wenn die oben genannten Funktionen verwendet werden, kann das Upgrade trotzdem durchgeführt werden, unter der Annahme, dass diese Funktionen über [!DNL Dynamic Media Classic] zugänglich wären. |
+| **Phase 1: Lizenzierung** | Vertrag ausführen | Basierend auf Traffic und Speicher arbeitet das Adobe Account Team mit Ihnen zusammen, um von der [!DNL Dynamic Media Classic] Lizenz zur Verlängerung der [!DNL Dynamic Media] Lizenz zu wechseln. |
+| **Phase 2: Vorbereitung** | Validieren der Funktionsnutzung | Vergewissern Sie sich, dass die in [!DNL Dynamic Media Classic] verwendeten Funktionen in [!DNL Dynamic Media] verfügbar sind. Siehe Seite [Funktionsvergleich](/help/using/upgrade-feature-comparison.md). Zu den wichtigsten Funktionen, die in [!DNL Dynamic Media] noch nicht verfügbar sind, gehören: <br>・ Visual Configurator (Image Author, Image Render).<br>・ Bildvorlagen (1:1 Vorlage).<br>・ E-Kataloge.<br>Wenn die oben genannten Funktionen verwendet werden, kann das Upgrade trotzdem durchgeführt werden, unter der Annahme, dass diese Funktionen über [!DNL Dynamic Media Classic] zugänglich wären. |
 |   | Identifizieren von Assets | Suchen Sie Assets und Vorgaben, die für das Upgrade verwendet werden können, und bereiten Sie sie vor. |
 | **Phase 3: Umwelt** | Upgrade-[!DNL Adobe Experience Manager] | Alle Instanzen von [!DNL Adobe Experience Manager] müssen auf die neueste Version aktualisiert werden. |
 |   | Setup-[!DNL Dynamic Media] | Adobe Consulting oder Partner konfiguriert [!DNL Dynamic Media] mit Ihren Anmeldeinformationen. |
-| **Phase 4: Upgrade** | Replizieren von Assets | Während des Upgrade-Prozesses werden designierte [!DNL Dynamic Media Classic]-Assets nach Dynamic Media repliziert. |
+| **Phase 4: Upgrade** | Replizieren von Assets | Während des Upgrade-Prozesses werden designierte [!DNL Dynamic Media Classic]-Assets auf Dynamic Media repliziert. |
 | **Phase 5: Einrichten der Verwaltung** | Einrichten von Benutzern und Berechtigungen | Erstellen Sie Benutzer und gewähren Sie entsprechende Berechtigungen. |
 |   | Einrichten von Videocodierungsprofilen | Erstellen Sie Videokodierungsprofile. |
 |   | Viewer-Vorgaben einrichten | Erstellen Sie Viewer-Vorgaben. |

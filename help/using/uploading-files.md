@@ -26,7 +26,7 @@ Stellen Sie vor dem Hochladen von Assets in Adobe Dynamic Media Classic sicher, 
 
 ### Unterstützte Asset-Dateiformate {#supported-asset-file-formats}
 
-In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html).
+In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Asset-Dateiformate | Beschreibung |
 | --- | --- |
@@ -211,7 +211,7 @@ Beim Hochladen von Dateien können Sie im Dialogfeld Upload-Auftragsoptionen aus
 
    * **[!UICONTROL Wenn]**: Diese Option ist nur verfügbar, wenn Sie die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben.
       * **[!UICONTROL Einmalig]**: Geben Sie einen Upload-Auftrag an, der einmal ausgeführt werden soll. Zu den Optionen gehören:
-         * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-**die Option** Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
+         * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-**[!UICONTROL die Option]** Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
          * **[!UICONTROL Für später planen]**: Wählen Sie Jahr, Monat, Tag und Uhrzeit (in Intervallen von 15 Minuten) aus, zu denen der Upload-Auftrag ausgeführt werden soll.
       * **[!UICONTROL Wiederkehrend]**: Geben Sie einen Upload-Auftrag an, der täglich, wöchentlich oder monatlich ausgeführt werden soll. Oder passen Sie den Upload-Auftrag an Ihre eigenen Spezifikationen an.
          * **[!UICONTROL Täglich]**: Legen Sie die Zeit fest, zu der der Auftrag täglich ausgeführt werden soll. Wenn der Vorgang nur von Montag bis Freitag ausgeführt werden soll, wählen Sie **[!UICONTROL Nur Wochentage]** aus.
@@ -267,7 +267,7 @@ Siehe [Arbeiten mit Videocodierungsvorgaben](uploading-encoding-videos.md#workin
 
 * **Weitere Metadaten**: Geben Sie Schlüsselwörter ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter mit Kommata. Keywords erleichtern die Suche nach Assets.
 Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
-Siehe auch [Hochladen von Keywords](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [Hochladen von Keywords](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) Schulungsvideo.
 
 * **Stapelsatzvorgaben**: Um ein Bildset, Rotationsset oder Musterset aus den hochgeladenen Dateien zu erstellen, wählen Sie die Spalte **[!UICONTROL Aktiv]** für die gewünschte Vorgabe aus. Sie können mehrere Vorgaben auswählen. Sie können die Vorgaben auf der Seite „Anwendungseinstellungen/Stapelsatzvorgaben“ erstellen.
 Siehe [Stapelsatzvorgaben](application-setup.md#batch_set_presets).

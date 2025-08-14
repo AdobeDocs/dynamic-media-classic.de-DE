@@ -54,7 +54,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Löschen eines As
 
 >[!IMPORTANT]
 >
->Ab dem 1. Mai 2023 stehen UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
+>Ab dem 1. Mai 2023 stehen UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads zur Verwendung zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
 
 >[!NOTE]
 >

@@ -41,7 +41,7 @@ Es gibt Best Practices, die Sie befolgen können, um das Scharfzeichnen Ihrer Bi
 
 Siehe [Best Practices für das Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Dynamic Media Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
 
 **So schärfen Sie ein Bild:**
 
@@ -103,7 +103,7 @@ Wählen Sie das **[!UICONTROL Resampling]**-Menü und dann eine Option aus. Mit 
 
 **Bildvorgaben und Scharfzeichnen**
 
-Sie können alle drei Scharfzeichnungseffekte einbeziehen, um das Endergebnis zu erzielen. Diese Methode wird jedoch nicht empfohlen. Adobe Dynamic Media Classic empfiehlt, Scharfzeichnungseffekte als Teil einer Bildvorgabe zu speichern. Mit Bildvorgaben können Sie die am häufigsten verwendeten Bildmodifikatoren verpacken, um ein Bild mit dynamischer Größe in einer kleinen Textzeichenfolge zu erstellen. Eine Bildvorgabe enthält Werte für das Dateiformat (normalerweise JPEG für das Web), die Pixelanzahl und das Scharfzeichnen von Bildern. Anstatt die URL an jeden Bildmodifikator anzuhängen, den Sie verwenden müssen, um einen bestimmten Typ von Bildgröße zu erstellen, erstellen Sie eine Bildvorgabe mit dem Namen „Miniatur“. Konfigurieren Sie dann die Bildvorgabe für die Miniaturansicht mit den entsprechenden Optionen für Größe, Dateiformat und Scharfzeichnung. Rufen Sie das Bild mit dem Namen der Bildvorgabe auf. Bildvorgaben verkürzen die Länge der gesamten URL. Diese beiden URLs erzeugen dasselbe 350x350-JPEG-Bild mit Scharfzeichnung:
+Sie können alle drei Scharfzeichnungseffekte einbeziehen, um das Endergebnis zu erzielen. Diese Methode wird jedoch nicht empfohlen. Adobe Dynamic Media Classic empfiehlt, Scharfzeichnungseffekte als Teil einer Bildvorgabe zu speichern. Mit Bildvorgaben können Sie die am häufigsten verwendeten Bildmodifikatoren verpacken, um ein Bild mit dynamischer Größe in einer kleinen Textzeichenfolge zu erstellen. Eine Bildvorgabe enthält Werte für das Dateiformat (normalerweise JPEG für das Web), die Pixelanzahl und das Scharfzeichnen von Bildern. Anstatt die URL an jeden Bildmodifikator anzuhängen, den Sie verwenden müssen, um einen bestimmten Typ von Bildgröße zu erstellen, erstellen Sie eine Bildvorgabe mit dem Namen „Miniatur“. Konfigurieren Sie dann die Bildvorgabe für die Miniaturansicht mit den entsprechenden Optionen für Größe, Dateiformat und Scharfzeichnung. Rufen Sie das Bild mit dem Namen der Bildvorgabe auf. Bildvorgaben verkürzen die Länge der gesamten URL. Diese beiden URLs erzeugen dasselbe 350 x 350-Grad-JPEG-Bild mit Scharfzeichnung:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -118,15 +118,15 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 * **JPG-Qualität**: Wählen Sie diese Option aus, wenn Sie Komprimierungsgrade und Neuberechnung der Chrominanz steuern möchten.
 
-* **Regler**: Bestimmt den JPG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala reicht von 1 bis 100.
+* **Regler**: Legt den JPG-Komprimierungsgrad fest. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala reicht von 1 bis 100.
 
-* **JPG-Chrominanz-Neuberechnung aktivieren**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
+* **JPG-Neuberechnung der Chrominanz aktivieren**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
 **Legen Sie unternehmensweite Scharfzeichnungsoptionen fest**
 
 Wenn Sie keine Bildvorgabe verwendet oder bestimmte Scharfzeichnungsprotokolle für Bild-Server entlang der URL-Zeichenfolge übergeben haben, wird das Bild beim Downsampling nicht scharf gemacht. Wenn jedoch diese mangelnde Scharfzeichnung auftritt, können Sie standardmäßige Scharfzeichnungswerte festlegen, um sicherzustellen, dass jedes Bild immer etwas Scharfzeichnung aufweist.
 
-Die standardmäßigen Scharfzeichnungsoptionen für Ihr Unternehmen finden Sie unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Publish-]** > **[!UICONTROL Image-Server]**. Wenn Sie den standardmäßigen Resampling-Modus auf **`Sharp2`** setzen, wird das Bild beim Downsampling immer scharfgezeichnet.
+Die standardmäßigen Scharfzeichnungsoptionen für Ihr Unternehmen finden Sie unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Image-Server]**. Wenn Sie den standardmäßigen Resampling-Modus auf **`Sharp2`** setzen, wird das Bild beim Downsampling immer scharfgezeichnet.
 
 **Scharfzeichnung zu Viewer-Vorgaben hinzufügen**
 
@@ -134,7 +134,7 @@ Wenn Sie der Vorgabe keine Bildmodifikatoren für das Scharfzeichnen hinzugefüg
 
 Mit Viewer-Vorgaben (wie Bildvorgaben) können Sie viele Optionen an einer Stelle zentralisieren, einschließlich der Auswahl von Skin- und Viewer-Optionen (z. B. mit einer Druckschaltfläche oder Steuerung der Geschwindigkeit der Zoom-Animation). Viewer-Vorgaben befinden sich im selben Abschnitt wie Bildvorgaben unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Viewer-Vorgaben]**.
 
-Siehe [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) Schulungsvideo.
 
 Die Modifiziereroption befindet sich im Bereich „Core-Einstellungen“ aller E-Katalog-, Rotations- und benutzerdefinierter Zoom-Viewer-Vorgaben. Durch Hinzufügen der URL-Scharfzeichnungsbefehle zum Feld Modifikatoren fügen Sie jedes Mal eine Scharfzeichnung hinzu, wenn dieser Viewer mit dieser Viewer-Vorgabe aufgerufen wird.
 

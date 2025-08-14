@@ -25,7 +25,7 @@ Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_v
 
 Wenn Sie eine Vorschau eines Vorlagen-Assets mit Parameterebenen anzeigen, können Sie die Parameter ändern oder die Bildvorgabe ändern. Da Ihre Änderungen inline vorgenommen werden, können Sie die Ergebnisse sofort im gleichen Fenster sehen.
 
-Siehe auch [Adobe Viewer-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **So erstellen Sie eine Vorschau eines Assets:**
 

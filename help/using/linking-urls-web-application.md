@@ -19,7 +19,7 @@ ht-degree: 26%
 
 # Verknüpfen von URLs mit einer Web-Anwendung{#linking-urls-to-your-web-application}
 
-Ihre Websites und Programme greifen über URL-Zeichenfolgen auf Dynamic Media-Bildserver-Inhalte zu. Nach dem Veröffentlichen eines Bildes aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf die Bildvorgabe auf Dynamic Media-Bildservern verweist. Sie können diese URLs zum Testen in einen Webbrowser einfügen.
+Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen auf Dynamic Media Image Server-Inhalte zu. Nach dem Veröffentlichen eines Bildes aktiviert Adobe Dynamic Media Classic eine URL-Zeichenfolge, die auf die Bildvorgabe auf Dynamic Media-Bildservern verweist. Sie können diese URLs zum Testen in einen Webbrowser einfügen.
 
 Um diese URL-Zeichenfolgen in Ihren Web-Seiten und Anwendungen zu platzieren, kopieren Sie sie aus Adobe Dynamic Media Classic. Um eine mit einer Bildvorgabe generierte URL-Zeichenfolge abzurufen, gehen Sie zum Bildschirm Vorschau oder zum Durchsuchen-Panel (in der Detailansicht).
 
@@ -54,7 +54,7 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 
 ## URL-Zeichenfolgen zu Bildvorgaben {#about-image-preset-url-strings}
 
-Ein URL-Aufruf für die Bilddimensionierung an Dynamic Media-Bildserver weist die folgende Grundsyntax auf:
+Ein URL-Aufruf für die Bildgröße auf Dynamic Media-Bildservern weist die folgende grundlegende Syntax auf:
 
 *Pfad*/*Name des Image-Servers*/*Kontoname*/*Bildname*?*Modifikator1*&amp;*Modifikator2*&amp;...
 
@@ -76,11 +76,11 @@ Bei einer URL-Zeichenfolge, die mit einer Bildvorgabe generiert wurde, ist statt
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. Wenn ein Dynamic Media-Bildserver auf den Bildvorgabenabschnitt der URL (in diesem Fall die `Large`) trifft, verwenden Sie die in der Bildvorgabe „Groß“ definierten Größenanweisungen und Formatierungsanweisungen.
+Bildvorgabennamen in URLs sind in Dollarzeichen ($) eingeschlossen. Wenn ein Dynamic Media-Bildserver auf den Bildvorgabenabschnitt der URL trifft (in diesem Fall die `Large`), verwenden Sie die in der Bildvorgabe „Groß“ definierten Anweisungen zur Größe und Formatierung.
 
 ## Hinzufügen dynamischer Bilder zu einer Web-Seite {#adding-dynamic-images-to-your-web-page}
 
-Wenn Sie Ihrer Web-Seite dynamische Bilder hinzufügen, wird das `<IMG>`-Tag im HTML-Seiten-Code normalerweise mithilfe der Adobe Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anfrage an die Dynamic Media-Bildserver zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
+Wenn Sie Ihrer Web-Seite dynamische Bilder hinzufügen, wird das `<IMG>`-Tag im HTML-Seiten-Code normalerweise mithilfe der Adobe Dynamic Media Classic-URL-Zeichenfolge geändert, um eine Anfrage an die Bild-Server von Dynamic Media zu senden. Mit der Zeichenfolge wird das Bild in der Größe und Formatierung gemäß Bildvorgabe dargestellt.
 
 Der typische Aufruf zum Öffnen eines statischen Bildes wäre beispielsweise dies:
 
