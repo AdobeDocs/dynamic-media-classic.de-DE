@@ -23,7 +23,7 @@ Die Optimierung der Bildqualität kann viel Zeit in Anspruch nehmen. Viele Fakto
 
 Adobe Dynamic Media Classic umfasst mehr als 100 Bildbereitstellungsbefehle zum Optimieren und Optimieren von Bildern und zum Rendern von Ergebnissen. Die folgenden Richtlinien sollen Ihnen dabei helfen, den Vorgang zu optimieren und die gewünschten Ergebnisse schnell mit nur einigen wichtigen Befehle und empfohlenen Verfahren zu erzielen.
 
-Siehe auch [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Siehe auch [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Siehe auch [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience
 >* Netzwerkbandbreite
 >* DPR (Device Pixel Ratio)
 >
->Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
+>Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
 
 
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}

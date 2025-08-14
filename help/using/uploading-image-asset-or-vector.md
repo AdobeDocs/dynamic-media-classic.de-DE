@@ -30,7 +30,7 @@ Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsa
 
 ## Anfordern eines Schlüssels mit gemeinsamen geheimen Daten {#requesting-a-shared-secret-key}
 
-Fordern Sie einen *Schlüssel mit gemeinsamem*&quot; an[ indem Sie die Admin Console verwenden, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Fordern Sie im Fall des technischen Supports einen Schlüssel mit einem gemeinsamen geheimen Schlüssel an.
+Fordern Sie einen *Schlüssel mit gemeinsamem*&quot; an[ indem Sie die Admin Console verwenden, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Fordern Sie im Fall des technischen Supports einen Schlüssel mit einem gemeinsamen geheimen Schlüssel an.
 
 Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Adobe Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
