@@ -100,7 +100,7 @@ Sie können die erweiterten Optionen auf der Seite „Veröffentlichen“ anzeig
 
 **[!UICONTROL HTTP-Benachrichtigung]**: Geben Sie eine URL ein, um nachfolgende Veröffentlichungsaufträge in den Trigger aufzunehmen.
 
-Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
+Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger &#x200B;](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
 ## Abbrechen von Veröffentlichungsaufträgen {#canceling-a-publish-job}
 

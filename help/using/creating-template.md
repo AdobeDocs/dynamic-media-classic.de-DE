@@ -246,7 +246,7 @@ Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie k�
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der genauen Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie sie im Menü Vorgabe anwenden auf dem Bildschirm Vorlagenvorschau auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der genauen Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie sie im Menü Vorgabe anwenden auf dem Bildschirm Vorlagenvorschau auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
 
 * **Ändern der Größe einer Ebene**: Um die Größe einer Ebene oder Arbeitsfläche zu ändern, wählen Sie die Ebene oder Arbeitsfläche in der Liste „Ebenen“ aus und verwenden Sie eine der folgenden Techniken:
 

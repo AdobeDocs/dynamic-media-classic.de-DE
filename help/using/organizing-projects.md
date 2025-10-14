@@ -27,7 +27,7 @@ Sie können ein Projekt erstellen, wenn Sie Dateien hochladen oder Projekte in d
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt, Assets mit Metadaten anstatt mit Projekten zu organisieren. Siehe [Anzeigen, Hinzufügen und Exportieren von ](viewing-adding-exporting-metadata.md).
+>Adobe Dynamic Media Classic empfiehlt, Assets mit Metadaten anstatt mit Projekten zu organisieren. Siehe [Anzeigen, Hinzufügen und Exportieren von &#x200B;](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >

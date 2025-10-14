@@ -44,4 +44,4 @@ ht-degree: 2%
 Unter [hier](https://training.adobe.com/training/courses.html#product=adobe-scene7) finden Sie die Schulungen, die derzeit verfügbar sind.
 [Adobe Dynamic Media Classic-Schulungsvideos](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
-Hier finden Sie alle beliebten Ressourcen, die für [Adobe Dynamic Media Classic verfügbar ](home.md).
+Hier finden Sie alle beliebten Ressourcen, die für [Adobe Dynamic Media Classic verfügbar &#x200B;](home.md).

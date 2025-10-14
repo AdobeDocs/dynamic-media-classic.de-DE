@@ -55,7 +55,7 @@ Siehe [Erstellen einer Vorlage](creating-template.md#creating_a_template).
 
 Im nächsten Schritt werden die Eigenschaften von Ebenen in Parameter umgewandelt, d. h. parametrisiert, um festzulegen, welche Ebeneneigenschaften in die URL-Zeichenfolge aufgenommen werden. Parameter bieten Ihnen bei der Verwendung von Vorlagen größtmögliche Flexibilität. Nachdem Sie eine Ebeneneigenschaft parametrisiert haben, können Sie den Parameter dynamisch ändern.
 
-Um eine Ebene zu parametrisieren, öffnen Sie die Vorlage auf der Vorlagenseite und wählen Sie **[!UICONTROL Parameter]** neben einem Ebenennamen aus. Wählen Sie auf der Seite Parameter die Option neben jedem Parameter aus, den Sie hinzufügen möchten. Siehe [Erstellen von ](creating-template-parameters.md#creating_template_parameters).
+Um eine Ebene zu parametrisieren, öffnen Sie die Vorlage auf der Vorlagenseite und wählen Sie **[!UICONTROL Parameter]** neben einem Ebenennamen aus. Wählen Sie auf der Seite Parameter die Option neben jedem Parameter aus, den Sie hinzufügen möchten. Siehe [Erstellen von &#x200B;](creating-template-parameters.md#creating_template_parameters).
 
 ## &#x200B;4. Veröffentlichen von Vorlagen
 

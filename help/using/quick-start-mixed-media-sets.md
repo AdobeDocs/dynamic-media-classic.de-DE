@@ -37,7 +37,7 @@ Siehe [Hochladen von Dateien](uploading-files.md#uploading-your-files).
 
 Sie können Bilder, Bildsets, Mustersets, Rotationssets und Videos zu Ihrem gemischten Medienset hinzufügen. Bereiten Sie die Mediensets vor, bevor Sie sie zum gemischten Medienset hinzufügen.
 
-Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines ](creating-swatch-set.md#creating-a-swatch-set) und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
+Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines &#x200B;](creating-swatch-set.md#creating-a-swatch-set) und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
 
 ## &#x200B;3. Erstellen eines gemischten Mediensets
 

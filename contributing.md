@@ -17,7 +17,7 @@ Dieses Projekt hat den [Adobe Open Source-Verhaltenskodex](code-of-conduct.md) a
 
 ## Richtlinien für Beiträge
 
-Während Adobe alle Beiträge zur Verbesserung der Dokumentation begrüßt, stellen Sie sicher, dass Ihre Beiträge nach Möglichkeit bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden [ in den Richtlinien für Beiträge zur Dokumentation ](guidelines.md) Adobe Dynamic Media Classic .
+Während Adobe alle Beiträge zur Verbesserung der Dokumentation begrüßt, stellen Sie sicher, dass Ihre Beiträge nach Möglichkeit bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden [&#x200B; in den Richtlinien für Beiträge zur Dokumentation &#x200B;](guidelines.md) Adobe Dynamic Media Classic .
 
 ## So können Sie einen Beitrag leisten
 
@@ -42,7 +42,7 @@ Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach
 
 Wenn Sie ein Problem sehen und genau wissen, wie es behoben werden kann, sollten Sie eine Pull-Anfrage erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, und ein Mitglied des Dokumentations-Teams prüft sie, um sie aufzunehmen. Um die vorgeschlagenen Änderungen vorzunehmen und die Pull-Anfrage zu erstellen **[!UICONTROL wählen Sie &quot;]** bearbeiten“ oben rechts im Navigationsbereich auf einer beliebigen Seite aus.
 
-Allen Pull[Anforderungen muss eine unterzeichnete Lizenzvereinbarung für Mitwirkende oder ](https://opensource.adobe.com/cla.html) beigelegt sein. Dieser Workflow gibt Adobe die Berechtigung, Ihre Beiträge im Rahmen des Projekts zu verteilen. Sie können eine Adobe-Lizenzvereinbarung nur einmal senden. Wenn Sie also bereits eine gesendet haben, sind Sie festgelegt.
+Allen Pull[Anforderungen muss eine unterzeichnete Lizenzvereinbarung für Mitwirkende oder &#x200B;](https://opensource.adobe.com/cla.html) beigelegt sein. Dieser Workflow gibt Adobe die Berechtigung, Ihre Beiträge im Rahmen des Projekts zu verteilen. Sie können eine Adobe-Lizenzvereinbarung nur einmal senden. Wenn Sie also bereits eine gesendet haben, sind Sie festgelegt.
 
 ### Schnelle Videoeinführung
 

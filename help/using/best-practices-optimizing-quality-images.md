@@ -35,7 +35,7 @@ Siehe auch [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience
 >* Netzwerkbandbreite
 >* DPR (Device Pixel Ratio)
 >
->Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
+>Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[&#x200B; spielen Sie das Schulungsvideo zu Momentaufnahmen &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
 
 
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}

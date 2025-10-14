@@ -300,7 +300,7 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie in der rechten unteren Ecke 
 
    * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl :9- als auch :3-Videos für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-     Siehe [Adaptive Videokodierung (16:9 oder 4:3) ](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Siehe [Adaptive Videokodierung (16:9 oder 4:3) &#x200B;](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Einzelne Kodierungsvorgaben]**
 
@@ -450,7 +450,7 @@ Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.co
 
 Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite mit einem Link, über den der HTML5-Viewer in einem separaten Browserfenster geöffnet wird. In anderen Fällen ist es erforderlich, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall weist die Web-Seite wahrscheinlich ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die HTML5-Viewer, die mit Adobe Dynamic Media Classic geliefert werden, sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
 
-Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver ](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver &#x200B;](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Viewer-Vorgabentypen {#viewer-preset-types}
 
@@ -601,7 +601,7 @@ Neben dem Hinzufügen von Viewer-Vorgaben mit **[!UICONTROL Hinzufügen]** in de
 
 Siehe [Export von HTML5-Viewer-](application-setup.md#exporting_an_html5_viewer_preset).
 
-Siehe auch [Video ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
+Siehe auch [Video &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
 
 **So fügen Sie Viewer-Vorgaben hinzu und bearbeiten sie:**
 

@@ -107,7 +107,7 @@ Führen Sie die folgenden Schritte aus, um Assets zu finden, indem Sie nach ihre
 
    Um einen von Ihnen erstellten und gespeicherten Filtervorgang auszuführen, wählen Sie **[!UICONTROL Vorgabe auswählen]** und wählen Sie dann im Menü den Namen des Vorgangs aus.
 
-   Siehe [Speichern, Wiederholen und Löschen von ](searching-assets.md#saving_repeating_and_deleting_filter_operations).
+   Siehe [Speichern, Wiederholen und Löschen von &#x200B;](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
 1. Klicken Sie **[!UICONTROL einem]** auf „Feld“ und befolgen Sie dann diese Anweisungen, um das Filtermenü anzuzeigen und den Filtervorgang zu erstellen:
 

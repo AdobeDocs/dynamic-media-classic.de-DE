@@ -187,7 +187,7 @@ So laden Sie *neueste Version* Adobe Dynamic Media Classic-Desktop-Programms auf
 
 ## Herunterladen und *im*) Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows® {#install-silent-windows-dmc-app}
 
-Der von Ihnen verwendete Befehl ist für eine einfache, automatische MSI-Installation. Das Adobe Dynamic Media Classic-Desktop-Programm-Installationsprogramm ist jedoch ein mit InstallShield erstelltes InstallScript-MSI-Installationsprogramm. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine automatische Installation verwendet, wie unter „Ausführen [ Installationen im Hintergrund](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) beschrieben.
+Der von Ihnen verwendete Befehl ist für eine einfache, automatische MSI-Installation. Das Adobe Dynamic Media Classic-Desktop-Programm-Installationsprogramm ist jedoch ein mit InstallShield erstelltes InstallScript-MSI-Installationsprogramm. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine automatische Installation verwendet, wie unter „Ausführen [&#x200B; Installationen im Hintergrund](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) beschrieben.
 
 Siehe auch:
 
@@ -233,7 +233,7 @@ Siehe auch:
 
 ## Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms {#dmc-app-video-walk-through}
 
-Sehen Sie sich [ Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms ](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
+Sehen Sie sich [&#x200B; Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
 
 ## Löschen des Bild- und Asset-Cache auf dem Computer mithilfe des Desktop-Programms {#clear-cache}
 

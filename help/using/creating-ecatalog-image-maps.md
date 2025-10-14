@@ -89,11 +89,11 @@ Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E
 
 * **Überlappende Imagemaps handhaben**: Ziehen Sie, um die Reihenfolge der Imagemaps in der Imagemap-Liste zu ändern.
 
-  Siehe [Überlappende Imagemaps ](creating-image-maps.md#handling_overlapping_image_maps).
+  Siehe [Überlappende Imagemaps &#x200B;](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Kopieren von Imagemaps auf andere Seiten**: Wählen Sie **[!UICONTROL Karten kopieren nach]** (stellen Sie sicher, dass Sie sich auf der Registerkarte Seiten zuordnen befinden). Wählen Sie auf dem Bildschirm „Bilder auswählen“ die Seite(n) aus, auf die Sie die Imagemaps kopieren möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-  Siehe [Kopieren von Imagemaps in andere ](creating-image-maps.md#copying_image_maps).
+  Siehe [Kopieren von Imagemaps in andere &#x200B;](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

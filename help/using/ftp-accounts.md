@@ -23,7 +23,7 @@ FTP-Konten können nur von Media Portal-Administratoren verwaltet werden. Darüb
 
 Denken Sie daran, dass Sie bestehende Media Portal-Benutzer über die Seite „Benutzerverwaltung“ in den Administrationseinstellungen aktivieren bzw. deaktivieren können.
 
-Siehe [Aktivieren oder Deaktivieren von ](administration-setup.md#activating_or_deactivating_users).
+Siehe [Aktivieren oder Deaktivieren von &#x200B;](administration-setup.md#activating_or_deactivating_users).
 
 1. Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Medienportal]** > **[!UICONTROL FTP-Konten]**.
 1. Wählen Sie auf der Seite „FTP-Konto hinzufügen“ in der Dropdown-Liste „Benutzername für FTP-Konten“ einen Benutzer aus.

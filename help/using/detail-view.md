@@ -66,7 +66,7 @@ Die Detailansicht bietet Tools zum Arbeiten mit dem geöffneten Asset. Welche To
 
 * **Asset umbenennen**: Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
-* **Bearbeiten und Hinzufügen von Metadaten**: Wählen Sie das Bedienfeld „Metadaten“ aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von ](/help/using/viewing-adding-exporting-metadata.md).
+* **Bearbeiten und Hinzufügen von Metadaten**: Wählen Sie das Bedienfeld „Metadaten“ aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von &#x200B;](/help/using/viewing-adding-exporting-metadata.md).
 
 * **Keywords bearbeiten und hinzufügen**: Wählen Sie Keywords aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/using/viewing-adding-exporting-metadata.md).
 

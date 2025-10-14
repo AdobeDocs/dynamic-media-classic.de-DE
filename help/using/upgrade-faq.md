@@ -68,7 +68,7 @@ Kunden, die derzeit über [!DNL Dynamic Media Classic] (früher Scene7) und auch
 +++
 
 +++**Wie starte ich den Upgrade-Prozess?**
-Wenden Sie sich mit der Betreffzeile [ an Ihren Adobe](mailto:s7support@adobe.com)Kundenbetreuer oder `[!DNL Dynamic Media] Upgrade Program`E-Mail s7support@adobe.com).
+Wenden Sie sich mit der Betreffzeile [&#x200B; an Ihren Adobe](mailto:s7support@adobe.com)Kundenbetreuer oder `[!DNL Dynamic Media] Upgrade Program`E-Mail s7support@adobe.com).
 
 +++
 
@@ -218,7 +218,7 @@ Ja. Sie können Ihr eigenes CDN mit [!DNL Dynamic Media] verwenden.
 +++
 
 +++**Verfügt [!DNL Dynamic Media] über die Funktionen, die ich für ein Upgrade benötige? Welche Funktionen sind mit [!DNL Dynamic Media] auf [!DNL Experience Manager] Assets verfügbar?**
-Weitere Informationen finden [ auf ](/help/using/upgrade-feature-comparison.md) Seite „Funktionsvergleich“.
+Weitere Informationen finden [&#x200B; auf &#x200B;](/help/using/upgrade-feature-comparison.md) Seite „Funktionsvergleich“.
 
 +++
 
@@ -229,7 +229,7 @@ Kunden, die Folgendes benötigen, können weiterhin auf [!DNL Dynamic Media Clas
 * Bildvorlagen.
 * E-Kataloge.
 
-Weitere Informationen finden [ auf der Seite ](/help/using/upgrade-feature-comparison.md)Funktionsvergleich“.
+Weitere Informationen finden [&#x200B; auf der Seite &#x200B;](/help/using/upgrade-feature-comparison.md)Funktionsvergleich“.
 
 +++
 
@@ -271,6 +271,6 @@ Wenden Sie sich für benutzerdefinierte oder individuelle Schulungen an Ihren Ad
 ## Zusätzliche Ressourcen
 
 +++**Wo erhalte ich weitere Informationen über [!DNL Dynamic Media] und seine Funktionen?**
-Weitere Informationen zu [[!DNL Dynamic Media]  finden ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) auf [!DNL Dynamic Media]Microsite).
+Weitere Informationen zu [[!DNL Dynamic Media]  finden &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) auf [!DNL Dynamic Media]Microsite).
 
 +++

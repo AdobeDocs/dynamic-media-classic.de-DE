@@ -43,7 +43,7 @@ Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um
 
 Wenn Sie eine Bildvorgabe erstellen möchten (wenn Sie Administrator sind), klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Bildvorgaben]**. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**, um eine Bildvorgabe zu erstellen, oder klicken Sie auf **[!UICONTROL Bearbeiten]**, um eine vorhandene Bildvorgabe zu ändern.
 
-Die erstellte Bildvorgabe wird dem Menü Bildvorgabe auf der Seite Vorschau hinzugefügt. Sie können Ihre neue Bildvorgabe verwenden, um Bilder auf Ihren Websites und in Anwendungen dynamisch anzuzeigen. Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
+Die erstellte Bildvorgabe wird dem Menü Bildvorgabe auf der Seite Vorschau hinzugefügt. Sie können Ihre neue Bildvorgabe verwenden, um Bilder auf Ihren Websites und in Anwendungen dynamisch anzuzeigen. Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
 
 ## &#x200B;3. Vorschau von Bildvorgaben
 

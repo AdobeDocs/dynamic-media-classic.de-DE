@@ -73,7 +73,7 @@ Siehe [Angeben der für Media Portal-Benutzer verfügbaren Exportoptionen](speci
 
 Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen können die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden. 
 
-Siehe [Erstellen und Aktivieren von ](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Siehe [Erstellen und Aktivieren von &#x200B;](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## &#x200B;7. Erstellen von Metadaten-Vorgaben und benutzerdefinierten Metadatenfeldern
 
