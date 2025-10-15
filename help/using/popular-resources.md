@@ -18,14 +18,14 @@ ht-degree: 0%
 
 ## Technische Dokumentation zu Adobe Dynamic Media Classic
 
-* [Versionshinweise](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [Versionshinweise](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [Benutzerhandbuch](introduction.md)
 
 ## Adobe Dynamic Media Classic-Entwicklerressourcen
 
-* [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources)
 * [Viewer-Bibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [Image Serving- und Image Rendering-API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Image Serving- und Image Rendering-API](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classic-Newsletter, -Tutorials und -Webinare
 
@@ -42,6 +42,6 @@ ht-degree: 0%
 ## Adobe Dynamic Media Classic-Schulung
 
 Unter [hier](https://training.adobe.com/training/courses.html#product=adobe-scene7) finden Sie die Schulungen, die derzeit verfügbar sind.
-[Adobe Dynamic Media Classic-Schulungsvideos](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
+[Adobe Dynamic Media Classic-Schulungsvideos](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
 Hier finden Sie alle beliebten Ressourcen, die für [Adobe Dynamic Media Classic verfügbar &#x200B;](home.md).
