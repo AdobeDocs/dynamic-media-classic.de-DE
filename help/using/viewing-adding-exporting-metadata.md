@@ -39,7 +39,7 @@ Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailans
 
 Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü Metadatenansichten angezeigt.
 
-Informationen [ Erstellen von Metadatenansichten finden ](application-setup.md#metadata_views) unter „Metadatenansichten“.
+Informationen [&#x200B; Erstellen von Metadatenansichten finden &#x200B;](application-setup.md#metadata_views) unter „Metadatenansichten“.
 
 ## Manuelles Eingeben von Metadaten für ein Asset {#manually-enter-metadata-for-an-asset}
 

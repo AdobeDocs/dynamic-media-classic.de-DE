@@ -46,13 +46,13 @@ Siehe auch [Alias für ein Bild erstellen](adjusting-image.md#creating_an_alias_
    * Um das Bild als neues primäres Bild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
 
      Wählen Sie in der Dropdown-Liste **[!UICONTROL Als neue primäre Instanz speichern]** aus.
-Wählen **[!UICONTROL im Listenfeld]**Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
+Wählen **[!UICONTROL im Listenfeld]**&#x200B;Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
 Wählen Sie **[!UICONTROL Speichern]** aus.
 
    * So speichern Sie das Bild als eine andere Ansicht des Primärbilds. können Sie einen Alias erstellen. Wählen Sie **[!UICONTROL Speichern unter]**.
 
      Wählen Sie in der Dropdown-Liste im Dialogfeld **[!UICONTROL Speichern unter]** die Option **[!UICONTROL Als weitere Ansicht von Primär speichern]**.
-Wählen **[!UICONTROL im Listenfeld]**Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
+Wählen **[!UICONTROL im Listenfeld]**&#x200B;Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
 Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ## Erstellen eines Alias für ein Bild {#creating-an-alias-for-an-image}

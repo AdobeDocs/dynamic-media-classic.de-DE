@@ -84,9 +84,9 @@ Sie können ein Bild-Asset basierend auf seiner Bildvorgabe in der Vorschau anze
 
 Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen ändern die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren.
 
-Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
+Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
 
-Siehe [Erstellen und Aktivieren von ](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Siehe [Erstellen und Aktivieren von &#x200B;](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 **So zeigen Sie eine Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe an:**
 
