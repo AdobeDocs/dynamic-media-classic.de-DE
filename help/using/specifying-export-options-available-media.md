@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 42%
@@ -32,7 +32,7 @@ Siehe auch [Exportieren von Assets aus Adobe Dynamic Media Classic](exporting-as
 1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Bildvorgaben]**.
 1. Legen Sie im Fenster „Bildvorgaben“ die folgenden Optionen nach Bedarf fest:
 
-   * **Benutzerdefinierte Konversion aktivieren**: Wenn diese Option aktiviert ist, können Benutzende aus der Dropdown-Liste **[!UICONTROL Größe]** im Fenster „Ausgewählte Assets exportieren“ eine andere Option auswählen. Benutzer können dann eine Maßeinheit wie Pixel oder Zentimeter auswählen und dann die gewünschte Breite und Höhe angeben. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
+   * **Benutzerdefinierte Konversion aktivieren**: Wenn diese Option aktiviert ist, können Benutzende aus der Dropdown-Liste **[!UICONTROL Größe]** im Fenster „Ausgewählte Assets exportieren“ eine andere Option auswählen. Benutzer können dann eine Maßeinheit auswählen, z. B. Pixel oder Zentimeter, und dann die gewünschte Breite und Höhe angeben. Wenn sie diese Dateien exportieren oder herunterladen, werden die Bilddateien neu formatiert.
 
      Wenn **[!UICONTROL Pixel]** aus der Dropdown-Liste **[!UICONTROL Größe]** ausgewählt werden, darf die daraus resultierende Bildbreite × -höhe 100 Millionen Pixel nicht überschreiten. Diese Größe entspricht 10.000 × 10.000 Pixel für ein quadratisches Bild oder etwa 8.000 × 12.000 Pixel für ein Bild mit einem Seitenverhältnis von 2 x 3. Diese Größenbeschränkung gilt nicht für den Export von primären Originalbildern.
 

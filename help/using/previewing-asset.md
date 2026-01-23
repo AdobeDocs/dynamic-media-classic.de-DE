@@ -10,7 +10,7 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 12%
@@ -72,7 +72,7 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster Viewer-Liste visuel
 
    * Wählen Sie im Viewer-Listenfenster unter der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungs-Code]** aus.
 
-     Wenn Sie **[!UICONTROL Einbettungs-Code]** auswählen, wird das Fenster Einbettungs-Code geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in die Web-Seiten einfügen können.
+     Wenn Sie **[!UICONTROL Einbettungs-Code]** auswählen, wird das Fenster Eingebetteter Code geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in die Web-Seiten einfügen können.
 
      Schließen Sie die angezeigte Vorschau.
 
@@ -84,9 +84,9 @@ Sie können ein Bild-Asset basierend auf seiner Bildvorgabe in der Vorschau anze
 
 Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen ändern die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren.
 
-Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
+Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
 
-Siehe [Erstellen und Aktivieren von &#x200B;](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Siehe [Erstellen und Aktivieren von ](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 **So zeigen Sie eine Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe an:**
 

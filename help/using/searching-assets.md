@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -107,7 +107,7 @@ Führen Sie die folgenden Schritte aus, um Assets zu finden, indem Sie nach ihre
 
    Um einen von Ihnen erstellten und gespeicherten Filtervorgang auszuführen, wählen Sie **[!UICONTROL Vorgabe auswählen]** und wählen Sie dann im Menü den Namen des Vorgangs aus.
 
-   Siehe [Speichern, Wiederholen und Löschen von &#x200B;](searching-assets.md#saving_repeating_and_deleting_filter_operations).
+   Siehe [Speichern, Wiederholen und Löschen von ](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
 1. Klicken Sie **[!UICONTROL einem]** auf „Feld“ und befolgen Sie dann diese Anweisungen, um das Filtermenü anzuzeigen und den Filtervorgang zu erstellen:
 
@@ -155,15 +155,15 @@ Der Metadaten-Server ist eine öffentliche API, mit der Sie über HTTP-Anfragen 
 
 Wechseln Sie zum Konfigurieren des Metadaten-Servers zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Veröffentlichungseinstellungen]** > **[!UICONTROL Metadaten-Server]**.
 
-Auf der Seite „Veröffentlichung zum Metadaten-Server“ können Sie die folgenden Optionen festlegen:
+Auf der Seite „Metadaten-Server-Publisher“ können Sie die folgenden Optionen festlegen:
 
-* **[!UICONTROL Sofortige Veröffentlichung]**: Überträgt automatisch alle Metadatenänderungen, wenn sie vorgenommen werden, einschließlich neuer Assets, Schlüsselwortänderungen usw.
+* **[!UICONTROL Sofortige Veröffentlichung]**: Überträgt automatisch alle Metadatenänderungen, wenn sie vorgenommen werden, einschließlich neuer Assets, Keyword-Änderungen usw.
 
 * **[!UICONTROL XMP-]**: Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, bietet jedoch die aktuellste XMP.
 
 * **[!UICONTROL Keywords]**: Veröffentlicht Ihre Keywords auf dem Metadaten-Server zur Verwendung in Suchvorgängen.
 
-* **[!UICONTROL Veröffentlichungsfelder des Metadaten-Servers]**: Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. Mit dieser Option können Sie festlegen, wie viele Informationen über Ihre Assets der Öffentlichkeit zur Verfügung stehen. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
+* **[!UICONTROL Metadaten-Server-Veröffentlichungsfelder]**: Wählen Sie die Felder aus, die in die Metadaten aufgenommen werden sollen. Mit dieser Option können Sie festlegen, wie viele Informationen über Ihre Assets der Öffentlichkeit zur Verfügung stehen. Diese Felder werden auch in Metadatenansichten angezeigt, können jedoch nur auf dem Metadatenserver geändert werden.
 
 Wählen **[!UICONTROL Jetzt veröffentlichen]**, um den Auftrag zu starten. Eine Bestätigungsmeldung zeigt an, dass der Auftrag gestartet wurde.
 

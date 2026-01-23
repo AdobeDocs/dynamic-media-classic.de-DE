@@ -10,10 +10,10 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -47,13 +47,13 @@ Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten
 
 In der Regel zoomen Besucher Bilder auf einer Website, indem sie zunächst ein Zoom-Symbol auswählen (oft zeigt das Symbol das Bild einer Lupe). Wenn Sie dieses Symbol auswählen, wird eine dynamische Web-Seite (ASP oder JSP) gestartet, die das Bild in einem Popup-Fenster anzeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5 Basic Zoom Viewers im Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Eingebetteter HTML5-Standard](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)Zoom-Viewer im Adobe Viewer-Referenzhandbuch.
 
-## Kopieren der Einbettungskopie eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
+## Kopieren der eingebetteten Kopie eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausgewählten Zoom-Viewer überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Funktion für eingebetteten Code können Sie den Viewer-Code für den ausgewählten Zoom-Viewer überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**So kopieren Sie den Einbettungs-Code eines Zoom-Viewers:**
+**So kopieren Sie den eingebetteten Code eines Zoom-Viewers:**
 
 1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zum Asset-Ordner, der den Zoom-Viewer enthält, dessen Einbettungs-Code Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:

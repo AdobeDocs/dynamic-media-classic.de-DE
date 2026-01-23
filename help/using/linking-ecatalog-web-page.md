@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 23%
+source-wordcount: '672'
+ht-degree: 21%
 
 ---
 
@@ -48,13 +48,13 @@ Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten
 
 Die häufigste Methode zur Bereitstellung eines E-Katalogs besteht darin, auf Ihrer Web-Seite einen Link in Form einer E-Katalog-Miniaturansichtsseite zu platzieren. Vergewissern Sie sich, dass der E-Katalog im Browser in einem eigenen zentrierten Popup-Fenster angezeigt wird (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). In dem Fenster darf keine Symbol- und Adressleiste angezeigt werden.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5 eCatalog Viewers im Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Weitere Informationen und Codebeispiele finden Sie unter [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in der Adobe Viewers-Referenz.
 
-## Kopieren des Einbettungs-Codes eines E-Katalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
+## Kopieren des eingebetteten Codes eines E-Katalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für den ausgewählten E-Katalog überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Funktion für eingebetteten Code können Sie den Viewer-Code für den ausgewählten E-Katalog überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**So kopieren Sie den Einbettungs-Code eines E-Katalog-Viewers:**
+**So kopieren Sie den eingebetteten Code eines E-Katalog-Viewers:**
 
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Katalog]**.
 1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zu dem Asset-Ordner, der den E-Katalog enthält, dessen Einbettungs-Code Sie kopieren möchten.

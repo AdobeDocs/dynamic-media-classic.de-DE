@@ -9,10 +9,10 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1995'
-ht-degree: 29%
+source-wordcount: '1991'
+ht-degree: 30%
 
 ---
 
@@ -105,7 +105,7 @@ Sie können die folgenden Techniken zum Filtern von Benutzerlisten verwenden:
 
 * **Nach Benutzerrolle filtern**: Wählen Sie das Menü **[!UICONTROL Nach Benutzerrolle]** und wählen Sie eine Option aus, um die Liste auf Benutzer oder Administratoren unterschiedlichen Typs einzugrenzen.
 
-* **Filtern nach Feldname**: Wählen Sie **[!UICONTROL Filtern nach Feld aktivieren]** aus. Wählen Sie anschließend das Menü **[!UICONTROL Nach Feldname]**, wählen Sie eine Spalte zum Filtern der Liste aus, wählen Sie dann das Menü Zeichen filtern und wählen Sie einen Buchstaben aus. Die Liste wird nach dem ausgewählten Buchstaben in einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, heben Sie die Auswahl der Option **[!UICONTROL Filter nach Feld aktivieren]** auf.
+* **Filtern nach Feldname**: Wählen Sie **[!UICONTROL Filtern nach Feld aktivieren]** aus. Wählen Sie anschließend das Menü **[!UICONTROL Nach Feldname]**, wählen Sie eine Spalte zum Filtern der Liste aus, wählen Sie dann das Menü Zeichen filtern und wählen Sie einen Buchstaben aus. Die Liste wird nach dem ausgewählten Buchstaben in einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, heben Sie die Auswahl der Option **`Enable Filter By Field`** auf.
 
 * **Ungültige Benutzer herausfiltern**: Auswahl aufheben **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
 

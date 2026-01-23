@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '10899'
-ht-degree: 29%
+source-wordcount: '10892'
+ht-degree: 28%
 
 ---
 
@@ -103,7 +103,7 @@ Siehe auch [Testen des Secure Testing-](testing-assets-making-them-public.md#tes
   >
   >Wenn Sie Adobe Dynamic Media Classic nicht zum Hochladen und Kodieren Ihrer Video-Assets verwendet haben, zeigt Adobe Dynamic Media Classic alle Ihre individuellen kodierten Videos an, selbst wenn diese Option deaktiviert ist.
 
-* **[!UICONTROL Schaltfläche Unterordner aktualisieren]**: Aktivieren oder Deaktivieren der Anzeige der Schaltfläche Unterordner aktualisieren.
+* **[!UICONTROL Schaltfläche „Unterordner aktualisieren“ anzeigen]**: Schaltet die Anzeige der Schaltfläche „Unterordner aktualisieren“ ein oder aus.
 
 ### Adobe Dynamic Media Classic FTP-Konto
 
@@ -161,7 +161,7 @@ Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benu
 
 Wechseln Sie zum Öffnen des Bildschirms Bildvorgabe in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Bildvorgaben]**.
 
-Siehe [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Siehe [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Erstellen und Bearbeiten von Bildvorgaben {#creating-and-editing-image-presets}
 
@@ -213,7 +213,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Farbraum]**: Wählen Sie einen Farbraum aus.
 
-* **[!UICONTROL Scharfzeichnen]**: Wählen Sie die Option Einfaches Scharfzeichnen aktivieren aus, um einen einfachen Scharfzeichnungsfilter auf das Bild anzuwenden, nachdem die Skalierung abgeschlossen wurde. Wenn ein Bild in einer anderen Größe verschwommen angezeigt wird, kann dieser Effekt durch Scharfzeichnen kompensiert werden.
+* **[!UICONTROL Scharfzeichnen]**: Wählen Sie die Option **[!UICONTROL `Enable Simple Sharpening`]** aus, um einen einfachen Scharfzeichnungsfilter auf das Bild anzuwenden, nachdem die Skalierung abgeschlossen ist. Wenn ein Bild in einer anderen Größe verschwommen angezeigt wird, kann dieser Effekt durch Scharfzeichnen kompensiert werden.
 
   Weitere Informationen zum Scharfzeichnen, zum Resample-Modus und zur Unschärfemaske finden Sie unter [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image). Siehe auch [Scharfzeichnen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) Schulungsvideo.
 
@@ -237,7 +237,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Farbraum]**: Bestimmt, ob das Bild den Raum verwendet, in dem das Bild erstellt wurde, normalerweise RGB (Original) oder einen Luminanzraum (Intensität).
 
-* **[!UICONTROL Farbe]** Wählen Sie diese Optionen:
+* **[!UICONTROL Farbe]** Sie können die folgenden Optionen auswählen:
 
 * **[!UICONTROL Ausgabefarbprofil]**: Wählen Sie **[!UICONTROL Standard verwenden]** oder eines der in Adobe Dynamic Media Classic verfügbaren ICC-Farbprofile aus.
 
@@ -300,7 +300,7 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie in der rechten unteren Ecke 
 
    * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl :9- als auch :3-Videos für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-     Siehe [Adaptive Videokodierung (16:9 oder 4:3) &#x200B;](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Siehe [Adaptive Videokodierung (16:9 oder 4:3) ](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Einzelne Kodierungsvorgaben]**
 
@@ -436,7 +436,7 @@ Durch die Kombination von Folgendem in einen einzelnen Player:
 
 Sie erweitern die Reichweite Ihrer Rich-Media-Inhalte auf Desktop-, Tablet- und mobile Benutzer und stellen ein optimiertes Videoerlebnis sicher.
 
-Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe Viewers-Referenzhandbuch.
+Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe Viewers-Referenzhandbuch.
 
 Siehe Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben[.](application-setup.md#scene7_viewer_preset_compatibility_matrix)
 
@@ -450,7 +450,7 @@ Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.co
 
 Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite mit einem Link, über den der HTML5-Viewer in einem separaten Browserfenster geöffnet wird. In anderen Fällen ist es erforderlich, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall weist die Web-Seite wahrscheinlich ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die HTML5-Viewer, die mit Adobe Dynamic Media Classic geliefert werden, sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
 
-Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver &#x200B;](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Viewer-Vorgabentypen {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.co
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Versionshinweisen zu Viewern .
 
-Siehe [Adobe Viewers-Referenz - Versionshinweise](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
+Siehe [Adobe Viewers-Referenz - Versionshinweise](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -514,7 +514,7 @@ Siehe [Adobe Viewers-Referenz - Versionshinweise](https://experienceleague.adobe
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Musterset-Viewer |  |  |  |  |  |  |
+| Mustersets-Viewer |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
@@ -582,7 +582,7 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
   
 * **Viewer-Vorgabeliste filtern**: Verwenden Sie diese Tools, um die Liste zu filtern:
 
-      * Öffnen Sie die Dropdown&#x200B;**Liste „Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
+      * Öffnen Sie die Dropdown**Liste „Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
      * Öffnen Sie die **Viewer**-Dropdown-Liste und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]** aus, um alle Viewer anzuzeigen.
   
 * **Sortiervorgaben**: Wählen Sie eine Spaltenüberschrift aus (**[!UICONTROL Aktiv]**, **[!UICONTROL Typ]**, **[!UICONTROL Vorgabe]** oder **[!UICONTROL Plattform]**), um die Liste in einer Spalte zu sortieren. Wählen Sie ein zweites Mal eine Spaltenüberschrift aus, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren.
@@ -601,7 +601,7 @@ Neben dem Hinzufügen von Viewer-Vorgaben mit **[!UICONTROL Hinzufügen]** in de
 
 Siehe [Export von HTML5-Viewer-](application-setup.md#exporting_an_html5_viewer_preset).
 
-Siehe auch [Video &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
+Siehe auch [Video ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
 
 **So fügen Sie Viewer-Vorgaben hinzu und bearbeiten sie:**
 
@@ -713,13 +713,13 @@ Die URL wird in die Zwischenablage kopiert. Sie können sie nach Bedarf im HTML-
 
    Klicken Sie auf der Seite „Viewer-Liste“ unter der Spalte „Aktionen“ der Tabelle auf **[!UICONTROL URL kopieren]**.
 
-### Kopieren des Einbettungs-Codes einer Viewer-Vorgabe {#copying-the-embed-code-of-a-viewer-preset}
+### Kopieren des eingebetteten Codes einer Viewer-Vorgabe {#copying-the-embed-code-of-a-viewer-preset}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für die ausgewählte Viewer-Vorgabe überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können.
+Mithilfe der Funktion für eingebetteten Code können Sie den Viewer-Code für die ausgewählte Viewer-Vorgabe überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können.
 
 Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**So kopieren Sie den Einbettungs-Code einer Viewer-Vorgabe:**
+**So kopieren Sie den eingebetteten Code einer Viewer-Vorgabe:**
 
 1. Wählen Sie das Asset im Bedienfeld Asset-Durchsuchen aus.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
@@ -824,7 +824,7 @@ Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Ak
 
 >[!NOTE]
 >
->Damit benutzerdefinierte Felder im Metadaten-Bedienfeld in der Detailansicht angezeigt werden, schließen Sie benutzerdefinierte Felder in Metadatenansichten ein. Wählen Sie im Anzeigebereich „Metadaten-Ansichten“ die Option „UDF einschließen“. Weitere Informationen finden Sie unter [Metadaten-Ansichten](application-setup.md#metadata_views).
+>Damit benutzerdefinierte Felder im Metadaten-Bedienfeld in der Detailansicht angezeigt werden, schließen Sie benutzerdefinierte Felder in Metadatenansichten ein. Wählen Sie auf dem Bildschirm Metadatenansichten die Option **[!UICONTROL `Include UDF (user-defined fields)`] aus. Weitere Informationen finden Sie unter [Metadaten-Ansichten](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
@@ -903,7 +903,7 @@ Alle aktiven Stapelsatzvorgaben für ein Unternehmen werden im Dialogfeld Upload
 
 ### Standardbenennung {#default-naming}
 
-Der Unternehmensadministrator erstellt eine Standardnamenskonvention, die in jedem Rezept für Stapelsatzvorgaben verwendet wird. Die in der Definition der Stapelsatzvorgabe ausgewählte Standardnamenskonvention kann alles sein, was Ihr Unternehmen für die Batch-Generierung von Sätzen für alle Websites benötigt. Eine Stapelsatzvorgabe wird erstellt, um die von Ihnen definierte Standardnamenskonvention zu verwenden. Sie können beliebig viele Stapelsatzvorgaben mit alternativen, benutzerdefinierten Benennungskonventionen erstellen, die für einen bestimmten Satz von Inhalten erforderlich sind, wenn eine Ausnahme von der im Unternehmen definierten Standardbenennung besteht.
+Der Unternehmensadministrator erstellt eine Standardnamenskonvention, die in jedem Rezept für Stapelsatzvorgaben verwendet wird. Die in der Definition der Stapelsatzvorgabe ausgewählten Standardnamenskonventionen sind möglicherweise alles, was Ihr Unternehmen benötigt, um Sets für alle Websites im Batch zu generieren. Ein `Batch Set Preset` wird erstellt, um die von Ihnen definierte Standardnamenskonvention zu verwenden. Sie können beliebig viele Stapelsatzvorgaben mit alternativen, benutzerdefinierten Benennungskonventionen erstellen, die für einen bestimmten Satz von Inhalten erforderlich sind, wenn eine Ausnahme von der im Unternehmen definierten Standardbenennung besteht.
 
 Die Einrichtung einer Standardnamenskonvention ist nicht erforderlich, um die Funktionalität der Stapelsatzvorgaben zu verwenden. Adobe empfiehlt jedoch, eine Standardnamenskonvention zu verwenden, um so viele Elemente Ihrer Namenskonvention zu definieren, wie Sie in einem Satz gruppieren möchten. Dies hilft, die Erstellung von Stapelsätzen zu optimieren.
 
@@ -983,7 +983,7 @@ Mit diesen Informationen kann Ihr Stapelsatztyp-Rezept wie folgt erstellt werden
 
 Die Gruppierung für den Teil des freigegebenen Asset-Namens des Rotationssets wird dem Feld Übereinstimmung hinzugefügt (wie hervorgehoben). Der variable Teil des Asset-Namens, der die Zeile und Spalte enthält, wird den Feldern Zeile bzw. Spalte hinzugefügt.
 
-Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den Namen des 2D-Rotationsset-Rezepts, der unter **[!UICONTROL Stapelsatzvorgaben)]** Dialogfeld Upload-Auftragsoptionen aufgeführt ist.
+Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den Namen des Rezepts für das 2D-Rotationsset, der unter **[!UICONTROL Stapelsatzvorgaben)]** Dialogfeld Upload-Auftragsoptionen aufgeführt ist.
 
 **So erstellen Sie eine Stapelsatzvorgabe für die automatische Erstellung eines 2D-Rotations-Sets:**
 

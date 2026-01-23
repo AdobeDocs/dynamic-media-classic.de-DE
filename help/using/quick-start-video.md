@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 Adobe Dynamic Media Classic Video ist eine End-to-End-Lösung, mit der Sie hochwertige adaptive Videos für das Streaming auf mehreren Bildschirmen veröffentlichen können, einschließlich Desktop-Geräten, iOS, Android™, BlackBerry® und Windows®-Mobilgeräten. Bei adaptiven Videosets werden Versionen desselben Videos gruppiert, die in unterschiedlichen Bitraten und Formaten kodiert sind, z. B. mit 400 Kbit/s, 800 Kbit/s und 1000 Kbit/s. Der Desktop-Computer oder das Mobilgerät erkennt die verfügbare Bandbreite.
 
-Zum Beispiel werden auf einem iOS-Mobilgerät Bandbreiten wie 3G, 4G oder Wi-Fi erkannt. Anschließend wird unter den verschiedenen Video-Bitraten innerhalb des adaptiven Videosets automatisch das richtig kodierte Video ausgewählt. Das Video wird auf Desktops, Mobilgeräte und Tablets gestreamt.
+Auf einem iOS-Mobilgerät wird beispielsweise eine Bandbreite wie 3G, 4G oder WLAN erkannt. Anschließend wird unter den verschiedenen Video-Bitraten innerhalb des adaptiven Videosets automatisch das richtig kodierte Video ausgewählt. Das Video wird auf Desktops, Mobilgeräte und Tablets gestreamt.
 
 Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Wenn darüber hinaus ein Kunde den Vollbildmodus an einem Desktop aktiviert, reagiert das adaptive Videoset, indem eine bessere Auflösung verwendet wird, um das Anzeigeerlebnis des Kunden zu verbessern. Adaptive Videosets bieten Ihnen bestmögliche Wiedergabe. Dies eignet sich am besten für Kunden, die Adobe Dynamic Media Classic-Videos auf mehreren Bildschirmen und Geräten wiedergeben.
 
@@ -33,7 +33,7 @@ Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für d
    1. Der Player wählt den höchsten Bandbreitenstrom aus, der kleiner oder gleich der geschätzten Bandbreite ist.
    1. Player berücksichtigt nur 80 % der verfügbaren Bandbreite. Wenn er jedoch nach oben wechselt, ist er mit nur 70 % konservativer, um Überschätzungen zu vermeiden und sofort zurückzuwechseln.
 
-Technische Informationen finden Sie in der Algorithmuslogik unter [0&rbrace;https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp&quot;.](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)
+Technische Informationen finden Sie in der Algorithmuslogik unter [0}https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp&quot;.](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)
 
 Für die Verwaltung von Einzelvideos und adaptiven Videosets unterstützt Adobe Dynamic Media Classic Folgendes:
 
@@ -60,7 +60,7 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
   Adaptives Video-Streaming wird auf verschiedenen iOS-Plattformen unterstützt.
 
-  Die neueste Unterstützung finden Sie im [Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
+  Die neueste Unterstützung finden Sie im [Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -110,7 +110,7 @@ Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading
 
 Adobe Dynamic Media Classic bietet zahlreiche vordefinierte Videokodierungsvorgaben. Diese vordefinierten Vorgaben entsprechen den gängigsten Videokodierungseinstellungen, die heute verwendet werden, und sind für die Wiedergabe auf Zielseiten optimiert.
 
-Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;**&#x200B;**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;****&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
 
 Siehe [Arbeiten mit Videocodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
@@ -144,15 +144,15 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
   >
   >URLs werden erst aktiv, nachdem Sie das Video oder das adaptive Videoset veröffentlicht haben.
 
-* Zeigen Sie das auf der Web-Seite eingebettete Video an. Verwenden Sie in diesem Fall die Funktion **[!UICONTROL Einbettungs-Code]**.
+* Zeigen Sie das auf der Web-Seite eingebettete Video an. Verwenden Sie in diesem Fall die Funktion „Eingebetteter Code“.
 
-  Um den Einbettungs-Code für ein Video abzurufen, wählen Sie in der Rasteransicht oder Listenansicht das Video im Durchsuchen-Panel aus. Navigieren Sie **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle **[!UICONTROL Einbettungs-Code]** rechts von `Universal_HTML5_Video` aus. Das Bearbeiten des Codes ist nicht zulässig.
+  Um den eingebetteten Code für ein Video abzurufen, wählen Sie in der Rasteransicht oder Listenansicht das Video im Durchsuchen-Panel aus. Navigieren Sie **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**. Wählen Sie in der Spalte Aktionen der Tabelle **[!UICONTROL Einbettungs-Code]** rechts von `Universal_HTML5_Video` aus. Das Bearbeiten des Codes ist nicht zulässig.
 
-  Wählen Sie **[!UICONTROL Schließen]** und fügen Sie den Einbettungs-Code in eine oder mehrere Ihrer Web-Seiten ein.
+  Wählen Sie **[!UICONTROL Schließen]** und fügen Sie den eingebetteten Code in eine oder mehrere Ihrer Web-Seiten ein.
 
   >[!NOTE]
   >
-  >Der Einbettungs-Code wird erst aktiviert, nachdem Sie das Video oder adaptive Videoset veröffentlicht haben.
+  >Der eingebettete Code wird erst aktiviert, nachdem Sie das Video oder adaptive Videoset veröffentlicht haben.
 
 Siehe [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 

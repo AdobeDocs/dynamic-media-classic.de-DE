@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 27%
@@ -27,11 +27,11 @@ Stellen Sie sicher, dass Sie eine Ordnerstruktur und eine Organisation zum Speic
 
 In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird sein Inhalt im Durchsuchen-Bedienfeld angezeigt. Zum Suchen von Ordnern im Ordnerbaum haben Sie folgende Möglichkeiten:
 
-* **Unterordner anzeigen**: Wählen Sie das Symbol **[!UICONTROL Ordner erweitern]** aus, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Unterordner anzeigen**: Wählen Sie das Symbol **[!UICONTROL Erweiterter Ordner]** aus, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
 * **Ordner verschieben**: Sie können einen Ordner verschieben, indem Sie ihn an den neuen Speicherort ziehen und dort ablegen, oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]**.
 
-* **Ordner ausblenden**: Wählen Sie das Symbol **[!UICONTROL Ordner ausblenden]** aus, wenn Sie Unterordner ausblenden möchten. Dieses Symbol wird links neben den Ordnernamen angezeigt.
+* **Ordner ausblenden**: Wählen Sie das Symbol **[!UICONTROL Reduzierter Ordner]** aus, wenn Sie Unterordner reduzieren möchten, um sie vor der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
 * **Ordner öffnen**: Wählen Sie einen Ordner aus, wenn sein Inhalt im Durchsuchen-Panel angezeigt werden soll.
 

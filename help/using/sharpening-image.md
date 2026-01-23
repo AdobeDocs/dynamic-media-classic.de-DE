@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -59,7 +59,7 @@ Die folgende Tabelle zeigt die Scharfzeichnungsoptionen des Image-Servers.
 | --- | --- | --- | --- |
 | Einfaches Scharfzeichnen | `op_sharpen` | `0` oder `1` | `op_sharpen=1` |
 | Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind häufig auffällig.<br>`bicub`: Wählt die bikubische Interpolation. CPU-intensiver als `bilin`, liefert jedoch schärfere Bilder mit weniger auffälligen Alias-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Es kann zu einem höheren CPU-Preis etwas schärfere Ergebnisse als bikubisch erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, bei der, sofern verfügbar, sowohl höhere als auch niedrigere Auflösungen verwendet werden. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
-| Unschärfemaske | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: Filterstärkefaktor (real 0…5)<br><br>`radius`: Filterkernradius in Pixel (real 0…250) <br><br>`threshold`: Filterschwellenwert (int 0…255)<br><br>`monochrome`: `0` auf Unschärfemaske setzen, um jede Farbkomponente separat zu maskieren, `1` auf Unschärfemaske Bildhelligkeit (Intensität) setzen | `op_usm=1,1,10,0` |
+| Unschärfemaske | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: Filterstärkefaktor (real 0…5)<br><br>`radius`: Filterkernradius in Pixeln (real 0…250) <br><br>`threshold`: Filterschwellenwert (ganze Zahl 0…255)<br><br>`monochrome`: Auf `0` gesetzt, um jede Farbkomponente separat zu maskieren, auf `1` gesetzt, um Unschärfemaske Bildhelligkeit (Intensität) | `op_usm=1,1,10,0` |
 
 Wählen Sie das **[!UICONTROL Scharfzeichnen]** und wählen Sie eine Option aus:
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 32%
@@ -89,7 +89,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually-
 
 **So bearbeiten Sie ein Rotationsset:**
 
-1. Wählen Sie die Rollover-Schaltfläche **[!UICONTROL Bearbeiten]** des Rotationssets aus.
+1. Wählen Sie die Rollover-Schaltfläche (Bearbeiten **[!UICONTROL des]** aus.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * **Entfernen von Bildern**: Wählen Sie das Bild aus und klicken Sie dann auf **[!UICONTROL Löschen]**.

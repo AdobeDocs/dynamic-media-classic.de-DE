@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -54,11 +54,11 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 Beachten Sie in diesem Beispiel mit URL-Syntax (der Link ist nicht live) eine SKU-Nummer ( `sku=backpack_spin`). Die Zeichenfolge nach `sku=` ist der Name des Rotationssets ( `backpack spin`).
 
-## Kopieren des Einbettungs-Codes eines Rotationsset-Viewers {#copying-the-embed-code-of-a-spin-set-viewer}
+## Kopieren des eingebetteten Codes eines Rotationsset-Viewers {#copying-the-embed-code-of-a-spin-set-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte Rotationsset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mithilfe der Funktion für eingebetteten Code können Sie den Viewer-Code für das ausgewählte Rotationsset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**So kopieren Sie den Einbettungs-Code eines Rotationsset-Viewers:**
+**So kopieren Sie den eingebetteten Code eines Rotationsset-Viewers:**
 
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Rotationsset]** aus.
 1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zum Asset-Ordner, der das Rotationsset enthält, dessen Einbettungs-Code Sie kopieren möchten.

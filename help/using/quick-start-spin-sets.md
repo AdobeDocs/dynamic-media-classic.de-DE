@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 18%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 22%
 
 Mit einem Rotationsset wird simuliert, wie man ein reales Objekt dreht, um es von allen Seiten betrachten zu können. Rotationssets ermöglichen die Anzeige von Objekten aus einem beliebigen Blickwinkel, um seine wichtigsten visuellen Eigenschaften zu erfassen. Ein Rotationsset simuliert eine 360°-Rundumansicht des Objekts. Adobe Dynamic Media Classic bietet eindimensionale Rotationssets, in denen Betrachter ein Element drehen können, und zweidimensionale Rotationssets, in denen Betrachter das Element drehen und spiegeln können. Darüber hinaus können Benutzer mit nur wenigen Mausklicks jede Ansicht frei zoomen und schwenken. Auf diese Weise können Benutzer ein Objekt näher und aus einer bestimmten Perspektive betrachten.
 
-![Bilder für ein Rotationsset.](/help/using/assets/spin_set.png)
+![Bilder für ein Rotationsset](/help/using/assets/spin_set.png)
 
-Rotationssets akzeptieren auch Imagemaps. Eine Imagemap ist ein Bereich auf einem Bild in einem Rotationsset, mit dessen Hilfe ein Rollover-Bedienfeld mit Text angezeigt werden kann. Wenn der/die Benutzende eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise wird eine Web-Seite gestartet, auf der Benutzende mehr über ein Produkt erfahren können. Um auf eine Imagemap in einem Rotationsset hinzuweisen, wird ein Umriss um die Imagemap selbst angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
+Für Rotationssets können auch Imagemaps akzeptiert werden. Eine Imagemap ist ein Bereich auf einem Bild innerhalb des Rotationssets, der ein Rollover-Bedienfeld mit Text anzeigt. Wenn der/die Benutzende eine Imagemap auswählt, wird eine Aktion irgendeiner Art ausgelöst. Beispielsweise wird eine Web-Seite gestartet, auf der Benutzende mehr über ein Produkt erfahren können. Um auf eine Imagemap in einem Rotationsset hinzuweisen, wird ein Umriss um die Imagemap selbst angezeigt, wenn der Benutzer den Mauszeiger darüber bewegt.
 
 Siehe [Erstellen von Imagemaps](creating-image-maps.md).
 
@@ -37,7 +37,7 @@ Beim Erstellen eines Rotationssets empfiehlt Adobe die folgenden Best Practices 
 
 Siehe auch [Grenzwerte für Dynamic Media](/help/using/limitations.md).
 
-Dieser Schnellstart für Rotationssets soll Ihnen den schnellen Einstieg in die Verwendung mit Rotationssettechniken in Adobe Dynamic Media Classic erleichtern. Führen Sie die Schritte 1 bis 7 aus. Am Ende jedes Schritts können Sie einen Themen-Link auswählen, um mehr zu erfahren.
+Diese Kurzanleitung soll Ihnen den schnellen Einstieg in die Verwendung von Rotationssettechniken in Adobe Dynamic Media Classic erleichtern. Führen Sie die Schritte 1 bis 7 aus. Am Ende jedes Schritts können Sie einen Themen-Link auswählen, um mehr zu erfahren.
 
 ## &#x200B;1. Erstellen und Hochladen der Bilder
 

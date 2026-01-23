@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1673'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 21%
 
 Sie veröffentlichen Ihre Assets auf Dynamic Media-Bildservern. Sie können Assets einmalig veröffentlichen oder veranlassen, dass Adobe Dynamic Media Classic Assets wiederholt veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
-Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern und ermöglicht schnellere Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern und ermöglicht schnellere Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Nach dem Hochladen veröffentlichen {#publish-after-uploading}
 
@@ -100,7 +100,7 @@ Sie können die erweiterten Optionen auf der Seite „Veröffentlichen“ anzeig
 
 **[!UICONTROL HTTP-Benachrichtigung]**: Geben Sie eine URL ein, um nachfolgende Veröffentlichungsaufträge in den Trigger aufzunehmen.
 
-Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger &#x200B;](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
+Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
 ## Abbrechen von Veröffentlichungsaufträgen {#canceling-a-publish-job}
 

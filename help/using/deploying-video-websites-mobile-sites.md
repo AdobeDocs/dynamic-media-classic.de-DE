@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 23%
@@ -73,9 +73,9 @@ Siehe auch [Einbetten des Video-Viewers auf einer Web-Seite](deploying-video-web
 
 1. Fügen Sie die HTML5 Video-URL auf Ihrer Website und Ihrer mobilen Site ein.
 
-## Einbetten des Video-Viewers auf einer Web-Seite {#embedding-the-video-viewer-on-a-web-page}
+## Hinzufügen des Video-Viewers auf einer Web-Seite {#embedding-the-video-viewer-on-a-web-page}
 
-Verwenden Sie die Funktion Einbettungs-Code , wenn Sie das auf der Web-Seite eingebettete Video wiedergeben möchten. Sie kopieren den Einbettungs-Code in die Zwischenablage, damit Sie ihn in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Verwenden Sie die Funktion „Eingebetteter Code“, wenn Sie das auf der Web-Seite eingebettete Video wiedergeben möchten. Sie kopieren den eingebetteten Code in die Zwischenablage, damit Sie ihn in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder einer Website](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -103,7 +103,7 @@ Siehe auch [Verknüpfen einer Video-URL mit einer mobilen Site oder einer Websit
    Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 1. Wählen Sie **[!UICONTROL Schließen]** aus.
-1. Fügen Sie den Einbettungs-Code in Ihre Web-Seiten ein.
+1. Fügen Sie den eingebetteten Code in Ihre Web-Seiten ein.
 
 ### Implementieren von Einbettungs-Code für die Verwendung von HTML5-Videos mit MP4-Video-Assets {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -187,7 +187,7 @@ Sie können auch Bildmodifikatoren auf das Standbild anwenden. Sie können das S
 
 Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Siehe [Image Serving Guide](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Siehe [Image Serving Guide](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Sie können auch Videominiaturen bearbeiten, indem Sie Modifikatoren an die Videominiatur-URLs anhängen.
 

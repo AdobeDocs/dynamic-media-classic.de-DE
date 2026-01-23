@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 21%
@@ -45,7 +45,7 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-](application-setup.md#adding_and_e
 
 ## Arbeiten mit Video-Viewer-Vorgaben {#working-with-video-viewer-presets}
 
-Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Viewer aufweist, wie er aussieht und wie seine Wiedergabe-Steuerelemente funktionieren, hängt von der Viewer-Vorgabe ab, die Sie für die Videowiedergabe auswählen. Sie wählen eine Viewer-Vorgabe im Anzeigebereich „Vorschau“ aus. Nachdem Sie eine Vorgabe ausgewählt haben, können Sie die URL oder den Einbettungs-Code für die Wiedergabe des Videos mit der von Ihnen ausgewählten Viewer-Vorgabe abrufen.
+Die Benutzer sehen die Videos im Video-Viewer an. Welches Verhalten der Video-Viewer aufweist, wie er aussieht und wie seine Wiedergabe-Steuerelemente funktionieren, hängt von der Viewer-Vorgabe ab, die Sie für die Videowiedergabe auswählen. Sie wählen eine Viewer-Vorgabe im Anzeigebereich „Vorschau“ aus. Nachdem Sie eine Vorgabe ausgewählt haben, können Sie die URL oder den eingebetteten Code für die Wiedergabe des Videos mit der von Ihnen ausgewählten Viewer-Vorgabe abrufen.
 
 Adobe Dynamic Media Classic verfügt über viele vordefinierte Viewer-Vorgaben für die Videowiedergabe. Wenn Sie Administrator sind, können Sie benutzerdefinierte Viewer-Vorgaben erstellen. Es gibt mehr als 12 verschiedene Einstellungen zum Konfigurieren des Video-Viewers. Sie können Größe, Farbe, Video- und Audio-Steuerelemente, Fortschrittsleiste, Skin der Benutzeroberfläche und Funktionen für soziale Netze konfigurieren.
 

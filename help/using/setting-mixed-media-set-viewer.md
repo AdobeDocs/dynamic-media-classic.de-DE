@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 20%
+source-wordcount: '614'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 Viewer-Vorgaben für gemischte Mediensets bestimmen den Stil, das Verhalten und das Aussehen Ihres Hauptviewers. Sie geben beim Konfigurieren einer Vorgabe an, welche anderen Viewer innerhalb eines gemischten Medienset-Viewers angezeigt werden sollen. Wenn Sie beispielsweise ein Bildset in Ihr gemischtes Medienset aufgenommen haben, geben Sie eine Bildset-Viewer-Vorgabe für den Viewer für das gemischte Medienset an.
 
-Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Viewer hinzufügen. Mit der Einbettungsfunktion wird dem Viewer ein Link hinzugefügt, mit dem Benutzer den Code kopieren können, der zum Anzeigen des Viewers auf einer externen Seite (z. B. einem Blog, einer Website oder einer Social-Media-Site) erforderlich ist. Mit der Funktion „Verknüpfen“ wird dem Viewer die URL zur Verfügung gestellt, mit der Benutzer eine Verknüpfung zum Viewer erstellen können. Die Besuchsfunktion enthält einen Link zur angegebenen Website.
+Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Viewer hinzufügen. Mit der Einbettungsfunktion wird dem Viewer ein Link hinzugefügt, mit dem Benutzer den Code kopieren können, der zum Anzeigen des Viewers auf einer externen Seite (z. B. einem Blog, einer Website oder einer Social-Media-Site) erforderlich ist. Mit der Funktion „Verknüpfen“ wird dem Viewer die URL zur Verfügung gestellt, mit der Benutzer eine Verknüpfung zum Viewer erstellen können. Die Funktion Besucht enthält einen Link zur angegebenen Website.
 
 1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie auf der Seite „Viewer-Vorgaben“ einen der folgenden Schritte aus:
@@ -50,7 +50,7 @@ Sie können alle oder bestimmte Community-Funktionen zum gemischten Medienset-Vi
    * Um eine Vorgabe aus der Liste zu löschen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
    * Um die Vorgaben in der Liste neu anzuordnen, wählen Sie eine Vorgabe aus und klicken Sie dann auf den blauen **[!UICONTROL Nach oben]** oder **[!UICONTROL Nach unten]** Pfeil.
 
-1. Um Community-Funktionen zum Viewer hinzuzufügen (Einbetten, Verknüpfen oder Zur Website), wählen Sie die Optionen für die folgenden Punkte aus:
+1. Um Community-Funktionen (Einbettung, Link, Besucht) zum Viewer hinzuzufügen, geben Sie Optionen für eine der folgenden Aktionen an:
 
    * **E-**: Wählen Sie **[!UICONTROL Ein]** aus, um eine E-Mail-Schaltfläche im Viewer zu aktivieren. Wenn Benutzende während der Anzeige des Sets auf die Schaltfläche E-Mail klicken, wird eine E-Mail mit dem Link zum Set geöffnet.
 

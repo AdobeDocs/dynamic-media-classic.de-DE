@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '3858'
+source-wordcount: '3856'
 ht-degree: 25%
 
 ---
@@ -26,7 +26,7 @@ Stellen Sie vor dem Hochladen von Assets in Adobe Dynamic Media Classic sicher, 
 
 ### Unterstützte Asset-Dateiformate {#supported-asset-file-formats}
 
-In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html).
+In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Asset-Dateiformate | Beschreibung |
 | --- | --- |
@@ -272,7 +272,7 @@ Siehe auch [Hochladen von Keywords](https://s7d5.scene7.com/s7viewers/html5/Vide
 * **Stapelsatzvorgaben**: Um ein Bildset, Rotationsset oder Musterset aus den hochgeladenen Dateien zu erstellen, wählen Sie die Spalte **[!UICONTROL Aktiv]** für die gewünschte Vorgabe aus. Sie können mehrere Vorgaben auswählen. Sie können die Vorgaben auf der Seite „Anwendungseinstellungen/Stapelsatzvorgaben“ erstellen.
 Siehe [Stapelsatzvorgaben](application-setup.md#batch_set_presets).
 
-* **Erweitert**: Siehe [Hochladen mit einem anderen Auftrag &#x200B;](uploading-files.md#follow-an-upload-with-another-job).
+* **Erweitert**: Siehe [Hochladen mit einem anderen Auftrag ](uploading-files.md#follow-an-upload-with-another-job).
 
 ## Starten eines weiteren Auftrags im Anschluss an einen Upload-Auftrag {#follow-an-upload-with-another-job}
 
@@ -291,11 +291,11 @@ Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adress
    * HTTP-Anfrage
    * Veröffentlichung zum Image-Server
    * Mit Image Rendering veröffentlichen
-   * Videoveröffentlichung
+   * `Video Publish`
 
 1. Geben Sie die HTTP-Adresse an.
 1. Geben Sie an, ob nur ausgeführt werden soll, wenn Dateien hochgeladen wurden.
-1. Geben Sie an, ob die Anfrage jedes Mal nach Abschluss eines Auftrags oder nur nach der Veröffentlichung von Dateien ausgeführt werden soll.
+1. Geben Sie an, ob Sie diese Anfrage jedes Mal ausführen möchten, wenn dieser Vorgang abgeschlossen ist, oder nur, wenn Dateien veröffentlicht werden.
 
    >[!NOTE]
    >
@@ -305,4 +305,4 @@ Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adress
 >
 >* [Arbeiten mit Asset-Ordnern](asset-folders.md#working_with_asset_folders)
 >* [Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger &#x200B;](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)

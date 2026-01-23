@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können den Imagemap-Text für Ihre Rollover in E-Katalogen verwenden. Darü
 
 Sie können Ihre InfoPanel-Einrichtung und -Daten mithilfe der folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
-* Im Bedienfeld „InfoPanel-Einrichtung“ können Sie die Vorlage für die Anzeige des Textes im InfoPanel, eine Standardantwort bei Fehlern und die Anzahl der Stunden, in denen die Informationen zwischengespeichert werden, angeben. Zusätzlich können Sie festlegen, ob der E-Katalog automatisch veröffentlicht werden soll.
+* Im Bedienfeld „InfoPanel-Einrichtung“ können Sie die Vorlage für die Anzeige des Textes im InfoPanel, eine Standardantwort bei Fehlern und die Anzahl der Stunden, in denen die Informationen zwischengespeichert werden, angeben. Darüber hinaus können Sie festlegen, ob die E-Kataloge automatisch veröffentlicht werden sollen.
 * Im Bedienfeld InfoPanel-Datenfeed können Sie eine CSV-Datei angeben, die den Text enthält, der im InfoPanel-Rollover-Text angezeigt werden soll, und Zeiten für die Aktualisierung der Informationen planen.
 * Das Dialogfeld „Metadaten importieren“ (das über die Ansicht „Seiten zuordnen“ aufgerufen wird) ermöglicht den Import einer durch Tabulatoren getrennten TXT-Datei mit den Rollover-Textinformationen. Sie können diese TXT-Option für das Bedienfeld „Daten-Feed“ mit der CSV-Datei-Option für Ihren Rollover-Text verwenden.
 * Die Seitenansicht „Zuordnen“ bietet eine Option für die Vorschau des XML-Codes, der für bestimmte Imagemaps angezeigt wird.

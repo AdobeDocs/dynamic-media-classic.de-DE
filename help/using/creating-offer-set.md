@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1232'
 ht-degree: 21%
 
 ---
@@ -100,7 +100,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wählen Sie optional ein Bild oder Video aus und klicken Sie auf **[!UICONTROL Vorschau]**. Auf der Seite Angebotsvorschau können Sie die Größe und das Erscheinungsbild des ausgewählten Bildes oder Videos ändern. Sie können auch alle Bilder oder Videos im Angebotsset ändern.
 
    * Wählen Sie eine Vorlage aus, um Ansicht und Größe des Bildes oder Videos zu verändern.
-   * Um die von Ihnen ausgewählte Voreinstellung auf alle Angebote im Angebotsset anzuwenden, aktivieren Sie das Kontrollkästchen **[!UICONTROL Voreinstellungen auf alle]** auswählen“.
+   * Aktivieren Sie das Kontrollkästchen **`Select Presets to All`** , um die ausgewählte Voreinstellung auf alle Angebote im Angebotsset anzuwenden.
 
    Klicken Sie **[!UICONTROL Speichern]**, um Ihre Änderungen am Bild- oder Videoangebot zu speichern. Wählen Sie anschließend **[!UICONTROL Schließen]**, um zur Seite „Test&amp;Target-Angebotssatz“ zurückzukehren.
 

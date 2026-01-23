@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ Sie können Assets in verschiedene Ordner im Durchsuchen-Panel verschieben.
 1. Wählen Sie das Asset bzw. die Assets im Durchsuchen-Bedienfeld aus und führen Sie einen der folgenden Schritte aus:
 
    * Zeigen Sie den Ordner an, in den Sie die Assets verschieben möchten, und ziehen Sie die Assets in den Ordner.
-   * Wechseln Sie **[!UICONTROL Datei]** > **[!UICONTROL Verschieben]**, wählen Sie im Fenster Assets verschieben einen Ordner aus und klicken Sie auf **[!UICONTROL Verschieben]**.
+   * Gehen Sie **[!UICONTROL Datei]** > **`Move`**, wählen Sie einen Ordner im `Move Assets` aus und klicken Sie auf **`Move`**.
 
 ## Umbenennen von Assets {#rename-assets}
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ Siehe [Vorschau eines Assets](previewing-asset.md#previewing_an_asset).
 
 **Vorschau von E-Katalogen im E-Katalog-Viewer:**
 
-1. Wählen Sie auf der linken Seite der Asset-Bibliothek in der Dropdown-Liste „Anzeigen“ einen videobasierten Asset-Typ, z. B. „Video“ oder „Videoset“.
+1. Wählen Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite in der Dropdown-Liste „Anzeigen“ einen videobasierten Asset-Typ aus, z. B. „Video“ oder „Videoset“.
 1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu den Asset-Ordnern, die Videos enthalten, die Sie mit einem E-Katalog-Viewer in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 

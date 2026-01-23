@@ -10,9 +10,9 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '632'
 ht-degree: 40%
 
 ---
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic empfiehlt die folgenden Parameter für ausfliegende 
    Auf der Seite Vorschau wird der Viewer angezeigt, während Sie die Einstellungen aktualisieren und ändern.
 
 1. Wählen Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter]**.
-1. Überprüfen Sie auf der Seite „Viewer-Vorgaben“ die von Ihnen erstellte Viewer-Vorgabe für Zoom oder Geführter Zoom. Wenn Anpassungen erforderlich sind, wählen Sie **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen auf der `Configure Viewer` Seite und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Überprüfen Sie auf der Seite „Viewer-Vorgaben“ die von Ihnen erstellte Viewer-Vorgabe für Zoom oder Geführter Zoom. Wenn Sie die Einstellung anpassen müssen, klicken Sie auf **[!UICONTROL Bearbeiten]**, ändern Sie die Einstellungen auf der `Configure Viewer` Seite und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 Informationen zum Verwalten von Viewer-Vorgaben im Anzeigebereich „Viewer-Vorgaben“ finden Sie unter [Viewer-Vorgaben](application-setup.md#viewer_presets).
 

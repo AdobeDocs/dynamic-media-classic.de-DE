@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1236'
 ht-degree: 18%
 
 ---
@@ -93,7 +93,7 @@ In der folgenden Tabelle werden Adobe Dynamic Media Classic-Variablen beschriebe
 | viewerId | Eine beliebige Zahl, die den verschiedenen Viewertypen zugeordnet wird. |
 | pageLabel | Die Seite, die von einem Viewer in E-Katalogen angezeigt wird. |
 | label | Der Beschriftungswert (eine Zeichenfolge). |
-| frame | Die Seite oder Seitenreferenz in einem Bildset. |
+| frame | Die Seite oder Seite, auf die in einem Bildset verwiesen wird. |
 | rollover_keyRaw | Der gesamte HREF-Wert, nicht nur ein verarbeiteter Teil davon. |
 | rollover_keyProc | Die ID eines Elements, auf das in einer Imagemap verwiesen wird (gültig für Href- und Elementereignisse). |
 | searchTerm | Ein Begriff, der bei der Suche in E-Katalogen verwendet wird. |

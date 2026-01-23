@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ Die Optimierung der Bildqualität kann viel Zeit in Anspruch nehmen. Viele Fakto
 
 Adobe Dynamic Media Classic umfasst mehr als 100 Bildbereitstellungsbefehle zum Optimieren und Optimieren von Bildern und zum Rendern von Ergebnissen. Die folgenden Richtlinien sollen Ihnen dabei helfen, den Vorgang zu optimieren und die gewünschten Ergebnisse schnell mit nur einigen wichtigen Befehle und empfohlenen Verfahren zu erzielen.
 
-Siehe auch [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Siehe auch [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Siehe auch [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience
 >* Netzwerkbandbreite
 >* DPR (Device Pixel Ratio)
 >
->Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[&#x200B; spielen Sie das Schulungsvideo zu Momentaufnahmen &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
+>Um zu erfahren, wie einfach es ist, „Momentaufnahme“ zu verwenden[ spielen Sie das Schulungsvideo zu Momentaufnahmen ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 Minuten und 17 Sekunden).
 
 
 ## Empfohlene Verfahren für das Bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
@@ -62,7 +62,7 @@ Verwenden Sie als Best Practice für die Bildgröße `&wid=<value>&hei=<value>&r
 
 Das Scharfzeichnen von Bildern ist der komplexeste Aspekt beim Bearbeiten von Bildern für Ihre Website. Hier werden auch die meisten Fehler begangen. Nehmen Sie sich die Zeit und machen Sie sich mit der Funktionsweise von Scharfzeichnung und Unschärfemaske in Adobe Dynamic Media Classic vertraut, indem Sie die folgenden hilfreichen Ressourcen lesen:
 
-Whitepaper mit Best Practices [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image Server](/help/using/assets/s7_sharpening_images.pdf).
+Whitepaper mit Best Practices für PDF [Scharfzeichnen von Bildern in Adobe Dynamic Media Classic und auf Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -70,7 +70,7 @@ Mit Adobe Dynamic Media Classic können Sie Bilder bei der Aufnahme, bei der Ber
 
 Es gibt zwei Methoden zum Scharfzeichnen von Bildern:
 
-* Einfaches Scharfzeichnen (`&op_sharpen`): Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wird beim einfachen Scharfzeichnen nach der dynamischen Größenanpassung eine einfache Scharfzeichnung auf die endgültige Ansicht des Bildes angewendet. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Es empfiehlt sich, die Verwendung von `&op_sharpen` zu vermeiden, sofern dies nicht erforderlich ist.
+* Einfaches Scharfzeichnen (`&op_sharpen`): Ähnlich wie der in Photoshop verwendete Scharfzeichnungsfilter wird beim einfachen Scharfzeichnen nach der dynamischen Größenanpassung das endgültige Bild einfach scharfgezeichnet. Diese Methode kann jedoch nicht vom Benutzer konfiguriert werden. Es empfiehlt sich, die Verwendung von `&op_sharpen` zu vermeiden, sofern dies nicht erforderlich ist.
 * Unschärfemaske ( `&op_USM`): Unschärfemaske ist ein Branchenstandard-Filter für das Scharfzeichnen. Wir empfehlen, beim Scharfzeichnen von Bilder mit der Unschärfemaske die folgenden Richtlinien zu beachten. Mit der Unschärfemaske können Sie die folgenden drei Parameter steuern:
 
    * `&op_sharpen=amount,radius,threshold`

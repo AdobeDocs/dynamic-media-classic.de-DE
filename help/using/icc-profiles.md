@@ -10,10 +10,10 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 41%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ Siehe [Hochladen von Dateien](uploading-files.md#uploading_your_files).
 
 Um ein ICC-Profil zu untersuchen, wählen Sie es im Durchsuchen-Panel aus und zeigen Sie es in der Detailansicht an. Die Detailansicht enthält diese Informationen zu ICC-Profilen:
 
-* **[!UICONTROL Profile Class]**: Das ICC (International Color Consortium) definiert jede Klasse für einen Anwendungstyp. Beispielsweise betreffen Eingabeprofile Geräte wie Digitalkameras und Scanner, während Ausgabeprofile Drucker betreffen.
+* **[!UICONTROL Profile Class]**: Das ICC (International Color Consortium) definiert jede Klasse für einen Anwendungstyp. Eingabeprofile gelten beispielsweise für Geräte wie Digitalkameras und Scanner, und Ausgabeprofile gelten für Drucker.
 
 * **[!UICONTROL Farbraumtyp]**: Diese Zahl ist der „Eingabe“-Farbraum des Profils, wie vom ICC definiert. Die Art des Farbraums definiert die Anzahl an Komponenten des Farbraums und deren Interpretation. Der RGB-Farbraum enthält beispielsweise drei Komponenten: Rot, Grün und Blau. Die Art des Farbraums gibt jedoch nicht die besonderen Farbcharakteristika des Farbraums an (z. B. die Chromatizität der Primärfarben).
 

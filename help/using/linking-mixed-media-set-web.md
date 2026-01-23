@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -44,11 +44,11 @@ Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie die zuge
 
 Die häufigste Methode zur Bereitstellung eines gemischten Mediensets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn dieser Link ausgewählt ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das gemischte Medienset im Viewer für gemischte Mediensets angezeigt wird.
 
-## Kopieren des Einbettungs-Codes eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Kopieren des eingebetteten Codes eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-Mithilfe der Einbettungscode-Funktion können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mit der Funktion für eingebetteten Code können Sie den Viewer-Code für das ausgewählte gemischte Medienset überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
-**So kopieren Sie den Einbettungs-Code eines Viewers für gemischte Mediensets:**
+**So kopieren Sie den eingebetteten Code eines Viewers für gemischte Mediensets:**
 
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Gemischtes Medienset]**.
 1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zum Asset-Ordner, der das gemischte Medienset enthält, dessen Einbettungs-Code Sie kopieren möchten.

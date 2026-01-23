@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 34%
@@ -39,7 +39,7 @@ Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailans
 
 Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü Metadatenansichten angezeigt.
 
-Informationen [&#x200B; Erstellen von Metadatenansichten finden &#x200B;](application-setup.md#metadata_views) unter „Metadatenansichten“.
+Informationen [ Erstellen von Metadatenansichten finden ](application-setup.md#metadata_views) unter „Metadatenansichten“.
 
 ## Manuelles Eingeben von Metadaten für ein Asset {#manually-enter-metadata-for-an-asset}
 
@@ -73,7 +73,7 @@ Wenn Sie während dieser Sitzung Keywords zu anderen Dateien hinzugefügt oder K
 >[!NOTE]
 >
 >Sie können Schlüsselwörter zu Dateien hinzufügen, während Sie sie in Adobe Dynamic Media Classic hochladen. Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL Weitere Metadaten]** und geben Sie Schlüsselwörter ein.
->&#x200B;>Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
+>Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
 ## Importieren von Metadaten {#import-metadata}
 
@@ -82,7 +82,7 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 >[!NOTE]
 >
 >Sie können eine Vorlage für die Eingabe von Metadaten erstellen, damit sie ordnungsgemäß in Adobe Dynamic Media Classic importiert werden können. Nachdem Sie die Vorlage erstellt haben, können Sie sie zur Eingabe der Metadaten verwenden.
->&#x200B;>Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Weitere Informationen über standardisierte Eigenschaften finden Sie im [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 

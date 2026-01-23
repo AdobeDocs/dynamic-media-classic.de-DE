@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ Um das Ansehen und Navigieren in langformatigen Videos zu vereinfachen, können 
 
 >[!NOTE]
 >
->Der verwendete Video-Player muss die Verwendung von Kapitelmarken unterstützen. 
+>Der Video-Player muss die Verwendung von Kapitelmarken unterstützen.
 
 Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)-Vorgabe, wenn Sie die Kapitel-Navigations-Cue-Punkte und den Kapiteltitel-Popup-Text für den `Universal_HTML5_Video`-Viewer (HTML5) konfigurieren möchten.
 
