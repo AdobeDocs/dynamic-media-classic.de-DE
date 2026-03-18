@@ -193,7 +193,7 @@ So laden Sie *neueste Version* Adobe Dynamic Media Classic-Desktop-Programms auf
 
 ## Herunterladen und *im*) Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows® {#install-silent-windows-dmc-app}
 
-Der von Ihnen verwendete Befehl ist für eine einfache, automatische MSI-Installation. Das Adobe Dynamic Media Classic-Desktop-Programm-Installationsprogramm ist jedoch ein mit InstallShield erstelltes InstallScript-MSI-Installationsprogramm. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine automatische Installation verwendet, wie unter „Ausführen [ Installationen im Hintergrund](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) beschrieben.
+Der von Ihnen verwendete Befehl ist für eine einfache, automatische MSI-Installation. Das Adobe Dynamic Media Classic-Desktop-Programm-Installationsprogramm ist jedoch ein mit InstallShield erstelltes InstallScript-MSI-Installationsprogramm. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine automatische Installation verwendet, wie unter „Ausführen [&#x200B; Installationen im Hintergrund](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) beschrieben.
 
 Siehe auch:
 
@@ -239,7 +239,7 @@ Siehe auch:
 
 ## Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms {#dmc-app-video-walk-through}
 
-Sehen Sie sich [ Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
+Sehen Sie sich [&#x200B; Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
 
 ## Löschen des Bild- und Asset-Cache auf dem Computer mithilfe des Desktop-Programms {#clear-cache}
 
@@ -277,11 +277,11 @@ Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms kö
 
 ## Tipps und Tricks
 
-**_Das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic wird nicht angezeigt._**<br>Tippen Sie in Adobe Dynamic Media Classic auf**[!UICONTROL Setup > Persönliches Setup ]**. Stellen Sie im Browser-Bereich sicher**[!UICONTROL dass „MediaPortal-Funktionen ]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf**[!UICONTROL Speichern > Schließen ]**.
+**_Das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic wird nicht angezeigt._**<br>Tippen Sie in Adobe Dynamic Media Classic auf&#x200B;**[!UICONTROL Setup > Persönliches Setup &#x200B;]**. Stellen Sie im Browser-Bereich sicher&#x200B;**[!UICONTROL dass „MediaPortal-Funktionen &#x200B;]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf&#x200B;**[!UICONTROL Speichern > Schließen &#x200B;]**.
 
-**_Veröffentlichungsstatus (grüner Indikator) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche früher erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung hat Adobe ein**[!UICONTROL Aktualisieren ]**-Symbol in der Symbolleiste rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**eingeführt. Tippen Sie auf das**[!UICONTROL Aktualisieren ]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
+**_Veröffentlichungsstatus (grüner Indikator) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche früher erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung hat Adobe ein&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol in der Symbolleiste rechts neben der Schaltfläche&#x200B;**[!UICONTROL Keine auswählen &#x200B;]**&#x200B;eingeführt. Tippen Sie auf das&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
 
 ![Aktualisierungssymbol](/help/using/assets/refresh-icon1.png)
 *Aktualisierungssymbol*
 
-**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben ]**. Stellen Sie sicher**[!UICONTROL dass die entsprechende Stapelsatzvorgabe ]**ist. Klicken Sie**[!UICONTROL Speichern und Upload starten ]**.
+**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf&#x200B;**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben &#x200B;]**. Stellen Sie sicher&#x200B;**[!UICONTROL dass die entsprechende Stapelsatzvorgabe &#x200B;]**&#x200B;ist. Klicken Sie&#x200B;**[!UICONTROL Speichern und Upload starten &#x200B;]**.
