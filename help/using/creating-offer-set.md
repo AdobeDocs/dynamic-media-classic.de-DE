@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1292'
 ht-degree: 21%
 
 ---
@@ -116,7 +116,7 @@ Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes
 | Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 

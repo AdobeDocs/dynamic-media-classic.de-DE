@@ -9,9 +9,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '3981'
+source-wordcount: '4074'
 ht-degree: 39%
 
 ---
@@ -70,7 +70,7 @@ Führen Sie einen der folgenden Schritte aus.
 
    * Es empfiehlt sich, „Adaptive **[!UICONTROL &quot;]** wählen. Siehe [Adaptive Video (Standard)](application-setup.md#adaptive-video-default).
    * Optional. Wenn Sie individuelle Kodierungseinstellungen verwenden möchten, erweitern Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** und wählen Sie dann die gewünschten Kodierungsoptionen für Desktop, Mobilgerät und Tablet aus.
-Siehe [&#x200B; Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
+Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
 1. Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL Speichern]**.
 1. Stellen Sie auf der Seite Hochladen sicher, dass **[!UICONTROL Nach Hochladen veröffentlichen]** aktiviert ist.
 1. Wählen Sie auf der Seite „Hochladen“ in der rechten unteren Ecke **[!UICONTROL Upload starten]**.
@@ -80,10 +80,10 @@ Siehe [&#x200B; Vorgaben für die Videokodierung für Desktop-PCs](application-s
 1. Navigieren Sie in Adobe Dynamic Media Classic im Durchsuchen-Panel zum Video und wählen Sie es aus.
 1. Navigieren Sie **[!UICONTROL Datei]** > **[!UICONTROL Erneut verarbeiten]**.
 1. Erweitern Sie im Dialogfeld Assets erneut verarbeiten **[!UICONTROL EVideo-Optionen]** und führen Sie dann einen der folgenden Schritte aus:
-   * Es empfiehlt sich, die folgende Methode zu verwenden. Wählen Sie **Adaptives Video** aus.
+   * Wie empfehlen, die folgende Methode zu verwenden. Wählen Sie **Adaptive Video**.
 Siehe [Adaptive Video (Standard)](application-setup.md#adaptive-video-default).
    * Optional. Wenn Sie individuelle Kodierungseinstellungen verwenden möchten, erweitern Sie **[!UICONTROL Einzelne Kodierungsvorgaben]** und wählen Sie dann die gewünschten Kodierungsoptionen für Desktop, Mobilgerät und Tablet aus.
-Siehe [&#x200B; Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
+Siehe [ Vorgaben für die Videokodierung für Desktop-PCs](application-setup.md#desktop-video-encoding-presets), [Vorgaben für die Videokodierung für Mobilgeräte](application-setup.md#mobile-video-encoding-presets), [Vorgaben für die Videokodierung für Tablets](application-setup.md#tablet-video-encoding-presets).
 1. Wählen Sie im Dialogfeld Assets erneut verarbeiten die Option **[!UICONTROL Senden]** aus.
 
 Wenn Sie eine adaptive Videokodierungsvorgabe oder mehrere Einzelkodierungsvorgaben verwenden, ist das Ergebnis ein adaptives Videoset, das automatisch mit mehreren Videokodierungen erstellt wird. Sie können auch manuell ein adaptives Videoset erstellen, indem Sie die einzelnen Videos auswählen.
@@ -125,11 +125,13 @@ In der folgenden Tabelle sind die Videodateitypen (mit zulässigen Video-Codecs)
 
 Im Folgenden finden Sie Best Practice-Tipps für die Kodierung von Quellvideodateien in Adobe Dynamic Media Classic.
 
-<!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
+<!--
+THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
 
 * Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_de). -->
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). 
+-->
 
 ### Quell-Videodateien {#source-video-files}
 
@@ -139,9 +141,9 @@ Die folgende Tabelle beschreibt die empfohlenen Werte für Größe, Seitenverhä
 
 | Größe | Seitenverhältnis | Minimale Bitrate |
 | --- | --- | --- |
-| 1024 X 768 | 4 :3 | 4500 Kbit/s sind für die meisten Videos ausreichend. |
-| 1280 X 720 | 16 :9 | 3000: 6000 kBit/s, je nach Bewegungsdauer im Video. |
-| 1920 X 1080 | 16 :9 | 6000: 8000 kBit/s, je nach Bewegungsdauer im Video. |
+| 1024 X 768 | 4:3 | 4500 Kbit/s sind für die meisten Videos ausreichend. |
+| 1280 X 720 | 16:9 | 3000: 6000 kBit/s, je nach Bewegungsdauer im Video. |
+| 1920 X 1080 | 16:9 | 6000: 8000 kBit/s, je nach Bewegungsdauer im Video. |
 
 ### Abrufen der Metadaten einer Datei {#obtaining-a-file-s-metadata}
 
@@ -163,10 +165,10 @@ In der folgenden Tabelle sind die Formelergebnisse und die zugehörigen gebräuc
 
 | Formelergebnis | Seitenverhältnis |
 | --- | --- |
-| 1,33 | 4 :3 |
-| 0,75 | 3 :4 |
-| 1,78 | 16 :9 |
-| 0,56 | 9 :16 |
+| 1,33 | 4:3 |
+| 0.75 | 3:4 |
+| 1.78 | 16:9 |
+| 0.56 | 9:16 |
 
 Beispielsweise hat ein Video mit einer Breite × Höhe von 1.440 und einem Seitenverhältnis von 1.440 zu 1.080 bzw. 1,33. In diesem Fall wählen Sie eine Videokodierungsvorgabe mit einem Seitenverhältnis von 4:3 aus, um die Videodatei zu kodieren.
 
@@ -186,7 +188,7 @@ In dieser Tabelle sind die Datenraten typischer Verbindungsgeschwindigkeiten auf
 | --- | --- |
 | 256 | Einwählverbindung. |
 | 800 | Typische Mobilverbindung. Für diese Verbindung sollten Sie für eine wahre 3G-Erfahrung eine Datenrate zwischen 400 und maximal 800 Kbit/s veranschlagen. |
-| 2000 | Typische Breitband-Desktop-Verbindung. Für diese Verbindung sollten Sie eine Datenrate zwischen 800 und 2000 Kbit/s veranschlagen, wobei die meisten Datenraten zwischen 1200 und 1500 Kbit/s liegen. |
+| 2000 | Typische Breitband-Desktop-Verbindung. Für diese Verbindung wird eine Datenrate im Bereich von 800-2000 kBit/s angestrebt, wobei die meisten Ziele im Durchschnitt 1200-1500 kBit/s erreichen. |
 | 5000 | Typische Hochgeschwindigkeits-Breitbandverbindung. Eine Kodierung in diesem oberen Bereich wird nicht empfohlen, da eine Videoübertragung in dieser Geschwindigkeit für die meisten Kunden nicht verfügbar ist. |
 
 ### Auflösung {#resolution}
@@ -197,8 +199,8 @@ Auflösung und Datenrate sind zwei eng miteinander verknüpfte Faktoren, die die
 
 | Auflösung | Pixel pro Bild |
 | --- | --- |
-| 320 × 240 | 76.800 |
-| 640 × 480 | 307.200 |
+| 320 × 240 | 76,800 |
+| 640 × 480 | 307,200 |
 
 Die Datei mit 640 × 480 hat viermal so viele Pixel pro Frame. Um dieselbe Datenrate für diese beiden Auflösungen zu erreichen, wenden Sie eine vierfache Komprimierung auf die Datei mit 640 × 480 an, was die Videoqualität beeinträchtigen kann. Daher führt eine Videodatenrate von 250 kBit/s zu einer hohen Anzeigequalität bei einer Auflösung von 320 × 240, aber nicht bei einer Auflösung von 640 × 480.
 

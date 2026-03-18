@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1521'
 ht-degree: 17%
 
 ---
@@ -53,9 +53,11 @@ Verwenden Sie das Suchfeld in der Asset-Bibliothek, um einfache Suchen durchzuf�
 
    Die Suchergebnisse werden im Durchsuchen-Panel auf der rechten Seite angezeigt.
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## Durchführen einer erweiterten Suche {#conducting-an-advanced-search}
 
@@ -77,7 +79,7 @@ Geben Sie bei Ihrer erweiterten Suche eines der folgenden Kriterien an:
    1. Wählen Sie das **[!UICONTROL Feld hinzufügen]** Dropdown-Menü aus und wählen Sie einen Feldnamen aus.
    1. Wählen Sie eine **[!UICONTROL Enthält]** Option: **[!UICONTROL Enthält]**, **[!UICONTROL Enthält nicht]**, **[!UICONTROL Beginnt mit]**, **[!UICONTROL Endet mit]** oder **[!UICONTROL Gleich]**.
    1. Wählen Sie bei numerischen Feldern einen Wert oder geben Sie einen Datumsbereich ein.
-   1. (Optional) Wiederholen Sie Schritte 1-4, um weitere Suchfelder zu erstellen.
+   1. (Optional) Wiederholen Sie die Schritte 1 bis 4, um weitere Suchfelder zu erstellen.
 
 Wählen Sie das Symbol **[!UICONTROL Suchfeld entfernen]** (Kreis mit „X“ darin) aus, sodass das Suchfeld gelöscht wird.
 
@@ -107,7 +109,7 @@ Führen Sie die folgenden Schritte aus, um Assets zu finden, indem Sie nach ihre
 
    Um einen von Ihnen erstellten und gespeicherten Filtervorgang auszuführen, wählen Sie **[!UICONTROL Vorgabe auswählen]** und wählen Sie dann im Menü den Namen des Vorgangs aus.
 
-   Siehe [Speichern, Wiederholen und Löschen von &#x200B;](searching-assets.md#saving_repeating_and_deleting_filter_operations).
+   Siehe [Speichern, Wiederholen und Löschen von ](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
 1. Klicken Sie **[!UICONTROL einem]** auf „Feld“ und befolgen Sie dann diese Anweisungen, um das Filtermenü anzuzeigen und den Filtervorgang zu erstellen:
 
@@ -115,7 +117,7 @@ Führen Sie die folgenden Schritte aus, um Assets zu finden, indem Sie nach ihre
 
      >[!NOTE]
      >
-     >Nur die Namen von Metadatenfeldern der standardmäßigen Metadaten-Ansicht werden im Filtermenü angezeigt. 
+     >Nur die Namen von Metadatenfeldern der standardmäßigen Metadaten-Ansicht werden im Filtermenü angezeigt.
 
      Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
 

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1996'
-ht-degree: 0%
+source-wordcount: '2133'
+ht-degree: 1%
 
 ---
 
@@ -67,9 +67,9 @@ Eine Upgrade-Benachrichtigung innerhalb des Adobe Dynamic Media Classic-Desktop-
 ## Fehlerbehebungen in Version 20.21.2 {#minor-release}
 
 * Bekannte Einschränkung in 20.21.1: Die **[!UICONTROL Server]**-Dropdown-Liste auf dem Anmeldebildschirm war leer.
-* In **[!UICONTROL Upload-Auftragsoptionen]** ist der standardmäßige Ebenenname-Wert unter **[!UICONTROL Photoshop-Optionen]** jetzt **[!UICONTROL Photoshop und Ebenenname]**. Ebenen in der PSD-Datei werden als separate Bilder hochgeladen.
+* In **[!UICONTROL Upload-Auftragsoptionen]** ist der standardmäßige Ebenenname-Wert unter **[!UICONTROL Photoshop-Optionen]** jetzt **[!UICONTROL Photoshop und Ebenenname]**. Die Ebenen der PSD-Datei werden als getrennte Bilder hochgeladen.
    * Der frühere Standardwert **[!UICONTROL Ebenenname]**, der die Bilder nach ihrem Ebenennamen oder ihrer Ebenennummer in der PSD-Datei benannte. Die Ebenennummer wurde verwendet, wenn die Ebenennamen in der PSD-Datei standardmäßige Photoshop-Ebenennamen waren.
-   * Der neue Standard **[!UICONTROL Photoshop und Ebenenname]** benennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Ebenennummer wird verwendet, wenn es sich bei den Ebenennamen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt.
+   * Der neue Standard **[!UICONTROL Photoshop und Ebenenname]** benennt die Bilder nach der PSD-Datei, gefolgt vom Ebenennamen oder der Ebenennummer. Die Nummern der Ebenen werden verwendet, wenn es sich bei den Namen der Ebenen in der PSD-Datei um standardmäßige Photoshop-Ebenennamen handelt.
    * Da Ebenenbilder in Adobe Dynamic Media Classic jetzt eindeutige Namen haben, werden keine Aktualisierungen an bestehenden PSD oder Vorlagen vorgenommen (die Ebenennamen in den Original-PSD-Dateien freigegeben haben).
 * Beschädigte Miniaturen von Assets.
 
@@ -91,7 +91,7 @@ Eine Upgrade-Benachrichtigung innerhalb des Adobe Dynamic Media Classic-Desktop-
 Siehe auch:
 
 * [Herunterladen und automatische Installation der neuesten Adobe Dynamic Media Classic Desktop-App auf Mac](#install-silent-mac-dmc-app)
-* [Laden Sie die neueste Adobe Dynamic Media Classic Desktop-App unter Windows herunter und installieren Sie sie im Hintergrund](#install-silent-windows-dmc-app)
+* [Laden Sie die neueste Adobe Dynamic Media Classic Desktop-App unter Windows herunter und installieren Sie sie im Hintergrund®](#install-silent-windows-dmc-app)
 
 1. Deinstallieren Sie alle älteren Adobe Dynamic Media Classic Desktop-Anwendungsversionen auf Ihrem System.
 
@@ -107,13 +107,19 @@ Siehe auch:
       * [macOS (.DMG): Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE): Herunterladen](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--
+         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
+-->
 
-<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--
+        * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) 
+-->
 
-<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--
+    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+-->
 
 
 1. Führen Sie je nach heruntergeladenem Installationsprogramm einen der folgenden Schritte aus.
@@ -149,8 +155,8 @@ Siehe auch:
 
 Siehe auch:
 
-* [Herunterladen und Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Mac oder Windows](#installation-dmc-app)
-* [Laden Sie die neueste Adobe Dynamic Media Classic Desktop-App unter Windows herunter und installieren Sie sie im Hintergrund](#install-silent-windows-dmc-app)
+* [Herunterladen und Installieren der neuesten Adobe Dynamic Media Classic Desktop-App unter Mac oder Windows®](#installation-dmc-app)
+* [Laden Sie die neueste Adobe Dynamic Media Classic Desktop-App unter Windows herunter und installieren Sie sie im Hintergrund®](#install-silent-windows-dmc-app)
 
 So laden Sie *neueste Version* Adobe Dynamic Media Classic-Desktop-Programms auf macOS herunter und installieren Sie sie im Hintergrund:
 
@@ -187,11 +193,11 @@ So laden Sie *neueste Version* Adobe Dynamic Media Classic-Desktop-Programms auf
 
 ## Herunterladen und *im*) Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Windows® {#install-silent-windows-dmc-app}
 
-Der von Ihnen verwendete Befehl ist für eine einfache, automatische MSI-Installation. Das Adobe Dynamic Media Classic-Desktop-Programm-Installationsprogramm ist jedoch ein mit InstallShield erstelltes InstallScript-MSI-Installationsprogramm. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine automatische Installation verwendet, wie unter „Ausführen [&#x200B; Installationen im Hintergrund](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) beschrieben.
+Der von Ihnen verwendete Befehl ist für eine einfache, automatische MSI-Installation. Das Adobe Dynamic Media Classic-Desktop-Programm-Installationsprogramm ist jedoch ein mit InstallShield erstelltes InstallScript-MSI-Installationsprogramm. Wenn Sie das Installationsprogramm im Datensatzmodus ausführen, wird jede Benutzerinteraktion in einer Antwortdatei aufgezeichnet. Diese Antwortdatei wird dann für eine automatische Installation verwendet, wie unter „Ausführen [ Installationen im Hintergrund](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm) beschrieben.
 
 Siehe auch:
 
-* [Herunterladen und Installieren des neuesten Adobe Dynamic Media Classic-Desktop-Programms unter Mac oder Windows](#installation-dmc-app)
+* [Herunterladen und Installieren der neuesten Adobe Dynamic Media Classic Desktop-App unter Mac oder Windows®](#installation-dmc-app)
 
 * [Herunterladen und automatische Installation der neuesten Adobe Dynamic Media Classic Desktop-App auf macOS](#install-silent-mac-dmc-app)
 
@@ -233,7 +239,7 @@ Siehe auch:
 
 ## Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms {#dmc-app-video-walk-through}
 
-Sehen Sie sich [&#x200B; Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
+Sehen Sie sich [ Videoanleitung zur Verwendung des Adobe Dynamic Media Classic-Desktop-Programms ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Länge: 2 Minuten 36 Sekunden).
 
 ## Löschen des Bild- und Asset-Cache auf dem Computer mithilfe des Desktop-Programms {#clear-cache}
 
@@ -258,9 +264,9 @@ Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms kö
 
 ## Bekannte Einschränkungen in Adobe Dynamic Media Classic 20.20.1 (behoben in 20.20.2)
 
-**_Gilt nur für Windows® - Gibt es eine Begrenzung für die Anzahl der Dateien, die über die Benutzeroberfläche des Desktop-Programms hochgeladen werden können?_**<br>Ja, es können maximal 150 Dateien gleichzeitig über die Benutzeroberfläche des -Desktop-Programms hochgeladen werden.
+**_Gilt nur für Windows® - Gibt es eine Begrenzung für die Anzahl der Dateien, die über die Benutzeroberfläche des Desktop-Programms hochgeladen werden können?_**<br>Ja, es können maximal 150 Dateien gleichzeitig über die Benutzeroberfläche des Desktop-Programms hochgeladen werden.
 
-**_Gilt für Windows® und macOS - Wie kann ich zwischen Unternehmen wechseln?_**<br>Gehen Sie wie folgt vor, um zwischen Unternehmen zu wechseln:
+**_Gilt für Windows® und macOS - Wie wechsele ich zwischen Unternehmen?_**<br>Um zwischen Unternehmen zu wechseln, gehen Sie wie folgt vor:
 
 * Wählen Sie in der Adobe Dynamic Media Classic-App das neue Unternehmen aus der Dropdown-Liste Firma aus.
 * Wenn das Popup-Fenster angezeigt wird, tippen Sie auf **[!UICONTROL OK]**, um sich abzumelden und die App zu schließen.
@@ -271,11 +277,11 @@ Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms kö
 
 ## Tipps und Tricks
 
-**_Ich kann das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic nicht sehen._**<br>Tippen Sie in Adobe Dynamic Media Classic auf&#x200B;**[!UICONTROL Setup > Persönliches Setup &#x200B;]**. Stellen Sie im Browser-Bereich sicher&#x200B;**[!UICONTROL dass „MediaPortal-Funktionen &#x200B;]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf&#x200B;**[!UICONTROL Speichern > Schließen &#x200B;]**.
+**_Das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic wird nicht angezeigt._**<br>Tippen Sie in Adobe Dynamic Media Classic auf**[!UICONTROL Setup > Persönliches Setup ]**. Stellen Sie im Browser-Bereich sicher**[!UICONTROL dass „MediaPortal-Funktionen ]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf**[!UICONTROL Speichern > Schließen ]**.
 
-**_Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung hat Adobe ein&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol in der Symbolleiste rechts neben der Schaltfläche&#x200B;**[!UICONTROL Keine auswählen &#x200B;]**&#x200B;eingeführt. Tippen Sie auf das&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
+**_Veröffentlichungsstatus (grüner Indikator) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche früher erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung hat Adobe ein**[!UICONTROL Aktualisieren ]**-Symbol in der Symbolleiste rechts neben der Schaltfläche**[!UICONTROL Keine auswählen ]**eingeführt. Tippen Sie auf das**[!UICONTROL Aktualisieren ]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
 
 ![Aktualisierungssymbol](/help/using/assets/refresh-icon1.png)
 *Aktualisierungssymbol*
 
-**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf&#x200B;**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben &#x200B;]**. Stellen Sie sicher&#x200B;**[!UICONTROL dass die entsprechende Stapelsatzvorgabe &#x200B;]**&#x200B;ist. Klicken Sie&#x200B;**[!UICONTROL Speichern und Upload starten &#x200B;]**.
+**_Stapelsatzvorgaben werden in der Desktop-Anwendung nicht angezeigt._**<br>Tippen Sie auf**[!UICONTROL Hochladen > Auftragsoptionen > Stapelsatzvorgaben ]**. Stellen Sie sicher**[!UICONTROL dass die entsprechende Stapelsatzvorgabe ]**ist. Klicken Sie**[!UICONTROL Speichern und Upload starten ]**.

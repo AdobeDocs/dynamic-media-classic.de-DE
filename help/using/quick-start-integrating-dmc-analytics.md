@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 21%
+source-wordcount: '699'
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ Nach der Integration von Adobe Analytics mit Adobe Dynamic Media Classic können
 
 Mit Adobe Analytics-Berichten können Sie sich einen detaillierten Überblick über die Aktivitäten von Kunden auf Ihrer Website verschaffen. Sie können bestimmen, welche Produktpräsentationen zu einer Konversion führen und welche kein Kundeninteresse wecken.
 
-Siehe auch [Video in Adobe Analytics messen](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
+Siehe auch [Video in Adobe Analytics messen](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Geben Sie auf der Seite „Adobe Analytics-Konfiguration“ die Informationen an
 
 Die Adobe Analytics-Konfiguration bietet zudem Werkzeuge, um Viewer-Ereignisse zu aktivieren, zu bearbeiten und zu löschen.
 
-Nachdem Sie auf **[!UICONTROL Seite &quot;Adobe Analytics-]**&quot; die Option „Speichern“ ausgewählt haben, wird ein benutzerdefinierter Trackingcode zur Messung der Benutzeraktivität in die Adobe Dynamic Media Classic-Viewer eingefügt. Mit dieser Funktion können Sie Benutzeraktivitäten in Adobe Analytics-Berichten verfolgen. 
+Nachdem Sie auf **[!UICONTROL Seite &quot;Adobe Analytics-]**&quot; die Option „Speichern“ ausgewählt haben, wird ein benutzerdefinierter Trackingcode zur Messung der Benutzeraktivität in die Adobe Dynamic Media Classic-Viewer eingefügt. Mit dieser Funktion können Sie Benutzeraktivitäten in Adobe Analytics-Berichten verfolgen.
 
 Siehe [Konfigurieren von Adobe Analytics-](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
@@ -64,12 +64,12 @@ Veröffentlichen Sie die Adobe Dynamic Media Classic-Viewer, sodass die Viewer (
 
 Siehe [Konfigurationsinformationen veröffentlichen](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## &#x200B;4. Platzieren von Adobe Dynamic Media Classic Viewers auf Ihrer Website
+## &#x200B;4. Platzieren von Adobe Dynamic Media Classic-Viewern auf Ihrer Website
 
 Platzieren Sie die Adobe Dynamic Media Classic-Viewer mit Adobe Analytics-Trackingcode auf Ihrer Website.
 
-## &#x200B;5. Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-Berichts
+## &#x200B;5. Testen Sie die Adobe Analytics-Integration, indem Sie einen Adobe Analytics-Bericht anzeigen.
 
-Rufen Sie die Adobe Analytics-Website auf, um Adobe Analytics-Berichte anzuzeigen. Auf der Berichterstellungsseite können Sie sowohl Daten anzeigen als auch Diagramme und Tabellen zur Auswertung von Benutzeraktivitäten mit verschiedenen Viewern generieren. 
+Rufen Sie die Adobe Analytics-Website auf, um Adobe Analytics-Berichte anzuzeigen. Auf der Berichterstellungsseite können Sie sowohl Daten anzeigen als auch Diagramme und Tabellen zur Auswertung von Benutzeraktivitäten mit verschiedenen Viewern generieren.
 
 Siehe [Testen der Adobe Analytics-Integration durch Anzeigen eines Adobe Analytics-](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report).

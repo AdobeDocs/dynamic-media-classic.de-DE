@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
 workflow-type: tm+mt
-source-wordcount: '10892'
-ht-degree: 28%
+source-wordcount: '11377'
+ht-degree: 27%
 
 ---
 
@@ -161,7 +161,7 @@ Administratoren können Vorgaben für das Exportieren von Assets erstellen. Benu
 
 Wechseln Sie zum Öffnen des Bildschirms Bildvorgabe in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Bildvorgaben]**.
 
-Siehe [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Siehe [Smart Imaging](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Erstellen und Bearbeiten von Bildvorgaben {#creating-and-editing-image-presets}
 
@@ -172,7 +172,7 @@ Siehe [Smart Imaging](https://experienceleague.adobe.com/de/docs/experience-mana
    * **Erstellen einer Bildvorgabe aus einer vorhandenen Vorgabe**: Wählen Sie die Bildvorgabe aus, die der am meisten ähnelt, die Sie erstellen möchten, und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
 1. Geben Sie auf der Seite Vorgabe hinzufügen (oder bearbeiten) einen Namen für die Vorgabe ein.
-1. Legen Sie die gewünschten Einstellungen für die Vorgabe fest. 
+1. Legen Sie die gewünschten Einstellungen für die Vorgabe fest.
 
    Siehe [Bildvorgabeoptionen](application-setup.md#image_preset_options).
 
@@ -203,7 +203,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
    * JPEG-Optionen
 
-      * **[!UICONTROL Qualität]**: Steuert den JPEG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala reicht von 1 bis 100.
+      * **[!UICONTROL Qualität]**: Steuert den JPEG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala ist 1-100.
 
       * **[!UICONTROL JPG-Neuberechnung der Chrominanz aktivieren]**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
@@ -229,7 +229,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Unscharf maskieren]**: Wählen Sie diese Optionen, um das Scharfzeichnen fein abzustimmen:
 
-* **[!UICONTROL Stärke]**: Steuert den auf die Kanten-Pixel angewendeten Kontrastwert. Der Standardwert ist 1,0. Für Bilder mit höherer Auflösung können Sie ihn auf bis zu 5,0 erhöhen. Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen.
+* **[!UICONTROL Stärke]**: Steuert den auf die Kanten-Pixel angewendeten Kontrastwert. Der Standardwert lautet 1.0. Bei hochauflösenden Bildern können Sie sie auf bis zu 5.0 erhöhen. Stellen Sie sich den Betrag als ein Maß für die Filterintensität vor.
 
 * **[!UICONTROL Radius]**: Bestimmt die Anzahl der Pixel um die Kanten-Pixel, auf die sich die Scharfzeichnung auswirkt. Geben Sie für Bilder mit hoher Auflösung Werte zwischen 1 und 2 ein. Bei einem geringeren Wert werden nur die Kantenpixel scharfgezeichnet, während bei einem hohen Wert ein breiterer Pixelbereich scharfgezeichnet wird. Der richtige Wert hängt von der Größe des Bilds ab.
 
@@ -264,9 +264,9 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 ## Aktivieren oder Deaktivieren von adaptiven Videovorgaben {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic bietet Vorgaben für adaptive Videokodierung. Hierbei handelt es sich um eine primäre Liste von Vorgaben, die 16:9 adaptive Videovorgaben und 4:3 adaptive Videovorgaben in einer Gruppe kombiniert. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert. 
+Adobe Dynamic Media Classic bietet Vorgaben für adaptive Videokodierung. Hierbei handelt es sich um eine primäre Liste von Vorgaben, die 16:9 adaptive Videovorgaben und 4:3 adaptive Videovorgaben in einer Gruppe kombiniert. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert.
 
-Standardmäßig sind nur „adaptive Video“-Kodierungsvorgaben aktiviert (aktiviert oder aktiviert). Sie können sie bei Bedarf deaktivieren. Deaktivierte adaptive Video-Vorgaben stehen im eVideo-Abschnitt des Dialogfelds „Upload-Auftragsoptionen“ nicht zur Auswahl. 
+Standardmäßig sind nur „adaptive Video“-Kodierungsvorgaben aktiviert (aktiviert oder aktiviert). Sie können sie bei Bedarf deaktivieren. Deaktivierte adaptive Video-Vorgaben stehen im eVideo-Abschnitt des Dialogfelds „Upload-Auftragsoptionen“ nicht zur Auswahl.
 
 Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -300,7 +300,7 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie in der rechten unteren Ecke 
 
    * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl :9- als auch :3-Videos für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-     Siehe [Adaptive Videokodierung (16:9 oder 4:3) &#x200B;](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Siehe [Adaptive Videokodierung (16:9 oder 4:3) ](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Einzelne Kodierungsvorgaben]**
 
@@ -381,7 +381,7 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 | 4 | 16:9 1280 x 720 (2000 Kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
 | 5 | 4:3, 320 x 240 (400 Kbit/s) | 500 | _320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
 | 6 | 4:3, 480 x 360 (800 kBit/s) | 900 | _480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
-| 7 | 4 :3 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
+| 7 | 4 :3 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittelhohe Auflösung |
 | 8 | 4:3, 1280 x 960 (2000 Kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
 **OGG Theora Vorbis: Dateiendung OGV**
@@ -394,7 +394,7 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 | 4 | 16:9, 1280 x 720 (2000 Kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
 | 5 | 4:3, 320 x 240 (400 Kbit/s), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
 | 6 | 4:3, 480 x 360 (800 Kbit/s), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
-| 7 | 4:3, 640 x 480 (1200 Kbit/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittlere Auflösung |
+| 7 | 4:3, 640 x 480 (1200 Kbit/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittelhohe Auflösung |
 | 8 | 4:3, 1280 x 960 (2000 Kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
 ### Vorgaben für die Videokodierung für Mobilgeräte {#mobile-video-encoding-presets}
@@ -426,7 +426,7 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoomverhalten, die Farbschemata, Ränder und Schriftarten ändern.
 
-Verwenden Sie als Best Practice Adobe Dynamic Media Classic HTML5-Video-Viewer. Die in HTML5-Video-Viewern verwendeten Vorgaben sind robuste Video-Player.
+Verwenden Sie als Best Practice Adobe Dynamic Media Classic HTML5-Video-Viewer. Dank der für die HTML5 Video Viewer verwendeten Vorgaben handelt es sich um robuste Video-Player.
 
 Durch die Kombination von Folgendem in einen einzelnen Player:
 
@@ -436,9 +436,9 @@ Durch die Kombination von Folgendem in einen einzelnen Player:
 
 Sie erweitern die Reichweite Ihrer Rich-Media-Inhalte auf Desktop-, Tablet- und mobile Benutzer und stellen ein optimiertes Videoerlebnis sicher.
 
-Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe Viewers-Referenzhandbuch.
+Siehe [Über HTML5-Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) im Adobe Viewers-Referenzhandbuch.
 
-Siehe Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben[.](application-setup.md#scene7_viewer_preset_compatibility_matrix)
+Siehe Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben](application-setup.md#scene7_viewer_preset_compatibility_matrix).[
 
 Siehe [Optimale Vorgehensweise: Verwenden des HTML5-Video-Viewers](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
@@ -450,7 +450,7 @@ Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.co
 
 Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite mit einem Link, über den der HTML5-Viewer in einem separaten Browserfenster geöffnet wird. In anderen Fällen ist es erforderlich, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall weist die Web-Seite wahrscheinlich ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die HTML5-Viewer, die mit Adobe Dynamic Media Classic geliefert werden, sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
 
-Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver &#x200B;](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver ](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Viewer-Vorgabentypen {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.co
 
 Informationen zu unterstützten Webbrowser- und Betriebssystemversionen für Viewer finden Sie in den Versionshinweisen zu Viewern .
 
-Siehe [Adobe Viewers-Referenz - Versionshinweise](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
+Siehe [Adobe Viewers-Referenz - Versionshinweise](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -568,29 +568,29 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
 
 * **Vorgabe hinzufügen**: Wählen Sie **[!UICONTROL Hinzufügen]** und wählen Sie im Dialogfeld „Viewer-Vorgabe hinzufügen“.
 
-      Siehe [Viewer-Vorgaben hinzufügen und bearbeiten](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Siehe [Hinzufügen und Bearbeiten von Viewer-](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Bearbeiten einer Vorgabe**: Wählen Sie eine Vorgabe aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
-      Siehe [Viewer-Vorgaben hinzufügen und bearbeiten](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Siehe [Hinzufügen und Bearbeiten von Viewer-](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Vorgabe löschen**: Wählen Sie eine Vorgabe aus und klicken Sie dann auf **[!UICONTROL Löschen]**.
 
 * **Eine Vorgabe exportieren**: Wählen Sie eine HTML5-Viewer-Vorgabe aus. Klicken Sie anschließend auf **[!UICONTROL Exportieren]**, um das Viewer-Design herunterzuladen und als Grundlage zum Erstellen und Hinzufügen einer weiteren Viewer-Vorgabe zu verwenden.
 
-      Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#export_an_html5_viewer_preset).
-  
+  Siehe [Exportieren einer HTML5-Viewer-Vorgabe](application-setup.md#exporting_an_html5_viewer_preset).
+
 * **Viewer-Vorgabeliste filtern**: Verwenden Sie diese Tools, um die Liste zu filtern:
 
-      * Öffnen Sie die Dropdown&#x200B;**Liste „Aktiv/Inaktiv** und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
-     * Öffnen Sie die **Viewer**-Dropdown-Liste und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]** aus, um alle Viewer anzuzeigen.
-  
+   * Öffnen Sie die **Aktiv/Inaktiv** Dropdown-Liste und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
+   * Öffnen Sie **Dropdown** Liste „Viewer“ und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]** aus, um alle Viewer anzuzeigen.
+
 * **Sortiervorgaben**: Wählen Sie eine Spaltenüberschrift aus (**[!UICONTROL Aktiv]**, **[!UICONTROL Typ]**, **[!UICONTROL Vorgabe]** oder **[!UICONTROL Plattform]**), um die Liste in einer Spalte zu sortieren. Wählen Sie ein zweites Mal eine Spaltenüberschrift aus, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren.
 
 * **Aktivieren und Deaktivieren von Vorgaben**: Wählen Sie eine Vorgabe aus und wählen Sie dann ihre Option „Aktiv“ aus, um sie zu aktivieren oder zu deaktivieren.
 
-      Siehe [Aktivieren oder Deaktivieren von Viewer-Vorgaben](application-setup.md#activate_or_deactivate_viewer_presets).
-  
+  Siehe [Aktivieren oder Deaktivieren von Viewer-](application-setup.md#activating_or_deactivating_viewer_presets).
+
 >[!NOTE]
 >
 >Wählen Sie **[!UICONTROL Vorschau]** auf der rechten Seite der Seite „Viewer-Vorgaben“ aus, um zu sehen, wie ein Asset in der ausgewählten Viewer-Vorgabe aussieht. Um ein anderes Asset anzuzeigen, wählen Sie **[!UICONTROL Durchsuchen]** auf der Seite „Viewer-Vorgaben“ und wählen Sie im Dialogfeld Asset-Vorschau auswählen ein anderes Asset aus.
@@ -601,7 +601,7 @@ Neben dem Hinzufügen von Viewer-Vorgaben mit **[!UICONTROL Hinzufügen]** in de
 
 Siehe [Export von HTML5-Viewer-](application-setup.md#exporting_an_html5_viewer_preset).
 
-Siehe auch [Video &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
+Siehe auch [Video ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)Viewer-Vorgaben“.
 
 **So fügen Sie Viewer-Vorgaben hinzu und bearbeiten sie:**
 
@@ -613,12 +613,12 @@ Siehe auch [Video &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.
 
    * **Hinzufügen**: Wählen Sie in der Symbolleiste **[!UICONTROL Hinzufügen]** aus. Wählen Sie im Dialogfeld Viewer-Vorgabe hinzufügen eine Plattform und anschließend einen Rich-Media-Asset-Typ aus.
 
-         Wählen Sie **[!UICONTROL Speichern unter]**, wenn Sie die Erstellung der Viewer-Vorgabe abgeschlossen haben.
-     
+     Wählen **[!UICONTROL „Speichern unter]**, wenn Sie die Erstellung der Viewer-Vorgabe abgeschlossen haben.
+
    * **Hinzufügen ausgehend von einer vorhandenen Viewer-Vorgabe**: Wählen Sie in der Tabelle eine Video-Viewer-Vorgabe aus und klicken Sie dann in der Symbolleiste auf **[!UICONTROL Bearbeiten]**.
 
-         Nachdem Sie den Video-Viewer neu konfiguriert haben, wählen Sie **[!UICONTROL Speichern unter]** aus, um die Vorgabe unter Verwendung eines anderen Namens im Textfeld „Vorgabenname“ zu speichern.
-     
+     Klicken Sie nach der Neukonfiguration des Video-Viewers auf **[!UICONTROL Speichern unter]**, um die Vorgabe unter einem anderen Namen im Textfeld „Vorgabenname“ zu speichern.
+
    * **Bearbeiten**: Wählen Sie eine vorhandene Viewer-Vorgabe aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
 1. Geben Sie auf der Seite „Viewer konfigurieren“ im Feld „Vorgabenname“ den Namen der Vorgabe ein bzw. bearbeiten Sie ihn.
@@ -938,7 +938,7 @@ Siehe auch [2D-Rotationsset](https://s7d5.scene7.com/s7viewers/html5/VideoViewer
 
 **So erstellen Sie eine Stapelsatzvorgabe:**
 
-1. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Stapelsatzvorgaben]** > **[!UICONTROL Stapelsatzvorgabe]**. **[!UICONTROL Formular anzeigen]**, wie in der oberen rechten Ecke der Detailseite angezeigt, ist die Standardansicht.
+1. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Stapelsatzvorgaben]** > **[!UICONTROL Stapelsatzvorgabe]**. **[!UICONTROL Formular]**, wie oben rechts auf der Detailseite festgelegt, ist die Standardansicht.
 1. Klicken Sie im Bedienfeld Vorgabenliste **[!UICONTROL Hinzufügen]**, um die Definitionsfelder im Detailbereich auf der rechten Seite der Seite zu aktivieren.
 1. Geben Sie in der Detailansicht in das Feld „Vorgabenname“ einen Namen für die Vorgabe ein.
 1. Wählen Sie im Dropdown-Menü „Stapelsatztyp“ einen Vorgabentyp aus.
@@ -987,7 +987,7 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
 
 **So erstellen Sie eine Stapelsatzvorgabe für die automatische Erstellung eines 2D-Rotations-Sets:**
 
-1. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Stapelsatzvorgaben]** > **[!UICONTROL Stapelsatzvorgabe]**. **[!UICONTROL Formular anzeigen]**, wie in der oberen rechten Ecke der Detailseite angezeigt, ist die Standardansicht.
+1. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Stapelsatzvorgaben]** > **[!UICONTROL Stapelsatzvorgabe]**. **[!UICONTROL Formular]**, wie oben rechts auf der Detailseite festgelegt, ist die Standardansicht.
 1. Wählen Sie im Bedienfeld Vorgabenliste **[!UICONTROL Hinzufügen]** aus, um die Definitionsfelder im Detailbereich auf der rechten Seite der Seite zu aktivieren.
 1. Geben Sie in der Detailansicht in das Feld „Vorgabenname“ einen Namen für die Vorgabe ein.
 1. Wählen Sie im Dropdown-Menü „Stapelsatztyp“ die Option **[!UICONTROL Asset-Set]**.

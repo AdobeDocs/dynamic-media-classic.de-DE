@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Integrieren Sie zunächst Dynamic Media Classic mit Adobe Analytics OAuth. Die A
 
 1. Navigieren Sie oben rechts im Adobe Dynamic Media Classic-Desktop-Programm zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]**.
 1. Wählen Sie im linken Bedienfeld unter **[!UICONTROL Anwendungseinstellungen]** die Option **[!UICONTROL Adobe Analytics]**.
-1. Wählen Sie auf der Seite **[!UICONTROL Adobe Analytics]** Konfiguration&rbrace; **[!UICONTROL Adobe Analytics-Anmeldung]** aus.
+1. Wählen Sie auf der Seite **[!UICONTROL Adobe Analytics]** Konfiguration} **[!UICONTROL Adobe Analytics-Anmeldung]** aus.
 1. Fügen Sie im Dialogfeld **[!UICONTROL Adobe Analytics]** im Feld **[!UICONTROL CLIENT-ID]** und im Feld **[!UICONTROL CLIENT-GEHEIMNIS]** die entsprechenden Werte ein, die Sie zuvor kopiert haben.
 1. Wählen Sie unten rechts im Dialogfeld die Option **[!UICONTROL Anmelden]** aus und melden Sie sich bei Adobe IMS (Identity Management Services) an.
 
