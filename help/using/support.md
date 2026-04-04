@@ -24,7 +24,7 @@ Unternehmen jeder Größe können den für sie richtigen technischen Support erh
 | Technischer Support | Mitgliedschaft |
 | --- | --- |
 | Max. Anz. Fälle | Unbegrenzt. |
-| Überprüfen des Adobe-Systemstatus | [Adobe Dynamic Media Classic-](https://status.adobe.com/products/1175). |
+| Überprüfen des Adobe-Systemstatus | [Adobe Dynamic Media Classic-](https://status.adobe.com/de/products/1175). |
 | Sie finden keine Antwort? | [Um Hilfe vom Support zu erhalten, eröffnen Sie ein Ticket](https://experienceleague.adobe.com/de?support-solution=General#support). |
 | Community-Forum | [Experience Manager-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=de). |
 | SLA (Service Level Agreements) | [Support-Leistungen / Nutzungsbedingungen](https://helpx.adobe.com/de/support/programs/support-policies-terms-conditions.html). |

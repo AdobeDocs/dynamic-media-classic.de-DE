@@ -25,7 +25,7 @@ Metadaten werden in der Detailansicht angezeigt. Es wird zusammen mit von Adobe 
 
 Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Adobe Dynamic Media Classic sie automatisch mit der -Datei hoch. Sie können Metadaten in Quell-Assets in Adobe Photoshop, InDesign, Illustrator und andere Programme einbetten. Adobe Dynamic Media Classic erkennt diese Metadaten. Sie können auch im Bedienfeld „Metadaten“ in der Detailansicht Metadaten zu einzelnen Dateien hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
 
-Weitere Informationen zu eingebetteten Metadaten finden Sie unter [Extensible Metadata Platform](https://www.adobe.com/products/xmp.html).
+Weitere Informationen zu eingebetteten Metadaten finden Sie unter [Extensible Metadata Platform](https://www.adobe.com/de/products/xmp.html).
 
 ## Anzeigen von Metadaten {#view-metadata}
 
