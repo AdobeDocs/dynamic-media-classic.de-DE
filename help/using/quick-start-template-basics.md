@@ -10,10 +10,20 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:57.394Z'
+TQID: 'https://experienceleague.adobe.com/2DaWdJsCz9f5iXEkMi6N1L7s3eFdvpBc1ECrgbVAueo'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 17%
+source-wordcount: 853
+ht-degree: 18%
 
 ---
 
@@ -29,7 +39,7 @@ Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoVie
 
 Diese Kurzanleitung soll Ihnen den schnellen Einstieg in die Arbeit mit den Vorlagengrundlagen erleichtern.
 
-## &#x200B;1. Dateien hochladen
+## &#x200B;1. Hochladen von Dateien
 
 Laden Sie zunächst die PSD-Datei oder die Bilddatei für Ihre Vorlage hoch. Adobe Dynamic Media Classic unterstützt neben PSD auch viele andere Bilddateiformate. Für Vorlagen werden jedoch verlustfreie TIFF- und PNG-Bilder empfohlen, da sie Transparenz ermöglichen.
 
@@ -39,7 +49,7 @@ Wenn Sie Bilddateien verwenden, können Sie die Bilder zuschneiden und beim Hoch
 
 Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um eine PSD-Datei oder andere Bilddateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen. Siehe [Hochladen von Vorlagendateien](uploading-template-files.md#uploading_template_files).
 
-## &#x200B;2. Erstellen einer Vorlage
+## &#x200B;2. Erstellen von Vorlagen
 
 Um eine Vorlage aus einer PSD-Datei zu erstellen, wählen Sie **[!UICONTROL Vorlage erstellen]** aus, wenn Sie die Datei hochladen. Um eine Vorlage aus Bildern zu erstellen, klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]** und geben Sie eine Breite und eine Höhenmessung für die Arbeitsfläche ein. Wählen Sie rechts oben auf der Seite entweder **[!UICONTROL Designer]** oder **[!UICONTROL Developer]** aus und ziehen Sie Bilder auf die Vorlagenseite. Sie können auch die Bilder auswählen *bevor* gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**. Die Vorlagenseite bietet Tools für Folgendes:
 
@@ -47,7 +57,7 @@ Um eine Vorlage aus einer PSD-Datei zu erstellen, wählen Sie **[!UICONTROL Vorl
 * Textebenen hinzufügen. Wählen Sie das Symbol **[!UICONTROL Text-Tool]** aus. Ziehen Sie den Mauszeiger, um ein Feld für die Textebene zu erstellen, und formatieren Sie dann den Text mit Werkzeugen auf der Seite Text .
 * Größe und Position von Ebenen ändern.
 * Anordnung von Ebenen ändern.
-* Schatten- und Schein-Effekte auf Bild- und Textebenen anwenden. 
+* Schatten- und Schein-Effekte auf Bild- und Textebenen anwenden.
 
 Siehe [Erstellen einer Vorlage](creating-template.md#creating_a_template).
 

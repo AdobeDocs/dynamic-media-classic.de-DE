@@ -10,10 +10,20 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
+autotag-review: '2026-05-13T17:39:54.763Z'
+TQID: 'https://experienceleague.adobe.com/eXBA0XV6xC3vgJ7eqqnDwnx0dThxnALmVrOo58jd-wc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 23%
+source-wordcount: 1643
+ht-degree: 21%
 
 ---
 
@@ -121,7 +131,7 @@ Diese Tabelle enthält Informationen zu den Zeitabschnitten, den jeweils zuläss
 | Minuten | 0-59 |  | `,: * /` |
 | Stunden | 0-23 | Beachten Sie die Verwendung des 24-Stunden-Formats. | `,: * /` |
 | Tag des Monats | 1-31 | Sie können keinen numerischen Wert für „Tag des Monats“ und „Tag der Woche“ angeben. Eines dieser Felder muss ein `?` Platzhalterzeichen verwenden. | `,: * / ? L C` |
-| Monat | 1 bis 12 oder Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `,: * /` |
+| Monat | 1-12 oder Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Sep, Okt, Nov, Dez | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. | `,: * /` |
 | Wochentag | Mo, Di, Mi, Do, Fr, Sa, So | Bei Werten wird zwischen Groß- und Kleinschreibung unterschieden. Sie können keinen numerischen Wert für „Tag des Monats“ und „Tag der Woche“ angeben. Eines dieser Felder muss ein `?` Platzhalterzeichen verwenden. | `,: * / ? L C #` |
 | Jahr (optional) | Leer oder 1970-2099 |  | `,: * /` |
 

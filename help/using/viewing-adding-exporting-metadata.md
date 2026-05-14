@@ -10,10 +10,20 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:17:59.510Z'
+TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 34%
+source-wordcount: 2266
+ht-degree: 36%
 
 ---
 
@@ -37,7 +47,7 @@ Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailans
 
 * **XMP**: Werte, wie vom Extensible Metadata-Programm definiert.
 
-Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü Metadatenansichten angezeigt.
+Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü „Metadaten-Ansichten“ angezeigt.
 
 Informationen [&#x200B; Erstellen von Metadatenansichten finden &#x200B;](application-setup.md#metadata_views) unter „Metadatenansichten“.
 
@@ -81,7 +91,7 @@ Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus e
 
 >[!NOTE]
 >
->Sie können eine Vorlage für die Eingabe von Metadaten erstellen, damit sie ordnungsgemäß in Adobe Dynamic Media Classic importiert werden können. Nachdem Sie die Vorlage erstellt haben, können Sie sie zur Eingabe der Metadaten verwenden.
+>Sie können eine Vorlage für die Eingabe von Metadaten erstellen, damit sie ordnungsgemäß in Adobe Dynamic Media Classic importiert werden können. Nach dem Erstellen der Vorlage können Sie sie zum Eingeben der Metadaten verwenden.
 >Siehe [Erstellen einer Vorlage zum Eingeben und Hochladen von Metadaten](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Weitere Informationen über standardisierte Eigenschaften finden Sie im [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
@@ -107,7 +117,7 @@ Beispiel: Die XMP-Eigenschaft für Schlüsselwörter ist das XMP-Schema „Dubli
 
 Keywords können als kommagetrennte Liste importiert werden. Wenn ein Komma in einem der einzelnen Werte angezeigt wird, führen Sie eine Escape-Operation mit einem umgekehrten Schrägstrich (\) durch. Ein umgekehrter Schrägstrich muss mit einem doppelten umgekehrten Schrägstrich (\\) angegeben werden.
 
-Beispielsweise legt eine Metadaten-Importdatei, die den für `Hello\, World!,back\\slash,foo` `dc:subject` Wert enthält, drei XMP-Schlüsselwörter für das Asset fest: `Hello, World!,` `back\slash,` und `foo`.
+Beispielsweise legt eine Metadaten-Importdatei, die den für `dc:subject` `Hello\, World!,back\\slash,foo` Wert enthält, drei XMP-Schlüsselwörter für das Asset fest: `Hello, World!,` `back\slash,` und `foo`.
 
 ### Importieren von XMP- und Metadaten-Schema-XMP-Dateien
 

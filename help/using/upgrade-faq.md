@@ -6,9 +6,22 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 4601442c2d51d50a2712eee7fd8e5110b43fb2a0
+autotag-review: '2026-05-13T20:15:39.241Z'
+TQID: 'https://experienceleague.adobe.com/0ODwpm8UKHiOr7Ttv5MBKEnxu2HDfUw3yxZ6YhEfK4M'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: 1591
 ht-degree: 0%
 
 ---
@@ -68,7 +81,7 @@ Kunden, die derzeit über [!DNL Dynamic Media Classic] (früher Scene7) und auch
 +++
 
 +++**Wie starte ich den Upgrade-Prozess?**
-Wenden Sie sich mit der Betreffzeile [&#x200B; an Ihren Adobe](mailto:s7support@adobe.com)Kundenbetreuer oder `[!DNL Dynamic Media] Upgrade Program`E-Mail s7support@adobe.com).
+Wenden Sie sich mit der Betreffzeile `[!DNL Dynamic Media] Upgrade Program` an Ihren Adobe[Kundenbetreuer oder &#x200B;](mailto:s7support@adobe.com)E-Mail s7support@adobe.com).
 
 +++
 
@@ -119,7 +132,7 @@ Sie können ein Upgrade durchführen, wenn Sie bereit sind, die neuen Funktionen
 
 +++
 
-+++**Kann ich nach dem Upgrade auf [!DNL Dynamic Media Classic] weiterhin [!DNL Dynamic Media] (früher Adobe Scene7) verwenden?**
++++**Kann ich nach dem Upgrade auf [!DNL Dynamic Media] weiterhin [!DNL Dynamic Media Classic] (früher Adobe Scene7) verwenden?**
 Nach dem Upgrade auf [!DNL Dynamic Media] sollten Sie Dynamic Media nur für Bilder und Videos verwenden. Sie können [!DNL Dynamic Media Classic] weiterhin nur für Funktionen verwenden, die noch nicht in [!DNL Dynamic Media] verfügbar sind, darunter:
 
 * Visueller Konfigurator (Bildautor, Bildwiedergabe).
@@ -129,7 +142,7 @@ Nach dem Upgrade auf [!DNL Dynamic Media] sollten Sie Dynamic Media nur für Bil
 +++
 
 +++**Welche Tools stellt Adobe zur Automatisierung des Upgrade-Prozesses bereit?**
-Für den ersten Start des Upgrade-Programms stellt Adobe Tools bereit, mit denen Assets in [!DNL Dynamic Media Classic] Assets automatisch von [!DNL Dynamic Media] nach [!DNL Experience Manager] verschoben werden können.
+Für den ersten Start des Upgrade-Programms stellt Adobe Tools bereit, mit denen Assets in [!DNL Experience Manager] Assets automatisch von [!DNL Dynamic Media Classic] nach [!DNL Dynamic Media] verschoben werden können.
 
 +++
 
@@ -257,7 +270,7 @@ Die Kunden sind in erster Linie für das Änderungs-Management verantwortlich, e
 +++**Wie erhalte ich Unterstützung?**
 24/7/365 Kundenunterstützung ist verfügbar. [Kontaktieren Sie den technischen Support](https://experienceleague.adobe.com/de?support-solution=General#support).
 
-Tel.: 1-800-898-9743 (USA) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japan)
+Telefon: 1-800-898-9743 (USA) | +44 (0)20 35641782 (UK) | +81-3-6743-9632 (Japan)
 
 +++
 
@@ -271,6 +284,6 @@ Wenden Sie sich für benutzerdefinierte oder individuelle Schulungen an Ihren Ad
 ## Zusätzliche Ressourcen
 
 +++**Wo erhalte ich weitere Informationen über [!DNL Dynamic Media] und seine Funktionen?**
-Weitere Informationen zu [[!DNL Dynamic Media]  finden &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) auf [!DNL Dynamic Media]Microsite).
+Weitere Informationen zu [!DNL Dynamic Media] finden [[!DNL Dynamic Media]  auf &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)Microsite).
 
 +++

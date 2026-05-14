@@ -10,10 +10,20 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:13:09.120Z'
+TQID: 'https://experienceleague.adobe.com/y5rcs4ohA-zMFKKm1EjsSxuUqgqbp-CVMzRcmTaRs6c'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 30%
+source-wordcount: 2315
+ht-degree: 27%
 
 ---
 
@@ -58,7 +68,7 @@ Die folgende Tabelle zeigt die Scharfzeichnungsoptionen des Image-Servers.
 | Name | URL-Protokoll | Werte | Beispiel |
 | --- | --- | --- | --- |
 | Einfaches Scharfzeichnen | `op_sharpen` | `0` oder `1` | `op_sharpen=1` |
-| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind häufig auffällig.<br>`bicub`: Wählt die bikubische Interpolation. CPU-intensiver als `bilin`, liefert jedoch schärfere Bilder mit weniger auffälligen Alias-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Es kann zu einem höheren CPU-Preis etwas schärfere Ergebnisse als bikubisch erzielen.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation aus, bei der, sofern verfügbar, sowohl höhere als auch niedrigere Auflösungen verwendet werden. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
+| Resamplingmodus | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Wählt die standardmäßige bilineare Interpolation aus. Schnellste Resampling-Methode; einige Aliasing-Artefakte sind oft auffällig.<br>`bicub`: Wählt bi-kubische Interpolation aus. CPU-intensiver als `bilin`, liefert jedoch schärfere Bilder mit weniger auffälligen Alias-Artefakten.<br><br>`sharp2`: Wählt eine modifizierte Lanczos Windows®-Funktion als Interpolationsalgorithmus aus. Es kann zu einem höheren CPU-Preis etwas schärfere Ergebnisse als bikubisch liefern.<br><br>`trilin`: Wählt eine modifizierte trilineare Interpolation, bei der, sofern verfügbar, sowohl höhere als auch niedrigere Auflösungen verwendet werden. Wird nur bei Problemen mit dem Aliasing empfohlen. Reduziert JPEG-Größen aufgrund der reduzierten Hochfrequenzdaten. | `resMode=sharp2` |
 | Unschärfemaske | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: Filterstärkefaktor (real 0…5)<br><br>`radius`: Filterkernradius in Pixeln (real 0…250) <br><br>`threshold`: Filterschwellenwert (ganze Zahl 0…255)<br><br>`monochrome`: Auf `0` gesetzt, um jede Farbkomponente separat zu maskieren, auf `1` gesetzt, um Unschärfemaske Bildhelligkeit (Intensität) | `op_usm=1,1,10,0` |
 
 Wählen Sie das **[!UICONTROL Scharfzeichnen]** und wählen Sie eine Option aus:
@@ -71,9 +81,9 @@ Wählen Sie das **[!UICONTROL Scharfzeichnen]** und wählen Sie eine Option aus:
 
 Wählen Sie diese Optionen aus, um das Scharfzeichnen mit Unschärfemaske anzupassen:
 
-* **Stärke**: Steuert den auf die Kanten-Pixel angewendeten Kontrastwert. Der Standardwert ist 0,0. Für Bilder mit höherer Auflösung können Sie ihn auf bis zu 5,0 erhöhen. Sie können sich die Auswirkung der Option „Betrag“ wie ein Maß für die Filterintensität vorstellen. Die **[!UICONTROL Betrag]** in Adobe Dynamic Media Classic ist nicht identisch mit der Einstellung Betrag in Adobe Photoshop. Adobe Photoshop verwendet einen Wert zwischen 1 % und 500 %, während Adobe Dynamic Media Classic von 0,0 auf 5,0 skaliert werden kann. (5,0 entspricht ungefähr 500 % in Photoshop, 0,9 ungefähr 90 % usw.)
+* **Stärke**: Steuert den auf die Kanten-Pixel angewendeten Kontrastwert. Der Standardwert ist 0,0. Bei hochauflösenden Bildern können Sie sie auf bis zu 5.0 erhöhen. Stellen Sie sich den Betrag als ein Maß für die Filterintensität vor. Die **[!UICONTROL Betrag]** in Adobe Dynamic Media Classic ist nicht identisch mit der Einstellung Betrag in Adobe Photoshop. Adobe Photoshop verwendet einen Wert zwischen 1 % und 500 %, während Adobe Dynamic Media Classic von 0,0 auf 5,0 skaliert werden kann. (5,0 entspricht ungefähr 500 % in Photoshop, 0,9 ungefähr 90 % usw.)
 
-* **Radius**: Bestimmt die Anzahl der Pixel um die Kanten-Pixel, auf die sich die Scharfzeichnung auswirkt. Der Effekt wird auf allen Pixeln im Bild ausgeführt und strahlt in alle Richtungen aus. 
+* **Radius**: Bestimmt die Anzahl der Pixel um die Kanten-Pixel, auf die sich die Scharfzeichnung auswirkt. Der Effekt wird auf allen Pixeln im Bild ausgeführt und strahlt in alle Richtungen aus.
 
 Der beste Radiuswert hängt von der Größe des Bilds ab. Bei einem geringeren Wert werden nur die Kantenpixel scharfgezeichnet, während bei einem hohen Wert ein breiterer Pixelbereich scharfgezeichnet wird.
 
@@ -118,7 +128,7 @@ Die Optionen für „JPG-Qualität“ bestimmen den JPG-Komprimierungsgrad:
 
 * **JPG-Qualität**: Wählen Sie diese Option aus, wenn Sie Komprimierungsgrade und Neuberechnung der Chrominanz steuern möchten.
 
-* **Regler**: Legt den JPG-Komprimierungsgrad fest. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala reicht von 1 bis 100.
+* **Regler**: Legt den JPG-Komprimierungsgrad fest. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPG-Qualitätsskala ist 1-100.
 
 * **JPG-Neuberechnung der Chrominanz aktivieren**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 

@@ -10,9 +10,17 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:09:40.553Z'
+TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: 719
 ht-degree: 11%
 
 ---
@@ -38,7 +46,7 @@ Siehe auch [Grenzwerte für Dynamic Media](/help/using/limitations.md).
 
 Die folgenden Schnellstarts zu Bildsets helfen Ihnen bei der schnellen Einrichtung und Ausführung von Bildset-Verfahren in Adobe Dynamic Media Classic.
 
-## &#x200B;1. Laden Sie die primären Bilder für mehrere Ansichten und Farbfelder hoch
+## &#x200B;1. Primäre Bilder für mehrere Ansichten und Farbfelder hochladen
 
 Laden Sie zuerst die Bilder für die Bildsätze hoch. Da Benutzer Bilder im Bildset-Viewer einzoomen können, sollten Sie diese Funktion bei der Auswahl von Bildern berücksichtigen. Achten Sie darauf, dass die längste Seite der Bilder mindestens 2.000 Pixel hat. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreie TIFF-, PNG- und EPS-Bilder.
 
@@ -46,11 +54,11 @@ Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um
 
 Siehe [Vorbereiten von Bildset-Assets auf den Upload](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) und [Hochladen von Dateien](uploading-files.md#uploading-your-files).
 
-## &#x200B;2. Erstellen eines Bildsets
+## &#x200B;2. Erstellen eines Bildsatzes
 
 In Bildsets wählen Benutzerinnen und Benutzer Miniaturansichten im Bildset-Viewer aus, um ein Bild aus einer anderen Seite oder einem anderen Winkel anzuzeigen.
 
-Wählen Sie zum Erstellen eines Bildsets in der globalen Navigationsleiste die Option **[!UICONTROL Erstellen]** und wählen Sie dann **[!UICONTROL Bildsets]**. Ziehen Sie im Fenster Bildset Ihre Bilder auf die Seite, um das Bildset zu erstellen. Organisieren und löschen Sie Bilder wie gewünscht und fügen Sie sie hinzu. 
+Wählen Sie zum Erstellen eines Bildsets in der globalen Navigationsleiste die Option **[!UICONTROL Erstellen]** und wählen Sie dann **[!UICONTROL Bildsets]**. Ziehen Sie im Fenster Bildset Ihre Bilder auf die Seite, um das Bildset zu erstellen. Organisieren und löschen Sie Bilder wie gewünscht und fügen Sie sie hinzu.
 
 Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set).
 
@@ -64,9 +72,9 @@ Sie können Viewer-Vorgaben über den Bildschirm „Anwendungseinstellungen“ h
 
 Siehe [Erstellen und Bearbeiten von Viewer-](application-setup.md#adding-and-editing-viewer-presets).
 
-## &#x200B;4. Vorschau eines Bildsets
+## &#x200B;4. Anzeigen einer Vorschau für ein Bildset
 
-Wählen Sie das Bildset im Durchsuchen-Bedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Klicken Sie auf der Seite Vorschau auf die Miniaturansichtssymbole, um das Bildset im ausgewählten Viewer zu überprüfen. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
+Wählen Sie das Bildset im Durchsuchen-Bedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Klicken Sie auf der Seite Vorschau auf die Miniaturansichtssymbole, um das Bildset im ausgewählten Viewer zu überprüfen. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen.
 
 Siehe [Vorschau eines Assets](previewing-asset.md#previewing-an-asset).
 
@@ -82,7 +90,7 @@ Wählen Sie **[!UICONTROL Symbol]** Zur Veröffentlichung markieren“ links neb
 
 Siehe [Dateien veröffentlichen](publishing-files.md#publishing-files).
 
-## &#x200B;6. Verknüpfen eines Bildsets mit einer Website
+## &#x200B;6. Verknüpfen von Bildsets mit Websites
 
 Adobe Dynamic Media Classic erstellt URL-Aufrufe für Bildsets und aktiviert diese nach deren Veröffentlichung. Sie können diese URLs im Anzeigebereich „Vorschau“ kopieren.
 

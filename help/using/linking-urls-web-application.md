@@ -10,10 +10,20 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:03:48.579Z'
+TQID: 'https://experienceleague.adobe.com/c8e722KVmasJVtoVl8k7-5vGjvs4Lm-GZavm-TF9fk0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 26%
+source-wordcount: 844
+ht-degree: 18%
 
 ---
 
@@ -56,7 +66,7 @@ Eine mit einer Bildvorgabe generierte URL-Zeichenfolge lässt sich im Anzeigeber
 
 Ein URL-Aufruf für die Bildgröße auf Dynamic Media-Bildservern weist die folgende grundlegende Syntax auf:
 
-*Pfad*/*Name des Image-Servers*/*Kontoname*/*Bildname*?*Modifikator1*&amp;*Modifikator2*&amp;...
+*path*/*name of Image Server*/*account name*/*image name*?*modifier1*&amp;*modifier2*&amp;…
 
 In einer Dynamic Media-Bildserver-URL werden hinter dem Fragezeichen (?) Anweisungen an den Server für die Anzeige des Bildes angezeigt. Dieser URL-Aufruf liefert beispielsweise ein Bild mit dem Namen „Rucksack“ in einer Breite von 250 Pixel:
 
@@ -64,13 +74,13 @@ In einer Dynamic Media-Bildserver-URL werden hinter dem Fragezeichen (?) Anweisu
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
 ```
 
-Eine Bildvorgabe-URL enthält alle Modifikator-Anweisungen für die Darstellung des Bildes in der richtigen Größe und mit der richtigen Formatierung. Ohne Bildvorgabe sind nach dem Fragezeichen (?) sämtliche Modifikator-Anweisungen in der URL-Zeichenfolge angegeben:
+Eine Bildvorgabe-URL enthält alle Modifikator-Anweisungen für die Darstellung des Bildes in der richtigen Größe und mit der richtigen Formatierung. Beachten Sie ohne Bildvorgabe alle Modifikatoranweisungen nach dem Fragezeichen (?) in dieser URL-Zeichenfolge:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resMode=sharp&op_usm=1.1,0.5,1,0
 ```
 
-Bei einer URL-Zeichenfolge, die mit einer Bildvorgabe generiert wurde, ist statt der Vorgabenanweisungen der Name der Bildvorgabe angegeben – hier das Beispiel analog zur langen URL oben:
+In einer URL-Zeichenfolge, die mit einer Bildvorgabe generiert wird, wird der Name der Bildvorgabe jedoch anstelle der durch die Bildvorgabe definierten Anweisungen angezeigt. Wenn Sie sich beispielsweise auf die lange URL oben beziehen, lautet die URL-Zeichenfolge:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$

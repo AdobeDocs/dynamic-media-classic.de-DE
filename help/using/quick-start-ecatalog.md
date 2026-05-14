@@ -10,16 +10,25 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T19:55:49.663Z'
+TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: 1572
 ht-degree: 25%
 
 ---
 
 # Schnellstart: E-Kataloge{#quick-start-ecatalogs}
 
-Ein eCatalog ist eine digitale Web-Version von Druckmaterial, z. B. ein Katalog, eine Broschüre, ein Flyer, ein Produkthandbuch oder ein Werberundschreiben. Ein E-Katalog wird in einem E-Katalog-Viewer auf einer Website angezeigt. Dieser Viewer simuliert das Erlebnis des Lesens von Druckmaterial.
+Ein eCatalog ist eine digitale Web-Version von Druckmaterial, z. B. ein Katalog, eine Broschüre, ein Flyer, ein Produkthandbuch oder ein Werberundschreiben. Ein E-Katalog wird in einem E-Katalog-Viewer auf einer Website angezeigt. Dieser Viewer simuliert denselben Leseeindruck wie beim Betrachten von Druckwerbematerial.
 
 Siehe auch die folgenden Schulungsvideos:
 
@@ -80,13 +89,13 @@ Wählen Sie **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren E-Katal
 
 Siehe [Erstellen eines E-](creating-ecatalog.md).
 
-## &#x200B;3. Erstellen von Imagemaps
+## &#x200B;3. Imagemaps erstellen
 
 Imagemaps fügen E-Katalog-Seiten einen weiteren Aspekt hinzu. Eine Imagemap ist ein Seitenbereich, mit dessen Hilfe weitere Informationen zu einem Element angezeigt werden können. Wenn Betrachter der Website den Mauszeiger über eine Imagemap bewegen, wird eine Beschreibung des Elements angezeigt. Durch Klicken auf eine Imagemap wird ein externer Verweis aktiviert, der eine neue Webseite öffnet, auf der Sie mehr über ein Element erfahren können.
 
 Um eine Imagemap zu erstellen, öffnen Sie den Anzeigebereich „E-Katalog“. Wechseln Sie dann zur Registerkarte **[!UICONTROL Seiten zuordnen]** des Bildschirms „eCatalog“ und ziehen Sie mit dem Tool „Rechteck-Imagemap“ oder dem Tool „Polygon-Imagemap“ einen Rahmen um die Karte. Sie können die Position und Größe von Imagemaps anpassen, indem Sie mit dem Schwenk -Tool Kartenränder ziehen.
 
-Geben Sie nach dem Frame der Imagemap die URL-Adresse ein, zu der Sie wechseln möchten, wenn Sie die Imagemap auswählen. Sie können auch den Rollover-Text eingeben, der beim Bewegen des Mauszeigers über die Imagemap angezeigt werden soll. 
+Geben Sie nach dem Frame der Imagemap die URL-Adresse ein, zu der Sie wechseln möchten, wenn Sie die Imagemap auswählen. Sie können auch den Rollover-Text eingeben, der beim Bewegen des Mauszeigers über die Imagemap angezeigt werden soll.
 
 Siehe [Erstellen von eCatalog-Imagemaps](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
@@ -96,7 +105,7 @@ Sie können den Imagemap-Text mithilfe der Einstellungen des Infobereichs im E-K
 
 Siehe [Inhalt des Infobereichs in E-Katalogen verwalten](/help/using/info-panel-content-ecatalog.md).
 
-## &#x200B;4. Einrichten von E-Katalog-Viewer-Vorgaben
+## &#x200B;4. Viewer-Vorgaben für E-Katalog einrichten
 
 Den Endbenutzern wird der E-Katalog im E-Katalog-Viewer angezeigt. Wenn Sie ein Administrator sind, können Sie den E-Katalog-Viewer konfigurieren. Sie können die Konturfarbe ändern und ein neues „Design“ auswählen, um Ihren E-Katalog mit einem Branding zu versehen. Adobe Dynamic Media Classic verfügt über mehrere „Best Practice“-E-Katalog-Viewer-Vorgaben. Sie können eine dieser Vorgaben zum Anzeigen Ihrer E-Kataloge auswählen. Als Administrator können Sie jedoch auch eigene E-Katalog-Viewer-Vorgaben erstellen.
 
@@ -110,11 +119,11 @@ Mithilfe von E-Katalog-Viewer-Vorgaben wird der Stil und das Verhalten von E-Kat
 
 Um herauszufinden, wie E-Katalog-Viewer-Vorgaben Ihren E-Katalog anzeigen, wählen Sie Ihren E-Katalog im Durchsuchen-Bedienfeld aus und klicken Sie dann auf **[!UICONTROL Vorschau]**. Die Vorschau wird in dem als Standard festgelegten Viewer geöffnet.
 
-Achten Sie auf Ausrichtung, Farbschema, Aussehen der Steuerelemente zum Umblättern der Seiten und Aussehen der Seiten beim Umblättern. 
+Achten Sie auf Ausrichtung, Farbschema, Aussehen der Steuerelemente zum Umblättern der Seiten und Aussehen der Seiten beim Umblättern.
 
 Siehe [Vorschau von E-Katalogen im E-Katalog-Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-## &#x200B;6. Veröffentlichen von E-Katalogen und zugehörigen PDFs
+## &#x200B;6. Veröffentlichen von E-Katalog und zugehörigen PDFs
 
 Durch das Veröffentlichen des E-Katalogs und der zugehörigen PDF wird er auf Dynamic Media-Bildservern platziert, sodass er auf Ihrer Website und in Ihrem Programm bereitgestellt werden kann. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge für Ihren E-Katalog. Verwenden Sie diese URL, um den E-Katalog von Dynamic Media-Bildservern an Ihre Website oder Anwendung aufzurufen.
 

@@ -10,9 +10,20 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T19:46:24.807Z'
+TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: 2135
 ht-degree: 1%
 
 ---
@@ -279,7 +290,7 @@ Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms kö
 
 **_Das Bedienfeld „Medienkorb“ auf der Landingpage von Adobe Dynamic Media Classic wird nicht angezeigt._**<br>Tippen Sie in Adobe Dynamic Media Classic auf&#x200B;**[!UICONTROL Setup > Persönliches Setup &#x200B;]**. Stellen Sie im Browser-Bereich sicher&#x200B;**[!UICONTROL dass „MediaPortal-Funktionen &#x200B;]**&quot; ausgewählt (aktiviert) ist. Tippen Sie auf&#x200B;**[!UICONTROL Speichern > Schließen &#x200B;]**.
 
-**_Veröffentlichungsstatus (grüner Indikator) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche früher erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung hat Adobe ein&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol in der Symbolleiste rechts neben der Schaltfläche&#x200B;**[!UICONTROL Keine auswählen &#x200B;]**&#x200B;eingeführt. Tippen Sie auf das&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
+**_Veröffentlichungsstatus (grüne Anzeige) eines Assets wird nicht korrekt angezeigt._**<br>In der Browser-Benutzeroberfläche war eine erneute Anmeldung bei der Benutzeroberfläche erforderlich, um den korrekten Veröffentlichungsstatus von Assets anzuzeigen. In der Desktop-Anwendung hat Adobe ein&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol in der Symbolleiste rechts neben der Schaltfläche&#x200B;**[!UICONTROL Keine auswählen &#x200B;]**&#x200B;eingeführt. Tippen Sie auf das&#x200B;**[!UICONTROL Aktualisieren &#x200B;]**-Symbol, um den neuesten Status aller Assets auf der angegebenen Seite anzuzeigen. Keine erneute Anmeldung erforderlich wie bei der Browser-Benutzeroberfläche.
 
 ![Aktualisierungssymbol](/help/using/assets/refresh-icon1.png)
 *Aktualisierungssymbol*

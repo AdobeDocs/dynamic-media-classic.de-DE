@@ -10,10 +10,18 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:11.713Z'
+TQID: 'https://experienceleague.adobe.com/OhGE3-jniPFknPmpVykZWWSKo2jwdef2sA3Yqo5WpWw'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 14%
+source-wordcount: 710
+ht-degree: 16%
 
 ---
 
@@ -46,7 +54,7 @@ Nach dem Veröffentlichen eines Mustersets können Sie die zugehörige URL oder 
 
 ## Hinzufügen von Musterset-URLs zu einer Web-Seite {#adding-swatch-set-urls-to-your-web-page}
 
-Die häufigste Methode zur Bereitstellung von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird über den Link eine dynamische Seite (ASP oder JSP) gestartet, die das Farbfeldset in einem Popup-Zoomfenster anzeigt. Mit dem Link Zoom wird ein Popup-Fenster geöffnet, das die tatsächliche Zoom-Funktion enthält.
+Die häufigste Methode zur Bereitstellung von Mustersets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn diese Option aktiviert ist, wird über den Link eine dynamische Seite (ASP oder JSP) gestartet, die das Farbfeldset in einem Popup-Zoomfenster anzeigt. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
 Weitere Informationen und Codebeispiele finden Sie unter [Einbetten des HTML5-Zoom-Viewers“ im Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
