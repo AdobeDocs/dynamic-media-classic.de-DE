@@ -56,7 +56,7 @@ Nachdem Sie ein Bildset veröffentlicht haben, können Sie die zugehörige URL o
 
 Die häufigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn dieser Link ausgewählt ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie im [Embedded HTML5 Zoom Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) im Adobe Viewer-Referenzhandbuch.
+Weitere Informationen und Codebeispiele finden Sie im [Embedded HTML5 Zoom Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) im Adobe Viewer-Referenzhandbuch.
 
 ## Kopieren des eingebetteten Codes eines Bildset-Viewers {#copying-the-embed-code-of-an-image-set-viewer}
 
