@@ -10,10 +10,16 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T19:59:54.410Z'
+TQID: 'https://experienceleague.adobe.com/C0REr3rutR9-FalFXHHeGVtYJGEeODYtTnAfWk-S0-M'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 28%
+source-wordcount: 1212
+ht-degree: 26%
 
 ---
 
@@ -77,9 +83,9 @@ Wählen Sie unter „Unschärfemaske &quot; die gewünschten Optionen aus. Die z
 | Optionen für „Unschärfemaske“ | Beschreibung |
 | --- | --- |
 | Betrag | Stärke steuert den auf die Kanten-Pixel angewendeten Kontrastwert.<br><br>Betrachten Sie dies als Intensität des Effekts. Es gibt einen Unterschied zwischen den Werten von „Unscharf maskieren“ in Dynamic Media Classic und in Adobe Photoshop. Der Hauptunterschied besteht darin, dass Photoshop einen Wertebereich von 1 % bis 500 % hat. In Adobe Dynamic Media Classic liegt der Wertebereich dagegen zwischen 0,0 und 5,0. Ein Wert von 5,0 in Adobe Dynamic Media Classic entspricht 500 % in Photoshop. Ein Wert von 0,9 entspricht 90 % usw. |
-| Radius | Diese Option steuert den Radius des Effekts. <br><br>Der Wertebereich ist 0-250. Der Effekt wird auf allen Pixeln im Bild ausgeführt und strahlt in alle Richtungen aus. Der Radius wird in Pixel angegeben. Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein Bild mit 2000 × 2000 Pixel und ein Bild mit 500 × 500 Pixel zu erhalten, legen Sie einen Radius von zwei Pixel auf dem Bild mit 2000 × 2000 Pixel fest. Legen Sie dann einen Radius-Wert von einem Pixel auf dem Bild mit 500 × 500 Pixel fest. Ein größerer Wert wird entsprechend für ein Bild mit mehr Pixeln verwendet.  |
-| Schwelle | Gibt den Kontrastbereich an, der beim Anwenden des Filters „Unschärfemaske“ ignoriert werden soll. Dieser Effekt ist wichtig, damit bei Verwendung dieses Filters kein „Rauschen“ in ein Bild eintritt. Der Schwellenwert verwendet einen Wert von 0 bis 255, was für die Anzahl der Helligkeitsschritte in einem Graustufenbild steht. 0=schwarz, 128=50 % grau und 255=weiß. <br><br>Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um Bildrauschen zu vermeiden, trotzdem wird kontrastreichen Bereichen, z. B. wo Wimpern auf die Haut treffen, Kantenkontrast hinzugefügt.<br><br>Wenn Sie beispielsweise ein Foto von jemandes Gesicht haben, wirkt sich die Unschärfemaske auf die kontrastreichen Teile des Bildes aus. Zum Beispiel, wo Wimpern und Haut sich treffen, um einen offensichtlichen Kontrastbereich zu schaffen, und die glatte Haut selbst. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln. Dies wiederum erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert)<br><br>Zur Vermeidung dieses Problems wird ein Schwellenwert verwendet, der den Filter anweist, die Pixel zu ignorieren, die den Kontrast nicht wesentlich ändern, beispielsweise bei glatter Haut. <br><br>Beachten Sie in der weiter oben gezeigten Reißverschlussgrafik die Textur neben dem Reißverschluss. Das Bildrauschen tritt auf, weil die Schwellenwerte zu niedrig sind, um das Bildrauschen zu unterdrücken. |
-| Monochrom | Wählen Sie diese Option, um die „Umschärfemaske“ auf die Gesamthelligkeit (Intensität) des Bildes anzuwenden.<br><br>Deaktivieren Sie diese Option, um die Unschärfemaske auf jede Farbkomponente einzeln anzuwenden. |
+| Radius | Diese Option steuert den Radius des Effekts. <br><br>Der Wertebereich ist 0-250. Der Effekt wird auf allen Pixeln im Bild ausgeführt und strahlt in alle Richtungen aus. Der Radius wird in Pixel angegeben. Um beispielsweise einen ähnlichen Scharfzeichnungseffekt für ein Bild mit 2000 × 2000 Pixel und ein Bild mit 500 × 500 Pixel zu erhalten, legen Sie einen Radius von zwei Pixel auf dem Bild mit 2000 × 2000 Pixel fest. Legen Sie dann einen Radius-Wert von einem Pixel auf dem Bild mit 500 × 500 Pixel fest. Ein größerer Wert wird entsprechend für ein Bild mit mehr Pixeln verwendet. |
+| Schwelle | Gibt den Kontrastbereich an, der beim Anwenden des Filters „Unschärfemaske“ ignoriert werden soll. Dieser Effekt ist wichtig, damit bei Verwendung dieses Filters kein „Rauschen“ in ein Bild eintritt. Der Schwellenwert verwendet einen Wert von 0 bis 255, was für die Anzahl der Helligkeitsschritte in einem Graustufenbild steht. 0=Schwarz, 128=50% Grau und 255=Weiß.<br><br>Bei einem Schwellenwert von 12 werden beispielsweise leichte Variationen der Hauttonhelligkeit ignoriert, um Bildrauschen zu vermeiden, aber trotzdem wird der Kantenkontrast in kontrastreichen Bereichen verstärkt, z. B. wo Wimpern auf die Haut treffen.<br><br>Wenn Sie beispielsweise ein Foto von jemandes Gesicht haben, wirkt sich die Unschärfemaske auf die kontrastreichen Teile des Bildes aus. Zum Beispiel, wo Wimpern und Haut sich treffen, um einen offensichtlichen Kontrastbereich zu schaffen, und die glatte Haut selbst. Selbst die glatteste Haut weist subtile Änderungen in Helligkeitswerten auf. Wenn Sie keinen Schwellenwert verwenden, akzentuiert der Filter diese subtilen Änderungen in den Hautpixeln. Dies wiederum erzeugt einen Rauscheffekt (der wahrscheinlich unerwünscht ist), während er gleichzeitig den Kontrast an den Wimpern erhöht und somit die Schärfe verbessert (wahrscheinlich wünschenswert)<br><br>Zur Vermeidung dieses Problems wird ein Schwellenwert verwendet, der den Filter anweist, die Pixel zu ignorieren, die den Kontrast nicht wesentlich ändern, beispielsweise bei glatter Haut. <br><br>Beachten Sie in der weiter oben gezeigten Reißverschlussgrafik die Textur neben dem Reißverschluss. Das Bildrauschen tritt auf, weil die Schwellenwerte zu niedrig sind, um das Bildrauschen zu unterdrücken. |
+| Monochrom | Wählen Sie diese Option aus, um die Unschärfemaske auf die Bildhelligkeit (Intensität) anzuwenden<br><br>Deaktivieren Sie diese Option, um die Unschärfemaske auf jede Farbkomponente einzeln anzuwenden. |
 
 Siehe auch [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image).
 
@@ -92,8 +98,8 @@ Verwenden Sie den Knock-out-Hintergrund, damit Sie den Hintergrund eines Bildes 
 | Optionen für „Hintergrund aussparen“ | Beschreibung |
 | --- | --- |
 | Hintergrund aussparen | Wählen Sie aus, um die Knock-out-Hintergrundfunktion und die Optionen zu aktivieren oder zu aktivieren. |
-| Ecke | Erforderlich.<br>Die Bildecke, die zum Definieren der Hintergrundfarbe für den K.-o.-Effekt verwendet wird.<br>Sie können zwischen <b>oben links, unten links, oben rechts oder unten rechts</b> wählen. |
-| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der festgelegten Eckposition aus.<br>Sie können aus den folgenden Füllmethoden auswählen:<br>・ <b>Flutfüllung</b>: Aktiviert die Transparenz aller Pixel, die der angegebenen Ecke entsprechen und mit dieser verbunden sind.<br>・ <b>Match Pixel</b>: Macht alle übereinstimmenden Pixel transparent, unabhängig von ihrer Position auf dem Bild. |
+| Ecke | Erforderlich.<br>Die Ecke des Bildes, mit der die Hintergrundfarbe für den K.O.-Effekt definiert wird.<br>Sie können zwischen <b>oben links, unten links, oben rechts oder unten rechts</b> wählen. |
+| Füllmethode | Erforderlich. <br>Steuert die Pixeltransparenz von der festgelegten Eckposition aus.<br>Sie können aus den folgenden Füllmethoden auswählen:<br>・ <b>Flutfüllung</b>: Aktiviert die Transparenz aller Pixel, die der angegebenen Ecke entsprechen und mit dieser verbunden sind.<br>・ <b>Pixel abgleichen</b>: Aktiviert die Transparenz aller übereinstimmenden Pixel, unabhängig von ihrer Position auf dem Bild. |
 | Toleranz | Optional.<br>Steuert den zulässigen Grad der Variation beim Farbabgleich in Pixel basierend auf der von Ihnen festgelegten Eckposition.<br>Verwenden Sie einen Wert von 0,0, um Pixelfarben genau zuzuordnen. Verwenden Sie alternativ einen Wert von 1,0, um die größte Variation zu ermöglichen. |
 
 >[!MORELIKETHIS]

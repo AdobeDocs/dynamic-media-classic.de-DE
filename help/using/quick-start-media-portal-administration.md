@@ -10,10 +10,16 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T20:10:17.674Z'
+TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 45%
+source-wordcount: 859
+ht-degree: 35%
 
 ---
 
@@ -33,25 +39,25 @@ Siehe die folgenden Schulungsvideos:
 
 Die folgende Kurzanleitung soll Ihnen den schnellen Einstieg in die Medienportalverwaltung erleichtern. Klicken Sie am Ende jedes Schritts auf den Link zum Thema, um mehr zu erfahren.
 
-## &#x200B;1. Verstehen der Media Portal-Benutzerrollen
+## &#x200B;1. Benutzerrollen des Medienportals
 
-Benutzende von Media Portal haben drei Rollen: Benutzende, Mitwirkende und Mitwirkende. Jede Rolle kann bestimmte Aufgaben ausführen. Zum Beispiel kann ein Mitarbeiter Dateien und Ordner umbenennen und löschen, was einem Benutzer dagegen nicht erlaubt ist. Machen Sie sich mit den unterschiedlichen Rollen vertraut, damit Sie beim Hinzufügen von Benutzern deren Verantwortlichkeiten verstehen. 
+Benutzende von Media Portal haben drei Rollen: Benutzende, Mitwirkende und Mitwirkende. Jede Rolle kann bestimmte Aufgaben ausführen. Zum Beispiel kann ein Mitarbeiter Dateien und Ordner umbenennen und löschen, was einem Benutzer dagegen nicht erlaubt ist. Machen Sie sich mit den unterschiedlichen Rollen vertraut, damit Sie beim Hinzufügen von Benutzern deren Verantwortlichkeiten verstehen.
 
 Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user_roles).
 
-## &#x200B;2. Erstellen von Gruppen zur Verwaltung von Benutzern
+## &#x200B;2. Erstellen von Gruppen zur Benutzerverwaltung
 
-Gruppen bestimmen, auf welche Ordner und Dateien ein Benutzer Zugriff hat, welche Aktionen Benutzer in diesen Ordnern und Dateien ausführen können und welche Bildvorgaben zur Verfügung stehen. Als Administrator besteht Ihre erste Aufgabe im Anlegen von Gruppen. Legen Sie für jede Gruppe fest, auf welche Ordner, Dateien und Bildvorgaben die Gruppenmitglieder Zugriff haben sollen. Weisen Sie den Gruppenmitgliedern außerdem Berechtigungen zum Lesen, Schreiben und Löschen zu. Über diese Berechtigungen wird festgelegt, ob Mitglieder die Ordner und Dateien, auf die sie Zugriff haben, durchsuchen, bearbeiten, umbenennen und löschen dürfen. 
+Gruppen bestimmen, auf welche Ordner und Dateien ein Benutzer Zugriff hat, welche Aktionen Benutzer in diesen Ordnern und Dateien ausführen können und welche Bildvorgaben zur Verfügung stehen. Als Administrator besteht Ihre erste Aufgabe im Anlegen von Gruppen. Legen Sie für jede Gruppe fest, auf welche Ordner, Dateien und Bildvorgaben die Gruppenmitglieder Zugriff haben sollen. Weisen Sie den Gruppenmitgliedern außerdem Berechtigungen zum Lesen, Schreiben und Löschen zu. Über diese Berechtigungen wird festgelegt, ob Mitglieder die Ordner und Dateien, auf die sie Zugriff haben, durchsuchen, bearbeiten, umbenennen und löschen dürfen.
 
 Siehe [Erstellen und Verwalten von Medienportalgruppen](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## &#x200B;3. Hinzufügen von Benutzern
+## &#x200B;3. Benutzer hinzufügen
 
-Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine Rolle zu (Benutzer, Mitarbeiter oder Mitarbeiter-Benutzer). Sie können den Benutzer auch einer oder mehreren Gruppen zuweisen. Um das Hinzufügen von Benutzern zu beschleunigen, können Sie eine Benutzerliste in einer CSV-Datei hochladen. Neue Benutzer erhalten eine Begrüßungs-E-Mail und Anweisungen für die Anmeldung bei Media Portal. 
+Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine Rolle zu (Benutzer, Mitarbeiter oder Mitarbeiter-Benutzer). Sie können den Benutzer auch einer oder mehreren Gruppen zuweisen. Um das Hinzufügen von Benutzern zu beschleunigen, können Sie eine Benutzerliste in einer CSV-Datei hochladen. Neue Benutzer erhalten eine Begrüßungs-E-Mail und Anweisungen für die Anmeldung bei Media Portal.
 
 Siehe [Hinzufügen und Verwalten von Media Portal-](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
-## &#x200B;4. Verwalten von FTP-Konten
+## &#x200B;4. FTP-Konten verwalten
 
 Sie können über separate FTP-Konten verfügen, die mit dem Medienportal verknüpft sind. Sie können einem bestimmten Ordner in Ihrem Adobe Dynamic Media Classic-Konto zugeordnet werden. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
 
@@ -63,21 +69,21 @@ Siehe [Verwalten von FTP-](ftp-accounts.md#managing_ftp_accounts).
 
 Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user_roles).
 
-## &#x200B;5. Festlegen von Exportoptionen
+## &#x200B;5. Exportoptionen angeben
 
-Media Portal-Benutzer können beim Exportieren von Dateien die Dateien neu formatieren und die ursprünglichen primären Dateien exportieren - wenn Sie ihnen die Berechtigung dazu erteilen. Als Administrator entscheiden Sie, wie Benutzer Dateien exportieren können. 
+Media Portal-Benutzer können beim Exportieren von Dateien die Dateien neu formatieren und die ursprünglichen primären Dateien exportieren - wenn Sie ihnen die Berechtigung dazu erteilen. Als Administrator entscheiden Sie, wie Benutzer Dateien exportieren können.
 
 Siehe [Angeben der für Media Portal-Benutzer verfügbaren Exportoptionen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## &#x200B;6. Erstellen von Bildvorgaben
 
-Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen können die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden. 
+Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen können die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden.
 
-Siehe [Erstellen und Aktivieren von &#x200B;](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Siehe [Erstellen und Aktivieren von ](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
-## &#x200B;7. Erstellen von Metadaten-Vorgaben und benutzerdefinierten Metadatenfeldern
+## &#x200B;7. Erstellen von Metadatenvorgaben und benutzerdefinierten Metadatenfeldern
 
-Metadaten beschreiben und identifizieren eine Datei. Sie wird verwendet, um nach Assets zu suchen und diese zu organisieren. Sie können Metadatenvorgaben erstellen, um sicherzustellen, dass Sie Metadaten korrekt eingeben und alle Metadatenfelder, für die Daten erforderlich sind, ausgefüllt werden. Eine Metadaten-Vorgabe ist ein vordefinierter Satz von Metadaten-Einträgen. Sie können auch Metadatenfelder erstellen, die Dateien, mit denen Sie arbeiten, eindeutig beschreiben. 
+Metadaten beschreiben und identifizieren eine Datei. Sie wird verwendet, um nach Assets zu suchen und diese zu organisieren. Sie können Metadatenvorgaben erstellen, um sicherzustellen, dass Sie Metadaten korrekt eingeben und alle Metadatenfelder, für die Daten erforderlich sind, ausgefüllt werden. Eine Metadaten-Vorgabe ist ein vordefinierter Satz von Metadaten-Einträgen. Sie können auch Metadatenfelder erstellen, die Dateien, mit denen Sie arbeiten, eindeutig beschreiben.
 
 Siehe [Effizientes Arbeiten mit Metadaten](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 

@@ -6,9 +6,15 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:25.016Z'
+TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -46,9 +52,9 @@ Die neue [!DNL Dynamic Media] auf [!DNL Adobe Experience Manager] baut auf den F
 
 | Funktion | Beschreibung |
 | --- | --- |
-| Beschleunigte Inhaltserstellung und -bereitstellung | ・ Collaboration und freigegebene Dateisynchronisierung mit [!DNL Adobe Creative Cloud].<br>・ Erfüllt alle erforderlichen Kriterien für Dynamic Asset Management: Erstellen, Zusammenarbeiten, Verwalten und Bereitstellen in einer Anwendung, einer Oberfläche, einem Netzwerk.<br>・ Digitales Asset-Management auf Unternehmensebene mit robuster Metadatenunterstützung, intelligenter Suche, Lightbox und Sammlungen, Versionskontrolle und sicherer Asset-Freigabe zur Verwendung durch Anbieter, Partner und Franchisenehmer<br>・ Prüfung und Genehmigung von Workflows für in Bearbeitung befindliche Assets. |
-| Benutzeroberflächenelemente für einfache interaktive Erlebnisse | ・ Einfaches Erstellen von Erlebnissen mit nicht-technischen Erstellern in Echtzeit.<br>・ Shoppable/Interaktive Medien: Kombinieren Sie Kampagnen-Assets mit Produktinformationen.<br>・ Steigerung der Kundenzufriedenheit und Steigerung der Konversionsrate. |
-| Umfassender End-to-End-Workflow | ・ Bereitstellung optimierter Rich-Media-Inhalte für alle Touchpoints, einschließlich der vollständigen [!DNL Adobe Experience Cloud].<br>・ Integration mit [!DNL Adobe Experience Cloud] für erweiterte Asset-Analysen, Zielgruppenbestimmung und Wiederverwendung von Assets über Marketing-Touchpoints hinweg. Zu diesen Touchpoints zählen u. a. [!DNL Adobe Campaign] für E-Mails, [!DNL Adobe Social] für soziale Kanäle und [!DNL Adobe Experience Manager] Sites für responsive Web- und Mobile Apps. |
+| Beschleunigte Inhaltserstellung und -bereitstellung | ・ Collaboration und freigegebene Dateisynchronisierung mit [!DNL Adobe Creative Cloud] Anwendungen.<br>・ Erfüllt alle erforderlichen Kriterien für Dynamic Asset Management: Erstellen, Zusammenarbeiten, Verwalten und Bereitstellen in einer Anwendung, einer Oberfläche, einem Netzwerk.<br>・ Digital Asset Management auf Unternehmensebene mit stabiler Metadatenunterstützung, intelligenter Suche, Lightbox und Sammlungen, Versionskontrolle und sicherer Asset-Freigabe zur Verwendung durch Anbieter, Partner und Franchisenehmer<br>・ Prüfung und Genehmigung von Workflows für in Bearbeitung befindliche Assets. |
+| Benutzeroberflächenelemente für einfache interaktive Erlebnisse | ・ Einfaches Erstellen von Erlebnissen mit technisch nicht versierten Personen in Echtzeit.<br>・ Shoppable/Interactive Media, Kombination von Kampagnen-Assets mit Produktinformationen.<br>・ Steigerung der Kundenzufriedenheit und Steigerung der Conversion Rates. |
+| Umfassender End-to-End-Workflow | ・ Bereitstellung optimierter Rich-Media-Inhalte für alle Touchpoints, einschließlich der vollständigen [!DNL Adobe Experience Cloud]-Lösungen.<br>・ Integration mit [!DNL Adobe Experience Cloud] für erweiterte Asset-Analysen, Zielgruppenbestimmung und Wiederverwendung von Assets über Marketing-Touchpoints hinweg. Zu diesen Touchpoints zählen u. a. [!DNL Adobe Campaign] für E-Mails, [!DNL Adobe Social] für soziale Kanäle und [!DNL Adobe Experience Manager] Sites für responsive Web- und Mobile Apps. |
 
 ## Warum Adobe?
 

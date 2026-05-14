@@ -9,9 +9,15 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:08:29.260Z'
+TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: 2434
 ht-degree: 30%
 
 ---
@@ -53,7 +59,7 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
   Wenn Sie beispielsweise eine multinationale Marke sind mit Vertrieb in verschiedenen Ländern, können Sie sicherstellen, dass jedes Land seinen eigenen Gebietsschema-spezifischen Viewer hat. Für diese Funktion geben Sie eine Zeichenfolge für Gebietsschemakarten an. Anschließend bearbeiten Sie den QuickInfo-Text in der Viewer-Vorgabe. Fügen Sie einfach die übersetzten Textzeichenfolgen für die gewünschte Sprache hinzu.
 
   >[!NOTE]
-  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
+  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Setup-Hilfe.
 
   Weitere Informationen zum Einrichten von **[!UICONTROL Lokalisierungsunterstützung]** finden Sie unter [Betrachtungen beim Planen der Asset-Lokalisierung](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +67,7 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
 
 >[!NOTE]
 >
->Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Hilfe bei der Einrichtung.
+>Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Setup-Hilfe.
 
 Eine gängige Methode zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise bestehen die Unterschiede bei einigen Teilen des gesamten Mediums. Solche Unterschiede zu beheben, indem alle Vermögenswerte für jedes der Länder kopiert und nur die Unterschiede überschrieben werden, ist eine enorme Anstrengung und widerspricht der einzigen Metapher der primären Vermögenswerte. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Adobe Dynamic Media Classic verwendet einen einfachen Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
 

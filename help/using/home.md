@@ -7,9 +7,15 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:59:26.023Z'
+TQID: 'https://experienceleague.adobe.com/QHE-OFzsPsBwdIlkpO1nGo1W5Q2Au9Avy8G8mTzBZGc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 348
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates zum 7. Mai 2020.
 
 ## Entwicklerressourcen für Dynamic Media
 
-* [Landingpage für Dynamic Media-Entwicklerressourcen](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources): Enthält:
+* [Landingpage für Dynamic Media-Entwicklerressourcen](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): Enthält:
    * Viewer-Referenzhandbuch
    * Image Serving-/Image Rendering-API
    * Image Production System-API
@@ -36,7 +42,7 @@ Siehe [Häufig gestellte Fragen](new-ui-2020.md). Neue Updates zum 7. Mai 2020.
 ## Adobe Dynamic Media Classic-Benutzerressourcen
 
 * [Monatlicher Dynamic Media-Newsletter](dynamic-media-newsletter.md)
-* [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/de/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Handbuch: Handbuch mit Best Practices für das Scharfzeichnen von Bildern](/help/using/assets/s7_sharpening_images.pdf)
 * [Anleitung: So unterstützt Adobe Dynamic Media Classic SEO](/help/using/assets/s7_seo.pdf): Suchmaschinen ermöglichen heute die Suche nach Websites und Bildern. Adobe Dynamic Media Classic unterstützt Bemühungen, Bilder suchmaschinenfreundlich zu gestalten, damit mehr Traffic auf die Website von Adobe Dynamic Media Classic-Benutzenden geleitet wird. Dieses Handbuch in PDF enthält Hintergrundinformationen und Implementierungsempfehlungen, um dies zu erreichen.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

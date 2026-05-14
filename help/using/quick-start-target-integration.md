@@ -10,9 +10,15 @@ role: Developer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T19:56:29.690Z'
+TQID: 'https://experienceleague.adobe.com/urNoJw6SrzPpsfpoTtudKndZfJOmWsZKtBZ3Za4aE0I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: 534
 ht-degree: 1%
 
 ---
@@ -23,7 +29,7 @@ Adobe Target Standard/Premium überlässt die Kontrolle direkt dem Marketing-Exp
 
 Mit Adobe Dynamic Media Classic können Sie Angebote und Angebotssätze für Adobe Target Standard/Premium-Kampagnen erstellen. Sie können beispielsweise ein Angebotsset mit drei Varianten desselben Rich-Media-Assets erstellen. Dann können Sie Adobe Target Standard oder Premium verwenden, um zu bestimmen, welches Asset eine bessere Konversionssteigerung bietet. Sie können Angebote und Angebotssätze aus einer Basisvorlage oder aus einzelnen Bildern erstellen. Nachdem der Angebotssatz an Adobe Target Standard/Premium gesendet oder dort gespeichert wurde, wo die Angebote mit Mboxes und Erlebnissen verknüpft sind, kann Adobe Target Standard/Premium Kampagnen ausführen. Diese Kampagnen bestimmen, welche Variante einer Website für Clickthroughs und Konvertierungen am besten geeignet ist.
 
-Verwenden Sie Adobe Target Standard/Premium-HTML-Angebote, um dynamische Adobe Dynamic Media Classic-Inhalte besser anzupassen. Weitere Informationen finden Sie in der [Adobe Target Standard/Premium](https://experienceleague.adobe.com/de/docs/target)Produktdokumentation.
+Verwenden Sie Adobe Target Standard/Premium-HTML-Angebote, um dynamische Adobe Dynamic Media Classic-Inhalte besser anzupassen. Weitere Informationen finden Sie in der [Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target)Produktdokumentation.
 
 >[!NOTE]
 >

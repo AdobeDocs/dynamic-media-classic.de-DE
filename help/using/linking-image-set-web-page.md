@@ -10,10 +10,15 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:02:41.296Z'
+TQID: 'https://experienceleague.adobe.com/d1hGtQAgf1wwjIAbeRJ-kQW4kfglXNu5VSIGxRTgxnc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 16%
+source-wordcount: 703
+ht-degree: 18%
 
 ---
 
@@ -46,9 +51,9 @@ Nachdem Sie ein Bildset veröffentlicht haben, können Sie die zugehörige URL o
 
 ## Hinzufügen von Bildset-URLs zu einer Web-Seite {#adding-image-set-urls-to-your-web-page}
 
-Die häufigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn dieser Link ausgewählt ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Mit dem Link Zoom wird ein Popup-Fenster geöffnet, das die tatsächliche Zoom-Funktion enthält.
+Die häufigste Methode zur Bereitstellung von Bildsets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn dieser Link ausgewählt ist, wird eine dynamische Seite (JSP) gestartet, auf der das Bildset in einem Popup-Zoomfenster angezeigt wird. Die Zoomverknüpfung öffnet ein Popup-Fenster, das die eigentliche Zoomfunktion enthält.
 
-Weitere Informationen und Codebeispiele finden Sie im [Embedded HTML5 Zoom Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) im Adobe Viewer-Referenzhandbuch.
+Weitere Informationen und Codebeispiele finden Sie im [Embedded HTML5 Zoom Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) im Adobe Viewer-Referenzhandbuch.
 
 ## Kopieren des eingebetteten Codes eines Bildset-Viewers {#copying-the-embed-code-of-an-image-set-viewer}
 

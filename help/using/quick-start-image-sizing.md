@@ -10,10 +10,15 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:09:57.533Z'
+TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 5%
+source-wordcount: 926
+ht-degree: 6%
 
 ---
 
@@ -31,7 +36,7 @@ Siehe [Bildgröße: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/Vid
 
 Die folgende Kurzanleitung zur Bildgröße soll Ihnen den schnellen Einstieg in die Bildgröße in Adobe Dynamic Media Classic erleichtern. Führen Sie die Schritte 1 bis 5 aus. Nach jedem Schritt gibt es einen Querverweis, in dem Sie weitere Informationen finden können, falls Sie sie benötigen.
 
-## &#x200B;1. Hochladen der primären Bilder
+## &#x200B;1. Primäre Bilder hochladen
 
 Laden Sie zunächst Ihre Primärbilder in Adobe Dynamic Media Classic hoch. Hinsichtlich der Größe empfiehlt Adobe Dynamic Media Classic die Verwendung von Bildern, die die größte Größe aufweisen, die Sie auf Ihrer Website oder in Ihrem Programm erwarten. Wenn Sie beispielsweise möchten, dass Betrachter Bilder zoomen, laden Sie Bilder mit einer Größe von mindestens 2.000 Pixel hoch. Adobe Dynamic Media Classic unterstützt viele Bilddateiformate, empfohlen werden jedoch verlustfreie TIFF- und PNG-Bilder.
 
@@ -43,11 +48,11 @@ Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um
 
 Wenn Sie eine Bildvorgabe erstellen möchten (wenn Sie Administrator sind), klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Bildvorgaben]**. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**, um eine Bildvorgabe zu erstellen, oder klicken Sie auf **[!UICONTROL Bearbeiten]**, um eine vorhandene Bildvorgabe zu ändern.
 
-Die erstellte Bildvorgabe wird dem Menü Bildvorgabe auf der Seite Vorschau hinzugefügt. Sie können Ihre neue Bildvorgabe verwenden, um Bilder auf Ihren Websites und in Anwendungen dynamisch anzuzeigen. Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
+Die erstellte Bildvorgabe wird dem Menü Bildvorgabe auf der Seite Vorschau hinzugefügt. Sie können Ihre neue Bildvorgabe verwenden, um Bilder auf Ihren Websites und in Anwendungen dynamisch anzuzeigen. Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
 
 ## &#x200B;3. Vorschau von Bildvorgaben
 
-Der nächste Schritt besteht im Anzeigen einer Vorschau der Bildvorgaben, die Ihr Administrator für die unterschiedlichen vorgegebenen Größen eingestellt hat. 
+Der nächste Schritt besteht im Anzeigen einer Vorschau der Bildvorgaben, die Ihr Administrator für die unterschiedlichen vorgegebenen Größen eingestellt hat.
 
 Bildvorgaben finden Sie in der globalen Navigationsleiste unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Bildvorgaben]** und navigieren Sie dann zu einer Bildvorgabe.
 

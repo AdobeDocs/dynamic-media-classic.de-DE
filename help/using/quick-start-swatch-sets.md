@@ -10,10 +10,15 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:43.672Z'
+TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 18%
+source-wordcount: 402
+ht-degree: 21%
 
 ---
 
@@ -29,23 +34,23 @@ Laden Sie zuerst die Bilder und Musterdateien für die Mustersets hoch.
 
 Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen. Siehe [Vorbereiten von Musterset-Assets auf den Upload](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen von Dateien](uploading-files.md#uploading-your-files).
 
-## &#x200B;2. Erstellen von Mustersets
+## &#x200B;2. Erstellen eines Mustersets
 
 Wechseln Sie zum Erstellen eines Mustersets in der globalen Navigationsleiste zu **[!UICONTROL Erstellen]** > **[!UICONTROL Mustersets]**. Ziehen Sie auf der Seite Farbfeldset Bilder und Farbfelder auf die Seite. Siehe [Erstellen von Mustersets](creating-swatch-set.md#creating-a-swatch-set).
 
 ## &#x200B;3. Einrichten von Viewer-Vorgaben für Mustersätze
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen. 
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen.
 
 Siehe [Erstellen und Bearbeiten von Viewer-](application-setup.md#adding-and-editing-viewer-presets).
 
-## &#x200B;4. Anzeigen einer Vorschau für ein Musterset
+## &#x200B;4. Anzeigen einer Vorschau für ein Farbfeldset
 
-Wählen Sie im Durchsuchen-Bedienfeld das Farbfeldset und dann **[!UICONTROL Vorschau]** aus. Das Farbfeldset wird auf dieser Seite angezeigt. Wählen Sie die Miniaturansicht und die Farbfeldsymbole aus, damit Sie das Farbfeldset im ausgewählten Viewer überprüfen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen. 
+Wählen Sie im Durchsuchen-Bedienfeld das Farbfeldset und dann **[!UICONTROL Vorschau]** aus. Das Farbfeldset wird auf dieser Seite angezeigt. Wählen Sie die Miniaturansicht und die Farbfeldsymbole aus, damit Sie das Farbfeldset im ausgewählten Viewer überprüfen können. Sie können auch andere Vorgaben aus dem Menü „Vorgaben“ auswählen.
 
 Siehe [Vorschau eines Assets](previewing-asset.md#previewing-an-asset).
 
-## &#x200B;5. Veröffentlichen eines Farbfeldsatzes
+## &#x200B;5. Veröffentlichen eines Farbfeldsets
 
 Beim Veröffentlichen eines Mustersets wird es auf Adobe Dynamic Media Classic-Servern platziert und die URL-Zeichenfolge aktiviert.
 

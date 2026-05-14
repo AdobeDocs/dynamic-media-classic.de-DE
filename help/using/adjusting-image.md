@@ -10,10 +10,15 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:38:08.783Z'
+TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 37%
+source-wordcount: 578
+ht-degree: 35%
 
 ---
 
@@ -33,7 +38,7 @@ Siehe auch [Alias für ein Bild erstellen](adjusting-image.md#creating_an_alias_
    * Drehen Sie das **[!UICONTROL mit]** Schieberegler. Sie können Werte in das Feld **[!UICONTROL Rotator]** eingeben, um ein Bild zu drehen. Bei positiven Werten wird es im Uhrzeigersinn, bei negativen Werten gegen den Uhrzeigersinn gedreht.
    * Mit dem Schieberegler „Weichzeichnen“ bzw. dem gleichnamigen Feld wird das Bild weichgezeichnet. Je höher der Wert, desto stärker wird das Bild weichgezeichnet.
    * Mithilfe der Optionen „Kontrast“, „Helligkeit“, „Sättigung“, „Farbton“ und „Farbbalance“ können Sie die Farbe und Helligkeit anpassen. Diese Effekte sind kumulativ. Beispielsweise werden Änderungen an den Einstellungen „Magenta“/„Grün“ zu den Änderungen an der Einstellung „Farbton“ hinzugefügt und summiert.
-   * Verwenden Sie die `Colorize` Optionen, um ein Bild einzufärben und gleichzeitig Schatten und Hervorhebungen beizubehalten. Auch die Änderungen an den Einstellungen für „Färben“ sind kumulativ. Wählen Sie im Menü Helligkeit die Option **[!UICONTROL Keine Kompensation]** aus, um die automatische Helligkeitskompensation zu deaktivieren. Setzen Sie den Kontrastwert auf 0, wenn Sie den Kontrastbereich des Originalbilds beibehalten möchten, oder geben Sie andernfalls einen Kontrastbereich mit einem Wert größer als 0 an. Mit dem Wert 100 erzielen Sie den maximalen Kontrast. Normalerweise liegen die Werte zwischen 30 und 70.
+   * Verwenden Sie die `Colorize` Optionen, um ein Bild einzufärben und gleichzeitig Schatten und Hervorhebungen beizubehalten. Auch die Änderungen an den Einstellungen für „Färben“ sind kumulativ. Wählen Sie im Menü Helligkeit die Option **[!UICONTROL Keine Kompensation]** aus, um die automatische Helligkeitskompensation zu deaktivieren. Setzen Sie den Kontrastwert auf 0, wenn Sie den Kontrastbereich des Originalbilds beibehalten möchten, oder geben Sie andernfalls einen Kontrastbereich mit einem Wert größer als 0 an. Mit dem Wert 100 erzielen Sie den maximalen Kontrast. Typische Werte liegen im Bereich von 30-70.
 
 1. Wenn Sie das Anpassen des Bildes beendet haben, führen Sie einen der folgenden Schritte aus:
 
@@ -46,13 +51,13 @@ Siehe auch [Alias für ein Bild erstellen](adjusting-image.md#creating_an_alias_
    * Um das Bild als neues primäres Bild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
 
      Wählen Sie in der Dropdown-Liste **[!UICONTROL Als neue primäre Instanz speichern]** aus.
-Wählen **[!UICONTROL im Listenfeld]**&#x200B;Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
+Wählen **[!UICONTROL im Listenfeld]**Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
 Wählen Sie **[!UICONTROL Speichern]** aus.
 
    * So speichern Sie das Bild als eine andere Ansicht des Primärbilds. können Sie einen Alias erstellen. Wählen Sie **[!UICONTROL Speichern unter]**.
 
      Wählen Sie in der Dropdown-Liste im Dialogfeld **[!UICONTROL Speichern unter]** die Option **[!UICONTROL Als weitere Ansicht von Primär speichern]**.
-Wählen **[!UICONTROL im Listenfeld]**&#x200B;Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
+Wählen **[!UICONTROL im Listenfeld]**Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
 Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ## Erstellen eines Alias für ein Bild {#creating-an-alias-for-an-image}

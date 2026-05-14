@@ -10,9 +10,14 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:08:38.271Z'
+TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: 1696
 ht-degree: 21%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 21%
 
 Sie veröffentlichen Ihre Assets auf Dynamic Media-Bildservern. Sie können Assets einmalig veröffentlichen oder veranlassen, dass Adobe Dynamic Media Classic Assets wiederholt veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
-Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern und ermöglicht schnellere Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern und ermöglicht schnellere Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Nach dem Hochladen veröffentlichen {#publish-after-uploading}
 
@@ -58,7 +63,7 @@ Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, di
    Siehe [Erstellen eines einmaligen Veröffentlichungsauftrags](publishing-files.md#creating_a_one_time_publish_job) und [Erstellen eines wiederkehrenden Veröffentlichungsauftrags](publishing-files.md#creating_a_recurring_publish_job).
 
 1. Geben Sie einen Auftragsnamen ein.
-1. Blenden Sie optional die erweiterten Optionen ein und legen Sie die gewünschten Einstellungen fest. 
+1. Blenden Sie optional die erweiterten Optionen ein und legen Sie die gewünschten Einstellungen fest.
 
    Siehe [Erweiterte Veröffentlichungsoptionen](publishing-files.md#advanced_publish_options).
 
@@ -100,7 +105,7 @@ Sie können die erweiterten Optionen auf der Seite „Veröffentlichen“ anzeig
 
 **[!UICONTROL HTTP-Benachrichtigung]**: Geben Sie eine URL ein, um nachfolgende Veröffentlichungsaufträge in den Trigger aufzunehmen.
 
-Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger &#x200B;](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
+Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
 ## Abbrechen von Veröffentlichungsaufträgen {#canceling-a-publish-job}
 

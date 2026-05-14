@@ -10,10 +10,16 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:11:06.721Z'
+TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 22%
+source-wordcount: 1748
+ht-degree: 19%
 
 ---
 
@@ -33,7 +39,7 @@ Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für d
    1. Der Player wählt den höchsten Bandbreitenstrom aus, der kleiner oder gleich der geschätzten Bandbreite ist.
    1. Player berücksichtigt nur 80 % der verfügbaren Bandbreite. Wenn er jedoch nach oben wechselt, ist er mit nur 70 % konservativer, um Überschätzungen zu vermeiden und sofort zurückzuwechseln.
 
-Technische Informationen finden Sie in der Algorithmuslogik unter [0&rbrace;https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp&quot;.](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)
+Technische Informationen finden Sie in der Algorithmuslogik unter ](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)0}https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp&quot;.[
 
 Für die Verwaltung von Einzelvideos und adaptiven Videosets unterstützt Adobe Dynamic Media Classic Folgendes:
 
@@ -60,7 +66,7 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
   Adaptives Video-Streaming wird auf verschiedenen iOS-Plattformen unterstützt.
 
-  Die neueste Unterstützung finden Sie im [Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
+  Die neueste Unterstützung finden Sie im [Adobe Viewers-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -110,7 +116,7 @@ Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading
 
 Adobe Dynamic Media Classic bietet zahlreiche vordefinierte Videokodierungsvorgaben. Diese vordefinierten Vorgaben entsprechen den gängigsten Videokodierungseinstellungen, die heute verwendet werden, und sind für die Wiedergabe auf Zielseiten optimiert.
 
-Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;**&#x200B;**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;****&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren.
 
 Siehe [Arbeiten mit Videocodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
@@ -124,7 +130,7 @@ Sie können das Video auf der Vorschauseite wiedergeben. Sie können auch versch
 
 **Optional**
 
-Anpassung von Viewer-Vorgaben: Adobe Dynamic Media Classic bietet vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie in der rechten oberen Ecke von Adobe Dynamic Media Classic auf **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren. 
+Anpassung von Viewer-Vorgaben: Adobe Dynamic Media Classic bietet vordefinierte Viewer-Vorgaben für die Bereitstellung von Videos. Diese Vorgaben bestimmen das Aussehen des Viewers und die Funktionsweise der Wiedergabe-Steuerelemente. Zum Anpassen des Video-Viewers können Administratoren die Viewer-Vorgaben über die Seite „Viewer-Vorgaben“ hinzufügen und verwalten. Um diese Seite zu öffnen, klicken Sie in der rechten oberen Ecke von Adobe Dynamic Media Classic auf **[!UICONTROL Setup]** > **[!UICONTROL Viewer-Vorgaben]**. Auf der Seite „Viewer-Vorgaben“ finden Sie Befehle, um Viewer-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren.
 
 Siehe [Arbeiten mit Video-Viewer-](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -138,7 +144,7 @@ Führen Sie einen der folgenden Schritte aus, um Video in Ihre Website zu integr
 
   Um die URL für ein Video abzurufen, wählen Sie sie in der Rasteransicht oder Listenansicht im Durchsuchen-Panel aus. Wählen Sie **[!UICONTROL Vorschau]** und dann **[!UICONTROL URL kopieren]** rechts von `Universal_HTML5_Viewer` aus.
 
-  Wenn Sie **[!UICONTROL URL kopieren]** auswählen, wird die URL in die Zwischenablage kopiert. Fügen Sie diesen Code in den HTML-Code Ihrer Website, mobilen Site oder Anwendung ein. 
+  Wenn Sie **[!UICONTROL URL kopieren]** auswählen, wird die URL in die Zwischenablage kopiert. Fügen Sie diesen Code in den HTML-Code Ihrer Website, mobilen Site oder Anwendung ein.
 
   >[!NOTE]
   >

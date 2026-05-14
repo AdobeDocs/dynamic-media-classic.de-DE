@@ -10,9 +10,15 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T18:19:13.276Z'
+TQID: 'https://experienceleague.adobe.com/2bY6F28UOt--BmRcI4xv1GJnmSMzqbnkUnnPmfFHxmw'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '3433'
+source-wordcount: 3493
 ht-degree: 36%
 
 ---
@@ -46,7 +52,7 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 
    * **Zuerst die PSD oder die Bilder auswählen**: Wählen Sie im Durchsuchen-Panel die PSD-Datei(en) aus, die Sie für Ihre Vorlage verwenden möchten, und navigieren Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**.
 
-   * **Vom Vorlagenbildschirm starten**: Gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus. 
+   * **Vom Vorlagenbildschirm starten**: Gehen Sie zu **[!UICONTROL Erstellen]** > **[!UICONTROL Vorlagengrundlagen]**. Wählen Sie entweder „Designer“ oder „Entwickler“ aus.
 
 1. Geben Sie im Dialogfeld Arbeitsflächengröße eingeben die Breite und die Höhenmaße für Ihre Vorlage ein.
 1. Wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die PSD-Datei bzw. die Bilder, die Sie für die Vorlage verwenden möchten, in den Anzeigebereich „Vorlage“.
@@ -63,7 +69,7 @@ Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes
 | Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
 | Ja | Ja | Veröffentlicht | Veröffentlicht |
-| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten ihren veröffentlichten Status bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
+| Ja | Nein | Veröffentlicht | Vorhandene Set-Mitglieder behalten den Status „veröffentlicht“ bei. Alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 | Nein | Ja | Veröffentlicht | Veröffentlicht |
 | Nein | Nein | Unveröffentlicht | Vorhandene Set-Mitglieder und alle neuen Set-Mitglieder, die Sie während der Bearbeitung hinzugefügt haben, behalten ihren Status „veröffentlicht“ oder „unveröffentlicht“ bei. |
 
@@ -246,7 +252,7 @@ Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie k�
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der genauen Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie sie im Menü Vorgabe anwenden auf dem Bildschirm Vorlagenvorschau auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic empfiehlt, eine Bildvorgabe zu erstellen, die der genauen Größe Ihrer Vorlage entspricht. Durch die übereinstimmende Größe zwischen Bildvorgabe und Vorlage wird erreicht, dass die endgültige Ausgabegröße und die Scharfzeichnungsoptionen für die Vorlage korrekt festgelegt sind. Nachdem Sie diese Bildvorgabe erstellt haben, können Sie sie im Menü Vorgabe anwenden auf dem Bildschirm Vorlagenvorschau auswählen. Im Anzeigebereich können Sie sehen, wie das Bild aussieht, wenn es vom Server gesendet wird. Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
 
 * **Ändern der Größe einer Ebene**: Um die Größe einer Ebene oder Arbeitsfläche zu ändern, wählen Sie die Ebene oder Arbeitsfläche in der Liste „Ebenen“ aus und verwenden Sie eine der folgenden Techniken:
 

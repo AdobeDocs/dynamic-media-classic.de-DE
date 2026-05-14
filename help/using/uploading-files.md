@@ -9,10 +9,16 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:48.480Z'
+TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '3856'
-ht-degree: 25%
+source-wordcount: 3956
+ht-degree: 26%
 
 ---
 
@@ -26,7 +32,7 @@ Stellen Sie vor dem Hochladen von Assets in Adobe Dynamic Media Classic sicher, 
 
 ### Unterstützte Asset-Dateiformate {#supported-asset-file-formats}
 
-In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html).
+In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Asset-Dateiformate | Beschreibung |
 | --- | --- |
@@ -72,7 +78,7 @@ Um mit dem Adobe Dynamic Media Classic-Programm optimale Ergebnisse zu erzielen,
 | Bilder (für Bildgrößenänderungen, Zoom, Bildsätze, Rotationssets) | Die längste Bildgröße muss mindestens 2.000 Pixel betragen. Typische Bildgrößen liegen zwischen 1.500 und 2.500 Pixel in der längsten Größe. Verlustfreie Bildformate, z. B. TIFF und PNG, sind zu empfehlen. Bei Verwendung eines JPEG-Bildes sollten Sie die höchste Qualitätseinstellung wählen. Animierte GIF-Dateien werden wie andere statische Inhalte verarbeitet. |
 | E-Kataloge | Verwenden Sie hochauflösende PDF-Dateien, die in Adobe Acrobat oder einer Adobe Creative Suite-Anwendung erstellt wurden und als „druckbereit“ gespeichert wurden. PDFs enthalten alle benötigten Schriftarten, Bilder, Masken. Alle referenzierten grafischen Elemente sind enthalten, entweder als Einzelseiten, doppelseitige Doppelseiten oder in einem mehrseitigen Format. Sortieren Sie die Seiten, indem Sie die Dateien in alphanumerischer Reihenfolge benennen. Platzieren Sie alle PDF-Dateien für einen E-Katalog in einem einzigen Ordner, um das Hochladen zu vereinfachen. Beim Hochladen können Sie Schnittoptionen auswählen, um die Zuschneidebereiche, einschließlich Schnittmarken, Passermarken oder Farbkontrollstreifen, aus den PDF-Dateien zu entfernen. Da die meisten druckbereiten PDF-Dateien im CMYK-Farbraum gespeichert werden, ist es wichtig, das für die PDF-Dateien verwendete ICC-Farbprofil für CMYK zu ermitteln und abzurufen. |
 | Vorlagen | Bild- oder Layoutentwürfe mit Ebenen können Text, Bilder und Ebenen enthalten. Bildebenen, Textzeichenfolgen und Ebenenattribute wie Farbe und Größe können parametrisiert werden, sodass variable Daten angepasst werden können. Die Anforderungen für in Vorlagen verwendete Bilder sind dieselben wie für andere Bilder. Bereiten Sie Grafiken in Photoshop oder einem anderen Bildbearbeitungsprogramm vor. Speichern Sie jede Grafik einzeln als reduzierte, transparente Datei im TIFF- oder PNG-Format. Stellen Sie sicher, dass die Bildauflösung für den beabsichtigten Verwendungszweck geeignet ist. Bilder für den Druck sind 300 ppi. |
-| Videos | Adobe Dynamic Media Classic unterstützt Videodateien im OGV- und MP4-Format. Dateien können beim Hochladen in das MP4-Format transkodiert werden. Siehe [Unterstützte Asset-Dateiformate](#supported-static-file-formats). |
+| Videos | Adobe Dynamic Media Classic unterstützt Videodateien im OGV- und MP4-Format. Sie können Dateien beim Hochladen in das Format „MP4“ transkodieren. Siehe [Unterstützte Asset-Dateiformate](#supported-static-file-formats). |
 | Schriftarten | Hochgeladene TrueType-, `Type1`- (nur Windows®), OpenType®-Schriftarten und FotoFonts. |
 | Bilder | Bilder und Bilddateien mit mehreren Ebenen. |
 | Bildsätze und Mustersets | Sammlungen zusammengehöriger Bilder, die in einem Viewer angezeigt werden können. |
@@ -82,7 +88,7 @@ Um mit dem Adobe Dynamic Media Classic-Programm optimale Ergebnisse zu erzielen,
 | FXG-Dateien | Auflösungsunabhängige Grafikformatdateien, mit deren Hilfe Sie anpassbare Vorlagen für die Ausgabe auf Druckern, im Web, als E-Mail, auf einem Desktop und auf anderen Geräten erstellen können. |
 | SVG-Dateien | Skalierbare Vektorgrafikdateien, die vom Image-Serving-Server gerendert werden können. |
 | XML-Dateien | Dateien, die Vorverarbeitungsregeln zum Verändern der Pfad- und Abfrageabschnitte von Anforderungen festlegen. |
-| Cascading Stylesheet-Dateien | Hochladen von CSS-Skins zur Anpassung der HTML5-Viewer. |
+| Cascading Stylesheet-Dateien | Laden Sie CSS-Skins zur Anpassung von HTML5-Viewern hoch. |
 | JavaScript-Dateien | JavaScript-Dateien werden für die Viewer-Instrumentierung zum Speichern von Kontoinformationen verwendet. Adobe Security empfiehlt diesen Asset-Typ nur für Client-Konten, die über eine separate Domain für die Bereitstellung verfügen (um Cross-Site-Scripting zu vermeiden). |
 
 >[!NOTE]
@@ -211,7 +217,7 @@ Beim Hochladen von Dateien können Sie im Dialogfeld Upload-Auftragsoptionen aus
 
    * **[!UICONTROL Wenn]**: Diese Option ist nur verfügbar, wenn Sie die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben.
       * **[!UICONTROL Einmalig]**: Geben Sie einen Upload-Auftrag an, der einmal ausgeführt werden soll. Zu den Optionen gehören:
-         * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-**[!UICONTROL die Option]** Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
+         * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-]**die Option**[!UICONTROL  Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
          * **[!UICONTROL Für später planen]**: Wählen Sie Jahr, Monat, Tag und Uhrzeit (in Intervallen von 15 Minuten) aus, zu denen der Upload-Auftrag ausgeführt werden soll.
       * **[!UICONTROL Wiederkehrend]**: Geben Sie einen Upload-Auftrag an, der täglich, wöchentlich oder monatlich ausgeführt werden soll. Oder passen Sie den Upload-Auftrag an Ihre eigenen Spezifikationen an.
          * **[!UICONTROL Täglich]**: Legen Sie die Zeit fest, zu der der Auftrag täglich ausgeführt werden soll. Wenn der Vorgang nur von Montag bis Freitag ausgeführt werden soll, wählen Sie **[!UICONTROL Nur Wochentage]** aus.
@@ -229,13 +235,13 @@ Wählen Sie diese Option aus, damit Sie automatisch alle Dateien aus Ihrer hochg
    * **[!UICONTROL Unterordner einbeziehen]**: Nur verfügbar, wenn die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt wurde.
 Aktivieren Sie diese Option, wenn Sie auch die Unterordner im hochzuladenden Ordner hochladen möchten. Die Namen des hochgeladenen Ordners und der darin enthaltenen Unterordner werden automatisch in Adobe Dynamic Media Classic eingegeben.
 
-   * **[!UICONTROL Metadatendateien verarbeiten]**: Nur verfügbar, wenn Sie auf der Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben. Wählen Sie diese Option aus, wenn Sie eine tabulatorgetrennte oder XML-Datei hochladen möchten, um mehreren Assets Metadaten hinzuzufügen.
+   * **[!UICONTROL Metadatendateien verarbeiten]**: Nur verfügbar, wenn Sie auf der Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben. Wenn diese Option aktiviert ist, können Sie eine tabulatorgetrennte Datei oder XML-Datei hochladen, um gleichzeitig mehreren Assets Metadaten hinzuzufügen.
 Siehe [Importieren von Metadaten (über FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 * **Zuschnittsoptionen**: Automatische Beschneidung von Leerraumpixeln eines Bildes. Öffnen Sie das Menü **[!UICONTROL Zuschneiden]**, wählen Sie **[!UICONTROL Manuell]** aus und geben Sie zum Zuschneiden von den Seiten Pixelwerte in die Textfelder Oben, Rechts, Unten und Links ein. Sie können auch **[!UICONTROL Zuschneiden]** im Menü „Beschneiden“ auswählen und die folgenden Optionen auswählen:
 
    * **[!UICONTROL Beschneiden basierend auf]**: Wählen Sie, ob der Beschneidungsprozess auf Grundlage von Farbe oder Transparenz durchgeführt werden soll:
-      * **[!UICONTROL Farbe]**: Wählen Sie die Option „Farbe“. Wählen Sie anschließend im Menü „Ecke“ die Bildecke mit der Farbe aus, die am besten der Leerraumfarbe entspricht, die Sie beschneiden möchten.
+      * **[!UICONTROL Farbe]**: Wählen Sie die Option „Farbe“. Wählen Sie anschließend im Menü „Ecke“ die Bildecke mit der Farbe aus, die der Farbe der weißen Flächen, die Sie entfernen möchten, am besten entspricht.
 Auf Farbe basierendes Zuschneiden: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau mit der Farbe übereinstimmen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
       * **[!UICONTROL Transparenz]**: Wählen Sie die Option **[!UICONTROL Transparenz]** aus.
 Zuschneiden auf der Grundlage der Transparenz: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Zahlen, die näher an 1 liegen, ermöglichen mehr Transparenz.
@@ -265,14 +271,14 @@ Siehe [Arbeiten mit PostScript- und Illustrator-](postscript-illustrator-files.m
 * **EVIDEO-Optionen**: Sie können eine Videodatei transkodieren, indem Sie eine Videovorgabe auswählen.
 Siehe [Arbeiten mit Videocodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Weitere Metadaten**: Geben Sie Schlüsselwörter ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter mit Kommata. Keywords erleichtern die Suche nach Assets.
+* **Weitere Metadaten**: Geben Sie Schlüsselwörter ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter mit Kommata. Schlüsselwörter vereinfachen die Suche nach Assets.
 Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
 Siehe auch [Hochladen von Keywords](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) Schulungsvideo.
 
 * **Stapelsatzvorgaben**: Um ein Bildset, Rotationsset oder Musterset aus den hochgeladenen Dateien zu erstellen, wählen Sie die Spalte **[!UICONTROL Aktiv]** für die gewünschte Vorgabe aus. Sie können mehrere Vorgaben auswählen. Sie können die Vorgaben auf der Seite „Anwendungseinstellungen/Stapelsatzvorgaben“ erstellen.
 Siehe [Stapelsatzvorgaben](application-setup.md#batch_set_presets).
 
-* **Erweitert**: Siehe [Hochladen mit einem anderen Auftrag &#x200B;](uploading-files.md#follow-an-upload-with-another-job).
+* **Erweitert**: Siehe [Hochladen mit einem anderen Auftrag ](uploading-files.md#follow-an-upload-with-another-job).
 
 ## Starten eines weiteren Auftrags im Anschluss an einen Upload-Auftrag {#follow-an-upload-with-another-job}
 
@@ -305,4 +311,4 @@ Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adress
 >
 >* [Arbeiten mit Asset-Ordnern](asset-folders.md#working_with_asset_folders)
 >* [Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger &#x200B;](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)

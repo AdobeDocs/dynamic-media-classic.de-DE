@@ -10,10 +10,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:05:39.171Z'
+TQID: 'https://experienceleague.adobe.com/DCK4H8boSXIInHtizm4W1MbLLE6jkwizXhi7fHFVWr0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 15%
+source-wordcount: 702
+ht-degree: 16%
 
 ---
 
@@ -22,7 +28,7 @@ ht-degree: 15%
 Der Adobe Dynamic Media Classic-Bildschirm umfasst drei Hauptbereiche: die globale Navigationsleiste, die Asset-Bibliothek, die Registerkarte „Asset-Filter“, das Durchsuchen-/Erstellen-Bedienfeld und den Medienkorb (nur Medienportal).
 
 ![Navigationsgrundlagen](/help/using/assets/gs_navigation_basics_popup_popup.png)
-*Hauptbereiche von Adobe Dynamic Media Classic*
+*Adobe Dynamic Media Classic-Hauptbereiche*
 *a) Globale Navigationsleiste B) Bedienfeld „Asset-Bibliothek“ C) Registerkarte „Asset-Filter“ D) Bedienfeld durchsuchen E) Medienkorb (nur Medienportal)*
 
 ## Symbolleiste für globale Navigation {#global-navigation-bar}
@@ -31,7 +37,7 @@ Die Symbolleiste für globale Navigation, die sich am oberen Rand des Anzeigeber
 
 * **[!UICONTROL Firma auswählen]**: Wählen Sie im Menü die Firma aus, auf die Sie zugreifen möchten. Diese Schaltfläche ist nicht verfügbar, wenn Sie mit einem Unternehmen arbeiten.
 
-* **[!UICONTROL Hochladen]**: Öffnet den Bildschirm „Hochladen“, auf dem Sie Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochladen können. Sie können Dateien von Ihrem Desktop oder über FTP hochladen. Siehe [Dateien hochladen](/help/using/uploading-files.md).
+* **[!UICONTROL Hochladen]**: Öffnet den Bildschirm „Hochladen“, auf dem Sie Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochladen können. Die Dateien können entweder vom Desktop oder per FTP hochgeladen werden. Siehe [Dateien hochladen](/help/using/uploading-files.md).
 
 * **[!UICONTROL Erstellen]**: Wählen Sie im Menü eine Build-Aufgabe aus. Nach der Auswahl wird das Erstellenbedienfeld geöffnet, damit Sie einen Asset-Typ erstellen können.
 

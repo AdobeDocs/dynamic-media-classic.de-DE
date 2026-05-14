@@ -10,10 +10,15 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+autotag-review: '2026-05-13T20:10:24.352Z'
+TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: 698
+ht-degree: 17%
 
 ---
 
@@ -33,23 +38,23 @@ Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um
 
 Siehe [Hochladen von Dateien](uploading-files.md#uploading-your-files).
 
-## &#x200B;2. Erstellen Sie Mediensets zur Verwendung im gemischten Medienset
+## &#x200B;2. Erstellen von Mediensets zur Verwendung im gemischten Medienset
 
 Sie können Bilder, Bildsets, Mustersets, Rotationssets und Videos zu Ihrem gemischten Medienset hinzufügen. Bereiten Sie die Mediensets vor, bevor Sie sie zum gemischten Medienset hinzufügen.
 
-Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines &#x200B;](creating-swatch-set.md#creating-a-swatch-set) und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
+Siehe [Erstellen eines Bildsets](creating-image-set.md#creating-an-image-set), [Erstellen eines ](creating-swatch-set.md#creating-a-swatch-set) und [Erstellen eines Rotationssets](creating-spin-set.md#creating-a-spin-set).
 
 ## &#x200B;3. Erstellen eines gemischten Mediensets
 
-Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Erstellen]** > **[!UICONTROL Gemischte Mediensets]**. Ziehen Sie die Bilder, Mustersets, Bildsets und Videos auf die Seite Gemischtes Medienset . Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“. 
+Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Erstellen]** > **[!UICONTROL Gemischte Mediensets]**. Ziehen Sie die Bilder, Mustersets, Bildsets und Videos auf die Seite Gemischtes Medienset . Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei in das Feld „Tonspur“.
 
 Siehe [Erstellen eines gemischten Mediensets](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## &#x200B;4. Einrichten von Viewer-Vorgaben für gemischte Medien
+## &#x200B;4. Viewer-Vorgaben für gemischte Medien einrichten
 
 Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für gemischte Mediensets. Admins können Viewer-Vorgaben für gemischte Mediensets erstellen oder ändern.
 
-Fügen Sie beim Einrichten einer Viewer-Vorgabe für ein gemischtes Medienset die Viewer-Vorgaben für alle anderen Assets in Ihrem Set hinzu. Wenn Ihr gemischtes Medienset beispielsweise Videos enthält, fügen Sie eine Video-Viewer-Vorgabe zur Viewer-Vorgabe für gemischtes Medienset hinzu. Sie können auch einen Soundtrack zum Viewer hinzufügen. Dieser Soundtrack wird abgespielt, wenn der Viewer geöffnet ist. Wenn ein Video abgespielt wird, wird die Soundtrack-Wiedergabe unterbrochen. 
+Fügen Sie beim Einrichten einer Viewer-Vorgabe für ein gemischtes Medienset die Viewer-Vorgaben für alle anderen Assets in Ihrem Set hinzu. Wenn Ihr gemischtes Medienset beispielsweise Videos enthält, fügen Sie eine Video-Viewer-Vorgabe zur Viewer-Vorgabe für gemischtes Medienset hinzu. Sie können auch einen Soundtrack zum Viewer hinzufügen. Dieser Soundtrack wird abgespielt, wenn der Viewer geöffnet ist. Wenn ein Video abgespielt wird, wird die Soundtrack-Wiedergabe unterbrochen.
 
 Siehe [Einrichten einer Viewer-Vorgabe für ein gemischtes Medienset](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) und [Erstellen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -57,7 +62,7 @@ Siehe auch [Viewer-Vorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer
 
 ## &#x200B;5. Vorschau eines gemischten Mediensets
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]** des gemischten Mediensets. Sie können auf die Miniaturansichten und Mustersymbole klicken, um das gemischte Medienset im Viewer für das gemischte Medienset zu überprüfen. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen. 
+Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]** des gemischten Mediensets. Sie können auf die Miniaturansichten und Mustersymbole klicken, um das gemischte Medienset im Viewer für das gemischte Medienset zu überprüfen. Sie können verschiedene Viewer aus den Menüs „Vorgaben“ auswählen.
 
 Siehe [Vorschau eines Assets](previewing-asset.md#previewing-an-asset).
 

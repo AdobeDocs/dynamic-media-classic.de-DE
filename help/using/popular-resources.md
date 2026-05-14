@@ -7,10 +7,16 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 2d1f60721cc522866ecfc45df145a0c301a3d487
+autotag-review: '2026-05-13T20:06:45.018Z'
+TQID: 'https://experienceleague.adobe.com/mYN8K6E7pOWC1yLHetjo3OeoeNytSlVJEufTN3IHPCc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 0%
+source-wordcount: 267
+ht-degree: 2%
 
 ---
 
@@ -18,14 +24,14 @@ ht-degree: 0%
 
 ## Technische Dokumentation zu Adobe Dynamic Media Classic
 
-* [Versionshinweise](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [Versionshinweise](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [Benutzerhandbuch](introduction.md)
 
 ## Adobe Dynamic Media Classic-Entwicklerressourcen
 
-* [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources)
-* [Viewer-Bibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [Image Serving- und Image Rendering-API](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources)
+* [Adobe Viewer-Referenzhandbuch](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Beispiele für die Viewer-Bibliothek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+* [Image Serving- und Image Rendering-API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classic-Newsletter, -Tutorials und -Webinare
 
@@ -42,6 +48,6 @@ ht-degree: 0%
 ## Adobe Dynamic Media Classic-Schulung
 
 Unter [hier](https://training.adobe.com/training/courses.html#product=adobe-scene7) finden Sie die Schulungen, die derzeit verfügbar sind.
-[Adobe Dynamic Media Classic-Schulungsvideos](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/intro/training-videos#intro).
+[Adobe Dynamic Media Classic-Schulungsvideos](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
-Hier finden Sie alle beliebten Ressourcen, die für [Adobe Dynamic Media Classic verfügbar &#x200B;](home.md).
+Hier finden Sie alle beliebten Ressourcen, die für [Adobe Dynamic Media Classic verfügbar ](home.md).

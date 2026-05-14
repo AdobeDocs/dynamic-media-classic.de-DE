@@ -10,10 +10,15 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:10:31.990Z'
+TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 18%
+source-wordcount: 856
+ht-degree: 16%
 
 ---
 
@@ -41,7 +46,7 @@ Diese Kurzanleitung soll Ihnen den schnellen Einstieg in die Verwendung von Rota
 
 ## &#x200B;1. Erstellen und Hochladen der Bilder
 
-Sie benötigen mindestens 8 bis 12 Aufnahmen eines Objekts für eindimensionale und 16 bis 24 Aufnahmen für zweidimensionale Rotationssets. Die Aufnahmen müssen in regelmäßigen Abständen gemacht werden, um den Eindruck von Rotation und Spiegelung zu erwecken. Wenn beispielsweise ein eindimensionales Rotationsset 12 Aufnahmen enthält, drehen Sie den Artikel für jede Aufnahme um 30 Grad (360/12).
+Sie benötigen mindestens 8-12 Aufnahmen eines Artikels für ein eindimensionales Rotationsset und 16-24 Aufnahmen für ein zweidimensionales Rotationsset. Die Aufnahmen müssen in regelmäßigen Abständen gemacht werden, um den Eindruck von Rotation und Spiegelung zu erwecken. Wenn beispielsweise ein eindimensionales Rotationsset 12 Aufnahmen enthält, drehen Sie den Artikel für jede Aufnahme um 30 Grad (360/12).
 
 Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um Rotationssymbole von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic hochzuladen.
 
@@ -81,7 +86,7 @@ Um ein Rotationsset zu veröffentlichen, markieren Sie es zur Veröffentlichung,
 
 Siehe [Veröffentlichen eines Rotationssets](publishing-spin-set.md#publishing-a-spin-set).
 
-## &#x200B;7. Verknüpfen eines Rotationssets mit einer Web-Seite
+## &#x200B;7. Verknüpfen von Rotationssets mit Web-Seiten
 
 Adobe Dynamic Media Classic erstellt URL-Legendenzeichenfolgen für Rotationssets und aktiviert diese nach deren Veröffentlichung. Sie können diese URLs von der Vorschauseite kopieren.
 

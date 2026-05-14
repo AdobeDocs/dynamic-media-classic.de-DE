@@ -9,9 +9,14 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T19:45:42.823Z'
+TQID: 'https://experienceleague.adobe.com/yVtwbE8JePSUMeMBeajLy-fsI-zHn0bbZjCasDT5AuQ'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 228
 ht-degree: 12%
 
 ---
@@ -20,26 +25,26 @@ ht-degree: 12%
 
 Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie das Image Production System beschreiben die HTTP-Protokolle für diese Server-Module. Website-Entwickler, die Adobe Dynamic Media Classic Rich Media für eine Website oder ein benutzerdefiniertes Programm weiter anpassen und verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit der Dynamic Media Classic Desktop-App, den allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
 
-Siehe auch [Dynamic Media-Entwicklungsressourcen](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
+Siehe auch [Dynamic Media-Entwicklungsressourcen](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Viewer {#viewers-guide}
 
 | Dokument | Webadresse |
 | --- | --- |
-| Viewer-Referenzhandbuch und Versionshinweise | [https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/homeviewers) |
+| Viewer-Referenzhandbuch und Versionshinweise | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
 | Beispiele für die Viewer-Bibliothek | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## Image Serving-/Image Rendering-(IS/IR)-API {#is-ir-api-guide}
 
 | Dokument | Webadresse |
 | --- | --- |
-| API-Referenzhandbuch | [https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| API-Referenzhandbuch | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## API des Image Production System (IPS) {#ips-api-guide}
 
 | Dokument | Webadresse |
 | --- | --- |
-| API-Referenzhandbuch | [https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| API-Referenzhandbuch | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- 
 ## Image Authoring {#ia}
