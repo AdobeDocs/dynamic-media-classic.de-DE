@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:19.277Z'
 TQID: 'https://experienceleague.adobe.com/XtUpvJz6aepSU0F9CupyrR8-cdSpNo3blHK38hh9Fc8'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 620
@@ -72,7 +76,7 @@ Die Detailansicht bietet Tools zum Arbeiten mit dem geöffneten Asset. Welche To
 
 * **Asset umbenennen**: Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 
-* **Bearbeiten und Hinzufügen von Metadaten**: Wählen Sie das Bedienfeld „Metadaten“ aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von ](/help/using/viewing-adding-exporting-metadata.md).
+* **Bearbeiten und Hinzufügen von Metadaten**: Wählen Sie das Bedienfeld „Metadaten“ aus und ändern Sie es nach Bedarf. Siehe [Anzeigen, Hinzufügen und Exportieren von &#x200B;](/help/using/viewing-adding-exporting-metadata.md).
 
 * **Keywords bearbeiten und hinzufügen**: Wählen Sie Keywords aus und fügen Sie sie nach Bedarf hinzu oder entfernen Sie sie. Siehe [Hinzufügen oder Bearbeiten von Schlüsselwörtern](/help/using/viewing-adding-exporting-metadata.md).
 

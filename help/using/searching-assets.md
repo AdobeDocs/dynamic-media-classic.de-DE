@@ -12,10 +12,15 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:34.580Z'
 TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 1521
@@ -115,7 +120,7 @@ Führen Sie die folgenden Schritte aus, um Assets zu finden, indem Sie nach ihre
 
    Um einen von Ihnen erstellten und gespeicherten Filtervorgang auszuführen, wählen Sie **[!UICONTROL Vorgabe auswählen]** und wählen Sie dann im Menü den Namen des Vorgangs aus.
 
-   Siehe [Speichern, Wiederholen und Löschen von ](searching-assets.md#saving_repeating_and_deleting_filter_operations).
+   Siehe [Speichern, Wiederholen und Löschen von &#x200B;](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
 1. Klicken Sie **[!UICONTROL einem]** auf „Feld“ und befolgen Sie dann diese Anweisungen, um das Filtermenü anzuzeigen und den Filtervorgang zu erstellen:
 

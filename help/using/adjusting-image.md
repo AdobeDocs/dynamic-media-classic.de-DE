@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:38:08.783Z'
 TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 578
@@ -51,13 +54,13 @@ Siehe auch [Alias für ein Bild erstellen](adjusting-image.md#creating_an_alias_
    * Um das Bild als neues primäres Bild zu speichern, wählen Sie **[!UICONTROL Speichern unter]**.
 
      Wählen Sie in der Dropdown-Liste **[!UICONTROL Als neue primäre Instanz speichern]** aus.
-Wählen **[!UICONTROL im Listenfeld]**Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
+Wählen **[!UICONTROL im Listenfeld]**&#x200B;Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
 Wählen Sie **[!UICONTROL Speichern]** aus.
 
    * So speichern Sie das Bild als eine andere Ansicht des Primärbilds. können Sie einen Alias erstellen. Wählen Sie **[!UICONTROL Speichern unter]**.
 
      Wählen Sie in der Dropdown-Liste im Dialogfeld **[!UICONTROL Speichern unter]** die Option **[!UICONTROL Als weitere Ansicht von Primär speichern]**.
-Wählen **[!UICONTROL im Listenfeld]**Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
+Wählen **[!UICONTROL im Listenfeld]**&#x200B;Ordnername“ den Ordner aus, in dem das neue Primärbild gespeichert werden soll.
 Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ## Erstellen eines Alias für ein Bild {#creating-an-alias-for-an-image}

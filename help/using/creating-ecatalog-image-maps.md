@@ -12,10 +12,14 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:26.837Z'
 TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1505
@@ -42,7 +46,7 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 
      Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Liste „Imagemap“ zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der E-Katalog-Seite an, auf der Sie arbeiten.
 
-1. (Optional) In der Liste „Imagemap“ können [!UICONTROL  in der Spalte ] einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
+1. (Optional) In der Liste „Imagemap“ können [!UICONTROL &#x200B; in der Spalte &#x200B;] einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
 1. Viewer können eine neue Web-Seite öffnen, wenn sie auf die Imagemap klicken. Geben Sie im Listenfeld „Imagemap“ die URL der Web-Seite in die Spalte URL ein.
 
    Um das Eingeben von URLs (href-Vorlagen) zu vereinfachen, wählen Sie **[!UICONTROL Bearbeiten]** und geben Sie eine Vorlage ein.
@@ -95,11 +99,11 @@ Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E
 
 * **Überlappende Imagemaps handhaben**: Ziehen Sie, um die Reihenfolge der Imagemaps in der Imagemap-Liste zu ändern.
 
-  Siehe [Überlappende Imagemaps ](creating-image-maps.md#handling_overlapping_image_maps).
+  Siehe [Überlappende Imagemaps &#x200B;](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Kopieren von Imagemaps auf andere Seiten**: Wählen Sie **[!UICONTROL Karten kopieren nach]** (stellen Sie sicher, dass Sie sich auf der Registerkarte Seiten zuordnen befinden). Wählen Sie auf dem Bildschirm „Bilder auswählen“ die Seite(n) aus, auf die Sie die Imagemaps kopieren möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-  Siehe [Kopieren von Imagemaps in andere ](creating-image-maps.md#copying_image_maps).
+  Siehe [Kopieren von Imagemaps in andere &#x200B;](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
