@@ -1,15 +1,15 @@
 ---
 source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 # Adobe-Verhaltenskodex
 
-## Adobe-Versprechen
+## Adobes Versprechen
 
-Um eine offene und freundliche Umgebung zu fördern, verpflichten sich die Mitwirkenden und Betreuer, die Teilnahme am Adobe-Projekt und an der Community für alle zu einem Erlebnis ohne Belästigung zu machen. Dieses Verhalten gilt ungeachtet der folgenden Punkte:
+Im Interesse der Förderung einer offenen und freundlichen Umgebung verpflichten sich die Mitwirkenden und Betreuer, die Teilnahme an Adobes Projekt und Community für alle zu einem Erlebnis ohne Belästigung zu machen. Dieses Verhalten gilt ungeachtet der folgenden Punkte:
 
 * Alter
 * Körpergröße
@@ -23,7 +23,7 @@ Um eine offene und freundliche Umgebung zu fördern, verpflichten sich die Mitwi
 * Religion
 * sexuelle Identität und Orientierung
 
-## Adobe-Standards
+## Adobes Standards
 
 Beispiele für Verhaltensweisen, die zu einer positiven Umgebung beitragen:
 
@@ -41,7 +41,7 @@ Beispiele für inakzeptables Verhalten von Teilnehmern:
 * Veröffentlichung von privaten Informationen anderer Personen, wie z. B. eine physische oder elektronische Adresse, ohne deren ausdrückliche Zustimmung
 * Andere Verhaltensweisen, die in einem professionellen Umfeld vernünftigerweise als unangemessen betrachtet werden könnten
 
-## Zuständigkeiten der Adobe
+## Zuständigkeiten von Adobe
 
 Die Projektverantwortlichen sind dafür verantwortlich, die Standards für akzeptables Verhalten zu verdeutlichen, und es wird erwartet, dass sie als Reaktion auf alle Fälle von inakzeptablem Verhalten angemessene und faire Korrekturmaßnahmen ergreifen.
 
