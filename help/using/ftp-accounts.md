@@ -21,9 +21,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: af16f8e2f2c8ea927c70e73cef774b09e8cbd346
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 241
 ht-degree: 52%
 
 ---
@@ -48,7 +48,7 @@ Siehe [Aktivieren oder Deaktivieren von &#x200B;](administration-setup.md#activa
 
    Um Medien-Assets hochzuladen, benötigen Sie den Benutzernamen für das FTP-Konto, der in der Tabelle „Vorhandene Konten“ aufgelistet ist, sowie das Kennwort, das dem Konto zugewiesen ist.
 
-   Siehe [Dateien hochladen](uploading-files.md#uploading_files).
+   Siehe das Thema [Hochladen von Dateien](uploading-files.md#uploading_files).
 
 ## Löschen eines vorhandenen FTP-Kontos {#deleting-an-existing-ftp-account}
 
