@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 788c18da7c6dc10ecdfbaec06710ded784559f82
+source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
 workflow-type: tm+mt
-source-wordcount: 3570
+source-wordcount: 3571
 ht-degree: 22%
 
 ---
@@ -167,11 +167,11 @@ Adobe Dynamic Media Classic sendet Ihnen eine E-Mail-Nachricht, um zu bestätige
 
 Während (oder unmittelbar nach) einem großen Upload-Auftrag wird bei einigen neuen Elementen möglicherweise die Meldung „Bild noch nicht optimiert“ angezeigt. Diese Meldung wird angezeigt, da die Dateien noch nicht vollständig verarbeitet und zu Adobe Dynamic Media Classic hinzugefügt wurden. Sie können die betroffenen Dateien später optimieren. Siehe [Dateien optimieren](application-setup.md#optimize_files).
 
-### FTP-Sicherheit {#about-ftp-security}
+### FTP-Sicherheit {#ftp-security}
 
 Dynamic Media Classic erzwingt die folgenden Sicherheitsrichtlinien für den FTP-Zugriff:
 
-| Richtlinie | Beschreibung |
+| Sicherheitsrichtlinie | Beschreibung |
 | --- | --- |
 | Benutzerisolierung | Jeder FTP-Benutzer ist auf sein eigenes Verzeichnis beschränkt und kann nicht auf Verzeichnisse zugreifen, die anderen Benutzern gehören. |
 | Eindeutige Konten | Jeder FTP-Benutzer bzw. jede FTP-Integration benötigt ein dediziertes FTP-Konto. Freigegebene Konten sind nicht zulässig. Siehe [Verwalten von FTP-](/help/using/ftp-accounts.md). |
