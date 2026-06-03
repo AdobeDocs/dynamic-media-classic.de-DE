@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
+source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
 workflow-type: tm+mt
-source-wordcount: 3571
-ht-degree: 22%
+source-wordcount: 3681
+ht-degree: 21%
 
 ---
 
@@ -158,6 +158,18 @@ Der Ansatz und die Struktur der Ordnerbenennung, die Sie für die Speicherung Ih
 **Projektbasiert**: Ordner sind nach Rollout-/Ablagedatum oder Projektname organisiert. Kunden, die hauptsächlich E-Kataloge erstellen, bevorzugen diese Vorgehensweise.
 
 **Spiegelung der Hierarchie der Website**: Diese Ordnerstruktur spiegelt die Ordnerstruktur der Website wider, wobei die Ordner z. B. für Produktkategorien benannt sind.
+
+### FTP-Sicherheit {#about-ftp-security}
+
+Dynamic Media Classic erzwingt die folgenden Sicherheitsrichtlinien für den FTP-Zugriff:
+
+| Sicherheitsrichtlinie | Beschreibung |
+| --- | --- |
+| Benutzerisolierung | Jeder FTP-Benutzer ist auf sein eigenes Verzeichnis beschränkt und kann nicht auf Verzeichnisse zugreifen, die anderen Benutzern gehören. |
+| Eindeutige Konten | Jeder FTP-Benutzer bzw. jede FTP-Integration benötigt ein dediziertes FTP-Konto. Freigegebene Konten sind nicht zulässig. Siehe [Verwalten von FTP-](/help/using/ftp-accounts.md). |
+| Konfigurationsgrundlagen | FTP-Server-Konfigurationen halten sich an etablierte Sicherheitsgrundlagen. |
+| Fortlaufende Prüfung | Die FTP-Server-Anwendung und das zugrunde liegende Betriebssystem werden regelmäßig auf Sicherheitslücken geprüft und überwacht und bei Bedarf aktualisiert. |
+| Sicheres FTP für *neue* Kunden | Neue Kunden erhalten sicheres FTP. Für (bestehende *Kunden bleibt weiterhin* Legacy-FTP-Zugriff verfügbar. |
 
 ## Informationen zum Hochladen von Dateien {#uploading-your-files}
 
