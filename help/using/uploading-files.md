@@ -11,20 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e52a31a700f7b319f0fe3aee836687771bf5618c
 workflow-type: tm+mt
-source-wordcount: 3681
-ht-degree: 21%
+source-wordcount: 3571
+ht-degree: 22%
 
 ---
 
@@ -38,7 +32,7 @@ Stellen Sie vor dem Hochladen von Assets in Adobe Dynamic Media Classic sicher, 
 
 ### Unterstützte Asset-Dateiformate {#supported-asset-file-formats}
 
-In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html).
+In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Asset-Dateiformate | Beschreibung |
 | --- | --- |
@@ -159,18 +153,6 @@ Der Ansatz und die Struktur der Ordnerbenennung, die Sie für die Speicherung Ih
 
 **Spiegelung der Hierarchie der Website**: Diese Ordnerstruktur spiegelt die Ordnerstruktur der Website wider, wobei die Ordner z. B. für Produktkategorien benannt sind.
 
-### FTP-Sicherheit {#about-ftp-security}
-
-Dynamic Media Classic erzwingt die folgenden Sicherheitsrichtlinien für den FTP-Zugriff:
-
-| Sicherheitsrichtlinie | Beschreibung |
-| --- | --- |
-| Benutzerisolierung | Jeder FTP-Benutzer ist auf sein eigenes Verzeichnis beschränkt und kann nicht auf Verzeichnisse zugreifen, die anderen Benutzern gehören. |
-| Eindeutige Konten | Jeder FTP-Benutzer bzw. jede FTP-Integration benötigt ein dediziertes FTP-Konto. Freigegebene Konten sind nicht zulässig. Siehe [Verwalten von FTP-](/help/using/ftp-accounts.md). |
-| Konfigurationsgrundlagen | FTP-Server-Konfigurationen halten sich an etablierte Sicherheitsgrundlagen. |
-| Fortlaufende Prüfung | Die FTP-Server-Anwendung und das zugrunde liegende Betriebssystem werden regelmäßig auf Sicherheitslücken geprüft und überwacht und bei Bedarf aktualisiert. |
-| Sicheres FTP für *neue* Kunden | Neue Kunden erhalten sicheres FTP. Für (bestehende *Kunden bleibt weiterhin* Legacy-FTP-Zugriff verfügbar. |
-
 ## Informationen zum Hochladen von Dateien {#uploading-your-files}
 
 Sie können einzelne Dateien vom Desktop hochladen oder Ordner per FTP hochladen. Wenn Sie mehr als 100 MB Dateien oder ganze Ordner und Unterordner hochladen möchten, wählen Sie die Registerkarte **VIA FTP** aus.
@@ -247,7 +229,7 @@ Beim Hochladen von Dateien können Sie im Dialogfeld Upload-Auftragsoptionen aus
 
    * **[!UICONTROL Wenn]**: Diese Option ist nur verfügbar, wenn Sie die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben.
       * **[!UICONTROL Einmalig]**: Geben Sie einen Upload-Auftrag an, der einmal ausgeführt werden soll. Zu den Optionen gehören:
-         * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-**die Option** Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
+         * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-]**die Option**[!UICONTROL  Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
          * **[!UICONTROL Für später planen]**: Wählen Sie Jahr, Monat, Tag und Uhrzeit (in Intervallen von 15 Minuten) aus, zu denen der Upload-Auftrag ausgeführt werden soll.
       * **[!UICONTROL Wiederkehrend]**: Geben Sie einen Upload-Auftrag an, der täglich, wöchentlich oder monatlich ausgeführt werden soll. Oder passen Sie den Upload-Auftrag an Ihre eigenen Spezifikationen an.
          * **[!UICONTROL Täglich]**: Legen Sie die Zeit fest, zu der der Auftrag täglich ausgeführt werden soll. Wenn der Vorgang nur von Montag bis Freitag ausgeführt werden soll, wählen Sie **[!UICONTROL Nur Wochentage]** aus.
@@ -306,9 +288,9 @@ Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_a
 Siehe auch [Hochladen von Keywords](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) Schulungsvideo.
 
 * **Stapelsatzvorgaben**: Um ein Bildset, Rotationsset oder Musterset aus den hochgeladenen Dateien zu erstellen, wählen Sie die Spalte **[!UICONTROL Aktiv]** für die gewünschte Vorgabe aus. Sie können mehrere Voreinstellungen auswählen. Sie können die Vorgaben auf der Seite „Anwendungseinstellungen/Stapelsatzvorgaben“ erstellen.
-Weitere [&#x200B; finden Sie unter &#x200B;](application-setup.md#batch_set_presets).
+Weitere [ finden Sie unter ](application-setup.md#batch_set_presets).
 
-* **Erweitert**: Siehe [Hochladen mit einem anderen Auftrag &#x200B;](uploading-files.md#follow-an-upload-with-another-job).
+* **Erweitert**: Siehe [Hochladen mit einem anderen Auftrag ](uploading-files.md#follow-an-upload-with-another-job).
 
 ## Starten eines weiteren Auftrags im Anschluss an einen Upload-Auftrag {#follow-an-upload-with-another-job}
 
@@ -341,4 +323,4 @@ Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adress
 >
 >* [Arbeiten mit Asset-Ordnern](asset-folders.md#working_with_asset_folders)
 >* [Verarbeiten Sie wiederkehrende Upload- und Veröffentlichungsaufträge](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger &#x200B;](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
