@@ -1,5 +1,5 @@
 ---
-title: Informationen zum Hochladen und Veröffentlichen von Assets
+title: Hochladen und Veröffentlichen von Assets
 description: Erfahren Sie, wie Sie Assets in Adobe Dynamic Media Classic hochladen und veröffentlichen.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -11,26 +11,23 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:33:44.592Z'
 TQID: 'https://experienceleague.adobe.com/cBIWqoPxMe-Xw32Ywiqr82U2-wdJySjyM7BzDdGPA0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9417586477c07ca389e075bc8f0d09e21bac7957
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 25%
+source-wordcount: 144
+ht-degree: 20%
 
 ---
 
-# Informationen zum Hochladen und Veröffentlichen von Assets {#about-uploading-and-publishing-assets}
+# Hochladen und Veröffentlichen von Elementen {#about-uploading-and-publishing-assets}
 
-Ihre Arbeit in Adobe Dynamic Media Classic umfasst drei grundlegende Bereiche:
+Adobe Dynamic Media Classic umfasst drei Grundfunktionen:
 
 * Hochladen von Datei-Assets in Adobe Dynamic Media Classic.
-* Verwalten von Dateien, damit daraus Rich-Media-Assets aufgebaut werden können
-* Veröffentlichen Sie Ihre Asset-Dateien auf einem Dynamic Media Classic-Server, damit sie für die Bereitstellung auf Ihrer Website und in Ihrem Programm verfügbar sind.
+* Verwalten von Dateien, damit Sie sie zum Erstellen von Rich-Media-Assets verwenden können.
+* Veröffentlichen Sie Ihre Asset-Dateien auf einem Dynamic Media Classic-Server, damit sie für die Bereitstellung auf Ihrer Website und in Ihren Programmen verfügbar sind.
 
 Wenn Sie Asset-Dateien in Adobe Dynamic Media Classic hochladen und Asset-Dateien auf Adobe Dynamic Media Classic-Servern veröffentlichen, zeichnet das System diese Dateiübertragungen auf der Seite **[!UICONTROL Aufträge]** auf. Sie können diese Seite aufrufen, um Ihre Hochlade- und Veröffentlichungsaktivitäten zu verfolgen.
 
