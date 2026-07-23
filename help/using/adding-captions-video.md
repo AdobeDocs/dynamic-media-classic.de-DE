@@ -11,10 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
 source-wordcount: 716
@@ -44,7 +48,7 @@ Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md
 
 Adobe Dynamic Media Classic kann Untertiteldateien in das JSON-Format (JavaScript Object Notation) konvertieren. Mit dieser Konvertierung können Sie den JSON-Text als verborgenes, aber vollständiges Transkript des Videos in eine Web-Seite einbetten. Suchmaschinen können dann den Inhalt crawlen und indizieren, damit die Videos leichter auffindbar sind und Kunden weitere Details zum Videoinhalt erhalten.
 
-Weitere [ zur Verwendung der JSON](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)Funktion in einer URL erhalten Sie unter „Statische Inhalte (keine Bilder) bereitstellen“.
+Weitere [&#x200B; zur Verwendung der JSON](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)Funktion in einer URL erhalten Sie unter „Statische Inhalte (keine Bilder) bereitstellen“.
 
 **So fügen Sie einem Video Untertitel hinzu:**
 
