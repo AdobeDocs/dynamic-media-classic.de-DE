@@ -11,18 +11,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:22.364Z'
 TQID: 'https://experienceleague.adobe.com/UbxE4vDKYB-6CsdV2d4lX2WeOMYPe9caewOQD-MBark'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 74cf44585cb4d2d62cf4b5d7894dbe7f5c5847b9
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 29%
+source-wordcount: 1993
+ht-degree: 27%
 
 ---
 
@@ -40,7 +36,7 @@ Allen Adobe Dynamic Media Classic-Benutzern wird eine Rolle zugewiesen, die ihre
 
 In der Regel konfiguriert Adobe Dynamic Media Classic die erste Gruppe von Unternehmen und weist einen Unternehmensadministrator zu. Der Unternehmensadministrator richtet dann Adobe Dynamic Media Classic-Benutzer ein und verwaltet sie.
 
-Adobe Dynamic Media Classic unterstützt mehrere Benutzerrollen. Diese Rollen können auf Unternehmen zugreifen, die für die Adobe Dynamic Media Classic eingerichtet sind:
+Adobe Dynamic Media Classic unterstützt mehrere Benutzerrollen. Diese Rollen können auf Unternehmen zugreifen, die für Adobe Dynamic Media Classic eingerichtet sind:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
@@ -72,9 +68,9 @@ Nachdem Sie einen Benutzer hinzugefügt haben, sendet Adobe Dynamic Media Classi
 
    Allen neuen Benutzenden wird ein zufällig generiertes Kennwort zugewiesen. Benutzende müssen die Kennwörter ändern, wenn sie sich zum ersten Mal bei der Adobe Dynamic Media Classic Desktop-Anwendung anmelden.
 
-   Die von Ihnen hinzugefügten neuen Benutzer erhalten eine Begrüßungs-E-Mail. Die E-Mail enthält ein temporäres Passwort und erläutert, wie Sie sich bei Adobe Dynamic Media Classic anmelden.
+   Neuen Benutzern wird eine Begrüßungs-E-Mail gesendet, nachdem sie hinzugefügt wurden. Die E-Mail enthält ein temporäres Kennwort und erläutert, wie Sie sich bei Adobe Dynamic Media Classic anmelden.
 
-   Wenn der/die Benutzende die Begrüßungs-E-Mail nicht erhält, rufen Sie die Adobe Dynamic Media Classic-Anmeldeseite (https://s7sps1.scene7.com) auf und wählen Sie **[!UICONTROL Kennwort vergessen]**. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der Benutzer auch diese E-Mail nicht erhält und sie nicht in seinem Spam-Ordner ist, wenden Sie sich an den technischen Support.
+   Wenn der/die Benutzende die Begrüßungs-E-Mail nicht erhält, bitten wir ihn/sie, die Adobe Dynamic Media Classic-Anmeldeseite (https://s7sps1.scene7.com) aufzurufen und **[!UICONTROL Kennwort vergessen]** auszuwählen. Das Kennwort wird zurückgesetzt und es wird eine neue E-Mail gesendet. Wenn der/die Benutzende die E-Mail nicht erhält und sich nicht im Spam-Ordner befindet, wenden Sie sich an den technischen Support.
 
    Wenn Sie neue Media Portal-Benutzer hinzufügen, können Sie auch zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Benutzerverwaltung]** wechseln, dann **[!UICONTROL Benutzerliste hochladen]** und eine CSV-Datei mit höchstens 500 Benutzern auswählen.
 
@@ -98,6 +94,8 @@ Benutzer, die deaktiviert wurden, können nicht mehr auf das oben im Menü „Ko
 
 Welche Benutzerinformationen Sie bearbeiten können, hängt von Ihrer Rolle als Administrator und der zugewiesenen Rolle der Benutzer ab, deren Angaben Sie bearbeiten möchten. Abgeblendete Optionen (nicht verfügbar) sind nicht bearbeitbar.
 
+**So bearbeiten Sie Benutzerinformationen:**
+
 1. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Verwaltungseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
 1. Wählen Sie einen Benutzer aus der Liste aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 1. Wählen Sie den Eintrag in der Tabelle aus, der das Unternehmen anzeigt, für das Sie Berechtigungen oder Zugriffsberechtigungen ändern möchten, und wählen Sie dann **[!UICONTROL Firma verwalten]** aus.
@@ -115,11 +113,11 @@ Sie können die folgenden Techniken zum Filtern von Benutzerlisten verwenden:
 
 * **Nach Benutzerrolle filtern**: Wählen Sie das Menü **[!UICONTROL Nach Benutzerrolle]** und wählen Sie eine Option aus, um die Liste auf Benutzer oder Administratoren unterschiedlichen Typs einzugrenzen.
 
-* **Filtern nach Feldname**: Wählen Sie **[!UICONTROL Filtern nach Feld aktivieren]** aus. Wählen Sie anschließend das Menü **[!UICONTROL Nach Feldname]**, wählen Sie eine Spalte zum Filtern der Liste aus, wählen Sie dann das Menü Zeichen filtern und wählen Sie einen Buchstaben aus. Die Liste wird nach dem ausgewählten Buchstaben in einer der Spalten gefiltert. Um die vollständige Liste anzuzeigen, heben Sie die Auswahl der Option **`Enable Filter By Field`** auf.
+* **Filtern nach Feldname**: Wählen Sie **[!UICONTROL Filtern nach Feld aktivieren]** aus. Wählen Sie anschließend das Menü **[!UICONTROL Nach Feldname]**, wählen Sie eine Spalte zum Filtern der Liste aus, wählen Sie dann das Menü Zeichen filtern und wählen Sie einen Buchstaben aus. Der ausgewählte Brief filtert die Liste nach einer der Spalten. Um die vollständige Liste anzuzeigen, heben Sie die Auswahl der Option **`Enable Filter By Field`** auf.
 
 * **Ungültige Benutzer herausfiltern**: Auswahl aufheben **[!UICONTROL Ungültige einschließen]**. In den Suchergebnissen werden nur Benutzer aufgelistet, die im System vorhanden sind. Ungültige Benutzer wurden aus dem System und den von Ihnen verwalteten Konten gelöscht.
 
-* **Nach Spaltenüberschrift sortieren**: Wählen Sie eine Überschrift aus, um alle Benutzer nach ihrem Status, alphabetisch nach Vorname, Nachname oder E-Mail-Adresse zu sortieren. Oder sortieren Sie nach Benutzerrolle oder nach gültigem/ungültigem Status.
+* **Nach Spaltenüberschrift sortieren**: Wählen Sie eine Überschrift aus, um alle Benutzer nach Status, Vorname, Nachname oder E-Mail zu sortieren. Oder sortieren Sie nach Benutzerrolle oder gültigem/ungültigem Status.
 
 Wenn Sie mit sehr vielen Benutzern arbeiten, können Sie im Menü „Max. Listengr.“ eine Zahl eingeben, um die Länge der Liste zu beschränken.
 
@@ -199,19 +197,19 @@ So generieren Sie einen Bericht zur Bandbreite, zum Speicher, zu Bildinhalt, zur
 
    Siehe [Berichtstypen](administration-setup.md#types_of_reports).
 
-### Daten auf unterschiedliche Weise anzeigen {#viewing-data-in-different-ways}
+### Konfigurieren von Datenanzeigeoptionen {#viewing-data-in-different-ways}
 
 Nachdem Sie einen Bericht auf der Seite „Bandbreite und Speicher“ generiert haben, können Sie Optionen zum Anzeigen der Informationen auswählen. Sie können festlegen, wie die Informationen dargestellt werden, die Informationen in einem Diagramm oder Datenraster anzeigen und einen Zeitraum für das Erfassen von Informationen bestimmen. In der Datenansicht können Sie die Informationen auch sortieren und in Spalten anordnen.
 
 * **Daten in einem Diagramm oder Datenraster anzeigen**: Wählen Sie **[!UICONTROL Diagrammansicht]**, um Daten in einem Diagramm anzuzeigen; wählen Sie **[!UICONTROL Datenansicht]**, um Daten in einem Datenraster anzuzeigen.
 
-* **Wählen Sie eine Berichtsdarstellung**: Wählen Sie im Menü Berichtstyp die Option **[!UICONTROL Zusammenfassung]**, **[!UICONTROL Täglich]** oder **[!UICONTROL Monatlich]**, um Daten in Zusammenfassungsform, nach Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
+* **Wählen Sie eine Berichtsdarstellung**: Wählen Sie im Menü Berichtstyp die Option **[!UICONTROL Zusammenfassung]**, **[!UICONTROL Täglich]** oder **[!UICONTROL Monatlich]**, um Daten nach Zusammenfassung, Tag oder Monat zu organisieren. Diese Option steht nicht in allen Berichten zur Verfügung.
 
 * **Zeitraum angeben**: Wählen Sie Optionen aus, um einen Zeitraum für Ihren Bericht festzulegen, und wählen Sie **[!UICONTROL Aktualisieren]**, nachdem Sie einen Zeitraum definiert haben:
 
 * **Vordefinierter Zeitraum**: Wählen Sie im Menü Vordefinierter Bericht eine Option aus. Wählen Sie beispielsweise „Letzter Monat“, um die Daten des letzten Monats zu erfassen.
 
-* **Benutzerdefinierter Zeitraum**: Wählen Sie im vordefinierten Menü Bericht die Option **[!UICONTROL Benutzerdefiniert]** aus. Wählen Sie dann ein Datum **[!UICONTROL Menü „Startmonat]** (oder **[!UICONTROL Startdatum]**) und ein Datum im Menü # von Monaten (oder # oder Tagen). Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
+* **Benutzerdefinierter Zeitraum**: Wählen Sie im vordefinierten Menü Bericht die Option **[!UICONTROL Benutzerdefiniert]** aus. Wählen Sie dann ein Datum **[!UICONTROL Menü „Startmonat]** (oder **[!UICONTROL Startdatum]**) und ein Datum im Menü „Anzahl der Monate (oder Anzahl der Tage)“. Für Berichte zur Domäne und zum Videoinhalt können Sie ein bestimmtes Start- und Enddatum für die Erfassung von Berichtsinformationen wählen.
 
 * **Sortieren von Daten (nur Datenansicht)**: Sortieren von Informationen in einer Spalte. Wählen Sie die Überschrift der Spalte aus. Wählen Sie erneut, um in absteigender Reihenfolge zu sortieren.
 
@@ -236,14 +234,14 @@ Adobe Dynamic Media Classic-Admins können Bildfehlerberichte generieren. Ein Bi
    * Um Fehler anhand der Überschrifteninformationen zu sortieren, wählen Sie eine Überschrift aus. Standardmäßig sind die Fehler absteigend nach der Anzahl der Instanzen geordnet.
    * Bewegen Sie den Cursor über das Feld „Antwort“ eines Fehlers, um die jeweilige Fehlermeldung anzuzeigen.
    * Um den Link zum Bild oder zur Referrer-Web-Seite anzuzeigen, bewegen Sie den Cursor über das URL- oder das Referrer-Feld.
-   * Um den Link in das eigentliche Bild zu kopieren, wählen Sie **[!UICONTROL URL kopieren]** aus. Sie können diesen Link in ein Browserfenster kopieren, um das Bild aufzurufen und den Fehler zu prüfen.
+   * Um den Link in das eigentliche Bild zu kopieren, wählen Sie **[!UICONTROL URL kopieren]** aus. Um zum Bild zu wechseln und den Fehler zu untersuchen, fügen Sie diesen Link in ein Browser-Fenster ein.
    * Um den Link auf die verweisende Web-Seite zu kopieren, wählen Sie **[!UICONTROL Verweiskopie-URL]** aus.
 
 Es werden Fehler für das Unternehmen angezeigt, bei dem Sie derzeit angemeldet sind. Jeder Fehler enthält die folgenden Informationen:
 
-* **Bild-ID**: ID für das fehlerhafte Bild.
+* **Bild-ID**: ID für das problematische Bild.
 
-* **Time**: Der Zeitraum, in dem der Fehler zum ersten Mal gemeldet wurde, bis zur letzten Fehlermeldung innerhalb der letzten 24 Stunden.
+* **Time**: Der Zeitraum zwischen der ersten Fehlermeldung und der letzten Fehlermeldung innerhalb der letzten 24 Stunden.
 
 * **count**: Die Anzahl der für das Bild gemeldeten Fehler.
 
