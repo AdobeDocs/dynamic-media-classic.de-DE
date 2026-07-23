@@ -11,24 +11,20 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # Hinzufügen von Untertiteln zu Videos {#add-captions-to-video}
 
-Erweitern der Reichweite Ihrer Videos auf globale Märkte. Dazu können Sie einzelnen Videos oder adaptiven Videosets Untertitel hinzufügen. Wenn Sie Untertitel hinzufügen, müssen Sie die Audiodaten nicht synchronisieren oder Muttersprachler damit beauftragen, die Audiodateien neu in einer anderen Sprache aufzuzeichnen. Das Video wird in der Sprache, in der es aufgenommen wurde, wiedergegeben. Fremdsprachliche Untertitel werden angezeigt, sodass auch Nutzer anderer Sprachen den Audioteil noch verstehen können.
+Stellen Sie Ihre Videos für globale Märkte bereit. Dazu können Sie einzelnen Videos oder adaptiven Videosets Untertitel hinzufügen. Wenn Sie Untertitel hinzufügen, müssen Sie die Audiodaten nicht synchronisieren oder native Sprachkünstler verwenden, um die Audiodaten in den einzelnen Sprachen aufzuzeichnen. Das Video wird in der Originalsprache wiedergegeben. Übersetzte Untertitel werden angezeigt, damit auch Nutzer anderer Sprachen den Audioteil verstehen können.
 
 Untertitel bieten zudem eine größere Barrierefreiheit, indem optional zuschaltbare Untertitel für Personen mit Hörbehinderung verwendet werden.
 
@@ -46,9 +42,9 @@ Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe](previewing-videos
 
 Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
-Adobe Dynamic Media Classic kann Untertiteldateien in das JSON-Format (JavaScript Object Notation) konvertieren. Diese Konversion bedeutet, dass Sie den JSON-Text als verborgenes, aber vollständiges Transkript des Videos in eine Web-Seite einbetten können. Suchmaschinen können dann den Inhalt crawlen und indizieren, damit die Videos leichter auffindbar sind und Kunden weitere Details zum Videoinhalt erhalten.
+Adobe Dynamic Media Classic kann Untertiteldateien in das JSON-Format (JavaScript Object Notation) konvertieren. Mit dieser Konvertierung können Sie den JSON-Text als verborgenes, aber vollständiges Transkript des Videos in eine Web-Seite einbetten. Suchmaschinen können dann den Inhalt crawlen und indizieren, damit die Videos leichter auffindbar sind und Kunden weitere Details zum Videoinhalt erhalten.
 
-Weitere [&#x200B; zur Verwendung der JSON-Funktion in einer URL &#x200B;](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) Sie unter „Statische Inhalte (keine Bilder) bereitstellen“ in .
+Weitere [ zur Verwendung der JSON](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)Funktion in einer URL erhalten Sie unter „Statische Inhalte (keine Bilder) bereitstellen“.
 
 **So fügen Sie einem Video Untertitel hinzu:**
 
@@ -66,15 +62,15 @@ Weitere [&#x200B; zur Verwendung der JSON-Funktion in einer URL &#x200B;](https:
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset und dann unter dem Miniaturbild des Assets die Option **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 1. Suchen Sie in der Viewer-Listentabelle den HTML5-Viewer mit dem Namen **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** oder **Universal_HTML5_MixedMedia_light** und führen Sie einen der folgenden Schritte aus:
 
-   * Um das Video in einem Popup-Fenster anzuzeigen, wählen **[!UICONTROL ganz rechts neben dem Namen]** URL kopieren“ aus.
+   * Klicken Sie rechts neben dem Namen auf **[!UICONTROL URL kopieren]**, um das Video in einem Popup-Fenster anzuzeigen.
 
-     Hängen Sie die kopierte URL des Videos mit der folgenden Syntax an, um sie mit der kopierten URL Ihrer Untertiteldatei zu verknüpfen:
+     Hängen Sie die folgende Syntax an die kopierte URL des Videos an, damit Sie sie mit Ihrer Untertiteldatei verknüpfen können:
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      Notieren Sie den `,1` am Ende des URL-Pfads für die Beschriftung. Unmittelbar im Anschluss an die Dateierweiterung VTT haben Sie bei der Angabe des Pfads die Möglichkeit, die Schaltfläche für Untertitel durch Festlegen von `1` bzw. `0` in der Video-Player-Leiste zu aktivieren oder zu deaktivieren.
 
-   * Um das Video in einem eingebetteten Viewer anzuzeigen, wählen **[!UICONTROL ganz rechts]** Namen „Einbettungs-Code“ aus.
+   * Um das Video in einem eingebetteten Viewer anzuzeigen, wählen **[!UICONTROL rechts neben dem Namen]** Einbettungs-Code“ aus.
 
      Wählen Sie im Dialogfeld „Einbettungs-Code“ die Option **[!UICONTROL In Zwischenablage kopieren]**.
 
