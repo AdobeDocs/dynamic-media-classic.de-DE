@@ -12,19 +12,14 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:46.184Z'
 TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 948a71b794caa0297a73e6ad689ab752b86edbf0
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 31%
+source-wordcount: 995
+ht-degree: 27%
 
 ---
 
@@ -57,19 +52,19 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
      >
      >Um die Elemente in der Asset-Bibliothek als Liste der Namen anzuzeigen statt als Miniaturansichten, wählen Sie unter „Persönliche Einstellungen“ als Standardansicht für die Asset-Bibliothek die Option „Name“ aus.
 
-1. Wählen Sie ein Gesamtlayout für den E-Katalog aus. Wählen Sie **[!UICONTROL 1 oben]** für einzelne Seiten, **[!UICONTROL 2 oben]** für doppelseitige Spreads oder **[!UICONTROL Benutzerdefiniert]** für Seitenspreads mit mehr als zwei Seiten aus. Wählen **[!UICONTROL Dialogfeld E-Katalog-Layout ändern]** die Optionen **[!UICONTROL Alle Spreads]** aus und klicken Sie auf **[!UICONTROL OK]**.
-1. Optional können Sie das Layout einzelner Seiten oder Seiten-Spreads ändern, indem Sie sie auswählen und dann die Schaltfläche **[!UICONTROL 1 Nach oben]**, **[!UICONTROL 2 Nach oben]** oder **[!UICONTROL Benutzerdefiniert]** auswählen. Wählen **[!UICONTROL Dialogfeld E-Katalog-Layout ändern]** die Optionen **[!UICONTROL Ausgewählte Spreads]** aus und klicken Sie auf **[!UICONTROL OK]**.
+1. Wählen Sie ein Gesamtlayout für den E-Katalog aus. Wählen Sie **[!UICONTROL 1 oben]** für einzelne Seiten, **[!UICONTROL 2 oben]** für doppelseitige Spreads oder **[!UICONTROL Benutzerdefiniert]** für Seitenspreads mit mehr als zwei Seiten aus. Wählen Sie **[!UICONTROL Dialogfeld E-Katalog-Layout]** die Option **[!UICONTROL Alle Spreads]** und klicken Sie auf **[!UICONTROL OK]**.
+1. Optional können Sie das Layout einzelner Seiten oder Seiten-Spreads ändern, indem Sie sie auswählen und dann die Schaltfläche **[!UICONTROL 1 Nach oben]**, **[!UICONTROL 2 Nach oben]** oder **[!UICONTROL Benutzerdefiniert]** auswählen. Wählen **[!UICONTROL Dialogfeld E-Katalog-Layout ändern]** die Option **[!UICONTROL Ausgewählte Spreads]** und klicken Sie auf **[!UICONTROL OK]**.
 1. Ordnen Sie die Seiten mit einem der folgenden Verfahren nach Bedarf neu an:
 
-   * **Ziehen**: Ziehen Sie eine Seite oder einen Seitenbereich an eine neue Position. Die vertikale Leiste zeigt an, wohin die Seite verschoben wird.
+   * **Ziehen**: Ziehen Sie eine Seite oder einen Seitenbereich an eine neue Position. Der vertikale Balken zeigt die Position an, an die die Seite verschoben wird.
 
    * **Schaltfläche „Verschieben nach**: Wählen Sie eine Seite oder Seitenübersicht aus, wählen Sie **[!UICONTROL Verschieben nach]** und wählen Sie im Menü die Seite aus, vor der Ihre Seite angezeigt werden soll.
 
-   * **Sequenz Nr.**: Geben Sie in der Listenansicht die Seitenzahlen in die Felder der Sequenz Nr. ein.
+   * **Sequenz Nr.**: Geben Sie in der Listenansicht die Seitenzahlen in die Felder „Sequenz Nr.“ ein.
 
 1. Wenn Sie fertig sind, stellen Sie sicher, dass unten rechts auf der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
-1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem der E-Katalog gespeichert werden soll. Geben Sie im Feld Dateiname den Namen des Rotationssets ein.
+1. Wählen Sie im Dialogfeld „Speichern“ einen Ordner aus, in dem der E-Katalog gespeichert werden soll. Geben Sie in das Feld Dateiname den Namen des E-Katalogs ein.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
    Sie können Ihren E-Katalog nach dem Speichern in der Vorschau anzeigen, indem Sie **[!UICONTROL Vorschau]** auswählen.
@@ -96,7 +91,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## E-Katalog löschen
 
-Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
+Wenn Sie ein Set löschen, wird das Set selbst in den Ordner „Gelöschte Elemente“ verschoben. Die Mitglieder in diesem Satz sind davon nicht betroffen, sondern behalten jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
@@ -121,9 +116,9 @@ Geben Sie die Seitennamen einzeln manuell ein, indem Sie auf der Registerkarte B
 
 ### Seitennamen importieren {#importing-page-names}
 
-Das Importieren von Seitennamen wird für einen E-Katalog mit sehr vielen Seiten empfohlen. Sie haben die Möglichkeit, die Namen aus einer tabulatorgetrennten Datei oder einer XML-Datei zu importieren.
+Der Import von Seitennamen wird empfohlen, wenn Sie mit einem E-Katalog arbeiten, der viele Seiten enthält. Sie haben die Möglichkeit, die Namen aus einer tabulatorgetrennten Datei oder einer XML-Datei zu importieren.
 
-Das Inhaltsverzeichnis wird im Benutzerdatenfeld eines Bildes gespeichert. Formatieren Sie diese Daten als Liste `name=<value>` ` pairs separated by two question marks "??" `. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnisfeld festzulegen, das `tocEN` heißt, legen Sie für die Benutzerdaten des Bildes Folgendes fest:
+Der Titel des Inhaltsverzeichnisses wird im Benutzerdatenfeld eines Bildes gespeichert. Formatieren Sie diese Daten als Liste mit `name=<value>` Paaren, die durch zwei Fragezeichen &quot;??“ getrennt sind. Um beispielsweise eine Beschriftung für ein Inhaltsverzeichnisfeld festzulegen, das `tocEN` heißt, legen Sie für die Benutzerdaten des Bildes Folgendes fest:
 
 `tocEN=&lt;EN_page_label>`
 
