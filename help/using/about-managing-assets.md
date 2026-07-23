@@ -19,17 +19,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 16%
+source-wordcount: 166
+ht-degree: 7%
 
 ---
 
 # Verwalten von Assets in Adobe Dynamic Media Classic {#about-managing-assets}
 
-Adobe Dynamic Media Classic bietet die Asset-Bibliothek zum Verwalten von Assets. Die Asset-Bibliothek enthält die Ordner, in denen Sie Ihre Asset-Dateien speichern. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird der Inhalt des Ordners im Durchsuchen-Bedienfeld angezeigt. Sie können Elemente im Durchsuchen-Bereich in der Raster-, Listen- oder Detailansicht anzeigen. Wenn Sie den Fokus auf ein einzelnes Asset legen möchten, doppelklicken Sie im Durchsuchen-Bedienfeld darauf, um es in der Detailansicht anzuzeigen.
+Adobe Dynamic Media Classic bietet die Asset-Bibliothek zum Verwalten von Assets. Die Asset-Bibliothek enthält die Ordner, in denen Sie Ihre Asset-Dateien speichern. Wenn Sie einen Ordner in der Asset-Bibliothek auswählen, wird der Inhalt des Ordners im Durchsuchen-Bedienfeld angezeigt. Sie können Elemente im Durchsuchen-Bereich mithilfe der Raster-, Listen- oder Detailansicht anzeigen. Wenn Sie den Fokus auf ein einzelnes Asset legen möchten, doppelklicken Sie im Durchsuchen-Bedienfeld darauf, um es in der Detailansicht anzuzeigen.
 
-Das Durchsuchen-Panel bietet Tools zum Anzeigen, Auswählen und Suchen. Das Bedienfeld bietet außerdem die Möglichkeit, Assets in der Vorschau anzuzeigen, zu verschieben, umzubenennen und zu löschen. Von Ihnen gelöschte Assets werden im Ordner „Papierkorb“ abgelegt; Sie können Assets bei Bedarf aus diesem Ordner zurückholen (wiederherstellen).
+Das Durchsuchen-Panel bietet Tools zum Anzeigen, Auswählen und Suchen. Das Bedienfeld bietet außerdem die Möglichkeit, Assets in der Vorschau anzuzeigen, zu verschieben, umzubenennen und zu löschen. Gelöschte Assets werden im Ordner Gelöschte Elemente abgelegt. Sie können Assets aus diesem Ordner wiederherstellen.
 
-Wenn Sie ein Asset untersuchen oder mit ihm arbeiten möchten, öffnen Sie es in der Detailansicht. Sie können Metadaten in der Detailansicht aufzeichnen, um das Auffinden und Arbeiten mit einem Asset zu vereinfachen.
+Um ein Asset anzuzeigen oder zu verwalten, öffnen Sie es in der Detailansicht. Um das Auffinden und Arbeiten mit einem Asset zu erleichtern, können Sie Metadaten in der Detailansicht hinzufügen.
