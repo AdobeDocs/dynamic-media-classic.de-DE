@@ -11,16 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:42:05.016Z'
 TQID: 'https://experienceleague.adobe.com/SgUcHyeFzCORCwV-VtfqQHFp2JDRsPsYb47mo3Z1yK4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 57%
+source-wordcount: 628
+ht-degree: 54%
 
 ---
 
@@ -53,7 +50,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Um einen Soundtrack hinzuzufügen, ziehen Sie eine Audiodatei aus der Asset-Bibliothek in das Feld „Soundtrack“. Der Soundtrack wird während der Anzeige der Bilder angespielt. Er stoppt, wenn ein Video wiedergegeben wird.
-   * Sie können die Reihenfolge der Sets ändern, indem Sie sie im Anzeigebereich „Gemischte Mediensets“ an neue Positionen ziehen. Die Reihenfolge der Sets im Anzeigebereich entspricht der Reihenfolge von links nach rechts, in der den Benutzern die Sets im gemischten Medienset-Viewer angezeigt werden.
+   * Sie können die Reihenfolge der Sets ändern, indem Sie sie im Anzeigebereich „Gemischte Mediensets“ an neue Positionen ziehen. Die Bildschirmreihenfolge bestimmt die Reihenfolge, in der Benutzer Sets im Viewer für gemischte Mediensets sehen.
    * (Optional) Um eine benutzerdefinierte Miniaturansicht für ein Video im Viewer hinzuzufügen, ziehen Sie eine Bilddatei aus der Asset-Bibliothek in das Platzhalterfeld für die Miniaturansicht.
 
 1. Stellen Sie sicher, dass in der rechten unteren Ecke der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
@@ -61,7 +58,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wählen Sie einen Ordner für das Speichern des gemischten Mediensets aus und geben Sie dann einen Namen für das Set ein.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-   Um anzuzeigen, wie das Kombinationsbildset in einem Bildset-Viewer aussieht, wählen Sie **[!UICONTROL Vorschau]** aus.
+   Um zu sehen, wie das gemischte Medienset in einem Bildset-Viewer aussieht, wählen Sie **[!UICONTROL Vorschau]** aus.
 
 ## Bearbeiten eines gemischten Mediensets {#edit-a-mixed-media-set}
 
@@ -91,7 +88,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Löschen eines gemischten Mediensets
 
-Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
+Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder in dieser Gruppe sind nicht betroffen, sondern behalten ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
