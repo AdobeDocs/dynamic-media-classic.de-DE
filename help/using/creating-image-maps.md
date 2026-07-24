@@ -12,18 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:35.428Z'
 TQID: 'https://experienceleague.adobe.com/zss-r9uFbwUnAU35hcpQsXKE1HgyBCrrK7JGiqV65Pg'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f139091df2b0bd1018cd89c591abdde2c0f57cc0
 workflow-type: tm+mt
-source-wordcount: 2454
-ht-degree: 30%
+source-wordcount: 2431
+ht-degree: 24%
 
 ---
 
@@ -38,19 +34,19 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 * Rollover-Text eingeben
 * Geben Sie JavaScript und URLs für den Start von Web-Seiten ein.
 * URL-Vorlagen für Imagemaps erstellen
-* Imagemaps in andere Bilder, E-Katalogseiten oder Rotationssets kopieren
+* Kopieren Sie Imagemaps in andere Bilder, E-Katalog-Seiten oder Rotationssets.
 * Imagemaps in CSV- oder XML-Dateien exportieren
 * Importieren Sie Bildmetadaten aus einer tabulatorgetrennten Datei oder aus einer XML-Datei.
-* Definition anderer vom World Wide Web Consortium festgelegter Aktionen.
+* Andere vom W3C (World Wide Web Consortium) festgelegte Aktionen definieren
 * Vorschau der Imagemaps anzeigen
 
 ## Zeichnen und Anpassen einer Imagemap {#drawing-and-adjusting-an-image-map}
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie mit einem Bild in der Rasteransicht oder Listenansicht arbeiten, wählen Sie in der Dropdown-Liste Bearbeiten die Option **[!UICONTROL Imagemap]** aus. Oder öffnen Sie es in der Detailansicht und wählen Sie dann **[!UICONTROL Imagemap]** über dem Bild aus.
+   * Wenn Sie mit einem Bild in der Raster- oder Listenansicht arbeiten, wählen Sie **[!UICONTROL Imagemap]** aus der Dropdown-Liste Bearbeiten aus. Oder öffnen Sie es in der Detailansicht und wählen Sie dann **[!UICONTROL Imagemap]** über dem Bild aus.
    * Wenn Sie mit einem Rotationsset in der Rasteransicht oder Listenansicht arbeiten, wählen Sie **[!UICONTROL Bearbeiten]**. Oder öffnen Sie es in der Detailansicht und wählen Sie dann **[!UICONTROL Bearbeiten]** aus. Wählen Sie ein Bild-Asset aus und klicken Sie auf **[!UICONTROL Imagemap]**.
-   * Wenn Sie mit einem E-Katalog arbeiten, wählen Sie in der Rasteransicht, Listenansicht, Detailansicht die Option **[!UICONTROL Bearbeiten]**. Wählen Sie die **[!UICONTROL Seiten zuordnen]** aus.
+   * Wenn Sie mit einem E-Katalog in der Raster-, Listen- oder Detailansicht arbeiten, wählen Sie **[!UICONTROL Bearbeiten]** aus. Wählen Sie die **[!UICONTROL Seiten zuordnen]** aus.
 
    ![Imagemap-Illustration](assets/ma_image_map.png)
 
@@ -78,10 +74,10 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 
    * Um Imagemaps in der Vorschau anzuzeigen, wählen Sie **[!UICONTROL Vorschau]** aus.
    * Um eine Imagemap oder einen Polygonscheitelpunkt zu löschen, wählen Sie eine Form im Bild aus und klicken Sie dann auf **[!UICONTROL Löschen]**. Oder wählen Sie für einen E-Katalog auf der Registerkarte Bestellseiten die Option **[!UICONTROL Karten löschen]**, um Imagemaps aus allen Seiten zu entfernen.
-   * So entfernen Sie ein:
-      * Imagemap aus einem Bild
-      * ein Bild in einem Rotationsset
-      * oder eine E-Katalog-Seite
+   * So entfernen Sie Folgendes
+     * Imagemap aus einem Bild
+     * ein Bild in einem Rotationsset
+     * oder eine E-Katalog-Seite
 
      Deaktivieren Sie vorübergehend die entsprechende Option Ein in der Imagemap-Liste, ohne sie zu löschen.
 
@@ -91,15 +87,15 @@ Beim Erstellen von Imagemaps haben Sie folgende Möglichkeiten:
 
 Um die Position, Form und Größe einer Imagemap zu ändern, klicken Sie auf die Schaltfläche Imagemap . Wählen Sie anschließend das **[!UICONTROL Pan]**-Tool aus und befolgen Sie die folgenden Anweisungen:
 
-* **Position ändern**: Bewegen Sie den Mauszeiger in die Nähe des Rahmens der Imagemap, aber nicht über diesen. Wenn der Mauszeiger als Vierfachpfeil dargestellt wird, ziehen Sie die Imagemap an eine andere Position.
+* **Position ändern**: Bewegen Sie den Mauszeiger in der Nähe des Rahmens der Imagemap, aber nicht über diesen. Wenn Sie das Symbol Verschieben sehen, ziehen Sie die Karte an eine neue Position.
 
 * **Ändern der Größe und Form**: Wie Sie die Form und Größe einer Imagemap ändern, hängt davon ab, ob Sie mit einer rechteckigen oder polygonalen Imagemap arbeiten:
 
 >[!TIP]
 >
->Sie können den Schieberegler „Größe“ unten im Anzeigebereich ziehen, um die Ansichten zu ändern und die Imagemap besser anzeigen zu können.
+>Um die Ansichten zu ändern und Ihre Imagemap klarer anzuzeigen, ziehen Sie den Größenregler am unteren Bildschirmrand.
 
-* **Rechteckige Imagemap**: Bewegen Sie den Mauszeiger über eine Seite oder Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie mit der Maus. Halten Sie die Umschalttaste gedrückt, während Sie ziehen, um die Größe zu ändern, aber das Seitenverhältnis (die Form) beizubehalten.
+* **Rechteckige Imagemap**: Bewegen Sie den Mauszeiger über eine Seite oder Ecke der Imagemap. Wenn der Mauszeiger als Doppelpfeil dargestellt wird, ziehen Sie mit der Maus. Um die Größe zu ändern, aber das Seitenverhältnis (die Form) beizubehalten, halten Sie beim Ziehen die Umschalttaste gedrückt.
 
 * **Polygonale Imagemap**: Ziehen Sie einen quadratischen Auswahlpunkt. Um einen Auswahlpunkt zu erstellen, wählen Sie den Rahmen der Imagemap aus und beginnen Sie mit dem Ziehen.
 
@@ -109,7 +105,7 @@ Wenn Ihre Bild- oder E-Katalog-Seite mehr als eine Imagemap enthält und sich di
 
 ### Importieren von Imagemap-Daten {#importing-image-map-data}
 
-Anstatt auf jeder Seite Imagemap-Daten einzugeben, können Sie auch die Daten für das Bild, das Rotationsset oder den E-Katalog in den Anzeigebereich mit der Imagemap-Zusammenfassung importieren. Die Imagemap-Daten werden in Form einer tabulatorgetrennten oder XML DTD-Datei importiert. Die Felder in der Datei müssen dieselbe Reihenfolge haben, wie im Anzeigebereich mit der Imagemap-Zusammenfassung dargestellt: „Name“, „Inhaltsverz.“, „Imagemaps“, „URLs“, „Rollover-Text“, „Andere Aktionen“ und „Suchzeichenfolgen“. Durch den Import von Imagemap-Daten müssen Sie die Daten nicht erst in die Imagemap-Liste eingeben, wenn Sie jede Imagemap erstellen.
+Anstatt die Imagemap-Daten auf jeder Seite einzugeben, können Sie die Daten für Ihr Bild, Ihr Rotationsset oder Ihren E-Katalog in den Bildschirm „Map-Zusammenfassung“ importieren. Die Imagemap-Daten werden in Form einer tabulatorgetrennten oder XML DTD-Datei importiert. Die Felder in Ihrer Datei müssen der Reihenfolge entsprechen, die im Bildschirm „Zuordnungszusammenfassung“ angezeigt wird: Name, Inhaltsverzeichnisbeschriftungen, Zuordnungen, URLs, Rollover-Text, andere Aktionen und Suchzeichenfolgen. Durch den Import von Imagemap-Daten müssen Sie die Daten nicht in die Imagemap-Liste eingeben, während Sie jede Imagemap erstellen.
 
 **So importieren Sie Imagemap-Daten:**
 
@@ -117,22 +113,22 @@ Anstatt auf jeder Seite Imagemap-Daten einzugeben, können Sie auch die Daten f�
 1. Wählen Sie **[!UICONTROL Metadaten importieren]** aus.
 1. Wählen Sie im Dialogfeld Metadaten hochladen die Option Bild oder Imagemap aus, um die Metadaten aus dem gewünschten Asset-Eigenschaftstyp hochzuladen.
 1. Wählen Sie in der Dropdown-Liste `Generate File` den Dateityp aus, den Sie erstellen möchten.
-1. (Optional) Wählen Sie **[!UICONTROL Generieren]** aus, um die resultierenden Daten basierend auf dem Dateityp, den Sie erstellen möchten, in der Vorschau anzuzeigen. Wählen Sie **[!UICONTROL Schließen]** aus, um zum Dialogfeld „Metadaten hochladen“ zurückzukehren.
+1. (Optional) Wählen Sie **[!UICONTROL Generieren]** aus. Dadurch wird eine Vorschau der resultierenden Daten basierend auf dem Dateityp angezeigt, den Sie erstellen möchten. Wählen Sie **[!UICONTROL Schließen]** aus, um zum Dialogfeld „Metadaten hochladen“ zurückzukehren.
 1. Navigieren Sie zu der Datei, die Sie hochladen möchten. Geben Sie im Textfeld „Dateiname“ den Namen der erstellten Datei an.
 1. (Optional) Geben Sie im Feld „Auftragsname“ einen Namen für den Auftrag „Metadaten hochladen“ ein.
 1. Wählen Sie **[!UICONTROL Hochladen]** aus.
 
 ### Kopieren von Imagemaps {#copying-image-maps}
 
-Sie können Imagemaps zwischen Bildern und E-Katalogseiten kopieren. Verwenden Sie **[!UICONTROL Imagemap kopieren]** um einen Vorsprung bei der Erstellung zu erhalten. Sie können auch Imagemaps kopieren, um sie in Bildern oder Seiten neu zu erstellen, die dasselbe Layout oder dieselbe Zuordnungsstruktur aufweisen.
+Sie können Imagemaps zwischen Bildern und E-Katalogseiten kopieren. Verwenden Sie **[!UICONTROL Imagemap kopieren]** um den Erstellungsprozess zu vereinfachen. Um Imagemaps in Bildern oder Seiten zu erstellen, die Layout- oder Zuordnungsstruktur gemeinsam haben, können Sie sie auch kopieren.
 
-Das Kopieren von Imagemaps in einem E-Katalog ist beispielsweise eine praktische Methode, um alle Imagemaps zwischen fremdsprachigen Versionen desselben E-Katalogs zu kopieren. Um optimale Ergebnisse zu erzielen, ist das Kopieren am erfolgreichsten, wenn Sie zwischen E-Katalogen mit derselben Seitenanzahl und denselben Bildern kopieren. Wenn der E-Katalog, in den Sie kopieren, bereits Imagemaps enthält, werden diese beim Erstellen der Kopie gelöscht.
+Das Kopieren von Imagemaps in einem E-Katalog ist beispielsweise eine praktische Methode, um alle Imagemaps zwischen verschiedenen Sprachversionen desselben E-Katalogs zu kopieren. Um optimale Ergebnisse zu erzielen, ist das Kopieren am erfolgreichsten, wenn Sie zwischen E-Katalogen mit derselben Seitenanzahl und denselben Bildern kopieren. Wenn der E-Katalog, in den Sie kopieren, bereits Imagemaps enthält, werden diese beim Erstellen der Kopie gelöscht.
 
 **So kopieren Sie Imagemaps:**
 
 1. Gehen Sie zur Seite „Imagemap-Editor“ (für Bilder oder Bilder in Rotationssets) oder zur Registerkarte „Imagemap-Seiten“ im Bearbeitungsbildschirm für E-Kataloge.
 1. Wählen **[!UICONTROL Zuordnungen kopieren nach]**.
-1. Führen Sie, abhängig davon, ob Sie Imagemaps aus Bildern oder Imagemaps aus einem E-Katalog kopieren möchten, einen der folgenden Schritte aus:
+1. Führen Sie einen der folgenden Schritte aus, je nachdem, ob Sie Imagemaps aus Bildern kopieren oder Imagemaps aus einem E-Katalog kopieren:
 
    * (Bilder) Wählen Sie im Bildschirm „Bilder auswählen“ die Bilder aus, die Sie in die Imagemaps kopieren möchten.
    * (E-Katalog) Wählen Sie im Bildschirm „Asset auswählen“ die Bilder oder E-Katalogseiten aus, die Sie in die Imagemaps kopieren möchten.
@@ -141,21 +137,21 @@ Das Kopieren von Imagemaps in einem E-Katalog ist beispielsweise eine praktische
 
 ## Verwenden einer Vorlage zur Eingabe von JavaScript und URLs {#using-a-template-to-enter-javascript-and-urls}
 
-Sie können eine URL-Vorlage (auch Href-Vorlage genannt) definieren, um das Eingeben von Imagemap-URLs einfacher und effizienter zu machen. Es ist sinnvoll, eine URL-Vorlage zu definieren, wenn die meisten Ihrer Imagemap-URLs ein gemeinsames festes Format haben. Wenn Sie den gleich bleibenden Teil der URL als Vorlage definieren, brauchen Sie diesen Teil beim Erstellen einer neuen Imagemap-URL nicht jedes Mal erneut einzugeben. Ihre URL-Vorlage kann auch JavaScript-Befehle, Pfadnamen und Parameter enthalten. Standardmäßig enthält die URL-Vorlage einen proprietären Adobe Dynamic Media Classic JavaScript-Handler namens `loadProduct` , der das Bild in einem neuen Fenster öffnet.
+Um die Eingabe von Imagemap-URLs zu vereinfachen, können Sie eine URL-Vorlage definieren (auch als HREF-Vorlage bezeichnet). Es ist sinnvoll, eine URL-Vorlage zu definieren, wenn die meisten Ihrer Imagemap-URLs ein gemeinsames festes Format haben. Wenn Sie den gleich bleibenden Teil der URL als Vorlage definieren, brauchen Sie diesen Teil beim Erstellen einer neuen Imagemap-URL nicht jedes Mal erneut einzugeben. Ihre URL-Vorlage kann auch JavaScript-Befehle, Pfadnamen und Parameter enthalten. Standardmäßig enthält die URL-Vorlage einen proprietären Adobe Dynamic Media Classic JavaScript-Handler namens `loadProduct` , der das Bild in einem neuen Fenster öffnet.
 
 >[!NOTE]
 >
->Wenn Sie den JavaScript-Code zum HREF-Attribut Ihrer Imagemap hinzufügen, wird der Code auf dem Computer des Clients ausgeführt. Stellen Sie daher sicher, dass der JavaScript-Code sicher ist.
+>Wenn Sie den JavaScript-Code zum HREF-Attribut Ihrer Imagemap hinzufügen, wird der Code auf dem Computer des Benutzers verarbeitet. Stellen Sie daher sicher, dass der JavaScript-Code sicher ist.
 
 ### URL-Vorlagen {#about-url-templates}
 
-Die URL-Vorlage ersetzt den Inhalt der URL-Spalte in der Imagemap-Liste. Er ersetzt sie durch die doppelten Dollarzeichen (&#39;$&#39;) in der Vorlage:
+Die URL-Vorlage ersetzt den Inhalt der URL-Spalte in der Imagemap-Liste. Sie werden in der Vorlage durch die doppelten Dollarzeichen ($) ersetzt:
 
 ```as3
 Javascript:loadProduct('$$');void(0);
 ```
 
-Sie platzieren alle Werte, die sich zwischen Imagemaps nicht ändern, in der URL-Vorlage. Fügen Sie anschließend nur die Werte hinzu, die sich in der Spalte „URL“ der Imagemap-Liste ändern. Beispiel:
+Sie platzieren alle Werte, die sich zwischen Imagemaps nicht ändern, in der URL-Vorlage. Fügen Sie nur die Werte hinzu, die sich zur URL-Spalte in der Imagemap-Liste ändern. Beispiel:
 
 * URL-Vorlage: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * URL-Wert: `product.htm`
@@ -165,7 +161,7 @@ Standardmäßig enthält die URL-Vorlage einen proprietären Adobe Dynamic Media
 
 * `loadProductCW`: Zeigt das URL-Ziel an, das in der URL-Spalte im aktuellen Fenster angegeben ist. Dieser Handler ist hauptsächlich für E-Kataloge vorgesehen, die in eine Seite innerhalb einer Website integriert sind.
 
-* `loadProductPW`: Zeigt das URL-Ziel an, das in der URL-Spalte im übergeordneten Fenster angegeben ist (die Seite, die die aktuelle geöffnet hat). Das aktuelle Fenster bleibt geöffnet, während im übergeordneten Fenster das URL-Ziel angezeigt wird.
+* `loadProductPW`: Zeigt das URL-Ziel an, das in der URL-Spalte im übergeordneten Fenster angegeben wurde (die Seite, die die aktuelle geöffnet hat). Das aktuelle Fenster bleibt geöffnet, während im übergeordneten Fenster das URL-Ziel angezeigt wird.
 
   >[!NOTE]
   >
@@ -183,7 +179,7 @@ Auf der Seite „Map-Editor“ (bei Bildern und Rotationssets) bzw. der Register
 
 * **URL-Vorlagenoption**: Wählen Sie die Option URL-Vorlage aus, um Ihre URL-Vorlage auf alle Imagemaps auf einer Bild- oder E-Katalog-Seite anzuwenden.
 
-* **Vorlagenoption**: Deaktivieren Sie in der URL-Imagemap-Liste die Option „Vorlage“, wenn keine einzelne Imagemap die URL-Vorlage verwenden soll.
+* **Vorlagenoption**: Deaktivieren Sie die Option Vorlage in der Imagemap-Liste, wenn eine einzelne Imagemap nicht die URL-Vorlage verwenden soll.
 
 ## Definieren anderer Aktionen für Imagemaps {#defining-other-actions-for-image-maps}
 
@@ -191,9 +187,9 @@ Sie können das Menü **[!UICONTROL Anzeigen]** auswählen und **[!UICONTROL And
 
 * **`accesskey`**: Trigger führen eine Aktion aus, wenn der Benutzer eine bestimmte Taste auf der Tastatur drückt.
 
-* **`onfocus`**: Trigger eines Ereignisses, wenn die Imagemap den Fokus erhält - durch den Cursor, durch Tabulatortaste oder durch Drücken einer Zugriffstaste. Sie können beispielsweise eine Web-Seite starten, wenn die Imagemap den Fokus erhält, und sie schließen, wenn die Imagemap den Fokus verliert.
+* **`onfocus`**: Trigger eines Ereignisses, wenn die Imagemap über den Cursor oder durch Drücken einer Zugriffstaste fokussiert wird. Sie können beispielsweise eine Web-Seite starten, wenn die Imagemap den Fokus erhält, und sie schließen, wenn die Imagemap den Fokus verliert.
 
-* **`onblur`**: Trigger eines Ereignisses, wenn die Imagemap den Fokus verliert, entweder durch den Cursor oder durch Tabulatortaste.
+* **`onblur`**: Trigger eines Ereignisses, wenn die Imagemap über den Cursor oder die Tabulatortaste den Fokus verliert.
 
 **So definieren Sie andere Aktionen für Imagemaps:**
 
@@ -213,7 +209,7 @@ Weitere Informationen finden Sie in der Hilfe zu Adobe InDesign oder in der Hilf
 
 ### So erstellen Sie Imagemaps in Adobe InDesing {#to-create-image-maps-in-adobe-indesign}
 
-1. Wechseln Sie in Adobe InDesign zu **[!UICONTROL Windows®]** > **[!UICONTROL Interactive]** > **[!UICONTROL Hyperlinks]**.
+1. Navigieren Sie in Adobe InDesign zu **[!UICONTROL Fenster]** > **[!UICONTROL Interaktiv]** > **[!UICONTROL Hyperlinks]**.
 1. Wählen Sie im Bedienfeld Hyperlinks den Text, den Rahmen oder die Grafik aus, die Sie in eine Imagemap umwandeln möchten.
 1. Wählen Sie **[!UICONTROL Neuer Hyperlink]** aus dem Bedienfeldmenü aus.
 1. Wählen Sie im Dialogfeld Neuer Hyperlink im Menü **[!UICONTROL Link auf]** die **[!UICONTROL URL]**.
