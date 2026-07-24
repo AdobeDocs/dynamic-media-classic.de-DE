@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6fc776c64e7e0dca958296b508b2d7b07849a88d
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 27%
+source-wordcount: 433
+ht-degree: 20%
 
 ---
 
 # Arbeiten mit Asset-Ordnern{#working-with-asset-folders}
 
-Datei-Assets in der Adobe Dynamic Media Classic werden in Ordnern aufbewahrt. In der Asset-Bibliothek werden diese Ordner in alphabetischer Reihenfolge aufgeführt. Vor dem Hochladen von Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic werden Sie aufgefordert, einen Ordner zum Speichern der Dateien zu benennen. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
+Datei-Assets in Adobe Dynamic Media Classic werden in Ordnern aufbewahrt. Diese Ordner werden im Bedienfeld Asset-Bibliothek alphabetisch aufgelistet. Vor dem Hochladen von Dateien von Ihrem Computer oder Netzwerk in Adobe Dynamic Media Classic werden Sie aufgefordert, einen Ordner zu benennen, in dem sie gespeichert werden sollen. Erstellen Sie diese Ordner, bevor Sie mit dem Hochladen von Dateien beginnen.
 
-Stellen Sie sicher, dass Sie eine Ordnerstruktur und eine Organisation zum Speichern Ihrer Dateien auf Adobe Dynamic Media Classic eingerichtet haben, bevor Sie Dateien hochladen.
+Stellen Sie sicher, dass Sie eine Ordnerstruktur und eine Organisation zum Speichern Ihrer Dateien in Adobe Dynamic Media Classic eingerichtet haben, bevor Sie Dateien hochladen.
 
 ## Ordner anzeigen, verschieben, ausblenden und öffnen {#displaying-moving-hiding-and-opening-folders}
 
@@ -37,7 +37,7 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 * **Unterordner anzeigen**: Wählen Sie das Symbol **[!UICONTROL Erweiterter Ordner]** aus, um die Unterordner in einem Ordner anzuzeigen. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
-* **Ordner verschieben**: Sie können einen Ordner verschieben, indem Sie ihn an den neuen Speicherort ziehen und dort ablegen, oder indem Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]**.
+* **Ordner verschieben**: Verschieben Sie einen Ordner durch Ziehen und Ablegen oder wählen Sie **[!UICONTROL Datei]** > **[!UICONTROL Ordner verschieben]**.
 
 * **Ordner ausblenden**: Wählen Sie das Symbol **[!UICONTROL Reduzierter Ordner]** aus, wenn Sie Unterordner reduzieren möchten, um sie vor der Ansicht auszublenden. Dieses Symbol wird links neben den Ordnernamen angezeigt.
 
@@ -45,11 +45,11 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 >[!TIP]
 >
->Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite das Steuerelement **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auswählen. Reduzieren Sie das Bedienfeld „Asset-Bibliothek“, wenn Sie mehr Platz für die Arbeit im Durchsuchen-Bedienfeld benötigen.
+>Sie können die Asset-Bibliothek ein- oder ausblenden, indem Sie auf der linken Seite das Steuerelement **[!UICONTROL Erweitern]** oder **[!UICONTROL Reduzieren]** auswählen. Reduzieren Sie das Bedienfeld „Asset-Bibliothek“, wenn Sie mehr Platz im Durchsuchen-Bedienfeld benötigen.
 
 ## Ordner erstellen
 
-1. Wählen Sie in der Asset-Bibliothek den Ordner aus, in dem Sie einen Unterordner erstellen möchten.
+1. Wählen Sie in der Asset-Bibliothek den Ordner aus, in dem Sie einen Ordner erstellen möchten.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL `Add Folder`]** . Dieses Symbol befindet sich oben in der Ordnerliste.
 1. Geben Sie einen beschreibenden Namen für den neuen Ordner oder Unterordner ein. Geben Sie sie in das Feld neben dem Ordnersymbol ein.
 
@@ -61,10 +61,10 @@ In der Asset-Bibliothek werden Dateien innerhalb eines Ordnerbaums angezeigt. We
 
 Wenn Sie einen Ordner löschen oder umbenennen möchten, wählen Sie ihn aus und gehen Sie dann wie folgt vor:
 
-* **Löschen**: Wählen Sie die Schaltfläche &quot;**[!UICONTROL `Remove Folder`]**&quot;. Assets aus einem gelöschten Ordner werden im Ordner „Papierkorb“ abgelegt. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
+* **Löschen**: Wählen Sie die Schaltfläche &quot;**[!UICONTROL `Remove Folder`]**&quot;. Assets in einem gelöschten Ordner werden in den Ordner der gelöschten Elemente verschoben. Sie haben die Möglichkeit, die Assets von dort zurückzuholen.
 
 * **Umbenennen**: Doppelklicken Sie auf den Namen und geben Sie einen neuen Namen ein.
 
 >[!NOTE]
 >
->Sie können keine Ordner oder Assets kopieren, da dies zu doppelten Ordnern und Assets in Adobe Dynamic Media Classic führen würde. Duplikate sind nicht zulässig.
+>Beim Kopieren von Ordnern oder Assets werden doppelte Ordner und Assets in Adobe Dynamic Media Classic erstellt, was nicht unterstützt wird.

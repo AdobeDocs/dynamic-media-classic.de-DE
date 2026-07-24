@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +111,7 @@ Jeder Benutzer in der Liste wird automatisch den angegebenen Gruppen hinzugefüg
 
 ## Generieren einer auswählbaren Media Portal-Benutzerliste {#generating-a-selectable-list-of-media-portal-users}
 
-Sie können die Namen und E-Mail-Adressen von Media Portal-Benutzern in einem Popup-Fenster anzeigen. Dies ist nützlich, wenn Sie Benutzernamen und Adressen kopieren und in eine Anwendung außerhalb von Media Portal einfügen möchten.
+Sie können die Namen und E-Mail-Adressen von Media Portal-Benutzern in einem Popup-Fenster anzeigen. Diese Liste ist nützlich, wenn Sie Benutzernamen und Adressen für die Verwendung außerhalb des Medienportals kopieren und einfügen möchten.
 
 1. Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Verwaltungseinstellungen]** > **[!UICONTROL Benutzerverwaltung]**.
 1. Wählen Sie in der Dropdown **[!UICONTROL Liste &quot;]** Benutzerrolle“ den Namen einer Medienportal-Benutzerrolle aus und klicken Sie auf **[!UICONTROL Aktualisieren]**, um die Namen einer Klasse von Medienportal-Benutzern anzuzeigen.
@@ -135,7 +135,7 @@ Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter
 
 Über den Anzeigebereich „Benutzerverwaltung“ können Sie außerdem folgende Aufgaben ausführen:
 
-* **[!UICONTROL Benutzerliste filtern und sortieren]**: Filtern Sie die Liste der Media Portal-Benutzer, um Benutzer zu finden.
+* **[!UICONTROL Benutzerliste filtern und sortieren]**: Um Benutzer zu finden, filtern Sie die Liste der Media Portal-Benutzer.
 
 * **[!UICONTROL Benutzer löschen]**: Benutzer aus der Liste entfernen.
 
@@ -143,6 +143,6 @@ Sie können eine Begrüßungs-E-Mail an neue Media Portal-Benutzer, -Mitarbeiter
 
 * **[!UICONTROL Benutzerinformationen bearbeiten]**: Geben Sie aktuelle Informationen zu einem Benutzer ein.
 
-* **[!UICONTROL Erstellen benutzerdefinierter Felder]**: Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, damit Sie Assets in der Adobe Dynamic Media Classic organisieren können. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
+* **[!UICONTROL Erstellen benutzerdefinierter Felder]**: Erstellen Sie benutzerdefinierte, benutzerdefinierte Metadatenfelder, damit Sie Assets in Adobe Dynamic Media Classic organisieren können. Die Felder können bei Bedarf auch aktiviert oder deaktiviert werden.
 
 Siehe [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).

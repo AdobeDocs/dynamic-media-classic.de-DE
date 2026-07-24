@@ -1,5 +1,5 @@
 ---
-title: Job-Dateien überprüfen
+title: Job-Dateien prüfen
 description: Erfahren Sie, wie Sie Auftragsdateien in Adobe Dynamic Media Classic überprüfen.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,10 +20,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 839735160b7123c57d176866bc4e5dd56dbf4bdc
 workflow-type: tm+mt
-source-wordcount: 1643
-ht-degree: 21%
+source-wordcount: 1656
+ht-degree: 20%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 Zur Überwachung von Datei-Uploads auf Adobe Dynamic Media Classic und von Dateien, die Sie auf Adobe Dynamic Media Classic-Servern veröffentlichen, bietet Adobe Dynamic Media Classic die Seite Vorgänge an. Sie können Aufträge auf der Seite „Aufträge“ überprüfen, hochladen und veröffentlichen, den Status von Aufträgen überprüfen und Veröffentlichungsaufträge auf dieser Seite abbrechen. Sie können außerdem Termine für die Ausführung von Upload-Aufträgen und Veröffentlichungsaufträgen planen.
 
-Wenn Sie Assets hochladen, wird neben dem Menü „Aufträge“ die Anzahl der verarbeiteten Dateien sowie ein rotierendes Symbol angezeigt, das darauf hinweist, dass derzeit ein Auftrag verarbeitet wird. Sie können auf das Symbol klicken, um weitere Informationen über den aktiven Auftrag anzuzeigen.
+Beim Hochladen von Assets wird neben dem Menü Vorgänge ein rotierendes Symbol angezeigt, das angibt, dass ein Vorgang ausgeführt wird und die Anzahl der Dateien angezeigt wird. Sie können auf das Symbol klicken, um weitere Informationen über den aktiven Auftrag anzuzeigen.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Auf der Registerkarte „Verlauf“ der Seite „Aufträge“ werden die Aufträ
 
 * **[!UICONTROL Total]**: Die Anzahl der übertragenen Dateien.
 
-* **[!UICONTROL W (Warnungen)]**: Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Beispielsweise enthalten `.DS_store`-Dateien (Mac) und Thumbs.db-Dateien (Windows®) Informationen zum Anzeigen von Bilddateien für Benutzerinnen und Benutzer. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
+* **[!UICONTROL W (Warnungen)]**: Die Anzahl der Warnungen im Auftrag (falls vorhanden). Warnmeldungen weisen auf Probleme mit dem Auftrag hin, die eine Ausführung des Auftrags insgesamt nicht beeinträchtigen. Die Warnmeldungen können normalerweise ignoriert werden, da sie auf ausgeblendete Dateien hinweisen. Ein Beispiel: `.DS_store`-Dateien (Mac) und Thumbs.db-Dateien (Windows®) enthalten Informationen zum Anzeigen von Grafikdateien für Benutzerinnen und Benutzer. Warneinträge zu diesen Dateien können jedoch ignoriert werden, da sie sich nicht darauf beziehen, wie diese Dateien in Adobe Dynamic Media Classic verwendet werden. Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Warnungen abzurufen.
 
 * **[!UICONTROL E (Fehler)]**: Listet die Anzahl der Fehler im Auftrag auf (falls vorhanden). Sie können auf einen Auftragsnamen doppelklicken, um detaillierte Informationen über Fehler abzurufen.
 
@@ -91,7 +91,7 @@ Sie können diese Informationen in die Zwischenablage kopieren.
 
 ## Verarbeiten wiederkehrender Upload- und Veröffentlichungsaufträge {#handling-recurring-upload-and-publish-jobs}
 
-Wiederkehrende Upload- und Veröffentlichungsaufträge, die Sie auf den Seiten „Hochladen“ und „Veröffentlichen“ erstellen, werden auf der Seite „Aufträge“ auf der Registerkarte „Geplant“ aufgeführt. Sie können wiederkehrende Aufträge auf der Registerkarte „Geplant“ bearbeiten und löschen.
+Wiederkehrende Upload- und Veröffentlichungsaufträge, die Sie auf den Seiten „Hochladen“ und „Veröffentlichen“ erstellen, werden auf der Seite „Aufträge“ auf der Registerkarte „Geplant“ angezeigt. Sie können wiederkehrende Aufträge auf der Registerkarte „Geplant“ bearbeiten und löschen.
 
 Wählen Sie in der globalen Navigationsleiste die Schaltfläche Aufträge und auf der Seite Aufträge die Registerkarte **[!UICONTROL Geplant]** aus, damit Sie wiederkehrende Aufträge bearbeiten und löschen können.
 
@@ -119,7 +119,7 @@ Dies ist die Syntax zum Beschreiben benutzerdefinierter Zeitintervalle für Uplo
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Beispielsweise plant `0 15 10 * * ?` einen Auftrag jeden Tag um 10:1500 Uhr.
+Beispielsweise plant `0 15 10 * * ?` einen Auftrag jeden Tag um 10:15 Uhr.
 
 In den folgenden Tabellen und in der Liste unten ist dargestellt, wie sich ein Zeitintervall in das Feld „Regel“ eingeben lässt.
 
@@ -152,18 +152,18 @@ In dieser Tabelle sind die im Feld „Regel“ zulässigen Platzhalterzeichen mi
 Diese Liste enthält Beispiele zur Beschreibung von Zeitintervallen im Feld „Regel“:
 
 * `0 0 12 * * ?` : Mittag jeden Tag
-* `0 15 10 ? * *` : :15 Uhr morgens
-* `0 0/5 14 * * ?`: Alle 5 Minuten zwischen :00 und :55 Uhr jeden Tag
-* `0 0/5 14,18 * * ?` : Alle 5 Minuten zwischen :00 und :55 Uhr jeden Tag und alle 5 Minuten zwischen :00 und :55 Uhr jeden Tag
-* `0 10,44 14 ? 3` : Mittwoch im :10 um 14 :44 14 Uhr
-* `0 15 10 ? *` : Mo-Fr um 10:15 Uhr jeden Wochentag
-* `0 15 10 20 * ?` : :15 Uhr am 20. jedes Monats
-* `0 15 10 L * ?` : :15 Uhr am letzten Tag jedes Monats
-* `0 15 10 ? * 6L` : :15 Uhr am letzten Freitag jedes Monats
-* `0 15 10 * * 6#3` : :15 Uhr am dritten Freitag jedes Monats
+* `0 15 10 ? * *` : 10:15 Uhr jeden Tag
+* `0 0/5 14 * * ?`: Alle 5 Minuten zwischen 14:00 und 14:55 Uhr jeden Tag
+* `0 0/5 14,18 * * ?` : Alle 5 Minuten zwischen 14:00 und 14:55 Uhr jeden Tag und alle 5 Minuten zwischen 18:00 und 18:55 Uhr jeden Tag
+* `0 10,44 14 ? 3` : Mittwoch, 14.10 Uhr, 14.44 Uhr, im März
+* `0 15 10 ? *` : Mo-Fr jeden Wochentag um 10:15 Uhr
+* `0 15 10 20 * ?` : jeden 20. Tag des Monats um 10:15 Uhr
+* `0 15 10 L * ?` : Am letzten Tag jedes Monats um 10:15 Uhr
+* `0 15 10 ? * 6L` : Am letzten Freitag jedes Monats um 10:15 Uhr
+* `0 15 10 * * 6#3` : Am dritten Freitag jedes Monats um 10:15 Uhr
 
 ## Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger {#using-an-upload-or-publish-job-as-a-trigger}
 
-Wenn Sie Assets per FTP hochladen oder einen Veröffentlichungsauftrag ausführen, können Sie einen weiteren Auftrag planen, der nach Abschluss des Uploads beginnt. (Wenn der Start anderer Aufträge für diesen Zeitpunkt geplant ist, wird der hier geplante Auftrag in die Warteschlange gestellt.) Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adresse, damit der Code an diesem Speicherort ausgelöst werden kann. Der nachfolgende Upload-Auftrag erhält denselben Namen wie der aktuelle Upload-Auftrag, jedoch mit dem Präfix „_Pub“.
+Wenn Sie Assets über FTP hochladen oder einen Veröffentlichungsauftrag ausführen, können Sie einen weiteren Auftrag planen, der nach Abschluss des Uploads beginnt. (Wenn der Start anderer Aufträge für diesen Zeitpunkt geplant ist, wird der hier geplante Auftrag in die Warteschlange gestellt.) Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adresse, damit der Code an diesem Speicherort ausgelöst werden kann. Dieser nachfolgende Upload-Auftrag erhält denselben Namen wie der aktuelle Upload-Auftrag, jedoch mit dem Präfix `_Pub`.
 
 Um einen Upload- oder Veröffentlichungsauftrag zu einem anderen Trigger zu machen, wählen Sie **[!UICONTROL Erweitert]** auf der Seite „Hochladen“ oder „Veröffentlichen“ aus. Geben Sie dann die URL in das Textfeld „HTTP-Benachrichtigung“ ein.

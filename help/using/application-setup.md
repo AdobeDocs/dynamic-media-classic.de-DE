@@ -22,10 +22,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: b179d4d28fe4859010783fcf725c3e8c6704416e
 workflow-type: tm+mt
-source-wordcount: 11377
-ht-degree: 27%
+source-wordcount: 11344
+ht-degree: 26%
 
 ---
 
@@ -35,7 +35,7 @@ Auf den Seiten „Anwendungseinstellungen“ können Sie allgemeine Einstellunge
 
 >[!NOTE]
 >
->Nur Adobe Dynamic Media Classic-Administratoren können die Einstellungen bei der Einrichtung der Anwendung ändern.
+>Nur Adobe Dynamic Media Classic-Administratoren können die Einstellungen im Programm-Setup ändern.
 
 ## Allgemeine Einstellungen {#general-settings}
 
@@ -47,9 +47,9 @@ Bei der Kontoerstellung stellt Adobe Dynamic Media Classic automatisch die zugeo
 
 Siehe auch [Testen des Secure Testing-](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL Veröffentlichungs-Server-Name]**: Dieser Server ist der Live-CDN-Server (Content Deliver Network), der in allen systemgenerierten URL-Aufrufen verwendet wird, die für Ihr Konto spezifisch sind. Ändern Sie diesen Servernamen nur, wenn Sie von einem Adobe Dynamic Media Classic Support-Techniker dazu aufgefordert werden.
+* **[!UICONTROL Veröffentlichungs-Server-Name]**: Dieser Server ist der Live-CDN-Server (Content Delivery Network), der in allen systemgenerierten URL-Aufrufen verwendet wird, die für Ihr Konto spezifisch sind. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter des Adobe Dynamic Media Classic dazu aufgefordert werden.
 
-* **[!UICONTROL Ursprungs-Server]** Name: Dieser Server wird nur für Qualitätssicherungstests verwendet. Ändern Sie diesen Servernamen nur, wenn Sie von einem Adobe Dynamic Media Classic Support-Techniker dazu aufgefordert werden.
+* **[!UICONTROL Ursprungs-Server]** Name: Dieser Server wird nur für Qualitätssicherungstests verwendet. Ändern Sie diesen Servernamen nur, wenn Sie von einem Support-Mitarbeiter des Adobe Dynamic Media Classic dazu aufgefordert werden.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
@@ -129,13 +129,13 @@ Siehe auch [Optionen für Upload-Aufträge](https://s7d5.scene7.com/s7viewers/ht
 
 * **[!UICONTROL Bilder überschreiben]**: Adobe Dynamic Media Classic lässt zwei Dateien mit denselben Namen nicht zu. Die Adobe Dynamic Media Classic-ID jedes Elements (der Bildname abzüglich der Dateinamenerweiterung) muss eindeutig sein. Aufgrund dieser Regel enthält das Dialogfeld „Hochladen“ die Option „Überschreiben“. Die genaue Wirkung dieser Option hängt von der Einstellung der Option „Bilder überschreiben“ ab. Sie legen damit fest, was beim Hochladen von Ersatzbildern geschieht – die Ersatzbilder können die Originalbilder ersetzen oder zu Duplikaten werden. Doppelte Bilder werden mit &quot;-1“ umbenannt (beispielsweise wird chair.tif in chair-1.tif umbenannt). Die Optionen wirken sich auf Bilder aus, die in einen vom Originalspeicherort abweichenden Ordner hochgeladen werden bzw. die eine andere Dateierweiterung haben als das Original (beispielsweise JPG, TIF oder PNG). Siehe [Verwenden der Option „Bilder überschreiben](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Im aktuellen Ordner Bilder mit demselben Namen oder derselben Erweiterung überschreiben]**: Diese Option stellt die strengste Ersetzungsregel dar. Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden und dieselbe Dateierweiterung haben wie das Originalbild. Wenn diese Voraussetzungen nicht erfüllt sind, wird ein Duplikat erstellt.
+  * **[!UICONTROL Im aktuellen Ordner Bilder mit demselben Namen oder derselben Erweiterung überschreiben]**: Diese Option stellt die strengste Ersetzungsregel dar. Das Ersatzbild muss in den Ordner des Originalbilds hochgeladen werden und dieselbe Dateierweiterung haben wie das Originalbild. Wenn diese Voraussetzungen nicht erfüllt sind, wird ein Duplikat erstellt.
 
-   * **[!UICONTROL Im aktuellen Ordner Assets mit ident. Namen unabh. von Erweiterung überschreiben]**: Erfordert das Hochladen des Ersatzbilds in denselben Ordner wie das Original, die Dateinamenerweiterung kann jedoch vom Original abweichen. Beispiel: „Sessel.tif“ ersetzt die Datei „Sessel.jpg“.
+  * **[!UICONTROL Im aktuellen Ordner Assets mit ident. Namen unabh. von Erweiterung überschreiben]**: Erfordert das Hochladen des Ersatzbilds in denselben Ordner wie das Original, die Dateinamenerweiterung kann jedoch vom Original abweichen. Beispiel: „Sessel.tif“ ersetzt die Datei „Sessel.jpg“.
 
-   * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen oder ident. Erweiterung überschreiben]**: Erfordert, dass das Ersatzbild dieselbe Dateinamenerweiterung wie das Originalbild hat. Beispielsweise muss „chair.jpg“ die Datei „chair.jpg“ ersetzen, und nicht „chair.tif“. Sie können das Ersatzbild jedoch in einen anderen Ordner hochladen als den, in dem sich das Original befindet. Das hochgeladene Bild bleibt dann im neuen Ordner; die Datei befindet sich also nicht mehr am ursprünglichen Speicherort.
+  * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen oder ident. Erweiterung überschreiben]**: Erfordert, dass das Ersatzbild dieselbe Dateinamenerweiterung wie das Originalbild hat. Beispielsweise muss „chair.jpg“ die Datei „chair.jpg“ ersetzen, und nicht „chair.tif“. Sie können das Ersatzbild jedoch in einen anderen Ordner hochladen als den, in dem sich das Original befindet. Das hochgeladene Bild bleibt dann im neuen Ordner; die Datei befindet sich also nicht mehr am ursprünglichen Speicherort.
 
-   * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]**: Diese Option stellt die am wenigsten einschränkende Ersetzungsregel dar. Sie können ein Ersatzbild in einen anderen Ordner hochladen als den, in dem sich das Originalbild befindet, und eine Datei mit einer anderen Dateierweiterung verwenden, um die Originaldatei zu ersetzen. Wenn sich die Originaldatei in einem anderen Ordner befindet, bleibt das Ersatzbild in dem neuen Ordner, in den es hochgeladen wurde.
+  * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]**: Diese Option stellt die am wenigsten einschränkende Ersetzungsregel dar. Sie können ein Ersatzbild in einen anderen Ordner hochladen als den, in dem sich das Originalbild befindet, und eine Datei mit einer anderen Dateierweiterung verwenden, um die Originaldatei zu ersetzen. Wenn sich die Originaldatei in einem anderen Ordner befindet, bleibt das Ersatzbild in dem neuen Ordner, in den es hochgeladen wurde.
 
 * **[!UICONTROL Veröffentlichung beibehalten]**: Gibt an, ob ein in Adobe Dynamic Media Classic hochgeladenes Ersatzbild die Einstellung „Veröffentlichungsbereit“ des Bildes beibehalten soll, das ersetzt wird. Oder die Einstellung wird beim Hochladen angegeben.
 
@@ -147,11 +147,11 @@ Siehe auch [Optionen für Upload-Aufträge](https://s7d5.scene7.com/s7viewers/ht
 
 * **[!UICONTROL Standard-Bildzuordnung HREF]**: Definiert die Standard-URL, die für die HREF-Spalte bei der Bildzuordnung verwendet wird. Diese URL ist die Standard-URL, die beim Erstellen von Imagemaps angezeigt wird.
 
-* **[!UICONTROL Standard-Bildzuordnungsvorlage]**: Definiert die standardmäßige JavaScript für die HREF-Vorlage in der Bildzuordnung. Sie können hier einen benutzerdefinierten Code festlegen, der ausgeführt wird, wenn Sie eine Imagemap auswählen.
+* **[!UICONTROL Standard-Bildzuordnungsvorlage]**: Definiert die standardmäßige JavaScript für die HREF-Vorlage in der Bildzuordnung. Um einen benutzerdefinierten Code jedes Mal auszuführen, wenn Sie eine Imagemap auswählen, legen Sie ihn hier fest.
 
 ### Andere Einstellungen (für Anwendung)
 
-* **[!UICONTROL Papierkorb-Bereinigungswarnungen]**: Assets im Papierkorb werden innerhalb von sieben Tagen automatisch entfernt. Wählen Sie „E-Mails senden, bevor Papierkorb-Elemente automatisch gelöscht werden“ aus, damit Benachrichtigungen an Unternehmensadministratoren gesendet werden, wenn Assets, die sich im Papierkorb befinden, vier Tage von der endgültigen Löschung entfernt sind. Siehe [Verwalten des Papierkorb-Ordners](/help/using/trash-folder.md).
+* **[!UICONTROL Papierkorb-Bereinigungswarnungen]**: Assets im Papierkorb-Ordner werden innerhalb von sieben Tagen automatisch gelöscht. Wählen Sie „E-Mails senden, bevor Elemente im Papierkorb-Ordner automatisch gelöscht werden“ aus. Diese Aktion sendet Benachrichtigungen an Unternehmensadministratoren. Dies tritt auf, wenn Assets im Papierkorb-Ordner in vier Tagen dauerhaft gelöscht werden sollen. Siehe [Verwalten des Papierkorb-Ordners](/help/using/trash-folder.md).
 
 ## Verwenden der Option „Bilder überschreiben“ {#using-the-overwrite-images-option}
 
@@ -159,7 +159,7 @@ Adobe Dynamic Media Classic lässt zwei Dateien mit denselben Namen nicht zu. Di
 
 Wenn Sie zuvor Bilder hochgeladen und dann die Originaldateien geändert (oder ersetzt) haben, gibt die ausgewählte Option Überschreiben an, wie Adobe Dynamic Media Classic die Bilder ersetzt. Informationen über das Bild bleiben unverändert, aber das neue Bild ersetzt das alte. Wenn der Ordner auch Bilder enthält, die sich noch nicht in Adobe Dynamic Media Classic befinden, werden diese Bilder hinzugefügt.
 
-Verwenden Sie diese Option, wenn die hochgeladenen Bilder in irgendeiner Weise geändert wurden (das Bild wurde geändert), der Verweis auf das Bild jedoch gleich bleibt. Überschreiben ist auch beim Hochladen und Rippen von Adobe®-PDFs hilfreich. Sie können anpassen, wie Adobe Dynamic Media Classic *Bild*. Sie können auch die ICC-Farbprofiloptionen im Dialogfeld Hochladen anpassen und mit der Überschreibungsfunktion erneut hochladen.
+Verwenden Sie diese Option, wenn die hochgeladenen Bilder in irgendeiner Weise geändert wurden (das Bild wurde geändert), der Verweis auf das Bild jedoch gleich bleibt. Überschreiben ist auch beim Hochladen und Rippen von Adobe®-PDFs hilfreich. Sie können eine Feineinstellung vornehmen, wie Adobe Dynamic Media Classic das Bild *`rips`*. Sie können auch die ICC-Farbprofiloptionen im Dialogfeld Hochladen anpassen und mit der Überschreibungsfunktion erneut hochladen.
 
 Die Adobe Dynamic Media Classic-IDs, die für den Zugriff auf Bilder von den Produktions-Servern verwendet werden, werden von den Bilddateinamen abgeleitet. Die Verwendung von Groß- und Kleinbuchstaben im Dateinamen ist wichtig, sowohl für die Ersetzung vorhandener Dateien als auch für die Adobe Dynamic Media Classic-IDs, die für den Zugriff auf das Bild verwendet werden. Die Verwendung von Dateinamen mit Groß- und Kleinbuchstaben ist vor dem Hochladen in Adobe Dynamic Media Classic korrekt, um zu vermeiden, dass Adobe Dynamic Media Classic-IDs nur für dasselbe Bild in unterschiedlicher Groß-/Kleinschreibung verwendet werden.
 
@@ -195,7 +195,7 @@ Sie können eine Bildvorgabe bearbeiten, indem Sie auf dem Bildschirm „Bildvor
 
 ### Optionen für Bildvorgaben {#image-preset-options}
 
-Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ bietet folgende Optionen zum Erstellen bzw. Bearbeiten von Bildvorgaben:
+Die Bildschirme Vorgabe hinzufügen und Vorgabe bearbeiten bieten die folgenden Optionen zum Erstellen und Bearbeiten von Bildvorgaben:
 
 * **[!UICONTROL Vorgabenname]**: Geben Sie einen beschreibenden Namen ohne Leerzeichen ein. Um Benutzenden zu helfen, diese Bildvorgabe zu identifizieren, nehmen Sie die Bildgrößenspezifikation in den Namen auf.
 
@@ -203,25 +203,25 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Format]**: Wählen Sie im Menü ein Format aus. Wenn Sie das GIF-, JPEG-, PDF- oder TIFF-Format auswählen, werden weitere Optionen angezeigt:
 
-   * GIF-Farbquantisierungsoptionen
+  * GIF-Farbquantisierungsoptionen
 
-      * **[!UICONTROL Typ]**: Wählen Sie „Adaptiv“ (Standard), „Web“ oder &quot;Mac&quot;. Wenn Sie **[!UICONTROL GIF mit Alpha]** auswählen, ist die Option &quot;Mac&quot; nicht verfügbar.
+    * **[!UICONTROL Typ]**: Wählen Sie „Adaptiv“ (Standard), „Web“ oder &quot;Mac&quot;. Wenn Sie **[!UICONTROL GIF mit Alpha]** auswählen, ist die Option &quot;Mac&quot; nicht verfügbar.
 
-      * **[!UICONTROL Dithering]**: Wählen Sie Diffus oder Aus.
+    * **[!UICONTROL Dithering]**: Wählen Sie Diffus oder Aus.
 
-      * **[!UICONTROL Anzahl Farben]**: Ziehen Sie den Schieberegler, um 2-255 einzugeben.
+    * **[!UICONTROL Anzahl Farben]**: Ziehen Sie den Schieberegler, um 2-255 einzugeben.
 
-      * **[!UICONTROL Farbliste]**: Geben Sie eine kommagetrennte Liste ein. Geben Sie beispielsweise für Weiß, Grau und Schwarz &quot;`000000,888888,ffffff`&quot; ein.
+    * **[!UICONTROL Farbliste]**: Geben Sie eine kommagetrennte Liste ein. Geben Sie beispielsweise für Weiß, Grau und Schwarz &quot;`000000,888888,ffffff`&quot; ein.
 
-   * JPEG-Optionen
+  * JPEG-Optionen
 
-      * **[!UICONTROL Qualität]**: Steuert den JPEG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala ist 1-100.
+    * **[!UICONTROL Qualität]**: Steuert den JPEG-Komprimierungsgrad. Diese Einstellung wirkt sich sowohl auf die Dateigröße als auch die Bildqualität aus. Die JPEG-Qualitätsskala ist 1-100.
 
-      * **[!UICONTROL JPG-Neuberechnung der Chrominanz aktivieren]**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
+    * **[!UICONTROL JPG-Neuberechnung der Chrominanz aktivieren]**: Da das Auge weniger empfindlich auf hochfrequente Farbinformationen reagiert als hochfrequente Luminanz, unterteilen JPEG-Bilder Bildinformationen in Luminanz- und Farbkomponenten. Bei der Komprimierung eines JPEG-Bildes behält die Leuchtdichtekomponente die volle Auflösung, während für die Farbkomponenten ein Downsampling, d. h. eine Mittelwerterstellung für Pixelgruppen, ausgeführt wird. Durch Downsampling wird das Datenvolumen um die Hälfte oder ein Drittel reduziert, ohne dass es zu Qualitätseinbußen kommt. Downsampling kann nicht auf Graustufenbilder angewendet werden. Mit dieser Technik wird der Komprimierungsgrad, der für Bilder mit hohem Kontrast (z. B. Bilder mit überlappendem Text) sinnvoll ist, reduziert.
 
-   * PDF- und TIFF-Optionen
+  * PDF- und TIFF-Optionen
 
-      * **[!UICONTROL Komprimierung]**: Wählen Sie einen Komprimierungsalgorithmus aus.
+    * **[!UICONTROL Komprimierung]**: Wählen Sie einen Komprimierungsalgorithmus aus.
 
 * **[!UICONTROL Farbraum]**: Wählen Sie einen Farbraum aus.
 
@@ -245,7 +245,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 * **[!UICONTROL Radius]**: Bestimmt die Anzahl der Pixel um die Kanten-Pixel, auf die sich die Scharfzeichnung auswirkt. Geben Sie für Bilder mit hoher Auflösung Werte zwischen 1 und 2 ein. Bei einem geringeren Wert werden nur die Kantenpixel scharfgezeichnet, während bei einem hohen Wert ein breiterer Pixelbereich scharfgezeichnet wird. Der richtige Wert hängt von der Größe des Bilds ab.
 
-* **[!UICONTROL Schwellenwert]**: Bestimmt den Kontrastbereich, der beim Anwenden der Unschärfemaske ignoriert werden soll. Das heißt, sie kann auflösen, wie stark sich die scharfgezeichneten Pixel vom Umgebungsbereich unterscheiden müssen, bevor sie als Kantenpixel eingestuft und scharfgezeichnet werden. Um Rauschen zu vermeiden, experimentieren Sie mit Werten zwischen `.02` und `0.2`. Der Standardwert 6 schärft alle Pixel im Bild.
+* **[!UICONTROL Schwellenwert]**: Verwenden Sie diese Einstellung, um einen Kontrastbereich zu ignorieren, wenn der Filter „Unschärfemaske“ angewendet wird. Das heißt, sie kann auflösen, wie stark sich die scharfgezeichneten Pixel vom Umgebungsbereich unterscheiden müssen, bevor sie als Kantenpixel eingestuft und scharfgezeichnet werden. Um Rauschen zu vermeiden, experimentieren Sie mit Werten zwischen `.02` und `0.2`. Der Standardwert 6 schärft alle Pixel im Bild.
 
 * **[!UICONTROL Farbraum]**: Bestimmt, ob das Bild den Raum verwendet, in dem das Bild erstellt wurde, normalerweise RGB (Original) oder einen Luminanzraum (Intensität).
 
@@ -276,7 +276,7 @@ Der Anzeigebereich „Vorgabe hinzufügen“ bzw. „Vorgabe bearbeiten“ biete
 
 ## Aktivieren oder Deaktivieren von adaptiven Videovorgaben {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic bietet Vorgaben für adaptive Videokodierung. Hierbei handelt es sich um eine primäre Liste von Vorgaben, die 16:9 adaptive Videovorgaben und 4:3 adaptive Videovorgaben in einer Gruppe kombiniert. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert.
+Adobe Dynamic Media Classic bietet Vorgaben für adaptive Videokodierung. Hierbei handelt es sich um eine primäre Liste von Vorgaben, die sowohl 16:9-Adaptive Videovorgaben als auch 4:3-Adaptive Videovorgaben in einer Gruppe kombiniert. Diese vordefinierten Vorgaben enthalten die am häufigsten verwendeten Kodierungseinstellungen und sind für die Wiedergabe auf Mobilgeräten, Tablets und Desktops optimiert.
 
 Standardmäßig sind nur „adaptive Video“-Kodierungsvorgaben aktiviert (aktiviert oder aktiviert). Sie können sie bei Bedarf deaktivieren. Deaktivierte adaptive Video-Vorgaben stehen im eVideo-Abschnitt des Dialogfelds „Upload-Auftragsoptionen“ nicht zur Auswahl.
 
@@ -287,7 +287,7 @@ Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.h
 **So aktivieren oder deaktivieren Sie adaptive Videovorgaben:**
 
 1. Navigieren Sie oben rechts in Adobe Dynamic Media Classic zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinrichtung]** > **[!UICONTROL Videovorgaben]** > **[!UICONTROL Adaptive Videovorgaben]**.
-1. Wenn Sie eine Vorgabe aus der Liste „eVideo-Optionen“ im Dialogfeld „Upload-Auftragsoptionen“ entfernen möchten, deaktivieren Sie auf der Seite „Adaptive Video-Vorgaben“ das Kontrollkästchen neben dem Vorgabenamen.
+1. Um eine Vorgabe aus der Liste der eVideo-Optionen im Dialogfeld Upload-Auftragsoptionen zu entfernen, deaktivieren Sie das Kontrollkästchen neben dem Namen einer Vorgabe auf der Seite „Adaptive Videovorgaben“.
 1. Wählen Sie **[!UICONTROL Schließen]** aus.
 
 ## Video-Vorgaben zum Kodieren von Videodateien {#video-presets-for-encoding-video-files}
@@ -296,33 +296,33 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie in der rechten unteren Ecke 
 
 >[!NOTE]
 >
->Mit Ausnahme von „Adaptives Video“, das standardmäßig aktiviert ist, können im Dialogfeld Upload-Auftragsoptionen nicht alle anderen Vorgaben für adaptive Videos oder einzelne Videokodierung angezeigt werden. Adobe Dynamic Media Classic-Admins legen fest, welche Videokodierungsvorgaben im Dialogfeld Upload-Auftragsoptionen angezeigt werden.
+>Mit Ausnahme des adaptiven Videos, das von Adobe Dynamic Media Classic standardmäßig aktiviert wird, bestimmen Adobe Dynamic Media Classic-Administratoren, welche Videokodierungsvorgaben mit einfacher Kodierung im Dialogfeld Upload-Auftragsoptionen angezeigt werden. Adobe Dynamic Media Classic-Admins legen fest, welche Videokodierungsvorgaben im Dialogfeld Upload-Auftragsoptionen angezeigt werden.
 
 * Wählen Sie aus den folgenden Vorgaben für adaptive Videokodierung oder Einzelkodierung aus:
 
-   * **[!UICONTROL 16:9 Adaptive Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 16 :9 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
+  * **[!UICONTROL 16:9 Adaptives Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 16:9 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-   * **[!UICONTROL 4:3 Adaptives Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 4 :3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
+  * **[!UICONTROL 4:3 Adaptives Video]**: Erstellen Sie Videos mit einem Seitenverhältnis von 4:3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™), optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-   * **[!UICONTROL Adaptives Video]**: Eine Vorgabe für die einzelne Kodierung, die mit jedem Seitenverhältnis verwendet werden kann, um Videos für die Bereitstellung auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, weisen eine feste Höhe auf. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten.
+  * **[!UICONTROL Adaptives Video]**: Eine Vorgabe für die einzelne Kodierung, die mit jedem Seitenverhältnis verwendet werden kann, um Videos für die Bereitstellung auf Mobilgeräten, Tablets und Desktops zu erstellen. Hochgeladene Quellvideos, die mit dieser Vorgabe kodiert wurden, haben eine feste Höhe. Die Breite wird jedoch automatisch skaliert, um das Seitenverhältnis des Videos beizubehalten.
 
-     Diese Flexibilität der „automatischen Skalierung“ ist auch standardmäßig verfügbar, wenn Sie Ihre eigene benutzerdefinierte Videokodierungsvorgabe erstellen.
+    Diese Flexibilität der „automatischen Skalierung“ ist auch standardmäßig verfügbar, wenn Sie Ihre eigene benutzerdefinierte Videokodierungsvorgabe erstellen.
 
-     Siehe [Hinzufügen oder Bearbeiten einer Videocodierungsvorgabe](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
+    Siehe [Hinzufügen oder Bearbeiten einer Videocodierungsvorgabe](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl :9- als auch :3-Videos für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
+  * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl Videos mit einem Seitenverhältnis von 16:9 als auch von 4:3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-     Siehe [Adaptive Videokodierung (16:9 oder 4:3) &#x200B;](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+    Siehe [Vorgaben für die Videokodierung (16:9 oder 16:9: 3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
-   * **[!UICONTROL Einzelne Kodierungsvorgaben]**
+  * **[!UICONTROL Einzelne Kodierungsvorgaben]**
 
-     >[!NOTE]
-     >
-     >Um Videos auf iPads bereitzustellen, können Sie eine Mobile-Kodierungsvorgabe oder eine Tablet-Kodierungsvorgabe auswählen. Tablet-Vorgaben weisen gewöhnlich eine höhere Auflösung und Qualität auf und sind für den iPad mit seinem größeren Display und der hohen Verbindungsgeschwindigkeit optimiert. Damit Videodateien, die mit einer Tablet-Vorgabe kodiert wurden, richtig wiedergegeben werden können, muss die mobile Site bzw. Anwendung über einen Code zur Geräteerkennung verfügen. Dieser Code sorgt dafür, dass, abhängig vom erkannten Wiedergabegerät, das entsprechende Videomaterial für iPhone oder iPad bereitgestellt wird. Durch die Auswahl einer Mobil-Vorgabe für die Wiedergabe von Videodateien auf dem iPad wird der Workflow vereinfacht. Das liegt daran, dass Sie für iPhones und iPads dieselbe Videodatei verwenden können. Allerdings wird dabei die Qualität des Videomaterials an das iPhone mit seiner geringeren Auflösung angepasst.
+    >[!NOTE]
+    >
+    >Um Videos auf iPads bereitzustellen, können Sie eine Mobile-Kodierungsvorgabe oder eine Tablet-Kodierungsvorgabe auswählen. Tablet-Vorgaben weisen gewöhnlich eine höhere Auflösung und Qualität auf und sind für den iPad mit seinem größeren Display und der hohen Verbindungsgeschwindigkeit optimiert. Damit Videodateien, die mit einer Tablet-Vorgabe kodiert wurden, richtig wiedergegeben werden können, muss die mobile Site bzw. Anwendung über einen Code zur Geräteerkennung verfügen. Dieser Code sorgt dafür, dass, abhängig vom erkannten Wiedergabegerät, das entsprechende Videomaterial für iPhone oder iPad bereitgestellt wird. Durch die Auswahl einer Mobil-Vorgabe für die Wiedergabe von Videodateien auf dem iPad wird der Workflow vereinfacht. Das liegt daran, dass Sie für iPhones und iPads dieselbe Videodatei verwenden können. Allerdings wird dabei die Qualität des Videomaterials an das iPhone mit seiner geringeren Auflösung angepasst.
 
-      * Wählen Sie unter der Gruppe Kodierungsvorgaben in der Dropdown-Liste Kodierungsvorgaben sortieren den Namen oder die Größe aus, um die Vorgaben nach Name oder Auflösungsgröße zu sortieren.
-      * Wählen Sie eine Kodierungsvorgabe aus, die auf der Größe der Auflösung und der Bandbreite basiert, mit der Sie das Video abspielen möchten.
-      * Sie können „Adaptive Videokodierung“ und eine oder mehrere Kodierungsvorgaben pro Video auswählen. Beispielsweise können Sie eine Datei beim Hochladen gleichzeitig für Desktop und mobile Geräte kodieren.
+    * Wählen Sie unter der Gruppe Kodierungsvorgaben in der Dropdown-Liste Kodierungsvorgaben sortieren den Namen oder die Größe aus, um die Vorgaben nach Name oder Auflösungsgröße zu sortieren.
+    * Wählen Sie eine Kodierungsvorgabe aus, die auf der Größe der Auflösung und der Bandbreite basiert, mit der Sie das Video abspielen möchten.
+    * Sie können „Adaptive Videokodierung“ und eine oder mehrere Kodierungsvorgaben pro Video auswählen. Beispielsweise können Sie eine Datei beim Hochladen gleichzeitig für Desktop und mobile Geräte kodieren.
 
 Wenn Sie auf **[!UICONTROL Upload starten]** klicken, wird die ursprüngliche Primäre Videodatei hochgeladen und kodierte Dateien werden aus der Primärdatei generiert.
 
@@ -356,13 +356,13 @@ Eine Kodierungsvorgabe, die mit jedem Seitenverhältnis verwendet werden kann, u
 | 2 | Auto × 480, 1400 kBit/s | _tablet_auto×480p_1400K | 1400 | Auto×480 | Gleich Quelle | 96 | Für Tablets (iPad, Android™) |
 | 3 | Automatische × 720, 2600 kBit/s | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Gleich Quelle | 128 | Für Desktop |
 
-### Adaptive Videokodierungs-(16:9 oder 4:3)-Vorgaben {#adaptive-video-encoding-or-video-presets}
+### Adaptive Videokodierungsvorgaben (16:9 oder 4:3) {#adaptive-video-encoding-or-video-presets}
 
-Diese Vorgaben für adaptive Videokodierung kombinieren eine Reihe individueller Kodierungsvorgaben, die automatisch auf Grundlage des Seitenverhältnisses des hochgeladenen Videos ausgewählt werden. Wenn Sie beispielsweise ein 4:3-Video hochladen, wird es automatisch mit allen fünf 4:3-Vorgaben kodiert, die in der Liste der primären Vorgaben in der Option **Adaptive Videokodierung (16:9 oder 4:3)**.
+Diese Vorgaben für adaptive Videokodierung kombinieren eine Reihe individueller Kodierungsvorgaben, die automatisch auf Grundlage des Seitenverhältnisses des hochgeladenen Videos ausgewählt werden. Wenn Sie beispielsweise ein 4:3-Video hochladen, wird es automatisch mit allen fünf 4:3-Vorgaben kodiert, die sich in der Liste der primären Vorgaben in der Option **Adaptive Videokodierung (16:9 oder 4:3)**.
 
 Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodierungsvorgabeoptionen](application-setup.md#about_encoding_preset_options).
 
-**Vorgaben für adaptive Videokodierung (16:9 oder 4 :3)**
+**Vorgaben für adaptive Videokodierung (16:9 oder 4:3)**
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | fps | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -387,13 +387,13 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videodatenrate (Kbit/s) | Breite/Höhe (Pixel) | fps | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9 480 x 270 (400 Kbit/s) | 500 | _480x270_400K | 400 | 480 x 270 | Gleich Quelle | 64 | Niedrige Auflösung, Widescreen |
-| 2 | 16:9 640 x 360 (800 kBit/s) | 900 | _640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
-| 3 | 16:9 800 x 450 (1200 Kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
-| 4 | 16:9 1280 x 720 (2000 Kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
+| 1 | 16:9, 480 x 270 (400 Kbit/s) | 500 | _480x270_400K | 400 | 480 x 270 | Gleich Quelle | 64 | Niedrige Auflösung, Widescreen |
+| 2 | 16:9, 640 x 360 (800 Kbit/s) | 900 | _640x360_800K | 800 | 640 x 360 | Gleich Quelle | 80 | Mittlere Bildauflösung, Widescreen |
+| 3 | 16:9, 800 x 450 (1200 Kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800 x 450 | Gleich Quelle | 96 | Mittelhohe Auflösung |
+| 4 | 16:9, 1280 x 720 (2000 Kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280 x 720 | Gleich Quelle | 128 | High Definition, Widescreen |
 | 5 | 4:3, 320 x 240 (400 Kbit/s) | 500 | _320X240_400K | 400 | 320 x 240 | Gleich Quelle | 64 | Niedrige Auflösung |
-| 6 | 4:3, 480 x 360 (800 kBit/s) | 900 | _480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
-| 7 | 4 :3 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittelhohe Auflösung |
+| 6 | 4:3, 480 x 360 (800 Kbit/s) | 900 | _480x360_800K | 800 | 480 x 360 | Gleich Quelle | 80 | Mittlere Auflösung |
+| 7 | 4:3, 640 x 480 (1200 Kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640 x 480 | Gleich Quelle | 96 | Mittelhohe Auflösung |
 | 8 | 4:3, 1280 x 960 (2000 Kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 | 1280 x 960 | Gleich Quelle | 128 | High Definition |
 
 **OGG Theora Vorbis: Dateiendung OGV**
@@ -419,16 +419,16 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 
 |  | Kodierungsvorgabenname/QuickInfo-Text | Zielverbindungsgeschwindigkeit (Kbit/s) | Kodierungsdateisuffix | Videobitrate (Kbit/s) | Pixel Breite/Höhe | fps | Audiobitrate (Kbit/s) | Empfehlungen |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512 x 288, Mobil (400 kBit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
-| 2 | 16:9, 512 x 288, Mobil (600 kBit/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
-| 3 | 16:9, 512 x 288, Mobil (800 kBit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
+| 1 | 16:9, 512 x 288, Mobil (400 Kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
+| 2 | 16:9, 512 x 288, Mobil (600 Kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
+| 3 | 16:9, 512 x 288, Mobil (800 Kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
 | 4 | 16:9, 512 x 288, Mobil (1000 Kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1000 | 512 x 288 | Gleich Quelle | 80 | Hohe Auflösung, Wi-Fi |
 | 5 | 16:9, 512 x 288, Mobil (1200 Kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1200 | 512 x 288 | Gleich Quelle | 96 | Hohe Auflösung, Wi-Fi |
-| 6 | 4:3, 384 x 288, Mobil (400 kBit/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
-| 7 | 4:3, 384 x 288, Mobil (600 kBit/s) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
-| 8 | 4:3, 448 x 336, Mobil (800 kBit/s) | 900 | _Mobile_448x336_800K | 800 | 448 x 336 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
-| 9 | 4:3, 448 x 336, mobil (1000 Kbit/s) | 1,2 Mbit/s | _Mobile_448x336_1000K | 1000 | 448 x 336 | Gleich Quelle | 80 | Hohe Auflösung, Wi-Fi |
-| 10 | 4:3, 448 x 336, mobil (1200 Kbit/s) | 1,5 Mbit/s | _Mobile_448x336_1200K | 1200 | 448 x 336 | Gleich Quelle | 96 | Hohe Auflösung, Wi-Fi |
+| 6 | 4:3, 384 x 288, Mobil (400 Kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Gleich Quelle | 64 | Niedrige Auflösung, 3G |
+| 7 | 4:3, 384 x 288, Mobil (600 Kbit/s) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Gleich Quelle | 64 | Medium-Auflösung, 3G |
+| 8 | 4:3, 448 x 336, Mobil (800 Kbit/s) | 900 | _Mobile_448x336_800K | 800 | 448 x 336 | Gleich Quelle | 80 | Medium-Auflösung, Wi-Fi |
+| 9 | 4:3, 448 x 336, Mobil (1000 Kbit/s) | 1,2 Mbit/s | _Mobile_448x336_1000K | 1000 | 448 x 336 | Gleich Quelle | 80 | Hohe Auflösung, Wi-Fi |
+| 10 | 4:3, 448 x 336, Mobil (1200 Kbit/s) | 1,5 Mbit/s | _Mobile_448x336_1200K | 1200 | 448 x 336 | Gleich Quelle | 96 | Hohe Auflösung, Wi-Fi |
 
 ## Viewer-Vorgaben {#viewer-presets}
 
@@ -436,11 +436,11 @@ Informationen zu den Parametern für Kodierungsoptionen finden Sie unter [Kodier
 >
 >**Hinweis zum Ende der Nutzungsdauer von Flash-Viewern**: Am 31. Januar 2017 hat Adobe Dynamic Media Classic offiziell die Unterstützung für die Flash-Viewer-Plattform beendet.
 
-Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoomverhalten, die Farbschemata, Ränder und Schriftarten ändern.
+Eine *Viewer-Vorgabe* ist eine Zusammenstellung von Einstellungen, mit denen die Anzeige von Rich-Media-Assets auf den Computerbildschirmen und Mobilgeräten für die Benutzer festgelegt wird. Sie können als Administrator Viewer-Vorgaben erstellen. Es sind Einstellungen für eine ganze Palette von Viewer-Konfigurationsoptionen verfügbar. Sie können beispielsweise die Viewer-Anzeigegröße, das Zoom-Verhalten und das Erscheinungsbild ändern.
 
 Verwenden Sie als Best Practice Adobe Dynamic Media Classic HTML5-Video-Viewer. Dank der für die HTML5 Video Viewer verwendeten Vorgaben handelt es sich um robuste Video-Player.
 
-Durch die Kombination von Folgendem in einen einzelnen Player:
+Durch die Kombination von Folgendem zu einem einzelnen Player:
 
 * Die Möglichkeit, die Wiedergabekomponenten mithilfe von HTML5 und CSS zu entwerfen.
 * Eingebettete Wiedergabe
@@ -460,7 +460,7 @@ Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.co
 
 ### Viewer-Unterstützung für Web-Seiten mit responsivem Design {#viewer-support-for-responsive-designed-web-pages}
 
-Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite mit einem Link, über den der HTML5-Viewer in einem separaten Browserfenster geöffnet wird. In anderen Fällen ist es erforderlich, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. Im letzteren Fall weist die Web-Seite wahrscheinlich ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die HTML5-Viewer, die mit Adobe Dynamic Media Classic geliefert werden, sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
+Verschiedene Web-Seiten haben unterschiedliche Anforderungen. Manchmal benötigen Sie eine Web-Seite mit einem Link, über den der HTML5-Viewer in einem separaten Browserfenster geöffnet wird. In anderen Fällen ist es erforderlich, den HTML5-Viewer direkt auf der Hosting-Seite einzubetten. In letzterem Fall weist die Web-Seite ein statisches Layout auf. Oder sie ist „responsiv“ und wird auf verschiedenen Geräten oder in verschiedenen Browser-Fenstergrößen unterschiedlich angezeigt. Um diesen Anforderungen gerecht zu werden, unterstützen die HTML5-Viewer, die mit Adobe Dynamic Media Classic geliefert werden, sowohl statische Web-Seiten als auch Web-Seiten mit responsivem Design.
 
 Weitere Informationen zum Einbetten responsiver Viewer auf Webseiten finden Sie unter [Informationen zur Bibliothek responsiver Bilder](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Verwenden der Bibliothek responsiver &#x200B;](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)) und [Befehlsreferenz: Befehlsattribute](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
@@ -472,29 +472,29 @@ Administratoren können die folgenden Arten von Viewer-Vorgaben erstellen und an
 
 * **[!UICONTROL Musterset-Viewer]**: Zeigt ein Bild in einer anderen Farbe, einem anderen Material, einer anderen Textur, einer anderen Oberfläche oder einem anderen Stoff an. Benutzer wählen eine Miniatur aus, um die Varianten im Bild anzuzeigen.
 
-* **[!UICONTROL Viewer für gemischte Mediensets]**: Zeigt verschiedene Medientypen in einem Viewer an. Sie können darin Mustersets, Rotationssets, Bilder und Videos einschließen. Sie können Registerkarten so einrichten, dass sie verschiedene Inhaltstypen enthalten, z. B. eine Registerkarte für Bildsets und eine Registerkarte für Videos. Videos, die von einem gemischten Medienset wiedergegeben werden, verwenden einen standardmäßigen Video-Viewer mit einer Timeline und Video-Steuerelementen wie Stoppen, Pause, Zurückspulen und Abspielen. Beim Einrichten einer Viewer-Vorgabe für gemischte Mediensets geben Sie an, welche Viewer Sie für die verschiedenen Asset-Typen in Ihrem gemischten Medienset verwenden möchten. Sie können auch den Raster-Viewer oder den Karussell-Viewer verwenden, um ein gemischtes Medienset anzuzeigen.
+* **[!UICONTROL Viewer für gemischte Mediensets]**: Zeigt verschiedene Medientypen in einem Viewer an. Sie können darin Mustersets, Rotationssets, Bilder und Videos einschließen. Um verschiedene Inhaltstypen zu enthalten, richten Sie Registerkarten ein, z. B. eine Registerkarte für Bildsets und eine Registerkarte für Videos. Videos, die von einem gemischten Medienset wiedergegeben werden, verwenden einen standardmäßigen Video-Viewer mit einer Timeline und Video-Steuerelementen wie Stoppen, Pause, Zurückspulen und Abspielen. Beim Einrichten einer Viewer-Vorgabe für gemischte Mediensets geben Sie an, welche Viewer Sie für die verschiedenen Asset-Typen in Ihrem gemischten Medienset verwenden möchten. Sie können auch den Raster-Viewer oder den Karussell-Viewer verwenden, um ein gemischtes Medienset anzuzeigen.
 
 * **[!UICONTROL Rotationsset-Viewer]**: Bietet mehrere Ansichten eines Bildes, sodass Benutzende das Objekt drehen können, um die verschiedenen Seiten und Winkel zu untersuchen.
 
 * **Video-Viewer**: Zeigt Videos anhand der Auflösungsabmessungen der Quelldatei oder einer benutzerdefinierten Größe an. Adobe Dynamic Media Classic verfügt über viele vordefinierte Viewer-Vorgaben für die Videowiedergabe. Wenn Sie Administrator sind, können Sie benutzerdefinierte Video-Viewer-Vorgaben erstellen. Es gibt mehr als 12 verschiedene Einstellungen zum Konfigurieren des Video-Viewers. Sie können die folgenden Optionen konfigurieren:
 
-   * Größe
-   * Vordergrund- und Hintergrundfarbe
-   * Video- und Audiosteuerelemente
-   * Fortschrittsbalken
-   * User-Interface Skin
-   * Social-Media-Funktionen
-   * und Hilfe
+  * Größe
+  * Vordergrund- und Hintergrundfarbe
+  * Video- und Audiosteuerelemente
+  * Fortschrittsbalken
+  * User-Interface Skin
+  * Social-Media-Funktionen
+  * und Hilfe
 
 * **[!UICONTROL Zoom-Viewer]**: Bietet eine Auswahl von drei Arten von Zoom-Viewer:
 
 * **[!UICONTROL Zoom-Viewer]**: Ermöglicht Benutzern das Zoomen in den Bereich durch Auswahl. Sie können Steuerelemente auswählen, um ein- und auszuzoomen und das Bild auf die Standardgröße zurückzusetzen.
 
-* **[!UICONTROL Zoom-Viewer:]**-Out: Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
+* **[!UICONTROL Zoom-Viewer:]**-Out: Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Es gibt keine Steuerelemente. Die Benutzer verschieben die Auswahl in den Bereich, den sie anzeigen möchten.
 
 Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer geladen werden müssen. Die Größe des Hauptbildes (Anzeigenbreite und -höhe) und der Zoomfaktor bestimmen die Größe des Flyout-Bildes. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
 
-Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoomfaktor von 3 beträgt, ist das Flyout-Bild 1050 x 1050 Pixel groß. Wenn die Größe des Hauptbildes 300 x 300 Pixel bei einem Zoomfaktor von 4 beträgt, ist das Flyout-Bild 1200 x 1200 Pixel groß. Über die Einstellung für die JPEG-Qualität (empfohlener Wert: zwischen 80 und 90) können Sie die Dateigröße deutlich reduzieren. Der empfohlene Wert für den Zoomfaktor liegt, je nach Größe des Hauptbildes, zwischen 2,5 und 4.
+Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoomfaktor von 3 beträgt, ist das Flyout-Bild 1050 x 1050 Pixel groß. Wenn die Größe des Hauptbildes 300 x 300 Pixel bei einem Zoomfaktor von 4 beträgt, ist das Flyout-Bild 1200 x 1200 Pixel groß. Je nach JPEG-Qualitätseinstellung (empfohlene Einstellungen sind zwischen 80 und 90) verringern Sie die Dateigröße. Der empfohlene Wert für den Zoomfaktor liegt, je nach Größe des Hauptbildes, zwischen 2,5 und 4.
 
 ### Kompatibilitätsmatrix für Adobe Dynamic Media Classic-Viewer-Vorgaben {#scene-viewer-preset-compatibility-matrix}
 
@@ -547,7 +547,7 @@ Siehe [Adobe Viewers-Referenz - Versionshinweise](https://experienceleague.adobe
 
 Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.264-Videos.
 
-* Welche BlackBerry®-Geräte dieses Videoformat unterstützen, können Sie hier einsehen: [Unterstützte Videoformate für BlackBerry®](https://developers.blackberry.com/us/en)
+* Welche BlackBerry®-Geräte dieses Videoformat unterstützen, können Sie hier einsehen: [Unterstützte Videoformate für BlackBerry®](https://www.blackberry.com/en/secure-communications/support/developers)
 * Welche Windows®-Geräte dieses Videoformat unterstützen, können Sie hier einsehen: [Unterstützte Videoformate unter Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet | BlackBerry® Smartphone | Windows® Phone |
@@ -594,8 +594,8 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
 
 * **Viewer-Vorgabeliste filtern**: Verwenden Sie diese Tools, um die Liste zu filtern:
 
-   * Öffnen Sie die **Aktiv/Inaktiv** Dropdown-Liste und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
-   * Öffnen Sie **Dropdown** Liste „Viewer“ und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]** aus, um alle Viewer anzuzeigen.
+  * Öffnen Sie die **Aktiv/Inaktiv** Dropdown-Liste und wählen Sie eine Option aus, um aktive Vorgaben, inaktive Vorgaben oder alle Vorgaben anzuzeigen.
+  * Öffnen Sie **Dropdown** Liste „Viewer“ und wählen Sie eine Option aus, um nur Viewer einer bestimmten Art anzuzeigen. Wählen Sie **[!UICONTROL Alle Viewer]** aus, um alle Viewer anzuzeigen.
 
 * **Sortiervorgaben**: Wählen Sie eine Spaltenüberschrift aus (**[!UICONTROL Aktiv]**, **[!UICONTROL Typ]**, **[!UICONTROL Vorgabe]** oder **[!UICONTROL Plattform]**), um die Liste in einer Spalte zu sortieren. Wählen Sie ein zweites Mal eine Spaltenüberschrift aus, um die Liste in absteigender (oder aufsteigender) Reihenfolge zu sortieren.
 
@@ -609,7 +609,7 @@ Der Anzeigebereich „Viewer-Vorgaben“ umfasst Werkzeuge für die folgenden Au
 
 ### Hinzufügen und Bearbeiten von Viewer-Vorgaben {#adding-and-editing-viewer-presets}
 
-Neben dem Hinzufügen von Viewer-Vorgaben mit **[!UICONTROL Hinzufügen]** in der Benutzeroberfläche können Sie auch **[!UICONTROL Exportieren]** zum Hinzufügen einer Viewer-Vorgabe verwenden. Sie exportieren einfach eine vorhandene HTML5-Viewer-Vorgabe und verwenden diese dann als Grundlage für die neue Vorgabe.
+Neben dem Hinzufügen von Viewer-Vorgaben mit **[!UICONTROL Hinzufügen]** in der Benutzeroberfläche können Sie auch **[!UICONTROL Exportieren]** zum Hinzufügen einer Viewer-Vorgabe verwenden. Sie exportieren eine vorhandene HTML5-Viewer-Vorgabe und verwenden diese dann als Grundlage für die neue Vorgabe.
 
 Siehe [Export von HTML5-Viewer-](application-setup.md#exporting_an_html5_viewer_preset).
 
@@ -649,13 +649,13 @@ Siehe auch [Video &#x200B;](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.
 
 ### Exportieren einer HTML5-Viewer-Vorgabe {#exporting-an-html-viewer-preset}
 
-Sie können eine vorhandene HTML5-Viewer-Vorgabe exportieren und als Grundlage für die Erstellung einer HTML5-Viewer-Vorgabe verwenden. Diese Exportoption ist nützlich, da Sie den Viewer auf diese Weise nicht komplett neu erstellen müssen. Stattdessen exportieren Sie eine Vorgabe mit Einstellungen, die Ihren Anforderungen in etwa entsprechen, und verwenden diese dann als Ausgangspunkt für Ihre Design-Anpassungen.
+Um eine HTML5-Viewer-Vorgabe zu erstellen, exportieren Sie eine vorhandene HTML5-Viewer-Vorgabe, die als Grundlage verwendet werden soll. Diese Exportoption ist nützlich, da Sie den Viewer nicht von Anfang an erstellen müssen. Stattdessen exportieren Sie eine Vorgabe, die dem gewünschten Ergebnis entspricht, und können dies als Grundlage für Design-Anpassungen verwenden.
 
-Alle standardmäßigen vorkonfigurierten CSS-Viewer-Vorgabedateien in Adobe Dynamic Media Classic verwenden relative Bildbereitstellungspfade, die auf Assets in `Scene7SharedAssets` verweisen. Im Folgenden finden Sie beispielsweise einen relativen Pfad zu einem Bild-Asset in einer CSS-Datei mit Viewer-Vorgabe für .
+Alle standardmäßigen CSS-Dateien mit Viewer-Vorgaben in Adobe Dynamic Media Classic verwenden relative Bildbereitstellungspfade, die auf Assets in `Scene7SharedAssets` verweisen. Im Folgenden finden Sie beispielsweise einen relativen Pfad zu einem Bild-Asset in einer CSS-Datei mit Viewer-Vorgabe für .
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diese relativen Bildpfade mithilfe eines expliziten Pfads zum Bild-Server in Ihrer eigenen Umgebung auflösen. Wenn Sie beispielsweise den relativen Pfad oben auf einen expliziten Pfad aktualisiert haben, könnte er wie folgt aussehen, wobei `https://s7d1.scene7.com` der direkte Pfad zu Ihrem Bild-Server ist: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Wenn Sie jedoch Viewer-CSS-Dateien auf Ihrer eigenen Site hosten, müssen Sie diese relativen Bildpfade mithilfe eines expliziten Pfads zum Bild-Server in Ihrer eigenen Umgebung auflösen. Wenn Sie beispielsweise den relativen Pfad oben auf einen expliziten Pfad aktualisiert haben, sieht dies wie folgt aus, wobei `https://s7d1.scene7.com` der direkte Pfad zu Ihrem Bild-Server ist: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **So exportieren Sie eine HTML5-Viewer-Vorgabe:**
 
@@ -796,14 +796,14 @@ Adobe Dynamic Media Classic verfügt über vordefinierte Metadatenansichten und 
 1. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Metadatenansichten]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie eine Ansicht aus, um eine Vorschau davon zu erstellen. Die Felder in der Ansicht werden im Vorschaubedienfeld angezeigt.
+   * Wählen Sie eine Ansicht aus, um eine Vorschau davon zu erstellen. Die Ansichtsfelder werden im Vorschaubereich angezeigt.
    * Um eine Ansicht zu bearbeiten, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Bearbeiten]**. Wählen Sie dann Feldnamen im Bedienfeld „Vorschau“ aus bzw. heben Sie die Auswahl auf und wählen oder deaktivieren Sie die Option **[!UICONTROL UDF einschließen]**.
    * Um eine Ansicht zu löschen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Löschen]**.
    * Um eine Ansicht zum Standard zu machen, wählen Sie sie aus und klicken Sie auf **[!UICONTROL Als Standard festlegen]**. Die Standardansicht ist die Ansicht, die Benutzenden angezeigt wird, wenn sie ein Asset in der Detailansicht öffnen und zum Metadaten-Bedienfeld gehen.
 
 ## Metadaten-Vorgaben {#metadata-presets}
 
-Metadatenvorgaben bieten Admins die Möglichkeit, die Metadaten, die Assets zugewiesen sind, zu steuern und zu regulieren. In der Detailansicht kann ein Benutzer Metadaten zu einem Asset in die für diesen Zweck bereitgestellten Felder eingeben. Ein Benutzer kann beispielsweise einen Eigentümernamen, eine Copyrightbeschreibung und eine Adresse eingeben. Um sicherzustellen, dass Benutzer diese Informationen korrekt und vollständig eingeben, können Sie Metadatenvorgaben erstellen. Durch Auswahl einer Metadatenvorgabe in der Detailansicht werden Metadatenfelder mit vordefinierten Werten gefüllt. So werden beispielsweise der Eigentümername, die Copyrightbeschreibung und die Adresse automatisch eingegeben.
+Metadatenvorgaben bieten Admins die Möglichkeit, die Metadaten, die Assets zugewiesen sind, zu steuern und zu regulieren. In der Detailansicht kann ein Benutzer Metadaten zu einem Asset in die für diesen Zweck bereitgestellten Felder eingeben. Ein Benutzer kann beispielsweise einen Eigentümernamen, eine Copyrightbeschreibung und eine Adresse eingeben. Um sicherzustellen, dass Benutzer diese Informationen korrekt eingeben, können Sie Metadatenvorgaben erstellen. Durch Auswahl einer Metadatenvorgabe in der Detailansicht werden Metadatenfelder mit vordefinierten Werten gefüllt. So werden beispielsweise der Eigentümername, die Copyrightbeschreibung und die Adresse automatisch eingegeben.
 
 Erstellen Sie eine Metadatenvorgabe für jeden Satz von Metadatenwerten, den Benutzerinnen und Benutzer automatisch in die Detailansicht eingeben können sollen, um ein Asset zu beschreiben.
 
@@ -815,7 +815,7 @@ Erstellen Sie eine Metadatenvorgabe für jeden Satz von Metadatenwerten, den Ben
    * Um eine Vorgabe zu erstellen, wählen Sie **[!UICONTROL Hinzufügen]** aus. Geben Sie in das Textfeld Name der Metadatenvorlage einen Namen für die Vorgabe ein. Wählen Sie **[!UICONTROL Metadatenansichten]** und wählen Sie dann eine Ansicht aus der Dropdown-Liste aus (siehe [Metadatenansichten](application-setup.md#metadata_views)).
    * Um eine vorhandene Vorgabe zu bearbeiten, wählen Sie die Vorgabe aus der Liste Metadatenvorgaben aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
-1. Erweitern Sie Überschriften, die Sie in die Vorgabe einbeziehen möchten, und geben Sie Werte in die verschiedenen Felder ein, die Sie in die Vorgabe einbeziehen möchten.
+1. Erweitern Sie Überschriften, um sie in die Voreinstellung aufzunehmen. Geben Sie Werte in die verschiedenen Felder ein, die in die Voreinstellung aufgenommen werden sollen.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
    Die ausgewählten Kategorien und Felder für die Vorgabe werden im Vorschaubedienfeld angezeigt.
@@ -830,13 +830,13 @@ Erstellen Sie eine Metadatenvorgabe für jeden Satz von Metadatenwerten, den Ben
 
 ## Benutzerdefinierte Felder {#user-defined-fields}
 
-Ein Medienportal-Administrator bzw. Unternehmensadministrator kann individuelle, benutzerdefinierte Metadatenfelder erstellen. Benutzerdefinierte Felder können Ihnen beim Organisieren von Assets in Adobe Dynamic Media Classic helfen. Sie können die Felder bei Bedarf als Aktiv markieren. Wenn diese Option aktiviert ist, werden die Namen dieser benutzerdefinierten Metadatenfelder im Bedienfeld „Metadaten“ in der Detailansicht angezeigt. Die Benutzer können Informationen zur Beschreibung der Assets in die benutzerdefinierten Metadatenfelder eingeben. Außerdem können Benutzer ein benutzerdefiniertes Metadatenfeld als Suchkriterium angeben.
+Ein Medienportal-Administrator oder ein Unternehmensadministrator kann benutzerdefinierte, benutzerdefinierte Metadatenfelder erstellen. Benutzerdefinierte Felder können Ihnen beim Organisieren von Assets in Adobe Dynamic Media Classic helfen. Sie können die Felder bei Bedarf als Aktiv markieren. Wenn diese Option aktiviert ist, werden diese benutzerdefinierten Metadatenfeldnamen im Bedienfeld „Metadaten der Detailansicht“ angezeigt. Die Benutzer können Informationen zur Beschreibung der Assets in die benutzerdefinierten Metadatenfelder eingeben. Außerdem können Benutzer ein benutzerdefiniertes Metadatenfeld als Suchkriterium angeben.
 
 Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Aktivierungszeit eines Assets für einen bestimmten Launch oder Ausverkauf zu verzögern. Sie definieren ein Feld „Aktivierung“, basierend auf dem Typ *Datum*. Anschließend können Sie über das **[!UICONTROL Metadaten]**-Bedienfeld in der Detailansicht oder **[!UICONTROL Datei]** > **[!UICONTROL Info bearbeiten]** angeben, wann das Asset aktiviert wird. Adobe Dynamic Media Classic überprüft den Veröffentlichungsstatus eines Assets und den Veröffentlichungsverlauf. Wenn es sich nicht innerhalb der Aktivierungszeit befindet, wird der Veröffentlichungsstatus als „Nicht veröffentlicht“ angezeigt.
 
 >[!NOTE]
 >
->Damit benutzerdefinierte Felder im Metadaten-Bedienfeld in der Detailansicht angezeigt werden, schließen Sie benutzerdefinierte Felder in Metadatenansichten ein. Wählen Sie auf dem Bildschirm Metadatenansichten die Option **[!UICONTROL `Include UDF (user-defined fields)`] aus. Weitere Informationen finden Sie unter [Metadaten-Ansichten](application-setup.md#metadata_views).
+>Damit benutzerdefinierte Felder im Metadatenbereich der Detailansicht angezeigt werden, schließen Sie benutzerdefinierte Felder in Metadatenansichten ein. Wählen Sie auf dem Bildschirm „Metadatenansichten“ die Option **[!UICONTROL `Include UDF (user-defined fields)`]** aus. Weitere Informationen finden Sie unter [Metadaten-Ansichten](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
@@ -870,7 +870,7 @@ Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Ak
 
    * **[!UICONTROL Nicht typisiert]**: Für Abwärtskompatibilität. Wählen Sie diese Option nicht aus.
 
-   * **[!UICONTROL Standardwert]**: Optional. Geben Sie den Wert ein, den Benutzer am ehesten in das Feld eingeben werden. Dieser Wert wird als Standardwert für das neue Feld verwendet.
+   * **[!UICONTROL Standardwert]**: Optional. Geben Sie den Wert ein, den Benutzer am häufigsten in das Feld eingeben. Dieser Wert wird als Standardwert für das neue Feld verwendet.
 
    * **[!UICONTROL Gilt für]**: Optional. Wählen Sie einen Asset-Typ aus, wenn das Metadatenfeld nur auf einen bestimmten Asset-Typ angewendet werden soll.
 
@@ -884,7 +884,7 @@ Eine effektive Nutzung benutzerdefinierter Metadatenfelder besteht darin, die Ak
 
 Im Anzeigebereich „Benutzerdefinierte Felder“ finden Sie Befehle zum Verwalten eigener, benutzerdefinierter Felder.
 
-Benutzerdefinierte Felder können nur von Media Portal-Administratoren und Unternehmensadministratoren verwaltet werden.
+Nur ein Medienportal-Administrator oder ein Unternehmensadministrator kann benutzerdefinierte Felder verwalten.
 
 Wechseln Sie zum Öffnen dieses Bildschirms **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Benutzerdefinierte Felder]**.
 
@@ -909,13 +909,13 @@ Adobe Dynamic Media Classic durchsucht Ihre -Dateien und optimiert nur die Bilde
 
 Verwenden Sie die Stapelsatzvorgaben, um automatisch Bildsets oder Rotationssets zu erstellen, während ein Vorgang ausgeführt wird, um Assets in Adobe Dynamic Media Classic hochzuladen.
 
-Unternehmensadministratoren definieren zunächst Namenskonventionen für die Assets, die sie in einem Satz gruppieren möchten. Anschließend können Sie eine Stapelsatzvorgabe erstellen, um auf diese Bilder zu verweisen. Jede Vorgabe ist ein eindeutig benannter, in sich abgeschlossener Satz von Anweisungen, die definieren, wie der Satz unter Verwendung der Bilder, die den definierten Benennungsregeln im Vorgabenrezept entsprechen, konstruiert werden soll.
+Unternehmensadministratoren definieren zunächst Namenskonventionen für die Assets, die sie in einem Satz gruppieren möchten. Um auf diese Bilder zu verweisen, erstellen Sie eine Stapelsatzvorgabe. Jede Vorgabe ist ein eindeutig benannter, in sich abgeschlossener Satz von Anweisungen. Sie definiert, wie der Satz mit Bildern erstellt wird, die den definierten Namenskonventionen im Vorgabenrezept entsprechen.
 
 Alle aktiven Stapelsatzvorgaben für ein Unternehmen werden im Dialogfeld Upload-Auftragsoption aufgeführt, sodass Sie angeben können, welche Vorgabe bei jeder Upload-Sitzung angewendet werden soll. Unternehmensadministratoren sehen alle aktiven und inaktiven Stapelsatzvorgaben. Beim Hochladen von Dateien erstellt Adobe Dynamic Media Classic automatisch einen Satz mit allen Dateien, die der definierten Namenskonvention in den aktiven Vorgaben entsprechen.
 
 ### Standardbenennung {#default-naming}
 
-Der Unternehmensadministrator erstellt eine Standardnamenskonvention, die in jedem Rezept für Stapelsatzvorgaben verwendet wird. Die in der Definition der Stapelsatzvorgabe ausgewählten Standardnamenskonventionen sind möglicherweise alles, was Ihr Unternehmen benötigt, um Sets für alle Websites im Batch zu generieren. Ein `Batch Set Preset` wird erstellt, um die von Ihnen definierte Standardnamenskonvention zu verwenden. Sie können beliebig viele Stapelsatzvorgaben mit alternativen, benutzerdefinierten Benennungskonventionen erstellen, die für einen bestimmten Satz von Inhalten erforderlich sind, wenn eine Ausnahme von der im Unternehmen definierten Standardbenennung besteht.
+Der Unternehmensadministrator erstellt eine Standardnamenskonvention, die in jedem Rezept für Stapelsatzvorgaben verwendet wird. Die in der Definition der Stapelsatzvorgabe ausgewählten Standardnamenskonventionen sind alle, die Ihr Unternehmen für alle Websites zum Generieren von Sets im Batch benötigt. Ein `Batch Set Preset` wird erstellt, um die von Ihnen definierte Standardnamenskonvention zu verwenden. Sie können beliebig viele Stapelsatzvorgaben mit alternativen, benutzerdefinierten Benennungskonventionen erstellen, die für einen bestimmten Satz von Inhalten erforderlich sind, wenn eine Ausnahme von der im Unternehmen definierten Standardbenennung besteht.
 
 Die Einrichtung einer Standardnamenskonvention ist nicht erforderlich, um die Funktionalität der Stapelsatzvorgaben zu verwenden. Adobe empfiehlt jedoch, eine Standardnamenskonvention zu verwenden, um so viele Elemente Ihrer Namenskonvention zu definieren, wie Sie in einem Satz gruppieren möchten. Dies hilft, die Erstellung von Stapelsätzen zu optimieren.
 
@@ -934,13 +934,13 @@ Die Einrichtung einer Standardnamenskonvention ist nicht erforderlich, um die Fu
 
 Alternativ können Sie „Code anzeigen“ ohne verfügbare Formularfelder verwenden. In dieser Ansicht erstellen Sie Ihre Namenskonventionsdefinitionen vollständig unter Verwendung regulärer Ausdrücke.
 
-Zwei Elemente sind zur Definition verfügbar: Treffer und Grundname. Bei diesen Feldern handelt es sich um alle Elemente, die Sie für eine Namenskonvention definiert haben. Sie können dabei helfen, den Teil der Konvention zu identifizieren, der verwendet wird, um den Satz zu benennen, in dem sie enthalten sind. Die individuelle Namenskonvention eines Unternehmens kann eine oder mehrere Zeilen der Definition für jedes dieser Elemente verwenden. Sie können so viele Zeilen für Ihre eindeutige Definition verwenden und sie in verschiedene Elemente gruppieren, z. B. für Hauptbild, Farbelement, Element der alternativen Ansicht und Farbfeld-Element.
+Zwei Elemente sind zur Definition verfügbar: Treffer und Grundname. Bei diesen Feldern handelt es sich um alle Elemente, die Sie für eine Namenskonvention definiert haben. Sie helfen bei der Identifizierung des Teils der Konvention, der zum Benennen des Sets verwendet wird. Dieses Set enthält sie. Die individuelle Namenskonvention eines Unternehmens verwendet eine oder mehrere Zeilen der Definition für jedes dieser Elemente. Sie können für Ihre eindeutige Definition so viele Zeilen wie nötig verwenden und sie in verschiedene Elemente wie Bild-, Farb- und Ansichtselemente gruppieren.
 
 ### Erstellen einer Stapelsatzvorgabe {#creating-a-batch-set-preset}
 
 Adobe Dynamic Media Classic verwendet Stapelsatzvorgaben zum Organisieren von Assets, die einige allgemeine Informationen oder Inhalte in Bildsets teilen, um sie in Viewern anzuzeigen. Die Rezepte für Stapelsatzvorgaben werden automatisch zusammen mit den Asset-Importvorgängen ausgeführt, die Sie in Adobe Dynamic Media Classic planen.
 
-Verwenden der Stapelsatzvorgabe zum Erstellen, Bearbeiten und Verwalten von Stapelsatzvorgaben. Sie können so viele Vorgaben wie nötig erstellen, um alle erforderlichen Asset-Aufnahmeaufträge abzudecken. Es gibt zwei Formen von Definitionen von Stapelsatzvorgaben: eine für eine von Ihnen eingerichtete Standardnamenskonvention und eine für benutzerdefinierte Namenskonventionen, die Sie spontan erstellen.
+Verwenden der Stapelsatzvorgabe zum Erstellen, Bearbeiten und Verwalten von Stapelsatzvorgaben. Um alle erforderlichen Asset-Aufnahmeaufträge abzudecken, erstellen Sie so viele Voreinstellungen wie nötig. Es gibt zwei Formen von Definitionen für Stapelsatzvorgaben: eine für eine von Ihnen eingerichtete Standardnamenskonvention und eine für benutzerdefinierte Namenskonventionen, die Sie sofort erstellen.
 
 Sie können entweder die Formularfeldmethode verwenden, um eine Stapelsatzvorgabe zu definieren, oder die Codemethode, mit der Sie reguläre Ausdrücke verwenden können. Wie bei **[!UICONTROL Standardbenennung]** können Sie **[!UICONTROL Code-Ansicht]** auswählen, während Sie in der Formularansicht definieren und reguläre Ausdrücke zum Erstellen Ihrer Definitionen verwenden. Alternativ können Sie eine der Ansichten deaktivieren, um ausschließlich die eine oder die andere zu verwenden.
 
@@ -971,7 +971,7 @@ Siehe auch [2D-Rotationsset](https://s7d5.scene7.com/s7viewers/html5/VideoViewer
 
 ### Erstellen einer Stapelsatzvorgabe für die automatische Erstellung eines 2D-Rotations-Sets {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
-Sie können den Stapelsatztyp (**-Achsen-Rotationsset) verwenden** um ein „Rezept“ zu erstellen, das die Erstellung von 2D-Rotationssets automatisiert. Für die Gruppierung von Bildern werden die regulären Ausdrücke „Zeile“ und „Spalte“ verwendet, sodass die Bild-Assets im multidimensionalen Array korrekt an der entsprechenden Position ausgerichtet werden.
+Sie können den Stapelsatztyp (**-Achsen-Rotationsset) verwenden** um ein „Rezept“ zu erstellen, das die Erstellung von 2D-Rotationssets automatisiert. Die Bildgruppierung verwendet reguläre Ausdrücke für Zeilen und Spalten, um Bild-Assets im mehrdimensionalen Array auszurichten.
 
 Siehe auch [Erstellen einer Stapelsatzvorgabe](application-setup.md#creating_a_batch_set_preset).
 
@@ -989,13 +989,13 @@ spin-02-01
 spin-03-12
 ```
 
-Mit diesen Informationen kann Ihr Stapelsatztyp-Rezept wie folgt erstellt werden:
+Mit diesen Informationen wird Ihr Stapelsatztyp-Rezept wie folgt erstellt:
 
 ![Stapelsatzrezept-Bild](assets/se_batch_set_recipe.png)
 
 Die Gruppierung für den Teil des freigegebenen Asset-Namens des Rotationssets wird dem Feld Übereinstimmung hinzugefügt (wie hervorgehoben). Der variable Teil des Asset-Namens, der die Zeile und Spalte enthält, wird den Feldern Zeile bzw. Spalte hinzugefügt.
 
-Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den Namen des Rezepts für das 2D-Rotationsset, der unter **[!UICONTROL Stapelsatzvorgaben)]** Dialogfeld Upload-Auftragsoptionen aufgeführt ist.
+Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den Namen des 2D-Rotationsset-Rezepts, das unter **[!UICONTROL Stapelsatzvorgaben]** im Dialogfeld Upload-Auftragsoptionen aufgeführt ist.
 
 **So erstellen Sie eine Stapelsatzvorgabe für die automatische Erstellung eines 2D-Rotations-Sets:**
 
@@ -1007,7 +1007,7 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
 1. Erweitern Sie **[!UICONTROL Asset-Benennungskonventionen]** und klicken Sie in der Dropdown-Liste „Dateibenennung“ auf **[!UICONTROL Benutzerdefiniert]**.
 1. Verwenden Sie die Attribute **[!UICONTROL Entspricht]** und optional **[!UICONTROL Grundname]**, um einen regulären Ausdruck für die Benennung der Bild-Assets zu definieren, aus denen die Gruppierung besteht.
 
-   Ein regulärer Ausdruck für eine wörtliche Übereinstimmung könnte beispielsweise wie folgt aussehen:
+   Der reguläre Ausdruck für eine wörtliche Übereinstimmung sieht beispielsweise wie folgt aus:
 
    `(\w+)-\w+-\w+`
 
@@ -1015,7 +1015,7 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
 
    Setzen Sie die Zeilen- oder Spaltenposition im Dateinamen in Klammern.
 
-   Der reguläre Ausdruck Ihrer Zeile könnte beispielsweise wie folgt aussehen:
+   Der reguläre Ausdruck Ihrer Zeile sieht beispielsweise wie folgt aus:
 
    `\w+-R([0-9]+)-\w+`
 
@@ -1023,7 +1023,7 @@ Wenn das Rotationsset hochgeladen und veröffentlicht wird, aktivieren Sie den N
 
    `\w+-(\d+)-\w+`
 
-   Der reguläre Ausdruck für die Spalte könnte wie folgt aussehen:
+   Der reguläre Ausdruck für die Spalte sieht wie folgt aus:
 
    `\w+-\w+-C([0-9]+)`
 

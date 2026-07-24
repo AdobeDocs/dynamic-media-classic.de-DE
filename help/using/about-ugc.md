@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
 workflow-type: tm+mt
-source-wordcount: 179
-ht-degree: 33%
+source-wordcount: 173
+ht-degree: 29%
 
 ---
 
 # Über benutzergenerierte Inhalte in Adobe Dynamic Media Classic {#about-user-generated-content}
 
-Die Verwendung von benutzergenerierten Inhalten (UGC) besteht aus dem Hochladen von Assets in ein dediziertes Adobe Dynamic Media Classic-Speicher-Repository und dem Ausführen zugehöriger Vorgänge.
+Bei der benutzergenerierten Inhalte (UGC) werden Assets in ein dediziertes [!DNL Adobe Dynamic Media Classic]-Speicher-Repository hochgeladen und die zugehörigen Vorgänge ausgeführt.
 
 UGC unterstützt Rasterbilddateiformate BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
 >
->Ab dem 1. Mai 2023 stehen UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads zur Verwendung zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
+>Ab dem 1. Mai 2023 bleiben UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads verfügbar. Nach 60 Tagen werden die Assets entfernt.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
@@ -43,7 +43,7 @@ UGC unterstützt Rasterbilddateiformate BMP, GIF, JPG, PNG, PSD, TIFF.
 >
 >Die Unterstützung für neue oder vorhandene UGC-Vektorbild-Assets in Adobe Dynamic Media Classic endete am 30. September 2021.
 
-Sie erhalten einen gemeinsamen geheimen Schlüssel, bevor Sie Assets hochladen. Verwenden Sie diesen Schlüssel, um ein Upload-Token abzurufen. Sie senden das Upload-Token, wenn Sie Assets hochladen und andere Aufgaben für benutzergenerierte Inhalte ausführen.
+Vor dem Hochladen von Assets müssen Sie einen Schlüssel mit einem gemeinsamen geheimen Schlüssel erhalten. Verwenden Sie diesen Schlüssel, um ein Upload-Token abzurufen. Sie senden das Upload-Token, wenn Sie Assets hochladen und andere Aufgaben für benutzergenerierte Inhalte ausführen.
 
 Wenn Sie einen gemeinsamen geheimen Schlüssel und ein Upload-Token erhalten haben, können Sie die folgenden Vorgänge für benutzergenerierte Inhalte ausführen:
 

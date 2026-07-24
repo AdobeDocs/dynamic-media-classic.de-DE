@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a41ad4865cfa5692ed38c030b45fbb579ce2b3f9
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 22%
+source-wordcount: 609
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,7 @@ Siehe [Hinzufügen oder Bearbeiten einer Video-Viewer](previewing-videos-video-v
 
 Siehe auch [Hinzufügen und Bearbeiten von Viewer-Vorgaben](application-setup.md#adding_and_editing_viewer_presets).
 
-Das Erstellen einer Kapitelliste für ein Video ist mit dem Erstellen von Untertiteln vergleichbar. Das heißt, Sie müssen eine WebVTT-Datei erstellen. Beachten Sie jedoch, dass diese Datei getrennt von der WebVTT-Untertiteldatei erstellt werden muss. Untertitel und Kapitel dürfen nicht in derselben WebVTT-Datei enthalten sein.
+Das Erstellen einer Kapitelliste für ein Video ist mit dem Erstellen von Untertiteln vergleichbar. Das heißt, Sie müssen eine WebVTT-Datei erstellen. Beachten Sie jedoch, dass diese Datei getrennt von der verwendeten WebVTT-Untertiteldatei erstellt werden muss. Untertitel und Kapitel dürfen nicht in einer WebVTT-Datei kombiniert werden.
 
 Sie können die WebVTT-Datei für die Kapitelnavigation nach folgendem Beispiel erstellen:
 
@@ -57,7 +57,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-Im obigen Beispiel ist `Chapter 1` die Cue-Point-Kennung. Diese ist optional. Die Cue-Point-Zeit `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels im Format 00:00:000 an. Die letzten drei Ziffern geben die Millisekunden an und können auf „000“ belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die eigentliche Beschreibung des Kapitelinhalts. Die Cue-Point-Kennung, die Cue-Point-Startzeit und der Kapiteltitel werden im Video-Player in einem Popup-Fenster angezeigt, wenn der Mauszeiger über einen visuellen Cue-Point in der Video-Zeitleiste bewegt wird.
+Im obigen Beispiel ist `Chapter 1` die Cue-Point-Kennung. Diese ist optional. Die Cue-Point-Zeit `00:00:000 --> 01:04:364` gibt die Start- und Endzeit des Kapitels im Format 00:00:000 an. Die letzten drei Ziffern geben die Millisekunden an und können bei 000 belassen werden. Der Kapiteltitel von `The bicycle store behind it all` ist die Beschreibung des Kapitelinhalts. Die Cue-Point-Kennung, die Cue-Point-Startzeit und der Kapiteltitel werden im Video-Player in einem Popup-Fenster angezeigt, wenn der Mauszeiger über einen visuellen Cue-Point auf der Video-Zeitleiste bewegt wird.
 
 Da Sie einen HTML5-Video-Viewer verwenden, stellen Sie sicher, dass die erstellte Kapiteldatei dem WebVTT (Web Video Text Tracks)-Standard folgt. Die Erweiterung des Kapiteldateinamens ist `.VTT`. Weitere Informationen zum WebVTT-Untertitelstandard
 
@@ -73,7 +73,7 @@ Siehe [WebVTT: The Web Video Text Tracks format](https://w3c.github.io/webvtt/).
 
 1. Speichern Sie die VTT-Datei mit UTF-8-Kodierung, um Problemen mit der Zeichendarstellung im Text der Kapiteltitel vorzubeugen.
 
-   Im Allgemeinen sollte die Kapitel-VTT-Datei denselben Namen haben wie die Videodatei, an den jedoch `chapters` angehängt wird. Auf diese Weise können Sie die Generierung der Video-URLs mit Ihrem vorhandenen Web-Content-Management-System automatisieren.
+   Benennen Sie die Kapitel-VTT-Datei genauso wie die Videodatei und hängen Sie sie mit `_chapters` an. Auf diese Weise können Sie die Generierung der Video-URLs mit Ihrem vorhandenen Web-Content-Management-System automatisieren.
 
 1. Laden Sie in Adobe Dynamic Media Classic Ihre WebVTT-Kapiteldatei hoch.
 
@@ -81,7 +81,7 @@ Siehe [WebVTT: The Web Video Text Tracks format](https://w3c.github.io/webvtt/).
 
 1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zum Asset-Ordner, der die Videodatei enthält, die mit der hochgeladenen Kapiteldatei verknüpft werden soll.
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets ein einzelnes Video-Asset und dann unter dem Miniaturbild des Assets die Option **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
-1. Suchen Sie in der Tabelle „Viewer-Liste“ den HTML5-Viewer mit dem Namen **Universal_HTML5_Video** und führen Sie einen der folgenden Schritte aus:
+1. Suchen Sie in der Viewer-Listentabelle den HTML5-Viewer **Universal_HTML5_Video** und führen Sie einen der folgenden Schritte aus:
 
    * Um das Video in einem Popup-Fenster anzuzeigen, wählen **[!UICONTROL ganz rechts neben dem Namen]** URL kopieren“ aus.
 
