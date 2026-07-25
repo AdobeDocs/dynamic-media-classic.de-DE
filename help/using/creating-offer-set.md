@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: e0b8668dab1b4f3f936d22642deb9a2519455703
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: 1287
 ht-degree: 21%
 
 ---
@@ -46,11 +46,11 @@ Adobe Dynamic Media Classic bietet Tools zum Bearbeiten und Erstellen von Angebo
 
 ## Typen von Angebots-Sets {#types-of-offer-sets}
 
-Erstellen Sie ein Angebotsset aus den folgenden Arten von Angebotssets:
+Wählen Sie ein Angebotsset aus den folgenden Arten von Angebotssets aus:
 
 * **Bilder**: Sie können Bilder für ein Angebotsset zusammenstellen. Jedes Bild enthält ein anderes Angebot im Set.
 
-* **Bildvorlage**: Sie können Bildvorlagen in Adobe Dynamic Media Classic mit dem Befehl **[!UICONTROL Erstellen]** > Vorlagengrundlagen parametrisieren. Durch Parameter können Komponenten der Vorlage, der Text in Textrahmen und die verschiedenen Bilder ausgetauscht und angepasst werden. Für ein Angebotsset können Sie beispielsweise mithilfe von Vorlagenparametern Varianten desselben Bildes in Ihrem Angebotsset erstellen. Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter [Erstellen von Vorlagenparametern](creating-template-parameters.md#creating_template_parameters).
+* **Bildvorlage**: Sie können Bildvorlagen in Adobe Dynamic Media Classic mit dem Befehl **[!UICONTROL Erstellen]** > Vorlagengrundlagen parametrisieren. Durch Parameter können Komponenten der Vorlage, der Text in Textrahmen und die verschiedenen Bilder ersetzt und angepasst werden. Für ein Angebotsset können Sie Vorlagenparameter verwenden, um Varianten desselben Bildes in Ihrem Angebotsset zu erstellen. Informationen zum Erstellen und Parametrisieren von Bildvorlagen finden Sie unter [Erstellen von Vorlagenparametern](creating-template-parameters.md#creating_template_parameters).
 
 Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
 
@@ -72,14 +72,14 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wählen Sie die Vorlage oder das Banner aus.
 1. Navigieren Sie **[!UICONTROL Erstellen]** > **[!UICONTROL Test&amp;Target-]**.
 
-   Auf der Seite „Test&amp;Target-Angebotssatz“ werden Angebote im Angebotssatz aufgelistet. Das erste Element in der Liste ist das Objekt.
+   Auf der Seite „Test&amp;Target-Angebotssatz“ werden Angebote im Angebotssatz aufgelistet. Das erste Element auf der Liste ist das primäre Asset.
 
 1. Wählen Sie das -Objekt aus und wählen **[!UICONTROL Hinzufügen und Vorschau]**.
 
    Links auf dieser Seite sind die Parameter in der Vorlage mit ihren Werten aufgelistet.
 
-1. Ändern Sie die Parameterwerte, um das Angebot zu erstellen. Geben Sie beispielsweise einen anderen Text in ein Textfeld ein, ändern Sie die Größe einer Ebene, tauschen Sie ein Bild durch ein anderes aus oder wählen Sie eine andere Viewer-Vorgabe aus.
-1. Wählen Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter**]**, um das Angebot als Teil des Angebotssatzes zu speichern.
+1. Ändern Sie die Parameterwerte, um das Angebot zu erstellen. Bearbeiten Sie beispielsweise Text, ändern Sie die Größe von Ebenen, tauschen Sie Bilder aus oder wählen Sie Vorgaben aus.
+1. Wählen Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern unter]**, um das Angebot als Teil des Angebotssatzes zu speichern.
 
    Auf der Seite „Test&amp;Target-Angebotsset“ werden die von Ihnen erstellten Angebote aufgelistet.
 
@@ -87,7 +87,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Stellen Sie nach Abschluss des Vorgangs in der unteren rechten Ecke der Seite sicher, dass **[!UICONTROL Veröffentlichen nach dem Speichern*]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Schließen]**, geben Sie einen Namen für das Angebotsset ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
-Bevor Sie die Seite „Test&amp;Target-Angebotssatz“ schließen, übertragen Sie das Angebotssatz auf Adobe Target Standard/Premium. Siehe [Pushen von Angebotssätzen an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Bevor Sie die Seite „Test&amp;Target-Angebotssatz“ schließen, senden Sie das Angebotssatz an Adobe Target Standard/Premium. Informationen zum Senden von Angebotssätzen an Test&amp;Target finden Sie unter [Pushen von Angebotssätzen an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Erstellen eines Angebotssets mit Bildern oder Videos {#creating-an-offer-set-with-images-or-videos}
 
@@ -111,14 +111,14 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 1. Wählen Sie optional ein Bild oder Video aus und klicken Sie auf **[!UICONTROL Vorschau]**. Auf der Seite Angebotsvorschau können Sie die Größe und das Erscheinungsbild des ausgewählten Bildes oder Videos ändern. Sie können auch alle Bilder oder Videos im Angebotsset ändern.
 
    * Wählen Sie eine Vorlage aus, um Ansicht und Größe des Bildes oder Videos zu verändern.
-   * Aktivieren Sie das Kontrollkästchen **`Select Presets to All`** , um die ausgewählte Voreinstellung auf alle Angebote im Angebotsset anzuwenden.
+   * Aktivieren Sie das Kontrollkästchen **`Apply Presets to All`** , um die ausgewählte Voreinstellung auf alle Angebote im Angebotsset anzuwenden.
 
    Klicken Sie **[!UICONTROL Speichern]**, um Ihre Änderungen am Bild- oder Videoangebot zu speichern. Wählen Sie anschließend **[!UICONTROL Schließen]**, um zur Seite „Test&amp;Target-Angebotssatz“ zurückzukehren.
 
 1. Nachdem Sie die Erstellung der Angebote für das Angebotsset abgeschlossen und Bildvorgaben für verschiedene Bilder ausgewählt haben, stellen Sie sicher, dass **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
 1. Wählen Sie **[!UICONTROL Speichern]**, geben Sie einen Namen für das Angebotsset ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
-Pushen Sie vor dem Schließen der Seite „Test&amp;Target-Angebotssatz“ das Angebotssatz auf Adobe Target Standard/Premium. Siehe [Pushen von Angebotssätzen an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Senden Sie vor dem Schließen der Seite „Test&amp;Target-Angebotssatz“ das Angebotssatz an Adobe Target Standard/Premium. Informationen zum Übertragen von Angebotssätzen an Test&amp;Target finden Sie unter [Übertragen von Angebotssätzen an Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Bearbeiten von Angebotssets {#editing-an-offer-set}
 
@@ -140,8 +140,8 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
    * **Entfernen eines Angebots**: Wählen Sie das Angebot aus und klicken Sie dann auf **[!UICONTROL Löschen]**, um ein Angebot aus dem Set zu entfernen.
    * **Hinzufügen eines Angebots**: Wie Sie ein Angebot hinzufügen, hängt vom Typ des Angebotssatzes ab, mit dem Sie arbeiten:
-      * **Vorlagen**: Wählen Sie **[!UICONTROL Hinzufügen und Vorschau]** aus und erstellen Sie auf der Seite „Hinzufügen und Vorschau von Angeboten“ ein weiteres Angebot.
-      * **Bilder und Videos**: Ziehen Sie ein Bild oder Video auf die Seite „Test&amp;Target-Angebotssatz“.
+     * **Vorlagen**: Wählen Sie **[!UICONTROL Hinzufügen und Vorschau]** aus und erstellen Sie auf der Seite „Hinzufügen und Vorschau von Angeboten“ ein weiteres Angebot.
+     * **Bilder und Videos**: Ziehen Sie ein Bild oder Video auf die Seite „Test&amp;Target-Angebotssatz“.
 
    >[!NOTE]
    >
@@ -152,14 +152,14 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Löschen von Angebotssets {#delet-an-offer-set}
 
-Wenn Sie ein Angebotsset löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
+Wenn Sie ein Angebotsset löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder innerhalb dieses Sets sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 **So löschen Sie ein Angebotsset:**
 
 1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Angebotssets aus.
-1. Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **Löschen**.
+1. Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]**.
 
 >[!MORELIKETHIS]
 >

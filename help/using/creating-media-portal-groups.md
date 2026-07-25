@@ -21,26 +21,26 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: b83425ec5382ae173947fa0c9321e734f14eaced
 workflow-type: tm+mt
-source-wordcount: 841
-ht-degree: 49%
+source-wordcount: 843
+ht-degree: 39%
 
 ---
 
 # Erstellen und Verwalten von Medienportalgruppen{#creating-and-managing-media-portal-groups}
 
-Mithilfe von *Gruppen* können Sie die Media Portal-Benutzer leichter verwalten. Um auf ein Asset zugreifen zu können, muss ein Benutzer Mitglied mindestens einer Gruppe mit den erforderlichen Berechtigungen für dieses Asset sein. Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine oder mehrere Rollen zu. Auf diese Weise gewähren Sie dem Benutzer Zugriff auf Ordner, denen die Gruppe zugewiesen wurde. Sie können auch angeben, welche Bildvorgaben einer Gruppe zur Verfügung stehen.
+Gruppen unterstützen Sie bei der Verwaltung von Medienportal-Benutzern. Um auf ein Asset zugreifen zu können, muss ein Benutzer Mitglied mindestens einer Gruppe mit den erforderlichen Berechtigungen für dieses Asset sein. Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine oder mehrere Rollen zu. Auf diese Weise gewähren Sie dem Benutzer Zugriff auf Ordner, denen die Gruppe zugewiesen wurde. Sie können auch angeben, welche Bildvorgaben einer Gruppe zur Verfügung stehen.
 
 ## Verwenden von Gruppen, um den Zugriff auf Ordner, Assets und Bildvorgaben einzuschränken {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
-Wenn Sie Gruppen erstellen, können Sie Zugriffsrechte auf unterschiedlichen Ebenen gewähren. Für jede Gruppe weisen Sie Lese-, Schreib- und Löschberechtigungen für unterschiedliche Ordner und Assets in den Ordnern zu. Außerdem legen Sie fest, welche Bildvorgaben der Gruppe zur Verfügung stehen. Anschließend weisen Sie Benutzer den Gruppen zu. Ein Benutzer kann Mitglied mehrerer Gruppen sein. Durch das Gruppenkonzept können Sie flexibel Zugriffsrechte für einen Teil des Gesamtinhalts zuweisen.
+Wenn Sie Gruppen erstellen, können Sie Zugriffsrechte auf unterschiedlichen Ebenen gewähren. Für jede Gruppe weisen Sie Lese-, Schreib- und Löschberechtigungen für unterschiedliche Ordner und Assets in den Ordnern zu. Außerdem können Sie festlegen, welche Bildvorgaben für die Gruppe verfügbar sein sollen. Anschließend weisen Sie Benutzer den Gruppen zu. Ein Benutzer kann Mitglied mehrerer Gruppen sein. Die Gruppenfunktion bietet die Flexibilität, den Zugriff auf begrenzte Mengen des gesamten Inhalts zuzuweisen.
 
-Wenn Sie ausdrücklich keine Gruppenberechtigung für ein Asset oder einen Ordner erben, erbt das Asset oder der Ordner die Berechtigungen, die Sie dem übergeordneten Ordner zugewiesen haben (dem Ordner in der Ordnerhierarchie, der sich darüber befindet). Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte für sämtliche darin enthaltenen Ordner übernommen.
+Wenn Sie ausdrücklich keine Gruppenberechtigung für ein Asset oder einen Ordner erben, erbt das Asset oder der Ordner die Berechtigungen, die Sie dem übergeordneten Ordner zugewiesen haben (dem Ordner in der Ordnerhierarchie, der sich darüber befindet). Gewähren von Berechtigungen für einen übergeordneten Ordner. Verwenden Sie diese Option, wenn Sie sicherstellen möchten, dass alle untergeordneten Ordner dieselben Berechtigungen erben.
 
 >[!NOTE]
 >
->Benutzer können mehreren Gruppen angehören. Wenn ein Benutzer zwei Gruppen mit unterschiedlichen Zugriffsrechten für einen Ordner angehört, werden jeweils die höchsten Zugriffsrechte angewendet.
+>Benutzer können mehreren Gruppen angehören. Wenn ein Benutzer zwei Gruppen mit unterschiedlichen Zugriffsberechtigungen für einen Ordner angehört, erhält er den Zugriff mit den höchsten Berechtigungen.
 
 ## Hinzufügen einer Gruppe {#adding-a-group}
 
@@ -52,7 +52,7 @@ Wenn Sie ausdrücklich keine Gruppenberechtigung für ein Asset oder einen Ordne
 
    Siehe [Einrichten von Asset-Zugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Sie können auswählen, welche Bildvorgaben der Gruppe zur Verfügung stehen sollen. Klicken Sie einfach auf **[!UICONTROL Registerkarte &quot;]**&quot; und wählen Sie die Bildvorgaben aus, die die Gruppe verwenden kann.
+1. Sie können auswählen, welche Bildvorgaben der Gruppe zur Verfügung stehen sollen. Klicken Sie auf **[!UICONTROL Bildvorgabe - Zugriffsberechtigungen]** und wählen Sie die Bildvorgaben aus, die die Gruppe verwenden kann.
 
    Siehe [Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -67,7 +67,7 @@ Wenn Sie ausdrücklich keine Gruppenberechtigung für ein Asset oder einen Ordne
    * Um die Berechtigungen einer Gruppe zu bearbeiten, wählen Sie die Gruppe aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
 1. Wählen Sie im Dialogfeld Gruppe hinzufügen oder Gruppe bearbeiten die Registerkarte **[!UICONTROL Asset-Zugriffsberechtigungen]** aus. Über die Kontrollkästchen auf der rechten Seite der Registerkarte können Sie Rechte zum Lesen, Schreiben und Löschen für Ordner und Assets festlegen. Im linken Fensterbereich können Sie Ordner und Unterordner erweitern und minimieren.
-1. Um Ordnern oder einzelnen Assets Rechte zuzuweisen, wählen Sie den Ordner im linken Fensterbereich aus. Der Inhalt des Ordners wird im rechten Fensterbereich angezeigt. Weisen Sie dann Rechte für die Gruppe zu, indem Sie die Kästchen für die entsprechenden Dateien auswählen. Oder durch Auswahl der Ordner im rechten Bereich.
+1. Um Ordnern oder einzelnen Assets Rechte zuzuweisen, wählen Sie den Ordner im linken Fensterbereich aus. Der Inhalt des Ordners wird im rechten Fensterbereich angezeigt. Weisen Sie dann Rechte für die Gruppe zu, indem Sie die Kästchen für die entsprechenden Dateien auswählen. Oder wählen Sie die Ordner im rechten Bereich aus.
 
    In dieser Tabelle werden verschiedenen Aufgaben Berechtigungen zum Lesen, Schreiben und Löschen zugewiesen.
 
@@ -84,11 +84,11 @@ Wenn Sie ausdrücklich keine Gruppenberechtigung für ein Asset oder einen Ordne
 
 >[!NOTE]
 >
->Zugriffsrechte werden eingerichtet, wenn Sie ein Kästchen aktivieren. Wenn Sie einem Ordner Rechte zugewiesen haben, erhalten seine Unterordner und alle darin enthaltenen Dateien dieselben Rechte wie der übergeordnete Ordner. Sie können jedoch auch abweichende Rechte für einzelne Unterordner und Asset-Dateien festlegen.
+>Zugriffsrechte werden eingerichtet, wenn Sie ein Kästchen aktivieren. Wenn Sie einem Ordner Rechte zuweisen, werden dieselben Rechte auch den darin enthaltenen Ordner und Dateien zugewiesen. Sie können jedoch auch abweichende Rechte für einzelne Unterordner und Asset-Dateien festlegen.
 
 ## Auswählen der Bildvorgabezugriffsberechtigungen für eine Gruppe
 
-Wählen Sie Bildvorgabezugriffsberechtigungen für eine Gruppe, wenn Sie festlegen möchten, welche Bildvorgaben den Gruppenmitgliedern beim Exportieren von Assets mit dem Media Portal zur Verfügung stehen sollen.
+Wählen Sie Bildvorgabe-Zugriffsberechtigungen für eine Gruppe aus. Verwenden Sie diese Option, um festzulegen, welche Bildvorgaben für Gruppenmitglieder verfügbar sind. Verwenden Sie diese Option, wenn Assets mit Media Portal exportiert werden.
 
 Siehe auch [Angeben der für Media Portal-Benutzer verfügbaren Exportoptionen](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 

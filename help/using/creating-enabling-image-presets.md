@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: da232d1762d4bb21788ab094ea56d715a58c27d2
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 47%
+source-wordcount: 260
+ht-degree: 46%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 47%
 
 Wenn Benutzer Bildassets aus Media Portal exportieren, können sie im Dialogfeld „Ausgewählte Assets exportieren“ eine Bildvorgabe auswählen. Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen können die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern.
 
-Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Bildvorgaben formatieren Bilder entsprechend den Spezifikationen Ihres Unternehmens, wenn Benutzende Bilder aus Adobe Dynamic Media Classic exportieren. Benutzer müssen Bilder also nicht selbst neu formatieren, sondern können sie entsprechend den präzisen Einstellungen einer Bildvorgabe exportieren.
+Mit Bildvorgaben können Media Portal-Administratoren kontrollieren, wie Bilder beim Exportieren umformatiert werden. Bildvorgaben formatieren Bilder entsprechend den Unternehmensvorgaben, wenn Benutzende Bilder aus Adobe Dynamic Media Classic exportieren. Anstatt Bilder manuell neu zu formatieren, exportieren Benutzer sie entsprechend den genauen Spezifikationen einer Bildvorgabe.
 
 Die folgenden Einschränkungen gelten, wenn Sie Bild-Assets exportieren:
 
 * Die Breite × Höhe muss kleiner oder gleich 100 MB pro Bild sein. Das Bild darf beispielsweise 10 K × 10 K nicht überschreiten, und es sind auch keine Bildunterschiede wie 8 K × 12 K zulässig.
-* Pro Exportvorgang ist maximal 1-GB Gesamtdateigröße vorhanden.
+* Die Gesamtdateigröße pro Exportauftrag beträgt maximal 1 GB.
 * Sie können maximal 500 Assets pro Exportauftrag haben.
 
 >[!NOTE]
