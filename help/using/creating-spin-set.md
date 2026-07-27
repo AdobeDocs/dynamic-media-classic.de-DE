@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:44:09.641Z'
 TQID: 'https://experienceleague.adobe.com/6kiNojlrrS6EiS-7Mp5SvtSMag1k4Hu0EwOr4BmyJfY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 88c777a6a66189fca8090b33ea9001536e0d78bc
 workflow-type: tm+mt
 source-wordcount: 976
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -35,17 +32,17 @@ Um ein effektives Rotationsset erstellen zu können, müssen Sie darauf achten, 
 
 ## Richtlinien für das Aufnehmen von Rotationsset-Bildern {#guidelines-for-shooting-spin-set-images}
 
-Im Allgemeinen gilt: Je mehr Bilder Sie in einem Rotationsset haben, desto besser ist der Effekt des Bilddrehens. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Adobe Dynamic Media Classic empfiehlt die folgenden Richtlinien für die Aufnahme von Bildern zur Verwendung in Rotationssets:
+Je mehr Bilder Sie in einem Rotationsset haben, desto höher ist die Qualität des Bilddreheffekts. Eine höhere Anzahl von Rotationsset-Bildern bringt jedoch auch eine längere Ladezeit für die Bilder mit sich. Adobe Dynamic Media Classic empfiehlt die folgenden Richtlinien für die Aufnahme von Bildern zur Verwendung in Rotationssets:
 
 * Verwenden Sie mindestens 8 bis 12 Bilder in einem eindimensionalen Rotationsset und 16 bis 24 Bilder in einem zweidimensionalen Rotationsset.
 * Verwenden Sie ein verlustfreies Format. Zu empfehlen sind die Formate TIFF und PNG.
 * Maskieren Sie alle Bilder, so dass das Objekt vor einem reinweißen oder anderen kontrastreichen Hintergrund erscheint. Fügen Sie nach Wunsch Schatten hinzu.
-* Vergewissern Sie sich, dass die Produktdetails gut ausgeleuchtet und fokussiert sind.
-* Nehmen Sie Bilder für Modekleidung mit einer Gliederpuppe oder einem Model auf. Oft wird die Schaufensterpuppe entweder maskiert (mit einer Schaufensterpuppe aus Glas) oder es wird eine stilisierte Schaufensterpuppe im Bild gezeigt. Sie können ein Modell-Rotationsset erstellen, indem Sie die Anzahl der Winkel definieren. Markieren Sie jeden Winkel mit Klebeband auf dem Boden, damit Sie das Modell zum Schritt führen und in die Richtung jeder Aufnahme schauen können.
+* Stellen Sie sicher, dass die Produktdetails gut beleuchtet und scharfgestellt sind.
+* Nehmen Sie Bilder für Modekleidung mit einer Gliederpuppe oder einem Model auf. Oft wird die Schaufensterpuppe entweder maskiert (mit einer Schaufensterpuppe aus Glas) oder es wird eine stilisierte Schaufensterpuppe im Bild gezeigt. Sie können ein Modell-Rotationsset erstellen, indem Sie die Anzahl der Winkel definieren. Markieren Sie jeden Winkel auf dem Boden, damit Sie das Modell so führen können, dass es sich selbst positioniert und in die Richtung jeder Aufnahme schaut.
 
 ## Erstellen eines Rotationssets {#create}
 
-Die Reihenfolge, in der das Rotationsset in Adobe Dynamic Media Classic erstellt oder verfasst wird, ist wichtig. Je nachdem, wie Sie die Assets anordnen, wenn Sie Bilder per Drag-and-Drop in das Raster auf der Seite mit dem Rotationsset ziehen, dreht sich das Rotationsset in eine bestimmte Richtung. Daher wird das Asset in der Reihenfolge, in der es im Builder visuell angezeigt wird, so gedreht, wie es gedreht wird, wenn ein Benutzer den Mauszeiger oder seinen Finger von links nach rechts bewegt.
+Die Reihenfolge, in der das Rotationsset in Adobe Dynamic Media Classic erstellt oder verfasst wird, ist wichtig. Je nachdem, wie Sie die Assets anordnen, wenn Sie Bilder per Drag-and-Drop in das Raster auf der Seite mit dem Rotationsset ziehen, dreht sich das Rotationsset in eine bestimmte Richtung. Daher bestimmt die Reihenfolge, in der sie im Builder visuell angezeigt wird, wie das Asset gedreht wird, wenn Benutzende den Mauszeiger oder ihren Finger von links nach rechts bewegen.
 
 Wenn Sie einen Satz erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Satzes und des Satzes wie folgt aus:
 
