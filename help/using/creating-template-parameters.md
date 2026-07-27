@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Vorlagenparametern
+title: Vorlagenparameter erstellen
 description: Erfahren Sie, wie Sie Vorlagenparameter in Adobe Dynamic Media Classic erstellen.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,35 +12,31 @@ topic: Development
 level: Experienced
 autotag-review: '2026-05-13T18:18:48.978Z'
 TQID: 'https://experienceleague.adobe.com/OER2DJaRg4M20aJ1hlimXCf-yAqBrr27un4ZCPov4GA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 6e5910c1120d980bd60343c7e6feb76bbd8e289a
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 42%
+source-wordcount: 829
+ht-degree: 29%
 
 ---
 
 # Erstellen von Vorlagenparametern{#creating-template-parameters}
 
-Parameter ermöglichen es Ihnen, Vorlagen mit maximaler Flexibilität zu verwenden. Sie ermöglichen die dynamische Anpassung eines Vorlagenbilds. Sie können festlegen, welche Text- und Bildebenen in das Vorlagenbild eingefügt und welche Parameter für die einzelnen Ebenen angezeigt werden sollen. Um beispielsweise die Aufmerksamkeit auf ein Produkt zu lenken, das im Angebot ist, können Sie eine Textebene „Bei Verkauf“ erstellen. Später können Sie diese Ebene entfernen, das übrige Vorlagenbild jedoch beibehalten, indem Sie nur den Parameter „Ausverkauf“ entfernen.
+Parameter ermöglichen es Ihnen, Vorlagen mit maximaler Flexibilität zu verwenden. Sie ermöglichen die dynamische Anpassung eines Vorlagenbilds. Sie können festlegen, welche Text- und Bildebenen in das Vorlagenbild eingefügt und welche Parameter für die einzelnen Ebenen angezeigt werden sollen. Um beispielsweise ein Produkt hervorzuheben, das im Angebot ist, können Sie eine Textebene „Bei Verkauf“ erstellen. Später können Sie diese Ebene entfernen, das übrige Vorlagenbild jedoch beibehalten, indem Sie nur den Parameter „Ausverkauf“ entfernen.
 
-Beim Erstellen von Vorlagenparametern legen Sie im Endeffekt fest, welche Teile der Vorlage in einer URL-Zeichenfolge aufgerufen werden. Das Einfügen bestimmter Parameter in eine URL-Zeichenfolge bewirkt, dass die den Parametern zugeordneten Elemente angezeigt werden. Mithilfe der Parameter können Sie also dynamisch beeinflussen, wie das vom Image-Server erstellte Vorlagenbild aussehen wird, und daraus benutzerdefinierte Ergebnisse erzeugen. Auf diese Weise können Sie eine Vorlage dynamisch ändern, indem Sie einige oder alle Parameter über die URL aufrufen.
+Wenn Sie Vorlagenparameter erstellen, deklarieren Sie in einer URL-Zeichenfolge, welche Teile der Vorlage aufgerufen werden sollen. Das Einfügen bestimmter Parameter in eine URL-Zeichenfolge bewirkt, dass die den Parametern zugeordneten Elemente angezeigt werden. Mithilfe der Parameter können Sie also dynamisch beeinflussen, wie das vom Image-Server erstellte Vorlagenbild aussehen wird, und daraus benutzerdefinierte Ergebnisse erzeugen. Auf diese Weise können Sie eine Vorlage dynamisch ändern, indem Sie einige oder alle Parameter über die URL aufrufen.
 
-Bei den Parametern für Textebenen können Sie auch die Textzeichenfolge zu einem dynamischen Feld machen, dem Werte in der Datenbank zugeordnet sind. Die Möglichkeit, Text mit einer Datenbank zu verknüpfen, ist beispielsweise für Werbekampagnen nützlich. Sie können dadurch benutzerdefinierte Vorlagenbilder erstellen, auf denen die Namen der Kunden angezeigt werden. Sie können auch einen Textebenenparameter mit einer Preisdatenbank verknüpfen, um den Preis eines Artikels in einem Vorlagenbild anzuzeigen.
+Bei den Parametern für Textebenen können Sie auch die Textzeichenfolge zu einem dynamischen Feld machen, dem Werte in der Datenbank zugeordnet sind. Die Möglichkeit, Text mit einer Datenbank zu verknüpfen, ist beispielsweise für Werbekampagnen nützlich. Damit Vorlagenbilder Client- oder Kundennamen anzeigen, können Sie sie anpassen. Um den Preis eines Artikels in einem Vorlagenbild anzuzeigen, können Sie auch einen Textebenenparameter mit einer Preisdatenbank verknüpfen.
 
-Sie können einen Parameter mehrmals referenzieren. Verwenden Sie das Kombinationsfeld für jeden Befehl im Parameterdialogfeld, um alle Parameter auszuwählen, die zum jeweiligen Befehl passen. Beispielsweise stehen für den Befehl `size=` alle Größenparameter zur Verfügung. Sie können die Parameterreferenz einem beliebigen Parameter neu zuweisen, der bereits im Kombinationsfeld enthalten ist, und ihr einen neuen Namen geben, der nicht bereits im Kombinationsfeld vorhanden ist. In letzterem Fall muss der Name eindeutig sein. Andernfalls gibt ein Fehler an, dass der Parameter vorhanden ist. Wenn Sie einen Parameterverweis löschen, wird der Parameter aus der URL entfernt, sofern er nicht an anderer Stelle referenziert wird. Wenn Sie den Standardwert für einen Textparameter ändern, werden alle Verweise auf diesen Parameter aktualisiert. Sie können die Aktualisierung in der Ebenentabelle, im Rendering der Vorlage und in der URL sehen. Wenn Sie ein Ebenenattribut ändern, indem Sie Größenänderungsgriffe bearbeiten oder Werte in das Eigenschaftenbedienfeld eingeben, wird der Parameterwert aktualisiert und alle Verweise auf den Parameter werden aktualisiert. Wenn Sie beispielsweise die Größe zweier Ebenen mithilfe eines Parameters festgelegt haben, werden beide Ebenengrößen aktualisiert, wenn eine der beiden Ebenengrößen geändert wird. Wenn Sie eine Vorlage in der Vorschau anzeigen und dort einen Parameter ändern, werden alle Referenzen zu diesem Parameter aktualisiert.
+Sie können einen Parameter mehrmals referenzieren. Verwenden Sie das Kombinationsfeld für jeden Befehl im Parameterdialogfeld, um alle Parameter auszuwählen, die zum jeweiligen Befehl passen. Beispielsweise stehen für den Befehl `size=` alle Größenparameter zur Verfügung. Sie können den Parameterverweis einem beliebigen bereits im Kombinationsfeld vorhandenen Parameter zuweisen und ihn in etwas umbenennen, das nicht im Kombinationsfeld enthalten ist. In letzterem Fall muss der Name eindeutig sein. Andernfalls gibt ein Fehler an, dass der Parameter vorhanden ist. Wenn Sie einen Parameterverweis löschen, wird der Parameter aus der URL entfernt, sofern er nicht an anderer Stelle referenziert wird. Wenn Sie den Standardwert für einen Textparameter ändern, werden alle Verweise auf diesen Parameter aktualisiert. Sie können die Aktualisierung in der Ebenentabelle, der Vorlagenwiedergabe und der URL sehen. Wenn Sie ein Ebenenattribut ändern, indem Sie Größenänderungsgriffe bearbeiten oder Werte in das Eigenschaftenbedienfeld eingeben, wird der Parameterwert aktualisiert und alle Verweise auf den Parameter werden aktualisiert. Wenn Sie beispielsweise die Größe von zwei Ebenen mit einem Parameter parametrisiert haben, werden beide Ebenengrößen aktualisiert, wenn eine der Ebenengrößen geändert wird. Wenn Sie eine Vorlage in der Vorschau anzeigen und dort einen Parameter ändern, werden alle Referenzen zu diesem Parameter aktualisiert.
 
 Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) Schulungsvideo.
 
 ## Ebene parametrisieren {#parameterizing-a-layer}
 
-Führen Sie für jede Ebene in der Vorlage folgende Schritte zum Erstellen von Vorlagenparametern aus:
+Gehen Sie wie folgt vor, um Vorlagenparameter für jede Ebene in Ihrer Vorlage zu erstellen:
 
 1. Klicken Sie in der Liste Ebenen auf die Schaltfläche Parameter neben dem Namen der Ebene, für die Sie Parameter erstellen möchten. Der Anzeigebereich „Parameter“ wird geöffnet. Es listet den Namen jedes Parameters auf der Ebene, seinen Wert und seinen Typ auf.
 1. Wählen Sie die Option Ein neben dem Namen jedes Parameters aus, den Sie in das Vorlagenbild aufnehmen möchten.
@@ -50,7 +46,7 @@ Führen Sie für jede Ebene in der Vorlage folgende Schritte zum Erstellen von V
 >
 >Im Anzeigebereich „Parameter“ können Sie Parameter umbenennen. Durch das Umbenennen ist ein Parameter leichter in der URL-Zeichenfolge zu erkennen und kann einfacher als Datenbankwert verwendet werden. Um einen Parameter umzubenennen, wählen Sie seine Option **[!UICONTROL Ein]**, wählen Sie seinen Namen aus und geben Sie einen neuen Namen in das Feld Name ein.
 
-Um eine Liste der Parameter anzuzeigen, die Sie für Ihre Vorlage erstellt haben, klicken Sie im Vorlagenbildschirm auf die Schaltfläche Parameterübersicht . Im Bildschirm „Parameter-Zusammenfassung“ wird der Name jeder Ebene aufgelistet, und wenn Sie Parameter für eine Ebene erstellt haben, die Parameternamen und -werte.
+Um eine Liste der Parameter anzuzeigen, die Sie für Ihre Vorlage erstellt haben, klicken Sie im Vorlagenbildschirm auf die Schaltfläche Parameterübersicht . Im Bildschirm Parameter-Zusammenfassung wird der Name jeder Ebene aufgelistet, und wenn Sie Parameter für eine Ebene erstellt haben, werden die Parameternamen und -werte angezeigt.
 
 ## Erstellen dynamischer Textparameter {#creating-dynamic-text-parameters}
 
@@ -59,7 +55,7 @@ Bei Textebenen können Sie die Textzeichenfolge auch zu einem dynamischen Feld m
 1. Wählen Sie im Vorlagenbildschirm die Schaltfläche Parameter neben dem Namen der Textebene, für die Sie dynamische Textparameter erstellen möchten. Die Seite „Parameter“ wird geöffnet.
 1. Wählen Sie die **[!UICONTROL Ein]**-Option neben dem Namen des Textattributs (textAttr).
 1. Wählen Sie die **[!UICONTROL Text]** im Bildschirm Parameter aus.
-1. Wählen Sie **[!UICONTROL Parameter hinzufügen]** aus. Der standardmäßige Parametername wird angezeigt. Sie können diesen Namen ersetzen, indem Sie ihn markieren und dann überschreiben. Die aktuelle Textzeichenfolge wird der neue Name des Parameters.
+1. Wählen Sie **[!UICONTROL Parameter hinzufügen]** aus. Der standardmäßige Parametername wird angezeigt. Sie können diesen Namen ersetzen, indem Sie ihn auswählen und einen neuen Namen eingeben. Die aktuelle Textzeichenfolge wird der neue Name des Parameters.
 1. Wählen Sie **[!UICONTROL Schließen]** aus, um die Seite „Parameter“ zu schließen.
 
 Um dem Parameternamen einen Datenbankwert zuzuordnen, fügen Sie folgende Zeichenfolge an die Vorlagen-URL an:
