@@ -36,17 +36,17 @@ ht-degree: 0%
 
 Bei der Verwendung von Adobe Analytics Heartbeat-basierten Videoberichten müssen Sie die vier Video-Viewer-Ereignisse (Wiedergabe, Pause, Stopp, Meilenstein) nicht mehr aktivieren, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit standardmäßigen Adobe Dynamic Media Classic HTML5-Video- und gemischten Medien-Viewern. Der Video-Player generiert Tracking-Daten zur Anzeige in Adobe Analytics-Videoberichten.
 
-* Eine Einführung in Streaming-Medien und die Heartbeat-Messung finden Sie unter [Über Adobe Analytics für Streaming-Medien](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+* Eine Einführung in Streaming-Medien und die Heartbeat-Messung finden Sie unter [Über Adobe Analytics für Streaming-Medien](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
 
 * Die Integration von Adobe Analytics-Videoberichten mit Adobe Dynamic Media Classic unterstützt Lösungsvariablen, jedoch keine benutzerdefinierten Variablen.
 
-  Weitere Informationen [&#x200B; Lösungsvariablen und benutzerdefinierten Variablen finden Sie &#x200B;](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/overview) „Audio- und Videoparameter“.
+  Weitere Informationen [&#x200B; Lösungsvariablen und benutzerdefinierten Variablen finden Sie &#x200B;](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/overview) „Audio- und Videoparameter“.
 
 * Standardsegmente mit 1-Minuten-Inkrementen werden unterstützt. Benutzerdefinierte Segmentberichte, wie kundendefinierte Meilensteine, die auf Zeitinkrementen, %-Meilensteinen oder Offset-Meilensteinen basieren, werden jedoch nicht unterstützt.
 
-  Weitere Informationen zu den Anforderungen und zur Einrichtung von Streaming-Medien finden Sie unter [Messen von Streaming-Medien in Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+  Weitere Informationen zu den Anforderungen und zur Einrichtung von Streaming-Medien finden Sie unter [Messen von Streaming-Medien in Adobe Analytics](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
 
-* Informationen zu benutzerdefinierten und Lösungsvariablen finden Sie unter [Aktivierung von Medienberichten](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
+* Informationen zu benutzerdefinierten und Lösungsvariablen finden Sie unter [Aktivierung von Medienberichten](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
 
 >[!NOTE]
 >
