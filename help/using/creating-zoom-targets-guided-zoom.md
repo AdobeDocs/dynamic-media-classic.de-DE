@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: e7543e72fee35a936749cdd110d1d4a2a288c3bf
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 27%
+source-wordcount: 724
+ht-degree: 25%
 
 ---
 
 # Erstellen von Zoom-Zielen für geführtes Zoomen{#creating-zoom-targets-for-guided-zoom}
 
-Anhand von Zoomzielen wird die Aufmerksamkeit der Betrachter auf bestimmte Bildausschnitte gelenkt. Neben dem Freiform-Zoomen können Betrachterinnen und Betrachter ein Zoom-Ziel-Miniaturbild auswählen und auf den Teil des Bildes zoomen, auf den sie sich konzentrieren sollen. Zoomziele bieten Ihnen die Möglichkeit, besonders attraktive oder interessante Bildausschnitte hervorzuheben.
+Anhand von Zoomzielen wird die Aufmerksamkeit der Betrachter auf bestimmte Bildausschnitte gelenkt. Neben dem Freiform-Zoomen können Betrachterinnen und Betrachter ein Zoom-Ziel-Miniaturbild auswählen und auf den Teil des Bildes zoomen, auf den sie sich konzentrieren sollen. Zoom-Ziele ermöglichen es, bestimmte Teile eines Bildes hervorzuheben.
 
 ![Erstellen von Zoom-Zielen für geführtes Zoomen](/help/using/assets/zo_guided_zoom.png)
 
@@ -40,7 +40,7 @@ Der maximale Zoom-Prozentsatz von Zoom-Zielen beträgt 100 Prozent. Der minimale
 | Groß | Kleiner | Kleinerer Minimalwert |
 | Klein | Größer | Größerer Minimalwert |
 
-Sie können die Größe des Zoom-Viewers an die auf Ihrer Web-Seite verwendete Größe anpassen. Sie können diese Einstellung dauerhaft ändern, indem Sie die Viewer-Größe auf dem Bildschirm „Einstellungen“ ändern (wenn Sie Administrator sind). Siehe [Einrichten von Viewer-Vorgaben für Zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Um die Größe an die auf Ihrer Web-Seite verwendete anzupassen, können Sie die Größe des Zoom-Viewers ändern. Sie können diese Einstellung dauerhaft ändern, indem Sie die Viewer-Größe auf dem Bildschirm „Einstellungen“ ändern (wenn Sie Administrator sind). Siehe [Einrichten von Viewer-Vorgaben für Zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Erstellen und Bearbeiten von Zoom-Zielen {#creating-and-editing-zoom-targets}
 
@@ -61,7 +61,7 @@ Um ein Zoom-Ziel zu erstellen, öffnen Sie die Seite Zoom-Ziel-Editor und gehen 
 
 1. Wählen Sie **[!UICONTROL Ziel auswählen]** (Pfeil) aus, wählen Sie dann das erstellte Zoomziel aus und passen Sie die Größe und Position des Ziels an.
 
-   * **Größe ändern**: Bewegen Sie den Mauszeiger über eine Ecke des Zoomziels und ziehen Sie, um das Ziel zu vergrößern oder zu verkleinern.
+   * **Größe ändern**: Um das Ziel zu vergrößern oder zu verkleinern, bewegen Sie den Mauszeiger über eine Ecke des Zoom-Ziels und ziehen Sie es.
 
    * **Position**: Bewegen Sie den Mauszeiger über das Zoom-Ziel und ziehen Sie es an eine andere Position.
 
@@ -71,7 +71,7 @@ Um ein Zoom-Ziel zu erstellen, öffnen Sie die Seite Zoom-Ziel-Editor und gehen 
    >
    >In das Feld „Name“ geben Sie mehr als nur einen Namen ein. Wenn Benutzer den Zeiger über das Zoomziel bewegen, sehen sie, was Sie in das Feld „Name“ eingegeben haben. Geben Sie eine kurze Beschreibung des Zoomziels in das Feld „Name“ ein, damit die Benutzer wissen, auf was sie zoomen können.
 
-1. Optional können Sie im Feld „Benutzerdaten“ entsprechende Informationen eingeben. In diesem Feld können Website-Designer dem Zoom-Ziel Informationen hinzufügen.
+1. Optional können Sie im Feld „Benutzerdaten“ entsprechende Informationen eingeben. Dieses Feld ist für Website-Design-Profis, um Informationen zum Zoom-Ziel hinzuzufügen.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
    Die Koordinaten und Zoomstärke des Zoomziels werden gespeichert. Eine Miniaturansicht Ihres Zoomziels mit dem von Ihnen eingegebenen Namen wird rechts im Anzeigebereich eingeblendet.

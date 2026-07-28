@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 1343214cf19c9cfc6153e3f8b90c8ffc260de999
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 50%
+source-wordcount: 709
+ht-degree: 42%
 
 ---
 
 # Erstellen eines Mustersets{#creating-a-swatch-set}
 
-Ein Musterset-Bildsatz ermöglicht den Benutzern die Ansicht eines Objekts in unterschiedlichen Farben, Mustern oder Ausführungen. Wenn Sie ein Musterset mit Farbfeldern erstellen möchten, benötigen Sie für jede Farbe, jedes Muster oder jede Ausführung, die Sie den Benutzern präsentieren möchten, jeweils ein Bild. Darüber hinaus benötigen Sie für jede Farbe, jedes Muster oder jede Ausführung auch jeweils ein entsprechendes Muster.
+Mit einem Farbfeldset können Benutzer ein Element in einer anderen Farbe, einem anderen Muster oder einer anderen Endverarbeitung anzeigen. Wenn Sie ein Musterset mit Farbfeldern erstellen möchten, benötigen Sie für jede Farbe, jedes Muster oder jede Ausführung, die Sie den Benutzern präsentieren möchten, jeweils ein Bild. Darüber hinaus benötigen Sie für jede Farbe, jedes Muster oder jede Ausführung auch jeweils ein entsprechendes Muster.
 
-Beispielsweise können Sie Bilder von Schirmmützen präsentieren, wobei die Schirme rot, grün oder blau sind. In diesem Fall benötigen Sie drei Aufnahmen derselben Mütze: Je eine Aufnahme mit einem roten Schirm, einem grünen und einem blauen Schirm. Darüber hinaus benötigen Sie ein rotes, grünes und blaues Farbfeld. Die Farbmuster dienen als Miniaturen, die Benutzerinnen und Benutzer im Musterset-Viewer auswählen, um die Kappe mit rotem, grünem oder blauem Schirm anzuzeigen.
+Beispielsweise können Sie Bilder von Schirmmützen präsentieren, wobei die Schirme rot, grün oder blau sind. In diesem Fall benötigen Sie drei Bilder derselben Kappe. Sie benötigen ein Bild für jeden der roten, grünen und blauen Scheine. Sie benötigen außerdem rote, grüne und blaue Farbfelder. Die Farbmuster dienen als Miniaturen, die Benutzerinnen und Benutzer im Musterset-Viewer auswählen, um die Kappe mit rotem, grünem oder blauem Schirm anzuzeigen.
 
 ## Erstellen eines Mustersets {#create}
 
@@ -56,8 +56,8 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 1. Um die Reihenfolge der Bilder in Ihrem Musterset zu ändern, ziehen Sie die Bilder zu neuen Positionen.
 1. Stellen Sie sicher, dass in der rechten unteren Ecke der Seite **[!UICONTROL Nach dem Speichern veröffentlichen]** ausgewählt ist (Standard).
-1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern Ihres Farbmustersets aus, geben Sie einen Namen für das Set ein und wählen Sie **[!UICONTROL Senden]**.
-1. Um das Farbfeldset im Farbfeldset-Viewer anzuzeigen, wählen Sie **[!UICONTROL Vorschau]** auf dem Bildschirm Farbfeldset aus. Sie können im Musterset-Viewer Musterminiaturansichten auswählen, um zu sehen, wie sie sich verhalten.
+1. Wählen Sie **[!UICONTROL Speichern]**, wählen Sie einen Ordner zum Speichern des Farbfeldsets aus, geben Sie einen Namen für das Set ein und wählen Sie **[!UICONTROL Senden]**.
+1. Um das Farbfeldset im Farbfeldset-Viewer anzuzeigen, wählen Sie **[!UICONTROL Vorschau]** auf dem Bildschirm Farbfeldset aus. Sie können im Musterset-Viewer Musterminiaturansichten auswählen, um zu sehen, wie sie funktionieren.
 
 ## Bearbeiten eines Mustersets {#editing-a-swatch-set}
 
@@ -74,8 +74,8 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 **So bearbeiten Sie ein Musterset:**
 
-1. Navigieren Sie in der Rasteransicht zu einem Farbfeld-Set und wählen Sie dann unter dem Bild **[!UICONTROL Bearbeiten]** aus.
-1. Führen Sie einen der folgenden Schritte aus:
+1. Navigieren Sie in der Rasteransicht zu einem Musterset und wählen Sie dann unter dem Bild **[!UICONTROL Bearbeiten]** aus.
+1. Führen Sie eine der folgenden Aktionen aus:
 
    * Um ein Bild (veröffentlicht oder unveröffentlicht) hinzuzufügen, ziehen Sie es aus einem Ordner in Assets hinzufügen auf die Seite „Ansichten **[!UICONTROL des]**.
    * Um ein Bild zu entfernen, wählen Sie es aus und klicken Sie in der Symbolleiste **[!UICONTROL Löschen]**.
@@ -86,11 +86,11 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Löschen von Mustersets
 
-Wenn Sie ein Set löschen, wird das Set in den Papierkorb verschoben. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
+Wenn Sie ein Set löschen, wird das Set selbst in den Ordner „Gelöschte Elemente“ verschoben. Die Mitglieder in diesem Satz sind davon nicht betroffen, sie behalten ihren bestehenden Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
 **So löschen Sie ein Musterset:**
 
-1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht mindestens ein Farbfeldset aus.
+1. Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht ein oder mehrere Mustersets aus.
 1. Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Löschen]** > **[!UICONTROL Löschen]**.

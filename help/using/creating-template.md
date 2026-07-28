@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Vorlagen
+title: Erstellen einer Vorlage
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic eine Vorlage erstellen.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,10 +21,10 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 016933e6edfe59faa37ca6821184d7bcdb333b97
 workflow-type: tm+mt
-source-wordcount: 3493
-ht-degree: 36%
+source-wordcount: 3550
+ht-degree: 32%
 
 ---
 
@@ -40,7 +40,7 @@ Siehe auch [Vorlagengrundlagen](https://s7d5.scene7.com/s7viewers/html5/VideoVie
 
 ## Erstellen der ersten Vorlage {#creating-the-initial-template}
 
-Wenn Sie einen Vorlagensatz erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Wenn Sie einen Vorlagensatz erstellen, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus.
 
 | **[!UICONTROL Nach Speichern veröffentlichen]** vor dem Speichern ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- |
@@ -65,11 +65,11 @@ Sie können Vorlagen aus einer vorhandenen Vorlage erstellen. Öffnen Sie die Vo
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 1. Wählen Sie einen Ordner zum Speichern Ihrer Vorlage aus, geben Sie einen Namen für die Vorlage ein und wählen Sie **[!UICONTROL Senden]**.
 
-   Adobe Dynamic Media Classic verkleinert Bilder, wenn nötig, um sie auf die Arbeitsfläche zu passen, den Bereich auf dem Vorlagenbildschirm, der zum Definieren Ihrer Vorlage verwendet wird.
+   Adobe Dynamic Media Classic skaliert Bilder, wenn nötig, um sie auf die Arbeitsfläche anzupassen, den Bereich auf dem Vorlagenbildschirm, um Ihre Vorlage zu definieren.
 
 ## Bearbeiten von Vorlagensätzen {#editing-a-template-set}
 
-Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Vorlagensatz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus:
+Unabhängig davon, ob Sie ein veröffentlichtes Set oder ein unveröffentlichtes Vorlagensatz bearbeiten, wirkt sich die Option **[!UICONTROL Nach dem Speichern veröffentlichen]** auf die Mitglieder des Sets und des Sets wie folgt aus.
 
 | Set bereits veröffentlicht? | **[!UICONTROL Nach dem Speichern veröffentlichen]** Option vor dem Speichern der Bearbeitung ausgewählt? | Status des Sets nach dem Speichern | Status der Set-Mitglieder nach dem Speichern |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_
 
 ## Löschen einer Vorlage
 
-Wenn Sie ein Vorlagensatz löschen, wird das Set selbst in den Papierkorb verschoben. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
+Wenn Sie ein Vorlagensatz löschen, wird das Set selbst in den Papierkorb verschoben. Die Mitglieder innerhalb dieses Sets sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
 
 Siehe auch [Manuelles Veröffentlichen von Assets](publishing-files.md#manually_publishing_assets) und [Manuelles Rückgängigmachen der Veröffentlichung von Assets](publishing-files.md#manually_unpublishing_assets).
 
@@ -106,13 +106,13 @@ Verwenden Sie diese Tools auf dem Vorlagenbildschirm, um Vorlagen zu erstellen:
 
 * **[!UICONTROL Schwenken]**: Hiermit können Sie Ebenen auswählen, auf der Arbeitsfläche verschieben, ihre Größe ändern oder drehen.
 
-* **[!UICONTROL Text]**: Erstellt eine Textebene. Ziehen Sie das Werkzeug auf die Arbeitsfläche, um eine Textebene zu erstellen, und geben Sie dann den gewünschten Text in der Ebene ein. Siehe [Erstellen einer Textebene](#creating-a-text-layer).
+* **[!UICONTROL Text]**: Erstellt eine Textebene. Um eine Textebene zu erstellen, ziehen Sie auf die Arbeitsfläche und geben Sie dann den Text in die Ebene ein. Siehe [Erstellen einer Textebene](#creating-a-text-layer).
 
 * **[!UICONTROL Vorschau]**: Öffnet den Bildschirm Vorschau und zeigt die Vorlage in einem Zoom-Viewer an. Sie sehen, wie die Vorlage für Benutzer auf Ihrer Website oder in Ihrem Programm aussieht.
 
 * **[!UICONTROL Parameterzusammenfassung]** Öffnet den Bildschirm Parameterzusammenfassung. Darin werden die Namen aller Ebenen in der Vorlage sowie für jede Ebene die Namen der aktivierten Parameter angezeigt.
 
-* **[!UICONTROL Texteditor v4.3 und Texteditor v4.2]**: Verwenden Sie den neuesten und am besten ausgestatteten Texteditor. Sie können den Texteditor 4.3 oder den vorherigen Texteditor 4.2 verwenden. Beim Erstellen von Vorlagen ist Text-Editor v4.3 standardmäßig ausgewählt. Beim Bearbeiten älterer Vorlagen ist Texteditor Version 4.2 standardmäßig ausgewählt. Der Texteditor v4.3 unterstützt derzeit keinen Zeilenumbruch. Wenn Sie also ältere Vorlagen bearbeiten, die Zeilenumbrüche verwenden, verwenden Sie den Texteditor v4.2, um die Vorlagentreue vollständig zu erhalten. Wenn Ihre ältere Vorlage keinen Zeilenumbruch verwendet, können Sie Texteditor v4.3 verwenden, um die vielen neuen Funktionen zu nutzen, die es bietet. Erhöhen Sie beispielsweise die Ränder, verringern Sie die Ränder, legen Sie Text in Großbuchstaben fest und kopieren Sie den Text.
+* **[!UICONTROL Texteditor v4.3 und Texteditor v4.2]**: Verwenden Sie den neuesten und am besten ausgestatteten Texteditor. Sie können den Texteditor 4.3 oder den vorherigen Texteditor 4.2 verwenden. Beim Erstellen von Vorlagen wählt das System standardmäßig Texteditor v4.3 aus. Wenn Sie ältere Vorlagen bearbeiten, wählt das System standardmäßig Texteditor v4.2 aus. Der Texteditor v4.3 unterstützt derzeit keinen Zeilenumbruch. Wenn Sie also ältere Vorlagen bearbeiten, die Zeilenumbrüche verwenden, verwenden Sie den Texteditor v4.2, um die Vorlagentreue vollständig zu erhalten. Wenn Ihre ältere Vorlage keinen Zeilenumbruch verwendet, können Sie Texteditor v4.3 verwenden, um die vielen neuen Funktionen zu nutzen, die es bietet. Beispiele sind das Erhöhen von Rändern, das Verringern von Rändern, das Festlegen von Text in Großbuchstaben und der Text mit Einpassung kopieren.
 
   >[!NOTE]
   >
@@ -139,17 +139,15 @@ Verwenden Sie diese Tools auf dem Vorlagenbildschirm, um Vorlagen zu erstellen:
 ## Erstellen einer Textebene {#creating-a-text-layer}
 
 1. Wählen Sie das **[!UICONTROL Text]**-Tool aus.
-1. Ziehen Sie, um ein Textfeld auf der Arbeitsfläche oder auf einem Bild zu erstellen.
+1. Ziehen Sie, um ein Textfeld auf der Arbeitsfläche oder auf dem Bild zu erstellen.
 1. Fügen Sie im sich öffnenden Bildschirm Text Text hinzu, indem Sie einen der folgenden Schritte auf der Registerkarte Vorschau ausführen:
 
-   * Geben Sie Text in das Textfeld ein. Um den Text in das Textfeld einzupassen, wählen Sie „Text einpassen“.
+   * Geben Sie Text in das Textfeld ein. Wählen Sie Text kopieren, um den Text in das Textfeld einzufügen.
    * Fügen Sie Text aus der Zwischenablage in das Textfeld ein.
 
 1. Klicken Sie **[!UICONTROL Anwenden]** und schließen Sie dann den Bildschirm Text .
 
 ### Formatieren von Text {#format-text}
-
-Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
 1. Doppelklicken Sie in der Liste „Ebenen“ auf den Namen des Textfelds, dessen Inhalt Sie bearbeiten möchten. Der Texteditor wird geöffnet.
 1. Wählen Sie im Textfeld des Texteditors den Text aus, den Sie formatieren möchten. Sie können den gesamten Text, Teile des Textes oder einzelne Zeichen auswählen.
@@ -161,9 +159,17 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
    * **[!UICONTROL Farbe]**: Wählen Sie diese Option, um eine Farbe für den Text auszuwählen.
 
-   * **[!UICONTROL Fett]**, **[!UICONTROL Kursiv]** oder **[!UICONTROL Unterstreichen]**: Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
+   * **[!UICONTROL Fett]**: Markieren Sie den Text und wählen Sie dann das Symbol für die Formatierung aus, die Sie auf den Text anwenden möchten.
 
-   * **[!UICONTROL Großbuchstaben]**, **[!UICONTROL Hochgestellt]** oder **[!UICONTROL Tiefgestellt]**: Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
+   * **[!UICONTROL Kursiv]**: Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
+
+   * **[!UICONTROL Unterstreichen]**: Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
+
+   * **[!UICONTROL Großbuchstaben]**: Markieren Sie den Text und wählen Sie dann das Symbol für die Formatierung aus, die Sie auf den Text anwenden möchten.
+
+   * **[!UICONTROL Hochgestellt]**: Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
+
+   * **[!UICONTROL Tiefgestellt]**: Wählen Sie den Text aus und klicken Sie dann auf das Symbol für die Formatierung, die Sie auf den Text anwenden möchten.
 
    * **[!UICONTROL Ausrichtung]**: Wählen Sie eine Ausrichtungsschaltfläche aus, um Text in der Textebene linksbündig, zentriert oder rechtsbündig auszurichten.
 
@@ -177,7 +183,7 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
 >[!NOTE]
 >
->Wählen **[!UICONTROL Rückgängig]** aus, wenn Sie die letzte Aktion rückgängig machen möchten. Wählen Sie **[!UICONTROL Wiederholen]** aus, wenn Sie Ihre Meinung ändern und eine Aktion rückgängig machen möchten, nachdem Sie **[!UICONTROL Rückgängig]** ausgewählt haben.
+>Wählen **[!UICONTROL Rückgängig]** aus, wenn Sie die letzte Aktion rückgängig machen möchten. Wählen Sie **[!UICONTROL Wiederholen]** aus, wenn Sie eine Aktion rückgängig machen möchten, nachdem Sie **[!UICONTROL Rückgängig“]**.
 
 ### Formatieren von Absätzen {#format-paragraphs}
 
@@ -187,7 +193,7 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
    * **[!UICONTROL Ausrichtung]**: Geben Sie den Ausrichtungstyp an, indem Sie auf **[!UICONTROL Links ausrichten]**, **[!UICONTROL Zentriert]**, **[!UICONTROL Rechts ausrichten]** oder **[!UICONTROL Blocksatz]** klicken.
 
-   * **[!UICONTROL Ende der Absatzausrichtung]**: Wählen Sie diese Option aus, um die Art der Ausrichtung für die letzte Zeile im Absatz anzugeben: Letzte Zeile wird links ausgerichtet, Letzte Zeile wird zentriert und Letzte Zeile wird rechts ausgerichtet.
+   * **[!UICONTROL Ende der Absatzausrichtung]**: Wählen Sie diese Option aus, um die Art der Ausrichtung für die letzte Zeile im Absatz anzugeben: Letzte Zeile wird links, Letzte Zeile wird zentriert und Letzte Zeile wird rechts ausgerichtet.
 
    * **[!UICONTROL Zeilenabstand]**: Geben Sie einen numerischen Wert ein, um den der Abstand zwischen allen Zeilen im Absatz angepasst werden soll, oder wählen Sie einen solchen aus.
 
@@ -222,7 +228,7 @@ Gehen Sie wie folgt vor, um Text in einer Textebene zu formatieren:
 
    * **[!UICONTROL Position]**: Gibt die Position des Textfelds auf der Arbeitsfläche an.
 
-   * **[!UICONTROL Abstand]**: Fügt Ränder hinzu oder schneidet das Ebenenrechteck zu. Geben Sie die Anzahl der Pixel an, die Sie für „Links“, „Oben“, „Unten“ und „Rechts“ hinzufügen oder entfernen möchten. Geben Sie positive Zahlen ein, wenn Sie dem Zuschnitt einen Rand oder negative Zahlen hinzufügen möchten.
+   * **[!UICONTROL Abstand]**: Fügt Ränder hinzu oder schneidet das Ebenenrechteck zu. Geben Sie die Anzahl der Pixel an, die Sie für „Links“, „Oben“, „Unten“ und „Rechts“ hinzufügen oder entfernen möchten. Geben Sie positive Zahlen ein, wenn Sie einen Rand oder negative Zahlen zum Zuschneiden hinzufügen möchten.
 
 ### Anzeigen und Bearbeiten des Text-Quell-Codes {#view-and-edit-text-source-code}
 
@@ -244,11 +250,11 @@ Sie können außerdem die Größe der Arbeitsfläche ändern sowie deren Hinterg
 
 ### Ebenen neu anordnen {#reordering-layers}
 
-Eine Änderung der Ebenenreihenfolge kann sich auf das Erscheinungsbild auswirken, insbesondere wenn Transparenz oder Überdruck erforderlich sind. Zeigen Sie unbedingt eine Vorschau der Ergebnisse an, bevor Sie die Änderungen festschreiben.
+Eine Änderung der Ebenenreihenfolge kann sich auf das Erscheinungsbild auswirken, insbesondere wenn Transparenz oder Überdruck erforderlich sind. Zeigen Sie eine Vorschau des Ergebnisses an, bevor Sie Ihre Änderungen speichern.
 
 1. Wählen Sie eine der folgenden Vorgehensweisen, um die Ebenen in einer Vorlage neu anzuordnen:
 
-   * Markieren Sie eine Ebene in der Liste „Ebenen“. Wählen Sie dann **[!UICONTROL Nach]** oder **[!UICONTROL Nach unten]** so oft wie nötig aus, um sie an der richtigen Position in der Liste zu platzieren.
+   * Markieren Sie eine Ebene in der Liste „Ebenen“. Wählen Sie dann **[!UICONTROL Nach oben]** oder **[!UICONTROL Nach unten]** so oft wie nötig aus, um sie in der Liste korrekt zu positionieren.
    * Ziehen Sie eine Ebene in der Liste „Ebenen“ nach oben oder unten.
 
 ### Ändern der Größe und Position von Ebenen und der Arbeitsfläche {#changing-the-size-and-position-of-layers-and-the-canvas}
@@ -261,27 +267,27 @@ Ebenen müssen klein genug sein, damit sie auf die Arbeitsfläche passen. Sie k�
 
 * **Ändern der Größe einer Ebene**: Um die Größe einer Ebene oder Arbeitsfläche zu ändern, wählen Sie die Ebene oder Arbeitsfläche in der Liste „Ebenen“ aus und verwenden Sie eine der folgenden Techniken:
 
-* **Größe manuell ändern**: Wählen Sie eine Ecke der Ebene oder der Arbeitsfläche aus und ziehen Sie sie. Bei Textebenen können Sie auch eine Kante der Ebene ziehen. Halten Sie die Umschalttaste gedrückt, während Sie ziehen, um die Größe zu ändern, aber das Seitenverhältnis (die Form) beizubehalten.
+* **Größe manuell ändern**: Wählen Sie eine Ecke der Ebene oder der Arbeitsfläche aus und ziehen Sie sie. Bei Textebenen können Sie auch eine Kante der Ebene ziehen. Um die Größe zu ändern und dabei das Seitenverhältnis beizubehalten, halten Sie beim Ziehen die Umschalttaste gedrückt.
 
 * **Ebenengrößenmaße eingeben**: Geben Sie in die Textfelder „W“ (Breite) und „H“ (Höhe) im Bereich „Ebeneneigenschaften“ Pixelmaße ein.
 
-Sie können nicht nur die Größe einer Ebene ändern, sondern auch deren Umrandung erweitern. Geben Sie dazu im Bereich „Ebeneneigenschaften“ in den Feldern „Links“, „Rechts“, „Oben“ und „Unten“ Werte für die erweiterte Umrandung ein. Durch eine erweiterte Umrandung wird der aktuellen Ebene ein Rand hinzugefügt, um den Abstand der Ebene zur Begrenzung ihrer Basisebene zu vergrößern. Eine erweiterte Umrandung ist sinnvoll, wenn Sie einen Schatten-Effekt oder den Effekt „Schein nach außen“ hinzufügen und diesen Effekt deutlicher sichtbar machen möchten. Durch eine erweiterte Umrandung nimmt die Größe der Ebene zu und ihre Hintergrundfarbe wird in dem erweiterten Bereich angezeigt. Die Position der Basisebene wird im Verhältnis zur neuen Größe der Ebene angepasst. Wenn die aktuelle Ebene beispielsweise zentriert in der Basisebene angeordnet ist, führt eine Erweiterung auf der linken Seite der Ebene dazu, dass sie in der Basisebene weiter nach rechts verschoben wird.
+Sie können nicht nur die Größe einer Ebene ändern, sondern sie auch auffüllen. Geben Sie dazu im Bereich „Ebeneneigenschaften“ in den Feldern „Links“, „Rechts“, „Oben“ und „Unten“ Werte für die erweiterte Umrandung ein. Durch eine erweiterte Umrandung wird der aktuellen Ebene ein Rand hinzugefügt, um den Abstand der Ebene zur Begrenzung ihrer Basisebene zu vergrößern. Eine erweiterte Umrandung ist sinnvoll, wenn Sie einen Schatten-Effekt oder den Effekt „Schein nach außen“ hinzufügen und diesen Effekt deutlicher sichtbar machen möchten. Durch eine erweiterte Umrandung nimmt die Größe der Ebene zu und ihre Hintergrundfarbe wird in dem erweiterten Bereich angezeigt. Die Position der Basisebene wird im Verhältnis zur neuen Größe der Ebene angepasst. Wenn die aktuelle Ebene beispielsweise zentriert in der Basisebene angeordnet ist, führt eine Erweiterung auf der linken Seite der Ebene dazu, dass sie in der Basisebene weiter nach rechts verschoben wird.
 
 * **Position einer Ebene ändern**: Um die Position einer Ebene auf der Arbeitsfläche zu ändern, wählen Sie den zugehörigen Namen in der Liste „Ebenen“ aus und verwenden Sie eine der folgenden Techniken:
 
-* **Position manuell ändern**: Bewegen Sie den Mauszeiger in die Nähe, aber nicht über eine Ebenengrenze, und wenn Sie den Cursor mit den vier Spitzen sehen, wählen Sie aus und ziehen Sie.
+* **Position manuell ändern**: Bewegen Sie den Mauszeiger in die Nähe einer Ebenengrenze, aber nicht über diese, und wählen Sie den Mauszeiger aus, und ziehen Sie ihn, wenn Sie den Mauszeiger bewegen sehen.
 
 * **Positionsversatzmessungen eingeben**: Geben Sie die X- und Y-Versatzmessungen in die Textfelder X und Y ein. Diese Werte entsprechen dem X- bzw. Y-Abstand des Ankerpunkts in Pixel.
 
 * **Ebene drehen**: Das Feld „Drehen“ zeigt den Winkel an, in den die Ebene gedreht wurde. Um eine Ebene zu drehen, wählen Sie deren Namen in der Liste „Ebenen“ aus und führen Sie eine der folgenden Vorgehensweisen aus:
 
-* **Manuell drehen**: Bewegen Sie den Mauszeiger in die Nähe der Ebene, aber nicht über eine Ecke der Ebene. Wenn der Cursor für das Drehen angezeigt wird, ziehen Sie die Ecke der Ebene in die gewünschte Richtung. Halten Sie beim Ziehen die Umschalttaste gedrückt, um in Schritten von 15 Grad zu drehen.
+* **Manuell drehen**: Bewegen Sie den Cursor in die Nähe einer Ecke des Layers, aber nicht über diese. Wenn der Cursor für das Drehen angezeigt wird, ziehen Sie die Ecke der Ebene in die gewünschte Richtung. Zum Drehen in 15-Grad-Schritten halten Sie beim Ziehen die Umschalttaste gedrückt.
 
-* **Gradmessung eingeben**: Geben Sie die Anzahl der Grad ein, um die die Ebene gedreht werden soll. Die Drehung erfolgt bei positiven Werten im Uhrzeigersinn und bei negativen gegen den Uhrzeigersinn.
+* **Gradmessung eingeben**: Geben Sie die Anzahl der Grad ein, um die die Ebene gedreht werden soll. Drehung im Uhrzeigersinn; um gegen den Uhrzeigersinn zu drehen, geben Sie eine negative Zahl ein.
 
 **Ebene oder Ebeneneffekt ausblenden:**
 
-Sie können einen Layer- oder Ebeneneffekt ausblenden, indem Sie das Augensymbol neben einem Layernamen oder einem Effektnamen auswählen. Ausgeblendete Ebenen werden nicht in Vorschauen oder in der Ausgabe angezeigt. Die Ebeneninformationen werden jedoch nicht aus der URL gelöscht. Stattdessen wird `hide=1` zur URL hinzugefügt, um zu beachten, dass die Ebene nicht sichtbar ist. Beispiel:
+Sie können einen Layer- oder Ebeneneffekt ausblenden, indem Sie das Augensymbol neben einem Layernamen oder einem Effektnamen auswählen. Ausgeblendete Ebenen werden nicht in Vorschauen oder in der Ausgabe angezeigt. Die Ebeneninformationen werden jedoch nicht aus der URL gelöscht. Um zu beachten, dass die Ebene nicht sichtbar ist, fügt das System `hide=1` zur URL hinzu. Beispiel:
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 
@@ -295,13 +301,13 @@ Um die Hintergrundfarbe, Deckkraft und den Übergangsmodus für eine Ebene oder 
 
 * **Hintergrundfarbe**: Wählen Sie **[!UICONTROL Hintergrundfarbe]** und wählen Sie ein Farbfeld, um die Farbe der abgefüllten Bereiche zu ändern.
 
-* **Deckkraft**: Ziehen Sie den Regler für Deckkraft, damit jede Ebene durchsichtig wird, sodass ein Teil des darunter liegenden Bildes angezeigt wird. Die 100-Prozent-Einstellung ist undurchsichtig, 0 ist transparent.
+* **Deckkraft**: Ziehen Sie den Regler Deckkraft, damit eine beliebige Ebene durchsichtig wird und ein Teil des darunter liegenden Bildes angezeigt wird. Die 100-Prozent-Einstellung ist undurchsichtig, 0 ist transparent.
 
-* **Mischmodus**: Wählen Sie eine Option aus, um einen der in Photoshop verfügbaren Mischmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“. Diese Optionen können nur auf Ebenen, nicht jedoch auf die Arbeitsfläche angewendet werden.
+* **Mischmodus**: Wählen Sie eine Option aus, um einen der in Adobe Photoshop verfügbaren Mischmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“. Diese Optionen können nur auf Ebenen, nicht jedoch auf die Arbeitsfläche angewendet werden.
 
 ## Schatten- und Glüheffekte auf Ebenen verwenden {#using-shadow-and-glow-effects-on-layers}
 
-Sie können einen Schatten- oder Schein-Effekt auf eine Ebene anwenden. Der Schatten oder das Leuchten gilt für den Umfang der Ebene und erstreckt sich nach innen oder außen, je nach der gewählten Schatten- oder Leucht-Option. Wenn Ihre Vorlage von einer PSD-Datei mit Shadow- und Glow-Effekten stammt, können Sie diese Effekte in Adobe Dynamic Media Classic anpassen.
+Sie können einen Schatten- oder Schein-Effekt auf eine Ebene anwenden. Der Schatten oder das Leuchten gilt für den Umfang der Ebene und erstreckt sich nach innen oder außen, je nach der gewählten Schatten- oder Leucht-Option. Wenn Ihre Vorlage mit einer PSD-Datei erstellt wurde, die Schatten- und Leuchteffekte enthält, können Sie diese Effekte in Adobe Dynamic Media Classic anpassen.
 
 Nachdem Sie einen Schatten- oder Schein-Effekt angewendet haben, können Sie dessen Größe, Farbe, Deckkraft und Position im Bereich „Ebeneneigenschaften“ des Anzeigebereichs „Vorlage“ anpassen.
 
@@ -332,7 +338,7 @@ Um einen Schatten- oder Schein-Effekt anzupassen, markieren Sie dessen Namen in 
 
 * **[!UICONTROL Deckkraft]**: Ziehen Sie den Regler, um die Intensität des Effekts zu bestimmen. Je geringer die Deckkraftwerte, desto transparenter die Effekte.
 
-* **[!UICONTROL Mischmodus]**: Wählen Sie eine Option aus, um einen der in Photoshop verfügbaren Mischmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“.
+* **[!UICONTROL Mischmodus]**: Wählen Sie eine Option aus, um einen der in Adobe Photoshop verfügbaren Mischmodi zu simulieren. Sie haben die Wahl zwischen „Normal“, „Auflösen“, „Aufhellen“, „Abdunkeln“, „Multiplizieren“ und „Negativ multiplizieren“.
 
 * **[!UICONTROL Größe]**: Geben Sie die Werte in das Feld X und Y ein, um den Schatteneffekt zu vergrößern oder zu verkleinern. Die Größenoptionen sind nur für die Effekte „Schatten nach innen“ und „Schlagschatten“ verfügbar.
 
