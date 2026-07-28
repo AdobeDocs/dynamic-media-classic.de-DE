@@ -12,21 +12,14 @@ topic: Administration
 level: Beginner
 autotag-review: '2026-05-13T19:46:13.313Z'
 TQID: 'https://experienceleague.adobe.com/qaWxQCcT9VjPt4MmahAR3-voOpUBjYztzNFXSZG6R6k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ef0a24ad6af986b394d8838318fd870be66732a6
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 12%
+source-wordcount: 495
+ht-degree: 6%
 
 ---
 
@@ -42,7 +35,7 @@ Die wichtigsten Adobe Dynamic Media Classic-Workflow-Schritte sind:
 
 * **Assets hochladen und verwalten**: Laden Sie Ihre Medien-Assets in Adobe Dynamic Media Classic hoch. In diesem System können Sie Assets organisieren und durchsuchen sowie nach bestimmten Assets suchen. Außerdem können Sie Metadaten auf Assets anwenden.
 
-* **Rich-Media erstellen** Erstellen Sie verschiedene Konfigurationen Ihrer Assets, z. B. E-Kataloge, Bildsets, Rotationssets, Mustersets, Sets mit gemischten Medien, einfache Vorlagen und FXG-Vorlagen.
+* **Rich-Media erstellen**: Erstellen Sie Asset-Konfigurationen wie E-Kataloge, Bildsets, Rotationssets, Mustersets, Sets für gemischte Medien und Vorlagen.
 
 * **Veröffentlichen und**: Veröffentlichen von Assets im Adobe Dynamic Media Classic SaaS-Netzwerk. Überwachen des Status von Assets bei ihrer Veröffentlichung. Verwalten Sie Benutzerrechte und gewährleisten Sie die Sicherheit.
 
@@ -52,13 +45,13 @@ Die wichtigsten Adobe Dynamic Media Classic-Workflow-Schritte sind:
 
 ## Einzelne primäre Bilder und einzelne URL-Aufrufe {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic unterscheidet sich grundlegend von anderen Systemen, da Sie mit Adobe Dynamic Media Classic Medien dynamisch aus einzelnen primären Assets und URL-Aufrufen bereitstellen können.
+Adobe Dynamic Media Classic unterscheidet sich von anderen Systemen, da Sie mit Adobe Dynamic Media Classic Medien dynamisch aus einzelnen primären Assets und URL-Anfragen bereitstellen können.
 
-Die mit Adobe Dynamic Media Classic generierten URL-Zeichenfolgen enthalten Anweisungen, die dem Server mitteilen, wie das Asset bei der Bereitstellung angezeigt werden soll. Beispielsweise kann dasselbe Primärbild in verschiedenen Größen, Formaten, Gewichtungen, Farben und Zoom-Ansichten bereitgestellt werden. Beim Erstellen und Veröffentlichen von Medien-Assets mit Adobe Dynamic Media Classic können Sie die Auswirkungen visuell konfigurieren. Dabei erstellen Sie die URL-Aufrufe, die dem Server korrekt mitteilen, wie das primäre Asset Anwendungen präsentiert wird.
+Die URL-Zeichenfolgen, die Sie mit Adobe Dynamic Media Classic generieren, enthalten Anweisungen, die dem Server mitteilen, wie das Asset bei der Bereitstellung angezeigt werden soll. Beispielsweise kann dasselbe Primärbild in verschiedenen Größen, Formaten, Gewichtungen, Farben oder Ansichten bereitgestellt werden. Beim Erstellen und Veröffentlichen von Medien-Assets mit Adobe Dynamic Media Classic können Sie die Auswirkungen visuell konfigurieren. Dabei erstellen Sie die URL-Aufrufe, die dem Server korrekt mitteilen, wie das primäre Asset Anwendungen präsentiert wird.
 
-![Adobe Dynamic Media Classic kann dasselbe Primärbild für verschiedene Medien in unterschiedlichen Größen und Formaten bereitstellen.](/help/using/assets/gs_dynamic_publishing.png)
+![Adobe Dynamic Media Classic kann dasselbe Primärbild auf verschiedenen Medien in unterschiedlichen Größen und Formaten bereitstellen.](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic stellt sicher, dass unabhängig von Größe und Bandbreite auf jedem Bildschirm konsistente, hochwertige Erlebnisse bereitgestellt werden.*
 
 ## Inhalts-Caching {#content-caching}
 
-Die Bilder, die Adobe Dynamic Media Classic dynamisch generiert, sind für den Cache geeignet. Normalerweise handelt es sich dabei um JPEG-Bilder mit eindeutigen URL-Aufrufen, die sie identifizieren. Die Bilder werden über ein CDN-System (Content Delivery Network) gesendet, ein Netzwerk von Servern, die über das Internet miteinander verbunden sind und dazu dienen, Inhalte schneller zu übermitteln. Die Bilder werden zunächst von weltweit verbreiteten Servern verteilt und dann an einzelne Computer gesendet. Wenn Sie einen Caching-Mechanismus mit einem CDN-Anbieter implementieren, ändern Sie einfach den Servernamen, sodass er auf den CDN-aktivierten Dynamic Media-Bildserver verweist. Alle Adobe Dynamic Media Classic-Editionen enthalten gebündeltes CDN-Caching.
+Die Bilder, die Adobe Dynamic Media Classic dynamisch generiert, eignen sich für die Zwischenspeicherung. Normalerweise handelt es sich dabei um JPEG-Bilder mit eindeutigen URL-Aufrufen, die sie identifizieren. Die Bilder werden im Content Delivery Network (CDN) bereitgestellt - einem System von Servern, die über das Internet verbunden sind, um Inhalte schneller bereitzustellen. Die Bilder werden von Servern verteilt, die sich global befinden, und dann an Computer. Um einen Caching-Mechanismus unter Verwendung eines beliebigen CDN-Anbieters zu implementieren, ändern Sie den Servernamen so, dass er auf den CDN-aktivierten Dynamic Media-Bildserver verweist. Alle Adobe Dynamic Media Classic-Editionen enthalten gebündeltes CDN-Caching.
