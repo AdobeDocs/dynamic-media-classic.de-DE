@@ -12,26 +12,23 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:46:38.633Z'
 TQID: 'https://experienceleague.adobe.com/9mKPTkpqt7mAjsAqsACECGo-Wtia-6kPfEXBrndz-zU'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 7030f0f6339a3fd25ac7d81f5d11cd2edbc1996a
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 317
 ht-degree: 7%
 
 ---
 
 # Bearbeiten von Bildern{#editing-images}
 
-Adobe Dynamic Media Classic bietet viele Tools zum Erstellen von Rich-Media-Effekten. Diese Tools sind verfügbar, indem Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** klicken und im Durchsuchen-Bedienfeld in der Detailansicht. Sie können die folgenden Aufgaben zur Bildbearbeitung in Adobe Dynamic Media Classic ausführen:
+Adobe Dynamic Media Classic bietet viele Tools zum Erstellen von Medieneffekten. Diese Tools sind verfügbar, indem Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** klicken oder im Durchsuchen-Bedienfeld in der Detailansicht. Sie können die folgenden Aufgaben zur Bildbearbeitung in Adobe Dynamic Media Classic ausführen:
 
-* **Imagemaps erstellen**: Um eine Imagemap zu erstellen, klicken Sie auf den Befehl Bild oder **[!UICONTROL Imagemap]**. Eine Imagemap ist ein Hotspot auf einem Bild, eine E-Katalog-Seite oder ein Bild in einem Rotationsset, das einen Bereich mit Rollover-Text anzeigt. Benutzer können beispielsweise eine Imagemap auswählen, um eine neue Web-Seite zu starten. Siehe [Erstellen von Imagemaps](/help/using/creating-image-maps.md).
+* **Imagemaps erstellen**: Um eine Imagemap zu erstellen, klicken Sie auf den Befehl Bild oder **[!UICONTROL Imagemap]**. Eine Imagemap ist ein Hotspot auf einem Bild, einer E-Katalog-Seite oder einem Bild in einem Rotationsset, das einen Bereich mit Rollover-Text anzeigt. Benutzer können beispielsweise eine Imagemap auswählen, um eine neue Web-Seite zu starten. Siehe [Erstellen von Imagemaps](/help/using/creating-image-maps.md).
 
-* **Zoom-Ziele erstellen**: Um Miniaturziele zu erstellen, können Sie den Befehl „Zoom-Ziele“ oder die Schaltfläche **[!UICONTROL Zoom-Ziele]** auswählen. Benutzer können im Zoom-Viewer auf ein Miniaturziel klicken, um direkt auf einen bestimmten Teil eines Bildes zu zoomen. Siehe [Erstellen von Zoom-Zielen für geführtes Zoomen](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Zoom-Ziele erstellen**: Um Zoom-Ziele zu erstellen, können Sie den Befehl Zoom-Ziele oder die Schaltfläche **[!UICONTROL Zoom-Ziele]** auswählen. Benutzer können im Zoom-Viewer auf ein Miniaturziel klicken, um direkt auf einen bestimmten Teil eines Bildes zu zoomen. Siehe [Erstellen von Zoom-Zielen für geführtes Zoomen](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Bild zuschneiden**: Um ein Bild zuzuschneiden, wählen Sie den Befehl „Zuschneiden“ oder die Schaltfläche **[!UICONTROL Zuschneiden]** aus. Siehe [Zuschneiden eines Bildes](/help/using/cropping-image.md).
 
