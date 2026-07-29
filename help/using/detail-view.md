@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -54,13 +54,13 @@ Sie können ein Asset in der Detailansicht anzeigen, um es sorgfältig zu unters
 
 1. Führen Sie im Durchsuchen-Panel einen der folgenden Schritte aus:
 
-   * Wählen Sie das Asset aus. Klicken Sie oben rechts in der Adobe Dynamic Media Classic auf das Symbol **[!UICONTROL Detailansicht]**.
+   * Wählen Sie das Asset aus. Klicken Sie oben rechts in Adobe Dynamic Media Classic auf das Symbol **[!UICONTROL Detailansicht]**.
    * Doppelklicken Sie auf das gewünschte Asset.
    * Wählen Sie das Asset aus und navigieren Sie **[!UICONTROL Datei]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
->Sie können im selben Ordner in der Detailansicht von einem Asset zu einem Asset wechseln. Klicken Sie einfach auf **[!UICONTROL Vorheriges Asset]** oder **[!UICONTROL Nächstes Asset]**. Diese Schaltflächen befinden sich in der Detailansicht in der oberen rechten Ecke.
+>Sie können mit der Detailansicht zwischen Assets im selben Ordner navigieren. Klicken Sie auf **[!UICONTROL Vorheriges Asset]** oder **[!UICONTROL Nächstes Asset]**. Diese Schaltflächen befinden sich in der Detailansicht in der oberen rechten Ecke.
 
 ## Abrufen von Informationen in der Detailansicht {#getting-information-in-detail-view}
 
@@ -72,7 +72,7 @@ Sie können eine Asset-URL in der Detailansicht abrufen. Die URL ist jedoch erst
 
 Die Detailansicht bietet Tools zum Arbeiten mit dem geöffneten Asset. Welche Tools verfügbar sind, hängt vom verwendeten Asset-Typ ab. Die Detailansicht bietet jedoch immer die folgenden Funktionen:
 
-* **Elemente für die Veröffentlichung**: Wählen Sie das **[!UICONTROL `Publish`]** links neben dem Namen aus oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
+* **Zu veröffentlichende Elemente**: Klicken Sie auf das **[!UICONTROL `Publish`]** links neben dem Namen oder gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]** oder **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichung rückgängig machen]**.
 
 * **Asset umbenennen**: Wählen Sie den Namen aus und geben Sie einen neuen Namen ein.
 

@@ -25,28 +25,28 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a157ef90a1ff3051fe0939b859d1ba7a63537b82
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: 265
 ht-degree: 0%
 
 ---
 
 # Aktivieren von Adobe Analytics-Videoberichten{#enabling-adobe-analytics-video-reports}
 
-Bei der Verwendung von Adobe Analytics Heartbeat-basierten Videoberichten müssen Sie die vier Video-Viewer-Ereignisse (Wiedergabe, Pause, Stopp, Meilenstein) nicht mehr aktivieren, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit nativen Adobe Dynamic Media Classic HTML5-Video- und gemischten Medien-Viewern. Der Video-Player generiert Tracking-Daten zur Anzeige in Adobe Analytics-Videoberichten.
+Bei der Verwendung von Adobe Analytics Heartbeat-basierten Videoberichten müssen Sie die vier Video-Viewer-Ereignisse (Wiedergabe, Pause, Stopp, Meilenstein) nicht mehr aktivieren, wenn Sie Adobe Analytics in Adobe Dynamic Media Classic konfigurieren. Video Heartbeat funktioniert mit standardmäßigen Adobe Dynamic Media Classic HTML5-Video- und gemischten Medien-Viewern. Der Video-Player generiert Tracking-Daten zur Anzeige in Adobe Analytics-Videoberichten.
 
 * Eine Einführung in Streaming-Medien und die Heartbeat-Messung finden Sie unter [Über Adobe Analytics für Streaming-Medien](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
 
 * Die Integration von Adobe Analytics-Videoberichten mit Adobe Dynamic Media Classic unterstützt Lösungsvariablen, jedoch keine benutzerdefinierten Variablen.
 
-  Weitere Informationen [&#x200B; Lösungsvariablen und benutzerdefinierten Variablen finden Sie &#x200B;](https://experienceleague.adobe.com/de/docs/media-analytics/using/implementation/variables/audio-video-parameters) „Audio- und Videoparameter“.
+  Weitere Informationen [&#x200B; Lösungsvariablen und benutzerdefinierten Variablen finden Sie &#x200B;](https://experienceleague.adobe.com/de/docs/media-analytics/using/reporting/dimensions/overview) „Audio- und Videoparameter“.
 
-* Vorkonfigurierte Segmente von Intervallen von einer Minute werden unterstützt. Benutzerdefinierte Segmentberichte, wie kundendefinierte Meilensteine, die auf Zeitinkrementen, %-Meilensteinen oder Offset-Meilensteinen basieren, werden jedoch nicht unterstützt.
+* Standardsegmente mit 1-Minuten-Inkrementen werden unterstützt. Benutzerdefinierte Segmentberichte, wie kundendefinierte Meilensteine, die auf Zeitinkrementen, %-Meilensteinen oder Offset-Meilensteinen basieren, werden jedoch nicht unterstützt.
 
-  Weitere Informationen zu den Anforderungen und zur Einrichtung von Streaming-Medien finden Sie unter [&#x200B; von Streaming-Medien in Adobe Analytics](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
+  Weitere Informationen zu den Anforderungen und zur Einrichtung von Streaming-Medien finden Sie unter [Messen von Streaming-Medien in Adobe Analytics](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-overview).
 
-* Informationen zu benutzerdefinierten und Lösungsvariablen finden Sie unter [Aktivierung von Medienberichten](https://experienceleague.adobe.com/de/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
+* Informationen zu benutzerdefinierten und Lösungsvariablen finden Sie unter [Aktivierung von Medienberichten](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management).
 
 >[!NOTE]
 >

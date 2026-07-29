@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Videos auf Websites und mobilen Sites
+title: Bereitstellen von Videos auf Ihren Websites und mobilen Sites
 description: Erfahren Sie, wie Sie Videos von Adobe Dynamic Media Classic auf Ihren Websites und mobilen Sites bereitstellen.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 22%
+source-wordcount: 1720
+ht-degree: 19%
 
 ---
 
@@ -39,7 +39,7 @@ Das Veröffentlichen eines Videos ermöglicht es Adobe Dynamic Media Classic-Ser
 
 Es gibt zwei verschiedene Methoden zum Veröffentlichen von Videos:
 
-* **Videos beim Hochladen automatisch und sofort veröffentlichen**: Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic Videos automatisch veröffentlichen, wenn sie hochgeladen und kodiert werden. Diese Fähigkeit zur sofortigen Veröffentlichung bedeutet, dass es nicht notwendig ist, Videos separat zu veröffentlichen.
+* **Videos beim Hochladen automatisch und sofort veröffentlichen**: Im Rahmen des Video-Upload-Prozesses kann Adobe Dynamic Media Classic Videos automatisch veröffentlichen, wenn sie hochgeladen und kodiert werden. Sofortige Veröffentlichung bedeutet, dass es nicht erforderlich ist, Videos separat zu veröffentlichen.
 
 * **Video nach dem Hochladen manuell veröffentlichen**: Wenn Sie Videos nicht sofort veröffentlichen möchten, können Sie Videos jederzeit manuell veröffentlichen.
 
@@ -49,7 +49,7 @@ Nach dem Veröffentlichen von Videos aktiviert Adobe Dynamic Media Classic die U
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um Videos beim Hochladen automatisch und sofort zu veröffentlichen, wählen Sie auf der Seite „Hochladen“ die Option **[!UICONTROL Nach dem Hochladen veröffentlichen]** aus. An dieser Stellen ist der Vorgang abgeschlossen, Sie müssen keine weiteren Schritte ausführen.
+   * Um Videos beim Hochladen automatisch und sofort zu veröffentlichen, wählen Sie **[!UICONTROL Nach dem Hochladen veröffentlichen]** auf der Seite Hochladen aus. Der Vorgang ist abgeschlossen. Es sind keine weiteren Schritte erforderlich.
    * Um Videos nach dem Hochladen manuell zu veröffentlichen, wählen Sie im Durchsuchen-Panel die Videos aus und klicken Sie dann in der Symbolleiste für die globale Navigation auf **Veröffentlichen**.
 
 ## Verknüpfen einer Video-URL mit einer mobilen Site oder einer Website {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -150,7 +150,8 @@ Wenn Sie anstelle eines Dynamic Media Classic-Video-Viewers Videoplayer von Drit
 
   Erstellen Sie auf **[!UICONTROL Seite Allgemeine]** in der Gruppe **[!UICONTROL Server]** im Textfeld **[!UICONTROL Veröffentlichungs-Server-]** die direkte URL. Verwenden Sie die folgende Syntax: `server/is/content/company/folder/filename.m3u8`
 
-  Angenommen, der Veröffentlichungs-Server-Name lautet `https://s7d9.scene7.com/.` Verwenden Sie die Syntax in Schritt 2, könnte die direkte URL wie folgt aussehen:
+  Angenommen, der Name des veröffentlichten Servers ist `https://s7d9.scene7.com/`. Unter Verwendung der Syntax in Schritt 2 lautet die direkte URL wie folgt:
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * So generieren Sie eine direkte HLS-Streaming-Video-URL (Einzelbitrate)
@@ -159,7 +160,8 @@ Wenn Sie anstelle eines Dynamic Media Classic-Video-Viewers Videoplayer von Drit
 
   `server/company/folder/filename.ext.m3u8`
 
-  Angenommen, der Name des HLS-Streaming-Servers ist `https://s7mbrstream.scene7.com/hls-vod/`. Bei Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
+  Angenommen, der Name des HLS-Streaming-Servers ist `https://s7mbrstream.scene7.com/hls-vod/`. Unter Verwendung der Syntax in Schritt 2 lautet die direkte URL wie folgt:
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * So generieren Sie eine direkte URL für ein progressives Video
@@ -168,24 +170,25 @@ Wenn Sie anstelle eines Dynamic Media Classic-Video-Viewers Videoplayer von Drit
 
   `server/company/folder/filename`
 
-  Angenommen, der Name des progressiven Video-Servers ist `https://s7d9.scene7.com/is/content/`. Bei Verwendung der Syntax in Schritt 2 könnte die direkte URL wie folgt aussehen:
+  Angenommen, der Name des progressiven Video-Servers ist `https://s7d9.scene7.com/is/content/`. Unter Verwendung der Syntax in Schritt 2 lautet die direkte URL wie folgt:
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Arbeiten mit Videominiaturen {#working-with-video-thumbnails}
 
 Adobe Dynamic Media Classic generiert Miniaturen für kodierte Videos und vorkodierte Videos. Videominiaturen können wie alle anderen Bild-Assets verwendet werden. Außerdem können Sie URLs für die von Adobe Dynamic Media Classic generierten Videominiaturen abrufen. Anschließend können Sie diese URLs außerhalb von Adobe Dynamic Media Classic bereitstellen. Beispielsweise können Sie die Miniaturansichten in Suchergebnissen, relevanten Videolisten und Videowiedergabelisten auf einer Website bereitstellen.
 
-Miniaturansichten werden basierend auf dem ersten heterogenen Frame (d. h. kein vollständig schwarzer oder vollständig weißer Frame usw.) des Videos generiert.
+Miniaturen werden basierend auf dem ersten heterogenen Frame (nicht nur einem schwarzen oder einem ganz weißen Frame) des Videos generiert.
 
 ### Abrufen von URLs für Videominiaturen {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classic generiert beim Hochladen automatisch Videominiaturansichten. Die Miniaturen werden im Durchsuchen-Panel in der Listen- und Rasteransicht angezeigt.
+Adobe Dynamic Media Classic generiert beim Hochladen automatisch Videominiaturansichten. Die Miniaturen werden in der Listenansicht und Rasteransicht des Durchsuchen-Bedienfelds angezeigt.
 
 Führen Sie zum Erstellen von URLs für Videominiaturen einen Veröffentlichungsvorgang durch.
 
 Siehe [Video veröffentlichen](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Nach der Veröffentlichung können Sie Videominiatur-URLs in der Detailansicht im URL-Bedienfeld sowie im Code-einbetten-Bedienfeld abrufen. Wählen Sie **[!UICONTROL URL kopieren]** rechts neben der Videominiatur aus, damit Sie die zugehörige URL kopieren können.
+Nach der Veröffentlichung können Sie URLs für Videominiaturen in der Detailansicht des Bedienfelds „URLs“ und „Einbettungs-Code“ abrufen. Wählen Sie **[!UICONTROL URL kopieren]** rechts neben der Videominiatur aus, damit Sie die zugehörige URL kopieren können.
 
 ### Ändern von Posterbildern in Video-Viewern {#modifying-poster-frames-in-video-viewers}
 

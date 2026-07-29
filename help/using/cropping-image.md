@@ -1,5 +1,5 @@
 ---
-title: Bilder zuschneiden
+title: Zuschneiden eines Bildes
 description: Erfahren Sie, wie Sie ein Bild in Adobe Dynamic Media Classic zuschneiden.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,18 +20,18 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: af8d42004b6de1fea57ea6a59fea930b8e8516e3
 workflow-type: tm+mt
-source-wordcount: 560
-ht-degree: 32%
+source-wordcount: 552
+ht-degree: 25%
 
 ---
 
 # Bilder zuschneiden{#cropping-an-image}
 
-Sie können Bilder in der Adobe Dynamic Media Classic zuschneiden. Die Informationen zu den beschnittenen Bildern werden im System gespeichert, damit sie in ihrem ursprünglichen Zustand wiederhergestellt werden können. Sie können ein Bild auch beschneiden und die beschnittene Version unter einem neuen Namen speichern.
+Sie können Bilder in Adobe Dynamic Media Classic zuschneiden. Die Informationen zu den beschnittenen Bildern werden im System gespeichert, damit sie in ihrem ursprünglichen Zustand wiederhergestellt werden können. Sie können ein Bild auch beschneiden und die beschnittene Version unter einem neuen Namen speichern.
 
-Sie haben die Möglichkeit, durch Beschneiden den weißen Bereich um das Bild herum zu entfernen oder einen beliebigen Bildbereich zu isolieren.
+Um Leerraum um ein Bild zu entfernen oder einen Bereich des Bildes zuzuschneiden, können Sie es zuschneiden.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Sie haben die Möglichkeit, durch Beschneiden den weißen Bereich um das Bild he
 
 Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch Beschneiden entfernen.
 
-1. Um ein Bild zu beschneiden, klicken Sie auf die entsprechende **[!UICONTROL Bearbeiten]**-Schaltfläche und wählen Sie dann **[!UICONTROL Zuschneiden]** aus oder zeigen Sie es im Durchsuchen-Bedienfeld in der Detailansicht an und klicken Sie auf die Schaltfläche **[!UICONTROL Zuschneiden]**.
+1. Um ein Bild zu beschneiden, klicken Sie auf die entsprechende **[!UICONTROL Bearbeiten]**-Schaltfläche und wählen Sie dann **[!UICONTROL Zuschneiden]** aus oder zeigen Sie es im Durchsuchen-Detailfenster an und klicken Sie auf die Schaltfläche **[!UICONTROL Zuschneiden]**.
 1. Führen Sie auf der Seite „Zuschnitt-Editor“ eine der folgenden Aktionen aus:
 
    * Zum Zuschneiden von Farbpixeln navigieren Sie **[!UICONTROL Zuschneiden]** > **[!UICONTROL Farbe]**. Wählen Sie im Dialogfeld **[!UICONTROL Automatisch nach Farbe]** im Menü **[!UICONTROL Ecke]** eine Ecke mit der Hintergrundfarbe aus, die Sie abschneiden möchten. Geben Sie dann eine **[!UICONTROL Toleranz]**-Einstellung von 0 bis 1 ein. Wenn Sie den Wert 0 einstellen, werden Pixel nur abgeschnitten, wenn sie exakt der Farbe entsprechen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu. Wählen Sie **[!UICONTROL Zuschneiden]** aus.
@@ -55,14 +55,14 @@ Sie können die transparenten oder einfarbigen Pixel am Rand eines Bilds durch B
 
 ## Auswählen eines zu beschneidenden Bereichs {#select-an-area-to-crop}
 
-1. Um ein Bild zu beschneiden, klicken Sie auf die entsprechende **[!UICONTROL Bearbeiten]**-Schaltfläche und wählen **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchen-Bedienfeld in der Detailansicht an und wählen Sie **[!UICONTROL Zuschneiden]**.
+1. Um ein Bild zu beschneiden, klicken Sie auf die entsprechende **[!UICONTROL Bearbeiten]**-Schaltfläche und wählen Sie **[!UICONTROL Zuschneiden]** oder zeigen Sie es im Durchsuchen-Bereich in der Detailansicht an und wählen Sie **[!UICONTROL Zuschneiden]**.
 
-1. Platzieren Sie im Fenster „Beschneideditor“ den Teil des Bildes, den Sie nicht beschneiden möchten, in das Zuschnittsfeld. Was in dem Feld angezeigt wird, bleibt auch erhalten, wenn Sie auf **[!UICONTROL Speichern]** klicken und das Bild zuschneiden.
+1. Positionieren Sie im Fenster des Zuschnittseditors den Teil des Bildes, den Sie in dem Zuschnittsfeld beibehalten möchten. Alles, was im Feld angezeigt wird, bleibt erhalten, nachdem Sie auf **[!UICONTROL Speichern]** geklickt und das Bild zugeschnitten haben.
 1. Führen Sie zum Anpassen des zu beschneidenden Bereichs einen der folgenden Schritte aus:
 
-   * Ziehen Sie eine Seite oder Ecke des Rahmens. Halten Sie beim Ziehen die Umschalttaste gedrückt, um die Größe zu ändern, aber das Seitenverhältnis (Form) des Zuschnittsfeldes beizubehalten.
+   * Ziehen Sie eine Seite oder Ecke des Rahmens. Um die Größe des Zuschnittsfeldes zu ändern, aber das Seitenverhältnis (die Form) beizubehalten, halten Sie beim Ziehen die Umschalttaste gedrückt.
    * Geben Sie in den Feldern unter „Größe“ die gewünschten Pixelmaße an.
-   * Verschieben Sie den Rahmen. Bewegen Sie den Zeiger in das Innere des Feldes. Wenn der Mauszeiger als Vierfachpfeil dargestellt wird, ziehen Sie den Rahmen an die gewünschte Position.
+   * Verschieben Sie den Rahmen. Bewegen Sie den Zeiger in das Innere des Feldes. Wenn Sie den Mauszeiger bewegen sehen, ziehen Sie das Feld an eine neue Position auf dem Bild.
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 

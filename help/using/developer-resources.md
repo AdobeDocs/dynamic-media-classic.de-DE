@@ -1,5 +1,5 @@
 ---
-title: Entwicklerressourcen
+title: Ressourcen für Entwickler
 description: Erfahren Sie, welche Entwicklerressourcen für Dynamic Media verfügbar sind.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 12%
 
 ---
 
 # Entwicklerressourcen {#developer-resources}
 
-Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie das Image Production System beschreiben die HTTP-Protokolle für diese Server-Module. Website-Entwickler, die Adobe Dynamic Media Classic Rich Media für eine Website oder ein benutzerdefiniertes Programm weiter anpassen und verwenden möchten, können diese Handbücher verwenden. Es wird davon ausgegangen, dass der Benutzer mit der Dynamic Media Classic Desktop-App, den allgemeinen HTTP-Protokollstandards und -Konventionen und der grundlegenden Imaging-Terminologie vertraut ist.
+Referenzhandbücher für Viewer, Image Serving und Image Rendering sowie Image Production System beschreiben die HTTP-Protokolle für diese Server-Module. Website-Entwickler, die Adobe Dynamic Media Classic Rich Media für eine Website oder ein benutzerdefiniertes Programm anpassen und verwenden möchten, können diese Handbücher verwenden. Anwender müssen mit dem Dynamic Media Classic-Desktop-Programm, allgemeinen HTTP-Protokollstandards und -Konventionen und grundlegender Bildbearbeitung vertraut sein.
 
 Siehe auch [Dynamic Media-Entwicklungsressourcen](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources).
 
