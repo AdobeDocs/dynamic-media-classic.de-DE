@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: df89051c2f5083cdf7ae39f978ab0bfc05230296
 workflow-type: tm+mt
-source-wordcount: 92
-ht-degree: 42%
+source-wordcount: 88
+ht-degree: 34%
 
 ---
 
 # Abrufen von Informationen zur Festplattenauslastung {#get-disk-usage-information}
 
-Sie können den `disk_info`-Parameter verwenden, um Informationen über die Speicherplatznutzung eines Unternehmens abzurufen, wie im folgenden Beispiel gezeigt:
+Sie können den `disk_info`-Parameter verwenden, um Informationen zur Speicherplatznutzung abzurufen, wie im folgenden Beispiel gezeigt:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
@@ -60,7 +60,7 @@ Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Abrufen von Speic
 | op | Erforderlich | disk_info |
 | shared_secret | Erforderlich | Der Schlüssel, der für das Unternehmen ein gemeinsam genutztes Geheimnis ist |
 
-Der folgende Beispiel-Code ruft Speichernutzungsinformationen für das Unternehmen „000Company“ ab:
+Der folgende Beispiel-Code ruft Datenträgerinformationen ab:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602

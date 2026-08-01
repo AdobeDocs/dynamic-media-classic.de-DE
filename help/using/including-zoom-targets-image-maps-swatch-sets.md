@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 0117afba420d2d4dce072b78a35e44328e72c950
 workflow-type: tm+mt
 source-wordcount: 165
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Wenn Sie Zoom-Ziele und Imagemaps für die Bilder im Farbfeldset definieren, werden diese Ziele und Karten im Farbfeldset-Viewer angezeigt. Benutzerinnen und Benutzer können beispielsweise eine Imagemap im Musterset-Viewer auswählen und eine neue Seite auf Ihrer Website mit Informationen zu einem Element öffnen. Benutzerinnen und Benutzer können im Musterset-Viewer ein Zielminiaturbild auswählen und automatisch auf einen Teil eines Bildes zoomen.
 
-Wenn Sie Zoom-Ziele und Imagemaps für Benutzerinnen und Benutzer verfügbar machen möchten, erstellen Sie Zoom-Ziele und Imagemaps für die Bilder in Ihrem Musterset. Verwenden Sie dazu die Tools Imagemaps oder Zoom-Ziele im Bildschirm Musterset oder im Durchsuchen-Bedienfeld (in der Detailansicht).
+Wenn Sie Zoom-Ziele und Imagemaps für Benutzerinnen und Benutzer verfügbar machen möchten, erstellen Sie Zoom-Ziele und Imagemaps für die Bilder in Ihrem Musterset. Sie können diese Aktion mit den Tools „Imagemaps“ oder „Zoom-Ziele“ im Bildschirm „Musterset“ oder im Durchsuchen-Bedienfeld (in der Detailansicht) durchführen.
 
 >[!MORELIKETHIS]
 >

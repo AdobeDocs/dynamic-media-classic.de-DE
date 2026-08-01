@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 74b2fd3a2c7808f5a3cb73bdece56d2914090d8e
 workflow-type: tm+mt
-source-wordcount: 443
-ht-degree: 38%
+source-wordcount: 448
+ht-degree: 32%
 
 ---
 
@@ -31,12 +31,12 @@ Sie können die in Adobe Dynamic Media Classic bearbeiteten Assets auf einem lok
 
 Die komprimierte Zip-Datei kann für den Exportauftrag maximal 1 GB groß sein. Außerdem sind maximal 500 Assets pro Exportvorgang zulässig.
 
-Adobe Dynamic Media Classic zeichnet die Exportaufträge im Bildschirm „Aufträge“ auf.
+Adobe Dynamic Media Classic zeichnet Exportvorgänge auf dem Bildschirm „Vorgänge“ auf.
 
 **So exportieren Sie Assets aus Adobe Dynamic Media Classic:**
 
 1. Wählen Sie die Assets aus, die Sie exportieren möchten, und gehen Sie dann zu **[!UICONTROL Datei]** > **[!UICONTROL Exportieren]**.
-1. Klicken Sie im Fenster „Ausgewählte Assets exportieren“ auf **[!UICONTROL „Bildoptionen“]** und legen Sie dann die folgenden Optionen fest (Administratoren bestimmen, welche Optionen ihren Benutzern zur Verfügung stehen):
+1. Klicken Sie im Fenster Ausgewählte Assets exportieren auf **[!UICONTROL Bildoptionen]** und geben Sie dann eine der folgenden Optionen an (Administratoren bestimmen, welche Optionen Benutzern der Software zur Verfügung stehen):
 
    * **[!UICONTROL Vorgaben]**: Wählen Sie optional eine Bildvorgabe aus, um das Asset beim Exportieren zu formatieren. Wenn Sie eine Bildvorgabe wählen, stehen die übrigen Formatierungsoptionen nicht zur Verfügung, da das Asset die in der Bildvorgabe festgelegten Formate übernimmt.
 
@@ -86,4 +86,4 @@ Sie können die Konvertierungsoptionen beim Export folgender Asset-Typen verwend
 Wird eine große Menge verschiedener Asset-Typen für den Export ausgewählt, ergibt sich folgendes Verhalten:
 
 * Alle Asset-Typen, die nicht exportiert werden können, werden vor der Übermittlung aus der Liste entfernt
-* Wenn eine Konvertierung angefordert wird, werden alle Typen, die konvertiert werden können, konvertiert, und alle anderen werden als Original exportiert
+* Wenn eine Konvertierung angefordert wird, werden alle Typen, die konvertiert werden können, verarbeitet und alle anderen werden als Originaldatei exportiert

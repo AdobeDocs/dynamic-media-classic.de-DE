@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: aff765628275d5725ace65a497424effb8213c37
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 23%
+source-wordcount: 431
+ht-degree: 16%
 
 ---
 
@@ -41,7 +41,7 @@ Nachdem eine Schriftartendatei hochgeladen wurde, können Sie ihre Adobe Dynamic
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic empfiehlt, alle Schriftarten (fett, kursiv, fett/kursiv und normal) hochzuladen, wenn Sie Schriftarten in Vorlagenebenen verwenden möchten. Adobe Dynamic Media Classic benötigt diese Schriftstile, um Anfragen zu verarbeiten. Das Hochladen aller `PostScript/Adobe Type1` einer Schriftart zugeordneten Dateien wird ebenfalls empfohlen, da einige dieser Schriftarten detaillierte Kerning-Informationen enthalten.
+>Adobe Dynamic Media Classic empfiehlt, alle Schriftarten (fett, kursiv, fett/kursiv und normal) hochzuladen, wenn Sie Schriftarten in Vorlagenebenen verwenden möchten. Adobe Dynamic Media Classic benötigt diese Schriftstile, um Anfragen zu verarbeiten. Das Hochladen aller `PostScript/Adobe Type1` einer Schriftart zugeordneten Dateien wird ebenfalls empfohlen, da einige dieser Schriftarten bestimmte Kerning-Daten enthalten.
 
 ## Hochladen von Schriftartendateien {#uploading-font-files}
 
@@ -49,7 +49,7 @@ Schriftartdateien werden genau so wie andere Dateien hochgeladen. Sie können Sc
 
 ## Schriftartendateiinformationen bearbeiten {#editing-font-file-information}
 
-Sie können den ID-Namen einer Schriftart und ihre Typinformationen ändern. Die Bearbeitung einer Schriftartdatei kann für Suchvorgänge hilfreich sein und das Auffinden von Schriftarten erleichtern.
+Sie können den ID-Namen einer Schriftart und ihre Typinformationen ändern. Das Bearbeiten einer Schriftartendatei kann für Suchvorgänge hilfreich sein und die Identifizierung der Schriftarten erleichtern.
 
 Wählen Sie im Durchsuchen-Panel die Schriftartdatei aus, die Sie in der Detailansicht bearbeiten möchten, und wählen Sie „Datei“ > „Informationen bearbeiten“. Der Anzeigebereich „Informationen bearbeiten“ wird angezeigt. Wählen Sie die folgenden Optionen aus und klicken Sie dann auf **[!UICONTROL Senden]**.
 
@@ -63,14 +63,14 @@ Wählen Sie im Durchsuchen-Panel die Schriftartdatei aus, die Sie in der Detaila
 
 * **[!UICONTROL Schriftstil]**: Die Optionen sind Normal, Fett, Kursiv und Fett-Kursiv.
 
-* **[!UICONTROL Font Type]**: Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten mit einem anderen Namen bezeichnen, können Sie diesen eingeben.
+* **[!UICONTROL Font Type]**: Die Optionen sind TrueType und Adobe Type 1. Wenn Sie diese Schriftarten unter einem anderen Namen aufrufen, können Sie die Namen eingeben.
 
 * **[!UICONTROL Schriftartabkürzung]**: Folgende Optionen stehen zur Verfügung:
 
-   * **[!UICONTROL TTF]**: TrueType-Schriftartdateien, die für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
+  * **[!UICONTROL TTF]**: TrueType-Schriftartdateien, die für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
 
-   * **[!UICONTROL AFM]**: Adobe PostScript-Schriftarten-Dateien, die Informationen zu Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
+  * **[!UICONTROL AFM]**: Adobe PostScript-Schriftarten-Dateien, die Informationen zu Adobe-Schriftmetriken enthalten und für die Bildbereitstellung verwendet werden.
 
-   * **[!UICONTROL PFM]**: Adobe PostScript-Schriftarten-Dateien, die Informationen zur Metrik der binären Schriftarten enthalten.
+  * **[!UICONTROL PFM]**: Adobe PostScript-Schriftarten-Dateien, die Informationen zur Metrik der binären Schriftarten enthalten.
 
-   * **[!UICONTROL PFB]**: Adobe PostScript-Schriftarten-Dateien, die binäre Schriftkonturinformationen enthalten und für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.
+  * **[!UICONTROL PFB]**: Adobe PostScript-Schriftarten-Dateien, die binäre Schriftkonturinformationen enthalten und für das PDF/PostScript-Rendering und die Bildbereitstellung verwendet werden.

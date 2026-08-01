@@ -20,23 +20,23 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d4b7c732ad5e23237d00f1c5d344f1264ac48293
 workflow-type: tm+mt
-source-wordcount: 1212
-ht-degree: 26%
+source-wordcount: 1203
+ht-degree: 19%
 
 ---
 
 # Optionen zur Bildoptimierung beim Hochladen{#image-editing-options-at-upload}
 
-Beim Hochladen von Bilddateien, einschließlich AI-, EPS- und PSD-Dateien, können Sie folgende Bearbeitungsaktionen im Dialogfeld „Upload-Auftragsoptionen“ vornehmen:
+Beim Hochladen von AI-, EPS- und PSD-Dateien können Sie diese Aktionen im Dialogfeld [!UICONTROL Upload-Auftragsoptionen] ausführen:
 
 * Beschneiden Sie den Leerraum am Rand der Bilder.
 * Manuelles Beschneiden eines Bilds an den Kanten.
 * Auswählen eines Farbprofils.
 * Erstellen einer Maske aus einem Beschneidungspfad.
-* Scharfzeichnen von Bildern mit Optionen für „Unschärfemaske“
-* Hintergrund aussparen
+* Scharfzeichnen von Bildern mit Optionen für die Unschärfemaske.
+* Knock out Hintergrund.
 
 Diese Optionen befinden sich auf der Seite Hochladen unter der Überschrift **[!UICONTROL Bildbearbeitungsoptionen]** .
 
@@ -46,19 +46,19 @@ Sie können Leerraumpixel eines Bildes automatisch zuschneiden. Wählen Sie im D
 
 * **[!UICONTROL Beschneiden basierend auf]**: Wählen Sie aus dieser Dropdown-Liste aus, ob ein Beschneiden auf Grundlage von Farbe oder Transparenz durchgeführt werden soll:
 
-   * **[!UICONTROL Color]**: Wählen Sie die Option **[!UICONTROL Color]** aus. Wählen Sie dann aus **[!UICONTROL Dropdown-Liste]** Ecke“ die Bildecke mit der Farbe aus, die am besten der Leerraumfarbe entspricht, die Sie beschneiden möchten.
+  * **[!UICONTROL Color]**: Wählen Sie die Option **[!UICONTROL Color]** aus. Wählen Sie dann aus **[!UICONTROL Dropdown-Liste]** Ecke“ die Bildecke mit der Farbe aus, die am besten der Leerraumfarbe entspricht, die Sie beschneiden möchten.
 
-   * **[!UICONTROL Transparenz]**: Wählen Sie die Option „Transparenz“.
+  * **[!UICONTROL Transparenz]**: Wählen Sie die Option „Transparenz“.
 
-* **[!UICONTROL Toleranz]**: Ziehen Sie den Regler, um eine Toleranz von 0 bis 1 festzulegen:
+* **[!UICONTROL Toleranz]**: Ziehen Sie den Schieberegler, um eine Toleranz von 0 bis 1 festzulegen:
 
-   * **Auf Farbe basierendes Zuschneiden**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau mit der Farbe übereinstimmen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+  * **Auf Farbe basierendes Zuschneiden**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau mit der Farbe übereinstimmen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
 
-   * **Beschneiden auf der Grundlage der Transparenz**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Zahlen, die näher an 1 liegen, ermöglichen mehr Transparenz.
+  * **Beschneiden auf der Grundlage der Transparenz**: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Zahlen, die näher an 1 liegen, ermöglichen mehr Transparenz.
 
 ## Manuelles Zuschneiden von den Seiten der Bilder
 
-Um ein Bild manuell an den Kanten zu beschneiden, wählen Sie im Menü „Beschneiden“ die Option „Manuell“. Geben Sie dann die Anzahl an Pixeln ein, die an einer oder jeder Kante des Bilds abgeschnitten werden soll. Wie viel vom Bild abgeschnitten wird, hängt von der ppi-Einstellung (Pixel pro Zoll) in der Bilddatei ab. Angenommen, das Bild zeigt 150 ppi. Geben Sie 75 in die Textfelder Oben, Rechts, Unten und Links ein. An dieser Stelle wird jede Seite um 0,5 Zoll abgeschnitten.
+Um ein Bild manuell an den Kanten zu beschneiden, wählen Sie im Menü „Beschneiden“ die Option „Manuell“. Geben Sie dann die Anzahl an Pixeln ein, die an einer oder jeder Kante des Bilds abgeschnitten werden soll. Die Menge des zugeschnittenen Bildes hängt von der ppi-Einstellung (Pixel pro Zoll) in der Bilddatei ab. Angenommen, das Bild zeigt 150 ppi. Geben Sie dann 75 in die Textfelder Oben, Rechts, Unten und Links ein. An dieser Stelle wird jede Seite um 0,5 Zoll abgeschnitten.
 
 ## Farbprofil auswählen
 
@@ -68,7 +68,7 @@ Um einen Farbraum für das Bild auszuwählen, wählen Sie eine Option Farbprofil
 
 * **[!UICONTROL Ursprünglichen Farbraum beibehalten]**: Behält den ursprünglichen Farbraum bei.
 
-* **[!UICONTROL Benutzerdefiniertes Formular]** > **[!UICONTROL An]**: Öffnet Menüs, in denen Sie „Konvertieren aus“ und „In Farbraum konvertieren“ auswählen können. Sie können einen standardmäßigen Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
+* **[!UICONTROL Benutzerdefiniertes Formular]** > **[!UICONTROL An]**: Öffnet Menüs, in denen Sie „Konvertieren aus“ und „In Farbraum konvertieren“ auswählen können. Sie können einen standardmäßigen Adobe Photoshop-Farbraum oder einen Farbraum auswählen, den Sie in Adobe Dynamic Media Classic hochgeladen haben.
 
 Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
@@ -76,11 +76,11 @@ Siehe [ICC-Profile](icc-profiles.md#icc_profiles).
 
 Um eine Maske für das Bild basierend auf den Informationen zum Schnittpfad zu erstellen, wählen Sie **[!UICONTROL Maske aus Schnittpfad erstellen]** aus. Diese Option betrifft Bilder, die unter Verwendung eines Beschneidungspfads erstellt wurden.
 
-## Scharfzeichnen eines Bildes mit der Unscharfzeichnung „Maske“
+## Scharfzeichnen eines Bildes mit der Unschärfemaske
 
 Mit diesem Filter können Sie einen Scharfzeichnungsfiltereffekt für das endgültige, heruntergesampelte Bild fein abstimmen. Damit können Sie die Intensität des Effekts, den Radius des Effekts (gemessen in Pixel) und einen Schwellenwert für den ignorierten Kontrast steuern.
 
-Dieser Effekt verwendet dieselben Optionen wie der Photoshop-Filter Unscharf maskieren . Im Gegensatz zu dem, dass der Name impliziert, ist die „Unschärfemaske“ ein Scharfzeichnungsfilter.
+Dieser Effekt verwendet dieselben Optionen wie der Adobe Photoshop-Filter Unscharf maskieren . Obwohl der Name möglicherweise verwirrend ist, ist „Unscharf maskieren“ ein Scharfzeichnungsfilter.
 
 Wählen Sie unter „Unschärfemaske &quot; die gewünschten Optionen aus. Die zur Verfügung stehenden Optionen sind in der folgenden Tabelle aufgeführt:
 
@@ -95,9 +95,9 @@ Siehe auch [Scharfzeichnen eines Bildes](sharpening-image.md#sharpening_an_image
 
 Siehe auch [Scharfzeichnen von Bildern in Adobe Dynamic Media und Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-## Hintergrund aussparen
+## Hintergrund entfernen
 
-Verwenden Sie den Knock-out-Hintergrund, damit Sie den Hintergrund eines Bildes beim Hochladen automatisch entfernen können. Diese Technik eignet sich dazu, die Aufmerksamkeit auf ein bestimmtes Objekt zu lenken und es von einem stark ablenkenden Hintergrund abzuheben.
+Verwenden Sie Hintergrund entfernen , um den Hintergrund eines Bildes beim Hochladen automatisch zu entfernen. Diese Technik ist nützlich, um ein bestimmtes Objekt hervorzuheben und es von einem komplexen Hintergrund zu isolieren.
 
 | Optionen für „Hintergrund aussparen“ | Beschreibung |
 | --- | --- |
