@@ -12,27 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:02:51.028Z'
 TQID: 'https://experienceleague.adobe.com/3AeMn6W1vePdJL1PkXuy-YISRw75QUDfdkUP5V2xhEs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: afcc58640eb472fbd6877795fa24414b15eccf55
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 20%
+source-wordcount: 650
+ht-degree: 23%
 
 ---
 
 # Verknüpfen eines gemischten Mediensets mit einer Web-Seite{#linking-a-mixed-media-set-to-a-web-page}
 
-Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie die zugehörige URL für die Verwendung auf Ihrer Website oder in Ihrem Programm abrufen. Anschließend können Sie die URL nach Bedarf bereitstellen, damit Benutzer das gemischte Medienset auf Ihrer Website oder in Ihrem Programm anzeigen können.
+Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie die zugehörige URL für die Verwendung auf Ihrer Website oder in Ihrem Programm abrufen. Danach können Sie die URL nach Bedarf implementieren, damit die Benutzer das gemischte Medienset auf der Website oder in der Anwendung anzeigen können.
 
 ## Abrufen einer gemischten Medienset-URL {#obtain-a-mixed-media-set-url}
 
 1. Wählen Sie im Bedienfeld zum Durchsuchen von Assets in der Dropdown-Liste Anzeigen die Option **[!UICONTROL Medienset]**.
-1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zum Asset-Ordner, der das Medienset enthält, dessen Einbettungs-Code Sie kopieren möchten.
+1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zum Asset-Ordner. Sie enthält das Medienset, dessen Einbettungs-Code Sie kopieren möchten.
 1. Führen Sie über dem Bedienfeld zum Durchsuchen von Assets auf der rechten Seite der Symbolleiste einen der folgenden Schritte aus:
 
    * Klicken Sie auf „**[!UICONTROL Rasteransicht]**“. Doppelklicken Sie im Bedienfeld zum Durchsuchen von Assets auf ein einzelnes Asset, um es in der Detailansicht zu öffnen. Wählen Sie im Bedienfeld „URLs und Einbettungs-Code“ auf der rechten Seite **[!UICONTROL URL kopieren]** rechts neben dem gewünschten Viewer aus.
@@ -50,7 +47,7 @@ Nachdem Sie ein gemischtes Medienset veröffentlicht haben, können Sie die zuge
 
 ## Hinzufügen von URLs für gemischte Mediensets zu Ihrer Web-Seite {#add-mixed-media-set-urls-to-your-web-page}
 
-Die häufigste Methode zur Bereitstellung eines gemischten Mediensets besteht darin, einen Link (über ein Navigationssymbol) auf Ihrer Web-Seite zu platzieren. Wenn dieser Link ausgewählt ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das gemischte Medienset im Viewer für gemischte Mediensets angezeigt wird.
+Eine Standardmethode zum Bereitstellen eines gemischten Mediensets besteht darin, einen Link (mit einem Navigationssymbol) auf Ihrer Web-Seite hinzuzufügen. Wenn dieser Link ausgewählt ist, wird eine dynamische Seite (ASP oder JSP) gestartet, auf der das gemischte Medienset im Viewer für gemischte Mediensets angezeigt wird.
 
 ## Kopieren des eingebetteten Codes eines Viewers für gemischte Mediensets {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
