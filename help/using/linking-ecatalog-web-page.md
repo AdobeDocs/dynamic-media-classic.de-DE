@@ -57,7 +57,7 @@ Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingeb
 
 Die Standardmethode zum Bereitstellen eines E-Katalogs besteht darin, einen Link mit einer E-Katalog-Miniaturansichten-Titelseite auf Ihrer Web-Seite hinzuzufügen. Wenden Sie sich an Ihre IT-Abteilung, um sicherzustellen, dass der E-Katalog in einem zentrierten Popup-Fenster gestartet wird. Um die Symbolleiste und die Adressleiste auszublenden, konfigurieren Sie den Browser.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in der Adobe Viewers-Referenz.
+Weitere Informationen und Codebeispiele finden Sie unter [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in der Adobe Viewers-Referenz.
 
 ## Kopieren des eingebetteten Codes eines E-Katalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
 
