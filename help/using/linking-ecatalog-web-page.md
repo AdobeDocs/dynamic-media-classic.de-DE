@@ -12,23 +12,19 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:52:09.030Z'
 TQID: 'https://experienceleague.adobe.com/cAIaFvlJ3jYoqu1LeLRILuuYsfvuYH6f-N8PqqkHkrk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: a6b941f1da5843a57d082f6bebc4a75a6c2ee65c
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 683
+ht-degree: 16%
 
 ---
 
 # Verknüpfen eines E-Katalogs mit einer Web-Seite{#linking-an-ecatalog-to-a-web-page}
 
-Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code auf Dynamic Media Image Server-Inhalte, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für Ihren E-Katalog auf Ihren Webseiten und in Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
+Ihre Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Image Server-Inhalte, einschließlich E-Katalogen, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den eingebetteten Code für Ihren E-Katalog auf Ihren Webseiten und in Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -55,13 +51,13 @@ Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten
 
 ## Hinzufügen von E-Katalog-URLs zu einer Web-Seite {#adding-ecatalog-urls-to-your-web-page}
 
-Die häufigste Methode zur Bereitstellung eines E-Katalogs besteht darin, auf Ihrer Web-Seite einen Link in Form einer E-Katalog-Miniaturansichtsseite zu platzieren. Vergewissern Sie sich, dass der E-Katalog im Browser in einem eigenen zentrierten Popup-Fenster angezeigt wird (wenden Sie sich ggf. an die IT-Abteilung Ihres Unternehmens). In dem Fenster darf keine Symbol- und Adressleiste angezeigt werden.
+Die Standardmethode zum Bereitstellen eines E-Katalogs besteht darin, einen Link mit einer E-Katalog-Miniaturansichten-Titelseite auf Ihrer Web-Seite hinzuzufügen. Wenden Sie sich an Ihre IT-Abteilung, um sicherzustellen, dass der E-Katalog in einem zentrierten Popup-Fenster gestartet wird. Um die Symbolleiste und die Adressleiste auszublenden, konfigurieren Sie den Browser.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in der Adobe Viewers-Referenz.
+Weitere Informationen und Codebeispiele finden Sie unter [Embedded HTML5 eCatalog Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) in der Adobe Viewers-Referenz.
 
 ## Kopieren des eingebetteten Codes eines E-Katalog-Viewers {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-Mithilfe der Funktion für eingebetteten Code können Sie den Viewer-Code für den ausgewählten E-Katalog überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
+Mit der Funktion für eingebetteten Code können Sie den Viewer-Code für den ausgewählten E-Katalog überprüfen. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn zur Bereitstellung des Viewers in Ihre Web-Seiten einfügen können. Die Bearbeitung von Code im Dialogfeld „Code einbetten“ ist nicht zulässig.
 
 **So kopieren Sie den eingebetteten Code eines E-Katalog-Viewers:**
 
