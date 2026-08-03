@@ -12,22 +12,18 @@ topic: Administration, Content Management, Development
 level: Intermediate
 autotag-review: '2026-05-13T20:03:57.696Z'
 TQID: 'https://experienceleague.adobe.com/Urf0qGJqj7tCCGDfNwprZnxf6YfDgavWb44pThwds0I'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a39ab917e54f3c998f3542e0ff6628de720ca017
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 696
+ht-degree: 19%
 
 ---
 
-# Verknüpfen von Zoom-Viewern mit Web-Seiten{#linking-zoom-viewers-to-your-web-pages}
+# Verbinden von Zoom-Viewern mit Web-Seiten{#linking-zoom-viewers-to-your-web-pages}
 
 Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code auf Dynamic Media Image Server-Inhalte zu. Dieser Zugriff umfasst primäre Bilder und zugehörige Zoom-Ziele. Sie enthält auch Viewer-Vorgaben für Zoom. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um diese URL-Zeichenfolgen oder den eingebetteten Code in Ihren Web-Seiten und Anwendungen zu platzieren, kopieren Sie sie aus Adobe Dynamic Media Classic.
 
@@ -55,9 +51,9 @@ Ihre Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten
 
 ## Hinzufügen von Zoom-Viewer-URLs zu einer Web-Seite {#adding-zoom-viewer-urls-to-your-web-page}
 
-In der Regel zoomen Besucher Bilder auf einer Website, indem sie zunächst ein Zoom-Symbol auswählen (oft zeigt das Symbol das Bild einer Lupe). Wenn Sie dieses Symbol auswählen, wird eine dynamische Web-Seite (ASP oder JSP) gestartet, die das Bild in einem Popup-Fenster anzeigt. In diesem Popup-Fenster können die Website-Besucher das Bild dann tatsächlich heranzoomen.
+In der Regel zoomen Besucher Bilder auf einer Web-Seite, indem sie zunächst ein Zoom-Symbol auswählen (oft zeigt das Symbol das Bild einer Lupe an). Wenn Sie dieses Symbol auswählen, wird eine dynamische Web-Seite (ASP oder JSP) gestartet, die das Bild in einem Popup-Fenster anzeigt. Das Popup-Fenster ist der Ort, an dem Besuchende das Bild zoomen.
 
-Weitere Informationen und Codebeispiele finden Sie unter [Eingebetteter HTML5-Standard](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)Zoom-Viewer im Adobe Viewer-Referenzhandbuch.
+Weitere Informationen und Codebeispiele finden Sie unter [Eingebetteter HTML5-Standard](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)Zoom-Viewer im Adobe Viewer-Referenzhandbuch.
 
 ## Kopieren der eingebetteten Kopie eines Zoom-Viewers {#copying-the-embed-copy-of-a-zoom-viewer}
 
