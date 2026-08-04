@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 596e4337002ebd67dd9f915a5ae63ae2a6e18437
 workflow-type: tm+mt
-source-wordcount: 789
-ht-degree: 33%
+source-wordcount: 796
+ht-degree: 28%
 
 ---
 
 # Verwalten von Inhalten des Infobereichs in Bildsets{#managing-info-panel-content-in-image-sets}
 
-Zusätzlich zur Verwendung von Imagemap-Text für Ihre Rollover in Bildsets können Sie ein Infobedienfeld verwenden, um größere Mengen an Rollover-Text hinzuzufügen, einschließlich Links. Sie können das InfoPanel auch verwalten, indem Sie die Zeit zwischenspeichern und Inhaltsaktualisierungen planen.
+Zusätzlich zur Verwendung von Imagemap-Text für Ihre Rollover in Bildsets können Sie ein Infobedienfeld verwenden, um größere Mengen an Rollover-Text hinzuzufügen, einschließlich Links. Sie können das Info-Bedienfeld auch verwalten, indem Sie die Zeit zwischenspeichern und Inhaltsaktualisierungen planen.
 
 Sie können Ihre InfoPanel-Einrichtung und -Daten mithilfe der folgenden Funktionen in Adobe Dynamic Media Classic verwalten:
 
 * Im Bedienfeld „Info-Bedienfeld-Setup“ können Sie die Vorlage für die Anzeige des Textes im Info-Bedienfeld, eine Standardantwort bei Fehlern und die Anzahl der Stunden, in denen die Informationen zwischengespeichert werden, angeben. Zusätzlich können Sie festlegen, ob der Bildsatz automatisch veröffentlicht werden soll.
-* Im Bedienfeld „Info-Bedienfeld“ für den Daten-Feed können Sie eine CSV-Datei mit dem Text angeben, der im Rollover-Text des Info-Bedienfelds angezeigt werden soll, und Zeiten für die Aktualisierung der Informationen planen.
-* Im Dialogfeld „Metadaten importieren“ können Sie eine durch Tabulatoren getrennte TXT-Datei importieren, die die Informationen zum Rollover-Text enthält. Sie können diese TXT-Option oder das InfoPanel-Datenfeed-Bedienfeld mit der CSV-Dateioption für Ihren Rollover-Text verwenden.
+* Im Bedienfeld „Info-Bedienfeld“ für den Daten-Feed können Sie eine CSV-Datei angeben. Diese Datei enthält den Text, der im Rollover-Text des Infobereichs angezeigt werden soll. Sie können auch Zeiten für die Aktualisierung der Informationen planen.
+* Im Dialogfeld „Metadaten importieren“ können Sie eine durch Tabulatoren getrennte TXT-Datei importieren, die die Informationen zum Rollover-Text enthält. Sie können diese TXT-Option für das Bedienfeld „Info-Bedienfeld“ für den Daten-Feed mit der CSV-Datei-Option für Ihren Rollover-Text verwenden.
 
 ## Einrichten einer Antwortvorlage für Bildsets {#set-up-a-response-template-for-image-sets}
 
@@ -48,9 +48,9 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 1. Führen Sie in der Dropdown-Liste „Antwortvorlage“ einen der folgenden Schritte aus:
 
    * Um die Standardantwort zu verwenden, wählen Sie **[!UICONTROL Standard]** aus. Im Textfeld „Benutzervorlage“ wird, abgeblendet, der XML-Code für den Vorlagenentwurf angezeigt.
-   * Um Ihre eigene Antwortvorlage zu erstellen, wählen Sie **[!UICONTROL Benutzerdefiniert]** aus. Geben Sie in das Textfeld „Benutzervorlage“ die XML-Definition der Vorlage ein. Sie können die Standardvorlage verwenden, die im Textfeld als Basis für Ihre eigene Antwort bereits definiert ist.
+   * Um Ihre eigene Antwortvorlage zu erstellen, wählen Sie **[!UICONTROL Benutzerdefiniert]** aus. Geben Sie in das Textfeld „Benutzervorlage“ die XML-Definition der Vorlage ein. Sie können die bereits im Textfeld definierte Standardvorlage als Grundlage für Ihre eigene Antwort verwenden.
 
-1. (Optional) Geben Sie in das Feld „Standardantwort“ den Text ein, der angezeigt werden soll, wenn Adobe Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen Bildsatznamen, jedoch keinen Rollover-Bezeichner empfängt, wird dem Benutzer diese Meldung angezeigt.
+1. (Optional) Geben Sie in das Feld „Standardantwort“ den Text ein, der angezeigt werden soll, wenn Adobe Dynamic Media Classic beim Abrufen von Informationen für eine Imagemap auf einen Fehler stößt. Wenn das System beispielsweise einen Firmennamen und einen Bildsatznamen erhält, aber keine Rollover-Kennung hat, wird diese Meldung für den Benutzer angezeigt.
 1. Geben Sie in das Textfeld „Antwort-TTL“ die Anzahl der Stunden bis zum Zwischenspeichern der Daten ein.
 
    * Geben Sie eine niedrigere Zahl ein, wenn die Daten im Verlauf des Tages häufig aktualisiert werden.
@@ -59,7 +59,7 @@ Sie können eine von drei vorgegebenen Antwortvorlagen für die Anzeige von Text
 1. Wählen Sie **[!UICONTROL Hochladen]** aus, um Inhalte des Informationsbereichs basierend auf dem Wert „rollover_key“ in s7info hochzuladen.
 1. Suchen Sie im Dialogfeld „S7Info-Upload“ nach der gewünschten Datei und wählen Sie &quot;**[!UICONTROL &quot;]**.
 
-   Unterstützte Dateiformate sind TAB-getrennte Dateien mit UTF-16-Kodierung und CSV-Dateien mit ASCII-Kodierung. Bei CSV-Dateien müssen Nicht-ASCII-Zeichen HTML-kodiert sein.
+   Unterstützte Dateiformate sind tabulatorgetrennte Dateien mit UTF-16-Codierung und CSV-Dateien mit ASCII-Codierung. Bei CSV-Dateien müssen Nicht-ASCII-Zeichen HTML-kodiert sein.
 
 1. Wählen Sie im Bedienfeld „InfoPanel-Setup“ die Option **[!UICONTROL Veröffentlichen]** aus.
 
@@ -71,7 +71,7 @@ Beachten Sie beim Formatieren von Quellinhalt die folgenden Richtlinien:
 
 * Die tabulator- und kommagetrennten Daten können so viele Spalten enthalten, wie für die Rollover-Vorlage erforderlich sind.
 * Das erste Datenelement oder die erste Datenspalte ist die Rollover-Kennung (die mit dem Wert rollover_key aus den Imagemap-URLs verknüpft ist).
-* Stellen Sie sicher, dass jedes durch Tabulatoren oder Kommas getrennte Element nach der Kennung das Element ist, das Sie in die Antwortvorlage ersetzen möchten. Die erste Spalte wird also durch $1$ ersetzt, die zweite Spalte durch $2$ usw.).
+* Stellen Sie sicher, dass jedes durch Tabulatoren oder Kommas getrennte Element nach der Kennung das Element ist, das Sie in die Antwortvorlage ersetzen möchten. Die erste Spalte wird also durch $1$ ersetzt, die zweite Spalte durch $2$ usw.
 
 ### Importieren von CSV-Inhalten in Bildsets von einem extern gehosteten Speicherort {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 

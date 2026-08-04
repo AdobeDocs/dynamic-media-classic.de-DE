@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 98c2209424b1ad028b194d1bdf7c71d77b16b50d
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 21%
+source-wordcount: 729
+ht-degree: 16%
 
 ---
 
 # Verknüpfen von Rotationssets mit Web-Seiten{#linking-a-spin-set-to-a-web-page}
 
-Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code auf Dynamic Media Image Server-Inhalte, einschließlich Rotationssets, zu. Diese URL-Zeichenfolgen werden während des Veröffentlichungsvorgangs aktiviert. Um die URL-Zeichenfolge oder den Einbettungs-Code für Ihr Rotationsset auf Ihren Web-Seiten und Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
+Websites und Anwendungen greifen mithilfe von URL-Zeichenfolgen oder eingebettetem Code auf Dynamic Media Image Server-Inhalte zu, einschließlich Rotationssets. Diese URL-Zeichenfolgen werden während des Veröffentlichungsprozesses aktiviert. Um die URL-Zeichenfolge oder den Einbettungs-Code für Ihr Rotationsset auf Ihren Web-Seiten und Anwendungen zu platzieren, kopieren Sie sie bzw. ihn aus Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ Websites und Anwendungen greifen über URL-Zeichenfolgen oder eingebetteten Code
 
 ## Hinzufügen von Rotationsset-URLs zu einer Web-Seite {#adding-spin-set-urls-to-your-web-page}
 
-Rotationssets werden wie alle Zoom-Viewer über eine dynamische Seite (ASP oder JSP) implementiert, mit der das Rotationsset in einem Zoom-Fenster angezeigt wird. Der URL-Aufruf an die Adobe Dynamic Media Classic-Plattform folgt demselben Protokoll im Zoom-Viewer. Der Name der Viewer-Vorgabe hängt jedoch von der Vorgabe ab, die der Administrator als standardmäßige Rotationsset-Viewer-Vorgabe definiert hat. Beispiel: Das folgende Beispiel einer Nicht-Live-URL-Syntax enthält einen Vorgabennamen mit dem Namen `viewer.jsp`, und der SKU-Parameter ist jetzt der Name des Rotationssets:
+Rotationssets werden wie alle Zoom-Viewer mithilfe einer dynamischen Seite (ASP oder JSP) bereitgestellt, die das Rotationsset in einem Zoom-Fenster anzeigt. Die URL-Anfrage an die Adobe Dynamic Media Classic-Plattform verwendet dasselbe Protokoll wie der Zoom-Viewer. Der Name der Viewer-Vorgabe hängt jedoch von der Vorgabe ab, die der Administrator als standardmäßige Rotationsset-Viewer-Vorgabe definiert hat. Beispiel: Das folgende Beispiel für die URL-Syntax (nicht live) enthält einen Vorgabennamen mit dem Namen `viewer.jsp` und der SKU-Parameter ist jetzt der Name des Rotationssets:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-Beachten Sie in diesem Beispiel mit URL-Syntax (der Link ist nicht live) eine SKU-Nummer ( `sku=backpack_spin`). Die Zeichenfolge nach `sku=` ist der Name des Rotationssets ( `backpack spin`).
+In diesem Beispiel für eine URL-Syntax (der Link ist nicht live) finden Sie weitere Informationen unter der SKU-Nummer ( `sku=backpack_spin`). Die Zeichenfolge nach `sku=` ist der Name des Rotationssets ( `backpack spin`).
 
 ## Kopieren des eingebetteten Codes eines Rotationsset-Viewers {#copying-the-embed-code-of-a-spin-set-viewer}
 

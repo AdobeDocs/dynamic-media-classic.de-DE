@@ -22,10 +22,10 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 596e4337002ebd67dd9f915a5ae63ae2a6e18437
 workflow-type: tm+mt
-source-wordcount: 307
-ht-degree: 14%
+source-wordcount: 303
+ht-degree: 15%
 
 ---
 
@@ -43,17 +43,17 @@ Fügen Sie für alle HTML5-Viewer die folgende JavaScript zum HTML-Container hin
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Dabei ist `Adobe Dynamic Media Classic Company ID` auf den Adobe Dynamic Media Classic-Firmennamen festgelegt. Und `&preset` ist optional. Wenn der Name der Unternehmensvorgabe nicht `companypreset` ist, ist er nicht optional. In solchen Fällen könnte es `companypreset-1, companypreset-2` sein usw. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen für die Unternehmensvorgabe zu ermitteln, wählen Sie **[!UICONTROL URL kopieren]** aus und suchen Sie dann im `preset=`Parameter nach dem Namen der Unternehmensvorgabe.
+Dabei ist `Adobe Dynamic Media Classic Company ID` auf den Adobe Dynamic Media Classic-Firmennamen festgelegt. Und `&preset` ist optional. Wenn der Name der Unternehmensvorgabe nicht `companypreset` ist, ist er nicht optional. In diesen Fällen handelt es sich um `companypreset-1`, `companypreset-2` und neuere Versionen. Die höhere Zahl bedeutet eine neure Instanz der Vorgabe. Um den richtigen Namen der Unternehmensvorgabe zu ermitteln, wählen Sie **[!UICONTROL URL kopieren]** aus und suchen Sie dann im `preset=` nach dem Namen der Unternehmensvorgabe.
 
-Fügen Sie nun eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Trackingcode sendet.
+Fügen Sie eine Funktion hinzu, die das Viewer-Ereignis an den Adobe Analytics-Trackingcode sendet.
 
-Fügen Sie die `s7ComponentEvent()` zum Container HTML (oder JSP, ASPX oder einem anderen) hinzu:
+Fügen Sie die `s7ComponentEvent()` Funktion dem Container &quot;HTML&quot; (oder „JSP“, „ASPX“ oder „Sonstige„) hinzu:
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-Beim Funktionsnamen wird zwischen Groß- und Kleinschreibung unterschieden. Der einzige Parameter, der an übergeben `s7componentEvent`und der erforderlich ist, ist der letzte: `eventData`. Dabei ist `s7track()` in s_code.jsp definiert, das oben eingeschlossen wurde. Und `s7track` verarbeitet das gesamte Tracking für jedes Ereignis. (Sie können die an Adobe Analytics übermittelten Daten in diesem Bereich weiter anpassen.)
+Beim Funktionsnamen wird zwischen Groß- und Kleinschreibung unterschieden. Der einzige erforderliche Parameter, der an `s7ComponentEvent` übergeben wird, ist der letzte, `eventData`. Dabei ist `s7track()` in s_code.jsp definiert, das oben eingeschlossen wurde. `s7track` verarbeitet das gesamte Tracking für jedes Ereignis. (Sie können die an Adobe Analytics übermittelten Daten in diesem Bereich weiter anpassen.)
 
 ## HREF- und ITEM-Ereignisse aktivieren {#enabling-href-and-item-events}
 
