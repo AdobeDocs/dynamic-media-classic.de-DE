@@ -12,21 +12,14 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T20:04:17.274Z'
 TQID: 'https://experienceleague.adobe.com/ViAv-ylLlmVONL1lliFC1HPfFYYph4MsGB4gSWCxSJQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28282f7005b22a50a9a49416549c29806e497085
 workflow-type: tm+mt
-source-wordcount: 321
-ht-degree: 65%
+source-wordcount: 320
+ht-degree: 50%
 
 ---
 
@@ -34,7 +27,7 @@ ht-degree: 65%
 
 Media Portal stellt die folgenden Rollen mit jeweils unterschiedlichen Zugriffsrechten und Berechtigungen zur Verfügung. Wenn Sie einen Benutzer registrieren, weisen Sie dem Benutzer eine der folgenden Rollen zu:
 
-* **[!UICONTROL Media Portal-]**: Kann Administratoren, Mitwirkende und Benutzer hinzufügen und entfernen. Administratoren können außerdem Zugriffsrechte für Gruppen festlegen, FTP-Konten verwalten, vom Unternehmen genehmigte Konvertierungsformate (Vorgaben) zuweisen, E-Mails an Media Portal-Benutzer versenden sowie Berichte zur Portal- und Speichernutzung einsehen.
+* **[!UICONTROL Media Portal-]**: Kann Administratoren, Mitwirkende und Benutzer hinzufügen und entfernen. Der Administrator kann auch Zugriffsrechte für Gruppen festlegen, FTP-Konten verwalten, vom Unternehmen genehmigte Konversionsformate (Voreinstellungen) zuweisen, E-Mails an Medienportal-Benutzer senden und Berichte zur Portalnutzung und -speicherung anzeigen.
 
 * **[!UICONTROL Media Portal-]**: Hat Zugriff auf Ordner und Dateien. Benutzer können nur Dateien auflisten, eine Dateivorschau anzeigen und Dateien herunterladen. Diese Rolle ist geeignet für Kanal- oder Servicepartner, die auf Ihre vom Unternehmen genehmigten Assets zugreifen müssen.
 
@@ -42,7 +35,7 @@ Media Portal stellt die folgenden Rollen mit jeweils unterschiedlichen Zugriffsr
 
 * **[!UICONTROL Media Portal Contributor-User]**: Hat Zugriff auf Ordner und Dateien. Mitwirkende können Bilder und Metadaten durchsuchen, in der Vorschau anzeigen, herunterladen und hochladen. Mitwirkende können die Namen von Dateien ändern, Dateien in andere Ordner verschieben und Dateien löschen.
 
-In dieser Tabelle sind die zulässigen Aufgaben für die einzelnen Rollen aufgelistet. Administratoren und Mitarbeiter-Benutzer können alle in dieser Tabelle aufgelisteten Aufgaben ausführen:
+In dieser Tabelle sind die zulässigen Aufgaben für die einzelnen Rollen aufgelistet. Administratoren und Mitwirkende können alle in dieser Tabelle aufgeführten Aufgaben ausführen:
 
 | Aufgabe | Benutzer | Mitarbeiter | Mitarbeiter-Benutzer |
 | --- | --- | --- | --- |
