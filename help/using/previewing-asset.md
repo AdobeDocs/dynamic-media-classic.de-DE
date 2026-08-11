@@ -12,26 +12,23 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:17.783Z'
 TQID: 'https://experienceleague.adobe.com/SGEzcnrSQUNlvBeZjObo3kn6mStNAXtUeUtAmHMosS4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: ae2683d92d4648fc4d241cd2253de4ae840d8116
 workflow-type: tm+mt
-source-wordcount: 1023
-ht-degree: 11%
+source-wordcount: 1013
+ht-degree: 9%
 
 ---
 
 # Anzeigen einer Vorschau für ein Asset{#previewing-an-asset}
 
-Sie können die Vorschau verwenden, um zu sehen, wie ein digitales Asset aussieht, wenn es von einem Kunden angezeigt wird. Die Vorschaufunktion verwendet den Standard-Viewer, der dem Asset zugewiesen ist. Standard-Viewer werden in den Anwendungseinstellungen konfiguriert.
+Sie können die Vorschau verwenden, um zu sehen, wie ein digitales Asset aussieht, wenn es von einem Kunden angezeigt wird. Für die Vorschau wird der dem Asset zugewiesene Standard-Viewer verwendet. Standard-Viewer werden in den Anwendungseinstellungen konfiguriert.
 
 Siehe [Standard-Viewer konfigurieren](application-setup.md#configuring_default_viewers).
 
-Wenn Sie eine Vorschau eines Vorlagen-Assets mit Parameterebenen anzeigen, können Sie die Parameter ändern oder die Bildvorgabe ändern. Da Ihre Änderungen inline vorgenommen werden, können Sie die Ergebnisse sofort im gleichen Fenster sehen.
+Wenn Sie eine Vorschau eines Vorlagen-Assets mit Parameterebenen anzeigen, können Sie die Parameter ändern oder die Bildvorgabe ändern. Da Ihre Änderungen sofort angewendet werden, können Sie die Ergebnisse im selben Vorschaufenster anzeigen.
 
 Siehe auch [Adobe Viewers-Referenzbibliotheksbeispiele](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -55,7 +52,7 @@ Sie können die Viewer-Liste verwenden, um eine Vorschau anzuzeigen, wie ein Ass
 
 Sie können die Viewer-Liste auch verwenden, um die URL eines Viewers zu kopieren oder den Viewer-Code zum Einbetten in Ihre Web-Seiten anzuzeigen und zu kopieren.
 
-Bei einer bestimmten Viewer-Plattform können Sie im Fenster Viewer-Liste visuell sehen, welche Geräte (wie Tablets und Smartphones) ein Viewer verwenden kann.
+Für eine bestimmte Viewer-Plattform zeigt das Viewer-Listenfenster die Geräte an, für die ein Viewer verfügbar ist, z. B. Tablets und Smartphones.
 
 **Vorschau eines Assets basierend auf dem Viewer-Plattformtyp:**
 
@@ -66,7 +63,7 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster Viewer-Liste visuel
    * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Wählen Sie im Fenster „Asset“ ein einzelnes Asset aus und gehen Sie dann rechts neben dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
    * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Wechseln Sie in der Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.
 
-1. (Optional) Klicken Sie im Fenster „Viewer-Liste“ auf die Spaltenüberschrift **[!UICONTROL Name]** oder **[!UICONTROL Platform-Typ]** um die Spalte in auf- oder absteigender Reihenfolge zu sortieren.
+1. (Optional) Klicken Sie im Fenster „Viewer-Liste“ auf die Spaltenüberschrift **[!UICONTROL Name]** oder **[!UICONTROL Platform-Typ]**, um die Spalte in auf- oder absteigender Reihenfolge zu sortieren.
 1. Wählen Sie im Fenster „Viewer-Liste“ unter der Spalte Aktionen der Tabelle die Option **[!UICONTROL Vorschau]**, um anzuzeigen, wie das Asset für einen ausgewählten Viewer- und Plattformtyp angezeigt wird.
 
    Schließen Sie die angezeigte Vorschau.
@@ -80,7 +77,7 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster Viewer-Liste visuel
 
    * Wählen Sie im Viewer-Listenfenster unter der Spalte Aktionen der Tabelle die Option **[!UICONTROL Einbettungs-Code]** aus.
 
-     Wenn Sie **[!UICONTROL Einbettungs-Code]** auswählen, wird das Fenster Eingebetteter Code geöffnet, in dem Sie den Viewer-Code überprüfen können. Das Bearbeiten von Code ist in diesem Fenster nicht erlaubt. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in die Web-Seiten einfügen können.
+     Wenn Sie **[!UICONTROL Einbettungs-Code]** auswählen, wird das Fenster Eingebetteter Code geöffnet, in dem Sie den Viewer-Code überprüfen können. Der Code kann nicht im Fenster bearbeitet werden. Sie können den Code auch in die Zwischenablage kopieren, damit Sie ihn in Webseiten einfügen können.
 
      Schließen Sie die angezeigte Vorschau.
 
@@ -88,13 +85,13 @@ Bei einer bestimmten Viewer-Plattform können Sie im Fenster Viewer-Liste visuel
 
 ## Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe {#previewing-an-image-asset-based-on-its-image-preset}
 
-Sie können ein Bild-Asset basierend auf seiner Bildvorgabe in der Vorschau anzeigen, um herauszufinden, wie das Bild aussieht, wenn es dynamisch in unterschiedlichen Größen an Ihre Website oder Ihr Programm übermittelt wird.
+Um zu bestimmen, wie das Bild angezeigt wird, wenn es dynamisch für Ihre Website oder Ihr Programm in verschiedenen Größen bereitgestellt wird, können Sie ein Bild-Asset basierend auf seiner Bildvorgabe in der Vorschau anzeigen.
 
 Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen ändern die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren.
 
-Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
+Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
 
-Siehe [Erstellen und Aktivieren von &#x200B;](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Siehe [Erstellen und Aktivieren von ](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 **So zeigen Sie eine Vorschau eines Bild-Assets basierend auf seiner Bildvorgabe an:**
 
@@ -106,7 +103,7 @@ Siehe [Erstellen und Aktivieren von &#x200B;](creating-enabling-image-presets.md
    * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Navigieren Sie in der Symbolleiste zu **[!UICONTROL Vorschau]** > **[!UICONTROL Bildvorgabenliste]**.
 
 1. Wählen Sie im Fenster „Bildvorgabeliste“ in der Tabelle den Namen einer Vorgabe aus, deren Bild-Asset Sie inline im rechten Fensterbereich in der Vorschau anzeigen möchten.
-1. (Optional) Wählen Sie im Fenster „Bildvorgabenliste“ in der Dropdown-Liste **[!UICONTROL URL-Codierung für URL]** Generierung kopieren“ am unteren Rand Folgendes aus:
+1. (Optional) Wählen Sie im Fenster Bildvorgabenliste in der Dropdown-Liste **[!UICONTROL URL-Codierung für URL]** Generierung kopieren“ unten die URL-Codierung aus.
 1. Wählen Sie die URL-Codierung aus, die beim Kopieren auf die URL des Bild-Assets angewendet werden soll.
 1. (Optional) Klicken Sie im Fenster „Bildvorgabenliste“ oben rechts im Bereich „Vorschau“ auf **[!UICONTROL URL kopieren]** für den ausgewählten Vorgabetyp.
 
