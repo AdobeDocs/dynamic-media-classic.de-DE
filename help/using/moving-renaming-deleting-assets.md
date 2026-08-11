@@ -12,23 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:04:38.888Z'
 TQID: 'https://experienceleague.adobe.com/PhoMSxegLPSABPovcBA94eiSksqAcIMhQV93BcAWh-s'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 17%
+source-wordcount: 605
+ht-degree: 12%
 
 ---
 
 # Verschieben, Umbenennen und Löschen von Assets{#moving-renaming-and-deleting-assets}
 
-Sie können Assets im Durchsuchen-Bedienfeld verschieben, umbenennen und löschen. Außerdem können Sie mithilfe einer Textdatei viele Assets auf einmal löschen.
+Sie können Assets im Durchsuchen-Bedienfeld verschieben, umbenennen und löschen. Darüber hinaus können Sie mithilfe einer Textdatei mehrere Assets gleichzeitig löschen.
 
 ## Verschieben von Assets {#move-assets}
 
@@ -52,13 +48,13 @@ Sie können Assets in verschiedene Ordner im Durchsuchen-Panel verschieben.
 
 Sie können ausgewählte Assets im Durchsuchen-Bedienfeld löschen und ganze Ordner löschen. Gelöschte Assets und Ordner werden in den Ordner „Papierkorb“ verschoben und nach sieben Tagen endgültig gelöscht.
 
-Wenn Sie ein Asset gelöscht haben, werden auch alle davon abgeleiteten Assets gelöscht. Wenn Sie beispielsweise ein Bild löschen, für das Sie Zoom-Ziele erstellt haben, werden die Zoom-Ziele zusammen mit dem Bild gelöscht.
+Wenn Sie ein Asset löschen, werden auch alle davon abgeleiteten Assets gelöscht. Wenn Sie beispielsweise ein Bild löschen, für das Sie Zoom-Ziele erstellt haben, werden die Zoom-Ziele zusammen mit dem Bild gelöscht.
 
-Zoomziele, Bildattribute und Verlaufseinträge werden endgültig gelöscht, wenn Sie die zugehörigen Assets löschen. Die Elemente werden nicht zusammen mit den Assets in den Ordner „Papierkorb“ verschoben, sie können daher auch nicht wiederhergestellt werden.
+Zoom-Ziele, Bildattribute und Verlaufseinträge werden dauerhaft gelöscht, wenn Sie die Assets löschen, aus denen sie abgeleitet wurden. Die Elemente werden nicht zusammen mit den Assets in den Ordner „Papierkorb“ verschoben, sie können daher auch nicht wiederhergestellt werden.
 
 >[!IMPORTANT]
 >
->Das Massenlöschen ist ein aufwändiger Vorgang. Stellen Sie sicher, dass Sie Massenlöschungen sequenziell und nicht als gleichzeitige, umfangreiche Löschvorgänge ausführen. Adobe empfiehlt, Löschvorgänge auf maximal 5.000 Asset-Löschvorgänge pro Stunde zu beschränken. Jede Zahl über 5000 pro Stunde kann zu einer Ratenbegrenzung führen.
+>Das Massenlöschen ist ein ressourcenintensiver Vorgang. Führen Sie Massenlöschungen sequenziell durch und nicht als gleichzeitige, groß angelegte Löschvorgänge. Adobe empfiehlt, Löschvorgänge auf maximal 5.000 Asset-Löschvorgänge pro Stunde zu beschränken. Jede Menge von mehr als 5000 pro Stunde kann zu einer Ratenbegrenzung führen.
 
 **So löschen Sie Assets:**
 
@@ -75,9 +71,9 @@ Adobe Dynamic Media Classic empfiehlt, Asset-Dateien zu überschreiben, anstatt 
 
 Wenn Sie mehrere Assets gleichzeitig in der Asset-Bibliothek löschen möchten, können Sie die zu löschenden Assets in einer Textdatei auflisten und die Liste an Adobe Dynamic Media Classic senden.
 
-Erstellen Sie die Liste der Adobe Dynamic Media Classic-IDs und speichern Sie sie als Textdatei (.txt). Jede Adobe Dynamic Media Classic-ID muss sich in einer eigenen Zeile befinden (gefolgt von einer harten Rückgabe).
+Erstellen Sie die Liste der Adobe Dynamic Media Classic-IDs und speichern Sie sie als Textdatei (.txt). Jede Adobe Dynamic Media Classic-ID muss sich in einer eigenen Zeile befinden (gefolgt von einem Wagenrücklauf).
 
-Wenn Sie mit dem Erstellen der Liste fertig sind, führen Sie die folgenden Schritte aus, um die Assets zu löschen:
+Gehen Sie wie folgt vor, um Assets mithilfe der Liste zu löschen:
 
 1. Navigieren Sie **[!UICONTROL Datei]** > **[!UICONTROL Asset-Liste löschen]**.
 1. Geben **[!UICONTROL im Dialogfeld Liste gelöschter Assets]** den Pfad zur Textdatei mit der Liste der Assets ein, die Sie löschen möchten.
