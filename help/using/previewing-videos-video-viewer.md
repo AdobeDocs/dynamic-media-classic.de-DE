@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 19%
+source-wordcount: 853
+ht-degree: 15%
 
 ---
 
@@ -33,8 +33,8 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-](application-setup.md#adding_and_e
 
 **So zeigen Sie eine Vorschau von Videos in einem Video-Viewer an:**
 
-1. Wählen Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite in der Dropdown-Liste „Anzeigen **[!UICONTROL „Video]** (einfach kodierte Videos)“ oder „Adaptives **[!UICONTROL &quot;]**. Wenn die Vorgabe für die adaptive Videokodierung verwendet wird, resultiert dies in einem Satz von Videos mit Multi-Bitrate-Kodierung.
-1. Navigieren Sie im linken Bedienfeld „Asset-Bibliothek“ zu den Asset-Ordnern, um das Video auszuwählen, von dem Sie eine Vorschau anzeigen möchten.
+1. Wählen Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite in der Dropdown-Liste „Anzeigen **[!UICONTROL „Video]** (einfach kodierte Videos)“ oder „Adaptives **[!UICONTROL &quot;]**. Die Vorgabe für die adaptive Videokodierung führt zu einem Satz von Videos mit Multi-Bitrate-Kodierung.
+1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite durch die Asset-Ordner, um das Video auszuwählen, das Sie in der Vorschau anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste **[!UICONTROL Listenansicht]** aus. Bewegen Sie im Fenster „Asset“ den Mauszeiger über ein Asset und klicken Sie dann auf **[!UICONTROL Vorschau]**.
@@ -42,14 +42,14 @@ Siehe [Hinzufügen und Bearbeiten von Viewer-](application-setup.md#adding_and_e
    * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste die Option **[!UICONTROL Detailansicht]**. Klicken Sie in derselben Symbolleiste auf **[!UICONTROL Vorschau]**.
    * Wählen Sie im Assets-Fenster ein Asset aus. Navigieren Sie in der Symbolleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Vorschau]**.
 
-1. (Optional) Wählen Sie im Vorschaufenster in der Dropdown-Liste unten die URL-Codierung aus, die beim Kopieren auf die URL des Assets angewendet werden soll.
+1. (Optional) Wählen Sie im Vorschaufenster unten in der Dropdown-Liste die URL-Codierung aus, die beim Kopieren auf die URL des Assets angewendet werden soll.
 1. Wählen Sie den **[!UICONTROL Vorschau]**-Link aus, damit Sie das Asset im ausgewählten Viewer überprüfen können.
 1. Schließen Sie den angezeigten Viewer.
 1. Wählen Sie **[!UICONTROL Schließen]** aus, um zum Assets-Bildschirm zurückzukehren.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic bietet eine praktische Methode für die Vorschau von MP4-Videos auf dem Desktop. Verwenden Sie diese Methode, um eine Vorschau von mobilen Inhalten auf dem Desktop anzuzeigen, ohne sie auf einem mobilen Gerät testen zu müssen. Beachten Sie jedoch, dass das, was in der Desktop-Vorschau angezeigt wird, nicht realistisch zeigt, wie die Wiedergabe auf dem Mobilgerät aussieht. Um eine Vorschau des Videos anzuzeigen, das auf einem Mobilgerät wiedergegeben wird, wechseln Sie zum Bildschirm Vorschau . Klicken Sie **[!UICONTROL URL kopieren]** und geben Sie diese URL in den Webbrowser eines Mobilgeräts ein. Weitere Informationen finden Sie unter [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Mit Adobe Dynamic Media Classic können Sie MP4-Videos auf dem Desktop in der Vorschau anzeigen. Mit dieser Methode können Sie mobile Inhalte auf dem Desktop in der Vorschau anzeigen, ohne sie auf Mobilgeräten zu testen. Die Desktop-Vorschau gibt jedoch die Wiedergabe auf dem Mobilgerät nicht genau wieder. Um eine Vorschau des Videos anzuzeigen, das auf einem Mobilgerät wiedergegeben wird, wechseln Sie zum Bildschirm Vorschau . Klicken Sie **[!UICONTROL URL kopieren]** und geben Sie diese URL in den Webbrowser eines Mobilgeräts ein. Weitere Informationen finden Sie unter [Bereitstellen von Videos auf Ihren Websites und mobilen Sites](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Arbeiten mit Video-Viewer-Vorgaben {#working-with-video-viewer-presets}
 
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic verfügt über viele vordefinierte Viewer-Vorgaben f
 
 Siehe [Vorschau von Videos in einem Video-Viewer](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) Schulungsvideo.
+Siehe auch das Schulungsvideo [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Hinzufügen oder Bearbeiten einer Video-Viewer-Vorgabe {#adding-or-editing-a-video-viewer-preset}
 
@@ -89,7 +89,7 @@ Siehe auch [Videovorgaben](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.h
 
    * **Bearbeiten**: Wählen Sie eine Video-Viewer-Vorgabe aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
 
-1. Geben Sie auf der Seite &quot;`Configure Viewer`&quot; im Feld „Vorgabenname“ den Namen der Vorgabe ein bzw. bearbeiten Sie ihn.
+1. Geben Sie auf der Seite &quot;`Configure Viewer`&quot; im Feld „Vorgabenname“ den Namen der Vorgabe ein oder bearbeiten Sie ihn.
 1. Legen Sie die weiteren gewünschten Optionen fest.
 
    Um eine Beschreibung einer Option anzuzeigen, klicken Sie auf ihr Infotippsymbol.

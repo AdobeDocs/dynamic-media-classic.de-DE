@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 81089133386ccbda70df77ced6f4f3fe7327be1e
 workflow-type: tm+mt
-source-wordcount: 841
-ht-degree: 19%
+source-wordcount: 826
+ht-degree: 14%
 
 ---
 
@@ -38,7 +38,7 @@ Die Einstellungen im Anzeigebereich „Persönliche Einstellungen“ können von
 >
 >Im Bildschirm Persönliche Einrichtung wird angezeigt, welche Benutzerrolle Sie in Adobe Dynamic Media Classic haben: Unternehmensadministrator, Administrator oder Benutzer.
 
-Die Einstellungen Persönliche Einrichtung steuern das Standardverhalten des Durchsuchen-Panels, den Empfang von E-Mails und die Passworteinstellungen. Denken Sie daran **[!UICONTROL nach]** Änderung dieser Einstellungen auf „Speichern“ zu klicken.
+Die Einstellungen für Persönliche Einstellungen steuern das Standardverhalten des Durchsuchen-Panels, den Empfang von E-Mails und die Kennworteinstellungen. Denken Sie daran **[!UICONTROL nach]** Änderung dieser Einstellungen auf „Speichern“ zu klicken.
 
 ## Eigene Konto-Informationen
 
@@ -47,7 +47,7 @@ Identifiziert Ihren Kontonamen, Namen, Benutzernamen (E-Mail-Adresse) und zugewi
 ## Desktop
 
 * **Clear Image Cache**: Entfernt alle in Adobe Dynamic Media zwischengespeicherten Bilddateien vom Computer.
-* **Asset-Cache löschen**: Entfernt alle Adobe Dynamic Media-Caches für Asset-Dateien von Ihrem Computer.
+* **Asset-Cache löschen**: Entfernt alle in Adobe Dynamic Media zwischengespeicherten Asset-Dateien von Ihrem Computer.
 
 Neben dem Löschen des Bild- und Asset-Cache mithilfe des -Desktop-Programms können Sie den Cache auch manuell direkt aus dem Dateisystem löschen. Gehen Sie je nach Betriebssystem wie folgt vor:
 
@@ -89,16 +89,16 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
 ## Browser
 
-* **[!UICONTROL Größe der Miniaturen]**: Legt die Standardgröße der Miniaturen in der Rasteransicht im Durchsuchen-Panel fest.
-* **[!UICONTROL Standardansicht der Asset]** Bibliothek: Bestimmt, ob die Assets in der Asset-Bibliothek für Build-Sets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Wenn Sie zum Beispiel einen großen E-Katalog mit vielen PDF-Dateien erstellen, können Sie die Assets dem Namen nach geordnet anzeigen, damit die Liste kürzer wird.
+* **[!UICONTROL Größe der]**: Legt die Standardgröße der Miniaturbilder in der Rasteransicht des Durchsuchen-Bedienfelds fest.
+* **[!UICONTROL Standardansicht der Asset]** Bibliothek: Bestimmt, ob die Assets in der Asset-Bibliothek für Build-Sets als Miniaturansichten oder nach Namen angezeigt werden. Wenn Sie mit einer Vielzahl von Assets in der Asset-Bibliothek arbeiten, können Sie diese Assets dem Namen nach geordnet anzeigen. Um beispielsweise die Liste beim Erstellen eines großen E-Katalogs mit vielen PDF-Dateien zu kürzen, können Sie die Assets nach Namen anzeigen.
 * **[!UICONTROL Standard-Durchsuchen-Sortierreihenfolge]**: Bestimmt die Reihenfolge, in der Assets standardmäßig im Durchsuchen-Bedienfeld angezeigt werden. Im Menü können Sie ein Sortierungskriterium auswählen und sich zwischen aufsteigender und absteigender Sortierung entscheiden.
-* **[!UICONTROL Standardspeicherort durchsuchen]**: Hiermit können Sie den Durchsuchen-Speicherort auf den Standardwert, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und den Sie identifizieren. Außerdem können Sie festlegen, dass die Dateien und Ordner an der Suchposition in absteigender oder aufsteigender Reihenfolge angezeigt werden.
+* **[!UICONTROL Standardspeicherort durchsuchen]**: Hiermit können Sie den Durchsuchen-Speicherort auf den Standardwert, den zuletzt durchsuchten Ordner oder auf einen bestimmten Speicherort festlegen, zu dem Sie navigieren und den Sie identifizieren. Um die Dateien und Ordner in auf- oder absteigender Reihenfolge zu sortieren, können Sie auch den Durchsuchen-Speicherort festlegen.
 * **[!UICONTROL Standardansicht durchsuchen]**: Legt fest, ob die Rasteransicht oder Listenansicht die Standardansicht ist, die Sie sehen, wenn Sie das Bedienfeld zum ersten Mal öffnen.
 * **[!UICONTROL Begrüßungsbildschirm]**: Legt fest, ob Begrüßungsbildschirme angezeigt werden, einschließlich des Begrüßungsbildschirms.
 * **[!UICONTROL QuickInfos anzeigen]**: Legt fest, ob QuickInfos angezeigt werden, wenn der Mauszeiger über Schaltflächen, Menüs und Navigations-Links bewegt wird. QuickInfos beschreiben Elemente der Benutzeroberfläche auf dem Bildschirm.
-* **[!UICONTROL Schachbretthintergrund]**: Zeigt eine Schachbrettschicht hinter Bildern an, sodass Sie die transparenten Bereiche eines Bildes mit einem Alphakanal leicht sehen können.
+* **[!UICONTROL Schachbretthintergrund]**: Zeigt eine Schachbrettschicht hinter Bildern an, sodass Sie die transparenten Bereiche eines Bildes sehen können, das einen Alphakanal hat.
 * **[!UICONTROL Dateigröße anzeigen]**: Zeigt die Dateigröße eines Assets beim Durchsuchen an.
-* **[!UICONTROL UDFs in Suche einbeziehen]**: Deaktivieren Sie diese Option (Standard), um die Systemleistung für die meisten von Ihnen ausgeführten Metadatensuchen zu verbessern.
+* **[!UICONTROL UDFs in Suche einbeziehen]**: Deaktivieren Sie (Standard), um die Systemleistung für die meisten von Ihnen ausgeführten Metadatensuchen zu verbessern.
 
   Wenn für die meisten Ihrer Metadaten-Suchen die Einbeziehung benutzerdefinierter Felder hilfreich ist, können Sie diese Option aktivieren. Alternativ können Sie die erweiterte Suche verwenden, um eine zielgerichtetere und schnellere Suche zu ermöglichen, als wenn Sie benutzerdefinierte Felder einbeziehen.
 
@@ -106,14 +106,14 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
   Siehe auch [Benutzerdefinierte Felder](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Standardsuchtyp]**: Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die vollständige Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller als **[!UICONTROL Enthält]** zurück. Jede dieser Optionen überschreibt die Standardeinstellung, die vom Administrator unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Anwendungseinstellungen]** festgelegt wurde.
+* **[!UICONTROL Standardsuchtyp]**: Sie können aus zwei Optionen auswählen: **[!UICONTROL Enthält]** durchsucht die vollständige Zeichenfolge nach dem angegebenen Wert; **[!UICONTROL StartsWith]** sucht am Anfang der Zeichenfolge und gibt Ergebnisse schneller als **[!UICONTROL Enthält]** zurück. Jede dieser Optionen überschreibt die vom Administrator unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Anwendungseinstellungen]** festgelegte Standardeinstellung.
 * **[!UICONTROL Befehlsfeedback anzeigen]**: Wählen Sie diese Option, um die Anzeige von Befehlsanforderungen an den Server einzuschalten, oder deaktivieren Sie diese Option, um sie zu deaktivieren.
 * **[!UICONTROL Dialogfeld beim Exportieren anzeigen]** Wählen Sie diese Option aus, um während eines Exports ein Popup-Dialogfeld anzuzeigen. Wenn Sie diese Option deaktivieren, können Sie dennoch zur Seite Vorgänge gehen, um die Ergebnisse Ihres Exports abzurufen.
 
 ## E-Mail an Freunde senden
 
 * **[!UICONTROL E-Mail-Optionen]**: Wählen Sie aus, wie Adobe Dynamic Media Classic Sie per E-Mail über den Abschluss von Upload- und Veröffentlichungsaufträgen informieren soll. Sie können beispielsweise festlegen, dass Sie nur über den Abschluss von Aufträgen informiert werden, wenn zuvor Warnungen und Fehlermeldungen aufgetreten sind.
-* **[!UICONTROL E-Mail-Umfang]**: Bestimmt, ob Sie alle E-Mail-Vorgangs-E-Mails für Ihr Unternehmen erhalten oder nur E-Mails zu von Ihnen initiierten Upload- und Veröffentlichungsvorgängen.
+* **[!UICONTROL E-Mail-Umfang]**: Bestimmt, ob Sie alle Auftrags-E-Mails für Ihr Unternehmen erhalten oder nur E-Mails zu Upload- und Veröffentlichungsaufträgen, die Sie initiieren.
 * **[!UICONTROL E-Mail-Typen]**: Legt fest, ob Sie informiert werden, wenn Upload- und Veröffentlichungsaufträge abgeschlossen sind.
 
 ## Sprache
@@ -122,12 +122,12 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
 ## Kennwort
 
-* **[!UICONTROL Aktuelles Kennwort]**: Geben Sie das Kennwort für das aktuelle Kennwort ein.
+* **[!UICONTROL Aktuelles Kennwort]**: Geben Sie Ihr aktuelles Kennwort ein.
 * **[!UICONTROL Neues Kennwort]**: Geben Sie ein neues, gültiges Kennwort ein. Ihr Kennwort muss die folgenden Anforderungen erfüllen:
-   * Er muss zwischen 8 und 25 Zeichen lang sein.
-   * enthält mindestens einen Kleinbuchstaben.
-   * Enthält mindestens einen Großbuchstaben.
-   * enthält mindestens eine Zahl.
-   * Mindestens eines der folgenden Sonderzeichen enthalten: `# $ &: _ : { }`
-* **[!UICONTROL Kennwort erneut eingeben]**: Geben Sie das neue Kennwort erneut ein, um zu bestätigen, dass Sie es korrekt eingeben.
-* **[!UICONTROL Kennwortablauf]**: Legt als Sicherheitsmaßnahme fest, ob Ihr Kennwort nach 72 Tagen abläuft. Wenn Sie Ja ausgewählt haben, werden Sie nach 72 Tagen aufgefordert, ein Kennwort zu erstellen.
+  * Er muss zwischen 8 und 25 Zeichen lang sein.
+  * enthält mindestens einen Kleinbuchstaben.
+  * Enthält mindestens einen Großbuchstaben.
+  * enthält mindestens eine Zahl.
+  * Mindestens eines der folgenden Sonderzeichen enthalten: `# $ &: _ : { }`
+* **[!UICONTROL Kennwort erneut]**: Geben Sie das neue Kennwort erneut ein. Dadurch wird bestätigt, dass Sie sie korrekt eingeben.
+* **[!UICONTROL Kennwortablauf]**: Legt fest, ob Ihr Kennwort nach 72 Tagen abläuft. Wenn Sie auf Ja klicken, werden Sie nach 72 Tagen aufgefordert, ein Kennwort zu erstellen.

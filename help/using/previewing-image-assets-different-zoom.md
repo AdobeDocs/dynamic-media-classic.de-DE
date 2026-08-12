@@ -1,5 +1,5 @@
 ---
-title: Vorschau von Bild-Assets mit verschiedenen Zoom-Viewern
+title: Vorschau von Assets mit verschiedenen Zoom-Viewern
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic eine Vorschau von Bild-Assets mit verschiedenen Zoom-Viewern anzeigen.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 251
-ht-degree: 28%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ Siehe [Vorschau eines Assets](previewing-asset.md#previewing_an_asset).
 **So zeigen Sie eine Vorschau von Bild-Assets mit verschiedenen Zoom-Viewern an:**
 
 1. Wählen Sie in der Asset-Bibliothek auf der linken Seite in der Dropdown-Liste „Einblenden“ einen bildbasierten Asset-Typ, wie z. B. „Bild“ oder „Bild-Set“ aus.
-1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zu den Asset-Ordnern, die die Bilder enthalten, von denen Sie mit einem Zoom-Viewer eine Vorschau anzeigen möchten.
+1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zu den Asset-Ordnern, die Bilder enthalten, deren Vorschau Sie mit einem Zoom-Viewer anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Wählen Sie über dem Assets-Fenster rechts in der Symbolleiste die Option **[!UICONTROL Rasteransicht]**. Wechseln Sie im Asset-Fenster unter dem Miniaturbild zu **[!UICONTROL Vorschau]** > **[!UICONTROL Viewer-Liste]**.

@@ -19,18 +19,18 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 23c5579ae1b93559a4f1619fca4ab22253938d0d
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 36%
+source-wordcount: 219
+ht-degree: 16%
 
 ---
 
-# Arbeiten mit PostScript- und Illustrator-Dateien{#working-with-postscript-and-illustrator-files}
+# Arbeiten mit PostScript- und Adobe Illustrator-Dateien{#working-with-postscript-and-illustrator-files}
 
 Sie können Adobe PostScript® (EPS)- und Adobe® Illustrator® (AI)-Dateien in Adobe Dynamic Media Classic verwenden. Adobe Dynamic Media Classic bietet Befehle zum Konfigurieren dieser Dateien beim Hochladen.
 
-Beim Hochladen von EPS- und AI-Bilddateien stehen Ihnen verschiedene Formatierungsmöglichkeiten zur Verfügung. Sie können die Dateien rastern, sie für die Vorlagenveröffentlichung in FXG konvertieren, einen transparenten Hintergrund festlegen sowie eine Auflösung und einen Farbraum wählen. Die Optionen zum Formatieren von PostScript- und Illustrator-Dateien finden Sie im Anzeigebereich „Hochladen“ unter „PostScript-Optionen“ bzw. im Feld „Upload-Auftragsoptionen“ unter „Illustrator-Optionen“.
+Beim Hochladen von PostScript (EPS)- oder Adobe Illustrator (AI)-Bilddateien können Sie diese mit verschiedenen Optionen konfigurieren. Sie können die Dateien rastern, sie für die Vorlagenveröffentlichung in FXG konvertieren, einen transparenten Hintergrund festlegen sowie eine Auflösung und einen Farbraum wählen. Optionen zum Formatieren von PostScript- und Adobe Illustrator-Dateien sind auf dem Upload-Bildschirm unter PostScript-Optionen und Adobe Illustrator-Optionen im Feld Upload-Auftragsoptionen verfügbar.
 
 * **[!UICONTROL Verarbeitung]**: Wählen Sie **[!UICONTROL Rastern]**, um die Vektorgrafiken in der Datei in das Bitmap-Format zu konvertieren.
 
@@ -40,10 +40,10 @@ Beim Hochladen von EPS- und AI-Bilddateien stehen Ihnen verschiedene Formatierun
 
 * **[!UICONTROL Farbraum]**: Wählen Sie das Menü **[!UICONTROL Farbraum]** und wählen Sie einen Farbraum:
 
-   * **[!UICONTROL Automatisch erkennen]**: Behält den Farbraum der Datei bei.
+  * **[!UICONTROL Automatisch erkennen]**: Behält den Farbraum der Datei bei.
 
-   * **[!UICONTROL Force as RGB]**: Konvertiert in den RGB-Farbraum.
+  * **[!UICONTROL Force as RGB]**: Konvertiert in den RGB-Farbraum.
 
-   * **[!UICONTROL Immer CMYK]**: Konvertiert in den CMYK-Farbraum.
+  * **[!UICONTROL Immer CMYK]**: Konvertiert in den CMYK-Farbraum.
 
-   * **[!UICONTROL Immer Graustufen]**: Konvertiert in den Graustufenfarbraum.
+  * **[!UICONTROL Immer Graustufen]**: Konvertiert in den Graustufenfarbraum.

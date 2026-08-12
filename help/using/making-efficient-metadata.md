@@ -1,5 +1,5 @@
 ---
-title: Effizientere Nutzung von Metadaten
+title: Effizientes Verwalten von Metadaten
 description: Erfahren Sie, wie Sie Metadaten in Adobe Dynamic Media Classic effizienter nutzen können.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,18 +21,18 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 58%
+source-wordcount: 163
+ht-degree: 37%
 
 ---
 
-# Effizientere Nutzung von Metadaten{#making-more-efficient-use-of-metadata}
+# Effizientes Verwalten von Metadaten{#making-more-efficient-use-of-metadata}
 
 Alle Dateien in Adobe Dynamic Media Classic enthalten Metadaten. Metadaten beschreiben und identifizieren Dateien, sodass Assets einfacher gefunden und organisiert werden können. Um die Metadaten eines Assets anzuzeigen, öffnen Sie es in der Detailansicht und prüfen Sie das Metadaten-Bedienfeld. Die Metadatenfelder in diesem Bedienfeld enthalten deskriptive Informationen über das Asset.
 
-Metadaten sind nur dann nützlich für das Suchen und Organisieren von Assets, wenn die Metadatenfelder ordnungsgemäß ausgefüllt wurden. Um sicherzustellen, dass Metadaten ordnungsgemäß festgelegt und alle erforderlichen Metadatenfelder ausgefüllt werden, können Sie Metadaten-Vorgaben erstellen. Eine *Metadaten-Vorgabe* ist ein vordefinierter Satz von Metadaten-Einträgen. Anstatt die Metadaten selbst einzugeben, können Benutzende in der Detailansicht eine Metadatenvorgabe auswählen, um Metadatenfelder mit vordefinierten Informationen auszufüllen.
+Metadaten sind bei Suchvorgängen und bei der Asset-Organisation nur dann nützlich, wenn sie in Metadatenfeldern korrekt eingegeben werden. Um Metadaten korrekt einzugeben und sicherzustellen, dass alle erforderlichen Metadatenfelder Metadaten enthalten, können Sie Metadatenvorgaben erstellen. Eine *Metadaten-Vorgabe* ist ein vordefinierter Satz von Metadaten-Einträgen. Anstatt Metadaten manuell einzugeben, können Benutzende in der Detailansicht eine Metadatenvorgabe auswählen, um Metadatenfelder mit vordefinierten Informationen auszufüllen.
 
 Hinweise zum Erstellen von Metadaten-Vorgaben finden Sie unter [Metadaten-Vorgaben](application-setup.md#metadata_presets).
 
