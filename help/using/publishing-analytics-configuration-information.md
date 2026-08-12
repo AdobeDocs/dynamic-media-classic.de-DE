@@ -12,28 +12,23 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:54:18.922Z'
 TQID: 'https://experienceleague.adobe.com/jNDdOnS9hGF4Hv08BKhEJcTeMUTKC-qGSx1bTrwvG9g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: ea072a923d8f62e00a9c33c064dc86cb406625a7
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 19%
+source-wordcount: 146
+ht-degree: 8%
 
 ---
 
 # Veröffentlichen von Adobe Analytics-Konfigurationsinformationen{#publishing-adobe-analytics-configuration-information}
 
-Veröffentlichen Sie die Adobe Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an die Adobe Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf Adobe Dynamic Media Classic-Servern verfügbar sind. Von den Servern können die Informationen an Adobe Analytics weitergeleitet werden, nachdem Benutzer Aktivitäten mit den Viewern ausgeführt haben.
+Veröffentlichen Sie die Adobe Dynamic Media Classic-Viewer, damit Informationen zur Konfiguration von Adobe Analytics-Berichten an die Adobe Dynamic Media Classic-Server gesendet werden. Diese Informationen werden in Viewer eingebettet. Die Veröffentlichung ist erforderlich, damit die in den Viewern enthaltenen Informationen auf Adobe Dynamic Media Classic-Servern verfügbar sind. Von den -Servern kann sie an Adobe Analytics weitergeleitet werden, nachdem Benutzende mit den Viewern interagiert haben.
 
 >[!NOTE]
 >
->Wenn Sie Adobe Analytics-Berichteinstellungen in Adobe Analytics ändern, müssen Sie sich von Adobe Dynamic Media Classic aus wieder bei Adobe Analytics anmelden, Ihre Adobe Analytics-Konfigurationseinstellungen erneut speichern und dann erneut veröffentlichen.
+>Wenn Sie Adobe Analytics-Berichteinstellungen in Adobe Analytics ändern, melden Sie sich von Adobe Dynamic Media Classic aus bei Adobe Analytics an, speichern Sie Ihre Adobe Analytics-Konfigurationseinstellungen erneut und veröffentlichen Sie dann erneut.
 
 Siehe [Anmelden bei Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
