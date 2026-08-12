@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichen primärer Bilder
+title: Veröffentlichen Primärer Bilder
 description: Erfahren Sie, wie Sie Primärbilder aus Adobe Dynamic Media Classic veröffentlichen.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:49.126Z'
 TQID: 'https://experienceleague.adobe.com/MsYvgtKLOqbCZFs67ZPD2hN0fHoKj-AgIpGjM4EWyrM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 50446d4791c5eda0eb9b9b5369cf4eee1fee2d3b
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 164
 ht-degree: 6%
 
 ---
@@ -31,7 +28,7 @@ Beim Veröffentlichen Ihrer Bilddateien werden diese auf Dynamic Media-Bildserve
 
 ## Primäre Bilder zur Veröffentlichung markieren {#marking-master-images-for-publish}
 
-Primäre Bilder müssen für die Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre primären Bilder zur Veröffentlichung im Durchsuchen-Panel markieren, indem Sie das Symbol **[!UICONTROL Für Veröffentlichung markieren]** auswählen. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie in Adobe Dynamic Media Classic hochladen.
+Primäre Bilder müssen für die Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre primären Bilder zur Veröffentlichung im Durchsuchen-Bedienfeld markieren, indem Sie das Symbol **[!UICONTROL Für Veröffentlichung markieren]** auswählen. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie in Adobe Dynamic Media Classic hochladen.
 
 ## Veröffentlichen der primären Bilder {#publishing-your-master-images}
 
