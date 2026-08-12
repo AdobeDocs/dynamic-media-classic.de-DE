@@ -12,16 +12,13 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T20:09:10.008Z'
 TQID: 'https://experienceleague.adobe.com/Yih-wBixagRAQAOSGXz93bEmNJA7a-YbSCfiTLRIAiA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e78479f4044d2af484db2dd9783cbcff7940ea59
 workflow-type: tm+mt
-source-wordcount: 172
-ht-degree: 11%
+source-wordcount: 171
+ht-degree: 1%
 
 ---
 
@@ -31,11 +28,11 @@ Beim Veröffentlichen der Vorlage wird sie auf Dynamic Media-Bildservern abgeleg
 
 >[!NOTE]
 >
->Um eine Vorlage zu verwenden, veröffentlichen Sie den gesamten Inhalt, der bei ihrer Erstellung verwendet wurde, einschließlich der Schriftarten und Bilder. Wenn Sie nicht alle erforderlichen Dateien einbeziehen, wird bei der Veröffentlichung eine Fehlermeldung angezeigt.
+>Um Ihre Vorlage zu verwenden, veröffentlichen Sie alle Inhalte, die zum Erstellen erforderlich sind, einschließlich Schriftarten und Bildern. Wenn Sie nicht alle erforderlichen Dateien einbeziehen, wird bei der Veröffentlichung eine Fehlermeldung angezeigt.
 
 ## Markieren von Vorlagen für die Veröffentlichung {#marking-templates-for-publish}
 
-Vorlagen und all ihre unterstützenden Dateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildservern platziert werden können. Sie können diese Elemente im Durchsuchen-Bedienfeld zur Veröffentlichung markieren, indem Sie das Symbol **[!UICONTROL Für Veröffentlichung markieren]** auswählen.
+Vorlagen und all ihre unterstützenden Dateien müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildservern platziert werden können. Sie können diese Elemente im Durchsuchen-Bedienfeld zur Veröffentlichung markieren, indem Sie das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** auswählen.
 
 ## Veröffentlichen der Vorlage {#publishing-your-template}
 
