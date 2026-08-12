@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:38.271Z'
 TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 21%
+source-wordcount: 1669
+ht-degree: 17%
 
 ---
 
@@ -29,11 +26,11 @@ ht-degree: 21%
 
 Sie veröffentlichen Ihre Assets auf Dynamic Media-Bildservern. Sie können Assets einmalig veröffentlichen oder veranlassen, dass Adobe Dynamic Media Classic Assets wiederholt veröffentlicht. Sobald die Assets veröffentlicht wurden, sind sie für Sie zur Bereitstellung verfügbar. Sie können die URL-Aufrufe aus Adobe Dynamic Media Classic kopieren und zu Ihrer Website oder Anwendung hinzufügen.
 
-Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern und ermöglicht schnellere Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic unterstützt jetzt die Bereitstellung aller Bilder und Videos über HTTP/2. Das heißt, eine veröffentlichte URL oder ein Einbettungs-Code für das Bild oder Video kann in jede Anwendung integriert werden, die ein gehostetes Asset akzeptiert. Dieses veröffentlichte Asset verwendet das HTTP/2-Protokoll, um es bereitzustellen. Diese Bereitstellungsmethode verbessert die Kommunikation zwischen Browsern und Servern, was zu verbesserten Antwort- und Ladezeiten für alle Adobe Dynamic Media Classic-Assets führt. Siehe [Häufig gestellte Fragen zur Bereitstellung von Inhalten über HTTP/2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Nach dem Hochladen veröffentlichen {#publish-after-uploading}
 
-Assets befinden sich entweder in einem veröffentlichten oder unveröffentlichten Status. Standardmäßig werden alle Assets, die Sie in Adobe Dynamic Media Classic hochladen, automatisch zur Veröffentlichung markiert.
+Assets befinden sich entweder im Status „Veröffentlicht“ oder „Unveröffentlicht“. Standardmäßig werden alle Assets, die Sie in Adobe Dynamic Media Classic hochladen, automatisch zur Veröffentlichung markiert.
 
 Weitere Informationen finden Sie unter [Sofortige Veröffentlichung - PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
@@ -43,7 +40,7 @@ Verwenden Sie diese Verfahren, um Assets zur Veröffentlichung zu markieren:
 
 * **[!UICONTROL Nach Hochladen veröffentlichen]**: Wählen Sie im Dialogfeld Auftragsoptionen die Option **[!UICONTROL Nach Hochladen veröffentlichen]** aus. Die Standardeinstellung ist „ausgewählt“.
 
-Einige abgeleitete Assets werden automatisch zur Veröffentlichung markiert, wenn ihre Stammelemente zur Veröffentlichung markiert werden. In dieser Tabelle werden untergeordnete Assets aufgelistet, die automatisch zur Veröffentlichung markiert sind.
+Einige abhängige Assets werden automatisch zur Veröffentlichung markiert, wenn ihre übergeordneten Assets zur Veröffentlichung markiert sind. In dieser Tabelle werden untergeordnete Assets aufgelistet, die automatisch zur Veröffentlichung markiert sind.
 
 | Übergeordnetes Element (Gruppe) | Untergeordnete Elemente (Mitglieder) |
 | --- | --- |
@@ -56,7 +53,7 @@ Abgeleitete Bilder werden ebenfalls automatisch zur Veröffentlichung markiert, 
 
 ## Erstellen eines Veröffentlichungsauftrags {#creating-a-publish-job}
 
-Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf Adobe Dynamic Media Classic-Server hochgeladen haben, die aber noch nicht automatisch veröffentlicht werden sollen. Sie können einen einmaligen Veröffentlichungsauftrag ausführen oder Aufträge so planen, dass sie regelmäßig wiederholt werden. Adobe Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern sowie Optionen für die erneute Veröffentlichung von bereits veröffentlichten Assets.
+Erstellen Sie einen Veröffentlichungsauftrag, um Assets zu veröffentlichen, die Sie auf Adobe Dynamic Media Classic-Server hochgeladen haben. Verwenden Sie dies für Assets, die nicht automatisch veröffentlicht werden sollen. Sie können einen einmaligen Veröffentlichungsauftrag ausführen oder Aufträge so planen, dass sie regelmäßig wiederholt werden. Adobe Dynamic Media Classic bietet erweiterte Veröffentlichungsoptionen für die Veröffentlichung auf bestimmten Servern sowie Optionen für die erneute Veröffentlichung von bereits veröffentlichten Assets.
 
 **So erstellen Sie einen Veröffentlichungsauftrag:**
 
@@ -88,13 +85,13 @@ Wenn der Veröffentlichungsauftrag später ausgeführt werden soll, wählen Sie 
 
 Erstellen Sie einen wiederkehrenden Veröffentlichungsauftrag, indem Sie **[!UICONTROL Wiederkehrend]** auf der Seite „Veröffentlichen“ auswählen.
 
-Wählen Sie dann die Wiederholungsoption **[!UICONTROL Täglich]**, **[!UICONTROL Wöchentlich]**, **[!UICONTROL Monatlich]** oder **[!UICONTROL Benutzerdefiniert]** und geben Sie an, wann der Veröffentlichungsauftrag wiederholt werden soll. Adobe Dynamic Media Classic bietet Kalendertools für die Planung des wiederkehrenden Veröffentlichungsauftrags. Sie können die Option **[!UICONTROL Benutzerdefiniert]** auswählen und eine Regel in das Textfeld „Regel“ eingeben, um ein benutzerdefiniertes Auftragsintervall zu beschreiben.
+Wählen Sie dann die Wiederholungsoption **[!UICONTROL Täglich]**, **[!UICONTROL Wöchentlich]**, **[!UICONTROL Monatlich]** oder **[!UICONTROL Benutzerdefiniert]** und geben Sie an, wann der Veröffentlichungsauftrag wiederholt werden soll. Adobe Dynamic Media Classic stellt Kalendertools zur Planung des wiederkehrenden Veröffentlichungsauftrags vor. Sie können die Option **[!UICONTROL Benutzerdefiniert]** auswählen und eine Regel in das Textfeld „Regel“ eingeben, um ein benutzerdefiniertes Auftragsintervall zu beschreiben.
 
 Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Uploads oder Veröffentlichungsaufträge](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >
->Wiederkehrende Veröffentlichungsaufträge (und Upload-Aufträge) werden auf der Seite „Aufträge“ aufgelistet. Wenn Sie einen geplanten Auftrag bearbeiten oder löschen möchten, wählen Sie auf der Seite „Aufträge“ die Registerkarte „Geplant“ aus.
+>Wiederkehrende Veröffentlichungsaufträge (und Upload-Aufträge) werden auf der Seite „Aufträge“ aufgelistet. Um einen geplanten Auftrag zu bearbeiten oder zu löschen, gehen Sie auf die Registerkarte Geplant der Seite Aufträge .
 
 ### Erweiterte Veröffentlichungsoptionen {#advanced-publish-options}
 
@@ -108,7 +105,7 @@ Sie können die erweiterten Optionen auf der Seite „Veröffentlichen“ anzeig
 
 **[!UICONTROL HTTP-Benachrichtigung]**: Geben Sie eine URL ein, um nachfolgende Veröffentlichungsaufträge in den Trigger aufzunehmen.
 
-Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger &#x200B;](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
+Siehe [Verwenden eines Upload- oder Veröffentlichungsauftrags als Trigger ](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
 ## Abbrechen von Veröffentlichungsaufträgen {#canceling-a-publish-job}
 
@@ -122,9 +119,9 @@ Um einen Veröffentlichungsauftrag abzubrechen, gehen Sie zur Seite „Aufträge
 
 ## Manuelles Veröffentlichen von Assets {#manually-publishing-assets}
 
-Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Beim Veröffentlichen von Sets, z. B. eines Bildsets oder eines adaptiven Videosets, werden das Set (oder „übergeordnete“ Elemente) und alle Mitglieder (oder „untergeordneten“ Elemente„) innerhalb dieses Sets veröffentlicht.
+Sie können einzelne Assets manuell veröffentlichen, anstatt einen Veröffentlichungsauftrag zu erstellen. Beim Veröffentlichen von Sets werden das übergeordnete Element und alle untergeordneten Elemente innerhalb dieses Sets veröffentlicht.
 
-Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues, rundes Symbol mit einem Schrägstrich (unveröffentlichter Status) links neben dem Asset-Namen gekennzeichnet. Nach dem Veröffentlichen eines Assets ändert sich das Symbol in ein grünes Kreissymbol mit einem weißen Häkchen (Status „veröffentlicht“).
+Ein graues, rundes Symbol mit einer durchgehenden Linie (unveröffentlichter Status) links neben dem Namen des Assets zeigt nicht veröffentlichte Assets in der Benutzeroberfläche an. Nach dem Veröffentlichen eines Assets ändert sich das Symbol in ein grünes Kreissymbol mit einem weißen Häkchen (Status „veröffentlicht“).
 
 **So veröffentlichen Sie Assets manuell:**
 
@@ -134,13 +131,13 @@ Nicht veröffentlichte Assets werden in der Benutzeroberfläche durch ein graues
 
      Navigieren Sie in der globalen Navigationsleiste zu **[!UICONTROL Datei]** > **[!UICONTROL Veröffentlichen]**.
 
-   * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht das graue, runde Symbol mit einem Schrägstrich links neben dem Asset-Namen aus.
+   * Wählen Sie in der Rasteransicht, Listenansicht oder Detailansicht das graue, runde Symbol mit einer durchgehenden Linie links neben dem Asset-Namen aus.
 
 ## Manuelles Rückgängigmachen der Veröffentlichung von Assets {#manually-unpublishing-assets}
 
-Sie können die Veröffentlichung einzelner Assets manuell rückgängig machen. Wenn Sie die Veröffentlichung von Sets aufheben, z. B. eines Mustersets oder eines E-Katalogs, wechselt das Set (oder „übergeordnete„) selbst in einen unveröffentlichten Status. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
+Sie können die Veröffentlichung einzelner Assets manuell rückgängig machen. Wenn Sie die Veröffentlichung von Sets aufheben, wechselt das übergeordnete Element in einen unveröffentlichten Status. Die Mitglieder (oder „untergeordneten Elemente„) in diesem Set sind jedoch nicht betroffen. Stattdessen behalten sie jeweils ihren vorhandenen Status „Veröffentlicht“ oder „Unveröffentlicht“ bei.
 
-Veröffentlichte Assets werden in der Benutzeroberfläche durch ein rundes, grünes Symbol mit einem weißen Häkchen in der Mitte (Veröffentlichungsstatus) links neben dem Asset-Namen gekennzeichnet. Nachdem die Veröffentlichung eines Assets rückgängig gemacht wurde, wird das Symbol grau mit einem Schrägstrich (unveröffentlichter Status).
+Ein rundes, grünes Symbol mit einem weißen Häkchen in der Mitte (Veröffentlichungsstatus) links neben dem Namen des Assets zeigt veröffentlichte Assets in der Benutzeroberfläche an. Nachdem die Veröffentlichung eines Assets rückgängig gemacht wurde, wird das Symbol grau mit einer durchgehenden Linie angezeigt (Status „Unveröffentlicht„).
 
 **So heben Sie die Veröffentlichung von Assets manuell auf:**
 
@@ -158,11 +155,11 @@ Das letzte Datum, an dem ein Asset veröffentlicht wurde, wird in der Detailansi
 
 ## Erneut veröffentlichte Assets und CDN-Verzögerungen {#republished-assets-and-cdn-delays}
 
-Adobe Dynamic Media Classic-Assets werden im Content Delivery Network (CDN) verteilt. CDN ist ein System von vernetzten Computer-Servern, die auf transparente Weise zusammenarbeiten, um Inhalte – insbesondere umfangreiche Medieninhalte – für Endbenutzer bereitzustellen. Im CDN-System werden Web-Inhalte in Web-Caches im Internet gespeichert (das so genannte Edge-Cache-Netzwerk). Web-Inhalte werden von den Web-Caches an die Endbenutzer bereitgestellt, um schnellere Sendungen zu ermöglichen.
+Adobe Dynamic Media Classic-Assets werden im Content Delivery Network (CDN) verteilt. CDN ist ein System von Computer-Servern, die miteinander vernetzt sind. Sie arbeiten zusammen, um Endbenutzern Inhalte, insbesondere große Medieninhalte, bereitzustellen. Im CDN-System werden Web-Inhalte in Web-Caches im Internet gespeichert (das so genannte Edge-Cache-Netzwerk). Web-Inhalte werden aus den Web-Caches an Endbenutzer bereitgestellt, um schnellere Sendungen zu ermöglichen.
 
-Wenn jemand zum ersten Mal eine Web-Seite herunterlädt, werden die Assets an einen CDN-Web-Cache-Server bereitgestellt. Dieser Server speichert sie, sodass derselbe zwischengespeicherte Inhalt schneller bereitgestellt wird, wenn das nächste Mal eine Person in demselben Bereich auf die Web-Seite zugreift. Die Inhaltsbereitstellung erfolgt schneller, weil der Inhalt näher beim Endbenutzer aufbewahrt wird. CDN sorgt für eine schnellere Anzeige von Web-Seiten. Die Bandbreitenanforderungen an den zentralen Server werden verringert, da die Inhalte über das Edge-Cache-Netzwerk bereitgestellt werden, nicht jedes Mal von einem zentralen Server aus.
+Wenn jemand zum ersten Mal eine Web-Seite herunterlädt, werden die Assets an einen CDN-Web-Cache-Server bereitgestellt. Dieser Server speichert sie, sodass derselbe zwischengespeicherte Inhalt schneller bereitgestellt wird, wenn das nächste Mal eine Person in demselben Bereich auf die Web-Seite zugreift. Die Inhaltsbereitstellung erfolgt schneller, weil der Inhalt näher beim Endbenutzer aufbewahrt wird. CDN ermöglicht schnellere Anzeigen von Web-Seiten. Die Bandbreitenanforderungen an den zentralen Server werden verringert, da die Inhalte über das Edge-Cache-Netzwerk bereitgestellt werden, nicht jedes Mal von einem zentralen Server aus.
 
-Neu veröffentlichte Adobe Dynamic Media Classic-Inhalte sind für den Endbenutzer sofort verfügbar und füllen das Edge-Cache-Netzwerk schnell auf. Neu veröffentlichte Inhalte, d. h. Bilder mit denselben Namen wie zuvor auf einem Bildserver veröffentlichte Bilder, werden jedoch bis zu zehn Stunden lang nicht im CDN aktualisiert. Stattdessen sehen Endbenutzer, was sich in einem Web-Cache im CDN-Netzwerk befindet. Aus diesem Grund werden Ihre erneut veröffentlichten Adobe Dynamic Media Classic-Assets Endbenutzern zehn Stunden lang nicht angezeigt.
+Neu veröffentlichte Adobe Dynamic Media Classic-Inhalte sind für den Endbenutzer sofort verfügbar und füllen das Edge-Cache-Netzwerk schnell auf. Neu veröffentlichte Inhalte, d. h. Bilder mit denselben Namen wie zuvor auf einem Image-Server veröffentlichte Bilder, werden jedoch bis zu zehn Stunden lang nicht im CDN aktualisiert. Stattdessen sehen Endbenutzer, was sich in einem Web-Cache im CDN-Netzwerk befindet. Aus diesem Grund werden Ihre erneut veröffentlichten Adobe Dynamic Media Classic-Assets Endbenutzern zehn Stunden lang nicht angezeigt.
 
 Wenn Sie möchten, dass Ihre neu veröffentlichten Bild-Assets früher als nach der zehnstündigen Verzögerung verfügbar sind, können Sie Web-Caches im CDN leeren. Wenn diese Web-Caches bereinigt werden, werden alte Inhalte aus den CDN-Web-Caches entfernt und durch die zuletzt veröffentlichten Assets ersetzt.
 
