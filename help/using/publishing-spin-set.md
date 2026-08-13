@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 149675d236e33ffb14ef1dee7eae6f405fc06325
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 176
 ht-degree: 10%
 
 ---
 
 # Veröffentlichen eines Rotationssets{#publishing-a-spin-set}
 
-Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic Media-Bildservern platziert, wo sie für Ihre Website oder Ihr Programm verfügbar sind. Darüber hinaus aktiviert Adobe Dynamic Media Classic während des Veröffentlichungsprozesses die URL-Zeichenfolgen, die Sie für Ihre Website oder Ihr Programm benötigen.
+Beim Veröffentlichen eines Rotationssets werden die Bilder im Set auf Dynamic Media-Bildservern platziert, wo sie für Ihre Website oder Ihr Programm verfügbar sind. Darüber hinaus aktiviert Adobe Dynamic Media Classic während des Veröffentlichungsprozesses die URL-Zeichenfolgen für Rotationssets, die Sie für Ihre Website oder Ihr Programm benötigen.
 
 ## Markieren eines Rotationssets für die Veröffentlichung {#marking-a-spin-set-for-publish}
 
-Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf die Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können Ihr Rotationsset zur Veröffentlichung im Durchsuchen-Panel markieren, indem Sie links neben dem Namen auf **[!UICONTROL Zur Veröffentlichung]** markieren“ klicken. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
+Markieren Sie das Rotationsset zur Veröffentlichung, damit es auf Adobe Dynamic Media Classic-Bildserver kopiert werden kann. Sie können Ihr Rotationsset zur Veröffentlichung im Durchsuchen-Bedienfeld markieren, indem Sie auf der linken Seite des Namens das **[!UICONTROL Zur Veröffentlichung markieren]** auswählen. Wenn Sie das Rotationsset selbst zur Veröffentlichung markieren, werden alle darin befindlichen Bilder entsprechend markiert.
 
 ## Veröffentlichen des Rotationssets {#publishing-the-spin-set}
 

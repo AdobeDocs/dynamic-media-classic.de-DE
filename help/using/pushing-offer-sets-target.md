@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 8a9d304ced3a218ae6393961a278f5ab9581c229
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 283
 ht-degree: 0%
 
 ---
@@ -31,10 +31,10 @@ ht-degree: 0%
 
 Nachdem Sie ein Angebotsset erstellt oder bearbeitet haben, übertragen Sie es auf Adobe Target Standard/Premium, indem Sie die folgenden Schritte ausführen:
 
-1. Wählen Sie im Bildschirm „Test&amp;Target-Angebotssatz“ die Option **[!UICONTROL Push-Angebote]**.
+1. Wählen Sie im Bildschirm Test &amp; Target-Angebotsset die Option **[!UICONTROL Push-Angebote]** aus.
 1. Geben Sie Ihren Clientcode und Ihre Anmeldedaten ein.
 1. Wählen Sie **[!UICONTROL Anmelden]** aus.
 
-Bei der Übertragung auf Adobe Target Standard/Premium wird das Präfix `S7_` automatisch an den Beginn der Angebotsnamen angehängt. Dieses Präfix ist beigefügt, damit Sie Adobe Dynamic Media Classic-Angebote in der Test&amp;Target-Angebotsliste leicht finden können. Das Angebot wird beispielsweise als `S7_<name of offer set>_<offer name>` angezeigt.
+Bei der Übertragung auf Adobe Target Standard/Premium wird das Präfix `S7_` automatisch zum Beginn der Angebotsnamen hinzugefügt. Dieses Präfix wurde hinzugefügt, um sicherzustellen, dass Sie Adobe Dynamic Media Classic-Angebote in der Test &amp; Target-Angebotsliste leicht finden können. Das Angebot wird beispielsweise als `S7_<name of offer set>_<offer name>` angezeigt.
 
-Adobe Dynamic Media Classic übernimmt Adobe Target Standard/Premium-Widget-Angebote. Sie können Widget-Angebote verwenden, um Ihre eigenen angebotenen Inhalte auf Adobe Target Standard/Premium zu hosten. Widget-Angebote ähneln einem Standardangebot, das von Adobe Target Standard/Premium gehostet wird. Sie ermöglichen es Adobe Target Standard/Premium, auf Ihrem Server gespeicherte Angebotsinhalte bereitzustellen, was eine komplexere und dynamischere Nutzung ermöglicht. Widget-Angebote können Inhalte von einer URL abrufen, diese Inhalte zwischenspeichern und für etwa zwei Stunden bereitstellen. Widget-Angebote bieten einige Funktionen zur dynamischen Inhaltserstellung, die andere Angebote außerhalb von Adobe Target Standard/Premium nicht bieten. Wenn die Mbox, die das Angebot bereitstellt, Mbox-Parameter wie `mboxProductID` und `mbox.offerId` enthält, werden die `productId=[PRODUCT_ID]`- und `offerID=[OFFERID]` URL-Parameter an die angeforderte URL angehängt. Diese Parameter werden von einem Service verwendet, der unter der Widget-Angebots-URL verfügbar ist, um Inhalte außerhalb von Adobe Target Standard/Premium zurückzugeben, die Produkt- oder Bestellinformationen aus Ihren Mboxes verwenden. Auf das Widget-Angebot kann auch über die API zugegriffen werden, sodass Sie programmgesteuert Angebote außerhalb von Adobe Target Standard/Premium erstellen können.
+Adobe Dynamic Media Classic überträgt Widget-Angebote in Adobe Target Standard/Premium. Sie können Widget-Angebote verwenden, um Ihre angebotenen Inhalte auf Adobe Target Standard/Premium zu hosten. Widget-Angebote sind mit einem Standardangebot von Adobe Target Standard/Premium vergleichbar. Sie ermöglichen es Adobe Target Standard/Premium, auf Ihrem Server gespeicherte Angebotsinhalte bereitzustellen, was eine komplexere und dynamischere Nutzung ermöglicht. Widget-Angebote rufen Inhalte von einer URL ab, wobei diese Inhalte zwei Stunden lang zwischengespeichert und bereitgestellt werden. Widget-Angebote bieten einige Funktionen zur dynamischen Inhaltserstellung, die andere Angebote außerhalb von Adobe Target Standard/Premium nicht bieten. Wenn die Mbox, die das Angebot bereitstellt, Mbox-Parameter wie `mboxProductID` und `mbox.offerId` enthält, werden die `productId=[PRODUCT_ID]`- und `offerID=[OFFERID]` URL-Parameter an die angeforderte URL angehängt. Ein Service, der unter der Widget-Angebots-URL verfügbar ist, verwendet diese Parameter, um Inhalte außerhalb von Adobe Target Standard/Premium zurückzugeben, die Produkt- oder Bestellinformationen aus Ihren Mboxes verwenden. Auf das Widget-Angebot kann auch über die API zugegriffen werden, sodass Sie programmgesteuert Angebote außerhalb von Adobe Target Standard/Premium erstellen können.

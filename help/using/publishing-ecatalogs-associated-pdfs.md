@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6fb52aee7459e9e80a812215a5ba225348fced52
 workflow-type: tm+mt
-source-wordcount: 197
-ht-degree: 13%
+source-wordcount: 195
+ht-degree: 10%
 
 ---
 
 # Veröffentlichen von E-Katalogen und zugehörigen PDFs{#publishing-ecatalogs-and-associated-pdfs}
 
-Beim Veröffentlichen werden Ihr E-Katalog und PDF auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website oder Anwendung verfügbar gemacht werden können. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. Sie können diese URL-Zeichenfolge in Ihren HTML-Webseiten-Code einfügen.
+Beim Veröffentlichen werden Ihr E-Katalog und PDF auf Dynamic Media-Bildservern platziert, damit sie für Ihre Website oder Anwendung verfügbar gemacht werden können. Im Rahmen des Veröffentlichungsprozesses aktiviert Adobe Dynamic Media Classic die URL-Zeichenfolge. Sie können diese URL-Zeichenfolge in Ihren HTML-Web-Seiten-Code einfügen.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass sich Ihr E-Katalog und PDF im selben Ordner befinden. Vergewissern Sie sich außerdem, dass sie im Durchsuchen-Panel oder auf der Asset-Detailseite zur Veröffentlichung markiert sind, bevor Sie sie veröffentlichen.
+>Stellen Sie sicher, dass sich Ihr E-Katalog und PDF im selben Ordner befinden. Stellen Sie sicher, dass sie im Durchsuchen-Panel oder auf der Asset-Detailseite zur Veröffentlichung markiert sind, bevor Sie sie veröffentlichen.
 
 **Veröffentlichen von E-Katalogen und zugehörigen PDFs:**
 
@@ -39,7 +39,7 @@ Beim Veröffentlichen werden Ihr E-Katalog und PDF auf Dynamic Media-Bildservern
 1. Wählen Sie auf dem Bildschirm „Veröffentlichen **[!UICONTROL „Einmalig]** oder &quot;**[!UICONTROL &quot;]**.
 1. (Optional) Geben Sie im Feld Auftragsname einen Namen für den Veröffentlichungsauftrag ein, behalten Sie jedoch den vordefinierten Text für Datum und Uhrzeit bei.
 
-   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Erweitert]** aus. Wählen Sie im Dropdown **[!UICONTROL Menü]** Veröffentlichen“ die Option **[!UICONTROL Vollständig mit Suchdaten]**. Diese Option ist standardmäßig aktiviert.
+   Wenn Sie den E-Katalog so konfiguriert haben, dass Betrachter der Website nach Stichwörtern suchen können, vergewissern Sie sich, dass die Stichwortdaten veröffentlicht wurden. Wählen Sie im Dialogfeld „Veröffentlichen“ die Option **[!UICONTROL Erweitert]** aus. Wählen Sie **[!UICONTROL Dropdown-Menü]** Veröffentlichen“ die Option **[!UICONTROL Vollständig mit Suchdaten]**. Das System wählt diese Option standardmäßig aus.
 
 1. Wählen **[!UICONTROL Senden/Veröffentlichen]** aus.
 

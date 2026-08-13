@@ -20,7 +20,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 2f233c96497a020111949c809066160717d7ca91
 workflow-type: tm+mt
 source-wordcount: 154
 ht-degree: 0%
@@ -33,7 +33,7 @@ Beim Veröffentlichen werden Ihre Zoom-Bilder auf Dynamic Media-Bild-Servern pla
 
 ## Bilder zur Veröffentlichung markieren {#marking-images-for-publish}
 
-Bilder müssen zur Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung im Durchsuchen-Bedienfeld markieren, indem Sie das Symbol **[!UICONTROL Für Veröffentlichung markieren]** auswählen. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie hochladen.
+Bilder müssen für die Veröffentlichung markiert werden, damit sie auf Dynamic Media-Bildserver kopiert werden können. Sie können Ihre Bilder zur Veröffentlichung im Durchsuchen-Panel markieren, indem Sie das Symbol **[!UICONTROL Zur Veröffentlichung markieren]** auswählen. Sie können Bilder auch zur Veröffentlichung markieren, wenn Sie sie hochladen.
 
 ## Veröffentlichen der Bilder {#publishing-the-images}
 

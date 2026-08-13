@@ -20,16 +20,16 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: eb277ead83e873c9bcc8bacaf300993a1f0565a4
 workflow-type: tm+mt
-source-wordcount: 2434
-ht-degree: 30%
+source-wordcount: 2368
+ht-degree: 23%
 
 ---
 
 # Veröffentlichungseinstellungen {#publish-setup}
 
-Die Einstellungen der Seite „Veröffentlichungseinstellungen“ bestimmen, wie Assets standardmäßig von Adobe Dynamic Media Classic-Servern an Websites oder Programme bereitgestellt werden. Wenn keine Einstellung festgelegt ist, stellt der Adobe Dynamic Media Classic-Server ein Asset gemäß einer Standardeinstellung auf der Seite „Veröffentlichungseinstellungen“ bereit. Beispielsweise liefert eine Anforderung zum Bereitstellen eines Bildes, das kein Auflösungsattribut enthält, ein Bild mit der Einstellung „Standardobjektauflösung“ auf der Seite „Bild-Server“.
+Adobe Dynamic Media Classic-Server stellen Assets standardmäßig für Websites oder Programme bereit, wie in den Einstellungen der Veröffentlichungseinstellungen festgelegt. Wenn keine Einstellung festgelegt ist, stellt der Adobe Dynamic Media Classic-Server ein Asset gemäß einer Standardeinstellung auf der Seite „Veröffentlichungseinstellungen“ bereit. Beispielsweise liefert eine Anforderung zum Bereitstellen eines Bildes, das kein Auflösungsattribut enthält, ein Bild mit der Einstellung „Standardobjektauflösung“ auf der Seite „Bild-Server“.
 
 Admins können die Standardeinstellungen auf den Seiten „Image-Server“, „Image-Renderer“ und „Vignette“ ändern, um Standardeinstellungen für die Bereitstellung von Assets von Servern festzulegen.
 
@@ -37,15 +37,15 @@ Um die Seiten der Veröffentlichungseinstellungen zu öffnen, gehen Sie zu **[!U
 
 >[!NOTE]
 >
->Die Veröffentlichungseinstellungen sind für erfahrene Website-Entwickler und -Programmierer vorgesehen. Adobe Dynamic Media Classic geht davon aus, dass Benutzende, die Einstellungen auf diesen Seiten ändern, mit Adobe Dynamic Media Classic, HTTP-Protokollstandards und -Konventionen und grundlegender Bildverarbeitungstechnologie vertraut sind.
+>Die Veröffentlichungseinstellungen sind für erfahrene Website-Entwickler und Programmierer vorgesehen. Adobe Dynamic Media Classic geht davon aus, dass Benutzende, die Einstellungen auf diesen Seiten ändern, mit Adobe Dynamic Media Classic, HTTP-Protokollstandards und -Konventionen und grundlegender Bildverarbeitungstechnologie vertraut sind.
 
 ## Image-Server {#image-server}
 
 Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitstellung von Bildern von Image-Servern festgelegt. Die Einstellungen sind in diesen fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie auf der Image-Server-Seite selbst).
 
-Ändern Sie diese Einstellungen nur mithilfe eines Adobe Dynamic Media Classic-Support-Mitarbeiters.
+Ändern Sie diese Einstellungen nur mithilfe eines Mitglieds des Adobe Dynamic Media Classic-Supportteams.
 
-* **[!UICONTROL Katalogverwaltung]**: Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und der Katalog interagieren. Im Gegensatz zu den meisten Webservern werden URL-Aufrufe des Dynamic Media-Bildservers an eine Manifest- oder Katalogdatei und nicht an eine eigentliche Bilddatei gesendet. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste aller auf dem Bildserver veröffentlichten Inhalte. Sie enthält auch den Pfad zu den einzelnen Bildern. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
+* **[!UICONTROL Katalogverwaltung]**: Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und der Katalog interagieren. Im Gegensatz zu den meisten Webservern werden URL-Aufrufe des Dynamic Media-Bildservers an eine Manifest- oder Katalogdatei anstelle einer tatsächlichen Bilddatei weitergeleitet. Die Katalogdatei (nicht zu verwechseln mit einem E-Katalog) enthält eine Liste aller auf dem Bildserver veröffentlichten Inhalte. Sie enthält auch den Pfad zu den einzelnen Bildern. Wenn Sie über eine Digimarc-ID verfügen, geben Sie Ihre Benutzerdaten im Abschnitt „Benutzerinformationen für Digimarc“ ein.
 
 * **[!UICONTROL Anfrage-Attribute]**: Mit diesen Einstellungen werden Einschränkungen für die Bilder festgelegt, die über den Server bereitgestellt werden können. Die maximale Größe *max* für **[!UICONTROL Antwortbild]** beträgt beispielsweise **[!UICONTROL Breite]** 5000 und **[!UICONTROL Höhe]** 5000.
 
@@ -59,12 +59,12 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
 
 * **[!UICONTROL Kompatibilitätsattribute]**: Diese Einstellung ermöglicht die Behandlung von Anfangs- und Endabsätzen in Textebenen wie in Version 3.6, um die Abwärtskompatibilität zu gewährleisten.
 
-* **[!UICONTROL Lokalisierungsunterstützung]**: Mit diesen Einstellungen können mehrere Gebietsschemaattribute verwaltet werden. Damit können Sie außerdem eine Zeichenfolge für Gebietsschemakarten angeben, um zu definieren, welche Sprachen Sie für die verschiedenen QuickInfos in den Viewern unterstützen möchten.
+* **[!UICONTROL Lokalisierungsunterstützung]**: Mit diesen Einstellungen können mehrere Gebietsschemaattribute verwaltet werden. Außerdem können Sie eine Zeichenfolge für die Gebietsschema-Zuordnung angeben. Auf diese Weise können Sie die Sprachen definieren, die Sie unterstützen möchten. Sie gelten für die verschiedenen QuickInfos in Viewern.
 
   Wenn Sie beispielsweise eine multinationale Marke sind mit Vertrieb in verschiedenen Ländern, können Sie sicherstellen, dass jedes Land seinen eigenen Gebietsschema-spezifischen Viewer hat. Für diese Funktion geben Sie eine Zeichenfolge für Gebietsschemakarten an. Anschließend bearbeiten Sie den QuickInfo-Text in der Viewer-Vorgabe. Fügen Sie einfach die übersetzten Textzeichenfolgen für die gewünschte Sprache hinzu.
 
   >[!NOTE]
-  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Setup-Hilfe.
+  > Um Optionen für die Lokalisierungsunterstützung einzurichten, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/business/enterprise.html) Bitten Sie in Ihrem Support-Fall um Setup-Hilfe.
 
   Weitere Informationen zum Einrichten von **[!UICONTROL Lokalisierungsunterstützung]** finden Sie unter [Betrachtungen beim Planen der Asset-Lokalisierung](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -72,9 +72,9 @@ Auf der Seite „Image-Server“ werden Standardeinstellungen für die Bereitste
 
 >[!NOTE]
 >
->Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Bitten Sie in Ihrem Support-Fall um Setup-Hilfe.
+>Wenn Sie Optionen für die Lokalisierungsunterstützung in Adobe Dynamic Media Classic einrichten möchten, wie z. B. das Feld „Gebietsschema-Zuordnung“, [verwenden Sie die Admin Console, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/business/enterprise.html) Bitten Sie in Ihrem Support-Fall um Setup-Hilfe.
 
-Eine gängige Methode zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen haben das Problem, dass Assets für ähnliche Produkte je nach Land ganz anders aussehen. Normalerweise bestehen die Unterschiede bei einigen Teilen des gesamten Mediums. Solche Unterschiede zu beheben, indem alle Vermögenswerte für jedes der Länder kopiert und nur die Unterschiede überschrieben werden, ist eine enorme Anstrengung und widerspricht der einzigen Metapher der primären Vermögenswerte. Solche Unterschiede bei Assets können von länderspezifischen Videos mit verschiedenen Audiospuren bis zu minimalen aber wichtigen Unterschieden bei einem Netzkabel reichen, das im Lieferumfang des Produkts enthalten ist. Adobe Dynamic Media Classic verwendet einen einfachen Suchmechanismus. Sie definieren eine Reihenfolge der Asset-Suffixe, in denen Image Server beginnend mit dem erforderlichen Gebietsschema sucht.
+Eine gängige Methode zur Verwendung von Adobe Dynamic Media Classic besteht darin, die Produktbilder auf E-Commerce-Websites zu verwalten. Internationale Unternehmen stehen vor der Herausforderung, dass die Vermögenswerte für ähnliche Produkte je nach Region variieren. Normalerweise sind die Unterschiede für einige Komponenten der Medien. Die Verwaltung solcher Unterschiede durch Kopieren aller Assets für jedes Land und Überschreiben der Unterschiede ist eine komplexe Aufgabe und steht nicht im Einklang mit dem Single-Primary-Asset-Prinzip. Die Unterschiede bei Assets reichen von länderspezifischen Videos mit unterschiedlichen Audiospuren bis hin zu geringfügigen, aber wichtigen Unterschieden bei einem Netzkabel, das mit dem Produkt verwendet wird. Adobe Dynamic Media Classic verwendet einen einfachen Suchmechanismus. Sie definieren eine Reihenfolge von Asset-Suffixen, in der der Bild-Server aussieht, beginnend mit dem erforderlichen Gebietsschema.
 
 #### Lokalisieren von Assets
 
@@ -84,9 +84,9 @@ Das Gebietsschema für eine IS-Anfrage (Image Serving) wird mit dem folgenden IS
 
 Dieser Befehl akzeptiert eine Zeichenfolge mit der Gebietsschema-ID (locId), bei der nicht zwischen Groß- und Kleinschreibung unterschieden wird. Die Gebietsschema-ID ist normalerweise eine Zeichenfolge mit 2-6 Zeichen, die aus Buchstaben und &quot;`_`&quot; besteht.
 
-IS unterstützt beliebige druckbare ASCII-Zeichenfolgen. Der Befehl `locale=` hat einen globalen Gültigkeitsbereich, d. h. er wird auf die gesamte Anfrage angewendet, einschließlich aller verschachtelten IS- und IR-Anfragen, referenzierten Vorlagen und Bildebenen. Mehrere Gebietsschemas pro Abfrage, wie ein verschiedenes Gebietsschema für jede Ebene, werden nicht unterstützt. Es ist jedoch denkbar, explizite Überschreibvorgänge in verschachtelten Abfragen zuzulassen.
+IS unterstützt beliebige druckbare ASCII-Zeichenfolgen. Der Befehl `locale=` gilt global für die gesamte Anfrage, einschließlich verschachtelter Anfragen, Vorlagen und Ebenen. Mehrere Gebietsschemata pro Anfrage, z. B. ein anderes Gebietsschema für jede Ebene, werden nicht unterstützt. Es ist jedoch denkbar, explizite Überschreibvorgänge in verschachtelten Abfragen zuzulassen.
 
-Wenn `locale=` nicht angegeben ist, wird `attribute::DefaultLocale` an die Übersetzungs-Engines übergeben. Auf den `locale=`-Wert wird eine eingeschränkte Eingabevalidierung angewendet. Leere `locale=` sind zulässig. Da `locale=` einen globalen Umfang hat, wird `attribute::DefaultLocale` vom Hauptkatalog für die gesamte Anfrage bereitgestellt.
+Wenn `locale=` nicht angegeben ist, wird `attribute::DefaultLocale` an die Übersetzungs-Engines übergeben. Auf den `locale=`-Wert wird eine eingeschränkte Eingabevalidierung angewendet. Leere `locale=` sind zulässig. Da `locale=` einen globalen Umfang hat, enthält der Hauptkatalog `attribute::DefaultLocale` für die gesamte Anfrage.
 
 Zu den Vorteilen der Verwendung von `locale=` und `attribute::DefaultLocale` gehören die folgenden:
 
@@ -95,7 +95,7 @@ Zu den Vorteilen der Verwendung von `locale=` und `attribute::DefaultLocale` geh
 * Zulassen von Flexibilität bei Benennungskonventionen und Verwaltung Gebietsschema-spezifischer Inhalte wie Gebietsschema-Präfix und -Suffix oder Gebietsschema-spezifischer Inhalte in einem separaten Katalog.
 * Unterstützung des Zugriffs auf gebietsschemaspezifische Versionen.
 * Aggregierte Objekte wie Bildsets können manchmal allgemeine Verweise auf potenziell gebietsschemaspezifische Inhalte enthalten.
-* Unterstützt alle Inhalte, die von Katalogen verwaltet werden, die lokalisiert werden müssen, einschließlich Bilder, Bildsets, Vignetten, Materialien und Viewer-Konfigurationsdatensätze.
+* Unterstützt alle katalogverwalteten Inhalte, die lokalisiert werden müssen, einschließlich Bilder, Sets, Vignetten, Materialien und Konfigurationen.
 * Minimieren von Änderungen an der IPS-Datenbank und IS-Manifestmechanismen.
 * Unterstützung für statische Inhalte wie Videos und Skins wird hinzugefügt, wenn RFC IS-63 implementiert ist.
 * Das Standard-Gebietsschema kann konfiguriert werden.
@@ -185,7 +185,7 @@ Sie können unbekannte Gebietsschemas bestimmten IDs oder generischen IDs zuordn
 | fr | myImg_F, myImg |
 | Alle anderen | myImg_E, myImg |
 
-Sie können auch ein dediziertes locSuffix wie z. B. U nur für unbekannte Gebietsschemata verwenden und das Standardbild erzwingen, wenn keine `_U` vorhanden ist, wie im Folgenden dargestellt:
+Verwenden Sie ein dediziertes locSuffix für unbekannte Gebietsschemata und erzwingen Sie das Standardbild, wenn keine `_U` vorhanden ist, wie im Folgenden dargestellt:
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,U`
 
@@ -195,9 +195,9 @@ Oder Sie können wie im folgenden Beispiel direkt die generische ID zuordnen:
 
 ##### Suchen der localeMap mithilfe einer mehrstufigen Suche
 
-Häufig ist es hilfreich, Gebietsschemas zu gruppieren, z. B. nach den Regionen Europa, Naher Osten und Nordamerika, um so regionalen Standards wie Sonneneinstrahlung zu berücksichtigen. Diesen Effekt erzielen Sie mit einer mehrstufigen Suche.
+Gruppieren Sie Gebietsschemata, um regionale Standards wie die Hautbelastung anzugehen. Dies kann mit einer mehrstufigen Suche erfolgen.
 
-Angenommen, Sie möchten Sammlungen für die Verwendung im Westen und Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden dann für bestimmte Gebietsschemata weiter verfeinert. Zum Beispiel `m1, m2` für zwei Varianten im Nahen Osten und `w1, w2,` und `w3` für drei westliche Gebietsschemata, mit der Ausnahme, dass Bilder für `w1` und `w3` freigegeben werden. Unbekannte Gebietsschemas sind nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf Gebietsschema-spezifische Bilder. Die Karte würde wie folgt aussehen:
+Angenommen, Sie möchten Sammlungen für die Verwendung im Westen und Nahen Osten unterstützen. Beide Sammlungen basieren auf der generischen Bildsammlung und in beiden werden einige Bilder hinzugefügt oder angepasst. Beide Sammlungen werden dann für bestimmte Gebietsschemata weiter verfeinert. Zum Beispiel `m1, m2` für zwei Varianten des Mittleren Ostens und `w1, w2` und `w3` für drei westliche Gebietsschemata, mit der Ausnahme, dass Bilder für `w1` und `w3` freigegeben werden. Unbekannte Gebietsschemas sind nur der generischen Sammlung zugeordnet und haben keinen Zugriff auf Gebietsschema-spezifische Bilder. Im Folgenden finden Sie die Karte:
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -213,7 +213,7 @@ Angenommen, Sie möchten Sammlungen für die Verwendung im Westen und Nahen Oste
 
 Einige Bildnamenskonventionen unterstützen keine generischen Bild-IDs. Die generischen IDs aus der Abfrage müssen einer bestimmten ID im Katalog zugeordnet werden. Es gibt jedoch Fälle, in denen die genaue spezifische ID nicht bekannt ist.
 
-Wenn Sie das erste Beispiel als Grundlage verwenden, könnten Bilder für alle Sprachen die Suffixe `_1`, `_2` oder `_3` aufweisen. Bilder, die für französische Gebietsschemata spezifisch sind, können die Suffixe `_22` oder `_23` Suffix aufweisen. Bilder, die für deutsche Gebietsschemata spezifisch sind, können die Suffixe `_470` oder `_480` aufweisen.
+Wenn Sie das erste Beispiel als Grundlage verwenden, haben Bilder für alle Sprachen die Suffixe `_1`, `_2` oder `_3`. Bilder, die für französische Gebietsschemata spezifisch sind, haben die Suffixe `_22` oder `_23`. Bilder, die für deutsche Gebietsschemata spezifisch sind, haben die Suffixe `_470` oder `_480`.
 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
@@ -225,15 +225,15 @@ Wenn Sie das erste Beispiel als Grundlage verwenden, könnten Bilder für alle S
 
 ##### Wichtige Aspekte bei der Implementierung der Lokalisierungsunterstützung
 
-* Die Lokalisierung ist auf ID-basierte Asset-Abrufe beschränkt und kann nicht für pfadbasierte Asset-Abrufe verwendet werden. Wenn also Videos mit einem Gebietsschema abgerufen werden sollen, müssen sie als Unternehmens-/Asset-ID abgerufen werden, nicht über den vollständigen Pfad zum Video. Sie können `RTMP` nicht mit der Lokalisierung verwenden, da diese Methode nur für die Verwendung mit pfadbasierten Videoaufrufen vorgesehen ist.
-* Sie können kein gemischtes Medienset verwenden, das ein einzelnes Video enthält, wenn localeMap aktiv ist. Andernfalls schlägt der Abruf der Set-Inhalte fehl. Um dieses Problem zu umgehen, können Sie einem adaptiven Videoset ein einzelnes Video hinzufügen. Fügen Sie das adaptive Videoset anschließend einem gemischten Medienset hinzu.
+* Die Lokalisierung ist auf ID-basierte Asset-Abrufe beschränkt und kann nicht für pfadbasierte Asset-Abrufe verwendet werden. Wenn Videos mit einem Gebietsschema aufgerufen werden, müssen sie daher als company/assetID ohne vollständigen Pfad zum Video aufgerufen werden. Sie können `RTMP` nicht mit der Lokalisierung verwenden, da diese Methode nur für die Verwendung mit pfadbasierten Videoaufrufen vorgesehen ist.
+* Sie können kein gemischtes Medienset verwenden, das ein einzelnes Video enthält, wenn localeMap aktiv ist. Andernfalls schlägt der Aufruf des Inhalts des Sets fehl. Um dieses Problem zu beheben, können Sie einem adaptiven Videoset ein einzelnes Video hinzufügen. Fügen Sie das adaptive Videoset anschließend einem gemischten Medienset hinzu.
 * Bestimmte Abfragen sind nicht lokalisiert. Dies gilt beispielsweise für die Abfrage der Inhalte eines adaptiven Videosets. Wenn Sie daher adaptive Videosets mit Lokalisierung verwenden möchten, platzieren Sie das adaptive Videoset in ein gemischtes Medienset. Rufen Sie dann das Set in einem Viewer für gemischte Medien mit dem `locale=` auf.
 
 ## Bild-Renderer {#image-renderer}
 
 Auf der Seite „Bild-Renderer“ werden Standardeinstellungen für die Bereitstellung von Bildsets von Bild-Rendering-Servern festgelegt. Die Einstellungen sind in diesen fünf Kategorien verfügbar (detaillierte Beschreibungen der Einstellungen finden Sie auf der Image-Server-Seite selbst):
 
-* **[!UICONTROL Katalogverwaltung]**: Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und die Katalogdatei interagieren. Adobe Dynamic Media Classic Render-Server-URL-Aufrufe werden an den Katalog gesendet, der wiederum Aufrufe ausführt, um Bilder vom Server bereitzustellen. Ändern Sie diese Einstellungen nur mithilfe eines Adobe Dynamic Media Classic-Support-Mitarbeiters.
+* **[!UICONTROL Katalogverwaltung]**: Diese Einstellungen bestimmen, wie Adobe Dynamic Media Classic und die Katalogdatei interagieren. Adobe Dynamic Media Classic Render-Server-URL-Aufrufe werden an den Katalog gesendet, der wiederum Bilder vom Server bereitstellt. Ändern Sie diese Einstellungen nur mithilfe eines Mitglieds des Adobe Dynamic Media Classic-Supportteams.
 
 * **[!UICONTROL Sitzungsattribute]**: Mit diesen Einstellungen werden Fehlerparameter festgelegt sowie die URL für relative Bild-URLs und ob die Überlappung von Objekten zulässig ist.
 
