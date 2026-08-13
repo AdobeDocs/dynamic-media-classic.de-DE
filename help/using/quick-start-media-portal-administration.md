@@ -12,28 +12,22 @@ topic: Collaboration, Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:17.674Z'
 TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 42facb1222886a1f2b37ae5dbf2af2d163a8fc88
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 35%
+source-wordcount: 830
+ht-degree: 20%
 
 ---
 
 # Schnellstart: Medienportal{#quick-start-media-portal}
 
-Mit Media Portal können Unternehmen problemlos genehmigte Assets abrufen, kontrollieren und an externe Partner und Kanäle sowie interne Benutzer eines Unternehmens verteilen. Diese browserbasierte „Self-Service“-Umgebung bietet Medienportalbenutzern vom Administrator gesteuerte „Ansichten“ in Adobe Dynamic Media Classic-Assets, um den Zugriff auf, das Durchsuchen, Suchen, die Vorschau und den Export von Assets in Formaten zu erleichtern, die vom Unternehmen genehmigt wurden.
+Mit Media Portal können Unternehmen problemlos genehmigte Assets abrufen, kontrollieren und an externe Partner und Kanäle sowie interne Benutzer verteilen. Diese browserbasierte „Self-Service“-Umgebung bietet Medienportalbenutzern vom Administrator gesteuerte „Ansichten“ in Adobe Dynamic Media Classic-Assets, mit denen sie mühelos Assets durchsuchen, suchen, in der Vorschau anzeigen und in Formate exportieren können, die vom Unternehmen genehmigt wurden.
 
-Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Darüber hinaus können Sie die Media Portal-Benutzeroberfläche an Ihre Website und Marke anpassen. Sie können Schriftart, Schriftfarbe und Schriftgröße angeben und Branding-Elemente wie Logos in die Medienportal-Oberfläche integrieren.
+Als Administrator bestimmen Sie, wie Benutzer Assets in Media Portal anzeigen, abrufen und verwenden können. Sie können die Benutzeroberfläche des Medienportals so anpassen, dass sie zu Ihrer Website und Ihrer Marke passt. Sie können Schriftart, Schriftfarbe und Schriftgröße angeben und Branding-Elemente wie Logos in die Media Portal-Oberfläche integrieren.
 
 Siehe die folgenden Schulungsvideos:
 
@@ -43,35 +37,35 @@ Siehe die folgenden Schulungsvideos:
 
 * [Media Portal Tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-Die folgende Kurzanleitung soll Ihnen den schnellen Einstieg in die Medienportalverwaltung erleichtern. Klicken Sie am Ende jedes Schritts auf den Link zum Thema, um mehr zu erfahren.
+Der folgende Schnellstart soll Ihnen dabei helfen, mit der Administration von Media Portal zu beginnen. Klicken Sie am Ende jedes Schritts auf den Link zum Thema, um mehr zu erfahren.
 
 ## &#x200B;1. Benutzerrollen des Medienportals
 
-Benutzende von Media Portal haben drei Rollen: Benutzende, Mitwirkende und Mitwirkende. Jede Rolle kann bestimmte Aufgaben ausführen. Zum Beispiel kann ein Mitarbeiter Dateien und Ordner umbenennen und löschen, was einem Benutzer dagegen nicht erlaubt ist. Machen Sie sich mit den unterschiedlichen Rollen vertraut, damit Sie beim Hinzufügen von Benutzern deren Verantwortlichkeiten verstehen.
+Benutzende von Media Portal fallen in drei Rollen: Benutzende, Mitwirkende und Mitwirkende. Jede Rolle kann bestimmte Aufgaben ausführen. Im Gegensatz zu Benutzern können Mitwirkende Dateien und Ordner umbenennen oder löschen. Verstehen Sie die verschiedenen Rollen, sodass Sie beim Hinzufügen von Benutzern verstehen, welche Zuständigkeiten Sie ihnen zuweisen.
 
 Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user_roles).
 
 ## &#x200B;2. Erstellen von Gruppen zur Benutzerverwaltung
 
-Gruppen bestimmen, auf welche Ordner und Dateien ein Benutzer Zugriff hat, welche Aktionen Benutzer in diesen Ordnern und Dateien ausführen können und welche Bildvorgaben zur Verfügung stehen. Als Administrator besteht Ihre erste Aufgabe im Anlegen von Gruppen. Legen Sie für jede Gruppe fest, auf welche Ordner, Dateien und Bildvorgaben die Gruppenmitglieder Zugriff haben sollen. Weisen Sie den Gruppenmitgliedern außerdem Berechtigungen zum Lesen, Schreiben und Löschen zu. Über diese Berechtigungen wird festgelegt, ob Mitglieder die Ordner und Dateien, auf die sie Zugriff haben, durchsuchen, bearbeiten, umbenennen und löschen dürfen.
+Gruppen bestimmen, auf welche Ordner und Dateien ein Benutzer Zugriff hat, welche Aktionen Benutzer in diesen Ordnern und Dateien ausführen können und welche Bildvorgaben zur Verfügung stehen. Als Administrator besteht Ihre erste Aufgabe im Anlegen von Gruppen. Legen Sie für jede Gruppe fest, auf welche Ordner, Dateien und Bildvorgaben die Gruppenmitglieder Zugriff haben sollen. Gewähren Sie den Gruppenmitgliedern außerdem Lese-, Schreib- und Löschberechtigungen. Über diese Berechtigungen wird festgelegt, ob Mitglieder die Ordner und Dateien, auf die sie Zugriff haben, durchsuchen, bearbeiten, umbenennen und löschen dürfen.
 
 Siehe [Erstellen und Verwalten von Medienportalgruppen](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## &#x200B;3. Benutzer hinzufügen
 
-Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine Rolle zu (Benutzer, Mitarbeiter oder Mitarbeiter-Benutzer). Sie können den Benutzer auch einer oder mehreren Gruppen zuweisen. Um das Hinzufügen von Benutzern zu beschleunigen, können Sie eine Benutzerliste in einer CSV-Datei hochladen. Neue Benutzer erhalten eine Begrüßungs-E-Mail und Anweisungen für die Anmeldung bei Media Portal.
+Wenn Sie einen Benutzer hinzufügen, weisen Sie ihm eine Rolle zu (Benutzer, Mitarbeiter oder Mitarbeiter-Benutzer). Sie können den Benutzer auch einer oder mehreren Gruppen zuweisen. Um das Hinzufügen von Benutzern zu vereinfachen, können Sie eine Benutzerliste in Form einer CSV-Datei hochladen. Neuen Benutzern wird eine Begrüßungs-E-Mail-Nachricht und eine Anleitung zur Anmeldung bei Media Portal gesendet.
 
 Siehe [Hinzufügen und Verwalten von Media Portal-](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## &#x200B;4. FTP-Konten verwalten
 
-Sie können über separate FTP-Konten verfügen, die mit dem Medienportal verknüpft sind. Sie können einem bestimmten Ordner in Ihrem Adobe Dynamic Media Classic-Konto zugeordnet werden. Hierdurch können Sie es Benutzern ermöglichen, über separate FTP-Konten digitale Assets in Ihr Konto hochzuladen.
+Sie können über separate FTP-Konten verfügen, die mit dem Medienportal verknüpft sind. Sie können einem bestimmten Ordner in Ihrem Adobe Dynamic Media Classic-Konto zugeordnet werden. Mit dieser Funktion können Benutzer digitale Assets mithilfe separater FTP-Konten in Ihr Konto hochladen.
 
 Siehe [Verwalten von FTP-](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
->Nur Medienportal-Administratoren können diese FTP-Konten verwalten. Außerdem können nur Benutzer mit der Rolle „Media Portal-Mitarbeiter-Benutzer“ oder „Media Portal-Mitarbeiter“ Dateien hochladen.
+>Nur Medienportal-Administratoren können diese FTP-Konten verwalten. Darüber hinaus können nur Benutzer mit der Rolle „Medienportal-Benutzer - Mitwirkender“ oder „Medienportal - Mitwirkende“ Dateien hochladen.
 
 Siehe [Media Portal-Benutzerrollen](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -83,13 +77,13 @@ Siehe [Angeben der für Media Portal-Benutzer verfügbaren Exportoptionen](speci
 
 ## &#x200B;6. Erstellen von Bildvorgaben
 
-Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen können die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern. Mit Bildvorgaben kontrollieren Sie, wie Bilder beim Exportieren durch Benutzer angepasst werden.
+Eine Bildvorgabe ist eine Sammlung vordefinierter Einstellungen. Diese Einstellungen können die Größe, Bildqualität, das Format, die Auflösung und andere Aspekte des Erscheinungsbilds eines Bildes beim Exportieren ändern. Um zu steuern, wie Bilder beim Exportieren durch Benutzer neu formatiert werden, können Sie Bildvorgaben erstellen.
 
-Siehe [Erstellen und Aktivieren von &#x200B;](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Siehe [Erstellen und Aktivieren von ](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## &#x200B;7. Erstellen von Metadatenvorgaben und benutzerdefinierten Metadatenfeldern
 
-Metadaten beschreiben und identifizieren eine Datei. Sie wird verwendet, um nach Assets zu suchen und diese zu organisieren. Sie können Metadatenvorgaben erstellen, um sicherzustellen, dass Sie Metadaten korrekt eingeben und alle Metadatenfelder, für die Daten erforderlich sind, ausgefüllt werden. Eine Metadaten-Vorgabe ist ein vordefinierter Satz von Metadaten-Einträgen. Sie können auch Metadatenfelder erstellen, die Dateien, mit denen Sie arbeiten, eindeutig beschreiben.
+Metadaten beschreiben und identifizieren eine Datei. Sie wird verwendet, um nach Assets zu suchen und diese zu organisieren. Um sicherzustellen, dass Sie Metadaten korrekt eingeben und die erforderlichen Felder ausfüllen, können Sie Metadatenvorgaben erstellen. Eine Metadaten-Vorgabe ist ein vordefinierter Satz von Metadaten-Einträgen. Sie können auch Metadatenfelder erstellen, die Dateien, mit denen Sie arbeiten, eindeutig beschreiben.
 
 Siehe [Effizientes Arbeiten mit Metadaten](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
