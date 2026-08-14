@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ Während der Erstellung des E-Katalogs können Sie Seiten oder Druckbögen in de
 >
 >Sie können jetzt E-Kataloge in Adobe Dynamic Media Classic erstellen.
 
-Diese Kurzanleitung für die Erstellung eines E-Katalogs hilft Ihnen, sich schnell mit den E-Katalogfunktionen vertraut zu machen. Führen Sie die Schritte 1 bis 7 aus. Nach jedem Schritt finden Sie einen Querverweis auf eine Themenüberschrift, unter der Sie weitere Informationen finden.
+Dieser eCatalog-Schnellstart soll Ihnen dabei helfen, schnell mit eCatalogs zu arbeiten. Führen Sie die Schritte 1 bis 7 aus. Nach jedem Schritt finden Sie einen Querverweis auf eine Themenüberschrift, unter der Sie weitere Informationen finden.
 
 ## &#x200B;1. PDF-Dateien hochladen
 
@@ -83,7 +83,7 @@ Erstellen Sie Ihren E-Katalog, indem Sie im Durchsuchen-Panel PDF oder Bilddatei
 
 Wählen Sie auf der Seite „E **[!UICONTROL Katalog“ auf der Registerkarte]** Bestellseiten“ eine Layout-Option aus: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** oder **[!UICONTROL Custom]**. Sie können die Anordnung der Seiten oder Druckbögen durch Ziehen oder, insbesondere in großen E-Katalogen, durch Auswahl eines Seitennamens im Menü „Verschieben nach“ ändern.
 
-Um Seiten hinzuzufügen, wählen Sie in der Asset-Bibliothek einen Ordner aus und ziehen Sie die gewünschten PDF-Dateien oder Bilddateien aus dem Ordner in den Anzeigebereich „Seiten ordnen“. Anstelle der standardmäßigen Seitennummern können Sie benutzerdefinierte Seitennamen angeben oder viele Seitennamen importieren.
+Um Seiten hinzuzufügen, wählen Sie einen Ordner in der Asset-Bibliothek aus und ziehen Sie PDF- oder Bilddateien in den Bildschirm „Seiten sortieren“. Anstelle der standardmäßigen Seitennummern können Sie benutzerdefinierte Seitennamen angeben oder viele Seitennamen importieren.
 
 Wählen Sie **[!UICONTROL Speichern]**, geben Sie einen Namen für Ihren E-Katalog ein, wählen Sie einen Adobe Dynamic Media Classic-Ordner für dessen Speicherung aus und klicken Sie auf **[!UICONTROL Speichern]**. Jedes Mal, wenn Sie die Seitenreihenfolge ändern oder Ihren E-Katalog bearbeiten, speichern Sie Ihre Änderungen, indem Sie **[!UICONTROL Speichern]** auswählen.
 
@@ -135,6 +135,6 @@ Siehe [Veröffentlichen von E-Katalogen und zugehörigen PDF-](publishing-ecatal
 
 Adobe Dynamic Media Classic aktiviert die URL-Legendenzeichenfolge, die für die Anzeige Ihres E-Katalogs erforderlich ist, wenn Sie ihn auf Dynamic Media-Bildservern veröffentlichen. Sie können diese URL-Zeichenfolge aus dem Bildschirm Vorschau und dem Durchsuchen-Panel (in der Detailansicht) kopieren, indem Sie URLs im Panel auswählen. Nachdem Sie die URL-Zeichenfolge kopiert haben, ist sie für Ihre Websites und Programme verfügbar.
 
-Arbeiten Sie mit Ihrem IT-Team zusammen, um den Link zum E-Katalog an der entsprechenden Stelle auf Ihrer Web-Seite zu platzieren. Wenn Benutzer den Link auswählen, wird der E-Katalog-Viewer angezeigt, und Benutzer können Ihren E-Katalog durchsuchen.
+Um den Link zum E-Katalog auf Ihrer Web-Seite zu platzieren, wenden Sie sich an Ihr IT-Team. Wenn Benutzer den Link auswählen, wird der E-Katalog-Viewer angezeigt, und Benutzer können Ihren E-Katalog durchsuchen.
 
 Siehe [Verknüpfen eines E-Katalogs mit einer Web-Seite](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
