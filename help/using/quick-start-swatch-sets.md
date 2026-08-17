@@ -12,38 +12,35 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:43.672Z'
 TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 21%
+source-wordcount: 398
+ht-degree: 17%
 
 ---
 
 # Kurzanleitung: Mustersets{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classic-Mustersets bieten Benutzenden ein integriertes Anwendererlebnis. Im Viewer für dynamische Mustersets können Benutzende ein Element, das in einer anderen Farbe, einem anderen Material, einer anderen Textur, einer anderen Oberfläche oder einem anderen Stoff gerendert wurde, allein durch Klicken auf eine Miniatur anzeigen.
+Adobe Dynamic Media Classic-Farbfeldsets bieten Benutzenden ein integriertes Anwendererlebnis. Mit dem dynamischen Musterset-Viewer können Benutzende ein Element, das in einer anderen Farbe, einem anderen Material, einer anderen Textur, einer anderen Oberfläche oder einem anderen Stoff gerendert wurde, durch Auswählen einer Miniatur anzeigen.
 
-Dieser Schnellstart für Mustersets soll Ihnen den schnellen Einstieg in die Arbeit mit Mustersatztechniken in Adobe Dynamic Media Classic erleichtern.
+Dieser Schnellstart für Mustersets soll Ihnen den Einstieg in die Verwendung von Mustersatztechniken in Adobe Dynamic Media Classic erleichtern.
 
 ## &#x200B;1. Hochladen der Bilder und Musterdateien
 
 Laden Sie zuerst die Bilder und Musterdateien für die Mustersets hoch.
 
-Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen. Siehe [Vorbereiten von Musterset-Assets auf den Upload](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen von Dateien](uploading-files.md#uploading-your-files).
+Wählen Sie in der globalen Navigationsleiste **[!UICONTROL Hochladen]** aus, um Dateien von Ihrem Computer in einen Ordner in Adobe Dynamic Media Classic hochzuladen. Siehe [Vorbereiten des Mustersets Assets auf den Upload](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) und [Hochladen von Dateien](uploading-files.md#uploading-your-files).
 
 ## &#x200B;2. Erstellen eines Mustersets
 
 Wechseln Sie zum Erstellen eines Mustersets in der globalen Navigationsleiste zu **[!UICONTROL Erstellen]** > **[!UICONTROL Mustersets]**. Ziehen Sie auf der Seite Farbfeldset Bilder und Farbfelder auf die Seite. Siehe [Erstellen von Mustersets](creating-swatch-set.md#creating-a-swatch-set).
 
-## &#x200B;3. Einrichten von Viewer-Vorgaben für Mustersätze
+## &#x200B;3. Konfigurieren von Viewer-Vorgaben für Mustersätze
 
-Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: „Benutzerdefiniert“ > „Bildsatz/Farbfelder“, um Ihre Mustersets anzuzeigen.
+Administratoren können Bildsatz-Viewer-Vorgaben erstellen oder ändern. Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben für jeden Rich-Media-Typ. Verwenden Sie den Zoom-Viewer: Benutzerdefiniert > Bildsets/Farbfeldvorgaben , um Ihre Farbfeldsets anzuzeigen.
 
 Siehe [Erstellen und Bearbeiten von Viewer-](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -63,6 +60,6 @@ Siehe [Dateien veröffentlichen](publishing-files.md#publishing-files).
 
 ## &#x200B;6. Verknüpfen von Mustersets mit Web-Seiten
 
-Adobe Dynamic Media Classic erstellt URL-Aufrufe für Mustersätze und aktiviert sie nach der Veröffentlichung. Sie können diese URLs von der Vorschauseite kopieren.
+Adobe Dynamic Media Classic erstellt URL-Aufrufe für Mustersätze und aktiviert diese nach der Veröffentlichung. Sie können diese URLs von der Vorschauseite kopieren.
 
 Markieren Sie dazu das Musterset und klicken Sie auf „Vorschau“. Die Vorschauseite wird geöffnet. Wählen Sie anschließend eine Musterset-Viewer-Vorgabe aus und klicken Sie auf „URL kopieren“. Siehe [Verknüpfen von Mustersets mit Web-Seiten](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
