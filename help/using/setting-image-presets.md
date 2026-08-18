@@ -12,19 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:02.112Z'
 TQID: 'https://experienceleague.adobe.com/a4ns4AjIZccBHisG5jIf7Wkm0iK5TNp2q4xSZit-RrQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: e692b0e39f641db097413710611d19dc30ad42b7
 workflow-type: tm+mt
 source-wordcount: 670
-ht-degree: 32%
+ht-degree: 29%
 
 ---
 
@@ -32,24 +27,24 @@ ht-degree: 32%
 
 Eine Bildvorgabe ähnelt einem Makro – es handelt sich um eine vordefinierte, mit gemeinsamem Namen gespeicherte Sammlung von Befehlen zur Größeneinstellung und Formatierung. Nehmen wir an, dass für Ihre Website jedes Produktbild in zwei verschiedenen Größen angezeigt werden muss, um zu verstehen, wie Bildvorgaben funktionieren: 500 × 500 Pixel und 150 × 150 Pixel. Sie erstellen zwei Bildvorgaben, eine mit dem Namen „Vergrößern“ zur Anzeige von Bildern mit einer Auflösung von 500 x 500 Pixel und die andere mit dem Namen „Miniaturansicht“ zur Anzeige von Bildern mit einer Auflösung von 150 × 150 Pixel. Zum Übermitteln von Bildern mit der Größe „Vergrößern“ und „Miniaturansicht“ sucht ein Dynamic Media-Bildserver nach der Definition der Bildvorgabe „Vergrößern“ und der Bildvorgabe „Miniaturansicht“. Dann erstellt der Server dynamisch je ein Bild in der Größe und mit den Formatierungsangaben, die in den beiden Bildvorgaben gespeichert sind.
 
-Adobe Dynamic Media Classic verfügt über mehrere „Best Practice“-Bildvorgaben, die bereits für die Verwendung durch Sie eingerichtet sind. Admins können auch Bildvorgaben erstellen. Sie können eine Bildvorgabe komplett neu erstellen oder eine vorhandene Bildvorgabe abwandeln und unter neuem Namen speichern.
+Adobe Dynamic Media Classic verfügt über mehrere „Best Practice“-Bildvorgaben, die bereits für die Verwendung durch Sie eingerichtet sind. Admins können auch Bildvorgaben erstellen. Um eine Bildvorgabe zu erstellen, können Sie eine neue erstellen oder Sie können mit einer vorhandenen beginnen und sie unter einem neuen Namen speichern.
 
-Bei Bildern, deren Größe bei der dynamischen Bereitstellung von einem Server verringert wird, kann es zu einem Verlust an Schärfe und Detail kommen. Aus diesem Grund enthält jede Bildvorgabe Elemente zur Formatierungssteuerung, mit denen ein Bild bei Bereitstellung in einer bestimmten Größe optimiert wird. Mit diesen Steuerelementen wird sichergestellt, dass Ihre Bilder beim Versand an Ihre Website oder Anwendung scharf und klar sind.
+Bei Bildern, deren Größe bei der dynamischen Bereitstellung von einem Server verringert wird, kann es zu einem Verlust an Schärfe und Detail kommen. Aus diesem Grund enthält jede Bildvorgabe Elemente zur Formatierungssteuerung, mit denen ein Bild bei Bereitstellung in einer bestimmten Größe optimiert wird. Ihre Bilder werden dadurch scharf und klar für die Website bzw. Anwendung bereitgestellt.
 
 ## Erstellen einer Bildvorgabe {#creating-an-image-preset}
 
-Wenn Sie ein Unternehmensadministrator sind, können Sie Ihre eigenen Bildvorgaben erstellen. Sie können Bildvorgaben erstellen oder mit einer von Adobe Dynamic Media Classic bereitgestellten Standardbildvorgabe beginnen, sie bearbeiten und unter einem neuen Namen speichern.
+Wenn Sie ein Unternehmensadministrator sind, können Sie Ihre eigenen Bildvorgaben erstellen. Sie können Bildvorgaben erstellen oder eine von Adobe Dynamic Media Classic bereitgestellte Standardbildvorgabe verwenden, sie bearbeiten und unter einem neuen Namen speichern.
 
 **So erstellen Sie eine Bildvorgabe:**
 
 1. Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL Bildvorgaben]**.
 
-   Hier können Sie den Namen einer Bildvorgabe auswählen, um die Vorschau einer vorhandenen Bildvorgabe einzublenden. Sobald Sie den Namen einer Bildvorgabe auswählen, ändern sich Größe und Aussehen des Beispielbilds im Vorschaufenster.
+   Um eine vorhandene Bildvorgabe in der Vorschau anzuzeigen, können Sie auf diesem Bildschirm zum Namen einer Bildvorgabe navigieren. Sobald Sie den Namen einer Bildvorgabe auswählen, ändern sich Größe und Aussehen des Beispielbilds im Vorschaufenster.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * **Erstellen einer Bildvorgabe**: Wählen Sie **[!UICONTROL Hinzufügen]**.
-   * **Bearbeiten einer Bildvorgabe**: Navigieren Sie zu der Bildvorgabe, die der am meisten ähnelt, die Sie erstellen möchten, und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+   * **Bearbeiten einer Bildvorgabe**: Navigieren Sie zu der Bildvorgabe, die der zu erstellenden am ähnlichsten ist, und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
 1. Geben Sie einen Namen für die Bildvorgabe ein.
 1. Geben Sie die Breite und Höhe in Pixeln ein. Diese Werte bestimmen die Größe, in der Bilder bereitgestellt werden.
