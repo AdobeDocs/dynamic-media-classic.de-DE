@@ -20,10 +20,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
 workflow-type: tm+mt
-source-wordcount: 1748
-ht-degree: 19%
+source-wordcount: 1728
+ht-degree: 15%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 19%
 
 Adobe Dynamic Media Classic Video ist eine End-to-End-Lösung, mit der Sie hochwertige adaptive Videos für das Streaming auf mehreren Bildschirmen veröffentlichen können, einschließlich Desktop-Geräten, iOS, Android™, BlackBerry® und Windows®-Mobilgeräten. Bei adaptiven Videosets werden Versionen desselben Videos gruppiert, die in unterschiedlichen Bitraten und Formaten kodiert sind, z. B. mit 400 Kbit/s, 800 Kbit/s und 1000 Kbit/s. Der Desktop-Computer oder das Mobilgerät erkennt die verfügbare Bandbreite.
 
-Auf einem iOS-Mobilgerät wird beispielsweise eine Bandbreite wie 3G, 4G oder WLAN erkannt. Anschließend wird unter den verschiedenen Video-Bitraten innerhalb des adaptiven Videosets automatisch das richtig kodierte Video ausgewählt. Das Video wird auf Desktops, Mobilgeräte und Tablets gestreamt.
+Er erkennt beispielsweise 3G, 4G oder WLAN auf einem iOS-Gerät. Anschließend wird unter den verschiedenen Video-Bitraten innerhalb des adaptiven Videosets automatisch das richtig kodierte Video ausgewählt. Das Video wird auf Desktops, Mobilgeräte und Tablets gestreamt.
 
-Außerdem wird die Videoqualität automatisch angepasst, wenn sich die Netzwerkbedingungen des Desktop- oder Mobilgeräts ändern. Wenn darüber hinaus ein Kunde den Vollbildmodus an einem Desktop aktiviert, reagiert das adaptive Videoset, indem eine bessere Auflösung verwendet wird, um das Anzeigeerlebnis des Kunden zu verbessern. Adaptive Videosets bieten Ihnen bestmögliche Wiedergabe. Dies eignet sich am besten für Kunden, die Adobe Dynamic Media Classic-Videos auf mehreren Bildschirmen und Geräten wiedergeben.
+Darüber hinaus wechselt die Videoqualität automatisch, wenn sich die Netzwerkbedingungen auf dem Desktop oder Mobilgerät ändern. Wenn darüber hinaus ein Kunde den Vollbildmodus an einem Desktop aktiviert, reagiert das adaptive Videoset, indem eine bessere Auflösung verwendet wird, um das Anzeigeerlebnis des Kunden zu verbessern. Adaptive Videosets bieten eine optimale Wiedergabe. Dies eignet sich am besten für Kunden, die Adobe Dynamic Media Classic-Videos auf mehreren Bildschirmen und Geräten wiedergeben.
 
-Die Logik, die ein Video-Player verwendet, um das richtige kodierte Video für die Wiedergabe auszuwählen, basiert auf dem folgenden Algorithmus:
+Ein Video-Player verwendet Logik, um zu bestimmen, welches kodierte Video während der Wiedergabe wiedergegeben oder ausgewählt werden soll. Diese Logik basiert auf dem folgenden Algorithmus:
 
 1. Der Video-Player lädt das anfängliche Videofragment auf der Grundlage der Bitrate, die am nächsten an dem Wert liegt, der im Player selbst als „anfängliche Bitrate“ festgelegt wurde.
 1. Video-Player wechselt auf der Grundlage von Änderungen an der Bandbreitengeschwindigkeit anhand der folgenden Kriterien:
 
    1. Der Player wählt den höchsten Bandbreitenstrom aus, der kleiner oder gleich der geschätzten Bandbreite ist.
-   1. Player berücksichtigt nur 80 % der verfügbaren Bandbreite. Wenn er jedoch nach oben wechselt, ist er mit nur 70 % konservativer, um Überschätzungen zu vermeiden und sofort zurückzuwechseln.
+   1. Player berücksichtigt nur 80 % der verfügbaren Bandbreite. Erhöht sie jedoch die Bitrate, ist sie mit nur 70 % konservativer, um Überschätzungen zu vermeiden und sofort zurückzuwechseln.
 
 Technische Informationen finden Sie in der Algorithmuslogik unter [&#128279;](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)0&rbrace;https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp&quot;.
 
@@ -82,11 +82,11 @@ Wenn ein adaptives Videoset generiert wird, enthält es MP4-Videos.
 
 * Wiedergabe von Videos mit Adobe Dynamic Media Classic-Viewer-Vorgaben, einschließlich der folgenden:
 
-   * Einzelne Video-Viewer.
-   * Viewer für gemischte Medien, die Video- und Bildinhalte kombinieren
+  * Einzelne Video-Viewer.
+  * Viewer für gemischte Medien, die Video- und Bildinhalte kombinieren
 
 * Konfigurieren von Video-Playern für individuelle Branding-Anforderungen
-* Integrieren Sie Videos mit einer einfachen URL oder mit Einbettungs-Code in Ihre Website, mobile Site oder mobile Anwendung.
+* Integrieren Sie Videos mithilfe einer einfachen URL oder eines Einbettungs-Codes in Ihre Website, mobile Site oder Mobile App.
 
 Siehe die folgenden Schulungsvideos:
 * [MP4-Videoübersicht](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -99,16 +99,16 @@ Siehe die folgenden Schulungsvideos:
 
 **Schnellstart**
 
-Die folgende schrittweise Workflow-Beschreibung soll Ihnen den schnellen Einstieg in adaptive Videosets in Adobe Dynamic Media Classic erleichtern. Nach jedem Schritt finden Sie einen Querverweis auf eine Themenüberschrift, unter der Sie weitere Informationen finden.
+Die folgende schrittweise Workflow-Beschreibung soll Ihnen den Einstieg in die Verwendung von adaptiven Videosets in Adobe Dynamic Media Classic erleichtern. Nach jedem Schritt finden Sie einen Querverweis auf eine Themenüberschrift, unter der Sie weitere Informationen finden.
 
 ## &#x200B;1. Videos hochladen und kodieren
 
 Generieren und laden Sie adaptive Videosets mithilfe eines der beiden folgenden Szenarien hoch:
 
-* **Vorkodierte Videos hochladen**: Wenn Ihre Videos bereits extern in Adobe Dynamic Media Classic kodiert wurden, wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Hochladen]** aus. Durchsuchen Sie MP4-Videodateien und laden Sie sie direkt in Adobe Dynamic Media Classic hoch. Navigieren Sie dann zu **[!UICONTROL Erstellen]** > **[!UICONTROL Adaptive Videosets]**. Navigieren Sie zu Ihren Videodateien. Ziehen Sie die gewünschten Videodateien per Drag-and-Drop in die Tabelle Adaptives Videoset und speichern Sie dann das Set.
+* **Vorkodierte Videos hochladen**: Wenn Ihre Videos bereits extern in Adobe Dynamic Media Classic kodiert wurden, wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Hochladen]** aus. Durchsuchen Sie MP4-Videodateien und laden Sie sie direkt in Adobe Dynamic Media Classic hoch. Navigieren Sie dann zu **[!UICONTROL Erstellen]** > **[!UICONTROL Adaptive Videosets]**. Navigieren Sie zu Ihren Videodateien. Verschieben Sie die gewünschten Videodateien in die Tabelle Adaptives Videoset und speichern Sie dann das Set.
 * **Primärvideos hochladen**: Wenn Ihre Videos nicht kodiert sind, wählen Sie in der Symbolleiste für die globale Navigation die Option **[!UICONTROL Hochladen]** aus, um primäre Videoquelldateien (keine MP4) hochzuladen. Adobe Dynamic Media Classic kodiert sie für Sie in MP4-Dateien. Wählen **[!UICONTROL Dialogfeld Upload-Auftragsoptionen]** unter **[!UICONTROL EVideo-Optionen]** die Option **[!UICONTROL Adaptives Video]**.
 
-  Mit dieser bevorzugten Option können Sie adaptive Videosets erstellen. Die richtige Kodierungsvorgabe wird automatisch auf das Video angewendet (16 :9 4 :3), um die Abmessungen des hochgeladenen Videos zu berücksichtigen. Wenn Sie Ihren Upload-Auftrag übermitteln, wird automatisch ein adaptives Videoset erstellt, das drei Videocodierungseinstellungen im richtigen Seitenverhältnis enthält.
+  Mit dieser bevorzugten Option können Sie adaptive Videosets erstellen. Die richtige Kodierungsvorgabe wird automatisch auf das Video angewendet (16:9 oder 4:3), damit sie den Abmessungen des hochgeladenen Videos entspricht. Wenn Sie Ihren Upload-Auftrag übermitteln, wird automatisch ein adaptives Videoset erstellt, das drei Videocodierungseinstellungen im richtigen Seitenverhältnis enthält.
 
   Oder erweitern Sie im selben **[!UICONTROL Auftragsoptionen]**-Dialogfeld unter **[!UICONTROL EVideo-Optionen]** die Option **[!UICONTROL Einzelne Kodierungsvorgaben]**. Wählen Sie die gewünschten individuellen Videokodierungsvorgaben aus. Sie können **Desktop**, **Mobile (iPhone, iPad, Android™)** und **Tablet (iPad, Android™)** auswählen, um die MP4-Dateien zu erstellen.
 
@@ -120,7 +120,7 @@ Siehe [Hochladen und Kodieren von Videos](uploading-encoding-videos.md#uploading
 
 Adobe Dynamic Media Classic bietet zahlreiche vordefinierte Videokodierungsvorgaben. Diese vordefinierten Vorgaben entsprechen den gängigsten Videokodierungseinstellungen, die heute verwendet werden, und sind für die Wiedergabe auf Zielseiten optimiert.
 
-Außerdem können Administratoren, wenn eine weitere Anpassung erforderlich ist, Video-Vorgaben erstellen, um die Größe und Wiedergabe von eVideo für Endbenutzer anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;**&#x200B;**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren.
+Wenn jedoch weitere Anpassungen erforderlich sind, können Admins Videovorgaben erstellen, um die Größe und das Wiedergabeerlebnis von Videos für Endbenutzende anzupassen. Administratoren können Videovorgaben über die Seite „Videovorgaben“ unter &quot;**&#x200B;**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; > &quot;]**&quot; > &quot;**[!UICONTROL &quot; hinzufügen und]**. Auf der Seite „Video-Vorgaben“ finden Sie Optionen, um Video-Vorgaben hinzuzufügen, zu bearbeiten, zu löschen und zu aktivieren.
 
 Siehe [Arbeiten mit Videocodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
