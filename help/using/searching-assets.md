@@ -1,5 +1,5 @@
 ---
-title: Suchen nach Dynamic Media Classic-Assets
+title: Dynamic Media Classic Assets durchsuchen
 description: Erfahren Sie, wie Sie in Adobe Dynamic Media Classic nach Assets suchen.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,19 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:34.580Z'
 TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: fd4b2bc8960392112ad800d9e3da62a09196462b
 workflow-type: tm+mt
-source-wordcount: 1521
-ht-degree: 17%
+source-wordcount: 1501
+ht-degree: 16%
 
 ---
 
@@ -38,15 +33,15 @@ Um Datei-Assets in Adobe Dynamic Media Classic zu finden, können Sie Assets nac
 
 ## Anzeigen von Assets nach Typ {#viewing-assets-by-type}
 
-Um beim Durchsuchen nur Dateien eines bestimmten Typs anzuzeigen, wählen Sie in der Asset-Bibliothek auf der linken Seite in der **[!UICONTROL Anzeigen]** Dropdown-Liste einen Dateityp aus. Nur Assets des Typs, den Sie anzeigen möchten, werden in der Asset-Bibliothek angezeigt.
+Um beim Durchsuchen nur Dateien eines bestimmten Typs anzuzeigen, wählen Sie einen Dateityp aus der **[!UICONTROL Anzeigen]** Dropdown-Liste in der Asset-Bibliothek auf der linken Seite. Nur Assets des Typs, den Sie anzeigen möchten, werden in der Asset-Bibliothek angezeigt.
 
 >[!NOTE]
 >
->Wenn das Bedienfeld Asset-Bibliothek auf der linken Seite nicht angezeigt wird, klicken Sie auf den Pfeil mit dem rechten Dreieck auf der linken Seite in der Mitte des Dynamic Media Classic-Fensters, um die Asset-Bibliothek zu öffnen.
+>Wenn das Bedienfeld „Asset-Bibliothek“ ausgeblendet ist, klicken Sie in der Mitte des Dynamic Media Classic-Fensters auf den Pfeil mit dem rechten Dreieck, um es anzuzeigen.
 
 ## Sortieren von Dateien im Durchsuchen-Panel {#sorting-files-in-the-browse-panel}
 
-Sie können den Inhalt eines Ordners oder von Suchergebnissen sortieren, die im Durchsuchen-Bedienfeld auf der rechten Seite angezeigt werden. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Sortieren]** und wählen Sie dann eine Option aus. Die Optionen sind **[!UICONTROL Name]**, **[!UICONTROL Größe (KB)]**, **[!UICONTROL Typ]**, **[!UICONTROL Erstellungsdatum]** und **[!UICONTROL Zuletzt geändert]**.
+Sie können den Inhalt eines Ordners oder von Suchergebnissen sortieren, die im Durchsuchen-Panel angezeigt werden. Wählen Sie in der Symbolleiste für globale Navigation **[!UICONTROL Sortieren]** und wählen Sie dann eine Option aus. Die Optionen sind **[!UICONTROL Name]**, **[!UICONTROL Größe (KB)]**, **[!UICONTROL Typ]**, **[!UICONTROL Erstellungsdatum]** und **[!UICONTROL Zuletzt geändert]**.
 
 Sie können auch **[!UICONTROL aufsteigend]** oder **[!UICONTROL absteigend]** wählen, um Assets in auf- oder absteigender Reihenfolge nach den von Ihnen gewählten Kriterien zu sortieren.
 
@@ -57,7 +52,7 @@ In der Listenansicht können Sie durch Auswahl eines Spaltennamens sortieren.
 Verwenden Sie das Suchfeld in der Asset-Bibliothek, um einfache Suchen durchzuführen. Sie können Elemente anhand ihres Namens suchen oder anhand von Metadaten, die ein bestimmtes Schlüsselwort enthalten.
 
 1. Wählen Sie in der Asset-Bibliothek im Bedienfeld **[!UICONTROL Ordner]** den Ordner aus, nach dem Sie in einem bestimmten Ordner und dessen Unterordnern suchen möchten.
-1. Klicken Sie links neben dem Suchfeld in der Asset-Bibliothek auf das Symbol **[!UICONTROL Lupe]**, um die Dropdown-Liste zu öffnen.
+1. Klicken Sie links neben dem Suchfeld in der Asset-Bibliothek auf das **[!UICONTROL Suchen]**-Symbol, um die Dropdown-Liste zu öffnen.
 1. Wählen Sie in der Dropdown-Liste eine Option aus, die beschreibt, wie eng oder breit die Suche sein soll. Sie können zwischen **[!UICONTROL Innerhalb aller Dateien und Ordner]**, **[!UICONTROL Im ausgewählten Ordner]** oder **[!UICONTROL In ausgewählten Ordnern und Unterordnern]** wählen.
 1. Geben Sie im Feld Suche einen Suchbegriff ein.
 1. Klicken Sie rechts neben dem Suchfeld auf **[!UICONTROL Los]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
@@ -86,11 +81,11 @@ Geben Sie bei Ihrer erweiterten Suche eines der folgenden Kriterien an:
 
 * **Suchkriterien**: Erstellen Sie ein oder mehrere Suchfelder für die Suche nach Metadaten. So erstellen Sie Suchfelder
 
-   1. Klicken Sie in der erweiterten Suche unter **[!UICONTROL Suchkriterien]** und links neben dem Menü **[!UICONTROL Feld hinzufügen]** auf das Pfeil-nach-unten-Symbol, um die Dropdown-Liste zu öffnen. Wählen Sie eine Metadatenansicht. Sie können zwischen **[!UICONTROL Alle Eigenschaften mit Werten]**, **[!UICONTROL Kompaktansicht]**, **[!UICONTROL IPTC]**, **[!UICONTROL Veröffentlichungsfelder des Metadatenservers]** oder **[!UICONTROL XMP]** wählen.
-   1. Wählen Sie das **[!UICONTROL Feld hinzufügen]** Dropdown-Menü aus und wählen Sie einen Feldnamen aus.
-   1. Wählen Sie eine **[!UICONTROL Enthält]** Option: **[!UICONTROL Enthält]**, **[!UICONTROL Enthält nicht]**, **[!UICONTROL Beginnt mit]**, **[!UICONTROL Endet mit]** oder **[!UICONTROL Gleich]**.
-   1. Wählen Sie bei numerischen Feldern einen Wert oder geben Sie einen Datumsbereich ein.
-   1. (Optional) Wiederholen Sie die Schritte 1 bis 4, um weitere Suchfelder zu erstellen.
+  1. Klicken Sie in der erweiterten Suche unter **[!UICONTROL Suchkriterien]** und links neben dem Menü **[!UICONTROL Feld hinzufügen]** auf das Pfeil-nach-unten-Symbol, um die Dropdown-Liste zu öffnen. Wählen Sie eine Metadatenansicht. Sie können zwischen **[!UICONTROL Alle Eigenschaften mit Werten]**, **[!UICONTROL Kompaktansicht]**, **[!UICONTROL IPTC]**, **[!UICONTROL Veröffentlichungsfelder des Metadatenservers]** oder **[!UICONTROL XMP]** wählen.
+  1. Wählen Sie das **[!UICONTROL Feld hinzufügen]** Dropdown-Menü aus und wählen Sie einen Feldnamen aus.
+  1. Wählen Sie eine **[!UICONTROL Enthält]** Option: **[!UICONTROL Enthält]**, **[!UICONTROL Enthält nicht]**, **[!UICONTROL Beginnt mit]**, **[!UICONTROL Endet mit]** oder **[!UICONTROL Gleich]**.
+  1. Wählen Sie bei numerischen Feldern einen Wert oder geben Sie einen Datumsbereich ein.
+  1. (Optional) Wiederholen Sie die Schritte 1 bis 4, um weitere Suchfelder zu erstellen.
 
 Wählen Sie das Symbol **[!UICONTROL Suchfeld entfernen]** (Kreis mit „X“ darin) aus, sodass das Suchfeld gelöscht wird.
 
@@ -102,7 +97,7 @@ Wählen **[!UICONTROL Löschen]** aus, wenn Sie die Suchkriterien löschen und e
 
 Sie filtern Assets über die Registerkarte „Filter“ der Asset-Bibliothek. Metadatenwerte dienen dabei als Filterkriterien. Nachdem Sie ein zu filterndes Metadatenfeld ausgewählt haben, listet die Registerkarte Filter alle Metadatenwerte auf, die in das ausgewählte Feld eingegeben wurden. Außerdem wird die Anzahl der Assets aufgelistet, die jedem Wert zugewiesen wurden. Beispielsweise werden in einem Filtervorgang für das Metadatenfeld **[!UICONTROL Ersteller]** auf der Registerkarte **[!UICONTROL Filter]** alle Namen aufgelistet, die für verschiedene Assets in das Metadatenfeld **[!UICONTROL Ersteller]** eingegeben wurden. Außerdem wird für jeden Namen die Anzahl der dem Namen zugewiesenen Assets aufgelistet. Wählen Sie dann einen Metadatenwert aus, um alle Assets anzuzeigen, denen dieser Wert zugewiesen wurde. Im Beispiel wählen Sie den `Prairie Cat` Metadatenwert aus, um alle Assets anzuzeigen, in denen der `Prairie Cat` im Metadatenfeld **[!UICONTROL Ersteller]** eingegeben wurde. Sie können auch mehr als ein Metadatenfeld als Filterkriterium heranziehen.
 
-Sie können Filtervorgänge speichern, um sie mehrmals auszuführen.
+Um Filtervorgänge mehrmals auszuführen, können Sie sie speichern.
 
 >[!NOTE]
 >
@@ -116,11 +111,11 @@ Führen Sie die folgenden Schritte aus, um Assets zu finden, indem Sie nach ihre
 
 1. Wählen Sie in der Asset-Bibliothek die Registerkarte **[!UICONTROL Filter]** aus.
 
-   Die Kriterien des vorherigen Filtervorgangs werden im Filterfenster angezeigt. Das Filterfenster ist in Bedienfelder unterteilt, wobei jedes Bedienfeld für ein Metadatenfeld steht. Verwenden Sie die Bedienfelder, um zu wählen, nach welchen Metadatenfeldern gefiltert werden soll, und um für jedes Feld einen Wert für den Filtervorgang zu wählen.
+   Die Kriterien des vorherigen Filtervorgangs werden im Filterfenster angezeigt. Der Bereich Filter ist in Bereiche unterteilt, die jeweils ein Metadatenfeld darstellen. Verwenden Sie die Bedienfelder, um zu wählen, nach welchen Metadatenfeldern gefiltert werden soll, und um für jedes Feld einen Wert für den Filtervorgang zu wählen.
 
    Um einen von Ihnen erstellten und gespeicherten Filtervorgang auszuführen, wählen Sie **[!UICONTROL Vorgabe auswählen]** und wählen Sie dann im Menü den Namen des Vorgangs aus.
 
-   Siehe [Speichern, Wiederholen und Löschen von &#x200B;](searching-assets.md#saving_repeating_and_deleting_filter_operations).
+   Siehe [Speichern, Wiederholen und Löschen von ](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
 1. Klicken Sie **[!UICONTROL einem]** auf „Feld“ und befolgen Sie dann diese Anweisungen, um das Filtermenü anzuzeigen und den Filtervorgang zu erstellen:
 
@@ -170,7 +165,7 @@ Wechseln Sie zum Konfigurieren des Metadaten-Servers zu **[!UICONTROL Setup]** >
 
 Auf der Seite „Metadaten-Server-Publisher“ können Sie die folgenden Optionen festlegen:
 
-* **[!UICONTROL Sofortige Veröffentlichung]**: Überträgt automatisch alle Metadatenänderungen, wenn sie vorgenommen werden, einschließlich neuer Assets, Keyword-Änderungen usw.
+* **[!UICONTROL Sofortige Veröffentlichung]**: Überträgt automatisch alle Metadatenänderungen, wenn sie vorgenommen werden, einschließlich neuer Assets, Keyword-Änderungen und anderer verwandter Elemente.
 
 * **[!UICONTROL XMP-]**: Veröffentlicht das XMP-Paket. Dieses Paket wird nicht für die Suche verwendet, bietet jedoch die aktuellste XMP.
 
