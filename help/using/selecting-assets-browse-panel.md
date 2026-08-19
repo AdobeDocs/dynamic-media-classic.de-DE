@@ -1,5 +1,5 @@
 ---
-title: Auswählen von Assets im Durchsuchen-Panel
+title: Wählen Sie Assets im Durchsuchen-Panel aus.
 description: Erfahren Sie, wie Sie Assets im Durchsuchen-Panel von Adobe Dynamic Media Classic auswählen.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7b153b6e9d49e5923925a6529e195588e8aba450
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: 106
 ht-degree: 18%
 
 ---
 
 # Auswählen von Assets im Durchsuchen-Panel{#selecting-assets-in-the-browse-panel}
 
-Wählen Sie ein Asset im Durchsuchen-Bedienfeld aus, um es verwenden zu können. Sie haben zum Auswählen von Assets die folgenden Möglichkeiten:
+Wählen Sie ein Asset im Durchsuchen-Bedienfeld aus, um es zu verwenden. Sie haben zum Auswählen von Assets die folgenden Möglichkeiten:
 
 * **Ein einzelnes Asset**: Wählen Sie das Asset aus (durch Doppelklicken wird das Asset in der Detailansicht geöffnet).
 
