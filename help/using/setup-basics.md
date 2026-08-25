@@ -1,5 +1,5 @@
 ---
-title: Grundlagen der Einstellungen
+title: Grundlagen zum Setup
 description: Erfahren Sie, wie Sie Ihre persönlichen Einstellungen in Adobe Dynamic Media Classic über den Bildschirm „Setup“ eingeben. Falls Sie ein Administrator sind, legen Sie die Unternehmenseinstellungen fest.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,20 +12,14 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:38.912Z'
 TQID: 'https://experienceleague.adobe.com/LYe-5f29Xdb2kVjoXs7lx2vUs6-iSpn3m6irRZc5Aag'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: edbf737fe99ee47c475564fbc41d931498681145
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 17%
+source-wordcount: 234
+ht-degree: 10%
 
 ---
 
@@ -33,16 +27,16 @@ ht-degree: 17%
 
 Geben Sie auf der Seite &quot;Adobe Dynamic Media Classic-Setup“ Ihre persönlichen Einstellungen ein. Falls Sie ein Administrator sind, legen Sie die Unternehmenseinstellungen fest. Um eine Seite „Setup“ zu öffnen, klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Setup]**.
 
-Die auf dieser Seite verfügbaren Einstellungen hängen von Ihrem Status als Benutzer oder Administrator ab:
+Die Einstellungen auf dieser Seite hängen von Ihrer Benutzer- oder Administratorrolle ab:
 
-* Benutzer können nur auf **[!UICONTROL Persönliche Einrichtung]** und die Konten von Unternehmen zugreifen, deren Mitglied sie sind. Sie können keine administrativen Aufgaben ausführen.
-* Administratoren können auf **[!UICONTROL Persönliches Setup]** zugreifen und ihre eigenen Unternehmenskonten anzeigen und verwalten. Sie können weiterhin alle Funktionen zum Festlegen der Anwendungseinstellungen sowie Verwaltungsfunktionen, einschließlich des Hinzufügens von Administratoren und Benutzern, ausführen.
+* Benutzer können auf **[!UICONTROL Persönliche Einrichtung]** und die Konten von Unternehmen zugreifen, deren Mitglieder sie sind; sie können keine Verwaltungsaufgaben ausführen.
+* Administratoren können auf **[!UICONTROL Persönliches Setup]** zugreifen und ihre eigenen Unternehmenskonten anzeigen und verwalten. Sie können auch alle Funktionen zum Einrichten von Anwendungen und alle Verwaltungsfunktionen ausführen, einschließlich des Hinzufügens von Administratoren und Benutzern.
 
-Admins können auf der Seite „Setup“ auch Bildvorgaben **[!UICONTROL Viewer-Vorgaben]**:
+Admins können auch auf der Seite „Setup“ Bildvorgaben **[!UICONTROL Viewer-Vorgaben]**:
 
 * **Bildvorgaben**: Bildvorgaben sind gespeicherte Formate zum Anzeigen von Primärbildern in verschiedenen Größen und Formaten.
 
-* **Viewer-Vorgaben**: Viewer-Vorgaben bestimmen, wie Sie Ihre Rich-Media-Inhalte sehen, wenn Sie sie in einem Viewer sehen.
+* **Viewer-Vorgaben**: Viewer-Vorgaben bestimmen, wie Ihre Rich-Media-Inhalte angezeigt werden, wenn sie in einem Viewer angezeigt werden.
 
 >[!MORELIKETHIS]
 >
