@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 96e28bfa7ee65d01d22591dc4a020507fe1d9a9d
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 40%
+source-wordcount: 632
+ht-degree: 31%
 
 ---
 
 # Viewer-Vorgaben für Zoom einrichten{#setting-up-zoom-viewer-presets}
 
-Zoom-Viewer-Vorgaben bestimmen den Stil, das Verhalten und das Erscheinungsbild Ihrer Zoom-Viewer. Adobe Dynamic Media Classic bietet viele Optionen zum Anpassen und Gestalten von Viewern. Adobe Dynamic Media Classic verfügt über die standardmäßigen Viewer-Vorgaben „Standard“ (schnell), „Fly-out“ und „Benutzerdefiniert“ für Zoom. Als Administrator können Sie Viewer-Vorgaben für den Unternehmenszoom erstellen oder eine Standardvorgabe bearbeiten und unter einem neuen Namen speichern.
+Zoom-Viewer-Vorgaben bestimmen den Stil, das Verhalten und das Erscheinungsbild Ihrer Zoom-Viewer. Adobe Dynamic Media Classic bietet viele Optionen zum Anpassen und Konfigurieren von Viewern. Adobe Dynamic Media Classic verfügt über die standardmäßigen Viewer-Vorgaben „Standard“ (schnell), „Fly-out“ und „Benutzerdefiniert“ für Zoom. Als Administrator können Sie Viewer-Vorgaben für den organisatorischen Zoom erstellen oder eine Standardvorgabe bearbeiten und mit einem neuen Namen speichern.
 
 Alle Zoom-Viewer enthalten Schaltflächen zum Heranzoomen, Herauszoomen, Schwenken und Zurücksetzen des Bildes in seinen ursprünglichen Zustand vor dem Zoomen. Wie diese Schaltflächen aussehen und wie das Fenster selbst angezeigt wird, hängt von der Auswahl der Viewer-Vorgaben für Zoom ab. Sie können eine Zoom-Viewer-Vorgabe mit unterschiedlichen Farben, Rahmen, Schriftarten und Bildeinstellungen konfigurieren. Bei der Konfiguration eines geführten Zoom-Viewers können Sie auch auswählen, wo die Zoom-Ziele platziert werden sollen. Zoomziele sind Miniaturansichten, auf die ein Benutzer klicken kann, um den von Ihnen zugeordneten Bildausschnitt heranzuzoomen.
 
@@ -37,19 +37,19 @@ Adobe Dynamic Media Classic bietet die folgenden Zoom-Viewer-Vorgaben:
 
 * **Zoom-Viewer:**: Bietet einen einfachen Zoom auf dem Originalbild.
 
-* **Zoom-Viewer:**-Out: Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Der Benutzer hat keine Steuerelemente zur Verfügung. Er bewegt einfach die Auswahl über den Bereich, der angezeigt werden soll.
+* **Zoom-Viewer:**-Out: Zeigt ein zweites Bild des gezoomten Bereichs neben dem Originalbild an. Es gibt keine Steuerelemente. Die Benutzer verschieben die Auswahl in den Bereich, den sie anzeigen möchten.
 
-Bedenken Sie bei der Festlegung der gesamten Bandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer geladen werden müssen. Die Größe des Flyout-Bildes wird anhand der Hauptbildgröße (Bühnenbreite und -höhe) und des Zoom-Faktors bestimmt. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
+Beachten Sie bei der Bestimmung der Gesamtbandbreitennutzung für diesen Viewer, dass sowohl das Hauptbild als auch das Flyout-Bild im Viewer bereitgestellt werden. Die Größe des Flyout-Bildes wird anhand der Hauptbildgröße (Bühnenbreite und -höhe) und des Zoom-Faktors bestimmt. Setzen Sie diese beiden Werte gut in Relation, damit das Flyout-Bild eine kompakte Dateigröße erhält. Wenn beispielsweise die Hauptbilddatei sehr groß ist, verringern Sie den Wert für den Zoomfaktor. (Die Flyout-Breite und Flyout-Höhe bestimmen die Größe des Flyout-Fensters, aber nicht die Größe des Flyout-Bildes, das in den Viewer geladen wird.)
 
-Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoomfaktor von 3 beträgt, ist das Flyout-Bild 1050 x 1050 Pixel groß. Wenn die Größe des Hauptbildes 300 x 300 Pixel bei einem Zoomfaktor von 4 beträgt, ist das Flyout-Bild 1200 x 1200 Pixel groß. Über die Einstellung für die JPEG-Qualität (empfohlener Wert: zwischen 80 und 90) können Sie die Dateigröße deutlich reduzieren. Der empfohlene Wert für den Zoomfaktor liegt, je nach Größe des Hauptbildes, zwischen 2,5 und 4.
+Wenn die Größe des Hauptbildes beispielsweise 350 x 350 Pixel bei einem Zoomfaktor von 3 beträgt, ist das Flyout-Bild 1050 x 1050 Pixel groß. Wenn die Größe des Hauptbildes 300 x 300 Pixel bei einem Zoomfaktor von 4 beträgt, ist das Flyout-Bild 1200 x 1200 Pixel groß. Je nach JPEG-Qualitätseinstellung (empfohlene Einstellungen sind 80-90) können Sie die Dateigröße verringern. Der empfohlene Wert für den Zoomfaktor liegt, je nach Größe des Hauptbildes, zwischen 2,5 und 4.
 
 Adobe Dynamic Media Classic empfiehlt die folgenden Parameter für ausfliegende Zoom-Viewer-Vorgaben:
 
-* **Vergrößerte Bildgröße**: Ca. 1500 x 1500 Pixel, darf 2000 x 2000 Pixel nicht überschreiten.
+* **Vergrößerte Bildgröße**: 1500 x 1500 Pixel, 2000 x 2000 Pixel nicht überschreiten.
 
 * **Bildgröße**: 100 KB oder weniger, maximal 150 KB (komprimieren Sie die Datei unter 150 KB).
 
-* **Zoom-Viewer: Benutzerdefiniert**: Bietet geführtes oder nicht geführtes Zoomen mit Bildern, Bildsets mit mehreren Ansichten oder Farbmustergruppen.
+* **Zoom-Viewer: Benutzerdefiniert**: Bietet geführtes oder nicht geführtes Zoomen für Bilder, Bildsets mit mehreren Ansichten oder Farbmustergruppen.
 
 ## Erstellen und Bearbeiten von Zoom-Viewer-Vorgaben {#creating-and-editing-zoom-viewer-presets}
 
