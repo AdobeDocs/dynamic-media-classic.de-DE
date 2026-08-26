@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:15:24.015Z'
 TQID: 'https://experienceleague.adobe.com/5XOu6T0n7zssUzXgQXushja4DJBSHs8-0-2h2Ao1L20'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
 workflow-type: tm+mt
-source-wordcount: 563
-ht-degree: 28%
+source-wordcount: 562
+ht-degree: 24%
 
 ---
 
@@ -42,9 +38,9 @@ Durch das Löschen von Elementen aus dem Papierkorb-Ordner werden Elemente dauer
 
 Wenn Sie ein Element aus einem Ordner löschen, wird es im Ordner „Papierkorb“ abgelegt. Das Löschen eines Elements mit nachfolgendem Verschieben in den Ordner „Papierkorb“ ist mit folgenden Gegebenheiten bzw. Abläufen verbunden:
 
-* Obwohl das Element aus Ihrem Adobe Dynamic Media Classic-Ordner entfernt wurde, kann seine ID keinem anderen Asset zugewiesen werden, solange es im Papierkorb-Ordner verbleibt. Wenn Sie versuchen, ein Asset mit demselben Namen wie eine Datei im Papierkorb-Ordner hochzuladen, fügt Adobe Dynamic Media Classic eine Zahl an den Namen des Assets an.
-* Das Element kann nicht veröffentlicht werden. Selbst wenn das Element zur Veröffentlichung markiert war, als sie es gelöscht haben, wird es nicht veröffentlicht.
-* Das Element verbleibt im Papierkorb-Ordner, bis es wiederhergestellt wird, sieben Tage vergehen oder jemand den Befehl **[!UICONTROL Leeren des Papierkorbs]** auswählt. Nach Ablauf von sieben Tagen wird das Element durch einen automatischen Datenbereinigungsvorgang endgültig gelöscht.
+* Obwohl das Element aus Ihrem Adobe Dynamic Media Classic-Ordner entfernt wurde, kann seine ID keinem anderen Asset zugewiesen werden, solange es im Papierkorb-Ordner verbleibt. Wenn Sie versuchen, ein Asset mit demselben Namen wie eine Datei im Papierkorb-Ordner hochzuladen, hängt Adobe Dynamic Media Classic eine Zahl an den Namen des Assets an.
+* Das Element kann nicht veröffentlicht werden. Selbst wenn das Element zum Veröffentlichen markiert wurde, als Sie es gelöscht haben, wird es nicht veröffentlicht.
+* Das Element verbleibt im Papierkorb-Ordner, bis es wiederhergestellt wird, sieben Tage vergehen oder jemand den Befehl **[!UICONTROL Leeren des Papierkorbs]** auswählt. Nach sieben Tagen wird das Element durch einen automatischen Löschvorgang dauerhaft gelöscht.
 
 ## Wiederherstellen von Assets aus dem Papierkorb-Ordner {#restoring-assets-from-the-trash-folder}
 
