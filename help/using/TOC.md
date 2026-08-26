@@ -6,10 +6,10 @@ user-guide-title: Handbuch zu Adobe Dynamic Media Classic
 breadcrumb-title: Handbuch zu Dynamic Media Classic
 user-guide-description: Weitere Informationen zur Verwendung von Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 21%
+source-wordcount: '803'
+ht-degree: 20%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 21%
   + [Vergleich der Funktionslisten](upgrade-feature-comparison.md)
   + [Checkliste für die Upgrade-Bereitschaft](upgrade-readiness.md)
 + [Handbuch zu Adobe Dynamic Media Classic](home.md)
-+ [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/de/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutorial zu Best Practices für Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NEUE Adobe Dynamic Media Classic-Anmeldung jetzt verfügbar](new-ui-2020.md)
-+ [Adobe Dynamic Media Newsletter-Archiv von Experience League](dynamic-media-newsletter.md)
++ [Adobe Dynamic Media-Newsletter-Archiv von Adobe Experience League](dynamic-media-newsletter.md)
 + Einführung in Adobe Dynamic Media Classic {#intro}
   + [Adobe Dynamic Media Classic Desktop App: Jetzt verfügbar](dynamic-media-classic-desktop-app.md)
   + [Hilfe zu Adobe Dynamic Media Classic](introduction.md)
@@ -58,10 +58,10 @@ ht-degree: 21%
   + [FTP-Konten verwalten](ftp-accounts.md)
   + [Festlegen, welche Exportoptionen Media Portal-Benutzern zur Verfügung stehen](specifying-export-options-available-media.md)
   + [Erstellen und Aktivieren von Bildvorgaben](creating-enabling-image-presets.md)
-  + [Effizientes Verwalten von Metadaten](making-efficient-metadata.md)
+  + [Verwalten von Metadaten](making-efficient-metadata.md)
   + [Anpassen des Bildschirms „Medienportal“](customizing-media-portal-screen.md)
 + Hochladen und Veröffentlichen von Elementen {#upload-publish}
-  + [Hochladen und Veröffentlichen von Assets](about-asset-upload-publish.md)
+  + [Hochladen und Veröffentlichen von Elementen](about-asset-upload-publish.md)
   + [Hochladen von Dateien](uploading-files.md)
   + [Dateien veröffentlichen](publishing-files.md)
   + [Einschränkungen bei Dynamic Media](limitations.md)
@@ -108,7 +108,7 @@ ht-degree: 21%
   + [Verknüpfen eines E-Katalogs mit einer Web-Seite](linking-ecatalog-web-page.md)
 + Bildsätze {#image-sets}
   + [Kurzanleitung: Bildsätze](quick-start-image-sets.md)
-  + [Vorbereiten von Bildset-Assets auf den Upload](preparing-image-set-assets-upload.md)
+  + [Vorbereiten des Bildsets Assets auf den Upload](preparing-image-set-assets-upload.md)
   + [Erstellen eines Bildsatzes](creating-image-set.md)
   + [Zoom-Ziele und Imagemaps in Bildsets einschließen](including-zoom-targets-image-maps-image-sets.md)
   + [Verwalten von Inhalten des Infobereichs in Bildsets](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 21%
 + Mustersets {#swatch-sets}
   + [Kurzanleitung: Mustersets](quick-start-swatch-sets.md)
   + [Zoom-Ziele und Imagemaps in Mustersets einschließen](including-zoom-targets-image-maps-swatch-sets.md)
-  + [Vorbereiten von Musterset-Assets auf den Upload](preparing-swatch-set-assets-upload.md)
+  + [Vorbereiten des Mustersets Assets auf den Upload](preparing-swatch-set-assets-upload.md)
   + [Erstellen eines Mustersets](creating-swatch-set.md)
   + [Anzeigen von Mustersets](viewing-swatch-sets.md)
   + [Verknüpfen von Mustersets mit Web-Seiten](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 21%
   + [Abrufen von Informationen zur Festplattenauslastung](getting-disk-usage-information.md)
   + [Hochladen eines Rasterbild-Assets](uploading-image-asset-or-vector.md)
 + Primäre Dateien {#master-files}
-  + [Empfohlene Verfahren zur Optimierung der Bildqualität](best-practices-optimizing-quality-images.md)
+  + [Richtlinien für die Optimierung der Bildqualität](best-practices-optimizing-quality-images.md)
   + [Bearbeiten von Bildern](editing-images.md)
   + [Imagemaps erstellen](creating-image-maps.md)
   + [Bilder zuschneiden](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 21%
   + [Optionen zur Bildbearbeitung beim Hochladen](image-editing-options-upload.md)
   + [Arbeiten mit PDFs](pdfs.md)
   + [Arbeiten mit PSD-Dateien](psd-files.md)
-  + [Arbeiten mit PostScript- und Illustrator-Dateien](postscript-illustrator-files.md)
+  + [Arbeiten mit PostScript- und Adobe Illustrator-Dateien](postscript-illustrator-files.md)
   + [Arbeiten mit Vignetten, Fensterabdeckungen und Schrankdateien](vignette-window-covering-cabinet-files.md)
 + Unterstützungsdateien {#support-files}
   + [Schriftarten](fonts.md)
