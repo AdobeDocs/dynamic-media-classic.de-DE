@@ -8,33 +8,24 @@ topic: Administration, Migration
 level: Intermediate
 autotag-review: '2026-05-13T20:16:25.016Z'
 TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 574
 ht-degree: 0%
 
 ---
 
 # Warum ein Upgrade auf [!DNL Dynamic Media]?
 
-Adobe hat [!DNL Dynamic Media] mit Ihnen im Hinterkopf erstellt.
+Adobe hat [!DNL Dynamic Media] für Ihre Anforderungen erstellt.
 
-Die neue [!DNL Dynamic Media] auf [!DNL Adobe Experience Manager] baut auf den Funktionen auf, die Sie von [!DNL Dynamic Media Classic] (ehemals Scene7) erwarten. Dadurch erhält Ihr Unternehmen neue und verbesserte Tools, um bessere, ansprechendere Erlebnisse zu erstellen.
+Die neue [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] baut auf den Funktionen auf, die Sie von [!DNL Dynamic Media Classic] (ehemals Scene7) erwarten. Dadurch erhält Ihr Unternehmen neue und verbesserte Tools, um bessere, ansprechendere Erlebnisse zu erstellen.
 
-[!DNL Dynamic Media] aktualisiert die Inhaltserstellung mithilfe von visuellen Buildern in Echtzeit. Das bewährte, vertrauenswürdige und skalierbare Bereitstellungsnetzwerk von Adobe bietet in Kombination mit der intuitiven [!DNL Adobe Experience Manager]-Benutzeroberfläche [!DNL Dynamic Media] Funktionen zum Erstellen, Durchlaufen und Bereitstellen ansprechender Erlebnisse auf nächster Ebene.
+[!DNL Dynamic Media] aktualisiert die Inhaltserstellung mithilfe von visuellen Buildern in Echtzeit. Mithilfe des skalierbaren Bereitstellungsnetzwerks von Adobe und der intuitiven [!DNL Adobe Experience Manager]-Benutzeroberfläche bietet [!DNL Dynamic Media] die Möglichkeit, ansprechende, erweiterte Erlebnisse zu erstellen, zu iterieren und bereitzustellen.
 
 | Was Sie mit [!DNL Dynamic Media] erhalten | Beschreibung |
 | --- | --- |
@@ -50,11 +41,11 @@ Die neue [!DNL Dynamic Media] auf [!DNL Adobe Experience Manager] baut auf den F
 
 ## Die wichtigsten Vorteile und Funktionen von [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] ist die natürliche Evolution der [!DNL Dynamic Media Classic]. Es bietet Tools zum Erstellen, Veröffentlichen und Bereitstellen von Rich-Media-Inhalten. Dazu gehört auch eine erstklassige Bereitstellung mit einer innovativen, benutzerorientierten Oberfläche, die moderne Workflows aus der Praxis unterstützt.
+[!DNL Dynamic Media] ist der Nachfolger von [!DNL Dynamic Media Classic]. Es bietet Tools für die Bearbeitung, Veröffentlichung und Bereitstellung von Rich-Media. Dazu gehört auch eine hochwertige Bereitstellung mit einer innovativen, benutzerorientierten Oberfläche, die moderne Workflows unterstützt.
 
 * Nahtloses, einheitliches Erlebnis und Integration mit [!DNL Adobe Experience Manager]: Konfigurieren und dynamisches Bereitstellen von Rich-Content aus einem Store, aus einer Quelle
-* Neues, Marketing-orientiertes Benutzererlebnis für einfache Erstellung und Bereitstellung von Rich-Media-Inhalten
-* WYSIWYG (What You See Is What You Get) in Bezug auf das allgemeine Erscheinungsbild und Verhaltenseditoren für Bild-Viewer und Video-Player.
+* Neues Marketing-orientiertes Benutzererlebnis für einfache Erstellung und Bereitstellung von Rich-Media-Inhalten
+* Visuelle Bearbeitung für das gesamte Erscheinungsbild und Verhaltenseditoren für Bild-Viewer und Video-Player.
 * Schnelle Erstellung und Bereitstellung von Erlebnissen mit Shopping-Funktion/interaktiven Medien, einschließlich Bild-Hotspots und Videos mit Shopping-Funktion
 
 ### [!DNL Dynamic Media] Funktionen in [!DNL Experience Manager] Assets
@@ -67,8 +58,8 @@ Die neue [!DNL Dynamic Media] auf [!DNL Adobe Experience Manager] baut auf den F
 
 ## Warum Adobe?
 
-* The Largest Positive Mover in Digital Assets Forrester WAVE Report.
+* Der am höchsten bewertete Anbieter im Forrester WAVE-Bericht zu digitalen Assets.
 * Bericht über die Online-Videoplattform „Stark“ im Jahr 2016.
-* Top Rich-Media-Anbieter für Internet Retail 1000, neun Jahre in Folge.
-* 24/7/265-Support, 99,95 % SLAs, Adobe Professional Services.
-* Bewährte Infrastruktur, die mehr als 800 Kunden weltweit bedient, 3,5 Petabyte Traffic pro Monat und mehr als 500 Millionen Assets im Management, 60 % Wachstum im Traffic-Jahresvergleich.
+* Top Rich-Media-Anbieter zu Internet Retail 1000, neun aufeinander folgende Jahre.
+* 24/7/365-Support, 99,95 % SLAs, Adobe Professional Services.
+* Bewährte Infrastruktur, die mehr als 800 Kunden weltweit bedient, 3,5 Petabyte Traffic pro Monat und mehr als 500 Millionen Assets in Management, 60 % mehr Traffic im Jahresvergleich.
