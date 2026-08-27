@@ -22,9 +22,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 343
 ht-degree: 5%
 
 ---
@@ -35,15 +35,15 @@ Nachdem Sie die erforderlichen Variablen in Adobe Analytics erstellt, mit Adobe 
 
 **So testen Sie die Integration durch Anzeigen eines Adobe Analytics-Berichts:**
 
-1. Starten Sie einen Adobe Dynamic Media Classic-Viewer über Ihr Konto, insbesondere einen, der die Metrik sendet, die Sie erhalten möchten, und interagieren Sie mit ihm, um Ereignisdaten zu erstellen.
+1. Starten Sie einen Adobe Dynamic Media Classic-Viewer über Ihr Konto, der die Metrik ausgibt, die Sie erhalten möchten, und interagieren Sie mit ihm, um Ereignisdaten zu erstellen.
 
-   Wenn Sie beispielsweise beliebte alternative Ansichten in einem Bildset messen möchten, zeigen Sie eine Vorschau eines Bildsets an und klicken Sie auf die verschiedenen Miniaturen.
+   Wenn Sie beispielsweise beliebte alternative Ansichten in einem Bildset messen möchten, zeigen Sie eine Vorschau eines Bildsets an und klicken Sie auf die verschiedenen Miniaturbilder.
 
 1. Navigieren Sie in Adobe Analytics zu **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > [Name der Prop] und wählen Sie Ihren Traffic-Prop-Namen aus den Menüoptionen aus.
 
    Um beispielsweise auf die Prop **[!UICONTROL LoadAsset]** im Beispielkonto zuzugreifen, lautet die richtige Menüauswahl **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Wenn Sie mehr als zehn benutzerdefinierte Eigenschaften haben, sehen Sie auch andere Menüoptionen.
 
-1. Zeigen Sie das von Adobe Analytics erstellte Diagramm an. Dieses Diagramm enthält normalerweise nur die Daten für eine einzelne Metrik. Wenn Sie auch wissen möchten, mit welchem Asset diese Daten verknüpft sind, rufen Sie die Asset-Daten dieses Ereignisses ab. Beispielsweise ist es oft nützlich zu wissen, welches Video nur zu 50 % angesehen wird oder welches Bild in einem Set beliebt ist.
+1. Zeigen Sie das von Adobe Analytics erstellte Diagramm an. Dieses Diagramm enthält die Daten für eine einzelne Metrik. Wenn Sie auch wissen möchten, welchem Asset diese Daten zugeordnet sind, rufen Sie die Asset-Daten dieses Ereignisses ab. Beispielsweise ist es oft nützlich zu wissen, welches Video nur zu 50 % angesehen wird oder welches Bild in einem Set häufig angesehen wird.
 
 >[!NOTE]
 >

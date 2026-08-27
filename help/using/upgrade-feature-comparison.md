@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: 157
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Eine Tabelle mit einem Funktionsvergleich zwischen [!DNL Dynamic Media] in [!DNL
 | Videokodierung | ✓ | ✓ |
 | Viewer-Barrierefreiheit | ✓ | ✓ |
 | Viewer-Integration mit Analytics | ✓ | ✓ |
-| 1:1 Vorlagen | ✓<br>*Personalisiertes Medienpaket* | ✓ |
+| 1:1-Vorlagen | ✓<br>*Personalisiertes Medienpaket* | ✓ |
 | Visual Configurator<br>(Produktpersonalisierung) | ✓<br>*Personalisiertes Medienpaket* | ✓ |
 | 3D: Experience Manager Sites<br>WCM-Komponente | ✓ | : |
 | 3D: Viewer für interaktive Erlebnisse | ✓ | : |
