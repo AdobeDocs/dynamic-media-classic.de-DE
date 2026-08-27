@@ -11,28 +11,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 50%
+source-wordcount: 1052
+ht-degree: 45%
 
 ---
 
 # Hochladen eines Rasterbild-Assets {#uploading-an-image-asset-or-a-vector-asset}
 
-Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsamen geheimen Schlüssel an. Mit diesem gemeinsamen geheimen Schlüssel können Sie ein Upload-Token abrufen. Anschließend verwenden Sie das Upload-Token, um Rasterbild-Assets hochzuladen.
+Bevor Sie ein Bild-Asset hochladen können, müssen Sie zunächst einen Schlüssel mit einem gemeinsamen geheimen Schlüssel anfordern. Mit diesem gemeinsamen geheimen Schlüssel können Sie ein Upload-Token abrufen. Anschließend verwenden Sie das Upload-Token, um Rasterbild-Assets hochzuladen.
 
 >[!IMPORTANT]
 >
->Ab dem 1. Mai 2023 stehen UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads zur Verwendung zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
+>Ab dem 1. Mai 2023 stehen UGC-Assets in Dynamic Media bis zu 60 Tage ab dem Datum des Uploads zur Verfügung. Nach 60 Tagen werden die Assets entfernt.
 
 >[!NOTE]
 >
@@ -40,13 +36,13 @@ Bevor Sie ein Bild-Asset hochladen können, fordern Sie zunächst einen gemeinsa
 
 ## Anfordern eines Schlüssels mit gemeinsamen geheimen Daten {#requesting-a-shared-secret-key}
 
-Fordern Sie einen *Schlüssel mit freigegebenen*&quot; an[&#x200B; indem Sie die Admin Console verwenden, um einen Support-Fall zu erstellen.](https://helpx.adobe.com/de/enterprise/using/support-for-experience-cloud.html) Fordern Sie im Fall des technischen Supports einen Schlüssel mit einem gemeinsamen geheimen Schlüssel an.
+Fordern Sie einen *Schlüssel mit freigegebenen*&quot; an[ indem Sie die Admin Console verwenden, um einen Support-Fall zu erstellen](https://helpx.adobe.com/business/enterprise.html). Fordern Sie im Fall des technischen Supports einen Schlüssel mit einem gemeinsamen geheimen Schlüssel an.
 
 Geben Sie in der E-Mail-Nachricht den Unternehmensnamen an, den Sie verwenden möchten, um Bild-Assets hochzuladen. Nachdem Sie den Schlüssel von Adobe Dynamic Media Classic erhalten haben, speichern Sie ihn lokal für die zukünftige Verwendung.
 
 ## Abrufen des Upload-Tokens {#retrieving-the-upload-token}
 
-Das *Upload-Token* stellt sicher, dass niemand denselben gemeinsamen geheimen Schlüssel zum Hochladen von Assets verwenden kann. Außerdem stellt es sicher, dass der Upload zulässig ist und von einer vertrauenswürdigen Quelle stammt.
+Das *Upload-Token* stellt sicher, dass zum Hochladen von Assets nicht derselbe Schlüssel mit gemeinsamen geheimen Daten verwendet werden kann. Außerdem stellt es sicher, dass der Upload zulässig ist und von einer vertrauenswürdigen Quelle stammt.
 
 Das Upload-Token besteht aus einer alphanumerischen Zeichenfolge, die nur für eine begrenzte Zeitspanne gültig ist. Verwenden Sie die folgenden URLs und ersetzen Sie damit den Schlüssel des gemeinsamen Geheimnisses, damit Sie das Upload-Token abrufen können.
 
@@ -148,7 +144,7 @@ Mit dem folgenden HTML-Formular können Benutzer Assets hochladen. In dem Formul
 * Eine Dateigrößenbeschränkung.
 * Eine Liste von Dateinamenerweiterungen.
 * Ob das Farbprofil und der Dateiname des mit dem Asset verknüpften Assets beibehalten werden sollen.
-* Ob ein Knock-out-Hintergrund verwendet werden soll. Wenn Sie den Knock-out-Hintergrund aktivieren, legen Sie die Eck-, Toleranz- und Füllmethode fest.
+* Ob ein Knock-out-Hintergrund verwendet werden soll. Wenn Sie den Knock-out-Hintergrund aktivieren, konfigurieren Sie die Ecken-, Toleranz- und Füllmethode.
 Siehe Knockout-Hintergrund in [Optionen zur Bildoptimierung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
 * Der Name der hochzuladenden Datei.
 
@@ -156,7 +152,7 @@ Sie können den mit dem obigen Formular verknüpften HTML-Quell-Code anzeigen, i
 
 Klicken Sie in Firefox mit der rechten Maustaste in das Browser-Fenster und wählen Sie **[!UICONTROL Seite Source anzeigen]**. Der Code zeigt die entsprechende URL-Abfragezeichenfolge und die POST-Methode an, die ausgeführt wird, wenn Benutzende **[!UICONTROL Senden]** auswählen.
 
-Um die XML-Antwort in Internet Explorer anzuzeigen, navigieren Sie zu **[!UICONTROL Anzeigen]** > **[!UICONTROL Source]**. Die XML-Antwort in Firefox finden Sie unter **[!UICONTROL Tools]** > **[!UICONTROL Browser-]** > **[!UICONTROL Web Developer Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
+Um die XML-Antwort in einem Browser anzuzeigen, navigieren Sie zu **[!UICONTROL Anzeigen]** > **[!UICONTROL Source]**. Die XML-Antwort in Firefox finden Sie unter **[!UICONTROL Tools]** > **[!UICONTROL Browser-]** > **[!UICONTROL Web Developer Tools]**. Zur Anzeige von XML-Antworten wird Firefox empfohlen.
 
 Hier eine Beispielantwort für einen erfolgreiche Upload:
 
@@ -184,13 +180,13 @@ Hier eine Beispielantwort für einen erfolgreiche Upload:
 >
 >Das hochgeladene Asset (JPG, GIF usw.) wird ins PTIFF-Format umgewandelt und mit der Antwort wird eine direkte Verknüpfung zu diesem PTIFF-Asset gesendet.
 
-Das Asset kann wie jede andere Image-Server-Ressource gehandhabt werden; Sie können auch Verarbeitungsanfragen darauf anwenden. Beispielsweise fordert die folgende URL ein Asset an, das auf die angegebene Breite und Höhe gestreckt ist.
+Das Asset ist eine ImageServing-Ressource, auf die Sie Verarbeitungsabfragen anwenden können. Mit der folgenden URL wird beispielsweise ein Asset in der angegebenen Breite und Höhe angefordert.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-Senden Sie das hochzuladende Asset mit der POST-Methode als mehrteilige Formulardaten, während Sie die übrigen Werte als URL-Anfragezeichenfolge senden. Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Hochladen eines Assets verwenden:
+Um das Asset hochzuladen, senden Sie es als mehrteiligen/Formular-Post und senden Sie den Rest der Werte als URL-Abfragezeichenfolge. Folgende Felder können Sie in der URL-Anfragezeichenfolge zum Hochladen eines Assets verwenden:
 
 | URL-Parameter | Erforderlich oder optional | Wert |
 | --- | --- | --- |
