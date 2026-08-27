@@ -13,11 +13,11 @@ In dieser Datei wird beschrieben, wie Sie einen Beitrag leisten können, und es 
 
 ## Adobe Open Source-Verhaltenskodex
 
-Dieses Projekt hat den [Open Source-Verhaltenskodex für Adobe ](code-of-conduct.md). Mit Ihrer Teilnahme an der Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dieses Projekt hat den [Open Source-Verhaltenskodex für Adobe &#x200B;](code-of-conduct.md). Mit Ihrer Teilnahme an der Dokumentation erklären Sie sich damit einverstanden, diesen Verhaltenskodex einzuhalten. Melden Sie inakzeptables Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Richtlinien für Beiträge
 
-Adobe begrüßt zwar Beiträge zur Verbesserung der Dokumentation, stellen Sie jedoch sicher, dass Ihre Beiträge nach Möglichkeit bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden [ in den Richtlinien für Beiträge zur Dokumentation ](guidelines.md) Adobe Dynamic Media Classic .
+Adobe begrüßt zwar Beiträge zur Verbesserung der Dokumentation, stellen Sie jedoch sicher, dass Ihre Beiträge nach Möglichkeit bestimmten Richtlinien und Standards entsprechen. Weitere Informationen finden [&#x200B; in den Richtlinien für Beiträge zur Dokumentation &#x200B;](guidelines.md) Adobe Dynamic Media Classic .
 
 ## So können Sie einen Beitrag leisten
 
@@ -42,7 +42,7 @@ Mithilfe von Problemen können Sie Ihre Verbesserungsidee für Dokumente einfach
 
 Wenn Sie ein Problem sehen und genau wissen, wie es behoben werden kann, sollten Sie eine Pull-Anfrage erstellen. Mithilfe von Pull-Anforderungen können Sie Ihre eigenen Änderungen an der Dokumentation vornehmen, und ein Mitglied des Dokumentations-Teams prüft sie, um sie aufzunehmen. Um die vorgeschlagenen Änderungen vorzunehmen und die Pull-Anfrage zu erstellen **[!UICONTROL wählen Sie &quot;]** bearbeiten“ oben rechts im Navigationsbereich auf einer beliebigen Seite aus.
 
-Allen Pull[Anforderungen muss eine unterzeichnete Lizenzvereinbarung für Mitwirkende oder ](https://opensource.adobe.com/cla.html) beigelegt sein. Dieser Workflow erteilt Adobe die Berechtigung, Ihre Beiträge im Rahmen des Projekts zu verteilen. Sie können eine Adobe-CLA nur einmal übermitteln. Wenn Sie also bereits eine übermittelt haben, sind Sie festgelegt.
+Allen Pull[Anforderungen muss eine unterzeichnete Lizenzvereinbarung für Mitwirkende oder &#x200B;](https://opensource.adobe.com/cla.html) beigelegt sein. Dieser Workflow erteilt Adobe die Berechtigung, Ihre Beiträge im Rahmen des Projekts zu verteilen. Sie können eine Adobe-CLA nur einmal übermitteln. Wenn Sie also bereits eine übermittelt haben, sind Sie festgelegt.
 
 ### Schnelle Videoeinführung
 
@@ -58,4 +58,4 @@ Adobe begrüßt jeden Beitrag. Beiträge werden geprüft, ob sie im öffentliche
 
 ## Weitere Informationen
 
-Weitere Informationen zur Verwendung der GitHub-Autorenplattform ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) Sie im Adobe-Handbuch für Mitwirkende an Dokumenten .[
+Weitere Informationen zur Verwendung der GitHub-Autorenplattform [&#128279;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) Sie im Adobe-Handbuch für Mitwirkende an Dokumenten .

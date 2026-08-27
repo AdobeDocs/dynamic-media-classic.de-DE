@@ -12,9 +12,12 @@ level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 autotag-review: '2026-05-13T20:09:57.533Z'
 TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
@@ -48,7 +51,7 @@ Eine Bildvorgabe ist eine Sammlung vordefinierter Befehle für Größe und Forma
 
 Wenn Sie eine Bildvorgabe erstellen möchten (wenn Sie Administrator sind), klicken Sie in der globalen Navigationsleiste auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Bildvorgaben]**. Klicken Sie dann auf **[!UICONTROL Hinzufügen]**, um eine Bildvorgabe zu erstellen, oder klicken Sie auf **[!UICONTROL Bearbeiten]**, um eine vorhandene Bildvorgabe zu ändern.
 
-Die erstellte Bildvorgabe wird dem Menü Bildvorgabe auf der Seite Vorschau hinzugefügt. Mithilfe der neuen Bildvorgabe können Sie Bilder auf Ihren Websites und in Ihren Anwendungen dynamisch anzeigen. Siehe [Einrichten von ](setting-image-presets.md#setting_up_image_presets).
+Die erstellte Bildvorgabe wird dem Menü Bildvorgabe auf der Seite Vorschau hinzugefügt. Mithilfe der neuen Bildvorgabe können Sie Bilder auf Ihren Websites und in Ihren Anwendungen dynamisch anzeigen. Siehe [Einrichten von &#x200B;](setting-image-presets.md#setting_up_image_presets).
 
 ## &#x200B;3. Vorschau von Bildvorgaben
 
