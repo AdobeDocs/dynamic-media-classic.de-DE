@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b179d4d28fe4859010783fcf725c3e8c6704416e
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 11344
+source-wordcount: 11367
 ht-degree: 26%
 
 ---
@@ -312,7 +312,7 @@ Um eine Kodierungsvorgabe auszuwählen, wählen Sie in der rechten unteren Ecke 
 
   * **[!UICONTROL Adaptive Videokodierung (16:9 oder 4:3)]**: Erstellen Sie sowohl Videos mit einem Seitenverhältnis von 16:9 als auch von 4:3 für die Bereitstellung auf Desktops, Mobilgeräten (iPhone, iPad, Android™) und Tablets (iPad, Android™). Optimiert mit der Auflösung und Bitrate, die der Verbindungsgeschwindigkeit des Viewers am besten entspricht.
 
-    Siehe [Vorgaben für die Videokodierung (16:9 oder 16:9: 3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+    Siehe [Vorgaben für die adaptive Videokodierung (16:9 oder 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
   * **[!UICONTROL Einzelne Kodierungsvorgaben]**
 
@@ -552,7 +552,7 @@ Adobe Dynamic Media Classic unterstützt die mobile Videowiedergabe für MP4 H.2
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet | BlackBerry® Smartphone | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video(Enthält Unterstützung für verdeckte Untertitel.) Siehe [Best Practice: Verwenden des universellen HTML5-Video-Viewers.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(Enthält Unterstützung für verdeckte Untertitel.) Siehe [Best Practice: Verwenden des universellen HTML5-Video-Viewers].(Best-Practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(Enthält Unterstützung für verdeckte Untertitel und soziale Medien.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | Viewer-Technologie | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |

@@ -1,5 +1,5 @@
 ---
-title: Hochladen von Dateien
+title: Dateien hochladen
 description: Erfahren Sie, wie Sie Dateien in Adobe Dynamic Media Classic hochladen.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,24 +21,24 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e52a31a700f7b319f0fe3aee836687771bf5618c
+source-git-commit: 1d39c652980a2e0c502c27856fda7fd7e6c4ec0a
 workflow-type: tm+mt
-source-wordcount: 3571
-ht-degree: 22%
+source-wordcount: 4137
+ht-degree: 23%
 
 ---
 
 # Hochladen von Dateien{#uploading-files}
 
-Stellen Sie vor dem Hochladen von Asset-Dateien in Adobe Dynamic Media Classic sicher, dass die Asset-Dateien korrekt benannt sind. Stellen Sie sicher, dass Ihre Ordnerstruktur wie gewünscht eingerichtet und organisiert ist. Sie können Dateien von einer von Adobe Dynamic Media Classic bereitgestellten FTP-Site oder direkt von Ihrem Computer oder Netzwerk hochladen. Adobe Dynamic Media Classic bietet Optionen zum Optimieren von Dateien beim Hochladen. Wenn Sie das Adobe Dynamic Media Classic-Desktop-Programm installiert haben, können Sie Dateien und Ordner hochladen, indem Sie sie direkt von Ihrem Desktop ziehen. Siehe [Allgemeine Programmeinstellungen](application-setup.md#general_settings).
+Stellen Sie vor dem Hochladen von Asset-Dateien in Adobe Dynamic Media Classic sicher, dass die Asset-Dateien korrekt benannt sind. Stellen Sie sicher, dass Ihre Ordnerstruktur entsprechend Ihren Anforderungen eingerichtet und organisiert ist. Sie können Dateien von einer von Adobe Dynamic Media Classic bereitgestellten FTP-Site oder direkt von Ihrem Computer oder Netzwerk hochladen. Adobe Dynamic Media Classic bietet Optionen zum Optimieren von Dateien beim Hochladen. Wenn Sie das Adobe Dynamic Media Classic-Desktop-Programm installiert haben, können Sie Dateien und Ordner hochladen, indem Sie sie direkt von Ihrem Desktop ziehen. Siehe [Allgemeine Programmeinstellungen](application-setup.md#general_settings).
 
 ## Vorbereiten von Assets und Ordnern für das Hochladen {#preparing-your-assets-and-folders-for-uploading}
 
-Stellen Sie vor dem Hochladen von Assets in Adobe Dynamic Media Classic sicher, dass sie das richtige Format und die richtige Größe aufweisen. Beachten Sie außerdem die Adobe Dynamic Media Classic-Regeln für das Benennen von Assets. Durch das Einrichten einer Ordnerstruktur für die Dateien stellen Sie sicher, dass Sie die Dateien einfach finden und damit arbeiten können.
+Stellen Sie vor dem Hochladen von Assets in Adobe Dynamic Media Classic sicher, dass sie das richtige Format und die richtige Größe aufweisen. Beachten Sie außerdem die Adobe Dynamic Media Classic-Regeln für das Benennen von Assets. Durch das Erstellen einer Ordnerstruktur für die Dateien stellen Sie sicher, dass Sie die Dateien einfach finden und verwalten können.
 
 ### Unterstützte Asset-Dateiformate {#supported-asset-file-formats}
 
-In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/de/camera-raw/using/supported-cameras.html).
+In dieser Tabelle sind die von Adobe Dynamic Media Classic unterstützten Asset-Dateiformate aufgeführt. Informationen zu unterstützten Camera Raw-Dateien finden Sie unter [Unterstützte Kamera](https://helpx.adobe.com/de/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html).
 
 | Asset-Dateiformate | Beschreibung |
 | --- | --- |
@@ -128,7 +128,7 @@ Stellen Sie sicher, dass alle Benutzer in Ihrem Unternehmen diese Regeln für di
 
 * Asset-IDs mit demselben Namen sind im System nicht zulässig.
 * Bei Asset-ID-Namen wird zwischen Groß- und Kleinschreibung unterschieden.
-* Stellen Sie am besten sicher, dass Asset-IDs keine Leerzeichen enthalten. Zum Beispiel `black jacket.tif` und `blue jacket.jpg`. Adobe Dynamic Media Classic ASCII kodiert Leerzeichen in Asset-Namen, wenn es Asset-Namen zum Erstellen von URL-Zeichenfolgen verwendet. Diese ASCII-Codierung beeinträchtigt jedoch die Lesbarkeit der URLs.
+* Stellen Sie am besten sicher, dass Asset-IDs keine Leerzeichen enthalten. Zum Beispiel `dark jacket.tif` und `blue jacket.jpg`. Adobe Dynamic Media Classic ASCII kodiert Leerzeichen in Asset-Namen, wenn es Asset-Namen zum Erstellen von URL-Zeichenfolgen verwendet. Diese ASCII-Codierung beeinträchtigt jedoch die Lesbarkeit der URLs.
 * Sprachspezifische Zeichen sind in Dateinamen zulässig. Allerdings dürfen Dateinamen die folgenden Zeichen nicht enthalten:
 
   `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
@@ -144,10 +144,10 @@ Normalerweise kann der Name einer Asset-Datei mit der Artikelnummer, der Produkt
 
 ### Ordnerorganisation und -struktur {#folder-organization-and-structure}
 
-Organisieren und strukturieren Sie Ordner und Unterordner für Ihre Inhalte in Adobe Dynamic Media Classic, bevor Sie Ihre Inhalte in das System hochladen. Die vorausschauende Planung hat zwei Vorteile:
+Organisieren und strukturieren Sie Ordner und Unterordner für Ihre Inhalte in Adobe Dynamic Media Classic, bevor Sie Ihre Inhalte in das System hochladen. Planung hat zwei Vorteile:
 
 * Wenn Sie Ihre Inhalte mithilfe von FTP in Adobe Dynamic Media Classic hochladen, können Sie das System anweisen, Ihre Ordnerstruktur während des Uploads zu replizieren. Auf diese Weise sind Ihre Inhalte in Adobe Dynamic Media Classic in denselben Ordnern und Unterordnern organisiert wie auf Ihrem Computer oder Netzwerk. (Um Ihre Ordnerstruktur in Adobe Dynamic Media Classic zu replizieren, wählen Sie beim Hochladen von Assets über FTP **Option** Unterordner einschließen).
-* Die Neuorganisation von Ordnern innerhalb des Systems nach dem Hochladen von Dateien benötigt mehr Zeit und Mühe als die Planung der Ordnerstruktur vor dem Hochladen.
+* Die Neuorganisation von Ordnern innerhalb des Systems nach dem Hochladen von Dateien erfordert mehr Zeit und Aufwand als die Planung der Ordnerstruktur, bevor Sie beginnen.
 
 Der Ansatz und die Struktur der Ordnerbenennung, die Sie für die Speicherung Ihrer Inhalte in Adobe Dynamic Media Classic auswählen, hängen von den Anforderungen Ihres Unternehmens ab. Es folgen einige Beispiele für Ordnerstrukturen:
 
@@ -165,7 +165,7 @@ Sie können einzelne Dateien vom Desktop hochladen oder Ordner per FTP hochladen
 
 Adobe Dynamic Media Classic sendet Ihnen eine E-Mail-Nachricht, um zu bestätigen, wann Ihr Upload-Auftrag beginnt und endet, und um Sie über Probleme zu informieren.
 
-Während (oder unmittelbar nach) einem großen Upload-Auftrag wird bei einigen neuen Elementen möglicherweise die Meldung „Bild noch nicht optimiert“ angezeigt. Diese Meldung wird angezeigt, da die Dateien noch nicht vollständig verarbeitet und zu Adobe Dynamic Media Classic hinzugefügt wurden. Sie können die betroffenen Dateien später optimieren. Siehe [Dateien optimieren](application-setup.md#optimize_files).
+Während (oder unmittelbar nach) einem großen Upload-Auftrag zeigen einige neue Elemente die Meldung „Bild noch nicht optimiert“ an. Diese Meldung wird angezeigt, da die Dateien noch nicht vollständig verarbeitet und zu Adobe Dynamic Media Classic hinzugefügt wurden. Sie können die betroffenen Dateien später optimieren. Siehe [Dateien optimieren](application-setup.md#optimize_files).
 
 ### FTP-Sicherheit {#ftp-security}
 
@@ -189,16 +189,16 @@ Mit dem Adobe Dynamic Media Classic-Desktop-Programm können Sie Dateien und Ord
 1. Navigieren Sie rechts auf der Seite Hochladen im ausgewählten Bereich **Ordnerziel** zu einem Zielordner, zu dem Sie die hochgeladenen Dateien oder Ordner hinzufügen möchten.
 1. (Optional) Geben Sie unten auf der Seite Hochladen im Textfeld Auftragsname den neuen Namen des Upload-Auftrags ein. Sie können auch den von Adobe Dynamic Media Classic bereitgestellten Standardnamen verwenden. Upload- und Veröffentlichungsaufträge werden auf der Seite „Aufträge“ aufgezeichnet, wo Sie den Status der Aufträge prüfen können. Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
 1. (Optional) Klicken Sie unten auf der Seite „Hochladen“ auf **[!UICONTROL Nach dem Hochladen veröffentlichen]** damit Sie die hochgeladenen Assets automatisch veröffentlichen können.
-Wenn Sie Dateien veröffentlichen, werden diese an Live-Server gesendet. URLs für diese Dateien können dann auf externen Websites und in Programmen verwendet werden. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
+Wenn Sie Dateien veröffentlichen, werden diese an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 1. (Optional) Wählen Sie unten auf der Seite Hochladen die Option **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]** aus, wenn die hochgeladenen Dateien vorhandene Dateien durch ident. Namen ersetzen sollen. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
-Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Anwendung hochladen]** > **[!UICONTROL Bilder überschreiben]** abweichen.
+Der Name dieser Option unterscheidet sich je nach den Einstellungen unter **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Anwendung hochladen]** > **[!UICONTROL Bilder überschreiben]**.
 1. Wählen Sie in der rechten unteren Ecke der Seite „Hochladen **[!UICONTROL die Option]** Auftragsoptionen“ aus und geben Sie dann die gewünschten Optionen an.
 
    Siehe [Optionen für das Hochladen](uploading-files.md#upload_options).
 
 1. Wählen Sie im Dialogfeld Upload-Auftragsoptionen die Option **[!UICONTROL Speichern]**.
 1. Wählen Sie in der rechten unteren Ecke der Seite „Hochladen“ **[!UICONTROL Upload starten]**.
-Um den Fortschritt des Uploads anzuzeigen, wählen Sie **[!UICONTROL Vorgänge]** in der globalen Navigationsleiste aus. Sie können weiterhin in Adobe Dynamic Media Classic arbeiten. Kehren Sie jederzeit zur Seite „Aufträge“ zurück, um einen gerade verarbeiteten Auftrag zu überprüfen. Um die laufende Verarbeitung eines Upload-Auftrags abzubrechen, wählen Sie **[!UICONTROL Abbrechen]** neben „Dauer“ aus.
+Um den Fortschritt des Uploads anzuzeigen, wählen Sie **[!UICONTROL Vorgänge]** in der globalen Navigationsleiste aus. Sie können weiterhin in Adobe Dynamic Media Classic arbeiten. Kehren Sie jederzeit zur Seite „Aufträge“ zurück, um einen gerade verarbeiteten Auftrag zu überprüfen. Wenn Sie einen in Verarbeitung befindlichen Upload-Auftrag stornieren möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Abbrechen]** neben der Angabe „Dauer“.
 
 ### Hochladen von Dateien über die Registerkarte VIA FTP {#upload-files-using-via-ftp}
 
@@ -210,9 +210,9 @@ Um den Fortschritt des Uploads anzuzeigen, wählen Sie **[!UICONTROL Vorgänge]*
 1. (Optional) Geben Sie unten auf der Seite Hochladen im Textfeld Auftragsname den neuen Namen des Upload-Auftrags ein. Sie können auch den von Adobe Dynamic Media Classic bereitgestellten systemgenerierten Standardnamen verwenden. Upload- und Veröffentlichungsaufträge werden auf der Seite „Aufträge“ aufgezeichnet, wo Sie den Status der Aufträge prüfen können.
 Siehe [Überprüfen von Auftragsdateien](checking-job-files.md#checking_job_files).
 1. (Optional) Klicken Sie unten auf der Seite „Hochladen“ auf **[!UICONTROL Nach dem Hochladen veröffentlichen]** damit Sie die hochgeladenen Assets automatisch veröffentlichen können.
-Wenn Sie Dateien veröffentlichen, werden diese an Live-Server gesendet. URLs für diese Dateien können dann auf externen Websites und in Programmen verwendet werden. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
+Wenn Sie Dateien veröffentlichen, werden diese an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 1. (Optional) Wählen Sie unten auf der Seite Hochladen die Option **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]** aus, wenn die hochgeladenen Dateien vorhandene Dateien durch ident. Namen ersetzen sollen. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
-Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Programm hochladen]** > **[!UICONTROL Bilder überschreiben]** abweichen.
+Der Name dieser Option unterscheidet sich je nach den Einstellungen unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Programm hochladen]** > **[!UICONTROL Bilder überschreiben]**.
 1. Optional, nur verfügbar, wenn Sie die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben. Wählen Sie unten auf der Seite Hochladen die Option **[!UICONTROL Zip- oder TAR-Dateien beim Hochladen entpacken]** aus, damit Sie automatisch alle Dateien aus Ihrer hochgeladenen ZIP- oder TAR-Datei extrahieren können. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 1. Wählen Sie in der rechten unteren Ecke der Seite „Hochladen **[!UICONTROL die Option]** Auftragsoptionen“ aus und geben Sie dann die gewünschten Optionen an.
 
@@ -233,43 +233,43 @@ Beim Hochladen von Dateien können Sie im Dialogfeld Upload-Auftragsoptionen aus
 
   Sie können die *Standard*-Optionen für das Hochladen von Aufträgen auch über das Dialogfeld **[!UICONTROL Standardmäßige Upload-Optionen]** in den allgemeinen Einstellungen auswählen. Wechseln Sie **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL Standard-Uploadoptionen]** und legen Sie die gewünschten Standardoptionen fest.
 
-   * **[!UICONTROL Wenn]**: Diese Option ist nur verfügbar, wenn Sie die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben.
-      * **[!UICONTROL Einmalig]**: Geben Sie einen Upload-Auftrag an, der einmal ausgeführt werden soll. Zu den Optionen gehören:
-         * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-**die Option** Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
-         * **[!UICONTROL Für später planen]**: Wählen Sie Jahr, Monat, Tag und Uhrzeit (in Intervallen von 15 Minuten) aus, zu denen der Upload-Auftrag ausgeführt werden soll.
-      * **[!UICONTROL Wiederkehrend]**: Geben Sie einen Upload-Auftrag an, der täglich, wöchentlich oder monatlich ausgeführt werden soll. Oder passen Sie den Upload-Auftrag an Ihre eigenen Spezifikationen an.
-         * **[!UICONTROL Täglich]**: Legen Sie die Zeit fest, zu der der Auftrag täglich ausgeführt werden soll. Wenn der Vorgang nur von Montag bis Freitag ausgeführt werden soll, wählen Sie **[!UICONTROL Nur Wochentage]** aus.
-         * **[!UICONTROL Wöchentlich]**: Wählen Sie einen bestimmten Wochentag und eine Uhrzeit aus, zu der der Auftrag ausgeführt werden soll.
-         * **[!UICONTROL Monatlich]** Wählen Sie einen bestimmten Tag des Monats oder Wochentags aus, einschließlich der Startzeit, an der der Auftrag ausgeführt werden soll.
-         * **[!UICONTROL Benutzerdefiniert]**: Passen Sie das Zeitintervall für Upload- oder Veröffentlichungsaufträge an Ihre eigenen Spezifikationen an. Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Uploads oder Veröffentlichungsaufträge](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+  * **[!UICONTROL Wenn]**: Diese Option ist nur verfügbar, wenn Sie die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben.
+    * **[!UICONTROL Einmalig]**: Geben Sie einen Upload-Auftrag an, der einmal ausgeführt werden soll. Zu den Optionen gehören:
+      * **[!UICONTROL Jetzt]**: Führt den Upload-Auftrag sofort aus, nachdem Sie im Dialogfeld Upload-**die Option** Speichern **[!UICONTROL ausgewählt haben, und wählen Sie dann auf der]** „Upload starten“ aus.
+      * **[!UICONTROL Für später planen]**: Wählen Sie Jahr, Monat, Tag und Uhrzeit (in Intervallen von 15 Minuten) aus, zu denen der Upload-Auftrag ausgeführt werden soll.
+    * **[!UICONTROL Wiederkehrend]**: Geben Sie einen Upload-Auftrag an, der täglich, wöchentlich oder monatlich ausgeführt werden soll. Oder passen Sie den Upload-Auftrag an Ihre eigenen Spezifikationen an.
+      * **[!UICONTROL Täglich]**: Legen Sie die Zeit fest, zu der der Auftrag täglich ausgeführt werden soll. Wenn der Vorgang nur von Montag bis Freitag ausgeführt werden soll, wählen Sie **[!UICONTROL Nur Wochentage]** aus.
+      * **[!UICONTROL Wöchentlich]**: Wählen Sie einen bestimmten Wochentag und eine Uhrzeit aus, zu der der Auftrag ausgeführt werden soll.
+      * **[!UICONTROL Monatlich]** Wählen Sie einen bestimmten Tag des Monats oder Wochentags aus, einschließlich der Startzeit, an der der Auftrag ausgeführt werden soll.
+      * **[!UICONTROL Benutzerdefiniert]**: Passen Sie das Zeitintervall für Upload- oder Veröffentlichungsaufträge an Ihre eigenen Spezifikationen an. Siehe [Erstellen eines benutzerdefinierten Zeitintervalls für Uploads oder Veröffentlichungsaufträge](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL Nach Hochladen veröffentlichen]**: Verfügbar, wenn Sie entweder die Registerkarte **[!UICONTROL VON DESKTOP]** oder die Registerkarte **[!UICONTROL ÜBER FTP]** ausgewählt haben. Wählen Sie diese Option aus, damit Sie die hochgeladenen Assets automatisch veröffentlichen können. Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung.
+  * **[!UICONTROL Nach Hochladen veröffentlichen]**: Verfügbar, wenn Sie entweder die Registerkarte **[!UICONTROL VON DESKTOP]** oder die Registerkarte **[!UICONTROL ÜBER FTP]** ausgewählt haben. Wählen Sie diese Option aus, damit Sie die hochgeladenen Assets automatisch veröffentlichen können. Wenn Sie Dateien veröffentlichen, werden die Dateien an Live-Server gesendet. Die URLs für diese Dateien können dann auf externen Websites und in externen Anwendungen verwendet werden. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung.
 
-   * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]** Verfügbar, wenn **[!UICONTROL die Registerkarte VOM DESKTOP]** oder **[!UICONTROL VIA FTP]** ausgewählt haben. Aktivieren Sie diese Option, wenn die hochgeladenen Dateien vorhandene gleichnamige Dateien ersetzen sollen. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung. Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Programm hochladen]** > **[!UICONTROL Bilder überschreiben]** unterschiedlich sein.
+  * **[!UICONTROL In belieb. Ordner Assets mit ident. Namen unabh. von Erweit. überschreiben]** Verfügbar, wenn **[!UICONTROL die Registerkarte VOM DESKTOP]** oder **[!UICONTROL VIA FTP]** ausgewählt haben. Aktivieren Sie diese Option, wenn die hochgeladenen Dateien vorhandene gleichnamige Dateien ersetzen sollen. Diese Option steht auch auf der Seite „Hochladen“ zur Verfügung. Der Name dieser Option kann je nach den Einstellungen unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Allgemeine Einstellungen]** > **[!UICONTROL In Programm hochladen]** > **[!UICONTROL Bilder überschreiben]** unterschiedlich sein.
 
-   * **[!UICONTROL Zip- oder TAR-Dateien beim Hochladen entpacken]**: Verfügbar, wenn Sie entweder die Registerkarte **[!UICONTROL VOM DESKTOP]** oder die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben.
-Wählen Sie diese Option aus, damit Sie automatisch alle Dateien aus Ihrer hochgeladenen ZIP- oder TAR-Datei extrahieren können. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
+  * **[!UICONTROL Zip- oder TAR-Dateien beim Hochladen entpacken]**: Verfügbar, wenn Sie entweder die Registerkarte **[!UICONTROL VOM DESKTOP]** oder die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben.
+    Wählen Sie diese Option aus, damit Sie automatisch alle Dateien aus Ihrer hochgeladenen ZIP- oder TAR-Datei extrahieren können. Diese Option ist auch im Dialogfeld Auftragsoptionen verfügbar.
 
-   * **[!UICONTROL Unterordner einbeziehen]**: Nur verfügbar, wenn die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt wurde.
-Wählen Sie diese Option aus, wenn Sie Unterordner des Ordners hochladen möchten, den Sie hochladen möchten. Die Namen des hochgeladenen Ordners und der darin enthaltenen Unterordner werden automatisch in Adobe Dynamic Media Classic eingegeben.
+  * **[!UICONTROL Unterordner einbeziehen]**: Nur verfügbar, wenn die Registerkarte **[!UICONTROL VIA FTP]** ausgewählt wurde.
+    Aktivieren Sie diese Option, wenn Sie auch die Unterordner im hochzuladenden Ordner hochladen möchten. Die Namen des hochgeladenen Ordners und der darin enthaltenen Unterordner werden automatisch in Adobe Dynamic Media Classic eingegeben.
 
-   * **[!UICONTROL Metadatendateien verarbeiten]**: Nur verfügbar, wenn Sie auf der Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben. Wählen Sie diese Option aus, wenn Sie eine tabulatorgetrennte oder XML-Datei hochladen möchten, um mehreren Assets Metadaten hinzuzufügen.
-Siehe [Metadaten importieren (über FTP)](viewing-adding-exporting-metadata.md#import-metadata).
+  * **[!UICONTROL Metadatendateien verarbeiten]**: Nur verfügbar, wenn Sie auf der Registerkarte **[!UICONTROL VIA FTP]** ausgewählt haben. Wenn diese Option aktiviert ist, können Sie eine tabulatorgetrennte Datei oder XML-Datei hochladen, um gleichzeitig mehreren Assets Metadaten hinzuzufügen.
+    Siehe [Importieren von Metadaten (über FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 * **Zuschnittsoptionen**: Automatische Beschneidung von Leerraumpixeln eines Bildes. Öffnen Sie das Menü **[!UICONTROL Zuschneiden]**, wählen Sie **[!UICONTROL Manuell]** aus und geben Sie zum Zuschneiden von den Seiten Pixelwerte in die Textfelder Oben, Rechts, Unten und Links ein. Sie können auch **[!UICONTROL Zuschneiden]** im Menü „Beschneiden“ auswählen und die folgenden Optionen auswählen:
 
-   * **[!UICONTROL Beschneiden basierend auf]**: Wählen Sie, ob der Beschneidungsprozess auf Grundlage von Farbe oder Transparenz durchgeführt werden soll:
-      * **[!UICONTROL Farbe]**: Wählen Sie die Option „Farbe“. Wählen Sie anschließend im Menü „Ecke“ die Bildecke mit der Farbe aus, die am besten der Leerraumfarbe entspricht, die Sie beschneiden möchten.
-Auf Farbe basierendes Zuschneiden: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau mit der Farbe übereinstimmen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, ermöglichen einen größeren Farbunterschied.
-      * **[!UICONTROL Transparenz]**: Wählen Sie die Option **[!UICONTROL Transparenz]** aus.
-Zuschneiden auf der Grundlage der Transparenz: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Zahlen, die näher an 1 liegen, ermöglichen mehr Transparenz.
-      * **[!UICONTROL Toleranz]**: Ziehen Sie den Schieberegler, um eine Toleranz von 0 bis 1 festzulegen.
+  * **[!UICONTROL Beschneiden basierend auf]**: Wählen Sie, ob der Beschneidungsprozess auf Grundlage von Farbe oder Transparenz durchgeführt werden soll:
+    * **[!UICONTROL Farbe]**: Wählen Sie die Option „Farbe“. Wählen Sie anschließend im Menü „Ecke“ die Bildecke mit der Farbe aus, die der Farbe der weißen Flächen, die Sie entfernen möchten, am besten entspricht.
+      Auf Farbe basierendes Zuschneiden: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie genau mit der Farbe übereinstimmen, die Sie in der Bildecke ausgewählt haben. Werte, die näher an 1 liegen, lassen eine größere Farbabweichung zu.
+    * **[!UICONTROL Transparenz]**: Wählen Sie die Option **[!UICONTROL Transparenz]** aus.
+      Zuschneiden auf der Grundlage der Transparenz: Geben Sie 0 an, damit Pixel nur dann abgeschnitten werden, wenn sie transparent sind. Zahlen, die näher an 1 liegen, ermöglichen mehr Transparenz.
+    * **[!UICONTROL Toleranz]**: Ziehen Sie den Schieberegler, um eine Toleranz von 0 bis 1 festzulegen.
 
 * **Farbprofiloptionen**: Wählen Sie eine Farbkonvertierung aus, wenn Sie optimierte Dateien erstellen, die für die dynamische Bereitstellung von Adobe Dynamic Media Classic verwendet werden:
 
-   * **[!UICONTROL Beibehaltung der Standardfarbe]**: Behält die Farben des Quellbilds bei, wenn die Bilder Farbrauminformationen enthalten. Es findet keine Farbkonvertierung statt. Heutzutage ist in fast allen Bildern das entsprechende Farbprofil eingebettet. Wenn jedoch ein CMYK-Quellbild kein eingebettetes Farbprofil enthält, werden die Farben in den sRGB-Farbraum (standardmäßiges Rot Grün Blau) umgewandelt. sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Web-Seiten.
-   * **[!UICONTROL Ursprünglichen Farbraum beibehalten]**: Behält die Originalfarben bei, ohne dass am Ort der Aufnahme in Adobe Dynamic Media Classic eine Farbkonvertierung stattfindet. Bei Bildern ohne eingebettetes Farbprofil wird jede erforderliche Farbkonvertierung zur Verarbeitung von Bildanforderungen mit den Standardfarbprofilen durchgeführt, die in den Veröffentlichungseinstellungen konfiguriert sind. Diese Farbprofile stimmen nicht immer mit den Farben in den mit dieser Option erstellten Dateien überein. Deshalb empfehlen wir, die Option „Beibehaltung der Standardfarbe“ zu verwenden.
-   * **[!UICONTROL Benutzerdefiniertes Formular]** > **[!UICONTROL An]**: Öffnet Menüs, in denen Sie einen **[!UICONTROL Konvertieren aus]** und **[!UICONTROL In konvertieren]** auswählen können. Diese erweiterte Option überschreibt alle Farbinformationen, die in die Quelldatei eingebettet sind. Wählen Sie diese Option nur aus, wenn alle Bilder, die Sie senden, falsche oder fehlende Farbprofildaten enthalten.
+  * **[!UICONTROL Beibehaltung der Standardfarbe]**: Behält die Farben des Quellbilds bei, wenn die Bilder Farbrauminformationen enthalten. Es findet keine Farbkonvertierung statt. Heutzutage ist in fast allen Bildern das entsprechende Farbprofil eingebettet. Wenn jedoch ein CMYK-Quellbild kein eingebettetes Farbprofil enthält, werden die Farben in den sRGB-Farbraum (standardmäßiges Rot Grün Blau) umgewandelt. sRGB ist der empfohlene Farbraum für die Anzeige von Bildern auf Web-Seiten.
+  * **[!UICONTROL Ursprünglichen Farbraum beibehalten]**: Behält die Originalfarben bei, ohne dass am Ort der Aufnahme in Adobe Dynamic Media Classic eine Farbkonvertierung stattfindet. Bei Bildern ohne eingebettetes Farbprofil wird jede erforderliche Farbkonvertierung zur Verarbeitung von Bildanforderungen mit den Standardfarbprofilen durchgeführt, die in den Veröffentlichungseinstellungen konfiguriert sind. Diese Farbprofile stimmen nicht immer mit den Farben in den mit dieser Option erstellten Dateien überein. Deshalb empfehlen wir, die Option „Beibehaltung der Standardfarbe“ zu verwenden.
+  * **[!UICONTROL Benutzerdefiniertes Formular]** > **[!UICONTROL An]**: Öffnet Menüs, in denen Sie einen **[!UICONTROL Konvertieren aus]** und **[!UICONTROL In konvertieren]** auswählen können. Diese erweiterte Option überschreibt alle Farbinformationen, die in die Quelldatei eingebettet sind. Wählen Sie diese Option nur aus, wenn alle Bilder, die Sie senden, falsche oder fehlende Farbprofildaten enthalten.
 
 * **Bildbearbeitungsoptionen**: Sie können das Zuschneiden `<>` Masken in Bildern beibehalten und ein Farbprofil auswählen.
 Siehe [Optionen zur Bildoptimierung beim Hochladen](image-editing-options-upload.md#image-editing-options-at-upload).
@@ -278,10 +278,10 @@ Siehe [Optionen zur Bildoptimierung beim Hochladen](image-editing-options-upload
 Siehe [Arbeiten mit PostScript- und Adobe Illustrator-](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Adobe Photoshop-Optionen**: Sie können Vorlagen aus Adobe® Photoshop®-Dateien erstellen, Ebenen beibehalten, Ebenennamen angeben, Text extrahieren und angeben, wie Bilder in Vorlagen verankert werden.
-Siehe [PSD-Uploadoptionen](psd-files.md#psd_upload_options).
+Siehe [Optionen für das Hochladen von PSD-Dateien](psd-files.md#psd_upload_options).
 
 * **PDF-Optionen**: Sie können die Dateien rastern, Suchbegriffe und Links extrahieren, automatisch einen E-Katalog generieren, die Auflösung festlegen und einen Farbraum auswählen.
-Siehe [PDF-Uploadoptionen](pdfs.md#pdf_upload_options).
+Siehe [Optionen für das Hochladen von PDF-Dateien](pdfs.md#pdf_upload_options).
 
 * **Adobe Illustrator-Optionen**: Sie können Adobe Illustrator®-Dateien rastern, transparente Hintergründe beibehalten sowie eine Auflösung und einen Farbraum auswählen.
 Siehe [Arbeiten mit PostScript- und Adobe Illustrator-](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
@@ -289,12 +289,12 @@ Siehe [Arbeiten mit PostScript- und Adobe Illustrator-](postscript-illustrator-f
 * **EVIDEO-Optionen**: Sie können eine Videodatei transkodieren, indem Sie eine Videovorgabe auswählen.
 Siehe [Arbeiten mit Videocodierungsvorgaben](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Weitere Metadaten**: Geben Sie Schlüsselwörter ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter durch Kommas. Keywords erleichtern die Suche nach Assets.
+* **Weitere Metadaten**: Geben Sie Schlüsselwörter ein, die die Dateien beschreiben, die Sie hochladen möchten. Trennen Sie Schlüsselwörter durch Kommas. Schlüsselwörter vereinfachen die Suche nach Assets.
 Siehe [Durchführen einer erweiterten Suche](searching-assets.md#conducting_an_advanced_search).
 Siehe auch [Hochladen von Keywords](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) Schulungsvideo.
 
-* **Stapelsatzvorgaben**: Um ein Bildset, Rotationsset oder Musterset aus den hochgeladenen Dateien zu erstellen, wählen Sie die Spalte **[!UICONTROL Aktiv]** für die gewünschte Vorgabe aus. Sie können mehrere Voreinstellungen auswählen. Sie können die Vorgaben auf der Seite „Anwendungseinstellungen/Stapelsatzvorgaben“ erstellen.
-Weitere [&#x200B; finden Sie unter &#x200B;](application-setup.md#batch_set_presets).
+* **Stapelsatzvorgaben**: Um ein Bildset, Rotationsset oder Musterset aus den hochgeladenen Dateien zu erstellen, wählen Sie die Spalte **[!UICONTROL Aktiv]** für die gewünschte Vorgabe aus. Sie können mehrere Vorgaben auswählen. Sie können die Vorgaben auf der Seite „Anwendungseinstellungen/Stapelsatzvorgaben“ erstellen.
+Siehe [Stapelsatzvorgaben](application-setup.md#batch_set_presets).
 
 * **Erweitert**: Siehe [Hochladen mit einem anderen Auftrag &#x200B;](uploading-files.md#follow-an-upload-with-another-job).
 
@@ -302,7 +302,7 @@ Weitere [&#x200B; finden Sie unter &#x200B;](application-setup.md#batch_set_pres
 
 Wenn Sie Elemente per FTP hochladen, können Sie einen weiteren Auftrag planen, der nach Abschluss des Uploads beginnt. Wenn der Beginn anderer Aufträge geplant ist, werden die Aufträge, die Sie hier planen, nach ihnen in die Warteschlange gestellt.
 
-Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adresse, damit der Code an diesem Speicherort ausgelöst werden kann. Der nachfolgende Veröffentlichungsauftrag erhält den Namen des Upload-Auftrags mit dem Präfix *Pub_*(für Publikation).
+Der neue Auftrag sendet eine Benachrichtigung an die von Ihnen angegebene Adresse, damit der Code an diesem Speicherort ausgeführt werden kann. Dieser nachfolgende Veröffentlichungsauftrag verwendet denselben Namen wie der Upload-Auftrag, jedoch mit dem *Pub_* als Präfix.
 
 **So folgen Sie einem Upload mit einem anderen Auftrag:**
 

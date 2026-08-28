@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 22%
@@ -49,7 +49,7 @@ Je nach den Einstellungen, die Sie für Ihren E-Katalog auswählen, bietet der V
 * Verwenden von Gesten zur Interaktion, einschließlich der Zangenbewegung zum Zoomen und der Wischbewegung zum Umblättern von Seiten.
 * Durchsuchen der Elemente nach bestimmten Schlüsselwörtern
 
-![Der E-Katalog, wie er den Benutzern angezeigt wird. A) E-Katalog-Startseite. b)eCatalog wurde auf Seite 2.](/help/using/assets/ec_cat_viewer_popup.png) umgestellt
+![Der E-Katalog, wie er den Benutzern angezeigt wird. A) E-Katalog-Startseite. b)eCatalog wird auf Seite 2](/help/using/assets/ec_cat_viewer_popup.png) umgestellt.
 
 Zum Erstellen eines E-Katalogs verwenden Sie in der Regel hochauflösende PDF-Dateien, die in Adobe Acrobat oder einem anderen Druckprogramm erstellt wurden. Sie können jedoch auch einen E-Katalog aus Bilddateien erstellen.
 

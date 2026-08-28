@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1049
 ht-degree: 0%
@@ -50,7 +50,7 @@ Das neue Desktop-Programm ist als `.dmg`-Installationsprogramm für macOS verfü
 Informationen zu den Systemanforderungen, zum Herunterladen und Installieren der neuen App und zum anschließenden Anmelden bei dieser finden Sie unter [Adobe Dynamic Media Classic Desktop App](/help/using/dynamic-media-classic-desktop-app.md).
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_Wie funktioniert das neue Desktop-Programm?_**
 Nach dem Herunterladen, Installieren und Starten des Desktop-Programms wird Ihnen eine aktualisierte Anmeldung angezeigt. Durch Eingabe Ihres bestehenden Benutzernamens und Kennworts und Auswahl des entsprechenden Servers basierend auf Ihrer Region können Sie sich bei Adobe Dynamic Media Classic anmelden. Das Gesamterlebnis entspricht der Version des Webbrowsers. Über das Desktop-Programm können Sie auf die Adobe Dynamic Media Classic-Produktions- und Staging-Umgebungen zugreifen. Sie können auch auf das Medienportal zugreifen, wenn Sie für diese Funktion angemeldet sind.

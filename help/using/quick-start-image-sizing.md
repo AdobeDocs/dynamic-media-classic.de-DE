@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 5%
@@ -33,7 +33,7 @@ Bildgröße bezieht sich auf die Fähigkeit von Adobe Dynamic Media Classic, meh
 * Sie können die Größe eines Bildes auf Ihrer Website oder in Ihrem Programm schnell ändern. Um beispielsweise alle Miniaturen zu ändern, können Sie die Bildvorgabe „Miniatur“ ändern. Eine Bildvorgabe ist eine Sammlung von Größenattributen und Formatierungsattributen. Um die Größe aller Miniaturbilder auf Ihrer Website oder in Ihrer Anwendung zu ändern, können Sie die Bildvorgabe „Miniaturansicht“ ändern.
 * Sie müssen die Primärdateien oder alle Ableitungen in keinem Ihrer Content- oder Asset-Management-Systeme verwalten.
 
-![Sie können mehrere abgeleitete Bilder mit unterschiedlicher Größe aus derselben primären Datei mit hoher Auflösung erstellen.](/help/using/assets/is_derivative_sizes_popup.png)
+![Sie können mehrere abgeleitete Bilder mit unterschiedlicher Größe aus derselben hochauflösenden Primärdatei erstellen](/help/using/assets/is_derivative_sizes_popup.png).
 
 Siehe [Bildgröße: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) Schulungsvideo.
 
