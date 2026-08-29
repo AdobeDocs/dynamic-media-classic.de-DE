@@ -12,18 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:59.510Z'
 TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 53f5fe67de6ca178464f91efbe1312e8571e6679
 workflow-type: tm+mt
-source-wordcount: 2266
-ht-degree: 36%
+source-wordcount: 2275
+ht-degree: 34%
 
 ---
 
@@ -33,9 +29,9 @@ Sie können spezifische Informationen zu den Dateien speichern, mit denen Sie in
 
 Metadaten werden in der Detailansicht angezeigt. Es wird zusammen mit von Adobe Dynamic Media Classic generierten Informationen angezeigt. Beispielsweise das Erstellungsdatum einer Datei, das Veröffentlichungsdatum und Schlüsselwörter. Um Metadaten anzuzeigen, öffnen Sie das Asset in der Detailansicht und wählen Sie dann das Metadaten-Bedienfeld aus. Sie können Metadaten in der Detailansicht eingeben und bearbeiten.
 
-Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Adobe Dynamic Media Classic sie automatisch mit der -Datei hoch. Sie können Metadaten in Quell-Assets in Adobe Photoshop, InDesign, Illustrator und andere Programme einbetten. Adobe Dynamic Media Classic erkennt diese Metadaten. Sie können auch im Bedienfeld „Metadaten“ in der Detailansicht Metadaten zu einzelnen Dateien hinzufügen. Damit die Einheitlichkeit Asset-übergreifend gewährleistet werden kann, können Unternehmensadministratoren Metadatenvorlagen mit den zu verwendenden Metadatenfeldern erstellen.
+Manche Metadaten sind direkt in eine Datei eingebettet. Wenn eine Datei diese Metadaten enthält, lädt Adobe Dynamic Media Classic sie automatisch mit der -Datei hoch. Sie können Metadaten in Quell-Assets in Adobe Photoshop, InDesign, Adobe Illustrator und andere Programme einbetten. Adobe Dynamic Media Classic erkennt diese Metadaten. Über das Bedienfeld „Metadaten“ in der Detailansicht können Sie auch einzelnen Dateien Metadaten hinzufügen. Um die Konsistenz über Assets hinweg sicherzustellen, erstellen Unternehmensadministratoren Metadatenvorlagen, die die Metadatenfelder bereitstellen, die ausgefüllt werden können.
 
-Weitere Informationen zu eingebetteten Metadaten finden Sie unter [Extensible Metadata Platform](https://www.adobe.com/de/products/xmp.html).
+Weitere Informationen zu eingebetteten Metadaten finden Sie unter [Extensible Metadata Platform](https://www.adobe.com/products/xmp.html).
 
 ## Anzeigen von Metadaten {#view-metadata}
 
@@ -45,11 +41,11 @@ Um die Metadaten eines Assets anzuzeigen, öffnen Sie das Asset in der Detailans
 
 * **IPTC**: Werte, wie sie vom International Press Telecommunications Council definiert wurden.
 
-* **XMP**: Werte, wie vom Extensible Metadata-Programm definiert.
+* **XMP**: Werte, wie von der Extensible Metadata Platform definiert.
 
 Administratoren können Metadaten-Ansichten erstellen. Diese Ansichten werden auch im Menü „Metadaten-Ansichten“ angezeigt.
 
-Informationen [&#x200B; Erstellen von Metadatenansichten finden &#x200B;](application-setup.md#metadata_views) unter „Metadatenansichten“.
+Informationen [ Erstellen von Metadatenansichten finden ](application-setup.md#metadata_views) unter „Metadatenansichten“.
 
 ## Manuelles Eingeben von Metadaten für ein Asset {#manually-enter-metadata-for-an-asset}
 
@@ -63,7 +59,7 @@ Informationen [&#x200B; Erstellen von Metadatenansichten finden &#x200B;](applic
 
 >[!NOTE]
 >
->Wenn Sie die Metadaten mehrerer Assets gleichzeitig bearbeiten möchten, wählen Sie die Assets aus und gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Info bearbeiten]**. Änderungen, die Sie im Fenster Info bearbeiten an Metadaten vorgenommen haben, werden auf alle ausgewählten Assets angewendet.
+>Wenn Sie die Metadaten mehrerer Assets gleichzeitig bearbeiten möchten, wählen Sie die Assets aus und gehen Sie zu **[!UICONTROL Datei]** > **[!UICONTROL Info bearbeiten]**. Bearbeitungen, die Sie im Fenster „Informationen bearbeiten“ an Metadaten vornehmen, werden auf alle ausgewählten Assets angewendet.
 
 ## Hinzufügen oder Bearbeiten von Schlüsselwörtern {#add-or-edit-keywords}
 
@@ -87,7 +83,7 @@ Wenn Sie während dieser Sitzung Keywords zu anderen Dateien hinzugefügt oder K
 
 ## Importieren von Metadaten {#import-metadata}
 
-Statt Metadaten für jedes Asset manuell einzugeben, können Sie Metadaten aus einer tabulatorgetrennten Datei oder XML-Datei für mehrere Assets gleichzeitig importieren. Die Metadaten in eine tabulatorgetrennte Datei oder XML-Datei einzugeben und diese Datei dann zu importieren, ist weniger zeitaufwendig, als die Metadaten für einzelne Assets manuell einzugeben. Geben Sie in der ersten Zeile der tabulatorgetrennten Datei die ID und die Namen der gewünschten Metadatenfelder ein. Geben Sie in die nächsten Zeilen jeweils einen Asset-ID-Namen gefolgt von den Metadaten-Werten ein. Felder, die nicht in der tabulatorgetrennten Datei oder in der XML-Datei enthalten sind, werden nicht geändert. Wenn Sie Metadaten aus einer XML-Datei importieren möchten, müssen Sie sicherstellen, dass diese DTD-konform ist.
+Anstatt Metadaten einzeln manuell einzugeben, können Sie Metadaten für verschiedene Assets aus einer tabulatorgetrennten oder XML-Datei importieren. Die Metadaten in eine tabulatorgetrennte Datei oder XML-Datei einzugeben und diese Datei dann zu importieren, ist weniger zeitaufwendig, als die Metadaten für einzelne Assets manuell einzugeben. Geben Sie in der ersten Zeile der tabulatorgetrennten Datei die ID und die Namen der gewünschten Metadatenfelder ein. Geben Sie in die nächsten Zeilen jeweils einen Asset-ID-Namen gefolgt von den Metadaten-Werten ein. Felder, die nicht in der tabulatorgetrennten Datei oder in der XML-Datei enthalten sind, werden nicht geändert. Wenn Sie Metadaten aus einer XML-Datei importieren möchten, müssen Sie sicherstellen, dass diese DTD-konform ist.
 
 >[!NOTE]
 >
@@ -108,8 +104,8 @@ Weitere Informationen über standardisierte Eigenschaften finden Sie im [Adobe X
 Beachten Sie Folgendes, wenn verschiedene Metadaten-Typen für den Import identifiziert werden:
 
 * Die Namen der benutzerdefinierten Felder werden wie unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinrichtung]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Benutzerdefinierte Felder]** erstellt. Mit der Funktion `Generate file` können Sie eine Liste aller definierten UDFs im richtigen Importformat abrufen.
-* Bei den XMP-Metadaten-Eigenschaften muss das entsprechende XMP-Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das XMP-Präfix finden Sie unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinrichtung]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Metadatenschema]** Editor. Die technischen Namen finden Sie in der Dokumentation zum jeweiligen XMP-Schema. XMP-Eigenschaftsnamen werden in der `Generate file`-Funktion nicht angezeigt.
-* Bei den Metadaten-Eigenschaften muss das entsprechende Präfix vor dem Namen (der Eigenschaft) stehen. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das Präfix und die Eigenschaftsnamen werden im Metadatenschema-Editor definiert. Namen von Metadatenschema-Eigenschaften werden in der `Generate file`-Funktion nicht angezeigt.
+* XMP-Metadateneigenschaften müssen das zugehörige XMP-Präfix vor dem (Eigenschafts-)Namen haben. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das XMP-Präfix finden Sie unter **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinrichtung]** > **[!UICONTROL Metadaten]** > **[!UICONTROL Metadatenschema]** Editor. Die technischen Namen finden Sie in der Dokumentation zum jeweiligen XMP-Schema. XMP-Eigenschaftsnamen werden in der `Generate file`-Funktion nicht angezeigt.
+* Eigenschaften des Metadatenschemas müssen das zugehörige Präfix vor dem Namen (der Eigenschaft) haben. Präfix und Name werden durch einen Doppelpunkt voneinander getrennt. Das Präfix und die Eigenschaftsnamen werden im Metadatenschema-Editor definiert. Eigenschaftsnamen von Metadatenschemata werden in der `Generate file`-Funktion nicht angezeigt.
 
 Beispiel: Die XMP-Eigenschaft für Schlüsselwörter ist das XMP-Schema „Dublin Core“ mit dem Präfix `dc` und `subject` der technische XMP-Name. Das Präfix und der technische XMP-Name werden zum `dc:subject` vollständigen Eigenschaftsnamen kombiniert. Im Importformat der XML-Metadaten muss `dc.subject` der Eigenschaftsname sein. Im tabulatorgetrennten Importformat muss es die Spaltenüberschrift sein.
 
@@ -191,9 +187,9 @@ Das System generiert automatisch ein benutzerdefiniertes Schema für benutzerdef
 
 >[!NOTE]
 >
->Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht für alle Adobe Dynamic Media Classic- und Metadaten-Server-Funktionen sichtbar und können nach einer Änderung nicht mehr aufgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, macht die Erstellung des entsprechenden Schemas die Metadaten in Adobe Dynamic Media Classic und auf dem Metadatenserver nutzbar.
+>Von Änderungen am Schema bleiben die Asset-Metadaten unberührt. Sie sind jedoch nicht in allen Adobe Dynamic Media Classic- und Metadatenserverfunktionen sichtbar und können nach der Änderung nicht abgerufen werden. Wenn Metadaten für ein Asset vorhanden sind, macht die Erstellung des entsprechenden Schemas die Metadaten in Adobe Dynamic Media Classic und auf dem Metadatenserver nutzbar.
 
-Der Metadatenschema-Editor bietet eine grafische Möglichkeit, ein benutzerdefiniertes Unternehmensschema in Adobe Dynamic Media Classic hinzuzufügen oder zu bearbeiten. Ein Schema wird durch ein Präfix, einen Namespace und eine Liste von Eigenschaften definiert.
+Der Metadatenschema-Editor bietet eine visuelle Schnittstelle zum Hinzufügen oder Bearbeiten eines benutzerdefinierten Unternehmensschemas in Adobe Dynamic Media Classic. Ein Präfix, ein Namespace und eine Liste von Eigenschaften definieren ein Schema.
 
 * **[!UICONTROL Name]**: UI-Name für das Schema. Wird verwendet, um die Eigenschaften in den Metadaten-Ansichten und bei der erweiterten Suche zu identifizieren. Vergleichbar mit XMP-Abschnitten wie Basic, IPTC, PDF.
 
