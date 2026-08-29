@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:18:23.477Z'
 TQID: 'https://experienceleague.adobe.com/l-cl9I9W-otYvwidmsnmq5dLwoUDNIgBcntyoIVNuVI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 1d00f05c8705cdb241dffe9639afab653e566dc9
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 19%
+source-wordcount: 496
+ht-degree: 17%
 
 ---
 
@@ -33,7 +30,7 @@ Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben. Adm
 
 ## Einrichten von Zoom-Viewer-Vorgaben für Bildsätze {#setting-up-zoom-viewer-presets-for-image-sets}
 
-Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
+Sie können Viewer-Vorgaben erstellen und anpassen.
 
 1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Erstellen oder bearbeiten Sie eine Viewer-Vorgabe auf der Seite „Viewer-Vorgaben“, indem Sie einen der folgenden Schritte ausführen:
