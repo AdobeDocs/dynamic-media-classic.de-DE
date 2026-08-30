@@ -18,20 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 150b1171b439f7e05ffd3af4450dcc30cf89536a
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 1%
+source-wordcount: 145
+ht-degree: 6%
 
 ---
 
 # Arbeiten mit Vignette, Fensterabdeckung und Schrankdateien{#working-with-vignette-window-covering-and-cabinet-files}
 
-Benutzende des Adobe Dynamic Media Classic-Tools zur Bildbearbeitung können *verwenden)* (VNT-Dateien), Fensterabdeckungen (VNW-Dateien) und Schränke (VNC-Dateien). Diese Dateien können in Adobe Dynamic Media Classic nicht erstellt oder bearbeitet werden.
+Benutzende des Adobe Dynamic Media Classic-Tools zur Bildbearbeitung können auf Vignetten (VNT-Dateien), Fensterabdeckungen (VNW-Dateien) und Schränke (VNC-Dateien) zugreifen. Diese Dateien können in Adobe Dynamic Media Classic nicht erstellt oder bearbeitet werden.
 
-Vignetten, Fensterabdeckungen und Schränke sind Bilder, die erstellt werden. Mit einem anderen Adobe Dynamic Media Classic-Programm namens „Bildbearbeitung“ können Sie Objekte in einem Bild maskieren, damit Benutzende dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Die Benutzer sehen beispielsweise eine Couch, die mit verschiedenen Stoffen gepolstert ist, ein Fenster, das mit verschiedenen Fensterbehandlungen verziert ist, oder einen Schrank, der mit verschiedenen Holzarten ausgestattet ist.
+Bei Vignetten-, Fensterbehang- und Möbeldateien handelt es sich um durch Authoring erstellte Bilder. Mit einem anderen Adobe Dynamic Media Classic-Programm namens „Bildbearbeitung“ können Sie Objekte in einem Bild maskieren, damit Benutzende dasselbe Bild in verschiedenen Texturen oder Farben sehen können. Die Benutzer sehen beispielsweise eine Couch, die mit verschiedenen Stoffen gepolstert ist, ein Fenster, das mit verschiedenen Fensterbehandlungen verziert ist, oder einen Schrank, der mit verschiedenen Holzarten ausgestattet ist.
 
-Laden Sie Vignetten, Fensterabdeckungen und Schränke wie jede andere Datei hoch.
+Laden Sie Vignetten, Fensterabdeckungen und Schränke auf die gleiche Weise wie andere Dateien hoch.
 
 >[!MORELIKETHIS]
 >

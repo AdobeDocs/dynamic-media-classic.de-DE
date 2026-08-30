@@ -18,22 +18,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 94d13170028e09a5ed61cb236e17c379f234f4c3
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 15%
+source-wordcount: 462
+ht-degree: 7%
 
 ---
 
 # Anzeigen von Mustersets{#viewing-swatch-sets}
 
-Sie können Ihre Mustersets unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Sie können einen Zoom-Viewer verwenden: Benutzerdefinierte Viewer-Vorgabe für Mustersets.
+Sie können Ihre Mustersets unter Verwendung der verfügbaren Vorgaben im Vorschaufenster anzeigen. Sie können eine benutzerdefinierte Viewer-Vorgabe „Zoom-Viewer“ für Mustersets verwenden.
 
 Adobe Dynamic Media Classic verfügt über standardmäßige Viewer-Vorgaben. Administratoren können die Viewer-Vorgaben erstellen oder ändern.
 
 ## Einrichten von Zoom-Viewer-Vorgaben für Mustersets {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
+Sie können Viewer-Vorgaben erstellen und anpassen.
 
 1. Wechseln Sie in der globalen Navigationsleiste zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Viewer-Vorgaben]**.
 1. Führen Sie einen der folgenden Schritte aus:
@@ -55,7 +55,7 @@ Sie können Viewer-Vorgaben für jeden Bedarf erstellen und anpassen.
 Sie können die Vorschau verwenden, um zu sehen, wie ein Asset in einem bestimmten Viewer-Typ wie HTML5 angezeigt wird. Je nach Asset-Typ und zugehörigem Viewer, den Sie für die Vorschau ausgewählt haben, sind in der Vorschau nicht alle Viewer-Plattformen verfügbar.
 
 1. Wählen Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite in der Dropdown-Liste **[!UICONTROL Anzeigen]** einen Asset-Typ aus, der auf einem Musterset basiert, z. B **[!UICONTROL „Musterset]**.
-1. Navigieren Sie auf der linken Seite der Asset-Bibliothek zu dem Asset-Ordner, der das Musterset enthält, das Sie mit einem Viewer in der Vorschau anzeigen möchten.
+1. Navigieren Sie im Bedienfeld „Asset-Bibliothek“ auf der linken Seite zu den Asset-Ordnern, die Mustersätze enthalten, deren Vorschau Sie mit einem Viewer anzeigen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie oben rechts im Adobe Dynamic Media Classic-Fenster auf das Symbol **[!UICONTROL Listenansicht]**. Bewegen Sie im Fenster „Asset“ den Mauszeiger über ein Asset und wählen Sie **[!UICONTROL Vorschau]** (nicht in der Dropdown-Liste „Vorschau„) aus.
@@ -67,7 +67,7 @@ Sie können die Vorschau verwenden, um zu sehen, wie ein Asset in einem bestimmt
 
    Wenn Sie einen bestimmten Viewer-Link auswählen, wird die zugehörige URL automatisch in die Zwischenablage kopiert.
 
-1. Um zum Vorschau-Pager zurückzukehren, schließen Sie den angezeigten Viewer.
+1. Um zum Vorschaufenster zurückzukehren, schließen Sie den angezeigten Viewer.
 1. Wählen Sie **[!UICONTROL Schließen]** aus, um zur Assets-Seite zurückzukehren.
 
 >[!MORELIKETHIS]

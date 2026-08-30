@@ -1,5 +1,5 @@
 ---
-title: Neue Funktionen
+title: Neuigkeiten
 description: Erfahren Sie in den aktuellen Versionshinweisen mehr über die neuen Funktionen von Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,13 +22,13 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: f946a6e26bd1ee869292e808c9cca72b884a0e20
 workflow-type: tm+mt
-source-wordcount: 55
-ht-degree: 0%
+source-wordcount: 49
+ht-degree: 4%
 
 ---
 
 # Neue Funktionen {#what-s-new}
 
-Die neuesten Versionsinformationen zu Adobe Dynamic Media Classic, einschließlich neuer Funktionen, Verbesserungen und Fehlerbehebungen, finden Sie in den [Versionshinweisen zu Adobe Dynamic Media Classic](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
+Die neuesten Versionsinformationen zu Adobe Dynamic Media Classic finden Sie in den [Versionshinweisen zu Adobe Dynamic Media Classic](https://experienceleague.adobe.com/de/docs/dynamic-media-developer-resources/release-notes/s7rn2017).

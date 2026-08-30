@@ -22,20 +22,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 66b6e10c324d5b154cd39146b5a129f36aa55622
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 28%
+source-wordcount: 1042
+ht-degree: 22%
 
 ---
 
 # Video SEO{#video-seo-search-engine-optimization}
 
-Die Suchmaschinenoptimierung (SEO) ist ein Vorgang, der die Erhöhung der Zugriffe auf eine Website über Suchmaschinen zum Ziel hat. Suchmaschinen sind zwar hervorragend darin, Informationen über textbasierte Inhalte zu sammeln, sie können jedoch keine Informationen über Videos auf angemessene Weise erfassen. Diese Informationen müssen ihnen zur Verfügung gestellt werden.
+SEO ist der Prozess der Verbesserung des Volumens des Traffics auf einer Website von Suchmaschinen. Suchmaschinen sind zwar effektiv bei der Erfassung von Informationen über textbasierte Inhalte, sie können jedoch Informationen über Videos nicht angemessen verarbeiten. Diese Informationen müssen ihnen zur Verfügung gestellt werden.
 
-Mit Adobe Dynamic Media Classic Video SEO können Sie Videometadaten anwenden, um Suchmaschinen Beschreibungen Ihrer Videos bereitzustellen. Mit Adobe Dynamic Media Classic können Sie Video-Sitemaps und RSS-Feeds erstellen. Diese Standard-XML-Dateien werden zum Senden von Videoinformationen an Suchmaschinen verwendet:
+Um Suchmaschinen Beschreibungen Ihrer Videos bereitzustellen, verwenden Sie Adobe Dynamic Media Classic Video SEO, um Videometadaten anzuwenden. Mit Adobe Dynamic Media Classic können Sie Video-Sitemaps und RSS-Feeds erstellen. Diese Standard-XML-Dateien werden zum Senden von Videoinformationen an Suchmaschinen verwendet:
 
-* **Video-Sitemap**: Informiert Google genau darüber, wo und was der Videoinhalt auf einer Site ist. Videos können also in Google vollständig durchsucht werden. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Informationen zu Video-Sitemaps finden Sie unter [Video-Sitemaps und Video-Sitemap-Alternativen](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
+* **Video-Sitemap**: Informiert Google genau darüber, wo und was der Videoinhalt auf einer Site ist. Videos können in Google vollständig durchsucht werden. Eine Video-Sitemap kann beispielsweise die Laufzeit und Kategorien von Videos angeben. Informationen zu Video-Sitemaps finden Sie unter [Video-Sitemaps und Video-Sitemap-Alternativen](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
 * **mRSS (Media Really Simple Syndication)-Feed**: Wird von Content-Herausgebern verwendet, um Mediendateien in Yahoo einzuspeisen! Videosuche einzuspeisen. Informationen zu mRSS-Feeds finden Sie unter [Video-Sitemaps und Video-Sitemap-Alternativen](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
@@ -43,11 +43,11 @@ Mit Adobe Dynamic Media Classic Video SEO können Sie Videometadaten anwenden, u
 >
 >Google unterstützt sowohl das Video-Sitemap- als auch das mRSS-Feed-Protokoll für die Übermittlung von Informationen an Suchmaschinen.
 
-Adobe Dynamic Media Classic kann Video-Sitemaps und mRSS-Feeds aus Metadaten generieren, die mit jedem Video gespeichert werden. Beim Erstellen von Video-Sitemaps und mRSS-Feeds können Sie wählen, welche Metadatenfelder der Videos eingeschlossen werden sollen. Auf diese Weise beschreiben Sie Ihre Videos Suchmaschinen, damit Suchmaschinen den Traffic genauer zu Videos auf Ihrer Website leiten können.
+Adobe Dynamic Media Classic kann Video-Sitemaps und mRSS-Feeds aus Metadaten generieren, die mit jedem Video gespeichert werden. Beim Erstellen von Video-Sitemaps und mRSS-Feeds können Sie wählen, welche Metadatenfelder der Videos eingeschlossen werden sollen. Sie beschreiben Ihre Videos für Suchmaschinen, damit Suchmaschinen den Traffic genauer zu den Videos auf Ihrer Website leiten können.
 
 >[!NOTE]
 >
->Ermitteln Sie vor der Erstellung einer Video-Sitemap oder eines mRSS-Feeds, welche Felder die XML-Datei für die Suchmaschine enthalten muss und wie diese Felder strukturiert sein müssen. Gute Video-Sitemaps oder mRSS-Feeds müssen die Anforderungen der Suchmaschine erfüllen.
+>Bevor Sie eine Video-Sitemap oder einen RSS-Feed erstellen, bestimmen Sie, welche Felder die Suchmaschine in der XML-Datei benötigt und wie Sie diese Felder strukturieren. Gute Video-Sitemaps oder mRSS-Feeds müssen die Anforderungen der Suchmaschine erfüllen.
 
 Adobe Dynamic Media Classic erstellt Berichte zu Video-Sitemaps und mRSS-Feeds, nachdem Sie sie generiert haben. Diese Berichte sind auf der Seite Video SEO-Bericht verfügbar.
 
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic erstellt Berichte zu Video-Sitemaps und mRSS-Feeds, 
 
 Wählen Sie Video-SEO-Einstellungen für Video-Sitemaps und mRSS-Feeds auf der Seite **[!UICONTROL Einstellungen für die Suchmaschinenoptimierung]**. Um diese Seite zu öffnen, gehen Sie in der globalen Navigationsleiste zu **[!UICONTROL Setup]** > **[!UICONTROL Anwendungseinstellungen]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Einstellungen]**.
 
-Im Bereich **[!UICONTROL Allgemeine Einstellungen]** können Sie auswählen, ob Sie Video-Sitemaps, mRSS-Feeds oder beides generieren möchten. Ordnen Sie **[!UICONTROL Bereich &quot;]**&quot; Metadatenfelder Eingabefeldern zu.
+Im Bereich **[!UICONTROL Allgemeine Einstellungen]** können Sie auswählen, ob Sie Video-Sitemaps, mRSS-Feeds oder beides generieren möchten. Um Metadatenfelder Eingabefeldern zuzuordnen, verwenden Sie den Bereich **[!UICONTROL Erzeugungseinstellungen]**.
 
 Nachdem Sie die Einstellungen ausgewählt haben **[!UICONTROL wählen Sie &quot;]**&quot; (oder **[!UICONTROL Speichern und generieren]** aus, um die Video-Sitemap, mRSS-Feeds oder beides zu erstellen.
 
@@ -77,21 +77,21 @@ Wählen Sie in **[!UICONTROL Dropdown]** Liste „Erzeugungsmodus“ einen Beric
 
 Wählen Sie in **[!UICONTROL Dropdown-Liste]** Automatischer/Manueller Modus“ aus, ob automatisch oder manuell generiert werden soll:
 
-* **Automatikmodus**: Adobe Dynamic Media Classic generiert jeden Tag automatisch eine Video-Sitemap, einen Medien-RSS-Feed oder beides. Wählen Sie die Option **[!UICONTROL Zur Veröffentlichung markieren]** aus, damit Sie die von Adobe Dynamic Media Classic generierte XML-Datei automatisch zur Veröffentlichung markieren können.
+* **Automatikmodus**: Adobe Dynamic Media Classic generiert jeden Tag automatisch eine Video-Sitemap, einen Medien-RSS-Feed oder beides. Wählen Sie die Option **[!UICONTROL Zur Veröffentlichung markieren]** aus, um die XML-Dateien zu markieren, die Adobe Dynamic Media Classic für die Veröffentlichung generiert.
 
-   * **Zur Veröffentlichung markieren** Markiert die generierte XML-Datei zur Veröffentlichung.
+  * **Zur Veröffentlichung markieren** Markiert die generierte XML-Datei zur Veröffentlichung.
 
-* **Manueller Modus**: Adobe Dynamic Media Classic generiert die Video-Sitemap, den Medien-RSS-Feed (mRSS) oder beides, wenn Sie **[!UICONTROL Generieren]** oder **[!UICONTROL Speichern und]**) im Bildschirm „Einstellungen für die Suchoptimierung“ auswählen. Wählen Sie außerdem aus den folgenden Optionen:
+* **Manueller Modus**: Adobe Dynamic Media Classic generiert die Video-Sitemap, den Medien-RSS-Feed (mRSS) oder beides, wenn Sie **[!UICONTROL Generieren]** oder **[!UICONTROL Speichern und]**) im Bildschirm „Einstellungen für die Suchmaschinenoptimierung“ auswählen. Konfigurieren Sie auch diese Optionen:
 
-   * **Keine weiteren Einstellungen**: Markiert die generierte XML-Datei nicht zur Veröffentlichung.
+  * **Keine weiteren Einstellungen**: Markiert die generierte XML-Datei nicht zur Veröffentlichung.
 
-   * **Zur Veröffentlichung markieren**: Markiert die generierte XML-Datei zur Veröffentlichung.
+  * **Zur Veröffentlichung markieren**: Markiert die generierte XML-Datei zur Veröffentlichung.
 
-   * **Teilweise Generierung zulassen**: Suchmaschinen können eine XML-Datei ablehnen, wenn sie nicht vollständige Metadateninformationen für alle Videos enthält. Diese Option generiert die XML-Datei auch dann, wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
+  * **Teilweise Generierung zulassen**: Suchmaschinen können eine XML-Datei ablehnen, wenn sie nicht vollständige Metadateninformationen für alle Videos enthält. Diese Option generiert die XML-Datei auch dann, wenn für einige Videos keine Metadaten verfügbar sind. Im Anzeigebereich „Bericht“ wird eine Warnung registriert. Wählen Sie diese Option, wenn Sie die XML-Datei exportieren und die fehlenden Informationen manuell bearbeiten möchten.
 
 ### Auswählen von Erstellungseinstellungen {#choosing-generation-settings}
 
-Im Bereich Erzeugungseinstellungen werden Eingabefelder für die Video-Sitemap, den RSS-Feed oder beides aufgelistet. Im Bedienfeld Metadaten werden die Namen der Metadatenfelder aufgelistet. Verwenden Sie den Bereich „Allgemeine Einstellungen“, um Eingabefelder und Metadatenfelder zu verknüpfen. Auf diese Weise teilen Sie Adobe Dynamic Media Classic mit, wo Metadaten für die Video-Sitemap und/oder den mRSS-Feed abgerufen werden sollen.
+Im Bereich Erzeugungseinstellungen werden Eingabefelder für die Video-Sitemap, den mRSS-Feed oder beides aufgelistet. Im Bedienfeld Metadaten werden die Namen der Metadatenfelder aufgelistet. Verwenden Sie den Bereich „Allgemeine Einstellungen“, um Eingabefelder und Metadatenfelder zu verknüpfen. Sie konfigurieren Adobe Dynamic Media Classic, um Metadaten für die Video-Sitemap und/oder den mRSS-Feed abzurufen.
 
 1. Wählen Sie im Menü „Metadaten-Ansichten“ eine Metadaten-Ansicht. Wenn Sie eine Ansicht ausgewählt haben, werden die Namen der Metadatenfelder im Metadatenbedienfeld angezeigt.
 Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
@@ -106,11 +106,11 @@ Siehe [Metadaten-Ansichten](application-setup.md#metadata_views).
    * Um Ihre Einstellungen zu speichern, ohne die XML-Datei zu generieren, wählen Sie **[!UICONTROL Speichern]** aus.
    * Um die Datei zu speichern und zu generieren, wählen Sie **[!UICONTROL Speichern und generieren]**.
 
-     Die XML-Datei wird erstellt und in das Auftragsprotokoll eingetragen. Video-Sitemap-Dateien (video-sitemap) und Media RSS (mRSS)-Feed-Dateien (mrss-feed) werden im Stammordner Ihres Unternehmens gespeichert.
+     Die XML-Datei wird erstellt und in das Auftragsprotokoll eingetragen. Video-Sitemap (Video-Sitemap) und ein Medien-RSS-Feed (mrss-feed) werden im Stammordner Ihres Unternehmens gespeichert.
 
 >[!NOTE]
 >
->Veröffentlichen Sie die Video-Sitemap oder den RSS-Feed, bevor Sie sie an Suchmaschinen senden können. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien bei Bedarf zur Veröffentlichung und wählen Sie **[!UICONTROL Veröffentlichen]** aus.
+>Veröffentlichen Sie die Video-Sitemap oder den RSS-Feed, bevor Sie sie an Suchmaschinen senden. Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unternehmens gespeichert. Markieren Sie diese XML-Dateien ggf. zur Veröffentlichung und wählen Sie **[!UICONTROL Veröffentlichen]** aus.
 
 ## Video-Sitemap und RSS-Feed-Dateien an eine Suchmaschine senden {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
@@ -119,7 +119,7 @@ Video-Sitemap- und Media RSS (mRSS)-Feed-Dateien werden im Stammordner des Unter
 * `https://{publish-server}/is/content/{companyname}/mrss-feed.xml`
 * `https://{publish-server}/is/content/{companyname}/video-sitemap.xml`
 
-Kopieren Sie eine dieser URLs in die Webmaster-Tools der Suchmaschine, um Ihre Video-Sitemap oder Ihre Medien-RSS-Feed-Datei (mRSS) an Suchmaschinen zu senden.
+Um Ihre Video-Sitemap oder Ihre Medien-RSS-Feed-Datei (mRSS) an Suchmaschinen zu senden, kopieren Sie eine dieser URLs in die Webmaster-Tools der Suchmaschine.
 
 ## Video-SEO-Berichte anzeigen {#viewing-video-seo-reports}
 

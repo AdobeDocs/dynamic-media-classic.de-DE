@@ -17,13 +17,13 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 453878a1aec55346e04b0b96a4c9ca230c4a155c
 workflow-type: tm+mt
-source-wordcount: 122
+source-wordcount: 121
 ht-degree: 17%
 
 ---
 
 # XML-Dateien {#xml-files}
 
-Websites, die ein XML-basiertes System zur Verwaltung von Bildern und Bildinformationen verwenden, können XML-Dateien in Adobe Dynamic Media Classic hochladen. Sie können eine dieser Dateien als Regelsatzdatei zur Vorverarbeitung für die Bildbereitstellung festlegen. Diese Datei strukturiert das standardmäßige Image-Serving-Protokollformat entsprechend der Arbeitslogik Ihres Servers um. Im Bildschirm Setup können Sie eine XML-Datei angeben, die als Dateipfad für die Regelsatzdefinitionen dienen soll. Die Pfadeinstellung befindet sich im Anzeigebereich „Veröffentlichung zum Image-Server“ unter „Katalogverwaltung“. Siehe [Image-Server](publish-setup.md#image_server).
+Websites, die ein XML-basiertes System zur Verwaltung von Bildern und Bildinformationen verwenden, können XML-Dateien in Adobe Dynamic Media Classic hochladen. Sie können eine dieser Dateien als Regelsatzdatei zur Vorverarbeitung für die Bildbereitstellung festlegen. Diese Datei strukturiert das standardmäßige Image-Serving-Protokollformat neu, um die Anforderungen Ihres Servers zu erfüllen. Um als Dateipfad für Regelsatzdefinitionen zu dienen, können Sie eine XML-Datei auf dem Bildschirm „Setup“ angeben. Die Pfadeinstellung befindet sich im Anzeigebereich „Veröffentlichung zum Image-Server“ unter „Katalogverwaltung“. Siehe [Image-Server](publish-setup.md#image_server).
