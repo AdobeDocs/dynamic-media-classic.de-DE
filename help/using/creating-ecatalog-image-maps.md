@@ -14,19 +14,23 @@ autotag-review: '2026-05-13T17:43:26.837Z'
 TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 23257d3c04ec0d662f382ffb55fd6c26454d39a2
+    internal-label: Metadata
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: '1496'
 ht-degree: 18%
-
 ---
-
 # Erstellen von E-Katalog-Imagemaps{#creating-ecatalog-image-maps}
 
 Eine Imagemap ist ein Bereich auf einer E-Katalog-Seite, über den Sie mit der Maus bzw. mit der Maus einen Trigger erstellen können. Wenn Sie den Mauszeiger über eine Imagemap bewegen, wird beispielsweise eine Rollover-Textbeschreibung eines Elements angezeigt. Wenn Sie eine Imagemap auswählen, wird eine andere Aktion initiiert. Sie können beispielsweise eine Web-Seite öffnen, damit Betrachterinnen und Betrachter mehr über ein Element erfahren oder es kaufen können, oder Sie können ein Video starten, um ein in Gebrauch befindliches Element anzuzeigen.
@@ -46,7 +50,7 @@ Imagemaps für E-Kataloge werden auf der Registerkarte „Imagemap-Seiten“ des
 
      Nachdem Sie eine Imagemap gezeichnet haben, weist Adobe Dynamic Media Classic ihr einen Namen in der Liste „Imagemap“ zu. Um den Namen zu bilden, hängt Adobe Dynamic Media Classic eine sequenzielle Nummer an den Namen der E-Katalog-Seite an, auf der Sie arbeiten.
 
-1. (Optional) In der Liste „Imagemap“ können [!UICONTROL &#x200B; in der Spalte &#x200B;] einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
+1. (Optional) In der Liste „Imagemap“ können [!UICONTROL  in der Spalte ] einen neuen Namen für die Imagemap eingeben. Der von Ihnen eingegebene Name darf keine Leerzeichen enthalten.
 1. Viewer können eine neue Web-Seite öffnen, wenn sie auf die Imagemap klicken. Geben Sie im Listenfeld „Imagemap“ die URL der Web-Seite in die Spalte URL ein.
 
    Um die Eingabe von URLs (HREF-Vorlagen) zu vereinfachen, wählen Sie **[!UICONTROL Bearbeiten]** und geben Sie eine Vorlage ein.
@@ -99,11 +103,11 @@ Führen Sie auf der Registerkarte „Imagemap-Seiten“ des Anzeigebereichs „E
 
 * **Überlappende Imagemaps handhaben**: Ziehen Sie, um die Reihenfolge der Imagemaps in der Imagemap-Liste zu ändern.
 
-  Siehe [Überlappende Imagemaps &#x200B;](creating-image-maps.md#handling_overlapping_image_maps).
+  Siehe [Überlappende Imagemaps ](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Kopieren von Imagemaps auf andere Seiten**: Wählen Sie **[!UICONTROL Karten kopieren nach]** (stellen Sie sicher, dass Sie sich auf der Registerkarte Seiten zuordnen befinden). Wählen Sie auf dem Bildschirm „Bilder auswählen“ die Seite(n) aus, auf die Sie die Imagemaps kopieren möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-  Siehe [Kopieren von Imagemaps in andere &#x200B;](creating-image-maps.md#copying_image_maps).
+  Siehe [Kopieren von Imagemaps in andere ](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
